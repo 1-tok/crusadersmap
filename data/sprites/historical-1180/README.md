@@ -1,6 +1,6 @@
-# Period-informed batch 01: Jerusalem and Belvoir, circa 1180
+# Period-informed batch 01: Jerusalem, Belvoir and Acre, circa 1180
 
-Two new, non-destructive alternatives to the original artistic sprites. Generated with built-in `image_gen` from the saved `prompts.json`, then packaged with the existing library's low-alpha noise cleanup. Original generations remain in `sources/`.
+Three new, non-destructive alternatives to the original artistic sprites. Generated with built-in `image_gen` from the saved `prompts.json`, then packaged with the existing library's low-alpha noise cleanup. Original generations remain in `sources/`.
 
 - Jerusalem: 2048 px wide; recommended display width 1024 map units, **twice** the standard 512-unit width. This is twice the linear size, approximately four times the footprint, not twice the area.
 - Belvoir: 1024 px wide; recommended display width 512 map units.
@@ -22,3 +22,7 @@ Run `python3 build_historical_sprites.py` with Pillow, NumPy and SciPy installed
 The build and validation check RGBA mode, transparent padding, stable hashes and 2:1 display-width ratio. They do not establish historical accuracy. No existing atlas rendering is changed. Consumers should read this batch manifest explicitly; the legacy manifest and generated original-library sprites remain preserved for comparison.
 
 Next research candidates: Acre, Antioch, Tripoli and Krak des Chevaliers, each with an explicitly selected date and architectural phase. Do not generate one generic castle shape for all of them.
+
+## Acre addition
+
+Acre is a standard 1024-pixel-wide port sprite. Its brief excludes the later walled Montmusard suburb and Ottoman skyline. The Israel Antiquities Authority dates the suburb to the late twelfth century and its enclosure to the thirteenth century: https://hadashot.iaa.org.il/report_detail_eng.aspx?id=1561 . Precise streets, church facades, tower counts and harbor works remain interpretive. `acre-prompt.txt` records the brief and transparency edit using built-in image_gen. The source and final PNG are retained. Light/dark visual review passed after packaging; historical certification remains pending.
