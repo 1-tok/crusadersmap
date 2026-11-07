@@ -10,7 +10,7 @@ ROOT=Path(__file__).resolve().parent
 BASE=ROOT/'data/sprites/historical-1180'
 def build():
  m=json.loads((BASE/'manifest.json').read_text())
- preview=Image.new('RGB',(1600,1100),'#eee9dc');d=ImageDraw.Draw(preview)
+ preview=Image.new('RGB',(1600,550*len(m['assets'])),'#eee9dc');d=ImageDraw.Draw(preview)
  for i,e in enumerate(m['assets']):
   src=BASE/e['source'];im=Image.open(src).convert('RGBA');a=np.array(im)
   before=int(np.count_nonzero(a[:,:,3]));a[a[:,:,3]<16]=0
@@ -27,5 +27,5 @@ def build():
    x=col*800;y=i*550;d.rectangle((x,y,x+799,y+549),fill=color)
    thumb=out.copy();thumb.thumbnail((760,490));preview.paste(thumb,(x+20,y+45),thumb);d.text((x+20,y+15),e['id']+' / '+str(width)+' px',fill='black' if col==0 else 'white')
  (BASE/'manifest.json').write_text(json.dumps(m,indent=2,ensure_ascii=False)+'\n');preview.save(ROOT/'previews/historical-batch-01.jpg',quality=94)
- print('Packaged',len(m['assets']),'sprites; Jerusalem width is 2x Belvoir')
+ print('Packaged',len(m['assets']),'sprites; Jerusalem width is 2x standard')
 if __name__=='__main__':build()

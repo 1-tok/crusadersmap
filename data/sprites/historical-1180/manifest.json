@@ -124,6 +124,62 @@
         "minimum_component_pixels": 20,
         "native_detail_increased_by_resizing": false
       }
+    },
+    {
+      "id": "acre-1180-v2",
+      "file": "acre-1180-v2.png",
+      "source": "sources/acre.png",
+      "location_manifest_id": "place-main-akko",
+      "legacy_sprite_id": "CITY-002",
+      "repo_place_id": "P:acre",
+      "coordinates": [
+        35.07,
+        32.92
+      ],
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "relative_display_scale": 1,
+      "review": {
+        "status": "internal-visual-review-complete-specialist-review-pending",
+        "supported_features": [
+          "Walled peninsula port and sheltered harbor context",
+          "Exclude later walled Montmusard expansion",
+          "Exclude Ottoman citadel and mosque skyline"
+        ],
+        "uncertainties": [
+          "Exact 1180 street plan, towers, churches and harbor structures are schematic",
+          "Building facades and ship details are interpretive",
+          "No archaeological plan overlay or specialist sign-off"
+        ]
+      },
+      "references": [
+        "https://whc.unesco.org/en/list/1042/",
+        "https://hadashot.iaa.org.il/report_detail_eng.aspx?id=1561",
+        "https://www.akko.org.il/en/attraction/the-knights-halls/"
+      ],
+      "dimensions_px": [
+        1024,
+        606
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "3f5c2785775dd1e8c6fb1a971105c7424eeb2e52494b1331c0b0820b18a850ff",
+      "sha256": "7430a7f22a79f4b405aa1c68918970e4b3cd1717f0dcb2fb9327fba4f4182d3b",
+      "anchor_normalized": [
+        0.5,
+        0.9570957095709571
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 896036,
+        "cleaned_source_nonzero_alpha": 877636,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      }
     }
   ]
 }
