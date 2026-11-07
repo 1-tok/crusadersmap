@@ -24,3 +24,7 @@ Repeat with `parchment` for the second edition. Intermediate files (print/*.npy,
 ## Sprite library
 
 See [data/sprites](data/sprites/README.md) for nine transparent city/castle assets, source paintings, placement metadata and historical review flags. Rebuild with `python3 build_sprites.py` (Pillow, NumPy, SciPy). A light/dark comparison is in [previews/sprite-library.jpg](previews/sprite-library.jpg).
+
+## Period-informed sprite candidates
+
+[Batch 01](data/sprites/historical-1180/README.md) contains new Jerusalem and Belvoir interpretations for circa 1180, with evidence notes and remaining uncertainties. Jerusalem uses twice the standard display width. Rebuild packaging with `python3 build_historical_sprites.py`; see [light/dark preview](previews/historical-batch-01.jpg).
