@@ -1,0 +1,194 @@
+id,name,category,region,status,recommendation,priority,longitude,latitude,dates,notes
+island-kefalonia,Kefalonia,island_label,aegean,existing_source_definition,retain_with_review,,20.6,38.24,,
+island-andros,Andros,island_label,aegean,existing_source_definition,retain_with_review,,24.75,37.82,,
+island-paros,Paros,island_label,aegean,existing_source_definition,retain_with_review,,25.18,37.05,,
+island-milos,Milos,island_label,aegean,existing_source_definition,retain_with_review,,24.42,36.72,,
+island-skyros,Skyros,island_label,aegean,existing_source_definition,retain_with_review,,24.55,38.9,,
+island-thasos,Thasos,island_label,aegean,existing_source_definition,retain_with_review,,24.7,40.68,,
+island-samos,Samos,island_label,aegean,existing_source_definition,retain_with_review,,26.85,37.75,,
+island-ikaria,Ikaria,island_label,aegean,existing_source_definition,retain_with_review,,26.15,37.6,,
+island-imbros,Imbros,island_label,aegean,existing_source_definition,retain_with_review,,25.85,40.17,,
+island-tenedos,Tenedos,island_label,aegean,existing_source_definition,retain_with_review,,26.03,39.83,,
+island-skopelos,Skopelos,island_label,aegean,existing_source_definition,retain_with_review,,23.65,39.15,,
+island-syros,Syros,island_label,aegean,existing_source_definition,retain_with_review,,24.45,37.45,,
+road-existing-01,Levant coastal corridor: Antioch–Ascalon,road,main,existing_source_definition,retain_with_review,,,,,Descriptive name inferred from control points; source paths have no names. Renderer smooths control points.
+road-existing-02,Acre–Tiberias–Damascus corridor,road,main,existing_source_definition,retain_with_review,,,,,Descriptive name inferred from control points; source paths have no names. Renderer smooths control points.
+road-existing-03,Jaffa–Jerusalem corridor,road,main,existing_source_definition,retain_with_review,,,,,Descriptive name inferred from control points; source paths have no names. Renderer smooths control points.
+road-existing-04,Jerusalem–Hebron corridor,road,main,existing_source_definition,retain_with_review,,,,,Descriptive name inferred from control points; source paths have no names. Renderer smooths control points.
+road-existing-05,Antioch–Aleppo corridor,road,main,existing_source_definition,retain_with_review,,,,,Descriptive name inferred from control points; source paths have no names. Renderer smooths control points.
+road-existing-06,Aleppo–Hama–Homs–Damascus corridor,road,main,existing_source_definition,retain_with_review,,,,,Descriptive name inferred from control points; source paths have no names. Renderer smooths control points.
+road-existing-07,Tripoli–Homs corridor,road,main,existing_source_definition,retain_with_review,,,,,Descriptive name inferred from control points; source paths have no names. Renderer smooths control points.
+road-existing-08,Kyrenia–Nicosia–Famagusta corridor,road,main,existing_source_definition,retain_with_review,,,,,Descriptive name inferred from control points; source paths have no names. Renderer smooths control points.
+road-existing-09,Nicosia–Limassol corridor,road,main,existing_source_definition,retain_with_review,,,,,Descriptive name inferred from control points; source paths have no names. Renderer smooths control points.
+river-extra-01,Orontes (inferred),river,main,existing_source_definition,retain_with_review,,,,,
+river-extra-02,Litani (inferred),river,main,existing_source_definition,retain_with_review,,,,,
+river-extra-03,Yarmuk (inferred),river,main,existing_source_definition,retain_with_review,,,,,
+river-extra-04,Ceyhan (inferred),river,main,existing_source_definition,retain_with_review,,,,,
+river-extra-05,Tarsus river (inferred),river,main,existing_source_definition,retain_with_review,,,,,
+zone-main-green-01,main green zone 1,terrain_zone,main,existing_source_definition,retain_with_review,,35.5,36.9,,
+zone-main-green-02,main green zone 2,terrain_zone,main,existing_source_definition,retain_with_review,,36.4,36.1,,
+zone-main-green-03,main green zone 3,terrain_zone,main,existing_source_definition,retain_with_review,,37.0,36.2,,
+zone-main-green-04,main green zone 4,terrain_zone,main,existing_source_definition,retain_with_review,,35.9,35.3,,
+zone-main-green-05,main green zone 5,terrain_zone,main,existing_source_definition,retain_with_review,,36.1,34.0,,
+zone-main-green-06,main green zone 6,terrain_zone,main,existing_source_definition,retain_with_review,,36.3,33.5,,
+zone-main-green-07,main green zone 7,terrain_zone,main,existing_source_definition,retain_with_review,,35.4,32.8,,
+zone-main-green-08,main green zone 8,terrain_zone,main,existing_source_definition,retain_with_review,,34.95,32.2,,
+zone-main-green-09,main green zone 9,terrain_zone,main,existing_source_definition,retain_with_review,,35.2,31.7,,
+zone-main-green-10,main green zone 10,terrain_zone,main,existing_source_definition,retain_with_review,,34.5,31.45,,
+zone-main-green-11,main green zone 11,terrain_zone,main,existing_source_definition,retain_with_review,,36.7,34.9,,
+zone-main-green-12,main green zone 12,terrain_zone,main,existing_source_definition,retain_with_review,,33.4,35.1,,
+zone-main-green-13,main green zone 13,terrain_zone,main,existing_source_definition,retain_with_review,,35.2,33.5,,
+zone-main-green-14,main green zone 14,terrain_zone,main,existing_source_definition,retain_with_review,,35.6,34.4,,
+zone-main-green-15,main green zone 15,terrain_zone,main,existing_source_definition,retain_with_review,,35.9,34.7,,
+zone-main-green-16,main green zone 16,terrain_zone,main,existing_source_definition,retain_with_review,,36.3,33.5,,
+zone-main-green-17,main green zone 17,terrain_zone,main,existing_source_definition,retain_with_review,,36.55,32.7,,
+zone-main-desert-01,main desert zone 1,terrain_zone,main,existing_source_definition,retain_with_review,,35.2,30.2,,
+zone-main-desert-02,main desert zone 2,terrain_zone,main,existing_source_definition,retain_with_review,,36.9,33.0,,
+zone-main-desert-03,main desert zone 3,terrain_zone,main,existing_source_definition,retain_with_review,,37.4,34.2,,
+zone-main-desert-04,main desert zone 4,terrain_zone,main,existing_source_definition,retain_with_review,,36.9,31.5,,
+zone-main-conifer-01,main conifer zone 1,terrain_zone,main,existing_source_definition,retain_with_review,,36.2,36.8,,
+zone-main-conifer-02,main conifer zone 2,terrain_zone,main,existing_source_definition,retain_with_review,,34.3,37.1,,
+zone-main-conifer-03,main conifer zone 3,terrain_zone,main,existing_source_definition,retain_with_review,,36.15,35.4,,
+zone-main-conifer-04,main conifer zone 4,terrain_zone,main,existing_source_definition,retain_with_review,,35.75,34.2,,
+zone-main-conifer-05,main conifer zone 5,terrain_zone,main,existing_source_definition,retain_with_review,,32.9,34.95,,
+zone-main-conifer-06,main conifer zone 6,terrain_zone,main,existing_source_definition,retain_with_review,,33.3,35.3,,
+zone-main-conifer-07,main conifer zone 7,terrain_zone,main,existing_source_definition,retain_with_review,,36.5,37.4,,
+zone-main-decid-01,main decid zone 1,terrain_zone,main,existing_source_definition,retain_with_review,,35.2,32.9,,
+zone-main-decid-02,main decid zone 2,terrain_zone,main,existing_source_definition,retain_with_review,,35.75,32.35,,
+zone-main-decid-03,main decid zone 3,terrain_zone,main,existing_source_definition,retain_with_review,,35.4,33.2,,
+zone-main-decid-04,main decid zone 4,terrain_zone,main,existing_source_definition,retain_with_review,,36.4,36.3,,
+zone-main-marsh-01,main marsh zone 1,terrain_zone,main,existing_source_definition,retain_with_review,,36.3,35.55,,
+zone-main-marsh-02,main marsh zone 2,terrain_zone,main,existing_source_definition,retain_with_review,,36.3,36.3,,
+zone-main-marsh-03,main marsh zone 3,terrain_zone,main,existing_source_definition,retain_with_review,,35.6,33.1,,
+zone-main-marsh-04,main marsh zone 4,terrain_zone,main,existing_source_definition,retain_with_review,,33.6,34.9,,
+zone-main-marsh-05,main marsh zone 5,terrain_zone,main,existing_source_definition,retain_with_review,,35.55,32.0,,
+zone-main-dune-01,main dune zone 1,terrain_zone,main,existing_source_definition,retain_with_review,,35.2,30.0,,
+zone-main-dune-02,main dune zone 2,terrain_zone,main,existing_source_definition,retain_with_review,,36.9,31.5,,
+zone-main-oasis-01,main oasis zone 1,terrain_zone,main,existing_source_definition,retain_with_review,,36.83,31.9,,
+zone-aegean-green-01,aegean green zone 1,terrain_zone,aegean,existing_source_definition,retain_with_review,,22.0,37.8,,
+zone-aegean-green-02,aegean green zone 2,terrain_zone,aegean,existing_source_definition,retain_with_review,,23.7,38.0,,
+zone-aegean-green-03,aegean green zone 3,terrain_zone,aegean,existing_source_definition,retain_with_review,,22.9,40.6,,
+zone-aegean-green-04,aegean green zone 4,terrain_zone,aegean,existing_source_definition,retain_with_review,,26.0,38.4,,
+zone-aegean-green-05,aegean green zone 5,terrain_zone,aegean,existing_source_definition,retain_with_review,,28.0,37.5,,
+zone-aegean-green-06,aegean green zone 6,terrain_zone,aegean,existing_source_definition,retain_with_review,,25.0,35.3,,
+zone-aegean-green-07,aegean green zone 7,terrain_zone,aegean,existing_source_definition,retain_with_review,,21.0,39.5,,
+zone-aegean-green-08,aegean green zone 8,terrain_zone,aegean,existing_source_definition,retain_with_review,,27.0,40.3,,
+zone-aegean-desert-01,aegean desert zone 1,terrain_zone,aegean,existing_source_definition,retain_with_review,,29.5,38.9,,
+zone-aegean-conifer-01,aegean conifer zone 1,terrain_zone,aegean,existing_source_definition,retain_with_review,,22.2,37.6,,
+zone-aegean-conifer-02,aegean conifer zone 2,terrain_zone,aegean,existing_source_definition,retain_with_review,,22.0,40.1,,
+zone-aegean-conifer-03,aegean conifer zone 3,terrain_zone,aegean,existing_source_definition,retain_with_review,,24.0,41.4,,
+zone-aegean-conifer-04,aegean conifer zone 4,terrain_zone,aegean,existing_source_definition,retain_with_review,,29.2,37.3,,
+zone-aegean-conifer-05,aegean conifer zone 5,terrain_zone,aegean,existing_source_definition,retain_with_review,,26.0,40.4,,
+zone-aegean-conifer-06,aegean conifer zone 6,terrain_zone,aegean,existing_source_definition,retain_with_review,,20.9,39.8,,
+zone-aegean-decid-01,aegean decid zone 1,terrain_zone,aegean,existing_source_definition,retain_with_review,,23.4,38.6,,
+zone-aegean-decid-02,aegean decid zone 2,terrain_zone,aegean,existing_source_definition,retain_with_review,,21.2,38.5,,
+zone-aegean-decid-03,aegean decid zone 3,terrain_zone,aegean,existing_source_definition,retain_with_review,,27.5,38.5,,
+zone-aegean-decid-04,aegean decid zone 4,terrain_zone,aegean,existing_source_definition,retain_with_review,,25.0,35.3,,
+zone-delta-green-01,delta green zone 1,terrain_zone,delta,existing_source_definition,retain_with_review,,31.0,31.0,,
+zone-delta-green-02,delta green zone 2,terrain_zone,delta,existing_source_definition,retain_with_review,,31.3,30.3,,
+zone-delta-green-03,delta green zone 3,terrain_zone,delta,existing_source_definition,retain_with_review,,32.1,30.7,,
+zone-delta-green-04,delta green zone 4,terrain_zone,delta,existing_source_definition,retain_with_review,,32.0,29.8,,
+zone-delta-desert-01,delta desert zone 1,terrain_zone,delta,existing_source_definition,retain_with_review,,33.5,30.0,,
+zone-delta-desert-02,delta desert zone 2,terrain_zone,delta,existing_source_definition,retain_with_review,,30.2,30.0,,
+zone-delta-desert-03,delta desert zone 3,terrain_zone,delta,existing_source_definition,retain_with_review,,34.3,28.8,,
+zone-delta-marsh-01,delta marsh zone 1,terrain_zone,delta,existing_source_definition,retain_with_review,,31.7,31.45,,
+zone-delta-marsh-02,delta marsh zone 2,terrain_zone,delta,existing_source_definition,retain_with_review,,30.9,31.5,,
+zone-delta-marsh-03,delta marsh zone 3,terrain_zone,delta,existing_source_definition,retain_with_review,,31.3,31.3,,
+zone-delta-marsh-04,delta marsh zone 4,terrain_zone,delta,existing_source_definition,retain_with_review,,30.1,31.0,,
+zone-delta-marsh-05,delta marsh zone 5,terrain_zone,delta,existing_source_definition,retain_with_review,,32.3,31.2,,
+zone-delta-marsh-06,delta marsh zone 6,terrain_zone,delta,existing_source_definition,retain_with_review,,32.4,30.3,,
+zone-delta-dune-01,delta dune zone 1,terrain_zone,delta,existing_source_definition,retain_with_review,,33.5,30.3,,
+zone-delta-dune-02,delta dune zone 2,terrain_zone,delta,existing_source_definition,retain_with_review,,30.2,29.5,,
+zone-delta-dune-03,delta dune zone 3,terrain_zone,delta,existing_source_definition,retain_with_review,,34.4,28.6,,
+zone-delta-oasis-01,delta oasis zone 1,terrain_zone,delta,existing_source_definition,retain_with_review,,33.65,28.72,,
+zone-delta-oasis-02,delta oasis zone 2,terrain_zone,delta,existing_source_definition,retain_with_review,,32.65,29.88,,
+zone-delta-oasis-03,delta oasis zone 3,terrain_zone,delta,existing_source_definition,retain_with_review,,33.78,29.9,,
+zone-delta-oasis-04,delta oasis zone 4,terrain_zone,delta,existing_source_definition,retain_with_review,,33.85,31.12,,
+zone-delta-oasis-05,delta oasis zone 5,terrain_zone,delta,existing_source_definition,retain_with_review,,30.1,29.62,,
+polity-kingdom-of-iherusalem,Kingdom of Jerusalem,political_label,main,existing_source_definition,retain_with_review,,,,1099 - 1291,
+polity-county-of-triple,County of Tripoli,political_label,main,existing_source_definition,retain_with_review,,,,1109 - 1289,
+polity-principality-of-antioche,Principality of Antioch,political_label,main,existing_source_definition,retain_with_review,,,,1098 - 1268,
+polity-kingdom-of-armenia,Armenian Cilicia,political_label,main,existing_source_definition,retain_with_review,,,,1198 - 1375,
+polity-kingdom-of-cyprus,Kingdom of Cyprus,political_label,main,existing_source_definition,retain_with_review,,,,1192 - 1489,
+polity-outrejordain,Transjordan,political_label,main,existing_source_definition,retain_with_review,,,,1118 - 1189,
+polity-emirate-of-dimashq,Damascus,political_label,main,existing_source_definition,retain_with_review,,,,1104 - 1260,
+polity-principality-of-achaie,Achaea,political_label,aegean,existing_source_definition,retain_with_review,,,,1205 - 1432,
+polity-duchy-of-athenes,Duchy of Athens,political_label,aegean,existing_source_definition,retain_with_review,,,,1205 - 1456,
+polity-candia,Crete (Venice),political_label,aegean,existing_source_definition,retain_with_review,,,,1211 - 1669,
+polity-empire-of-nicaea,Nicaea,political_label,aegean,existing_source_definition,retain_with_review,,,,1204 - 1261,
+polity-empire-of-constantinople,Latin Empire,political_label,aegean,existing_source_definition,retain_with_review,,,,1204 - 1261,
+polity-soudanie-of-egypt,"Fatimid, Ayyubid, Mamluk",political_label,delta,existing_source_definition,retain_with_review,,,,969 - 1517,
+landscape-jordan-valley,Jordan Valley,valley,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.55,32.05,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-jezreel-esdraelon-valley,Jezreel / Esdraelon Valley,valley,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.3,32.62,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-beqaa-valley,Beqaa Valley,valley,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,36.02,33.9,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-orontes-al-ghab-valley,Orontes / al-Ghab valley,valley,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,36.32,35.6,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-amuq-plain-and-historical-lake-antioch,Amuq plain and historical Lake Antioch,wetland_plain,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,36.37,36.3,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-hula-valley-and-historical-lake,Hula Valley and historical lake,wetland_valley,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.61,33.08,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-wadi-qadisha,Wadi Qadisha,valley,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,35.96,34.25,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-kidron-valley,Kidron Valley,valley,jerusalem_detail,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,35.239,31.776,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-wadi-araba,Wadi Araba,valley,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.2,30.15,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-wadi-mujib-arnon,Wadi Mujib / Arnon,gorge,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,35.7,31.47,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-wadi-al-hasa-zered,Wadi al-Hasa / Zered,gorge,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,35.63,30.96,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-wadi-al-natrun-depression,Wadi al-Natrun depression,depression,delta,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,30.33,30.38,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-lebanon-mountains,Lebanon Mountains,mountain_range,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.91,34.12,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-anti-lebanon-mountains,Anti-Lebanon Mountains,mountain_range,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,36.25,33.85,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-mount-hermon,Mount Hermon,mountain,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.86,33.42,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-jabal-ansariyya-coastal-syrian-mountains,Jabal Ansariyya / coastal Syrian mountains,mountain_range,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,36.13,35.2,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-amanus-nur-mountains,Amanus / Nur Mountains,mountain_range,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,36.33,36.75,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-taurus-mountains,Taurus Mountains,mountain_range,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,34.75,37.4,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-galilee-hills,Galilee hills,uplands,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.38,32.9,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-samaria-hills,Samaria hills,uplands,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,35.23,32.17,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-judaean-hills,Judaean hills,uplands,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.1,31.65,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-golan-plateau,Golan plateau,plateau,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,35.76,32.98,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-hauran-plain,Hauran plain,plain,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,36.3,32.75,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-sharon-coastal-plain,Sharon coastal plain,plain,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,34.9,32.3,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-cilician-plain,Cilician plain,plain,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.45,36.95,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-homs-gap,Homs Gap,pass_corridor,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,36.3,34.65,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-troodos-mountains,Troodos Mountains,mountain_range,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,32.87,34.93,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-kyrenia-pentadaktylos-range,Kyrenia / Pentadaktylos range,mountain_range,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,33.45,35.29,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-judaean-desert,Judaean Desert,desert,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.33,31.55,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-negev,Negev,desert,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,34.8,30.65,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-syrian-steppe,Syrian steppe,steppe,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,37.1,34.2,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-sinai-mountains,Sinai mountains,mountain_range,delta,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,33.9,28.55,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-sinai-desert,Sinai desert,desert,delta,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,33.5,30.2,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-nile-delta-floodplain,Nile Delta floodplain,floodplain,delta,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,31.15,30.9,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-nile-delta-coastal-lagoons,Nile Delta coastal lagoons,wetland,delta,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,31.4,31.35,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-dead-sea,Dead Sea,lake,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.48,31.5,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-sea-of-galilee,Sea of Galilee,lake,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.58,32.84,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-mediterranean-sea,Mediterranean Sea,sea,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,33.0,33.0,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-aegean-sea,Aegean Sea,sea,aegean,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,25.0,38.0,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-sea-of-marmara,Sea of Marmara,sea,aegean,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,28.1,40.7,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-dardanelles,Dardanelles,strait,aegean,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,26.4,40.2,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-bosphorus,Bosphorus,strait,aegean,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,29.05,41.1,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-gulf-of-suez,Gulf of Suez,gulf,delta,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,32.8,29.1,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-gulf-of-aqaba,Gulf of Aqaba,gulf,delta,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,34.78,29.3,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-jordan-river,Jordan River,river,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.56,32.3,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-orontes-river,Orontes River,river,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,36.6,35.1,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-litani-river,Litani River,river,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,35.5,33.35,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-yarmuk-river,Yarmuk River,river,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,35.82,32.7,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-nile-and-medieval-distributaries,Nile and medieval distributaries,river_network,delta,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,high,31.2,30.8,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-cedars-of-lebanon,Cedars of Lebanon,historic_woodland,main,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,36.05,34.24,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-taygetos-mountains,Taygetos Mountains,mountain_range,aegean,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,22.35,36.95,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-pindus-mountains,Pindus Mountains,mountain_range,aegean,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,21.3,39.5,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+landscape-mount-ida-crete,"Mount Ida, Crete",mountain,aegean,proposed_named_overlay,add_label_or_refine_existing_terrain_after_review,medium,24.77,35.23,,"May already be represented by unnamed base geometry or procedural relief; do not add duplicate physical geometry. Medieval shorelines, vegetation and wetland extent require review."
+route-proposed-01,King's Highway / Transjordan corridor,route_corridor,main,proposed_addition,research_before_drawing,,,,,"Road corridor only; survey historic alignments, passes and water sources."
+route-proposed-02,Egypt–Gaza coastal corridor,route_corridor,delta,proposed_addition,research_before_drawing,,,,,Crosses inset/main boundary; do not draw a straight line across layout panels.
+route-proposed-03,Jerusalem–Jericho–Jordan pilgrimage corridor,route_corridor,main,proposed_addition,research_before_drawing,,,,,"Research path, gradients and crossing locations."
+route-proposed-04,Jerusalem–Nablus–Galilee inland corridor,route_corridor,main,proposed_addition,research_before_drawing,,,,,Schematic itinerary proposal; precise medieval alignment unverified.
+route-proposed-05,Antioch–Cilicia corridor,route_corridor,main,proposed_addition,research_before_drawing,,,,,Research Belen/Amanus pass choice and changing military access.
+route-proposed-06,Edessa–Harran corridor,route_corridor,off_map,proposed_addition,research_before_drawing,,,,,Off-map context or future inset only.
+route-proposed-07,Damietta–Mansoura–Cairo Nile corridor,route_corridor,delta,proposed_addition,research_before_drawing,,,,,Separate river transport from land road; medieval distributaries changed.
+route-proposed-08,Sinai pilgrimage corridor,route_corridor,delta,proposed_addition,research_before_drawing,,,,,Water stops and route alternatives require research.
+route-proposed-09,Acre–Cyprus maritime connections,route_corridor,main,proposed_addition,research_before_drawing,,,,,Optional sea-route overlay; no fixed navigation track implied.
+route-proposed-10,Rhodes–Cyprus maritime connections,route_corridor,aegean,proposed_addition,research_before_drawing,,,,,Optional later-medieval sea-route overlay; cross-panel connector only.
+lake-restored-01,Hand-restored lake 1,restored_lake,main,existing_source_definition,review_identity_and_medieval_extent,,36.45,36.33,,
+lake-restored-02,Hand-restored lake 2,restored_lake,main,existing_source_definition,review_identity_and_medieval_extent,,35.61,33.08,,
+lake-restored-03,Hand-restored lake 3,restored_lake,delta,existing_source_definition,review_identity_and_medieval_extent,,32.1,31.27,,
+lake-restored-04,Hand-restored lake 4,restored_lake,delta,existing_source_definition,review_identity_and_medieval_extent,,30.85,31.52,,
+lake-restored-05,Hand-restored lake 5,restored_lake,delta,existing_source_definition,review_identity_and_medieval_extent,,30.65,29.47,,
+lake-restored-06,Hand-restored lake 6,restored_lake,delta,existing_source_definition,review_identity_and_medieval_extent,,32.42,30.3,,
+base-layer-land,coast_and_land,base_dataset,all_rendered_regions,existing_source_definition,retain_with_medieval_geography_review,,,,,Retain dataset reference rather than duplicate global features. Renderer clips to each region. Modern data are not a reconstruction of medieval coastlines or vegetation.
+base-layer-islands,minor_islands,base_dataset,all_rendered_regions,existing_source_definition,retain_with_medieval_geography_review,,,,,Retain dataset reference rather than duplicate global features. Renderer clips to each region. Modern data are not a reconstruction of medieval coastlines or vegetation.
+base-layer-lakes,lake_polygons,base_dataset,all_rendered_regions,existing_source_definition,retain_with_medieval_geography_review,,,,,Retain dataset reference rather than duplicate global features. Renderer clips to each region. Modern data are not a reconstruction of medieval coastlines or vegetation.
+base-layer-rivers,river_centerlines,base_dataset,all_rendered_regions,existing_source_definition,retain_with_medieval_geography_review,,,,,Retain dataset reference rather than duplicate global features. Renderer clips to each region. Modern data are not a reconstruction of medieval coastlines or vegetation.
+base-layer-elevation,elevation_tiles,base_dataset,all_rendered_regions,existing_source_definition,retain_with_medieval_geography_review,,,,,Retain dataset reference rather than duplicate global features. Renderer clips to each region. Modern data are not a reconstruction of medieval coastlines or vegetation.
