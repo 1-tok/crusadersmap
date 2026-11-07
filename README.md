@@ -21,3 +21,6 @@ Repeat with `parchment` for the second edition. Intermediate files (print/*.npy,
 ## Content manifests
 
 [data/manifests](data/manifests/README.md) inventories every explicit active place, event, road and terrain definition, with proposed landmarks, named landscape overlays and route corridors. JSON retains structured metadata and geometry; CSV and a complete Markdown catalog support review. Rebuild with `python3 build_manifests.py` (standard library only).
+## Sprite library
+
+See [data/sprites](data/sprites/README.md) for nine transparent city/castle assets, source paintings, placement metadata and historical review flags. Rebuild with `python3 build_sprites.py` (Pillow, NumPy, SciPy). A light/dark comparison is in [previews/sprite-library.jpg](previews/sprite-library.jpg).
