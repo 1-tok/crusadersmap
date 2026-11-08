@@ -33,6 +33,7 @@ def qa(path):
         return dict(status='pass', mode=im.mode, dimensions_px=list(im.size),
                     transparent_padding_px=pad, alpha_extrema=list(alpha.getextrema()),
                     painted_bounds_xyxy=list(bounds),
+                    pixel_sha256=hashlib.sha256(im.width.to_bytes(4,'big')+im.height.to_bytes(4,'big')+im.tobytes()).hexdigest(),
                     sha256=hashlib.sha256(path.read_bytes()).hexdigest())
 
 
@@ -160,8 +161,8 @@ def enrich(catalog):
             assert re.fullmatch(r'[a-z0-9/-]+\.png', e['asset']), e['asset']
             assert (BASE/e['asset']).resolve().is_relative_to(BASE.resolve())
             q = e['technical_qa']
-            # Identical encoded PNGs share a canonical asset path; paintings remain variants.
-            key = q['sha256']
+            # Identical RGBA pixels share a canonical asset path; paintings remain variants.
+            key = q['pixel_sha256']
             e['duplicate_of'] = hashes.get(key, {}).get('id')
             if key in hashes:
                 e['asset'] = hashes[key]['asset']
@@ -171,7 +172,7 @@ def enrich(catalog):
             e['visual_footprint'] = dict(canvas_px=[w,h], painted_bounds_xyxy=q['painted_bounds_xyxy'],
                 display_width_atlas_px=e['display_width_units'], display_height_atlas_px=e['display_width_units']*h/w,
                 anchor_normalized=e['anchor_normalized'], geographic_scale=False)
-    catalog['deduplication'] = dict(method='SHA-256 encoded PNG; preferred variant per site for placement', unique_pngs=len(hashes))
+    catalog['deduplication'] = dict(method='SHA-256 RGBA pixels and dimensions; preferred variant per site for placement', unique_pngs=len(hashes))
 
 
 def export(catalog, year):

@@ -1,7 +1,7 @@
 """Critical placement rules: phase gates, approval and variant deduplication."""
 import unittest
 from copy import deepcopy
-from sprite_catalog import placements
+from sprite_catalog import placements, build
 
 
 def entry(site, start=1180, end=1180, priority=10):
@@ -11,6 +11,26 @@ def entry(site, start=1180, end=1180, priority=10):
 
 
 class PlacementRules(unittest.TestCase):
+    def test_explicit_1180_ineligibility_overrides_date_window(self):
+        for site in ('montfort', 'chateau-pelerin'):
+            e=entry(site); e['period_1180_eligible']=False
+            self.assertEqual(placements(dict(assets=[e]),1180),[])
+
+    def test_recovered_catalog_contract(self):
+        c=build()
+        self.assertEqual(len(c['assets']),len({e['id'] for e in c['assets']}))
+        for e in c['assets']:
+            self.assertTrue(e['coordinate_evidence']['url'].startswith('https://'))
+            self.assertEqual(e['coordinates'],[e['longitude'],e['latitude']])
+            self.assertEqual(e['approval_for_placement'],bool(e['asset']) and e['period_1180_eligible'])
+            if e['asset']:
+                self.assertEqual(e['technical_qa']['alpha_extrema'],[0,255])
+                self.assertIn('visual_footprint',e)
+        p=placements(c,1180)
+        self.assertEqual(len(p),len({e['site_id'] for e in p}))
+        self.assertNotIn('montfort',{e['site_id'] for e in p})
+        self.assertNotIn('chateau-pelerin',{e['site_id'] for e in p})
+
     def test_montfort_is_excluded_at_1180(self):
         montfort=entry('montfort',1226,1271)
         self.assertEqual(placements(dict(assets=[montfort]),1180),[])

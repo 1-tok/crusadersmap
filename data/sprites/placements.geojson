@@ -34,8 +34,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://whc.unesco.org/en/list/148/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/148/",
+          "published_value": "N31 46 40 E35 13 54",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Old City representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Jerusalem",
         "anchor_normalized": [
           0.5,
           0.9749216300940439
@@ -77,8 +93,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://whc.unesco.org/document/164227",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/164227",
+          "published_value": "32.928 / 35.084",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Old City representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Use UNESCO periodic-report Old City point. Main listing gives a different point (32°55′18″N 35°4′8″E); report point is appropriate for the urban icon. No claim of exact medieval centroid."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Acre",
         "anchor_normalized": [
           0.5,
           0.9747634069400631
@@ -120,8 +152,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://en.wikipedia.org/wiki/Antioch",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Antioch",
+          "published_value": "36.20472 N 36.18167 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Historical city representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Secondary gazetteer coordinate for historical Antioch; city extent and painted citadel orientation remain approximate."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Antioch",
         "anchor_normalized": [
           0.5,
           0.9789473684210527
@@ -163,8 +211,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+          "published_value": "34.44700 N 35.81783 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Coastal medieval city / El Mina representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Coastal settlement point, not the inland Mamluk city or Raymond citadel. Exact medieval urban centroid is unknown; composite sheet painting may conflate city and citadel."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Tripoli",
         "anchor_normalized": [
           0.5,
           0.9751552795031055
@@ -206,8 +270,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://whc.unesco.org/en/list/1229/maps",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/1229/maps",
+          "published_value": "N34 45 24 E36 17 40",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "UNESCO current map point; older nomination coordinates conflict. Later concentric defenses in painting require repaint review, while the castle site is eligible in 1180."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Crac de l’Hospital",
         "anchor_normalized": [
           0.5,
           0.9787798408488063
@@ -249,8 +329,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+          "published_value": "32.59556 N 35.52139 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Belvoir",
         "anchor_normalized": [
           0.5,
           0.9786666666666667
@@ -292,8 +388,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://en.wikipedia.org/wiki/Kerak_Castle",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Kerak_Castle",
+          "published_value": "31.18056 N 35.70139 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Kerak",
         "anchor_normalized": [
           0.5,
           0.9785522788203753
@@ -335,8 +447,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://www.sacred-destinations.com/jordan/shobak-castle",
+        "coordinate_evidence": {
+          "url": "https://www.sacred-destinations.com/jordan/shobak-castle",
+          "published_value": "30.5315 N 35.5608 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Published castle point; other gazetteers differ by tens of metres. Later Ayyubid/Mamluk fabric must not be treated as verified 1180 architecture."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Montréal",
         "anchor_normalized": [
           0.5,
           0.9782608695652174
@@ -378,8 +506,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://whc.unesco.org/en/list/1229/maps",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/1229/maps",
+          "published_value": "N34 45 24 E36 17 40",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "UNESCO current map point; older nomination coordinates conflict. Later concentric defenses in painting require repaint review, while the castle site is eligible in 1180."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Crac de l’Hospital",
         "anchor_normalized": [
           0.5,
           0.9921798631476051
@@ -421,8 +565,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://whc.unesco.org/en/list/148/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/148/",
+          "published_value": "N31 46 40 E35 13 54",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Old City representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Jerusalem",
         "anchor_normalized": [
           0.5,
           0.9486921529175051
@@ -464,8 +624,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+          "published_value": "32.59556 N 35.52139 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Belvoir",
         "anchor_normalized": [
           0.5,
           0.9707536557930259
@@ -507,8 +683,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://whc.unesco.org/document/164227",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/164227",
+          "published_value": "32.928 / 35.084",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Old City representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Use UNESCO periodic-report Old City point. Main listing gives a different point (32°55′18″N 35°4′8″E); report point is appropriate for the urban icon. No claim of exact medieval centroid."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Acre",
         "anchor_normalized": [
           0.5,
           0.9570957095709571
@@ -550,8 +742,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://en.wikipedia.org/wiki/Antioch",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Antioch",
+          "published_value": "36.20472 N 36.18167 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Historical city representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Secondary gazetteer coordinate for historical Antioch; city extent and painted citadel orientation remain approximate."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Antioch",
         "anchor_normalized": [
           0.5,
           0.9619326500732065
@@ -593,8 +801,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+          "published_value": "34.44700 N 35.81783 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Coastal medieval city / El Mina representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Coastal settlement point, not the inland Mamluk city or Raymond citadel. Exact medieval urban centroid is unknown; composite sheet painting may conflate city and citadel."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Tripoli",
         "anchor_normalized": [
           0.5,
           0.9497098646034816
@@ -636,8 +860,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://whc.unesco.org/en/list/295/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/295/",
+          "published_value": "N34 7 9.012 E35 38 44",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Historic site representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Gibelet",
         "anchor_normalized": [
           0.5,
           0.9656084656084656
@@ -679,8 +919,24 @@
           "through_year": 1180,
           "basis": "working circa-1180 depiction only; other years require phase review"
         },
-        "coordinates_verified": false,
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
         "coordinate_source": "https://whc.unesco.org/en/list/299/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/299/",
+          "published_value": "N33 16 09 E35 11 45",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Historic peninsula archaeological site representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "UNESCO peninsula point, not inland Al-Bass necropolis; representative city anchor rather than a medieval urban centroid."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Tyre",
         "anchor_normalized": [
           0.5,
           0.956738768718802

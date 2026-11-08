@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "crs": "EPSG:4326",
+  "precision_policy": "Exact transcription of published points; no claim of exact surveyed medieval placement.",
+  "sites": {
+    "jerusalem": {
+      "historical_name": "Jerusalem",
+      "alternate_names": [
+        "Hierusalem",
+        "al-Quds"
+      ],
+      "latitude": 31.77777777777778,
+      "longitude": 35.23166666666667,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/list/148/",
+        "published_value": "N31 46 40 E35 13 54",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Old City representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+      },
+      "crusader_phase": {
+        "from_year": 1099,
+        "through_year": 1187,
+        "references": [
+          "https://webhelper.brown.edu/joukowsky/courses/islamicarch2011/files/15739236.pdf"
+        ],
+        "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+      },
+      "period_1180_eligible": true
+    },
+    "acre": {
+      "historical_name": "Acre",
+      "alternate_names": [
+        "Akko",
+        "Akkon"
+      ],
+      "latitude": 32.928,
+      "longitude": 35.084,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/document/164227",
+        "published_value": "32.928 / 35.084",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Old City representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Use UNESCO periodic-report Old City point. Main listing gives a different point (32°55′18″N 35°4′8″E); report point is appropriate for the urban icon. No claim of exact medieval centroid."
+      },
+      "crusader_phase": {
+        "from_year": 1104,
+        "through_year": 1187,
+        "references": [
+          "https://whc.unesco.org/en/list/1042/"
+        ],
+        "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+      },
+      "period_1180_eligible": true
+    },
+    "antioch": {
+      "historical_name": "Antioch",
+      "alternate_names": [
+        "Antiochia",
+        "Antakya"
+      ],
+      "latitude": 36.20472,
+      "longitude": 36.18167,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Antioch",
+        "published_value": "36.20472 N 36.18167 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Historical city representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Secondary gazetteer coordinate for historical Antioch; city extent and painted citadel orientation remain approximate."
+      },
+      "crusader_phase": {
+        "from_year": 1098,
+        "through_year": 1268,
+        "references": [
+          "https://en.wikipedia.org/wiki/Principality_of_Antioch"
+        ],
+        "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+      },
+      "period_1180_eligible": true
+    },
+    "tripoli": {
+      "historical_name": "Tripoli",
+      "alternate_names": [
+        "Tripolis",
+        "Tripoli Marina",
+        "al-Mina"
+      ],
+      "latitude": 34.447,
+      "longitude": 35.81783,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+        "published_value": "34.44700 N 35.81783 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Coastal medieval city / El Mina representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Coastal settlement point, not the inland Mamluk city or Raymond citadel. Exact medieval urban centroid is unknown; composite sheet painting may conflate city and citadel."
+      },
+      "crusader_phase": {
+        "from_year": 1109,
+        "through_year": 1289,
+        "references": [
+          "https://scholarworks.aub.edu.lb/server/api/core/bitstreams/9294c2fb-5742-4ece-bdc3-a215070e681c/content"
+        ],
+        "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+      },
+      "period_1180_eligible": true
+    },
+    "krak-des-chevaliers": {
+      "historical_name": "Crac de l’Hospital",
+      "alternate_names": [
+        "Krak des Chevaliers",
+        "Qalʿat al-Hosn"
+      ],
+      "latitude": 34.75666666666667,
+      "longitude": 36.294444444444444,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/list/1229/maps",
+        "published_value": "N34 45 24 E36 17 40",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "UNESCO current map point; older nomination coordinates conflict. Later concentric defenses in painting require repaint review, while the castle site is eligible in 1180."
+      },
+      "crusader_phase": {
+        "from_year": 1142,
+        "through_year": 1271,
+        "references": [
+          "https://whc.unesco.org/en/list/1229/"
+        ],
+        "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+      },
+      "period_1180_eligible": true
+    },
+    "belvoir": {
+      "historical_name": "Belvoir",
+      "alternate_names": [
+        "Coquet",
+        "Kawkab al-Hawa",
+        "Kochav HaYarden"
+      ],
+      "latitude": 32.59556,
+      "longitude": 35.52139,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+        "published_value": "32.59556 N 35.52139 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+      },
+      "crusader_phase": {
+        "from_year": 1168,
+        "through_year": 1189,
+        "references": [
+          "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)"
+        ],
+        "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+      },
+      "period_1180_eligible": true
+    },
+    "kerak": {
+      "historical_name": "Kerak",
+      "alternate_names": [
+        "Crac des Moabites",
+        "al-Karak"
+      ],
+      "latitude": 31.18056,
+      "longitude": 35.70139,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Kerak_Castle",
+        "published_value": "31.18056 N 35.70139 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+      },
+      "crusader_phase": {
+        "from_year": 1142,
+        "through_year": 1188,
+        "references": [
+          "https://moses.creighton.edu/vr/Kerak/txt/intro.html",
+          "https://en.wikipedia.org/wiki/Kerak_Castle"
+        ],
+        "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+      },
+      "period_1180_eligible": true
+    },
+    "montreal-shobak": {
+      "historical_name": "Montréal",
+      "alternate_names": [
+        "Mons Regalis",
+        "Shobak",
+        "Shawbak"
+      ],
+      "latitude": 30.5315,
+      "longitude": 35.5608,
+      "coordinate_evidence": {
+        "url": "https://www.sacred-destinations.com/jordan/shobak-castle",
+        "published_value": "30.5315 N 35.5608 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Published castle point; other gazetteers differ by tens of metres. Later Ayyubid/Mamluk fabric must not be treated as verified 1180 architecture."
+      },
+      "crusader_phase": {
+        "from_year": 1115,
+        "through_year": 1189,
+        "references": [
+          "https://publication.doa.gov.jo/uploads/publications/63/ADAJ_1988_32-225-246.pdf"
+        ],
+        "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+      },
+      "period_1180_eligible": true
+    },
+    "byblos": {
+      "historical_name": "Gibelet",
+      "alternate_names": [
+        "Byblos",
+        "Jbeil"
+      ],
+      "latitude": 34.119170000000004,
+      "longitude": 35.64555555555555,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/list/295/",
+        "published_value": "N34 7 9.012 E35 38 44",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Historic site representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+      },
+      "crusader_phase": {
+        "from_year": 1104,
+        "through_year": 1187,
+        "references": [
+          "https://en.wikipedia.org/wiki/Byblos_Castle"
+        ],
+        "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+      },
+      "period_1180_eligible": true
+    },
+    "tyre": {
+      "historical_name": "Tyre",
+      "alternate_names": [
+        "Tyr",
+        "Sur",
+        "Sour"
+      ],
+      "latitude": 33.26916666666666,
+      "longitude": 35.19583333333333,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/list/299/",
+        "published_value": "N33 16 09 E35 11 45",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Historic peninsula archaeological site representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "UNESCO peninsula point, not inland Al-Bass necropolis; representative city anchor rather than a medieval urban centroid."
+      },
+      "crusader_phase": {
+        "from_year": 1124,
+        "through_year": 1291,
+        "references": [
+          "https://en.wikipedia.org/wiki/Tyre,_Lebanon"
+        ],
+        "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+      },
+      "period_1180_eligible": true
+    },
+    "montfort": {
+      "historical_name": "Montfort",
+      "alternate_names": [
+        "Starkenberg",
+        "Qalʿat al-Qurain"
+      ],
+      "latitude": 33.04472,
+      "longitude": 35.22611,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Montfort_Castle",
+        "published_value": "33.04472 N 35.22611 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "1226 is construction start; later depiction needs phase review. Main Teutonic castle is anachronistic in 1180."
+      },
+      "crusader_phase": {
+        "from_year": 1226,
+        "through_year": 1271,
+        "references": [
+          "https://moses.creighton.edu/vr/Montfort/txt/intro.html"
+        ],
+        "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+      },
+      "period_1180_eligible": false
+    },
+    "chateau-pelerin": {
+      "historical_name": "Château Pèlerin",
+      "alternate_names": [
+        "Castrum Peregrinorum",
+        "Atlit"
+      ],
+      "latitude": 32.70528055555556,
+      "longitude": 34.93388888888889,
+      "coordinate_evidence": {
+        "url": "https://commons.wikimedia.org/wiki/Category:Chateau_Pelerin",
+        "published_value": "32°42′19.01″N 34°56′02″E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Templar fortress dates to 1218; not an 1180 asset. Earlier nearby fortifications do not justify using this fortress."
+      },
+      "crusader_phase": {
+        "from_year": 1218,
+        "through_year": 1291,
+        "references": [
+          "https://en.wikipedia.org/wiki/Ch%C3%A2teau_P%C3%A8lerin"
+        ],
+        "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+      },
+      "period_1180_eligible": false
+    }
+  }
+}

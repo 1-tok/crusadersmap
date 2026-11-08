@@ -20,7 +20,10 @@ def main():
             properties=dict(sprite_id=e['id'],site_group=e['site_id'],name=e['name'],asset='data/sprites/'+e['asset'],
                 sha256=e['technical_qa']['sha256'],preferred=e['id'] in selected,
                 approval=e['approval']['status'],repaint_later=True,historical_accuracy_certified=False,
-                availability=e['availability'],coordinates_verified=False,coordinate_source=e['coordinate_source'],
+                availability=e['availability'],coordinates_surveyed=False,coordinate_source_checked=True,
+                coordinate_source=e['coordinate_source'],coordinate_evidence=e['coordinate_evidence'],
+                approval_for_placement=e['approval_for_placement'],period_1180_eligible=e['period_1180_eligible'],
+                map_layers=e['map_layers'],historical_name=e['historical_name'],
                 anchor_normalized=e['anchor_normalized'],sheet_anchor_px=[round(x,3),round(y,3)],
                 display_width_sheet_px=width,display_height_sheet_px=round(height,3),
                 top_left_sheet_px=[round(x-ax*width,3),round(y-ay*height,3)])))
@@ -48,7 +51,7 @@ def main():
                  'Provisional approval; repaint flags preserved.',
                  'Montfort excluded from the 1180 sprite layer.',
                  'Background atlas covers multiple periods.',
-                 'Tripoli uses proposed coastal al-Mina anchor.']:
+                 'Tripoli uses sourced coastal al-Mina anchor.']:
         d.text((w+24,yy),line,font=small,fill='black');yy+=40
     board.save(ROOT/'previews/sprite-placement-markup.jpg',quality=94)
     assert len(features)==len(available) and len(selected)==len(chosen)
