@@ -1,6 +1,6 @@
 # Mountain terrain pieces: Palestine to Anatolia and Greece
 
-Twenty-three reusable transparent PNGs, each 1024 pixels wide, matching the historical atlas's ink/watercolor palette and upper-left lighting. Original generations and complete prompts are preserved. Generated with built-in image_gen; `build_terrain.py` packages and checks them.
+Twenty-six reusable transparent PNGs, each 1024 pixels wide, matching the historical atlas's ink/watercolor palette and upper-left lighting. Original generations and complete prompts are preserved. Generated with built-in image_gen; `build_terrain.py` packages and checks them.
 
 | Asset | Suggested use |
 |---|---|
@@ -44,3 +44,7 @@ Use 20–35% overlap as a starting point and vary scale between about 0.65 and 1
 ## Six narrow and branching connectors
 
 The third set adds limestone and Greek narrow spines, dry and forested branching spurs, a high rocky spine and an open Anatolian saddle. Use them at smaller scale to join ridge tips and create branching chains. Their inherited family coordinates are regional context, not independent landmark positions. Full built-in image_gen prompts are saved in `connector-prompts.json`; originals remain in `sources/`. The full catalog grows automatically with the manifest.
+
+## Placement approval and next pass pieces
+
+See `APPROVAL.md` and `placements.geojson` for the approved artwork inventory, projected context anchors and family corridor guides. The three newest pieces are a dry limestone pass, wooded pass and rocky foothill fan. Their full built-in generation prompts are saved in `pass-prompts.json`. Placement markup is in `previews/terrain-placement-markup.jpg`; final terrain compositing is a separate step.

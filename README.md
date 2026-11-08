@@ -31,4 +31,4 @@ See [data/sprites](data/sprites/README.md) for nine transparent city/castle asse
 
 ## Mountain terrain pieces
 
-[data/terrain](data/terrain/README.md) contains 23 transparent regional mountain and connector stamps spanning Palestine, Lebanon, Anatolia and Greece, with source images, generation prompts and placement guidance. Rebuild using `python3 build_terrain.py`. See [terrain preview](previews/terrain-library.jpg).
+[data/terrain](data/terrain/README.md) contains 26 transparent regional mountain and connector stamps spanning Palestine, Lebanon, Anatolia and Greece, with source images, generation prompts and placement guidance. Rebuild using `python3 build_terrain.py`. See [terrain preview](previews/terrain-library.jpg).
