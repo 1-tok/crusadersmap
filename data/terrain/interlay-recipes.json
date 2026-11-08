@@ -1,0 +1,97 @@
+{
+  "canvas_px": [
+    1650,
+    1400
+  ],
+  "coordinate_convention": "x left, bottom y, display width; ordered rear to front",
+  "purpose": "illustrative overlap examples, not geographically accurate chains",
+  "recipes": [
+    {
+      "name": "Palestine ridge and foothill transitions",
+      "pieces": [
+        [
+          "palestine-foothills-west",
+          45,
+          300,
+          620
+        ],
+        [
+          "palestine-limestone-ridge",
+          455,
+          290,
+          700
+        ],
+        [
+          "palestine-foothills-east",
+          955,
+          320,
+          610
+        ],
+        [
+          "limestone-valley-gap",
+          610,
+          370,
+          440
+        ]
+      ]
+    },
+    {
+      "name": "Lebanon and Taurus: linked massif, saddle and escarpment",
+      "pieces": [
+        [
+          "lebanon-high-massif",
+          55,
+          700,
+          700
+        ],
+        [
+          "lebanon-saddle",
+          500,
+          735,
+          630
+        ],
+        [
+          "taurus-short-peaks",
+          925,
+          740,
+          610
+        ],
+        [
+          "taurus-cliff-spur",
+          690,
+          760,
+          430
+        ]
+      ]
+    },
+    {
+      "name": "Greek woodland chain with open gorge",
+      "pieces": [
+        [
+          "pindus-forested-ridge",
+          50,
+          1190,
+          690
+        ],
+        [
+          "greek-short-ridge",
+          900,
+          1170,
+          640
+        ],
+        [
+          "greek-gorge-gap",
+          555,
+          1260,
+          550
+        ],
+        [
+          "greek-forested-foothills",
+          160,
+          1200,
+          510
+        ]
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Mountain terrain pieces: Palestine to Anatolia and Greece
 
-Five reusable transparent PNGs, each 1024 pixels wide, matching the historical atlas's ink/watercolor palette and upper-left lighting. Original generations and complete prompts are preserved. Generated with built-in image_gen; `build_terrain.py` packages and checks them.
+Seventeen reusable transparent PNGs, each 1024 pixels wide, matching the historical atlas's ink/watercolor palette and upper-left lighting. Original generations and complete prompts are preserved. Generated with built-in image_gen; `build_terrain.py` packages and checks them.
 
 | Asset | Suggested use |
 |---|---|
@@ -31,4 +31,12 @@ These references support broad terrain choices, not the geometry or historical l
 - Geological variation among Pindus massifs: https://www.sciencedirect.com/science/article/abs/pii/S0169555X06005241
 - Erciyes volcanic morphology: https://volcano.si.edu/volcano.cfm?vn=213010
 
-Full generation prompts are in `prompts.json` in the same order as the five assets. The originals remain in `sources/` for alternate processing.
+Full generation prompts are in `prompts.json` in the same order as the original five assets. The originals remain in `sources/` for alternate processing.
+
+## Expansion: 12 interlay pieces
+
+The kit now includes left/right Palestine foothill ends, an open limestone valley, a short Lebanon ridge and saddle, a Taurus cliff spur and short peaks, Anatolian steppe foothills and a small volcanic cone, plus Greek wooded foothills, an open gorge and a short ridge. They use the same upper-left lighting and are separate generated illustrations, not mirrored copies.
+
+Use 20–35% overlap as a starting point and vary scale between about 0.65 and 1.15. Layer rear ridges first, connectors second, and low foothills last; preserve valley openings. Avoid mirroring and large rotations. These are overlap-friendly illustrations, not seamless tiles. `interlay-recipes.json` and `preview_terrain_interlay.py` reproduce three sample layouts; the mixed Lebanon/Taurus row demonstrates visual composition, not a surveyed geographic chain.
+
+`expansion-prompts.json` saves eight full built-in image_gen prompts and summaries for four pieces generated in the preceding chat turn. Original source images are all retained. See `previews/terrain-catalog.jpg` for the individual catalog and `previews/terrain-interlay-examples.jpg` for assembled examples.
