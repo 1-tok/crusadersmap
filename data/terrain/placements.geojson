@@ -1112,6 +1112,123 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.91,
+          34.12
+        ]
+      },
+      "properties": {
+        "id": "sparse-cedar-woodland",
+        "asset": "data/terrain/png/sparse-cedar-woodland.png",
+        "family": "lebanon-high-massif",
+        "role": "woodland",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          8016.385129021009,
+          7048.266406060984
+        ],
+        "top_left_sheet_px": [
+          7760.385129021009,
+          6898.266406060984
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 163.0,
+        "anchor_normalized": [
+          0.5,
+          0.9202453987730062
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          37.4
+        ]
+      },
+      "properties": {
+        "id": "pine-slope-transition",
+        "asset": "data/terrain/png/pine-slope-transition.png",
+        "family": "taurus-ridge",
+        "role": "woodland",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6323.146484476885,
+          1050.5470283689956
+        ],
+        "top_left_sheet_px": [
+          6067.146484476885,
+          890.5470283689956
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 173.0,
+        "anchor_normalized": [
+          0.5,
+          0.9248554913294798
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15,
+          31.85
+        ]
+      },
+      "properties": {
+        "id": "mediterranean-scrub-fill",
+        "asset": "data/terrain/png/mediterranean-scrub-fill.png",
+        "family": "palestine-limestone-ridge",
+        "role": "scrub",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6834.090202505618,
+          11182.468495795407
+        ],
+        "top_left_sheet_px": [
+          6578.090202505618,
+          11045.968495795407
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 149.5,
+        "anchor_normalized": [
+          0.5,
+          0.9130434782608695
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [

@@ -1,0 +1,17 @@
+{
+  "method": "built-in image_gen",
+  "prompts": [
+    {
+      "id": "sparse-cedar-woodland",
+      "prompt": "ONE isolated reusable terrain vegetation stamp for overlapping on a hand-painted medieval historical atlas. Sparse cedar-like woodland on a very low irregular limestone slope, broad flat-topped tree crowns in small uneven clusters with visible pale rock and grassy gaps. Wide low silhouette, no high mountains, suitable as foreground transition below a Lebanon-type massif. Fine ink/watercolor, warm gray/buff rock and subdued sage/olive vegetation, upper LEFT light, high oblique view from south. Match detailed mountain terrain cutouts. Minimal ground skirt, organic tapering edges, full silhouette with generous transparent padding. True transparent alpha outside; no sky, backdrop, gradients, glow, checkerboard, outer shadow. No settlements, buildings, roads, water, people, flags, text, labels or frame. Regional illustrative woodland, not verified medieval forest extent. Vegetation should read as map-scale trees, not close-up botanical painting."
+    },
+    {
+      "id": "pine-slope-transition",
+      "prompt": "ONE isolated reusable terrain vegetation stamp for overlapping on a hand-painted medieval historical atlas. Muted dark pine woodland scattered across a low gray-buff rocky mountain slope, asymmetric horizontal patch with open gaps, lower at left and gently rising at right. No tall peaks, suitable as lower-slope connector below Taurus or Greek ranges. Fine ink/watercolor, warm gray/buff rock and subdued sage/olive vegetation, upper LEFT light, high oblique south view. Match mountain cutouts. Minimal ground skirt, organic tapering edges, full silhouette with generous transparent padding. True transparent alpha; no sky/backdrop/gradient/glow/checkerboard/outer shadow. No buildings, roads, water, people, flags, text, labels or frame. Regional illustration, not verified medieval forest extent. Map-scale trees, not close-up botanical painting."
+    },
+    {
+      "id": "mediterranean-scrub-fill",
+      "prompt": "ONE isolated reusable terrain vegetation stamp for overlapping on a hand-painted medieval historical atlas. Very low irregular patch of Mediterranean sage-green scrub, small rounded shrubs and a few tiny olive-like trees over dry buff limestone outcrops and muted grass. Sparse open ground, no mountains, horizontal tapered foreground filler for Palestine-style foothills. Fine ink/watercolor, warm gray/buff rock and subdued sage/olive vegetation, upper LEFT light, high oblique south view. Match mountain cutouts. Minimal ground skirt, organic tapering edges, full silhouette with generous transparent padding. True transparent alpha; no sky/backdrop/gradient/glow/checkerboard/outer shadow. No buildings, roads, water, people, flags, text, labels or frame. Regional illustration, not verified medieval forest extent. Map-scale trees, not close-up botanical painting."
+    }
+  ]
+}

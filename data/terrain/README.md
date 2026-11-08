@@ -1,6 +1,6 @@
 # Mountain terrain pieces: Palestine to Anatolia and Greece
 
-Twenty-nine reusable transparent PNGs, each 1024 pixels wide, matching the historical atlas's ink/watercolor palette and upper-left lighting. Original generations and complete prompts are preserved. Generated with built-in image_gen; `build_terrain.py` packages and checks them.
+Thirty-two reusable transparent PNGs, each 1024 pixels wide, matching the historical atlas's ink/watercolor palette and upper-left lighting. Original generations and complete prompts are preserved. Generated with built-in image_gen; `build_terrain.py` packages and checks them.
 
 | Asset | Suggested use |
 |---|---|
@@ -52,3 +52,7 @@ See `APPROVAL.md` and `placements.geojson` for the approved artwork inventory, p
 ## Low-relief continuation
 
 The library now contains 29 pieces. New `coastal-foothill-transition`, `dry-wadi-connector`, and `open-plateau-escarpment` assets use regional family anchors as context only. Their low-relief shapes should be placed on reviewed foothill/valley/plateau terrain rather than literally on the inherited mountain label anchor. Full built-in image_gen briefs are in `low-relief-prompts.json`; source images are retained. Artwork/placement-planning approval is recorded, while geographic and historical verification remain pending.
+
+## Vegetation continuation
+
+The kit now has 32 pieces, adding sparse cedar-like woodland, pine-covered slope and Mediterranean scrub fillers. Tree shapes are illustrative, not botanical identifications; medieval forest cover is unverified. Scale vegetation to neighboring sprites, avoid dense stacking, and preserve clear valleys and settlement labels. Full built-in image_gen prompts are in `vegetation-prompts.json`, with unchanged originals in `sources/`. These assets retain artwork and placement-planning approval only.

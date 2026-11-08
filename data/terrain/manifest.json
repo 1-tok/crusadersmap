@@ -1604,6 +1604,167 @@
       "approval": "approved-for-artwork-and-placement-planning",
       "family": "taurus-ridge",
       "interlay_role": "escarpment"
+    },
+    {
+      "id": "sparse-cedar-woodland",
+      "name": "Sparse Cedar Woodland",
+      "file": "png/sparse-cedar-woodland.png",
+      "source": "sources/sparse-cedar-woodland.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.91,
+          34.12
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-lebanon-mountains",
+          "landscape-mount-hermon"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Vegetation filler: regional family anchor is context, not evidence of historical forest extent; use smaller tree scale to match nearby city sprites and keep valleys open."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "none depicted",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        326
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "f0a42f46da514b38f306c10a5916e6530232764dbfc5f9aeb69c5acb8faa8346",
+      "sha256": "ddffb15528a3921e641ad36d69abae152e1c3c68d9a481e3fc1dffe85dd361c0",
+      "anchor_normalized": [
+        0.5,
+        0.9202453987730062
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 750112,
+        "cleaned_source_nonzero_alpha": 669386,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning",
+      "family": "lebanon-high-massif",
+      "interlay_role": "woodland"
+    },
+    {
+      "id": "pine-slope-transition",
+      "name": "Pine Slope Transition",
+      "file": "png/pine-slope-transition.png",
+      "source": "sources/pine-slope-transition.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          34.75,
+          37.4
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-taurus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Vegetation filler: regional family anchor is context, not evidence of historical forest extent; use smaller tree scale to match nearby city sprites and keep valleys open."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "none depicted",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        346
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "10e4fec196c7ccaff09abae6412cf0a344861857a7bef7cc8c8a2b856d6cbf52",
+      "sha256": "76e109c5f1e179c52a5f0297568e65a3146acf346ac5f38af6f46f68efeea216",
+      "anchor_normalized": [
+        0.5,
+        0.9248554913294798
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 634473,
+        "cleaned_source_nonzero_alpha": 598135,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning",
+      "family": "taurus-ridge",
+      "interlay_role": "woodland"
+    },
+    {
+      "id": "mediterranean-scrub-fill",
+      "name": "Mediterranean Scrub Fill",
+      "file": "png/mediterranean-scrub-fill.png",
+      "source": "sources/mediterranean-scrub-fill.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Vegetation filler: regional family anchor is context, not evidence of historical forest extent; use smaller tree scale to match nearby city sprites and keep valleys open."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "none depicted",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        299
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "fbf3168d07928e620f2f8ae4f073c23ea77b39e3fa8aeac10a7cc6201ba48d48",
+      "sha256": "7146d58c86c3ead7547ea29b3ab3d678afd1dae41766ff6f88ecf1d20ec4e906",
+      "anchor_normalized": [
+        0.5,
+        0.9130434782608695
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 624785,
+        "cleaned_source_nonzero_alpha": 568862,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning",
+      "family": "palestine-limestone-ridge",
+      "interlay_role": "scrub"
     }
   ],
   "interlay_policy": {
