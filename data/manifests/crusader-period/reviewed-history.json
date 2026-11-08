@@ -1,0 +1,1114 @@
+{
+  "scope": {
+    "title": "Crusader Period",
+    "from_year": 1095,
+    "through_year": 1291
+  },
+  "policy": "Selected occupations and documented sieges, not a claim of exhaustive political history. Regional context is identified explicitly. Missing siege records never mean a site was never besieged.",
+  "sources": {
+    "archaeology": "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en",
+    "jerusalem": "https://api.pageplace.de/preview/DT0400.9781134582723_A24624809/preview-9781134582723_A24624809.pdf",
+    "siege-study": "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf",
+    "montfort": "https://moses.creighton.edu/vr/Montfort/txt/intro.html",
+    "montfort-sieges": "https://cris.iucc.ac.il/en/publications/the-two-sieges-and-the-conquest-of-montfort/",
+    "atlit": "https://archeologie.culture.gouv.fr/monde/fr/atlit-cimetiere-croise",
+    "belvoir": "https://www.academia.edu/94557124/The_occupation_of_Belvoir_by_the_Hospitallers_chronology_and_written_sources",
+    "bethlehem": "https://www.custodia.org/en/sanctuaries/bethlehem-basilica-of-the-nativity/",
+    "hebron": "https://whc.unesco.org/document/159613",
+    "egypt": "https://egymonuments.gov.eg/collections/historical-cairo/",
+    "egypt-periods": "https://www.ifao.egnet.net/anisl/032/06",
+    "cilicia": "https://etheses.bham.ac.uk/id/eprint/8689/5/Lin2019PhD.pdf",
+    "mystras": "https://whc.unesco.org/en/list/511/",
+    "mystras-1262": "https://digital.bsa.ac.uk/results.php?collection=SPHS+BSA+Image+Collection&department=Archive&irn=142233&start=7001",
+    "tortosa": "https://whc.unesco.org/en/tentativelists/1301/",
+    "jaffa": "https://www.academia.edu/563828/The_History_and_Archaeology_of_Jaffa_1",
+    "cyprus": "https://www.visitcyprus.com/discover-cyprus/culture/cultural-routes/cyprus-venice-cultural-route/",
+    "athos": "https://whc.unesco.org/document/164199",
+    "patmos": "https://www.aegeanislands.gr/pois/patmos-the-monastery-of-saint-john-the-theologian-en/",
+    "rhodes": "https://ebooks.epublishing.ekt.gr/index.php/chae/catalog/book/6",
+    "damascus": "https://www.archnet.org/authorities/3603?media_content_id=681894",
+    "aleppo": "https://islamic-art.smb.museum/wp-content/uploads/2022/04/TimelineofSelectedHistoricalBuilding_Aleppo_compressed.pdf",
+    "levant-context": "https://thedocs.worldbank.org/en/doc/598021391537604240-0560011974/original/WorldBankGroupArchivesFolder1772712.pdf",
+    "boas": "https://ndl.ethernet.edu.et/bitstream/123456789/52701/1/1.Adrian%20J.Boas.pdf",
+    "tabor": "https://theses.gla.ac.uk/30916/1/2018haberlinphd.pdf",
+    "carmel": "https://www.carmelitaniscalzi.com/en/who-we-are/storia/from-mount-carmel/",
+    "oxford-guide": "https://ndl.ethernet.edu.et/bitstream/123456789/52968/1/18.Murphy-O%E2%80%99Connor.pdf",
+    "thessaloniki": "https://culturalegnatia.culture.gov.gr/en/route-stops/thessaloniki/",
+    "thessaloniki-latin": "https://www.ime.gr/chronos/projects/fragokratia/en/webpages/thessal_gen.html",
+    "achaea": "https://www.mdpi.com/2073-445x/7/4/153",
+    "negroponte": "https://iris.unitn.it/retrieve/handle/11572/440530/898889/TESI%20-%20versione%20online.pdf",
+    "monemvasia": "https://www.amnv.gr/wp-content/uploads/2020/05/%CE%91%CE%BD%CE%AC%CE%B4%CE%B5%CE%B9%CE%BE%CE%B7-%CE%86%CE%BD%CF%8E-%CE%A0%CF%8C%CE%BB%CE%B7%CF%82-%CE%9C%CE%BF%CE%BD%CE%B5%CE%BC%CE%B2%CE%B1%CF%83%CE%AF%CE%B1%CF%82.pdf",
+    "corfu": "https://www.zth-airport.gr/uploads/flipbooks/ZTH_01/files/basic-html/page34.html",
+    "zakynthos": "https://www.arxaiologikoktimatologio.gov.gr/resources/informationMaterial/IFMWRV98M01/megalomatis_zakynthos_fylladio%20%282%29.pdf",
+    "gallipoli": "https://en.wikipedia.org/wiki/Gallipoli",
+    "lesbos": "https://asiaminor.ehw.gr/forms/filePage.aspx?lemmaId=6873",
+    "aegean-byzantine": "https://www.academia.edu/19412235/The_Provincial_Aristocracy_in_Byzantine_Asia_Minor_1081_1261_",
+    "sebastia": "https://mosaiccentrejericho.com/wp-content/uploads/2021/04/Sabastiya_the_fruits_of_history.pdf",
+    "jerash": "https://doi.org/10.1080/00758914.2022.2033016",
+    "sidon-phases": "https://api.pageplace.de/preview/DT0400.9781000943337_A47046209/preview-9781000943337_A47046209.pdf",
+    "syrian-campaign": "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
+    "ayyubids": "https://islamansiklopedisi.org.tr/eyyubiler",
+    "hama": "https://era.ed.ac.uk/bitstream/1842/25741/1/Alsumsam2017.pdf",
+    "baalbek": "https://echoes-and-edifices.newmedialab.cuny.edu/items/show/352",
+    "shayzar": "https://iris.unive.it/retrieve/e4239ddd-3904-7180-e053-3705fe0a3322/Tonghini%20nuraldin%20shayzar%202019.pdf",
+    "homs": "https://en.wikipedia.org/wiki/Ayyubid_dynasty",
+    "anavarza": "https://www.ktb.gov.tr/EN-114122/anavarza.html",
+    "anavarza-1111": "https://journals.openedition.org/ashp/pdf/2998",
+    "vahka": "https://eurekamag.com/research/109/566/109566935.php",
+    "cilicia-1137": "https://www.academia.edu/43727540/Byzantium_and_the_Crusader_States_1096_1204",
+    "ayas": "https://www.academia.edu/127051322/Marco_Polo_in_Armenia_Art_Culture_Religion_and_Commercial_Relations",
+    "korykos": "https://mersin.ktb.gov.tr/TR-73469/kaleler--hisarlar-ve-tabyalar.html",
+    "marash": "https://johschool.com/?makale_id=45755&mod=makale_ing_ozet",
+    "bosra": "https://archeologie.culture.gouv.fr/bosra/fr/bosra-aux-periodes-islamiques",
+    "bosra-castle": "https://archeologie.culture.gouv.fr/bosra/fr/la-citadelle",
+    "naf": "https://castleroute.culture.gov.gr/en/nafpaktos/",
+    "lemnos": "https://efales-lem.gr/en/timeline/1207-1214/",
+    "lemnos-return": "https://efales-lem.gr/en/chron-category/category8-en/",
+    "navarino": "https://www.visitpeloponnese.com/en/prdct/pylos-palaiokastro-old-navarino-fortress",
+    "kythira": "https://kythira.gr/oldsite/pages/culture/history_2.htm",
+    "santorini": "https://www.treccani.it/enciclopedia/iacopo-barozzi_res-49eb1331-87e7-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/",
+    "nicaea-expansion": "https://www.ime.gr/chronos/10/en/p/pa3/pa3a.html",
+    "leros": "https://leros.gr/ova_por/castle-leros/",
+    "tinos": "https://unitesi.unive.it/retrieve/309a2227-fd32-4f8b-b7ee-bd82030beb0d/831717-1157793.pdf",
+    "alexandretta": "https://tu-dresden.de/gsw/fovog/textedaten/templerlexikon/templerniederlassungen",
+    "original-catalog": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py"
+  },
+  "sites": {
+    "Jerusalem": {
+      "occupation": "Frankish 1099–1187; Ayyubid 1187–1229; Frankish treaty possession 1229–1239 and 1241–1244; Khwarazmian capture 1244",
+      "references": [
+        "jerusalem",
+        "archaeology"
+      ],
+      "notes": "The short 1239–1241 interruption is retained; treaty possession did not include every sacred precinct."
+    },
+    "Jaffa": {
+      "occupation": "Frankish 1099–1187; restored 1191; intermittent Frankish possession to Mamluk conquest 1268",
+      "references": [
+        "jaffa",
+        "archaeology"
+      ],
+      "notes": "Do not read the outer dates as uninterrupted Frankish control."
+    },
+    "Caesarea": {
+      "occupation": "Frankish 1101–1187; restored 1191; later Frankish phases to Mamluk conquest 1265",
+      "references": [
+        "archaeology"
+      ],
+      "notes": "Intervening destruction and occupation require finer local phase review."
+    },
+    "Gaza": {
+      "occupation": "Frankish/Templar holding from 1149; lost in 1187",
+      "references": [
+        "archaeology"
+      ],
+      "review_required": true
+    },
+    "Bethlehem": {
+      "occupation": "Frankish 1099–1187; Ayyubid 1187–1229; Latin kingdom 1229–1244; Muslim rule after 1244",
+      "references": [
+        "bethlehem"
+      ]
+    },
+    "Hebron": {
+      "occupation": "Frankish 1099–1187; Ayyubid rule after 1187",
+      "references": [
+        "hebron"
+      ]
+    },
+    "Nazareth": {
+      "occupation": "Frankish 1099–1187; restored by treaty 1229; sacked by Baybars 1263",
+      "references": [
+        "archaeology"
+      ],
+      "notes": "Selected phases; possession between individual agreements requires further local review."
+    },
+    "Tiberias": {
+      "occupation": "Frankish city until 1187; Galilean territories restored 1240/1241; later local end date under review",
+      "references": [
+        "archaeology"
+      ],
+      "review_required": true
+    },
+    "Atlit": {
+      "occupation": "Templar fortress 1218–1291 (construction begun 1217/1218)",
+      "references": [
+        "atlit",
+        "siege-study"
+      ],
+      "display_title": "Château Pèlerin (begun 1218)"
+    },
+    "Montfort": {
+      "occupation": "Teutonic castle 1226–1271 (construction began 1226)",
+      "references": [
+        "montfort",
+        "montfort-sieges"
+      ],
+      "display_title": "Montfort (begun 1226)"
+    },
+    "Kokhav HaYarden": {
+      "occupation": "Hospitaller 1168–January 1189; Ayyubid possession after surrender",
+      "references": [
+        "belvoir"
+      ]
+    },
+    "Tartus": {
+      "occupation": "Templar citadel from 1152; citadel retained after attack in 1188; evacuated 1291",
+      "references": [
+        "tortosa"
+      ]
+    },
+    "Cairo": {
+      "occupation": "Fatimid 1095–1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "references": [
+        "egypt",
+        "egypt-periods"
+      ]
+    },
+    "Alexandria": {
+      "occupation": "Egyptian dynastic context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "references": [
+        "egypt",
+        "egypt-periods"
+      ],
+      "notes": "Regional political chronology, not continuous local garrison documentation. The 1365 raid is outside this map."
+    },
+    "Mansoura": {
+      "occupation": "Founded during Fifth Crusade, 1219; Ayyubid then Mamluk Egyptian city; battle 1250 was not a lasting Frankish occupation",
+      "references": [
+        "siege-study",
+        "egypt-periods"
+      ],
+      "review_required": true
+    },
+    "Mystras": {
+      "occupation": "Frankish castle founded 1249; Byzantine possession from 1262 to 1291 (continues)",
+      "references": [
+        "mystras",
+        "mystras-1262"
+      ]
+    },
+    "Kozan": {
+      "occupation": "Sis: royal seat of Armenian Cilicia, kingdom established 1198; earlier local transitions under review",
+      "references": [
+        "cilicia"
+      ],
+      "review_required": true
+    },
+    "Paphos": {
+      "occupation": "Cypriot regional context: Byzantine until 1191; conquest 1191; Lusignan kingdom 1192–1291 (continues)",
+      "references": [
+        "cyprus"
+      ],
+      "notes": "Regional sovereignty rather than a complete local garrison or monastic tenure history.",
+      "review_required": true
+    },
+    "Larnaca": {
+      "occupation": "Cypriot regional context: Byzantine until 1191; conquest 1191; Lusignan kingdom 1192–1291 (continues)",
+      "references": [
+        "cyprus"
+      ],
+      "notes": "Regional sovereignty rather than a complete local garrison or monastic tenure history.",
+      "review_required": true
+    },
+    "Kykkos": {
+      "occupation": "Cypriot regional context: Byzantine until 1191; conquest 1191; Lusignan kingdom 1192–1291 (continues)",
+      "references": [
+        "cyprus"
+      ],
+      "notes": "Regional sovereignty rather than a complete local garrison or monastic tenure history.",
+      "review_required": true
+    },
+    "Bellapais": {
+      "occupation": "Cypriot regional context: Byzantine until 1191; conquest 1191; Lusignan kingdom 1192–1291 (continues)",
+      "references": [
+        "cyprus"
+      ],
+      "notes": "Regional sovereignty rather than a complete local garrison or monastic tenure history.",
+      "review_required": true
+    },
+    "Mount Athos": {
+      "occupation": "Orthodox monastic community throughout 1095–1291; first charter 972",
+      "references": [
+        "athos"
+      ],
+      "notes": "Religious community continuity; not a claim of a military occupation."
+    },
+    "Patmos": {
+      "occupation": "Monastery of St John, founded 1088; Orthodox community during 1095–1291",
+      "references": [
+        "patmos"
+      ],
+      "notes": "Monastic presence, not a complete political-control history."
+    },
+    "Rhodes": {
+      "occupation": "Byzantine/local rule; Leo Gabalas administration from 1204; Hospitaller occupation begins only after this map period",
+      "references": [
+        "rhodes"
+      ],
+      "review_required": true
+    },
+    "Damascus": {
+      "occupation": "Burid emirate in early 12th century; Zengid under Nur al-Din 1154–1174; later Ayyubid and Mamluk phases",
+      "references": [
+        "damascus",
+        "levant-context"
+      ],
+      "review_required": true,
+      "notes": "Selected named phases; subsequent local transitions and brief Mongol occupation require a finer chronology."
+    },
+    "Aleppo": {
+      "occupation": "Ayyubid 1183–1260; Mongol conquest 1260; earlier Zengid and later Mamluk phases",
+      "references": [
+        "aleppo",
+        "levant-context"
+      ],
+      "review_required": true
+    },
+    "Nablus": {
+      "occupation": "Frankish July 1099–July 1187; Muslim rule thereafter",
+      "references": [
+        "boas"
+      ],
+      "notes": "The Templar raid of 1242 was not a permanent return to Frankish occupation."
+    },
+    "Mount Tabor": {
+      "occupation": "Benedictine/Frankish monastery until 1187; Ayyubid fortress begun 1212; later Christian/Hospitaller phases to 1263",
+      "references": [
+        "tabor",
+        "oxford-guide"
+      ],
+      "review_required": true
+    },
+    "Mount Carmel": {
+      "occupation": "Carmelite hermit community, early 13th century–1291; Rule received 1206–1214",
+      "references": [
+        "carmel"
+      ],
+      "notes": "Religious presence is distinguished from sovereignty or a castle garrison."
+    },
+    "Thessaloniki": {
+      "occupation": "Byzantine until 1204; Latin kingdom 1204–1224; Epirote rule 1224–1246; Nicaean/Byzantine from 1246 to 1291 (continues)",
+      "references": [
+        "thessaloniki",
+        "thessaloniki-latin"
+      ],
+      "review_required": true,
+      "notes": "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+    },
+    "Andravida": {
+      "occupation": "Frankish capital of Achaea from 1205 to 1291 (continues); earlier Byzantine settlement",
+      "references": [
+        "achaea"
+      ],
+      "review_required": true,
+      "notes": "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+    },
+    "Chalkida": {
+      "occupation": "Latin triarchs after 1204/1205; Venetian rights and shared rule from 1209 through 1291",
+      "references": [
+        "negroponte"
+      ],
+      "review_required": true,
+      "notes": "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+    },
+    "Monemvasia": {
+      "occupation": "Frankish capture conventionally 1248 (alternative 1252/1253); Byzantine again from 1262 to 1291 (continues)",
+      "references": [
+        "monemvasia"
+      ],
+      "review_required": true,
+      "notes": "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+    },
+    "Corfu": {
+      "occupation": "Angevin possession from 1267 to 1291 (continues); earlier Byzantine, Norman and Epirote phases",
+      "references": [
+        "corfu"
+      ],
+      "review_required": true,
+      "notes": "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+    },
+    "Zakynthos": {
+      "occupation": "Byzantine until 1185; Norman conquest and county palatine from 1185 through 1291",
+      "references": [
+        "zakynthos"
+      ],
+      "review_required": true,
+      "notes": "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+    },
+    "Gelibolu": {
+      "occupation": "Byzantine; Venetian interval 1204–1235; Byzantine again from 1235 through 1291",
+      "references": [
+        "gallipoli"
+      ],
+      "review_required": true,
+      "notes": "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+    },
+    "Mytilene": {
+      "occupation": "Byzantine island; Latin allocation from 1204; Byzantine reintegration by 1261 (selected phases)",
+      "references": [
+        "lesbos"
+      ],
+      "review_required": true,
+      "notes": "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+    },
+    "Izmir": {
+      "occupation": "Byzantine/Nicaean administrative centre in 12th–13th centuries; officials attested in 1207",
+      "references": [
+        "aegean-byzantine"
+      ],
+      "review_required": true,
+      "notes": "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+    },
+    "Selcuk": {
+      "occupation": "Ephesos/Theologos: Byzantine/Nicaean administrative centre in 12th–13th centuries",
+      "references": [
+        "aegean-byzantine"
+      ],
+      "review_required": true,
+      "notes": "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+    },
+    "Alasehir": {
+      "occupation": "Philadelphia: Byzantine/Nicaean administrative centre in 12th–13th centuries",
+      "references": [
+        "aegean-byzantine"
+      ],
+      "review_required": true,
+      "notes": "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+    },
+    "Sebastia": {
+      "occupation": "Frankish settlement and bishopric, 12th century–July 1187; taken by Saladin’s nephew in 1187",
+      "references": [
+        "sebastia"
+      ],
+      "review_required": true
+    },
+    "Gerasa": {
+      "occupation": "Damascene fort destroyed by Baldwin II in 1121; not established as a lasting Frankish garrison",
+      "references": [
+        "jerash"
+      ],
+      "review_required": true
+    },
+    "Sidon": {
+      "occupation": "Frankish December 1110–July 1187; restored 1197–1291, with shared-control and interruption phases",
+      "references": [
+        "sidon-phases"
+      ],
+      "review_required": true,
+      "notes": "Later condominium and short Muslim occupation phases require local dating; outer dates are not uninterrupted sole Frankish control."
+    },
+    "Beirut": {
+      "occupation": "Frankish 1110–1187; Ayyubid 1187–1197; Frankish again 1197–1291",
+      "references": [
+        "boas"
+      ]
+    },
+    "Hama": {
+      "occupation": "Ayyubid principality from 1175 through 1291; Mamluk suzerainty in the later 13th century",
+      "references": [
+        "hama"
+      ],
+      "review_required": true,
+      "notes": "Selected attested phases; local succession between listed events is not represented as uninterrupted rule."
+    },
+    "Homs": {
+      "occupation": "Ayyubid from late 12th century; Mamluk annexation 1262, continuing through 1291",
+      "references": [
+        "ayyubids",
+        "homs"
+      ],
+      "review_required": true,
+      "notes": "Selected attested phases; local succession between listed events is not represented as uninterrupted rule."
+    },
+    "Baalbek": {
+      "occupation": "Zengi captured the citadel in 1139; Ayyubid emirate from 1175; Mongol capture 1260",
+      "references": [
+        "baalbek"
+      ],
+      "review_required": true,
+      "notes": "Selected attested phases; local succession between listed events is not represented as uninterrupted rule."
+    },
+    "Shaizar": {
+      "occupation": "Banu Munqidh 1081–1157; Nur al-Din took control after the 1157 earthquake",
+      "references": [
+        "shayzar"
+      ],
+      "review_required": true,
+      "notes": "Selected attested phases; local succession between listed events is not represented as uninterrupted rule."
+    },
+    "Bosra": {
+      "occupation": "Zengid governor confirmed 1154; Ayyubid city under al-Adil and successors, 1196–1260; Mongol capture 1260, then Mamluk rule",
+      "references": [
+        "bosra",
+        "bosra-castle"
+      ],
+      "review_required": true,
+      "notes": "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+    },
+    "Anavarza": {
+      "occupation": "Armenian capture 1111; Byzantine interlude 1137–1144; Armenian capital/fortress thereafter (selected phases)",
+      "references": [
+        "anavarza",
+        "anavarza-1111"
+      ],
+      "review_required": true,
+      "notes": "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+    },
+    "Feke": {
+      "occupation": "Armenian capture in the 1090s from a Byzantine garrison; Byzantine recapture in John II’s campaign, 1137/1138",
+      "references": [
+        "vahka",
+        "cilicia-1137"
+      ],
+      "review_required": true,
+      "notes": "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+    },
+    "Tarsus": {
+      "occupation": "Frankish holding before John II’s Byzantine conquest in 1137; Armenian coronation of King Levon in 1198",
+      "references": [
+        "cilicia-1137",
+        "cilicia"
+      ],
+      "review_required": true,
+      "notes": "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+    },
+    "Adana": {
+      "occupation": "Frankish holding before Byzantine conquest in 1137; later Cilician Armenian phases in the 12th–13th centuries",
+      "references": [
+        "cilicia-1137",
+        "cilicia"
+      ],
+      "review_required": true,
+      "notes": "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+    },
+    "Misis": {
+      "occupation": "Frankish Mopsuestia before Byzantine conquest in 1137; later Cilician Armenian phases in the 12th–13th centuries",
+      "references": [
+        "cilicia-1137",
+        "cilicia"
+      ],
+      "review_required": true,
+      "notes": "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+    },
+    "Yumurtalik": {
+      "occupation": "Ayas: port of the Cilician Armenian kingdom in the 13th century; Venetian treaty 1201; Marco Polo’s departure 1271",
+      "references": [
+        "ayas"
+      ],
+      "review_required": true,
+      "notes": "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+    },
+    "Kizkalesi": {
+      "occupation": "Korykos: Byzantine recapture 1137; Armenian possession restored 1163; Armenian coastal stronghold in the 13th century",
+      "references": [
+        "korykos"
+      ],
+      "review_required": true,
+      "notes": "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+    },
+    "Kahramanmaras": {
+      "occupation": "Frankish/Armenian frontier lordship during 1097–1149; conquest by forces of Iconium in 1149",
+      "references": [
+        "marash"
+      ],
+      "review_required": true,
+      "notes": "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+    },
+    "Nafpaktos": {
+      "occupation": "Epirote rule after 1204 through 1291; Angevin transfer occurs after this map period",
+      "references": [
+        "naf"
+      ],
+      "review_required": true,
+      "notes": "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+    },
+    "Lemnos": {
+      "occupation": "Navigajosi Latin lordship from 1207; Byzantine recovery during 1277–1279, then Byzantine through 1291",
+      "references": [
+        "lemnos",
+        "lemnos-return"
+      ],
+      "review_required": true,
+      "notes": "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+    },
+    "Navarino": {
+      "occupation": "Frankish Palaiokastro founded c.1278; late-13th-century holding of Achaea",
+      "references": [
+        "navarino"
+      ],
+      "review_required": true,
+      "notes": "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+    },
+    "Kythira": {
+      "occupation": "Venier lordship, established in early/mid-13th century; Byzantine recovery c.1275",
+      "references": [
+        "kythira"
+      ],
+      "review_required": true,
+      "notes": "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+    },
+    "Santorini": {
+      "occupation": "Barozzi/Latin lordship after 1204, traditionally dated 1207; interrupted in the later 13th century",
+      "references": [
+        "santorini"
+      ],
+      "review_required": true,
+      "notes": "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+    },
+    "Edirne": {
+      "occupation": "Nicaean entry c.1225; contested with the rulers of Thessaloniki in the 1220s",
+      "references": [
+        "nicaea-expansion"
+      ],
+      "review_required": true,
+      "notes": "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+    },
+    "Kos": {
+      "occupation": "Nicaean recovery in the early 13th century; later Hospitaller occupation lies outside 1095–1291",
+      "references": [
+        "nicaea-expansion"
+      ],
+      "review_required": true,
+      "notes": "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+    },
+    "Chios": {
+      "occupation": "Nicaean recovery in the early 13th century; Byzantine imperial island in the 13th century",
+      "references": [
+        "nicaea-expansion"
+      ],
+      "review_required": true,
+      "notes": "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+    },
+    "Leros": {
+      "occupation": "Byzantine castle/monastic holdings granted to Christodoulos in 1087/1088; later Hospitaller occupation falls after 1291",
+      "references": [
+        "leros"
+      ],
+      "review_required": true,
+      "notes": "Selected dated attestation; not a claim that all intervening local transitions have been resolved."
+    },
+    "Tinos": {
+      "occupation": "Ghisi Latin lordship from 1207 through 1291 (continues)",
+      "references": [
+        "tinos"
+      ],
+      "review_required": true,
+      "notes": "Selected dated attestation; not a claim that all intervening local transitions have been resolved."
+    },
+    "Iskenderun": {
+      "occupation": "Alexandretta: Templar station/fortress attested in 1155; exact local tenure endpoints remain unestablished",
+      "references": [
+        "alexandretta"
+      ],
+      "review_required": true,
+      "notes": "Selected dated attestation; not a claim that all intervening local transitions have been resolved."
+    },
+    "Bodrum": {
+      "occupation": "The Hospitaller castle belongs to 1404 onward, outside 1095–1291; retained only as a geographic cross-reference",
+      "display_title": "Bodrum (later castle; outside period)",
+      "references": [
+        "original-catalog"
+      ],
+      "in_scope": false,
+      "review_required": true
+    },
+    "Arwad": {
+      "occupation": "The cataloged Templar holding, 1302–1303, is outside 1095–1291; retained only as an island reference",
+      "display_title": "Arwad (later Templar holding)",
+      "references": [
+        "original-catalog"
+      ],
+      "in_scope": false,
+      "review_required": true
+    }
+  },
+  "sieges": {
+    "Jerusalem": [
+      {
+        "period": "7 June–15 July 1099",
+        "from_year": 1099,
+        "through_year": 1099,
+        "references": [
+          "jerusalem"
+        ]
+      },
+      {
+        "period": "20 September–2 October 1187",
+        "from_year": 1187,
+        "through_year": 1187,
+        "references": [
+          "jerusalem"
+        ]
+      }
+    ],
+    "Akko": [
+      {
+        "period": "1189–1191",
+        "from_year": 1189,
+        "through_year": 1191,
+        "references": [
+          "archaeology",
+          "siege-study"
+        ]
+      },
+      {
+        "period": "1291",
+        "from_year": 1291,
+        "through_year": 1291,
+        "references": [
+          "archaeology"
+        ]
+      }
+    ],
+    "Antakya": [
+      {
+        "period": "1097–1098",
+        "from_year": 1097,
+        "through_year": 1098,
+        "references": [
+          "archaeology"
+        ]
+      },
+      {
+        "period": "1268",
+        "from_year": 1268,
+        "through_year": 1268,
+        "references": [
+          "archaeology"
+        ]
+      }
+    ],
+    "Kerak": [
+      {
+        "period": "1183; 1184; 1187–1188",
+        "from_year": 1183,
+        "through_year": 1188,
+        "references": [
+          "siege-study"
+        ],
+        "note": "Three separate sieges, not one continuous siege from 1183."
+      }
+    ],
+    "Kokhav HaYarden": [
+      {
+        "period": "1187–January 1189 (blockade/siege phases)",
+        "from_year": 1187,
+        "through_year": 1189,
+        "references": [
+          "belvoir"
+        ]
+      }
+    ],
+    "Montfort": [
+      {
+        "period": "1266",
+        "from_year": 1266,
+        "through_year": 1266,
+        "references": [
+          "montfort-sieges"
+        ]
+      },
+      {
+        "period": "June 1271",
+        "from_year": 1271,
+        "through_year": 1271,
+        "references": [
+          "montfort",
+          "montfort-sieges"
+        ]
+      }
+    ],
+    "Atlit": [
+      {
+        "period": "1218–1220 (reported attack/siege campaigns)",
+        "from_year": 1218,
+        "through_year": 1220,
+        "references": [
+          "siege-study"
+        ],
+        "note": "Chronicles and modern accounts differ on the individual campaign date; not a continuous two-year siege."
+      }
+    ],
+    "Jaffa": [
+      {
+        "period": "July–August 1192 (siege and relief)",
+        "from_year": 1192,
+        "through_year": 1192,
+        "references": [
+          "jaffa"
+        ]
+      }
+    ],
+    "Qal'at al-Hisn": [
+      {
+        "period": "1271",
+        "from_year": 1271,
+        "through_year": 1271,
+        "references": [
+          "siege-study"
+        ]
+      }
+    ],
+    "Qal'at al-Marqab": [
+      {
+        "period": "1285",
+        "from_year": 1285,
+        "through_year": 1285,
+        "references": [
+          "siege-study"
+        ]
+      }
+    ],
+    "Safed": [
+      {
+        "period": "1266",
+        "from_year": 1266,
+        "through_year": 1266,
+        "references": [
+          "archaeology"
+        ]
+      }
+    ],
+    "Arqa": [
+      {
+        "period": "1099 (unsuccessful siege)",
+        "from_year": 1099,
+        "through_year": 1099,
+        "references": [
+          "archaeology"
+        ],
+        "review_required": true
+      }
+    ],
+    "Mount Tabor": [
+      {
+        "period": "1183; 1217 (separate siege attempts)",
+        "from_year": 1183,
+        "through_year": 1217,
+        "references": [
+          "oxford-guide"
+        ],
+        "note": "Separate events, not a continuous siege."
+      }
+    ],
+    "Monemvasia": [
+      {
+        "period": "Long siege ending 1248 (alternative conquest date 1252/1253)",
+        "from_year": 1248,
+        "through_year": 1253,
+        "references": [
+          "monemvasia"
+        ],
+        "note": "Conquest dating is disputed; this numeric interval brackets alternatives, not a proven five-year siege."
+      }
+    ],
+    "Iznik": [
+      {
+        "period": "1097",
+        "from_year": 1097,
+        "through_year": 1097,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Tiberias": [
+      {
+        "period": "July 1187",
+        "from_year": 1187,
+        "through_year": 1187,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Jacob's Ford": [
+      {
+        "period": "1179",
+        "from_year": 1179,
+        "through_year": 1179,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Caesarea": [
+      {
+        "period": "1265",
+        "from_year": 1265,
+        "through_year": 1265,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Arnoun": [
+      {
+        "period": "1268",
+        "from_year": 1268,
+        "through_year": 1268,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Shobak": [
+      {
+        "period": "1187–1189",
+        "from_year": 1187,
+        "through_year": 1189,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Qal'at Salah ad-Din": [
+      {
+        "period": "1188",
+        "from_year": 1188,
+        "through_year": 1188,
+        "references": [
+          "syrian-campaign",
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Latakia": [
+      {
+        "period": "1188",
+        "from_year": 1188,
+        "through_year": 1188,
+        "references": [
+          "syrian-campaign",
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      },
+      {
+        "period": "1287",
+        "from_year": 1287,
+        "through_year": 1287,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Bourzey": [
+      {
+        "period": "1188",
+        "from_year": 1188,
+        "through_year": 1188,
+        "references": [
+          "syrian-campaign",
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Shaizar": [
+      {
+        "period": "1138",
+        "from_year": 1138,
+        "through_year": 1138,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Bagras": [
+      {
+        "period": "1188",
+        "from_year": 1188,
+        "through_year": 1188,
+        "references": [
+          "syrian-campaign",
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Darbsak": [
+      {
+        "period": "1188",
+        "from_year": 1188,
+        "through_year": 1188,
+        "references": [
+          "syrian-campaign",
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Sidon": [
+      {
+        "period": "1110",
+        "from_year": 1110,
+        "through_year": 1110,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Beirut": [
+      {
+        "period": "February–13 May 1110",
+        "from_year": 1110,
+        "through_year": 1110,
+        "references": [
+          "boas"
+        ]
+      },
+      {
+        "period": "1187 (eight-day siege)",
+        "from_year": 1187,
+        "through_year": 1187,
+        "references": [
+          "boas"
+        ]
+      }
+    ],
+    "Tartus": [
+      {
+        "period": "1188 (town attacked; Templar citadel held)",
+        "from_year": 1188,
+        "through_year": 1188,
+        "references": [
+          "syrian-campaign",
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Tripoli": [
+      {
+        "period": "1102–1109 (intermittent blockade and campaigns)",
+        "from_year": 1102,
+        "through_year": 1109,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      },
+      {
+        "period": "1289",
+        "from_year": 1289,
+        "through_year": 1289,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Tyre": [
+      {
+        "period": "1111–1112",
+        "from_year": 1111,
+        "through_year": 1112,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      },
+      {
+        "period": "1124",
+        "from_year": 1124,
+        "through_year": 1124,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      },
+      {
+        "period": "1187–1188",
+        "from_year": 1187,
+        "through_year": 1188,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Corinth": [
+      {
+        "period": "c.1205–1210 (prolonged resistance/campaigns)",
+        "from_year": 1205,
+        "through_year": 1210,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true,
+        "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+      }
+    ],
+    "Damietta": [
+      {
+        "period": "1169 (unsuccessful Franco-Byzantine siege)",
+        "from_year": 1169,
+        "through_year": 1169,
+        "references": [
+          "siege-study"
+        ],
+        "review_required": true
+      },
+      {
+        "period": "1218–1219",
+        "from_year": 1218,
+        "through_year": 1219,
+        "references": [
+          "siege-study"
+        ]
+      },
+      {
+        "period": "June 1249 (landing and capture)",
+        "from_year": 1249,
+        "through_year": 1249,
+        "references": [
+          "siege-study"
+        ],
+        "note": "Rapid capture after a landing, not a prolonged siege."
+      }
+    ],
+    "Baalbek": [
+      {
+        "period": "1139",
+        "from_year": 1139,
+        "through_year": 1139,
+        "references": [
+          "baalbek"
+        ],
+        "review_required": true
+      }
+    ]
+  }
+}

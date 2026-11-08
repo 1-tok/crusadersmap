@@ -1,4 +1,8 @@
-# Outremer: the Crusader States, 1095 to 1571
+# Crusader Period, 1095–1291
+
+The current period edition focuses on the mainland Crusader States, with Aegean and Egyptian context. Open the [searchable occupation and siege map](previews/Crusader-Period-1095-1291.html), [map preview](previews/Crusader-Period-1095-1291.jpg), [print SVG](print/Crusader-Period-1095-1291.svg), or [147-site gazetteer](data/manifests/crusader-period/GAZETTEER.md). Each numbered site has occupation and siege fields, with sources and unresolved local dates identified explicitly. Siege coverage is selective, not exhaustive.
+
+Rebuild this edition with `python3 build_period_map.py` (Pillow, NumPy, SciPy, Shapely and pyproj). The original `Outremer-*` print files are archived outputs from the earlier 1095–1571 scope.
 
 Hand-drawn map of the Eastern Mediterranean for print, 36 x 48 in portrait (10800 x 14400 px at 300 dpi), in parchment and full colour editions.
 

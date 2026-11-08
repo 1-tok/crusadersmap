@@ -6,6 +6,7 @@ from build_stage1 import *          # regions, terrain, base_for, composite, pla
 import lettering as LT
 import placer as PC
 import keypanel as KP
+from period_history import within
 
 def _rng(a, b, st):
     n = int(round((b - a) / st))
@@ -58,6 +59,7 @@ def choose_polities(items):
         t = TER[k]; sc = t.lw / t.W
         out[k] = []
         for nm, mod, dt, base, mx, dlons, dlats, sea_ok in lst:
+            dt=within(dt)
             best = None
             for dlo in dlons:
                 for dla in dlats:
@@ -225,9 +227,9 @@ def draw_ink2(edition, surf=None, scale=None, mode=None):
     plate(c, 300, 4800, 2000, 4300)
     KP.draw_key(c, edition, 300, 4800, 2000, 4300)
     plate(c, 2700, 6750, 2700, 1000)
-    centred(c, "Outremer", 4050, 7300, 190)
+    centred(c, "Crusader Period", 4050, 7300, 150)
     centred(c, "The Crusader States and their Neighbours", 4050, 7480, 62)
-    centred(c, "1095 - 1571", 4050, 7640, 52, SEP, "IM FELL English", cairo.FONT_SLANT_ITALIC)
+    centred(c, "1095 - 1291", 4050, 7640, 52, SEP, "IM FELL English", cairo.FONT_SLANT_ITALIC)
     plate(c, 190, 13920, 10420, 330)
     KP.draw_sources(c, 190, 13920, 10420, 330, {k: (REG[k].x1 - REG[k].x0) / REG[k].w for k in ("main", "aegean", "delta")})
     c.new_path()

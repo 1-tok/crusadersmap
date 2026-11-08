@@ -4,6 +4,7 @@ import math
 import numpy as np
 import cairo
 import profiles as PR, marks as MK, places as PL
+from period_history import within, label_record
 from hand import Pen
 
 INKC = (0.17, 0.13, 0.10); SEP = (0.42, 0.32, 0.22); RED = (0.59, 0.125, 0.11)
@@ -185,7 +186,15 @@ def build_items(TER, REG, BOX):
     items = []
     for t in PL.PLACES:
         region, tier, mark, lon, lat, name, alt, modern, dates, arms = t
-        it = Item(); it.__dict__.update(region=region, tier=tier, mark=mark, name=name, alt=alt, modern=modern, dates=dates, arms=arms, kind="place")
+        record=label_record(region,name)
+        if record and not record.get('in_scope',True):
+            continue
+        if dates and not within(dates) and record and record['occupation_status']=='local-occupation-dates-unresolved':
+            # A later fortress/holding is not an active 1095–1291 site depiction.
+            continue
+        it = Item(); it.__dict__.update(region=region, tier=tier, mark=mark, name=name, alt=alt, modern=modern,
+            dates=record['occupation'] if record else within(dates), arms=arms, kind="place",
+            period_record=record)
         bx, by = BOX[region]
         px, py = REG[region].ll_px(lon, lat)
         it.x, it.y = bx + px, by + py
@@ -195,6 +204,9 @@ def build_items(TER, REG, BOX):
         items.append(it)
     for b in PL.BATTLES:
         region, kind, lon, lat, name, modern, year = b
+        year=within(year)
+        if not year:
+            continue
         it = Item(); it.__dict__.update(region=region, tier=2, mark="M:" + {"battle": "battle", "siege": "siege", "sea": "sea_battle"}[kind], name=name, alt="", modern=modern, dates=year, arms=(), kind=kind)
         bx, by = BOX[region]
         px, py = REG[region].ll_px(lon, lat)
@@ -275,6 +287,9 @@ def label_lines(it):
         lines.append((it.modern, 0.80, "m"))
     if it.dates:
         lines.append((it.dates, 0.66, "d"))
+    record=getattr(it,'period_record',None)
+    if record and record['sieges']:
+        lines.append(('Sieges: '+record['siege_label'],0.66,'d'))
     return lines
 
 
