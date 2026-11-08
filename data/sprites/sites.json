@@ -292,7 +292,15 @@
         ],
         "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
       },
-      "period_1180_eligible": false
+      "period_1180_eligible": false,
+      "construction": {
+        "started_year": 1226,
+        "date_type": "construction_commencement",
+        "references": [
+          "https://moses.creighton.edu/vr/Montfort/txt/intro.html"
+        ],
+        "note": "Construction commenced in 1226; multiple subsequent phases, not a single completion date."
+      }
     },
     "chateau-pelerin": {
       "historical_name": "Château Pèlerin",
@@ -318,7 +326,15 @@
         ],
         "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
       },
-      "period_1180_eligible": false
+      "period_1180_eligible": false,
+      "construction": {
+        "started_year": 1218,
+        "date_type": "construction_commencement",
+        "references": [
+          "https://theses.gla.ac.uk/30916/1/2018haberlinphd.pdf"
+        ],
+        "note": "1218 is the conventional commencement date used in this catalog. Archaeological reports also describe work in 1217–1218. This label does not certify completion of every depicted structure."
+      }
     },
     "tortosa": {
       "historical_name": "Tortosa",

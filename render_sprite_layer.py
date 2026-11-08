@@ -9,14 +9,15 @@ from html import escape
 from pathlib import Path
 from PIL import Image, ImageDraw
 import frame
-from sprite_catalog import BASE, ROOT, placements
+from sprite_catalog import BASE, ROOT, placements, atlas_placements
 
 
-def render(year=1180):
+def render(year=1180, atlas=False):
     catalog=json.loads((BASE/'catalog.json').read_text())
-    chosen=placements(catalog,year)
+    chosen=atlas_placements(catalog) if atlas else placements(catalog,year)
+    suffix='atlas' if atlas else str(year)
     svg=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{frame.W}" height="{frame.H}" viewBox="0 0 {frame.W} {frame.H}">',
-         '<title>Provisional circa-'+str(year)+' sprite layer; repaint review required</title>']
+         '<title>Provisional '+('multi-period atlas' if atlas else 'circa-'+str(year))+' sprite layer; repaint review required</title>']
     # Diagnostic on neutral paper with a geographic grid, not a finished atlas.
     scale=.3
     preview=Image.new('RGB',(int(frame.W*scale),int(frame.H*scale)),'#eee9dc')
@@ -33,13 +34,15 @@ def render(year=1180):
         width=e['display_width_units']; height=width*im.height/im.width
         ax,ay=e['anchor_normalized']; x=px-ax*width;y=py-ay*height
         encoded=base64.b64encode((BASE/e['asset']).read_bytes()).decode('ascii')
-        svg.append(f'<image id="{escape(e["id"])}" x="{x:.3f}" y="{y:.3f}" width="{width}" height="{height:.3f}" href="data:image/png;base64,{encoded}"/>')
+        svg.append(f'<image id="{escape(e["id"])}" x="{x:.3f}" y="{y:.3f}" width="{width}" height="{height:.3f}" href="data:image/png;base64,{encoded}"><title>{escape(e["name"])}</title></image>')
+        if not e['period_1180_eligible']:
+            svg.append(f'<text x="{px:.3f}" y="{py+40:.3f}" font-family="serif" font-size="32" text-anchor="middle" fill="#315b9a">{escape(e["name"])}</text>')
         thumb=im.resize((round(width*scale),round(height*scale)),Image.Resampling.LANCZOS)
         preview.paste(thumb,(round(x*scale),round(y*scale)),thumb)
         draw.ellipse((px*scale-2,py*scale-2,px*scale+2,py*scale+2),fill='#a03333')
         draw.text((px*scale+5,py*scale+5),e['name'],fill='#30251e')
     svg.append('</svg>')
-    (ROOT/f'previews/sprite-layer-{year}.svg').write_text('\n'.join(svg)+'\n')
+    (ROOT/f'previews/sprite-layer-{suffix}.svg').write_text('\n'.join(svg)+'\n')
     # Crop diagnostic to relevant mainland area; retain full-sheet SVG above.
     box=preview.getbbox()
     if chosen:
@@ -48,12 +51,14 @@ def render(year=1180):
             x,y=frame.to_px(*e['coordinates']);xs.append(x*scale);ys.append(y*scale)
         box=(max(0,int(min(xs)-400)),max(0,int(min(ys)-350)),min(preview.width,int(max(xs)+400)),min(preview.height,int(max(ys)+150)))
     preview=preview.crop(box)
-    ImageDraw.Draw(preview).text((15,15),f'{year}: provisional placement review / grid only / red dots = anchors',fill='#30251e')
-    preview.save(ROOT/f'previews/sprite-placement-{year}.jpg',quality=93)
+    ImageDraw.Draw(preview).text((15,15),f'{suffix}: provisional placement review / grid only / red dots = anchors',fill='#30251e')
+    preview.save(ROOT/f'previews/sprite-placement-{suffix}.jpg',quality=93)
     print('Rendered',len(chosen),'sprites; self-contained SVG uses atlas frame.py projection')
 
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--year',type=int,default=1180)
-    render(parser.parse_args().year)
+    parser.add_argument('--atlas',action='store_true',help='Include dated later sites in the multi-period atlas view')
+    args=parser.parse_args()
+    render(args.year,atlas=args.atlas)

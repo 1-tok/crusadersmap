@@ -52,3 +52,9 @@ The inherited packaging trims low-alpha export noise and tiny detached component
 Coordinate conflicts are retained in uncertainty notes: Acre uses the UNESCO periodic-report Old City point, and Krak uses the current UNESCO map point rather than inconsistent older nomination coordinates. Shobak moves east to the published castle location. Tripoli uses coastal El Mina rather than inland later Tripoli. Sources vary in precision and authority; representative city points are not exact medieval centroids.
 
 Catalog generation validates unique IDs, safe lowercase PNG paths, RGBA alpha, transparent padding and hashes. Pixel-and-dimension SHA-256 detects identical PNG artwork independent of encoding; artistic alternatives remain separate. All 56 catalog records pass QA, representing 40 distinct normalized RGBA artworks and fifteen preferred 1180 placements. `recovery.json` documents completed archive recovery. The five newly added city anchors inherit approximate `places.py` coordinates; they are not newly surveyed locations.
+
+## Later sites with construction dates
+
+The multi-period atlas view includes **Montfort (begun 1226)** and **Château Pèlerin (begun 1218)** in their display titles. `sites.json` holds construction-date references and date-type notes; catalog titles, placement exports, SVG titles and later-castle labels inherit those fields. `placements-atlas.geojson` and `sprite-layer-atlas.svg` include seventeen sites. Blue markers distinguish the two later additions in `sprite-placement-markup.jpg`. This combined view is not a single-year reconstruction. The strict 1180 layer remains fifteen sites with both later castles excluded.
+
+Montfort commencement: https://moses.creighton.edu/vr/Montfort/txt/intro.html . Château Pèlerin conventional commencement: https://theses.gla.ac.uk/30916/1/2018haberlinphd.pdf . Archaeological reports also give 1217–1218 for the initial work: https://www.crfj.org/wp-content/uploads/2019/12/Rapport-CRFJ-2018.pdf .

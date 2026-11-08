@@ -55,6 +55,19 @@ def placements(catalog, year):
     return [by_site[k] for k in sorted(by_site)]
 
 
+def atlas_placements(catalog):
+    """Multi-period editorial view: 1180 sites plus approved later sites, dated."""
+    by_site={e['site_id']:e for e in placements(catalog,1180)}
+    for e in catalog['assets']:
+        if e.get('period_1180_eligible',True) or not e.get('asset'):
+            continue
+        if not e['approval']['provisional_map_use'] or e['technical_qa']['status']!='pass':
+            continue
+        if e['site_id'] not in by_site or e['selection_priority']>by_site[e['site_id']]['selection_priority']:
+            by_site[e['site_id']]=e
+    return [by_site[k] for k in sorted(by_site)]
+
+
 def build():
     legacy = read(BASE/'manifest.json')
     oldqa = {e['id']: e for e in read(BASE/'validation.json')['sprites']}
@@ -154,6 +167,11 @@ def enrich(catalog):
         e['coordinate_evidence'] = s['coordinate_evidence']
         e['coordinates_surveyed'] = False
         e['historical_name'], e['alternate_names'] = s['historical_name'], s['alternate_names']
+        if 'construction' in s:
+            e['construction']=s['construction']
+            e['undated_name']=s['historical_name']
+            e['name']=f"{s['historical_name']} (begun {s['construction']['started_year']})"
+        e['display_title']=e['name']
         e['site_type'] = e['category']
         e['date_ranges'] = dict(site_frankish_phase=s['crusader_phase'], approved_art=e['availability'])
         e['period_1180_eligible'] = s['period_1180_eligible']
@@ -193,6 +211,7 @@ def export(catalog, year):
                 anchor_normalized=e['anchor_normalized'], display_width_units=e['display_width_units'],
                 status=e['approval']['status'], repaint_later=True, year=year)))
         features[-1]['properties'].update(approval_for_placement=e['approval_for_placement'],
+            display_title=e['display_title'],construction=e.get('construction'),
             map_layers=e['map_layers'], historical_name=e['historical_name'],
             coordinate_evidence=e['coordinate_evidence'], visual_footprint=e['visual_footprint'])
     path=BASE/f'placements-{year}.geojson'
