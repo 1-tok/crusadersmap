@@ -319,6 +319,136 @@
         "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
       },
       "period_1180_eligible": false
+    },
+    "tortosa": {
+      "historical_name": "Tortosa",
+      "alternate_names": [
+        "Tartus",
+        "Tartous"
+      ],
+      "latitude": 34.89,
+      "longitude": 35.89,
+      "coordinate_evidence": {
+        "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "published_value": "35.89, 34.89",
+        "accessed": "2026-11-08",
+        "anchor_kind": "Inherited map catalog representative point",
+        "method": "Exact transcription of repository places.py; no new geodetic verification",
+        "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+      },
+      "crusader_phase": {
+        "from_year": 1152,
+        "through_year": 1291,
+        "references": [
+          "https://whc.unesco.org/en/tentativelists/1301/"
+        ],
+        "scope": "Working site eligibility, not complete political-control history or certification of depicted architecture."
+      },
+      "period_1180_eligible": true
+    },
+    "sidon": {
+      "historical_name": "Sidon",
+      "alternate_names": [
+        "Sayda",
+        "Saiete"
+      ],
+      "latitude": 33.56,
+      "longitude": 35.37,
+      "coordinate_evidence": {
+        "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "published_value": "35.37, 33.56",
+        "accessed": "2026-11-08",
+        "anchor_kind": "Inherited map catalog representative point",
+        "method": "Exact transcription of repository places.py; no new geodetic verification",
+        "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+      },
+      "crusader_phase": {
+        "from_year": 1110,
+        "through_year": 1187,
+        "references": [
+          "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py"
+        ],
+        "scope": "Working site eligibility, not complete political-control history or certification of depicted architecture."
+      },
+      "period_1180_eligible": true
+    },
+    "caesarea": {
+      "historical_name": "Caesarea",
+      "alternate_names": [
+        "Cesaire",
+        "Qaysariyya"
+      ],
+      "latitude": 32.5,
+      "longitude": 34.89,
+      "coordinate_evidence": {
+        "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "published_value": "34.89, 32.5",
+        "accessed": "2026-11-08",
+        "anchor_kind": "Inherited map catalog representative point",
+        "method": "Exact transcription of repository places.py; no new geodetic verification",
+        "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+      },
+      "crusader_phase": {
+        "from_year": 1101,
+        "through_year": 1187,
+        "references": [
+          "https://hadashot.iaa.org.il/report_detail_eng.aspx?id=13"
+        ],
+        "scope": "Working site eligibility, not complete political-control history or certification of depicted architecture."
+      },
+      "period_1180_eligible": true
+    },
+    "jaffa": {
+      "historical_name": "Jaffa",
+      "alternate_names": [
+        "Japhe",
+        "Yafa"
+      ],
+      "latitude": 32.05,
+      "longitude": 34.75,
+      "coordinate_evidence": {
+        "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "published_value": "34.75, 32.05",
+        "accessed": "2026-11-08",
+        "anchor_kind": "Inherited map catalog representative point",
+        "method": "Exact transcription of repository places.py; no new geodetic verification",
+        "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+      },
+      "crusader_phase": {
+        "from_year": 1099,
+        "through_year": 1187,
+        "references": [
+          "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py"
+        ],
+        "scope": "Working site eligibility, not complete political-control history or certification of depicted architecture."
+      },
+      "period_1180_eligible": true
+    },
+    "arqah": {
+      "historical_name": "Arqa",
+      "alternate_names": [
+        "Arqah",
+        "Arka"
+      ],
+      "latitude": 34.52,
+      "longitude": 36.0,
+      "coordinate_evidence": {
+        "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "published_value": "36.0, 34.52",
+        "accessed": "2026-11-08",
+        "anchor_kind": "Inherited map catalog representative point",
+        "method": "Exact transcription of repository places.py; no new geodetic verification",
+        "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+      },
+      "crusader_phase": {
+        "from_year": 1109,
+        "through_year": 1289,
+        "references": [
+          "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py"
+        ],
+        "scope": "Working site eligibility, not complete political-control history or certification of depicted architecture."
+      },
+      "period_1180_eligible": true
     }
   }
 }

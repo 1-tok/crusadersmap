@@ -1,0 +1,119 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "archive-crs-011-chateau-pelerin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.93388888888889,
+          32.70528055555556
+        ]
+      },
+      "properties": {
+        "site_id": "chateau-pelerin",
+        "name": "Château Pèlerin (Atlit)",
+        "asset": "archive-1180/clean/archive-crs-011-chateau-pelerin.png",
+        "anchor_normalized": [
+          0.5,
+          0.9726962457337884
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional-later-period",
+        "repaint_later": true,
+        "year": 1250,
+        "approval_for_placement": false,
+        "map_layers": [
+          "sprites-later-period",
+          "fortifications"
+        ],
+        "historical_name": "Château Pèlerin",
+        "coordinate_evidence": {
+          "url": "https://commons.wikimedia.org/wiki/Category:Chateau_Pelerin",
+          "published_value": "32°42′19.01″N 34°56′02″E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Templar fortress dates to 1218; not an 1180 asset. Earlier nearby fortifications do not justify using this fortress."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            402,
+            293
+          ],
+          "painted_bounds_xyxy": [
+            8,
+            8,
+            394,
+            285
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 373.1741293532338,
+          "anchor_normalized": [
+            0.5,
+            0.9726962457337884
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-012-montfort",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22611,
+          33.04472
+        ]
+      },
+      "properties": {
+        "site_id": "montfort",
+        "name": "Montfort",
+        "asset": "archive-1180/clean/archive-crs-012-montfort.png",
+        "anchor_normalized": [
+          0.5,
+          0.993485342019544
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional-later-period",
+        "repaint_later": true,
+        "year": 1250,
+        "approval_for_placement": false,
+        "map_layers": [
+          "sprites-later-period",
+          "fortifications"
+        ],
+        "historical_name": "Montfort",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Montfort_Castle",
+          "published_value": "33.04472 N 35.22611 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "1226 is construction start; later depiction needs phase review. Main Teutonic castle is anachronistic in 1180."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1259,
+            1228
+          ],
+          "painted_bounds_xyxy": [
+            8,
+            8,
+            1251,
+            1220
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 499.3931691818904,
+          "anchor_normalized": [
+            0.5,
+            0.993485342019544
+          ],
+          "geographic_scale": false
+        }
+      }
+    }
+  ]
+}

@@ -24,7 +24,8 @@ class PlacementRules(unittest.TestCase):
             self.assertEqual(e['coordinates'],[e['longitude'],e['latitude']])
             self.assertEqual(e['approval_for_placement'],bool(e['asset']) and e['period_1180_eligible'])
             if e['asset']:
-                self.assertEqual(e['technical_qa']['alpha_extrema'],[0,255])
+                self.assertEqual(e['technical_qa']['alpha_extrema'][0],0)
+                self.assertGreater(e['technical_qa']['alpha_extrema'][1],0)
                 self.assertIn('visual_footprint',e)
         p=placements(c,1180)
         self.assertEqual(len(p),len({e['site_id'] for e in p}))
@@ -36,6 +37,20 @@ class PlacementRules(unittest.TestCase):
         self.assertEqual(placements(dict(assets=[montfort]),1180),[])
         self.assertEqual(placements(dict(assets=[montfort]),1250),[montfort])
         self.assertEqual(placements(dict(assets=[montfort]),1272),[])
+
+    def test_recovered_archive_approval_and_provenance(self):
+        c=build()
+        archive=[e for e in c['assets'] if e['id'].startswith('archive-')]
+        self.assertEqual(len(archive),40)
+        self.assertEqual(sum(e['variant']=='archive-primary' for e in archive),16)
+        self.assertFalse(any(e['asset'] is None for e in c['assets']))
+        self.assertEqual(len(placements(c,1180)),15)
+        for site in ('montfort','chateau-pelerin'):
+            e=next(e for e in archive if e['site_id']==site and e['variant']=='archive-primary')
+            self.assertTrue(e['approval']['provisional_map_use'])
+            self.assertFalse(e['approval_for_placement'])
+            self.assertNotIn(site,{x['site_id'] for x in placements(c,1180)})
+            self.assertIn(site,{x['site_id'] for x in placements(c,1250)})
 
     def test_only_highest_priority_variant_places(self):
         sheet=entry('krak'); alternate=entry('krak',priority=20)

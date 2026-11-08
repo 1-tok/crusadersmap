@@ -117,6 +117,63 @@
     },
     {
       "type": "Feature",
+      "id": "archive-crs-025-arqah",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0,
+          34.52
+        ]
+      },
+      "properties": {
+        "site_id": "arqah",
+        "name": "Arqah",
+        "asset": "archive-1180/clean/archive-crs-025-arqah.png",
+        "anchor_normalized": [
+          0.5,
+          0.972318339100346
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Arqa",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "36.0, 34.52",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            377,
+            289
+          ],
+          "painted_bounds_xyxy": [
+            8,
+            8,
+            369,
+            281
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 392.48806366047745,
+          "anchor_normalized": [
+            0.5,
+            0.972318339100346
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "belvoir-1180-v2",
       "geometry": {
         "type": "Point",
@@ -231,6 +288,120 @@
     },
     {
       "type": "Feature",
+      "id": "archive-crs-023-caesarea",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89,
+          32.5
+        ]
+      },
+      "properties": {
+        "site_id": "caesarea",
+        "name": "Caesarea",
+        "asset": "archive-1180/clean/archive-crs-023-caesarea.png",
+        "anchor_normalized": [
+          0.5,
+          0.9813953488372092
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Caesarea",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "34.89, 32.5",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            784,
+            430
+          ],
+          "painted_bounds_xyxy": [
+            8,
+            8,
+            776,
+            422
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 280.81632653061223,
+          "anchor_normalized": [
+            0.5,
+            0.9813953488372092
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-024-jaffa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          32.05
+        ]
+      },
+      "properties": {
+        "site_id": "jaffa",
+        "name": "Jaffa",
+        "asset": "archive-1180/clean/archive-crs-024-jaffa.png",
+        "anchor_normalized": [
+          0.5,
+          0.9814814814814815
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Jaffa",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "34.75, 32.05",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            775,
+            432
+          ],
+          "painted_bounds_xyxy": [
+            8,
+            8,
+            767,
+            424
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 285.39870967741933,
+          "anchor_normalized": [
+            0.5,
+            0.9814814814814815
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "jerusalem-1180-v2",
       "geometry": {
         "type": "Point",
@@ -288,7 +459,7 @@
     },
     {
       "type": "Feature",
-      "id": "CAST-003",
+      "id": "archive-crs-007-kerak",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -299,10 +470,10 @@
       "properties": {
         "site_id": "kerak",
         "name": "Kerak",
-        "asset": "png/kerak.png",
+        "asset": "archive-1180/clean/archive-crs-007-kerak.png",
         "anchor_normalized": [
           0.5,
-          0.9785522788203753
+          0.9934479934479934
         ],
         "display_width_units": 512,
         "status": "approved-provisional",
@@ -324,20 +495,20 @@
         },
         "visual_footprint": {
           "canvas_px": [
-            454,
-            373
+            1255,
+            1221
           ],
           "painted_bounds_xyxy": [
             8,
             8,
-            446,
-            365
+            1247,
+            1213
           ],
           "display_width_atlas_px": 512,
-          "display_height_atlas_px": 420.6519823788546,
+          "display_height_atlas_px": 498.12908366533867,
           "anchor_normalized": [
             0.5,
-            0.9785522788203753
+            0.9934479934479934
           ],
           "geographic_scale": false
         }
@@ -345,7 +516,7 @@
     },
     {
       "type": "Feature",
-      "id": "CAST-001-STANDALONE",
+      "id": "archive-crs-005-krak-des-chevaliers",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -402,7 +573,7 @@
     },
     {
       "type": "Feature",
-      "id": "CAST-004",
+      "id": "archive-crs-008-montreal-shobak",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -413,10 +584,10 @@
       "properties": {
         "site_id": "montreal-shobak",
         "name": "Montréal (Shobak)",
-        "asset": "png/montreal-shobak.png",
+        "asset": "archive-1180/clean/archive-crs-008-montreal-shobak.png",
         "anchor_normalized": [
           0.5,
-          0.9782608695652174
+          0.9933993399339934
         ],
         "display_width_units": 512,
         "status": "approved-provisional",
@@ -438,20 +609,134 @@
         },
         "visual_footprint": {
           "canvas_px": [
-            440,
-            368
+            1247,
+            1212
           ],
           "painted_bounds_xyxy": [
             8,
             8,
-            432,
-            360
+            1239,
+            1204
           ],
           "display_width_atlas_px": 512,
-          "display_height_atlas_px": 428.2181818181818,
+          "display_height_atlas_px": 497.6295108259824,
           "anchor_normalized": [
             0.5,
-            0.9782608695652174
+            0.9933993399339934
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-022-sidon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.37,
+          33.56
+        ]
+      },
+      "properties": {
+        "site_id": "sidon",
+        "name": "Sidon",
+        "asset": "archive-1180/clean/archive-crs-022-sidon.png",
+        "anchor_normalized": [
+          0.5,
+          0.9823399558498896
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Sidon",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "35.37, 33.56",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            780,
+            453
+          ],
+          "painted_bounds_xyxy": [
+            8,
+            8,
+            772,
+            445
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 297.3538461538462,
+          "anchor_normalized": [
+            0.5,
+            0.9823399558498896
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-009-tortosa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.89,
+          34.89
+        ]
+      },
+      "properties": {
+        "site_id": "tortosa",
+        "name": "Tortosa (Tartus)",
+        "asset": "archive-1180/clean/archive-crs-009-tortosa.png",
+        "anchor_normalized": [
+          0.5,
+          0.9712230215827338
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Tortosa",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "35.89, 34.89",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            399,
+            278
+          ],
+          "painted_bounds_xyxy": [
+            8,
+            8,
+            391,
+            270
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 356.7318295739348,
+          "anchor_normalized": [
+            0.5,
+            0.9712230215827338
           ],
           "geographic_scale": false
         }

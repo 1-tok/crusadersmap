@@ -12,17 +12,21 @@ The default brief is **circa 1180**. The existing atlas is a multi-period work c
 
 Only the explicitly reviewed 1180 brief is enabled for recovered images. Other years require additional phase review rather than automatically reusing an 1180 painting across the whole atlas timeline.
 
-## Montfort
+## Montfort and Château Pèlerin
 
-**Do not place the main Teutonic castle in 1180.** Creighton University's archaeological overview dates construction start to 1226, records work still seeking support in 1230, and describes multiple later building phases. The missing Montfort image has `later_period_only: true`, `exclude_from_1180: true` and a 1226–1271 historical review window. The start year does not imply completion, that all depicted buildings existed then, or that a missing image is approved. On recovery it needs technical QA and phase-specific review before later-period placement.
+Both castles have been recovered and approved as **later-period provisional artwork only**. Neither is eligible for circa 1180. Montfort uses a 1226–1271 review window; Château Pèlerin uses 1218–1291. The initial years represent construction commencement, not completion of every painted structure. Exact depicted phases and castle layouts remain unverified and require repaint review. `approval.provisional_map_use` is library approval, while `approval_for_placement` and `approval.approved_for_default_year` apply specifically to 1180. The selector always checks the year window.
 
-Reference: https://moses.creighton.edu/vr/Montfort/txt/intro.html
+Montfort reference: https://moses.creighton.edu/vr/Montfort/txt/intro.html
 
-## Source recovery
+## Source recovery — completed 2026-11-08
 
-Recovered and retained: original eight-up sheet, its eight transparent crops, standalone Krak, and the separately committed Jerusalem, Acre, Belvoir, Antioch and Tripoli v2 sources/PNGs. New Byblos and Tyre generations, exact prompts and source files are in `expansion/`.
+The user supplied `crusader_sprite_library_1180_batch.zip`. All 46 members are preserved unchanged under `archive-1180/`: 16 primary sprites, 24 alternates, four reference sheets, original README and manifest. Every original was compared byte-for-byte with the supplied ZIP. `archive-1180/member-hashes.json` records original file hashes and the ZIP SHA-256; `recovery.json` closes the former missing-source records.
 
-The referenced ChatGPT chat returned **no attachments**. Additional older standalone Belvoir, Kerak, Montréal/Shobak and Montfort images named in the request could not be recovered from that chat, the workspace, or the inspected repository branches. Catalog placeholders record the gap with `asset: null` and no usage approval. Belvoir v2 is preserved, but has not been identified as the older requested standalone. Sheet crops are not falsely counted as those separate originals. The newly referenced 1180 ZIP and its original manifest also remain inaccessible: the chat contains sandbox links but exposes no downloadable attachments and this host has no `/mnt/data`. Château Pèlerin is recorded as missing and later-period-only (1218 onward), with no 1180 approval. `recovery.json` records these gaps; the 16 accessible repository PNGs must not be represented as the recovered contents of that ZIP. A downloadable copy of the original ZIP is needed to complete that part of the request.
+The standalone Belvoir, Kerak, Montréal/Shobak and Montfort paintings are recovered. The package also supplies Tortosa, Sidon, Caesarea, Jaffa, Arqah and Château Pèlerin. Archived metadata is retained as provenance, not treated as an instruction or historical certification. In particular, the original Montfort `available_after_year: 1220` has been superseded operationally by the sourced 1226 construction commencement. Its original value remains unchanged in the preserved manifest.
+
+`import_archive_sprites.py` creates padded RGBA copies and `archive-1180/imported.json`. Raw images and sheets remain unchanged. Forty recovered sprite records join the existing sixteen: **56 catalog records, 40 distinct normalized RGBA artworks**, with pixel-identical images linked to canonical asset paths. The 1180 placement export selects fifteen sites, preferring the newer researched versions where available and recovered standalone Kerak/Shobak over their old sheet crops. The explicit 1250 example selects only Montfort and Château Pèlerin; it is a later-castle review layer, not a complete 1250 map.
+
+All recovered images are provisionally approved with repaint and historical-review flags. Technical cleanup cannot fix clipped source artwork, invented architecture or neighboring fragments in sheet crops. The archive QA contact sheet shows light/dark comparisons. Tortosa's generic river/bridge composition, Château Pèlerin's invented hilltop layout, flags, and later construction phases remain flagged. Caesarea's 1251 Louis IX wall phase must not be treated as established 1180 fabric (https://hadashot.iaa.org.il/report_detail_eng.aspx?id=13).
 
 ## Rebuild and check
 
@@ -32,7 +36,9 @@ Use Python 3.10+ with Pillow, NumPy, SciPy and pyproj:
 python3 build_sprites.py
 python3 build_historical_sprites.py
 python3 -c "from pathlib import Path; from build_historical_sprites import build, ROOT; build(ROOT/'data/sprites/expansion', ROOT/'previews/sprite-expansion.jpg')"
+python3 import_archive_sprites.py
 python3 sprite_catalog.py
+python3 build_sprite_placements.py
 python3 -m unittest test_sprite_catalog
 python3 render_sprite_layer.py
 ```
@@ -41,8 +47,8 @@ The inherited packaging trims low-alpha export noise and tiny detached component
 
 ## Sourced placement contract
 
-`sites.json` records historical names, site types via catalog entries, first Frankish date ranges, and sourced latitude/longitude. `catalog.json` schema v2 adds explicit placement approval, period eligibility, layer membership, painted pixel bounds, atlas display dimensions and normalized anchors. `date_ranges.site_frankish_phase` describes the historical site; `date_ranges.approved_art` intentionally enables these paintings only for the reviewed 1180 brief. Date endpoints are coarse year ranges, not daily political-control boundaries. All available variants are provisionally approved, but the placement export selects only one per site. Missing originals receive no approval.
+`sites.json` records historical names, site types via catalog entries, first Frankish date ranges, and sourced latitude/longitude. `catalog.json` schema v2 adds explicit placement approval, period eligibility, layer membership, painted pixel bounds, atlas display dimensions and normalized anchors. `date_ranges.site_frankish_phase` describes the historical site; `date_ranges.approved_art` enables the reviewed 1180 brief or the explicitly restricted later-castle window. Date endpoints are coarse year ranges, not daily political-control boundaries. All available variants are provisionally approved, but the placement export selects only one per site. Missing originals receive no approval.
 
 Coordinate conflicts are retained in uncertainty notes: Acre uses the UNESCO periodic-report Old City point, and Krak uses the current UNESCO map point rather than inconsistent older nomination coordinates. Shobak moves east to the published castle location. Tripoli uses coastal El Mina rather than inland later Tripoli. Sources vary in precision and authority; representative city points are not exact medieval centroids.
 
-Catalog generation validates unique IDs, safe lowercase PNG paths, RGBA alpha, transparent padding and hashes. Pixel-and-dimension SHA-256 detects identical PNG artwork independent of encoding; artistic alternatives remain separate. Sixteen accessible normalized PNGs pass QA, with ten preferred site placements. `recovery.json` documents the unavailable originals.
+Catalog generation validates unique IDs, safe lowercase PNG paths, RGBA alpha, transparent padding and hashes. Pixel-and-dimension SHA-256 detects identical PNG artwork independent of encoding; artistic alternatives remain separate. All 56 catalog records pass QA, representing 40 distinct normalized RGBA artworks and fifteen preferred 1180 placements. `recovery.json` documents completed archive recovery. The five newly added city anchors inherit approximate `places.py` coordinates; they are not newly surveyed locations.

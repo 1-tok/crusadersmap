@@ -379,7 +379,7 @@
         "name": "Kerak",
         "asset": "data/sprites/png/kerak.png",
         "sha256": "7b272397f5b5c19fb66040841fc11b7c72f435e7a740ce2f31a9940d440b7b68",
-        "preferred": true,
+        "preferred": false,
         "approval": "approved-provisional",
         "repaint_later": true,
         "historical_accuracy_certified": false,
@@ -438,7 +438,7 @@
         "name": "Montréal (Shobak)",
         "asset": "data/sprites/png/montreal-shobak.png",
         "sha256": "d6874b1c230c893d54672c0b0603d14d85c68f9977fe8d782439804cefc89898",
-        "preferred": true,
+        "preferred": false,
         "approval": "approved-provisional",
         "repaint_later": true,
         "historical_accuracy_certified": false,
@@ -497,7 +497,7 @@
         "name": "Krak des Chevaliers",
         "asset": "data/sprites/png/krak-des-chevaliers-standalone.png",
         "sha256": "f499d84e63ca9e46a08fd0fe35973eee34275ef53021cc9031ae92ac32881213",
-        "preferred": true,
+        "preferred": false,
         "approval": "approved-provisional",
         "repaint_later": true,
         "historical_accuracy_certified": false,
@@ -950,6 +950,2366 @@
         "top_left_sheet_px": [
           6666.857,
           8308.383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-001-jerusalem",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23166666666667,
+          31.77777777777778
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-001-jerusalem",
+        "site_group": "jerusalem",
+        "name": "Jerusalem",
+        "asset": "data/sprites/png/jerusalem.png",
+        "sha256": "314c9220e839c89cff8d82919984ea98b81714b9f439a180ee6bb554f32accd7",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/148/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/148/",
+          "published_value": "N31 46 40 E35 13 54",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Old City representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Jerusalem",
+        "anchor_normalized": [
+          0.5,
+          0.9749216300940439
+        ],
+        "sheet_anchor_px": [
+          6960.333,
+          11315.003
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 366.206,
+        "top_left_sheet_px": [
+          6704.333,
+          10957.981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-002-acre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.084,
+          32.928
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-002-acre",
+        "site_group": "acre",
+        "name": "Acre",
+        "asset": "data/sprites/png/acre.png",
+        "sha256": "dfb3603567bcdaa0df47c7e8fd7f1e95fe21b1d10689378403956cb174581323",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/document/164227",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/164227",
+          "published_value": "32.928 / 35.084",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Old City representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Use UNESCO periodic-report Old City point. Main listing gives a different point (32°55′18″N 35°4′8″E); report point is appropriate for the urban icon. No claim of exact medieval centroid."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Acre",
+        "anchor_normalized": [
+          0.5,
+          0.9747634069400631
+        ],
+        "sheet_anchor_px": [
+          6746.739,
+          9216.558
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 355.93,
+        "top_left_sheet_px": [
+          6490.739,
+          8869.611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-003-antioch",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.18167,
+          36.20472
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-003-antioch",
+        "site_group": "antioch",
+        "name": "Antioch",
+        "asset": "data/sprites/png/antioch.png",
+        "sha256": "e9e4ac7068a3f718759291a6bba27601ad4e049ce2f7e1acbf74f32e48d56748",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Antioch",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Antioch",
+          "published_value": "36.20472 N 36.18167 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Historical city representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Secondary gazetteer coordinate for historical Antioch; city extent and painted citadel orientation remain approximate."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Antioch",
+        "anchor_normalized": [
+          0.5,
+          0.9789473684210527
+        ],
+        "sheet_anchor_px": [
+          8418.13,
+          3243.745
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 427.604,
+        "top_left_sheet_px": [
+          8162.13,
+          2825.143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-004-tripoli",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.81783,
+          34.447
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-004-tripoli",
+        "site_group": "tripoli",
+        "name": "Tripoli",
+        "asset": "data/sprites/png/tripoli.png",
+        "sha256": "05f78c8dc02fe527bd5b48a4204194a46e88a151420e99558f6ffed723f6b45c",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+          "published_value": "34.44700 N 35.81783 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Coastal medieval city / El Mina representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Coastal settlement point, not the inland Mamluk city or Raymond citadel. Exact medieval urban centroid is unknown; composite sheet painting may conflate city and citadel."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Tripoli",
+        "anchor_normalized": [
+          0.5,
+          0.9751552795031055
+        ],
+        "sheet_anchor_px": [
+          7877.073,
+          6451.898
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 363.938,
+        "top_left_sheet_px": [
+          7621.073,
+          6097.002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-005-krak-des-chevaliers",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.294444444444444,
+          34.75666666666667
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-005-krak-des-chevaliers",
+        "site_group": "krak-des-chevaliers",
+        "name": "Krak des Chevaliers",
+        "asset": "data/sprites/png/krak-des-chevaliers-standalone.png",
+        "sha256": "f499d84e63ca9e46a08fd0fe35973eee34275ef53021cc9031ae92ac32881213",
+        "preferred": true,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/1229/maps",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/1229/maps",
+          "published_value": "N34 45 24 E36 17 40",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "UNESCO current map point; older nomination coordinates conflict. Later concentric defenses in painting require repaint review, while the castle site is eligible in 1180."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Crac de l’Hospital",
+        "anchor_normalized": [
+          0.5,
+          0.9921798631476051
+        ],
+        "sheet_anchor_px": [
+          8595.032,
+          5886.021
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 361.724,
+        "top_left_sheet_px": [
+          8339.032,
+          5527.126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-006-belvoir",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.52139,
+          32.59556
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-006-belvoir",
+        "site_group": "belvoir",
+        "name": "Belvoir",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-006-belvoir.png",
+        "sha256": "704c0f0bca4850a813fd6c062236a58f7581e16bde17b435ce26392eb4cc4e66",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+          "published_value": "32.59556 N 35.52139 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Belvoir",
+        "anchor_normalized": [
+          0.5,
+          0.9929453262786596
+        ],
+        "sheet_anchor_px": [
+          7416.96,
+          9826.421
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 461.533,
+        "top_left_sheet_px": [
+          7160.96,
+          9368.144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-007-kerak",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.70139,
+          31.18056
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-007-kerak",
+        "site_group": "kerak",
+        "name": "Kerak",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-007-kerak.png",
+        "sha256": "461f2059c4d1c3e8e6f893fdcfb3c014a7873bc1f27ccc188fe72aa35642ae54",
+        "preferred": true,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Kerak_Castle",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Kerak_Castle",
+          "published_value": "31.18056 N 35.70139 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Kerak",
+        "anchor_normalized": [
+          0.5,
+          0.9934479934479934
+        ],
+        "sheet_anchor_px": [
+          7689.824,
+          12407.0
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 498.129,
+        "top_left_sheet_px": [
+          7433.824,
+          11912.134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-008-montreal-shobak",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5608,
+          30.5315
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-008-montreal-shobak",
+        "site_group": "montreal-shobak",
+        "name": "Montréal (Shobak)",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-008-montreal-shobak.png",
+        "sha256": "cafc6483a10194bbd5d973f43ae076eb693b8d405d0fa09bff962c543a21c432",
+        "preferred": true,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://www.sacred-destinations.com/jordan/shobak-castle",
+        "coordinate_evidence": {
+          "url": "https://www.sacred-destinations.com/jordan/shobak-castle",
+          "published_value": "30.5315 N 35.5608 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Published castle point; other gazetteers differ by tens of metres. Later Ayyubid/Mamluk fabric must not be treated as verified 1180 architecture."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Montréal",
+        "anchor_normalized": [
+          0.5,
+          0.9933993399339934
+        ],
+        "sheet_anchor_px": [
+          7465.553,
+          13590.268
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 497.63,
+        "top_left_sheet_px": [
+          7209.553,
+          13095.923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-009-tortosa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.89,
+          34.89
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-009-tortosa",
+        "site_group": "tortosa",
+        "name": "Tortosa (Tartus)",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-009-tortosa.png",
+        "sha256": "4e43a43bc8efdfdced58836a69a78fa8ac797193498f279668ca348d2c5bd4ca",
+        "preferred": true,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "35.89, 34.89",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Tortosa",
+        "anchor_normalized": [
+          0.5,
+          0.9712230215827338
+        ],
+        "sheet_anchor_px": [
+          7986.188,
+          5643.921
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 356.732,
+        "top_left_sheet_px": [
+          7730.188,
+          5297.455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-011-chateau-pelerin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.93388888888889,
+          32.70528055555556
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-011-chateau-pelerin",
+        "site_group": "chateau-pelerin",
+        "name": "Château Pèlerin (Atlit)",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-011-chateau-pelerin.png",
+        "sha256": "13418891e6c9c0410ab3f46b26c39d9640d4b8f2d71854f30b7838f10fc72db1",
+        "preferred": false,
+        "approval": "approved-provisional-later-period",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1218,
+          "through_year": 1291,
+          "basis": "Later-period provisional art window; start is construction commencement, not completion"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://commons.wikimedia.org/wiki/Category:Chateau_Pelerin",
+        "coordinate_evidence": {
+          "url": "https://commons.wikimedia.org/wiki/Category:Chateau_Pelerin",
+          "published_value": "32°42′19.01″N 34°56′02″E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Templar fortress dates to 1218; not an 1180 asset. Earlier nearby fortifications do not justify using this fortress."
+        },
+        "approval_for_placement": false,
+        "period_1180_eligible": false,
+        "map_layers": [
+          "sprites-later-period",
+          "fortifications"
+        ],
+        "historical_name": "Château Pèlerin",
+        "anchor_normalized": [
+          0.5,
+          0.9726962457337884
+        ],
+        "sheet_anchor_px": [
+          6512.215,
+          9620.578
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 373.174,
+        "top_left_sheet_px": [
+          6256.215,
+          9257.593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-012-montfort",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22611,
+          33.04472
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-012-montfort",
+        "site_group": "montfort",
+        "name": "Montfort",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-012-montfort.png",
+        "sha256": "412a45351d7515752ca05397805e1839c874c578e6bf31885c2520c8c59a683e",
+        "preferred": false,
+        "approval": "approved-provisional-later-period",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1226,
+          "through_year": 1271,
+          "basis": "Later-period provisional art window; start is construction commencement, not completion"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Montfort_Castle",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Montfort_Castle",
+          "published_value": "33.04472 N 35.22611 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "1226 is construction start; later depiction needs phase review. Main Teutonic castle is anachronistic in 1180."
+        },
+        "approval_for_placement": false,
+        "period_1180_eligible": false,
+        "map_layers": [
+          "sprites-later-period",
+          "fortifications"
+        ],
+        "historical_name": "Montfort",
+        "anchor_normalized": [
+          0.5,
+          0.993485342019544
+        ],
+        "sheet_anchor_px": [
+          6966.582,
+          9005.345
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 499.393,
+        "top_left_sheet_px": [
+          6710.582,
+          8509.205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-021-tyre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19583333333333,
+          33.26916666666666
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-021-tyre",
+        "site_group": "tyre",
+        "name": "Tyre",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-021-tyre.png",
+        "sha256": "5fa436d41b02f8ec1acb03c04a9b8b3681559503ab947af3932ede0a7bf10c48",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/299/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/299/",
+          "published_value": "N33 16 09 E35 11 45",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Historic peninsula archaeological site representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "UNESCO peninsula point, not inland Al-Bass necropolis; representative city anchor rather than a medieval urban centroid."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Tyre",
+        "anchor_normalized": [
+          0.5,
+          0.983402489626556
+        ],
+        "sheet_anchor_px": [
+          6922.857,
+          8595.883
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 317.611,
+        "top_left_sheet_px": [
+          6666.857,
+          8283.543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-022-sidon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.37,
+          33.56
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-022-sidon",
+        "site_group": "sidon",
+        "name": "Sidon",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-022-sidon.png",
+        "sha256": "94af1fdd5b7da3ccede421a89c21a709fcee444ec14b2586e5bfd9606af1d3af",
+        "preferred": true,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "35.37, 33.56",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Sidon",
+        "anchor_normalized": [
+          0.5,
+          0.9823399558498896
+        ],
+        "sheet_anchor_px": [
+          7192.264,
+          8067.255
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 297.354,
+        "top_left_sheet_px": [
+          6936.264,
+          7775.153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-023-caesarea",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89,
+          32.5
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-023-caesarea",
+        "site_group": "caesarea",
+        "name": "Caesarea",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-023-caesarea.png",
+        "sha256": "ad54d9d99b4b0530e611ab2e43b344be5c51f383f2976a9796a88610ecbcfba7",
+        "preferred": true,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "34.89, 32.5",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Caesarea",
+        "anchor_normalized": [
+          0.5,
+          0.9813953488372092
+        ],
+        "sheet_anchor_px": [
+          6440.956,
+          9994.137
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 280.816,
+        "top_left_sheet_px": [
+          6184.956,
+          9718.545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-024-jaffa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          32.05
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-024-jaffa",
+        "site_group": "jaffa",
+        "name": "Jaffa",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-024-jaffa.png",
+        "sha256": "18d9ecf7e4eca7844d6971a3ccf8d25234dd65227252c27715c5476ecfdba97b",
+        "preferred": true,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "34.75, 32.05",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Jaffa",
+        "anchor_normalized": [
+          0.5,
+          0.9814814814814815
+        ],
+        "sheet_anchor_px": [
+          6215.657,
+          10812.205
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 285.399,
+        "top_left_sheet_px": [
+          5959.657,
+          10532.091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-025-arqah",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0,
+          34.52
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-025-arqah",
+        "site_group": "arqah",
+        "name": "Arqah",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-025-arqah.png",
+        "sha256": "7180d7c84a8fadd31e7f5532f76d9ee829f121a46d18582d77ab3cfa6d70be62",
+        "preferred": true,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "36.0, 34.52",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Arqa",
+        "anchor_normalized": [
+          0.5,
+          0.972318339100346
+        ],
+        "sheet_anchor_px": [
+          8152.177,
+          6318.738
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 392.488,
+        "top_left_sheet_px": [
+          7896.177,
+          5937.115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-001-jerusalem-sheet",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23166666666667,
+          31.77777777777778
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-001-jerusalem-sheet",
+        "site_group": "jerusalem",
+        "name": "Jerusalem",
+        "asset": "data/sprites/png/jerusalem.png",
+        "sha256": "314c9220e839c89cff8d82919984ea98b81714b9f439a180ee6bb554f32accd7",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/148/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/148/",
+          "published_value": "N31 46 40 E35 13 54",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Old City representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Jerusalem",
+        "anchor_normalized": [
+          0.5,
+          0.9749216300940439
+        ],
+        "sheet_anchor_px": [
+          6960.333,
+          11315.003
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 366.206,
+        "top_left_sheet_px": [
+          6704.333,
+          10957.981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-002-acre-sheet",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.084,
+          32.928
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-002-acre-sheet",
+        "site_group": "acre",
+        "name": "Acre",
+        "asset": "data/sprites/png/acre.png",
+        "sha256": "dfb3603567bcdaa0df47c7e8fd7f1e95fe21b1d10689378403956cb174581323",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/document/164227",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/164227",
+          "published_value": "32.928 / 35.084",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Old City representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Use UNESCO periodic-report Old City point. Main listing gives a different point (32°55′18″N 35°4′8″E); report point is appropriate for the urban icon. No claim of exact medieval centroid."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Acre",
+        "anchor_normalized": [
+          0.5,
+          0.9747634069400631
+        ],
+        "sheet_anchor_px": [
+          6746.739,
+          9216.558
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 355.93,
+        "top_left_sheet_px": [
+          6490.739,
+          8869.611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-003-antioch-sheet",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.18167,
+          36.20472
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-003-antioch-sheet",
+        "site_group": "antioch",
+        "name": "Antioch",
+        "asset": "data/sprites/png/antioch.png",
+        "sha256": "e9e4ac7068a3f718759291a6bba27601ad4e049ce2f7e1acbf74f32e48d56748",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Antioch",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Antioch",
+          "published_value": "36.20472 N 36.18167 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Historical city representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Secondary gazetteer coordinate for historical Antioch; city extent and painted citadel orientation remain approximate."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Antioch",
+        "anchor_normalized": [
+          0.5,
+          0.9789473684210527
+        ],
+        "sheet_anchor_px": [
+          8418.13,
+          3243.745
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 427.604,
+        "top_left_sheet_px": [
+          8162.13,
+          2825.143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-004-tripoli-sheet",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.81783,
+          34.447
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-004-tripoli-sheet",
+        "site_group": "tripoli",
+        "name": "Tripoli",
+        "asset": "data/sprites/png/tripoli.png",
+        "sha256": "05f78c8dc02fe527bd5b48a4204194a46e88a151420e99558f6ffed723f6b45c",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+          "published_value": "34.44700 N 35.81783 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Coastal medieval city / El Mina representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Coastal settlement point, not the inland Mamluk city or Raymond citadel. Exact medieval urban centroid is unknown; composite sheet painting may conflate city and citadel."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Tripoli",
+        "anchor_normalized": [
+          0.5,
+          0.9751552795031055
+        ],
+        "sheet_anchor_px": [
+          7877.073,
+          6451.898
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 363.938,
+        "top_left_sheet_px": [
+          7621.073,
+          6097.002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-005-krak-des-chevaliers-sheet",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.294444444444444,
+          34.75666666666667
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-005-krak-des-chevaliers-sheet",
+        "site_group": "krak-des-chevaliers",
+        "name": "Krak des Chevaliers",
+        "asset": "data/sprites/png/krak-des-chevaliers.png",
+        "sha256": "9fec54afd4ba79b178d0479d5d34d8f4f5ee7b89cddce3b69667d7c6f2844c40",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/1229/maps",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/1229/maps",
+          "published_value": "N34 45 24 E36 17 40",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "UNESCO current map point; older nomination coordinates conflict. Later concentric defenses in painting require repaint review, while the castle site is eligible in 1180."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Crac de l’Hospital",
+        "anchor_normalized": [
+          0.5,
+          0.9787798408488063
+        ],
+        "sheet_anchor_px": [
+          8595.032,
+          5886.021
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 430.857,
+        "top_left_sheet_px": [
+          8339.032,
+          5464.307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-006-belvoir-sheet",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.52139,
+          32.59556
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-006-belvoir-sheet",
+        "site_group": "belvoir",
+        "name": "Belvoir",
+        "asset": "data/sprites/png/belvoir.png",
+        "sha256": "9d3c98ecfc9c98d21eac6edfb23342b03ede487c5db99ec0eeee8e3aebe35b3c",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+          "published_value": "32.59556 N 35.52139 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Belvoir",
+        "anchor_normalized": [
+          0.5,
+          0.9786666666666667
+        ],
+        "sheet_anchor_px": [
+          7416.96,
+          9826.421
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 438.356,
+        "top_left_sheet_px": [
+          7160.96,
+          9397.416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-007-kerak-sheet",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.70139,
+          31.18056
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-007-kerak-sheet",
+        "site_group": "kerak",
+        "name": "Kerak",
+        "asset": "data/sprites/png/kerak.png",
+        "sha256": "7b272397f5b5c19fb66040841fc11b7c72f435e7a740ce2f31a9940d440b7b68",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Kerak_Castle",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Kerak_Castle",
+          "published_value": "31.18056 N 35.70139 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Kerak",
+        "anchor_normalized": [
+          0.5,
+          0.9785522788203753
+        ],
+        "sheet_anchor_px": [
+          7689.824,
+          12407.0
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 420.652,
+        "top_left_sheet_px": [
+          7433.824,
+          11995.37
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-008-montreal-shobak-sheet",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5608,
+          30.5315
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-008-montreal-shobak-sheet",
+        "site_group": "montreal-shobak",
+        "name": "Montréal (Shobak)",
+        "asset": "data/sprites/png/montreal-shobak.png",
+        "sha256": "d6874b1c230c893d54672c0b0603d14d85c68f9977fe8d782439804cefc89898",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://www.sacred-destinations.com/jordan/shobak-castle",
+        "coordinate_evidence": {
+          "url": "https://www.sacred-destinations.com/jordan/shobak-castle",
+          "published_value": "30.5315 N 35.5608 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Published castle point; other gazetteers differ by tens of metres. Later Ayyubid/Mamluk fabric must not be treated as verified 1180 architecture."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Montréal",
+        "anchor_normalized": [
+          0.5,
+          0.9782608695652174
+        ],
+        "sheet_anchor_px": [
+          7465.553,
+          13590.268
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 428.218,
+        "top_left_sheet_px": [
+          7209.553,
+          13171.359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-acre-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.084,
+          32.928
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-acre-16up",
+        "site_group": "acre",
+        "name": "Acre",
+        "asset": "data/sprites/archive-1180/clean/archive-var-acre-16up.png",
+        "sha256": "1ea87fd0aa1181c6c4ef10870cceb9ca43131a582fd8279483e2da25f6ea7483",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/document/164227",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/164227",
+          "published_value": "32.928 / 35.084",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Old City representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Use UNESCO periodic-report Old City point. Main listing gives a different point (32°55′18″N 35°4′8″E); report point is appropriate for the urban icon. No claim of exact medieval centroid."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Acre",
+        "anchor_normalized": [
+          0.5,
+          0.9701492537313433
+        ],
+        "sheet_anchor_px": [
+          6746.739,
+          9216.558
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 350.936,
+        "top_left_sheet_px": [
+          6490.739,
+          8876.098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-antioch-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.18167,
+          36.20472
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-antioch-16up",
+        "site_group": "antioch",
+        "name": "Antioch",
+        "asset": "data/sprites/archive-1180/clean/archive-var-antioch-16up.png",
+        "sha256": "bb9b10c725d2e64f00b55187eee8b785084d0f852f821681c78104c66d3dbf7a",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Antioch",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Antioch",
+          "published_value": "36.20472 N 36.18167 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Historical city representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Secondary gazetteer coordinate for historical Antioch; city extent and painted citadel orientation remain approximate."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Antioch",
+        "anchor_normalized": [
+          0.5,
+          0.9704797047970479
+        ],
+        "sheet_anchor_px": [
+          8418.13,
+          3243.745
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 371.989,
+        "top_left_sheet_px": [
+          8162.13,
+          2882.737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-arqah-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0,
+          34.52
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-arqah-16up",
+        "site_group": "arqah",
+        "name": "Arqah",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-025-arqah.png",
+        "sha256": "7180d7c84a8fadd31e7f5532f76d9ee829f121a46d18582d77ab3cfa6d70be62",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "36.0, 34.52",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Arqa",
+        "anchor_normalized": [
+          0.5,
+          0.972318339100346
+        ],
+        "sheet_anchor_px": [
+          8152.177,
+          6318.738
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 392.488,
+        "top_left_sheet_px": [
+          7896.177,
+          5937.115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-belvoir-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.52139,
+          32.59556
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-belvoir-16up",
+        "site_group": "belvoir",
+        "name": "Belvoir",
+        "asset": "data/sprites/archive-1180/clean/archive-var-belvoir-16up.png",
+        "sha256": "57bb8acaf76b178d9619290d1d76f9a72c54ebfd2b9f8cc582510001af2a2e85",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+          "published_value": "32.59556 N 35.52139 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Belvoir",
+        "anchor_normalized": [
+          0.5,
+          0.9702602230483272
+        ],
+        "sheet_anchor_px": [
+          7416.96,
+          9826.421
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 383.643,
+        "top_left_sheet_px": [
+          7160.96,
+          9454.187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-caesarea-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89,
+          32.5
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-caesarea-16up",
+        "site_group": "caesarea",
+        "name": "Caesarea",
+        "asset": "data/sprites/archive-1180/clean/archive-var-caesarea-16up.png",
+        "sha256": "8a1271bf35097adf0ae4a2acb449eee2b83ed55ad8fd3357c8824e5972165d68",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "34.89, 32.5",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Caesarea",
+        "anchor_normalized": [
+          0.5,
+          0.9617224880382775
+        ],
+        "sheet_anchor_px": [
+          6440.956,
+          9994.137
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 276.506,
+        "top_left_sheet_px": [
+          6184.956,
+          9728.214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-chateau-pelerin-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.93388888888889,
+          32.70528055555556
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-chateau-pelerin-16up",
+        "site_group": "chateau-pelerin",
+        "name": "Château Pèlerin (Atlit)",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-011-chateau-pelerin.png",
+        "sha256": "13418891e6c9c0410ab3f46b26c39d9640d4b8f2d71854f30b7838f10fc72db1",
+        "preferred": false,
+        "approval": "approved-provisional-later-period",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1218,
+          "through_year": 1291,
+          "basis": "Later-period provisional art window; start is construction commencement, not completion"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://commons.wikimedia.org/wiki/Category:Chateau_Pelerin",
+        "coordinate_evidence": {
+          "url": "https://commons.wikimedia.org/wiki/Category:Chateau_Pelerin",
+          "published_value": "32°42′19.01″N 34°56′02″E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Templar fortress dates to 1218; not an 1180 asset. Earlier nearby fortifications do not justify using this fortress."
+        },
+        "approval_for_placement": false,
+        "period_1180_eligible": false,
+        "map_layers": [
+          "sprites-later-period",
+          "fortifications"
+        ],
+        "historical_name": "Château Pèlerin",
+        "anchor_normalized": [
+          0.5,
+          0.9726962457337884
+        ],
+        "sheet_anchor_px": [
+          6512.215,
+          9620.578
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 373.174,
+        "top_left_sheet_px": [
+          6256.215,
+          9257.593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-jaffa-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          32.05
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-jaffa-16up",
+        "site_group": "jaffa",
+        "name": "Jaffa",
+        "asset": "data/sprites/archive-1180/clean/archive-var-jaffa-16up.png",
+        "sha256": "3cfe4f7d68af6bce9550d694a0054433c9d3138c212693394b466078db7afddd",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "34.75, 32.05",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Jaffa",
+        "anchor_normalized": [
+          0.5,
+          0.9615384615384616
+        ],
+        "sheet_anchor_px": [
+          6215.657,
+          10812.205
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 282.483,
+        "top_left_sheet_px": [
+          5959.657,
+          10540.587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-jerusalem-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23166666666667,
+          31.77777777777778
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-jerusalem-16up",
+        "site_group": "jerusalem",
+        "name": "Jerusalem",
+        "asset": "data/sprites/archive-1180/clean/archive-var-jerusalem-16up.png",
+        "sha256": "1b8d8061892cbda6884cc9233f0aa8b4088a66fd8058fd299a35875474fbe563",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/148/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/148/",
+          "published_value": "N31 46 40 E35 13 54",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Old City representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Jerusalem",
+        "anchor_normalized": [
+          0.5,
+          0.9702602230483272
+        ],
+        "sheet_anchor_px": [
+          6960.333,
+          11315.003
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 339.232,
+        "top_left_sheet_px": [
+          6704.333,
+          10985.86
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-kerak-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.70139,
+          31.18056
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-kerak-16up",
+        "site_group": "kerak",
+        "name": "Kerak",
+        "asset": "data/sprites/archive-1180/clean/archive-var-kerak-16up.png",
+        "sha256": "49d6e6ac0d00bf0db5d7d9459607946cf25d1fce8f36f54f9260d3f584447403",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Kerak_Castle",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Kerak_Castle",
+          "published_value": "31.18056 N 35.70139 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Kerak",
+        "anchor_normalized": [
+          0.5,
+          0.9696969696969697
+        ],
+        "sheet_anchor_px": [
+          7689.824,
+          12407.0
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 338.767,
+        "top_left_sheet_px": [
+          7433.824,
+          12078.499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-krak-des-chevaliers-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.294444444444444,
+          34.75666666666667
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-krak-des-chevaliers-16up",
+        "site_group": "krak-des-chevaliers",
+        "name": "Krak des Chevaliers",
+        "asset": "data/sprites/archive-1180/clean/archive-var-krak-des-chevaliers-16up.png",
+        "sha256": "329574dd8c9bf6b40ac63b186f9feb09d046c6f6ae8a4d78ba58b75d0d8ec772",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/1229/maps",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/1229/maps",
+          "published_value": "N34 45 24 E36 17 40",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "UNESCO current map point; older nomination coordinates conflict. Later concentric defenses in painting require repaint review, while the castle site is eligible in 1180."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Crac de l’Hospital",
+        "anchor_normalized": [
+          0.5,
+          0.9712230215827338
+        ],
+        "sheet_anchor_px": [
+          8595.032,
+          5886.021
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 322.757,
+        "top_left_sheet_px": [
+          8339.032,
+          5572.552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-montfort-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22611,
+          33.04472
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-montfort-16up",
+        "site_group": "montfort",
+        "name": "Montfort",
+        "asset": "data/sprites/archive-1180/clean/archive-var-montfort-16up.png",
+        "sha256": "2709d5acf786d4ce56fe1c0a9e938097226991d5c10f6b3feb98698fd684ff99",
+        "preferred": false,
+        "approval": "approved-provisional-later-period",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1226,
+          "through_year": 1271,
+          "basis": "Later-period provisional art window; start is construction commencement, not completion"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Montfort_Castle",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Montfort_Castle",
+          "published_value": "33.04472 N 35.22611 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "1226 is construction start; later depiction needs phase review. Main Teutonic castle is anachronistic in 1180."
+        },
+        "approval_for_placement": false,
+        "period_1180_eligible": false,
+        "map_layers": [
+          "sprites-later-period",
+          "fortifications"
+        ],
+        "historical_name": "Montfort",
+        "anchor_normalized": [
+          0.5,
+          0.972027972027972
+        ],
+        "sheet_anchor_px": [
+          6966.582,
+          9005.345
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 383.33,
+        "top_left_sheet_px": [
+          6710.582,
+          8632.738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-montreal-shobak-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5608,
+          30.5315
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-montreal-shobak-16up",
+        "site_group": "montreal-shobak",
+        "name": "Montréal (Shobak)",
+        "asset": "data/sprites/archive-1180/clean/archive-var-montreal-shobak-16up.png",
+        "sha256": "7da554d89d9668aa1a266eb48d53ac0338891071113261639c6413c08283e552",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://www.sacred-destinations.com/jordan/shobak-castle",
+        "coordinate_evidence": {
+          "url": "https://www.sacred-destinations.com/jordan/shobak-castle",
+          "published_value": "30.5315 N 35.5608 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Published castle point; other gazetteers differ by tens of metres. Later Ayyubid/Mamluk fabric must not be treated as verified 1180 architecture."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications"
+        ],
+        "historical_name": "Montréal",
+        "anchor_normalized": [
+          0.5,
+          0.9700374531835206
+        ],
+        "sheet_anchor_px": [
+          7465.553,
+          13590.268
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 346.964,
+        "top_left_sheet_px": [
+          7209.553,
+          13253.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-sidon-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.37,
+          33.56
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-sidon-16up",
+        "site_group": "sidon",
+        "name": "Sidon",
+        "asset": "data/sprites/archive-1180/clean/archive-var-sidon-16up.png",
+        "sha256": "f7ebb6c0d40ee2a6b0282ecfbb24ae7a90be3653837759569f25d69eb85ac285",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "35.37, 33.56",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Sidon",
+        "anchor_normalized": [
+          0.5,
+          0.9605911330049262
+        ],
+        "sheet_anchor_px": [
+          7192.264,
+          8067.255
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 287.911,
+        "top_left_sheet_px": [
+          6936.264,
+          7790.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-tortosa-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.89,
+          34.89
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-tortosa-16up",
+        "site_group": "tortosa",
+        "name": "Tortosa (Tartus)",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-009-tortosa.png",
+        "sha256": "4e43a43bc8efdfdced58836a69a78fa8ac797193498f279668ca348d2c5bd4ca",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "35.89, 34.89",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Tortosa",
+        "anchor_normalized": [
+          0.5,
+          0.9712230215827338
+        ],
+        "sheet_anchor_px": [
+          7986.188,
+          5643.921
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 356.732,
+        "top_left_sheet_px": [
+          7730.188,
+          5297.455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-tripoli-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.81783,
+          34.447
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-tripoli-16up",
+        "site_group": "tripoli",
+        "name": "Tripoli",
+        "asset": "data/sprites/archive-1180/clean/archive-var-tripoli-16up.png",
+        "sha256": "88a2e82344bb78776e627f492f66839428a6f5ca06f9bae05a10e9f1378f4808",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+          "published_value": "34.44700 N 35.81783 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Coastal medieval city / El Mina representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Coastal settlement point, not the inland Mamluk city or Raymond citadel. Exact medieval urban centroid is unknown; composite sheet painting may conflate city and citadel."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Tripoli",
+        "anchor_normalized": [
+          0.5,
+          0.9701492537313433
+        ],
+        "sheet_anchor_px": [
+          7877.073,
+          6451.898
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 363.968,
+        "top_left_sheet_px": [
+          7621.073,
+          6098.795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-var-tyre-16up",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19583333333333,
+          33.26916666666666
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-var-tyre-16up",
+        "site_group": "tyre",
+        "name": "Tyre",
+        "asset": "data/sprites/archive-1180/clean/archive-var-tyre-16up.png",
+        "sha256": "b4be673a5103916982d495f848ea2bd49d137dc3349040bf7a5111a98af2f835",
+        "preferred": false,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/299/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/299/",
+          "published_value": "N33 16 09 E35 11 45",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Historic peninsula archaeological site representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "UNESCO peninsula point, not inland Al-Bass necropolis; representative city anchor rather than a medieval urban centroid."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements"
+        ],
+        "historical_name": "Tyre",
+        "anchor_normalized": [
+          0.5,
+          0.9605911330049262
+        ],
+        "sheet_anchor_px": [
+          6922.857,
+          8595.883
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 248.651,
+        "top_left_sheet_px": [
+          6666.857,
+          8357.031
         ]
       }
     }

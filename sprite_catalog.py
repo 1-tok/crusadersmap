@@ -92,12 +92,18 @@ def build():
                                  basis='working circa-1180 depiction only; other years require phase review')
         e['historical']['requires_repaint_review'] = True
         e['historical']['requires_historical_review'] = True
+    archive_path=BASE/'archive-1180/imported.json'
+    if archive_path.exists():
+        assets.extend(read(archive_path)['assets'])
+    recovered_sites={e['site_id'] for e in assets if e.get('variant')=='archive-primary'}
     missing = []
     for slug, name, lon, lat, mark in [
         ('belvoir', 'Belvoir', 35.52, 32.60, 'P:belvoir'),
         ('kerak', 'Kerak', 35.70, 31.18, 'P:kerak'),
         ('montreal-shobak', 'Montréal (Shobak)', 35.53, 30.53, 'P:montreal'),
         ('montfort', 'Montfort', 35.24, 33.04, 'P:montfort')]:
+        if slug in recovered_sites:
+            continue
         later = slug == 'montfort'
         missing.append(dict(id=slug+'-prior-standalone-missing', site_id=slug, name=name,
             category='castle', asset=None, coordinates=[lon, lat], repo_place_id=mark,
@@ -128,13 +134,14 @@ def enrich(catalog):
     catalog['schema_version'] = 2
     catalog['coordinate_order'] = 'longitude, latitude (EPSG:4326); sourced representative site points'
     catalog['coordinate_precision_policy'] = 'Published points transcribed exactly; not surveyed medieval footprints. See per-site evidence and uncertainty.'
-    catalog['assets'].append(dict(id='chateau-pelerin-batch-missing', site_id='chateau-pelerin',
+    if not any(e['site_id']=='chateau-pelerin' for e in catalog['assets']):
+        catalog['assets'].append(dict(id='chateau-pelerin-batch-missing', site_id='chateau-pelerin',
         name='Château Pèlerin', category='castle', asset=None, selection_priority=0,
         source=dict(status='not-recovered', note='Named in inaccessible 1180 batch; original ZIP and manifest not recovered.'),
         technical_qa=dict(status='not-run-missing-source'),
         approval=dict(status='pending-source-recovery', provisional_map_use=False, repaint_later=True),
         availability=dict(from_year=1218, through_year=1291, basis='Later-period site; depicted phase requires review'),
-        historical=dict(requires_historical_review=True, requires_repaint_review=True)))
+            historical=dict(requires_historical_review=True, requires_repaint_review=True)))
     ids, hashes = set(), {}
     for e in catalog['assets']:
         assert e['id'] not in ids, e['id']
@@ -151,10 +158,12 @@ def enrich(catalog):
         e['date_ranges'] = dict(site_frankish_phase=s['crusader_phase'], approved_art=e['availability'])
         e['period_1180_eligible'] = s['period_1180_eligible']
         e['approval_for_placement'] = bool(e['asset'] and s['period_1180_eligible'] and e['technical_qa']['status']=='pass')
-        e['approval']['provisional_map_use'] = e['approval_for_placement']
+        # Library approval is year-scoped by availability; 1180 eligibility is separate.
+        # Later-period art may be approved without ever becoming an 1180 stronghold.
+        e['approval']['approved_for_default_year'] = e['approval_for_placement']
         e['historical']['exclude_from_1180'] = not s['period_1180_eligible']
         e['historical']['later_period_only'] = not s['period_1180_eligible']
-        e['map_layers'] = ['sprites-1180', 'fortifications' if e['category']=='castle' else 'settlements'] if s['period_1180_eligible'] else ['later-period-review']
+        e['map_layers'] = ['sprites-1180', 'fortifications' if e['category']=='castle' else 'settlements'] if s['period_1180_eligible'] else ['sprites-later-period', 'fortifications']
         e['review_required'] = e['repaint_required'] = True
         e['uncertainty_notes'] = [s['coordinate_evidence']['uncertainty_note'], 'Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail.']
         if e['asset']:
