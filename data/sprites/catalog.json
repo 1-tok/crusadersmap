@@ -1069,6 +1069,163 @@
       }
     },
     {
+      "id": "antioch-1180-v2",
+      "site_id": "antioch",
+      "name": "Antioch",
+      "category": "city",
+      "asset": "historical-1180/antioch-1180-v2.png",
+      "source": {
+        "path": "historical-1180/sources/antioch.png",
+        "sha256": "67a66c9d6bfbf1e1a9fa0a0f1fea408869662e252942940c3274925a8c00f275"
+      },
+      "coordinates": [
+        36.16,
+        36.2
+      ],
+      "coordinate_source": "places.py; inherited approximate map coordinates",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:antioch",
+      "anchor_normalized": [
+        0.5,
+        0.9619326500732065
+      ],
+      "display_width_units": 512,
+      "selection_priority": 30,
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "period-informed-interpretation",
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "review": {
+          "status": "internal-visual-review-complete-specialist-review-pending",
+          "supported_features": [
+            "Orontes alongside lower city",
+            "Mount Silpius and walls climbing ridge",
+            "Unbuilt slope within fortification circuit"
+          ],
+          "uncertainties": [
+            "Exact 1180 wall circuit and hilltop citadel massing remain schematic",
+            "Churches and urban fabric are interpretive",
+            "Camera orientation varies from other sprites for geographic legibility"
+          ]
+        },
+        "references": [
+          "https://www.persee.fr/doc/topoi_1764-0733_2004_act_5_1_2895?pageId=T1_172",
+          "https://www.cambridge.org/core/books/abs/antioch-on-the-orontes/city-walls-of-antioch/18FBD1E6E788EBF65C413479F019F387"
+        ]
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          683
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          657
+        ],
+        "sha256": "9fe3f4a5bff2eb71e6cce364556faf8901c638756c04de55fb4f6b79d53d52d8"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "tripoli-1180-v2",
+      "site_id": "tripoli",
+      "name": "Tripoli",
+      "category": "city",
+      "asset": "historical-1180/tripoli-1180-v2.png",
+      "source": {
+        "path": "historical-1180/sources/tripoli.png",
+        "sha256": "00a1097df8dba758b9189b4e3947b2cfbcc6d79d9da42a809967b2f6ae1ddea4"
+      },
+      "coordinates": [
+        35.84,
+        34.44
+      ],
+      "coordinate_source": "places.py; inherited approximate map coordinates",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:tripoli",
+      "anchor_normalized": [
+        0.5,
+        0.9497098646034816
+      ],
+      "display_width_units": 512,
+      "selection_priority": 30,
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "period-informed-interpretation",
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "review": {
+          "status": "internal-visual-review-complete-specialist-review-pending",
+          "supported_features": [
+            "Coastal peninsular city at al-Mina",
+            "Inland Mont Pelerin citadel excluded as separate feature",
+            "Later Mamluk inland urban skyline excluded"
+          ],
+          "uncertainties": [
+            "Port shape, buildings, towers and church facades are artistic approximations",
+            "Existing catalog coordinate is inland Tripoli; use proposed coastal anchor for this sprite",
+            "Precise shoreline and 1180 building phases require specialist review"
+          ]
+        },
+        "references": [
+          "https://real-phd.mtak.hu/2112/1/BTK_DD_2025_chlela.pdf"
+        ]
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          517
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          491
+        ],
+        "sha256": "428bb8e659e3ee2183143d69fc220e28af72e494d68e453345ca0e131b821b1c"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
       "id": "byblos-1180-v1",
       "site_id": "byblos",
       "name": "Gibelet (Byblos)",

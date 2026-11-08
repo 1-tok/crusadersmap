@@ -27,7 +27,7 @@
     },
     {
       "type": "Feature",
-      "id": "CITY-003",
+      "id": "antioch-1180-v2",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -38,10 +38,10 @@
       "properties": {
         "site_id": "antioch",
         "name": "Antioch",
-        "asset": "png/antioch.png",
+        "asset": "historical-1180/antioch-1180-v2.png",
         "anchor_normalized": [
           0.5,
-          0.9789473684210527
+          0.9619326500732065
         ],
         "display_width_units": 512,
         "status": "approved-provisional",
@@ -195,7 +195,7 @@
     },
     {
       "type": "Feature",
-      "id": "CITY-004",
+      "id": "tripoli-1180-v2",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -206,10 +206,10 @@
       "properties": {
         "site_id": "tripoli",
         "name": "Tripoli",
-        "asset": "png/tripoli.png",
+        "asset": "historical-1180/tripoli-1180-v2.png",
         "anchor_normalized": [
           0.5,
-          0.9751552795031055
+          0.9497098646034816
         ],
         "display_width_units": 512,
         "status": "approved-provisional",

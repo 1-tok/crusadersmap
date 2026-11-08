@@ -20,7 +20,7 @@ Reference: https://moses.creighton.edu/vr/Montfort/txt/intro.html
 
 ## Source recovery
 
-Recovered and retained: original eight-up sheet, its eight transparent crops, standalone Krak, and the separately committed Jerusalem, Acre and Belvoir v2 sources/PNGs. New Byblos and Tyre generations, exact prompts and source files are in `expansion/`.
+Recovered and retained: original eight-up sheet, its eight transparent crops, standalone Krak, and the separately committed Jerusalem, Acre, Belvoir, Antioch and Tripoli v2 sources/PNGs. New Byblos and Tyre generations, exact prompts and source files are in `expansion/`.
 
 The referenced ChatGPT chat returned **no attachments**. Additional older standalone Belvoir, Kerak, Montréal/Shobak and Montfort images named in the request could not be recovered from that chat, the workspace, or the inspected repository branches. Catalog placeholders record the gap with `asset: null` and no usage approval. Belvoir v2 is preserved, but has not been identified as the older requested standalone. Sheet crops are not falsely counted as those separate originals. Attach those four original images to complete recovery.
 
