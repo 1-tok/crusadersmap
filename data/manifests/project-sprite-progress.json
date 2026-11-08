@@ -1,0 +1,1597 @@
+{
+  "as_of": "2026-11-08",
+  "scope": "147 source gazetteer records; natural and religious markers may need symbols rather than buildings",
+  "counts": {
+    "approved-provisional-art": 37,
+    "needs-art-or-symbol-decision": 107,
+    "outside-period-reference": 2,
+    "art-needs-placement-review": 1
+  },
+  "catalog_asset_variants": 78,
+  "catalog_unique_sites": 38,
+  "sites": [
+    {
+      "id": "CP-001",
+      "site": "Jerusalem",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "CITY-001",
+        "jerusalem-1180-v2",
+        "archive-crs-001-jerusalem",
+        "archive-crs-001-jerusalem-sheet",
+        "archive-var-jerusalem-16up"
+      ],
+      "occupation": "Frankish 1099–1187; Ayyubid 1187–1229; Frankish treaty possession 1229–1239 and 1241–1244; Khwarazmian capture 1244",
+      "sieges": "7 June–15 July 1099; 20 September–2 October 1187",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-002",
+      "site": "Akko",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "CITY-002",
+        "acre-1180-v2",
+        "archive-crs-002-acre",
+        "archive-crs-002-acre-sheet",
+        "archive-var-acre-16up"
+      ],
+      "occupation": "Frankish 1104–1187; 1191–1291",
+      "sieges": "1189–1191; 1291",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-003",
+      "site": "Tyre",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "tyre-1180-v1",
+        "archive-crs-021-tyre",
+        "archive-var-tyre-16up"
+      ],
+      "occupation": "Frankish 1124–1291",
+      "sieges": "1111–1112; 1124; 1187–1188",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-004",
+      "site": "Ashkelon",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1153–1187",
+      "sieges": "1153",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-005",
+      "site": "Jaffa",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "archive-crs-024-jaffa",
+        "archive-var-jaffa-16up",
+        "jaffa-1180-v1"
+      ],
+      "occupation": "Frankish 1099–1187; restored 1191; intermittent Frankish possession to Mamluk conquest 1268",
+      "sieges": "July–August 1192 (siege and relief)",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-006",
+      "site": "Caesarea",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "archive-crs-023-caesarea",
+        "archive-var-caesarea-16up"
+      ],
+      "occupation": "Frankish 1101–1187; restored 1191; later Frankish phases to Mamluk conquest 1265",
+      "sieges": "1265",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-007",
+      "site": "Sidon",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "archive-crs-022-sidon",
+        "archive-var-sidon-16up"
+      ],
+      "occupation": "Frankish December 1110–July 1187; restored 1197–1291, with shared-control and interruption phases",
+      "sieges": "1110",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-008",
+      "site": "Beirut",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1110–1187; Ayyubid 1187–1197; Frankish again 1197–1291",
+      "sieges": "February–13 May 1110; 1187 (eight-day siege)",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-009",
+      "site": "Atlit",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "archive-crs-011-chateau-pelerin",
+        "archive-var-chateau-pelerin-16up"
+      ],
+      "occupation": "Templar fortress 1218–1291 (construction begun 1217/1218)",
+      "sieges": "1218–1220 (reported attack/siege campaigns)",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-010",
+      "site": "Safed",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Templar 1240–1266",
+      "sieges": "1266",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-011",
+      "site": "Kokhav HaYarden",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "CAST-002",
+        "belvoir-1180-v2",
+        "archive-crs-006-belvoir",
+        "archive-crs-006-belvoir-sheet",
+        "archive-var-belvoir-16up"
+      ],
+      "occupation": "Hospitaller 1168–January 1189; Ayyubid possession after surrender",
+      "sieges": "1187–January 1189 (blockade/siege phases)",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-012",
+      "site": "Montfort",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "archive-crs-012-montfort",
+        "archive-var-montfort-16up"
+      ],
+      "occupation": "Teutonic castle 1226–1271 (construction began 1226)",
+      "sieges": "1266; June 1271",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-013",
+      "site": "Arnoun",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Templar 1260–1268",
+      "sieges": "1268",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-014",
+      "site": "Kerak",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "CAST-003",
+        "archive-crs-007-kerak",
+        "archive-crs-007-kerak-sheet",
+        "archive-var-kerak-16up"
+      ],
+      "occupation": "Frankish 1142–1188",
+      "sieges": "1183; 1184; 1187–1188",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-015",
+      "site": "Shobak",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "CAST-004",
+        "archive-crs-008-montreal-shobak",
+        "archive-crs-008-montreal-shobak-sheet",
+        "archive-var-montreal-shobak-16up"
+      ],
+      "occupation": "Frankish 1115–1189",
+      "sieges": "1187–1189",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-016",
+      "site": "Petra",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1107–1189",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-017",
+      "site": "Ajloun",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Ayyubid 1184",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-018",
+      "site": "Gaza",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish/Templar holding from 1149; lost in 1187",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-019",
+      "site": "Deir al-Balah",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1170–1187",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-020",
+      "site": "Tell es-Safi",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1142–1191",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-021",
+      "site": "Yavne",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1141–1187",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-022",
+      "site": "Beit Guvrin",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Hospitaller 1136–1187",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-023",
+      "site": "Latrun",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Templar 1133–1187",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-024",
+      "site": "Nabi Samwil",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Montjoie 1170–1187",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-025",
+      "site": "Bethlehem",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1099–1187; Ayyubid 1187–1229; Latin kingdom 1229–1244; Muslim rule after 1244",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-026",
+      "site": "Hebron",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1099–1187; Ayyubid rule after 1187",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-027",
+      "site": "Nazareth",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1099–1187; restored by treaty 1229; sacked by Baybars 1263",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-028",
+      "site": "Mount Tabor",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Benedictine/Frankish monastery until 1187; Ayyubid fortress begun 1212; later Christian/Hospitaller phases to 1263",
+      "sieges": "1183; 1217 (separate siege attempts)",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-029",
+      "site": "Sebastia",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish settlement and bishopric, 12th century–July 1187; taken by Saladin’s nephew in 1187",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-030",
+      "site": "Nablus",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish July 1099–July 1187; Muslim rule thereafter",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-031",
+      "site": "Tiberias",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish city until 1187; Galilean territories restored 1240/1241; later local end date under review",
+      "sieges": "July 1187",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-032",
+      "site": "Banias",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1129–1164",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-033",
+      "site": "Tibnin",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1105–1266",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-034",
+      "site": "Iskandaruna",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1116–1291",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-035",
+      "site": "Jacob's Ford",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Templar 1178–1179",
+      "sieges": "1179",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-036",
+      "site": "Mount Carmel",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Carmelite hermit community, early 13th century–1291; Rule received 1206–1214",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-037",
+      "site": "Sea of Galilee",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Landscape / pilgrimage marker; no independent military occupation period assigned",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-038",
+      "site": "Cana",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Landscape / pilgrimage marker; no independent military occupation period assigned",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-039",
+      "site": "Jordan baptism place",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Landscape / pilgrimage marker; no independent military occupation period assigned",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-040",
+      "site": "Gerasa",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Damascene fort destroyed by Baldwin II in 1121; not established as a lasting Frankish garrison",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-041",
+      "site": "Bosra",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Zengid governor confirmed 1154; Ayyubid city under al-Adil and successors, 1196–1260; Mongol capture 1260, then Mamluk rule",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-042",
+      "site": "Damascus",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Burid emirate in early 12th century; Zengid under Nur al-Din 1154–1174; later Ayyubid and Mamluk phases",
+      "sieges": "1148",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-043",
+      "site": "Baalbek",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Zengi captured the citadel in 1139; Ayyubid emirate from 1175; Mongol capture 1260",
+      "sieges": "1139",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-044",
+      "site": "Aleppo",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Ayyubid 1183–1260; Mongol conquest 1260; earlier Zengid and later Mamluk phases",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-045",
+      "site": "Hama",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Ayyubid principality from 1175 through 1291; Mamluk suzerainty in the later 13th century",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-046",
+      "site": "Homs",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Ayyubid from late 12th century; Mamluk annexation 1262, continuing through 1291",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-047",
+      "site": "Antakya",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "CITY-003",
+        "antioch-1180-v2",
+        "archive-crs-003-antioch",
+        "archive-crs-003-antioch-sheet",
+        "archive-var-antioch-16up"
+      ],
+      "occupation": "Frankish 1098–1268",
+      "sieges": "1097–1098; 1268",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-048",
+      "site": "Tripoli",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "CITY-004",
+        "tripoli-1180-v2",
+        "archive-crs-004-tripoli",
+        "archive-crs-004-tripoli-sheet",
+        "archive-var-tripoli-16up"
+      ],
+      "occupation": "Frankish 1109–1289",
+      "sieges": "1102–1109 (intermittent blockade and campaigns); 1289",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-049",
+      "site": "Qal'at al-Hisn",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "CAST-001",
+        "CAST-001-STANDALONE"
+      ],
+      "occupation": "Hospitaller 1142–1271",
+      "sieges": "1271",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-050",
+      "site": "Qal'at al-Marqab",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Hospitaller 1186–1285",
+      "sieges": "1285",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-051",
+      "site": "Tartus",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "archive-crs-009-tortosa",
+        "archive-var-tortosa-16up"
+      ],
+      "occupation": "Templar citadel from 1152; citadel retained after attack in 1188; evacuated 1291",
+      "sieges": "1188 (town attacked; Templar citadel held)",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-052",
+      "site": "Arwad",
+      "region": "main",
+      "status": "outside-period-reference",
+      "asset_ids": [],
+      "occupation": "The cataloged Templar holding, 1302–1303, is outside 1095–1291; retained only as an island reference",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-053",
+      "site": "Qal'at Salah ad-Din",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1110–1188",
+      "sieges": "1188",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-054",
+      "site": "Latakia",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1097–1188",
+      "sieges": "1188; 1287",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-055",
+      "site": "Jableh",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1109–1189",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-056",
+      "site": "Baniyas",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1110–1189",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-057",
+      "site": "Bourzey",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1100–1175",
+      "sieges": "1188",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-058",
+      "site": "Shaizar",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Banu Munqidh 1081–1157; Nur al-Din took control after the 1157 earthquake",
+      "sieges": "1138",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-059",
+      "site": "Masyaf",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Nizari 1140–1273",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-060",
+      "site": "Qadmus",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Nizari 1132–1260",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-061",
+      "site": "Apamea",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1106–1149",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-062",
+      "site": "Harim",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1097–1164",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-063",
+      "site": "Artah",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1098–1164",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-064",
+      "site": "Bagras",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Templar 1131–1268",
+      "sieges": "1188",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-065",
+      "site": "Darbsak",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Templar 1137–1188",
+      "sieges": "1188",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-066",
+      "site": "Iskenderun",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Alexandretta: Templar station/fortress attested in 1155; exact local tenure endpoints remain unestablished",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-067",
+      "site": "Batroun",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1104–1289",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-068",
+      "site": "Byblos",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "byblos-1180-v1"
+      ],
+      "occupation": "Genoese 1104–1289",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-069",
+      "site": "Arqa",
+      "region": "main",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "archive-crs-025-arqah",
+        "archive-var-arqah-16up"
+      ],
+      "occupation": "Frankish 1109–1289",
+      "sieges": "1099 (unsuccessful siege)",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-070",
+      "site": "Kozan",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Sis: royal seat of Armenian Cilicia, kingdom established 1198; earlier local transitions under review",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-071",
+      "site": "Anavarza",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Armenian capture 1111; Byzantine interlude 1137–1144; Armenian capital/fortress thereafter (selected phases)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-072",
+      "site": "Tarsus",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish holding before John II’s Byzantine conquest in 1137; Armenian coronation of King Levon in 1198",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-073",
+      "site": "Adana",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish holding before Byzantine conquest in 1137; later Cilician Armenian phases in the 12th–13th centuries",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-074",
+      "site": "Misis",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish Mopsuestia before Byzantine conquest in 1137; later Cilician Armenian phases in the 12th–13th centuries",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-075",
+      "site": "Yumurtalik",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Ayas: port of the Cilician Armenian kingdom in the 13th century; Venetian treaty 1201; Marco Polo’s departure 1271",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-076",
+      "site": "Feke",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Armenian capture in the 1090s from a Byzantine garrison; Byzantine recapture in John II’s campaign, 1137/1138",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-077",
+      "site": "Kizkalesi",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Korykos: Byzantine recapture 1137; Armenian possession restored 1163; Armenian coastal stronghold in the 13th century",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-078",
+      "site": "Kahramanmaras",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish/Armenian frontier lordship during 1097–1149; conquest by forces of Iconium in 1149",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-079",
+      "site": "Famagusta",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Lusignan 1192–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-080",
+      "site": "Nicosia",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Lusignan 1192–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-081",
+      "site": "St Hilarion",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Lusignan 1191–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-082",
+      "site": "Kyrenia",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Lusignan 1191–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-083",
+      "site": "Buffavento",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Lusignan 1191–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-084",
+      "site": "Kantara",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Lusignan 1191–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-085",
+      "site": "Limassol",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Lusignan 1191–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-086",
+      "site": "Kolossi",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Hospitaller 1210–1291",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-087",
+      "site": "Paphos",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Cypriot regional context: Byzantine until 1191; conquest 1191; Lusignan kingdom 1192–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-088",
+      "site": "Larnaca",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Cypriot regional context: Byzantine until 1191; conquest 1191; Lusignan kingdom 1192–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-089",
+      "site": "Kykkos",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Cypriot regional context: Byzantine until 1191; conquest 1191; Lusignan kingdom 1192–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-090",
+      "site": "Bellapais",
+      "region": "main",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Cypriot regional context: Byzantine until 1191; conquest 1191; Lusignan kingdom 1192–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-091",
+      "site": "Istanbul",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "constantinople-1180-v1"
+      ],
+      "occupation": "Latin 1204–1261; Greek 1261–1291 (continues)",
+      "sieges": "1204",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-092",
+      "site": "Beyoglu",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Genoese 1267–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-093",
+      "site": "Thessaloniki",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "thessaloniki-1180-v1"
+      ],
+      "occupation": "Byzantine until 1204; Latin kingdom 1204–1224; Epirote rule 1224–1246; Nicaean/Byzantine from 1246 to 1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-094",
+      "site": "Gelibolu",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Byzantine; Venetian interval 1204–1235; Byzantine again from 1235 through 1291",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-095",
+      "site": "Edirne",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Nicaean entry c.1225; contested with the rulers of Thessaloniki in the 1220s",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-096",
+      "site": "Iznik",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Nicene empire 1204–1261",
+      "sieges": "1097",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-097",
+      "site": "Chalkida",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "chalkida-1180-v1"
+      ],
+      "occupation": "Latin triarchs after 1204/1205; Venetian rights and shared rule from 1209 through 1291",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-098",
+      "site": "Athens",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "athens-1180-v3"
+      ],
+      "occupation": "Frankish 1205–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-099",
+      "site": "Thebes",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "thebes-1180-v1"
+      ],
+      "occupation": "Frankish 1205–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-100",
+      "site": "Corinth",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "corinth-1180-v1"
+      ],
+      "occupation": "Frankish 1210–1291 (continues)",
+      "sieges": "c.1205–1210 (prolonged resistance/campaigns)",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-101",
+      "site": "Andravida",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "andravida-1180-v1"
+      ],
+      "occupation": "Frankish capital of Achaea from 1205 to 1291 (continues); earlier Byzantine settlement",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-102",
+      "site": "Chlemoutsi",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1220–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-103",
+      "site": "Patras",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "patras-1180-v1"
+      ],
+      "occupation": "Frankish 1205–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-104",
+      "site": "Methoni",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "methoni-1180-v1"
+      ],
+      "occupation": "Venetian 1209–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-105",
+      "site": "Koroni",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "koroni-1180-v1"
+      ],
+      "occupation": "Venetian 1206–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-106",
+      "site": "Navarino",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish Palaiokastro founded c.1278; late-13th-century holding of Achaea",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-107",
+      "site": "Monemvasia",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish capture conventionally 1248 (alternative 1252/1253); Byzantine again from 1262 to 1291 (continues)",
+      "sieges": "Long siege ending 1248 (alternative conquest date 1252/1253)",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-108",
+      "site": "Mystras",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish castle founded 1249; Byzantine possession from 1262 to 1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-109",
+      "site": "Nafpaktos",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Epirote rule after 1204 through 1291; Angevin transfer occurs after this map period",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-110",
+      "site": "Corfu",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Angevin possession from 1267 to 1291 (continues); earlier Byzantine, Norman and Epirote phases",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-111",
+      "site": "Zakynthos",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Byzantine until 1185; Norman conquest and county palatine from 1185 through 1291",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-112",
+      "site": "Kythira",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Venier lordship, established in early/mid-13th century; Byzantine recovery c.1275",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-113",
+      "site": "Heraklion",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "heraklion-1180-v1"
+      ],
+      "occupation": "Venetian 1211–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-114",
+      "site": "Chania",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "chania-1180-v1"
+      ],
+      "occupation": "Venetian 1252–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-115",
+      "site": "Rethymno",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "rethymno-1180-v1"
+      ],
+      "occupation": "Venetian 1210–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-116",
+      "site": "Rhodes",
+      "region": "aegean",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "rhodes-1180-v1"
+      ],
+      "occupation": "Byzantine/local rule; Leo Gabalas administration from 1204; Hospitaller occupation begins only after this map period",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-117",
+      "site": "Kos",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Nicaean recovery in the early 13th century; later Hospitaller occupation lies outside 1095–1291",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-118",
+      "site": "Bodrum",
+      "region": "aegean",
+      "status": "outside-period-reference",
+      "asset_ids": [],
+      "occupation": "The Hospitaller castle belongs to 1404 onward, outside 1095–1291; retained only as a geographic cross-reference",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-119",
+      "site": "Izmir",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Byzantine/Nicaean administrative centre in 12th–13th centuries; officials attested in 1207",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-120",
+      "site": "Leros",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Byzantine castle/monastic holdings granted to Christodoulos in 1087/1088; later Hospitaller occupation falls after 1291",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-121",
+      "site": "Naxos",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Duchy of the Archipelago 1207–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-122",
+      "site": "Tinos",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Ghisi Latin lordship from 1207 through 1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-123",
+      "site": "Santorini",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Barozzi/Latin lordship after 1204, traditionally dated 1207; interrupted in the later 13th century",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-124",
+      "site": "Chios",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Nicaean recovery in the early 13th century; Byzantine imperial island in the 13th century",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-125",
+      "site": "Mytilene",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Byzantine island; Latin allocation from 1204; Byzantine reintegration by 1261 (selected phases)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-126",
+      "site": "Foca",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Genoese 1275–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-127",
+      "site": "Lemnos",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Navigajosi Latin lordship from 1207; Byzantine recovery during 1277–1279, then Byzantine through 1291",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-128",
+      "site": "Selcuk",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Ephesos/Theologos: Byzantine/Nicaean administrative centre in 12th–13th centuries",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-129",
+      "site": "Alasehir",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Philadelphia: Byzantine/Nicaean administrative centre in 12th–13th centuries",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-130",
+      "site": "Mount Athos",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Orthodox monastic community throughout 1095–1291; first charter 972",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-131",
+      "site": "Patmos",
+      "region": "aegean",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Monastery of St John, founded 1088; Orthodox community during 1095–1291",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-132",
+      "site": "Cairo",
+      "region": "delta",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "cairo-1180-v1"
+      ],
+      "occupation": "Fatimid 1095–1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-133",
+      "site": "Alexandria",
+      "region": "delta",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "alexandria-1180-v1"
+      ],
+      "occupation": "Egyptian dynastic context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "sieges": "1167",
+      "history_review_required": false
+    },
+    {
+      "id": "CP-134",
+      "site": "Damietta",
+      "region": "delta",
+      "status": "art-needs-placement-review",
+      "asset_ids": [
+        "damietta-1180-v1"
+      ],
+      "occupation": "Frankish 1219–1221; 1249–1250",
+      "sieges": "1169 (unsuccessful Franco-Byzantine siege); 1218–1219; June 1249 (landing and capture)",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-135",
+      "site": "Mansoura",
+      "region": "delta",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Founded during Fifth Crusade, 1219; Ayyubid then Mamluk Egyptian city; battle 1250 was not a lasting Frankish occupation",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-136",
+      "site": "Faraskur",
+      "region": "delta",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-137",
+      "site": "Rosetta",
+      "region": "delta",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "rosetta-1180-v1"
+      ],
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-138",
+      "site": "Tinnis",
+      "region": "delta",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "tinnis-1180-v1"
+      ],
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-139",
+      "site": "Pelusium",
+      "region": "delta",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-140",
+      "site": "Bilbeis",
+      "region": "delta",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "bilbeis-1180-v1"
+      ],
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "sieges": "1168",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-141",
+      "site": "Wadi El Natrun",
+      "region": "delta",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-142",
+      "site": "Giza",
+      "region": "delta",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-143",
+      "site": "Suez",
+      "region": "delta",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "suez-1180-v1"
+      ],
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-144",
+      "site": "al-Tur",
+      "region": "delta",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-145",
+      "site": "Pharaoh's Island",
+      "region": "delta",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1115–1170",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-146",
+      "site": "Aqaba",
+      "region": "delta",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Frankish 1116–1170",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    },
+    {
+      "id": "CP-147",
+      "site": "St Catherine's",
+      "region": "delta",
+      "status": "needs-art-or-symbol-decision",
+      "asset_ids": [],
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "sieges": "No siege recorded in this index",
+      "history_review_required": true
+    }
+  ]
+}

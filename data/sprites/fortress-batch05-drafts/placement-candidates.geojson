@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "note": "Research markup, NOT approved map layer.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "beaufort-1180-draft-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.531944,
+          33.324167
+        ]
+      },
+      "properties": {
+        "name": "Beaufort (Frankish construction after 1139)",
+        "source_site_id": "CP-013",
+        "approval_for_placement": false,
+        "placement_status": "technical-hold",
+        "depiction_year": 1180,
+        "coordinate_evidence": {
+          "url": "https://geographic.org/geographic_names/name.php?c=lebanon&fid=3643&uni=-1160992",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published NGA-derived ancient-site point; not surveyed medieval footprint."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toron-1180-draft-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.412279,
+          33.19543
+        ]
+      },
+      "properties": {
+        "name": "Toron / Tibnin (circa 1180 phase)",
+        "source_site_id": "CP-033",
+        "approval_for_placement": false,
+        "placement_status": "technical-hold",
+        "depiction_year": 1180,
+        "coordinate_evidence": {
+          "url": "https://www.hep-web.org/projects/202410ReportCultureHeritageDestructionLebanon/Report-02-Cultural-Heritage-Destruction-Lebanon-English-Nov-2024.pdf",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published cultural heritage report point; surviving walls include later reconstruction."
+        }
+      }
+    }
+  ]
+}
