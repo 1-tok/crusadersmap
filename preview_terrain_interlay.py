@@ -12,8 +12,8 @@ for j,recipe in enumerate(recipes):
 im.save(R/'previews/terrain-interlay-examples.jpg',quality=94)
 (B/'interlay-recipes.json').write_text(json.dumps({'canvas_px':[1650,1400],'coordinate_convention':'x left, bottom y, display width; ordered rear to front','purpose':'illustrative overlap examples, not geographically accurate chains','recipes':recipes},indent=2)+'\n')
 # Compact individual catalog.
-entries=json.loads((B/'manifest.json').read_text())['assets'];sheet=Image.new('RGB',(1500,6*230),'#eee4cc');draw=ImageDraw.Draw(sheet)
+entries=json.loads((B/'manifest.json').read_text())['assets'];sheet=Image.new('RGB',(1500,((len(entries)+2)//3)*230),'#eee4cc');draw=ImageDraw.Draw(sheet)
 for i,e in enumerate(entries):
  x=(i%3)*500;y=(i//3)*230;p=Image.open(B/e['file']);p.thumbnail((470,185));sheet.paste(p,(x+15,y+30),p);draw.text((x+12,y+9),e['id'],fill='black')
 sheet.save(R/'previews/terrain-catalog.jpg',quality=94)
-print('Rendered three interlay examples and 17-piece catalog')
+print('Rendered three interlay examples and',len(entries),'piece catalog')

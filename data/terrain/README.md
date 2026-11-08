@@ -1,6 +1,6 @@
 # Mountain terrain pieces: Palestine to Anatolia and Greece
 
-Seventeen reusable transparent PNGs, each 1024 pixels wide, matching the historical atlas's ink/watercolor palette and upper-left lighting. Original generations and complete prompts are preserved. Generated with built-in image_gen; `build_terrain.py` packages and checks them.
+Twenty-three reusable transparent PNGs, each 1024 pixels wide, matching the historical atlas's ink/watercolor palette and upper-left lighting. Original generations and complete prompts are preserved. Generated with built-in image_gen; `build_terrain.py` packages and checks them.
 
 | Asset | Suggested use |
 |---|---|
@@ -40,3 +40,7 @@ The kit now includes left/right Palestine foothill ends, an open limestone valle
 Use 20–35% overlap as a starting point and vary scale between about 0.65 and 1.15. Layer rear ridges first, connectors second, and low foothills last; preserve valley openings. Avoid mirroring and large rotations. These are overlap-friendly illustrations, not seamless tiles. `interlay-recipes.json` and `preview_terrain_interlay.py` reproduce three sample layouts; the mixed Lebanon/Taurus row demonstrates visual composition, not a surveyed geographic chain.
 
 `expansion-prompts.json` saves eight full built-in image_gen prompts and summaries for four pieces generated in the preceding chat turn. Original source images are all retained. See `previews/terrain-catalog.jpg` for the individual catalog and `previews/terrain-interlay-examples.jpg` for assembled examples.
+
+## Six narrow and branching connectors
+
+The third set adds limestone and Greek narrow spines, dry and forested branching spurs, a high rocky spine and an open Anatolian saddle. Use them at smaller scale to join ridge tips and create branching chains. Their inherited family coordinates are regional context, not independent landmark positions. Full built-in image_gen prompts are saved in `connector-prompts.json`; originals remain in `sources/`. The full catalog grows automatically with the manifest.
