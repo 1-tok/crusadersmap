@@ -1,0 +1,763 @@
+{
+  "schema_version": 1,
+  "generation_method": "built-in image_gen",
+  "batch_id": "greece-egypt-1180-01",
+  "default_year": 1180,
+  "approval_policy": "Place sourced-anchor sprites provisionally; review/repaint does not block them. Damietta artwork approved, geographic placement awaits a grounded medieval anchor.",
+  "assets": [
+    {
+      "id": "athens-1180-v1",
+      "site_id": "athens",
+      "name": "Athens",
+      "historical_name": "Athēnai",
+      "site_type": "city",
+      "category": "city",
+      "file": "athens-1180-v1.png",
+      "source": "sources/athens.png",
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        23.726,
+        37.971
+      ],
+      "latitude": 37.971,
+      "longitude": 23.726,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/document/164198",
+        "published_value": "37.971 / 23.726; Acropolis reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://byzantineattica.eie.gr/byzantineattica/view.asp?cgpk=490&lg=en&obpk=439&xsl=detail"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/athens-1180-v1.png",
+      "source_sha256": "97fc3acc70efbc15422c8ee56a82ab0849d63618e024014f0e54cc1b32d59d21",
+      "sha256": "579dc262442aa7fa05663f4dbc015d8577001c24fd8df8df29456b128ee1fca6",
+      "pixel_sha256": "43c63dc6f41c7d7b95092f519a8b775670d1c648248d5d7a08219d07403db30d",
+      "dimensions_px": [
+        1024,
+        700
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9628571428571429
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          700
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          674
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 350.0,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "thessaloniki-1180-v1",
+      "site_id": "thessaloniki",
+      "name": "Thessaloniki",
+      "historical_name": "Thessalonikē",
+      "site_type": "city",
+      "category": "city",
+      "file": "thessaloniki-1180-v1.png",
+      "source": "sources/thessaloniki.png",
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        22.94388889,
+        40.64027778
+      ],
+      "latitude": 40.64027778,
+      "longitude": 22.94388889,
+      "coordinate_evidence": {
+        "url": "https://ungegn.un.org/dashboard/cities/details?id=596",
+        "published_value": "40.64027778 N, 22.94388889 E; city reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Upper citadel shape, Rotunda visibility, harbor and wall circuit schematic; verify individual churches."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Upper citadel shape, Rotunda visibility, harbor and wall circuit schematic; verify individual churches.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://culturalegnatia.culture.gov.gr/en/route-stops/thessaloniki/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/thessaloniki-1180-v1.png",
+      "source_sha256": "acc33129933d05f4453f38c0cf5f3527583783f507dc69eeeaf01b37d4e9df8a",
+      "sha256": "e4650ba924db7b184113744526ed7ca85e40d45065223b06d7bf879f2ca6c43d",
+      "pixel_sha256": "f0a50e9c1cfd5ce139f4aa7efaf51b1a9a5a74c4506ef0b416a29d7f27320128",
+      "dimensions_px": [
+        1024,
+        652
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9601226993865031
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          652
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          626
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 326.0,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "corinth-1180-v1",
+      "site_id": "corinth",
+      "name": "Corinth",
+      "historical_name": "Korinthos",
+      "site_type": "city",
+      "category": "city",
+      "file": "corinth-1180-v1.png",
+      "source": "sources/corinth.png",
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        22.878805,
+        37.904935
+      ],
+      "latitude": 37.904935,
+      "longitude": 22.878805,
+      "coordinate_evidence": {
+        "url": "https://www.religiousgreece.gr/en/attractions/ancient-corinth",
+        "published_value": "37.904935 N, 22.878805 E; Ancient Corinth reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Remove invented waterfront at lower town. Hill-to-town distance compressed; wall tiers, church forms and heights need plan review."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Remove invented waterfront at lower town. Hill-to-town distance compressed; wall tiers, church forms and heights need plan review.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://castleroute.culture.gov.gr/en/acrocorinth/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/corinth-1180-v1.png",
+      "source_sha256": "f87b52c1f9c783d197e6361939ba2f037ccab39333c9d550b099530445b2f1b0",
+      "sha256": "50bc51ff8d0406d9a743365c84bb1e63eb1b170ffc51b1638deab69ffdc5d3a6",
+      "pixel_sha256": "52f47ea1fffdf15ed5f202e09d11e7b15821b1e81cca7b942ebb12cffae78a50",
+      "dimensions_px": [
+        1024,
+        689
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9622641509433962
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          689
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          663
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 344.5,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "chalkida-1180-v1",
+      "site_id": "chalkida",
+      "name": "Chalkida",
+      "historical_name": "Chalkis / Euripos",
+      "site_type": "city",
+      "category": "city",
+      "file": "chalkida-1180-v1.png",
+      "source": "sources/chalkida.png",
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        23.595,
+        38.4625
+      ],
+      "latitude": 38.4625,
+      "longitude": 23.595,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Chalcis",
+        "published_value": "38.46250 N, 23.59500 E; city reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Bridge arches, abutments and wall geometry are interpretive; no surveyed 1180 bridge reconstruction."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Bridge arches, abutments and wall geometry are interpretive; no surveyed 1180 bridge reconstruction.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-590-2/978-88-6969-590-2-ch-24_0qGGyG8.pdf"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/chalkida-1180-v1.png",
+      "source_sha256": "d87db36afbe7f33e93cde1994417dd6637c1e509f632a4ab4cd3e162ff2de097",
+      "sha256": "0f37b55604cd2bf0facc317b18da17c0750be9b225842aff171790e7e45b48f9",
+      "pixel_sha256": "34baa1ae9a183b6a9f260cb0f9de8917d202f830e5c0bba9d48b2b60276fbe53",
+      "dimensions_px": [
+        1024,
+        694
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.962536023054755
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          694
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          668
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 347.0,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "heraklion-1180-v1",
+      "site_id": "heraklion",
+      "name": "Heraklion",
+      "historical_name": "Chandax",
+      "site_type": "city",
+      "category": "city",
+      "file": "heraklion-1180-v1.png",
+      "source": "sources/heraklion.png",
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        25.1344,
+        35.3403
+      ],
+      "latitude": 35.3403,
+      "longitude": 25.1344,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Heraklion",
+        "published_value": "35.3403 N, 25.1344 E; city reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Harbor geometry, church placement and Byzantine wall circuit are schematic; no claim to recreate Venetian Candia."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Harbor geometry, church placement and Byzantine wall circuit are schematic; no claim to recreate Venetian Candia.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://www.heraklion.gr/en/ourplace/throwback/historical-elements.html"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/heraklion-1180-v1.png",
+      "source_sha256": "58d78e9ce5f8ccc6cd26b799619e5ed8edbd93da2d5b864580e9e7ad21e39966",
+      "sha256": "d9f111ea8020544b289d002dd29352b53f5b15fc5bba06825ea5ed9ef7714e33",
+      "pixel_sha256": "726e81b448fdbcfcdf0fbe2c4c5e5d6a03f988bc83138a258cdfcafd625a2d3f",
+      "dimensions_px": [
+        1024,
+        703
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9630156472261735
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          703
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          677
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 351.5,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "rhodes-1180-v1",
+      "site_id": "rhodes",
+      "name": "Rhodes",
+      "historical_name": "Rhodos",
+      "site_type": "city",
+      "category": "city",
+      "file": "rhodes-1180-v1.png",
+      "source": "sources/rhodes.png",
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        28.22631111111111,
+        36.443080555555554
+      ],
+      "latitude": 36.443080555555554,
+      "longitude": 28.22631111111111,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/document/164203",
+        "published_value": "N36 26 35.090 E28 13 34.720; corrected UNESCO medieval city point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Depicts earlier Byzantine city; walls and harbor require pre-Hospitaller phase review. UNESCO point locates urban site, not 1180 boundaries."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Depicts earlier Byzantine city; walls and harbor require pre-Hospitaller phase review. UNESCO point locates urban site, not 1180 boundaries.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://whc.unesco.org/en/list/493/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/rhodes-1180-v1.png",
+      "source_sha256": "ed14a2ceb64ee197e3aec6ef3377a892b578ecef48150f3825202e1bf6befbda",
+      "sha256": "e42ced20d813acd0fa7742ac30dfb3930c2599a40b86eaeb38dac6bb3bee7f3c",
+      "pixel_sha256": "e607063cb01d6b99ac8f0860525d2b2c0c3f5cc6f4c0fd3d30f43861a488f640",
+      "dimensions_px": [
+        1024,
+        700
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9628571428571429
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          700
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          674
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 350.0,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "cairo-1180-v1",
+      "site_id": "cairo",
+      "name": "Cairo",
+      "historical_name": "al-Qahira",
+      "site_type": "city",
+      "category": "city",
+      "file": "cairo-1180-v1.png",
+      "source": "sources/cairo.png",
+      "map_region": "delta",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "delta"
+      ],
+      "coordinates": [
+        31.2578,
+        30.0428
+      ],
+      "latitude": 30.0428,
+      "longitude": 31.2578,
+      "coordinate_evidence": {
+        "url": "https://aldarbalahmar.com/explore/1",
+        "published_value": "30.0428 N, 31.2578 E; Bab Zuwaila anchor for Fatimid city",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Bab Zuwayla selected as ground anchor; city icon is exaggerated. Minaret forms, mosque silhouettes and wall circuit remain interpretive."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Bab Zuwayla selected as ground anchor; city icon is exaggerated. Minaret forms, mosque silhouettes and wall circuit remain interpretive.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction.",
+        "Water strip at cutout edge is schematic; do not interpret as actual Fatimid city shoreline."
+      ],
+      "references": [
+        "https://egymonuments.gov.eg/monuments/the-walls-of-cairo/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/cairo-1180-v1.png",
+      "source_sha256": "8e7032cadddab63b5d643fe764c5ed853122e99df0dbc80322f90aed13ed25ed",
+      "sha256": "e46e053035f20461dc641a45f5edf16acee21f9d90b2c5d2380305b3e98e66cf",
+      "pixel_sha256": "e49702f6c92c08cbc700902a63969aac8384a7a18c0c4849ad0f8bc11f71667d",
+      "dimensions_px": [
+        1024,
+        690
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9623188405797102
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          690
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          997,
+          664
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 345.0,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "alexandria-1180-v1",
+      "site_id": "alexandria",
+      "name": "Alexandria",
+      "historical_name": "al-Iskandariyya",
+      "site_type": "city",
+      "category": "city",
+      "file": "alexandria-1180-v1.png",
+      "source": "sources/alexandria.png",
+      "map_region": "delta",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "delta"
+      ],
+      "coordinates": [
+        29.9,
+        31.2
+      ],
+      "latitude": 31.2,
+      "longitude": 29.9,
+      "coordinate_evidence": {
+        "url": "https://collections.tepapa.govt.nz/place/2077199",
+        "published_value": "31.2 N, 29.9 E; coarse city reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Coarse published city anchor, not Pharos monument location. Lighthouse medieval upper stages, relative scale and harbor coastline require review."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Coarse published city anchor, not Pharos monument location. Lighthouse medieval upper stages, relative scale and harbor coastline require review.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://pharos.cealex.org/documentary-resources/after-the-lighthouse-the-fort/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/alexandria-1180-v1.png",
+      "source_sha256": "132d6e7dec8bfe672cd8bd3bb68201095a4c138da630df6325c1662f5a6bbf70",
+      "sha256": "02cd38001e4b417369f5f8dfe4b2208a75cef5804a15262479158b4f0f7fa43f",
+      "pixel_sha256": "b5c4fdd4e5d27ed8cc4ad3aa9f9ad85233dbeb68bb609e0eca02509073906863",
+      "dimensions_px": [
+        1024,
+        695
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.962589928057554
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          695
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          669
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 347.5,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "damietta-1180-v1",
+      "site_id": "damietta",
+      "name": "Damietta",
+      "historical_name": "Dumyat",
+      "site_type": "city",
+      "category": "city",
+      "file": "damietta-1180-v1.png",
+      "source": "sources/damietta.png",
+      "map_region": "delta",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "delta"
+      ],
+      "coordinates": null,
+      "latitude": null,
+      "longitude": null,
+      "coordinate_evidence": {
+        "url": "https://eprints.soton.ac.uk/466640/1/1238050_v.2.pdf",
+        "published_value": "Medieval town east bank downstream of modern city; precise site not established in this source",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Medieval location unresolved. No invented coordinate supplied; do not substitute modern Damietta centroid. Riverbank, wall and mosque arrangement schematic."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": false,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "needs-medieval-geolocation",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Medieval location unresolved. No invented coordinate supplied; do not substitute modern Damietta centroid. Riverbank, wall and mosque arrangement schematic.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://eprints.soton.ac.uk/466640/1/1238050_v.2.pdf"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/damietta-1180-v1.png",
+      "source_sha256": "142131548def81cf0eb52cc2b26057eb96e325a084109bba6009da62526a4741",
+      "sha256": "ea5f273335b733a02d72dcee90da77f1e0554a60d025ac65eb30f849666e94b2",
+      "pixel_sha256": "0d181b926f11ff3e7adf700d43ec5d784ee78b07515bd3bcb9613f8f34d8f561",
+      "dimensions_px": [
+        1024,
+        690
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9623188405797102
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          690
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          664
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 345.0,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    }
+  ]
+}

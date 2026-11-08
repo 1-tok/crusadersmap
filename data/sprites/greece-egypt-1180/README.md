@@ -1,0 +1,13 @@
+# Greece and Egypt — circa 1180, batch 01
+
+Nine new individual transparent city paintings: Athens, Thessaloniki, Corinth, Chalkida, Heraklion (Chandax), Rhodes, Cairo, Alexandria and Damietta. Generated with built-in image_gen; exact prompts and source-image provenance are in prompts.json. Original generated alpha is preserved in sources/. Packaging crops transparent margins, scales proportionally and adds 26 pixels of transparent padding; painted content is not changed.
+
+manifest.json records unique IDs, asset paths, historical names, regions/layers, sourced WGS84 coordinates, painted footprints, ground anchors, period eligibility, approval and repaint flags. Eight assets are approved for immediate provisional geographic placement with review/repaint flags. Damietta artwork is provisionally approved, but its geographic placement remains pending because the researched medieval site is not precisely established; no coordinate was invented.
+
+placements-1180.geojson contains the eight sourced anchors. Greece belongs to the aegean inset; Egypt to delta. Do not use mainland frame.to_px for these features. Coordinates are representative published points, not surveyed city boundaries. Artwork display width defaults to 512 full-atlas pixels. Project footprints and anchors using the correct inset before composing a print edition.
+
+Known repaint flags include invented waterfront along Athens and Corinth, schematic street plans, wall circuits and building heights, and phase-specific church/minaret silhouettes. Cairo's generated water strip is also schematic and must not be read as the actual Fatimid city edge. Earlier Byzantine Rhodes is intended, not the later Hospitaller city. None of the paintings is historical certification. Review flags do not hold the eight geographically grounded assets from provisional placement.
+
+This batch is a separate discoverable manifest alongside the existing historical and expansion batches. The unified catalog is being updated independently with recovered archive artwork; this batch does not overwrite that work. Consumers should read this manifest/GeoJSON as an additional library batch.
+
+Rebuild with `python3 build_greece_egypt_sprites.py` (Pillow). QA checks real RGBA transparency, empty padded edges, unique pixel hashes and safe individual outputs. Light/dark preview: previews/greece-egypt-1180-qa.jpg at repository root.
