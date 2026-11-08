@@ -239,6 +239,7 @@ def export(catalog, year):
                 anchor_normalized=e['anchor_normalized'], display_width_units=e['display_width_units'],
                 status=e['approval']['status'], repaint_later=True, year=year)))
         features[-1]['properties'].update(approval_for_placement=e['approval_for_placement'],
+            replacement_review=e.get('replacement_review'),
             map_region=e['map_region'],
             display_title=e['display_title'],construction=e.get('construction'),
             map_layers=e['map_layers'], historical_name=e['historical_name'],

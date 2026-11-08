@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-08",
+  "scope": "Companion sprite research queue; no new geographic placements approved or invented.",
+  "central_sprite": "constantinople-1180-v1",
+  "central_sprite_status": "approved-provisional-replacement-required",
+  "coordinate_policy": "Null until a cited medieval or explicitly representative site point is verified; relative positions are not coordinates.",
+  "layout_policy": "Constantinople stays double size (1024). Smaller companions start at proposed256 atlas pixels; confirm collisions and readable waterways on an enlarged local inset before release. Do not shift geographic anchors to fit artwork; use explicit visual offsets/leader lines if necessary.",
+  "entries": [
+    {
+      "map_region": "aegean",
+      "target_year": 1180,
+      "asset_path": null,
+      "coordinates": null,
+      "geographic_placement_ready": false,
+      "approval_for_placement": false,
+      "status": "research-before-generation",
+      "id": "galata-sykai-1180-candidate",
+      "site_id": "galata-sykai",
+      "historical_name": "Galata / Sykai (Pera)",
+      "relative_location": "North bank of Golden Horn, opposite Constantinople",
+      "priority": 1,
+      "references": [
+        "https://www.persee.fr/doc/rebyz_0766-5598_1961_num_19_1_1265",
+        "https://muze.gov.tr/s3/MysFileLibrary/566f7fe8-c812-421d-9baa-86e7bb228337.pdf"
+      ],
+      "uncertainty_notes": [
+        "Best next companion: modest Byzantine settlement and waterfront chain fort.",
+        "Distinguish waterfront Kastellion from the later hilltop Genoese Galata Tower (1348), excluded from 1180.",
+        "Existing P:galata point is inherited and coarse; verify medieval settlement/fort anchors before placement.",
+        "Galata and Sykai are related but distinct topographic elements; do not assume identical footprints."
+      ],
+      "proposed_display_width_units": 256,
+      "existing_repo_marker": "P:galata"
+    },
+    {
+      "map_region": "aegean",
+      "target_year": 1180,
+      "asset_path": null,
+      "coordinates": null,
+      "geographic_placement_ready": false,
+      "approval_for_placement": false,
+      "status": "research-before-generation",
+      "id": "chrysopolis-1180-candidate",
+      "site_id": "chrysopolis",
+      "historical_name": "Chrysopolis / Skoutarion (Üsküdar)",
+      "relative_location": "Asian shore across the Bosphorus, northeast of the historic peninsula",
+      "priority": 2,
+      "references": [
+        "https://www.uskudar.bel.tr/userfiles/files/U%CC%88sku%CC%88dar%20Sempozyum_1.cilt_16OCAK2016.pdf"
+      ],
+      "uncertainty_notes": [
+        "Candidate smaller shore settlement/ferry landing; confirm 1180 footprint and depicted buildings.",
+        "Municipal Byzantine-period symposium located, full PDF not inspected due tool size limit.",
+        "No Ottoman waterfront mosques or modern ferry terminals; do not copy modern Üsküdar skyline."
+      ],
+      "proposed_display_width_units": 256
+    },
+    {
+      "map_region": "aegean",
+      "target_year": 1180,
+      "asset_path": null,
+      "coordinates": null,
+      "geographic_placement_ready": false,
+      "approval_for_placement": false,
+      "status": "research-before-generation",
+      "id": "chalcedon-1180-candidate",
+      "site_id": "chalcedon",
+      "historical_name": "Chalkēdōn / Chalcedon (Kadıköy)",
+      "relative_location": "Asian shore southeast of Chrysopolis, opposite southern Constantinople",
+      "priority": 3,
+      "references": [
+        "https://sehirplanlama.ibb.istanbul/kadikoy-tarihcesi/",
+        "https://www.kadikoy.bel.tr/tr/kadikoyun-tarihcesi"
+      ],
+      "uncertainty_notes": [
+        "Candidate compact settlement; ancient prominence does not establish a dense 1180 city.",
+        "Municipal histories located; exact 1180 extent, waterfront and surviving churches require further research.",
+        "Keep separate from Chrysopolis and avoid an invented grand classical city."
+      ],
+      "proposed_display_width_units": 256
+    }
+  ],
+  "internal_precincts_not_independent_cities": [
+    "Blachernae: revise within replacement Constantinople sprite; do not duplicate as another city."
+  ]
+}

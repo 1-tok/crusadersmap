@@ -7,3 +7,7 @@ The UNESCO Sultanahmet component point is transcribed exactly (N41 0 30, E28 58 
 Research: [UNESCO coordinates](https://whc.unesco.org/en/list/356/maps/), [historic areas](https://whc.unesco.org/en/list/356/), [Hippodrome reconstruction](https://www.byzantium1200.com/hipodrom.html), [city model caveats](https://www.byzantium1200.com/tiles.html). The latter explicitly uses imaginary housing and the project warns its reconstructed buildings are more complete than historical maintenance allowed. Our schematic sprite is not copied from those renders and is not a certified reconstruction.
 
 No Ottoman minarets, bridges, Topkapi or later Galata tower depicted. Review flags retain uncertainty over monuments, palace condition, walls and street plan. Original generated source and exact prompt are preserved.
+
+## Replacement markup and surrounding sites
+
+User reconfirmed provisional approval on2026-11-08. `replacement_review` in the manifest/catalog/export marks this sprite **high priority for future replacement**, while keeping current placement enabled. See `../../manifests/constantinople-region-sprite-plan.json` for Galata/Sykai, Chrysopolis and Chalcedon research candidates. No new companion artwork or invented coordinates have been released.

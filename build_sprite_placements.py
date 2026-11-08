@@ -23,6 +23,7 @@ def main():
                 sha256=e['technical_qa']['sha256'],preferred=e['id'] in selected,
                 preferred_1180=e['id'] in selected_1180,display_title=e['display_title'],construction=e.get('construction'),
                 approval=e['approval']['status'],repaint_later=True,historical_accuracy_certified=False,
+                replacement_review=e.get('replacement_review'),
                 availability=e['availability'],coordinates_surveyed=False,coordinate_source_checked=True,
                 coordinate_source=e['coordinate_source'],coordinate_evidence=e['coordinate_evidence'],
                 approval_for_placement=e['approval_for_placement'],period_1180_eligible=e['period_1180_eligible'],

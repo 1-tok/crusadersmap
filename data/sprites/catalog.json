@@ -12707,6 +12707,20 @@
         "sha256": "155cf2bd6d49f2341d0b251619718852d2ae90422a375c5982b9e63ec0c8315f"
       },
       "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "replacement_review": {
+        "required": true,
+        "priority": "high",
+        "status": "approved-placeholder-awaiting-replacement",
+        "keep_current_placement": true,
+        "approval_authority": "User: Approve for now, markup for future replacement; 2026-11-08",
+        "reason": "Recognizable schematic city illustration, not a verified 1180 reconstruction.",
+        "acceptance_criteria": [
+          "Ground peninsula outline and major monuments in a cited historical plan.",
+          "Correct Hippodrome orientation, palace condition, land-wall system and Hagia Sophia proportions.",
+          "Preserve double-size display width 1024 atlas pixels and transparent padding.",
+          "Coordinate separate north-bank and Asian-shore sprites without merging shores, covering waterways or implying bridges."
+        ]
+      },
       "asset": "greece-egypt-1180-constantinople/constantinople-1180-v1.png",
       "selection_priority": 40,
       "variant": "generated-city",
