@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "generation_method": "built-in image_gen",
+  "batch_id": "constantinople-1180-double-size",
+  "default_year": 1180,
+  "release_status": "published-provisional",
+  "approval_policy": "User requested approved provisional production and double-size Constantinople; historical review flags persist.",
+  "assets": [
+    {
+      "id": "constantinople-1180-v1",
+      "site_id": "constantinople",
+      "name": "Constantinople",
+      "historical_name": "Kōnstantinoupolis",
+      "alternate_names": [
+        "Constantinople",
+        "Byzantium",
+        "Byzantion",
+        "Istanbul"
+      ],
+      "site_type": "city",
+      "category": "city",
+      "file": "constantinople-1180-v1.png",
+      "source": "sources/constantinople-1180.png",
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        28.98333333333333,
+        41.00833333333333
+      ],
+      "latitude": 41.00833333333333,
+      "longitude": 28.98333333333333,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/list/356/maps/",
+        "published_value": "Sultanahmet component N41 0 30 E28 58 60; converted exactly from published DMS",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Representative Sultanahmet reference point, not a surveyed medieval city centroid or sprite footprint. Schematic bottom-center visual anchor; peninsula orientation is illustrative."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Schematic urban layout, house forms, density, topography and relative monument scale; not a measured reconstruction.",
+        "Hippodrome orientation and stands, Hagia Sophia exterior, palace phases and western fortification details require specialist review.",
+        "Great Palace precinct may be too complete; exact 1180 condition uncertain.",
+        "Golden Horn far-bank omission and narrow water fringe are cutout conventions, not an island or complete coastline reconstruction."
+      ],
+      "references": [
+        "https://whc.unesco.org/en/list/356/",
+        "https://www.byzantium1200.com/",
+        "https://www.byzantium1200.com/hipodrom.html",
+        "https://www.byzantium1200.com/tiles.html"
+      ],
+      "display_width_units": 1024,
+      "canvas_width_px": 2048,
+      "display_scale_multiplier": 2,
+      "normal_city_display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-constantinople/constantinople-1180-v1.png",
+      "source_sha256": "f646f38f990fd21aea73b5dbed7704494f7aec01a99d66a375e295066d887397",
+      "sha256": "155cf2bd6d49f2341d0b251619718852d2ae90422a375c5982b9e63ec0c8315f",
+      "pixel_sha256": "5753ef41bbc94908c0f7884db3beeda15e4303cca86efe342762e421e9c9ab2e",
+      "dimensions_px": [
+        2048,
+        1076
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9516728624535316
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          2048,
+          1076
+        ],
+        "painted_bounds_xyxy": [
+          52,
+          52,
+          1996,
+          1024
+        ],
+        "display_width_atlas_px": 1024,
+        "display_height_atlas_px": 538.0,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 52
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    }
+  ]
+}

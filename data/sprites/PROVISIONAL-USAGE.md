@@ -66,3 +66,11 @@ The unified catalog imports `greece-egypt*/manifest.json` batches. Fifteen newly
 ## City batch03 — 2026-11-08
 
 Added Methoni, Koroni, Andravida, Chania, Rethymno and Suez as six further provisionally approved sprites. Research, exact prompts, original sources, transparent packaged PNGs and per-site uncertainty are retained in `greece-egypt-1180-batch03/`. Suez uses a coarse sourced city-region anchor and an explicitly decayed settlement interpretation; it is not exact medieval geolocation. Shared inset markup now rebuilds automatically with the full placement export and numbered key. The reviewed city queue is regenerated against the complete unified catalog.
+
+## City batch04 — audit backup only
+
+The six batch04 source drafts are retained for recovery with `release_status: audit-hold`. They are not imported into the production catalog or approved for placement.
+
+## Audit correction approval — 2026-11-08
+
+The user approved Athens v3 after comparison against the original city style reference. Its invented waterfront and unsupported complete lower-town enclosure are removed. It replaces v1 in the preferred city manifest; v1 and all source/review images remain preserved. Monument details and schematic city layout remain flagged for review. Only batches explicitly marked published-provisional enter the catalog.

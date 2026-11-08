@@ -6,14 +6,14 @@
   "approval_policy": "Place sourced-anchor sprites provisionally; review/repaint does not block them. Damietta artwork approved, geographic placement awaits a grounded medieval anchor.",
   "assets": [
     {
-      "id": "athens-1180-v1",
+      "id": "athens-1180-v3",
       "site_id": "athens",
       "name": "Athens",
       "historical_name": "Athēnai",
       "site_type": "city",
       "category": "city",
-      "file": "athens-1180-v1.png",
-      "source": "sources/athens.png",
+      "file": "athens-1180-v3.png",
+      "source": "sources/athens-1180-v3.png",
       "map_region": "aegean",
       "map_layers": [
         "sprites-1180",
@@ -31,7 +31,7 @@
         "published_value": "37.971 / 23.726; Acropolis reference point",
         "accessed": "2026-11-08",
         "surveyed": false,
-        "uncertainty_note": "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure."
+        "uncertainty_note": "Published Acropolis reference point, not a surveyed medieval city footprint; schematic bottom-center sprite anchor."
       },
       "period_1180_eligible": true,
       "approval_for_placement": true,
@@ -44,38 +44,40 @@
       "review_required": true,
       "repaint_required": true,
       "repaint_flags": [
-        "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure.",
-        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+        "Parthenon church exterior, adjacent monuments and Acropolis defenses require historical review.",
+        "Lower-town street plan, house forms and orientation remain artistic approximations."
       ],
       "references": [
-        "https://byzantineattica.eie.gr/byzantineattica/view.asp?cgpk=490&lg=en&obpk=439&xsl=detail"
+        "https://acropolisrestoration.ysma.gr/wp-content/uploads/2025/05/06_PARTHENWN_EN.pdf",
+        "https://www.ascsa.edu.gr/uploads/media/hesperia/146915.pdf",
+        "https://www.ascsa.edu.gr/publications/book/?i=9780876616079"
       ],
       "display_width_units": 512,
-      "asset_path": "data/sprites/greece-egypt-1180/athens-1180-v1.png",
-      "source_sha256": "97fc3acc70efbc15422c8ee56a82ab0849d63618e024014f0e54cc1b32d59d21",
-      "sha256": "579dc262442aa7fa05663f4dbc015d8577001c24fd8df8df29456b128ee1fca6",
-      "pixel_sha256": "43c63dc6f41c7d7b95092f519a8b775670d1c648248d5d7a08219d07403db30d",
+      "asset_path": "data/sprites/greece-egypt-1180/athens-1180-v3.png",
+      "source_sha256": "79705b6543569a5a78dd14d2e60359d8c4becbce47d77499d806cfbb18e807c4",
+      "sha256": "e0c3a933e350125fb4f7f21dc95b41c244e650db890399ad5ebae1b6ad5afa35",
+      "pixel_sha256": "a1a605dd8e4ab318c5545126a8a526a3b9916ded4851d48c2085a7805448d084",
       "dimensions_px": [
         1024,
-        700
+        703
       ],
       "anchor_normalized": [
         0.5,
-        0.9628571428571429
+        0.9630156472261735
       ],
       "visual_footprint": {
         "canvas_px": [
           1024,
-          700
+          703
         ],
         "painted_bounds_xyxy": [
           26,
           26,
           998,
-          674
+          677
         ],
         "display_width_atlas_px": 512,
-        "display_height_atlas_px": 350.0,
+        "display_height_atlas_px": 351.5,
         "geographic_scale": false
       },
       "technical_qa": {
@@ -759,5 +761,7 @@
       },
       "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
     }
-  ]
+  ],
+  "release_status": "published-provisional",
+  "release_note": "Athens v3 correction approved by user 2026-11-08; earlier source and v1 normalized asset retained as backup."
 }

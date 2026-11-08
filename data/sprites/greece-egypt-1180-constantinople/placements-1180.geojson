@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "coordinate_system": "EPSG:4326",
+  "note": "Route each feature to its map_region: main, aegean or delta. Do not project inset cities through mainland frame.to_px. Any city lacking grounded coordinates is omitted.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "constantinople-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.98333333333333,
+          41.00833333333333
+        ]
+      },
+      "properties": {
+        "site_id": "constantinople",
+        "name": "Constantinople",
+        "asset_path": "data/sprites/greece-egypt-1180-constantinople/constantinople-1180-v1.png",
+        "map_region": "aegean",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9516728624535316
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            2048,
+            1076
+          ],
+          "painted_bounds_xyxy": [
+            52,
+            52,
+            1996,
+            1024
+          ],
+          "display_width_atlas_px": 1024,
+          "display_height_atlas_px": 538.0,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/356/maps/",
+          "published_value": "Sultanahmet component N41 0 30 E28 58 60; converted exactly from published DMS",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Representative Sultanahmet reference point, not a surveyed medieval city centroid or sprite footprint. Schematic bottom-center visual anchor; peninsula orientation is illustrative."
+        },
+        "repaint_flags": [
+          "Schematic urban layout, house forms, density, topography and relative monument scale; not a measured reconstruction.",
+          "Hippodrome orientation and stands, Hagia Sophia exterior, palace phases and western fortification details require specialist review.",
+          "Great Palace precinct may be too complete; exact 1180 condition uncertain.",
+          "Golden Horn far-bank omission and narrow water fringe are cutout conventions, not an island or complete coastline reconstruction."
+        ]
+      }
+    }
+  ]
+}

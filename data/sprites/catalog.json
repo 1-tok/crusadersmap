@@ -9284,16 +9284,16 @@
       }
     },
     {
-      "id": "athens-1180-v1",
+      "id": "athens-1180-v3",
       "site_id": "athens",
       "name": "Athens",
       "historical_name": "Athēnai",
       "site_type": "city",
       "category": "city",
-      "file": "athens-1180-v1.png",
+      "file": "athens-1180-v3.png",
       "source": {
-        "path": "greece-egypt-1180/sources/athens.png",
-        "sha256": "97fc3acc70efbc15422c8ee56a82ab0849d63618e024014f0e54cc1b32d59d21"
+        "path": "greece-egypt-1180/sources/athens-1180-v3.png",
+        "sha256": "79705b6543569a5a78dd14d2e60359d8c4becbce47d77499d806cfbb18e807c4"
       },
       "map_region": "aegean",
       "map_layers": [
@@ -9312,7 +9312,7 @@
         "published_value": "37.971 / 23.726; Acropolis reference point",
         "accessed": "2026-11-08",
         "surveyed": false,
-        "uncertainty_note": "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure."
+        "uncertainty_note": "Published Acropolis reference point, not a surveyed medieval city footprint; schematic bottom-center sprite anchor."
       },
       "period_1180_eligible": true,
       "approval_for_placement": true,
@@ -9333,41 +9333,43 @@
       "review_required": true,
       "repaint_required": true,
       "repaint_flags": [
-        "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure.",
-        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+        "Parthenon church exterior, adjacent monuments and Acropolis defenses require historical review.",
+        "Lower-town street plan, house forms and orientation remain artistic approximations."
       ],
       "references": [
-        "https://byzantineattica.eie.gr/byzantineattica/view.asp?cgpk=490&lg=en&obpk=439&xsl=detail"
+        "https://acropolisrestoration.ysma.gr/wp-content/uploads/2025/05/06_PARTHENWN_EN.pdf",
+        "https://www.ascsa.edu.gr/uploads/media/hesperia/146915.pdf",
+        "https://www.ascsa.edu.gr/publications/book/?i=9780876616079"
       ],
       "display_width_units": 512,
-      "asset_path": "data/sprites/greece-egypt-1180/athens-1180-v1.png",
-      "source_sha256": "97fc3acc70efbc15422c8ee56a82ab0849d63618e024014f0e54cc1b32d59d21",
-      "sha256": "579dc262442aa7fa05663f4dbc015d8577001c24fd8df8df29456b128ee1fca6",
-      "pixel_sha256": "43c63dc6f41c7d7b95092f519a8b775670d1c648248d5d7a08219d07403db30d",
+      "asset_path": "data/sprites/greece-egypt-1180/athens-1180-v3.png",
+      "source_sha256": "79705b6543569a5a78dd14d2e60359d8c4becbce47d77499d806cfbb18e807c4",
+      "sha256": "e0c3a933e350125fb4f7f21dc95b41c244e650db890399ad5ebae1b6ad5afa35",
+      "pixel_sha256": "a1a605dd8e4ab318c5545126a8a526a3b9916ded4851d48c2085a7805448d084",
       "dimensions_px": [
         1024,
-        700
+        703
       ],
       "anchor_normalized": [
         0.5,
-        0.9628571428571429
+        0.9630156472261735
       ],
       "visual_footprint": {
         "canvas_px": [
           1024,
-          700
+          703
         ],
         "painted_bounds_xyxy": [
           26,
           26,
           998,
-          674
+          677
         ],
         "display_width_atlas_px": 512,
-        "display_height_atlas_px": 350.0,
+        "display_height_atlas_px": 351.5,
         "anchor_normalized": [
           0.5,
-          0.9628571428571429
+          0.9630156472261735
         ],
         "geographic_scale": false
       },
@@ -9376,7 +9378,7 @@
         "mode": "RGBA",
         "dimensions_px": [
           1024,
-          700
+          703
         ],
         "transparent_padding_px": 26,
         "alpha_extrema": [
@@ -9387,13 +9389,13 @@
           26,
           26,
           998,
-          674
+          677
         ],
-        "pixel_sha256": "43c63dc6f41c7d7b95092f519a8b775670d1c648248d5d7a08219d07403db30d",
-        "sha256": "579dc262442aa7fa05663f4dbc015d8577001c24fd8df8df29456b128ee1fca6"
+        "pixel_sha256": "a1a605dd8e4ab318c5545126a8a526a3b9916ded4851d48c2085a7805448d084",
+        "sha256": "e0c3a933e350125fb4f7f21dc95b41c244e650db890399ad5ebae1b6ad5afa35"
       },
       "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
-      "asset": "greece-egypt-1180/athens-1180-v1.png",
+      "asset": "greece-egypt-1180/athens-1180-v3.png",
       "selection_priority": 40,
       "variant": "generated-city",
       "approval": {
@@ -9414,11 +9416,13 @@
         "requires_historical_review": true,
         "requires_repaint_review": true,
         "references": [
-          "https://byzantineattica.eie.gr/byzantineattica/view.asp?cgpk=490&lg=en&obpk=439&xsl=detail"
+          "https://acropolisrestoration.ysma.gr/wp-content/uploads/2025/05/06_PARTHENWN_EN.pdf",
+          "https://www.ascsa.edu.gr/uploads/media/hesperia/146915.pdf",
+          "https://www.ascsa.edu.gr/publications/book/?i=9780876616079"
         ],
         "notes": [
-          "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure.",
-          "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+          "Parthenon church exterior, adjacent monuments and Acropolis defenses require historical review.",
+          "Lower-town street plan, house forms and orientation remain artistic approximations."
         ],
         "exclude_from_1180": false,
         "later_period_only": false
@@ -9435,7 +9439,7 @@
       ],
       "display_title": "Athens",
       "uncertainty_notes": [
-        "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure.",
+        "Published Acropolis reference point, not a surveyed medieval city footprint; schematic bottom-center sprite anchor.",
         "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
       ],
       "duplicate_of": null
@@ -12578,11 +12582,184 @@
         "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
       ],
       "duplicate_of": null
+    },
+    {
+      "id": "constantinople-1180-v1",
+      "site_id": "constantinople",
+      "name": "Constantinople",
+      "historical_name": "Kōnstantinoupolis",
+      "alternate_names": [
+        "Constantinople",
+        "Byzantium",
+        "Byzantion",
+        "Istanbul"
+      ],
+      "site_type": "city",
+      "category": "city",
+      "file": "constantinople-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180-constantinople/sources/constantinople-1180.png",
+        "sha256": "f646f38f990fd21aea73b5dbed7704494f7aec01a99d66a375e295066d887397"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        28.98333333333333,
+        41.00833333333333
+      ],
+      "latitude": 41.00833333333333,
+      "longitude": 28.98333333333333,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/list/356/maps/",
+        "published_value": "Sultanahmet component N41 0 30 E28 58 60; converted exactly from published DMS",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Representative Sultanahmet reference point, not a surveyed medieval city centroid or sprite footprint. Schematic bottom-center visual anchor; peninsula orientation is illustrative."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Schematic urban layout, house forms, density, topography and relative monument scale; not a measured reconstruction.",
+        "Hippodrome orientation and stands, Hagia Sophia exterior, palace phases and western fortification details require specialist review.",
+        "Great Palace precinct may be too complete; exact 1180 condition uncertain.",
+        "Golden Horn far-bank omission and narrow water fringe are cutout conventions, not an island or complete coastline reconstruction."
+      ],
+      "references": [
+        "https://whc.unesco.org/en/list/356/",
+        "https://www.byzantium1200.com/",
+        "https://www.byzantium1200.com/hipodrom.html",
+        "https://www.byzantium1200.com/tiles.html"
+      ],
+      "display_width_units": 1024,
+      "canvas_width_px": 2048,
+      "display_scale_multiplier": 2,
+      "normal_city_display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-constantinople/constantinople-1180-v1.png",
+      "source_sha256": "f646f38f990fd21aea73b5dbed7704494f7aec01a99d66a375e295066d887397",
+      "sha256": "155cf2bd6d49f2341d0b251619718852d2ae90422a375c5982b9e63ec0c8315f",
+      "pixel_sha256": "5753ef41bbc94908c0f7884db3beeda15e4303cca86efe342762e421e9c9ab2e",
+      "dimensions_px": [
+        2048,
+        1076
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9516728624535316
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          2048,
+          1076
+        ],
+        "painted_bounds_xyxy": [
+          52,
+          52,
+          1996,
+          1024
+        ],
+        "display_width_atlas_px": 1024,
+        "display_height_atlas_px": 538.0,
+        "anchor_normalized": [
+          0.5,
+          0.9516728624535316
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          2048,
+          1076
+        ],
+        "transparent_padding_px": 52,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          52,
+          52,
+          1996,
+          1024
+        ],
+        "pixel_sha256": "5753ef41bbc94908c0f7884db3beeda15e4303cca86efe342762e421e9c9ab2e",
+        "sha256": "155cf2bd6d49f2341d0b251619718852d2ae90422a375c5982b9e63ec0c8315f"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180-constantinople/constantinople-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://whc.unesco.org/en/list/356/",
+          "https://www.byzantium1200.com/",
+          "https://www.byzantium1200.com/hipodrom.html",
+          "https://www.byzantium1200.com/tiles.html"
+        ],
+        "notes": [
+          "Schematic urban layout, house forms, density, topography and relative monument scale; not a measured reconstruction.",
+          "Hippodrome orientation and stands, Hagia Sophia exterior, palace phases and western fortification details require specialist review.",
+          "Great Palace precinct may be too complete; exact 1180 condition uncertain.",
+          "Golden Horn far-bank omission and narrow water fringe are cutout conventions, not an island or complete coastline reconstruction."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        28.98333333333333,
+        41.00833333333333
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://whc.unesco.org/en/list/356/maps/",
+      "coordinates_surveyed": false,
+      "display_title": "Constantinople",
+      "uncertainty_notes": [
+        "Representative Sultanahmet reference point, not a surveyed medieval city centroid or sprite footprint. Schematic bottom-center visual anchor; peninsula orientation is illustrative.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
     }
   ],
   "coordinate_precision_policy": "Published points transcribed exactly; not surveyed medieval footprints. See per-site evidence and uncertainty.",
   "deduplication": {
     "method": "SHA-256 RGBA pixels and dimensions; preferred variant per site for placement",
-    "unique_pngs": 61
+    "unique_pngs": 62
   }
 }

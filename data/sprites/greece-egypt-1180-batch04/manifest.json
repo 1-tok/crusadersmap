@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "generation_method": "built-in image_gen",
+  "batch_id": "greece-egypt-1180-04",
+  "default_year": 1180,
+  "approval_policy": "Audit hold. Do not import or place this unfinished batch. No approval is granted by its presence in the workspace.",
+  "assets": [
+    {
+      "id": "nafpaktos-1180-v1",
+      "site_id": "nafpaktos",
+      "name": "Nafpaktos",
+      "historical_name": "Naupaktos",
+      "alternate_names": [
+        "Naupactus",
+        "Lepanto"
+      ],
+      "site_type": "city",
+      "category": "city",
+      "file": "nafpaktos-1180-v1.png",
+      "source": "sources/nafpaktos.png",
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        21.83056,
+        38.39389
+      ],
+      "latitude": 38.39389,
+      "longitude": 21.83056,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Nafpaktos",
+        "published_value": "38.39389 N,21.83056 E; city reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published city point, not surveyed harbor gate. Surviving stepped wall circuit mixes phases; upper castle, harbor and episcopal buildings are schematic, with later Venetian/Ottoman features excluded."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": false,
+      "artwork_approval": "pending-audit-review",
+      "placement_status": "audit-hold",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Published city point, not surveyed harbor gate. Surviving stepped wall circuit mixes phases; upper castle, harbor and episcopal buildings are schematic, with later Venetian/Ottoman features excluded.",
+        "Street plan, orientation, terrain and reconstructed building heights are artistic approximations and remain subject to review."
+      ],
+      "references": [
+        "https://castleroute.culture.gov.gr/en/nafpaktos/"
+      ],
+      "display_width_units": 512
+    },
+    {
+      "id": "monemvasia-1180-v1",
+      "site_id": "monemvasia",
+      "name": "Monemvasia",
+      "historical_name": "Monemvasia",
+      "alternate_names": [
+        "Malvasia"
+      ],
+      "site_type": "city",
+      "category": "city",
+      "file": "monemvasia-1180-v1.png",
+      "source": "sources/monemvasia.png",
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        23.05556,
+        36.68778
+      ],
+      "latitude": 36.68778,
+      "longitude": 23.05556,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Monemvasia",
+        "published_value": "36.68778 N,23.05556 E; rock-town reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published town point, not surveyed1180 footprint. Rock, upper enclosure, lower-town density, causeway and church silhouettes are interpretive; later fortification phases excluded."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": false,
+      "artwork_approval": "pending-audit-review",
+      "placement_status": "audit-hold",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Published town point, not surveyed1180 footprint. Rock, upper enclosure, lower-town density, causeway and church silhouettes are interpretive; later fortification phases excluded.",
+        "Street plan, orientation, terrain and reconstructed building heights are artistic approximations and remain subject to review."
+      ],
+      "references": [
+        "https://www.routledge.com/Monemvasia-A-Byzantine-City-State-1st-Edition/Kalligas/p/book/9780415248808"
+      ],
+      "display_width_units": 512
+    },
+    {
+      "id": "corfu-1180-v1",
+      "site_id": "corfu",
+      "name": "Corfu",
+      "historical_name": "Korypho",
+      "alternate_names": [
+        "Kerkyra"
+      ],
+      "site_type": "city",
+      "category": "city",
+      "file": "corfu-1180-v1.png",
+      "source": "sources/corfu.png",
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        19.9287,
+        39.623228
+      ],
+      "latitude": 39.623228,
+      "longitude": 19.9287,
+      "coordinate_evidence": {
+        "url": "https://religiousgreece.gr/en/attractions/old-fortress-corfu",
+        "published_value": "39.623228 N,19.928700 E; Old Fortress reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Anchor on early medieval fortress peninsula, not modern town centroid. Twelfth-century tower descriptions do not establish full building layout. Later Venetian bastions, moat and British church excluded."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": false,
+      "artwork_approval": "pending-audit-review",
+      "placement_status": "audit-hold",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Anchor on early medieval fortress peninsula, not modern town centroid. Twelfth-century tower descriptions do not establish full building layout. Later Venetian bastions, moat and British church excluded.",
+        "Street plan, orientation, terrain and reconstructed building heights are artistic approximations and remain subject to review."
+      ],
+      "references": [
+        "https://castleroute.culture.gov.gr/en/old-fortress/"
+      ],
+      "display_width_units": 512
+    },
+    {
+      "id": "chios-1180-v1",
+      "site_id": "chios",
+      "name": "Chios",
+      "historical_name": "Chios",
+      "alternate_names": [
+        "Chora",
+        "Scio"
+      ],
+      "site_type": "city",
+      "category": "city",
+      "file": "chios-1180-v1.png",
+      "source": "sources/chios.png",
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        26.137,
+        38.374
+      ],
+      "latitude": 38.374,
+      "longitude": 26.137,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Castle_of_Chios",
+        "published_value": "38.374 N,26.137 E; castle nucleus reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published castle-nucleus point; surviving walls largely reflect later Genoese and Ottoman changes. Earlier Byzantine nucleus and harbor are interpretive; later Genoese palace and bastion facades excluded."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": false,
+      "artwork_approval": "pending-audit-review",
+      "placement_status": "audit-hold",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Published castle-nucleus point; surviving walls largely reflect later Genoese and Ottoman changes. Earlier Byzantine nucleus and harbor are interpretive; later Genoese palace and bastion facades excluded.",
+        "Street plan, orientation, terrain and reconstructed building heights are artistic approximations and remain subject to review."
+      ],
+      "references": [
+        "https://www.etepam.gr/wp-content/uploads/2025/10/6-225-Mamaloukos-2021-Chalcis-Negreponte-and-Chios-Scio.pdf"
+      ],
+      "display_width_units": 512
+    },
+    {
+      "id": "ascalon-1180-v1",
+      "site_id": "ascalon",
+      "name": "Ascalon",
+      "historical_name": "Ascalon",
+      "alternate_names": [
+        "Ashkelon",
+        "Asqalan",
+        "Escalone"
+      ],
+      "site_type": "city",
+      "category": "city",
+      "file": "ascalon-1180-v1.png",
+      "source": "sources/ascalon.png",
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "main"
+      ],
+      "coordinates": [
+        34.54583,
+        31.66389
+      ],
+      "latitude": 31.66389,
+      "longitude": 34.54583,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Ashkelon_National_Park",
+        "published_value": "31.66389 N,34.54583 E; ancient Ascalon archaeological park reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Archaeological park reference point, not modern Ashkelon center or exact medieval centroid. Semicircular landward rampart follows researched site description; gates, towers, church and reconstructed houses remain schematic. Later1192 rebuilding excluded."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": false,
+      "artwork_approval": "pending-audit-review",
+      "placement_status": "audit-hold",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Archaeological park reference point, not modern Ashkelon center or exact medieval centroid. Semicircular landward rampart follows researched site description; gates, towers, church and reconstructed houses remain schematic. Later1192 rebuilding excluded.",
+        "Street plan, orientation, terrain and reconstructed building heights are artistic approximations and remain subject to review."
+      ],
+      "references": [
+        "https://orca.cardiff.ac.uk/id/eprint/127281/1/Ashkelon%208%20Book-final_proof%20Pringle%20Chapter%2019-acrobat.pdf"
+      ],
+      "display_width_units": 512,
+      "repo_place_id": "P:ascalon"
+    },
+    {
+      "id": "beirut-1180-v1",
+      "site_id": "beirut",
+      "name": "Beirut",
+      "historical_name": "Beirut",
+      "alternate_names": [
+        "Berytus",
+        "Barut"
+      ],
+      "site_type": "city",
+      "category": "city",
+      "file": "beirut-1180-v1.png",
+      "source": "sources/beirut.png",
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "main"
+      ],
+      "coordinates": [
+        35.505141,
+        33.896339
+      ],
+      "latitude": 33.896339,
+      "longitude": 35.505141,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Saint_George_Greek_Orthodox_Cathedral",
+        "published_value": "33.896339 N,35.505141 E; archaeological historic-core point at Greek Orthodox cathedral",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Historic-core archaeological reference point; it does not locate the medieval Latin cathedral shown schematically. Harbor, coastal defenses and urban extent remain interpretive. Grand13th-century Ibelin palace and later Ottoman structures excluded."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": false,
+      "artwork_approval": "pending-audit-review",
+      "placement_status": "audit-hold",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Historic-core archaeological reference point; it does not locate the medieval Latin cathedral shown schematically. Harbor, coastal defenses and urban extent remain interpretive. Grand13th-century Ibelin palace and later Ottoman structures excluded.",
+        "Street plan, orientation, terrain and reconstructed building heights are artistic approximations and remain subject to review."
+      ],
+      "references": [
+        "https://scholarworks.aub.edu.lb/server/api/core/bitstreams/0b3eeb1e-5e67-455f-8a9c-37345a2a021a/content"
+      ],
+      "display_width_units": 512
+    }
+  ],
+  "draft_sources": [
+    {
+      "path": "sources/chios.png",
+      "status": "retained-draft-not-approved",
+      "reason": "Original landscape, illustrated border or broad haze; final isolated cutout replaces it"
+    },
+    {
+      "path": "sources/ascalon.png",
+      "status": "retained-draft-not-approved",
+      "reason": "Original landscape, illustrated border or broad haze; final isolated cutout replaces it"
+    },
+    {
+      "path": "sources/beirut.png",
+      "status": "retained-draft-not-approved",
+      "reason": "Original landscape, illustrated border or broad haze; final isolated cutout replaces it"
+    },
+    {
+      "path": "sources/nafpaktos.png",
+      "status": "retained-draft-not-approved",
+      "reason": "Original landscape, illustrated border or broad haze; final isolated cutout replaces it"
+    }
+  ],
+  "release_status": "audit-hold",
+  "release_note": "Uncommitted draft held following user concern about visual and historical drift,2026-11-08. Not a placement release."
+}

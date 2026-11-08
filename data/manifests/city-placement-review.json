@@ -13,8 +13,8 @@
       "Egypt": 11
     },
     "by_status": {
-      "sprite_available": 31,
-      "needs_sprite": 63,
+      "sprite_available": 32,
+      "needs_sprite": 62,
       "sprite_available_needs_geolocation": 1
     }
   },
@@ -1266,9 +1266,11 @@
         41.01
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "constantinople-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -1423,7 +1425,7 @@
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
       "sprite_ids": [
-        "athens-1180-v1"
+        "athens-1180-v3"
       ],
       "placement_status": "sprite_available",
       "approval_for_new_placement": true,

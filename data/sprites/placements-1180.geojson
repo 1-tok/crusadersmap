@@ -306,7 +306,7 @@
     },
     {
       "type": "Feature",
-      "id": "athens-1180-v1",
+      "id": "athens-1180-v3",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -317,10 +317,10 @@
       "properties": {
         "site_id": "athens",
         "name": "Athens",
-        "asset": "greece-egypt-1180/athens-1180-v1.png",
+        "asset": "greece-egypt-1180/athens-1180-v3.png",
         "anchor_normalized": [
           0.5,
-          0.9628571428571429
+          0.9630156472261735
         ],
         "display_width_units": 512,
         "status": "approved-provisional",
@@ -341,24 +341,24 @@
           "published_value": "37.971 / 23.726; Acropolis reference point",
           "accessed": "2026-11-08",
           "surveyed": false,
-          "uncertainty_note": "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure."
+          "uncertainty_note": "Published Acropolis reference point, not a surveyed medieval city footprint; schematic bottom-center sprite anchor."
         },
         "visual_footprint": {
           "canvas_px": [
             1024,
-            700
+            703
           ],
           "painted_bounds_xyxy": [
             26,
             26,
             998,
-            674
+            677
           ],
           "display_width_atlas_px": 512,
-          "display_height_atlas_px": 350.0,
+          "display_height_atlas_px": 351.5,
           "anchor_normalized": [
             0.5,
-            0.9628571428571429
+            0.9630156472261735
           ],
           "geographic_scale": false
         }
@@ -782,6 +782,66 @@
           "anchor_normalized": [
             0.5,
             0.9629629629629629
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "constantinople-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.98333333333333,
+          41.00833333333333
+        ]
+      },
+      "properties": {
+        "site_id": "constantinople",
+        "name": "Constantinople",
+        "asset": "greece-egypt-1180-constantinople/constantinople-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9516728624535316
+        ],
+        "display_width_units": 1024,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "map_region": "aegean",
+        "display_title": "Constantinople",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "historical_name": "Kōnstantinoupolis",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/356/maps/",
+          "published_value": "Sultanahmet component N41 0 30 E28 58 60; converted exactly from published DMS",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Representative Sultanahmet reference point, not a surveyed medieval city centroid or sprite footprint. Schematic bottom-center visual anchor; peninsula orientation is illustrative."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            2048,
+            1076
+          ],
+          "painted_bounds_xyxy": [
+            52,
+            52,
+            1996,
+            1024
+          ],
+          "display_width_atlas_px": 1024,
+          "display_height_atlas_px": 538.0,
+          "anchor_normalized": [
+            0.5,
+            0.9516728624535316
           ],
           "geographic_scale": false
         }

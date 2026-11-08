@@ -5,7 +5,7 @@
   "features": [
     {
       "type": "Feature",
-      "id": "athens-1180-v1",
+      "id": "athens-1180-v3",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -16,7 +16,7 @@
       "properties": {
         "site_id": "athens",
         "name": "Athens",
-        "asset_path": "data/sprites/greece-egypt-1180/athens-1180-v1.png",
+        "asset_path": "data/sprites/greece-egypt-1180/athens-1180-v3.png",
         "map_region": "aegean",
         "map_layers": [
           "sprites-1180",
@@ -25,21 +25,21 @@
         ],
         "anchor_normalized": [
           0.5,
-          0.9628571428571429
+          0.9630156472261735
         ],
         "visual_footprint": {
           "canvas_px": [
             1024,
-            700
+            703
           ],
           "painted_bounds_xyxy": [
             26,
             26,
             998,
-            674
+            677
           ],
           "display_width_atlas_px": 512,
-          "display_height_atlas_px": 350.0,
+          "display_height_atlas_px": 351.5,
           "geographic_scale": false
         },
         "approval_for_placement": true,
@@ -48,11 +48,11 @@
           "published_value": "37.971 / 23.726; Acropolis reference point",
           "accessed": "2026-11-08",
           "surveyed": false,
-          "uncertainty_note": "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure."
+          "uncertainty_note": "Published Acropolis reference point, not a surveyed medieval city footprint; schematic bottom-center sprite anchor."
         },
         "repaint_flags": [
-          "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure.",
-          "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+          "Parthenon church exterior, adjacent monuments and Acropolis defenses require historical review.",
+          "Lower-town street plan, house forms and orientation remain artistic approximations."
         ]
       }
     },

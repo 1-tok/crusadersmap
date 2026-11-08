@@ -111,7 +111,11 @@ def build():
     if archive_path.exists():
         assets.extend(read(archive_path)['assets'])
     for manifest in sorted(BASE.glob('greece-egypt*/manifest.json')):
-        for original in read(manifest)['assets']:
+        batch=read(manifest)
+        # A new draft must not become approved just because its folder exists.
+        if batch.get('release_status')!='published-provisional':
+            continue
+        for original in batch['assets']:
             e=dict(original)
             folder=manifest.parent.name
             e.update(asset=folder+'/'+e['file'],source=dict(path=folder+'/'+e['source'],sha256=e['source_sha256']),
@@ -176,7 +180,7 @@ def enrich(catalog):
         ids.add(e['id'])
         if e.get('variant')=='generated-city':
             s=dict(longitude=e['longitude'],latitude=e['latitude'],coordinate_evidence=e['coordinate_evidence'],
-                historical_name=e['historical_name'],alternate_names=[e['name']],
+                historical_name=e['historical_name'],alternate_names=e.get('alternate_names',[e['name']]),
                 crusader_phase=dict(from_year=1180,through_year=1180,scope='Reviewed depiction year; not a Frankish-control range'),
                 period_1180_eligible=e['period_1180_eligible'])
         else:

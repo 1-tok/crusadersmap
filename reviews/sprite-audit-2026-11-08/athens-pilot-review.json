@@ -1,0 +1,45 @@
+{
+  "id": "athens-1180-audit-pilot",
+  "status": "approved-provisional",
+  "approval_for_placement": true,
+  "production_catalog_imported": true,
+  "selected_candidate": "athens-1180-v3-style-candidate.png",
+  "retained_first_correction": "athens-1180-v2-audit-candidate.png",
+  "generation_method": "built-in image_gen",
+  "sha256": "79705b6543569a5a78dd14d2e60359d8c4becbce47d77499d806cfbb18e807c4",
+  "technical_qa": {
+    "mode": "RGBA",
+    "dimensions": [
+      1516,
+      1037
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "painted_bounds": [
+      0,
+      37,
+      1492,
+      1037
+    ]
+  },
+  "corrected_observed_errors": [
+    "Invented waterfront removed",
+    "Unsupported complete lower-town wall/gate removed"
+  ],
+  "style_result": "More irregular compact housing; visual direction still needs user acceptance. Repeated house/window motifs remain.",
+  "remaining_review": [
+    "Parthenon church exterior and added apse proportions",
+    "Unverified adjacent classical/Byzantine buildings and Acropolis defenses",
+    "Hypothetical lower-town house plan and orientation",
+    "Source reference itself is not historical certification"
+  ],
+  "references": [
+    "https://acropolisrestoration.ysma.gr/wp-content/uploads/2025/05/06_PARTHENWN_EN.pdf",
+    "https://www.ascsa.edu.gr/uploads/media/hesperia/146915.pdf",
+    "https://www.ascsa.edu.gr/publications/book/?i=9780876616079"
+  ],
+  "approval_authority": "User: approve, backup in repo and proceed; 2026-11-08",
+  "production_asset": "data/sprites/greece-egypt-1180/athens-1180-v3.png"
+}

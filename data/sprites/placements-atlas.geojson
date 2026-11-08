@@ -1042,7 +1042,7 @@
     },
     {
       "type": "Feature",
-      "id": "athens-1180-v1",
+      "id": "athens-1180-v3",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1051,11 +1051,11 @@
         ]
       },
       "properties": {
-        "sprite_id": "athens-1180-v1",
+        "sprite_id": "athens-1180-v3",
         "site_group": "athens",
         "name": "Athens",
-        "asset": "data/sprites/greece-egypt-1180/athens-1180-v1.png",
-        "sha256": "579dc262442aa7fa05663f4dbc015d8577001c24fd8df8df29456b128ee1fca6",
+        "asset": "data/sprites/greece-egypt-1180/athens-1180-v3.png",
+        "sha256": "e0c3a933e350125fb4f7f21dc95b41c244e650db890399ad5ebae1b6ad5afa35",
         "preferred": true,
         "preferred_1180": true,
         "display_title": "Athens",
@@ -1076,7 +1076,7 @@
           "published_value": "37.971 / 23.726; Acropolis reference point",
           "accessed": "2026-11-08",
           "surveyed": false,
-          "uncertainty_note": "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure."
+          "uncertainty_note": "Published Acropolis reference point, not a surveyed medieval city footprint; schematic bottom-center sprite anchor."
         },
         "approval_for_placement": true,
         "period_1180_eligible": true,
@@ -1089,17 +1089,17 @@
         "historical_name": "Athēnai",
         "anchor_normalized": [
           0.5,
-          0.9628571428571429
+          0.9630156472261735
         ],
         "sheet_anchor_px": [
           1992.806,
           2426.063
         ],
         "display_width_sheet_px": 512,
-        "display_height_sheet_px": 350.0,
+        "display_height_sheet_px": 351.5,
         "top_left_sheet_px": [
           1736.806,
-          2089.063
+          2087.563
         ]
       }
     },
@@ -2297,6 +2297,69 @@
         "top_left_sheet_px": [
           2526.167,
           11167.475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "constantinople-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.98333333333333,
+          41.00833333333333
+        ]
+      },
+      "properties": {
+        "sprite_id": "constantinople-1180-v1",
+        "site_group": "constantinople",
+        "name": "Constantinople",
+        "asset": "data/sprites/greece-egypt-1180-constantinople/constantinople-1180-v1.png",
+        "sha256": "155cf2bd6d49f2341d0b251619718852d2ae90422a375c5982b9e63ec0c8315f",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Constantinople",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/356/maps/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/356/maps/",
+          "published_value": "Sultanahmet component N41 0 30 E28 58 60; converted exactly from published DMS",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Representative Sultanahmet reference point, not a surveyed medieval city centroid or sprite footprint. Schematic bottom-center visual anchor; peninsula orientation is illustrative."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Kōnstantinoupolis",
+        "anchor_normalized": [
+          0.5,
+          0.9516728624535316
+        ],
+        "sheet_anchor_px": [
+          4379.664,
+          591.914
+        ],
+        "display_width_sheet_px": 1024,
+        "display_height_sheet_px": 538.0,
+        "top_left_sheet_px": [
+          3867.664,
+          79.914
         ]
       }
     }

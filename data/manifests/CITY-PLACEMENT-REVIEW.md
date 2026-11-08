@@ -2,7 +2,7 @@
 
 The atlas spans1095–1571; city artwork and geographic readiness are tracked independently from existing map markers.
 
-95 reviewed urban candidates. Status counts: {'sprite_available': 31, 'needs_sprite': 63, 'sprite_available_needs_geolocation': 1}.
+95 reviewed urban candidates. Status counts: {'sprite_available': 32, 'needs_sprite': 62, 'sprite_available_needs_geolocation': 1}.
 
 Greece and Egypt are included; ancient island or urban reference points are not surveyed medieval footprints. Mystras and Mansoura remain excluded from the1180 production queue. Rhodes uses an earlier Byzantine depiction.
 
@@ -64,7 +64,7 @@ Greece and Egypt are included; ancient island or urban reference points are not 
 
 | City / urban site | Sprite status | Provisional1180 placement |
 |---|---|---|
-| Istanbul | needs sprite | pending artwork / location / phase |
+| Istanbul | sprite available | approved |
 | Beyoglu | needs sprite | pending artwork / location / phase |
 | Edirne | needs sprite | pending artwork / location / phase |
 | Iznik | needs sprite | pending artwork / location / phase |
@@ -125,6 +125,6 @@ Greece and Egypt are included; ancient island or urban reference points are not 
 
 Use `../sprites/catalog.json`, `../sprites/placements-1180.geojson` and root `previews/sprite-placement-markup.jpg`. The inset review is in `previews/city-inset-placement-review.jpg`.
 
-All 21 newly generated city paintings are in the unified catalog. Damietta is art-approved but has no invented medieval coordinate. Exact prompts, source PNGs and repaint notes are preserved in the individual greece-egypt batch folders.
+All 22 newly generated city paintings are in the unified catalog. Damietta is art-approved but has no invented medieval coordinate. Exact prompts, source PNGs and repaint notes are preserved in the individual greece-egypt batch folders.
 
 Pelusium/Bilbeis legacy alias conflict remains a separate source-manifest correction; the new Bilbeis sprite uses a documented Bilbeis city point. Tinnis occupation intensity is uncertain. Full per-entry research and uncertainty notes remain in the JSON and sprite manifests.

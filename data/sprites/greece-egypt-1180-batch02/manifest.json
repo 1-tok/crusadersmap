@@ -509,5 +509,7 @@
       },
       "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
     }
-  ]
+  ],
+  "release_status": "published-provisional",
+  "release_note": "Previously published at user direction; source/plan accuracy is under audit. This status records release history, not historical certification."
 }

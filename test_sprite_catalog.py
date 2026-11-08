@@ -11,6 +11,29 @@ def entry(site, start=1180, end=1180, priority=10):
 
 
 class PlacementRules(unittest.TestCase):
+    def test_constantinople_uses_double_city_footprint(self):
+        c=build()
+        e=next(e for e in placements(c,1180) if e['site_id']=='constantinople')
+        self.assertEqual(e['display_width_units'],2*512)
+        self.assertEqual(e['visual_footprint']['display_width_atlas_px'],1024)
+        self.assertEqual(e['technical_qa']['dimensions_px'][0],2048)
+        self.assertEqual(e['map_region'],'aegean')
+        self.assertAlmostEqual(e['longitude'],28+58/60+60/3600)
+        self.assertAlmostEqual(e['latitude'],41+30/3600)
+
+    def test_unreleased_city_batch_never_imports(self):
+        from unittest.mock import patch
+        import sprite_catalog
+        original_read=sprite_catalog.read
+        def held_batch(path):
+            if path.parent.name=='greece-egypt-1180-batch04':
+                return dict(release_status='audit-hold',assets=[dict(id='must-not-import')])
+            return original_read(path)
+        with patch.object(sprite_catalog,'read',side_effect=held_batch):
+            c=sprite_catalog.build()
+        self.assertNotIn('must-not-import',{e['id'] for e in c['assets']})
+        self.assertEqual(len([e for e in c['assets'] if e.get('variant')=='generated-city']),22)
+
     def test_explicit_1180_ineligibility_overrides_date_window(self):
         for site in ('montfort', 'chateau-pelerin'):
             e=entry(site); e['period_1180_eligible']=False
