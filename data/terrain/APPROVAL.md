@@ -19,3 +19,11 @@ The library now contains 29 pieces. New `coastal-foothill-transition`, `dry-wadi
 ## Vegetation continuation
 
 The kit now has 32 pieces, adding sparse cedar-like woodland, pine-covered slope and Mediterranean scrub fillers. Tree shapes are illustrative, not botanical identifications; medieval forest cover is unverified. Scale vegetation to neighboring sprites, avoid dense stacking, and preserve clear valleys and settlement labels. Full built-in image_gen prompts are in `vegetation-prompts.json`, with unchanged originals in `sources/`. These assets retain artwork and placement-planning approval only.
+
+## First on-map usage proof
+
+The user's instruction to approve usage authorizes the library for map artwork. `render-plan.json` selects 16 trial instances from the approved 32-piece inventory, with editable geographic anchors, display widths and draw order. `render_terrain_proof.py` creates a map preview, a numbered bounds markup, a linked SVG overlay and a per-instance report. The SVG references repository PNGs; keep its `../data/terrain/` relationship when moving it.
+
+The proof overlays the current raster preview: original procedural mountain marks and labels remain underneath. This is a usage/scale proof, not the final print composition. Approximate source-settlement anchor checks identified two nearby markers; those terrain footprints were reduced and their illustrative anchors adjusted. One still-nearby trial was deferred, leaving 16 proof placements. This check does not certify clearance from text, borders, all symbols or protected layout panels. Full native-layer replacement and label ordering remain future integration work.
+
+All 32 assets are committed and approved for map artwork/placement planning. Geographic shape, precise positioning, vegetation, season and historical accuracy are still unverified. Approval is not a GitHub PR approval or a merge into main.

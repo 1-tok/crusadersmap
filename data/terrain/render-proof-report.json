@@ -1,0 +1,199 @@
+{
+  "asset_count": 32,
+  "instance_count": 16,
+  "scope": "Review proof only; original terrain remains under overlay. Place hit test is an approximate anchor-box warning, not complete label collision analysis.",
+  "instances": [
+    {
+      "instance": 1,
+      "asset_id": "taurus-ridge",
+      "sheet_bounds": [
+        6413.1264168174985,
+        632.0163116369358,
+        7113.1264168174985,
+        798.1295928869358
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 2,
+      "asset_id": "taurus-short-peaks",
+      "sheet_bounds": [
+        7342.508765455079,
+        376.71393825747214,
+        7932.508765455079,
+        616.9776101324721
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 3,
+      "asset_id": "high-rocky-ridge-spine",
+      "sheet_bounds": [
+        8063.249039612125,
+        562.0504371384824,
+        8463.249039612125,
+        703.8473121384824
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 4,
+      "asset_id": "lebanon-high-massif",
+      "sheet_bounds": [
+        7877.48856484331,
+        6836.033088789112,
+        8367.48856484331,
+        6987.722541914112
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 5,
+      "asset_id": "lebanon-short-ridge",
+      "sheet_bounds": [
+        7816.219512195122,
+        7327.284718900481,
+        8186.219512195122,
+        7458.808156400481
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 6,
+      "asset_id": "lebanon-saddle",
+      "sheet_bounds": [
+        7851.475908762221,
+        7909.047651928597,
+        8181.475908762221,
+        8004.760542553597
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 7,
+      "asset_id": "palestine-limestone-ridge",
+      "sheet_bounds": [
+        6637.363141195587,
+        10632.562498894551,
+        7037.363141195587,
+        10736.859373894551
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 8,
+      "asset_id": "limestone-narrow-spine",
+      "sheet_bounds": [
+        6618.086668484606,
+        11043.158973747875,
+        6958.086668484606,
+        11099.604286247875
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 9,
+      "asset_id": "dry-limestone-pass",
+      "sheet_bounds": [
+        6473.122848060842,
+        11856.02279438304,
+        6653.122848060842,
+        11914.20638813304
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 10,
+      "asset_id": "pindus-forested-ridge",
+      "sheet_bounds": [
+        552.4113411611071,
+        1117.4539762269587,
+        1022.4113411611071,
+        1261.1160856019587
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 11,
+      "asset_id": "greek-short-ridge",
+      "sheet_bounds": [
+        671.4675166861869,
+        1288.417021031188,
+        1071.4675166861869,
+        1440.760771031188
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 12,
+      "asset_id": "greek-gorge-gap",
+      "sheet_bounds": [
+        783.2981547353713,
+        1463.284855050051,
+        1083.2981547353713,
+        1618.558292550051
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 13,
+      "asset_id": "greek-forested-foothills",
+      "sheet_bounds": [
+        826.8048619770315,
+        1669.9193172586583,
+        1166.8048619770316,
+        1770.1927547586583
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 14,
+      "asset_id": "sparse-cedar-woodland",
+      "sheet_bounds": [
+        7951.726837661816,
+        7029.0658456335395,
+        8141.726837661816,
+        7089.5541268835395
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 15,
+      "asset_id": "pine-slope-transition",
+      "sheet_bounds": [
+        7205.798385838799,
+        898.0364342845093,
+        7425.798385838799,
+        972.3723717845093
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    },
+    {
+      "instance": 16,
+      "asset_id": "mediterranean-scrub-fill",
+      "sheet_bounds": [
+        6544.403606641268,
+        10822.981299989591,
+        6724.403606641268,
+        10875.539893739591
+      ],
+      "nearby_place_anchors_for_review": [],
+      "placement_status": "visual-proof-only-geographic-and-label-review-required"
+    }
+  ]
+}

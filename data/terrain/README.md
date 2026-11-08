@@ -56,3 +56,7 @@ The library now contains 29 pieces. New `coastal-foothill-transition`, `dry-wadi
 ## Vegetation continuation
 
 The kit now has 32 pieces, adding sparse cedar-like woodland, pine-covered slope and Mediterranean scrub fillers. Tree shapes are illustrative, not botanical identifications; medieval forest cover is unverified. Scale vegetation to neighboring sprites, avoid dense stacking, and preserve clear valleys and settlement labels. Full built-in image_gen prompts are in `vegetation-prompts.json`, with unchanged originals in `sources/`. These assets retain artwork and placement-planning approval only.
+
+## First on-map usage proof
+
+Run `python3 render_terrain_proof.py` (Pillow and pyproj) to render 16 trial placements from `render-plan.json`. Outputs are `previews/terrain-map-proof.jpg`, numbered bounds in `previews/terrain-map-proof-markup.jpg`, and an editable linked `previews/terrain-proof-overlay.svg`. `render-proof-report.json` records sheet bounds and nearby source settlement anchors. Existing print outputs are unchanged; original terrain is still visible underneath this overlay. Use the proof to judge placement and scale before integrating the assets into native rendering layers.

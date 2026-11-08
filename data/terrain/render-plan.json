@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "status": "approved-artwork-first-placement-proof",
+  "usage_approval": "User-directed use on map; historical geography remains unverified",
+  "instance_convention": "ordered rear to front; geographic ground anchor and width in full-sheet pixels",
+  "instances": [
+    {
+      "asset_id": "taurus-ridge",
+      "region": "main",
+      "coordinates": [
+        35.05,
+        37.55
+      ],
+      "width_sheet_px": 700
+    },
+    {
+      "asset_id": "taurus-short-peaks",
+      "region": "main",
+      "coordinates": [
+        35.65,
+        37.65
+      ],
+      "width_sheet_px": 590
+    },
+    {
+      "asset_id": "high-rocky-ridge-spine",
+      "region": "main",
+      "coordinates": [
+        36.08,
+        37.6
+      ],
+      "width_sheet_px": 400
+    },
+    {
+      "asset_id": "lebanon-high-massif",
+      "region": "main",
+      "coordinates": [
+        35.98,
+        34.16
+      ],
+      "width_sheet_px": 490
+    },
+    {
+      "asset_id": "lebanon-short-ridge",
+      "region": "main",
+      "coordinates": [
+        35.9,
+        33.9
+      ],
+      "width_sheet_px": 370
+    },
+    {
+      "asset_id": "lebanon-saddle",
+      "region": "main",
+      "coordinates": [
+        35.91,
+        33.6
+      ],
+      "width_sheet_px": 330
+    },
+    {
+      "asset_id": "palestine-limestone-ridge",
+      "region": "main",
+      "coordinates": [
+        35.15,
+        32.1
+      ],
+      "width_sheet_px": 400
+    },
+    {
+      "asset_id": "limestone-narrow-spine",
+      "region": "main",
+      "coordinates": [
+        35.12,
+        31.9
+      ],
+      "width_sheet_px": 340
+    },
+    {
+      "asset_id": "dry-limestone-pass",
+      "region": "main",
+      "coordinates": [
+        34.980000000000004,
+        31.45
+      ],
+      "width_sheet_px": 180,
+      "notes": "Reduced footprint and adjusted illustrative anchor to clear nearby source settlement marker; geographic refinement pending."
+    },
+    {
+      "asset_id": "pindus-forested-ridge",
+      "region": "aegean",
+      "coordinates": [
+        21.05,
+        39.9
+      ],
+      "width_sheet_px": 470
+    },
+    {
+      "asset_id": "greek-short-ridge",
+      "region": "aegean",
+      "coordinates": [
+        21.25,
+        39.6
+      ],
+      "width_sheet_px": 400
+    },
+    {
+      "asset_id": "greek-gorge-gap",
+      "region": "aegean",
+      "coordinates": [
+        21.4,
+        39.3
+      ],
+      "width_sheet_px": 300
+    },
+    {
+      "asset_id": "greek-forested-foothills",
+      "region": "aegean",
+      "coordinates": [
+        21.55,
+        39.05
+      ],
+      "width_sheet_px": 340
+    },
+    {
+      "asset_id": "sparse-cedar-woodland",
+      "region": "main",
+      "coordinates": [
+        35.93,
+        34.1
+      ],
+      "width_sheet_px": 190
+    },
+    {
+      "asset_id": "pine-slope-transition",
+      "region": "main",
+      "coordinates": [
+        35.43,
+        37.45
+      ],
+      "width_sheet_px": 220
+    },
+    {
+      "asset_id": "mediterranean-scrub-fill",
+      "region": "main",
+      "coordinates": [
+        35.02,
+        32.02
+      ],
+      "width_sheet_px": 180
+    }
+  ],
+  "deferred_instances": [
+    {
+      "asset_id": "palestine-foothills-east",
+      "region": "main",
+      "coordinates": [
+        34.88,
+        31.6
+      ],
+      "width_sheet_px": 180,
+      "notes": "Reduced footprint and adjusted illustrative anchor to clear nearby source settlement marker; geographic refinement pending.",
+      "reason": "Near existing settlement anchor; deferred to final label-aware composition"
+    }
+  ]
+}
