@@ -1,0 +1,536 @@
+{
+  "type": "FeatureCollection",
+  "coordinate_system": "EPSG:4326; longitude,latitude",
+  "sheet": {
+    "width": 10800,
+    "height": 14400,
+    "projection": "+proj=lcc +lat_1=30 +lat_2=36.5 +lat_0=33.2 +lon_0=35.9 +datum=WGS84 +units=m",
+    "pixel_origin": "upper-left"
+  },
+  "approval": {
+    "status": "approved-for-map-artwork-and-placement-planning",
+    "authority": "User request: Commit all sprites to repo, markup location for placement on map and approve",
+    "historical_certification": false,
+    "approved_scope": "All 14 assets retained; eight preferred site variants selected. Positions and widths are placement instructions; final collision-aware composition is pending."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23,
+          31.78
+        ]
+      },
+      "properties": {
+        "sprite_id": "CITY-001",
+        "name": "Jerusalem",
+        "site_group": "CITY-001",
+        "asset": "data/sprites/png/jerusalem.png",
+        "sha256": "314c9220e839c89cff8d82919984ea98b81714b9f439a180ee6bb554f32accd7",
+        "region": "main",
+        "preferred": false,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "legacy-artistic-interpretation",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9749216300940439
+        ],
+        "sheet_anchor_px": [
+          6957.763,
+          11310.935
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 366.206,
+        "top_left_sheet_px": [
+          6701.763,
+          10953.913
+        ],
+        "placement_notes": "Approximate source coordinate; ground anchor, not surveyed site boundary. Avoid label collisions; use leader lines if moved."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.07,
+          32.92
+        ]
+      },
+      "properties": {
+        "sprite_id": "CITY-002",
+        "name": "Acre",
+        "site_group": "CITY-002",
+        "asset": "data/sprites/png/acre.png",
+        "sha256": "dfb3603567bcdaa0df47c7e8fd7f1e95fe21b1d10689378403956cb174581323",
+        "region": "main",
+        "preferred": false,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "legacy-artistic-interpretation",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9747634069400631
+        ],
+        "sheet_anchor_px": [
+          6725.1,
+          9230.972
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 355.93,
+        "top_left_sheet_px": [
+          6469.1,
+          8884.024
+        ],
+        "placement_notes": "Approximate source coordinate; ground anchor, not surveyed site boundary. Avoid label collisions; use leader lines if moved."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.16,
+          36.2
+        ]
+      },
+      "properties": {
+        "sprite_id": "CITY-003",
+        "name": "Antioch",
+        "site_group": "CITY-003",
+        "asset": "data/sprites/png/antioch.png",
+        "sha256": "e9e4ac7068a3f718759291a6bba27601ad4e049ce2f7e1acbf74f32e48d56748",
+        "region": "main",
+        "preferred": false,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "legacy-artistic-interpretation",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9789473684210527
+        ],
+        "sheet_anchor_px": [
+          8386.077,
+          3252.449
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 427.604,
+        "top_left_sheet_px": [
+          8130.077,
+          2833.847
+        ],
+        "placement_notes": "Approximate source coordinate; ground anchor, not surveyed site boundary. Avoid label collisions; use leader lines if moved."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.84,
+          34.44
+        ]
+      },
+      "properties": {
+        "sprite_id": "CITY-004",
+        "name": "Tripoli",
+        "site_group": "CITY-004",
+        "asset": "data/sprites/png/tripoli.png",
+        "sha256": "05f78c8dc02fe527bd5b48a4204194a46e88a151420e99558f6ffed723f6b45c",
+        "region": "main",
+        "preferred": false,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "legacy-artistic-interpretation",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9751552795031055
+        ],
+        "sheet_anchor_px": [
+          7910.561,
+          6464.687
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 363.938,
+        "top_left_sheet_px": [
+          7654.561,
+          6109.791
+        ],
+        "placement_notes": "Geographic ground anchor. Keep one preferred variant per site. Avoid label collisions; use leader lines if moved. Tripoli uses proposed coastal al-Mina coordinate."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.29,
+          34.76
+        ]
+      },
+      "properties": {
+        "sprite_id": "CAST-001",
+        "name": "Krak des Chevaliers",
+        "site_group": "CAST-001",
+        "asset": "data/sprites/png/krak-des-chevaliers.png",
+        "sha256": "9fec54afd4ba79b178d0479d5d34d8f4f5ee7b89cddce3b69667d7c6f2844c40",
+        "region": "main",
+        "preferred": false,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "legacy-artistic-interpretation",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9787798408488063
+        ],
+        "sheet_anchor_px": [
+          8588.319,
+          5879.966
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 430.857,
+        "top_left_sheet_px": [
+          8332.319,
+          5458.252
+        ],
+        "placement_notes": "Approximate source coordinate; ground anchor, not surveyed site boundary. Avoid label collisions; use leader lines if moved."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.52,
+          32.6
+        ]
+      },
+      "properties": {
+        "sprite_id": "CAST-002",
+        "name": "Belvoir",
+        "site_group": "CAST-002",
+        "asset": "data/sprites/png/belvoir.png",
+        "sha256": "9d3c98ecfc9c98d21eac6edfb23342b03ede487c5db99ec0eeee8e3aebe35b3c",
+        "region": "main",
+        "preferred": false,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "legacy-artistic-interpretation",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9786666666666667
+        ],
+        "sheet_anchor_px": [
+          7414.845,
+          9818.319
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 438.356,
+        "top_left_sheet_px": [
+          7158.845,
+          9389.314
+        ],
+        "placement_notes": "Approximate source coordinate; ground anchor, not surveyed site boundary. Avoid label collisions; use leader lines if moved."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7,
+          31.18
+        ]
+      },
+      "properties": {
+        "sprite_id": "CAST-003",
+        "name": "Kerak",
+        "site_group": "CAST-003",
+        "asset": "data/sprites/png/kerak.png",
+        "sha256": "7b272397f5b5c19fb66040841fc11b7c72f435e7a740ce2f31a9940d440b7b68",
+        "region": "main",
+        "preferred": true,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "legacy-artistic-interpretation",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9785522788203753
+        ],
+        "sheet_anchor_px": [
+          7687.643,
+          12408.017
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 420.652,
+        "top_left_sheet_px": [
+          7431.643,
+          11996.387
+        ],
+        "placement_notes": "Approximate source coordinate; ground anchor, not surveyed site boundary. Avoid label collisions; use leader lines if moved."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.53,
+          30.53
+        ]
+      },
+      "properties": {
+        "sprite_id": "CAST-004",
+        "name": "Montr\u00e9al (Shobak)",
+        "site_group": "CAST-004",
+        "asset": "data/sprites/png/montreal-shobak.png",
+        "sha256": "d6874b1c230c893d54672c0b0603d14d85c68f9977fe8d782439804cefc89898",
+        "region": "main",
+        "preferred": true,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "legacy-artistic-interpretation",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9782608695652174
+        ],
+        "sheet_anchor_px": [
+          7416.904,
+          13592.84
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 428.218,
+        "top_left_sheet_px": [
+          7160.904,
+          13173.93
+        ],
+        "placement_notes": "Approximate source coordinate; ground anchor, not surveyed site boundary. Avoid label collisions; use leader lines if moved."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.29,
+          34.76
+        ]
+      },
+      "properties": {
+        "sprite_id": "CAST-001-STANDALONE",
+        "name": "Krak des Chevaliers",
+        "site_group": "CAST-001",
+        "asset": "data/sprites/png/krak-des-chevaliers-standalone.png",
+        "sha256": "f499d84e63ca9e46a08fd0fe35973eee34275ef53021cc9031ae92ac32881213",
+        "region": "main",
+        "preferred": true,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "legacy-artistic-interpretation",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9921798631476051
+        ],
+        "sheet_anchor_px": [
+          8588.319,
+          5879.966
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 361.724,
+        "top_left_sheet_px": [
+          8332.319,
+          5521.071
+        ],
+        "placement_notes": "Approximate source coordinate; ground anchor, not surveyed site boundary. Avoid label collisions; use leader lines if moved."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23,
+          31.78
+        ]
+      },
+      "properties": {
+        "sprite_id": "jerusalem-1180-v2",
+        "name": "Jerusalem",
+        "site_group": "CITY-001",
+        "asset": "data/sprites/historical-1180/jerusalem-1180-v2.png",
+        "sha256": "288b0ecbb7368193975b3b3f679ad3146fbed4420c274aa54a77504b92668c24",
+        "region": "main",
+        "preferred": true,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "period-informed-specialist-review-pending",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9486921529175051
+        ],
+        "sheet_anchor_px": [
+          6957.763,
+          11310.935
+        ],
+        "display_width_sheet_px": 1024,
+        "display_height_sheet_px": 497.0,
+        "top_left_sheet_px": [
+          6445.763,
+          10839.435
+        ],
+        "placement_notes": "Approximate source coordinate; ground anchor, not surveyed site boundary. Avoid label collisions; use leader lines if moved."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.52,
+          32.6
+        ]
+      },
+      "properties": {
+        "sprite_id": "belvoir-1180-v2",
+        "name": "Belvoir",
+        "site_group": "CAST-002",
+        "asset": "data/sprites/historical-1180/belvoir-1180-v2.png",
+        "sha256": "36631ab23495f6ba0304ce68bf0c54992c95885695d1bb7a03bdc2a900477445",
+        "region": "main",
+        "preferred": true,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "period-informed-specialist-review-pending",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9707536557930259
+        ],
+        "sheet_anchor_px": [
+          7414.845,
+          9818.319
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 444.5,
+        "top_left_sheet_px": [
+          7158.845,
+          9386.819
+        ],
+        "placement_notes": "Approximate source coordinate; ground anchor, not surveyed site boundary. Avoid label collisions; use leader lines if moved."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.07,
+          32.92
+        ]
+      },
+      "properties": {
+        "sprite_id": "acre-1180-v2",
+        "name": "Acre",
+        "site_group": "CITY-002",
+        "asset": "data/sprites/historical-1180/acre-1180-v2.png",
+        "sha256": "7430a7f22a79f4b405aa1c68918970e4b3cd1717f0dcb2fb9327fba4f4182d3b",
+        "region": "main",
+        "preferred": true,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "period-informed-specialist-review-pending",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9570957095709571
+        ],
+        "sheet_anchor_px": [
+          6725.1,
+          9230.972
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 303.0,
+        "top_left_sheet_px": [
+          6469.1,
+          8940.972
+        ],
+        "placement_notes": "Approximate source coordinate; ground anchor, not surveyed site boundary. Avoid label collisions; use leader lines if moved."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.16,
+          36.2
+        ]
+      },
+      "properties": {
+        "sprite_id": "antioch-1180-v2",
+        "name": "Antioch",
+        "site_group": "CITY-003",
+        "asset": "data/sprites/historical-1180/antioch-1180-v2.png",
+        "sha256": "9fe3f4a5bff2eb71e6cce364556faf8901c638756c04de55fb4f6b79d53d52d8",
+        "region": "main",
+        "preferred": true,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "period-informed-specialist-review-pending",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9619326500732065
+        ],
+        "sheet_anchor_px": [
+          8386.077,
+          3252.449
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 341.5,
+        "top_left_sheet_px": [
+          8130.077,
+          2923.949
+        ],
+        "placement_notes": "Approximate source coordinate; ground anchor, not surveyed site boundary. Avoid label collisions; use leader lines if moved."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.81,
+          34.45
+        ]
+      },
+      "properties": {
+        "sprite_id": "tripoli-1180-v2",
+        "name": "Tripoli",
+        "site_group": "CITY-004",
+        "asset": "data/sprites/historical-1180/tripoli-1180-v2.png",
+        "sha256": "428bb8e659e3ee2183143d69fc220e28af72e494d68e453345ca0e131b821b1c",
+        "region": "main",
+        "preferred": true,
+        "approval": "approved-for-map-artwork-and-placement-planning",
+        "historical_review": "period-informed-specialist-review-pending",
+        "coordinates_verified": false,
+        "anchor_normalized": [
+          0.5,
+          0.9497098646034816
+        ],
+        "sheet_anchor_px": [
+          7865.248,
+          6446.417
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 258.5,
+        "top_left_sheet_px": [
+          7609.248,
+          6200.917
+        ],
+        "placement_notes": "Geographic ground anchor. Keep one preferred variant per site. Avoid label collisions; use leader lines if moved. Tripoli uses proposed coastal al-Mina coordinate."
+      }
+    }
+  ]
+}
