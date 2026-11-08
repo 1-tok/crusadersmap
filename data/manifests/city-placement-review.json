@@ -13,8 +13,8 @@
       "Egypt": 11
     },
     "by_status": {
-      "sprite_available": 14,
-      "needs_sprite": 80,
+      "sprite_available": 25,
+      "needs_sprite": 69,
       "sprite_available_needs_geolocation": 1
     }
   },
@@ -35,7 +35,10 @@
       "coordinate_status": "inherited_approximate_not_newly_verified",
       "sprite_ids": [
         "CITY-001",
-        "jerusalem-1180-v2"
+        "jerusalem-1180-v2",
+        "archive-crs-001-jerusalem",
+        "archive-crs-001-jerusalem-sheet",
+        "archive-var-jerusalem-16up"
       ],
       "placement_status": "sprite_available",
       "approval_for_new_placement": true,
@@ -62,7 +65,10 @@
       "coordinate_status": "inherited_approximate_not_newly_verified",
       "sprite_ids": [
         "CITY-002",
-        "acre-1180-v2"
+        "acre-1180-v2",
+        "archive-crs-002-acre",
+        "archive-crs-002-acre-sheet",
+        "archive-var-acre-16up"
       ],
       "placement_status": "sprite_available",
       "approval_for_new_placement": true,
@@ -88,7 +94,9 @@
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
       "sprite_ids": [
-        "tyre-1180-v1"
+        "tyre-1180-v1",
+        "archive-crs-021-tyre",
+        "archive-var-tyre-16up"
       ],
       "placement_status": "sprite_available",
       "approval_for_new_placement": true,
@@ -137,9 +145,13 @@
         32.05
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "archive-crs-024-jaffa",
+        "archive-var-jaffa-16up",
+        "jaffa-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "first",
       "notes": [
@@ -161,9 +173,12 @@
         32.5
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "archive-crs-023-caesarea",
+        "archive-var-caesarea-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -185,9 +200,12 @@
         33.56
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "archive-crs-022-sidon",
+        "archive-var-sidon-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "first",
       "notes": [
@@ -623,7 +641,10 @@
       "coordinate_status": "inherited_approximate_not_newly_verified",
       "sprite_ids": [
         "CITY-003",
-        "antioch-1180-v2"
+        "antioch-1180-v2",
+        "archive-crs-003-antioch",
+        "archive-crs-003-antioch-sheet",
+        "archive-var-antioch-16up"
       ],
       "placement_status": "sprite_available",
       "approval_for_new_placement": true,
@@ -650,7 +671,10 @@
       "coordinate_status": "inherited_approximate_not_newly_verified",
       "sprite_ids": [
         "CITY-004",
-        "tripoli-1180-v2"
+        "tripoli-1180-v2",
+        "archive-crs-004-tripoli",
+        "archive-crs-004-tripoli-sheet",
+        "archive-var-tripoli-16up"
       ],
       "placement_status": "sprite_available",
       "approval_for_new_placement": true,
@@ -675,9 +699,12 @@
         34.89
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "archive-crs-009-tortosa",
+        "archive-var-tortosa-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "first",
       "notes": [
@@ -920,9 +947,12 @@
         34.52
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "archive-crs-025-arqah",
+        "archive-var-arqah-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -1422,9 +1452,11 @@
         38.32
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "thebes-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -1504,9 +1536,11 @@
         38.25
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "patras-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -2298,9 +2332,11 @@
         31.4
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "rosetta-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -2323,9 +2359,11 @@
         31.17
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "tinnis-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -2374,9 +2412,11 @@
         30.42
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "bilbeis-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -2425,9 +2465,13 @@
         28.24
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "tyre-1180-v1",
+        "archive-crs-021-tyre",
+        "archive-var-tyre-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [

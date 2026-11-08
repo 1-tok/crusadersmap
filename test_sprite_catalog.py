@@ -22,7 +22,7 @@ class PlacementRules(unittest.TestCase):
         for e in c['assets']:
             self.assertTrue(e['coordinate_evidence']['url'].startswith('https://'))
             self.assertEqual(e['coordinates'],[e['longitude'],e['latitude']])
-            self.assertEqual(e['approval_for_placement'],bool(e['asset']) and e['period_1180_eligible'])
+            self.assertEqual(e['approval_for_placement'],bool(e['asset']) and e['period_1180_eligible'] and e['geographic_placement_ready'])
             if e['asset']:
                 self.assertEqual(e['technical_qa']['alpha_extrema'][0],0)
                 self.assertGreater(e['technical_qa']['alpha_extrema'][1],0)
@@ -44,7 +44,8 @@ class PlacementRules(unittest.TestCase):
         self.assertEqual(len(archive),40)
         self.assertEqual(sum(e['variant']=='archive-primary' for e in archive),16)
         self.assertFalse(any(e['asset'] is None for e in c['assets']))
-        self.assertEqual(len(placements(c,1180)),15)
+        legacy=dict(assets=[e for e in c['assets'] if e.get('variant')!='generated-city'])
+        self.assertEqual(len(placements(legacy,1180)),15)
         for site in ('montfort','chateau-pelerin'):
             e=next(e for e in archive if e['site_id']==site and e['variant']=='archive-primary')
             self.assertTrue(e['approval']['provisional_map_use'])
@@ -55,6 +56,32 @@ class PlacementRules(unittest.TestCase):
     def test_only_highest_priority_variant_places(self):
         sheet=entry('krak'); alternate=entry('krak',priority=20)
         self.assertEqual(placements(dict(assets=[sheet,alternate]),1180),[alternate])
+
+    def test_unlocated_art_is_approved_but_never_exported(self):
+        c=build();e=next(e for e in c['assets'] if e['id']=='damietta-1180-v1')
+        self.assertTrue(e['approval']['provisional_map_use'])
+        self.assertFalse(e['approval_for_placement'])
+        self.assertNotIn(e,placements(c,1180))
+
+    def test_insets_match_existing_atlas_region_math(self):
+        # Load the actual atlas Region class without rough.py's terrain I/O.
+        import ast
+        import numpy as np
+        from pathlib import Path
+        from pyproj import Transformer
+        tree=ast.parse(Path('rough.py').read_text())
+        node=next(n for n in tree.body if isinstance(n,ast.ClassDef) and n.name=='Region')
+        namespace=dict(np=np,Transformer=Transformer)
+        exec(compile(ast.Module(body=[node],type_ignores=[]),'rough.py','exec'),namespace)
+        Region=namespace['Region']
+        import frame
+        from sprite_geometry import sheet_anchor
+        for name,point in [('aegean',[23.726,37.971]),('delta',[31.2578,30.0428])]:
+            cfg=frame.INSETS[name];r=Region.from_lonlat(cfg['proj'],cfg['ext'],4800)
+            x,y=r.ll_px(*point);bx,by=(190,190) if name=='aegean' else (190,13760-r.h)
+            actual=sheet_anchor(dict(map_region=name,coordinates=point))
+            self.assertAlmostEqual(actual[0],bx+x,places=7)
+            self.assertAlmostEqual(actual[1],by+y,places=7)
 
     def test_missing_unapproved_and_failed_qa_never_place(self):
         valid=entry('belvoir')

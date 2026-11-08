@@ -9,6 +9,7 @@ from html import escape
 from pathlib import Path
 from PIL import Image, ImageDraw
 import frame
+from sprite_geometry import sheet_anchor, inset_geometry
 from sprite_catalog import BASE, ROOT, placements, atlas_placements
 
 
@@ -28,8 +29,12 @@ def render(year=1180, atlas=False):
     for lat in range(30,39):
         points=[tuple(v*scale for v in frame.to_px(lon/10,lat)) for lon in range(300,386)]
         draw.line(points,fill='#c8c5ba')
+    for region in ('aegean','delta'):
+        _,_,_,_,_,w,h,bx,by=inset_geometry(region)
+        draw.rectangle((bx*scale,by*scale,(bx+w)*scale,(by+h)*scale),outline='#a7a090',width=2)
+        draw.text((bx*scale+5,by*scale+5),region,fill='#30251e')
     for e in sorted(chosen,key=lambda e:-e['coordinates'][1]):
-        px,py=frame.to_px(*e['coordinates'])
+        px,py=sheet_anchor(e)
         im=Image.open(BASE/e['asset'])
         width=e['display_width_units']; height=width*im.height/im.width
         ax,ay=e['anchor_normalized']; x=px-ax*width;y=py-ay*height
@@ -48,12 +53,12 @@ def render(year=1180, atlas=False):
     if chosen:
         xs=[];ys=[]
         for e in chosen:
-            x,y=frame.to_px(*e['coordinates']);xs.append(x*scale);ys.append(y*scale)
+            x,y=sheet_anchor(e);xs.append(x*scale);ys.append(y*scale)
         box=(max(0,int(min(xs)-400)),max(0,int(min(ys)-350)),min(preview.width,int(max(xs)+400)),min(preview.height,int(max(ys)+150)))
     preview=preview.crop(box)
     ImageDraw.Draw(preview).text((15,15),f'{suffix}: provisional placement review / grid only / red dots = anchors',fill='#30251e')
     preview.save(ROOT/f'previews/sprite-placement-{suffix}.jpg',quality=93)
-    print('Rendered',len(chosen),'sprites; self-contained SVG uses atlas frame.py projection')
+    print('Rendered',len(chosen),'sprites; mainland and inset projections match atlas layout')
 
 
 if __name__=='__main__':

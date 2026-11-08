@@ -2,18 +2,19 @@
 import json
 from PIL import Image, ImageDraw, ImageFont
 import frame
+from sprite_geometry import sheet_anchor
 from sprite_catalog import BASE, ROOT, build, placements, atlas_placements, write
 
 
 def main():
     catalog=build()
-    available=[e for e in catalog['assets'] if e['asset']]
+    available=[e for e in catalog['assets'] if e['asset'] and e['geographic_placement_ready']]
     chosen=atlas_placements(catalog)
     selected_1180={e['id'] for e in placements(catalog,1180)}
     selected={e['id'] for e in chosen}
     features=[]
     for e in available:
-        x,y=frame.to_px(*e['coordinates'])
+        x,y=sheet_anchor(e)
         width=e['display_width_units']
         w,h=e['technical_qa']['dimensions_px'];height=width*h/w
         ax,ay=e['anchor_normalized']
@@ -25,7 +26,7 @@ def main():
                 availability=e['availability'],coordinates_surveyed=False,coordinate_source_checked=True,
                 coordinate_source=e['coordinate_source'],coordinate_evidence=e['coordinate_evidence'],
                 approval_for_placement=e['approval_for_placement'],period_1180_eligible=e['period_1180_eligible'],
-                map_layers=e['map_layers'],historical_name=e['historical_name'],
+                map_layers=e['map_layers'],map_region=e['map_region'],historical_name=e['historical_name'],
                 anchor_normalized=e['anchor_normalized'],sheet_anchor_px=[round(x,3),round(y,3)],
                 display_width_sheet_px=width,display_height_sheet_px=round(height,3),
                 top_left_sheet_px=[round(x-ax*width,3),round(y-ay*height,3)])))
@@ -37,13 +38,13 @@ def main():
         features=[f for f in features if f['properties']['preferred']]))
     im=Image.open(ROOT/'previews/crusader-stage3c-colour.jpg').convert('RGB')
     w,h=im.size;scale=w/frame.W
-    board=Image.new('RGB',(w+650,h),(246,240,224));board.paste(im,(0,0));d=ImageDraw.Draw(board)
+    board=Image.new('RGB',(w+850,max(h,250+len(chosen)*145+330)),(246,240,224));board.paste(im,(0,0));d=ImageDraw.Draw(board)
     font=ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial.ttf',22)
     small=ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial.ttf',18)
     d.text((w+24,30),'PROVISIONAL SPRITE PLACEMENT — ATLAS',font=font,fill='#6b2219')
     d.text((w+24,70),f'{len(chosen)} sites; {len(available)} approved sprite variants',font=small,fill='black')
     for i,e in enumerate(sorted(chosen,key=lambda e:-e['coordinates'][1]),1):
-        x,y=frame.to_px(*e['coordinates']);x*=scale;y*=scale
+        x,y=sheet_anchor(e);x*=scale;y*=scale
         color='#a22220' if e['period_1180_eligible'] else '#315b9a'
         d.ellipse((x-18,y-18,x+18,y+18),fill=color,outline='white',width=3)
         d.text((x-7,y-13),str(i),font=font,fill='white')

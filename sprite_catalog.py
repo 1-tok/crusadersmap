@@ -42,6 +42,8 @@ def placements(catalog, year):
     by_site = {}
     for e in catalog['assets']:
         period = e['availability']
+        if e.get('geographic_placement_ready') is False:
+            continue
         if not (e['asset'] and e['approval']['provisional_map_use']
                 and e['technical_qa']['status'] == 'pass'):
             continue
@@ -108,6 +110,19 @@ def build():
     archive_path=BASE/'archive-1180/imported.json'
     if archive_path.exists():
         assets.extend(read(archive_path)['assets'])
+    for manifest in sorted(BASE.glob('greece-egypt*/manifest.json')):
+        for original in read(manifest)['assets']:
+            e=dict(original)
+            folder=manifest.parent.name
+            e.update(asset=folder+'/'+e['file'],source=dict(path=folder+'/'+e['source'],sha256=e['source_sha256']),
+                selection_priority=40,variant='generated-city',
+                approval=dict(status='approved-provisional',provisional_map_use=True,repaint_later=True,
+                    authority='User request, 2026-11-08',historical_accuracy_certified=False),
+                availability=dict(from_year=1180,through_year=1180,basis='circa-1180 city depiction; no implication of Frankish rule'),
+                historical=dict(target_year=1180,requires_historical_review=True,requires_repaint_review=True,
+                    references=e['references'],notes=e['repaint_flags']))
+            e['technical_qa']=qa(BASE/e['asset'])
+            assets.append(e)
     recovered_sites={e['site_id'] for e in assets if e.get('variant')=='archive-primary'}
     missing = []
     for slug, name, lon, lat, mark in [
@@ -159,9 +174,17 @@ def enrich(catalog):
     for e in catalog['assets']:
         assert e['id'] not in ids, e['id']
         ids.add(e['id'])
-        s = sites[e['site_id']]
+        if e.get('variant')=='generated-city':
+            s=dict(longitude=e['longitude'],latitude=e['latitude'],coordinate_evidence=e['coordinate_evidence'],
+                historical_name=e['historical_name'],alternate_names=[e['name']],
+                crusader_phase=dict(from_year=1180,through_year=1180,scope='Reviewed depiction year; not a Frankish-control range'),
+                period_1180_eligible=e['period_1180_eligible'])
+        else:
+            s = sites[e['site_id']]
         e['legacy_coordinates'] = e.get('coordinates')
         e['coordinates'] = [s['longitude'], s['latitude']]
+        e['geographic_placement_ready']=all(isinstance(v,(int,float)) for v in e['coordinates'])
+        e.setdefault('map_region','main')
         e['latitude'], e['longitude'] = s['latitude'], s['longitude']
         e['coordinate_source'] = s['coordinate_evidence']['url']
         e['coordinate_evidence'] = s['coordinate_evidence']
@@ -173,15 +196,16 @@ def enrich(catalog):
             e['name']=f"{s['historical_name']} (begun {s['construction']['started_year']})"
         e['display_title']=e['name']
         e['site_type'] = e['category']
-        e['date_ranges'] = dict(site_frankish_phase=s['crusader_phase'], approved_art=e['availability'])
+        e['date_ranges'] = dict(site_phase=s['crusader_phase'], approved_art=e['availability'])
         e['period_1180_eligible'] = s['period_1180_eligible']
-        e['approval_for_placement'] = bool(e['asset'] and s['period_1180_eligible'] and e['technical_qa']['status']=='pass')
+        e['approval_for_placement'] = bool(e['asset'] and s['period_1180_eligible'] and e['technical_qa']['status']=='pass' and e['geographic_placement_ready'])
         # Library approval is year-scoped by availability; 1180 eligibility is separate.
         # Later-period art may be approved without ever becoming an 1180 stronghold.
         e['approval']['approved_for_default_year'] = e['approval_for_placement']
         e['historical']['exclude_from_1180'] = not s['period_1180_eligible']
         e['historical']['later_period_only'] = not s['period_1180_eligible']
         e['map_layers'] = ['sprites-1180', 'fortifications' if e['category']=='castle' else 'settlements'] if s['period_1180_eligible'] else ['sprites-later-period', 'fortifications']
+        e['map_layers'].append(e['map_region'])
         e['review_required'] = e['repaint_required'] = True
         e['uncertainty_notes'] = [s['coordinate_evidence']['uncertainty_note'], 'Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail.']
         if e['asset']:
@@ -211,6 +235,7 @@ def export(catalog, year):
                 anchor_normalized=e['anchor_normalized'], display_width_units=e['display_width_units'],
                 status=e['approval']['status'], repaint_later=True, year=year)))
         features[-1]['properties'].update(approval_for_placement=e['approval_for_placement'],
+            map_region=e['map_region'],
             display_title=e['display_title'],construction=e.get('construction'),
             map_layers=e['map_layers'], historical_name=e['historical_name'],
             coordinate_evidence=e['coordinate_evidence'], visual_footprint=e['visual_footprint'])

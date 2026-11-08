@@ -104,6 +104,8 @@
         35.23,
         31.78
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 31.77777777777778,
       "longitude": 35.23166666666667,
       "coordinate_evidence": {
@@ -122,7 +124,7 @@
       "display_title": "Jerusalem",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1099,
           "through_year": 1187,
           "references": [
@@ -140,7 +142,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -266,6 +269,8 @@
         35.07,
         32.92
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.928,
       "longitude": 35.084,
       "coordinate_evidence": {
@@ -284,7 +289,7 @@
       "display_title": "Acre",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1104,
           "through_year": 1187,
           "references": [
@@ -302,7 +307,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -428,6 +434,8 @@
         36.16,
         36.2
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 36.20472,
       "longitude": 36.18167,
       "coordinate_evidence": {
@@ -446,7 +454,7 @@
       "display_title": "Antioch",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1098,
           "through_year": 1268,
           "references": [
@@ -464,7 +472,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -590,6 +599,8 @@
         35.84,
         34.44
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.447,
       "longitude": 35.81783,
       "coordinate_evidence": {
@@ -609,7 +620,7 @@
       "display_title": "Tripoli",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1109,
           "through_year": 1289,
           "references": [
@@ -627,7 +638,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -755,6 +767,8 @@
         36.29,
         34.76
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.75666666666667,
       "longitude": 36.294444444444444,
       "coordinate_evidence": {
@@ -773,7 +787,7 @@
       "display_title": "Krak des Chevaliers",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1142,
           "through_year": 1271,
           "references": [
@@ -791,7 +805,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -917,6 +932,8 @@
         35.52,
         32.6
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.59556,
       "longitude": 35.52139,
       "coordinate_evidence": {
@@ -936,7 +953,7 @@
       "display_title": "Belvoir",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1168,
           "through_year": 1189,
           "references": [
@@ -954,7 +971,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -1080,6 +1098,8 @@
         35.7,
         31.18
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 31.18056,
       "longitude": 35.70139,
       "coordinate_evidence": {
@@ -1098,7 +1118,7 @@
       "display_title": "Kerak",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1142,
           "through_year": 1188,
           "references": [
@@ -1117,7 +1137,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -1243,6 +1264,8 @@
         35.53,
         30.53
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 30.5315,
       "longitude": 35.5608,
       "coordinate_evidence": {
@@ -1262,7 +1285,7 @@
       "display_title": "Montréal (Shobak)",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1115,
           "through_year": 1189,
           "references": [
@@ -1280,7 +1303,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -1408,6 +1432,8 @@
         36.29,
         34.76
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.75666666666667,
       "longitude": 36.294444444444444,
       "coordinate_evidence": {
@@ -1426,7 +1452,7 @@
       "display_title": "Krak des Chevaliers",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1142,
           "through_year": 1271,
           "references": [
@@ -1444,7 +1470,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -1569,6 +1596,8 @@
         35.23,
         31.78
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 31.77777777777778,
       "longitude": 35.23166666666667,
       "coordinate_evidence": {
@@ -1587,7 +1616,7 @@
       "display_title": "Jerusalem",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1099,
           "through_year": 1187,
           "references": [
@@ -1605,7 +1634,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -1727,6 +1757,8 @@
         35.52,
         32.6
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.59556,
       "longitude": 35.52139,
       "coordinate_evidence": {
@@ -1746,7 +1778,7 @@
       "display_title": "Belvoir",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1168,
           "through_year": 1189,
           "references": [
@@ -1764,7 +1796,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -1884,6 +1917,8 @@
         35.07,
         32.92
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.928,
       "longitude": 35.084,
       "coordinate_evidence": {
@@ -1902,7 +1937,7 @@
       "display_title": "Acre",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1104,
           "through_year": 1187,
           "references": [
@@ -1920,7 +1955,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -2039,6 +2075,8 @@
         36.16,
         36.2
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 36.20472,
       "longitude": 36.18167,
       "coordinate_evidence": {
@@ -2057,7 +2095,7 @@
       "display_title": "Antioch",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1098,
           "through_year": 1268,
           "references": [
@@ -2075,7 +2113,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -2193,6 +2232,8 @@
         35.81,
         34.45
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.447,
       "longitude": 35.81783,
       "coordinate_evidence": {
@@ -2212,7 +2253,7 @@
       "display_title": "Tripoli",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1109,
           "through_year": 1289,
           "references": [
@@ -2230,7 +2271,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -2370,6 +2412,8 @@
         35.65,
         34.12
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.119170000000004,
       "longitude": 35.64555555555555,
       "coordinate_evidence": {
@@ -2388,7 +2432,7 @@
       "display_title": "Gibelet (Byblos)",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1104,
           "through_year": 1187,
           "references": [
@@ -2406,7 +2450,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -2545,6 +2590,8 @@
         35.2,
         33.27
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 33.26916666666666,
       "longitude": 35.19583333333333,
       "coordinate_evidence": {
@@ -2564,7 +2611,7 @@
       "display_title": "Tyre (Sur)",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1124,
           "through_year": 1291,
           "references": [
@@ -2582,7 +2629,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -2704,6 +2752,8 @@
         35.23166666666667,
         31.77777777777778
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 31.77777777777778,
       "longitude": 35.23166666666667,
       "coordinate_source": "https://whc.unesco.org/en/list/148/",
@@ -2724,7 +2774,7 @@
       "display_title": "Jerusalem",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1099,
           "through_year": 1187,
           "references": [
@@ -2742,7 +2792,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -2864,6 +2915,8 @@
         35.084,
         32.928
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.928,
       "longitude": 35.084,
       "coordinate_source": "https://whc.unesco.org/document/164227",
@@ -2884,7 +2937,7 @@
       "display_title": "Acre",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1104,
           "through_year": 1187,
           "references": [
@@ -2902,7 +2955,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -3024,6 +3078,8 @@
         36.18167,
         36.20472
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 36.20472,
       "longitude": 36.18167,
       "coordinate_source": "https://en.wikipedia.org/wiki/Antioch",
@@ -3044,7 +3100,7 @@
       "display_title": "Antioch",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1098,
           "through_year": 1268,
           "references": [
@@ -3062,7 +3118,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -3184,6 +3241,8 @@
         35.81783,
         34.447
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.447,
       "longitude": 35.81783,
       "coordinate_source": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
@@ -3205,7 +3264,7 @@
       "display_title": "Tripoli",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1109,
           "through_year": 1289,
           "references": [
@@ -3223,7 +3282,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -3346,6 +3406,8 @@
         36.294444444444444,
         34.75666666666667
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.75666666666667,
       "longitude": 36.294444444444444,
       "coordinate_source": "https://whc.unesco.org/en/list/1229/maps",
@@ -3366,7 +3428,7 @@
       "display_title": "Krak des Chevaliers",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1142,
           "through_year": 1271,
           "references": [
@@ -3384,7 +3446,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -3507,6 +3570,8 @@
         35.52139,
         32.59556
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.59556,
       "longitude": 35.52139,
       "coordinate_source": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
@@ -3528,7 +3593,7 @@
       "display_title": "Belvoir",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1168,
           "through_year": 1189,
           "references": [
@@ -3546,7 +3611,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -3669,6 +3735,8 @@
         35.70139,
         31.18056
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 31.18056,
       "longitude": 35.70139,
       "coordinate_source": "https://en.wikipedia.org/wiki/Kerak_Castle",
@@ -3689,7 +3757,7 @@
       "display_title": "Kerak",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1142,
           "through_year": 1188,
           "references": [
@@ -3708,7 +3776,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -3831,6 +3900,8 @@
         35.5608,
         30.5315
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 30.5315,
       "longitude": 35.5608,
       "coordinate_source": "https://www.sacred-destinations.com/jordan/shobak-castle",
@@ -3852,7 +3923,7 @@
       "display_title": "Montréal (Shobak)",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1115,
           "through_year": 1189,
           "references": [
@@ -3870,7 +3941,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -3993,6 +4065,8 @@
         35.89,
         34.89
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.89,
       "longitude": 35.89,
       "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
@@ -4013,7 +4087,7 @@
       "display_title": "Tortosa (Tartus)",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1152,
           "through_year": 1291,
           "references": [
@@ -4031,7 +4105,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -4155,6 +4230,8 @@
         34.93388888888889,
         32.70528055555556
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.70528055555556,
       "longitude": 34.93388888888889,
       "coordinate_source": "https://commons.wikimedia.org/wiki/Category:Chateau_Pelerin",
@@ -4184,7 +4261,7 @@
       "display_title": "Château Pèlerin (begun 1218)",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1218,
           "through_year": 1291,
           "references": [
@@ -4202,7 +4279,8 @@
       "approval_for_placement": false,
       "map_layers": [
         "sprites-later-period",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -4326,6 +4404,8 @@
         35.22611,
         33.04472
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 33.04472,
       "longitude": 35.22611,
       "coordinate_source": "https://en.wikipedia.org/wiki/Montfort_Castle",
@@ -4355,7 +4435,7 @@
       "display_title": "Montfort (begun 1226)",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1226,
           "through_year": 1271,
           "references": [
@@ -4373,7 +4453,8 @@
       "approval_for_placement": false,
       "map_layers": [
         "sprites-later-period",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -4495,6 +4576,8 @@
         35.19583333333333,
         33.26916666666666
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 33.26916666666666,
       "longitude": 35.19583333333333,
       "coordinate_source": "https://whc.unesco.org/en/list/299/",
@@ -4516,7 +4599,7 @@
       "display_title": "Tyre",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1124,
           "through_year": 1291,
           "references": [
@@ -4534,7 +4617,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -4657,6 +4741,8 @@
         35.37,
         33.56
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 33.56,
       "longitude": 35.37,
       "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
@@ -4677,7 +4763,7 @@
       "display_title": "Sidon",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1110,
           "through_year": 1187,
           "references": [
@@ -4695,7 +4781,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -4820,6 +4907,8 @@
         34.89,
         32.5
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.5,
       "longitude": 34.89,
       "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
@@ -4840,7 +4929,7 @@
       "display_title": "Caesarea",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1101,
           "through_year": 1187,
           "references": [
@@ -4858,7 +4947,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -4980,6 +5070,8 @@
         34.75,
         32.05
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.05,
       "longitude": 34.75,
       "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
@@ -5000,7 +5092,7 @@
       "display_title": "Jaffa",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1099,
           "through_year": 1187,
           "references": [
@@ -5018,7 +5110,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -5140,6 +5233,8 @@
         36.0,
         34.52
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.52,
       "longitude": 36.0,
       "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
@@ -5160,7 +5255,7 @@
       "display_title": "Arqah",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1109,
           "through_year": 1289,
           "references": [
@@ -5178,7 +5273,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -5301,6 +5397,8 @@
         35.23166666666667,
         31.77777777777778
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 31.77777777777778,
       "longitude": 35.23166666666667,
       "coordinate_source": "https://whc.unesco.org/en/list/148/",
@@ -5321,7 +5419,7 @@
       "display_title": "Jerusalem",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1099,
           "through_year": 1187,
           "references": [
@@ -5339,7 +5437,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -5462,6 +5561,8 @@
         35.084,
         32.928
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.928,
       "longitude": 35.084,
       "coordinate_source": "https://whc.unesco.org/document/164227",
@@ -5482,7 +5583,7 @@
       "display_title": "Acre",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1104,
           "through_year": 1187,
           "references": [
@@ -5500,7 +5601,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -5623,6 +5725,8 @@
         36.18167,
         36.20472
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 36.20472,
       "longitude": 36.18167,
       "coordinate_source": "https://en.wikipedia.org/wiki/Antioch",
@@ -5643,7 +5747,7 @@
       "display_title": "Antioch",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1098,
           "through_year": 1268,
           "references": [
@@ -5661,7 +5765,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -5784,6 +5889,8 @@
         35.81783,
         34.447
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.447,
       "longitude": 35.81783,
       "coordinate_source": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
@@ -5805,7 +5912,7 @@
       "display_title": "Tripoli",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1109,
           "through_year": 1289,
           "references": [
@@ -5823,7 +5930,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -5947,6 +6055,8 @@
         36.294444444444444,
         34.75666666666667
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.75666666666667,
       "longitude": 36.294444444444444,
       "coordinate_source": "https://whc.unesco.org/en/list/1229/maps",
@@ -5967,7 +6077,7 @@
       "display_title": "Krak des Chevaliers",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1142,
           "through_year": 1271,
           "references": [
@@ -5985,7 +6095,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -6109,6 +6220,8 @@
         35.52139,
         32.59556
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.59556,
       "longitude": 35.52139,
       "coordinate_source": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
@@ -6130,7 +6243,7 @@
       "display_title": "Belvoir",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1168,
           "through_year": 1189,
           "references": [
@@ -6148,7 +6261,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -6272,6 +6386,8 @@
         35.70139,
         31.18056
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 31.18056,
       "longitude": 35.70139,
       "coordinate_source": "https://en.wikipedia.org/wiki/Kerak_Castle",
@@ -6292,7 +6408,7 @@
       "display_title": "Kerak",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1142,
           "through_year": 1188,
           "references": [
@@ -6311,7 +6427,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -6435,6 +6552,8 @@
         35.5608,
         30.5315
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 30.5315,
       "longitude": 35.5608,
       "coordinate_source": "https://www.sacred-destinations.com/jordan/shobak-castle",
@@ -6456,7 +6575,7 @@
       "display_title": "Montréal (Shobak)",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1115,
           "through_year": 1189,
           "references": [
@@ -6474,7 +6593,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -6597,6 +6717,8 @@
         35.084,
         32.928
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.928,
       "longitude": 35.084,
       "coordinate_source": "https://whc.unesco.org/document/164227",
@@ -6617,7 +6739,7 @@
       "display_title": "Acre",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1104,
           "through_year": 1187,
           "references": [
@@ -6635,7 +6757,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -6758,6 +6881,8 @@
         36.18167,
         36.20472
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 36.20472,
       "longitude": 36.18167,
       "coordinate_source": "https://en.wikipedia.org/wiki/Antioch",
@@ -6778,7 +6903,7 @@
       "display_title": "Antioch",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1098,
           "through_year": 1268,
           "references": [
@@ -6796,7 +6921,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -6919,6 +7045,8 @@
         36.0,
         34.52
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.52,
       "longitude": 36.0,
       "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
@@ -6939,7 +7067,7 @@
       "display_title": "Arqah",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1109,
           "through_year": 1289,
           "references": [
@@ -6957,7 +7085,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -7081,6 +7210,8 @@
         35.52139,
         32.59556
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.59556,
       "longitude": 35.52139,
       "coordinate_source": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
@@ -7102,7 +7233,7 @@
       "display_title": "Belvoir",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1168,
           "through_year": 1189,
           "references": [
@@ -7120,7 +7251,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -7246,6 +7378,8 @@
         34.89,
         32.5
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.5,
       "longitude": 34.89,
       "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
@@ -7266,7 +7400,7 @@
       "display_title": "Caesarea",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1101,
           "through_year": 1187,
           "references": [
@@ -7284,7 +7418,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -7409,6 +7544,8 @@
         34.93388888888889,
         32.70528055555556
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.70528055555556,
       "longitude": 34.93388888888889,
       "coordinate_source": "https://commons.wikimedia.org/wiki/Category:Chateau_Pelerin",
@@ -7438,7 +7575,7 @@
       "display_title": "Château Pèlerin (begun 1218)",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1218,
           "through_year": 1291,
           "references": [
@@ -7456,7 +7593,8 @@
       "approval_for_placement": false,
       "map_layers": [
         "sprites-later-period",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -7579,6 +7717,8 @@
         34.75,
         32.05
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 32.05,
       "longitude": 34.75,
       "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
@@ -7599,7 +7739,7 @@
       "display_title": "Jaffa",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1099,
           "through_year": 1187,
           "references": [
@@ -7617,7 +7757,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -7740,6 +7881,8 @@
         35.23166666666667,
         31.77777777777778
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 31.77777777777778,
       "longitude": 35.23166666666667,
       "coordinate_source": "https://whc.unesco.org/en/list/148/",
@@ -7760,7 +7903,7 @@
       "display_title": "Jerusalem",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1099,
           "through_year": 1187,
           "references": [
@@ -7778,7 +7921,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -7902,6 +8046,8 @@
         35.70139,
         31.18056
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 31.18056,
       "longitude": 35.70139,
       "coordinate_source": "https://en.wikipedia.org/wiki/Kerak_Castle",
@@ -7922,7 +8068,7 @@
       "display_title": "Kerak",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1142,
           "through_year": 1188,
           "references": [
@@ -7941,7 +8087,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -8065,6 +8212,8 @@
         36.294444444444444,
         34.75666666666667
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.75666666666667,
       "longitude": 36.294444444444444,
       "coordinate_source": "https://whc.unesco.org/en/list/1229/maps",
@@ -8085,7 +8234,7 @@
       "display_title": "Krak des Chevaliers",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1142,
           "through_year": 1271,
           "references": [
@@ -8103,7 +8252,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -8228,6 +8378,8 @@
         35.22611,
         33.04472
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 33.04472,
       "longitude": 35.22611,
       "coordinate_source": "https://en.wikipedia.org/wiki/Montfort_Castle",
@@ -8257,7 +8409,7 @@
       "display_title": "Montfort (begun 1226)",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1226,
           "through_year": 1271,
           "references": [
@@ -8275,7 +8427,8 @@
       "approval_for_placement": false,
       "map_layers": [
         "sprites-later-period",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -8399,6 +8552,8 @@
         35.5608,
         30.5315
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 30.5315,
       "longitude": 35.5608,
       "coordinate_source": "https://www.sacred-destinations.com/jordan/shobak-castle",
@@ -8420,7 +8575,7 @@
       "display_title": "Montréal (Shobak)",
       "site_type": "castle",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1115,
           "through_year": 1189,
           "references": [
@@ -8438,7 +8593,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "fortifications"
+        "fortifications",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -8562,6 +8718,8 @@
         35.37,
         33.56
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 33.56,
       "longitude": 35.37,
       "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
@@ -8582,7 +8740,7 @@
       "display_title": "Sidon",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1110,
           "through_year": 1187,
           "references": [
@@ -8600,7 +8758,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -8724,6 +8883,8 @@
         35.89,
         34.89
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.89,
       "longitude": 35.89,
       "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
@@ -8744,7 +8905,7 @@
       "display_title": "Tortosa (Tartus)",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1152,
           "through_year": 1291,
           "references": [
@@ -8762,7 +8923,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -8885,6 +9047,8 @@
         35.81783,
         34.447
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 34.447,
       "longitude": 35.81783,
       "coordinate_source": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
@@ -8906,7 +9070,7 @@
       "display_title": "Tripoli",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1109,
           "through_year": 1289,
           "references": [
@@ -8924,7 +9088,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -9047,6 +9212,8 @@
         35.19583333333333,
         33.26916666666666
       ],
+      "geographic_placement_ready": true,
+      "map_region": "main",
       "latitude": 33.26916666666666,
       "longitude": 35.19583333333333,
       "coordinate_source": "https://whc.unesco.org/en/list/299/",
@@ -9068,7 +9235,7 @@
       "display_title": "Tyre",
       "site_type": "city",
       "date_ranges": {
-        "site_frankish_phase": {
+        "site_phase": {
           "from_year": 1124,
           "through_year": 1291,
           "references": [
@@ -9086,7 +9253,8 @@
       "approval_for_placement": true,
       "map_layers": [
         "sprites-1180",
-        "settlements"
+        "settlements",
+        "main"
       ],
       "review_required": true,
       "repaint_required": true,
@@ -9114,11 +9282,2365 @@
         ],
         "geographic_scale": false
       }
+    },
+    {
+      "id": "athens-1180-v1",
+      "site_id": "athens",
+      "name": "Athens",
+      "historical_name": "Athēnai",
+      "site_type": "city",
+      "category": "city",
+      "file": "athens-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180/sources/athens.png",
+        "sha256": "97fc3acc70efbc15422c8ee56a82ab0849d63618e024014f0e54cc1b32d59d21"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        23.726,
+        37.971
+      ],
+      "latitude": 37.971,
+      "longitude": 23.726,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/document/164198",
+        "published_value": "37.971 / 23.726; Acropolis reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://byzantineattica.eie.gr/byzantineattica/view.asp?cgpk=490&lg=en&obpk=439&xsl=detail"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/athens-1180-v1.png",
+      "source_sha256": "97fc3acc70efbc15422c8ee56a82ab0849d63618e024014f0e54cc1b32d59d21",
+      "sha256": "579dc262442aa7fa05663f4dbc015d8577001c24fd8df8df29456b128ee1fca6",
+      "pixel_sha256": "43c63dc6f41c7d7b95092f519a8b775670d1c648248d5d7a08219d07403db30d",
+      "dimensions_px": [
+        1024,
+        700
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9628571428571429
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          700
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          674
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 350.0,
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          700
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          674
+        ],
+        "pixel_sha256": "43c63dc6f41c7d7b95092f519a8b775670d1c648248d5d7a08219d07403db30d",
+        "sha256": "579dc262442aa7fa05663f4dbc015d8577001c24fd8df8df29456b128ee1fca6"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180/athens-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://byzantineattica.eie.gr/byzantineattica/view.asp?cgpk=490&lg=en&obpk=439&xsl=detail"
+        ],
+        "notes": [
+          "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure.",
+          "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        23.726,
+        37.971
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://whc.unesco.org/document/164198",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Athens"
+      ],
+      "display_title": "Athens",
+      "uncertainty_notes": [
+        "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "thessaloniki-1180-v1",
+      "site_id": "thessaloniki",
+      "name": "Thessaloniki",
+      "historical_name": "Thessalonikē",
+      "site_type": "city",
+      "category": "city",
+      "file": "thessaloniki-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180/sources/thessaloniki.png",
+        "sha256": "acc33129933d05f4453f38c0cf5f3527583783f507dc69eeeaf01b37d4e9df8a"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        22.94388889,
+        40.64027778
+      ],
+      "latitude": 40.64027778,
+      "longitude": 22.94388889,
+      "coordinate_evidence": {
+        "url": "https://ungegn.un.org/dashboard/cities/details?id=596",
+        "published_value": "40.64027778 N, 22.94388889 E; city reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Upper citadel shape, Rotunda visibility, harbor and wall circuit schematic; verify individual churches."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Upper citadel shape, Rotunda visibility, harbor and wall circuit schematic; verify individual churches.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://culturalegnatia.culture.gov.gr/en/route-stops/thessaloniki/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/thessaloniki-1180-v1.png",
+      "source_sha256": "acc33129933d05f4453f38c0cf5f3527583783f507dc69eeeaf01b37d4e9df8a",
+      "sha256": "e4650ba924db7b184113744526ed7ca85e40d45065223b06d7bf879f2ca6c43d",
+      "pixel_sha256": "f0a50e9c1cfd5ce139f4aa7efaf51b1a9a5a74c4506ef0b416a29d7f27320128",
+      "dimensions_px": [
+        1024,
+        652
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9601226993865031
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          652
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          626
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 326.0,
+        "anchor_normalized": [
+          0.5,
+          0.9601226993865031
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          652
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          626
+        ],
+        "pixel_sha256": "f0a50e9c1cfd5ce139f4aa7efaf51b1a9a5a74c4506ef0b416a29d7f27320128",
+        "sha256": "e4650ba924db7b184113744526ed7ca85e40d45065223b06d7bf879f2ca6c43d"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180/thessaloniki-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://culturalegnatia.culture.gov.gr/en/route-stops/thessaloniki/"
+        ],
+        "notes": [
+          "Upper citadel shape, Rotunda visibility, harbor and wall circuit schematic; verify individual churches.",
+          "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        22.94388889,
+        40.64027778
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://ungegn.un.org/dashboard/cities/details?id=596",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Thessaloniki"
+      ],
+      "display_title": "Thessaloniki",
+      "uncertainty_notes": [
+        "Upper citadel shape, Rotunda visibility, harbor and wall circuit schematic; verify individual churches.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "corinth-1180-v1",
+      "site_id": "corinth",
+      "name": "Corinth",
+      "historical_name": "Korinthos",
+      "site_type": "city",
+      "category": "city",
+      "file": "corinth-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180/sources/corinth.png",
+        "sha256": "f87b52c1f9c783d197e6361939ba2f037ccab39333c9d550b099530445b2f1b0"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        22.878805,
+        37.904935
+      ],
+      "latitude": 37.904935,
+      "longitude": 22.878805,
+      "coordinate_evidence": {
+        "url": "https://www.religiousgreece.gr/en/attractions/ancient-corinth",
+        "published_value": "37.904935 N, 22.878805 E; Ancient Corinth reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Remove invented waterfront at lower town. Hill-to-town distance compressed; wall tiers, church forms and heights need plan review."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Remove invented waterfront at lower town. Hill-to-town distance compressed; wall tiers, church forms and heights need plan review.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://castleroute.culture.gov.gr/en/acrocorinth/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/corinth-1180-v1.png",
+      "source_sha256": "f87b52c1f9c783d197e6361939ba2f037ccab39333c9d550b099530445b2f1b0",
+      "sha256": "50bc51ff8d0406d9a743365c84bb1e63eb1b170ffc51b1638deab69ffdc5d3a6",
+      "pixel_sha256": "52f47ea1fffdf15ed5f202e09d11e7b15821b1e81cca7b942ebb12cffae78a50",
+      "dimensions_px": [
+        1024,
+        689
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9622641509433962
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          689
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          663
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 344.5,
+        "anchor_normalized": [
+          0.5,
+          0.9622641509433962
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          689
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          663
+        ],
+        "pixel_sha256": "52f47ea1fffdf15ed5f202e09d11e7b15821b1e81cca7b942ebb12cffae78a50",
+        "sha256": "50bc51ff8d0406d9a743365c84bb1e63eb1b170ffc51b1638deab69ffdc5d3a6"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180/corinth-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://castleroute.culture.gov.gr/en/acrocorinth/"
+        ],
+        "notes": [
+          "Remove invented waterfront at lower town. Hill-to-town distance compressed; wall tiers, church forms and heights need plan review.",
+          "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        22.878805,
+        37.904935
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://www.religiousgreece.gr/en/attractions/ancient-corinth",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Corinth"
+      ],
+      "display_title": "Corinth",
+      "uncertainty_notes": [
+        "Remove invented waterfront at lower town. Hill-to-town distance compressed; wall tiers, church forms and heights need plan review.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "chalkida-1180-v1",
+      "site_id": "chalkida",
+      "name": "Chalkida",
+      "historical_name": "Chalkis / Euripos",
+      "site_type": "city",
+      "category": "city",
+      "file": "chalkida-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180/sources/chalkida.png",
+        "sha256": "d87db36afbe7f33e93cde1994417dd6637c1e509f632a4ab4cd3e162ff2de097"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        23.595,
+        38.4625
+      ],
+      "latitude": 38.4625,
+      "longitude": 23.595,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Chalcis",
+        "published_value": "38.46250 N, 23.59500 E; city reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Bridge arches, abutments and wall geometry are interpretive; no surveyed 1180 bridge reconstruction."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Bridge arches, abutments and wall geometry are interpretive; no surveyed 1180 bridge reconstruction.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-590-2/978-88-6969-590-2-ch-24_0qGGyG8.pdf"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/chalkida-1180-v1.png",
+      "source_sha256": "d87db36afbe7f33e93cde1994417dd6637c1e509f632a4ab4cd3e162ff2de097",
+      "sha256": "0f37b55604cd2bf0facc317b18da17c0750be9b225842aff171790e7e45b48f9",
+      "pixel_sha256": "34baa1ae9a183b6a9f260cb0f9de8917d202f830e5c0bba9d48b2b60276fbe53",
+      "dimensions_px": [
+        1024,
+        694
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.962536023054755
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          694
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          668
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 347.0,
+        "anchor_normalized": [
+          0.5,
+          0.962536023054755
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          694
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          668
+        ],
+        "pixel_sha256": "34baa1ae9a183b6a9f260cb0f9de8917d202f830e5c0bba9d48b2b60276fbe53",
+        "sha256": "0f37b55604cd2bf0facc317b18da17c0750be9b225842aff171790e7e45b48f9"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180/chalkida-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-590-2/978-88-6969-590-2-ch-24_0qGGyG8.pdf"
+        ],
+        "notes": [
+          "Bridge arches, abutments and wall geometry are interpretive; no surveyed 1180 bridge reconstruction.",
+          "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        23.595,
+        38.4625
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Chalcis",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Chalkida"
+      ],
+      "display_title": "Chalkida",
+      "uncertainty_notes": [
+        "Bridge arches, abutments and wall geometry are interpretive; no surveyed 1180 bridge reconstruction.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "heraklion-1180-v1",
+      "site_id": "heraklion",
+      "name": "Heraklion",
+      "historical_name": "Chandax",
+      "site_type": "city",
+      "category": "city",
+      "file": "heraklion-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180/sources/heraklion.png",
+        "sha256": "58d78e9ce5f8ccc6cd26b799619e5ed8edbd93da2d5b864580e9e7ad21e39966"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        25.1344,
+        35.3403
+      ],
+      "latitude": 35.3403,
+      "longitude": 25.1344,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Heraklion",
+        "published_value": "35.3403 N, 25.1344 E; city reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Harbor geometry, church placement and Byzantine wall circuit are schematic; no claim to recreate Venetian Candia."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Harbor geometry, church placement and Byzantine wall circuit are schematic; no claim to recreate Venetian Candia.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://www.heraklion.gr/en/ourplace/throwback/historical-elements.html"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/heraklion-1180-v1.png",
+      "source_sha256": "58d78e9ce5f8ccc6cd26b799619e5ed8edbd93da2d5b864580e9e7ad21e39966",
+      "sha256": "d9f111ea8020544b289d002dd29352b53f5b15fc5bba06825ea5ed9ef7714e33",
+      "pixel_sha256": "726e81b448fdbcfcdf0fbe2c4c5e5d6a03f988bc83138a258cdfcafd625a2d3f",
+      "dimensions_px": [
+        1024,
+        703
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9630156472261735
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          703
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          677
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 351.5,
+        "anchor_normalized": [
+          0.5,
+          0.9630156472261735
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          703
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          677
+        ],
+        "pixel_sha256": "726e81b448fdbcfcdf0fbe2c4c5e5d6a03f988bc83138a258cdfcafd625a2d3f",
+        "sha256": "d9f111ea8020544b289d002dd29352b53f5b15fc5bba06825ea5ed9ef7714e33"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180/heraklion-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://www.heraklion.gr/en/ourplace/throwback/historical-elements.html"
+        ],
+        "notes": [
+          "Harbor geometry, church placement and Byzantine wall circuit are schematic; no claim to recreate Venetian Candia.",
+          "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        25.1344,
+        35.3403
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Heraklion",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Heraklion"
+      ],
+      "display_title": "Heraklion",
+      "uncertainty_notes": [
+        "Harbor geometry, church placement and Byzantine wall circuit are schematic; no claim to recreate Venetian Candia.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "rhodes-1180-v1",
+      "site_id": "rhodes",
+      "name": "Rhodes",
+      "historical_name": "Rhodos",
+      "site_type": "city",
+      "category": "city",
+      "file": "rhodes-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180/sources/rhodes.png",
+        "sha256": "ed14a2ceb64ee197e3aec6ef3377a892b578ecef48150f3825202e1bf6befbda"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        28.22631111111111,
+        36.443080555555554
+      ],
+      "latitude": 36.443080555555554,
+      "longitude": 28.22631111111111,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/document/164203",
+        "published_value": "N36 26 35.090 E28 13 34.720; corrected UNESCO medieval city point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Depicts earlier Byzantine city; walls and harbor require pre-Hospitaller phase review. UNESCO point locates urban site, not 1180 boundaries."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Depicts earlier Byzantine city; walls and harbor require pre-Hospitaller phase review. UNESCO point locates urban site, not 1180 boundaries.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://whc.unesco.org/en/list/493/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/rhodes-1180-v1.png",
+      "source_sha256": "ed14a2ceb64ee197e3aec6ef3377a892b578ecef48150f3825202e1bf6befbda",
+      "sha256": "e42ced20d813acd0fa7742ac30dfb3930c2599a40b86eaeb38dac6bb3bee7f3c",
+      "pixel_sha256": "e607063cb01d6b99ac8f0860525d2b2c0c3f5cc6f4c0fd3d30f43861a488f640",
+      "dimensions_px": [
+        1024,
+        700
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9628571428571429
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          700
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          674
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 350.0,
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          700
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          674
+        ],
+        "pixel_sha256": "e607063cb01d6b99ac8f0860525d2b2c0c3f5cc6f4c0fd3d30f43861a488f640",
+        "sha256": "e42ced20d813acd0fa7742ac30dfb3930c2599a40b86eaeb38dac6bb3bee7f3c"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180/rhodes-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://whc.unesco.org/en/list/493/"
+        ],
+        "notes": [
+          "Depicts earlier Byzantine city; walls and harbor require pre-Hospitaller phase review. UNESCO point locates urban site, not 1180 boundaries.",
+          "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        28.22631111111111,
+        36.443080555555554
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://whc.unesco.org/document/164203",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Rhodes"
+      ],
+      "display_title": "Rhodes",
+      "uncertainty_notes": [
+        "Depicts earlier Byzantine city; walls and harbor require pre-Hospitaller phase review. UNESCO point locates urban site, not 1180 boundaries.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "cairo-1180-v1",
+      "site_id": "cairo",
+      "name": "Cairo",
+      "historical_name": "al-Qahira",
+      "site_type": "city",
+      "category": "city",
+      "file": "cairo-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180/sources/cairo.png",
+        "sha256": "8e7032cadddab63b5d643fe764c5ed853122e99df0dbc80322f90aed13ed25ed"
+      },
+      "map_region": "delta",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "delta"
+      ],
+      "coordinates": [
+        31.2578,
+        30.0428
+      ],
+      "latitude": 30.0428,
+      "longitude": 31.2578,
+      "coordinate_evidence": {
+        "url": "https://aldarbalahmar.com/explore/1",
+        "published_value": "30.0428 N, 31.2578 E; Bab Zuwaila anchor for Fatimid city",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Bab Zuwayla selected as ground anchor; city icon is exaggerated. Minaret forms, mosque silhouettes and wall circuit remain interpretive."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Bab Zuwayla selected as ground anchor; city icon is exaggerated. Minaret forms, mosque silhouettes and wall circuit remain interpretive.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction.",
+        "Water strip at cutout edge is schematic; do not interpret as actual Fatimid city shoreline."
+      ],
+      "references": [
+        "https://egymonuments.gov.eg/monuments/the-walls-of-cairo/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/cairo-1180-v1.png",
+      "source_sha256": "8e7032cadddab63b5d643fe764c5ed853122e99df0dbc80322f90aed13ed25ed",
+      "sha256": "e46e053035f20461dc641a45f5edf16acee21f9d90b2c5d2380305b3e98e66cf",
+      "pixel_sha256": "e49702f6c92c08cbc700902a63969aac8384a7a18c0c4849ad0f8bc11f71667d",
+      "dimensions_px": [
+        1024,
+        690
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9623188405797102
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          690
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          997,
+          664
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 345.0,
+        "anchor_normalized": [
+          0.5,
+          0.9623188405797102
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          690
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          997,
+          664
+        ],
+        "pixel_sha256": "e49702f6c92c08cbc700902a63969aac8384a7a18c0c4849ad0f8bc11f71667d",
+        "sha256": "e46e053035f20461dc641a45f5edf16acee21f9d90b2c5d2380305b3e98e66cf"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180/cairo-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://egymonuments.gov.eg/monuments/the-walls-of-cairo/"
+        ],
+        "notes": [
+          "Bab Zuwayla selected as ground anchor; city icon is exaggerated. Minaret forms, mosque silhouettes and wall circuit remain interpretive.",
+          "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction.",
+          "Water strip at cutout edge is schematic; do not interpret as actual Fatimid city shoreline."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        31.2578,
+        30.0428
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://aldarbalahmar.com/explore/1",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Cairo"
+      ],
+      "display_title": "Cairo",
+      "uncertainty_notes": [
+        "Bab Zuwayla selected as ground anchor; city icon is exaggerated. Minaret forms, mosque silhouettes and wall circuit remain interpretive.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "alexandria-1180-v1",
+      "site_id": "alexandria",
+      "name": "Alexandria",
+      "historical_name": "al-Iskandariyya",
+      "site_type": "city",
+      "category": "city",
+      "file": "alexandria-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180/sources/alexandria.png",
+        "sha256": "132d6e7dec8bfe672cd8bd3bb68201095a4c138da630df6325c1662f5a6bbf70"
+      },
+      "map_region": "delta",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "delta"
+      ],
+      "coordinates": [
+        29.9,
+        31.2
+      ],
+      "latitude": 31.2,
+      "longitude": 29.9,
+      "coordinate_evidence": {
+        "url": "https://collections.tepapa.govt.nz/place/2077199",
+        "published_value": "31.2 N, 29.9 E; coarse city reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Coarse published city anchor, not Pharos monument location. Lighthouse medieval upper stages, relative scale and harbor coastline require review."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Coarse published city anchor, not Pharos monument location. Lighthouse medieval upper stages, relative scale and harbor coastline require review.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://pharos.cealex.org/documentary-resources/after-the-lighthouse-the-fort/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/alexandria-1180-v1.png",
+      "source_sha256": "132d6e7dec8bfe672cd8bd3bb68201095a4c138da630df6325c1662f5a6bbf70",
+      "sha256": "02cd38001e4b417369f5f8dfe4b2208a75cef5804a15262479158b4f0f7fa43f",
+      "pixel_sha256": "b5c4fdd4e5d27ed8cc4ad3aa9f9ad85233dbeb68bb609e0eca02509073906863",
+      "dimensions_px": [
+        1024,
+        695
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.962589928057554
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          695
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          669
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 347.5,
+        "anchor_normalized": [
+          0.5,
+          0.962589928057554
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          695
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          669
+        ],
+        "pixel_sha256": "b5c4fdd4e5d27ed8cc4ad3aa9f9ad85233dbeb68bb609e0eca02509073906863",
+        "sha256": "02cd38001e4b417369f5f8dfe4b2208a75cef5804a15262479158b4f0f7fa43f"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180/alexandria-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://pharos.cealex.org/documentary-resources/after-the-lighthouse-the-fort/"
+        ],
+        "notes": [
+          "Coarse published city anchor, not Pharos monument location. Lighthouse medieval upper stages, relative scale and harbor coastline require review.",
+          "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        29.9,
+        31.2
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://collections.tepapa.govt.nz/place/2077199",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Alexandria"
+      ],
+      "display_title": "Alexandria",
+      "uncertainty_notes": [
+        "Coarse published city anchor, not Pharos monument location. Lighthouse medieval upper stages, relative scale and harbor coastline require review.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "damietta-1180-v1",
+      "site_id": "damietta",
+      "name": "Damietta",
+      "historical_name": "Dumyat",
+      "site_type": "city",
+      "category": "city",
+      "file": "damietta-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180/sources/damietta.png",
+        "sha256": "142131548def81cf0eb52cc2b26057eb96e325a084109bba6009da62526a4741"
+      },
+      "map_region": "delta",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "delta"
+      ],
+      "coordinates": [
+        null,
+        null
+      ],
+      "latitude": null,
+      "longitude": null,
+      "coordinate_evidence": {
+        "url": "https://eprints.soton.ac.uk/466640/1/1238050_v.2.pdf",
+        "published_value": "Medieval town east bank downstream of modern city; precise site not established in this source",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Medieval location unresolved. No invented coordinate supplied; do not substitute modern Damietta centroid. Riverbank, wall and mosque arrangement schematic."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": false,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "needs-medieval-geolocation",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Medieval location unresolved. No invented coordinate supplied; do not substitute modern Damietta centroid. Riverbank, wall and mosque arrangement schematic.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://eprints.soton.ac.uk/466640/1/1238050_v.2.pdf"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180/damietta-1180-v1.png",
+      "source_sha256": "142131548def81cf0eb52cc2b26057eb96e325a084109bba6009da62526a4741",
+      "sha256": "ea5f273335b733a02d72dcee90da77f1e0554a60d025ac65eb30f849666e94b2",
+      "pixel_sha256": "0d181b926f11ff3e7adf700d43ec5d784ee78b07515bd3bcb9613f8f34d8f561",
+      "dimensions_px": [
+        1024,
+        690
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9623188405797102
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          690
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          664
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 345.0,
+        "anchor_normalized": [
+          0.5,
+          0.9623188405797102
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          690
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          664
+        ],
+        "pixel_sha256": "0d181b926f11ff3e7adf700d43ec5d784ee78b07515bd3bcb9613f8f34d8f561",
+        "sha256": "ea5f273335b733a02d72dcee90da77f1e0554a60d025ac65eb30f849666e94b2"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180/damietta-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://eprints.soton.ac.uk/466640/1/1238050_v.2.pdf"
+        ],
+        "notes": [
+          "Medieval location unresolved. No invented coordinate supplied; do not substitute modern Damietta centroid. Riverbank, wall and mosque arrangement schematic.",
+          "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": null,
+      "geographic_placement_ready": false,
+      "coordinate_source": "https://eprints.soton.ac.uk/466640/1/1238050_v.2.pdf",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Damietta"
+      ],
+      "display_title": "Damietta",
+      "uncertainty_notes": [
+        "Medieval location unresolved. No invented coordinate supplied; do not substitute modern Damietta centroid. Riverbank, wall and mosque arrangement schematic.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "patras-1180-v1",
+      "site_id": "patras",
+      "name": "Patras",
+      "historical_name": "Patrai",
+      "site_type": "city",
+      "category": "city",
+      "file": "patras-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180-batch02/sources/patras.png",
+        "sha256": "bd5ed6cc21bde73947771281c968982491fd4d67e4bd57f19ad98f64d7670c3f"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        21.742901,
+        38.244844
+      ],
+      "latitude": 38.244844,
+      "longitude": 21.742901,
+      "coordinate_evidence": {
+        "url": "https://religiousgreece.gr/index.php/en/attractions/castle-patras",
+        "published_value": "38.244844 N,21.742901 E; castle point used as city/castle ensemble anchor",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Hill-to-shore distance compressed; verify pre-1205 castle fabric; no Frankish inner enclosure intended."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Hill-to-shore distance compressed; verify pre-1205 castle fabric; no Frankish inner enclosure intended.",
+        "Street layout, orientation, terrain and reconstructed building heights require review."
+      ],
+      "references": [
+        "https://castleroute.culture.gov.gr/en/patras/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-batch02/patras-1180-v1.png",
+      "source_sha256": "bd5ed6cc21bde73947771281c968982491fd4d67e4bd57f19ad98f64d7670c3f",
+      "sha256": "efe658ae50f45e1340133c092dcccdcc141a6cb1bc7f0747aaf410338e1946e9",
+      "pixel_sha256": "5c334c5553fc1b4dafa657abd6c7620ba7e815698fa9757430488602658405e8",
+      "dimensions_px": [
+        1024,
+        692
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9624277456647399
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          692
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          33,
+          998,
+          666
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 346.0,
+        "anchor_normalized": [
+          0.5,
+          0.9624277456647399
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          692
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          33,
+          998,
+          666
+        ],
+        "pixel_sha256": "5c334c5553fc1b4dafa657abd6c7620ba7e815698fa9757430488602658405e8",
+        "sha256": "efe658ae50f45e1340133c092dcccdcc141a6cb1bc7f0747aaf410338e1946e9"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180-batch02/patras-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://castleroute.culture.gov.gr/en/patras/"
+        ],
+        "notes": [
+          "Hill-to-shore distance compressed; verify pre-1205 castle fabric; no Frankish inner enclosure intended.",
+          "Street layout, orientation, terrain and reconstructed building heights require review."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        21.742901,
+        38.244844
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://religiousgreece.gr/index.php/en/attractions/castle-patras",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Patras"
+      ],
+      "display_title": "Patras",
+      "uncertainty_notes": [
+        "Hill-to-shore distance compressed; verify pre-1205 castle fabric; no Frankish inner enclosure intended.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "thebes-1180-v1",
+      "site_id": "thebes",
+      "name": "Thebes",
+      "historical_name": "Thebai",
+      "site_type": "city",
+      "category": "city",
+      "file": "thebes-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180-batch02/sources/thebes.png",
+        "sha256": "27785bc3d36a133e2f61e50aa28c0f770ab92b947937d6b76426654f150711de"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        23.317799,
+        38.319077
+      ],
+      "latitude": 38.319077,
+      "longitude": 23.317799,
+      "coordinate_evidence": {
+        "url": "https://ora.ox.ac.uk/objects/uuid%3Af7f02498-4ae1-4ff0-81f6-aad909f041b1/files/m6dff832f3f1ab8497fd13c7102af1c74",
+        "published_value": "38.319077 N,23.317799 E; published ancient Thebae reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published settlement reference point; medieval urban extent uncertain. Walls, church positions and textile courtyards are interpretive."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Published settlement reference point; medieval urban extent uncertain. Walls, church positions and textile courtyards are interpretive.",
+        "Street layout, orientation, terrain and reconstructed building heights require review."
+      ],
+      "references": [
+        "https://www.mthv.gr/en/permanent-exhibition/middle-byzantine-period/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-batch02/thebes-1180-v1.png",
+      "source_sha256": "27785bc3d36a133e2f61e50aa28c0f770ab92b947937d6b76426654f150711de",
+      "sha256": "a734f12cb2051146b4a0bf1b7cd9fb2bbadeb39b2f5ae04cde4e7729446c9abc",
+      "pixel_sha256": "735b6ed71cc02fd6fd7834f9c81bf065f6b7ef1ffbc51cf43ee5c60b656a34cb",
+      "dimensions_px": [
+        1024,
+        690
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9623188405797102
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          690
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          32,
+          998,
+          664
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 345.0,
+        "anchor_normalized": [
+          0.5,
+          0.9623188405797102
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          690
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          32,
+          998,
+          664
+        ],
+        "pixel_sha256": "735b6ed71cc02fd6fd7834f9c81bf065f6b7ef1ffbc51cf43ee5c60b656a34cb",
+        "sha256": "a734f12cb2051146b4a0bf1b7cd9fb2bbadeb39b2f5ae04cde4e7729446c9abc"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180-batch02/thebes-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://www.mthv.gr/en/permanent-exhibition/middle-byzantine-period/"
+        ],
+        "notes": [
+          "Published settlement reference point; medieval urban extent uncertain. Walls, church positions and textile courtyards are interpretive.",
+          "Street layout, orientation, terrain and reconstructed building heights require review."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        23.317799,
+        38.319077
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://ora.ox.ac.uk/objects/uuid%3Af7f02498-4ae1-4ff0-81f6-aad909f041b1/files/m6dff832f3f1ab8497fd13c7102af1c74",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Thebes"
+      ],
+      "display_title": "Thebes",
+      "uncertainty_notes": [
+        "Published settlement reference point; medieval urban extent uncertain. Walls, church positions and textile courtyards are interpretive.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "rosetta-1180-v1",
+      "site_id": "rosetta",
+      "name": "Rosetta",
+      "historical_name": "Rashid",
+      "site_type": "city",
+      "category": "city",
+      "file": "rosetta-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180-batch02/sources/rosetta.png",
+        "sha256": "3bbbbff742656874de9da987a814d1be8dc2b81678a1907eada5c1976d823c03"
+      },
+      "map_region": "delta",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "delta"
+      ],
+      "coordinates": [
+        30.41639,
+        31.40444
+      ],
+      "latitude": 31.40444,
+      "longitude": 30.41639,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Rosetta",
+        "published_value": "31.40444 N,30.41639 E; city reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Modern gazetteer point locates continuous settlement; medieval river course, quay and city extent not surveyed. Ottoman merchant mansions excluded."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Modern gazetteer point locates continuous settlement; medieval river course, quay and city extent not surveyed. Ottoman merchant mansions excluded.",
+        "Street layout, orientation, terrain and reconstructed building heights require review."
+      ],
+      "references": [
+        "https://whc.unesco.org/en/tentativelists/1831/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-batch02/rosetta-1180-v1.png",
+      "source_sha256": "3bbbbff742656874de9da987a814d1be8dc2b81678a1907eada5c1976d823c03",
+      "sha256": "b489e066e4e1fb3ac70b8e960aaa7036f08452c3f1650187239a789294ca7b9c",
+      "pixel_sha256": "f12d9d5e1c36632a3bd95460003a248df2a515d081d2bc339edc708cae65a8d1",
+      "dimensions_px": [
+        1024,
+        701
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9629101283880172
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          701
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          675
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 350.5,
+        "anchor_normalized": [
+          0.5,
+          0.9629101283880172
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          701
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          675
+        ],
+        "pixel_sha256": "f12d9d5e1c36632a3bd95460003a248df2a515d081d2bc339edc708cae65a8d1",
+        "sha256": "b489e066e4e1fb3ac70b8e960aaa7036f08452c3f1650187239a789294ca7b9c"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180-batch02/rosetta-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://whc.unesco.org/en/tentativelists/1831/"
+        ],
+        "notes": [
+          "Modern gazetteer point locates continuous settlement; medieval river course, quay and city extent not surveyed. Ottoman merchant mansions excluded.",
+          "Street layout, orientation, terrain and reconstructed building heights require review."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        30.41639,
+        31.40444
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Rosetta",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Rosetta"
+      ],
+      "display_title": "Rosetta",
+      "uncertainty_notes": [
+        "Modern gazetteer point locates continuous settlement; medieval river course, quay and city extent not surveyed. Ottoman merchant mansions excluded.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "tinnis-1180-v1",
+      "site_id": "tinnis",
+      "name": "Tinnis",
+      "historical_name": "Tinnis",
+      "site_type": "city",
+      "category": "city",
+      "file": "tinnis-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180-batch02/sources/tinnis.png",
+        "sha256": "94c5a1a7557ad811048bd0aecb61485d7a9d659abeb506dd15b8c4fa31760878"
+      },
+      "map_region": "delta",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "delta"
+      ],
+      "coordinates": [
+        32.233333333333334,
+        31.2
+      ],
+      "latitude": 31.2,
+      "longitude": 32.233333333333334,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Tinnis",
+        "published_value": "31 degrees12 minutes N,32 degrees14 minutes E; coarse island city reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Coarse published island point. Sources differ on early-12th-century decline versus final evacuation1227; degree of occupation in1180 uncertain. Treat inhabited buildings as provisional reconstruction."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Coarse published island point. Sources differ on early-12th-century decline versus final evacuation1227; degree of occupation in1180 uncertain. Treat inhabited buildings as provisional reconstruction.",
+        "Street layout, orientation, terrain and reconstructed building heights require review."
+      ],
+      "references": [
+        "https://antiquity.ac.uk/projgall/gascoigne303"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-batch02/tinnis-1180-v1.png",
+      "source_sha256": "94c5a1a7557ad811048bd0aecb61485d7a9d659abeb506dd15b8c4fa31760878",
+      "sha256": "2f5f68c373bdb93fe333a33e5f95c4ca7ba91af89dc7058a7ce6ff70337bd582",
+      "pixel_sha256": "4e0f762d2dc30dd12b35b4b10b8f24576a9186ca4a8996e20056db6246e59b02",
+      "dimensions_px": [
+        1024,
+        696
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9626436781609196
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          696
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          670
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 348.0,
+        "anchor_normalized": [
+          0.5,
+          0.9626436781609196
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          696
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          670
+        ],
+        "pixel_sha256": "4e0f762d2dc30dd12b35b4b10b8f24576a9186ca4a8996e20056db6246e59b02",
+        "sha256": "2f5f68c373bdb93fe333a33e5f95c4ca7ba91af89dc7058a7ce6ff70337bd582"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180-batch02/tinnis-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://antiquity.ac.uk/projgall/gascoigne303"
+        ],
+        "notes": [
+          "Coarse published island point. Sources differ on early-12th-century decline versus final evacuation1227; degree of occupation in1180 uncertain. Treat inhabited buildings as provisional reconstruction.",
+          "Street layout, orientation, terrain and reconstructed building heights require review."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        32.233333333333334,
+        31.2
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Tinnis",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Tinnis"
+      ],
+      "display_title": "Tinnis",
+      "uncertainty_notes": [
+        "Coarse published island point. Sources differ on early-12th-century decline versus final evacuation1227; degree of occupation in1180 uncertain. Treat inhabited buildings as provisional reconstruction.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "bilbeis-1180-v1",
+      "site_id": "bilbeis",
+      "name": "Bilbeis",
+      "historical_name": "Bilbays / Phelbes",
+      "site_type": "city",
+      "category": "city",
+      "file": "bilbeis-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180-batch02/sources/bilbeis.png",
+        "sha256": "3f1e3da10c08f30cd2749690933f1dc8905dd0943e61fddd900612d0919bcdb3"
+      },
+      "map_region": "delta",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "delta"
+      ],
+      "coordinates": [
+        31.55917,
+        30.42167
+      ],
+      "latitude": 30.42167,
+      "longitude": 31.55917,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Bilbeis",
+        "published_value": "30.42167 N,31.55917 E; infobox city point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Source also provides coarse header30.417 N31.567 E; infobox city point selected, not a surveyed medieval center. Bilbeis is distinct from Pelusium; walls and recovery from1168 damage require review."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Source also provides coarse header30.417 N31.567 E; infobox city point selected, not a surveyed medieval center. Bilbeis is distinct from Pelusium; walls and recovery from1168 damage require review.",
+        "Street layout, orientation, terrain and reconstructed building heights require review."
+      ],
+      "references": [
+        "https://ccdl.claremont.edu/digital/collection/cce/id/358/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-batch02/bilbeis-1180-v1.png",
+      "source_sha256": "3f1e3da10c08f30cd2749690933f1dc8905dd0943e61fddd900612d0919bcdb3",
+      "sha256": "f58dd2f4bbebda7b7d58bb01bb34f2becd4ce6f820519224b993594270c1732e",
+      "pixel_sha256": "1042f3989ae38d999965e7a708428c711a46fd382de5a1e34ea49c1fd3ac4e87",
+      "dimensions_px": [
+        1024,
+        694
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.962536023054755
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          694
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          668
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 347.0,
+        "anchor_normalized": [
+          0.5,
+          0.962536023054755
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          694
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          668
+        ],
+        "pixel_sha256": "1042f3989ae38d999965e7a708428c711a46fd382de5a1e34ea49c1fd3ac4e87",
+        "sha256": "f58dd2f4bbebda7b7d58bb01bb34f2becd4ce6f820519224b993594270c1732e"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180-batch02/bilbeis-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://ccdl.claremont.edu/digital/collection/cce/id/358/"
+        ],
+        "notes": [
+          "Source also provides coarse header30.417 N31.567 E; infobox city point selected, not a surveyed medieval center. Bilbeis is distinct from Pelusium; walls and recovery from1168 damage require review.",
+          "Street layout, orientation, terrain and reconstructed building heights require review."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        31.55917,
+        30.42167
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Bilbeis",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Bilbeis"
+      ],
+      "display_title": "Bilbeis",
+      "uncertainty_notes": [
+        "Source also provides coarse header30.417 N31.567 E; infobox city point selected, not a surveyed medieval center. Bilbeis is distinct from Pelusium; walls and recovery from1168 damage require review.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "jaffa-1180-v1",
+      "site_id": "jaffa",
+      "name": "Jaffa",
+      "historical_name": "Jaffa / Yafa",
+      "site_type": "city",
+      "category": "city",
+      "file": "jaffa-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180-batch02/sources/jaffa.png",
+        "sha256": "9bbc377db52700952c1e6424c8a625c970d219852654fcfca17faeadd607a395"
+      },
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "main"
+      ],
+      "coordinates": [
+        34.7552,
+        32.0549
+      ],
+      "latitude": 32.0549,
+      "longitude": 34.7552,
+      "coordinate_evidence": {
+        "url": "https://www.getty.edu/vow/TGNFullDisplay?english=&find=&nation=&place=&subjectid=8713916",
+        "published_value": "32.0549 N,34.7552 E; Old Jaffa neighborhood point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "New generated variant, alongside recovered archive Jaffa. Harbor rocks, summit fortress and church forms are schematic; Old Jaffa point, not surveyed1180 extent."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "New generated variant, alongside recovered archive Jaffa. Harbor rocks, summit fortress and church forms are schematic; Old Jaffa point, not surveyed1180 extent.",
+        "Street layout, orientation, terrain and reconstructed building heights require review."
+      ],
+      "references": [
+        "https://sferaproject.org/toponyms/jaffa/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-batch02/jaffa-1180-v1.png",
+      "source_sha256": "9bbc377db52700952c1e6424c8a625c970d219852654fcfca17faeadd607a395",
+      "sha256": "813d4563d69b245e923b6cc2b5c6ce0b4c0697b16fd7ca905752e194beb7953c",
+      "pixel_sha256": "f80b06458b79c1ed9e54843db2aed1fafa669356d522346d5a201352412c3768",
+      "dimensions_px": [
+        1024,
+        687
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9621542940320232
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          687
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          661
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 343.5,
+        "anchor_normalized": [
+          0.5,
+          0.9621542940320232
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          687
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          661
+        ],
+        "pixel_sha256": "f80b06458b79c1ed9e54843db2aed1fafa669356d522346d5a201352412c3768",
+        "sha256": "813d4563d69b245e923b6cc2b5c6ce0b4c0697b16fd7ca905752e194beb7953c"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180-batch02/jaffa-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://sferaproject.org/toponyms/jaffa/"
+        ],
+        "notes": [
+          "New generated variant, alongside recovered archive Jaffa. Harbor rocks, summit fortress and church forms are schematic; Old Jaffa point, not surveyed1180 extent.",
+          "Street layout, orientation, terrain and reconstructed building heights require review."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        34.7552,
+        32.0549
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://www.getty.edu/vow/TGNFullDisplay?english=&find=&nation=&place=&subjectid=8713916",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Jaffa"
+      ],
+      "display_title": "Jaffa",
+      "uncertainty_notes": [
+        "New generated variant, alongside recovered archive Jaffa. Harbor rocks, summit fortress and church forms are schematic; Old Jaffa point, not surveyed1180 extent.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
     }
   ],
   "coordinate_precision_policy": "Published points transcribed exactly; not surveyed medieval footprints. See per-site evidence and uncertainty.",
   "deduplication": {
     "method": "SHA-256 RGBA pixels and dimensions; preferred variant per site for placement",
-    "unique_pngs": 40
+    "unique_pngs": 55
   }
 }

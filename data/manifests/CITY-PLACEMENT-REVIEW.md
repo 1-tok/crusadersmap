@@ -1,150 +1,130 @@
 # City sprite placement review
 
-Reviewed 95 city/urban candidates from the current location manifest. This audits painted sprite coverage; existing source markers are already present.
+The atlas spans1095–1571; city artwork and geographic readiness are tracked independently from existing map markers.
 
-The master atlas spans 1095–1571. An 1180 layer must select the appropriate city phase independently of later Frankish, Venetian or Hospitaller dates. No new sprites or coordinates are approved by this review.
+95 reviewed urban candidates. Status counts: {'sprite_available': 25, 'needs_sprite': 69, 'sprite_available_needs_geolocation': 1}.
 
-Coordinates in the JSON are inherited approximations, not newly researched points. Use the operational sprite catalog for available paintings. Castle-only sites, events and nonurban religious landmarks are outside this city list. Additional historical cities absent from PLACES are not silently invented.
+Greece and Egypt are included; ancient island or urban reference points are not surveyed medieval footprints. Mystras and Mansoura remain excluded from the1180 production queue. Rhodes uses an earlier Byzantine depiction.
 
 ## Levant / Cyprus / Cilicia
 
-49 candidates; 43 need sprites.
-
-| City / settlement | Sprite coverage | Priority | 1180 review |
-|---|---|---|---|
-| Jerusalem | sprite available | normal | requires phase review |
-| Akko | sprite available | normal | requires phase review |
-| Tyre | sprite available | normal | requires phase review |
-| Ashkelon | needs sprite | first | requires phase review |
-| Jaffa | needs sprite | first | requires phase review |
-| Caesarea | needs sprite | normal | requires phase review |
-| Sidon | needs sprite | first | requires phase review |
-| Beirut | needs sprite | first | requires phase review |
-| Safed | needs sprite | normal | requires phase review |
-| Ajloun | needs sprite | normal | requires phase review |
-| Gaza | needs sprite | normal | requires phase review |
-| Bethlehem | needs sprite | normal | requires phase review |
-| Hebron | needs sprite | normal | requires phase review |
-| Nazareth | needs sprite | normal | requires phase review |
-| Nablus | needs sprite | normal | requires phase review |
-| Tiberias | needs sprite | normal | requires phase review |
-| Banias | needs sprite | normal | requires phase review |
-| Tibnin | needs sprite | normal | requires phase review |
-| Bosra | needs sprite | normal | requires phase review |
-| Damascus | needs sprite | first | requires phase review |
-| Baalbek | needs sprite | normal | requires phase review |
-| Aleppo | needs sprite | first | requires phase review |
-| Hama | needs sprite | normal | requires phase review |
-| Homs | needs sprite | normal | requires phase review |
-| Antakya | sprite available | normal | requires phase review |
-| Tripoli | sprite available | normal | requires phase review |
-| Tartus | needs sprite | first | requires phase review |
-| Latakia | needs sprite | normal | requires phase review |
-| Jableh | needs sprite | normal | requires phase review |
-| Baniyas | needs sprite | normal | requires phase review |
-| Apamea | needs sprite | normal | requires phase review |
-| Harim | needs sprite | normal | requires phase review |
-| Artah | needs sprite | normal | requires phase review |
-| Iskenderun | needs sprite | normal | requires phase review |
-| Batroun | needs sprite | normal | requires phase review |
-| Byblos | sprite available | normal | requires phase review |
-| Arqa | needs sprite | normal | requires phase review |
-| Kozan | needs sprite | normal | requires phase review |
-| Tarsus | needs sprite | normal | requires phase review |
-| Adana | needs sprite | normal | requires phase review |
-| Misis | needs sprite | normal | requires phase review |
-| Yumurtalik | needs sprite | normal | requires phase review |
-| Kahramanmaras | needs sprite | normal | requires phase review |
-| Famagusta | needs sprite | normal | requires phase review |
-| Nicosia | needs sprite | normal | requires phase review |
-| Kyrenia | needs sprite | normal | requires phase review |
-| Limassol | needs sprite | normal | requires phase review |
-| Paphos | needs sprite | normal | requires phase review |
-| Larnaca | needs sprite | normal | requires phase review |
+| City / urban site | Sprite status | Provisional1180 placement |
+|---|---|---|
+| Jerusalem | sprite available | approved |
+| Akko | sprite available | approved |
+| Tyre | sprite available | approved |
+| Ashkelon | needs sprite | pending artwork / location / phase |
+| Jaffa | sprite available | approved |
+| Caesarea | sprite available | approved |
+| Sidon | sprite available | approved |
+| Beirut | needs sprite | pending artwork / location / phase |
+| Safed | needs sprite | pending artwork / location / phase |
+| Ajloun | needs sprite | pending artwork / location / phase |
+| Gaza | needs sprite | pending artwork / location / phase |
+| Bethlehem | needs sprite | pending artwork / location / phase |
+| Hebron | needs sprite | pending artwork / location / phase |
+| Nazareth | needs sprite | pending artwork / location / phase |
+| Nablus | needs sprite | pending artwork / location / phase |
+| Tiberias | needs sprite | pending artwork / location / phase |
+| Banias | needs sprite | pending artwork / location / phase |
+| Tibnin | needs sprite | pending artwork / location / phase |
+| Bosra | needs sprite | pending artwork / location / phase |
+| Damascus | needs sprite | pending artwork / location / phase |
+| Baalbek | needs sprite | pending artwork / location / phase |
+| Aleppo | needs sprite | pending artwork / location / phase |
+| Hama | needs sprite | pending artwork / location / phase |
+| Homs | needs sprite | pending artwork / location / phase |
+| Antakya | sprite available | approved |
+| Tripoli | sprite available | approved |
+| Tartus | sprite available | approved |
+| Latakia | needs sprite | pending artwork / location / phase |
+| Jableh | needs sprite | pending artwork / location / phase |
+| Baniyas | needs sprite | pending artwork / location / phase |
+| Apamea | needs sprite | pending artwork / location / phase |
+| Harim | needs sprite | pending artwork / location / phase |
+| Artah | needs sprite | pending artwork / location / phase |
+| Iskenderun | needs sprite | pending artwork / location / phase |
+| Batroun | needs sprite | pending artwork / location / phase |
+| Byblos | sprite available | approved |
+| Arqa | sprite available | approved |
+| Kozan | needs sprite | pending artwork / location / phase |
+| Tarsus | needs sprite | pending artwork / location / phase |
+| Adana | needs sprite | pending artwork / location / phase |
+| Misis | needs sprite | pending artwork / location / phase |
+| Yumurtalik | needs sprite | pending artwork / location / phase |
+| Kahramanmaras | needs sprite | pending artwork / location / phase |
+| Famagusta | needs sprite | pending artwork / location / phase |
+| Nicosia | needs sprite | pending artwork / location / phase |
+| Kyrenia | needs sprite | pending artwork / location / phase |
+| Limassol | needs sprite | pending artwork / location / phase |
+| Paphos | needs sprite | pending artwork / location / phase |
+| Larnaca | needs sprite | pending artwork / location / phase |
 
 ## Other Aegean / Anatolia
 
-7 candidates; 7 need sprites.
-
-| City / settlement | Sprite coverage | Priority | 1180 review |
-|---|---|---|---|
-| Istanbul | needs sprite | normal | requires phase review |
-| Beyoglu | needs sprite | normal | requires phase review |
-| Edirne | needs sprite | normal | requires phase review |
-| Iznik | needs sprite | normal | requires phase review |
-| Foca | needs sprite | normal | requires phase review |
-| Selcuk | needs sprite | normal | requires phase review |
-| Alasehir | needs sprite | normal | requires phase review |
+| City / urban site | Sprite status | Provisional1180 placement |
+|---|---|---|
+| Istanbul | needs sprite | pending artwork / location / phase |
+| Beyoglu | needs sprite | pending artwork / location / phase |
+| Edirne | needs sprite | pending artwork / location / phase |
+| Iznik | needs sprite | pending artwork / location / phase |
+| Foca | needs sprite | pending artwork / location / phase |
+| Selcuk | needs sprite | pending artwork / location / phase |
+| Alasehir | needs sprite | pending artwork / location / phase |
 
 ## Greece
 
-28 candidates; 22 still need sprites. Six new 1180 sprites are available in greece-egypt-1180.
-
-| City / settlement | Sprite coverage | Priority | 1180 review |
-|---|---|---|---|
-| Thessaloniki | sprite available | first | requires phase review |
-| Chalkida | sprite available | first | requires phase review |
-| Athens | sprite available | first | requires phase review |
-| Thebes | needs sprite | normal | requires phase review |
-| Corinth | sprite available | first | requires phase review |
-| Andravida | needs sprite | normal | requires phase review |
-| Patras | needs sprite | normal | requires phase review |
-| Methoni | needs sprite | normal | requires phase review |
-| Koroni | needs sprite | normal | requires phase review |
-| Navarino | needs sprite | normal | requires phase review |
-| Monemvasia | needs sprite | normal | requires phase review |
-| Mystras | needs sprite | normal | excluded 1180 |
-| Nafpaktos | needs sprite | normal | requires phase review |
-| Corfu | needs sprite | normal | requires phase review |
-| Zakynthos | needs sprite | normal | requires phase review |
-| Kythira | needs sprite | normal | requires phase review |
-| Heraklion | sprite available | first | requires phase review |
-| Chania | needs sprite | normal | requires phase review |
-| Rethymno | needs sprite | normal | requires phase review |
-| Rhodes | sprite available | first | requires phase review |
-| Kos | needs sprite | normal | requires phase review |
-| Leros | needs sprite | normal | requires phase review |
-| Naxos | needs sprite | normal | requires phase review |
-| Tinos | needs sprite | normal | requires phase review |
-| Santorini | needs sprite | normal | requires phase review |
-| Chios | needs sprite | normal | requires phase review |
-| Mytilene | needs sprite | normal | requires phase review |
-| Lemnos | needs sprite | normal | requires phase review |
+| City / urban site | Sprite status | Provisional1180 placement |
+|---|---|---|
+| Thessaloniki | sprite available | approved |
+| Chalkida | sprite available | approved |
+| Athens | sprite available | approved |
+| Thebes | sprite available | approved |
+| Corinth | sprite available | approved |
+| Andravida | needs sprite | pending artwork / location / phase |
+| Patras | sprite available | approved |
+| Methoni | needs sprite | pending artwork / location / phase |
+| Koroni | needs sprite | pending artwork / location / phase |
+| Navarino | needs sprite | pending artwork / location / phase |
+| Monemvasia | needs sprite | pending artwork / location / phase |
+| Mystras | needs sprite | pending artwork / location / phase |
+| Nafpaktos | needs sprite | pending artwork / location / phase |
+| Corfu | needs sprite | pending artwork / location / phase |
+| Zakynthos | needs sprite | pending artwork / location / phase |
+| Kythira | needs sprite | pending artwork / location / phase |
+| Heraklion | sprite available | approved |
+| Chania | needs sprite | pending artwork / location / phase |
+| Rethymno | needs sprite | pending artwork / location / phase |
+| Rhodes | sprite available | approved |
+| Kos | needs sprite | pending artwork / location / phase |
+| Leros | needs sprite | pending artwork / location / phase |
+| Naxos | needs sprite | pending artwork / location / phase |
+| Tinos | needs sprite | pending artwork / location / phase |
+| Santorini | needs sprite | pending artwork / location / phase |
+| Chios | needs sprite | pending artwork / location / phase |
+| Mytilene | needs sprite | pending artwork / location / phase |
+| Lemnos | needs sprite | pending artwork / location / phase |
 
 ## Egypt
 
-11 candidates; 8 still need sprites. Cairo and Alexandria have sourced provisional placements; Damietta has artwork pending medieval geolocation.
+| City / urban site | Sprite status | Provisional1180 placement |
+|---|---|---|
+| Cairo | sprite available | approved |
+| Alexandria | sprite available | approved |
+| Damietta | sprite available needs geolocation | pending artwork / location / phase |
+| Mansoura | needs sprite | pending artwork / location / phase |
+| Faraskur | needs sprite | pending artwork / location / phase |
+| Rosetta | sprite available | approved |
+| Tinnis | sprite available | approved |
+| Pelusium | needs sprite | pending artwork / location / phase |
+| Bilbeis | sprite available | approved |
+| Suez | needs sprite | pending artwork / location / phase |
+| al-Tur | sprite available | approved |
 
-| City / settlement | Sprite coverage | Priority | 1180 review |
-|---|---|---|---|
-| Cairo | sprite available | first | requires phase review |
-| Alexandria | sprite available | first | requires phase review |
-| Damietta | art ready; geolocation pending | first | requires phase review |
-| Mansoura | needs sprite | normal | excluded 1180 |
-| Faraskur | needs sprite | normal | requires phase review |
-| Rosetta | needs sprite | normal | requires phase review |
-| Tinnis | needs sprite | normal | requires phase review |
-| Pelusium | needs sprite | normal | requires phase review |
-| Bilbeis | needs sprite | normal | requires phase review |
-| Suez | needs sprite | normal | requires phase review |
-| al-Tur | needs sprite | normal | requires phase review |
+## Placement and review
 
-## Corrections and period gates
+Use `../sprites/catalog.json`, `../sprites/placements-1180.geojson` and root `previews/sprite-placement-markup.jpg`. The inset review is in `previews/city-inset-placement-review.jpg`.
 
-- Mystras: exclude the medieval city/castle at 1180; fortress founded 1249. Source: https://whc.unesco.org/en/list/511/
-- Mansoura: exclude at 1180; founded 1219. Source: https://thfac.mans.edu.eg/images/files/wafedin/forign.pdf
-- Rhodes: an earlier city can be represented, but Hospitaller architecture belongs to the 1309-and-later phase. Source: https://whc.unesco.org/en/list/493/
-- Pelusium and Bilbeis: existing manifest identifies an alias conflict; resolve before assigning a sprite.
-- Damietta: verify medieval site location before placement.
-- Greece is not equivalent to the entire aegean inset: Constantinople, Galata, Iznik, Bodrum and other Anatolian sites are listed separately. Egypt is not equivalent to every delta inset site: Aqaba is outside Egypt.
-- Island names such as Lemnos, Leros, Tinos, Kos and Naxos need a specific urban/castle anchor; do not treat a generic island label as a surveyed town point.
+All15 newly generated city paintings are in the unified catalog. Damietta is art-approved but has no invented medieval coordinate. Next batch02 contains Patras, Thebes, Rosetta, Tinnis, Bilbeis and a Jaffa variant. Prompts, source PNGs and repaint notes are preserved.
 
-## Suggested next batches (first Greece/Egypt batch now complete)
-
-1. Greece: Athens, Thessaloniki, Corinth, Chalkida, Heraklion and Rhodes, with period-specific depictions.
-2. Egypt: Cairo, Alexandria and medieval Damietta first; then Rosetta, Tinnis, Bilbeis, Suez and al-Tur. Mansoura belongs to a later-period batch.
-3. Levant gaps: Jaffa, Ascalon, Sidon, Beirut, Damascus, Aleppo and Tortosa.
-
-## Batch 01 completed — 2026-11-08
-
-Nine city sprites generated: Athens, Thessaloniki, Corinth, Chalkida, Heraklion, Rhodes, Cairo, Alexandria and Damietta. Eight have sourced provisional placement anchors; Damietta has no invented coordinate. JSON queue now records 80 candidates still needing artwork, 14 with available sprites, and one with artwork pending geolocation. Batch manifest: `../sprites/greece-egypt-1180/manifest.json`.
+Pelusium/Bilbeis legacy alias conflict remains a separate source-manifest correction; the new Bilbeis sprite uses a documented Bilbeis city point. Tinnis occupation intensity is uncertain. Full per-entry research and uncertainty notes remain in the JSON and sprite manifests.

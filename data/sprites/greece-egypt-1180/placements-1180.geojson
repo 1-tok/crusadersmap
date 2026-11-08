@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "coordinate_system": "EPSG:4326",
-  "note": "Route each feature to map_region inset; do not project Greece or Egypt through mainland frame.to_px. Damietta omitted pending medieval geolocation.",
+  "note": "Route each feature to its map_region: main, aegean or delta. Do not project inset cities through mainland frame.to_px. Any city lacking grounded coordinates is omitted.",
   "features": [
     {
       "type": "Feature",

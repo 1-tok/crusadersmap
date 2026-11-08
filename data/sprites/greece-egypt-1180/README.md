@@ -8,6 +8,6 @@ placements-1180.geojson contains the eight sourced anchors. Greece belongs to th
 
 Known repaint flags include invented waterfront along Athens and Corinth, schematic street plans, wall circuits and building heights, and phase-specific church/minaret silhouettes. Cairo's generated water strip is also schematic and must not be read as the actual Fatimid city edge. Earlier Byzantine Rhodes is intended, not the later Hospitaller city. None of the paintings is historical certification. Review flags do not hold the eight geographically grounded assets from provisional placement.
 
-This batch is a separate discoverable manifest alongside the existing historical and expansion batches. The unified catalog is being updated independently with recovered archive artwork; this batch does not overwrite that work. Consumers should read this manifest/GeoJSON as an additional library batch.
+The unified catalog now imports this batch automatically alongside recovered archive artwork and batch02. Shared GeoJSON, SVG layers and sheet markup use the Aegean and Egypt inset projections. Damietta remains art-approved with geographic placement pending.
 
 Rebuild with `python3 build_greece_egypt_sprites.py` (Pillow). QA checks real RGBA transparency, empty padded edges, unique pixel hashes and safe individual outputs. Light/dark preview: previews/greece-egypt-1180-qa.jpg at repository root.
