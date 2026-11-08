@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "acre-1180-v2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.07,
+          32.92
+        ]
+      },
+      "properties": {
+        "site_id": "acre",
+        "name": "Acre",
+        "asset": "historical-1180/acre-1180-v2.png",
+        "anchor_normalized": [
+          0.5,
+          0.9570957095709571
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CITY-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.16,
+          36.2
+        ]
+      },
+      "properties": {
+        "site_id": "antioch",
+        "name": "Antioch",
+        "asset": "png/antioch.png",
+        "anchor_normalized": [
+          0.5,
+          0.9789473684210527
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "belvoir-1180-v2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.52,
+          32.6
+        ]
+      },
+      "properties": {
+        "site_id": "belvoir",
+        "name": "Belvoir",
+        "asset": "historical-1180/belvoir-1180-v2.png",
+        "anchor_normalized": [
+          0.5,
+          0.9707536557930259
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "byblos-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.65,
+          34.12
+        ]
+      },
+      "properties": {
+        "site_id": "byblos",
+        "name": "Gibelet (Byblos)",
+        "asset": "expansion/byblos-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9656084656084656
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jerusalem-1180-v2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23,
+          31.78
+        ]
+      },
+      "properties": {
+        "site_id": "jerusalem",
+        "name": "Jerusalem",
+        "asset": "historical-1180/jerusalem-1180-v2.png",
+        "anchor_normalized": [
+          0.5,
+          0.9486921529175051
+        ],
+        "display_width_units": 1024,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CAST-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7,
+          31.18
+        ]
+      },
+      "properties": {
+        "site_id": "kerak",
+        "name": "Kerak",
+        "asset": "png/kerak.png",
+        "anchor_normalized": [
+          0.5,
+          0.9785522788203753
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CAST-001-STANDALONE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.29,
+          34.76
+        ]
+      },
+      "properties": {
+        "site_id": "krak-des-chevaliers",
+        "name": "Krak des Chevaliers",
+        "asset": "png/krak-des-chevaliers-standalone.png",
+        "anchor_normalized": [
+          0.5,
+          0.9921798631476051
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CAST-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.53,
+          30.53
+        ]
+      },
+      "properties": {
+        "site_id": "montreal-shobak",
+        "name": "Montréal (Shobak)",
+        "asset": "png/montreal-shobak.png",
+        "anchor_normalized": [
+          0.5,
+          0.9782608695652174
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CITY-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.84,
+          34.44
+        ]
+      },
+      "properties": {
+        "site_id": "tripoli",
+        "name": "Tripoli",
+        "asset": "png/tripoli.png",
+        "anchor_normalized": [
+          0.5,
+          0.9751552795031055
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tyre-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2,
+          33.27
+        ]
+      },
+      "properties": {
+        "site_id": "tyre",
+        "name": "Tyre (Sur)",
+        "asset": "expansion/tyre-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.956738768718802
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180
+      }
+    }
+  ]
+}

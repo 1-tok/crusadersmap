@@ -1,0 +1,1445 @@
+{
+  "schema_version": 1,
+  "default_year": 1180,
+  "period_note": "Circa 1180 is the default sprite brief, not the date of the existing 1095–1571 atlas.",
+  "approval_policy": "Place available approved PNGs now as provisional art; flag repaint and historical review. Missing sources are not approved.",
+  "coordinate_order": "longitude, latitude (WGS84); inherited map anchors, not surveyed footprints",
+  "anchor_convention": "normalized PNG x/y; bottom-center painted-ground convention, not true georeferencing",
+  "units": "display widths in full-size 10800 x 14400 atlas pixels",
+  "assets": [
+    {
+      "id": "CITY-001",
+      "site_id": "jerusalem",
+      "name": "Jerusalem",
+      "category": "city",
+      "asset": "png/jerusalem.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          0,
+          0,
+          443,
+          450
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          5,
+          88,
+          435,
+          391
+        ]
+      },
+      "coordinates": [
+        35.23,
+        31.78
+      ],
+      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:jerusalem",
+      "anchor_normalized": [
+        0.5,
+        0.9749216300940439
+      ],
+      "display_width_units": 512,
+      "selection_priority": 10,
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Check Frankish-period walls and sacred-site roofs; flags and architectural phases unverified.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "original_extraction_qa": {
+        "id": "CITY-001",
+        "nonzero_alpha_before": 126246,
+        "nonzero_alpha_after": 98630,
+        "transparent_padding_px": 8,
+        "visual_review": "reviewed-light-and-dark",
+        "source_crop_touches_content": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          446,
+          319
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          438,
+          311
+        ],
+        "sha256": "314c9220e839c89cff8d82919984ea98b81714b9f439a180ee6bb554f32accd7"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "CITY-002",
+      "site_id": "acre",
+      "name": "Acre",
+      "category": "city",
+      "asset": "png/acre.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          443,
+          0,
+          887,
+          450
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          0,
+          101,
+          440,
+          402
+        ]
+      },
+      "coordinates": [
+        35.07,
+        32.92
+      ],
+      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:acre",
+      "anchor_normalized": [
+        0.5,
+        0.9747634069400631
+      ],
+      "display_width_units": 512,
+      "selection_priority": 10,
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Harbor, sea walls and waterfront architecture need comparison with pre-1187 plans.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "original_extraction_qa": {
+        "id": "CITY-002",
+        "nonzero_alpha_before": 125087,
+        "nonzero_alpha_after": 100313,
+        "transparent_padding_px": 8,
+        "visual_review": "reviewed-light-and-dark",
+        "source_crop_touches_content": true
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          456,
+          317
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          448,
+          309
+        ],
+        "sha256": "dfb3603567bcdaa0df47c7e8fd7f1e95fe21b1d10689378403956cb174581323"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "CITY-003",
+      "site_id": "antioch",
+      "name": "Antioch",
+      "category": "city",
+      "asset": "png/antioch.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          887,
+          0,
+          1330,
+          450
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          0,
+          47,
+          439,
+          411
+        ]
+      },
+      "coordinates": [
+        36.16,
+        36.2
+      ],
+      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:antioch",
+      "anchor_normalized": [
+        0.5,
+        0.9789473684210527
+      ],
+      "display_width_units": 512,
+      "selection_priority": 10,
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Mountain citadel, bridge, wall circuit and urban density are artistic approximations.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "original_extraction_qa": {
+        "id": "CITY-003",
+        "nonzero_alpha_before": 142322,
+        "nonzero_alpha_after": 119931,
+        "transparent_padding_px": 8,
+        "visual_review": "reviewed-light-and-dark",
+        "source_crop_touches_content": true
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          455,
+          380
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          447,
+          372
+        ],
+        "sha256": "e9e4ac7068a3f718759291a6bba27601ad4e049ce2f7e1acbf74f32e48d56748"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "CITY-004",
+      "site_id": "tripoli",
+      "name": "Tripoli",
+      "category": "city",
+      "asset": "png/tripoli.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          1330,
+          0,
+          1774,
+          450
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          4,
+          87,
+          441,
+          393
+        ]
+      },
+      "coordinates": [
+        35.84,
+        34.44
+      ],
+      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:tripoli",
+      "anchor_normalized": [
+        0.5,
+        0.9751552795031055
+      ],
+      "display_width_units": 512,
+      "selection_priority": 10,
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Review relationship of coastal settlement and hilltop citadel; do not treat this composition as a surveyed plan.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "original_extraction_qa": {
+        "id": "CITY-004",
+        "nonzero_alpha_before": 107051,
+        "nonzero_alpha_after": 84897,
+        "transparent_padding_px": 8,
+        "visual_review": "reviewed-light-and-dark",
+        "source_crop_touches_content": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          453,
+          322
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          445,
+          314
+        ],
+        "sha256": "05f78c8dc02fe527bd5b48a4204194a46e88a151420e99558f6ffed723f6b45c"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "CAST-001",
+      "site_id": "krak-des-chevaliers",
+      "name": "Krak des Chevaliers",
+      "category": "castle",
+      "asset": "png/krak-des-chevaliers.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          0,
+          450,
+          443,
+          887
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          10,
+          34,
+          442,
+          395
+        ]
+      },
+      "coordinates": [
+        36.29,
+        34.76
+      ],
+      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:krak",
+      "anchor_normalized": [
+        0.5,
+        0.9787798408488063
+      ],
+      "display_width_units": 512,
+      "selection_priority": 10,
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Concentric defenses may conflate 12th- and 13th-century phases; cannot certify for 1180.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": [
+          "https://whc.unesco.org/en/list/1229/"
+        ]
+      },
+      "original_extraction_qa": {
+        "id": "CAST-001",
+        "nonzero_alpha_before": 136750,
+        "nonzero_alpha_after": 113185,
+        "transparent_padding_px": 8,
+        "visual_review": "reviewed-light-and-dark",
+        "source_crop_touches_content": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          448,
+          377
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          440,
+          369
+        ],
+        "sha256": "9fec54afd4ba79b178d0479d5d34d8f4f5ee7b89cddce3b69667d7c6f2844c40"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "CAST-002",
+      "site_id": "belvoir",
+      "name": "Belvoir",
+      "category": "castle",
+      "asset": "png/belvoir.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          443,
+          450,
+          887,
+          887
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          9,
+          37,
+          431,
+          396
+        ]
+      },
+      "coordinates": [
+        35.52,
+        32.6
+      ],
+      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:belvoir",
+      "anchor_normalized": [
+        0.5,
+        0.9786666666666667
+      ],
+      "display_width_units": 512,
+      "selection_priority": 10,
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Dominant keep and round towers need repaint review against the known Hospitaller plan.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "original_extraction_qa": {
+        "id": "CAST-002",
+        "nonzero_alpha_before": 120884,
+        "nonzero_alpha_after": 96989,
+        "transparent_padding_px": 8,
+        "visual_review": "reviewed-light-and-dark",
+        "source_crop_touches_content": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          438,
+          375
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          430,
+          367
+        ],
+        "sha256": "9d3c98ecfc9c98d21eac6edfb23342b03ede487c5db99ec0eeee8e3aebe35b3c"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "CAST-003",
+      "site_id": "kerak",
+      "name": "Kerak",
+      "category": "castle",
+      "asset": "png/kerak.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          887,
+          450,
+          1330,
+          887
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          2,
+          36,
+          440,
+          393
+        ]
+      },
+      "coordinates": [
+        35.7,
+        31.18
+      ],
+      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:kerak",
+      "anchor_normalized": [
+        0.5,
+        0.9785522788203753
+      ],
+      "display_width_units": 512,
+      "selection_priority": 10,
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Keep, towers and defenses need phase-specific review; later additions must be excluded for 1180.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "original_extraction_qa": {
+        "id": "CAST-003",
+        "nonzero_alpha_before": 112185,
+        "nonzero_alpha_after": 93820,
+        "transparent_padding_px": 8,
+        "visual_review": "reviewed-light-and-dark",
+        "source_crop_touches_content": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          454,
+          373
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          446,
+          365
+        ],
+        "sha256": "7b272397f5b5c19fb66040841fc11b7c72f435e7a740ce2f31a9940d440b7b68"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "CAST-004",
+      "site_id": "montreal-shobak",
+      "name": "Montréal (Shobak)",
+      "category": "castle",
+      "asset": "png/montreal-shobak.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          1330,
+          450,
+          1774,
+          887
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          10,
+          41,
+          434,
+          393
+        ]
+      },
+      "coordinates": [
+        35.53,
+        30.53
+      ],
+      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:montreal",
+      "anchor_normalized": [
+        0.5,
+        0.9782608695652174
+      ],
+      "display_width_units": 512,
+      "selection_priority": 10,
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Generic hilltop fortress; wall plan, towers and later additions unverified.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "original_extraction_qa": {
+        "id": "CAST-004",
+        "nonzero_alpha_before": 105012,
+        "nonzero_alpha_after": 89596,
+        "transparent_padding_px": 8,
+        "visual_review": "reviewed-light-and-dark",
+        "source_crop_touches_content": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          440,
+          368
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          432,
+          360
+        ],
+        "sha256": "d6874b1c230c893d54672c0b0603d14d85c68f9977fe8d782439804cefc89898"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "CAST-001-STANDALONE",
+      "site_id": "krak-des-chevaliers",
+      "name": "Krak des Chevaliers",
+      "category": "castle",
+      "asset": "png/krak-des-chevaliers-standalone.png",
+      "source": {
+        "path": "sources/krak-standalone.png",
+        "crop_xyxy": [
+          0,
+          0,
+          1448,
+          1086
+        ],
+        "identification": "user-supplied standalone Krak des Chevaliers image",
+        "sha256": "17a4db3ef71888a7dc55d15bfad6777ac88425e92601d3efe38ac1a5d33adfdc",
+        "trim_xyxy_within_crop": [
+          14,
+          63,
+          1446,
+          1070
+        ]
+      },
+      "coordinates": [
+        36.29,
+        34.76
+      ],
+      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:krak",
+      "anchor_normalized": [
+        0.5,
+        0.9921798631476051
+      ],
+      "display_width_units": 512,
+      "selection_priority": 20,
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Concentric defenses may conflate 12th- and 13th-century phases; cannot certify for 1180.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": [
+          "https://whc.unesco.org/en/list/1229/"
+        ]
+      },
+      "original_extraction_qa": {
+        "id": "CAST-001-STANDALONE",
+        "nonzero_alpha_before": 1105366,
+        "nonzero_alpha_after": 1083066,
+        "transparent_padding_px": 8,
+        "visual_review": "reviewed-light-and-dark",
+        "source_crop_touches_content": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1448,
+          1023
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          1440,
+          1015
+        ],
+        "sha256": "f499d84e63ca9e46a08fd0fe35973eee34275ef53021cc9031ae92ac32881213"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "jerusalem-1180-v2",
+      "site_id": "jerusalem",
+      "name": "Jerusalem",
+      "category": "city",
+      "asset": "historical-1180/jerusalem-1180-v2.png",
+      "source": {
+        "path": "historical-1180/sources/jerusalem.png",
+        "sha256": "bdcc67b99ee95eb8fd470b7a254cb096bb96d405c1a242e7ab0eff26a07897a7"
+      },
+      "coordinates": [
+        35.23,
+        31.78
+      ],
+      "coordinate_source": "places.py; inherited approximate map coordinates",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:jerusalem",
+      "anchor_normalized": [
+        0.5,
+        0.9486921529175051
+      ],
+      "display_width_units": 1024,
+      "selection_priority": 30,
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "period-informed-interpretation",
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "review": {
+          "status": "internal-visual-review-complete-specialist-review-pending",
+          "supported_features": [
+            "Temple precinct in eastern city",
+            "Holy Sepulchre in northwestern interior",
+            "Romanesque Holy Sepulchre phase established by 1149",
+            "Crusader use of Dome as Templum Domini",
+            "Exclude sixteenth-century Ottoman exterior tilework"
+          ],
+          "uncertainties": [
+            "Dome roof color in 1180 is unresolved; gray metal is a provisional depiction, not a proven finish",
+            "Wall circuit, tower count, gates and house distribution are schematic",
+            "Temple platform elevation, facades and roof forms are interpretive",
+            "Landmark sizes exaggerated for map legibility",
+            "No survey-level city plan or specialist sign-off"
+          ]
+        },
+        "references": [
+          "https://www.custodia.org/en/news/celebration-dedication-basilica-holy-sepulchre/",
+          "https://www.metmuseum.org/exhibitions/listings/2012/byzantium-and-islam/blog/where-in-the-world/posts/dome-of-the-rock",
+          "https://islamicart.museumwnf.org/database_item.php?id=monument%3Bisl%3Bpa%3Bmon01%3B4%3Ben",
+          "https://www.cambridge.org/core/books/abs/journal-of-medieval-military-history-xxi/capturing-jerusalem-the-fatimidseljuk-crusader-and-ayyubid-fortifications-ditches-and-military-outworks-of-the-city/E5D5FF9BF8A39C307063E262E6C51A37"
+        ]
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          2048,
+          994
+        ],
+        "transparent_padding_px": 51,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          51,
+          51,
+          1997,
+          943
+        ],
+        "sha256": "288b0ecbb7368193975b3b3f679ad3146fbed4420c274aa54a77504b92668c24"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "belvoir-1180-v2",
+      "site_id": "belvoir",
+      "name": "Belvoir",
+      "category": "castle",
+      "asset": "historical-1180/belvoir-1180-v2.png",
+      "source": {
+        "path": "historical-1180/sources/belvoir.png",
+        "sha256": "b9ac76f5027ac2e5da31d981716f4ee6428b52a7266d5575f4fafd18571c80b8"
+      },
+      "coordinates": [
+        35.52,
+        32.6
+      ],
+      "coordinate_source": "places.py; inherited approximate map coordinates",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:belvoir",
+      "anchor_normalized": [
+        0.5,
+        0.9707536557930259
+      ],
+      "display_width_units": 512,
+      "selection_priority": 30,
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "period-informed-interpretation",
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "review": {
+          "status": "internal-visual-review-complete-specialist-review-pending",
+          "supported_features": [
+            "Square inner enclosure with quadrangular corner towers",
+            "Outer enclosure with seven projecting towers",
+            "Dry ditch on three sides with steep eastern aspect",
+            "Basalt plateau and concentric defensive organization"
+          ],
+          "uncertainties": [
+            "Complete enclosure at specifically 1180 is a working reconstruction",
+            "Upper-course heights and roof forms not established",
+            "Exposed curved roofs and outer service buildings are artistic inventions",
+            "Gate approach and outwork phase are simplified",
+            "No specialist plan overlay verification"
+          ]
+        },
+        "references": [
+          "https://journals.openedition.org/medievalista/pdf/6265",
+          "https://en.parks.org.il/reserve-park/kokhav-hayarden-national-park/"
+        ]
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          889
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          863
+        ],
+        "sha256": "36631ab23495f6ba0304ce68bf0c54992c95885695d1bb7a03bdc2a900477445"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "acre-1180-v2",
+      "site_id": "acre",
+      "name": "Acre",
+      "category": "city",
+      "asset": "historical-1180/acre-1180-v2.png",
+      "source": {
+        "path": "historical-1180/sources/acre.png",
+        "sha256": "3f5c2785775dd1e8c6fb1a971105c7424eeb2e52494b1331c0b0820b18a850ff"
+      },
+      "coordinates": [
+        35.07,
+        32.92
+      ],
+      "coordinate_source": "places.py; inherited approximate map coordinates",
+      "coordinates_surveyed": false,
+      "repo_place_id": "P:acre",
+      "anchor_normalized": [
+        0.5,
+        0.9570957095709571
+      ],
+      "display_width_units": 512,
+      "selection_priority": 30,
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "period-informed-interpretation",
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "review": {
+          "status": "internal-visual-review-complete-specialist-review-pending",
+          "supported_features": [
+            "Walled peninsula port and sheltered harbor context",
+            "Exclude later walled Montmusard expansion",
+            "Exclude Ottoman citadel and mosque skyline"
+          ],
+          "uncertainties": [
+            "Exact 1180 street plan, towers, churches and harbor structures are schematic",
+            "Building facades and ship details are interpretive",
+            "No archaeological plan overlay or specialist sign-off"
+          ]
+        },
+        "references": [
+          "https://whc.unesco.org/en/list/1042/",
+          "https://hadashot.iaa.org.il/report_detail_eng.aspx?id=1561",
+          "https://www.akko.org.il/en/attraction/the-knights-halls/"
+        ]
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          606
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          580
+        ],
+        "sha256": "7430a7f22a79f4b405aa1c68918970e4b3cd1717f0dcb2fb9327fba4f4182d3b"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "byblos-1180-v1",
+      "site_id": "byblos",
+      "name": "Gibelet (Byblos)",
+      "category": "castle",
+      "file": "byblos-1180-v1.png",
+      "source": {
+        "path": "expansion/sources/byblos.png",
+        "sha256": "e0e0093ed9b0ad4e28c052e370b666f88a9a065fbbf400f18450276705833295"
+      },
+      "coordinates": [
+        35.65,
+        34.12
+      ],
+      "repo_place_id": "M:castle_frankish",
+      "repo_place_name": "Gibelet",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "period-informed-interpretation",
+        "references": [
+          "https://mail.jbail-byblos.gov.lb/baldati/amaken.php?id=3&la=en",
+          "https://marble.nd.edu/item/4cf7d434-7f4c-48cc-81b4-fcb61b91d05b"
+        ],
+        "supported_constraints": [
+          "Crusader castle belongs to the twelfth-century site"
+        ],
+        "repaint_flags": [
+          "Exact enclosure geometry, tower count, gate, donjon heights and ditch not plan-verified",
+          "Exposed curved-roof service buildings are interpretive",
+          "Bridge, masonry patterns and crenellations are schematic"
+        ],
+        "requires_repaint_review": true,
+        "requires_historical_review": true
+      },
+      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1; approximate",
+      "coordinates_surveyed": false,
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "selection_priority": 30,
+      "dimensions_px": [
+        1024,
+        756
+      ],
+      "source_dimensions_px": [
+        1402,
+        1122
+      ],
+      "source_sha256": "e0e0093ed9b0ad4e28c052e370b666f88a9a065fbbf400f18450276705833295",
+      "sha256": "9acc95be62191d40ee85c22f5d4cb6ceee9710fd3fba0c23f06a975f10d206bc",
+      "anchor_normalized": [
+        0.5,
+        0.9656084656084656
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 1043335,
+        "cleaned_source_nonzero_alpha": 1026488,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "visual_review": {
+        "status": "pass-provisional",
+        "backgrounds": [
+          "light-paper",
+          "dark-blue"
+        ],
+        "notes": "No broad background halo visible after inherited alpha-noise packaging. Historical and repaint flags remain active."
+      },
+      "asset": "expansion/byblos-1180-v1.png",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          756
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          730
+        ],
+        "sha256": "9acc95be62191d40ee85c22f5d4cb6ceee9710fd3fba0c23f06a975f10d206bc"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "tyre-1180-v1",
+      "site_id": "tyre",
+      "name": "Tyre (Sur)",
+      "category": "city",
+      "file": "tyre-1180-v1.png",
+      "source": {
+        "path": "expansion/sources/tyre.png",
+        "sha256": "644747d95ed41dbf8bcbf98f6a883a1c9f9527165c1e85f10f454e46a4841edc"
+      },
+      "coordinates": [
+        35.2,
+        33.27
+      ],
+      "repo_place_id": "P:tyre",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "period-informed-interpretation",
+        "references": [
+          "https://whc.unesco.org/en/list/299/"
+        ],
+        "supported_constraints": [
+          "Promontory city with Crusader castle remains",
+          "UNESCO dates cathedral to 1127"
+        ],
+        "repaint_flags": [
+          "Street layout, wall circuit, harbor geometry and cathedral facade not surveyed",
+          "Large exposed antique fragments and stone pier details require review",
+          "Ship rigging and tower heights remain interpretive"
+        ],
+        "requires_repaint_review": true,
+        "requires_historical_review": true
+      },
+      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1; approximate",
+      "coordinates_surveyed": false,
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "selection_priority": 30,
+      "dimensions_px": [
+        1024,
+        601
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "644747d95ed41dbf8bcbf98f6a883a1c9f9527165c1e85f10f454e46a4841edc",
+      "sha256": "d3b7824e1162595fa6465edb7b4db6cf4103f48a670ca7fa2525d9f2c3dd5eac",
+      "anchor_normalized": [
+        0.5,
+        0.956738768718802
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 852415,
+        "cleaned_source_nonzero_alpha": 835779,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "visual_review": {
+        "status": "pass-provisional",
+        "backgrounds": [
+          "light-paper",
+          "dark-blue"
+        ],
+        "notes": "No broad background halo visible after inherited alpha-noise packaging. Historical and repaint flags remain active."
+      },
+      "asset": "expansion/tyre-1180-v1.png",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          601
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          575
+        ],
+        "sha256": "d3b7824e1162595fa6465edb7b4db6cf4103f48a670ca7fa2525d9f2c3dd5eac"
+      },
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-07",
+        "historical_accuracy_certified": false
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "working circa-1180 depiction only; other years require phase review"
+      }
+    },
+    {
+      "id": "belvoir-prior-standalone-missing",
+      "site_id": "belvoir",
+      "name": "Belvoir",
+      "category": "castle",
+      "asset": null,
+      "coordinates": [
+        35.52,
+        32.6
+      ],
+      "repo_place_id": "P:belvoir",
+      "source": {
+        "status": "not-recovered",
+        "note": "Named by user; no attachment exposed by referenced chat and no corresponding standalone file recovered. Belvoir v2 is separately preserved; its identity with the requested earlier image is unconfirmed."
+      },
+      "selection_priority": 0,
+      "technical_qa": {
+        "status": "not-run-missing-source"
+      },
+      "approval": {
+        "status": "pending-source-recovery",
+        "provisional_map_use": false,
+        "repaint_later": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "available_at_default_year": true,
+        "basis": "working circa-1180 brief"
+      },
+      "historical": {
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "later_period_only": false,
+        "exclude_from_1180": false,
+        "notes": [
+          "Do not substitute the sheet image and claim the missing standalone was recovered."
+        ],
+        "references": []
+      }
+    },
+    {
+      "id": "kerak-prior-standalone-missing",
+      "site_id": "kerak",
+      "name": "Kerak",
+      "category": "castle",
+      "asset": null,
+      "coordinates": [
+        35.7,
+        31.18
+      ],
+      "repo_place_id": "P:kerak",
+      "source": {
+        "status": "not-recovered",
+        "note": "Named by user; no attachment exposed by referenced chat and no corresponding standalone file recovered. Belvoir v2 is separately preserved; its identity with the requested earlier image is unconfirmed."
+      },
+      "selection_priority": 0,
+      "technical_qa": {
+        "status": "not-run-missing-source"
+      },
+      "approval": {
+        "status": "pending-source-recovery",
+        "provisional_map_use": false,
+        "repaint_later": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "available_at_default_year": true,
+        "basis": "working circa-1180 brief"
+      },
+      "historical": {
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "later_period_only": false,
+        "exclude_from_1180": false,
+        "notes": [
+          "Do not substitute the sheet image and claim the missing standalone was recovered."
+        ],
+        "references": []
+      }
+    },
+    {
+      "id": "montreal-shobak-prior-standalone-missing",
+      "site_id": "montreal-shobak",
+      "name": "Montréal (Shobak)",
+      "category": "castle",
+      "asset": null,
+      "coordinates": [
+        35.53,
+        30.53
+      ],
+      "repo_place_id": "P:montreal",
+      "source": {
+        "status": "not-recovered",
+        "note": "Named by user; no attachment exposed by referenced chat and no corresponding standalone file recovered. Belvoir v2 is separately preserved; its identity with the requested earlier image is unconfirmed."
+      },
+      "selection_priority": 0,
+      "technical_qa": {
+        "status": "not-run-missing-source"
+      },
+      "approval": {
+        "status": "pending-source-recovery",
+        "provisional_map_use": false,
+        "repaint_later": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "available_at_default_year": true,
+        "basis": "working circa-1180 brief"
+      },
+      "historical": {
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "later_period_only": false,
+        "exclude_from_1180": false,
+        "notes": [
+          "Do not substitute the sheet image and claim the missing standalone was recovered."
+        ],
+        "references": []
+      }
+    },
+    {
+      "id": "montfort-prior-standalone-missing",
+      "site_id": "montfort",
+      "name": "Montfort",
+      "category": "castle",
+      "asset": null,
+      "coordinates": [
+        35.24,
+        33.04
+      ],
+      "repo_place_id": "P:montfort",
+      "source": {
+        "status": "not-recovered",
+        "note": "Named by user; no attachment exposed by referenced chat and no corresponding standalone file recovered. Belvoir v2 is separately preserved; its identity with the requested earlier image is unconfirmed."
+      },
+      "selection_priority": 0,
+      "technical_qa": {
+        "status": "not-run-missing-source"
+      },
+      "approval": {
+        "status": "pending-source-recovery",
+        "provisional_map_use": false,
+        "repaint_later": true
+      },
+      "availability": {
+        "from_year": 1226,
+        "through_year": 1271,
+        "available_at_default_year": false,
+        "basis": "1226 is construction start, not completion or approval for any phase"
+      },
+      "historical": {
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "later_period_only": true,
+        "exclude_from_1180": true,
+        "notes": [
+          "Main Teutonic castle begun in 1220s. Do not place at 1180. Review depicted phase before approving any later-year placement."
+        ],
+        "references": [
+          "https://moses.creighton.edu/vr/Montfort/txt/intro.html"
+        ]
+      }
+    }
+  ]
+}
