@@ -1443,6 +1443,167 @@
       "family": "anatolian-volcanic-massif",
       "interlay_role": "fan",
       "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "coastal-foothill-transition",
+      "name": "Coastal Foothill Transition",
+      "file": "png/coastal-foothill-transition.png",
+      "source": "sources/coastal-foothill-transition.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Low-relief transition: use regional coordinate only as context, adjust to actual foothill/valley terrain; do not locate on summit."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        358
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_sha256": "bb051283940aea232051fc6a6e33894547ab3dbb4a63ada049e2faccc4e55dfd",
+      "sha256": "f2ae085357ab971e271ce3748cdb6d231e9cfa6630d3cc0f6fc170d76a60cc3a",
+      "anchor_normalized": [
+        0.5,
+        0.9273743016759777
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 564477,
+        "cleaned_source_nonzero_alpha": 540222,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning",
+      "family": "palestine-limestone-ridge",
+      "interlay_role": "foothill-transition"
+    },
+    {
+      "id": "dry-wadi-connector",
+      "name": "Dry Wadi Connector",
+      "file": "png/dry-wadi-connector.png",
+      "source": "sources/dry-wadi-connector.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Low-relief transition: use regional coordinate only as context, adjust to actual foothill/valley terrain; do not locate on summit."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        554
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "3758d73d36e71190e6018111ac0aa03850f62d2dc37ebf5f8b6ee743f5864de7",
+      "sha256": "157d04bf3624d88ba97371d40b7a85026afcc3a42051ae87200a411ac3a98afa",
+      "anchor_normalized": [
+        0.5,
+        0.9530685920577617
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 838074,
+        "cleaned_source_nonzero_alpha": 805221,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning",
+      "family": "palestine-limestone-ridge",
+      "interlay_role": "wadi"
+    },
+    {
+      "id": "open-plateau-escarpment",
+      "name": "Open Plateau Escarpment",
+      "file": "png/open-plateau-escarpment.png",
+      "source": "sources/open-plateau-escarpment.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          34.75,
+          37.4
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-taurus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Low-relief transition: use regional coordinate only as context, adjust to actual foothill/valley terrain; do not locate on summit."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        407
+      ],
+      "source_dimensions_px": [
+        1823,
+        863
+      ],
+      "source_sha256": "698721713b917b4be879a9762eb7c298a4e035dfc74314ab06ff771c0ca7ec81",
+      "sha256": "8c9f4500003b9f8c5733f67c41a7a194b96abd8a13e0f1152a72e44ffe430e00",
+      "anchor_normalized": [
+        0.5,
+        0.9361179361179361
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 777961,
+        "cleaned_source_nonzero_alpha": 757120,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning",
+      "family": "taurus-ridge",
+      "interlay_role": "escarpment"
     }
   ],
   "interlay_policy": {

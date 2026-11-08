@@ -32,5 +32,5 @@ def build():
    pts=[tuple(v*sc for v in project(region,*c)) for c in coords];d.line(pts,fill=color,width=11)
    for x,y in pts:d.ellipse((x-11,y-11,x+11,y+11),fill=color,outline='white',width=2)
  d.text((w+25,2800),'Not a finished terrain composite.',font=font,fill='#70251e');d.text((w+25,2860),'Distribute variants; preserve valleys and labels.',font=small,fill='black')
- board.save(R/'previews/terrain-placement-markup.jpg',quality=94);assert len(m['assets'])==26;print('Approved and marked 26 assets / five family guides')
+ board.save(R/'previews/terrain-placement-markup.jpg',quality=94);assert len(m['assets'])==len({e['id'] for e in m['assets']});print('Approved and marked',len(m['assets']),'assets / five family guides')
 if __name__=='__main__':build()

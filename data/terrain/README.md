@@ -1,6 +1,6 @@
 # Mountain terrain pieces: Palestine to Anatolia and Greece
 
-Twenty-six reusable transparent PNGs, each 1024 pixels wide, matching the historical atlas's ink/watercolor palette and upper-left lighting. Original generations and complete prompts are preserved. Generated with built-in image_gen; `build_terrain.py` packages and checks them.
+Twenty-nine reusable transparent PNGs, each 1024 pixels wide, matching the historical atlas's ink/watercolor palette and upper-left lighting. Original generations and complete prompts are preserved. Generated with built-in image_gen; `build_terrain.py` packages and checks them.
 
 | Asset | Suggested use |
 |---|---|
@@ -48,3 +48,7 @@ The third set adds limestone and Greek narrow spines, dry and forested branching
 ## Placement approval and next pass pieces
 
 See `APPROVAL.md` and `placements.geojson` for the approved artwork inventory, projected context anchors and family corridor guides. The three newest pieces are a dry limestone pass, wooded pass and rocky foothill fan. Their full built-in generation prompts are saved in `pass-prompts.json`. Placement markup is in `previews/terrain-placement-markup.jpg`; final terrain compositing is a separate step.
+
+## Low-relief continuation
+
+The library now contains 29 pieces. New `coastal-foothill-transition`, `dry-wadi-connector`, and `open-plateau-escarpment` assets use regional family anchors as context only. Their low-relief shapes should be placed on reviewed foothill/valley/plateau terrain rather than literally on the inherited mountain label anchor. Full built-in image_gen briefs are in `low-relief-prompts.json`; source images are retained. Artwork/placement-planning approval is recorded, while geographic and historical verification remain pending.

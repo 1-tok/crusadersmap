@@ -995,6 +995,123 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15,
+          31.85
+        ]
+      },
+      "properties": {
+        "id": "coastal-foothill-transition",
+        "asset": "data/terrain/png/coastal-foothill-transition.png",
+        "family": "palestine-limestone-ridge",
+        "role": "foothill-transition",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6834.090202505618,
+          11182.468495795407
+        ],
+        "top_left_sheet_px": [
+          6578.090202505618,
+          11016.468495795407
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 179.0,
+        "anchor_normalized": [
+          0.5,
+          0.9273743016759777
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15,
+          31.85
+        ]
+      },
+      "properties": {
+        "id": "dry-wadi-connector",
+        "asset": "data/terrain/png/dry-wadi-connector.png",
+        "family": "palestine-limestone-ridge",
+        "role": "wadi",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6834.090202505618,
+          11182.468495795407
+        ],
+        "top_left_sheet_px": [
+          6578.090202505618,
+          10918.468495795407
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 277.0,
+        "anchor_normalized": [
+          0.5,
+          0.9530685920577617
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          37.4
+        ]
+      },
+      "properties": {
+        "id": "open-plateau-escarpment",
+        "asset": "data/terrain/png/open-plateau-escarpment.png",
+        "family": "taurus-ridge",
+        "role": "escarpment",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6323.146484476885,
+          1050.5470283689956
+        ],
+        "top_left_sheet_px": [
+          6067.146484476885,
+          860.0470283689956
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 203.5,
+        "anchor_normalized": [
+          0.5,
+          0.9361179361179361
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
