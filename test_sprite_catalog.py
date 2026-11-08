@@ -11,6 +11,15 @@ def entry(site, start=1180, end=1180, priority=10):
 
 
 class PlacementRules(unittest.TestCase):
+    def test_bosphorus_companions_only_place_in_detail_view(self):
+        c=build();sites={'galata-sykai','chrysopolis','chalcedon'}
+        self.assertFalse(sites & {e['site_id'] for e in placements(c,1180)})
+        detail=placements(c,1180,view='constantinople-detail')
+        self.assertEqual(sites,{e['site_id'] for e in detail})
+        self.assertTrue(all(e['display_width_units']==256 for e in detail))
+        from build_constantinople_detail import layout
+        self.assertEqual(len(layout(c)),4)
+
     def test_constantinople_uses_double_city_footprint(self):
         c=build()
         e=next(e for e in placements(c,1180) if e['site_id']=='constantinople')
@@ -32,7 +41,7 @@ class PlacementRules(unittest.TestCase):
         with patch.object(sprite_catalog,'read',side_effect=held_batch):
             c=sprite_catalog.build()
         self.assertNotIn('must-not-import',{e['id'] for e in c['assets']})
-        self.assertEqual(len([e for e in c['assets'] if e.get('variant')=='generated-city']),22)
+        self.assertEqual(len([e for e in c['assets'] if e.get('variant')=='generated-city']),25)
 
     def test_explicit_1180_ineligibility_overrides_date_window(self):
         for site in ('montfort', 'chateau-pelerin'):

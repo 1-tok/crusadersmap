@@ -37,10 +37,12 @@ def qa(path):
                     sha256=hashlib.sha256(path.read_bytes()).hexdigest())
 
 
-def placements(catalog, year):
+def placements(catalog, year, view='atlas'):
     """One preferred, approved, available image per site; missing files never place."""
     by_site = {}
     for e in catalog['assets']:
+        if view is not None and e.get('placement_view','atlas') != view:
+            continue
         period = e['availability']
         if e.get('geographic_placement_ready') is False:
             continue
@@ -210,6 +212,8 @@ def enrich(catalog):
         e['historical']['later_period_only'] = not s['period_1180_eligible']
         e['map_layers'] = ['sprites-1180', 'fortifications' if e['category']=='castle' else 'settlements'] if s['period_1180_eligible'] else ['sprites-later-period', 'fortifications']
         e['map_layers'].append(e['map_region'])
+        if e.get('placement_view')=='constantinople-detail':
+            e['map_layers'].append('constantinople-detail')
         e['review_required'] = e['repaint_required'] = True
         e['uncertainty_notes'] = [s['coordinate_evidence']['uncertainty_note'], 'Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail.']
         if e['asset']:
@@ -240,6 +244,7 @@ def export(catalog, year):
                 status=e['approval']['status'], repaint_later=True, year=year)))
         features[-1]['properties'].update(approval_for_placement=e['approval_for_placement'],
             replacement_review=e.get('replacement_review'),
+            placement_view=e.get('placement_view','atlas'),
             map_region=e['map_region'],
             display_title=e['display_title'],construction=e.get('construction'),
             map_layers=e['map_layers'], historical_name=e['historical_name'],

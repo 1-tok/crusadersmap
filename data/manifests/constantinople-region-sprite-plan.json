@@ -1,20 +1,23 @@
 {
   "schema_version": 1,
   "review_date": "2026-11-08",
-  "scope": "Companion sprite research queue; no new geographic placements approved or invented.",
+  "scope": "Completed three companion sprites, approved provisionally for enlarged detail placement; architectural uncertainty retained.",
   "central_sprite": "constantinople-1180-v1",
   "central_sprite_status": "approved-provisional-replacement-required",
-  "coordinate_policy": "Null until a cited medieval or explicitly representative site point is verified; relative positions are not coordinates.",
+  "coordinate_policy": "Published representative gazetteer points transcribed exactly; not exact medieval footprints. See per-site precision and uncertainty.",
   "layout_policy": "Constantinople stays double size (1024). Smaller companions start at proposed256 atlas pixels; confirm collisions and readable waterways on an enlarged local inset before release. Do not shift geographic anchors to fit artwork; use explicit visual offsets/leader lines if necessary.",
   "entries": [
     {
       "map_region": "aegean",
       "target_year": 1180,
-      "asset_path": null,
-      "coordinates": null,
-      "geographic_placement_ready": false,
-      "approval_for_placement": false,
-      "status": "research-before-generation",
+      "asset_path": "data/sprites/greece-egypt-1180-bosphorus/galata-sykai-1180-v1.png",
+      "coordinates": [
+        28.9746,
+        41.0257
+      ],
+      "geographic_placement_ready": true,
+      "approval_for_placement": true,
+      "status": "approved-provisional-detail-view-only",
       "id": "galata-sykai-1180-candidate",
       "site_id": "galata-sykai",
       "historical_name": "Galata / Sykai (Pera)",
@@ -31,16 +34,34 @@
         "Galata and Sykai are related but distinct topographic elements; do not assume identical footprints."
       ],
       "proposed_display_width_units": 256,
-      "existing_repo_marker": "P:galata"
+      "existing_repo_marker": "P:galata",
+      "sprite_id": "galata-sykai-1180-v1",
+      "coordinate_evidence": {
+        "url": "https://topostext.org/place/410290USyk",
+        "published_value": "Latitude41.025700 Longitude28.974600; medium-confidence Sykai area point, not waterfront fort.",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Area anchor does not locate Kastellion: do not treat the painted fort as a surveyed fort location."
+      },
+      "placement_view": "constantinople-detail",
+      "review_required": true,
+      "repaint_flags": [
+        "Area anchor does not locate Kastellion: do not treat the painted fort as a surveyed fort location.",
+        "Waterfront fort elevation, church, houses and settlement layout are illustrative. Later Genoese hilltop tower is excluded.",
+        "Provisional site eligibility does not certify painted architecture. Replace when stronger historical plans become available."
+      ]
     },
     {
       "map_region": "aegean",
       "target_year": 1180,
-      "asset_path": null,
-      "coordinates": null,
-      "geographic_placement_ready": false,
-      "approval_for_placement": false,
-      "status": "research-before-generation",
+      "asset_path": "data/sprites/greece-egypt-1180-bosphorus/chrysopolis-1180-v1.png",
+      "coordinates": [
+        29.012856,
+        41.020639
+      ],
+      "geographic_placement_ready": true,
+      "approval_for_placement": true,
+      "status": "approved-provisional-detail-view-only",
       "id": "chrysopolis-1180-candidate",
       "site_id": "chrysopolis",
       "historical_name": "Chrysopolis / Skoutarion (Üsküdar)",
@@ -54,16 +75,35 @@
         "Municipal Byzantine-period symposium located, full PDF not inspected due tool size limit.",
         "No Ottoman waterfront mosques or modern ferry terminals; do not copy modern Üsküdar skyline."
       ],
-      "proposed_display_width_units": 256
+      "proposed_display_width_units": 256,
+      "sprite_id": "chrysopolis-1180-v1",
+      "coordinate_evidence": {
+        "url": "https://imperium.ahlfeldt.se/places/22696",
+        "published_value": "WGS84 latitude41.020639 longitude29.012856; published precision2000m. Ancient-place coordinate does not date the sprite.",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Gazetteer point has2000m precision; representative settlement area, not exact medieval harbour."
+      },
+      "placement_view": "constantinople-detail",
+      "review_required": true,
+      "repaint_flags": [
+        "Gazetteer point has2000m precision; representative settlement area, not exact medieval harbour.",
+        "Bay extent, jetty, houses and generic church are schematic, not recovered1180 structures.",
+        "Skutarion palace is attested near Manuel I’s death; its uncertain plan/location is omitted rather than invented.",
+        "Provisional site eligibility does not certify painted architecture. Replace when stronger historical plans become available."
+      ]
     },
     {
       "map_region": "aegean",
       "target_year": 1180,
-      "asset_path": null,
-      "coordinates": null,
-      "geographic_placement_ready": false,
-      "approval_for_placement": false,
-      "status": "research-before-generation",
+      "asset_path": "data/sprites/greece-egypt-1180-bosphorus/chalcedon-1180-v1.png",
+      "coordinates": [
+        29.025789,
+        40.983393
+      ],
+      "geographic_placement_ready": true,
+      "approval_for_placement": true,
+      "status": "approved-provisional-detail-view-only",
       "id": "chalcedon-1180-candidate",
       "site_id": "chalcedon",
       "historical_name": "Chalkēdōn / Chalcedon (Kadıköy)",
@@ -78,10 +118,26 @@
         "Municipal histories located; exact 1180 extent, waterfront and surviving churches require further research.",
         "Keep separate from Chrysopolis and avoid an invented grand classical city."
       ],
-      "proposed_display_width_units": 256
+      "proposed_display_width_units": 256,
+      "sprite_id": "chalcedon-1180-v1",
+      "coordinate_evidence": {
+        "url": "https://rpc.ashmus.ox.ac.uk/city/362",
+        "published_value": "Oxford RPC Calchedon: latitude40.983393 longitude29.025789.",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Ancient city representative point, not an exact1180 harbour or city centroid."
+      },
+      "placement_view": "constantinople-detail",
+      "review_required": true,
+      "repaint_flags": [
+        "Ancient city representative point, not an exact1180 harbour or city centroid.",
+        "Low headland and two-sided shoreline are schematic. Exact siltation, medieval density, church identity, wall condition and landing plan unverified.",
+        "Provisional site eligibility does not certify painted architecture. Replace when stronger historical plans become available."
+      ]
     }
   ],
   "internal_precincts_not_independent_cities": [
     "Blachernae: revise within replacement Constantinople sprite; do not duplicate as another city."
-  ]
+  ],
+  "detail_export": "data/sprites/placements-constantinople-detail-1180.geojson"
 }

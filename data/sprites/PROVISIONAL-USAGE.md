@@ -74,3 +74,7 @@ The six batch04 source drafts are retained for recovery with `release_status: au
 ## Audit correction approval — 2026-11-08
 
 The user approved Athens v3 after comparison against the original city style reference. Its invented waterfront and unsupported complete lower-town enclosure are removed. It replaces v1 in the preferred city manifest; v1 and all source/review images remain preserved. Monument details and schematic city layout remain flagged for review. Only batches explicitly marked published-provisional enter the catalog.
+
+## Bosphorus companions — 2026-11-08
+
+Galata/Sykai, Chrysopolis and Chalcedon are approved provisionally for an enlarged detail view only. They retain architecture/repaint uncertainty and exact published representative location points. The normal `placements(catalog,year)` selects atlas-view entries; request `view="constantinople-detail"` for companion entries. Use `placements-constantinople-detail-1180.geojson` to include central Constantinople plus all three companions. Regional and detail views must not be merged at the same pixel scale.

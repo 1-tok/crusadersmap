@@ -24,6 +24,9 @@ def build(base=BASE):
  write(BASE/'manifest.json',m);preview.save(ROOT/('previews/'+BASE.name+'-qa.jpg'),quality=93)
  contact.save(ROOT/('previews/'+BASE.name+'-contact.jpg'),quality=94)
  features=[dict(type='Feature',id=e['id'],geometry=dict(type='Point',coordinates=e['coordinates']),properties={k:e[k] for k in ['site_id','name','asset_path','map_region','map_layers','anchor_normalized','visual_footprint','approval_for_placement','coordinate_evidence','repaint_flags']}) for e in m['assets'] if e['approval_for_placement'] and e['coordinates']]
+ for feature in features:
+  entry=next(e for e in m['assets'] if e['id']==feature['id'])
+  feature['properties']['placement_view']=entry.get('placement_view','atlas')
  write(BASE/'placements-1180.geojson',dict(type='FeatureCollection',coordinate_system='EPSG:4326',note='Route each feature to its map_region: main, aegean or delta. Do not project inset cities through mainland frame.to_px. Any city lacking grounded coordinates is omitted.',features=features))
  print(f'{len(m["assets"])} unique PNGs validated; {len(features)} sourced provisional geographic anchors')
 if __name__=='__main__':

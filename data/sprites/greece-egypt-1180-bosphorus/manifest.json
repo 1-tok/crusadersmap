@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "batch_id": "bosphorus-companions-1180",
+  "generation_method": "built-in image_gen",
+  "default_year": 1180,
+  "release_status": "published-provisional",
+  "approval_policy": "Continuing user-authorized provisional queue; geographic anchors sourced; enlarged detail view only; review/repaint flags retained.",
+  "assets": [
+    {
+      "id": "galata-sykai-1180-v1",
+      "site_id": "galata-sykai",
+      "name": "Galata / Sykai",
+      "historical_name": "Galata / Sykai (Pera)",
+      "alternate_names": [
+        "Pera",
+        "Galata",
+        "Sykai",
+        "Beyoglu"
+      ],
+      "site_type": "city",
+      "category": "city",
+      "file": "galata-sykai-1180-v1.png",
+      "source": "sources/galata-sykai.png",
+      "map_region": "aegean",
+      "placement_view": "constantinople-detail",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "constantinople-detail"
+      ],
+      "coordinates": [
+        28.9746,
+        41.0257
+      ],
+      "latitude": 41.0257,
+      "longitude": 28.9746,
+      "coordinate_evidence": {
+        "url": "https://topostext.org/place/410290USyk",
+        "published_value": "Latitude41.025700 Longitude28.974600; medium-confidence Sykai area point, not waterfront fort.",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Area anchor does not locate Kastellion: do not treat the painted fort as a surveyed fort location."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional-detail-view-only",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Area anchor does not locate Kastellion: do not treat the painted fort as a surveyed fort location.",
+        "Waterfront fort elevation, church, houses and settlement layout are illustrative. Later Genoese hilltop tower is excluded.",
+        "Provisional site eligibility does not certify painted architecture. Replace when stronger historical plans become available."
+      ],
+      "references": [
+        "https://www.persee.fr/doc/rebyz_0766-5598_1961_num_19_1_1265",
+        "https://in-scription.edel.univ-poitiers.fr/index.php?id=480"
+      ],
+      "display_width_units": 256,
+      "replacement_review": {
+        "required": true,
+        "priority": "normal",
+        "status": "provisional-schematic-awaiting-evidence",
+        "keep_current_placement": true
+      },
+      "approval_scope": "Constantinople enlarged detail only. Do not overlay these256px sprites on the regional Aegean view.",
+      "asset_path": "data/sprites/greece-egypt-1180-bosphorus/galata-sykai-1180-v1.png",
+      "source_sha256": "8a9b59ed469d47293ebdc4cb3c6aafa1dcef88a458665f960d495190072ee834",
+      "sha256": "cf673bf24aceb92018dbfffc339984a8ff1ba745079ddc8643f8125a9b765d22",
+      "pixel_sha256": "decc9239930796eac329469437ef0ee85350b6c61f2f25be43796c3000ab0fca",
+      "dimensions_px": [
+        1024,
+        697
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9626972740315638
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          697
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          671
+        ],
+        "display_width_atlas_px": 256,
+        "display_height_atlas_px": 174.25,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "chrysopolis-1180-v1",
+      "site_id": "chrysopolis",
+      "name": "Chrysopolis",
+      "historical_name": "Chrysopolis / Skoutarion",
+      "alternate_names": [
+        "Üsküdar",
+        "Scutari",
+        "Skoutarion"
+      ],
+      "site_type": "city",
+      "category": "city",
+      "file": "chrysopolis-1180-v1.png",
+      "source": "sources/chrysopolis.png",
+      "map_region": "aegean",
+      "placement_view": "constantinople-detail",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "constantinople-detail"
+      ],
+      "coordinates": [
+        29.012856,
+        41.020639
+      ],
+      "latitude": 41.020639,
+      "longitude": 29.012856,
+      "coordinate_evidence": {
+        "url": "https://imperium.ahlfeldt.se/places/22696",
+        "published_value": "WGS84 latitude41.020639 longitude29.012856; published precision2000m. Ancient-place coordinate does not date the sprite.",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Gazetteer point has2000m precision; representative settlement area, not exact medieval harbour."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional-detail-view-only",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Gazetteer point has2000m precision; representative settlement area, not exact medieval harbour.",
+        "Bay extent, jetty, houses and generic church are schematic, not recovered1180 structures.",
+        "Skutarion palace is attested near Manuel I’s death; its uncertain plan/location is omitted rather than invented.",
+        "Provisional site eligibility does not certify painted architecture. Replace when stronger historical plans become available."
+      ],
+      "references": [
+        "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Bosphorus-BlackSea/Chalcedon-Belke2021.pdf"
+      ],
+      "display_width_units": 256,
+      "replacement_review": {
+        "required": true,
+        "priority": "normal",
+        "status": "provisional-schematic-awaiting-evidence",
+        "keep_current_placement": true
+      },
+      "approval_scope": "Constantinople enlarged detail only. Do not overlay these256px sprites on the regional Aegean view.",
+      "asset_path": "data/sprites/greece-egypt-1180-bosphorus/chrysopolis-1180-v1.png",
+      "source_sha256": "74c5761714358f91dbc279d2e64c48cecd398d11a48208ab4179cc2406c20459",
+      "sha256": "f6ec12086f27d15ff669593b6f57284ec74d88d33d1c83128a2baf30f73703f5",
+      "pixel_sha256": "734e02af0046272a29c73b423fd401bd6ee98e0786feb65dca4bad4843ba02ce",
+      "dimensions_px": [
+        1024,
+        683
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9619326500732065
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          683
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          657
+        ],
+        "display_width_atlas_px": 256,
+        "display_height_atlas_px": 170.75,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "chalcedon-1180-v1",
+      "site_id": "chalcedon",
+      "name": "Chalcedon",
+      "historical_name": "Chalkēdōn",
+      "alternate_names": [
+        "Chalkedon",
+        "Calchedon",
+        "Kadıköy",
+        "Kalchedon"
+      ],
+      "site_type": "city",
+      "category": "city",
+      "file": "chalcedon-1180-v1.png",
+      "source": "sources/chalcedon.png",
+      "map_region": "aegean",
+      "placement_view": "constantinople-detail",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "constantinople-detail"
+      ],
+      "coordinates": [
+        29.025789,
+        40.983393
+      ],
+      "latitude": 40.983393,
+      "longitude": 29.025789,
+      "coordinate_evidence": {
+        "url": "https://rpc.ashmus.ox.ac.uk/city/362",
+        "published_value": "Oxford RPC Calchedon: latitude40.983393 longitude29.025789.",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Ancient city representative point, not an exact1180 harbour or city centroid."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional-detail-view-only",
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Ancient city representative point, not an exact1180 harbour or city centroid.",
+        "Low headland and two-sided shoreline are schematic. Exact siltation, medieval density, church identity, wall condition and landing plan unverified.",
+        "Provisional site eligibility does not certify painted architecture. Replace when stronger historical plans become available."
+      ],
+      "references": [
+        "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Bosphorus-BlackSea/Chalcedon-Belke2021.pdf"
+      ],
+      "display_width_units": 256,
+      "replacement_review": {
+        "required": true,
+        "priority": "normal",
+        "status": "provisional-schematic-awaiting-evidence",
+        "keep_current_placement": true
+      },
+      "approval_scope": "Constantinople enlarged detail only. Do not overlay these256px sprites on the regional Aegean view.",
+      "asset_path": "data/sprites/greece-egypt-1180-bosphorus/chalcedon-1180-v1.png",
+      "source_sha256": "6f36689096aa34b694df6c091025e5b2cb78352de307d2b0381c8378e61d3a67",
+      "sha256": "9b69681f6df01ca76fb89275e34f076d3545e6ca9a3a34a94e3341c0ff8f0b57",
+      "pixel_sha256": "97697ef39f58cb8f5c89ca70d913e8e8ff9fb16ac79b0b51c3fc4086ee9132ad",
+      "dimensions_px": [
+        1024,
+        704
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9630681818181818
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          704
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          678
+        ],
+        "display_width_atlas_px": 256,
+        "display_height_atlas_px": 176.0,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    }
+  ]
+}

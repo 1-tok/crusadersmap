@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "coordinate_system": "EPSG:4326",
+  "note": "Route each feature to its map_region: main, aegean or delta. Do not project inset cities through mainland frame.to_px. Any city lacking grounded coordinates is omitted.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "galata-sykai-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9746,
+          41.0257
+        ]
+      },
+      "properties": {
+        "site_id": "galata-sykai",
+        "name": "Galata / Sykai",
+        "asset_path": "data/sprites/greece-egypt-1180-bosphorus/galata-sykai-1180-v1.png",
+        "map_region": "aegean",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "constantinople-detail"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9626972740315638
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            697
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            671
+          ],
+          "display_width_atlas_px": 256,
+          "display_height_atlas_px": 174.25,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://topostext.org/place/410290USyk",
+          "published_value": "Latitude41.025700 Longitude28.974600; medium-confidence Sykai area point, not waterfront fort.",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Area anchor does not locate Kastellion: do not treat the painted fort as a surveyed fort location."
+        },
+        "repaint_flags": [
+          "Area anchor does not locate Kastellion: do not treat the painted fort as a surveyed fort location.",
+          "Waterfront fort elevation, church, houses and settlement layout are illustrative. Later Genoese hilltop tower is excluded.",
+          "Provisional site eligibility does not certify painted architecture. Replace when stronger historical plans become available."
+        ],
+        "placement_view": "constantinople-detail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chrysopolis-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.012856,
+          41.020639
+        ]
+      },
+      "properties": {
+        "site_id": "chrysopolis",
+        "name": "Chrysopolis",
+        "asset_path": "data/sprites/greece-egypt-1180-bosphorus/chrysopolis-1180-v1.png",
+        "map_region": "aegean",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "constantinople-detail"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9619326500732065
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            683
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            657
+          ],
+          "display_width_atlas_px": 256,
+          "display_height_atlas_px": 170.75,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://imperium.ahlfeldt.se/places/22696",
+          "published_value": "WGS84 latitude41.020639 longitude29.012856; published precision2000m. Ancient-place coordinate does not date the sprite.",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Gazetteer point has2000m precision; representative settlement area, not exact medieval harbour."
+        },
+        "repaint_flags": [
+          "Gazetteer point has2000m precision; representative settlement area, not exact medieval harbour.",
+          "Bay extent, jetty, houses and generic church are schematic, not recovered1180 structures.",
+          "Skutarion palace is attested near Manuel I’s death; its uncertain plan/location is omitted rather than invented.",
+          "Provisional site eligibility does not certify painted architecture. Replace when stronger historical plans become available."
+        ],
+        "placement_view": "constantinople-detail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chalcedon-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.025789,
+          40.983393
+        ]
+      },
+      "properties": {
+        "site_id": "chalcedon",
+        "name": "Chalcedon",
+        "asset_path": "data/sprites/greece-egypt-1180-bosphorus/chalcedon-1180-v1.png",
+        "map_region": "aegean",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "constantinople-detail"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9630681818181818
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            704
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            678
+          ],
+          "display_width_atlas_px": 256,
+          "display_height_atlas_px": 176.0,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://rpc.ashmus.ox.ac.uk/city/362",
+          "published_value": "Oxford RPC Calchedon: latitude40.983393 longitude29.025789.",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Ancient city representative point, not an exact1180 harbour or city centroid."
+        },
+        "repaint_flags": [
+          "Ancient city representative point, not an exact1180 harbour or city centroid.",
+          "Low headland and two-sided shoreline are schematic. Exact siltation, medieval density, church identity, wall condition and landing plan unverified.",
+          "Provisional site eligibility does not certify painted architecture. Replace when stronger historical plans become available."
+        ],
+        "placement_view": "constantinople-detail"
+      }
+    }
+  ]
+}
