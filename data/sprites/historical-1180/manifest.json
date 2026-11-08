@@ -180,6 +180,120 @@
         "minimum_component_pixels": 20,
         "native_detail_increased_by_resizing": false
       }
+    },
+    {
+      "id": "antioch-1180-v2",
+      "file": "antioch-1180-v2.png",
+      "source": "sources/antioch.png",
+      "location_manifest_id": "place-main-antakya",
+      "legacy_sprite_id": "CITY-003",
+      "repo_place_id": "P:antioch",
+      "coordinates": [
+        36.16,
+        36.2
+      ],
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "relative_display_scale": 1,
+      "review": {
+        "status": "internal-visual-review-complete-specialist-review-pending",
+        "supported_features": [
+          "Orontes alongside lower city",
+          "Mount Silpius and walls climbing ridge",
+          "Unbuilt slope within fortification circuit"
+        ],
+        "uncertainties": [
+          "Exact 1180 wall circuit and hilltop citadel massing remain schematic",
+          "Churches and urban fabric are interpretive",
+          "Camera orientation varies from other sprites for geographic legibility"
+        ]
+      },
+      "references": [
+        "https://www.persee.fr/doc/topoi_1764-0733_2004_act_5_1_2895?pageId=T1_172",
+        "https://www.cambridge.org/core/books/abs/antioch-on-the-orontes/city-walls-of-antioch/18FBD1E6E788EBF65C413479F019F387"
+      ],
+      "dimensions_px": [
+        1024,
+        683
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "67a66c9d6bfbf1e1a9fa0a0f1fea408869662e252942940c3274925a8c00f275",
+      "sha256": "9fe3f4a5bff2eb71e6cce364556faf8901c638756c04de55fb4f6b79d53d52d8",
+      "anchor_normalized": [
+        0.5,
+        0.9619326500732065
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 1064031,
+        "cleaned_source_nonzero_alpha": 1043134,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      }
+    },
+    {
+      "id": "tripoli-1180-v2",
+      "file": "tripoli-1180-v2.png",
+      "source": "sources/tripoli.png",
+      "location_manifest_id": "place-main-tripoli",
+      "legacy_sprite_id": "CITY-004",
+      "repo_place_id": "P:tripoli",
+      "coordinates": [
+        35.84,
+        34.44
+      ],
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "relative_display_scale": 1,
+      "review": {
+        "status": "internal-visual-review-complete-specialist-review-pending",
+        "supported_features": [
+          "Coastal peninsular city at al-Mina",
+          "Inland Mont Pelerin citadel excluded as separate feature",
+          "Later Mamluk inland urban skyline excluded"
+        ],
+        "uncertainties": [
+          "Port shape, buildings, towers and church facades are artistic approximations",
+          "Existing catalog coordinate is inland Tripoli; use proposed coastal anchor for this sprite",
+          "Precise shoreline and 1180 building phases require specialist review"
+        ]
+      },
+      "references": [
+        "https://real-phd.mtak.hu/2112/1/BTK_DD_2025_chlela.pdf"
+      ],
+      "proposed_placement_coordinates": [
+        35.81,
+        34.45
+      ],
+      "placement_review_required": true,
+      "dimensions_px": [
+        1024,
+        517
+      ],
+      "source_dimensions_px": [
+        1665,
+        945
+      ],
+      "source_sha256": "00a1097df8dba758b9189b4e3947b2cfbcc6d79d9da42a809967b2f6ae1ddea4",
+      "sha256": "428bb8e659e3ee2183143d69fc220e28af72e494d68e453345ca0e131b821b1c",
+      "anchor_normalized": [
+        0.5,
+        0.9497098646034816
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 889419,
+        "cleaned_source_nonzero_alpha": 861530,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      }
     }
   ]
 }
