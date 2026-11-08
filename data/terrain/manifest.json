@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "generation_method": "built-in image_gen",
+  "asset_type": "reusable-overlapping-terrain-stamps",
+  "assets": [
+    {
+      "id": "palestine-limestone-ridge",
+      "name": "Palestine limestone uplands",
+      "file": "png/palestine-limestone-ridge.png",
+      "source": "sources/palestine-limestone-ridge.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.15,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-and-light-dark-visual-review-passed; geographic-placement-review-required",
+      "dimensions_px": [
+        1024,
+        267
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "5093c3f582a46bef9c054fd8403d4a475ed0332522ccff951b11dcdec15263ad",
+      "sha256": "8c44e3192c41541947befdec1c738a565eaad05e747e44525c03a25afee115f2",
+      "anchor_normalized": [
+        0.5,
+        0.9026217228464419
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 677308,
+        "cleaned_source_nonzero_alpha": 645996,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      }
+    },
+    {
+      "id": "lebanon-high-massif",
+      "name": "Lebanon / Hermon high limestone",
+      "file": "png/lebanon-high-massif.png",
+      "source": "sources/lebanon-high-massif.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.91,
+          34.12
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-lebanon-mountains",
+          "landscape-mount-hermon"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.15,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-and-light-dark-visual-review-passed; geographic-placement-review-required",
+      "dimensions_px": [
+        1024,
+        317
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "32579e296dfc91136f8069e99535e2ad90a5abf152a218e46e8267deaaea1578",
+      "sha256": "5d141592f06868e6c6f6a03cceac42dfc7c59967eb20ecff6cb4ebb92f5e48d7",
+      "anchor_normalized": [
+        0.5,
+        0.917981072555205
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 749257,
+        "cleaned_source_nonzero_alpha": 721568,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      }
+    },
+    {
+      "id": "taurus-ridge",
+      "name": "Taurus limestone range",
+      "file": "png/taurus-ridge.png",
+      "source": "sources/taurus-ridge.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          34.75,
+          37.4
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-taurus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.15,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-and-light-dark-visual-review-passed; geographic-placement-review-required",
+      "dimensions_px": [
+        1024,
+        243
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "ae0e0e60174108051ce644544c386c8997df9be2584b216bb18731a679bd7f26",
+      "sha256": "61a1746198c082c9fe70225d45a5a8c79f8262c14b7c4d1ad3a01a1efab1bd60",
+      "anchor_normalized": [
+        0.5,
+        0.8930041152263375
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 558563,
+        "cleaned_source_nonzero_alpha": 536179,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      }
+    },
+    {
+      "id": "anatolian-volcanic-massif",
+      "name": "Central Anatolian volcanic massif",
+      "file": "png/anatolian-volcanic-massif.png",
+      "source": "sources/anatolian-volcanic-massif.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "outside_current_frames",
+        "suggested_anchor_lonlat": [
+          35.45,
+          38.53
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.15,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-and-light-dark-visual-review-passed; geographic-placement-review-required",
+      "dimensions_px": [
+        1024,
+        497
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "67ada058487335e9160ab0a5eb5d3e6d9c0b8826c9ee8ccddfc14651cc488f81",
+      "sha256": "dc3da1d18160a8ee4d82ee12bb4f429c2ef27a78596580f53a3fca71757afcd4",
+      "anchor_normalized": [
+        0.5,
+        0.9476861167002012
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 663122,
+        "cleaned_source_nonzero_alpha": 641112,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      }
+    },
+    {
+      "id": "pindus-forested-ridge",
+      "name": "Pindus / Greek forested range",
+      "file": "png/pindus-forested-ridge.png",
+      "source": "sources/pindus-forested-ridge.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "aegean",
+        "suggested_anchor_lonlat": [
+          21.3,
+          39.5
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-pindus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.15,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-and-light-dark-visual-review-passed; geographic-placement-review-required",
+      "dimensions_px": [
+        1024,
+        313
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "dfef9c5890997fdccac942f1ba9cf17be8a5045ef741dfd3623ad34a84ecbb48",
+      "sha256": "39fd21fe03cdc3c15f3167e3279e11bb32e74a99f0547b68c0151a715eba41d4",
+      "anchor_normalized": [
+        0.5,
+        0.9169329073482428
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 770779,
+        "cleaned_source_nonzero_alpha": 742777,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      }
+    }
+  ]
+}

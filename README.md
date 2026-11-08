@@ -28,3 +28,7 @@ See [data/sprites](data/sprites/README.md) for nine transparent city/castle asse
 ## Period-informed sprite candidates
 
 [Batch 01](data/sprites/historical-1180/README.md) contains new Jerusalem and Belvoir interpretations for circa 1180, with evidence notes and remaining uncertainties. Jerusalem uses twice the standard display width. Rebuild packaging with `python3 build_historical_sprites.py`; see [light/dark preview](previews/historical-batch-01.jpg).
+
+## Mountain terrain pieces
+
+[data/terrain](data/terrain/README.md) contains five transparent regional mountain stamps spanning Palestine, Lebanon, Anatolia and Greece, with source images, generation prompts and placement guidance. Rebuild using `python3 build_terrain.py`. See [terrain preview](previews/terrain-library.jpg).
