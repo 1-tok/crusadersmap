@@ -9,7 +9,7 @@ def weighted_center(weights):
  return float((np.arange(len(weights))*weights).sum()/max(float(weights.sum()),1))
 
 def build():
- p=B/'manifest.json';m=json.loads(p.read_text());preview=Image.new('RGB',(1400,9*390));draw=ImageDraw.Draw(preview);features=[]
+ p=B/'manifest.json';m=json.loads(p.read_text());preview=Image.new('RGB',(1400,len(m['assets'])*390));draw=ImageDraw.Draw(preview);features=[]
  for i,e in enumerate(m['assets']):
   src=B/e['source'];original=Image.open(src).convert('RGBA');a=np.array(original);before=int(np.count_nonzero(a[:,:,3]));a[a[:,:,3]<16]=0;lab,n=ndimage.label(a[:,:,3]>0);sizes=np.bincount(lab.ravel());keep=sizes>=20;keep[0]=False;a[~keep[lab]]=0;a[a[:,:,3]==0]=0;im=Image.fromarray(a);bbox=im.getbbox();assert bbox;im=im.crop(bbox)
   longest=e['target_long_edge_px'];pad=round(longest*.025);ratio=(longest-2*pad)/max(im.size);im=im.resize((max(1,round(im.width*ratio)),max(1,round(im.height*ratio))),Image.Resampling.LANCZOS);out=Image.new('RGBA',(im.width+2*pad,im.height+2*pad));out.paste(im,(pad,pad));file=B/e['file'];out.save(file);alpha=np.array(out)[:,:,3];assert not alpha[:pad].any() and not alpha[-pad:].any() and not alpha[:,:pad].any() and not alpha[:,-pad:].any()
@@ -19,5 +19,5 @@ def build():
   for col,color in enumerate(['#eee4cc','#253544']):
    x=col*700;y=i*390;draw.rectangle((x,y,x+699,y+389),fill=color);thumb=out.copy();thumb.thumbnail((650,335));preview.paste(thumb,(x+(700-thumb.width)//2,y+40),thumb);draw.text((x+18,y+12),e['name'],fill='black' if col==0 else 'white')
   coord=e['placement']['context_anchor_lonlat'];features.append({'type':'Feature','geometry':{'type':'Point','coordinates':coord} if coord else None,'properties':{'id':e['id'],'asset':'data/landscape-assets/'+e['file'],'orientation':e['orientation'],'placement_status':'context-anchor-only-review-required' if coord else 'route-alignment-unassigned','approval':e['approval'],'historical_accuracy_certified':False}})
- m['status']='packaged-technical-validation-passed';p.write_text(json.dumps(m,indent=2)+'\n');(B/'placements.geojson').write_text(json.dumps({'type':'FeatureCollection','scope':'Context anchors and unassigned road segments, not approved geographic geometry','features':features},indent=2)+'\n');preview.save(R/'previews/desert-water-road-assets.jpg',quality=94);assert len(m['assets'])==9;print('Packaged nine RGBA assets; padding and dimensions checked')
+ m['status']='packaged-technical-validation-passed';p.write_text(json.dumps(m,indent=2)+'\n');(B/'placements.geojson').write_text(json.dumps({'type':'FeatureCollection','scope':'Context anchors and unassigned road segments, not approved geographic geometry','features':features},indent=2)+'\n');preview.save(R/'previews/desert-water-road-assets.jpg',quality=94);assert len(m['assets'])==len({e['id'] for e in m['assets']});print('Packaged',len(m['assets']),'RGBA assets; padding and dimensions checked')
 if __name__=='__main__':build()

@@ -151,6 +151,78 @@
         "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
         "historical_accuracy_certified": false
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "gravel-wasteland",
+        "asset": "data/landscape-assets/png/gravel-wasteland.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "salt-flat",
+        "asset": "data/landscape-assets/png/salt-flat.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "eroded-badlands",
+        "asset": "data/landscape-assets/png/eroded-badlands.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "dune-transition",
+        "asset": "data/landscape-assets/png/dune-transition.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "dry-scrub-steppe",
+        "asset": "data/landscape-assets/png/dry-scrub-steppe.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "desert-escarpment",
+        "asset": "data/landscape-assets/png/desert-escarpment.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
     }
   ]
 }

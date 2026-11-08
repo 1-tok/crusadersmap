@@ -1,6 +1,6 @@
 # Desert, oasis, valley, road and Jordan-basin assets
 
-Nine transparent assets complement the 32-piece mountain/vegetation kit:
+Fifteen transparent assets complement the 32-piece mountain/vegetation kit:
 
 | File in `png/` | Use |
 |---|---|
@@ -38,3 +38,11 @@ References support broad geography and the need for shoreline review, not the ex
 - [NASA: Dead Sea](https://www.nasa.gov/image-article/dead-sea-2/): Jordan inflow from the north and arid drainage setting.
 - [USGS: Dead Sea change](https://eros.usgs.gov/earthshots/dead-sea-israel-jordan-west-bank): modern shoreline change makes current water outlines unsuitable as an unquestioned medieval reconstruction.
 - [Late Holocene lake levels of the Dead Sea](https://pubs.geoscienceworld.org/gsa/gsabulletin/article-abstract/116/5-6/555/2079/Late-Holocene-lake-levels-of-the-Dead-Sea): lake-level variability; this does not identify a certified 1180 shoreline here.
+
+## Accepted artwork and whole-map dry-zone proof
+
+The user accepted the initial nine assets and requested their placement plus more wasteland coverage. Six additional pieces now provide gravel, salt flat, badlands, sand/gravel transitions, dry steppe and escarpments. Full built-in image_gen prompts are in `wasteland-prompts.json`; originals are retained. Acceptance is recorded per asset and does not certify historic geography.
+
+Run `python3 render_landscape_coverage.py` to render `previews/map-landscape-coverage.jpg`, bounds markup, and a separate transparent `previews/landscape-coverage-layer.png`. `coverage-plan.json` records every dry-zone, water, oasis and road placement. The proof uses the prior mountain proof when available. Dry texture is spread through broad editorial regions on the main map and Egypt/Sinai inset, not across seas or Greece. A warm-land color mask, panel exclusions, source-settlement clearances and ink preservation reduce interference. These are approximate raster protections, not complete final label collision checks.
+
+The Jordan and two lakes use illustrative bounding-box fits with potential aspect distortion and unresolved shoreline accuracy; neither their position nor visual acceptance constitutes surveyed hydrology. The oasis is generic near Jericho. Straight road artwork follows selected control-point edges from the existing repository ROADS catalog; the curved road remains available for other routes, not forced onto the map. The original geographic data, map builds and print files are unchanged. This is an editable coverage proof, not a final production print.

@@ -57,7 +57,8 @@
         "alpha_floor": 16,
         "minimum_component_pixels": 20
       },
-      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "accepted-by-user"
     },
     {
       "id": "rocky-desert",
@@ -112,7 +113,8 @@
         "alpha_floor": 16,
         "minimum_component_pixels": 20
       },
-      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "accepted-by-user"
     },
     {
       "id": "palm-oasis",
@@ -168,7 +170,8 @@
         "alpha_floor": 16,
         "minimum_component_pixels": 20
       },
-      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "accepted-by-user"
     },
     {
       "id": "broad-valley-floor",
@@ -223,7 +226,8 @@
         "alpha_floor": 16,
         "minimum_component_pixels": 20
       },
-      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "accepted-by-user"
     },
     {
       "id": "road-straight",
@@ -292,7 +296,8 @@
         ],
         "status": "approximate centerline hints; inspect bends and endpoint elevations before joining"
       },
-      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "accepted-by-user"
     },
     {
       "id": "road-bend",
@@ -361,7 +366,8 @@
         ],
         "status": "approximate centerline hints; inspect bends and endpoint elevations before joining"
       },
-      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "accepted-by-user"
     },
     {
       "id": "jordan-river",
@@ -445,7 +451,8 @@
         ],
         "status": "approximate; inspect actual channel center at each end"
       },
-      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "accepted-by-user"
     },
     {
       "id": "sea-of-galilee",
@@ -504,7 +511,8 @@
         "alpha_floor": 16,
         "minimum_component_pixels": 20
       },
-      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "accepted-by-user"
     },
     {
       "id": "dead-sea",
@@ -564,7 +572,327 @@
         "alpha_floor": 16,
         "minimum_component_pixels": 20
       },
-      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "accepted-by-user"
+    },
+    {
+      "id": "gravel-wasteland",
+      "name": "Gravel Wasteland",
+      "category": "desert",
+      "source": "sources/gravel-wasteland.png",
+      "file": "png/gravel-wasteland.png",
+      "target_long_edge_px": 1024,
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "repeatable-dry-zone-piece",
+        "automatic_placement": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "dimensions_px": [
+        1024,
+        264
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_trim_xyxy": [
+        13,
+        155,
+        2159,
+        622
+      ],
+      "sha256": "68b8faa7f0b088cd5a0c6a2ee92aa9b6bc7c9dfd8b99daade81c265845c3257b",
+      "source_sha256": "80a8eaa870e86132c75c7e796fc006b2ca809668c110b84856470fee555bef67",
+      "anchor_normalized": [
+        0.24334776513753,
+        0.9015151515151515
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 26,
+        "source_nonzero_alpha": 692704,
+        "cleaned_source_nonzero_alpha": 654959,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "generated-under-user-instruction"
+    },
+    {
+      "id": "salt-flat",
+      "name": "Salt Flat",
+      "category": "desert",
+      "source": "sources/salt-flat.png",
+      "file": "png/salt-flat.png",
+      "target_long_edge_px": 1024,
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "repeatable-dry-zone-piece",
+        "automatic_placement": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "dimensions_px": [
+        1024,
+        301
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_trim_xyxy": [
+        20,
+        87,
+        2151,
+        632
+      ],
+      "sha256": "6cc1b21cf57dd3b709a38a67a74bb57f1b9ce27ad9868f821a472b6bc8707961",
+      "source_sha256": "4eeff7042e9fd479e3da1eea4e880e1e75a0ac58c7f716c26b6e4f749c0f216c",
+      "anchor_normalized": [
+        0.46625328068368077,
+        0.9136212624584718
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 26,
+        "source_nonzero_alpha": 753970,
+        "cleaned_source_nonzero_alpha": 721162,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "generated-under-user-instruction"
+    },
+    {
+      "id": "eroded-badlands",
+      "name": "Eroded Badlands",
+      "category": "desert",
+      "source": "sources/eroded-badlands.png",
+      "file": "png/eroded-badlands.png",
+      "target_long_edge_px": 1024,
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "repeatable-dry-zone-piece",
+        "automatic_placement": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "dimensions_px": [
+        1024,
+        369
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_trim_xyxy": [
+        3,
+        13,
+        2169,
+        719
+      ],
+      "sha256": "66d502183014fecf9dbe5ffea1c7d8f8664d21d803b1e7815d4325315c55676e",
+      "source_sha256": "14a0293417c53e07de1a19590a3edbd83680ab86674b66b651db100dd8adf9b9",
+      "anchor_normalized": [
+        0.38843858655706365,
+        0.9295392953929539
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 26,
+        "source_nonzero_alpha": 1002940,
+        "cleaned_source_nonzero_alpha": 970593,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "generated-under-user-instruction"
+    },
+    {
+      "id": "dune-transition",
+      "name": "Dune Transition",
+      "category": "desert",
+      "source": "sources/dune-transition.png",
+      "file": "png/dune-transition.png",
+      "target_long_edge_px": 1024,
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "repeatable-dry-zone-piece",
+        "automatic_placement": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "dimensions_px": [
+        1024,
+        276
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_trim_xyxy": [
+        13,
+        121,
+        2159,
+        615
+      ],
+      "sha256": "2210debe69a92105cf1aa8be1a853e660f7498f03735bfdc5760a40ba8520e5c",
+      "source_sha256": "27f40a8eb9025a4064e77f3bd9529ca54d52bd635d4719951c7608e33187f171",
+      "anchor_normalized": [
+        0.2905341340850394,
+        0.9057971014492754
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 26,
+        "source_nonzero_alpha": 669064,
+        "cleaned_source_nonzero_alpha": 638266,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "generated-under-user-instruction"
+    },
+    {
+      "id": "dry-scrub-steppe",
+      "name": "Dry Scrub Steppe",
+      "category": "desert",
+      "source": "sources/dry-scrub-steppe.png",
+      "file": "png/dry-scrub-steppe.png",
+      "target_long_edge_px": 1024,
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "repeatable-dry-zone-piece",
+        "automatic_placement": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "dimensions_px": [
+        1024,
+        255
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_trim_xyxy": [
+        17,
+        220,
+        2154,
+        667
+      ],
+      "sha256": "9e37bc32eda4c1818eac04f369ac43707e5ef357fa3ea51a0047b04e56f24235",
+      "source_sha256": "f80bb0a069db8552ff627315089ba00a7b7463561c1df6fbdfb4fdf773ddc3bf",
+      "anchor_normalized": [
+        0.47019608260801177,
+        0.8980392156862745
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 26,
+        "source_nonzero_alpha": 663612,
+        "cleaned_source_nonzero_alpha": 634803,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "generated-under-user-instruction"
+    },
+    {
+      "id": "desert-escarpment",
+      "name": "Desert Escarpment",
+      "category": "desert",
+      "source": "sources/desert-escarpment.png",
+      "file": "png/desert-escarpment.png",
+      "target_long_edge_px": 1024,
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "repeatable-dry-zone-piece",
+        "automatic_placement": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "dimensions_px": [
+        1024,
+        230
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_trim_xyxy": [
+        11,
+        185,
+        2162,
+        578
+      ],
+      "sha256": "56b55ce09c10321ddffec53f4b8b36c22ab5b4faa4dae58067f01ca66b3c3fb6",
+      "source_sha256": "3dd164bd2a391b47d48d11e0d6edb0bd7e39843382278f7ad223f046a59896dc",
+      "anchor_normalized": [
+        0.41042310840465374,
+        0.8869565217391304
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 26,
+        "source_nonzero_alpha": 615932,
+        "cleaned_source_nonzero_alpha": 570672,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "acceptance": "generated-under-user-instruction"
     }
-  ]
+  ],
+  "user_acceptance": "User: Accept these, place on map, generate more desert and wasteland terrain to cover the whole map"
 }

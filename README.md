@@ -35,4 +35,6 @@ See [data/sprites](data/sprites/README.md) for nine transparent city/castle asse
 
 ## Deserts, roads and Jordan-basin artwork
 
-[data/landscape-assets](data/landscape-assets/README.md) adds nine transparent desert, oasis, valley, road, river and lake illustrations, including the Jordan, Sea of Galilee and Dead Sea. Geographic shapes and medieval shorelines remain flagged for review. Build with `python3 build_landscape_assets.py`; see [light/dark preview](previews/desert-water-road-assets.jpg).
+[data/landscape-assets](data/landscape-assets/README.md) adds fifteen transparent desert, oasis, valley, road, river and lake illustrations, including the Jordan, Sea of Galilee and Dead Sea. Geographic shapes and medieval shorelines remain flagged for review. Build with `python3 build_landscape_assets.py`; see [light/dark preview](previews/desert-water-road-assets.jpg).
+
+Accepted landscape artwork is placed in a broad dry-zone coverage proof: [map preview](previews/map-landscape-coverage.jpg), [bounds markup](previews/map-landscape-coverage-markup.jpg), and [editable placement plan](data/landscape-assets/coverage-plan.json). Render with `python3 render_landscape_coverage.py`. Historical shorelines and final map integration remain under review.
