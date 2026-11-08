@@ -1921,6 +1921,384 @@
           10472.861
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "id": "methoni-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.70529,
+          36.81705
+        ]
+      },
+      "properties": {
+        "sprite_id": "methoni-1180-v1",
+        "site_group": "methoni",
+        "name": "Methoni",
+        "asset": "data/sprites/greece-egypt-1180-batch03/methoni-1180-v1.png",
+        "sha256": "e7d9531466fe730f1c345e37cf9a8fdd869399465b5b47178d3b9d04b432791b",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Methoni",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://historica.unibo.it/entities/place/0bc0bdd7-4624-4b25-afe0-05cc08c7deb3",
+        "coordinate_evidence": {
+          "url": "https://historica.unibo.it/entities/place/0bc0bdd7-4624-4b25-afe0-05cc08c7deb3",
+          "published_value": "36.81705 N,21.70529 E; castle/settlement promontory reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published castle point locates medieval promontory, not1180 enclosure. Later Venetian walls, stone bridge and Ottoman Bourtzi excluded; quay, defenses and houses remain interpretive."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Methone / Modon",
+        "anchor_normalized": [
+          0.5,
+          0.962536023054755
+        ],
+        "sheet_anchor_px": [
+          1021.672,
+          3085.706
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 347.0,
+        "top_left_sheet_px": [
+          765.672,
+          2751.706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "koroni-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9628972,
+          36.7948917
+        ]
+      },
+      "properties": {
+        "sprite_id": "koroni-1180-v1",
+        "site_group": "koroni",
+        "name": "Koroni",
+        "asset": "data/sprites/greece-egypt-1180-batch03/koroni-1180-v1.png",
+        "sha256": "231ab8659bbbcc3bf805361e28dd970aab02c30219a9a3abed4a88a38182ce51",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Koroni",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Koroni",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Koroni",
+          "published_value": "36.7948917 N,21.9628972 E; town reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Modern Koroni urban point identifies medieval settlement, not ancient Koroni at Petalidi. Byzantine wall circuit, heights and harbor layout are not surveyed; later Venetian fortress excluded."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Korone",
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "sheet_anchor_px": [
+          1143.823,
+          3102.994
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 350.0,
+        "top_left_sheet_px": [
+          887.823,
+          2765.994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "andravida-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.267,
+          37.9
+        ]
+      },
+      "properties": {
+        "sprite_id": "andravida-1180-v1",
+        "site_group": "andravida",
+        "name": "Andravida",
+        "asset": "data/sprites/greece-egypt-1180-batch03/andravida-1180-v1.png",
+        "sha256": "ca6857c812751cd55eda57b69b27e0c25d97b4ec7187ee912073e2da5d7bb83d",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Andravida",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Andravida",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Andravida",
+          "published_value": "37.900 N,21.267 E; coarse town point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Coarse settlement reference point; no surviving pre1204 monuments identified in source. Reconstructed earlier unfortified town. No Gothic Hagia Sophia or Chlemoutsi intended; house and church forms hypothetical."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Andravida",
+        "anchor_normalized": [
+          0.5,
+          0.962043795620438
+        ],
+        "sheet_anchor_px": [
+          838.866,
+          2437.062
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 342.5,
+        "top_left_sheet_px": [
+          582.866,
+          2107.562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chania-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.016667,
+          35.516667
+        ]
+      },
+      "properties": {
+        "sprite_id": "chania-1180-v1",
+        "site_group": "chania",
+        "name": "Chania",
+        "asset": "data/sprites/greece-egypt-1180-batch03/chania-1180-v1.png",
+        "sha256": "24e41d3a94361f51d0044b71e8527f13d9691394fb0dcdbc704c23a6ae5b63f7",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Chania",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://www.getty.edu/cona/CONAFullSubject.aspx?subid=700082990",
+        "coordinate_evidence": {
+          "url": "https://www.getty.edu/cona/CONAFullSubject.aspx?subid=700082990",
+          "published_value": "35.516667 N,24.016667 E; Kastelli Hill reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Getty coarse Kastelli reference differs from more precise gazetteer hill points. Medieval settlement intensity and extent uncertain; small Byzantine enclosure intended. Venetian1252 redevelopment and harbor works excluded."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Kydonia",
+        "anchor_normalized": [
+          0.5,
+          0.9629629629629629
+        ],
+        "sheet_anchor_px": [
+          2113.691,
+          3881.19
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 351.0,
+        "top_left_sheet_px": [
+          1857.691,
+          3543.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rethymno-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.47389,
+          35.36889
+        ]
+      },
+      "properties": {
+        "sprite_id": "rethymno-1180-v1",
+        "site_group": "rethymno",
+        "name": "Rethymno",
+        "asset": "data/sprites/greece-egypt-1180-batch03/rethymno-1180-v1.png",
+        "sha256": "70c7c54281bac326b756e9a13e6ac70ea025080798076dbd884c38cd8b2b796f",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Rethymno",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Rethymno",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Rethymno",
+          "published_value": "35.36889 N,24.47389 E; urban reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Representative city point, not a surveyed Byzantine footprint. Earlier smaller settlement reconstructed; Venetian Fortezza1573-1580, fountain, loggia and later lighthouse excluded. Byzantine walls and harbor schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Rithymna / Rethemnon",
+        "anchor_normalized": [
+          0.5,
+          0.9669631512071156
+        ],
+        "sheet_anchor_px": [
+          2334.663,
+          3970.545
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 393.5,
+        "top_left_sheet_px": [
+          2078.663,
+          3590.045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "suez-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.55,
+          29.966667
+        ]
+      },
+      "properties": {
+        "sprite_id": "suez-1180-v1",
+        "site_group": "suez",
+        "name": "Suez",
+        "asset": "data/sprites/greece-egypt-1180-batch03/suez-1180-v1.png",
+        "sha256": "f106c94a58873565e4affca341fa4a15653fd744744198d9ad41b19c96393141",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Suez",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://geographic.org/geographic_names/name.php?c=egypt&fid=1627&uni=-448369",
+        "coordinate_evidence": {
+          "url": "https://geographic.org/geographic_names/name.php?c=egypt&fid=1627&uni=-448369",
+          "published_value": "29.966667 N,32.55 E; NGA-derived modern Suez city point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Coarse modern Suez point is a provisional city-region anchor, not surveyed medieval al-Suways. Do not conflate nearby Qulzum archaeological site. Al-Idrisi describes both settlements as mostly destroyed; surviving1180 occupation uncertain. No canal or flourishing fortified port intended."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "delta"
+        ],
+        "map_region": "delta",
+        "historical_name": "al-Suways",
+        "anchor_normalized": [
+          0.5,
+          0.9650537634408602
+        ],
+        "sheet_anchor_px": [
+          2782.167,
+          11526.475
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 372.0,
+        "top_left_sheet_px": [
+          2526.167,
+          11167.475
+        ]
+      }
     }
   ]
 }

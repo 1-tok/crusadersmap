@@ -2,7 +2,7 @@
 import json
 from PIL import Image, ImageDraw, ImageFont
 import frame
-from sprite_geometry import sheet_anchor
+from sprite_geometry import sheet_anchor, inset_geometry
 from sprite_catalog import BASE, ROOT, build, placements, atlas_placements, write
 
 
@@ -62,6 +62,20 @@ def main():
                  'Tripoli uses sourced coastal al-Mina anchor.']:
         d.text((w+24,yy),line,font=small,fill='black');yy+=40
     board.save(ROOT/'previews/sprite-placement-markup.jpg',quality=94)
+    # A reproducible close view of inset anchors, with the same numbered key.
+    detail=Image.new('RGB',(1400,1600),'#eee9dc');dd=ImageDraw.Draw(detail)
+    ordered=sorted(chosen,key=lambda e:-e['coordinates'][1])
+    for j,region in enumerate(('aegean','delta')):
+        _,_,_,_,_,iw,ih,bx,by=inset_geometry(region)
+        crop=board.crop((int((bx-50)*scale),int((by-50)*scale),int((bx+iw+50)*scale),int((by+ih+50)*scale)))
+        crop.thumbnail((860,730));detail.paste(crop,(20,j*800+40))
+        dd.text((20,j*800+15),region+' placement anchors',fill='#34291f')
+        yy=j*800+60
+        for n,e in enumerate(ordered,1):
+            if e['map_region']==region:
+                dd.text((910,yy),f'{n}. {e["name"]}',font=small,fill='#34291f');yy+=32
+        dd.text((910,yy+20),'Sourced anchors; provisional',font=small,fill='#34291f')
+    detail.save(ROOT/'previews/city-inset-placement-review.jpg',quality=94)
     assert len(features)==len(available) and len(selected)==len(chosen)
     print(f'Marked {len(chosen)} preferred sites; inventory includes {len(available)} approved PNGs')
 

@@ -11636,11 +11636,953 @@
         "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
       ],
       "duplicate_of": null
+    },
+    {
+      "id": "methoni-1180-v1",
+      "site_id": "methoni",
+      "name": "Methoni",
+      "historical_name": "Methone / Modon",
+      "site_type": "city",
+      "category": "city",
+      "file": "methoni-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180-batch03/sources/methoni.png",
+        "sha256": "77b73ba3dd94967bb9f03431232753acd563c6918f2ef0e764ae6aa82d9bf59d"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        21.70529,
+        36.81705
+      ],
+      "latitude": 36.81705,
+      "longitude": 21.70529,
+      "coordinate_evidence": {
+        "url": "https://historica.unibo.it/entities/place/0bc0bdd7-4624-4b25-afe0-05cc08c7deb3",
+        "published_value": "36.81705 N,21.70529 E; castle/settlement promontory reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published castle point locates medieval promontory, not1180 enclosure. Later Venetian walls, stone bridge and Ottoman Bourtzi excluded; quay, defenses and houses remain interpretive."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Published castle point locates medieval promontory, not1180 enclosure. Later Venetian walls, stone bridge and Ottoman Bourtzi excluded; quay, defenses and houses remain interpretive.",
+        "Street layout, orientation, terrain and reconstructed building heights require historical review; provisional painting is not architectural certification."
+      ],
+      "references": [
+        "https://www.efamess.gr/en/routes/petalidi-koroni-methoni/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-batch03/methoni-1180-v1.png",
+      "source_sha256": "77b73ba3dd94967bb9f03431232753acd563c6918f2ef0e764ae6aa82d9bf59d",
+      "sha256": "e7d9531466fe730f1c345e37cf9a8fdd869399465b5b47178d3b9d04b432791b",
+      "pixel_sha256": "5a8f25a0c91241a0162e77af7568700830f96acbcec85cd77c8551b0141cc5f2",
+      "dimensions_px": [
+        1024,
+        694
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.962536023054755
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          694
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          668
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 347.0,
+        "anchor_normalized": [
+          0.5,
+          0.962536023054755
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          694
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          668
+        ],
+        "pixel_sha256": "5a8f25a0c91241a0162e77af7568700830f96acbcec85cd77c8551b0141cc5f2",
+        "sha256": "e7d9531466fe730f1c345e37cf9a8fdd869399465b5b47178d3b9d04b432791b"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180-batch03/methoni-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://www.efamess.gr/en/routes/petalidi-koroni-methoni/"
+        ],
+        "notes": [
+          "Published castle point locates medieval promontory, not1180 enclosure. Later Venetian walls, stone bridge and Ottoman Bourtzi excluded; quay, defenses and houses remain interpretive.",
+          "Street layout, orientation, terrain and reconstructed building heights require historical review; provisional painting is not architectural certification."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        21.70529,
+        36.81705
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://historica.unibo.it/entities/place/0bc0bdd7-4624-4b25-afe0-05cc08c7deb3",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Methoni"
+      ],
+      "display_title": "Methoni",
+      "uncertainty_notes": [
+        "Published castle point locates medieval promontory, not1180 enclosure. Later Venetian walls, stone bridge and Ottoman Bourtzi excluded; quay, defenses and houses remain interpretive.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "koroni-1180-v1",
+      "site_id": "koroni",
+      "name": "Koroni",
+      "historical_name": "Korone",
+      "site_type": "city",
+      "category": "city",
+      "file": "koroni-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180-batch03/sources/koroni.png",
+        "sha256": "081bd177471f24f585d77392aecc4cd132c5e261385ddb447856fe7d11728e94"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        21.9628972,
+        36.7948917
+      ],
+      "latitude": 36.7948917,
+      "longitude": 21.9628972,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Koroni",
+        "published_value": "36.7948917 N,21.9628972 E; town reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Modern Koroni urban point identifies medieval settlement, not ancient Koroni at Petalidi. Byzantine wall circuit, heights and harbor layout are not surveyed; later Venetian fortress excluded."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Modern Koroni urban point identifies medieval settlement, not ancient Koroni at Petalidi. Byzantine wall circuit, heights and harbor layout are not surveyed; later Venetian fortress excluded.",
+        "Street layout, orientation, terrain and reconstructed building heights require historical review; provisional painting is not architectural certification."
+      ],
+      "references": [
+        "https://castleroute.culture.gov.gr/en/koroni/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-batch03/koroni-1180-v1.png",
+      "source_sha256": "081bd177471f24f585d77392aecc4cd132c5e261385ddb447856fe7d11728e94",
+      "sha256": "231ab8659bbbcc3bf805361e28dd970aab02c30219a9a3abed4a88a38182ce51",
+      "pixel_sha256": "ba92d2f6093ad0b3b1b5053422509432fed6665faa9d6a7d543853b9b3c45248",
+      "dimensions_px": [
+        1024,
+        700
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9628571428571429
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          700
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          674
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 350.0,
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          700
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          674
+        ],
+        "pixel_sha256": "ba92d2f6093ad0b3b1b5053422509432fed6665faa9d6a7d543853b9b3c45248",
+        "sha256": "231ab8659bbbcc3bf805361e28dd970aab02c30219a9a3abed4a88a38182ce51"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180-batch03/koroni-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://castleroute.culture.gov.gr/en/koroni/"
+        ],
+        "notes": [
+          "Modern Koroni urban point identifies medieval settlement, not ancient Koroni at Petalidi. Byzantine wall circuit, heights and harbor layout are not surveyed; later Venetian fortress excluded.",
+          "Street layout, orientation, terrain and reconstructed building heights require historical review; provisional painting is not architectural certification."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        21.9628972,
+        36.7948917
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Koroni",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Koroni"
+      ],
+      "display_title": "Koroni",
+      "uncertainty_notes": [
+        "Modern Koroni urban point identifies medieval settlement, not ancient Koroni at Petalidi. Byzantine wall circuit, heights and harbor layout are not surveyed; later Venetian fortress excluded.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "andravida-1180-v1",
+      "site_id": "andravida",
+      "name": "Andravida",
+      "historical_name": "Andravida",
+      "site_type": "city",
+      "category": "city",
+      "file": "andravida-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180-batch03/sources/andravida.png",
+        "sha256": "46328f76e0f4a105d5209137409c0b5f3d20e2d820660c431dbd4c6dc4c8aedf"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        21.267,
+        37.9
+      ],
+      "latitude": 37.9,
+      "longitude": 21.267,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Andravida",
+        "published_value": "37.900 N,21.267 E; coarse town point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Coarse settlement reference point; no surviving pre1204 monuments identified in source. Reconstructed earlier unfortified town. No Gothic Hagia Sophia or Chlemoutsi intended; house and church forms hypothetical."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Coarse settlement reference point; no surviving pre1204 monuments identified in source. Reconstructed earlier unfortified town. No Gothic Hagia Sophia or Chlemoutsi intended; house and church forms hypothetical.",
+        "Street layout, orientation, terrain and reconstructed building heights require historical review; provisional painting is not architectural certification."
+      ],
+      "references": [
+        "https://www.thebyzantinelegacy.com/andravida"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-batch03/andravida-1180-v1.png",
+      "source_sha256": "46328f76e0f4a105d5209137409c0b5f3d20e2d820660c431dbd4c6dc4c8aedf",
+      "sha256": "ca6857c812751cd55eda57b69b27e0c25d97b4ec7187ee912073e2da5d7bb83d",
+      "pixel_sha256": "6acfe9e7221b6d0af0ab30b0781dd06e8306face66b2533e4500d3adc5bf2503",
+      "dimensions_px": [
+        1024,
+        685
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.962043795620438
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          685
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          659
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 342.5,
+        "anchor_normalized": [
+          0.5,
+          0.962043795620438
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          685
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          659
+        ],
+        "pixel_sha256": "6acfe9e7221b6d0af0ab30b0781dd06e8306face66b2533e4500d3adc5bf2503",
+        "sha256": "ca6857c812751cd55eda57b69b27e0c25d97b4ec7187ee912073e2da5d7bb83d"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180-batch03/andravida-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://www.thebyzantinelegacy.com/andravida"
+        ],
+        "notes": [
+          "Coarse settlement reference point; no surviving pre1204 monuments identified in source. Reconstructed earlier unfortified town. No Gothic Hagia Sophia or Chlemoutsi intended; house and church forms hypothetical.",
+          "Street layout, orientation, terrain and reconstructed building heights require historical review; provisional painting is not architectural certification."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        21.267,
+        37.9
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Andravida",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Andravida"
+      ],
+      "display_title": "Andravida",
+      "uncertainty_notes": [
+        "Coarse settlement reference point; no surviving pre1204 monuments identified in source. Reconstructed earlier unfortified town. No Gothic Hagia Sophia or Chlemoutsi intended; house and church forms hypothetical.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "chania-1180-v1",
+      "site_id": "chania",
+      "name": "Chania",
+      "historical_name": "Kydonia",
+      "site_type": "city",
+      "category": "city",
+      "file": "chania-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180-batch03/sources/chania-cutout.png",
+        "sha256": "2d0d62179c399ae5e63845398244f8d4f71707798dcc0471bc288ed26ae00b40"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        24.016667,
+        35.516667
+      ],
+      "latitude": 35.516667,
+      "longitude": 24.016667,
+      "coordinate_evidence": {
+        "url": "https://www.getty.edu/cona/CONAFullSubject.aspx?subid=700082990",
+        "published_value": "35.516667 N,24.016667 E; Kastelli Hill reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Getty coarse Kastelli reference differs from more precise gazetteer hill points. Medieval settlement intensity and extent uncertain; small Byzantine enclosure intended. Venetian1252 redevelopment and harbor works excluded."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Getty coarse Kastelli reference differs from more precise gazetteer hill points. Medieval settlement intensity and extent uncertain; small Byzantine enclosure intended. Venetian1252 redevelopment and harbor works excluded.",
+        "Street layout, orientation, terrain and reconstructed building heights require historical review; provisional painting is not architectural certification."
+      ],
+      "references": [
+        "https://www.chania-citizen-guide.gr/en/general-information-of-the-municipal-unit-of-chania/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-batch03/chania-1180-v1.png",
+      "source_sha256": "2d0d62179c399ae5e63845398244f8d4f71707798dcc0471bc288ed26ae00b40",
+      "sha256": "24e41d3a94361f51d0044b71e8527f13d9691394fb0dcdbc704c23a6ae5b63f7",
+      "pixel_sha256": "e99ec1d8ac66f017dddb34168cdf38f90b8a3dd1d78d66c70ec593ef56458aa6",
+      "dimensions_px": [
+        1024,
+        702
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9629629629629629
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          702
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          992,
+          676
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 351.0,
+        "anchor_normalized": [
+          0.5,
+          0.9629629629629629
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          702
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          992,
+          676
+        ],
+        "pixel_sha256": "e99ec1d8ac66f017dddb34168cdf38f90b8a3dd1d78d66c70ec593ef56458aa6",
+        "sha256": "24e41d3a94361f51d0044b71e8527f13d9691394fb0dcdbc704c23a6ae5b63f7"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180-batch03/chania-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://www.chania-citizen-guide.gr/en/general-information-of-the-municipal-unit-of-chania/"
+        ],
+        "notes": [
+          "Getty coarse Kastelli reference differs from more precise gazetteer hill points. Medieval settlement intensity and extent uncertain; small Byzantine enclosure intended. Venetian1252 redevelopment and harbor works excluded.",
+          "Street layout, orientation, terrain and reconstructed building heights require historical review; provisional painting is not architectural certification."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        24.016667,
+        35.516667
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://www.getty.edu/cona/CONAFullSubject.aspx?subid=700082990",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Chania"
+      ],
+      "display_title": "Chania",
+      "uncertainty_notes": [
+        "Getty coarse Kastelli reference differs from more precise gazetteer hill points. Medieval settlement intensity and extent uncertain; small Byzantine enclosure intended. Venetian1252 redevelopment and harbor works excluded.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "rethymno-1180-v1",
+      "site_id": "rethymno",
+      "name": "Rethymno",
+      "historical_name": "Rithymna / Rethemnon",
+      "site_type": "city",
+      "category": "city",
+      "file": "rethymno-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180-batch03/sources/rethymno-cutout.png",
+        "sha256": "a97199b8552c1a226ccad50c3fbc718667426d2665a0326e0ea4277c93b576eb"
+      },
+      "map_region": "aegean",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "aegean"
+      ],
+      "coordinates": [
+        24.47389,
+        35.36889
+      ],
+      "latitude": 35.36889,
+      "longitude": 24.47389,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Rethymno",
+        "published_value": "35.36889 N,24.47389 E; urban reference point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Representative city point, not a surveyed Byzantine footprint. Earlier smaller settlement reconstructed; Venetian Fortezza1573-1580, fountain, loggia and later lighthouse excluded. Byzantine walls and harbor schematic."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Representative city point, not a surveyed Byzantine footprint. Earlier smaller settlement reconstructed; Venetian Fortezza1573-1580, fountain, loggia and later lighthouse excluded. Byzantine walls and harbor schematic.",
+        "Street layout, orientation, terrain and reconstructed building heights require historical review; provisional painting is not architectural certification."
+      ],
+      "references": [
+        "https://www.rethymno.gr/en/visitor/castel/castel.html"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-batch03/rethymno-1180-v1.png",
+      "source_sha256": "a97199b8552c1a226ccad50c3fbc718667426d2665a0326e0ea4277c93b576eb",
+      "sha256": "70c7c54281bac326b756e9a13e6ac70ea025080798076dbd884c38cd8b2b796f",
+      "pixel_sha256": "8e1c7b066a18d1c4b3042bb66f3b7ae33fbd3e7b92b62201ad3f2f60467b955d",
+      "dimensions_px": [
+        1024,
+        787
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9669631512071156
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          787
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          761
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 393.5,
+        "anchor_normalized": [
+          0.5,
+          0.9669631512071156
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          787
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          761
+        ],
+        "pixel_sha256": "8e1c7b066a18d1c4b3042bb66f3b7ae33fbd3e7b92b62201ad3f2f60467b955d",
+        "sha256": "70c7c54281bac326b756e9a13e6ac70ea025080798076dbd884c38cd8b2b796f"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180-batch03/rethymno-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://www.rethymno.gr/en/visitor/castel/castel.html"
+        ],
+        "notes": [
+          "Representative city point, not a surveyed Byzantine footprint. Earlier smaller settlement reconstructed; Venetian Fortezza1573-1580, fountain, loggia and later lighthouse excluded. Byzantine walls and harbor schematic.",
+          "Street layout, orientation, terrain and reconstructed building heights require historical review; provisional painting is not architectural certification."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        24.47389,
+        35.36889
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Rethymno",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Rethymno"
+      ],
+      "display_title": "Rethymno",
+      "uncertainty_notes": [
+        "Representative city point, not a surveyed Byzantine footprint. Earlier smaller settlement reconstructed; Venetian Fortezza1573-1580, fountain, loggia and later lighthouse excluded. Byzantine walls and harbor schematic.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
+    },
+    {
+      "id": "suez-1180-v1",
+      "site_id": "suez",
+      "name": "Suez",
+      "historical_name": "al-Suways",
+      "site_type": "city",
+      "category": "city",
+      "file": "suez-1180-v1.png",
+      "source": {
+        "path": "greece-egypt-1180-batch03/sources/suez-cutout.png",
+        "sha256": "63215d7b7d105db53d9ca19858582bb10dbf847c569197a0aefe9e887d6a2ce5"
+      },
+      "map_region": "delta",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "delta"
+      ],
+      "coordinates": [
+        32.55,
+        29.966667
+      ],
+      "latitude": 29.966667,
+      "longitude": 32.55,
+      "coordinate_evidence": {
+        "url": "https://geographic.org/geographic_names/name.php?c=egypt&fid=1627&uni=-448369",
+        "published_value": "29.966667 N,32.55 E; NGA-derived modern Suez city point",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Coarse modern Suez point is a provisional city-region anchor, not surveyed medieval al-Suways. Do not conflate nearby Qulzum archaeological site. Al-Idrisi describes both settlements as mostly destroyed; surviving1180 occupation uncertain. No canal or flourishing fortified port intended."
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "date_ranges": {
+        "site_phase": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "scope": "Reviewed depiction year; not a Frankish-control range"
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 city depiction; no implication of Frankish rule"
+        }
+      },
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Coarse modern Suez point is a provisional city-region anchor, not surveyed medieval al-Suways. Do not conflate nearby Qulzum archaeological site. Al-Idrisi describes both settlements as mostly destroyed; surviving1180 occupation uncertain. No canal or flourishing fortified port intended.",
+        "Street layout, orientation, terrain and reconstructed building heights require historical review; provisional painting is not architectural certification."
+      ],
+      "references": [
+        "https://eprints.soton.ac.uk/466640/1/1238050_v.2.pdf"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-batch03/suez-1180-v1.png",
+      "source_sha256": "63215d7b7d105db53d9ca19858582bb10dbf847c569197a0aefe9e887d6a2ce5",
+      "sha256": "f106c94a58873565e4affca341fa4a15653fd744744198d9ad41b19c96393141",
+      "pixel_sha256": "eb801a678f859093945249e254a0e3a3b446500be920f1a0e084954eb0040152",
+      "dimensions_px": [
+        1024,
+        744
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9650537634408602
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          744
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          718
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 372.0,
+        "anchor_normalized": [
+          0.5,
+          0.9650537634408602
+        ],
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          744
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          718
+        ],
+        "pixel_sha256": "eb801a678f859093945249e254a0e3a3b446500be920f1a0e084954eb0040152",
+        "sha256": "f106c94a58873565e4affca341fa4a15653fd744744198d9ad41b19c96393141"
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "asset": "greece-egypt-1180-batch03/suez-1180-v1.png",
+      "selection_priority": 40,
+      "variant": "generated-city",
+      "approval": {
+        "status": "approved-provisional",
+        "provisional_map_use": true,
+        "repaint_later": true,
+        "authority": "User request, 2026-11-08",
+        "historical_accuracy_certified": false,
+        "approved_for_default_year": true
+      },
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "circa-1180 city depiction; no implication of Frankish rule"
+      },
+      "historical": {
+        "target_year": 1180,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "references": [
+          "https://eprints.soton.ac.uk/466640/1/1238050_v.2.pdf"
+        ],
+        "notes": [
+          "Coarse modern Suez point is a provisional city-region anchor, not surveyed medieval al-Suways. Do not conflate nearby Qulzum archaeological site. Al-Idrisi describes both settlements as mostly destroyed; surviving1180 occupation uncertain. No canal or flourishing fortified port intended.",
+          "Street layout, orientation, terrain and reconstructed building heights require historical review; provisional painting is not architectural certification."
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
+      },
+      "legacy_coordinates": [
+        32.55,
+        29.966667
+      ],
+      "geographic_placement_ready": true,
+      "coordinate_source": "https://geographic.org/geographic_names/name.php?c=egypt&fid=1627&uni=-448369",
+      "coordinates_surveyed": false,
+      "alternate_names": [
+        "Suez"
+      ],
+      "display_title": "Suez",
+      "uncertainty_notes": [
+        "Coarse modern Suez point is a provisional city-region anchor, not surveyed medieval al-Suways. Do not conflate nearby Qulzum archaeological site. Al-Idrisi describes both settlements as mostly destroyed; surviving1180 occupation uncertain. No canal or flourishing fortified port intended.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null
     }
   ],
   "coordinate_precision_policy": "Published points transcribed exactly; not surveyed medieval footprints. See per-site evidence and uncertainty.",
   "deduplication": {
     "method": "SHA-256 RGBA pixels and dimensions; preferred variant per site for placement",
-    "unique_pngs": 55
+    "unique_pngs": 61
   }
 }

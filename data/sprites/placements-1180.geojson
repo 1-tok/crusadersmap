@@ -124,6 +124,66 @@
     },
     {
       "type": "Feature",
+      "id": "andravida-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.267,
+          37.9
+        ]
+      },
+      "properties": {
+        "site_id": "andravida",
+        "name": "Andravida",
+        "asset": "greece-egypt-1180-batch03/andravida-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.962043795620438
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "map_region": "aegean",
+        "display_title": "Andravida",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "historical_name": "Andravida",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Andravida",
+          "published_value": "37.900 N,21.267 E; coarse town point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Coarse settlement reference point; no surviving pre1204 monuments identified in source. Reconstructed earlier unfortified town. No Gothic Hagia Sophia or Chlemoutsi intended; house and church forms hypothetical."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            685
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            659
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 342.5,
+          "anchor_normalized": [
+            0.5,
+            0.962043795620438
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "antioch-1180-v2",
       "geometry": {
         "type": "Point",
@@ -669,6 +729,66 @@
     },
     {
       "type": "Feature",
+      "id": "chania-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.016667,
+          35.516667
+        ]
+      },
+      "properties": {
+        "site_id": "chania",
+        "name": "Chania",
+        "asset": "greece-egypt-1180-batch03/chania-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9629629629629629
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "map_region": "aegean",
+        "display_title": "Chania",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "historical_name": "Kydonia",
+        "coordinate_evidence": {
+          "url": "https://www.getty.edu/cona/CONAFullSubject.aspx?subid=700082990",
+          "published_value": "35.516667 N,24.016667 E; Kastelli Hill reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Getty coarse Kastelli reference differs from more precise gazetteer hill points. Medieval settlement intensity and extent uncertain; small Byzantine enclosure intended. Venetian1252 redevelopment and harbor works excluded."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            702
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            992,
+            676
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 351.0,
+          "anchor_normalized": [
+            0.5,
+            0.9629629629629629
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "corinth-1180-v1",
       "geometry": {
         "type": "Point",
@@ -971,6 +1091,66 @@
     },
     {
       "type": "Feature",
+      "id": "koroni-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9628972,
+          36.7948917
+        ]
+      },
+      "properties": {
+        "site_id": "koroni",
+        "name": "Koroni",
+        "asset": "greece-egypt-1180-batch03/koroni-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "map_region": "aegean",
+        "display_title": "Koroni",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "historical_name": "Korone",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Koroni",
+          "published_value": "36.7948917 N,21.9628972 E; town reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Modern Koroni urban point identifies medieval settlement, not ancient Koroni at Petalidi. Byzantine wall circuit, heights and harbor layout are not surveyed; later Venetian fortress excluded."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            700
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            674
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 350.0,
+          "anchor_normalized": [
+            0.5,
+            0.9628571428571429
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "archive-crs-005-krak-des-chevaliers",
       "geometry": {
         "type": "Point",
@@ -1025,6 +1205,66 @@
           "anchor_normalized": [
             0.5,
             0.9921798631476051
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "methoni-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.70529,
+          36.81705
+        ]
+      },
+      "properties": {
+        "site_id": "methoni",
+        "name": "Methoni",
+        "asset": "greece-egypt-1180-batch03/methoni-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.962536023054755
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "map_region": "aegean",
+        "display_title": "Methoni",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "historical_name": "Methone / Modon",
+        "coordinate_evidence": {
+          "url": "https://historica.unibo.it/entities/place/0bc0bdd7-4624-4b25-afe0-05cc08c7deb3",
+          "published_value": "36.81705 N,21.70529 E; castle/settlement promontory reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published castle point locates medieval promontory, not1180 enclosure. Later Venetian walls, stone bridge and Ottoman Bourtzi excluded; quay, defenses and houses remain interpretive."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            694
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            668
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 347.0,
+          "anchor_normalized": [
+            0.5,
+            0.962536023054755
           ],
           "geographic_scale": false
         }
@@ -1146,6 +1386,66 @@
           "anchor_normalized": [
             0.5,
             0.9624277456647399
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rethymno-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.47389,
+          35.36889
+        ]
+      },
+      "properties": {
+        "site_id": "rethymno",
+        "name": "Rethymno",
+        "asset": "greece-egypt-1180-batch03/rethymno-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9669631512071156
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "map_region": "aegean",
+        "display_title": "Rethymno",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "historical_name": "Rithymna / Rethemnon",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Rethymno",
+          "published_value": "35.36889 N,24.47389 E; urban reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Representative city point, not a surveyed Byzantine footprint. Earlier smaller settlement reconstructed; Venetian Fortezza1573-1580, fountain, loggia and later lighthouse excluded. Byzantine walls and harbor schematic."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            787
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            761
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 393.5,
+          "anchor_normalized": [
+            0.5,
+            0.9669631512071156
           ],
           "geographic_scale": false
         }
@@ -1327,6 +1627,66 @@
           "anchor_normalized": [
             0.5,
             0.9823399558498896
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "suez-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.55,
+          29.966667
+        ]
+      },
+      "properties": {
+        "site_id": "suez",
+        "name": "Suez",
+        "asset": "greece-egypt-1180-batch03/suez-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9650537634408602
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "map_region": "delta",
+        "display_title": "Suez",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "delta"
+        ],
+        "historical_name": "al-Suways",
+        "coordinate_evidence": {
+          "url": "https://geographic.org/geographic_names/name.php?c=egypt&fid=1627&uni=-448369",
+          "published_value": "29.966667 N,32.55 E; NGA-derived modern Suez city point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Coarse modern Suez point is a provisional city-region anchor, not surveyed medieval al-Suways. Do not conflate nearby Qulzum archaeological site. Al-Idrisi describes both settlements as mostly destroyed; surviving1180 occupation uncertain. No canal or flourishing fortified port intended."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            744
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            718
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 372.0,
+          "anchor_normalized": [
+            0.5,
+            0.9650537634408602
           ],
           "geographic_scale": false
         }

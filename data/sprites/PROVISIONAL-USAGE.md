@@ -62,3 +62,7 @@ Montfort commencement: https://moses.creighton.edu/vr/Montfort/txt/intro.html . 
 ## Greece / Egypt integration — 2026-11-08
 
 The unified catalog imports `greece-egypt*/manifest.json` batches. Fifteen newly generated city paintings are preserved, with14 sourced geographic anchors (Jaffa is an alternative for an existing site) and one art-approved Damietta painting awaiting medieval geolocation. `geographic_placement_ready` separates geographic readiness from artwork approval. `map_region` routes Greece to `aegean`, Egypt to `delta`, and Jaffa to `main`. `sprite_geometry.py` matches the existing atlas Region transforms and inset offsets; tests compare against the actual Region class. Eight then six assets were approved provisionally; repaint flags remain visible. Shared SVG layers and markup are independent overlays, not edits to the multi-period print editions.
+
+## City batch03 — 2026-11-08
+
+Added Methoni, Koroni, Andravida, Chania, Rethymno and Suez as six further provisionally approved sprites. Research, exact prompts, original sources, transparent packaged PNGs and per-site uncertainty are retained in `greece-egypt-1180-batch03/`. Suez uses a coarse sourced city-region anchor and an explicitly decayed settlement interpretation; it is not exact medieval geolocation. Shared inset markup now rebuilds automatically with the full placement export and numbered key. The reviewed city queue is regenerated against the complete unified catalog.

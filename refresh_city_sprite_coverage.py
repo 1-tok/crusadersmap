@@ -11,6 +11,7 @@ def key(s):
 def main():
  p=ROOT/'data/manifests/city-placement-review.json';review=json.loads(p.read_text())
  catalog=json.loads((ROOT/'data/sprites/catalog.json').read_text())
+ generated=[e for e in catalog['assets'] if e.get('variant')=='generated-city']
  for e in review['entries']:
   names={key(x) for x in [e['name'],e.get('map_name') or ''] if x}
   matched=[]
@@ -30,7 +31,7 @@ def main():
   for e in review['entries']:
    if e['group']==group:lines += [f"| {e['name']} | {e['placement_status'].replace('_',' ')} | {'approved' if e['approval_for_new_placement'] else 'pending artwork / location / phase'} |"]
   lines += ['']
- lines += ['## Placement and review','','Use `../sprites/catalog.json`, `../sprites/placements-1180.geojson` and root `previews/sprite-placement-markup.jpg`. The inset review is in `previews/city-inset-placement-review.jpg`.','', 'All15 newly generated city paintings are in the unified catalog. Damietta is art-approved but has no invented medieval coordinate. Next batch02 contains Patras, Thebes, Rosetta, Tinnis, Bilbeis and a Jaffa variant. Prompts, source PNGs and repaint notes are preserved.','', 'Pelusium/Bilbeis legacy alias conflict remains a separate source-manifest correction; the new Bilbeis sprite uses a documented Bilbeis city point. Tinnis occupation intensity is uncertain. Full per-entry research and uncertainty notes remain in the JSON and sprite manifests.','']
+ lines += ['## Placement and review','','Use `../sprites/catalog.json`, `../sprites/placements-1180.geojson` and root `previews/sprite-placement-markup.jpg`. The inset review is in `previews/city-inset-placement-review.jpg`.','', f"All {len(generated)} newly generated city paintings are in the unified catalog. Damietta is art-approved but has no invented medieval coordinate. Exact prompts, source PNGs and repaint notes are preserved in the individual greece-egypt batch folders.",'', 'Pelusium/Bilbeis legacy alias conflict remains a separate source-manifest correction; the new Bilbeis sprite uses a documented Bilbeis city point. Tinnis occupation intensity is uncertain. Full per-entry research and uncertainty notes remain in the JSON and sprite manifests.','']
  (p.parent/'CITY-PLACEMENT-REVIEW.md').write_text('\n'.join(lines))
  print(review['counts'])
 if __name__=='__main__':main()

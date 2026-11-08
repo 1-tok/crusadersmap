@@ -13,8 +13,8 @@
       "Egypt": 11
     },
     "by_status": {
-      "sprite_available": 25,
-      "needs_sprite": 69,
+      "sprite_available": 31,
+      "needs_sprite": 63,
       "sprite_available_needs_geolocation": 1
     }
   },
@@ -1511,9 +1511,11 @@
         37.9
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "andravida-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -1563,9 +1565,11 @@
         36.81
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "methoni-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -1589,9 +1593,11 @@
         36.8
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "koroni-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -1827,9 +1833,11 @@
         35.51
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "chania-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -1852,9 +1860,11 @@
         35.37
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "rethymno-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -2440,9 +2450,11 @@
         29.97
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "suez-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
