@@ -1,9 +1,9 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "default_year": 1180,
   "period_note": "Circa 1180 is the default sprite brief, not the date of the existing 1095–1571 atlas.",
   "approval_policy": "Place available approved PNGs now as provisional art; flag repaint and historical review. Missing sources are not approved.",
-  "coordinate_order": "longitude, latitude (WGS84); inherited map anchors, not surveyed footprints",
+  "coordinate_order": "longitude, latitude (EPSG:4326); sourced representative site points",
   "anchor_convention": "normalized PNG x/y; bottom-center painted-ground convention, not true georeferencing",
   "units": "display widths in full-size 10800 x 14400 atlas pixels",
   "assets": [
@@ -31,10 +31,10 @@
         ]
       },
       "coordinates": [
-        35.23,
-        31.78
+        35.23166666666667,
+        31.77777777777778
       ],
-      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinate_source": "https://whc.unesco.org/en/list/148/",
       "coordinates_surveyed": false,
       "repo_place_id": "P:jerusalem",
       "anchor_normalized": [
@@ -54,7 +54,9 @@
           "Check Frankish-period walls and sacred-site roofs; flags and architectural phases unverified.",
           "Heraldry, architectural details, orientation and scale are not verified."
         ],
-        "references": []
+        "references": [],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "original_extraction_qa": {
         "id": "CITY-001",
@@ -95,6 +97,73 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        35.23,
+        31.78
+      ],
+      "latitude": 31.77777777777778,
+      "longitude": 35.23166666666667,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/list/148/",
+        "published_value": "N31 46 40 E35 13 54",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Old City representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+      },
+      "historical_name": "Jerusalem",
+      "alternate_names": [
+        "Hierusalem",
+        "al-Quds"
+      ],
+      "site_type": "city",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1099,
+          "through_year": 1187,
+          "references": [
+            "https://webhelper.brown.edu/joukowsky/courses/islamicarch2011/files/15739236.pdf"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "settlements"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Representative site point, not a surveyed building footprint; source precision is not positional accuracy.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          446,
+          319
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          438,
+          311
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 366.2062780269058,
+        "anchor_normalized": [
+          0.5,
+          0.9749216300940439
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -121,10 +190,10 @@
         ]
       },
       "coordinates": [
-        35.07,
-        32.92
+        35.084,
+        32.928
       ],
-      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinate_source": "https://whc.unesco.org/document/164227",
       "coordinates_surveyed": false,
       "repo_place_id": "P:acre",
       "anchor_normalized": [
@@ -144,7 +213,9 @@
           "Harbor, sea walls and waterfront architecture need comparison with pre-1187 plans.",
           "Heraldry, architectural details, orientation and scale are not verified."
         ],
-        "references": []
+        "references": [],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "original_extraction_qa": {
         "id": "CITY-002",
@@ -185,6 +256,73 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        35.07,
+        32.92
+      ],
+      "latitude": 32.928,
+      "longitude": 35.084,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/document/164227",
+        "published_value": "32.928 / 35.084",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Old City representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Use UNESCO periodic-report Old City point. Main listing gives a different point (32°55′18″N 35°4′8″E); report point is appropriate for the urban icon. No claim of exact medieval centroid."
+      },
+      "historical_name": "Acre",
+      "alternate_names": [
+        "Akko",
+        "Akkon"
+      ],
+      "site_type": "city",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1104,
+          "through_year": 1187,
+          "references": [
+            "https://whc.unesco.org/en/list/1042/"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "settlements"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Use UNESCO periodic-report Old City point. Main listing gives a different point (32°55′18″N 35°4′8″E); report point is appropriate for the urban icon. No claim of exact medieval centroid.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          456,
+          317
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          448,
+          309
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 355.9298245614035,
+        "anchor_normalized": [
+          0.5,
+          0.9747634069400631
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -211,10 +349,10 @@
         ]
       },
       "coordinates": [
-        36.16,
-        36.2
+        36.18167,
+        36.20472
       ],
-      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Antioch",
       "coordinates_surveyed": false,
       "repo_place_id": "P:antioch",
       "anchor_normalized": [
@@ -234,7 +372,9 @@
           "Mountain citadel, bridge, wall circuit and urban density are artistic approximations.",
           "Heraldry, architectural details, orientation and scale are not verified."
         ],
-        "references": []
+        "references": [],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "original_extraction_qa": {
         "id": "CITY-003",
@@ -275,6 +415,73 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        36.16,
+        36.2
+      ],
+      "latitude": 36.20472,
+      "longitude": 36.18167,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Antioch",
+        "published_value": "36.20472 N 36.18167 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Historical city representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Secondary gazetteer coordinate for historical Antioch; city extent and painted citadel orientation remain approximate."
+      },
+      "historical_name": "Antioch",
+      "alternate_names": [
+        "Antiochia",
+        "Antakya"
+      ],
+      "site_type": "city",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1098,
+          "through_year": 1268,
+          "references": [
+            "https://en.wikipedia.org/wiki/Principality_of_Antioch"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "settlements"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Secondary gazetteer coordinate for historical Antioch; city extent and painted citadel orientation remain approximate.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          455,
+          380
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          447,
+          372
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 427.6043956043956,
+        "anchor_normalized": [
+          0.5,
+          0.9789473684210527
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -301,10 +508,10 @@
         ]
       },
       "coordinates": [
-        35.84,
-        34.44
+        35.81783,
+        34.447
       ],
-      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinate_source": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
       "coordinates_surveyed": false,
       "repo_place_id": "P:tripoli",
       "anchor_normalized": [
@@ -324,7 +531,9 @@
           "Review relationship of coastal settlement and hilltop citadel; do not treat this composition as a surveyed plan.",
           "Heraldry, architectural details, orientation and scale are not verified."
         ],
-        "references": []
+        "references": [],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "original_extraction_qa": {
         "id": "CITY-004",
@@ -365,6 +574,74 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        35.84,
+        34.44
+      ],
+      "latitude": 34.447,
+      "longitude": 35.81783,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+        "published_value": "34.44700 N 35.81783 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Coastal medieval city / El Mina representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Coastal settlement point, not the inland Mamluk city or Raymond citadel. Exact medieval urban centroid is unknown; composite sheet painting may conflate city and citadel."
+      },
+      "historical_name": "Tripoli",
+      "alternate_names": [
+        "Tripolis",
+        "Tripoli Marina",
+        "al-Mina"
+      ],
+      "site_type": "city",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1109,
+          "through_year": 1289,
+          "references": [
+            "https://scholarworks.aub.edu.lb/server/api/core/bitstreams/9294c2fb-5742-4ece-bdc3-a215070e681c/content"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "settlements"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Coastal settlement point, not the inland Mamluk city or Raymond citadel. Exact medieval urban centroid is unknown; composite sheet painting may conflate city and citadel.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          453,
+          322
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          445,
+          314
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 363.9381898454746,
+        "anchor_normalized": [
+          0.5,
+          0.9751552795031055
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -391,10 +668,10 @@
         ]
       },
       "coordinates": [
-        36.29,
-        34.76
+        36.294444444444444,
+        34.75666666666667
       ],
-      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinate_source": "https://whc.unesco.org/en/list/1229/maps",
       "coordinates_surveyed": false,
       "repo_place_id": "P:krak",
       "anchor_normalized": [
@@ -416,7 +693,9 @@
         ],
         "references": [
           "https://whc.unesco.org/en/list/1229/"
-        ]
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "original_extraction_qa": {
         "id": "CAST-001",
@@ -457,6 +736,73 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        36.29,
+        34.76
+      ],
+      "latitude": 34.75666666666667,
+      "longitude": 36.294444444444444,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/list/1229/maps",
+        "published_value": "N34 45 24 E36 17 40",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "UNESCO current map point; older nomination coordinates conflict. Later concentric defenses in painting require repaint review, while the castle site is eligible in 1180."
+      },
+      "historical_name": "Crac de l’Hospital",
+      "alternate_names": [
+        "Krak des Chevaliers",
+        "Qalʿat al-Hosn"
+      ],
+      "site_type": "castle",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1142,
+          "through_year": 1271,
+          "references": [
+            "https://whc.unesco.org/en/list/1229/"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "fortifications"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "UNESCO current map point; older nomination coordinates conflict. Later concentric defenses in painting require repaint review, while the castle site is eligible in 1180.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          448,
+          377
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          440,
+          369
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 430.85714285714283,
+        "anchor_normalized": [
+          0.5,
+          0.9787798408488063
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -483,10 +829,10 @@
         ]
       },
       "coordinates": [
-        35.52,
-        32.6
+        35.52139,
+        32.59556
       ],
-      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
       "coordinates_surveyed": false,
       "repo_place_id": "P:belvoir",
       "anchor_normalized": [
@@ -506,7 +852,9 @@
           "Dominant keep and round towers need repaint review against the known Hospitaller plan.",
           "Heraldry, architectural details, orientation and scale are not verified."
         ],
-        "references": []
+        "references": [],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "original_extraction_qa": {
         "id": "CAST-002",
@@ -547,6 +895,74 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        35.52,
+        32.6
+      ],
+      "latitude": 32.59556,
+      "longitude": 35.52139,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+        "published_value": "32.59556 N 35.52139 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+      },
+      "historical_name": "Belvoir",
+      "alternate_names": [
+        "Coquet",
+        "Kawkab al-Hawa",
+        "Kochav HaYarden"
+      ],
+      "site_type": "castle",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1168,
+          "through_year": 1189,
+          "references": [
+            "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "fortifications"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Representative site point, not a surveyed building footprint; source precision is not positional accuracy.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          438,
+          375
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          430,
+          367
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 438.35616438356163,
+        "anchor_normalized": [
+          0.5,
+          0.9786666666666667
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -573,10 +989,10 @@
         ]
       },
       "coordinates": [
-        35.7,
-        31.18
+        35.70139,
+        31.18056
       ],
-      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Kerak_Castle",
       "coordinates_surveyed": false,
       "repo_place_id": "P:kerak",
       "anchor_normalized": [
@@ -596,7 +1012,9 @@
           "Keep, towers and defenses need phase-specific review; later additions must be excluded for 1180.",
           "Heraldry, architectural details, orientation and scale are not verified."
         ],
-        "references": []
+        "references": [],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "original_extraction_qa": {
         "id": "CAST-003",
@@ -637,6 +1055,74 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        35.7,
+        31.18
+      ],
+      "latitude": 31.18056,
+      "longitude": 35.70139,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Kerak_Castle",
+        "published_value": "31.18056 N 35.70139 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+      },
+      "historical_name": "Kerak",
+      "alternate_names": [
+        "Crac des Moabites",
+        "al-Karak"
+      ],
+      "site_type": "castle",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1142,
+          "through_year": 1188,
+          "references": [
+            "https://moses.creighton.edu/vr/Kerak/txt/intro.html",
+            "https://en.wikipedia.org/wiki/Kerak_Castle"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "fortifications"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Representative site point, not a surveyed building footprint; source precision is not positional accuracy.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          454,
+          373
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          446,
+          365
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 420.6519823788546,
+        "anchor_normalized": [
+          0.5,
+          0.9785522788203753
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -663,10 +1149,10 @@
         ]
       },
       "coordinates": [
-        35.53,
-        30.53
+        35.5608,
+        30.5315
       ],
-      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinate_source": "https://www.sacred-destinations.com/jordan/shobak-castle",
       "coordinates_surveyed": false,
       "repo_place_id": "P:montreal",
       "anchor_normalized": [
@@ -686,7 +1172,9 @@
           "Generic hilltop fortress; wall plan, towers and later additions unverified.",
           "Heraldry, architectural details, orientation and scale are not verified."
         ],
-        "references": []
+        "references": [],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "original_extraction_qa": {
         "id": "CAST-004",
@@ -727,6 +1215,74 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        35.53,
+        30.53
+      ],
+      "latitude": 30.5315,
+      "longitude": 35.5608,
+      "coordinate_evidence": {
+        "url": "https://www.sacred-destinations.com/jordan/shobak-castle",
+        "published_value": "30.5315 N 35.5608 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Published castle point; other gazetteers differ by tens of metres. Later Ayyubid/Mamluk fabric must not be treated as verified 1180 architecture."
+      },
+      "historical_name": "Montréal",
+      "alternate_names": [
+        "Mons Regalis",
+        "Shobak",
+        "Shawbak"
+      ],
+      "site_type": "castle",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1115,
+          "through_year": 1189,
+          "references": [
+            "https://publication.doa.gov.jo/uploads/publications/63/ADAJ_1988_32-225-246.pdf"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "fortifications"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Published castle point; other gazetteers differ by tens of metres. Later Ayyubid/Mamluk fabric must not be treated as verified 1180 architecture.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          440,
+          368
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          432,
+          360
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 428.2181818181818,
+        "anchor_normalized": [
+          0.5,
+          0.9782608695652174
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -753,10 +1309,10 @@
         ]
       },
       "coordinates": [
-        36.29,
-        34.76
+        36.294444444444444,
+        34.75666666666667
       ],
-      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+      "coordinate_source": "https://whc.unesco.org/en/list/1229/maps",
       "coordinates_surveyed": false,
       "repo_place_id": "P:krak",
       "anchor_normalized": [
@@ -778,7 +1334,9 @@
         ],
         "references": [
           "https://whc.unesco.org/en/list/1229/"
-        ]
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "original_extraction_qa": {
         "id": "CAST-001-STANDALONE",
@@ -819,6 +1377,73 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        36.29,
+        34.76
+      ],
+      "latitude": 34.75666666666667,
+      "longitude": 36.294444444444444,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/list/1229/maps",
+        "published_value": "N34 45 24 E36 17 40",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "UNESCO current map point; older nomination coordinates conflict. Later concentric defenses in painting require repaint review, while the castle site is eligible in 1180."
+      },
+      "historical_name": "Crac de l’Hospital",
+      "alternate_names": [
+        "Krak des Chevaliers",
+        "Qalʿat al-Hosn"
+      ],
+      "site_type": "castle",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1142,
+          "through_year": 1271,
+          "references": [
+            "https://whc.unesco.org/en/list/1229/"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "fortifications"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "UNESCO current map point; older nomination coordinates conflict. Later concentric defenses in painting require repaint review, while the castle site is eligible in 1180.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          1448,
+          1023
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          1440,
+          1015
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 361.72375690607737,
+        "anchor_normalized": [
+          0.5,
+          0.9921798631476051
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -832,10 +1457,14 @@
         "sha256": "bdcc67b99ee95eb8fd470b7a254cb096bb96d405c1a242e7ab0eff26a07897a7"
       },
       "coordinates": [
+        35.23166666666667,
+        31.77777777777778
+      ],
+      "inherited_coordinates": [
         35.23,
         31.78
       ],
-      "coordinate_source": "places.py; inherited approximate map coordinates",
+      "coordinate_source": "https://whc.unesco.org/en/list/148/",
       "coordinates_surveyed": false,
       "repo_place_id": "P:jerusalem",
       "anchor_normalized": [
@@ -871,7 +1500,9 @@
           "https://www.metmuseum.org/exhibitions/listings/2012/byzantium-and-islam/blog/where-in-the-world/posts/dome-of-the-rock",
           "https://islamicart.museumwnf.org/database_item.php?id=monument%3Bisl%3Bpa%3Bmon01%3B4%3Ben",
           "https://www.cambridge.org/core/books/abs/journal-of-medieval-military-history-xxi/capturing-jerusalem-the-fatimidseljuk-crusader-and-ayyubid-fortifications-ditches-and-military-outworks-of-the-city/E5D5FF9BF8A39C307063E262E6C51A37"
-        ]
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "technical_qa": {
         "status": "pass",
@@ -904,6 +1535,73 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        35.23,
+        31.78
+      ],
+      "latitude": 31.77777777777778,
+      "longitude": 35.23166666666667,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/list/148/",
+        "published_value": "N31 46 40 E35 13 54",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Old City representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+      },
+      "historical_name": "Jerusalem",
+      "alternate_names": [
+        "Hierusalem",
+        "al-Quds"
+      ],
+      "site_type": "city",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1099,
+          "through_year": 1187,
+          "references": [
+            "https://webhelper.brown.edu/joukowsky/courses/islamicarch2011/files/15739236.pdf"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "settlements"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Representative site point, not a surveyed building footprint; source precision is not positional accuracy.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          2048,
+          994
+        ],
+        "painted_bounds_xyxy": [
+          51,
+          51,
+          1997,
+          943
+        ],
+        "display_width_atlas_px": 1024,
+        "display_height_atlas_px": 497.0,
+        "anchor_normalized": [
+          0.5,
+          0.9486921529175051
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -917,10 +1615,14 @@
         "sha256": "b9ac76f5027ac2e5da31d981716f4ee6428b52a7266d5575f4fafd18571c80b8"
       },
       "coordinates": [
+        35.52139,
+        32.59556
+      ],
+      "inherited_coordinates": [
         35.52,
         32.6
       ],
-      "coordinate_source": "places.py; inherited approximate map coordinates",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
       "coordinates_surveyed": false,
       "repo_place_id": "P:belvoir",
       "anchor_normalized": [
@@ -953,7 +1655,9 @@
         "references": [
           "https://journals.openedition.org/medievalista/pdf/6265",
           "https://en.parks.org.il/reserve-park/kokhav-hayarden-national-park/"
-        ]
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "technical_qa": {
         "status": "pass",
@@ -986,6 +1690,74 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        35.52,
+        32.6
+      ],
+      "latitude": 32.59556,
+      "longitude": 35.52139,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+        "published_value": "32.59556 N 35.52139 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+      },
+      "historical_name": "Belvoir",
+      "alternate_names": [
+        "Coquet",
+        "Kawkab al-Hawa",
+        "Kochav HaYarden"
+      ],
+      "site_type": "castle",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1168,
+          "through_year": 1189,
+          "references": [
+            "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "fortifications"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Representative site point, not a surveyed building footprint; source precision is not positional accuracy.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          889
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          863
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 444.5,
+        "anchor_normalized": [
+          0.5,
+          0.9707536557930259
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -999,10 +1771,14 @@
         "sha256": "3f5c2785775dd1e8c6fb1a971105c7424eeb2e52494b1331c0b0820b18a850ff"
       },
       "coordinates": [
+        35.084,
+        32.928
+      ],
+      "inherited_coordinates": [
         35.07,
         32.92
       ],
-      "coordinate_source": "places.py; inherited approximate map coordinates",
+      "coordinate_source": "https://whc.unesco.org/document/164227",
       "coordinates_surveyed": false,
       "repo_place_id": "P:acre",
       "anchor_normalized": [
@@ -1033,7 +1809,9 @@
           "https://whc.unesco.org/en/list/1042/",
           "https://hadashot.iaa.org.il/report_detail_eng.aspx?id=1561",
           "https://www.akko.org.il/en/attraction/the-knights-halls/"
-        ]
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "technical_qa": {
         "status": "pass",
@@ -1066,6 +1844,73 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        35.07,
+        32.92
+      ],
+      "latitude": 32.928,
+      "longitude": 35.084,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/document/164227",
+        "published_value": "32.928 / 35.084",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Old City representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Use UNESCO periodic-report Old City point. Main listing gives a different point (32°55′18″N 35°4′8″E); report point is appropriate for the urban icon. No claim of exact medieval centroid."
+      },
+      "historical_name": "Acre",
+      "alternate_names": [
+        "Akko",
+        "Akkon"
+      ],
+      "site_type": "city",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1104,
+          "through_year": 1187,
+          "references": [
+            "https://whc.unesco.org/en/list/1042/"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "settlements"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Use UNESCO periodic-report Old City point. Main listing gives a different point (32°55′18″N 35°4′8″E); report point is appropriate for the urban icon. No claim of exact medieval centroid.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          606
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          580
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 303.0,
+        "anchor_normalized": [
+          0.5,
+          0.9570957095709571
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -1079,10 +1924,14 @@
         "sha256": "67a66c9d6bfbf1e1a9fa0a0f1fea408869662e252942940c3274925a8c00f275"
       },
       "coordinates": [
+        36.18167,
+        36.20472
+      ],
+      "inherited_coordinates": [
         36.16,
         36.2
       ],
-      "coordinate_source": "places.py; inherited approximate map coordinates",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Antioch",
       "coordinates_surveyed": false,
       "repo_place_id": "P:antioch",
       "anchor_normalized": [
@@ -1112,7 +1961,9 @@
         "references": [
           "https://www.persee.fr/doc/topoi_1764-0733_2004_act_5_1_2895?pageId=T1_172",
           "https://www.cambridge.org/core/books/abs/antioch-on-the-orontes/city-walls-of-antioch/18FBD1E6E788EBF65C413479F019F387"
-        ]
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "technical_qa": {
         "status": "pass",
@@ -1145,6 +1996,73 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        36.16,
+        36.2
+      ],
+      "latitude": 36.20472,
+      "longitude": 36.18167,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Antioch",
+        "published_value": "36.20472 N 36.18167 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Historical city representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Secondary gazetteer coordinate for historical Antioch; city extent and painted citadel orientation remain approximate."
+      },
+      "historical_name": "Antioch",
+      "alternate_names": [
+        "Antiochia",
+        "Antakya"
+      ],
+      "site_type": "city",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1098,
+          "through_year": 1268,
+          "references": [
+            "https://en.wikipedia.org/wiki/Principality_of_Antioch"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "settlements"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Secondary gazetteer coordinate for historical Antioch; city extent and painted citadel orientation remain approximate.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          683
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          657
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 341.5,
+        "anchor_normalized": [
+          0.5,
+          0.9619326500732065
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -1158,10 +2076,14 @@
         "sha256": "00a1097df8dba758b9189b4e3947b2cfbcc6d79d9da42a809967b2f6ae1ddea4"
       },
       "coordinates": [
+        35.81783,
+        34.447
+      ],
+      "inherited_coordinates": [
         35.84,
         34.44
       ],
-      "coordinate_source": "places.py; inherited approximate map coordinates",
+      "coordinate_source": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
       "coordinates_surveyed": false,
       "repo_place_id": "P:tripoli",
       "anchor_normalized": [
@@ -1190,7 +2112,9 @@
         },
         "references": [
           "https://real-phd.mtak.hu/2112/1/BTK_DD_2025_chlela.pdf"
-        ]
+        ],
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
       "technical_qa": {
         "status": "pass",
@@ -1223,6 +2147,74 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        35.81,
+        34.45
+      ],
+      "latitude": 34.447,
+      "longitude": 35.81783,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+        "published_value": "34.44700 N 35.81783 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Coastal medieval city / El Mina representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Coastal settlement point, not the inland Mamluk city or Raymond citadel. Exact medieval urban centroid is unknown; composite sheet painting may conflate city and citadel."
+      },
+      "historical_name": "Tripoli",
+      "alternate_names": [
+        "Tripolis",
+        "Tripoli Marina",
+        "al-Mina"
+      ],
+      "site_type": "city",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1109,
+          "through_year": 1289,
+          "references": [
+            "https://scholarworks.aub.edu.lb/server/api/core/bitstreams/9294c2fb-5742-4ece-bdc3-a215070e681c/content"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "settlements"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Coastal settlement point, not the inland Mamluk city or Raymond citadel. Exact medieval urban centroid is unknown; composite sheet painting may conflate city and citadel.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          517
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          491
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 258.5,
+        "anchor_normalized": [
+          0.5,
+          0.9497098646034816
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -1236,8 +2228,8 @@
         "sha256": "e0e0093ed9b0ad4e28c052e370b666f88a9a065fbbf400f18450276705833295"
       },
       "coordinates": [
-        35.65,
-        34.12
+        35.64555555555555,
+        34.119170000000004
       ],
       "repo_place_id": "M:castle_frankish",
       "repo_place_name": "Gibelet",
@@ -1257,9 +2249,11 @@
           "Bridge, masonry patterns and crenellations are schematic"
         ],
         "requires_repaint_review": true,
-        "requires_historical_review": true
+        "requires_historical_review": true,
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
-      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1; approximate",
+      "coordinate_source": "https://whc.unesco.org/en/list/295/",
       "coordinates_surveyed": false,
       "output_width_px": 1024,
       "display_width_units": 512,
@@ -1327,6 +2321,73 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        35.65,
+        34.12
+      ],
+      "latitude": 34.119170000000004,
+      "longitude": 35.64555555555555,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/list/295/",
+        "published_value": "N34 7 9.012 E35 38 44",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Historic site representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+      },
+      "historical_name": "Gibelet",
+      "alternate_names": [
+        "Byblos",
+        "Jbeil"
+      ],
+      "site_type": "castle",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1104,
+          "through_year": 1187,
+          "references": [
+            "https://en.wikipedia.org/wiki/Byblos_Castle"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "fortifications"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Representative site point, not a surveyed building footprint; source precision is not positional accuracy.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          756
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          730
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 378.0,
+        "anchor_normalized": [
+          0.5,
+          0.9656084656084656
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -1340,8 +2401,8 @@
         "sha256": "644747d95ed41dbf8bcbf98f6a883a1c9f9527165c1e85f10f454e46a4841edc"
       },
       "coordinates": [
-        35.2,
-        33.27
+        35.19583333333333,
+        33.26916666666666
       ],
       "repo_place_id": "P:tyre",
       "historical": {
@@ -1360,9 +2421,11 @@
           "Ship rigging and tower heights remain interpretive"
         ],
         "requires_repaint_review": true,
-        "requires_historical_review": true
+        "requires_historical_review": true,
+        "exclude_from_1180": false,
+        "later_period_only": false
       },
-      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1; approximate",
+      "coordinate_source": "https://whc.unesco.org/en/list/299/",
       "coordinates_surveyed": false,
       "output_width_px": 1024,
       "display_width_units": 512,
@@ -1430,6 +2493,74 @@
         "from_year": 1180,
         "through_year": 1180,
         "basis": "working circa-1180 depiction only; other years require phase review"
+      },
+      "legacy_coordinates": [
+        35.2,
+        33.27
+      ],
+      "latitude": 33.26916666666666,
+      "longitude": 35.19583333333333,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/list/299/",
+        "published_value": "N33 16 09 E35 11 45",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Historic peninsula archaeological site representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "UNESCO peninsula point, not inland Al-Bass necropolis; representative city anchor rather than a medieval urban centroid."
+      },
+      "historical_name": "Tyre",
+      "alternate_names": [
+        "Tyr",
+        "Sur",
+        "Sour"
+      ],
+      "site_type": "city",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1124,
+          "through_year": 1291,
+          "references": [
+            "https://en.wikipedia.org/wiki/Tyre,_Lebanon"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "map_layers": [
+        "sprites-1180",
+        "settlements"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "UNESCO peninsula point, not inland Al-Bass necropolis; representative city anchor rather than a medieval urban centroid.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ],
+      "duplicate_of": null,
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          601
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          575
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 300.5,
+        "anchor_normalized": [
+          0.5,
+          0.956738768718802
+        ],
+        "geographic_scale": false
       }
     },
     {
@@ -1439,8 +2570,8 @@
       "category": "castle",
       "asset": null,
       "coordinates": [
-        35.52,
-        32.6
+        35.52139,
+        32.59556
       ],
       "repo_place_id": "P:belvoir",
       "source": {
@@ -1471,7 +2602,58 @@
           "Do not substitute the sheet image and claim the missing standalone was recovered."
         ],
         "references": []
-      }
+      },
+      "legacy_coordinates": [
+        35.52,
+        32.6
+      ],
+      "latitude": 32.59556,
+      "longitude": 35.52139,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+        "published_value": "32.59556 N 35.52139 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+      },
+      "coordinates_surveyed": false,
+      "historical_name": "Belvoir",
+      "alternate_names": [
+        "Coquet",
+        "Kawkab al-Hawa",
+        "Kochav HaYarden"
+      ],
+      "site_type": "castle",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1168,
+          "through_year": 1189,
+          "references": [
+            "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "available_at_default_year": true,
+          "basis": "working circa-1180 brief"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": false,
+      "map_layers": [
+        "sprites-1180",
+        "fortifications"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Representative site point, not a surveyed building footprint; source precision is not positional accuracy.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ]
     },
     {
       "id": "kerak-prior-standalone-missing",
@@ -1480,8 +2662,8 @@
       "category": "castle",
       "asset": null,
       "coordinates": [
-        35.7,
-        31.18
+        35.70139,
+        31.18056
       ],
       "repo_place_id": "P:kerak",
       "source": {
@@ -1512,7 +2694,58 @@
           "Do not substitute the sheet image and claim the missing standalone was recovered."
         ],
         "references": []
-      }
+      },
+      "legacy_coordinates": [
+        35.7,
+        31.18
+      ],
+      "latitude": 31.18056,
+      "longitude": 35.70139,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Kerak_Castle",
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Kerak_Castle",
+        "published_value": "31.18056 N 35.70139 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+      },
+      "coordinates_surveyed": false,
+      "historical_name": "Kerak",
+      "alternate_names": [
+        "Crac des Moabites",
+        "al-Karak"
+      ],
+      "site_type": "castle",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1142,
+          "through_year": 1188,
+          "references": [
+            "https://moses.creighton.edu/vr/Kerak/txt/intro.html",
+            "https://en.wikipedia.org/wiki/Kerak_Castle"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "available_at_default_year": true,
+          "basis": "working circa-1180 brief"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": false,
+      "map_layers": [
+        "sprites-1180",
+        "fortifications"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Representative site point, not a surveyed building footprint; source precision is not positional accuracy.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ]
     },
     {
       "id": "montreal-shobak-prior-standalone-missing",
@@ -1521,8 +2754,8 @@
       "category": "castle",
       "asset": null,
       "coordinates": [
-        35.53,
-        30.53
+        35.5608,
+        30.5315
       ],
       "repo_place_id": "P:montreal",
       "source": {
@@ -1553,7 +2786,58 @@
           "Do not substitute the sheet image and claim the missing standalone was recovered."
         ],
         "references": []
-      }
+      },
+      "legacy_coordinates": [
+        35.53,
+        30.53
+      ],
+      "latitude": 30.5315,
+      "longitude": 35.5608,
+      "coordinate_source": "https://www.sacred-destinations.com/jordan/shobak-castle",
+      "coordinate_evidence": {
+        "url": "https://www.sacred-destinations.com/jordan/shobak-castle",
+        "published_value": "30.5315 N 35.5608 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Published castle point; other gazetteers differ by tens of metres. Later Ayyubid/Mamluk fabric must not be treated as verified 1180 architecture."
+      },
+      "coordinates_surveyed": false,
+      "historical_name": "Montréal",
+      "alternate_names": [
+        "Mons Regalis",
+        "Shobak",
+        "Shawbak"
+      ],
+      "site_type": "castle",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1115,
+          "through_year": 1189,
+          "references": [
+            "https://publication.doa.gov.jo/uploads/publications/63/ADAJ_1988_32-225-246.pdf"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "available_at_default_year": true,
+          "basis": "working circa-1180 brief"
+        }
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": false,
+      "map_layers": [
+        "sprites-1180",
+        "fortifications"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Published castle point; other gazetteers differ by tens of metres. Later Ayyubid/Mamluk fabric must not be treated as verified 1180 architecture.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ]
     },
     {
       "id": "montfort-prior-standalone-missing",
@@ -1562,8 +2846,8 @@
       "category": "castle",
       "asset": null,
       "coordinates": [
-        35.24,
-        33.04
+        35.22611,
+        33.04472
       ],
       "repo_place_id": "P:montfort",
       "source": {
@@ -1596,7 +2880,141 @@
         "references": [
           "https://moses.creighton.edu/vr/Montfort/txt/intro.html"
         ]
-      }
+      },
+      "legacy_coordinates": [
+        35.24,
+        33.04
+      ],
+      "latitude": 33.04472,
+      "longitude": 35.22611,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Montfort_Castle",
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Montfort_Castle",
+        "published_value": "33.04472 N 35.22611 E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "1226 is construction start; later depiction needs phase review. Main Teutonic castle is anachronistic in 1180."
+      },
+      "coordinates_surveyed": false,
+      "historical_name": "Montfort",
+      "alternate_names": [
+        "Starkenberg",
+        "Qalʿat al-Qurain"
+      ],
+      "site_type": "castle",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1226,
+          "through_year": 1271,
+          "references": [
+            "https://moses.creighton.edu/vr/Montfort/txt/intro.html"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1226,
+          "through_year": 1271,
+          "available_at_default_year": false,
+          "basis": "1226 is construction start, not completion or approval for any phase"
+        }
+      },
+      "period_1180_eligible": false,
+      "approval_for_placement": false,
+      "map_layers": [
+        "later-period-review"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "1226 is construction start; later depiction needs phase review. Main Teutonic castle is anachronistic in 1180.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ]
+    },
+    {
+      "id": "chateau-pelerin-batch-missing",
+      "site_id": "chateau-pelerin",
+      "name": "Château Pèlerin",
+      "category": "castle",
+      "asset": null,
+      "selection_priority": 0,
+      "source": {
+        "status": "not-recovered",
+        "note": "Named in inaccessible 1180 batch; original ZIP and manifest not recovered."
+      },
+      "technical_qa": {
+        "status": "not-run-missing-source"
+      },
+      "approval": {
+        "status": "pending-source-recovery",
+        "provisional_map_use": false,
+        "repaint_later": true
+      },
+      "availability": {
+        "from_year": 1218,
+        "through_year": 1291,
+        "basis": "Later-period site; depicted phase requires review"
+      },
+      "historical": {
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "exclude_from_1180": true,
+        "later_period_only": true
+      },
+      "legacy_coordinates": null,
+      "coordinates": [
+        34.93388888888889,
+        32.70528055555556
+      ],
+      "latitude": 32.70528055555556,
+      "longitude": 34.93388888888889,
+      "coordinate_source": "https://commons.wikimedia.org/wiki/Category:Chateau_Pelerin",
+      "coordinate_evidence": {
+        "url": "https://commons.wikimedia.org/wiki/Category:Chateau_Pelerin",
+        "published_value": "32°42′19.01″N 34°56′02″E",
+        "accessed": "2026-11-07",
+        "anchor_kind": "Castle representative point",
+        "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+        "uncertainty_note": "Templar fortress dates to 1218; not an 1180 asset. Earlier nearby fortifications do not justify using this fortress."
+      },
+      "coordinates_surveyed": false,
+      "historical_name": "Château Pèlerin",
+      "alternate_names": [
+        "Castrum Peregrinorum",
+        "Atlit"
+      ],
+      "site_type": "castle",
+      "date_ranges": {
+        "site_frankish_phase": {
+          "from_year": 1218,
+          "through_year": 1291,
+          "references": [
+            "https://en.wikipedia.org/wiki/Ch%C3%A2teau_P%C3%A8lerin"
+          ],
+          "scope": "First Frankish phase; endpoint year may include change of control. Does not certify all painted structures."
+        },
+        "approved_art": {
+          "from_year": 1218,
+          "through_year": 1291,
+          "basis": "Later-period site; depicted phase requires review"
+        }
+      },
+      "period_1180_eligible": false,
+      "approval_for_placement": false,
+      "map_layers": [
+        "later-period-review"
+      ],
+      "review_required": true,
+      "repaint_required": true,
+      "uncertainty_notes": [
+        "Templar fortress dates to 1218; not an 1180 asset. Earlier nearby fortifications do not justify using this fortress.",
+        "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
+      ]
     }
-  ]
+  ],
+  "coordinate_precision_policy": "Published points transcribed exactly; not surveyed medieval footprints. See per-site evidence and uncertainty.",
+  "deduplication": {
+    "method": "SHA-256 encoded PNG; preferred variant per site for placement",
+    "unique_pngs": 16
+  }
 }

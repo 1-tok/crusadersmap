@@ -7,6 +7,7 @@ from pathlib import Path
 import argparse
 import hashlib
 import json
+import re
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent
@@ -43,6 +44,8 @@ def placements(catalog, year):
         if not (e['asset'] and e['approval']['provisional_map_use']
                 and e['technical_qa']['status'] == 'pass'):
             continue
+        if year == 1180 and not e.get('period_1180_eligible', True):
+            continue
         if not period['from_year'] <= year <= period['through_year']:
             continue
         site = e['site_id']
@@ -68,7 +71,9 @@ def build():
             id=e['id'], site_id=e['id'].removesuffix('-1180-v2'), name=e['id'].removesuffix('-1180-v2').title(),
             category='castle' if e['id'].startswith('belvoir') else 'city',
             asset='historical-1180/'+e['file'], source=dict(path='historical-1180/'+e['source'], sha256=e['source_sha256']),
-            coordinates=e['coordinates'], coordinate_source='places.py; inherited approximate map coordinates',
+            coordinates=e.get('proposed_placement_coordinates', e['coordinates']),
+            inherited_coordinates=e['coordinates'],
+            coordinate_source='historical batch proposed coastal anchor' if 'proposed_placement_coordinates' in e else 'places.py; inherited approximate map coordinates',
             coordinates_surveyed=False, repo_place_id=e['repo_place_id'],
             anchor_normalized=e['anchor_normalized'], display_width_units=e['display_width_units'], selection_priority=30,
             historical=dict(target_year=1180, accuracy='period-informed-interpretation',
@@ -112,8 +117,61 @@ def build():
         anchor_convention='normalized PNG x/y; bottom-center painted-ground convention, not true georeferencing',
         units='display widths in full-size 10800 x 14400 atlas pixels',
         assets=assets+missing)
+    enrich(catalog)
     write(BASE/'catalog.json', catalog)
     return catalog
+
+
+def enrich(catalog):
+    sites = read(BASE/'sites.json')['sites']
+    catalog['schema_version'] = 2
+    catalog['coordinate_order'] = 'longitude, latitude (EPSG:4326); sourced representative site points'
+    catalog['coordinate_precision_policy'] = 'Published points transcribed exactly; not surveyed medieval footprints. See per-site evidence and uncertainty.'
+    catalog['assets'].append(dict(id='chateau-pelerin-batch-missing', site_id='chateau-pelerin',
+        name='Château Pèlerin', category='castle', asset=None, selection_priority=0,
+        source=dict(status='not-recovered', note='Named in inaccessible 1180 batch; original ZIP and manifest not recovered.'),
+        technical_qa=dict(status='not-run-missing-source'),
+        approval=dict(status='pending-source-recovery', provisional_map_use=False, repaint_later=True),
+        availability=dict(from_year=1218, through_year=1291, basis='Later-period site; depicted phase requires review'),
+        historical=dict(requires_historical_review=True, requires_repaint_review=True)))
+    ids, hashes = set(), {}
+    for e in catalog['assets']:
+        assert e['id'] not in ids, e['id']
+        ids.add(e['id'])
+        s = sites[e['site_id']]
+        e['legacy_coordinates'] = e.get('coordinates')
+        e['coordinates'] = [s['longitude'], s['latitude']]
+        e['latitude'], e['longitude'] = s['latitude'], s['longitude']
+        e['coordinate_source'] = s['coordinate_evidence']['url']
+        e['coordinate_evidence'] = s['coordinate_evidence']
+        e['coordinates_surveyed'] = False
+        e['historical_name'], e['alternate_names'] = s['historical_name'], s['alternate_names']
+        e['site_type'] = e['category']
+        e['date_ranges'] = dict(site_frankish_phase=s['crusader_phase'], approved_art=e['availability'])
+        e['period_1180_eligible'] = s['period_1180_eligible']
+        e['approval_for_placement'] = bool(e['asset'] and s['period_1180_eligible'] and e['technical_qa']['status']=='pass')
+        e['approval']['provisional_map_use'] = e['approval_for_placement']
+        e['historical']['exclude_from_1180'] = not s['period_1180_eligible']
+        e['historical']['later_period_only'] = not s['period_1180_eligible']
+        e['map_layers'] = ['sprites-1180', 'fortifications' if e['category']=='castle' else 'settlements'] if s['period_1180_eligible'] else ['later-period-review']
+        e['review_required'] = e['repaint_required'] = True
+        e['uncertainty_notes'] = [s['coordinate_evidence']['uncertainty_note'], 'Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail.']
+        if e['asset']:
+            assert re.fullmatch(r'[a-z0-9/-]+\.png', e['asset']), e['asset']
+            assert (BASE/e['asset']).resolve().is_relative_to(BASE.resolve())
+            q = e['technical_qa']
+            # Identical encoded PNGs share a canonical asset path; paintings remain variants.
+            key = q['sha256']
+            e['duplicate_of'] = hashes.get(key, {}).get('id')
+            if key in hashes:
+                e['asset'] = hashes[key]['asset']
+            else:
+                hashes[key] = e
+            w,h = q['dimensions_px']
+            e['visual_footprint'] = dict(canvas_px=[w,h], painted_bounds_xyxy=q['painted_bounds_xyxy'],
+                display_width_atlas_px=e['display_width_units'], display_height_atlas_px=e['display_width_units']*h/w,
+                anchor_normalized=e['anchor_normalized'], geographic_scale=False)
+    catalog['deduplication'] = dict(method='SHA-256 encoded PNG; preferred variant per site for placement', unique_pngs=len(hashes))
 
 
 def export(catalog, year):
@@ -124,6 +182,9 @@ def export(catalog, year):
             properties=dict(site_id=e['site_id'], name=e['name'], asset=e['asset'],
                 anchor_normalized=e['anchor_normalized'], display_width_units=e['display_width_units'],
                 status=e['approval']['status'], repaint_later=True, year=year)))
+        features[-1]['properties'].update(approval_for_placement=e['approval_for_placement'],
+            map_layers=e['map_layers'], historical_name=e['historical_name'],
+            coordinate_evidence=e['coordinate_evidence'], visual_footprint=e['visual_footprint'])
     path=BASE/f'placements-{year}.geojson'
     write(path, dict(type='FeatureCollection', features=features))
     return path, len(features)
