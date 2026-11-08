@@ -32,3 +32,7 @@ See [data/sprites](data/sprites/README.md) for nine transparent city/castle asse
 ## Mountain terrain pieces
 
 [data/terrain](data/terrain/README.md) contains 32 transparent regional mountain and connector stamps spanning Palestine, Lebanon, Anatolia and Greece, with source images, generation prompts and placement guidance. Rebuild using `python3 build_terrain.py`. See [terrain preview](previews/terrain-library.jpg).
+
+## Deserts, roads and Jordan-basin artwork
+
+[data/landscape-assets](data/landscape-assets/README.md) adds nine transparent desert, oasis, valley, road, river and lake illustrations, including the Jordan, Sea of Galilee and Dead Sea. Geographic shapes and medieval shorelines remain flagged for review. Build with `python3 build_landscape_assets.py`; see [light/dark preview](previews/desert-water-road-assets.jpg).

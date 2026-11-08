@@ -1,0 +1,156 @@
+{
+  "type": "FeatureCollection",
+  "scope": "Context anchors and unassigned road segments, not approved geographic geometry",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2,
+          30.0
+        ]
+      },
+      "properties": {
+        "id": "sand-dunes",
+        "asset": "data/landscape-assets/png/sand-dunes.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33,
+          31.55
+        ]
+      },
+      "properties": {
+        "id": "rocky-desert",
+        "asset": "data/landscape-assets/png/rocky-desert.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.44,
+          31.87
+        ]
+      },
+      "properties": {
+        "id": "palm-oasis",
+        "asset": "data/landscape-assets/png/palm-oasis.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.55,
+          32.05
+        ]
+      },
+      "properties": {
+        "id": "broad-valley-floor",
+        "asset": "data/landscape-assets/png/broad-valley-floor.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "road-straight",
+        "asset": "data/landscape-assets/png/road-straight.png",
+        "orientation": "near-overhead-left-right",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "road-bend",
+        "asset": "data/landscape-assets/png/road-bend.png",
+        "orientation": "near-overhead-left-right",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.55,
+          32.1
+        ]
+      },
+      "properties": {
+        "id": "jordan-river",
+        "asset": "data/landscape-assets/png/jordan-river.png",
+        "orientation": "north-up-near-overhead",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.58,
+          32.84
+        ]
+      },
+      "properties": {
+        "id": "sea-of-galilee",
+        "asset": "data/landscape-assets/png/sea-of-galilee.png",
+        "orientation": "north-up-near-overhead",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.48,
+          31.5
+        ]
+      },
+      "properties": {
+        "id": "dead-sea",
+        "asset": "data/landscape-assets/png/dead-sea.png",
+        "orientation": "north-up-near-overhead",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    }
+  ]
+}

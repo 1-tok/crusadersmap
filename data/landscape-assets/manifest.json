@@ -1,0 +1,570 @@
+{
+  "schema_version": 1,
+  "generation_method": "built-in image_gen",
+  "status": "packaged-technical-validation-passed",
+  "usage": "Reusable terrain and schematic water/road assets; no automatic replacement of geographic map layers",
+  "assets": [
+    {
+      "id": "sand-dunes",
+      "name": "Sand Dunes",
+      "category": "desert",
+      "source": "sources/sand-dunes.png",
+      "file": "png/sand-dunes.png",
+      "target_long_edge_px": 1024,
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": [
+          35.2,
+          30.0
+        ],
+        "coordinates_verified": false,
+        "geometry_role": "regional-context-only-not-exact-placement",
+        "automatic_placement": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "dimensions_px": [
+        1024,
+        228
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_trim_xyxy": [
+        23,
+        227,
+        2151,
+        612
+      ],
+      "sha256": "210fc7417cb18810387c7bd0562bc27675046ad1ce9412920241464d2b922cb5",
+      "source_sha256": "ef3bdcb8cd5d5ffd905dfe9d277f5370adfa162ee19dc728cb185fbec741f0e9",
+      "anchor_normalized": [
+        0.5357477124110924,
+        0.8859649122807017
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 26,
+        "source_nonzero_alpha": 608909,
+        "cleaned_source_nonzero_alpha": 578327,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+    },
+    {
+      "id": "rocky-desert",
+      "name": "Rocky Desert",
+      "category": "desert",
+      "source": "sources/rocky-desert.png",
+      "file": "png/rocky-desert.png",
+      "target_long_edge_px": 1024,
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": [
+          35.33,
+          31.55
+        ],
+        "coordinates_verified": false,
+        "geometry_role": "regional-context-only-not-exact-placement",
+        "automatic_placement": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "dimensions_px": [
+        1024,
+        250
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_trim_xyxy": [
+        15,
+        147,
+        2157,
+        584
+      ],
+      "sha256": "fc9366ad1f458d15ccdc76e20b59ec92bb03b69473275e99b0e000906e4fa04d",
+      "source_sha256": "f4610b85072850c080906de0060a308fbd80d8b364724f28536a766fa84e03ed",
+      "anchor_normalized": [
+        0.49588605806493286,
+        0.896
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 26,
+        "source_nonzero_alpha": 572144,
+        "cleaned_source_nonzero_alpha": 547549,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+    },
+    {
+      "id": "palm-oasis",
+      "name": "Palm Oasis",
+      "category": "oasis",
+      "source": "sources/palm-oasis.png",
+      "file": "png/palm-oasis.png",
+      "target_long_edge_px": 1024,
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": [
+          35.44,
+          31.87
+        ],
+        "coordinates_verified": false,
+        "geometry_role": "regional-context-only-not-exact-placement",
+        "automatic_placement": false,
+        "notes": "Generic oasis motif; Jericho-region anchor is context, not identification of a particular documented spring. Depicted pool and palms require site review."
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "dimensions_px": [
+        1024,
+        711
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        49,
+        17,
+        1497,
+        999
+      ],
+      "sha256": "46626b7a105f6d04967d516134b84f674aa741003874ff6ba63f5498d6dc86c0",
+      "source_sha256": "03b51bec2a60af835ddd1d3568ec07b28d0ab6c6821e0619a787431a2b01edf1",
+      "anchor_normalized": [
+        0.5080678461097644,
+        0.9634317862165963
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 26,
+        "source_nonzero_alpha": 875140,
+        "cleaned_source_nonzero_alpha": 750532,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+    },
+    {
+      "id": "broad-valley-floor",
+      "name": "Broad Valley Floor",
+      "category": "valley",
+      "source": "sources/broad-valley-floor.png",
+      "file": "png/broad-valley-floor.png",
+      "target_long_edge_px": 1024,
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": [
+          35.55,
+          32.05
+        ],
+        "coordinates_verified": false,
+        "geometry_role": "regional-context-only-not-exact-placement",
+        "automatic_placement": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "dimensions_px": [
+        1024,
+        262
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_trim_xyxy": [
+        18,
+        162,
+        2155,
+        623
+      ],
+      "sha256": "55338a864c539f565b02303cc19be359b49674ec63b6673796a0b5689b1789a9",
+      "source_sha256": "d87a5bf0c050f3bdaf88032480b41377cfdf801db5081e18e9c5112f47226a2a",
+      "anchor_normalized": [
+        0.49943519396153135,
+        0.9007633587786259
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 26,
+        "source_nonzero_alpha": 626263,
+        "cleaned_source_nonzero_alpha": 585098,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+    },
+    {
+      "id": "road-straight",
+      "name": "Road Straight",
+      "category": "road",
+      "source": "sources/road-straight.png",
+      "file": "png/road-straight.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead-left-right",
+      "placement": {
+        "region": "unassigned-route-segment",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "no-historical-route-implied",
+        "automatic_placement": false,
+        "notes": "Join using visual endpoints, then adapt to researched route geometry. Do not use repeated straight stamps as evidence of a historical alignment."
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified",
+        "joins-not-mathematically-seamless"
+      ],
+      "join_endpoints_original_orientation": [
+        "left",
+        "right"
+      ],
+      "dimensions_px": [
+        1536,
+        144
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_trim_xyxy": [
+        7,
+        310,
+        2165,
+        410
+      ],
+      "sha256": "0291a05463e36af6e08b083a5f23da12407f6decad1386e88fe6e22a7e237791",
+      "source_sha256": "b5a521866c308959c798010a3f003e6c6c25c9f6673fe26e921a85e0ff612d7f",
+      "anchor_normalized": [
+        0.5,
+        0.5
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 188323,
+        "cleaned_source_nonzero_alpha": 165271,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "connection_hints_normalized": {
+        "left": [
+          0.024739583333333332,
+          0.52549905138992
+        ],
+        "right": [
+          0.9752604166666666,
+          0.5261860446378213
+        ],
+        "status": "approximate centerline hints; inspect bends and endpoint elevations before joining"
+      },
+      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+    },
+    {
+      "id": "road-bend",
+      "name": "Road Bend",
+      "category": "road",
+      "source": "sources/road-bend.png",
+      "file": "png/road-bend.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead-left-right",
+      "placement": {
+        "region": "unassigned-route-segment",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "no-historical-route-implied",
+        "automatic_placement": false,
+        "notes": "Join using visual endpoints, then adapt to researched route geometry. Do not use repeated straight stamps as evidence of a historical alignment."
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified",
+        "joins-not-mathematically-seamless"
+      ],
+      "join_endpoints_original_orientation": [
+        "left",
+        "right"
+      ],
+      "dimensions_px": [
+        1536,
+        293
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_trim_xyxy": [
+        11,
+        210,
+        2161,
+        530
+      ],
+      "sha256": "61d533f6c4106e8e298312b102e4d672334478e4452c16970f3a61ce4673e5af",
+      "source_sha256": "0c6878563db61af99a2d7f6a0a4b5c1473b3b52621a44f8477cd52729bbad8bf",
+      "anchor_normalized": [
+        0.5,
+        0.5
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 226834,
+        "cleaned_source_nonzero_alpha": 198238,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "connection_hints_normalized": {
+        "left": [
+          0.024739583333333332,
+          0.5618847566323804
+        ],
+        "right": [
+          0.9752604166666666,
+          0.45928261397624415
+        ],
+        "status": "approximate centerline hints; inspect bends and endpoint elevations before joining"
+      },
+      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+    },
+    {
+      "id": "jordan-river",
+      "name": "Jordan River",
+      "category": "river",
+      "source": "sources/jordan-river.png",
+      "file": "png/jordan-river.png",
+      "target_long_edge_px": 2048,
+      "orientation": "north-up-near-overhead",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": [
+          35.55,
+          32.1
+        ],
+        "coordinates_verified": false,
+        "geometry_role": "regional-context-only-not-exact-placement",
+        "automatic_placement": false,
+        "connects": {
+          "north": "Sea of Galilee southern outlet",
+          "south": "Dead Sea northern inlet"
+        },
+        "suggested_endpoint_lonlat": {
+          "north": [
+            35.55,
+            32.7
+          ],
+          "south": [
+            35.55,
+            31.76
+          ]
+        },
+        "notes": "Schematic Lower Jordan segment. Fit an independently researched course; no automatic rigid fit between endpoints. Keep Yarmuk junction and lakes distinct."
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [
+        "https://science.nasa.gov/earth/earth-observatory/sea-of-galilee-147685/",
+        "https://www.nasa.gov/image-article/dead-sea-2/"
+      ],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "dimensions_px": [
+        297,
+        2048
+      ],
+      "source_dimensions_px": [
+        724,
+        2172
+      ],
+      "source_trim_xyxy": [
+        228,
+        0,
+        446,
+        2172
+      ],
+      "sha256": "7947bd18e79a4bb83d4765717d36aca1e9ac962132051e16263d89cb57db6d64",
+      "source_sha256": "dc9aa2760e8e74ba5c63feba5efb106409086de4a1c76f8be03155f17def8dfd",
+      "anchor_normalized": [
+        0.5,
+        0.5
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 51,
+        "source_nonzero_alpha": 268508,
+        "cleaned_source_nonzero_alpha": 224221,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "connection_hints_normalized": {
+        "north": [
+          0.5882105190603167,
+          0.02490234375
+        ],
+        "south": [
+          0.46619472064840234,
+          0.97509765625
+        ],
+        "status": "approximate; inspect actual channel center at each end"
+      },
+      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+    },
+    {
+      "id": "sea-of-galilee",
+      "name": "Sea Of Galilee",
+      "category": "lake",
+      "source": "sources/sea-of-galilee.png",
+      "file": "png/sea-of-galilee.png",
+      "target_long_edge_px": 1536,
+      "orientation": "north-up-near-overhead",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": [
+          35.58,
+          32.84
+        ],
+        "coordinates_verified": false,
+        "geometry_role": "regional-context-only-not-exact-placement",
+        "automatic_placement": false,
+        "notes": "North-up center context. Align to geographic lake geometry; generated outline and stubs are not control-point accurate. Protect Tiberias and shore sites."
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [
+        "https://science.nasa.gov/earth/earth-observatory/sea-of-galilee-147685/"
+      ],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified",
+        "shoreline-and-inlet-outlet-positions-schematic"
+      ],
+      "dimensions_px": [
+        995,
+        1536
+      ],
+      "source_dimensions_px": [
+        1060,
+        1484
+      ],
+      "source_trim_xyxy": [
+        57,
+        3,
+        985,
+        1477
+      ],
+      "sha256": "5e6d0217cb7c2e87b6d637557eae28886463477d015c95ceb10fe5a010cb31bc",
+      "source_sha256": "2e3d472bcdd61f257be966cda8ded64c330b331eb4660f6991b4653754294ba2",
+      "anchor_normalized": [
+        0.5,
+        0.5
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 766569,
+        "cleaned_source_nonzero_alpha": 745001,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+    },
+    {
+      "id": "dead-sea",
+      "name": "Dead Sea",
+      "category": "lake",
+      "source": "sources/dead-sea.png",
+      "file": "png/dead-sea.png",
+      "target_long_edge_px": 1536,
+      "orientation": "north-up-near-overhead",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": [
+          35.48,
+          31.5
+        ],
+        "coordinates_verified": false,
+        "geometry_role": "regional-context-only-not-exact-placement",
+        "automatic_placement": false,
+        "notes": "North-up illustrative connected basins; no modern evaporation ponds. Lisan geometry, aspect ratio and medieval shoreline need correction against period evidence before geographic use."
+      },
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [
+        "https://eros.usgs.gov/earthshots/dead-sea-israel-jordan-west-bank",
+        "https://pubs.geoscienceworld.org/gsa/gsabulletin/article-abstract/116/5-6/555/2079/Late-Holocene-lake-levels-of-the-Dead-Sea"
+      ],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified",
+        "historical-lake-level-and-southern-basin-extent-unresolved"
+      ],
+      "dimensions_px": [
+        612,
+        1536
+      ],
+      "source_dimensions_px": [
+        887,
+        1774
+      ],
+      "source_trim_xyxy": [
+        78,
+        0,
+        729,
+        1774
+      ],
+      "sha256": "1160d1c198218ef7122722e1df6be13d79f08448a3d9d0b08b19bdf78db26c99",
+      "source_sha256": "f94296fef848ffc7ab99665ce1df07db7701cc9b1ef0576dcd2b1c033c85c962",
+      "anchor_normalized": [
+        0.5,
+        0.5
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 749587,
+        "cleaned_source_nonzero_alpha": 729134,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "visual_review": "light-and-dark-review-complete; geographic-review-pending"
+    }
+  ]
+}
