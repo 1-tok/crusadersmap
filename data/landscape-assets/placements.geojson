@@ -406,7 +406,7 @@
         "asset": "data/landscape-assets/png/dry-stone-pasture.png",
         "orientation": "near-overhead",
         "placement_status": "generic-manual-placement",
-        "approval": "available-for-generic-placement",
+        "approval": "approved-for-generic-placement",
         "historical_accuracy_certified": false
       }
     },
@@ -418,7 +418,7 @@
         "asset": "data/landscape-assets/png/shallow-desert-wash.png",
         "orientation": "near-overhead",
         "placement_status": "generic-manual-placement",
-        "approval": "available-for-generic-placement",
+        "approval": "approved-for-generic-placement",
         "historical_accuracy_certified": false
       }
     },
@@ -428,6 +428,42 @@
       "properties": {
         "id": "aegean-low-scrub-islet",
         "asset": "data/landscape-assets/png/aegean-low-scrub-islet.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "approved-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "river-floodplain-fields",
+        "asset": "data/landscape-assets/png/river-floodplain-fields.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "available-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "desert-gravel-sand-transition",
+        "asset": "data/landscape-assets/png/desert-gravel-sand-transition.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "available-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "aegean-coastal-rocks",
+        "asset": "data/landscape-assets/png/aegean-coastal-rocks.png",
         "orientation": "near-overhead",
         "placement_status": "generic-manual-placement",
         "approval": "available-for-generic-placement",

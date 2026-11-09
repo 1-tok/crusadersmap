@@ -1,6 +1,6 @@
 # Desert, oasis, valley, road and Jordan-basin assets
 
-Thirty-one transparent terrain and water assets complement the 32-piece mountain/vegetation kit:
+Thirty-four transparent terrain and water assets complement the 32-piece mountain/vegetation kit:
 
 | File in `png/` | Use |
 |---|---|
@@ -93,3 +93,9 @@ shallow desert wash as a dry drainage accent on flat ground, and the low scrub
 islet as a schematic coastal symbol. The latter two represent illustrative
 forms. Their positions are assigned by the map editor. Generation prompts are
 in `generic-terrain-02-prompts.json`.
+
+The dry stone pasture, shallow wash and low scrub islet are approved for
+generic placement. The next three stamps have no fixed coordinates. Use the
+floodplain fields on level cultivated ground, the gravel-to-sand stamp to
+blend adjacent desert textures, and the coastal rocks as schematic skerries.
+Generation prompts are in `generic-terrain-03-prompts.json`.

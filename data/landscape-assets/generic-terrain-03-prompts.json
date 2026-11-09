@@ -1,0 +1,15 @@
+[
+  {
+    "id": "river-floodplain-fields",
+    "prompt": "Nearly flat preindustrial eastern Mediterranean floodplain farmland stamp, small irregular grain and fallow plots with soft grassy margins. No river, ditches, buildings or roads. A single isolated near-overhead historical atlas map sprite, fine ink and muted watercolor, diffuse upper-left light. Entire silhouette within generous margins. Genuine transparent alpha outside the painted ground. No lettering, frame, background or cast shadow outside the silhouette."
+  },
+  {
+    "id": "desert-gravel-sand-transition",
+    "prompt": "Wide very flat desert transition stamp with pale fine sand on one side gradually blending into muted grey-buff gravel pavement on the other, sparse pebbles, no dunes or relief. A single isolated near-overhead historical atlas map sprite, fine ink and muted watercolor, diffuse upper-left light. Entire silhouette within generous margins. Genuine transparent alpha outside the painted ground. No lettering, frame, background or cast shadow outside the silhouette."
+  },
+  {
+    "id": "aegean-coastal-rocks",
+    "prompt": "A tiny loose cluster of three low pale limestone Aegean skerries, varied sizes, with only a touch of olive scrub on the largest one. Dry rocks only, transparent sea, schematic geography. A single isolated near-overhead historical atlas map sprite, fine ink and muted watercolor, diffuse upper-left light. Entire silhouette within generous margins. Genuine transparent alpha outside the painted ground. No lettering, frame, background or cast shadow outside the silhouette.",
+    "refinement_prompt": "Edit this sprite. Remove all painted blue water and underwater rocks. The gaps between the three primary dry limestone rocks must be fully transparent, as must everything outside the dry rock silhouettes. Preserve the shapes, limestone ink detail, perspective and sparse scrub. Keep the detached dry rocks in their existing relative positions with generous transparent margins. Render actual alpha transparency."
+  }
+]

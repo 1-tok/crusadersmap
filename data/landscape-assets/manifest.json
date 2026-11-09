@@ -1610,13 +1610,13 @@
         "automatic_placement": false
       },
       "placement_use": "open-pasture-transition",
-      "approval": "available-for-generic-placement",
+      "approval": "approved-for-generic-placement",
       "historical_accuracy_certified": false,
       "references": [],
       "review_flags": [
         "illustrative-terrain"
       ],
-      "acceptance": "generated-under-user-direction",
+      "acceptance": "accepted-by-user",
       "dimensions_px": [
         1536,
         1024
@@ -1662,13 +1662,13 @@
         "automatic_placement": false
       },
       "placement_use": "dry-drainage-accent",
-      "approval": "available-for-generic-placement",
+      "approval": "approved-for-generic-placement",
       "historical_accuracy_certified": false,
       "references": [],
       "review_flags": [
         "illustrative-terrain"
       ],
-      "acceptance": "generated-under-user-direction",
+      "acceptance": "accepted-by-user",
       "dimensions_px": [
         1536,
         992
@@ -1714,13 +1714,13 @@
         "automatic_placement": false
       },
       "placement_use": "schematic-islet",
-      "approval": "available-for-generic-placement",
+      "approval": "approved-for-generic-placement",
       "historical_accuracy_certified": false,
       "references": [],
       "review_flags": [
         "illustrative-terrain"
       ],
-      "acceptance": "generated-under-user-direction",
+      "acceptance": "accepted-by-user",
       "dimensions_px": [
         1536,
         646
@@ -1746,6 +1746,162 @@
         "padding_px": 38,
         "source_nonzero_alpha": 444110,
         "cleaned_source_nonzero_alpha": 355481,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "river-floodplain-fields",
+      "name": "Floodplain Fields",
+      "category": "farmland",
+      "source": "sources/river-floodplain-fields.png",
+      "file": "png/river-floodplain-fields.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead",
+      "placement": {
+        "region": null,
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "generic-manual-placement",
+        "automatic_placement": false
+      },
+      "placement_use": "flat-cultivated-ground",
+      "approval": "available-for-generic-placement",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-terrain"
+      ],
+      "acceptance": "generated-under-user-direction",
+      "dimensions_px": [
+        1536,
+        1031
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        30,
+        32,
+        1514,
+        1003
+      ],
+      "sha256": "b02602570ec331f94e3335388a1bdf1bd1f9e10f6099d224e99667479c69f2bf",
+      "source_sha256": "5ea15edaf76956c4f6426fa8738039e68abbb197e8d66a1f3b6d57a6d4467dc4",
+      "anchor_normalized": [
+        0.3008353306904636,
+        0.9631425800193987
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1075553,
+        "cleaned_source_nonzero_alpha": 1045554,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "desert-gravel-sand-transition",
+      "name": "Desert Gravel and Sand Transition",
+      "category": "desert",
+      "source": "sources/desert-gravel-sand-transition.png",
+      "file": "png/desert-gravel-sand-transition.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead",
+      "placement": {
+        "region": null,
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "generic-manual-placement",
+        "automatic_placement": false
+      },
+      "placement_use": "dry-ground-transition",
+      "approval": "available-for-generic-placement",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-terrain"
+      ],
+      "acceptance": "generated-under-user-direction",
+      "dimensions_px": [
+        1536,
+        755
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_trim_xyxy": [
+        37,
+        63,
+        1737,
+        854
+      ],
+      "sha256": "934e19dc430463a0d49bdad801a1ef0b53c627d0bca5c9e2e84b9c2705786b56",
+      "source_sha256": "d4af6aaee3559aa9506d52fd5c99f19255a339166b6fbd984ae1e3aedab544a6",
+      "anchor_normalized": [
+        0.36582140916570455,
+        0.9496688741721855
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1156784,
+        "cleaned_source_nonzero_alpha": 1130808,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "aegean-coastal-rocks",
+      "name": "Aegean Coastal Rocks",
+      "category": "islet",
+      "source": "sources/aegean-coastal-rocks.png",
+      "file": "png/aegean-coastal-rocks.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead",
+      "placement": {
+        "region": null,
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "generic-manual-placement",
+        "automatic_placement": false
+      },
+      "placement_use": "schematic-skerries",
+      "approval": "available-for-generic-placement",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-terrain"
+      ],
+      "acceptance": "generated-under-user-direction",
+      "dimensions_px": [
+        1536,
+        716
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_trim_xyxy": [
+        126,
+        109,
+        1633,
+        770
+      ],
+      "sha256": "5ddd54a3a0514eaea4d07325832ee332fd964601f9b926c87cb99f584bf3022c",
+      "source_sha256": "c4f6524d681c24c27542c0e669c48bdb7c0f4cd150e0fa26a6dbae9b711cc785",
+      "anchor_normalized": [
+        0.4468526766675196,
+        0.946927374301676
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 379124,
+        "cleaned_source_nonzero_alpha": 357499,
         "alpha_floor": 16,
         "minimum_component_pixels": 20
       }
