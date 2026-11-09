@@ -1232,14 +1232,14 @@
         "geometry_role": "source-texture-for-coastline-masks",
         "automatic_placement": false
       },
-      "approval": "available-for-placement-planning; geographic-review-required",
+      "approval": "approved-for-generic-placement",
       "historical_accuracy_certified": false,
       "references": [],
       "review_flags": [
         "illustrative-landcover",
         "medieval-extent-unverified"
       ],
-      "acceptance": "generated-under-user-direction",
+      "acceptance": "accepted-by-user",
       "dimensions_px": [
         1536,
         1021
@@ -1267,7 +1267,8 @@
         "cleaned_source_nonzero_alpha": 1027162,
         "alpha_floor": 16,
         "minimum_component_pixels": 20
-      }
+      },
+      "placement_use": "island-interior-texture"
     },
     {
       "id": "levant-farmland",
@@ -1287,14 +1288,14 @@
         "geometry_role": "regional-context-only",
         "automatic_placement": false
       },
-      "approval": "available-for-placement-planning; geographic-review-required",
+      "approval": "approved-for-generic-placement",
       "historical_accuracy_certified": false,
       "references": [],
       "review_flags": [
         "illustrative-landcover",
         "medieval-extent-unverified"
       ],
-      "acceptance": "generated-under-user-direction",
+      "acceptance": "accepted-by-user",
       "dimensions_px": [
         1536,
         1106
@@ -1322,7 +1323,8 @@
         "cleaned_source_nonzero_alpha": 985441,
         "alpha_floor": 16,
         "minimum_component_pixels": 20
-      }
+      },
+      "placement_use": "cultivated-ground"
     },
     {
       "id": "aegean-terraced-farmland",
@@ -1342,14 +1344,14 @@
         "geometry_role": "regional-context-only",
         "automatic_placement": false
       },
-      "approval": "available-for-placement-planning; geographic-review-required",
+      "approval": "approved-for-generic-placement",
       "historical_accuracy_certified": false,
       "references": [],
       "review_flags": [
         "illustrative-landcover",
         "medieval-extent-unverified"
       ],
-      "acceptance": "generated-under-user-direction",
+      "acceptance": "accepted-by-user",
       "dimensions_px": [
         1536,
         1051
@@ -1377,7 +1379,8 @@
         "cleaned_source_nonzero_alpha": 946021,
         "alpha_floor": 16,
         "minimum_component_pixels": 20
-      }
+      },
+      "placement_use": "cultivated-slopes"
     },
     {
       "id": "flat-desert-pavement",
@@ -1397,14 +1400,14 @@
         "geometry_role": "regional-context-only",
         "automatic_placement": false
       },
-      "approval": "available-for-placement-planning; geographic-review-required",
+      "approval": "approved-for-generic-placement",
       "historical_accuracy_certified": false,
       "references": [],
       "review_flags": [
         "illustrative-landcover",
         "medieval-extent-unverified"
       ],
-      "acceptance": "generated-under-user-direction",
+      "acceptance": "accepted-by-user",
       "dimensions_px": [
         1536,
         1042
@@ -1430,6 +1433,163 @@
         "padding_px": 38,
         "source_nonzero_alpha": 1124001,
         "cleaned_source_nonzero_alpha": 1045167,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      },
+      "placement_use": "dry-ground-base"
+    },
+    {
+      "id": "aegean-rocky-islet",
+      "name": "Rocky Aegean Islet",
+      "category": "islet",
+      "source": "sources/aegean-rocky-islet.png",
+      "file": "png/aegean-rocky-islet.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead",
+      "placement": {
+        "region": null,
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "generic-manual-placement",
+        "automatic_placement": false
+      },
+      "placement_use": "schematic-islet",
+      "approval": "available-for-generic-placement",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-terrain"
+      ],
+      "acceptance": "generated-under-user-direction",
+      "dimensions_px": [
+        1536,
+        904
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        71,
+        133,
+        1462,
+        922
+      ],
+      "sha256": "1e7a3edf82f0db5f5dc3e58bb3459f9a83f65f053791ad7fe0ea37e71d0907fd",
+      "source_sha256": "ca3d14b112706a551661bb41e960c4449e602daa515641011c63db71520e6ffd",
+      "anchor_normalized": [
+        0.2546962327832832,
+        0.9579646017699115
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 538318,
+        "cleaned_source_nonzero_alpha": 515730,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "orchard-field-mosaic",
+      "name": "Orchard and Field Mosaic",
+      "category": "farmland",
+      "source": "sources/orchard-field-mosaic.png",
+      "file": "png/orchard-field-mosaic.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead",
+      "placement": {
+        "region": null,
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "generic-manual-placement",
+        "automatic_placement": false
+      },
+      "placement_use": "cultivated-ground",
+      "approval": "available-for-generic-placement",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-terrain"
+      ],
+      "acceptance": "generated-under-user-direction",
+      "dimensions_px": [
+        1536,
+        975
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        23,
+        53,
+        1510,
+        969
+      ],
+      "sha256": "4c8470a138313ea9fee62caa7395b7cde1fa651933136998054255104171459a",
+      "source_sha256": "f652c1143be1266e6e1dce0b111b64af95a1d5b7e655864e4a50263084c3ee25",
+      "anchor_normalized": [
+        0.5040497476084135,
+        0.961025641025641
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1038496,
+        "cleaned_source_nonzero_alpha": 1003868,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "flat-desert-sand-sheet",
+      "name": "Flat Desert Sand Sheet",
+      "category": "desert",
+      "source": "sources/flat-desert-sand-sheet.png",
+      "file": "png/flat-desert-sand-sheet.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead",
+      "placement": {
+        "region": null,
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "generic-manual-placement",
+        "automatic_placement": false
+      },
+      "placement_use": "dry-ground-base",
+      "approval": "available-for-generic-placement",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-terrain"
+      ],
+      "acceptance": "generated-under-user-direction",
+      "dimensions_px": [
+        1536,
+        1030
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        11,
+        24,
+        1505,
+        1000
+      ],
+      "sha256": "dec6a36377cc714d5d7276f4e4158f5f78f4b15db805f37f310f4f729a43035f",
+      "source_sha256": "4b8695a43322e76c095c27ec70903d915e096f0491466c52f84edf8d110c54b2",
+      "anchor_normalized": [
+        0.37632599234911496,
+        0.9631067961165048
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1244395,
+        "cleaned_source_nonzero_alpha": 1146988,
         "alpha_floor": 16,
         "minimum_component_pixels": 20
       }

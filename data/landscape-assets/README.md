@@ -1,6 +1,6 @@
 # Desert, oasis, valley, road and Jordan-basin assets
 
-Twenty-five transparent terrain and water assets complement the 32-piece mountain/vegetation kit:
+Twenty-eight transparent terrain and water assets complement the 32-piece mountain/vegetation kit:
 
 | File in `png/` | Use |
 |---|---|
@@ -75,3 +75,13 @@ Use `levant-farmland.png` for irregular grain, fallow and olive plots and
 `aegean-terraced-farmland.png` for low cultivated slopes. The point placements
 are regional examples. Use `flat-desert-pavement.png` as a broad, low-contrast
 desert base beneath higher relief. Generation prompts and originals are retained.
+
+## Generic manual placement
+
+The accepted island interior, farmland and gravel artwork are approved for
+generic reuse. Their regional context points are optional. Three additional
+stamps have no fixed coordinates. Use the rocky islet as a schematic island
+symbol, the orchard mosaic for cultivated slopes and the flat sand sheet
+as low-relief ground under other desert pieces. Named island overlays use
+their matching coastline bounds. The manifest records each stamp's placement
+role, and `generic-terrain-prompts.json` retains the prompts.

@@ -99,7 +99,8 @@ def build():
                     projection=INSETS['aegean']['proj'], texture=str(source.relative_to(ROOT)),
                     placement='Bounds include transparent padding in reference sheet pixels. Layer below labels.',
                     review='Modern map polygons and illustrative interior texture; medieval shoreline and land use unverified.',
-                    islands=assets)
+                    islands=assets, approval='approved-for-placement-on-matching-coastline',
+                    acceptance='accepted-by-user')
     (LIB/'island-placements.json').write_text(json.dumps(manifest, indent=2)+'\n')
     preview.save(ROOT/'previews/aegean-island-assets.jpg', quality=94)
     print(f'Built {len(assets)} geographically fitted island sprites')

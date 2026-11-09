@@ -304,7 +304,7 @@
         "asset": "data/landscape-assets/png/aegean-island-interior.png",
         "orientation": "near-overhead",
         "placement_status": "source-texture-for-coastline-masks",
-        "approval": "available-for-placement-planning; geographic-review-required",
+        "approval": "approved-for-generic-placement",
         "historical_accuracy_certified": false
       }
     },
@@ -322,7 +322,7 @@
         "asset": "data/landscape-assets/png/levant-farmland.png",
         "orientation": "near-overhead",
         "placement_status": "context-anchor-only-review-required",
-        "approval": "available-for-placement-planning; geographic-review-required",
+        "approval": "approved-for-generic-placement",
         "historical_accuracy_certified": false
       }
     },
@@ -340,7 +340,7 @@
         "asset": "data/landscape-assets/png/aegean-terraced-farmland.png",
         "orientation": "near-overhead",
         "placement_status": "context-anchor-only-review-required",
-        "approval": "available-for-placement-planning; geographic-review-required",
+        "approval": "approved-for-generic-placement",
         "historical_accuracy_certified": false
       }
     },
@@ -358,7 +358,43 @@
         "asset": "data/landscape-assets/png/flat-desert-pavement.png",
         "orientation": "near-overhead",
         "placement_status": "context-anchor-only-review-required",
-        "approval": "available-for-placement-planning; geographic-review-required",
+        "approval": "approved-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "aegean-rocky-islet",
+        "asset": "data/landscape-assets/png/aegean-rocky-islet.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "available-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "orchard-field-mosaic",
+        "asset": "data/landscape-assets/png/orchard-field-mosaic.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "available-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "flat-desert-sand-sheet",
+        "asset": "data/landscape-assets/png/flat-desert-sand-sheet.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "available-for-generic-placement",
         "historical_accuracy_certified": false
       }
     }
