@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "NAT-L013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          37.4
+        ]
+      },
+      "properties": {
+        "name": "Taurus Mountains",
+        "map_label": "Taurus Mountains",
+        "file": null,
+        "artwork_status": "original_source_missing",
+        "map_panel": "main",
+        "placement_status": "candidate",
+        "footprint_class": "large",
+        "nominal_print_width_px": 940,
+        "view_from": "south",
+        "camera_azimuth_deg": 0,
+        "geographic_constraints": "Provisional Bolkar-sector anchor for the generic massif described as Taurus / Anti-Lebanon. Keep snow on the highest crests and the footprint inland and clear of the Cilician Gates. Confirm the original painting matches this range."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAT-L014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.48,
+          31.5
+        ]
+      },
+      "properties": {
+        "name": "Dead Sea",
+        "map_label": "Dead Sea",
+        "file": null,
+        "artwork_status": "original_source_missing",
+        "map_panel": "main",
+        "placement_status": "candidate",
+        "footprint_class": "large",
+        "nominal_print_width_px": 760,
+        "view_from": "south",
+        "camera_azimuth_deg": 0,
+        "geographic_constraints": "Register the long axis against the rift basin. Clip water to the reviewed period shoreline and preserve the lower Jordan inflow. Exclude modern evaporation ponds.",
+        "geography_reference": "https://eros.usgs.gov/earthshots/dead-sea-israel-jordan-west-bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAT-L015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.42,
+          29.593
+        ]
+      },
+      "properties": {
+        "name": "Wadi Rum",
+        "map_label": "Wadi Rum",
+        "file": null,
+        "artwork_status": "original_source_missing",
+        "map_panel": null,
+        "placement_status": "outside_current_frames",
+        "footprint_class": "large",
+        "nominal_print_width_px": 670,
+        "view_from": "south",
+        "camera_azimuth_deg": 0,
+        "geographic_constraints": "Use in a southern Transjordan extension. Keep the sandstone valleys inland and separate from Aqaba and the Red Sea coast.",
+        "geography_reference": "https://whc.unesco.org/en/list/1377"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAT-L016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3,
+          39.7
+        ]
+      },
+      "properties": {
+        "name": "Mount Ararat",
+        "map_label": "Mount Ararat",
+        "file": null,
+        "artwork_status": "original_source_missing",
+        "map_panel": null,
+        "placement_status": "outside_current_frames",
+        "footprint_class": "large",
+        "nominal_print_width_px": 980,
+        "view_from": "south",
+        "camera_azimuth_deg": 0,
+        "geographic_constraints": "Use in an eastern Anatolia extension. Keep Lesser Ararat southeast of Greater Ararat and the Aras plain to the north.",
+        "geography_reference": "https://volcano.si.edu/volcano.cfm?vn=213040"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAT-L017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.835,
+          38.643
+        ]
+      },
+      "properties": {
+        "name": "Cappadocia",
+        "map_label": "Cappadocia",
+        "file": "png/NAT-L017-cappadocia.png",
+        "artwork_status": "generated_alpha_verified",
+        "map_panel": null,
+        "placement_status": "outside_current_frames",
+        "footprint_class": "large",
+        "nominal_print_width_px": 780,
+        "view_from": "south",
+        "camera_azimuth_deg": 0,
+        "geographic_constraints": "Anchor to the Göreme tuff valleys. Use in a central Anatolia extension, with the pinnacles distinct from the surrounding plateau.",
+        "geography_reference": "https://whc.unesco.org/en/list/357/",
+        "dimensions_px": [
+          1536,
+          1024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAT-L018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.05,
+          34.24
+        ]
+      },
+      "properties": {
+        "name": "Cedars of Lebanon",
+        "map_label": "Cedars of Lebanon",
+        "file": "png/NAT-L018-cedars-of-lebanon.png",
+        "artwork_status": "generated_alpha_verified",
+        "map_panel": "main",
+        "placement_status": "candidate",
+        "footprint_class": "large",
+        "nominal_print_width_px": 620,
+        "view_from": "south",
+        "camera_azimuth_deg": 0,
+        "geographic_constraints": "Anchor to the high grove east of Bsharri above Qadisha Valley. Keep the footprint inland and treat the tree density as illustrative.",
+        "geography_reference": "https://whc.unesco.org/en/list/850/",
+        "dimensions_px": [
+          1536,
+          1024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NAT-L019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.86,
+          33.42
+        ]
+      },
+      "properties": {
+        "name": "Mount Hermon",
+        "map_label": "Mount Hermon",
+        "file": "png/NAT-L019-mount-hermon.png",
+        "artwork_status": "generated_alpha_verified",
+        "map_panel": "main",
+        "placement_status": "candidate",
+        "footprint_class": "large",
+        "nominal_print_width_px": 700,
+        "view_from": "south",
+        "camera_azimuth_deg": 0,
+        "geographic_constraints": "Anchor to the southern Anti-Lebanon massif. Keep the ridge behind the upper Jordan headwaters and the label clear of the Banias settlement marker.",
+        "dimensions_px": [
+          1774,
+          887
+        ]
+      }
+    }
+  ]
+}
