@@ -1,0 +1,114 @@
+{
+  "type": "FeatureCollection",
+  "coordinate_system": "EPSG:4326",
+  "note": "Route each feature to its map_region: main, aegean or delta. Do not project inset cities through mainland frame.to_px. Any city lacking grounded coordinates is omitted.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "saone-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.035,
+          35.62138888888889
+        ]
+      },
+      "properties": {
+        "site_id": "saone",
+        "name": "Saône (Sahyun)",
+        "asset_path": "data/sprites/greece-egypt-fortresses-03/saone-1180-v1.png",
+        "map_region": "main",
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9516728624535316
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            538
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            512
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 269.0,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/168916",
+          "published_value": "N35 37 17 E36 02 06",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint is schematic."
+        },
+        "repaint_flags": [
+          "Frankish ridge fortress. Review the ditch, bridge pier, keep and surviving Byzantine fabric against a plan.",
+          "The painted bridge pier lacks a deck. Review the crossing and gate approach before a historical reconstruction release."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "margat-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.949167,
+          35.151111
+        ]
+      },
+      "properties": {
+        "site_id": "margat",
+        "name": "Margat",
+        "asset_path": "data/sprites/greece-egypt-fortresses-03/margat-1180-v1.png",
+        "map_region": "main",
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9626972740315638
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            697
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            671
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 348.5,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Margat",
+          "published_value": "35.151111 N, 35.949167 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint is schematic."
+        },
+        "repaint_flags": [
+          "Early Mazoir castle on a basalt spur. Little of the early fabric is documented. Review the wall plan, keep and relative scale. The major Hospitaller works are excluded."
+        ],
+        "placement_view": "atlas"
+      }
+    }
+  ]
+}

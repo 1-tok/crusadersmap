@@ -71,7 +71,10 @@
     "leros": "https://leros.gr/ova_por/castle-leros/",
     "tinos": "https://unitesi.unive.it/retrieve/309a2227-fd32-4f8b-b7ee-bd82030beb0d/831717-1157793.pdf",
     "alexandretta": "https://tu-dresden.de/gsw/fovog/textedaten/templerlexikon/templerniederlassungen",
-    "original-catalog": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py"
+    "original-catalog": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+    "ajloun-construction": "https://moi.gov.jo/EN/ListDetails/Governorates_and_Sectors/57/11",
+    "margat-fieldwork": "https://btk.ppke.hu/en/margat-syria-2",
+    "saone-nomination": "https://whc.unesco.org/document/168916"
   },
   "sites": {
     "Jerusalem": {
@@ -620,6 +623,33 @@
         "original-catalog"
       ],
       "in_scope": false,
+      "review_required": true
+    },
+    "Ajloun": {
+      "occupation": "Ayyubid castle begun in 1184",
+      "display_title": "Ajloun (begun 1184)",
+      "references": [
+        "ajloun-construction"
+      ],
+      "notes": "The circa-1190 illustration shows the early Ayyubid phase. Later additions need a separate reconstruction.",
+      "review_required": true
+    },
+    "Qal'at al-Marqab": {
+      "occupation": "Frankish Mazoir castle in the 12th century, then Hospitaller from 1186/1187 to the Mamluk capture in 1285",
+      "display_title": "Margat",
+      "references": [
+        "margat-fieldwork"
+      ],
+      "notes": "Sources differ by a year on the Hospitaller transfer. The circa-1180 illustration depicts the earlier castle, whose fabric remains poorly documented.",
+      "review_required": true
+    },
+    "Qal'at Salah ad-Din": {
+      "occupation": "Frankish fortress until the Ayyubid capture in 1188, with earlier Byzantine fortifications",
+      "display_title": "Saône (Sahyun)",
+      "references": [
+        "saone-nomination"
+      ],
+      "notes": "Selected phases. The circa-1180 illustration shows the Frankish phase and earlier fabric. Later Ayyubid additions require a separate depiction.",
       "review_required": true
     }
   },

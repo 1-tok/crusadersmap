@@ -63,6 +63,9 @@ class PlacementRules(unittest.TestCase):
         self.assertEqual(len(p),len({e['site_id'] for e in p}))
         self.assertNotIn('montfort',{e['site_id'] for e in p})
         self.assertNotIn('chateau-pelerin',{e['site_id'] for e in p})
+        self.assertNotIn('ajloun',{e['site_id'] for e in p})
+        ajloun = [e for e in placements(c,1190) if e['site_id']=='ajloun']
+        self.assertEqual([e['display_title'] for e in ajloun],['Ajloun (begun 1184)'])
 
     def test_montfort_is_excluded_at_1180(self):
         montfort=entry('montfort',1226,1271)

@@ -23,7 +23,8 @@ def build(base=BASE):
   small=out.copy();small.thumbnail((470,315));cx=i%3*500+15;cy=i//3*370+10;contact.paste(small,(cx,cy),small);cd.text((cx,cy+330),e['name'],fill='#34291f')
  write(BASE/'manifest.json',m);preview.save(ROOT/('previews/'+BASE.name+'-qa.jpg'),quality=93)
  contact.save(ROOT/('previews/'+BASE.name+'-contact.jpg'),quality=94)
- features=[dict(type='Feature',id=e['id'],geometry=dict(type='Point',coordinates=e['coordinates']),properties={k:e[k] for k in ['site_id','name','asset_path','map_region','map_layers','anchor_normalized','visual_footprint','approval_for_placement','coordinate_evidence','repaint_flags']}) for e in m['assets'] if e['approval_for_placement'] and e['coordinates']]
+ features=[dict(type='Feature',id=e['id'],geometry=dict(type='Point',coordinates=e['coordinates']),properties={k:e[k] for k in ['site_id','name','asset_path','map_region','map_layers','anchor_normalized','visual_footprint','approval_for_placement','coordinate_evidence','repaint_flags']}) for e in m['assets'] if e['approval_for_placement'] and e['coordinates'] and e.get('period_1180_eligible',True)
+           and e.get('date_ranges',{}).get('approved_art_from',1180)<=1180<=e.get('date_ranges',{}).get('approved_art_through',1180)]
  for feature in features:
   entry=next(e for e in m['assets'] if e['id']==feature['id'])
   feature['properties']['placement_view']=entry.get('placement_view','atlas')

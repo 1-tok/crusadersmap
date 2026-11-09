@@ -120,12 +120,16 @@ def build():
         for original in batch['assets']:
             e=dict(original)
             folder=manifest.parent.name
+            approved_dates=e.get('date_ranges',{})
+            first_year=approved_dates.get('approved_art_from',1180)
+            last_year=approved_dates.get('approved_art_through',1180)
             e.update(asset=folder+'/'+e['file'],source=dict(path=folder+'/'+e['source'],sha256=e['source_sha256']),
                 selection_priority=40,variant='generated-city',
                 approval=dict(status='approved-provisional',provisional_map_use=True,repaint_later=True,
                     authority='User request, 2026-11-08',historical_accuracy_certified=False),
-                availability=dict(from_year=1180,through_year=1180,basis='circa-1180 depiction. Political occupation is tracked separately.'),
-                historical=dict(target_year=1180,requires_historical_review=True,requires_repaint_review=True,
+                availability=dict(from_year=first_year,through_year=last_year,
+                    basis=f'circa-{first_year} depiction. Political occupation is tracked separately.'),
+                historical=dict(target_year=first_year,requires_historical_review=True,requires_repaint_review=True,
                     references=e['references'],notes=e['repaint_flags']))
             e['technical_qa']=qa(BASE/e['asset'])
             assets.append(e)
@@ -183,8 +187,11 @@ def enrich(catalog):
         if e.get('variant')=='generated-city':
             s=dict(longitude=e['longitude'],latitude=e['latitude'],coordinate_evidence=e['coordinate_evidence'],
                 historical_name=e['historical_name'],alternate_names=e.get('alternate_names',[e['name']]),
-                crusader_phase=dict(from_year=1180,through_year=1180,scope='Reviewed depiction year; not a Frankish-control range'),
+                crusader_phase=dict(from_year=e['availability']['from_year'],
+                    through_year=e['availability']['through_year'],scope='Reviewed depiction year; not a Frankish-control range'),
                 period_1180_eligible=e['period_1180_eligible'])
+            if 'construction' in e:
+                s['construction']=e['construction']
         else:
             s = sites[e['site_id']]
         e['legacy_coordinates'] = e.get('coordinates')

@@ -869,7 +869,7 @@
         "region": "main",
         "tier": 2,
         "mark": "P:ajlun",
-        "title": "Ajloun",
+        "title": "Ajloun (begun 1184)",
         "name": "Ajlun",
         "modern_name": "Ajloun",
         "alternate_name": "Qal'at al-Rabad",
@@ -878,14 +878,18 @@
           32.33
         ],
         "in_scope": true,
-        "occupation": "Ayyubid 1184",
-        "occupation_status": "inherited-chronology-requires-review",
+        "occupation": "Ayyubid castle begun in 1184",
+        "occupation_status": "selected-phases-reviewed",
         "source_occupation": "Ayyubid 1184",
         "sieges": [],
         "siege_label": "No siege recorded in this index",
         "siege_coverage": "selected-documented-events; absence is not proof of no siege",
-        "notes": [],
-        "references": [],
+        "notes": [
+          "The circa-1190 illustration shows the early Ayyubid phase. Later additions need a separate reconstruction."
+        ],
+        "references": [
+          "https://moi.gov.jo/EN/ListDetails/Governorates_and_Sectors/57/11"
+        ],
         "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
         "coordinates_surveyed": false,
         "review_required": true
@@ -2291,7 +2295,7 @@
         "region": "main",
         "tier": 2,
         "mark": "P:margat",
-        "title": "Qal'at al-Marqab",
+        "title": "Margat",
         "name": "Margat",
         "modern_name": "Qal'at al-Marqab",
         "alternate_name": "al-Marqab",
@@ -2300,8 +2304,8 @@
           35.15
         ],
         "in_scope": true,
-        "occupation": "Hospitaller 1186–1285",
-        "occupation_status": "inherited-chronology-requires-review",
+        "occupation": "Frankish Mazoir castle in the 12th century, then Hospitaller from 1186/1187 to the Mamluk capture in 1285",
+        "occupation_status": "selected-phases-reviewed",
         "source_occupation": "Hospitaller 1186 - 1285",
         "sieges": [
           {
@@ -2315,8 +2319,11 @@
         ],
         "siege_label": "1285",
         "siege_coverage": "selected-documented-events; absence is not proof of no siege",
-        "notes": [],
+        "notes": [
+          "Sources differ by a year on the Hospitaller transfer. The circa-1180 illustration depicts the earlier castle, whose fabric remains poorly documented."
+        ],
         "references": [
+          "https://btk.ppke.hu/en/margat-syria-2",
           "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
         ],
         "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
@@ -2434,7 +2441,7 @@
         "region": "main",
         "tier": 2,
         "mark": "P:saone",
-        "title": "Qal'at Salah ad-Din",
+        "title": "Saône (Sahyun)",
         "name": "Saone",
         "modern_name": "Qal'at Salah ad-Din",
         "alternate_name": "Sahyun",
@@ -2443,8 +2450,8 @@
           35.59
         ],
         "in_scope": true,
-        "occupation": "Frankish 1110–1188",
-        "occupation_status": "inherited-chronology-requires-review",
+        "occupation": "Frankish fortress until the Ayyubid capture in 1188, with earlier Byzantine fortifications",
+        "occupation_status": "selected-phases-reviewed",
         "source_occupation": "Frankish 1110 - 1188",
         "sieges": [
           {
@@ -2461,8 +2468,11 @@
         ],
         "siege_label": "1188",
         "siege_coverage": "selected-documented-events; absence is not proof of no siege",
-        "notes": [],
+        "notes": [
+          "Selected phases. The circa-1180 illustration shows the Frankish phase and earlier fabric. Later Ayyubid additions require a separate depiction."
+        ],
         "references": [
+          "https://whc.unesco.org/document/168916",
           "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
           "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
         ],

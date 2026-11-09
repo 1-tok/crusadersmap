@@ -6233,6 +6233,205 @@
           5770.711
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "id": "saone-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.035,
+          35.62138888888889
+        ]
+      },
+      "properties": {
+        "sprite_id": "saone-1180-v1",
+        "site_group": "saone",
+        "name": "Saône (Sahyun)",
+        "asset": "data/sprites/greece-egypt-fortresses-03/saone-1180-v1.png",
+        "sha256": "274bf7e2b6739feccf52d27ceaaf16527acb4c102a87754e452ac26d6f1c4019",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Saône (Sahyun)",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/document/168916",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/168916",
+          "published_value": "N35 37 17 E36 02 06",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint is schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Saône",
+        "anchor_normalized": [
+          0.5,
+          0.9516728624535316
+        ],
+        "sheet_anchor_px": [
+          8202.415,
+          4309.208
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 269.0,
+        "top_left_sheet_px": [
+          7946.415,
+          4053.208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "margat-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.949167,
+          35.151111
+        ]
+      },
+      "properties": {
+        "sprite_id": "margat-1180-v1",
+        "site_group": "margat",
+        "name": "Margat",
+        "asset": "data/sprites/greece-egypt-fortresses-03/margat-1180-v1.png",
+        "sha256": "9c5c2c691a7435c665085084e7af1b17d68995356c54a42641d5625723f1f638",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Margat",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Margat",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Margat",
+          "published_value": "35.151111 N, 35.949167 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint is schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Margat",
+        "anchor_normalized": [
+          0.5,
+          0.9626972740315638
+        ],
+        "sheet_anchor_px": [
+          8074.899,
+          5167.534
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 348.5,
+        "top_left_sheet_px": [
+          7818.899,
+          4832.034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ajloun-1190-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7272806,
+          32.3252083
+        ]
+      },
+      "properties": {
+        "sprite_id": "ajloun-1190-v1",
+        "site_group": "ajloun",
+        "name": "Ajloun (begun 1184)",
+        "asset": "data/sprites/greece-egypt-fortresses-03/ajloun-1190-v1.png",
+        "sha256": "61b31653f6280dc7808dde199a4e4fcc9c4ef9e448624f5917557132e3474278",
+        "preferred": true,
+        "preferred_1180": false,
+        "display_title": "Ajloun (begun 1184)",
+        "construction": {
+          "started_year": 1184,
+          "basis": "Jordan Ministry of Interior",
+          "reference": "https://moi.gov.jo/EN/ListDetails/Governorates_and_Sectors/57/11"
+        },
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1190,
+          "through_year": 1190,
+          "basis": "circa-1190 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Ajloun_Castle",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Ajloun_Castle",
+          "published_value": "32.3252083 N, 35.7272806 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint is schematic."
+        },
+        "approval_for_placement": false,
+        "period_1180_eligible": false,
+        "map_layers": [
+          "sprites-later-period",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Ajloun",
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "sheet_anchor_px": [
+          7733.869,
+          10320.101
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 350.0,
+        "top_left_sheet_px": [
+          7477.869,
+          9983.101
+        ]
+      }
     }
   ]
 }

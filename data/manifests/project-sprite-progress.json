@@ -2,13 +2,13 @@
   "as_of": "2026-11-08",
   "scope": "147 source gazetteer records; natural and religious markers may need symbols rather than buildings",
   "counts": {
-    "approved-provisional-art": 52,
-    "needs-art-or-symbol-decision": 92,
+    "approved-provisional-art": 55,
+    "needs-art-or-symbol-decision": 89,
     "outside-period-reference": 2,
     "art-needs-placement-review": 1
   },
-  "catalog_asset_variants": 95,
-  "catalog_unique_sites": 55,
+  "catalog_asset_variants": 98,
+  "catalog_unique_sites": 58,
   "sites": [
     {
       "id": "CP-001",
@@ -224,9 +224,11 @@
       "id": "CP-017",
       "site": "Ajloun",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
-      "occupation": "Ayyubid 1184",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "ajloun-1190-v1"
+      ],
+      "occupation": "Ayyubid castle begun in 1184",
       "sieges": "No siege recorded in this index",
       "history_review_required": true
     },
@@ -577,9 +579,11 @@
       "id": "CP-050",
       "site": "Qal'at al-Marqab",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
-      "occupation": "Hospitaller 1186–1285",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "margat-1180-v1"
+      ],
+      "occupation": "Frankish Mazoir castle in the 12th century, then Hospitaller from 1186/1187 to the Mamluk capture in 1285",
       "sieges": "1285",
       "history_review_required": true
     },
@@ -610,9 +614,11 @@
       "id": "CP-053",
       "site": "Qal'at Salah ad-Din",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
-      "occupation": "Frankish 1110–1188",
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "saone-1180-v1"
+      ],
+      "occupation": "Frankish fortress until the Ayyubid capture in 1188, with earlier Byzantine fortifications",
       "sieges": "1188",
       "history_review_required": true
     },

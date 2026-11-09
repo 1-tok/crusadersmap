@@ -2,12 +2,12 @@
 
 Crusader Period · 1095–1291. Artwork is provisional; technical approval is not historical certification. Counts are sites, not image variants. This snapshot joins the saved catalog and all 147 source gazetteer records; terrain assets are a separate inventory.
 
-Catalog: 95 asset/variant records across 55 sites.
+Catalog: 98 asset/variant records across 58 sites.
 
 | Source-site status | Count |
 |---|---|
-| approved-provisional-art | 52 |
-| needs-art-or-symbol-decision | 92 |
+| approved-provisional-art | 55 |
+| needs-art-or-symbol-decision | 89 |
 | outside-period-reference | 2 |
 | art-needs-placement-review | 1 |
 
@@ -39,7 +39,7 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 | CP-014 | Kerak | main | approved-provisional-art | required |
 | CP-015 | Shobak | main | approved-provisional-art | required |
 | CP-016 | Petra | main | needs-art-or-symbol-decision | required |
-| CP-017 | Ajloun | main | needs-art-or-symbol-decision | required |
+| CP-017 | Ajloun | main | approved-provisional-art | required |
 | CP-018 | Gaza | main | needs-art-or-symbol-decision | required |
 | CP-019 | Deir al-Balah | main | needs-art-or-symbol-decision | required |
 | CP-020 | Tell es-Safi | main | needs-art-or-symbol-decision | required |
@@ -72,10 +72,10 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 | CP-047 | Antakya | main | approved-provisional-art | required |
 | CP-048 | Tripoli | main | approved-provisional-art | required |
 | CP-049 | Qal'at al-Hisn | main | approved-provisional-art | required |
-| CP-050 | Qal'at al-Marqab | main | needs-art-or-symbol-decision | required |
+| CP-050 | Qal'at al-Marqab | main | approved-provisional-art | required |
 | CP-051 | Tartus | main | approved-provisional-art | selected phases reviewed |
 | CP-052 | Arwad | main | outside-period-reference | required |
-| CP-053 | Qal'at Salah ad-Din | main | needs-art-or-symbol-decision | required |
+| CP-053 | Qal'at Salah ad-Din | main | approved-provisional-art | required |
 | CP-054 | Latakia | main | needs-art-or-symbol-decision | required |
 | CP-055 | Jableh | main | needs-art-or-symbol-decision | required |
 | CP-056 | Baniyas | main | needs-art-or-symbol-decision | required |
@@ -173,10 +173,10 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 
 ## New releases
 
-Cyprus and Egypt: Nicosia, Kyrenia, St Hilarion, St Catherine’s, Giza and Wadi El Natrun. Mount Amel: Beaufort and Toron. All eight passed compositing QA and have sourced placement points. The small settlement batches add Bethlehem, Batroun, Larnaca, Beit Guvrin, Hebron and Limassol. Historical repaint flags remain active.
+Cyprus and Egypt: Nicosia, Kyrenia, St Hilarion, St Catherine’s, Giza and Wadi El Natrun. Mount Amel: Beaufort and Toron. All eight passed compositing QA and have sourced placement points. The small settlement batches add Bethlehem, Batroun, Larnaca, Beit Guvrin, Hebron and Limassol. The fortress batch adds Saône, Margat and Ajloun (begun 1184). Ajloun is available in the full-period edition. Historical repaint flags remain active.
 
 ## Next queue
 
-Prioritize the mainland gaps: Safed (choose early or 1240s phase), Ajloun (begun 1184; exclude from 1180), Gaza, Nablus, Tiberias, Banias, Damascus, Latakia and Cilician strongholds. Later constructions need dates in their titles. Natural/sacred markers need an explicit symbol decision rather than automatically generating castles.
+Prioritize the mainland gaps: Safed (choose early or 1240s phase), Bagras, Chastellet (1178–1179), Gaza, Nablus, Tiberias, Banias, Damascus, Latakia and Cilician strongholds. Later constructions need dates in their titles. Natural/sacred markers need an explicit symbol decision rather than automatically generating castles.
 
 Source histories remain selective: 39 sites have recorded siege/campaign entries; 129 histories retain review flags. No siege recorded is not proof none occurred. Rebuild with `python3 build_project_sprite_progress.py`.

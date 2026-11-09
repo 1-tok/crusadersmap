@@ -22,7 +22,7 @@ All 147 source sites have occupation and siege fields. Unresolved local dates an
 | CP-014 | Kerak | Frankish 1142–1188 | 1183; 1184; 1187–1188 |
 | CP-015 | Shobak | Frankish 1115–1189 | 1187–1189 |
 | CP-016 | Petra | Frankish 1107–1189 | No siege recorded in this index |
-| CP-017 | Ajloun | Ayyubid 1184 | No siege recorded in this index |
+| CP-017 | Ajloun | Ayyubid castle begun in 1184 | No siege recorded in this index |
 | CP-018 | Gaza | Frankish/Templar holding from 1149; lost in 1187 | No siege recorded in this index |
 | CP-019 | Deir al-Balah | Frankish 1170–1187 | No siege recorded in this index |
 | CP-020 | Tell es-Safi | Frankish 1142–1191 | No siege recorded in this index |
@@ -55,10 +55,10 @@ All 147 source sites have occupation and siege fields. Unresolved local dates an
 | CP-047 | Antakya | Frankish 1098–1268 | 1097–1098; 1268 |
 | CP-048 | Tripoli | Frankish 1109–1289 | 1102–1109 (intermittent blockade and campaigns); 1289 |
 | CP-049 | Qal'at al-Hisn | Hospitaller 1142–1271 | 1271 |
-| CP-050 | Qal'at al-Marqab | Hospitaller 1186–1285 | 1285 |
+| CP-050 | Qal'at al-Marqab | Frankish Mazoir castle in the 12th century, then Hospitaller from 1186/1187 to the Mamluk capture in 1285 | 1285 |
 | CP-051 | Tartus | Templar citadel from 1152; citadel retained after attack in 1188; evacuated 1291 | 1188 (town attacked; Templar citadel held) |
 | CP-052 | Arwad | The cataloged Templar holding, 1302–1303, is outside 1095–1291; retained only as an island reference | No siege recorded in this index |
-| CP-053 | Qal'at Salah ad-Din | Frankish 1110–1188 | 1188 |
+| CP-053 | Qal'at Salah ad-Din | Frankish fortress until the Ayyubid capture in 1188, with earlier Byzantine fortifications | 1188 |
 | CP-054 | Latakia | Frankish 1097–1188 | 1188; 1287 |
 | CP-055 | Jableh | Frankish 1109–1189 | No siege recorded in this index |
 | CP-056 | Baniyas | Frankish 1110–1189 | No siege recorded in this index |
