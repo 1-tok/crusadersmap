@@ -74,6 +74,20 @@ def main():
         base.paste(im,(left,top),im)
         art_bounds.append((left,top,left+im.width,top+im.height))
         illustrated[row['id']]=(px+dx,py+dy+15)
+    from build_constantinople_detail import render_landscape_pairing
+    city=next((entry for entry in selected_art if entry['site_id']=='constantinople'),None)
+    if city:
+        landscape=render_landscape_pairing(city)
+        if landscape is not None:
+            x,y=round(190*S),round(7920*S)
+            landscape.thumbnail((880,380),Image.Resampling.LANCZOS)
+            header=26
+            base.paste(landscape,(x,y+header))
+            panel=(x,y,x+landscape.width,y+header+landscape.height)
+            d.rectangle((x,y,x+landscape.width,y+header),fill=PAPER)
+            d.text((x+14,y+4),'Constantinople and the Bosphorus · circa 1180',font=font(19),fill=INK)
+            d.rectangle(panel,outline=INK,width=2)
+            art_bounds.append(panel)
     d=ImageDraw.Draw(base)
     buffer=io.BytesIO();base.save(buffer,format='PNG')
     svg=[f'<svg xmlns="http://www.w3.org/2000/svg" width="36in" height="48in" viewBox="0 0 {W} {H}" role="img" aria-label="Crusader Period 1095–1291: occupation and siege map">',

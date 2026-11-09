@@ -46,7 +46,9 @@ def render_landscape_pairing(city, *, review_water=False):
     filename='constantinople-landscape-1180.jpg' if expanded else 'bosphorus-asian-shore-pairing.jpg'
     if review_water:
         filename='constantinople-water-join-review.jpg'
-    canvas.convert('RGB').save(ROOT/'previews'/filename,quality=95)
+    result=canvas.convert('RGB')
+    result.save(ROOT/'previews'/filename,quality=95)
+    return result
 
 def detail_point(entry,center):
     x,y=sheet_anchor(entry);cx,cy=sheet_anchor(center)

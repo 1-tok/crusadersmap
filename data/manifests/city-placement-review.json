@@ -13,8 +13,8 @@
       "Egypt": 11
     },
     "by_status": {
-      "sprite_available": 35,
-      "needs_sprite": 61,
+      "sprite_available": 43,
+      "needs_sprite": 53,
       "sprite_available_needs_geolocation": 1
     }
   },
@@ -348,16 +348,20 @@
         31.7
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "bethlehem-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [
+        "atlas"
+      ]
     },
     {
       "location_id": "place-main-hebron",
@@ -373,16 +377,20 @@
         31.53
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "hebron-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [
+        "atlas"
+      ]
     },
     {
       "location_id": "place-main-nazareth",
@@ -499,9 +507,11 @@
         33.19
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "toron-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -509,7 +519,9 @@
         "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [
+        "atlas"
+      ]
     },
     {
       "location_id": "place-main-bosra",
@@ -947,9 +959,11 @@
         34.25
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "batroun-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -957,7 +971,9 @@
         "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [
+        "atlas"
+      ]
     },
     {
       "location_id": "place-main-byblos",
@@ -1211,16 +1227,20 @@
         35.17
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "nicosia-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [
+        "atlas"
+      ]
     },
     {
       "location_id": "place-main-kyrenia",
@@ -1236,9 +1256,11 @@
         35.34
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "kyrenia-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -1246,7 +1268,9 @@
         "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [
+        "atlas"
+      ]
     },
     {
       "location_id": "place-main-limassol",
@@ -1262,16 +1286,20 @@
         34.67
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "limassol-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [
+        "atlas"
+      ]
     },
     {
       "location_id": "place-main-paphos",
@@ -1312,16 +1340,20 @@
         34.92
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "larnaca-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [
+        "atlas"
+      ]
     },
     {
       "location_id": "place-aegean-istanbul",
