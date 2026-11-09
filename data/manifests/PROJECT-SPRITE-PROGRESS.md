@@ -2,12 +2,12 @@
 
 Crusader Period · 1095–1291. Artwork is provisional; technical approval is not historical certification. Counts are sites, not image variants. This snapshot joins the saved catalog and all 147 source gazetteer records; terrain assets are a separate inventory.
 
-Catalog: 89 asset/variant records across 49 sites.
+Catalog: 92 asset/variant records across 52 sites.
 
 | Source-site status | Count |
 |---|---|
-| approved-provisional-art | 46 |
-| needs-art-or-symbol-decision | 98 |
+| approved-provisional-art | 49 |
+| needs-art-or-symbol-decision | 95 |
 | outside-period-reference | 2 |
 | art-needs-placement-review | 1 |
 
@@ -47,7 +47,7 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 | CP-022 | Beit Guvrin | main | needs-art-or-symbol-decision | required |
 | CP-023 | Latrun | main | needs-art-or-symbol-decision | required |
 | CP-024 | Nabi Samwil | main | needs-art-or-symbol-decision | required |
-| CP-025 | Bethlehem | main | needs-art-or-symbol-decision | selected phases reviewed |
+| CP-025 | Bethlehem | main | approved-provisional-art | selected phases reviewed |
 | CP-026 | Hebron | main | needs-art-or-symbol-decision | selected phases reviewed |
 | CP-027 | Nazareth | main | needs-art-or-symbol-decision | selected phases reviewed |
 | CP-028 | Mount Tabor | main | needs-art-or-symbol-decision | required |
@@ -89,7 +89,7 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 | CP-064 | Bagras | main | needs-art-or-symbol-decision | required |
 | CP-065 | Darbsak | main | needs-art-or-symbol-decision | required |
 | CP-066 | Iskenderun | main | needs-art-or-symbol-decision | required |
-| CP-067 | Batroun | main | needs-art-or-symbol-decision | required |
+| CP-067 | Batroun | main | approved-provisional-art | required |
 | CP-068 | Byblos | main | approved-provisional-art | required |
 | CP-069 | Arqa | main | approved-provisional-art | required |
 | CP-070 | Kozan | main | needs-art-or-symbol-decision | required |
@@ -110,7 +110,7 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 | CP-085 | Limassol | main | needs-art-or-symbol-decision | required |
 | CP-086 | Kolossi | main | needs-art-or-symbol-decision | required |
 | CP-087 | Paphos | main | needs-art-or-symbol-decision | required |
-| CP-088 | Larnaca | main | needs-art-or-symbol-decision | required |
+| CP-088 | Larnaca | main | approved-provisional-art | required |
 | CP-089 | Kykkos | main | needs-art-or-symbol-decision | required |
 | CP-090 | Bellapais | main | needs-art-or-symbol-decision | required |
 | CP-091 | Istanbul | aegean | approved-provisional-art | required |
@@ -173,7 +173,7 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 
 ## New releases
 
-Cyprus and Egypt: Nicosia, Kyrenia, St Hilarion, St Catherine’s, Giza and Wadi El Natrun. Mount Amel: Beaufort and Toron. All eight passed compositing QA and have sourced placement points. Historical repaint flags remain active.
+Cyprus and Egypt: Nicosia, Kyrenia, St Hilarion, St Catherine’s, Giza and Wadi El Natrun. Mount Amel: Beaufort and Toron. All eight passed compositing QA and have sourced placement points. The small settlement batch adds Bethlehem, Batroun and Larnaca. Historical repaint flags remain active.
 
 ## Next queue
 

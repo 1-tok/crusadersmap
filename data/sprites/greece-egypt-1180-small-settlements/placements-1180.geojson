@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "coordinate_system": "EPSG:4326",
+  "note": "Route each feature to its map_region: main, aegean or delta. Do not project inset cities through mainland frame.to_px. Any city lacking grounded coordinates is omitted.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "bethlehem-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2075,
+          31.70435277777778
+        ]
+      },
+      "properties": {
+        "site_id": "bethlehem",
+        "name": "Bethlehem",
+        "asset_path": "data/sprites/greece-egypt-1180-small-settlements/bethlehem-1180-v1.png",
+        "map_region": "main",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9626436781609196
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            696
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            994,
+            670
+          ],
+          "display_width_atlas_px": 320,
+          "display_height_atlas_px": 217.5,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/1433/maps/",
+          "published_value": "N31 42 15.67 E35 12 27",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+        },
+        "repaint_flags": [
+          "Nativity basilica and neighboring houses are schematic. Repaint the basilica massing, apse arrangement and approach using a surveyed plan."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "batroun-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.66429,
+          34.24932
+        ]
+      },
+      "properties": {
+        "site_id": "batroun",
+        "name": "Batroun",
+        "asset_path": "data/sprites/greece-egypt-1180-small-settlements/batroun-1180-v1.png",
+        "map_region": "main",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.962536023054755
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            694
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            997,
+            668
+          ],
+          "display_width_atlas_px": 320,
+          "display_height_atlas_px": 216.875,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/tentativelists/6428",
+          "published_value": "34.24932 N, 35.664290 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+        },
+        "repaint_flags": [
+          "Small port with a fortified dwelling and surrounding houses. Review the tower profile, shore, boats and town footprint. The published point represents the historic center."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "larnaca-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63479,
+          34.9115
+        ]
+      },
+      "properties": {
+        "site_id": "larnaca",
+        "name": "Larnaca",
+        "asset_path": "data/sprites/greece-egypt-1180-small-settlements/larnaca-1180-v1.png",
+        "map_region": "main",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9632248939179632
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            707
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            681
+          ],
+          "display_width_atlas_px": 320,
+          "display_height_atlas_px": 220.9375,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://inherit-eu.com/trail-detail/downloads/CY-Trail-4-Thombs-EN-final.pdf",
+          "published_value": "34.9115 N, 33.63479 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+        },
+        "repaint_flags": [
+          "The Byzantine church is the reference landmark. Houses, church roof and shoreline are schematic. The later belfry and porch were excluded from the brief."
+        ],
+        "placement_view": "atlas"
+      }
+    }
+  ]
+}

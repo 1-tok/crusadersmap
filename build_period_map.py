@@ -55,6 +55,8 @@ def main():
     # Keep neighboring illustrations legible while pinning their leader lines
     # to the sourced location.
     art_offsets={'CP-081':(-25,4),'CP-082':(42,30),'CP-142':(-27,15)}
+    illustrated={}
+    art_bounds=[]
     for row in sorted(rows,key=lambda e:-e['coordinates'][1]):
         entry=sourced_art.get(row['id'])
         path=ROOT/'data/sprites'/entry['asset'] if entry else art.get(row['modern_name'])
@@ -62,11 +64,16 @@ def main():
         px,py=anchor(row)
         im=Image.open(path).convert('RGBA')
         width=105 if row['modern_name']=='Jerusalem' else 56 if row['region']=='main' else 44
+        if entry and entry.get('category')=='town':
+            width=36
         dx,dy=art_offsets.get(row['id'],(0,0))
         if dx or dy:
             d.line((px,py,px+dx,py+dy),fill=INK,width=1)
         im.thumbnail((width,round(width*1.2)))
-        base.paste(im,(round(px+dx-im.width/2),round(py+dy-im.height+4)),im)
+        left,top=round(px+dx-im.width/2),round(py+dy-im.height+4)
+        base.paste(im,(left,top),im)
+        art_bounds.append((left,top,left+im.width,top+im.height))
+        illustrated[row['id']]=(px+dx,py+dy+15)
     d=ImageDraw.Draw(base)
     buffer=io.BytesIO();base.save(buffer,format='PNG')
     svg=[f'<svg xmlns="http://www.w3.org/2000/svg" width="36in" height="48in" viewBox="0 0 {W} {H}" role="img" aria-label="Crusader Period 1095–1291: occupation and siege map">',
@@ -86,33 +93,40 @@ def main():
     rect(lx,ly,round(2200*S),round(1750*S))
     for j,line in enumerate(['HOW TO READ THIS MAP','147 numbered source sites','Red ring: a recorded siege in 1095–1291','Grey: occupation details require review','Numbers link to the occupation / siege index','Dates describe selected phases, not continuous rule','No siege recorded ≠ proof of no siege','Mainland focus; Aegean and Egypt give context']):
         text(lx+18,ly+18+j*43,line,20 if j==0 else 15,INK if j!=2 else RED)
-    occupied=[]
-    for row in sorted(rows,key=lambda r:(r['region'],r['tier'],r['id'])):
+    occupied=art_bounds+[(tx,ty,tx+tw,ty+th),(lx,ly,lx+round(2200*S),ly+round(1750*S))]
+    label_font=font(12)
+    for row in sorted(rows,key=lambda r:(r['id'] not in illustrated,r['region'],r['tier'],r['id'])):
         px,py=anchor(row)
         assert 0<=px<=W and 0<=py<=H,(row['id'],px,py)
-        x,y=px,py
-        # Move numbered callouts, never the source geographic anchor.
-        for radius in (0,14,25,38,52,68):
-            candidates=[(px,py)] if radius==0 else [(px+radius*math.cos(a*math.pi/8),py+radius*math.sin(a*math.pi/8)) for a in range(16)]
+        number=row['id'].split('-')[1]
+        label=f"{number} {row['title']}" if row['id'] in illustrated else number
+        text_width=d.textlength(label,font=label_font)
+        half_width=max(13,math.ceil(text_width/2)+5)
+        preferred_x,preferred_y=illustrated.get(row['id'],(px,py))
+        x,y=preferred_x,preferred_y
+        # Move nameplates and number badges while keeping the geographic anchor.
+        for radius in (0,14,25,38,52,68,88,112,145,180):
+            candidates=[(preferred_x,preferred_y)] if radius==0 else [
+                (preferred_x+radius*math.cos(a*math.pi/8),preferred_y+radius*math.sin(a*math.pi/8)) for a in range(16)]
             found=False
             for cx,cy in candidates:
-                b=(cx-14,cy-9,cx+14,cy+9)
-                if not any(not(b[2]<q[0] or b[0]>q[2] or b[3]<q[1] or b[1]>q[3]) for q in occupied):
+                b=(cx-half_width-2,cy-10,cx+half_width+2,cy+10)
+                inside=14<b[0] and b[2]<W-14 and 14<b[1] and b[3]<H-90
+                if inside and not any(not(b[2]<q[0] or b[0]>q[2] or b[3]<q[1] or b[1]>q[3]) for q in occupied):
                     x,y=cx,cy;occupied.append(b);found=True;break
             if found:break
         color=RED if row['sieges'] else '#827d75' if row['review_required'] else INK
-        number=row['id'].split('-')[1]
         title=f"{row['id']} · {row['title']} | Occupation: {row['occupation']} | Sieges: {row['siege_label']}"
         row['map_anchor_px']=[round(px,2),round(py,2)];row['callout_px']=[round(x,2),round(y,2)]
         d.line((px,py,x,y),fill=color,width=1)
         d.ellipse((px-2,py-2,px+2,py+2),fill=color)
-        d.rounded_rectangle((x-13,y-9,x+13,y+9),radius=7,fill=PAPER,outline=color,width=2 if row['sieges'] else 1)
-        d.text((x-11,y-7),number,font=font(11),fill=color)
+        d.rounded_rectangle((x-half_width,y-9,x+half_width,y+9),radius=7,fill=PAPER,outline=color,width=2 if row['sieges'] else 1)
+        d.text((x,y),label,font=label_font,fill=INK,anchor='mm')
         svg.extend([f'<a href="#{row["id"]}" data-id="{row["id"]}" tabindex="0"><title>{html.escape(title)}</title>',
             f'<line x1="{px:.2f}" y1="{py:.2f}" x2="{x:.2f}" y2="{y:.2f}" stroke="{color}" stroke-width=".7"/>',
             f'<circle cx="{px:.2f}" cy="{py:.2f}" r="2" fill="{color}"/>',
-            f'<rect x="{x-13:.2f}" y="{y-9:.2f}" width="26" height="18" rx="7" fill="{PAPER}" stroke="{color}" stroke-width="{2 if row["sieges"] else 1}"/>',
-            f'<text x="{x:.2f}" y="{y+4:.2f}" font-family="serif" font-size="11" text-anchor="middle" fill="{color}">{number}</text></a>'])
+            f'<rect x="{x-half_width:.2f}" y="{y-9:.2f}" width="{2*half_width}" height="18" rx="7" fill="{PAPER}" stroke="{color}" stroke-width="{2 if row["sieges"] else 1}"/>',
+            f'<text x="{x:.2f}" y="{y+4:.2f}" font-family="serif" font-size="12" text-anchor="middle" textLength="{text_width:.2f}" lengthAdjust="spacingAndGlyphs" fill="{INK}">{html.escape(label)}</text></a>'])
     text(65,H-85,'CRUSADER PERIOD · 1095–1291  |  Gazetteer: CP-001–CP-147  |  Representative locations, not surveyed footprints',17)
     text(65,H-55,'Red rings are selected recorded sieges. Unresolved occupation dates and regional context are identified in the index.',15)
     svg.append('</svg>');svg='\n'.join(svg)

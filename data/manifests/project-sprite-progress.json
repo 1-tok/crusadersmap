@@ -2,13 +2,13 @@
   "as_of": "2026-11-08",
   "scope": "147 source gazetteer records; natural and religious markers may need symbols rather than buildings",
   "counts": {
-    "approved-provisional-art": 46,
-    "needs-art-or-symbol-decision": 98,
+    "approved-provisional-art": 49,
+    "needs-art-or-symbol-decision": 95,
     "outside-period-reference": 2,
     "art-needs-placement-review": 1
   },
-  "catalog_asset_variants": 89,
-  "catalog_unique_sites": 49,
+  "catalog_asset_variants": 92,
+  "catalog_unique_sites": 52,
   "sites": [
     {
       "id": "CP-001",
@@ -304,8 +304,10 @@
       "id": "CP-025",
       "site": "Bethlehem",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "bethlehem-1180-v1"
+      ],
       "occupation": "Frankish 1099–1187; Ayyubid 1187–1229; Latin kingdom 1229–1244; Muslim rule after 1244",
       "sieges": "No siege recorded in this index",
       "history_review_required": false
@@ -744,8 +746,10 @@
       "id": "CP-067",
       "site": "Batroun",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "batroun-1180-v1"
+      ],
       "occupation": "Frankish 1104–1289",
       "sieges": "No siege recorded in this index",
       "history_review_required": true
@@ -965,8 +969,10 @@
       "id": "CP-088",
       "site": "Larnaca",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "larnaca-1180-v1"
+      ],
       "occupation": "Cypriot regional context: Byzantine until 1191; conquest 1191; Lusignan kingdom 1192–1291 (continues)",
       "sieges": "No siege recorded in this index",
       "history_review_required": true

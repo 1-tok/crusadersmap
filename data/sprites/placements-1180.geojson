@@ -378,6 +378,68 @@
     },
     {
       "type": "Feature",
+      "id": "batroun-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.66429,
+          34.24932
+        ]
+      },
+      "properties": {
+        "site_id": "batroun",
+        "name": "Batroun",
+        "asset": "greece-egypt-1180-small-settlements/batroun-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.962536023054755
+        ],
+        "display_width_units": 320,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "main",
+        "display_title": "Batroun",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "historical_name": "Botron",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/tentativelists/6428",
+          "published_value": "34.24932 N, 35.664290 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            694
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            997,
+            668
+          ],
+          "display_width_atlas_px": 320,
+          "display_height_atlas_px": 216.875,
+          "anchor_normalized": [
+            0.5,
+            0.962536023054755
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "beaufort-1180-v1",
       "geometry": {
         "type": "Point",
@@ -496,6 +558,68 @@
           "anchor_normalized": [
             0.5,
             0.9707536557930259
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bethlehem-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2075,
+          31.70435277777778
+        ]
+      },
+      "properties": {
+        "site_id": "bethlehem",
+        "name": "Bethlehem",
+        "asset": "greece-egypt-1180-small-settlements/bethlehem-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9626436781609196
+        ],
+        "display_width_units": 320,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "main",
+        "display_title": "Bethlehem",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "historical_name": "Bethleem",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/1433/maps/",
+          "published_value": "N31 42 15.67 E35 12 27",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            696
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            994,
+            670
+          ],
+          "display_width_atlas_px": 320,
+          "display_height_atlas_px": 217.5,
+          "anchor_normalized": [
+            0.5,
+            0.9626436781609196
           ],
           "geographic_scale": false
         }
@@ -1506,6 +1630,68 @@
           "anchor_normalized": [
             0.5,
             0.9628571428571429
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "larnaca-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63479,
+          34.9115
+        ]
+      },
+      "properties": {
+        "site_id": "larnaca",
+        "name": "Larnaca",
+        "asset": "greece-egypt-1180-small-settlements/larnaca-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9632248939179632
+        ],
+        "display_width_units": 320,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "main",
+        "display_title": "Larnaca",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "historical_name": "Salines",
+        "coordinate_evidence": {
+          "url": "https://inherit-eu.com/trail-detail/downloads/CY-Trail-4-Thombs-EN-final.pdf",
+          "published_value": "34.9115 N, 33.63479 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            707
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            681
+          ],
+          "display_width_atlas_px": 320,
+          "display_height_atlas_px": 220.9375,
+          "anchor_normalized": [
+            0.5,
+            0.9632248939179632
           ],
           "geographic_scale": false
         }

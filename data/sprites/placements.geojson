@@ -5843,6 +5843,201 @@
           8395.195
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "id": "bethlehem-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2075,
+          31.70435277777778
+        ]
+      },
+      "properties": {
+        "sprite_id": "bethlehem-1180-v1",
+        "site_group": "bethlehem",
+        "name": "Bethlehem",
+        "asset": "data/sprites/greece-egypt-1180-small-settlements/bethlehem-1180-v1.png",
+        "sha256": "f2d6b2d0a24209649cf6eaa2c551cdda796c9542cb8c3bec56fbcedfe3aa78c7",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Bethlehem",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/1433/maps/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/1433/maps/",
+          "published_value": "N31 42 15.67 E35 12 27",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Bethleem",
+        "anchor_normalized": [
+          0.5,
+          0.9626436781609196
+        ],
+        "sheet_anchor_px": [
+          6921.808,
+          11448.625
+        ],
+        "display_width_sheet_px": 320,
+        "display_height_sheet_px": 217.5,
+        "top_left_sheet_px": [
+          6761.808,
+          11239.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "batroun-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.66429,
+          34.24932
+        ]
+      },
+      "properties": {
+        "sprite_id": "batroun-1180-v1",
+        "site_group": "batroun",
+        "name": "Batroun",
+        "asset": "data/sprites/greece-egypt-1180-small-settlements/batroun-1180-v1.png",
+        "sha256": "ccd4c4e8757983b0a86f492177a7430d183502139b462b038237ba85ca09dca8",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Batroun",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/tentativelists/6428",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/tentativelists/6428",
+          "published_value": "34.24932 N, 35.664290 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Botron",
+        "anchor_normalized": [
+          0.5,
+          0.962536023054755
+        ],
+        "sheet_anchor_px": [
+          7644.283,
+          6812.046
+        ],
+        "display_width_sheet_px": 320,
+        "display_height_sheet_px": 216.875,
+        "top_left_sheet_px": [
+          7484.283,
+          6603.296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "larnaca-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63479,
+          34.9115
+        ]
+      },
+      "properties": {
+        "sprite_id": "larnaca-1180-v1",
+        "site_group": "larnaca",
+        "name": "Larnaca",
+        "asset": "data/sprites/greece-egypt-1180-small-settlements/larnaca-1180-v1.png",
+        "sha256": "d77a53733d5bb710870d0bacc7763ab188c2bae18944ddbf18619bdd50c7b696",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Larnaca",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://inherit-eu.com/trail-detail/downloads/CY-Trail-4-Thombs-EN-final.pdf",
+        "coordinate_evidence": {
+          "url": "https://inherit-eu.com/trail-detail/downloads/CY-Trail-4-Thombs-EN-final.pdf",
+          "published_value": "34.9115 N, 33.63479 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Salines",
+        "anchor_normalized": [
+          0.5,
+          0.9632248939179632
+        ],
+        "sheet_anchor_px": [
+          4597.465,
+          5567.787
+        ],
+        "display_width_sheet_px": 320,
+        "display_height_sheet_px": 220.938,
+        "top_left_sheet_px": [
+          4437.465,
+          5354.975
+        ]
+      }
     }
   ]
 }
