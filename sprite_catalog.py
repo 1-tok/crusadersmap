@@ -124,7 +124,7 @@ def build():
                 selection_priority=40,variant='generated-city',
                 approval=dict(status='approved-provisional',provisional_map_use=True,repaint_later=True,
                     authority='User request, 2026-11-08',historical_accuracy_certified=False),
-                availability=dict(from_year=1180,through_year=1180,basis='circa-1180 city depiction; no implication of Frankish rule'),
+                availability=dict(from_year=1180,through_year=1180,basis='circa-1180 depiction. Political occupation is tracked separately.'),
                 historical=dict(target_year=1180,requires_historical_review=True,requires_repaint_review=True,
                     references=e['references'],notes=e['repaint_flags']))
             e['technical_qa']=qa(BASE/e['asset'])
@@ -210,7 +210,8 @@ def enrich(catalog):
         e['approval']['approved_for_default_year'] = e['approval_for_placement']
         e['historical']['exclude_from_1180'] = not s['period_1180_eligible']
         e['historical']['later_period_only'] = not s['period_1180_eligible']
-        e['map_layers'] = ['sprites-1180', 'fortifications' if e['category']=='castle' else 'settlements'] if s['period_1180_eligible'] else ['sprites-later-period', 'fortifications']
+        site_layer = {'castle': 'fortifications', 'monastery': 'religious-sites', 'landmark': 'landmarks'}.get(e['category'], 'settlements')
+        e['map_layers'] = ['sprites-1180', site_layer] if s['period_1180_eligible'] else ['sprites-later-period', 'fortifications']
         e['map_layers'].append(e['map_region'])
         if e.get('placement_view')=='constantinople-detail':
             e['map_layers'].append('constantinople-detail')

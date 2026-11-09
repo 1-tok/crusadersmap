@@ -38,17 +38,35 @@ def main():
     catalog=json.loads((ROOT/'data/sprites/catalog.json').read_text())
     from sprite_catalog import atlas_placements
     aliases={'acre':'Akko','antioch':'Antakya','krak-des-chevaliers':"Qal'at al-Hisn",'belvoir':'Kokhav HaYarden','montreal-shobak':'Shobak','byblos':'Byblos','tortosa':'Tartus','arqah':'Arqa','chateau-pelerin':'Atlit'}
-    art={aliases.get(e['site_id'],e.get('undated_name',e['name'])):ROOT/'data/sprites'/e['asset'] for e in atlas_placements(catalog)}
+    selected_art=atlas_placements(catalog)
+    art={aliases.get(e['site_id'],e.get('undated_name',e['name'])):ROOT/'data/sprites'/e['asset'] for e in selected_art}
+    sourced_art={entry['source_site_id']:entry for entry in selected_art if entry.get('source_site_id')}
     for manifest in sorted((ROOT/'data/sprites').glob('greece-egypt*/manifest.json')):
         for e in json.loads(manifest.read_text())['assets']:
             if e.get('approval_for_placement') and (manifest.parent/e['file']).exists():
                 art[e['name']]=manifest.parent/e['file']
+    def anchor(row):
+        entry=sourced_art.get(row['id'])
+        coordinates=entry['coordinates'] if entry else row['coordinates']
+        px,py=regions[row['region']].ll_px(*coordinates)
+        bx,by=boxes[row['region']]
+        return px+bx,py+by
+
+    # Keep neighboring illustrations legible while pinning their leader lines
+    # to the sourced location.
+    art_offsets={'CP-081':(-25,4),'CP-082':(42,30),'CP-142':(-27,15)}
     for row in sorted(rows,key=lambda e:-e['coordinates'][1]):
-        if row['modern_name'] not in art:continue
-        region=regions[row['region']];bx,by=boxes[row['region']];px,py=region.ll_px(*row['coordinates']);px+=bx;py+=by
-        im=Image.open(art[row['modern_name']]).convert('RGBA')
+        entry=sourced_art.get(row['id'])
+        path=ROOT/'data/sprites'/entry['asset'] if entry else art.get(row['modern_name'])
+        if path is None:continue
+        px,py=anchor(row)
+        im=Image.open(path).convert('RGBA')
         width=105 if row['modern_name']=='Jerusalem' else 56 if row['region']=='main' else 44
-        im.thumbnail((width,round(width*1.2)));base.paste(im,(round(px-im.width/2),round(py-im.height+4)),im)
+        dx,dy=art_offsets.get(row['id'],(0,0))
+        if dx or dy:
+            d.line((px,py,px+dx,py+dy),fill=INK,width=1)
+        im.thumbnail((width,round(width*1.2)))
+        base.paste(im,(round(px+dx-im.width/2),round(py+dy-im.height+4)),im)
     d=ImageDraw.Draw(base)
     buffer=io.BytesIO();base.save(buffer,format='PNG')
     svg=[f'<svg xmlns="http://www.w3.org/2000/svg" width="36in" height="48in" viewBox="0 0 {W} {H}" role="img" aria-label="Crusader Period 1095–1291: occupation and siege map">',
@@ -70,8 +88,7 @@ def main():
         text(lx+18,ly+18+j*43,line,20 if j==0 else 15,INK if j!=2 else RED)
     occupied=[]
     for row in sorted(rows,key=lambda r:(r['region'],r['tier'],r['id'])):
-        reg=regions[row['region']];bx,by=boxes[row['region']]
-        px,py=reg.ll_px(*row['coordinates']);px+=bx;py+=by
+        px,py=anchor(row)
         assert 0<=px<=W and 0<=py<=H,(row['id'],px,py)
         x,y=px,py
         # Move numbered callouts, never the source geographic anchor.

@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "coordinate_system": "EPSG:4326",
+  "note": "Route each feature to its map_region: main, aegean or delta. Do not project inset cities through mainland frame.to_px. Any city lacking grounded coordinates is omitted.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "beaufort-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.531944,
+          33.324167
+        ]
+      },
+      "properties": {
+        "site_id": "beaufort",
+        "name": "Beaufort",
+        "asset_path": "data/sprites/greece-egypt-1180-mount-amel/beaufort-1180-v1.png",
+        "map_region": "main",
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9627507163323782
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            698
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            672
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 349.0,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://geographic.org/geographic_names/name.php?c=lebanon&fid=3643&uni=-1160992",
+          "published_value": "33.324167°N, 35.531944°E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "repaint_flags": [
+          "Frankish ridge fortress after construction began following the 1139 acquisition. Long cliff enclosure is a schematic. Gate, donjon and curtain profile need historical review."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toron-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.412279,
+          33.19543
+        ]
+      },
+      "properties": {
+        "site_id": "toron",
+        "name": "Tibnin",
+        "asset_path": "data/sprites/greece-egypt-1180-mount-amel/toron-1180-v1.png",
+        "map_region": "main",
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            700
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            674
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 350.0,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://www.hep-web.org/projects/202410ReportCultureHeritageDestructionLebanon/Report-02-Cultural-Heritage-Destruction-Lebanon-English-Nov-2024.pdf",
+          "published_value": "33.19543°N, 35.412279°E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "repaint_flags": [
+          "Early Frankish hilltop fort schematic. The extant structure includes later rebuilding. The drawn tower count, wall profile and interiors are interpretive."
+        ],
+        "placement_view": "atlas"
+      }
+    }
+  ]
+}

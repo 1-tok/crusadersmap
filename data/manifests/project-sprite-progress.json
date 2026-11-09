@@ -2,13 +2,13 @@
   "as_of": "2026-11-08",
   "scope": "147 source gazetteer records; natural and religious markers may need symbols rather than buildings",
   "counts": {
-    "approved-provisional-art": 37,
-    "needs-art-or-symbol-decision": 107,
+    "approved-provisional-art": 46,
+    "needs-art-or-symbol-decision": 98,
     "outside-period-reference": 2,
     "art-needs-placement-review": 1
   },
-  "catalog_asset_variants": 78,
-  "catalog_unique_sites": 38,
+  "catalog_asset_variants": 89,
+  "catalog_unique_sites": 49,
   "sites": [
     {
       "id": "CP-001",
@@ -172,8 +172,10 @@
       "id": "CP-013",
       "site": "Arnoun",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "beaufort-1180-v1"
+      ],
       "occupation": "Templar 1260–1268",
       "sieges": "1268",
       "history_review_required": true
@@ -382,8 +384,10 @@
       "id": "CP-033",
       "site": "Tibnin",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "toron-1180-v1"
+      ],
       "occupation": "Frankish 1105–1266",
       "sieges": "No siege recorded in this index",
       "history_review_required": true
@@ -875,8 +879,10 @@
       "id": "CP-080",
       "site": "Nicosia",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "nicosia-1180-v1"
+      ],
       "occupation": "Lusignan 1192–1291 (continues)",
       "sieges": "No siege recorded in this index",
       "history_review_required": true
@@ -885,8 +891,10 @@
       "id": "CP-081",
       "site": "St Hilarion",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "st-hilarion-1180-v1"
+      ],
       "occupation": "Lusignan 1191–1291 (continues)",
       "sieges": "No siege recorded in this index",
       "history_review_required": true
@@ -895,8 +903,10 @@
       "id": "CP-082",
       "site": "Kyrenia",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "kyrenia-1180-v1"
+      ],
       "occupation": "Lusignan 1191–1291 (continues)",
       "sieges": "No siege recorded in this index",
       "history_review_required": true
@@ -997,8 +1007,10 @@
       "id": "CP-092",
       "site": "Beyoglu",
       "region": "aegean",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "galata-sykai-1180-v1"
+      ],
       "occupation": "Genoese 1267–1291 (continues)",
       "sieges": "No siege recorded in this index",
       "history_review_required": true
@@ -1525,8 +1537,10 @@
       "id": "CP-141",
       "site": "Wadi El Natrun",
       "region": "delta",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "wadi-al-natrun-1180-v1"
+      ],
       "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
       "sieges": "No siege recorded in this index",
       "history_review_required": true
@@ -1535,8 +1549,10 @@
       "id": "CP-142",
       "site": "Giza",
       "region": "delta",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "giza-1180-v1"
+      ],
       "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
       "sieges": "No siege recorded in this index",
       "history_review_required": true
@@ -1587,8 +1603,10 @@
       "id": "CP-147",
       "site": "St Catherine's",
       "region": "delta",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "st-catherines-1180-v1"
+      ],
       "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
       "sieges": "No siege recorded in this index",
       "history_review_required": true

@@ -378,6 +378,68 @@
     },
     {
       "type": "Feature",
+      "id": "beaufort-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.531944,
+          33.324167
+        ]
+      },
+      "properties": {
+        "site_id": "beaufort",
+        "name": "Beaufort",
+        "asset": "greece-egypt-1180-mount-amel/beaufort-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9627507163323782
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "main",
+        "display_title": "Beaufort",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "historical_name": "Belfort",
+        "coordinate_evidence": {
+          "url": "https://geographic.org/geographic_names/name.php?c=lebanon&fid=3643&uni=-1160992",
+          "published_value": "33.324167°N, 35.531944°E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            698
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            672
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 349.0,
+          "anchor_normalized": [
+            0.5,
+            0.9627507163323782
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "belvoir-1180-v2",
       "geometry": {
         "type": "Point",
@@ -952,6 +1014,68 @@
     },
     {
       "type": "Feature",
+      "id": "giza-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.134722222222223,
+          29.977777777777778
+        ]
+      },
+      "properties": {
+        "site_id": "giza",
+        "name": "Giza",
+        "asset": "greece-egypt-1180-cyprus-egypt/giza-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9622093023255814
+        ],
+        "display_width_units": 400,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "delta",
+        "display_title": "Giza",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "landmarks",
+          "delta"
+        ],
+        "historical_name": "Pyramides",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/104639",
+          "published_value": "29°58′40″N 31°8′5″E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            688
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            662
+          ],
+          "display_width_atlas_px": 400,
+          "display_height_atlas_px": 268.75,
+          "anchor_normalized": [
+            0.5,
+            0.9622093023255814
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "heraklion-1180-v1",
       "geometry": {
         "type": "Point",
@@ -1327,6 +1451,68 @@
     },
     {
       "type": "Feature",
+      "id": "kyrenia-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.322222,
+          35.341389
+        ]
+      },
+      "properties": {
+        "site_id": "kyrenia",
+        "name": "Kyrenia",
+        "asset": "greece-egypt-1180-cyprus-egypt/kyrenia-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "main",
+        "display_title": "Kyrenia",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "historical_name": "Keryneia",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Kyrenia_Castle",
+          "published_value": "35°20′29″N 33°19′20″E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            700
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            674
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 350.0,
+          "anchor_normalized": [
+            0.5,
+            0.9628571428571429
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "methoni-1180-v1",
       "geometry": {
         "type": "Point",
@@ -1445,6 +1631,68 @@
           "anchor_normalized": [
             0.5,
             0.9933993399339934
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nicosia-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.365,
+          35.1725
+        ]
+      },
+      "properties": {
+        "site_id": "nicosia",
+        "name": "Nicosia",
+        "asset": "greece-egypt-1180-cyprus-egypt/nicosia-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9629629629629629
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "main",
+        "display_title": "Nicosia",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "historical_name": "Lefkosia",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Nicosia",
+          "published_value": "35°10′21″N 33°21′54″E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            702
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            676
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 351.0,
+          "anchor_normalized": [
+            0.5,
+            0.9629629629629629
           ],
           "geographic_scale": false
         }
@@ -1763,6 +2011,130 @@
     },
     {
       "type": "Feature",
+      "id": "st-catherines-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.975,
+          28.556
+        ]
+      },
+      "properties": {
+        "site_id": "st-catherines",
+        "name": "St Catherine's",
+        "asset": "greece-egypt-1180-cyprus-egypt/st-catherines-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9620991253644315
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "delta",
+        "display_title": "St Catherine's",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "religious-sites",
+          "delta"
+        ],
+        "historical_name": "Sainte-Katherine",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/217511",
+          "published_value": "28.556°N, 33.975°E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            686
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            34,
+            998,
+            660
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 343.0,
+          "anchor_normalized": [
+            0.5,
+            0.9620991253644315
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "st-hilarion-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2808,
+          35.3123
+        ]
+      },
+      "properties": {
+        "site_id": "st-hilarion",
+        "name": "St Hilarion",
+        "asset": "greece-egypt-1180-cyprus-egypt/st-hilarion-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9623733719247467
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "main",
+        "display_title": "St Hilarion",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "historical_name": "Dieudamour",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Saint_Hilarion_Castle",
+          "published_value": "33.2808°E, 35.3123°N",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            691
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            665
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 345.5,
+          "anchor_normalized": [
+            0.5,
+            0.9623733719247467
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "suez-1180-v1",
       "geometry": {
         "type": "Point",
@@ -2011,6 +2383,68 @@
     },
     {
       "type": "Feature",
+      "id": "toron-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.412279,
+          33.19543
+        ]
+      },
+      "properties": {
+        "site_id": "toron",
+        "name": "Tibnin",
+        "asset": "greece-egypt-1180-mount-amel/toron-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "main",
+        "display_title": "Tibnin",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "historical_name": "Toron",
+        "coordinate_evidence": {
+          "url": "https://www.hep-web.org/projects/202410ReportCultureHeritageDestructionLebanon/Report-02-Cultural-Heritage-Destruction-Lebanon-English-Nov-2024.pdf",
+          "published_value": "33.19543°N, 35.412279°E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            700
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            674
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 350.0,
+          "anchor_normalized": [
+            0.5,
+            0.9628571428571429
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "archive-crs-009-tortosa",
       "geometry": {
         "type": "Point",
@@ -2193,6 +2627,68 @@
           "anchor_normalized": [
             0.5,
             0.956738768718802
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wadi-al-natrun-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.47611,
+          30.29139
+        ]
+      },
+      "properties": {
+        "site_id": "wadi-al-natrun",
+        "name": "Wadi El Natrun",
+        "asset": "greece-egypt-1180-cyprus-egypt/wadi-al-natrun-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9630156472261735
+        ],
+        "display_width_units": 512,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "delta",
+        "display_title": "Wadi El Natrun",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "religious-sites",
+          "delta"
+        ],
+        "historical_name": "Dayr Abu Maqar",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Monastery_of_Saint_Macarius_the_Great",
+          "published_value": "30°17′29″N 30°28′34″E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            703
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            997,
+            677
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 351.5,
+          "anchor_normalized": [
+            0.5,
+            0.9630156472261735
           ],
           "geographic_scale": false
         }

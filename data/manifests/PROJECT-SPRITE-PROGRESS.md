@@ -2,19 +2,19 @@
 
 Crusader Period · 1095–1291. Artwork is provisional; technical approval is not historical certification. Counts are sites, not image variants. This snapshot joins the saved catalog and all 147 source gazetteer records; terrain assets are a separate inventory.
 
-Catalog: 78 asset/variant records across 38 sites.
+Catalog: 89 asset/variant records across 49 sites.
 
 | Source-site status | Count |
 |---|---|
-| approved-provisional-art | 37 |
-| needs-art-or-symbol-decision | 107 |
+| approved-provisional-art | 46 |
+| needs-art-or-symbol-decision | 98 |
 | outside-period-reference | 2 |
 | art-needs-placement-review | 1 |
 
 ## Project chats checked
 
-- **Add Crusader fortress sprites**: period map and fortress coverage; Beaufort and Toron are the current new batch.
-- **Crusader Cities**: Athens correction and double-size Constantinople backed up; Constantinople approved as a placeholder with high-priority replacement flag. Galata/Sykai, Chrysopolis and Chalcedon are research candidates, not approved artwork.
+- **Add Crusader fortress sprites**: Period map and fortress coverage. Six new Cyprus and Egypt sprites and the recovered Beaufort and Toron cutouts are approved provisionally.
+- **Crusader Cities**: Athens correction and double-size Constantinople backed up; Constantinople approved as a placeholder with high-priority replacement flag. Galata/Sykai, Chrysopolis and Chalcedon have approved detail sprites.
 - **Crusader terrain**: latest observed update reports six new desert pieces and placement coverage in progress. Their site count is not added to settlement coverage.
 
 City-only review before this fortress batch: 95 candidates, 32 placement-ready, 1 awaiting geolocation, 62 needing artwork. Six batch04 drafts remain on audit hold. These city counts use a narrower candidate set than the table below.
@@ -35,7 +35,7 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 | CP-010 | Safed | main | needs-art-or-symbol-decision | required |
 | CP-011 | Kokhav HaYarden | main | approved-provisional-art | selected phases reviewed |
 | CP-012 | Montfort | main | approved-provisional-art | selected phases reviewed |
-| CP-013 | Arnoun | main | needs-art-or-symbol-decision | required |
+| CP-013 | Arnoun | main | approved-provisional-art | required |
 | CP-014 | Kerak | main | approved-provisional-art | required |
 | CP-015 | Shobak | main | approved-provisional-art | required |
 | CP-016 | Petra | main | needs-art-or-symbol-decision | required |
@@ -55,7 +55,7 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 | CP-030 | Nablus | main | needs-art-or-symbol-decision | selected phases reviewed |
 | CP-031 | Tiberias | main | needs-art-or-symbol-decision | required |
 | CP-032 | Banias | main | needs-art-or-symbol-decision | required |
-| CP-033 | Tibnin | main | needs-art-or-symbol-decision | required |
+| CP-033 | Tibnin | main | approved-provisional-art | required |
 | CP-034 | Iskandaruna | main | needs-art-or-symbol-decision | required |
 | CP-035 | Jacob's Ford | main | needs-art-or-symbol-decision | required |
 | CP-036 | Mount Carmel | main | needs-art-or-symbol-decision | selected phases reviewed |
@@ -102,9 +102,9 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 | CP-077 | Kizkalesi | main | needs-art-or-symbol-decision | required |
 | CP-078 | Kahramanmaras | main | needs-art-or-symbol-decision | required |
 | CP-079 | Famagusta | main | needs-art-or-symbol-decision | required |
-| CP-080 | Nicosia | main | needs-art-or-symbol-decision | required |
-| CP-081 | St Hilarion | main | needs-art-or-symbol-decision | required |
-| CP-082 | Kyrenia | main | needs-art-or-symbol-decision | required |
+| CP-080 | Nicosia | main | approved-provisional-art | required |
+| CP-081 | St Hilarion | main | approved-provisional-art | required |
+| CP-082 | Kyrenia | main | approved-provisional-art | required |
 | CP-083 | Buffavento | main | needs-art-or-symbol-decision | required |
 | CP-084 | Kantara | main | needs-art-or-symbol-decision | required |
 | CP-085 | Limassol | main | needs-art-or-symbol-decision | required |
@@ -114,7 +114,7 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 | CP-089 | Kykkos | main | needs-art-or-symbol-decision | required |
 | CP-090 | Bellapais | main | needs-art-or-symbol-decision | required |
 | CP-091 | Istanbul | aegean | approved-provisional-art | required |
-| CP-092 | Beyoglu | aegean | needs-art-or-symbol-decision | required |
+| CP-092 | Beyoglu | aegean | approved-provisional-art | required |
 | CP-093 | Thessaloniki | aegean | approved-provisional-art | required |
 | CP-094 | Gelibolu | aegean | needs-art-or-symbol-decision | required |
 | CP-095 | Edirne | aegean | needs-art-or-symbol-decision | required |
@@ -163,17 +163,17 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 | CP-138 | Tinnis | delta | approved-provisional-art | required |
 | CP-139 | Pelusium | delta | needs-art-or-symbol-decision | required |
 | CP-140 | Bilbeis | delta | approved-provisional-art | required |
-| CP-141 | Wadi El Natrun | delta | needs-art-or-symbol-decision | required |
-| CP-142 | Giza | delta | needs-art-or-symbol-decision | required |
+| CP-141 | Wadi El Natrun | delta | approved-provisional-art | required |
+| CP-142 | Giza | delta | approved-provisional-art | required |
 | CP-143 | Suez | delta | approved-provisional-art | required |
 | CP-144 | al-Tur | delta | needs-art-or-symbol-decision | required |
 | CP-145 | Pharaoh's Island | delta | needs-art-or-symbol-decision | required |
 | CP-146 | Aqaba | delta | needs-art-or-symbol-decision | required |
-| CP-147 | St Catherine's | delta | needs-art-or-symbol-decision | required |
+| CP-147 | St Catherine's | delta | approved-provisional-art | required |
 
-## New fortress drafts
+## New releases
 
-Beaufort and Toron have new paintings and sourced placement-candidate points in `../sprites/fortress-batch05-drafts/`. Both are on technical hold: halos or colored edge defects remain after image-tool cleanup attempts. Neither is counted as production-ready or imported into the map layer.
+Cyprus and Egypt: Nicosia, Kyrenia, St Hilarion, St Catherine’s, Giza and Wadi El Natrun. Mount Amel: Beaufort and Toron. All eight passed compositing QA and have sourced placement points. Historical repaint flags remain active.
 
 ## Next queue
 
