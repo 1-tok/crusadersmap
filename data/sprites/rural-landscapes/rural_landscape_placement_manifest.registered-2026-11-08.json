@@ -1,0 +1,319 @@
+{
+  "schema_version": "0.1",
+  "project": "Crusader Map",
+  "asset_type": "regional_terrain_with_embedded_small_settlements",
+  "approved_for_placement": true,
+  "artwork_delivery": "pending_png_intake",
+  "notes": "Approval is design-level only. Individual PNG assets are NOT yet committed. Do not enable these records in map compositor until actual alpha-masked PNGs have been imported, visually checked, and linked.",
+  "view": "elevated oblique from south",
+  "layer": "terrain-composite below named settlements and labels",
+  "placement_rules": [
+    "Do not place a generic settlement on top of named cities or historical landmarks.",
+    "Only use coastal composites where coastline matches; only use river and marsh composites where hydrography matches.",
+    "Scale to regional footprint, with buildings visibly smaller than named settlements.",
+    "Blend irregular edges and align roads, slopes and waterways.",
+    "Avoid obvious repetition; mirror only where historically and geographically safe."
+  ],
+  "sprites": [
+    {
+      "id": "CSV-089",
+      "terrain": "mediterranean_highland",
+      "description": "hill village and terraces",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-04"
+    },
+    {
+      "id": "CSV-090",
+      "terrain": "irrigated_valley",
+      "description": "small village and watermill",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-04"
+    },
+    {
+      "id": "CSV-091",
+      "terrain": "arid_plateau",
+      "description": "hamlet and caravan camp",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-04"
+    },
+    {
+      "id": "CSV-092",
+      "terrain": "rocky_coast",
+      "description": "coastal hamlet and lookout",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-04"
+    },
+    {
+      "id": "CSV-093",
+      "terrain": "agricultural_plain",
+      "description": "scattered farmsteads",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-04"
+    },
+    {
+      "id": "CSV-094",
+      "terrain": "desert_oasis",
+      "description": "palm spring and small village",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-04"
+    },
+    {
+      "id": "CSV-095",
+      "terrain": "olive_highlands",
+      "description": "small upland hamlets",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05"
+    },
+    {
+      "id": "CSV-096",
+      "terrain": "river_plain",
+      "description": "small villages among waterways",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05"
+    },
+    {
+      "id": "CSV-097",
+      "terrain": "coastal_hills",
+      "description": "dispersed coastal dwellings",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05"
+    },
+    {
+      "id": "CSV-098",
+      "terrain": "wheat_plain",
+      "description": "isolated farms and hamlets",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05"
+    },
+    {
+      "id": "CSV-099",
+      "terrain": "mountain_valley",
+      "description": "sparse mountain outposts",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05"
+    },
+    {
+      "id": "CSV-100",
+      "terrain": "desert_oasis",
+      "description": "small irrigated hamlet",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05"
+    },
+    {
+      "id": "CSV-101",
+      "terrain": "rocky_coast",
+      "description": "tiny coastal settlement",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05"
+    },
+    {
+      "id": "CSV-102",
+      "terrain": "caravan_desert",
+      "description": "tent camp and distant ruins",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05"
+    },
+    {
+      "id": "CSV-103",
+      "terrain": "terraced_hills",
+      "description": "isolated houses among terraces",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05"
+    },
+    {
+      "id": "CSV-104",
+      "terrain": "wetland",
+      "description": "small waterside farmsteads",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05"
+    },
+    {
+      "id": "CSV-105",
+      "terrain": "arid_canyon",
+      "description": "isolated tower and shelters",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05"
+    },
+    {
+      "id": "CSV-106",
+      "terrain": "wooded_hills",
+      "description": "scattered shepherd farms",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05"
+    },
+    {
+      "id": "CSV-107",
+      "terrain": "olive_uplands",
+      "description": "isolated chapels and hamlets",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06"
+    },
+    {
+      "id": "CSV-108",
+      "terrain": "meandering_river_plain",
+      "description": "tiny riverbank farms",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06"
+    },
+    {
+      "id": "CSV-109",
+      "terrain": "rugged_coast",
+      "description": "isolated coastal towers",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06"
+    },
+    {
+      "id": "CSV-110",
+      "terrain": "grain_fields",
+      "description": "small farms among harvested fields",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06"
+    },
+    {
+      "id": "CSV-111",
+      "terrain": "rocky_mountain_pass",
+      "description": "small outpost and farms",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06"
+    },
+    {
+      "id": "CSV-112",
+      "terrain": "desert_irrigated_oasis",
+      "description": "few houses among palms",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06"
+    },
+    {
+      "id": "CSV-113",
+      "terrain": "coastal_cove",
+      "description": "tiny village and moored boats",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06"
+    },
+    {
+      "id": "CSV-114",
+      "terrain": "desert_caravan_route",
+      "description": "small tent waystation",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06"
+    },
+    {
+      "id": "CSV-115",
+      "terrain": "vineyard_terraces",
+      "description": "small rural houses",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06"
+    },
+    {
+      "id": "CSV-116",
+      "terrain": "marsh_floodplain",
+      "description": "isolated riverbank farmhouse",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06"
+    },
+    {
+      "id": "CSV-117",
+      "terrain": "arid_canyon_pass",
+      "description": "tiny fortified roadside site",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06"
+    },
+    {
+      "id": "CSV-118",
+      "terrain": "olive_groves",
+      "description": "isolated shepherd farm",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06"
+    }
+  ]
+}
