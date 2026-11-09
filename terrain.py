@@ -11,6 +11,7 @@ import rough as RG
 from rough import Region, TILES, LAND, LAKES, dem
 from hand import Pen, INK, SEPIA
 import ridges as RD
+import terrainsp as TSP
 from lettering import catmull as _catmull
 from shapely.affinity import scale as _sscale
 
@@ -121,6 +122,19 @@ class Terrain:
         mask = Image.new("L", (lw, lh), 0)
         lr.polys(LAND, ImageDraw.Draw(mask), fill=255)
         self.land_l = np.asarray(mask) > 127
+        # sea, lakes and rivers together: sprites without a harbour keep off all of it
+        wm = Image.new("L", (lw, lh), 0)
+        wd = ImageDraw.Draw(wm)
+        lr.polys(self._lakes(), wd, fill=255)
+        bbl = lr.bbox_ll()
+        for g in list(RIVERS) + [LineString(r) for r in EXTRA_RIVERS]:
+            if not g.intersects(bbl):
+                continue
+            gi = g.intersection(bbl)
+            for ln in getattr(gi, "geoms", [gi]):
+                if ln.geom_type == "LineString" and not ln.is_empty and len(ln.coords) > 1:
+                    wd.line([lr.ll_px(x, y) for x, y in ln.coords], fill=255, width=2)
+        self.water_l = (~self.land_l) | (np.asarray(wm) > 127)
         self.elev = np.where(self.land_l, nd.gaussian_filter(dem_best(lon, lat), 1.0), 0).astype(np.float32)
         km_px = self.mpp * self.W / lw / 1000.0
         self.km_px = km_px
@@ -199,6 +213,7 @@ class Terrain:
         col = col * (1 - lake) + lake_c * lake
         alpha = a_land * land + a_sea * (1 - land)
         sl = slice(r0 - R0, r0 - R0 + (r1 - r0))
+        self._ml = land[sl, :, 0].copy(); self._lk = lake[sl, :, 0].copy()
         return col[sl].astype(np.float32), alpha[sl].astype(np.float32)
 
     def _lakes(self):
@@ -449,7 +464,7 @@ class Terrain:
                         continue
                     if elev_at(x, y) > 700:
                         continue
-                    items.append((y, "dune", x, y, rnd.uniform(56, 86) * m, rnd.randint(1, 10 ** 6), None))
+                    items.append((y - 1e6, "drystrip", x, y, rnd.uniform(300, 400) * m, rnd.randint(1, 10 ** 6), "dune"))
         # palms along the Nile branches
         if self.c.get("palms"):
             for g in RIVERS:
@@ -493,6 +508,15 @@ class Terrain:
                 elif f < 0.28 and e < 1500 and self.dland[at(x, y)[1], at(x, y)[0]] > 6:
                     if rnd.random() < 0.40:
                         items.append((y, "scrub", x, y, rnd.uniform(26, 38) * m, rnd.randint(1, 10 ** 6), None))
+        cellw = 230 * m
+        for gy in range(0, int(H // cellw) + 1):
+            for gx in range(0, int(W // cellw) + 1):
+                x = (gx + 0.5 + rnd.uniform(-0.4, 0.4)) * cellw
+                y = (gy + 0.5 + rnd.uniform(-0.4, 0.4)) * cellw
+                if not (30 < x < W - 30 and 30 < y < H - 20) or not land_at(x, y):
+                    continue
+                if fert_at(x, y) < 0.22 and elev_at(x, y) < 1200 and self.dland[at(x, y)[1], at(x, y)[0]] > 10 and rnd.random() < 0.55:
+                    items.append((y - 1e6, "drystrip", x, y, rnd.uniform(320, 440) * m, rnd.randint(1, 10 ** 6), "waste"))
         for lo, la in self.c.get("oasis", []):
             cx, cy = reg.ll_px(lo, la)
             if 20 < cx < W - 20 and 20 < cy < H - 20:
@@ -521,7 +545,7 @@ class Terrain:
                     if shapely.contains_xy(land_u, lo[i], la[i]):
                         keep.append(it)
                     continue
-                frac = 0.32 * size if kind in ("peak", "mount") else 0.22 * size
+                frac = 0.42 * size * (2.6 if kind == "hill" else 2.2)
                 if self.mpp > 150:                      # Aegean: keep islands clear
                     if kind == "hill":
                         continue
@@ -534,8 +558,11 @@ class Terrain:
             kd, x, y, sz = it[1], it[2], it[3], it[4]
             if kd == "oasis":
                 return False
+            if kd == "drystrip":
+                gr = (x - 0.45 * sz, y - 0.18 * sz, x + 0.45 * sz, y + 0.05 * sz)
+                return any(not (gr[2] < r[0] or r[2] < gr[0] or gr[3] < r[1] or r[3] < gr[1]) for r in self.avoid_rects)
             if kd in ("peak", "mount", "hill"):
-                gr = (x - 0.5 * sz, y - 0.62 * sz, x + 0.5 * sz, y + 0.06 * sz)
+                gr = (x - 0.9 * sz, y - 0.55 * sz, x + 0.9 * sz, y + 0.06 * sz)
             else:
                 gr = (x - 0.5 * sz, y - 0.9 * sz, x + 0.5 * sz, y + 0.1 * sz)
             for r in self.avoid_rects:
@@ -546,29 +573,21 @@ class Terrain:
                     return True
             return False
         items = [it for it in keep if not blocked(it)]
-        self.glyph_rects = [(x - 0.5 * sz, y - 0.62 * sz, x + 0.5 * sz, y + 0.06 * sz) for _, kd, x, y, sz, _s, _e in items if kd in ("peak", "mount", "hill")]
+        self.glyph_rects = [(x - 0.9 * sz, y - 0.55 * sz, x + 0.9 * sz, y + 0.06 * sz) for _, kd, x, y, sz, _s, _e in items if kd in ("peak", "mount", "hill")]
         # --- draw back to front
         items.sort(key=lambda t: t[0])
         for _, kind, x, y, size, sd, _x in items:
             c.save(); c.translate(x, y)
             r = random.Random(sd)
             if kind in ("peak", "mount", "hill"):
-                k = size / 80.0
-                c.scale(k, k)
                 ix_ = min(self.lw - 1, max(0, int(x * self.lw / self.W))); iy_ = min(self.lh - 1, max(0, int(y * self.lh / self.H)))
                 waste = float(self.fert[iy_, ix_]) < 0.30
-                if kind == "peak":
-                    if waste:
-                        RD.mesa(c, sd, fill_m, h=r.uniform(40, 52), w=r.uniform(80, 100))
-                    else:
-                        RD.mountain(c, sd, fill_m, h=r.uniform(54, 68), peaks=r.choice((2, 3)))
-                elif kind == "mount":
-                    if waste:
-                        RD.mesa(c, sd, fill_m, h=r.uniform(26, 38), w=r.uniform(78, 100))
-                    else:
-                        RD.massif(c, sd, fill_m, h=r.uniform(34, 48), w=r.uniform(96, 124))
-                else:
-                    RD.hill(c, sd, fill_h, h=r.uniform(9, 14), w=r.uniform(46, 60))
+                X_ = reg.x0 + x / W * (reg.x1 - reg.x0); Y_ = reg.y1 - y / H * (reg.y1 - reg.y0)
+                lo_, la_ = reg.inv.transform(X_, Y_)
+                name = TSP.choose(kind, lo_, la_, waste, self.mpp > 150, r)
+                wid = size * (2.6 if kind == "hill" else 2.2)
+                c.restore(); c.save()
+                TSP.draw(c, name, x, y, wid, edition)
             elif kind in ("conifer", "decid"):
                 k = size / 40.0
                 c.scale(k, k)
@@ -627,6 +646,10 @@ class Terrain:
                     q.palm(px_, py_, hh)
                 for px_ in (-12, 11):
                     q.line([(px_, 20), (px_ - 1, 14), (px_ - 3, 9)], w=0.8, col=BLUEINK)
+            elif kind == "drystrip":
+                c.restore(); c.save()
+                nm = r.choice(TSP.DUNES if _x == "dune" else TSP.DRYSTRIP)
+                TSP.draw(c, nm, x, y, size, edition, alpha=0.9)
             elif kind == "dune":
                 k = size / 60.0
                 c.scale(k, k)
