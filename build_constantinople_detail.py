@@ -9,6 +9,29 @@ from sprite_geometry import sheet_anchor
 WIDTH,HEIGHT=3000,2600
 MAGNIFICATION=60
 ORIGIN=(1300,1300)
+LANDSCAPE_DIR=BASE/'greece-egypt-1180-bosphorus'
+
+
+def render_landscape_pairing(city):
+    """Render the approved illustrated pairing from its relative pixel offsets."""
+    metadata=json.loads((LANDSCAPE_DIR/'bosphorus-asian-shore-1180.json').read_text())
+    if not metadata['approval_for_placement']:
+        return
+    pairing=metadata['pairing']
+    canvas=Image.new('RGBA',(1840,610),'#eee9dc')
+    city_origin=(20,22)
+    dx,dy=pairing['companion_top_left_relative_to_city_px']
+    layers=[
+        (LANDSCAPE_DIR/metadata['asset'],pairing['companion_display_width_px'],
+         (city_origin[0]+dx,city_origin[1]+dy)),
+        (BASE/city['asset'],pairing['city_display_width_px'],city_origin),
+    ]
+    for path,width,origin in layers:
+        with Image.open(path) as sprite:
+            height=round(sprite.height*width/sprite.width)
+            image=sprite.resize((width,height),Image.Resampling.LANCZOS)
+            canvas.alpha_composite(image,origin)
+    canvas.convert('RGB').save(ROOT/'previews/bosphorus-asian-shore-pairing.jpg',quality=95)
 
 def detail_point(entry,center):
     x,y=sheet_anchor(entry);cx,cy=sheet_anchor(center)
@@ -30,6 +53,7 @@ def layout(catalog):
 
 def main():
     c=build();rows=layout(c)
+    render_landscape_pairing(rows[0][0])
     canvas=Image.new('RGB',(WIDTH,HEIGHT),'#eee9dc');d=ImageDraw.Draw(canvas)
     font=ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial.ttf',32)
     small=ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial.ttf',25)

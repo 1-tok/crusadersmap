@@ -1,0 +1,33 @@
+{
+  "asset": "bosphorus-asian-shore-1180.png",
+  "generation_method": "built-in image generation",
+  "prompt": "Create ONE new standalone transparent raster landscape sprite, a matching east/right-hand companion tile for the attached circa-1180 Constantinople sprite. The attached artwork is a style, scale and placement reference only; do not include or edit the city. Oblique aerial illustrated atlas, same detailed ink lines, warm stone, terracotta, olive greens, muted dark teal painted water, no horizon or sky. Wide landscape composition. The southwest-facing shore of Asian Bithynia runs from upper middle (north) to lower right (south); most of the land and gently rolling wooded and farmed hills lie on the right. The LEFT third is a continuous generous stretch of open Bosphorus water for adjoining the existing city's eastern waterfront, with one or two tiny Byzantine sailing or rowing craft, no land on that left side. The channel continues out toward the upper edge, opens into the Sea of Marmara in the lower foreground. Along the far shore include two distinct small settlements separated by a substantial stretch of countryside: Chrysopolis/Üsküdar at the upper end, tucked by a modest natural ferry inlet, and Chalcedon/Kadıköy lower right on a low headland with shallow coves. Understated Byzantine houses, small churches, gardens, paths and landing places, not densely urban. Make it read as a contiguous mainland coastal landscape fragment and open strait, not a floating island, circular fortified harbor, or two disjoint stickers. No European shore, duplicate Constantinople, modern bridge, later castles, Ottoman architecture, labels, legend, border, text, cloudy glow or shadow. Compact crisp cutout on real transparent alpha with an organic outer silhouette and padding, left water margin of same teal as reference. Provide enough terrain breadth and water that this can sit beside the double-size city as one visually balanced panorama. Historically informed schematic coastline, not a surveyed plan.",
+  "reference_asset": "../greece-egypt-1180-constantinople/constantinople-1180-v1.png",
+  "reference_role": "Style and scale",
+  "status": "approved-provisional",
+  "pairing": {
+    "city_display_width_px": 1024,
+    "companion_display_width_px": 900,
+    "companion_top_left_relative_to_city_px": [
+      882,
+      63
+    ],
+    "draw_order": [
+      "companion",
+      "city"
+    ]
+  },
+  "historical_reference": "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Bosphorus-BlackSea/Chalcedon-Belke2021.pdf",
+  "uncertainty": "Schematic southern Bosphorus shoreline, buildings and terrain. Pairing offsets are visual.",
+  "approval_for_placement": true,
+  "approval_authority": "User approved map placement, 2026-11-08",
+  "placement_view": "constantinople-landscape-1180",
+  "period_1180_eligible": true,
+  "approved_year": 1180,
+  "review_required": true,
+  "repaint_required": true,
+  "replaces_in_this_view": [
+    "chrysopolis-1180-v1",
+    "chalcedon-1180-v1"
+  ]
+}
