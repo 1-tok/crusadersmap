@@ -517,6 +517,59 @@ class Terrain:
                     continue
                 if fert_at(x, y) < 0.22 and elev_at(x, y) < 1200 and self.dland[at(x, y)[1], at(x, y)[0]] > 10 and rnd.random() < 0.55:
                     items.append((y - 1e6, "drystrip", x, y, rnd.uniform(320, 440) * m, rnd.randint(1, 10 ** 6), "waste"))
+        def _ll(x, y):
+            X = reg.x0 + x / W * (reg.x1 - reg.x0); Y = reg.y1 - y / H * (reg.y1 - reg.y0)
+            lo_, la_ = reg.inv.transform(X, Y); return float(lo_), float(la_)
+
+        def in_delta(x, y):
+            lo_, la_ = _ll(x, y); return 29.3 < lo_ < 33.2 and 29.8 < la_ < 31.7
+        # --- painted farmland, orchards and pasture under the trees and hills
+        cellf = (230 if self.mpp <= 150 else 190) * m
+        for gy in range(0, int(H // cellf) + 1):
+            for gx in range(0, int(W // cellf) + 1):
+                x = (gx + 0.5 + rnd.uniform(-0.3, 0.3)) * cellf
+                y = (gy + 0.5 + rnd.uniform(-0.3, 0.3)) * cellf
+                if not (30 < x < W - 30 and 30 < y < H - 20) or not land_at(x, y):
+                    continue
+                f = fert_at(x, y); e = elev_at(x, y)
+                if self.mpp > 150:
+                    if rnd.random() < 0.9 and f > 0.35:
+                        items.append((y - 0.9e6, "farm", x, y, rnd.uniform(300, 380) * m, rnd.randint(1, 10 ** 6), "aeg"))
+                elif f > 0.52 and e < 600:
+                    items.append((y - 0.9e6, "farm", x, y, rnd.uniform(420, 540) * m, rnd.randint(1, 10 ** 6), "flat" if in_delta(x, y) else "rich"))
+                elif 0.30 < f <= 0.52 and 150 < e < 1000 and rnd.random() < 0.75 and not in_delta(x, y):
+                    items.append((y - 0.9e6, "farm", x, y, rnd.uniform(400, 500) * m, rnd.randint(1, 10 ** 6), "past"))
+        # --- regional painted composites and generic hamlets
+        cellc = 520 * m
+        for gy in range(0, int(H // cellc) + 1):
+            for gx in range(0, int(W // cellc) + 1):
+                x = (gx + 0.5 + rnd.uniform(-0.3, 0.3)) * cellc
+                y = (gy + 0.5 + rnd.uniform(-0.3, 0.3)) * cellc
+                if self.mpp > 150 or not (30 < x < W - 30 and 30 < y < H - 20) or not land_at(x, y):
+                    continue
+                f = fert_at(x, y); e = elev_at(x, y); dl = in_delta(x, y)
+                if f > 0.52 and e < 600 and rnd.random() < 0.28:
+                    items.append((y - 0.85e6, "farm", x, y, rnd.uniform(560, 700) * m, rnd.randint(1, 10 ** 6), "cflat" if (dl or e < 150) else "crich"))
+                elif 0.30 < f <= 0.52 and 150 < e < 1000 and not dl and rnd.random() < 0.25:
+                    items.append((y - 0.85e6, "farm", x, y, rnd.uniform(520, 640) * m, rnd.randint(1, 10 ** 6), "cpast"))
+                elif f < 0.22 and e < 1200 and self.dland[at(x, y)[1], at(x, y)[0]] > 12 and rnd.random() < 0.06:
+                    items.append((y - 0.85e6, "farm", x, y, rnd.uniform(560, 700) * m, rnd.randint(1, 10 ** 6), "cwaste"))
+        cellh = (150 if self.mpp <= 150 else 120) * m
+        for gy in range(0, int(H // cellh) + 1):
+            for gx in range(0, int(W // cellh) + 1):
+                x = (gx + 0.5 + rnd.uniform(-0.45, 0.45)) * cellh
+                y = (gy + 0.5 + rnd.uniform(-0.45, 0.45)) * cellh
+                if not (30 < x < W - 30 and 30 < y < H - 20) or not land_at(x, y):
+                    continue
+                f = fert_at(x, y); e = elev_at(x, y); u = rnd.random(); gk = None
+                if f > 0.5 and e < 700:
+                    gk = "green" if u < 0.34 else None
+                elif 0.28 < f <= 0.5 and e < 1100:
+                    gk = "past" if u < 0.10 else None
+                elif f <= 0.28 and e < 1200 and self.dland[at(x, y)[1], at(x, y)[0]] > 8:
+                    gk = ("oasis" if u < 0.015 else "arid") if u < 0.07 else None
+                if gk:
+                    items.append((y, "hamlet", x, y, rnd.uniform(120, 150) * m, rnd.randint(1, 10 ** 6), gk))
         for lo, la in self.c.get("oasis", []):
             cx, cy = reg.ll_px(lo, la)
             if 20 < cx < W - 20 and 20 < cy < H - 20:
@@ -540,6 +593,16 @@ class Terrain:
                 kind, size = it[1], it[4]
                 if kind in ("marsh", "oasis"):
                     keep.append(it); continue
+                if kind == "hamlet":
+                    frac = round(0.30 * size / 8) * 8
+                    if shapely.contains_xy(inner_geom(frac), lo[i], la[i]):
+                        keep.append(it)
+                    continue
+                if kind == "farm":
+                    frac = round((0.30 if self.mpp <= 150 else 0.10) * size / 8) * 8
+                    if shapely.contains_xy(inner_geom(frac), lo[i], la[i]):
+                        keep.append(it)
+                    continue
                 if kind in ("tuft", "scrub"):
                     frac = 0
                     if shapely.contains_xy(land_u, lo[i], la[i]):
@@ -558,6 +621,13 @@ class Terrain:
             kd, x, y, sz = it[1], it[2], it[3], it[4]
             if kd == "oasis":
                 return False
+            if kd == "farm":
+                return False
+            if kd == "hamlet":
+                gr = (x - 0.5 * sz, y - 0.75 * sz * 0.65, x + 0.5 * sz, y + 0.1 * sz)
+                if any(not (gr[2] < r[0] or r[2] < gr[0] or gr[3] < r[1] or r[3] < gr[1]) for r in self.avoid_rects):
+                    return True
+                return any((x - dx_) ** 2 + (y - 0.3 * sz - dy_) ** 2 < (rad + 0.4 * sz) ** 2 for dx_, dy_, rad in self.avoid_disks)
             if kd == "drystrip":
                 gr = (x - 0.45 * sz, y - 0.18 * sz, x + 0.45 * sz, y + 0.05 * sz)
                 return any(not (gr[2] < r[0] or r[2] < gr[0] or gr[3] < r[1] or r[3] < gr[1]) for r in self.avoid_rects)
@@ -646,10 +716,26 @@ class Terrain:
                     q.palm(px_, py_, hh)
                 for px_ in (-12, 11):
                     q.line([(px_, 20), (px_ - 1, 14), (px_ - 3, 9)], w=0.8, col=BLUEINK)
+            elif kind == "hamlet":
+                c.restore(); c.save()
+                lst = {"green": TSP.G_GREEN, "past": TSP.G_PAST, "arid": TSP.G_ARID, "oasis": TSP.G_OASIS}[_x]
+                TSP.gdraw(c, r.choice(lst), x, y, size, edition)
+            elif kind == "farm":
+                c.restore(); c.save()
+                if _x in ("crich", "cpast", "cwaste", "cflat"):
+                    pool = {"cflat": TSP.C_FLAT, "crich": TSP.C_RICH, "cpast": TSP.C_PAST, "cwaste": TSP.C_WASTE}[_x]
+                    TSP.draw(c, r.choice(pool), x, y + 0.30 * size * 0.4, size, edition, alpha=0.95)
+                    c.restore(); continue
+                pool = TSP.FARM_AEG if _x == "aeg" else ((TSP.FARM_FLAT if _x == "flat" else TSP.FARM_RICH) if _x in ("rich", "flat") else TSP.FARM_PASTURE)
+                TSP.draw(c, r.choice(pool), x, y + 0.30 * size, size, edition, alpha=0.9)
             elif kind == "drystrip":
                 c.restore(); c.save()
-                nm = r.choice(TSP.DUNES if _x == "dune" else TSP.DRYSTRIP)
-                TSP.draw(c, nm, x, y, size, edition, alpha=0.9)
+                if _x != "dune" and r.random() < 0.5:
+                    nm = r.choice(TSP.DEEP)
+                    TSP.draw(c, nm, x, y + 0.25 * size, size * 1.5, edition, alpha=0.92)
+                else:
+                    nm = r.choice(TSP.DUNES if _x == "dune" else TSP.DRYSTRIP)
+                    TSP.draw(c, nm, x, y, size, edition, alpha=0.9)
             elif kind == "dune":
                 k = size / 60.0
                 c.scale(k, k)
