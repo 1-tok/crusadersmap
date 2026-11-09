@@ -2,12 +2,12 @@
 
 Crusader Period · 1095–1291. Artwork is provisional; technical approval is not historical certification. Counts are sites, not image variants. This snapshot joins the saved catalog and all 147 source gazetteer records; terrain assets are a separate inventory.
 
-Catalog: 92 asset/variant records across 52 sites.
+Catalog: 95 asset/variant records across 55 sites.
 
 | Source-site status | Count |
 |---|---|
-| approved-provisional-art | 49 |
-| needs-art-or-symbol-decision | 95 |
+| approved-provisional-art | 52 |
+| needs-art-or-symbol-decision | 92 |
 | outside-period-reference | 2 |
 | art-needs-placement-review | 1 |
 
@@ -44,11 +44,11 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 | CP-019 | Deir al-Balah | main | needs-art-or-symbol-decision | required |
 | CP-020 | Tell es-Safi | main | needs-art-or-symbol-decision | required |
 | CP-021 | Yavne | main | needs-art-or-symbol-decision | required |
-| CP-022 | Beit Guvrin | main | needs-art-or-symbol-decision | required |
+| CP-022 | Beit Guvrin | main | approved-provisional-art | required |
 | CP-023 | Latrun | main | needs-art-or-symbol-decision | required |
 | CP-024 | Nabi Samwil | main | needs-art-or-symbol-decision | required |
 | CP-025 | Bethlehem | main | approved-provisional-art | selected phases reviewed |
-| CP-026 | Hebron | main | needs-art-or-symbol-decision | selected phases reviewed |
+| CP-026 | Hebron | main | approved-provisional-art | selected phases reviewed |
 | CP-027 | Nazareth | main | needs-art-or-symbol-decision | selected phases reviewed |
 | CP-028 | Mount Tabor | main | needs-art-or-symbol-decision | required |
 | CP-029 | Sebastia | main | needs-art-or-symbol-decision | required |
@@ -107,7 +107,7 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 | CP-082 | Kyrenia | main | approved-provisional-art | required |
 | CP-083 | Buffavento | main | needs-art-or-symbol-decision | required |
 | CP-084 | Kantara | main | needs-art-or-symbol-decision | required |
-| CP-085 | Limassol | main | needs-art-or-symbol-decision | required |
+| CP-085 | Limassol | main | approved-provisional-art | required |
 | CP-086 | Kolossi | main | needs-art-or-symbol-decision | required |
 | CP-087 | Paphos | main | needs-art-or-symbol-decision | required |
 | CP-088 | Larnaca | main | approved-provisional-art | required |
@@ -173,10 +173,10 @@ City-only review before this fortress batch: 95 candidates, 32 placement-ready, 
 
 ## New releases
 
-Cyprus and Egypt: Nicosia, Kyrenia, St Hilarion, St Catherine’s, Giza and Wadi El Natrun. Mount Amel: Beaufort and Toron. All eight passed compositing QA and have sourced placement points. The small settlement batch adds Bethlehem, Batroun and Larnaca. Historical repaint flags remain active.
+Cyprus and Egypt: Nicosia, Kyrenia, St Hilarion, St Catherine’s, Giza and Wadi El Natrun. Mount Amel: Beaufort and Toron. All eight passed compositing QA and have sourced placement points. The small settlement batches add Bethlehem, Batroun, Larnaca, Beit Guvrin, Hebron and Limassol. Historical repaint flags remain active.
 
 ## Next queue
 
-Prioritize the mainland gaps: Safed (choose early or 1240s phase), Ajloun (begun 1184; exclude from 1180), Gaza, Bethlehem, Nablus, Tiberias, Banias, Damascus, Latakia and Cilician strongholds. Later constructions need dates in their titles. Natural/sacred markers need an explicit symbol decision rather than automatically generating castles.
+Prioritize the mainland gaps: Safed (choose early or 1240s phase), Ajloun (begun 1184; exclude from 1180), Gaza, Nablus, Tiberias, Banias, Damascus, Latakia and Cilician strongholds. Later constructions need dates in their titles. Natural/sacred markers need an explicit symbol decision rather than automatically generating castles.
 
 Source histories remain selective: 39 sites have recorded siege/campaign entries; 129 histories retain review flags. No siege recorded is not proof none occurred. Rebuild with `python3 build_project_sprite_progress.py`.

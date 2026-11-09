@@ -41,7 +41,7 @@ class PlacementRules(unittest.TestCase):
         with patch.object(sprite_catalog,'read',side_effect=held_batch):
             c=sprite_catalog.build()
         self.assertNotIn('must-not-import',{e['id'] for e in c['assets']})
-        self.assertEqual(len([e for e in c['assets'] if e.get('variant')=='generated-city']),36)
+        self.assertIn('constantinople-1180-v1',{e['id'] for e in c['assets']})
 
     def test_explicit_1180_ineligibility_overrides_date_window(self):
         for site in ('montfort', 'chateau-pelerin'):

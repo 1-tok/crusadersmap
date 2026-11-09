@@ -3164,6 +3164,201 @@
           5354.975
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "id": "beit-guvrin-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89555555555555,
+          31.6075
+        ]
+      },
+      "properties": {
+        "sprite_id": "beit-guvrin-1180-v1",
+        "site_group": "beit-guvrin",
+        "name": "Beit Guvrin",
+        "asset": "data/sprites/greece-egypt-1180-small-settlements-02/beit-guvrin-1180-v1.png",
+        "sha256": "d85da7eb9e545b6434a17286c8fb2452d964c83c78b13da8ac6ed81daa059e9a",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Beit Guvrin",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://slought.org/media/files/s584-2016-09-07-erasures_newspaper.pdf",
+        "coordinate_evidence": {
+          "url": "https://slought.org/media/files/s584-2016-09-07-erasures_newspaper.pdf",
+          "published_value": "31°36′27″N 34°53′44″E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Representative published site point. The settlement footprint is schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Bethgibelin",
+        "anchor_normalized": [
+          0.5,
+          0.962589928057554
+        ],
+        "sheet_anchor_px": [
+          6433.889,
+          11621.255
+        ],
+        "display_width_sheet_px": 320,
+        "display_height_sheet_px": 217.188,
+        "top_left_sheet_px": [
+          6273.889,
+          11412.193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hebron-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.109,
+          31.524
+        ]
+      },
+      "properties": {
+        "sprite_id": "hebron-1180-v1",
+        "site_group": "hebron",
+        "name": "Hebron",
+        "asset": "data/sprites/greece-egypt-1180-small-settlements-02/hebron-1180-v1.png",
+        "sha256": "bdbdefcae8bbefa33989475d418c3fe58b0f65eade66ceed43dc6a73aed5075f",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Hebron",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/document/218007",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/218007",
+          "published_value": "31.524 N, 35.109 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Representative published site point. The settlement footprint is schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Saint-Abraham",
+        "anchor_normalized": [
+          0.5,
+          0.9630156472261735
+        ],
+        "sheet_anchor_px": [
+          6765.787,
+          11776.362
+        ],
+        "display_width_sheet_px": 320,
+        "display_height_sheet_px": 219.688,
+        "top_left_sheet_px": [
+          6605.787,
+          11564.799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "limassol-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.04163,
+          34.6722
+        ]
+      },
+      "properties": {
+        "sprite_id": "limassol-1180-v1",
+        "site_group": "limassol",
+        "name": "Limassol",
+        "asset": "data/sprites/greece-egypt-1180-small-settlements-02/limassol-1180-v1.png",
+        "sha256": "476b5c3c38da2714ec2b2cd42f8cbbc4d7305caca04276dcc95ef9be8e64784e",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Limassol",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/lemesos-limassol-medieval-castle/",
+        "coordinate_evidence": {
+          "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/lemesos-limassol-medieval-castle/",
+          "published_value": "34.6722 N, 33.04163 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Representative published site point. The settlement footprint is schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Limeso",
+        "anchor_normalized": [
+          0.5,
+          0.9630156472261735
+        ],
+        "sheet_anchor_px": [
+          3694.424,
+          5982.274
+        ],
+        "display_width_sheet_px": 320,
+        "display_height_sheet_px": 219.688,
+        "top_left_sheet_px": [
+          3534.424,
+          5770.711
+        ]
+      }
     }
   ]
 }

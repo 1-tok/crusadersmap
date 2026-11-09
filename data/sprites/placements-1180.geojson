@@ -502,6 +502,68 @@
     },
     {
       "type": "Feature",
+      "id": "beit-guvrin-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89555555555555,
+          31.6075
+        ]
+      },
+      "properties": {
+        "site_id": "beit-guvrin",
+        "name": "Beit Guvrin",
+        "asset": "greece-egypt-1180-small-settlements-02/beit-guvrin-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.962589928057554
+        ],
+        "display_width_units": 320,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "main",
+        "display_title": "Beit Guvrin",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "historical_name": "Bethgibelin",
+        "coordinate_evidence": {
+          "url": "https://slought.org/media/files/s584-2016-09-07-erasures_newspaper.pdf",
+          "published_value": "31°36′27″N 34°53′44″E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Representative published site point. The settlement footprint is schematic."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            695
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            31,
+            998,
+            669
+          ],
+          "display_width_atlas_px": 320,
+          "display_height_atlas_px": 217.1875,
+          "anchor_normalized": [
+            0.5,
+            0.962589928057554
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "belvoir-1180-v2",
       "geometry": {
         "type": "Point",
@@ -1200,6 +1262,68 @@
     },
     {
       "type": "Feature",
+      "id": "hebron-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.109,
+          31.524
+        ]
+      },
+      "properties": {
+        "site_id": "hebron",
+        "name": "Hebron",
+        "asset": "greece-egypt-1180-small-settlements-02/hebron-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9630156472261735
+        ],
+        "display_width_units": 320,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "main",
+        "display_title": "Hebron",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "historical_name": "Saint-Abraham",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/218007",
+          "published_value": "31.524 N, 35.109 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Representative published site point. The settlement footprint is schematic."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            703
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            677
+          ],
+          "display_width_atlas_px": 320,
+          "display_height_atlas_px": 219.6875,
+          "anchor_normalized": [
+            0.5,
+            0.9630156472261735
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "heraklion-1180-v1",
       "geometry": {
         "type": "Point",
@@ -1692,6 +1816,68 @@
           "anchor_normalized": [
             0.5,
             0.9632248939179632
+          ],
+          "geographic_scale": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "limassol-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.04163,
+          34.6722
+        ]
+      },
+      "properties": {
+        "site_id": "limassol",
+        "name": "Limassol",
+        "asset": "greece-egypt-1180-small-settlements-02/limassol-1180-v1.png",
+        "anchor_normalized": [
+          0.5,
+          0.9630156472261735
+        ],
+        "display_width_units": 320,
+        "status": "approved-provisional",
+        "repaint_later": true,
+        "year": 1180,
+        "approval_for_placement": true,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "map_region": "main",
+        "display_title": "Limassol",
+        "construction": null,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "historical_name": "Limeso",
+        "coordinate_evidence": {
+          "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/lemesos-limassol-medieval-castle/",
+          "published_value": "34.6722 N, 33.04163 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Representative published site point. The settlement footprint is schematic."
+        },
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            703
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            677
+          ],
+          "display_width_atlas_px": 320,
+          "display_height_atlas_px": 219.6875,
+          "anchor_normalized": [
+            0.5,
+            0.9630156472261735
           ],
           "geographic_scale": false
         }

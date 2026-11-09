@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "batch_id": "greece-egypt-1180-small-settlements-02",
+  "default_year": 1180,
+  "generation_method": "built-in image_gen",
+  "release_status": "published-provisional",
+  "assets": [
+    {
+      "id": "beit-guvrin-1180-v1",
+      "site_id": "beit-guvrin",
+      "name": "Beit Guvrin",
+      "historical_name": "Bethgibelin",
+      "alternate_names": [
+        "Beit Guvrin"
+      ],
+      "source_site_id": "CP-022",
+      "category": "town",
+      "site_type": "town",
+      "file": "beit-guvrin-1180-v1.png",
+      "source": "sources/beit-guvrin.png",
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "main"
+      ],
+      "coordinates": [
+        34.89555555555555,
+        31.6075
+      ],
+      "longitude": 34.89555555555555,
+      "latitude": 31.6075,
+      "coordinate_evidence": {
+        "url": "https://slought.org/media/files/s584-2016-09-07-erasures_newspaper.pdf",
+        "published_value": "31°36′27″N 34°53′44″E",
+        "surveyed": false,
+        "accessed": "2026-11-08",
+        "uncertainty_note": "Representative published site point. The settlement footprint is schematic."
+      },
+      "period_1180_eligible": true,
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Bayt Jibrin historic settlement point. Review the church plan, fortified enclosure and relationship to reused Roman structures."
+      ],
+      "references": [
+        "https://www.parks.org.il/wp-content/uploads/2017/08/brochureEn-9.pdf",
+        "https://www.telhai.ac.il/sites/default/files/2023-06/cornerstone%204.pdf"
+      ],
+      "display_width_units": 320,
+      "asset_path": "data/sprites/greece-egypt-1180-small-settlements-02/beit-guvrin-1180-v1.png",
+      "source_sha256": "15776f6ed48f2eed294d9381476811927311b0d52380c74a6fef0ff38e70e8ca",
+      "sha256": "d85da7eb9e545b6434a17286c8fb2452d964c83c78b13da8ac6ed81daa059e9a",
+      "pixel_sha256": "134f5a0ce60265698d087988a225925806c45059eb25a963308abb23cd9a2c86",
+      "dimensions_px": [
+        1024,
+        695
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.962589928057554
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          695
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          31,
+          998,
+          669
+        ],
+        "display_width_atlas_px": 320,
+        "display_height_atlas_px": 217.1875,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "hebron-1180-v1",
+      "site_id": "hebron",
+      "name": "Hebron",
+      "historical_name": "Saint-Abraham",
+      "alternate_names": [
+        "Hebron"
+      ],
+      "source_site_id": "CP-026",
+      "category": "town",
+      "site_type": "town",
+      "file": "hebron-1180-v1.png",
+      "source": "sources/hebron.png",
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "main"
+      ],
+      "coordinates": [
+        35.109,
+        31.524
+      ],
+      "longitude": 35.109,
+      "latitude": 31.524,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/document/218007",
+        "published_value": "31.524 N, 35.109 E",
+        "surveyed": false,
+        "accessed": "2026-11-08",
+        "uncertainty_note": "Representative published site point. The settlement footprint is schematic."
+      },
+      "period_1180_eligible": true,
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Old town reference point. Review the roof of the sanctuary and the extent of the Frankish-era settlement."
+      ],
+      "references": [
+        "https://whc.unesco.org/en/list/1565",
+        "https://whc.unesco.org/archive/2017/whc17-41com-inf8B1-Add2-en.pdf"
+      ],
+      "display_width_units": 320,
+      "asset_path": "data/sprites/greece-egypt-1180-small-settlements-02/hebron-1180-v1.png",
+      "source_sha256": "51a5e1965e9080497d0c02dcbdbe60b851c04e645e7edb90ee5415dd67238451",
+      "sha256": "bdbdefcae8bbefa33989475d418c3fe58b0f65eade66ceed43dc6a73aed5075f",
+      "pixel_sha256": "a1dc95798323e7dd3377e71fd039df22b78db8f04b44e3489745736213eadb99",
+      "dimensions_px": [
+        1024,
+        703
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9630156472261735
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          703
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          677
+        ],
+        "display_width_atlas_px": 320,
+        "display_height_atlas_px": 219.6875,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "limassol-1180-v1",
+      "site_id": "limassol",
+      "name": "Limassol",
+      "historical_name": "Limeso",
+      "alternate_names": [
+        "Limassol"
+      ],
+      "source_site_id": "CP-085",
+      "category": "town",
+      "site_type": "town",
+      "file": "limassol-1180-v1.png",
+      "source": "sources/limassol.png",
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "main"
+      ],
+      "coordinates": [
+        33.04163,
+        34.6722
+      ],
+      "longitude": 33.04163,
+      "latitude": 34.6722,
+      "coordinate_evidence": {
+        "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/lemesos-limassol-medieval-castle/",
+        "published_value": "34.6722 N, 33.04163 E",
+        "surveyed": false,
+        "accessed": "2026-11-08",
+        "uncertainty_note": "Representative published site point. The settlement footprint is schematic."
+      },
+      "period_1180_eligible": true,
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "The modern landmark supplies an old-town anchor. The circa-1180 port layout is schematic. The extant castle and a continuous wall circuit were excluded from the brief."
+      ],
+      "references": [
+        "https://www.limassol.org.cy/en/history",
+        "https://orca.cardiff.ac.uk/id/eprint/54199/3/U564882-%20DEC%20PAGE%20REMOVED.pdf"
+      ],
+      "display_width_units": 320,
+      "asset_path": "data/sprites/greece-egypt-1180-small-settlements-02/limassol-1180-v1.png",
+      "source_sha256": "d3a509eb67eceee1b5735b070f05c3973b70c870c4bb589b6b77805dbd1cdd01",
+      "sha256": "476b5c3c38da2714ec2b2cd42f8cbbc4d7305caca04276dcc95ef9be8e64784e",
+      "pixel_sha256": "5342a96ab6d5e748c052d59751be97f0c9dcdc63f8fbcbaaf0152c18c8874779",
+      "dimensions_px": [
+        1024,
+        703
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9630156472261735
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          703
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          677
+        ],
+        "display_width_atlas_px": 320,
+        "display_height_atlas_px": 219.6875,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    }
+  ],
+  "approval_policy": "All three cutouts passed light and dark composition review. Provisional map placement with historical repaint flags."
+}

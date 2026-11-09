@@ -2,13 +2,13 @@
   "as_of": "2026-11-08",
   "scope": "147 source gazetteer records; natural and religious markers may need symbols rather than buildings",
   "counts": {
-    "approved-provisional-art": 49,
-    "needs-art-or-symbol-decision": 95,
+    "approved-provisional-art": 52,
+    "needs-art-or-symbol-decision": 92,
     "outside-period-reference": 2,
     "art-needs-placement-review": 1
   },
-  "catalog_asset_variants": 92,
-  "catalog_unique_sites": 52,
+  "catalog_asset_variants": 95,
+  "catalog_unique_sites": 55,
   "sites": [
     {
       "id": "CP-001",
@@ -274,8 +274,10 @@
       "id": "CP-022",
       "site": "Beit Guvrin",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "beit-guvrin-1180-v1"
+      ],
       "occupation": "Hospitaller 1136–1187",
       "sieges": "No siege recorded in this index",
       "history_review_required": true
@@ -316,8 +318,10 @@
       "id": "CP-026",
       "site": "Hebron",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "hebron-1180-v1"
+      ],
       "occupation": "Frankish 1099–1187; Ayyubid rule after 1187",
       "sieges": "No siege recorded in this index",
       "history_review_required": false
@@ -939,8 +943,10 @@
       "id": "CP-085",
       "site": "Limassol",
       "region": "main",
-      "status": "needs-art-or-symbol-decision",
-      "asset_ids": [],
+      "status": "approved-provisional-art",
+      "asset_ids": [
+        "limassol-1180-v1"
+      ],
       "occupation": "Lusignan 1191–1291 (continues)",
       "sieges": "No siege recorded in this index",
       "history_review_required": true
