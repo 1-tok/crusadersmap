@@ -892,6 +892,330 @@
       },
       "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
       "acceptance": "generated-under-user-instruction"
+    },
+    {
+      "id": "gravel-wasteland-deep",
+      "name": "Deep Gravel Wasteland",
+      "variant_of": "gravel-wasteland",
+      "category": "desert",
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "repeatable-dry-zone-piece",
+        "automatic_placement": false
+      },
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "source": "sources/gravel-wasteland-deep.png",
+      "file": "png/gravel-wasteland-deep.png",
+      "target_long_edge_px": 1536,
+      "approval": "available-for-placement-planning; geographic-review-required",
+      "acceptance": "generated-under-user-direction",
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "dimensions_px": [
+        1536,
+        1013
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        7,
+        35,
+        1529,
+        1012
+      ],
+      "sha256": "ac492d1517553e647fd2d4ab5c6b73f63641a66bf19b68a6980825527888ee63",
+      "source_sha256": "e15342c142fdf615be0d64aa7442bf70fcf1923fe6409833019c853c2d7cfafa",
+      "anchor_normalized": [
+        0.5160896210758491,
+        0.9624876604146101
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1212083,
+        "cleaned_source_nonzero_alpha": 1183695,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "salt-flat-basin",
+      "name": "Salt Flat Basin",
+      "variant_of": "salt-flat",
+      "category": "desert",
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "repeatable-dry-zone-piece",
+        "automatic_placement": false
+      },
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "source": "sources/salt-flat-basin.png",
+      "file": "png/salt-flat-basin.png",
+      "target_long_edge_px": 1536,
+      "approval": "available-for-placement-planning; geographic-review-required",
+      "acceptance": "generated-under-user-direction",
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "dimensions_px": [
+        1536,
+        1051
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        8,
+        7,
+        1530,
+        1023
+      ],
+      "sha256": "1034b3892ca96c9b68475ac1e6375b868d1c6c81cc995886de6eed5b89eb66bf",
+      "source_sha256": "1db63332dc4270f5687b0a66b5444e7171e6e497ee090124f91d5214e8167acd",
+      "anchor_normalized": [
+        0.5864652997477073,
+        0.9638439581351094
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1279170,
+        "cleaned_source_nonzero_alpha": 1248523,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "badlands-tall-massif",
+      "name": "Tall Badlands Massif",
+      "variant_of": "eroded-badlands",
+      "category": "desert",
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "repeatable-dry-zone-piece",
+        "automatic_placement": false
+      },
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "source": "sources/badlands-tall-massif.png",
+      "file": "png/badlands-tall-massif.png",
+      "target_long_edge_px": 1536,
+      "approval": "available-for-placement-planning; geographic-review-required",
+      "acceptance": "generated-under-user-direction",
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "dimensions_px": [
+        1536,
+        1048
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        5,
+        5,
+        1531,
+        1021
+      ],
+      "sha256": "582b06f22b1a501a38045949a5a1888e4797149ab8ac08752d65db829afe1c5f",
+      "source_sha256": "e97716a47cb33b131aa969dcccaa706941c6505eed844ee251b0ce97d3e8d3e0",
+      "anchor_normalized": [
+        0.5041338906647973,
+        0.9637404580152672
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1148505,
+        "cleaned_source_nonzero_alpha": 1117717,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "dune-field-deep",
+      "name": "Deep Dune Field",
+      "variant_of": "dune-transition",
+      "category": "desert",
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "repeatable-dry-zone-piece",
+        "automatic_placement": false
+      },
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "source": "sources/dune-field-deep.png",
+      "file": "png/dune-field-deep.png",
+      "target_long_edge_px": 1536,
+      "approval": "available-for-placement-planning; geographic-review-required",
+      "acceptance": "generated-under-user-direction",
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "dimensions_px": [
+        1536,
+        1038
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        7,
+        17,
+        1529,
+        1020
+      ],
+      "sha256": "8bd4da2ad573cd658386a790398d8355fac67282045340cdb9f6ad69817e8574",
+      "source_sha256": "c16557b7d1a359c308f63c83dcbd54b518ce774e835e0154e808d31c26f2567b",
+      "anchor_normalized": [
+        0.6092514648095638,
+        0.9633911368015414
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1208987,
+        "cleaned_source_nonzero_alpha": 1183486,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "steppe-basin-deep",
+      "name": "Deep Steppe Basin",
+      "variant_of": "dry-scrub-steppe",
+      "category": "desert",
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "repeatable-dry-zone-piece",
+        "automatic_placement": false
+      },
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "source": "sources/steppe-basin-deep.png",
+      "file": "png/steppe-basin-deep.png",
+      "target_long_edge_px": 1536,
+      "approval": "available-for-placement-planning; geographic-review-required",
+      "acceptance": "generated-under-user-direction",
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "dimensions_px": [
+        1536,
+        1020
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        6,
+        26,
+        1532,
+        1013
+      ],
+      "sha256": "74a48a76431ae2bf817b0fe705479bd7eaa171776301a9aca6e4d43a9cf7986c",
+      "source_sha256": "375b98b42cbcaf5e1bd3c4b13096b8be422371a889e2c63ad360728a24e80eac",
+      "anchor_normalized": [
+        0.514427097038625,
+        0.9627450980392157
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1199126,
+        "cleaned_source_nonzero_alpha": 1167746,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "escarpment-tall-deep",
+      "name": "Tall Desert Escarpment",
+      "variant_of": "desert-escarpment",
+      "category": "desert",
+      "orientation": "oblique-from-south",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "repeatable-dry-zone-piece",
+        "automatic_placement": false
+      },
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-geometry-not-surveyed",
+        "medieval-landcover-and-season-unverified"
+      ],
+      "source": "sources/escarpment-tall-deep.png",
+      "file": "png/escarpment-tall-deep.png",
+      "target_long_edge_px": 1536,
+      "approval": "available-for-placement-planning; geographic-review-required",
+      "acceptance": "generated-under-user-direction",
+      "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
+      "dimensions_px": [
+        1536,
+        852
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        14,
+        127,
+        1524,
+        930
+      ],
+      "sha256": "914473b0467b245c3cca781a9505faa5230d4ba44a1c202e201fb8a4a848ab7e",
+      "source_sha256": "37457d60b53af568301a1b92fe3a246f285de7e2363c8d6db711cd1c4ac971a7",
+      "anchor_normalized": [
+        0.5513293261959152,
+        0.9553990610328639
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 930628,
+        "cleaned_source_nonzero_alpha": 896046,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
     }
   ],
   "user_acceptance": "User: Accept these, place on map, generate more desert and wasteland terrain to cover the whole map"

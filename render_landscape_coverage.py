@@ -31,7 +31,7 @@ def build():
  layer=Image.new('RGBA',(w,h));items=[];rng=random.Random(1180)
  def image_for(ident):
   im=Image.open(B/assets[ident]['file']).convert('RGBA');return im.crop(im.getbbox())
- def stamp(ident,region,coord,width,opacity=.72,kind='dry-zone'):
+ def stamp(ident,region,coord,width,opacity=.72,kind='dry-zone',terrain_role=None):
   x,y=project(region,*coord);src=image_for(ident).rotate(rng.uniform(-7,7),resample=Image.Resampling.BICUBIC,expand=True);ww=max(1,round(width*sc));hh=max(1,round(ww*src.height/src.width));left=round(x*sc-ww/2);top=round(y*sc-hh*.80)
   if left<50*sc or top<100*sc or left+ww>w-50*sc or top+hh>h-150*sc:return
   # Keep main instances outside inset footprints (inset height derived from source layout).
@@ -39,15 +39,31 @@ def build():
   patch=src.resize((ww,hh),Image.Resampling.LANCZOS);alpha=patch.getchannel('A');crop=ImageChops.multiply(drymask.crop((left,top,left+ww,top+hh)),protect.crop((left,top,left+ww,top+hh)));alpha=ImageChops.multiply(alpha,crop).point(lambda a:round(a*opacity))
   if alpha.getbbox() is None:return
   patch.putalpha(alpha);layer.alpha_composite(patch,(left,top));items.append(dict(asset_id=ident,region=region,coordinates=coord,width_sheet_px=width,opacity=opacity,kind=kind,pixel_bounds=[left,top,left+ww,top+hh]))
+  if terrain_role:items[-1]['terrain_role']=terrain_role
  zones=[('Syrian steppe','main',[36.85,33.9,37.55,35.7],['dry-scrub-steppe','gravel-wasteland','rocky-desert']),('Transjordan','main',[36.10,30.8,37.25,33.4],['gravel-wasteland','eroded-badlands','desert-escarpment']),('Judaean desert','main',[35.30,31.25,35.42,31.75],['rocky-desert','eroded-badlands']),('Araba and southern desert','main',[34.8,30.05,35.45,30.9],['sand-dunes','dune-transition','gravel-wasteland']),('Sinai','delta',[33.1,28.6,34.4,30.9],['sand-dunes','rocky-desert','dune-transition','gravel-wasteland']),('Western Egyptian desert','delta',[29.75,29.2,30.25,30.5],['sand-dunes','gravel-wasteland'])]
- for zone,region,(lo0,la0,lo1,la1),choices in zones:
+ foundations={
+  'Syrian steppe':['steppe-basin-deep','gravel-wasteland-deep'],
+  'Transjordan':['gravel-wasteland-deep','badlands-tall-massif','escarpment-tall-deep'],
+  'Judaean desert':['badlands-tall-massif','escarpment-tall-deep'],
+  'Araba and southern desert':['dune-field-deep','gravel-wasteland-deep'],
+  'Sinai':['dune-field-deep','gravel-wasteland-deep','escarpment-tall-deep'],
+  'Western Egyptian desert':['dune-field-deep','gravel-wasteland-deep'],
+ }
+ def cover_zone(zone,region,bounds,choices,spacing,widths,opacity,role):
+  lo0,la0,lo1,la1=bounds
   lat=la1
   while lat>=la0:
    lon=lo0
    while lon<=lo1:
-    coord=[round(lon+rng.uniform(-.05,.05),4),round(lat+rng.uniform(-.025,.025),4)];stamp(rng.choice(choices),region,coord,rng.randrange(620,920),.62,zone);lon+=.32
-   lat-=.075
- stamp('salt-flat','main',[35.35,30.90],410,.65,'salt-flat-context')
+    coord=[round(lon+rng.uniform(-.05,.05),4),round(lat+rng.uniform(-.025,.025),4)]
+    stamp(rng.choice(choices),region,coord,rng.randrange(*widths),opacity,zone,role)
+    lon+=spacing[0]
+   lat-=spacing[1]
+ for zone,region,bounds,_ in zones:
+  cover_zone(zone,region,bounds,foundations[zone],(.40,.15),(900,1251),.49,'foundation')
+ for zone,region,bounds,choices in zones:
+  cover_zone(zone,region,bounds,choices,(.37,.13),(520,781),.40,'connector')
+ stamp('salt-flat-basin','main',[35.28,30.83],480,.50,'salt-flat-context')
  stamp('broad-valley-floor','main',[35.55,32.15],300,.8,'valley-context')
  # Oasis is a generic Jericho-area motif; site identity remains unverified.
  def place_box(ident,region,bounds,kind):
@@ -67,5 +83,5 @@ def build():
  for i,e in enumerate(items,1):
   l,t,rr,bb=e['pixel_bounds'];d.rectangle((l,t,rr,bb),outline='#a73024',width=1)
  markup.save(R/'previews/map-landscape-coverage-markup.jpg',quality=94)
- (B/'coverage-plan.json').write_text(json.dumps({'seed':1180,'user_acceptance':'Accept these, place on map, generate more desert and wasteland terrain to cover the whole map','status':'accepted-artwork-geographic-review-required','base_preview':str(basepath.relative_to(R)),'scope':'Broad dry-zone coverage proof on current map. Printed terrain and labels remain below. Masks protect panels, approximate settlement anchors and dark/red ink, not every moved label. No desert cover over Greece or seas. Water fit is illustrative, not georeferenced shoreline certification.','zones':[dict(name=z,region=r,bounds=b,asset_choices=c) for z,r,b,c in zones],'instances':items},indent=2)+'\n');print('Rendered',len(items),'landscape placements')
+ (B/'coverage-plan.json').write_text(json.dumps({'seed':1180,'user_acceptance':'Accept these, place on map, generate more desert and wasteland terrain to cover the whole map','status':'coverage-proof-geographic-review-required','base_preview':str(basepath.relative_to(R)),'scope':'Broad dry-zone coverage proof on current map. Printed terrain and labels remain below. Masks protect panels, approximate settlement anchors and dark/red ink, not every moved label. No desert cover over Greece or seas. Water fit is illustrative, not georeferenced shoreline certification.','zones':[dict(name=z,region=r,bounds=b,connector_assets=c,foundation_assets=foundations[z]) for z,r,b,c in zones],'instances':items},indent=2)+'\n');print('Rendered',len(items),'landscape placements')
 if __name__=='__main__':build()

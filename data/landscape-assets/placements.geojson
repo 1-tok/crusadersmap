@@ -223,6 +223,78 @@
         "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
         "historical_accuracy_certified": false
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "gravel-wasteland-deep",
+        "asset": "data/landscape-assets/png/gravel-wasteland-deep.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "available-for-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "salt-flat-basin",
+        "asset": "data/landscape-assets/png/salt-flat-basin.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "available-for-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "badlands-tall-massif",
+        "asset": "data/landscape-assets/png/badlands-tall-massif.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "available-for-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "dune-field-deep",
+        "asset": "data/landscape-assets/png/dune-field-deep.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "available-for-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "steppe-basin-deep",
+        "asset": "data/landscape-assets/png/steppe-basin-deep.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "available-for-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "escarpment-tall-deep",
+        "asset": "data/landscape-assets/png/escarpment-tall-deep.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "available-for-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
     }
   ]
 }

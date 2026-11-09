@@ -1,6 +1,6 @@
 # Desert, oasis, valley, road and Jordan-basin assets
 
-Fifteen transparent assets complement the 32-piece mountain/vegetation kit:
+Twenty-one transparent assets complement the 32-piece mountain/vegetation kit:
 
 | File in `png/` | Use |
 |---|---|
@@ -14,7 +14,7 @@ Fifteen transparent assets complement the 32-piece mountain/vegetation kit:
 | `sea-of-galilee.png` | North-up Lake Tiberias illustration |
 | `dead-sea.png` | North-up connected-basin historical interpretation |
 
-Generated with built-in image_gen. Full prompts and unchanged originals are retained. `manifest.json` includes hashes, dimensions, image anchors, orientation, review flags and connection hints; `placements.geojson` records approximate regional context points. Roads deliberately have null geographic geometry. They are reusable graphics, not evidence of historical routes.
+Generated with built-in image_gen. Generation records and originals are retained. `manifest.json` includes hashes, dimensions, image anchors, orientation, review flags and connection hints; `placements.geojson` records approximate regional context points. Roads deliberately have null geographic geometry. They are reusable graphics, not evidence of historical routes.
 
 ## Placement and layering
 
@@ -28,7 +28,7 @@ The existing map layers and print files are unchanged. Artwork is approved for t
 
 ## Technical checks
 
-Run `python3 build_landscape_assets.py` (Pillow, NumPy, SciPy). It removes alpha values below 16/255 and detached components under 20 pixels, trims, preserves aspect ratio, and adds transparent padding. Output long edges are 1024 px for terrain, 1536 px for lakes/roads and 2048 px for the river. Inspect the light/dark contact sheet at `previews/desert-water-road-assets.jpg`. Resizing does not add native detail. Connection hints are approximate and require visual checking.
+Run `python3 build_landscape_assets.py` (Pillow, NumPy, SciPy). It removes alpha values below 16/255 and detached components under 20 pixels, trims, preserves aspect ratio, and adds transparent padding. Output long edges are 1024 px for original terrain, 1536 px for expanded terrain and lakes/roads and 2048 px for the river. Inspect the light/dark contact sheet at `previews/desert-water-road-assets.jpg`. Resizing does not add native detail. Connection hints are approximate and require visual checking.
 
 ## Geographic research
 
@@ -46,3 +46,17 @@ The user accepted the initial nine assets and requested their placement plus mor
 Run `python3 render_landscape_coverage.py` to render `previews/map-landscape-coverage.jpg`, bounds markup, and a separate transparent `previews/landscape-coverage-layer.png`. `coverage-plan.json` records every dry-zone, water, oasis and road placement. The proof uses the prior mountain proof when available. Dry texture is spread through broad editorial regions on the main map and Egypt/Sinai inset, not across seas or Greece. A warm-land color mask, panel exclusions, source-settlement clearances and ink preservation reduce interference. These are approximate raster protections, not complete final label collision checks.
 
 The Jordan and two lakes use illustrative bounding-box fits with potential aspect distortion and unresolved shoreline accuracy; neither their position nor visual acceptance constitutes surveyed hydrology. The oasis is generic near Jericho. Straight road artwork follows selected control-point edges from the existing repository ROADS catalog; the curved road remains available for other routes, not forced onto the map. The original geographic data, map builds and print files are unchanged. This is an editable coverage proof, not a final production print.
+
+## Expanded desert variants
+
+Six new 1536 px assets link to their originals via `variant_of` in the manifest.
+At equal painted width, their alpha bounds extend 2.0–3.1 times farther vertically
+(using alpha ≥32/255). The badlands and escarpment have taller drawn relief.
+See `previews/expanded-desert-comparison.jpg` and the generation records in
+`expanded-wasteland-prompts.json`.
+
+The coverage proof uses the deeper pieces as lightly blended foundations at
+900–1250 px wide on the reference sheet. Original 520–780 px pieces break up
+the edges and connect the larger landforms. The salt basin is a small contextual
+accent on the dry-land mask. Each placement includes its bounds and region,
+and the foundation and connector stamps include their terrain role.

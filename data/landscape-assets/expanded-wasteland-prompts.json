@@ -1,0 +1,36 @@
+{
+  "method": "built-in image_gen",
+  "variants": [
+    {
+      "id": "gravel-wasteland-deep",
+      "reference": "png/gravel-wasteland.png",
+      "brief_summary": "A deeper stony desert pavement with gentle dry washes"
+    },
+    {
+      "id": "salt-flat-basin",
+      "reference": "png/salt-flat.png",
+      "brief_summary": "A broad enclosed playa with pale salt crust"
+    },
+    {
+      "id": "badlands-tall-massif",
+      "reference": "png/eroded-badlands.png",
+      "brief_summary": "Taller eroded ridges and branching gullies"
+    },
+    {
+      "id": "dune-field-deep",
+      "reference": "png/dune-transition.png",
+      "brief_summary": "Multiple dune rows transitioning to gravel"
+    },
+    {
+      "id": "steppe-basin-deep",
+      "reference": "png/dry-scrub-steppe.png",
+      "brief_summary": "A deeper dry steppe with sparse scrub and rolling ground"
+    },
+    {
+      "id": "escarpment-tall-deep",
+      "reference": "png/desert-escarpment.png",
+      "brief_summary": "Tiered limestone cliffs, recessed dry gorge and scree fans",
+      "prompt": "Create a new deeper variant of this desert escarpment for the same historical atlas. Show several tiers of pale limestone cliffs, a broad plateau broken by a recessed dry gorge, and foreground scree fans. Taller relief and a deeper footprint, around 3:2 painted width to height. Vary the cliff outline and internal forms. Match the reference ink and watercolor, muted buff stone, south-facing oblique view, and upper-left light. Entire organic silhouette within generous transparent margins. Actual transparent alpha outside. No backdrop, glow, lettering, roads, or buildings."
+    }
+  ]
+}
