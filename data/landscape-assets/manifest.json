@@ -915,8 +915,8 @@
       "source": "sources/gravel-wasteland-deep.png",
       "file": "png/gravel-wasteland-deep.png",
       "target_long_edge_px": 1536,
-      "approval": "available-for-placement-planning; geographic-review-required",
-      "acceptance": "generated-under-user-direction",
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "acceptance": "accepted-by-user",
       "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
       "dimensions_px": [
         1536,
@@ -969,8 +969,8 @@
       "source": "sources/salt-flat-basin.png",
       "file": "png/salt-flat-basin.png",
       "target_long_edge_px": 1536,
-      "approval": "available-for-placement-planning; geographic-review-required",
-      "acceptance": "generated-under-user-direction",
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "acceptance": "accepted-by-user",
       "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
       "dimensions_px": [
         1536,
@@ -1023,8 +1023,8 @@
       "source": "sources/badlands-tall-massif.png",
       "file": "png/badlands-tall-massif.png",
       "target_long_edge_px": 1536,
-      "approval": "available-for-placement-planning; geographic-review-required",
-      "acceptance": "generated-under-user-direction",
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "acceptance": "accepted-by-user",
       "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
       "dimensions_px": [
         1536,
@@ -1077,8 +1077,8 @@
       "source": "sources/dune-field-deep.png",
       "file": "png/dune-field-deep.png",
       "target_long_edge_px": 1536,
-      "approval": "available-for-placement-planning; geographic-review-required",
-      "acceptance": "generated-under-user-direction",
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "acceptance": "accepted-by-user",
       "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
       "dimensions_px": [
         1536,
@@ -1131,8 +1131,8 @@
       "source": "sources/steppe-basin-deep.png",
       "file": "png/steppe-basin-deep.png",
       "target_long_edge_px": 1536,
-      "approval": "available-for-placement-planning; geographic-review-required",
-      "acceptance": "generated-under-user-direction",
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "acceptance": "accepted-by-user",
       "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
       "dimensions_px": [
         1536,
@@ -1185,8 +1185,8 @@
       "source": "sources/escarpment-tall-deep.png",
       "file": "png/escarpment-tall-deep.png",
       "target_long_edge_px": 1536,
-      "approval": "available-for-placement-planning; geographic-review-required",
-      "acceptance": "generated-under-user-direction",
+      "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+      "acceptance": "accepted-by-user",
       "visual_review": "light-dark-and-map-proof-reviewed; geographic-review-required",
       "dimensions_px": [
         1536,
@@ -1213,6 +1213,223 @@
         "padding_px": 38,
         "source_nonzero_alpha": 930628,
         "cleaned_source_nonzero_alpha": 896046,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "aegean-island-interior",
+      "name": "Aegean Island Interior",
+      "category": "island-interior",
+      "source": "sources/aegean-island-interior.png",
+      "file": "png/aegean-island-interior.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead",
+      "placement": {
+        "region": "aegean",
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "source-texture-for-coastline-masks",
+        "automatic_placement": false
+      },
+      "approval": "available-for-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-landcover",
+        "medieval-extent-unverified"
+      ],
+      "acceptance": "generated-under-user-direction",
+      "dimensions_px": [
+        1536,
+        1021
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        11,
+        25,
+        1523,
+        1004
+      ],
+      "sha256": "900a832c73e05973cf0362a257f30c267f224883e81a6dd13b68b2a1ca157b87",
+      "source_sha256": "095f31234b1bde94928ba85ac193bf457f74c7700a4399348c4920d01091cb4b",
+      "anchor_normalized": [
+        0.4052503891734458,
+        0.9627815866797258
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1276948,
+        "cleaned_source_nonzero_alpha": 1027162,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "levant-farmland",
+      "name": "Levant Farmland",
+      "category": "farmland",
+      "source": "sources/levant-farmland.png",
+      "file": "png/levant-farmland.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": [
+          35.22,
+          32.56
+        ],
+        "coordinates_verified": false,
+        "geometry_role": "regional-context-only",
+        "automatic_placement": false
+      },
+      "approval": "available-for-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-landcover",
+        "medieval-extent-unverified"
+      ],
+      "acceptance": "generated-under-user-direction",
+      "dimensions_px": [
+        1536,
+        1106
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        53,
+        34,
+        1456,
+        1024
+      ],
+      "sha256": "63cd6949b6bc77f4579caed4ebd60e2ad974534a3d9c87e535d169f55049a9b6",
+      "source_sha256": "ce15ebf048528fc304818baf700689a818787d6e79a0be5c1facbdbad154b3a6",
+      "anchor_normalized": [
+        0.3609291071976673,
+        0.9656419529837251
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1323798,
+        "cleaned_source_nonzero_alpha": 985441,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "aegean-terraced-farmland",
+      "name": "Aegean Terraced Farmland",
+      "category": "farmland",
+      "source": "sources/aegean-terraced-farmland.png",
+      "file": "png/aegean-terraced-farmland.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead",
+      "placement": {
+        "region": "aegean",
+        "context_anchor_lonlat": [
+          25.46,
+          37.08
+        ],
+        "coordinates_verified": false,
+        "geometry_role": "regional-context-only",
+        "automatic_placement": false
+      },
+      "approval": "available-for-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-landcover",
+        "medieval-extent-unverified"
+      ],
+      "acceptance": "generated-under-user-direction",
+      "dimensions_px": [
+        1536,
+        1051
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        29,
+        20,
+        1511,
+        1010
+      ],
+      "sha256": "4ba3143bf03c1778a7db20aa1f47bb1ffceea5f4d17b11863b511d34d48300a7",
+      "source_sha256": "f6b9a06c6df4f7addcc306c4435b931d1f33819f1c82a43a2244b75fc16ffece",
+      "anchor_normalized": [
+        0.37093881812861623,
+        0.9638439581351094
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 980281,
+        "cleaned_source_nonzero_alpha": 946021,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "flat-desert-pavement",
+      "name": "Flat Desert Pavement",
+      "category": "desert",
+      "source": "sources/flat-desert-pavement.png",
+      "file": "png/flat-desert-pavement.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead",
+      "placement": {
+        "region": "main",
+        "context_anchor_lonlat": [
+          37.02,
+          32.1
+        ],
+        "coordinates_verified": false,
+        "geometry_role": "regional-context-only",
+        "automatic_placement": false
+      },
+      "approval": "available-for-placement-planning; geographic-review-required",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-landcover",
+        "medieval-extent-unverified"
+      ],
+      "acceptance": "generated-under-user-direction",
+      "dimensions_px": [
+        1536,
+        1042
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        16,
+        16,
+        1510,
+        1005
+      ],
+      "sha256": "5dc7b6ffad4cdc40e0615979d3eedac004de2c3031350a54c01acfe3efb67733",
+      "source_sha256": "f1f994a378d0720751a8044a5c0ca0cc12b2e62aa498b26f851cd49ae42e2bba",
+      "anchor_normalized": [
+        0.475749659142278,
+        0.963531669865643
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1124001,
+        "cleaned_source_nonzero_alpha": 1045167,
         "alpha_floor": 16,
         "minimum_component_pixels": 20
       }

@@ -1,6 +1,6 @@
 # Desert, oasis, valley, road and Jordan-basin assets
 
-Twenty-one transparent assets complement the 32-piece mountain/vegetation kit:
+Twenty-five transparent terrain and water assets complement the 32-piece mountain/vegetation kit:
 
 | File in `png/` | Use |
 |---|---|
@@ -49,7 +49,7 @@ The Jordan and two lakes use illustrative bounding-box fits with potential aspec
 
 ## Expanded desert variants
 
-Six new 1536 px assets link to their originals via `variant_of` in the manifest.
+Six user-accepted 1536 px assets link to their originals via `variant_of` in the manifest.
 At equal painted width, their alpha bounds extend 2.0–3.1 times farther vertically
 (using alpha ≥32/255). The badlands and escarpment have taller drawn relief.
 See `previews/expanded-desert-comparison.jpg` and the generation records in
@@ -60,3 +60,18 @@ The coverage proof uses the deeper pieces as lightly blended foundations at
 the edges and connect the larger landforms. The salt basin is a small contextual
 accent on the dry-land mask. Each placement includes its bounds and region,
 and the foundation and connector stamps include their terrain role.
+
+## Greek islands, farmland and flat desert
+
+Run `python3 build_aegean_islands.py` (Pillow and pyproj) after building the
+landscape assets. It generates ten transparent island overlays for the Aegean
+inset. Place each PNG using its padded sheet bounds in `island-placements.json`
+and put labels and settlement sprites above it. Each island uses its principal
+land polygon from the repository's Natural Earth coastline and an illustrated
+interior. Adjacent islets are separate geographic features. Interior hills and
+vegetation are decorative. Medieval shoreline and land cover remain unverified.
+
+Use `levant-farmland.png` for irregular grain, fallow and olive plots and
+`aegean-terraced-farmland.png` for low cultivated slopes. The point placements
+are regional examples. Use `flat-desert-pavement.png` as a broad, low-contrast
+desert base beneath higher relief. Generation prompts and originals are retained.
