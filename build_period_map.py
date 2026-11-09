@@ -26,6 +26,25 @@ def main():
            'delta':(round(190*S),round(13760*S)-regions['delta'].h)}
     base,_=regions['main'].render(7,river_w=1)
     d=ImageDraw.Draw(base)
+    # Landscape artwork sits below settlement art and map lettering.
+    natural_dir=ROOT/'data/sprites/natural-landmarks'
+    natural_labels=[]
+    for feature in json.loads((natural_dir/'placements.geojson').read_text())['features']:
+        props=feature['properties']
+        if not props.get('approval_for_placement') or props['placement_status']!='placed':
+            continue
+        px,py=regions[props['map_panel']].ll_px(*feature['geometry']['coordinates'])
+        bx,by=boxes[props['map_panel']]
+        px,py=px+bx,py+by
+        with Image.open(natural_dir/props['file']) as source:
+            width=round(props['nominal_print_width_px']*S)
+            im=source.resize((width,round(width*source.height/source.width)),Image.Resampling.LANCZOS)
+        u,v=props['sprite_anchor_uv']
+        base.paste(im,(round(px-u*im.width),round(py-v*im.height)),im)
+        dx,dy=props['label_offset_print_px']
+        natural_labels.append((round(px+dx*S),round(py+dy*S),props['map_label']))
+    if natural_labels:
+        regions['main'].draw_rivers(d,1)
     for k in ('aegean','delta'):
         im,_=regions[k].render(6,river_w=1);x,y=boxes[k];base.paste(im,(x,y));d.rectangle((x-2,y-2,x+im.width+2,y+im.height+2),outline=INK,width=2)
         label='Aegean context · 1095–1291' if k=='aegean' else 'Egypt & Sinai · 1095–1291'
@@ -107,6 +126,9 @@ def main():
     rect(lx,ly,round(2200*S),round(1750*S))
     for j,line in enumerate(['HOW TO READ THIS MAP','147 numbered source sites','Red ring: a recorded siege in 1095–1291','Grey: occupation details require review','Numbers link to the occupation / siege index','Dates describe selected phases, not continuous rule','No siege recorded ≠ proof of no siege','Mainland focus; Aegean and Egypt give context']):
         text(lx+18,ly+18+j*43,line,20 if j==0 else 15,INK if j!=2 else RED)
+    for x,y,label in natural_labels:
+        text(x,y,label,15,BLUE)
+        art_bounds.append((x-2,y-2,x+math.ceil(d.textlength(label,font=font(15)))+2,y+19))
     occupied=art_bounds+[(tx,ty,tx+tw,ty+th),(lx,ly,lx+round(2200*S),ly+round(1750*S))]
     label_font=font(12)
     for row in sorted(rows,key=lambda r:(r['id'] not in illustrated,r['region'],r['tier'],r['id'])):

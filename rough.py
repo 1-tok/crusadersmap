@@ -160,14 +160,16 @@ class Region:
             ring = (~land) & (np.abs(dt - kk) < 0.6)
             o[ring] = (o[ring] * 0.6 + np.array(BLUE) * 0.4)
         out = Image.fromarray(o); d = ImageDraw.Draw(out)
-        # rivers
+        self.draw_rivers(d, river_w)
+        return out, land
+
+    def draw_rivers(self, draw, width):
         bb = self.bbox_ll()
         for g in RIVERS:
             if not g.intersects(bb):
                 continue
             for ln in getattr(g, "geoms", [g]):
                 c = [self.ll_px(x, y) for x, y in ln.coords]
-                d.line(c, fill=BLUE, width=river_w)
-        return out, land
+                draw.line(c, fill=BLUE, width=width)
 
 
