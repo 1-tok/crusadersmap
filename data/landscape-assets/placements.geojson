@@ -370,7 +370,7 @@
         "asset": "data/landscape-assets/png/aegean-rocky-islet.png",
         "orientation": "near-overhead",
         "placement_status": "generic-manual-placement",
-        "approval": "available-for-generic-placement",
+        "approval": "approved-for-generic-placement",
         "historical_accuracy_certified": false
       }
     },
@@ -382,7 +382,7 @@
         "asset": "data/landscape-assets/png/orchard-field-mosaic.png",
         "orientation": "near-overhead",
         "placement_status": "generic-manual-placement",
-        "approval": "available-for-generic-placement",
+        "approval": "approved-for-generic-placement",
         "historical_accuracy_certified": false
       }
     },
@@ -392,6 +392,42 @@
       "properties": {
         "id": "flat-desert-sand-sheet",
         "asset": "data/landscape-assets/png/flat-desert-sand-sheet.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "approved-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "dry-stone-pasture",
+        "asset": "data/landscape-assets/png/dry-stone-pasture.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "available-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "shallow-desert-wash",
+        "asset": "data/landscape-assets/png/shallow-desert-wash.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "available-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "aegean-low-scrub-islet",
+        "asset": "data/landscape-assets/png/aegean-low-scrub-islet.png",
         "orientation": "near-overhead",
         "placement_status": "generic-manual-placement",
         "approval": "available-for-generic-placement",

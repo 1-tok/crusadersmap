@@ -1454,13 +1454,13 @@
         "automatic_placement": false
       },
       "placement_use": "schematic-islet",
-      "approval": "available-for-generic-placement",
+      "approval": "approved-for-generic-placement",
       "historical_accuracy_certified": false,
       "references": [],
       "review_flags": [
         "illustrative-terrain"
       ],
-      "acceptance": "generated-under-user-direction",
+      "acceptance": "accepted-by-user",
       "dimensions_px": [
         1536,
         904
@@ -1506,13 +1506,13 @@
         "automatic_placement": false
       },
       "placement_use": "cultivated-ground",
-      "approval": "available-for-generic-placement",
+      "approval": "approved-for-generic-placement",
       "historical_accuracy_certified": false,
       "references": [],
       "review_flags": [
         "illustrative-terrain"
       ],
-      "acceptance": "generated-under-user-direction",
+      "acceptance": "accepted-by-user",
       "dimensions_px": [
         1536,
         975
@@ -1558,13 +1558,13 @@
         "automatic_placement": false
       },
       "placement_use": "dry-ground-base",
-      "approval": "available-for-generic-placement",
+      "approval": "approved-for-generic-placement",
       "historical_accuracy_certified": false,
       "references": [],
       "review_flags": [
         "illustrative-terrain"
       ],
-      "acceptance": "generated-under-user-direction",
+      "acceptance": "accepted-by-user",
       "dimensions_px": [
         1536,
         1030
@@ -1590,6 +1590,162 @@
         "padding_px": 38,
         "source_nonzero_alpha": 1244395,
         "cleaned_source_nonzero_alpha": 1146988,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "dry-stone-pasture",
+      "name": "Dry Stone Pasture",
+      "category": "pasture",
+      "source": "sources/dry-stone-pasture.png",
+      "file": "png/dry-stone-pasture.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead",
+      "placement": {
+        "region": null,
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "generic-manual-placement",
+        "automatic_placement": false
+      },
+      "placement_use": "open-pasture-transition",
+      "approval": "available-for-generic-placement",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-terrain"
+      ],
+      "acceptance": "generated-under-user-direction",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        13,
+        18,
+        1522,
+        998
+      ],
+      "sha256": "abd49d86eae57d2ea3975cd9a4365ed518b7f7aac3bcb24cfc166020042cad63",
+      "source_sha256": "08c3f0109b425a581030258422a290eedc56645ed4e69b519da39d32e6a9e98b",
+      "anchor_normalized": [
+        0.342097787370965,
+        0.962890625
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1083627,
+        "cleaned_source_nonzero_alpha": 1057366,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "shallow-desert-wash",
+      "name": "Shallow Desert Wash",
+      "category": "desert",
+      "source": "sources/shallow-desert-wash.png",
+      "file": "png/shallow-desert-wash.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead",
+      "placement": {
+        "region": null,
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "generic-manual-placement",
+        "automatic_placement": false
+      },
+      "placement_use": "dry-drainage-accent",
+      "approval": "available-for-generic-placement",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-terrain"
+      ],
+      "acceptance": "generated-under-user-direction",
+      "dimensions_px": [
+        1536,
+        992
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_trim_xyxy": [
+        30,
+        65,
+        1489,
+        980
+      ],
+      "sha256": "94fd01be961794816ca5f996ff65cf6ef0b49bebd1f00dc74550c1107cf01e8a",
+      "source_sha256": "cae51aae3f474259de0bc6f8f4aef8efc23003f142f3a1ed964990f3dcc5182d",
+      "anchor_normalized": [
+        0.5924685384079224,
+        0.9616935483870968
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 1077313,
+        "cleaned_source_nonzero_alpha": 1036311,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20
+      }
+    },
+    {
+      "id": "aegean-low-scrub-islet",
+      "name": "Low Aegean Scrub Islet",
+      "category": "islet",
+      "source": "sources/aegean-low-scrub-islet.png",
+      "file": "png/aegean-low-scrub-islet.png",
+      "target_long_edge_px": 1536,
+      "orientation": "near-overhead",
+      "placement": {
+        "region": null,
+        "context_anchor_lonlat": null,
+        "coordinates_verified": false,
+        "geometry_role": "generic-manual-placement",
+        "automatic_placement": false
+      },
+      "placement_use": "schematic-islet",
+      "approval": "available-for-generic-placement",
+      "historical_accuracy_certified": false,
+      "references": [],
+      "review_flags": [
+        "illustrative-terrain"
+      ],
+      "acceptance": "generated-under-user-direction",
+      "dimensions_px": [
+        1536,
+        646
+      ],
+      "source_dimensions_px": [
+        1942,
+        809
+      ],
+      "source_trim_xyxy": [
+        38,
+        40,
+        1904,
+        769
+      ],
+      "sha256": "845ae943c5eb72224c1de56e3e2fd5618ca87c285fdf36b74669eac153ac9688",
+      "source_sha256": "3c8c73353d0950ce4d7c6361eea887f195c6c64ec600c5dc51c42f3592b2e49e",
+      "anchor_normalized": [
+        0.5760132795921233,
+        0.9411764705882353
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "padding_px": 38,
+        "source_nonzero_alpha": 444110,
+        "cleaned_source_nonzero_alpha": 355481,
         "alpha_floor": 16,
         "minimum_component_pixels": 20
       }

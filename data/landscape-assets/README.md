@@ -1,6 +1,6 @@
 # Desert, oasis, valley, road and Jordan-basin assets
 
-Twenty-eight transparent terrain and water assets complement the 32-piece mountain/vegetation kit:
+Thirty-one transparent terrain and water assets complement the 32-piece mountain/vegetation kit:
 
 | File in `png/` | Use |
 |---|---|
@@ -85,3 +85,11 @@ symbol, the orchard mosaic for cultivated slopes and the flat sand sheet
 as low-relief ground under other desert pieces. Named island overlays use
 their matching coastline bounds. The manifest records each stamp's placement
 role, and `generic-terrain-prompts.json` retains the prompts.
+
+The rocky islet, orchard mosaic and flat sand sheet are approved for generic
+placement across the map. The next three stamps also have no fixed coordinates.
+Use the dry stone pasture to bridge farmland and uncultivated slopes, the
+shallow desert wash as a dry drainage accent on flat ground, and the low scrub
+islet as a schematic coastal symbol. The latter two represent illustrative
+forms. Their positions are assigned by the map editor. Generation prompts are
+in `generic-terrain-02-prompts.json`.
