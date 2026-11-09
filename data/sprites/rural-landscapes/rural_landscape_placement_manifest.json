@@ -1,0 +1,1342 @@
+{
+  "schema_version": "0.2",
+  "project": "Crusader Map",
+  "asset_type": "regional_terrain_with_embedded_small_settlements",
+  "approved_for_placement": true,
+  "artwork_delivery": "png_package_unavailable_for_review",
+  "notes": "Approval is design-level. All windows are geometry studies. Alpha, visual fit and compositor integration are pending for every entry.",
+  "view": "elevated oblique from south",
+  "layer": "terrain-composite below named settlements and labels",
+  "placement_rules": [
+    "Do not place a generic settlement on top of named cities or historical landmarks.",
+    "Only use coastal composites where coastline matches; only use river and marsh composites where hydrography matches.",
+    "Scale to regional footprint, with buildings visibly smaller than named settlements.",
+    "Blend irregular edges and align roads, slopes and waterways.",
+    "Avoid obvious repetition; mirror only where historically and geographically safe."
+  ],
+  "sprites": [
+    {
+      "id": "CSV-089",
+      "terrain": "mediterranean_highland",
+      "description": "hill village and terraces",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-04",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "reposition",
+        "region": "main",
+        "area": "Upper Galilee interior",
+        "center_lonlat": [
+          35.4,
+          33.01
+        ],
+        "center_sheet_px": [
+          1663.6,
+          2085.3
+        ],
+        "max_footprint_preview_px": [
+          48,
+          36
+        ],
+        "study_window_sheet_px": [
+          1639.6,
+          2067.3,
+          1687.6,
+          2103.3
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "The box overlaps the Montfort callout on the reviewed proof.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-090",
+      "terrain": "irrigated_valley",
+      "description": "small village and watermill",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-04",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "reposition",
+        "region": "main",
+        "area": "Lower Orontes near Antioch",
+        "center_lonlat": [
+          36.19,
+          36.18
+        ],
+        "center_sheet_px": [
+          1939,
+          756.1
+        ],
+        "max_footprint_preview_px": [
+          42,
+          35
+        ],
+        "study_window_sheet_px": [
+          1918,
+          738.6,
+          1960,
+          773.6
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Overlaps CP-047 and the schematic road. The lower Orontes is not drawn at this site in the active river layer. Find a clear rendered river reach before matching the watermill.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-091",
+      "terrain": "arid_plateau",
+      "description": "hamlet and caravan camp",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-04",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "inland_trial_pending_art",
+        "review_gate": "inland",
+        "region": "main",
+        "area": "Transjordan plateau east of the Dead Sea",
+        "center_lonlat": [
+          36.7,
+          31.69
+        ],
+        "center_sheet_px": [
+          2127.1,
+          2637.9
+        ],
+        "max_footprint_preview_px": [
+          70,
+          47
+        ],
+        "study_window_sheet_px": [
+          2092.1,
+          2614.4,
+          2162.1,
+          2661.4
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": 0,
+        "mirror": false,
+        "review_note": "Keep any painted tracks local and preserve the broad plateau profile.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-092",
+      "terrain": "rocky_coast",
+      "description": "coastal hamlet and lookout",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-04",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "reposition",
+        "region": "main",
+        "area": "Lebanese coast south of Batroun",
+        "center_lonlat": [
+          35.62,
+          34.15
+        ],
+        "center_sheet_px": [
+          1742.6,
+          1607.8
+        ],
+        "max_footprint_preview_px": [
+          44,
+          35
+        ],
+        "study_window_sheet_px": [
+          1720.6,
+          1590.3,
+          1764.6,
+          1625.3
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Overlaps CP-068 and its artwork. Find a clear coastline reach and match the direction of land and sea.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-093",
+      "terrain": "agricultural_plain",
+      "description": "scattered farmsteads",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-04",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "reposition",
+        "region": "main",
+        "area": "Northern Amuq agricultural plain",
+        "center_lonlat": [
+          36.35,
+          36.44
+        ],
+        "center_sheet_px": [
+          1993,
+          646.8
+        ],
+        "max_footprint_preview_px": [
+          66,
+          43
+        ],
+        "study_window_sheet_px": [
+          1960,
+          625.3,
+          2026,
+          668.3
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Overlaps the CP-065 anchor. Move within the basin and keep clear of adjacent relief and markers.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-094",
+      "terrain": "desert_oasis",
+      "description": "palm spring and small village",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-04",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "reposition",
+        "region": "delta",
+        "area": "Western Delta desert fringe",
+        "center_lonlat": [
+          30.29,
+          30.41
+        ],
+        "center_sheet_px": [
+          194.7,
+          2552
+        ],
+        "max_footprint_preview_px": [
+          44,
+          36
+        ],
+        "study_window_sheet_px": [
+          172.7,
+          2534,
+          216.7,
+          2570
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Overlaps the Wadi el Natrun anchor. Use an independently supported spring site away from its named artwork.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-095",
+      "terrain": "olive_highlands",
+      "description": "small upland hamlets",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "reposition",
+        "region": "main",
+        "area": "Southern Lebanese foothills",
+        "center_lonlat": [
+          35.74,
+          33.52
+        ],
+        "center_sheet_px": [
+          1784.1,
+          1872
+        ],
+        "max_footprint_preview_px": [
+          53,
+          38
+        ],
+        "study_window_sheet_px": [
+          1757.6,
+          1853,
+          1810.6,
+          1891
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Footprint crosses a rendered river. Shift to a dry slope on the same side of the valley.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-096",
+      "terrain": "river_plain",
+      "description": "small villages among waterways",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "hydrology",
+        "region": "delta",
+        "area": "Rosetta distributary floodplain",
+        "center_lonlat": [
+          30.8,
+          31.02
+        ],
+        "center_sheet_px": [
+          295.3,
+          2414.2
+        ],
+        "max_footprint_preview_px": [
+          65,
+          47
+        ],
+        "study_window_sheet_px": [
+          262.8,
+          2390.7,
+          327.8,
+          2437.7
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "The box crosses the rendered Rosetta branch. Match the distributary direction and joins or keep the sprite off the bank.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-097",
+      "terrain": "coastal_hills",
+      "description": "dispersed coastal dwellings",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "coast",
+        "region": "main",
+        "area": "South Lebanese coastal hills",
+        "center_lonlat": [
+          35.27,
+          33.35
+        ],
+        "center_sheet_px": [
+          1618.6,
+          1942.6
+        ],
+        "max_footprint_preview_px": [
+          52,
+          39
+        ],
+        "study_window_sheet_px": [
+          1592.6,
+          1923.1,
+          1644.6,
+          1962.1
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Match shoreline and keep the existing coastal route corridor clear. The box intersects the schematic road.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-098",
+      "terrain": "wheat_plain",
+      "description": "isolated farms and hamlets",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "inland_trial_pending_art",
+        "review_gate": "inland",
+        "region": "main",
+        "area": "Western Hauran plain",
+        "center_lonlat": [
+          36.45,
+          32.95
+        ],
+        "center_sheet_px": [
+          2034.7,
+          2110.4
+        ],
+        "max_footprint_preview_px": [
+          78,
+          45
+        ],
+        "study_window_sheet_px": [
+          1995.7,
+          2087.9,
+          2073.7,
+          2132.9
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": 0,
+        "mirror": false,
+        "review_note": "Keep buildings subordinate to named towns and painted farm lanes self-contained.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-099",
+      "terrain": "mountain_valley",
+      "description": "sparse mountain outposts",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "inland_trial_pending_art",
+        "review_gate": "inland",
+        "region": "main",
+        "area": "Amanus to southern Taurus uplands",
+        "center_lonlat": [
+          36.75,
+          37.05
+        ],
+        "center_sheet_px": [
+          2126.8,
+          389.6
+        ],
+        "max_footprint_preview_px": [
+          62,
+          48
+        ],
+        "study_window_sheet_px": [
+          2095.8,
+          365.6,
+          2157.8,
+          413.6
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": 0,
+        "mirror": false,
+        "review_note": "Use only if the painted valley agrees with the relief and includes no unconnected through-watercourse.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-100",
+      "terrain": "desert_oasis",
+      "description": "small irrigated hamlet",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "spring",
+        "region": "main",
+        "area": "Steppe east of the Qalamoun",
+        "center_lonlat": [
+          36.77,
+          34.29
+        ],
+        "center_sheet_px": [
+          2143.1,
+          1547.9
+        ],
+        "max_footprint_preview_px": [
+          45,
+          37
+        ],
+        "study_window_sheet_px": [
+          2120.6,
+          1529.4,
+          2165.6,
+          1566.4
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Confirm an appropriate spring or irrigated pocket before showing permanent green cover.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-101",
+      "terrain": "rocky_coast",
+      "description": "tiny coastal settlement",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "coast",
+        "region": "aegean",
+        "area": "Gulf of Çandarlı shore",
+        "center_lonlat": [
+          27.22,
+          38.85
+        ],
+        "center_sheet_px": [
+          832.5,
+          436.6
+        ],
+        "max_footprint_preview_px": [
+          48,
+          36
+        ],
+        "study_window_sheet_px": [
+          808.5,
+          418.6,
+          856.5,
+          454.6
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "The window is almost entirely land. Use a tighter or shifted shoreline window only if the painted rocky shore matches.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-102",
+      "terrain": "caravan_desert",
+      "description": "tent camp and distant ruins",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "route",
+        "region": "main",
+        "area": "Eastern Hauran steppe margin",
+        "center_lonlat": [
+          36.88,
+          32.28
+        ],
+        "center_sheet_px": [
+          2189.3,
+          2390.1
+        ],
+        "max_footprint_preview_px": [
+          72,
+          46
+        ],
+        "study_window_sheet_px": [
+          2153.3,
+          2367.1,
+          2225.3,
+          2413.1
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "No schematic corridor touches this box. Hold pending evidence for a route, or qualify a self-contained camp without a through-road.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-103",
+      "terrain": "terraced_hills",
+      "description": "isolated houses among terraces",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "inland_trial_pending_art",
+        "review_gate": "inland",
+        "region": "main",
+        "area": "Northern Transjordan uplands",
+        "center_lonlat": [
+          35.95,
+          32.55
+        ],
+        "center_sheet_px": [
+          1858,
+          2278.6
+        ],
+        "max_footprint_preview_px": [
+          50,
+          37
+        ],
+        "study_window_sheet_px": [
+          1833,
+          2260.1,
+          1883,
+          2297.1
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": 0,
+        "mirror": false,
+        "review_note": "Keep terrace orientation consistent with the surrounding slopes.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-104",
+      "terrain": "wetland",
+      "description": "small waterside farmsteads",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "hydrology",
+        "region": "delta",
+        "area": "Burullus lagoon margin",
+        "center_lonlat": [
+          30.92,
+          31.44
+        ],
+        "center_sheet_px": [
+          318.9,
+          2319
+        ],
+        "max_footprint_preview_px": [
+          54,
+          43
+        ],
+        "study_window_sheet_px": [
+          291.9,
+          2297.5,
+          345.9,
+          2340.5
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "The map land mask includes lagoon-edge water here. Match shoreline and verify the period wetland extent before adding channels or farmsteads.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-105",
+      "terrain": "arid_canyon",
+      "description": "isolated tower and shelters",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "inland_trial_pending_art",
+        "review_gate": "inland",
+        "region": "main",
+        "area": "Moab–Edom escarpment",
+        "center_lonlat": [
+          35.8,
+          30.89
+        ],
+        "center_sheet_px": [
+          1804.1,
+          2974.4
+        ],
+        "max_footprint_preview_px": [
+          65,
+          46
+        ],
+        "study_window_sheet_px": [
+          1771.6,
+          2951.4,
+          1836.6,
+          2997.4
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": 0,
+        "mirror": false,
+        "review_note": "Match the dry canyon and keep the tower subordinate to Kerak and Shobak.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-106",
+      "terrain": "wooded_hills",
+      "description": "scattered shepherd farms",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-05",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "reposition",
+        "region": "main",
+        "area": "Western Troodos uplands",
+        "center_lonlat": [
+          32.8,
+          35
+        ],
+        "center_sheet_px": [
+          770.1,
+          1235.6
+        ],
+        "max_footprint_preview_px": [
+          48,
+          39
+        ],
+        "study_window_sheet_px": [
+          746.1,
+          1216.1,
+          794.1,
+          1255.1
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Overlaps the CP-089 anchor. Move along the wooded upland belt before checking local slopes.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-107",
+      "terrain": "olive_uplands",
+      "description": "isolated chapels and hamlets",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "inland_trial_pending_art",
+        "review_gate": "inland",
+        "region": "aegean",
+        "area": "Central Peloponnese uplands",
+        "center_lonlat": [
+          22.32,
+          37.56
+        ],
+        "center_sheet_px": [
+          305.5,
+          610.9
+        ],
+        "max_footprint_preview_px": [
+          56,
+          40
+        ],
+        "study_window_sheet_px": [
+          277.5,
+          590.9,
+          333.5,
+          630.9
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": 0,
+        "mirror": false,
+        "review_note": "Keep the chapel subordinate to named settlement art and test the tree scale against adjacent relief.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-108",
+      "terrain": "meandering_river_plain",
+      "description": "tiny riverbank farms",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "hydrology",
+        "region": "main",
+        "area": "Jordan valley west of Ajloun",
+        "center_lonlat": [
+          35.58,
+          32.37
+        ],
+        "center_sheet_px": [
+          1726.4,
+          2353.8
+        ],
+        "max_footprint_preview_px": [
+          50,
+          40
+        ],
+        "study_window_sheet_px": [
+          1701.4,
+          2333.8,
+          1751.4,
+          2373.8
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "The box crosses the rendered Jordan. Match the bends at both ends and recheck the adjacent Ajloun illustration and badge.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-109",
+      "terrain": "rugged_coast",
+      "description": "isolated coastal towers",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "reposition",
+        "region": "aegean",
+        "area": "Karaburun peninsula coast",
+        "center_lonlat": [
+          26.28,
+          38.36
+        ],
+        "center_sheet_px": [
+          733.3,
+          505.2
+        ],
+        "max_footprint_preview_px": [
+          50,
+          38
+        ],
+        "study_window_sheet_px": [
+          708.3,
+          486.2,
+          758.3,
+          524.2
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Overlaps CP-124. Seek a clear rocky shoreline reach with matching coastline geometry and no harbor duplication.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-110",
+      "terrain": "grain_fields",
+      "description": "small farms among harvested fields",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "inland_trial_pending_art",
+        "review_gate": "inland",
+        "region": "aegean",
+        "area": "Western Thessaly plain",
+        "center_lonlat": [
+          22.27,
+          39.5
+        ],
+        "center_sheet_px": [
+          307.8,
+          346.6
+        ],
+        "max_footprint_preview_px": [
+          68,
+          47
+        ],
+        "study_window_sheet_px": [
+          273.8,
+          323.1,
+          341.8,
+          370.1
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": 0,
+        "mirror": false,
+        "review_note": "Keep crop textures and farm size consistent with the basin and leave adjacent drainage visible.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-111",
+      "terrain": "rocky_mountain_pass",
+      "description": "small outpost and farms",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "route",
+        "region": "main",
+        "area": "Amanus mountain corridor",
+        "center_lonlat": [
+          36.42,
+          36.8
+        ],
+        "center_sheet_px": [
+          2016.1,
+          495.4
+        ],
+        "max_footprint_preview_px": [
+          52,
+          46
+        ],
+        "study_window_sheet_px": [
+          1990.1,
+          472.4,
+          2042.1,
+          518.4
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Relief supports a mountain study area. No schematic pass route meets this box. Verify the pass and both road ends.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-112",
+      "terrain": "desert_irrigated_oasis",
+      "description": "few houses among palms",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "spring",
+        "region": "delta",
+        "area": "Western Desert south of Wadi el Natrun",
+        "center_lonlat": [
+          30.1,
+          29.28
+        ],
+        "center_sheet_px": [
+          155.1,
+          2808
+        ],
+        "max_footprint_preview_px": [
+          45,
+          38
+        ],
+        "study_window_sheet_px": [
+          132.6,
+          2789,
+          177.6,
+          2827
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "No source spring was established for this box. Hold for a mapped oasis or attested water source.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-113",
+      "terrain": "coastal_cove",
+      "description": "tiny village and moored boats",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "coast",
+        "region": "aegean",
+        "area": "North Crete cove corridor",
+        "center_lonlat": [
+          25.55,
+          35.3
+        ],
+        "center_sheet_px": [
+          657.4,
+          922.7
+        ],
+        "max_footprint_preview_px": [
+          40,
+          31
+        ],
+        "study_window_sheet_px": [
+          637.4,
+          907.2,
+          677.4,
+          938.2
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Use only if the cove opening, shore and moorings align. Avoid implying a named port.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-114",
+      "terrain": "desert_caravan_route",
+      "description": "small tent waystation",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "route",
+        "region": "delta",
+        "area": "Central Sinai desert corridor",
+        "center_lonlat": [
+          33.6,
+          29.89
+        ],
+        "center_sheet_px": [
+          847.9,
+          2665
+        ],
+        "max_footprint_preview_px": [
+          62,
+          40
+        ],
+        "study_window_sheet_px": [
+          816.9,
+          2645,
+          878.9,
+          2685
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "The period inset has no route overlay. Require a period route trace and check apparent terrain tile gaps.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-115",
+      "terrain": "vineyard_terraces",
+      "description": "small rural houses",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "inland_trial_pending_art",
+        "review_gate": "inland",
+        "region": "main",
+        "area": "Southern Troodos foothills",
+        "center_lonlat": [
+          32.96,
+          34.98
+        ],
+        "center_sheet_px": [
+          825.1,
+          1245.6
+        ],
+        "max_footprint_preview_px": [
+          43,
+          35
+        ],
+        "study_window_sheet_px": [
+          803.6,
+          1228.1,
+          846.6,
+          1263.1
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": 0,
+        "mirror": false,
+        "review_note": "Keep terraces in the foothills and preserve clearance from the schematic Nicosia–Limassol route.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-116",
+      "terrain": "marsh_floodplain",
+      "description": "isolated riverbank farmhouse",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "hydrology",
+        "region": "delta",
+        "area": "Manzala lagoon margin",
+        "center_lonlat": [
+          31.96,
+          31.17
+        ],
+        "center_sheet_px": [
+          521.6,
+          2379.6
+        ],
+        "max_footprint_preview_px": [
+          50,
+          35
+        ],
+        "study_window_sheet_px": [
+          496.6,
+          2362.1,
+          546.6,
+          2397.1
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Match the wetland edge and verify a period-appropriate channel before joining to the modern generalization.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-117",
+      "terrain": "arid_canyon_pass",
+      "description": "tiny fortified roadside site",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "route",
+        "region": "main",
+        "area": "Wadi Mujib and Moab escarpment",
+        "center_lonlat": [
+          35.7,
+          31.45
+        ],
+        "center_sheet_px": [
+          1768.4,
+          2739.6
+        ],
+        "max_footprint_preview_px": [
+          58,
+          47
+        ],
+        "study_window_sheet_px": [
+          1739.4,
+          2716.1,
+          1797.4,
+          2763.1
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Do not attach the fortified site to an inferred road. Verify the canyon crossing and preserve Dead Sea shoreline clearance.",
+        "queued_for_map_placement": true
+      }
+    },
+    {
+      "id": "CSV-118",
+      "terrain": "olive_groves",
+      "description": "isolated shepherd farm",
+      "approved": true,
+      "ready_for_renderer": false,
+      "png_path": null,
+      "scale_class": "large_regional",
+      "source_sheet": "batch-06",
+      "asset_visual_qa": "blocked_missing_png",
+      "placement": {
+        "status": "hold",
+        "review_gate": "reposition",
+        "region": "aegean",
+        "area": "Central Crete foothills",
+        "center_lonlat": [
+          25.08,
+          35.17
+        ],
+        "center_sheet_px": [
+          605,
+          940.6
+        ],
+        "max_footprint_preview_px": [
+          42,
+          34
+        ],
+        "study_window_sheet_px": [
+          584,
+          923.6,
+          626,
+          957.6
+        ],
+        "z_order": 20,
+        "trial_rotation_deg": null,
+        "mirror": false,
+        "review_note": "Near the CP-113 anchor and overlaps nearby illustration or label space on the proof. Shift inland and recheck the narrow island footprint.",
+        "queued_for_map_placement": true
+      }
+    }
+  ],
+  "map_reference": {
+    "project_repository": "1-tok/crusadersmap",
+    "geometry_review_checkout": "e67aafbf3c883ff38732313257d5bafa77f8b766",
+    "edition": "Crusader Period 1095–1291",
+    "renderer": "build_period_map.py",
+    "preview": "previews/Crusader-Period-1095-1291.jpg",
+    "preview_scale": 0.23,
+    "sheet_px": [
+      2484,
+      3312
+    ],
+    "print_sheet_px": [
+      10800,
+      14400
+    ],
+    "lonlat_order": "WGS84 [longitude, latitude]",
+    "projected_bounds_order": "[west, south, east, north] in metres",
+    "sheet_pixel_origin": "upper left, positive x right and y down",
+    "frames": {
+      "main": {
+        "projection": "+proj=lcc +lat_1=30 +lat_2=36.5 +lat_0=33.2 +lon_0=35.9 +datum=WGS84 +units=m",
+        "bounds_m": [
+          -486000,
+          -345000,
+          170000,
+          530000
+        ],
+        "size_px": [
+          2484,
+          3312
+        ],
+        "sheet_origin_px": [
+          0,
+          0
+        ]
+      },
+      "aegean": {
+        "projection": "+proj=lcc +lat_1=36 +lat_2=40 +lat_0=38 +lon_0=25 +datum=WGS84 +units=m",
+        "source_extent_lonlat": [
+          19.6,
+          34.7,
+          30.4,
+          41.75
+        ],
+        "bounds_m": [
+          -449587.614,
+          -351797.807,
+          449587.614,
+          416416.507
+        ],
+        "size_px": [
+          1104,
+          943
+        ],
+        "sheet_origin_px": [
+          44,
+          44
+        ]
+      },
+      "delta": {
+        "projection": "+proj=lcc +lat_1=30 +lat_2=31.5 +lat_0=30.7 +lon_0=31.1 +datum=WGS84 +units=m",
+        "source_extent_lonlat": [
+          29.5,
+          27.7,
+          35.2,
+          31.8
+        ],
+        "bounds_m": [
+          -151523.587,
+          -331519,
+          388205.757,
+          122617.522
+        ],
+        "size_px": [
+          1104,
+          929
+        ],
+        "sheet_origin_px": [
+          44,
+          2236
+        ]
+      }
+    },
+    "terrain": "rough.Region.render, DEM z7 main and z6 insets. Relief is elevation-based and does not establish period vegetation, farming, or springs.",
+    "coastline": "data/ne_10m_land.geojson plus data/ne_10m_minor_islands.geojson",
+    "lakes": "data/ne_10m_lakes.geojson",
+    "rivers": "data/ne_10m_rivers_lake_centerlines.geojson",
+    "roads": "Nine Catmull–Rom smoothed schematic paths from build_stage2.py ROADS. Main panel constraint only. The period renderer omits roads.",
+    "named_site_clearance": "Screened against site-history.json anchors and visually against the checkout preview. Recheck art, leaders and labels on the active render before enabling. Subsequent settlement and natural landmark changes require a fresh collision pass.",
+    "atlas_scope": "Atlas intake branch contains placement metadata. Atlas registry lists England 1588 and does not supply the Crusader renderer."
+  },
+  "composition": {
+    "status": "blocked_missing_source_pngs",
+    "expected_archive": "crusader_terrain_sprites_batches_04_06.zip",
+    "scale_rule": "Fit the tight alpha bounds inside each study window with aspect ratio preserved. Window dimensions refer to the 23% preview. Divide by 0.23 for nominal print pixels. Final scale requires a visual comparison with the 36–56 px period settlement illustrations.",
+    "layer_order_back_to_front": {
+      "base_relief": 0,
+      "terrain_sprites": 20,
+      "protected_water_and_route_ink": 30,
+      "named_site_art": 40,
+      "leaders_markers_labels": 50
+    },
+    "layer_order_note": "Proposed order. The current Region renderer bakes water into the base, so preserve water and coastline with masks or a separate ink pass. Apply route ink only for editions that actually draw routes.",
+    "placement_exclusions": "Mask protected coast, lakes, rivers and active roads unless an explicit fit has been verified. Reserve inset borders, panels, existing landmark sprites, sites, badges and label space. Keep landscape overlaps off until proofed.",
+    "orientation_rule": "Trial inland sprites at 0 degrees with no mirroring. Feature-dependent rotations are unset until painted geometry can be checked. Preserve upright buildings and light direction.",
+    "asset_qa_required": [
+      "RGBA dimensions and alpha bounds",
+      "feathering and dark fringe on light and dark ground",
+      "unintended fragments and clipped painted features",
+      "land, water and route continuity on an actual render",
+      "settlement hierarchy and collision checks"
+    ]
+  },
+  "placement_queue": {
+    "status": "queued_pending_artwork",
+    "scope": "CSV-089–118",
+    "meaning": "All entries are queued for placement on the Crusader Period map. Review gates still apply.",
+    "next_steps": [
+      "Import and visually inspect all 30 source PNGs.",
+      "Proof the inland trials and resolve the remaining placement gates.",
+      "Enable each reviewed placement after verifying its map proof."
+    ]
+  }
+}
