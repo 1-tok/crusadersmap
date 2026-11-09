@@ -14,7 +14,8 @@
     },
     "by_status": {
       "sprite_available": 43,
-      "needs_sprite": 53,
+      "artwork_awaiting_review": 7,
+      "needs_sprite": 46,
       "sprite_available_needs_geolocation": 1
     }
   },
@@ -50,7 +51,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-akko",
@@ -83,7 +85,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-tyre",
@@ -114,7 +117,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-ashkelon",
@@ -131,7 +135,7 @@
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
       "sprite_ids": [],
-      "placement_status": "needs_sprite",
+      "placement_status": "artwork_awaiting_review",
       "approval_for_new_placement": false,
       "period_1180_review": "requires_phase_review",
       "priority": "first",
@@ -139,7 +143,10 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": [
+        "data/sprites/greece-egypt-1180-batch04/sources/ascalon.png"
+      ]
     },
     {
       "location_id": "place-main-jaffa",
@@ -170,7 +177,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-caesarea",
@@ -200,7 +208,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-sidon",
@@ -230,7 +239,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-beirut",
@@ -247,7 +257,7 @@
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
       "sprite_ids": [],
-      "placement_status": "needs_sprite",
+      "placement_status": "artwork_awaiting_review",
       "approval_for_new_placement": false,
       "period_1180_review": "requires_phase_review",
       "priority": "first",
@@ -255,7 +265,10 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": [
+        "data/sprites/greece-egypt-1180-batch04/sources/beirut.png"
+      ]
     },
     {
       "location_id": "place-main-safed",
@@ -281,7 +294,8 @@
         "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-ajloun",
@@ -307,7 +321,8 @@
         "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-gaza",
@@ -324,7 +339,7 @@
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
       "sprite_ids": [],
-      "placement_status": "needs_sprite",
+      "placement_status": "artwork_awaiting_review",
       "approval_for_new_placement": false,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
@@ -332,7 +347,10 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": [
+        "reviews/gaza-1180/gaza-1180-review.png"
+      ]
     },
     {
       "location_id": "place-main-bethlehem",
@@ -361,7 +379,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-hebron",
@@ -390,7 +409,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-nazareth",
@@ -415,7 +435,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-nablus",
@@ -440,7 +461,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-tiberias",
@@ -465,7 +487,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-banias",
@@ -491,7 +514,8 @@
         "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-tibnin",
@@ -521,7 +545,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-bosra",
@@ -546,7 +571,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-damascus",
@@ -571,7 +597,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-baalbek",
@@ -596,7 +623,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-aleppo",
@@ -621,7 +649,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-hama",
@@ -646,7 +675,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-homs",
@@ -671,7 +701,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-antakya",
@@ -704,7 +735,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-tripoli",
@@ -737,7 +769,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-tartus",
@@ -767,7 +800,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-latakia",
@@ -792,7 +826,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-jableh",
@@ -817,7 +852,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-baniyas",
@@ -843,7 +879,8 @@
         "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-apamea",
@@ -868,7 +905,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-harim",
@@ -893,7 +931,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-artah",
@@ -918,7 +957,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-iskenderun",
@@ -943,7 +983,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-batroun",
@@ -973,7 +1014,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-byblos",
@@ -1003,7 +1045,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-arqa",
@@ -1034,7 +1077,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-kozan",
@@ -1060,7 +1104,8 @@
         "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-tarsus",
@@ -1085,7 +1130,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-adana",
@@ -1110,7 +1156,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-misis",
@@ -1135,7 +1182,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-yumurtalik",
@@ -1160,7 +1208,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-kahramanmaras",
@@ -1186,7 +1235,8 @@
         "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-famagusta",
@@ -1211,7 +1261,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-nicosia",
@@ -1240,7 +1291,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-kyrenia",
@@ -1270,7 +1322,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-limassol",
@@ -1299,7 +1352,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-paphos",
@@ -1324,7 +1378,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-larnaca",
@@ -1353,7 +1408,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-istanbul",
@@ -1382,7 +1438,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-beyoglu",
@@ -1416,7 +1473,8 @@
       ],
       "placement_views": [
         "constantinople-detail"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-thessaloniki",
@@ -1449,7 +1507,8 @@
       "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-edirne",
@@ -1474,7 +1533,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-iznik",
@@ -1499,7 +1559,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-chalkida",
@@ -1532,7 +1593,8 @@
       "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-athens",
@@ -1565,7 +1627,8 @@
       "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-thebes",
@@ -1596,7 +1659,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-corinth",
@@ -1630,7 +1694,8 @@
       "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-andravida",
@@ -1660,7 +1725,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-patras",
@@ -1690,7 +1756,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-methoni",
@@ -1721,7 +1788,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-koroni",
@@ -1752,7 +1820,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-navarino",
@@ -1779,7 +1848,8 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-monemvasia",
@@ -1796,7 +1866,7 @@
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
       "sprite_ids": [],
-      "placement_status": "needs_sprite",
+      "placement_status": "artwork_awaiting_review",
       "approval_for_new_placement": false,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
@@ -1806,7 +1876,10 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": [
+        "data/sprites/greece-egypt-1180-batch04/monemvasia-1180-v1.png"
+      ]
     },
     {
       "location_id": "place-aegean-mystras",
@@ -1836,7 +1909,8 @@
       "references": [
         "https://whc.unesco.org/en/list/511/"
       ],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-nafpaktos",
@@ -1853,7 +1927,7 @@
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
       "sprite_ids": [],
-      "placement_status": "needs_sprite",
+      "placement_status": "artwork_awaiting_review",
       "approval_for_new_placement": false,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
@@ -1863,7 +1937,10 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": [
+        "data/sprites/greece-egypt-1180-batch04/nafpaktos-1180-v1.png"
+      ]
     },
     {
       "location_id": "place-aegean-corfu",
@@ -1880,7 +1957,7 @@
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
       "sprite_ids": [],
-      "placement_status": "needs_sprite",
+      "placement_status": "artwork_awaiting_review",
       "approval_for_new_placement": false,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
@@ -1889,7 +1966,10 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": [
+        "data/sprites/greece-egypt-1180-batch04/corfu-1180-v1.png"
+      ]
     },
     {
       "location_id": "place-aegean-zakynthos",
@@ -1915,7 +1995,8 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-kythira",
@@ -1941,7 +2022,8 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-heraklion",
@@ -1974,7 +2056,8 @@
       "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-chania",
@@ -2004,7 +2087,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-rethymno",
@@ -2034,7 +2118,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-rhodes",
@@ -2070,7 +2155,8 @@
       "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-kos",
@@ -2097,7 +2183,8 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-leros",
@@ -2124,7 +2211,8 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-naxos",
@@ -2151,7 +2239,8 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-tinos",
@@ -2178,7 +2267,8 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-santorini",
@@ -2204,7 +2294,8 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-chios",
@@ -2221,7 +2312,7 @@
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
       "sprite_ids": [],
-      "placement_status": "needs_sprite",
+      "placement_status": "artwork_awaiting_review",
       "approval_for_new_placement": false,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
@@ -2230,7 +2321,10 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": [
+        "data/sprites/greece-egypt-1180-batch04/sources/chios.png"
+      ]
     },
     {
       "location_id": "place-aegean-mytilene",
@@ -2256,7 +2350,8 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-foca",
@@ -2281,7 +2376,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-lemnos",
@@ -2308,7 +2404,8 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-selcuk",
@@ -2333,7 +2430,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-alasehir",
@@ -2358,7 +2456,8 @@
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-delta-cairo",
@@ -2392,7 +2491,8 @@
       "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-delta-alexandria",
@@ -2425,7 +2525,8 @@
       "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-delta-damietta",
@@ -2459,7 +2560,8 @@
       "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-delta-mansoura",
@@ -2488,7 +2590,8 @@
       "references": [
         "https://thfac.mans.edu.eg/images/files/wafedin/forign.pdf"
       ],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-delta-faraskur",
@@ -2514,7 +2617,8 @@
         "Use appropriate Egyptian urban architecture and rule for selected year; crusader raid/siege does not imply enduring Frankish ownership."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-delta-rosetta",
@@ -2544,7 +2648,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-delta-tinnis",
@@ -2574,7 +2679,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-delta-pelusium",
@@ -2601,7 +2707,8 @@
         "Existing manifest flags Pelusium/Bilbeis alias conflict; resolve identity and coordinates before painted placement."
       ],
       "references": [],
-      "placement_views": []
+      "placement_views": [],
+      "draft_artwork": []
     },
     {
       "location_id": "place-delta-bilbeis",
@@ -2632,7 +2739,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-delta-suez",
@@ -2662,7 +2770,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-delta-al-tur",
@@ -2694,7 +2803,8 @@
       "references": [],
       "placement_views": [
         "atlas"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "detail-chrysopolis",
@@ -2727,7 +2837,8 @@
       ],
       "placement_views": [
         "constantinople-detail"
-      ]
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "detail-chalcedon",
@@ -2760,7 +2871,8 @@
       ],
       "placement_views": [
         "constantinople-detail"
-      ]
+      ],
+      "draft_artwork": []
     }
   ]
 }
