@@ -182,6 +182,8 @@ def draw_ink2(edition, surf=None, scale=None, mode=None):
             c.set_fill_rule(cairo.FILL_RULE_EVEN_ODD)
         c.clip()
         TER[k].ink(c, edition)
+        if k == "main":
+            import waterart; waterart.draw(c, REG[k], edition)
         c.restore()
         if k == "main":
             c.save()
