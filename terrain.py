@@ -800,8 +800,7 @@ def init_lakes():
             k = 1 + 0.16 * math.sin(2 * a + ph[0]) + 0.11 * math.sin(3 * a + ph[1]) + 0.08 * math.sin(5 * a + ph[2]) + 0.05 * math.sin(8 * a + ph[3]) + 0.03 * math.sin(13 * a + ph[4])
             pts.append((lo + rx * k * math.cos(a), la + ry * k * math.sin(a)))
         return Polygon(pts)
-    LAKES_OK += [ell(36.45, 36.33, 0.12, 0.05), ell(35.61, 33.08, 0.035, 0.05), ell(32.10, 31.27, 0.36, 0.09),
-                 ell(30.85, 31.52, 0.30, 0.04), ell(30.65, 29.47, 0.20, 0.035), ell(32.42, 30.30, 0.07, 0.07)]
+    LAKES_OK += [ell(36.45, 36.33, 0.12, 0.05), ell(35.61, 33.08, 0.035, 0.05), ell(30.65, 29.47, 0.20, 0.035), ell(32.42, 30.30, 0.07, 0.07)]
     for f in json.load(open("data/ne_10m_lakes.geojson"))["features"]:
         nm = f["properties"].get("name") or ""
         if any(m in nm for m in MODERN_LAKES):
