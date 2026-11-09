@@ -12,26 +12,41 @@ ORIGIN=(1300,1300)
 LANDSCAPE_DIR=BASE/'greece-egypt-1180-bosphorus'
 
 
-def render_landscape_pairing(city):
-    """Render the approved illustrated pairing from its relative pixel offsets."""
-    metadata=json.loads((LANDSCAPE_DIR/'bosphorus-asian-shore-1180.json').read_text())
-    if not metadata['approval_for_placement']:
+def render_landscape_pairing(city, *, review_water=False):
+    """Render landscape layers in back-to-front order using visual offsets."""
+    shore=json.loads((LANDSCAPE_DIR/'bosphorus-asian-shore-1180.json').read_text())
+    if not shore['approval_for_placement']:
         return
-    pairing=metadata['pairing']
-    canvas=Image.new('RGBA',(1840,610),'#eee9dc')
-    city_origin=(20,22)
-    dx,dy=pairing['companion_top_left_relative_to_city_px']
-    layers=[
-        (LANDSCAPE_DIR/metadata['asset'],pairing['companion_display_width_px'],
-         (city_origin[0]+dx,city_origin[1]+dy)),
-        (BASE/city['asset'],pairing['city_display_width_px'],city_origin),
-    ]
+    companions=[shore]
+    horn_path=LANDSCAPE_DIR/'golden-horn-north-shore-1180.json'
+    if horn_path.exists():
+        horn=json.loads(horn_path.read_text())
+        if horn['approval_for_placement']:
+            companions.append(horn)
+    expanded=len(companions)>1
+    city_origin=(20,212 if expanded else 22)
+    canvas=Image.new('RGBA',(1840,800 if expanded else 610),'#eee9dc')
+    water_path=LANDSCAPE_DIR/'bosphorus-water-join-1180.json'
+    if water_path.exists():
+        water=json.loads(water_path.read_text())
+        if water['approval_for_placement'] or review_water:
+            companions.insert(0,water)
+    layers=[]
+    for companion in companions:
+        pairing=companion['pairing']
+        dx,dy=pairing['companion_top_left_relative_to_city_px']
+        layers.append((LANDSCAPE_DIR/companion['asset'],pairing['companion_display_width_px'],
+                       (city_origin[0]+dx,city_origin[1]+dy)))
+    layers.append((BASE/city['asset'],shore['pairing']['city_display_width_px'],city_origin))
     for path,width,origin in layers:
         with Image.open(path) as sprite:
             height=round(sprite.height*width/sprite.width)
             image=sprite.resize((width,height),Image.Resampling.LANCZOS)
             canvas.alpha_composite(image,origin)
-    canvas.convert('RGB').save(ROOT/'previews/bosphorus-asian-shore-pairing.jpg',quality=95)
+    filename='constantinople-landscape-1180.jpg' if expanded else 'bosphorus-asian-shore-pairing.jpg'
+    if review_water:
+        filename='constantinople-water-join-review.jpg'
+    canvas.convert('RGB').save(ROOT/'previews'/filename,quality=95)
 
 def detail_point(entry,center):
     x,y=sheet_anchor(entry);cx,cy=sheet_anchor(center)

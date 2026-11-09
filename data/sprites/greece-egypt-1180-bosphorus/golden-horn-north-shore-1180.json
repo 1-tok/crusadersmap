@@ -1,0 +1,27 @@
+{
+  "asset": "golden-horn-north-shore-1180.png",
+  "status": "approved-provisional",
+  "approval_for_placement": true,
+  "period_brief": 1180,
+  "generation_method": "built-in image generation",
+  "prompt": "Create a standalone transparent raster atlas sprite of the north shore of the Golden Horn at Galata/Sykai circa 1180. The attached Constantinople city sprite is a style and scale reference only. Match its oblique aerial angle, dense fine hand-painted masonry, terracotta, muted olive and dark teal palette. Horizontal composition to layer behind the upper/northern edge of the city sprite. Upper half is a continuous low hillside with orchards, field strips, winding dirt paths and scattered modest Byzantine dwellings. A small settlement clusters around a squat rectangular stone waterfront chain fort at the right end, facing the mouth of the Golden Horn. The lower half is connected open inlet water with a few tiny wood boats. Keep the lower edge primarily water so it can overlap the city waterfront cleanly. No opposite shore or duplicate city, no bridge, no Gothic or Genoese hilltop tower, no Ottoman monuments, no large walls, no flags, no labels or horizon. Do not draw a chain spanning the tile. Historically informed schematic landscape, not a fort reconstruction. Compact crisp isolated shape with ample true transparent alpha padding all around; no cast shadow or haze.",
+  "historical_reference": "https://www.persee.fr/doc/rebyz_0766-5598_1961_num_19_1_1265",
+  "uncertainty": "Illustrative fort, shoreline and settlement arrangement.",
+  "pairing": {
+    "city_display_width_px": 1024,
+    "companion_display_width_px": 850,
+    "companion_top_left_relative_to_city_px": [
+      305,
+      -88
+    ]
+  },
+  "approval_authority": "User approved map placement, 2026-11-08",
+  "placement_view": "constantinople-landscape-1180",
+  "period_1180_eligible": true,
+  "approved_year": 1180,
+  "review_required": true,
+  "repaint_required": true,
+  "replaces_in_this_view": [
+    "galata-sykai-1180-v1"
+  ]
+}
