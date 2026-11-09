@@ -2,7 +2,7 @@
 
 The atlas spans1095–1571; city artwork and geographic readiness are tracked independently from existing map markers.
 
-97 reviewed urban candidates. Status counts: {'sprite_available': 43, 'artwork_awaiting_review': 7, 'needs_sprite': 46, 'sprite_available_needs_geolocation': 1}.
+97 reviewed urban candidates. Status counts: {'sprite_available': 51, 'needs_sprite': 45, 'later_period_artwork': 1}.
 
 Greece and Egypt are included; ancient island or urban reference points are not surveyed medieval footprints. Mystras and Mansoura remain excluded from the1180 production queue. Rhodes uses an earlier Byzantine depiction.
 
@@ -13,14 +13,14 @@ Greece and Egypt are included; ancient island or urban reference points are not 
 | Jerusalem | sprite available | approved |
 | Akko | sprite available | approved |
 | Tyre | sprite available | approved |
-| Ashkelon | artwork awaiting review | pending artwork / location / phase |
+| Ashkelon | sprite available | approved |
 | Jaffa | sprite available | approved |
 | Caesarea | sprite available | approved |
 | Sidon | sprite available | approved |
-| Beirut | artwork awaiting review | pending artwork / location / phase |
+| Beirut | sprite available | approved |
 | Safed | needs sprite | pending artwork / location / phase |
-| Ajloun | needs sprite | pending artwork / location / phase |
-| Gaza | artwork awaiting review | pending artwork / location / phase |
+| Ajloun | later period artwork | pending artwork / location / phase |
+| Gaza | sprite available | approved |
 | Bethlehem | sprite available | approved |
 | Hebron | sprite available | approved |
 | Nazareth | needs sprite | pending artwork / location / phase |
@@ -88,10 +88,10 @@ Greece and Egypt are included; ancient island or urban reference points are not 
 | Methoni | sprite available | approved |
 | Koroni | sprite available | approved |
 | Navarino | needs sprite | pending artwork / location / phase |
-| Monemvasia | artwork awaiting review | pending artwork / location / phase |
+| Monemvasia | sprite available | approved |
 | Mystras | needs sprite | pending artwork / location / phase |
-| Nafpaktos | artwork awaiting review | pending artwork / location / phase |
-| Corfu | artwork awaiting review | pending artwork / location / phase |
+| Nafpaktos | sprite available | approved |
+| Corfu | sprite available | approved |
 | Zakynthos | needs sprite | pending artwork / location / phase |
 | Kythira | needs sprite | pending artwork / location / phase |
 | Heraklion | sprite available | approved |
@@ -103,7 +103,7 @@ Greece and Egypt are included; ancient island or urban reference points are not 
 | Naxos | needs sprite | pending artwork / location / phase |
 | Tinos | needs sprite | pending artwork / location / phase |
 | Santorini | needs sprite | pending artwork / location / phase |
-| Chios | artwork awaiting review | pending artwork / location / phase |
+| Chios | sprite available | approved |
 | Mytilene | needs sprite | pending artwork / location / phase |
 | Lemnos | needs sprite | pending artwork / location / phase |
 
@@ -113,7 +113,7 @@ Greece and Egypt are included; ancient island or urban reference points are not 
 |---|---|---|
 | Cairo | sprite available | approved |
 | Alexandria | sprite available | approved |
-| Damietta | sprite available needs geolocation | pending artwork / location / phase |
+| Damietta | sprite available | approved |
 | Mansoura | needs sprite | pending artwork / location / phase |
 | Faraskur | needs sprite | pending artwork / location / phase |
 | Rosetta | sprite available | approved |
@@ -127,7 +127,7 @@ Greece and Egypt are included; ancient island or urban reference points are not 
 
 Use `../sprites/catalog.json`, `../sprites/placements-1180.geojson` and root `previews/sprite-placement-markup.jpg`. The inset review is in `previews/city-inset-placement-review.jpg`.
 
-All 39 newly generated city paintings are in the unified catalog. Damietta is art-approved but has no invented medieval coordinate. Exact prompts, source PNGs and repaint notes are preserved in the individual greece-egypt batch folders.
+All 49 newly generated city paintings are in the unified catalog. Damietta uses the published mosque inventory point as a representative anchor for the earlier town. Exact prompts, source PNGs and repaint notes are preserved in the individual greece-egypt batch folders.
 
 Pelusium/Bilbeis legacy alias conflict remains a separate source-manifest correction; the new Bilbeis sprite uses a documented Bilbeis city point. Tinnis occupation intensity is uncertain. Full per-entry research and uncertainty notes remain in the JSON and sprite manifests.
 

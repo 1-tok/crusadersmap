@@ -3,7 +3,7 @@
   "generation_method": "built-in image_gen",
   "batch_id": "greece-egypt-1180-01",
   "default_year": 1180,
-  "approval_policy": "Place sourced-anchor sprites provisionally; review/repaint does not block them. Damietta artwork approved, geographic placement awaits a grounded medieval anchor.",
+  "approval_policy": "Sourced representative anchors are approved provisionally. Historical and repaint review flags persist.",
   "assets": [
     {
       "id": "athens-1180-v3",
@@ -695,20 +695,23 @@
         "settlements",
         "delta"
       ],
-      "coordinates": null,
-      "latitude": null,
-      "longitude": null,
+      "coordinates": [
+        31.816,
+        31.422933333333333
+      ],
+      "latitude": 31.422933333333333,
+      "longitude": 31.816,
       "coordinate_evidence": {
-        "url": "https://eprints.soton.ac.uk/466640/1/1238050_v.2.pdf",
-        "published_value": "Medieval town east bank downstream of modern city; precise site not established in this source",
-        "accessed": "2026-11-08",
+        "url": "https://www.eeaa.gov.eg/Uploads/Reports/Files/20221127122412262.pdf",
+        "published_value": "Table 16-1, site 001: 31°25.376′ N, 31°48.960′ E, converted from decimal minutes",
+        "accessed": "2026-11-09",
         "surveyed": false,
-        "uncertainty_note": "Medieval location unresolved. No invented coordinate supplied; do not substitute modern Damietta centroid. Riverbank, wall and mosque arrangement schematic."
+        "uncertainty_note": "Representative Abu el-Maati (Amr ibn al-As) mosque inventory point. The siege study uses the mosque to locate the earlier city. The medieval extent and shoreline remain disputed; the cited Southampton study does not establish a precise city footprint."
       },
       "period_1180_eligible": true,
-      "approval_for_placement": false,
+      "approval_for_placement": true,
       "artwork_approval": "approved-provisional",
-      "placement_status": "needs-medieval-geolocation",
+      "placement_status": "approved-provisional",
       "date_ranges": {
         "approved_art_from": 1180,
         "approved_art_through": 1180
@@ -716,10 +719,12 @@
       "review_required": true,
       "repaint_required": true,
       "repaint_flags": [
-        "Medieval location unresolved. No invented coordinate supplied; do not substitute modern Damietta centroid. Riverbank, wall and mosque arrangement schematic.",
-        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+        "Representative Abu el-Maati (Amr ibn al-As) mosque inventory point. The siege study uses the mosque to locate the earlier city. The medieval extent and shoreline remain disputed; the cited Southampton study does not establish a precise city footprint.",
+        "Riverbank, walls and mosque arrangement are schematic."
       ],
       "references": [
+        "https://www.eeaa.gov.eg/Uploads/Reports/Files/20221127122412262.pdf",
+        "https://www.tandfonline.com/doi/pdf/10.1080/14765276.2023.2271408",
         "https://eprints.soton.ac.uk/466640/1/1238050_v.2.pdf"
       ],
       "display_width_units": 512,
@@ -759,7 +764,8 @@
         ],
         "transparent_padding_px": 26
       },
-      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "source_site_id": "CP-134"
     }
   ],
   "release_status": "published-provisional",

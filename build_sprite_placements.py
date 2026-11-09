@@ -32,6 +32,8 @@ def main():
                 anchor_normalized=e['anchor_normalized'],sheet_anchor_px=[round(x,3),round(y,3)],
                 display_width_sheet_px=width,display_height_sheet_px=round(height,3),
                 top_left_sheet_px=[round(x-ax*width,3),round(y-ay*height,3)])))
+        if e.get('source_site_id'):
+            features[-1]['properties']['source_site_id']=e['source_site_id']
     write(BASE/'placements.geojson',dict(type='FeatureCollection',default_year=1180,
         note='Multi-period inventory: preferred=true selects one image per site, including dated later castles. Use preferred_1180 or placements-1180.geojson for the 1180 snapshot.',
         sheet=dict(width=frame.W,height=frame.H,projection=frame.PROJ,pixel_origin='upper-left'),features=features))

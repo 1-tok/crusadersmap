@@ -93,10 +93,9 @@ class PlacementRules(unittest.TestCase):
         self.assertEqual(placements(dict(assets=[sheet,alternate]),1180),[alternate])
 
     def test_unlocated_art_is_approved_but_never_exported(self):
-        c=build();e=next(e for e in c['assets'] if e['id']=='damietta-1180-v1')
-        self.assertTrue(e['approval']['provisional_map_use'])
-        self.assertFalse(e['approval_for_placement'])
-        self.assertNotIn(e,placements(c,1180))
+        e=entry('unlocated-town')
+        e['geographic_placement_ready']=False
+        self.assertEqual(placements(dict(assets=[e]),1180),[])
 
     def test_insets_match_existing_atlas_region_math(self):
         # Load the actual atlas Region class without rough.py's terrain I/O.

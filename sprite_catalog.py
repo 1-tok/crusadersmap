@@ -257,6 +257,8 @@ def export(catalog, year):
             display_title=e['display_title'],construction=e.get('construction'),
             map_layers=e['map_layers'], historical_name=e['historical_name'],
             coordinate_evidence=e['coordinate_evidence'], visual_footprint=e['visual_footprint'])
+        if e.get('source_site_id'):
+            features[-1]['properties']['source_site_id'] = e['source_site_id']
     path=BASE/f'placements-{year}.geojson'
     write(path, dict(type='FeatureCollection', features=features))
     return path, len(features)

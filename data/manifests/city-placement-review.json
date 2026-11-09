@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "review_date": "2026-11-08",
+  "review_date": "2026-11-09",
   "scope": "City and urban settlement candidates from existing PLACES definitions plus sourced Bosphorus companion settlements. Not a complete historical gazetteer.",
   "meaning_of_needs_placement": "For existing_map_marker=true, the source marker already exists; needs_sprite means missing painted artwork. Added detail settlements may have no original regional marker. Respect placement_views.",
   "coordinate_policy": "Coordinates copied from original manifest for audit only; do not treat as newly verified. Operational recovered-sprite coordinates remain authoritative in data/sprites/catalog.json.",
@@ -13,10 +13,9 @@
       "Egypt": 11
     },
     "by_status": {
-      "sprite_available": 43,
-      "artwork_awaiting_review": 7,
-      "needs_sprite": 46,
-      "sprite_available_needs_geolocation": 1
+      "sprite_available": 51,
+      "needs_sprite": 45,
+      "later_period_artwork": 1
     }
   },
   "entries": [
@@ -134,19 +133,21 @@
         31.66
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "artwork_awaiting_review",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "ascalon-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "first",
       "notes": [
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": [],
-      "draft_artwork": [
-        "data/sprites/greece-egypt-1180-batch04/sources/ascalon.png"
-      ]
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-jaffa",
@@ -256,19 +257,21 @@
         33.9
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "artwork_awaiting_review",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "beirut-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "first",
       "notes": [
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": [],
-      "draft_artwork": [
-        "data/sprites/greece-egypt-1180-batch04/sources/beirut.png"
-      ]
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-safed",
@@ -311,8 +314,10 @@
         32.33
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "needs_sprite",
+      "sprite_ids": [
+        "ajloun-1190-v1"
+      ],
+      "placement_status": "later_period_artwork",
       "approval_for_new_placement": false,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
@@ -321,7 +326,9 @@
         "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
       ],
       "references": [],
-      "placement_views": [],
+      "placement_views": [
+        "atlas"
+      ],
       "draft_artwork": []
     },
     {
@@ -338,19 +345,21 @@
         31.52
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "artwork_awaiting_review",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "gaza-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
         "existing map marker; painted sprite placement is a separate task"
       ],
       "references": [],
-      "placement_views": [],
-      "draft_artwork": [
-        "reviews/gaza-1180/gaza-1180-review.png"
-      ]
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-main-bethlehem",
@@ -1865,9 +1874,11 @@
         36.69
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "artwork_awaiting_review",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "monemvasia-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -1876,10 +1887,10 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": [],
-      "draft_artwork": [
-        "data/sprites/greece-egypt-1180-batch04/monemvasia-1180-v1.png"
-      ]
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-mystras",
@@ -1926,9 +1937,11 @@
         38.39
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "artwork_awaiting_review",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "nafpaktos-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -1937,10 +1950,10 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": [],
-      "draft_artwork": [
-        "data/sprites/greece-egypt-1180-batch04/nafpaktos-1180-v1.png"
-      ]
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-corfu",
@@ -1956,9 +1969,11 @@
         39.62
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "artwork_awaiting_review",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "corfu-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -1966,10 +1981,10 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": [],
-      "draft_artwork": [
-        "data/sprites/greece-egypt-1180-batch04/corfu-1180-v1.png"
-      ]
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-zakynthos",
@@ -2311,9 +2326,11 @@
         38.37
       ],
       "coordinate_status": "inherited_approximate_not_newly_verified",
-      "sprite_ids": [],
-      "placement_status": "artwork_awaiting_review",
-      "approval_for_new_placement": false,
+      "sprite_ids": [
+        "chios-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "requires_phase_review",
       "priority": "normal",
       "notes": [
@@ -2321,10 +2338,10 @@
         "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
       ],
       "references": [],
-      "placement_views": [],
-      "draft_artwork": [
-        "data/sprites/greece-egypt-1180-batch04/sources/chios.png"
-      ]
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
     },
     {
       "location_id": "place-aegean-mytilene",
@@ -2545,8 +2562,8 @@
       "sprite_ids": [
         "damietta-1180-v1"
       ],
-      "placement_status": "sprite_available_needs_geolocation",
-      "approval_for_new_placement": false,
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
       "period_1180_review": "provisional_repaint_review",
       "priority": "first",
       "notes": [

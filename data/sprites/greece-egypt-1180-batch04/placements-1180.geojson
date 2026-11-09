@@ -1,0 +1,385 @@
+{
+  "type": "FeatureCollection",
+  "coordinate_system": "EPSG:4326",
+  "note": "Route each feature to its map_region: main, aegean or delta. Do not project inset cities through mainland frame.to_px. Any city lacking grounded coordinates is omitted.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "nafpaktos-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.83056,
+          38.39389
+        ]
+      },
+      "properties": {
+        "site_id": "nafpaktos",
+        "name": "Nafpaktos",
+        "asset_path": "data/sprites/greece-egypt-1180-batch04/nafpaktos-1180-v1.png",
+        "map_region": "aegean",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9626436781609196
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            696
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            670
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 348.0,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Nafpaktos",
+          "published_value": "38.39389 N,21.83056 E; city reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published city point, not surveyed harbor gate. Surviving stepped wall circuit mixes phases; upper castle, harbor and episcopal buildings are schematic, with later Venetian/Ottoman features excluded."
+        },
+        "repaint_flags": [
+          "Published city point, not surveyed harbor gate. Surviving stepped wall circuit mixes phases; upper castle, harbor and episcopal buildings are schematic, with later Venetian/Ottoman features excluded.",
+          "Street plan, orientation, terrain and reconstructed building heights are artistic approximations and remain subject to review."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "monemvasia-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.05556,
+          36.68778
+        ]
+      },
+      "properties": {
+        "site_id": "monemvasia",
+        "name": "Monemvasia",
+        "asset_path": "data/sprites/greece-egypt-1180-batch04/monemvasia-1180-v1.png",
+        "map_region": "aegean",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            700
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            674
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 350.0,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Monemvasia",
+          "published_value": "36.68778 N,23.05556 E; rock-town reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published town point, not surveyed1180 footprint. Rock, upper enclosure, lower-town density, causeway and church silhouettes are interpretive; later fortification phases excluded."
+        },
+        "repaint_flags": [
+          "Published town point, not surveyed1180 footprint. Rock, upper enclosure, lower-town density, causeway and church silhouettes are interpretive; later fortification phases excluded.",
+          "Street plan, orientation, terrain and reconstructed building heights are artistic approximations and remain subject to review."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "corfu-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9287,
+          39.623228
+        ]
+      },
+      "properties": {
+        "site_id": "corfu",
+        "name": "Corfu",
+        "asset_path": "data/sprites/greece-egypt-1180-batch04/corfu-1180-v1.png",
+        "map_region": "aegean",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9514925373134329
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            536
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            29,
+            998,
+            510
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 268.0,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://religiousgreece.gr/en/attractions/old-fortress-corfu",
+          "published_value": "39.623228 N,19.928700 E; Old Fortress reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Anchor on early medieval fortress peninsula, not modern town centroid. Twelfth-century tower descriptions do not establish full building layout. Later Venetian bastions, moat and British church excluded."
+        },
+        "repaint_flags": [
+          "Anchor on early medieval fortress peninsula, not modern town centroid. Twelfth-century tower descriptions do not establish full building layout. Later Venetian bastions, moat and British church excluded.",
+          "Street plan, orientation, terrain and reconstructed building heights are artistic approximations and remain subject to review."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chios-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.137,
+          38.374
+        ]
+      },
+      "properties": {
+        "site_id": "chios",
+        "name": "Chios",
+        "asset_path": "data/sprites/greece-egypt-1180-batch04/chios-1180-v1.png",
+        "map_region": "aegean",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9617083946980854
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            679
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            653
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 339.5,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Castle_of_Chios",
+          "published_value": "38.374 N,26.137 E; castle nucleus reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published castle-nucleus point; surviving walls largely reflect later Genoese and Ottoman changes. Earlier Byzantine nucleus and harbor are interpretive; later Genoese palace and bastion facades excluded."
+        },
+        "repaint_flags": [
+          "Published castle-nucleus point; surviving walls largely reflect later Genoese and Ottoman changes. Earlier Byzantine nucleus and harbor are interpretive; later Genoese palace and bastion facades excluded.",
+          "Street plan, orientation, terrain and reconstructed building heights are artistic approximations and remain subject to review."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ascalon-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.54583,
+          31.66389
+        ]
+      },
+      "properties": {
+        "site_id": "ascalon",
+        "name": "Ascalon",
+        "asset_path": "data/sprites/greece-egypt-1180-batch04/ascalon-1180-v1.png",
+        "map_region": "main",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9610194902548725
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            667
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            641
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 333.5,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Ashkelon_National_Park",
+          "published_value": "31.66389 N,34.54583 E; ancient Ascalon archaeological park reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Archaeological park reference point, not modern Ashkelon center or exact medieval centroid. Semicircular landward rampart follows researched site description; gates, towers, church and reconstructed houses remain schematic. Later1192 rebuilding excluded."
+        },
+        "repaint_flags": [
+          "Archaeological park reference point, not modern Ashkelon center or exact medieval centroid. Semicircular landward rampart follows researched site description; gates, towers, church and reconstructed houses remain schematic. Later1192 rebuilding excluded.",
+          "Street plan, orientation, terrain and reconstructed building heights are artistic approximations and remain subject to review."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beirut-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.505141,
+          33.896339
+        ]
+      },
+      "properties": {
+        "site_id": "beirut",
+        "name": "Beirut",
+        "asset_path": "data/sprites/greece-egypt-1180-batch04/beirut-1180-v1.png",
+        "map_region": "main",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9618208516886931
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            681
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            655
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 340.5,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Saint_George_Greek_Orthodox_Cathedral",
+          "published_value": "33.896339 N,35.505141 E; archaeological historic-core point at Greek Orthodox cathedral",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Historic-core archaeological reference point; it does not locate the medieval Latin cathedral shown schematically. Harbor, coastal defenses and urban extent remain interpretive. Grand13th-century Ibelin palace and later Ottoman structures excluded."
+        },
+        "repaint_flags": [
+          "Historic-core archaeological reference point; it does not locate the medieval Latin cathedral shown schematically. Harbor, coastal defenses and urban extent remain interpretive. Grand13th-century Ibelin palace and later Ottoman structures excluded.",
+          "Street plan, orientation, terrain and reconstructed building heights are artistic approximations and remain subject to review."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gaza-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.458046,
+          31.510975
+        ]
+      },
+      "properties": {
+        "site_id": "gaza",
+        "name": "Gaza",
+        "asset_path": "data/sprites/greece-egypt-1180-batch04/gaza-1180-v1.png",
+        "map_region": "main",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9624819624819625
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            693
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            997,
+            667
+          ],
+          "display_width_atlas_px": 360,
+          "display_height_atlas_px": 243.6328125,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://silver.kbr.be/Gaza",
+          "published_value": "31.510975 N, 34.458046 E",
+          "surveyed": false,
+          "accessed": "2026-11-09",
+          "uncertainty_note": "Ancient Gaza reference point, not a surveyed Templar castle location."
+        },
+        "repaint_flags": [
+          "Dry inland town with castle and documented fortified suburb.",
+          "Keep height, wall circuit and individual buildings are schematic. Review the prominence of the keep before release."
+        ],
+        "placement_view": "atlas"
+      }
+    }
+  ]
+}

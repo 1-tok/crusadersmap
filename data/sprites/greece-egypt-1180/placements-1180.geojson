@@ -53,7 +53,8 @@
         "repaint_flags": [
           "Parthenon church exterior, adjacent monuments and Acropolis defenses require historical review.",
           "Lower-town street plan, house forms and orientation remain artistic approximations."
-        ]
+        ],
+        "placement_view": "atlas"
       }
     },
     {
@@ -106,7 +107,8 @@
         "repaint_flags": [
           "Upper citadel shape, Rotunda visibility, harbor and wall circuit schematic; verify individual churches.",
           "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
-        ]
+        ],
+        "placement_view": "atlas"
       }
     },
     {
@@ -159,7 +161,8 @@
         "repaint_flags": [
           "Remove invented waterfront at lower town. Hill-to-town distance compressed; wall tiers, church forms and heights need plan review.",
           "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
-        ]
+        ],
+        "placement_view": "atlas"
       }
     },
     {
@@ -212,7 +215,8 @@
         "repaint_flags": [
           "Bridge arches, abutments and wall geometry are interpretive; no surveyed 1180 bridge reconstruction.",
           "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
-        ]
+        ],
+        "placement_view": "atlas"
       }
     },
     {
@@ -265,7 +269,8 @@
         "repaint_flags": [
           "Harbor geometry, church placement and Byzantine wall circuit are schematic; no claim to recreate Venetian Candia.",
           "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
-        ]
+        ],
+        "placement_view": "atlas"
       }
     },
     {
@@ -318,7 +323,8 @@
         "repaint_flags": [
           "Depicts earlier Byzantine city; walls and harbor require pre-Hospitaller phase review. UNESCO point locates urban site, not 1180 boundaries.",
           "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
-        ]
+        ],
+        "placement_view": "atlas"
       }
     },
     {
@@ -372,7 +378,8 @@
           "Bab Zuwayla selected as ground anchor; city icon is exaggerated. Minaret forms, mosque silhouettes and wall circuit remain interpretive.",
           "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction.",
           "Water strip at cutout edge is schematic; do not interpret as actual Fatimid city shoreline."
-        ]
+        ],
+        "placement_view": "atlas"
       }
     },
     {
@@ -425,7 +432,62 @@
         "repaint_flags": [
           "Coarse published city anchor, not Pharos monument location. Lighthouse medieval upper stages, relative scale and harbor coastline require review.",
           "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "damietta-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.816,
+          31.422933333333333
         ]
+      },
+      "properties": {
+        "site_id": "damietta",
+        "name": "Damietta",
+        "asset_path": "data/sprites/greece-egypt-1180/damietta-1180-v1.png",
+        "map_region": "delta",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "delta"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9623188405797102
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            690
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            664
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 345.0,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://www.eeaa.gov.eg/Uploads/Reports/Files/20221127122412262.pdf",
+          "published_value": "Table 16-1, site 001: 31°25.376′ N, 31°48.960′ E, converted from decimal minutes",
+          "accessed": "2026-11-09",
+          "surveyed": false,
+          "uncertainty_note": "Representative Abu el-Maati (Amr ibn al-As) mosque inventory point. The siege study uses the mosque to locate the earlier city. The medieval extent and shoreline remain disputed; the cited Southampton study does not establish a precise city footprint."
+        },
+        "repaint_flags": [
+          "Representative Abu el-Maati (Amr ibn al-As) mosque inventory point. The siege study uses the mosque to locate the earlier city. The medieval extent and shoreline remain disputed; the cited Southampton study does not establish a precise city footprint.",
+          "Riverbank, walls and mosque arrangement are schematic."
+        ],
+        "placement_view": "atlas"
       }
     }
   ]
