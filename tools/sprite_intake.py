@@ -23,7 +23,7 @@ def read_json(path, default=None):
 
 def write_json(path, obj):
     path.parent.mkdir(parents=True, exist_ok=True)
-    data = json.dumps(obj, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
+    data = json.dumps(obj, ensure_ascii=False, indent=2) + "\n"
     if not path.exists() or path.read_text(encoding="utf-8") != data:
         path.write_text(data, encoding="utf-8")
 
@@ -102,6 +102,12 @@ def process(root):
     known = {e["id"]: e for e in registry["assets"]}
     digests = {e["technical_qa"]["pixel_sha256"]: e["id"] for e in registry["assets"]
                if e.get("technical_qa", {}).get("pixel_sha256")}
+    # Compare against all currently cataloged pixels, not only prior incoming batches.
+    existing_catalog = read_json(base / "catalog.json", {"assets": []})
+    for existing in existing_catalog.get("assets", []):
+        key = existing.get("technical_qa", {}).get("pixel_sha256")
+        if key:
+            digests.setdefault(key, existing["id"])
     report = {"schema_version": 1, "results": [], "registered": 0, "duplicates": 0, "errors": 0}
     for path in sorted(incoming.rglob("*")) if incoming.exists() else []:
         if not path.is_file() or path.suffix.lower() != ".png":
