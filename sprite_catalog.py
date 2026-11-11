@@ -163,6 +163,16 @@ def build():
         units='display widths in full-size 10800 x 14400 atlas pixels',
         assets=assets+missing)
     enrich(catalog)
+    # Persistent new uploads are independent of legacy-generated source manifests.
+    intake = BASE/'automated-intake/manifest.json'
+    if intake.exists():
+        intake_assets = read(intake).get('assets', [])
+        ids = {e['id'] for e in catalog['assets']}
+        for item in intake_assets:
+            assert item['id'] not in ids, item['id']
+            assert (BASE/item['asset']).is_file(), item['asset']
+            catalog['assets'].append(item)
+            ids.add(item['id'])
     write(BASE/'catalog.json', catalog)
     return catalog
 
