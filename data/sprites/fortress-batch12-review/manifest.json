@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "batch_id": "fortress-batch12-2026-11-11",
+  "release_status": "placement-review",
+  "generated_artwork_count": 2,
+  "planned_candidate_count": 9,
+  "not_yet_painted": [
+    "Chastellet/Jacob's Ford",
+    "Bourzey",
+    "Shaizar",
+    "Masyaf",
+    "Qadmus",
+    "Darbsak",
+    "Feke"
+  ],
+  "extra_caveat": "Only two site candidates have new drawings; the historical correctness of neither is certified.",
+  "approval_policy": "All drafts may be placed on visual review map irrespective of final art approval. 1180 placement never includes 1250 Kızkalesi candidate. Preserve unapproved historic/technical status.",
+  "assets": [
+    {
+      "id": "anavarza-1180-review-v1",
+      "site_id": "anavarza",
+      "name": "Anavarza / Anazarbus",
+      "file": "sprites/anavarza-1180-review-v1.png",
+      "source_provenance": "New image generation 2026-11-11, processed into RGBA transparent padded sprite; unprocessed master preserved in downloadable batch archive.",
+      "coordinates": [
+        35.8946,
+        37.2324
+      ],
+      "period": 1180,
+      "source_urls": [
+        "https://digitalrepository.biaa.ac.uk/biaaplace000043",
+        "https://charlvarchive.org/Site/79",
+        "https://history.lincoln.ac.uk/2024/05/22/armenian-cilicia-and-its-identity/"
+      ],
+      "technical_qa": {
+        "status": "rgba-pass-visual-review-pending",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1600,
+          832
+        ],
+        "transparent_padding_px": 32,
+        "sha256": "994c3a485560a1583dd75e9b3d58f2e2e1ed4bf56d83eea34f173510f319f0f4"
+      },
+      "approval_for_review_placement": true,
+      "production_approved": false,
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Major geometry is only an illustrative reconstruction; the fortified ridge at Anavarza is narrower and far longer than this painted composition.",
+        "Latin red-cross heraldry at Armenian-period fortifications is not historically verified; replace when repainted.",
+        "Lower town and later tower phases unverified; exact historic building layout not approved.",
+        "Visible red-yellow edge pixels require alpha-edge cleanup before production print."
+      ]
+    },
+    {
+      "id": "kizkalesi-1250-review-v1",
+      "site_id": "kizkalesi",
+      "name": "Kızkalesi (Maiden's Castle)",
+      "file": "sprites/kizkalesi-1250-review-v1.png",
+      "source_provenance": "New image generation 2026-11-11, processed into RGBA transparent padded sprite; unprocessed master preserved in downloadable batch archive.",
+      "coordinates": [
+        34.14806,
+        36.45639
+      ],
+      "period": 1250,
+      "source_urls": [
+        "https://www.ktb.gov.tr/EN-113760/kizkalesi-maidens-castle.html",
+        "https://en.wikipedia.org/wiki/K%C4%B1zkalesi_%28castle%29"
+      ],
+      "technical_qa": {
+        "status": "rgba-pass-visual-review-pending",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1600,
+          699
+        ],
+        "transparent_padding_px": 32,
+        "sha256": "f34a2cbd00eb2c1d61caab8527403490b55c16a178dce7b2cb934d873d767996"
+      },
+      "approval_for_review_placement": true,
+      "production_approved": false,
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "MAJOR COMPOSITION MISMATCH: painting shows a large harbor town; Kızkalesi must depict a small offshore island castle, not an enclosed mainland city.",
+        "The year 1250 is a review placeholder, not a verified painted construction phase.",
+        "Red-cross flags and church forms are generic and not historically certified.",
+        "Painted water must be replaced to match the island outline and map shoreline; print QA pending.",
+        "Visible saturated edge artifacts need alpha cleanup."
+      ]
+    }
+  ]
+}

@@ -85,6 +85,58 @@
         "historical_phase_note": "Mansoura founded in 1219, not present in 1180",
         "variant_group": "mansoura"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "kizkalesi-1250-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.14806,
+          36.45639
+        ]
+      },
+      "properties": {
+        "name": "Kızkalesi (Maiden's Castle)",
+        "site_id": "kizkalesi",
+        "asset_path": "data/sprites/fortress-batch12-review/sprites/kizkalesi-1250-review-v1.png",
+        "depiction_year": 1250,
+        "map_review_year": 1250,
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "fortifications",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "technical_qa_status": "pass-rgba-provisional-visual-repaint",
+        "default_visible": true,
+        "variant_group": "kizkalesi",
+        "display_width_units": 700,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "repaint_flags": [
+          "MAJOR COMPOSITION MISMATCH: painting shows a large harbor town; Kızkalesi must depict a small offshore island castle, not an enclosed mainland city.",
+          "The year 1250 is a review placeholder, not a verified painted construction phase.",
+          "Red-cross flags and church forms are generic and not historically certified.",
+          "Painted water must be replaced to match the island outline and map shoreline; print QA pending.",
+          "Visible saturated edge artifacts need alpha cleanup."
+        ],
+        "coordinate_evidence": {
+          "source_url": "https://www.ktb.gov.tr/EN-113760/kizkalesi-maidens-castle.html",
+          "surveyed": false,
+          "note": "Approximate modern site point, not measured medieval footprint"
+        },
+        "period_1180_eligible": false
+      }
     }
   ]
 }
