@@ -32,3 +32,18 @@ The script preserves existing placement coordinates and review gates and deliber
 - Check for collisions with historical city markers, labels, landmarks and existing art.
 
 This record intentionally does not set asset paths in the *live* manifest while the referenced PNGs are absent.
+
+
+## Tested GitHub binary upload route (without Work credits)
+
+The complete `crusader_map_sprite_repo_ready_FIXED.zip` includes 44 PNG binaries, an integrity manifest, and `upload_to_github.sh`. Download and unzip it into `crusader_intake`, then run:
+
+```bash
+bash crusader_intake/upload_to_github.sh crusader_intake
+```
+
+The script checks the SHA-256 of every PNG, sparse-clones the staging branch, copies the files, registers existing CSV-089–118 paths without enabling renderer placement, commits and pushes to the existing draft pull request.
+
+The process was tested end-to-end against a temporary local Git remote, not against GitHub. **The binary PNGs have NOT yet been pushed to GitHub** from this chat.
+
+If the full ZIP download fails, unpack all five `crusader_sprites_part_0X.zip` files into the same directory before running the script.
