@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "review_year": 1250,
+    "status": "review-only",
+    "note": "City sprites for Mystras and Mansoura were generated under an 1180 brief but correspond to sites founded after 1180; review illustrations only, not verified 1250 reconstructions."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "mystras-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.37,
+          37.07
+        ]
+      },
+      "properties": {
+        "site_id": "mystras",
+        "name": "Mystras",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/mystras-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1250,
+        "period_1180_eligible": false,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Fortress at Mystras founded in 1249, not present in 1180",
+        "variant_group": "mystras"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mansoura-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.38,
+          31.04
+        ]
+      },
+      "properties": {
+        "site_id": "mansoura",
+        "name": "Mansoura",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/mansoura-1180-review-v1.png",
+        "map_region": "delta",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "delta"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1250,
+        "period_1180_eligible": false,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Mansoura founded in 1219, not present in 1180",
+        "variant_group": "mansoura"
+      }
+    }
+  ]
+}

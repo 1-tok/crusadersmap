@@ -1,0 +1,1680 @@
+{
+  "schema_version": 1,
+  "batch_id": "crusader-cities-45-2026-11-10",
+  "updated": "2026-11-11",
+  "status": "published-review-only",
+  "artwork_count": 45,
+  "map_review_enabled": true,
+  "production_approved": false,
+  "source_sheet_count": 5,
+  "source_sheet_status": "local-package-source-PNGs-not-yet-in-repo",
+  "asset_width_policy": "Source cells 418px; RGBA sprite cutouts approx 466px. Print enlargement requires redraw/QA.",
+  "approval_policy": "All drafts visible in map review even where stylistic, technical or historical issues remain; do not automatically import to final production map.",
+  "assets": [
+    {
+      "id": "safed-1180-review-v1",
+      "site_id": "safed",
+      "name": "Safed",
+      "region": "main",
+      "coordinates": [
+        35.5,
+        32.96
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/safed-1180-review-v1.png",
+      "source_filename": "safed-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "nazareth-1180-review-v1",
+      "site_id": "nazareth",
+      "name": "Nazareth",
+      "region": "main",
+      "coordinates": [
+        35.3,
+        32.7
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/nazareth-1180-review-v1.png",
+      "source_filename": "nazareth-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "nablus-1180-review-v1",
+      "site_id": "nablus",
+      "name": "Nablus",
+      "region": "main",
+      "coordinates": [
+        35.26,
+        32.22
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/nablus-1180-review-v1.png",
+      "source_filename": "nablus-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "tiberias-1180-review-v1",
+      "site_id": "tiberias",
+      "name": "Tiberias",
+      "region": "main",
+      "coordinates": [
+        35.53,
+        32.79
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/tiberias-1180-review-v1.png",
+      "source_filename": "tiberias-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "banias-1180-review-v1",
+      "site_id": "banias",
+      "name": "Banias",
+      "region": "main",
+      "coordinates": [
+        35.69,
+        33.25
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/banias-1180-review-v1.png",
+      "source_filename": "banias-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "bosra-1180-review-v1",
+      "site_id": "bosra",
+      "name": "Bosra",
+      "region": "main",
+      "coordinates": [
+        36.48,
+        32.52
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/bosra-1180-review-v1.png",
+      "source_filename": "bosra-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "damascus-1180-review-v1",
+      "site_id": "damascus",
+      "name": "Damascus",
+      "region": "main",
+      "coordinates": [
+        36.31,
+        33.51
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/damascus-1180-review-v1.png",
+      "source_filename": "damascus-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "baalbek-1180-review-v1",
+      "site_id": "baalbek",
+      "name": "Baalbek",
+      "region": "main",
+      "coordinates": [
+        36.2,
+        34.01
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/baalbek-1180-review-v1.png",
+      "source_filename": "baalbek-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "aleppo-1180-review-v1",
+      "site_id": "aleppo",
+      "name": "Aleppo",
+      "region": "main",
+      "coordinates": [
+        37.16,
+        36.2
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/aleppo-1180-review-v1.png",
+      "source_filename": "aleppo-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "hama-1180-review-v1",
+      "site_id": "hama",
+      "name": "Hama",
+      "region": "main",
+      "coordinates": [
+        36.75,
+        35.13
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/hama-1180-review-v1.png",
+      "source_filename": "hama-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "homs-1180-review-v1",
+      "site_id": "homs",
+      "name": "Homs",
+      "region": "main",
+      "coordinates": [
+        36.72,
+        34.73
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/homs-1180-review-v1.png",
+      "source_filename": "homs-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "latakia-1180-review-v1",
+      "site_id": "latakia",
+      "name": "Latakia",
+      "region": "main",
+      "coordinates": [
+        35.78,
+        35.52
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/latakia-1180-review-v1.png",
+      "source_filename": "latakia-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "jableh-1180-review-v1",
+      "site_id": "jableh",
+      "name": "Jableh",
+      "region": "main",
+      "coordinates": [
+        35.93,
+        35.36
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/jableh-1180-review-v1.png",
+      "source_filename": "jableh-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "baniyas-syria-1180-review-v1",
+      "site_id": "baniyas-syria",
+      "name": "Baniyas",
+      "region": "main",
+      "coordinates": [
+        35.95,
+        35.2
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/baniyas-syria-1180-review-v1.png",
+      "source_filename": "baniyas-syria-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "apamea-1180-review-v1",
+      "site_id": "apamea",
+      "name": "Apamea",
+      "region": "main",
+      "coordinates": [
+        36.4,
+        35.42
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/apamea-1180-review-v1.png",
+      "source_filename": "apamea-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "harim-1180-review-v1",
+      "site_id": "harim",
+      "name": "Harim",
+      "region": "main",
+      "coordinates": [
+        36.52,
+        36.21
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/harim-1180-review-v1.png",
+      "source_filename": "harim-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "artah-1180-review-v1",
+      "site_id": "artah",
+      "name": "Artah",
+      "region": "main",
+      "coordinates": [
+        36.35,
+        36.3
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/artah-1180-review-v1.png",
+      "source_filename": "artah-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "iskenderun-1180-review-v1",
+      "site_id": "iskenderun",
+      "name": "Iskenderun",
+      "region": "main",
+      "coordinates": [
+        36.17,
+        36.58
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/iskenderun-1180-review-v1.png",
+      "source_filename": "iskenderun-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "kozan-1180-review-v1",
+      "site_id": "kozan",
+      "name": "Kozan",
+      "region": "main",
+      "coordinates": [
+        35.81,
+        37.45
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/kozan-1180-review-v1.png",
+      "source_filename": "kozan-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "tarsus-1180-review-v1",
+      "site_id": "tarsus",
+      "name": "Tarsus",
+      "region": "main",
+      "coordinates": [
+        34.89,
+        36.92
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/tarsus-1180-review-v1.png",
+      "source_filename": "tarsus-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "adana-1180-review-v1",
+      "site_id": "adana",
+      "name": "Adana",
+      "region": "main",
+      "coordinates": [
+        35.32,
+        37
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/adana-1180-review-v1.png",
+      "source_filename": "adana-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "misis-1180-review-v1",
+      "site_id": "misis",
+      "name": "Misis",
+      "region": "main",
+      "coordinates": [
+        35.63,
+        36.98
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/misis-1180-review-v1.png",
+      "source_filename": "misis-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "yumurtalik-1180-review-v1",
+      "site_id": "yumurtalik",
+      "name": "Yumurtalik",
+      "region": "main",
+      "coordinates": [
+        35.79,
+        36.77
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/yumurtalik-1180-review-v1.png",
+      "source_filename": "yumurtalik-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "kahramanmaras-1180-review-v1",
+      "site_id": "kahramanmaras",
+      "name": "Kahramanmaras",
+      "region": "main",
+      "coordinates": [
+        36.93,
+        37.58
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/kahramanmaras-1180-review-v1.png",
+      "source_filename": "kahramanmaras-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "famagusta-1180-review-v1",
+      "site_id": "famagusta",
+      "name": "Famagusta",
+      "region": "main",
+      "coordinates": [
+        33.94,
+        35.12
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/famagusta-1180-review-v1.png",
+      "source_filename": "famagusta-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "paphos-1180-review-v1",
+      "site_id": "paphos",
+      "name": "Paphos",
+      "region": "main",
+      "coordinates": [
+        32.42,
+        34.77
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/paphos-1180-review-v1.png",
+      "source_filename": "paphos-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "edirne-1180-review-v1",
+      "site_id": "edirne",
+      "name": "Edirne",
+      "region": "aegean",
+      "coordinates": [
+        26.56,
+        41.68
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/edirne-1180-review-v1.png",
+      "source_filename": "edirne-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "iznik-1180-review-v1",
+      "site_id": "iznik",
+      "name": "Iznik",
+      "region": "aegean",
+      "coordinates": [
+        29.72,
+        40.43
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/iznik-1180-review-v1.png",
+      "source_filename": "iznik-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "navarino-1180-review-v1",
+      "site_id": "navarino",
+      "name": "Navarino",
+      "region": "aegean",
+      "coordinates": [
+        21.66,
+        36.96
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/navarino-1180-review-v1.png",
+      "source_filename": "navarino-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "mystras-1180-review-v1",
+      "site_id": "mystras",
+      "name": "Mystras",
+      "region": "aegean",
+      "coordinates": [
+        22.37,
+        37.07
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/mystras-1180-review-v1.png",
+      "source_filename": "mystras-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1250,
+      "period_1180_eligible": false,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Fortress at Mystras founded in 1249, not present in 1180"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "zakynthos-1180-review-v1",
+      "site_id": "zakynthos",
+      "name": "Zakynthos",
+      "region": "aegean",
+      "coordinates": [
+        20.9,
+        37.78
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/zakynthos-1180-review-v1.png",
+      "source_filename": "zakynthos-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "kythira-1180-review-v1",
+      "site_id": "kythira",
+      "name": "Kythira",
+      "region": "aegean",
+      "coordinates": [
+        23,
+        36.15
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/kythira-1180-review-v1.png",
+      "source_filename": "kythira-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "kos-1180-review-v1",
+      "site_id": "kos",
+      "name": "Kos",
+      "region": "aegean",
+      "coordinates": [
+        27.29,
+        36.89
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/kos-1180-review-v1.png",
+      "source_filename": "kos-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "leros-1180-review-v1",
+      "site_id": "leros",
+      "name": "Leros",
+      "region": "aegean",
+      "coordinates": [
+        26.85,
+        37.15
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/leros-1180-review-v1.png",
+      "source_filename": "leros-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "naxos-1180-review-v1",
+      "site_id": "naxos",
+      "name": "Naxos",
+      "region": "aegean",
+      "coordinates": [
+        25.38,
+        37.1
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/naxos-1180-review-v1.png",
+      "source_filename": "naxos-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "tinos-1180-review-v1",
+      "site_id": "tinos",
+      "name": "Tinos",
+      "region": "aegean",
+      "coordinates": [
+        25.16,
+        37.54
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/tinos-1180-review-v1.png",
+      "source_filename": "tinos-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "santorini-1180-review-v1",
+      "site_id": "santorini",
+      "name": "Santorini",
+      "region": "aegean",
+      "coordinates": [
+        25.43,
+        36.4
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/santorini-1180-review-v1.png",
+      "source_filename": "santorini-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "mytilene-1180-review-v1",
+      "site_id": "mytilene",
+      "name": "Mytilene",
+      "region": "aegean",
+      "coordinates": [
+        26.55,
+        39.1
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/mytilene-1180-review-v1.png",
+      "source_filename": "mytilene-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "foca-1180-review-v1",
+      "site_id": "foca",
+      "name": "Foca",
+      "region": "aegean",
+      "coordinates": [
+        26.75,
+        38.67
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/foca-1180-review-v1.png",
+      "source_filename": "foca-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "lemnos-1180-review-v1",
+      "site_id": "lemnos",
+      "name": "Lemnos",
+      "region": "aegean",
+      "coordinates": [
+        25.07,
+        39.88
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/lemnos-1180-review-v1.png",
+      "source_filename": "lemnos-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "selcuk-1180-review-v1",
+      "site_id": "selcuk",
+      "name": "Selcuk",
+      "region": "aegean",
+      "coordinates": [
+        27.37,
+        37.94
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/selcuk-1180-review-v1.png",
+      "source_filename": "selcuk-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "alasehir-1180-review-v1",
+      "site_id": "alasehir",
+      "name": "Alasehir",
+      "region": "aegean",
+      "coordinates": [
+        28.52,
+        38.35
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/alasehir-1180-review-v1.png",
+      "source_filename": "alasehir-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "mansoura-1180-review-v1",
+      "site_id": "mansoura",
+      "name": "Mansoura",
+      "region": "delta",
+      "coordinates": [
+        31.38,
+        31.04
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/mansoura-1180-review-v1.png",
+      "source_filename": "mansoura-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1250,
+      "period_1180_eligible": false,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Mansoura founded in 1219, not present in 1180"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "faraskur-1180-review-v1",
+      "site_id": "faraskur",
+      "name": "Faraskur",
+      "region": "delta",
+      "coordinates": [
+        31.72,
+        31.33
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/faraskur-1180-review-v1.png",
+      "source_filename": "faraskur-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    },
+    {
+      "id": "pelusium-1180-review-v1",
+      "site_id": "pelusium",
+      "name": "Pelusium",
+      "region": "delta",
+      "coordinates": [
+        32.55,
+        31.05
+      ],
+      "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/pelusium-1180-review-v1.png",
+      "source_filename": "pelusium-1180-review-v1.png",
+      "depiction_brief_year": 1180,
+      "map_review_year": 1180,
+      "period_1180_eligible": true,
+      "review_placement_approved": true,
+      "approval_for_placement": true,
+      "production_approved": false,
+      "technical_qa": {
+        "status": "review-only",
+        "transparent_edge_cleanup_required": true,
+        "source_cell_px": [
+          418,
+          418
+        ],
+        "packaged_canvas_px": [
+          466,
+          466
+        ],
+        "print_quality": "requires-enlarged-asset-review"
+      },
+      "historical": {
+        "status": "period-informed-illustration",
+        "repaint_required": true,
+        "phase_warning": "Architecture, flags and city footprint unverified"
+      },
+      "provenance": "Generated sprite sheet and crop batch, 10 Nov 2026; original source sheets in local ZIP pending source-PNG repository upload"
+    }
+  ]
+}

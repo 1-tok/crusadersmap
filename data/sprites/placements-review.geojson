@@ -7,7 +7,10 @@
     "date": "2026-11-10",
     "approval_scope": "Every drafted image is approved for review map placement despite incomplete or failed QA. Never imply production or historical approval.",
     "duplicates": "Choose one candidate per site; only show review layer when enabled.",
-    "date_guard": "Honor depiction_year; Safed 1245 not on 1180 layer."
+    "date_guard": "Honor depiction_year; Safed 1245 not on 1180 layer.",
+    "updated": "2026-11-11",
+    "latest_review_batch": "city-review-2026-11-10",
+    "note": "All city drafts visible for review; this layer includes multiple historical periods; use year-specific reviews for historically gated display."
   },
   "features": [
     {
@@ -412,6 +415,1806 @@
         "repaint_flags": [
           "Early draft, preserved alongside the released Tyre sprite."
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "safed-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5,
+          32.96
+        ]
+      },
+      "properties": {
+        "site_id": "safed",
+        "name": "Safed",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/safed-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "safed"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nazareth-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3,
+          32.7
+        ]
+      },
+      "properties": {
+        "site_id": "nazareth",
+        "name": "Nazareth",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/nazareth-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "nazareth"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nablus-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.26,
+          32.22
+        ]
+      },
+      "properties": {
+        "site_id": "nablus",
+        "name": "Nablus",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/nablus-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "nablus"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tiberias-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.53,
+          32.79
+        ]
+      },
+      "properties": {
+        "site_id": "tiberias",
+        "name": "Tiberias",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/tiberias-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "tiberias"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "banias-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.69,
+          33.25
+        ]
+      },
+      "properties": {
+        "site_id": "banias",
+        "name": "Banias",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/banias-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "banias"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bosra-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.48,
+          32.52
+        ]
+      },
+      "properties": {
+        "site_id": "bosra",
+        "name": "Bosra",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/bosra-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "bosra"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "damascus-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.31,
+          33.51
+        ]
+      },
+      "properties": {
+        "site_id": "damascus",
+        "name": "Damascus",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/damascus-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "damascus"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baalbek-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.2,
+          34.01
+        ]
+      },
+      "properties": {
+        "site_id": "baalbek",
+        "name": "Baalbek",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/baalbek-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "baalbek"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aleppo-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.16,
+          36.2
+        ]
+      },
+      "properties": {
+        "site_id": "aleppo",
+        "name": "Aleppo",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/aleppo-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "aleppo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hama-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.75,
+          35.13
+        ]
+      },
+      "properties": {
+        "site_id": "hama",
+        "name": "Hama",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/hama-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "hama"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "homs-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.72,
+          34.73
+        ]
+      },
+      "properties": {
+        "site_id": "homs",
+        "name": "Homs",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/homs-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "homs"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "latakia-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.78,
+          35.52
+        ]
+      },
+      "properties": {
+        "site_id": "latakia",
+        "name": "Latakia",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/latakia-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "latakia"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jableh-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.93,
+          35.36
+        ]
+      },
+      "properties": {
+        "site_id": "jableh",
+        "name": "Jableh",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/jableh-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "jableh"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baniyas-syria-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.95,
+          35.2
+        ]
+      },
+      "properties": {
+        "site_id": "baniyas-syria",
+        "name": "Baniyas",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/baniyas-syria-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "baniyas-syria"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "apamea-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4,
+          35.42
+        ]
+      },
+      "properties": {
+        "site_id": "apamea",
+        "name": "Apamea",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/apamea-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "apamea"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "harim-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.52,
+          36.21
+        ]
+      },
+      "properties": {
+        "site_id": "harim",
+        "name": "Harim",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/harim-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "harim"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "artah-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.35,
+          36.3
+        ]
+      },
+      "properties": {
+        "site_id": "artah",
+        "name": "Artah",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/artah-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "artah"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iskenderun-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.17,
+          36.58
+        ]
+      },
+      "properties": {
+        "site_id": "iskenderun",
+        "name": "Iskenderun",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/iskenderun-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "iskenderun"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kozan-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.81,
+          37.45
+        ]
+      },
+      "properties": {
+        "site_id": "kozan",
+        "name": "Kozan",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/kozan-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "kozan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tarsus-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89,
+          36.92
+        ]
+      },
+      "properties": {
+        "site_id": "tarsus",
+        "name": "Tarsus",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/tarsus-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "tarsus"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "adana-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.32,
+          37
+        ]
+      },
+      "properties": {
+        "site_id": "adana",
+        "name": "Adana",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/adana-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "adana"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "misis-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.63,
+          36.98
+        ]
+      },
+      "properties": {
+        "site_id": "misis",
+        "name": "Misis",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/misis-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "misis"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yumurtalik-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.79,
+          36.77
+        ]
+      },
+      "properties": {
+        "site_id": "yumurtalik",
+        "name": "Yumurtalik",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/yumurtalik-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "yumurtalik"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kahramanmaras-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.93,
+          37.58
+        ]
+      },
+      "properties": {
+        "site_id": "kahramanmaras",
+        "name": "Kahramanmaras",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/kahramanmaras-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "kahramanmaras"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "famagusta-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.94,
+          35.12
+        ]
+      },
+      "properties": {
+        "site_id": "famagusta",
+        "name": "Famagusta",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/famagusta-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "famagusta"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "paphos-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.42,
+          34.77
+        ]
+      },
+      "properties": {
+        "site_id": "paphos",
+        "name": "Paphos",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/paphos-1180-review-v1.png",
+        "map_region": "main",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "paphos"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "edirne-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.56,
+          41.68
+        ]
+      },
+      "properties": {
+        "site_id": "edirne",
+        "name": "Edirne",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/edirne-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "edirne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iznik-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.72,
+          40.43
+        ]
+      },
+      "properties": {
+        "site_id": "iznik",
+        "name": "Iznik",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/iznik-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "iznik"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "navarino-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.66,
+          36.96
+        ]
+      },
+      "properties": {
+        "site_id": "navarino",
+        "name": "Navarino",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/navarino-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "navarino"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mystras-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.37,
+          37.07
+        ]
+      },
+      "properties": {
+        "site_id": "mystras",
+        "name": "Mystras",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/mystras-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1250,
+        "period_1180_eligible": false,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Fortress at Mystras founded in 1249, not present in 1180",
+        "variant_group": "mystras"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zakynthos-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9,
+          37.78
+        ]
+      },
+      "properties": {
+        "site_id": "zakynthos",
+        "name": "Zakynthos",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/zakynthos-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "zakynthos"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kythira-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23,
+          36.15
+        ]
+      },
+      "properties": {
+        "site_id": "kythira",
+        "name": "Kythira",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/kythira-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "kythira"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kos-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.29,
+          36.89
+        ]
+      },
+      "properties": {
+        "site_id": "kos",
+        "name": "Kos",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/kos-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "kos"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "leros-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.85,
+          37.15
+        ]
+      },
+      "properties": {
+        "site_id": "leros",
+        "name": "Leros",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/leros-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "leros"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "naxos-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.38,
+          37.1
+        ]
+      },
+      "properties": {
+        "site_id": "naxos",
+        "name": "Naxos",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/naxos-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "naxos"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tinos-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.16,
+          37.54
+        ]
+      },
+      "properties": {
+        "site_id": "tinos",
+        "name": "Tinos",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/tinos-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "tinos"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "santorini-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.43,
+          36.4
+        ]
+      },
+      "properties": {
+        "site_id": "santorini",
+        "name": "Santorini",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/santorini-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "santorini"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mytilene-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.55,
+          39.1
+        ]
+      },
+      "properties": {
+        "site_id": "mytilene",
+        "name": "Mytilene",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/mytilene-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "mytilene"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "foca-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.75,
+          38.67
+        ]
+      },
+      "properties": {
+        "site_id": "foca",
+        "name": "Foca",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/foca-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "foca"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lemnos-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.07,
+          39.88
+        ]
+      },
+      "properties": {
+        "site_id": "lemnos",
+        "name": "Lemnos",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/lemnos-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "lemnos"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "selcuk-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.37,
+          37.94
+        ]
+      },
+      "properties": {
+        "site_id": "selcuk",
+        "name": "Selcuk",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/selcuk-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "selcuk"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "alasehir-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.52,
+          38.35
+        ]
+      },
+      "properties": {
+        "site_id": "alasehir",
+        "name": "Alasehir",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/alasehir-1180-review-v1.png",
+        "map_region": "aegean",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "alasehir"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mansoura-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.38,
+          31.04
+        ]
+      },
+      "properties": {
+        "site_id": "mansoura",
+        "name": "Mansoura",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/mansoura-1180-review-v1.png",
+        "map_region": "delta",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "delta"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1250,
+        "period_1180_eligible": false,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Mansoura founded in 1219, not present in 1180",
+        "variant_group": "mansoura"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "faraskur-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.72,
+          31.33
+        ]
+      },
+      "properties": {
+        "site_id": "faraskur",
+        "name": "Faraskur",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/faraskur-1180-review-v1.png",
+        "map_region": "delta",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "delta"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "faraskur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pelusium-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.55,
+          31.05
+        ]
+      },
+      "properties": {
+        "site_id": "pelusium",
+        "name": "Pelusium",
+        "asset_path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/pelusium-1180-review-v1.png",
+        "map_region": "delta",
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "delta"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "review_required": true,
+        "repaint_required": true,
+        "placement_status": "approved-review-only",
+        "depiction_brief_year": 1180,
+        "map_review_year": 1180,
+        "period_1180_eligible": true,
+        "default_visible": true,
+        "display_width_units": 512,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "technical_qa_status": "review-only",
+        "historical_phase_note": "Architecture, flags and city footprint unverified",
+        "variant_group": "pelusium"
       }
     }
   ]
