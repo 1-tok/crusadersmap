@@ -20,3 +20,11 @@ git push origin HEAD
 ```
 
 For large canvas composition, prefer feathered RGBA overlays and geographically masked placements over edge-joining opaque images. Enlarged 1536×1024 paintings are interpolated from smaller panel crops, **not** true native-resolution art; paint QA is required before print.
+
+## Transparent Terrain Redo 03 — review queue
+
+The **16 original expansion-02 regions** have replacement hand-painted **irregular RGBA cutout sprites** and **19 supplemental variants** in the separately downloadable archive `crusadersmap_terrain_transparent_redo_03_20261110.zip`.
+
+See `manifest_transparent_redo_03.json` for paths, expected dimensions, placement review and print QA. **Old 02 images are superseded** for map use. **No PNG binaries from redo 03 have been uploaded to GitHub yet**; the manifest is not evidence of an image commit. Unzip the conversation archive into a checkout and commit its `assets/terrain/large_area/transparent_redo_03/*.png` files before enabling the placements.
+
+Alpha corners and cutout edges have been checked; overlap previews exist in the conversation. Seamless tiling, geographic placement and 300-DPI print quality are **not approved**. Source crops average only several hundred pixels wide, so large print placements need new high-native-resolution repaints; preserve the original extract as a reference, not a falsely sharp enlargement.
