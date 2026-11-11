@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "placement_view": "sprite-review",
+    "status": "review-placement-approved-not-production",
+    "period": 1245,
+    "date": "2026-11-10",
+    "approval_scope": "Every drafted image is approved for review map placement despite incomplete or failed QA. Never imply production or historical approval.",
+    "duplicates": "Choose one candidate per site; only show review layer when enabled.",
+    "date_guard": "Honor depiction_year; Safed 1245 not on 1180 layer."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "safed-1245-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.495,
+          32.968333333333334
+        ]
+      },
+      "properties": {
+        "site_id": "safed",
+        "name": "Safed (rebuilding begun 1240)",
+        "asset_path": "data/sprites/greece-egypt-fortresses-04-review/safed-1245-review-v1.png",
+        "depiction_year": 1245,
+        "map_region": "main",
+        "display_width_units": 512,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "technical_qa_status": "pass",
+        "default_visible": true,
+        "variant_group": "safed",
+        "variant_rule": "Toggle one variant per site; do not stack duplicates",
+        "coordinate_evidence": {
+          "url": "https://www.burgenwelt.org/israel/safed/burgenwelt-safed-objektseite.pdf",
+          "published_value": "32°58′6″N, 35°29′42″E",
+          "surveyed": false,
+          "accessed": "2026-11-09",
+          "uncertainty_note": "Published site point. The sprite footprint is illustrative."
+        },
+        "repaint_flags": [
+          "The circa-1245 illustration represents the thirteenth-century rebuilding. Review the outer ditch, tower spacing and ground plan. Earlier occupation requires a separate depiction."
+        ]
+      }
+    }
+  ]
+}

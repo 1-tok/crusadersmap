@@ -5,7 +5,7 @@
   "generation_method": "built-in image_gen",
   "release_status": "placement-review",
   "review_map_base_commit": "e408a535a2d502ab00172073ed6bab25927cbeb5",
-  "approval_policy": "Candidate artwork appears in the separate placement review. Production import requires approval.",
+  "approval_policy": "All drafts may be placed in the dedicated map review layer even if not technically or artistically approved. Review placement does not grant production approval, override the depicted year, or remove QA holds.",
   "assets": [
     {
       "id": "bagras-1180-review-v1",
@@ -46,8 +46,8 @@
       "source": "sources/bagras.png",
       "display_width_units": 512,
       "artwork_approval": "pending-user-review",
-      "approval_for_placement": false,
-      "placement_status": "review-only",
+      "approval_for_placement": true,
+      "placement_status": "approved-review-only",
       "review_required": true,
       "repaint_required": true,
       "repaint_flags": [
@@ -93,7 +93,10 @@
         ],
         "transparent_padding_px": 26
       },
-      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "approval_for_review_placement": true,
+      "production_approved": false,
+      "placement_view": "sprite-review"
     },
     {
       "id": "safed-1245-review-v1",
@@ -134,8 +137,8 @@
       "source": "sources/safed.png",
       "display_width_units": 512,
       "artwork_approval": "pending-user-review",
-      "approval_for_placement": false,
-      "placement_status": "review-only",
+      "approval_for_placement": true,
+      "placement_status": "approved-review-only",
       "review_required": true,
       "repaint_required": true,
       "repaint_flags": [
@@ -187,7 +190,10 @@
         ],
         "transparent_padding_px": 26
       },
-      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags",
+      "approval_for_review_placement": true,
+      "production_approved": false,
+      "placement_view": "sprite-review"
     }
   ]
 }

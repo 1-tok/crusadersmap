@@ -15,8 +15,8 @@
         "name": "Bagras",
         "source_site_id": "CP-064",
         "asset_path": "data/sprites/greece-egypt-fortresses-04-review/bagras-1180-review-v1.png",
-        "approval_for_placement": false,
-        "placement_status": "review-only",
+        "approval_for_placement": true,
+        "placement_status": "approved-review-only",
         "period_1180_eligible": true,
         "date_ranges": {
           "approved_art_from": 1180,
@@ -26,7 +26,12 @@
         "review_anchor_px": [
           1950.63,
           652.41
-        ]
+        ],
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "placement_view": "sprite-review",
+        "review_required": true,
+        "repaint_required": true
       }
     },
     {
@@ -43,8 +48,8 @@
         "name": "Safed (rebuilding begun 1240)",
         "source_site_id": "CP-010",
         "asset_path": "data/sprites/greece-egypt-fortresses-04-review/safed-1245-review-v1.png",
-        "approval_for_placement": false,
-        "placement_status": "review-only",
+        "approval_for_placement": true,
+        "placement_status": "approved-review-only",
         "period_1180_eligible": false,
         "date_ranges": {
           "approved_art_from": 1245,
@@ -54,8 +59,14 @@
         "review_anchor_px": [
           1697.14,
           2102.95
-        ]
+        ],
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "placement_view": "sprite-review",
+        "review_required": true,
+        "repaint_required": true
       }
     }
-  ]
+  ],
+  "note": "All candidates are approved for visual review map placement; not production-approved."
 }

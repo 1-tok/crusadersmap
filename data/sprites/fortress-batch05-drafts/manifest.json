@@ -3,7 +3,7 @@
   "batch_id": "fortress-05",
   "generation_method": "built-in image_gen",
   "release_status": "technical-hold",
-  "approval_policy": "Draft paintings and geographic markup only. Not imported into production catalog. No placement approval until visible background/edge defects are corrected.",
+  "approval_policy": "All drafts may be placed in the dedicated map review layer even if not technically or artistically approved. Review placement does not grant production approval, override the depicted year, or remove QA holds.",
   "assets": [
     {
       "id": "beaufort-1180-draft-v1",
@@ -25,8 +25,8 @@
         "uncertainty_note": "Published NGA-derived ancient-site point; not surveyed medieval footprint."
       },
       "depiction_year": 1180,
-      "approval_for_placement": false,
-      "placement_status": "technical-hold",
+      "approval_for_placement": true,
+      "placement_status": "approved-review-only",
       "review_required": true,
       "repaint_required": true,
       "historical_accuracy_certified": false,
@@ -60,7 +60,10 @@
           "Brown peripheral halo persists after image-tool cleanup.",
           "An additional Beaufort hard-edge candidate removes the halo but introduces colored edge artifacts and is not released."
         ]
-      }
+      },
+      "approval_for_review_placement": true,
+      "production_approved": false,
+      "placement_view": "sprite-review"
     },
     {
       "id": "toron-1180-draft-v1",
@@ -82,8 +85,8 @@
         "uncertainty_note": "Published cultural heritage report point; surviving walls include later reconstruction."
       },
       "depiction_year": 1180,
-      "approval_for_placement": false,
-      "placement_status": "technical-hold",
+      "approval_for_placement": true,
+      "placement_status": "approved-review-only",
       "review_required": true,
       "repaint_required": true,
       "historical_accuracy_certified": false,
@@ -117,7 +120,10 @@
           "Brown peripheral halo persists after image-tool cleanup.",
           "An additional Beaufort hard-edge candidate removes the halo but introduces colored edge artifacts and is not released."
         ]
-      }
+      },
+      "approval_for_review_placement": true,
+      "production_approved": false,
+      "placement_view": "sprite-review"
     }
   ]
 }

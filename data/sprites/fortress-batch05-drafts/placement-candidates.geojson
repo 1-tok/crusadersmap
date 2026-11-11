@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "note": "Research markup, NOT approved map layer.",
+  "note": "All candidates are approved for visual review map placement; not production-approved.",
   "features": [
     {
       "type": "Feature",
@@ -15,15 +15,20 @@
       "properties": {
         "name": "Beaufort (Frankish construction after 1139)",
         "source_site_id": "CP-013",
-        "approval_for_placement": false,
-        "placement_status": "technical-hold",
+        "approval_for_placement": true,
+        "placement_status": "approved-review-only",
         "depiction_year": 1180,
         "coordinate_evidence": {
           "url": "https://geographic.org/geographic_names/name.php?c=lebanon&fid=3643&uni=-1160992",
           "accessed": "2026-11-08",
           "surveyed": false,
           "uncertainty_note": "Published NGA-derived ancient-site point; not surveyed medieval footprint."
-        }
+        },
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "placement_view": "sprite-review",
+        "review_required": true,
+        "repaint_required": true
       }
     },
     {
@@ -39,15 +44,20 @@
       "properties": {
         "name": "Toron / Tibnin (circa 1180 phase)",
         "source_site_id": "CP-033",
-        "approval_for_placement": false,
-        "placement_status": "technical-hold",
+        "approval_for_placement": true,
+        "placement_status": "approved-review-only",
         "depiction_year": 1180,
         "coordinate_evidence": {
           "url": "https://www.hep-web.org/projects/202410ReportCultureHeritageDestructionLebanon/Report-02-Cultural-Heritage-Destruction-Lebanon-English-Nov-2024.pdf",
           "accessed": "2026-11-08",
           "surveyed": false,
           "uncertainty_note": "Published cultural heritage report point; surviving walls include later reconstruction."
-        }
+        },
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "placement_view": "sprite-review",
+        "review_required": true,
+        "repaint_required": true
       }
     }
   ]

@@ -1,0 +1,710 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-10",
+  "source_manifest": "data/manifests/city-placement-review.json",
+  "description": "Dedicated city paintings still absent from the source review. Published/approved provisional artwork previously on side branches has been restored to main; review variants are mapped separately.",
+  "missing_city_count": 45,
+  "cities_without_sprites": [
+    {
+      "name": "Safed",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-safed",
+      "coordinates": [
+        35.5,
+        32.96
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Nazareth",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-nazareth",
+      "coordinates": [
+        35.3,
+        32.7
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Nablus",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-nablus",
+      "coordinates": [
+        35.26,
+        32.22
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Tiberias",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-tiberias",
+      "coordinates": [
+        35.53,
+        32.79
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Banias",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-banias",
+      "coordinates": [
+        35.69,
+        33.25
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Bosra",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-bosra",
+      "coordinates": [
+        36.48,
+        32.52
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Damascus",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-damascus",
+      "coordinates": [
+        36.31,
+        33.51
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "first",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Baalbek",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-baalbek",
+      "coordinates": [
+        36.2,
+        34.01
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Aleppo",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-aleppo",
+      "coordinates": [
+        37.16,
+        36.2
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "first",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Hama",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-hama",
+      "coordinates": [
+        36.75,
+        35.13
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Homs",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-homs",
+      "coordinates": [
+        36.72,
+        34.73
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Latakia",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-latakia",
+      "coordinates": [
+        35.78,
+        35.52
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Jableh",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-jableh",
+      "coordinates": [
+        35.93,
+        35.36
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Baniyas",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-baniyas",
+      "coordinates": [
+        35.95,
+        35.2
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Apamea",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-apamea",
+      "coordinates": [
+        36.4,
+        35.42
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Harim",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-harim",
+      "coordinates": [
+        36.52,
+        36.21
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Artah",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-artah",
+      "coordinates": [
+        36.35,
+        36.3
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Iskenderun",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-iskenderun",
+      "coordinates": [
+        36.17,
+        36.58
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Kozan",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-kozan",
+      "coordinates": [
+        35.81,
+        37.45
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Tarsus",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-tarsus",
+      "coordinates": [
+        34.89,
+        36.92
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Adana",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-adana",
+      "coordinates": [
+        35.32,
+        37
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Misis",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-misis",
+      "coordinates": [
+        35.63,
+        36.98
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Yumurtalik",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-yumurtalik",
+      "coordinates": [
+        35.79,
+        36.77
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Kahramanmaras",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-kahramanmaras",
+      "coordinates": [
+        36.93,
+        37.58
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Famagusta",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-famagusta",
+      "coordinates": [
+        33.94,
+        35.12
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Paphos",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "location_id": "place-main-paphos",
+      "coordinates": [
+        32.42,
+        34.77
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Edirne",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "location_id": "place-aegean-edirne",
+      "coordinates": [
+        26.56,
+        41.68
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Iznik",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "location_id": "place-aegean-iznik",
+      "coordinates": [
+        29.72,
+        40.43
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Navarino",
+      "group": "Greece",
+      "region": "aegean",
+      "location_id": "place-aegean-navarino",
+      "coordinates": [
+        21.66,
+        36.96
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Mystras",
+      "group": "Greece",
+      "region": "aegean",
+      "location_id": "place-aegean-mystras",
+      "coordinates": [
+        22.37,
+        37.07
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "excluded_1180"
+    },
+    {
+      "name": "Zakynthos",
+      "group": "Greece",
+      "region": "aegean",
+      "location_id": "place-aegean-zakynthos",
+      "coordinates": [
+        20.9,
+        37.78
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Kythira",
+      "group": "Greece",
+      "region": "aegean",
+      "location_id": "place-aegean-kythira",
+      "coordinates": [
+        23,
+        36.15
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Kos",
+      "group": "Greece",
+      "region": "aegean",
+      "location_id": "place-aegean-kos",
+      "coordinates": [
+        27.29,
+        36.89
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Leros",
+      "group": "Greece",
+      "region": "aegean",
+      "location_id": "place-aegean-leros",
+      "coordinates": [
+        26.85,
+        37.15
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Naxos",
+      "group": "Greece",
+      "region": "aegean",
+      "location_id": "place-aegean-naxos",
+      "coordinates": [
+        25.38,
+        37.1
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Tinos",
+      "group": "Greece",
+      "region": "aegean",
+      "location_id": "place-aegean-tinos",
+      "coordinates": [
+        25.16,
+        37.54
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Santorini",
+      "group": "Greece",
+      "region": "aegean",
+      "location_id": "place-aegean-santorini",
+      "coordinates": [
+        25.43,
+        36.4
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Mytilene",
+      "group": "Greece",
+      "region": "aegean",
+      "location_id": "place-aegean-mytilene",
+      "coordinates": [
+        26.55,
+        39.1
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Foca",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "location_id": "place-aegean-foca",
+      "coordinates": [
+        26.75,
+        38.67
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Lemnos",
+      "group": "Greece",
+      "region": "aegean",
+      "location_id": "place-aegean-lemnos",
+      "coordinates": [
+        25.07,
+        39.88
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Selcuk",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "location_id": "place-aegean-selcuk",
+      "coordinates": [
+        27.37,
+        37.94
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Alasehir",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "location_id": "place-aegean-alasehir",
+      "coordinates": [
+        28.52,
+        38.35
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Mansoura",
+      "group": "Egypt",
+      "region": "delta",
+      "location_id": "place-delta-mansoura",
+      "coordinates": [
+        31.38,
+        31.04
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "excluded_1180"
+    },
+    {
+      "name": "Faraskur",
+      "group": "Egypt",
+      "region": "delta",
+      "location_id": "place-delta-faraskur",
+      "coordinates": [
+        31.72,
+        31.33
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    },
+    {
+      "name": "Pelusium",
+      "group": "Egypt",
+      "region": "delta",
+      "location_id": "place-delta-pelusium",
+      "coordinates": [
+        32.55,
+        31.05
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "existing_map_marker": true,
+      "priority": "normal",
+      "period_review": "requires_phase_review"
+    }
+  ],
+  "fortress_priority_queue": [
+    {
+      "site": "Bagras",
+      "status": "review-painting-available",
+      "year": 1180
+    },
+    {
+      "site": "Safed",
+      "status": "review-painting-available",
+      "year": 1245,
+      "note": "1245 rebuilt fortress, not valid for 1180"
+    },
+    {
+      "site": "Chastellet (Jacob's Ford)",
+      "status": "unpainted",
+      "note": "Construction 1178; destroyed 1179. No standing castle in 1180."
+    },
+    {
+      "site": "Bourzey",
+      "status": "unpainted"
+    },
+    {
+      "site": "Shaizar",
+      "status": "unpainted"
+    },
+    {
+      "site": "Masyaf",
+      "status": "unpainted"
+    },
+    {
+      "site": "Qadmus",
+      "status": "unpainted"
+    },
+    {
+      "site": "Harim",
+      "status": "unpainted"
+    },
+    {
+      "site": "Darbsak",
+      "status": "unpainted"
+    },
+    {
+      "site": "Anavarza",
+      "status": "unpainted"
+    },
+    {
+      "site": "Feke",
+      "status": "unpainted"
+    },
+    {
+      "site": "Kizkalesi",
+      "status": "unpainted"
+    },
+    {
+      "site": "Buffavento",
+      "status": "unpainted"
+    },
+    {
+      "site": "Kantara",
+      "status": "unpainted"
+    },
+    {
+      "site": "Kolossi",
+      "status": "unpainted"
+    },
+    {
+      "site": "Chlemoutsi",
+      "status": "unpainted"
+    }
+  ],
+  "review_candidates_count": 9
+}

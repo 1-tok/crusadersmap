@@ -1,0 +1,373 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "placement_view": "sprite-review",
+    "status": "review-placement-approved-not-production",
+    "period": 1180,
+    "date": "2026-11-10",
+    "approval_scope": "Every drafted image is approved for review map placement despite incomplete or failed QA. Never imply production or historical approval.",
+    "duplicates": "Choose one candidate per site; only show review layer when enabled.",
+    "date_guard": "Honor depiction_year; Safed 1245 not on 1180 layer."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "bagras-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.225,
+          36.426944444444445
+        ]
+      },
+      "properties": {
+        "site_id": "bagras",
+        "name": "Bagras",
+        "asset_path": "data/sprites/greece-egypt-fortresses-04-review/bagras-1180-review-v1.png",
+        "depiction_year": 1180,
+        "map_region": "main",
+        "display_width_units": 512,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "technical_qa_status": "pass",
+        "default_visible": true,
+        "variant_group": "bagras",
+        "variant_rule": "Toggle one variant per site; do not stack duplicates",
+        "coordinate_evidence": {
+          "url": "https://burgenwelt.de/tuerkei/bagras/object.php",
+          "published_value": "36°25′37″N, 36°13′30″E",
+          "surveyed": false,
+          "accessed": "2026-11-09",
+          "uncertainty_note": "Published site point. The sprite footprint is illustrative."
+        },
+        "repaint_flags": [
+          "Templar phase on an earlier site. Review the terraces, entrances and tower forms against the archaeological plans."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beaufort-1180-draft-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.531944,
+          33.324167
+        ]
+      },
+      "properties": {
+        "site_id": "beaufort",
+        "name": "Beaufort (Frankish construction after 1139)",
+        "asset_path": "data/sprites/fortress-batch05-drafts/beaufort-1180-draft.png",
+        "depiction_year": 1180,
+        "map_region": "main",
+        "display_width_units": 512,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "technical_qa_status": "fail-visual-background",
+        "default_visible": true,
+        "variant_group": "beaufort",
+        "variant_rule": "Toggle one variant per site; do not stack duplicates",
+        "coordinate_evidence": {
+          "url": "https://geographic.org/geographic_names/name.php?c=lebanon&fid=3643&uni=-1160992",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published NGA-derived ancient-site point; not surveyed medieval footprint."
+        },
+        "repaint_flags": [
+          "Period-informed schematic: tower count, gate positions, curtain heights, interiors and terrain are not plan-verified.",
+          "Exclude later Ayyubid/Mamluk/Ottoman building phases; specialist phase review remains required.",
+          "Brown peripheral halo persists after image-tool cleanup.",
+          "An additional Beaufort hard-edge candidate removes the halo but introduces colored edge artifacts and is not released."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toron-1180-draft-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.412279,
+          33.19543
+        ]
+      },
+      "properties": {
+        "site_id": "toron",
+        "name": "Toron / Tibnin (circa 1180 phase)",
+        "asset_path": "data/sprites/fortress-batch05-drafts/toron-1180-draft.png",
+        "depiction_year": 1180,
+        "map_region": "main",
+        "display_width_units": 512,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "technical_qa_status": "fail-visual-background",
+        "default_visible": true,
+        "variant_group": "toron",
+        "variant_rule": "Toggle one variant per site; do not stack duplicates",
+        "coordinate_evidence": {
+          "url": "https://www.hep-web.org/projects/202410ReportCultureHeritageDestructionLebanon/Report-02-Cultural-Heritage-Destruction-Lebanon-English-Nov-2024.pdf",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published cultural heritage report point; surviving walls include later reconstruction."
+        },
+        "repaint_flags": [
+          "Period-informed schematic: tower count, gate positions, curtain heights, interiors and terrain are not plan-verified.",
+          "Exclude later Ayyubid/Mamluk/Ottoman building phases; specialist phase review remains required.",
+          "Brown peripheral halo persists after image-tool cleanup.",
+          "An additional Beaufort hard-edge candidate removes the halo but introduces colored edge artifacts and is not released."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beaufort-hard-edge-candidate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.531944,
+          33.324167
+        ]
+      },
+      "properties": {
+        "site_id": "beaufort",
+        "name": "Beaufort edge variant",
+        "asset_path": "data/sprites/fortress-batch05-drafts/sources/beaufort-hard-edge-candidate.png",
+        "depiction_year": 1180,
+        "map_region": "main",
+        "display_width_units": 512,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "technical_qa_status": "not-validated-as-release",
+        "default_visible": false,
+        "variant_group": "beaufort",
+        "variant_rule": "Toggle one variant per site; do not stack duplicates",
+        "coordinate_evidence": {
+          "url": "https://geographic.org/geographic_names/name.php?c=lebanon&fid=3643&uni=-1160992",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published NGA-derived ancient-site point; not surveyed medieval footprint."
+        },
+        "repaint_flags": [
+          "Hard-edge attempt has red/yellow edge artifacts."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gaza-1180-review",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.458046,
+          31.510975
+        ]
+      },
+      "properties": {
+        "site_id": "gaza",
+        "name": "Gaza painting under review",
+        "asset_path": "reviews/gaza-1180/gaza-1180-review.png",
+        "depiction_year": 1180,
+        "map_region": "main",
+        "display_width_units": 512,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "technical_qa_status": "not-validated-as-release",
+        "default_visible": false,
+        "variant_group": "gaza",
+        "variant_rule": "Toggle one variant per site; do not stack duplicates",
+        "coordinate_evidence": {
+          "url": "https://silver.kbr.be/Gaza",
+          "published_value": "31.510975 N, 34.458046 E",
+          "surveyed": false,
+          "accessed": "2026-11-09",
+          "uncertainty_note": "Ancient Gaza reference point, not a surveyed Templar castle location."
+        },
+        "repaint_flags": [
+          "Review variant; inspect painted background and historic structures."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "athens-1180-v2-audit",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.726,
+          37.971
+        ]
+      },
+      "properties": {
+        "site_id": "athens",
+        "name": "Athens superseded candidate v2",
+        "asset_path": "reviews/sprite-audit-2026-11-08/athens-1180-v2-audit-candidate.png",
+        "depiction_year": 1180,
+        "map_region": "aegean",
+        "display_width_units": 512,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "technical_qa_status": "not-validated-as-release",
+        "default_visible": false,
+        "variant_group": "athens",
+        "variant_rule": "Toggle one variant per site; do not stack duplicates",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/164198",
+          "published_value": "37.971 / 23.726; Acropolis reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published Acropolis reference point, not a surveyed medieval city footprint; schematic bottom-center sprite anchor."
+        },
+        "repaint_flags": [
+          "Superseded Athens candidate; retain for side-by-side review."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "athens-1180-v3-style",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.726,
+          37.971
+        ]
+      },
+      "properties": {
+        "site_id": "athens",
+        "name": "Athens style review variant v3",
+        "asset_path": "reviews/sprite-audit-2026-11-08/athens-1180-v3-style-candidate.png",
+        "depiction_year": 1180,
+        "map_region": "aegean",
+        "display_width_units": 512,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "aegean"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "technical_qa_status": "not-validated-as-release",
+        "default_visible": false,
+        "variant_group": "athens",
+        "variant_rule": "Toggle one variant per site; do not stack duplicates",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/164198",
+          "published_value": "37.971 / 23.726; Acropolis reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published Acropolis reference point, not a surveyed medieval city footprint; schematic bottom-center sprite anchor."
+        },
+        "repaint_flags": [
+          "Style/audit candidate, not the production cutout."
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tyre-1180-initial-draft",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2,
+          33.27
+        ]
+      },
+      "properties": {
+        "site_id": "tyre",
+        "name": "Tyre early draft",
+        "asset_path": "data/sprites/expansion/sources/tyre-draft.png",
+        "depiction_year": 1180,
+        "map_region": "main",
+        "display_width_units": 512,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "technical_qa_status": "not-validated-as-release",
+        "default_visible": false,
+        "variant_group": "tyre",
+        "variant_rule": "Toggle one variant per site; do not stack duplicates",
+        "coordinate_evidence": {
+          "uncertainty_note": "Original map anchor is approximate; use for review only"
+        },
+        "repaint_flags": [
+          "Early draft, preserved alongside the released Tyre sprite."
+        ]
+      }
+    }
+  ]
+}
