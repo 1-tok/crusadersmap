@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "coastline_source": "data/ne_10m_land.geojson",
+  "coastline_reference": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-land/",
+  "projection": "+proj=lcc +lat_1=36 +lat_2=40 +lat_0=38 +lon_0=25 +datum=WGS84 +units=m",
+  "texture": "data/landscape-assets/png/aegean-island-interior.png",
+  "placement": "Bounds include transparent padding in reference sheet pixels. Layer below labels.",
+  "review": "Modern map polygons and illustrative interior texture; medieval shoreline and land use unverified.",
+  "islands": [
+    {
+      "id": "crete",
+      "name": "Crete",
+      "file": "islands/crete.png",
+      "region": "aegean",
+      "context_anchor_lonlat": [
+        24.9,
+        35.2
+      ],
+      "dimensions_px": [
+        976,
+        341
+      ],
+      "bounds_sheet_px": [
+        1851.5351573770786,
+        3760.041483684097,
+        3251.251013428747,
+        4249.010435880478
+      ],
+      "sha256": "0906431d7d73f73c2b40b052c0a91f33da46743450a276680304f8a35fe50743",
+      "historical_accuracy_certified": false
+    },
+    {
+      "id": "rhodes",
+      "name": "Rhodes",
+      "file": "islands/rhodes.png",
+      "region": "aegean",
+      "context_anchor_lonlat": [
+        28.0,
+        36.18
+      ],
+      "dimensions_px": [
+        751,
+        976
+      ],
+      "bounds_sheet_px": [
+        3874.4101977563137,
+        3295.9144117879127,
+        4144.78600299203,
+        3647.1499093930674
+      ],
+      "sha256": "9e53b6afd62e3233182d24f17939b04002a0b26cee210801c224aa21a68bd162",
+      "historical_accuracy_certified": false
+    },
+    {
+      "id": "euboea",
+      "name": "Euboea",
+      "file": "islands/euboea.png",
+      "region": "aegean",
+      "context_anchor_lonlat": [
+        23.9,
+        38.59
+      ],
+      "dimensions_px": [
+        976,
+        782
+      ],
+      "bounds_sheet_px": [
+        1574.6949162622782,
+        1777.266628096765,
+        2411.290326030594,
+        2447.1446498383975
+      ],
+      "sha256": "028d398af9178b6516837661f2ae8964f64a6884ca0d0bdce6b5acd693344919",
+      "historical_accuracy_certified": false
+    },
+    {
+      "id": "lesbos",
+      "name": "Lesbos",
+      "file": "islands/lesbos.png",
+      "region": "aegean",
+      "context_anchor_lonlat": [
+        26.3,
+        39.28
+      ],
+      "dimensions_px": [
+        976,
+        674
+      ],
+      "bounds_sheet_px": [
+        2969.8643090642163,
+        1584.469071393926,
+        3339.7201396242167,
+        1839.972064357545
+      ],
+      "sha256": "1fdcfdfbb60fe1f2dc8fd81fee04cc08a16db79eb331539ce7f18f4a0fa4e20c",
+      "historical_accuracy_certified": false
+    },
+    {
+      "id": "chios",
+      "name": "Chios",
+      "file": "islands/chios.png",
+      "region": "aegean",
+      "context_anchor_lonlat": [
+        26.02,
+        38.4
+      ],
+      "dimensions_px": [
+        584,
+        976
+      ],
+      "bounds_sheet_px": [
+        2973.710926327742,
+        2049.061279625058,
+        3136.60854169219,
+        2321.2474891540796
+      ],
+      "sha256": "4f1ce91b8159f44bf53b1d58b3cfc5487bf9d8eb475b2331b744792c15daf622",
+      "historical_accuracy_certified": false
+    },
+    {
+      "id": "naxos",
+      "name": "Naxos",
+      "file": "islands/naxos.png",
+      "region": "aegean",
+      "context_anchor_lonlat": [
+        25.49,
+        37.08
+      ],
+      "dimensions_px": [
+        708,
+        976
+      ],
+      "bounds_sheet_px": [
+        2749.8703549187276,
+        2883.2957229573676,
+        2874.535006146389,
+        3055.2042843023537
+      ],
+      "sha256": "284c50297887c92b7b837c0a8703b608b350d69fd9812188c5c2081a60c28a08",
+      "historical_accuracy_certified": false
+    },
+    {
+      "id": "kos",
+      "name": "Kos",
+      "file": "islands/kos.png",
+      "region": "aegean",
+      "context_anchor_lonlat": [
+        27.14,
+        36.83
+      ],
+      "dimensions_px": [
+        976,
+        665
+      ],
+      "bounds_sheet_px": [
+        3501.399429664448,
+        3043.551087156214,
+        3713.645441654647,
+        3188.1334136531623
+      ],
+      "sha256": "dc8b5ad350df0f6a705da2f583dc359e4ec684a96859c66e303f2d0035a200d1",
+      "historical_accuracy_certified": false
+    },
+    {
+      "id": "lemnos",
+      "name": "Lemnos",
+      "file": "islands/lemnos.png",
+      "region": "aegean",
+      "context_anchor_lonlat": [
+        25.19,
+        39.91
+      ],
+      "dimensions_px": [
+        976,
+        764
+      ],
+      "bounds_sheet_px": [
+        2602.61694244776,
+        1203.6702195457556,
+        2797.7094687278027,
+        1356.3674221588858
+      ],
+      "sha256": "cb1910333c6178c2db68b811bf4805527300db0984364bcd79f50dab15689533",
+      "historical_accuracy_certified": false
+    },
+    {
+      "id": "paros",
+      "name": "Paros",
+      "file": "islands/paros.png",
+      "region": "aegean",
+      "context_anchor_lonlat": [
+        25.14,
+        37.06
+      ],
+      "dimensions_px": [
+        888,
+        976
+      ],
+      "bounds_sheet_px": [
+        2637.56357796518,
+        2913.1360810528035,
+        2730.3795604585944,
+        3015.110995457975
+      ],
+      "sha256": "8fdcd77edb444e2899ce55b9aa8ab31cc267e3becd4a5630d50ccabfda9fd936",
+      "historical_accuracy_certified": false
+    },
+    {
+      "id": "samos",
+      "name": "Samos",
+      "file": "islands/samos.png",
+      "region": "aegean",
+      "context_anchor_lonlat": [
+        26.83,
+        37.74
+      ],
+      "dimensions_px": [
+        976,
+        444
+      ],
+      "bounds_sheet_px": [
+        3329.9202424538184,
+        2511.454451522881,
+        3565.12593919062,
+        2618.537342454017
+      ],
+      "sha256": "ecd19c58a7ef62351fdd6ff7c3d26f2bf5729d0700790fe621d8ba750e32f813",
+      "historical_accuracy_certified": false
+    }
+  ],
+  "approval": "approved-for-placement-on-matching-coastline",
+  "acceptance": "accepted-by-user"
+}

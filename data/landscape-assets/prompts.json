@@ -1,0 +1,41 @@
+{
+  "method": "built-in image_gen",
+  "prompts": [
+    {
+      "id": "sand-dunes",
+      "prompt": "ONE isolated reusable historical atlas landscape asset: Low wind-shaped pale sand dunes with varied crescent ridges, broad sandy gaps, muted ochre buff, no enormous mountain, sparse scrub. Horizontal terrain cutout. Fine ink and watercolor, warm muted buff/gray, sage green where appropriate, soft UPPER LEFT light, oblique south view. Match existing mountain/city terrain sprites. Minimal organic footing, tapering edges, entire silhouette with generous transparent padding. REAL transparent alpha, no sky/backdrop/gradient/glow/checkerboard/drop shadow. No text, labels, flags, people or border. Regional illustration, not surveyed geography."
+    },
+    {
+      "id": "rocky-desert",
+      "prompt": "ONE isolated reusable historical atlas landscape asset: Low rocky desert hamada, small broken buff limestone escarpments, gravel fans and shallow dry gullies, sparse low scrub, no dunes or high peaks. Horizontal low cutout. Fine ink and watercolor, warm muted buff/gray, sage green where appropriate, soft UPPER LEFT light, oblique south view. Match existing mountain/city terrain sprites. Minimal organic footing, tapering edges, entire silhouette with generous transparent padding. REAL transparent alpha, no sky/backdrop/gradient/glow/checkerboard/drop shadow. No text, labels, flags, people or border. Regional illustration, not surveyed geography."
+    },
+    {
+      "id": "palm-oasis",
+      "prompt": "ONE isolated reusable historical atlas landscape asset: Compact date-palm oasis with uneven small clusters of palms around a modest clear spring pool, reeds and muted green vegetation fading into dry buff gravel. No large lake, village, tents or irrigation canals. Natural irregular small terrain stamp. Fine ink and watercolor, warm muted buff/gray and subdued sage vegetation, soft UPPER LEFT light, oblique south view. Match existing mountain/city sprites. Minimal organic footing, tapering edges, entire silhouette with generous transparent padding. REAL transparent alpha, no sky/backdrop/gradient/glow/checkerboard/drop shadow. No text, labels, flags, people or border. Regional illustration, not surveyed geography."
+    },
+    {
+      "id": "broad-valley-floor",
+      "prompt": "ONE isolated reusable historical atlas landscape asset: Broad open dry valley floor with low limestone shoulders at sides, shallow winding dry drainage, sparse scrub. Central corridor wide and open, no high canyon walls, road or flowing river. Low horizontal connector. Fine ink and watercolor, warm muted buff/gray and subdued sage vegetation, soft UPPER LEFT light, oblique south view. Match existing mountain/city sprites. Minimal organic footing, tapering edges, entire silhouette with generous transparent padding. REAL transparent alpha, no sky/backdrop/gradient/glow/checkerboard/drop shadow. No text, labels, flags, people or border. Regional illustration, not surveyed geography."
+    },
+    {
+      "id": "road-straight",
+      "prompt": "ONE reusable road graphic for historical atlas map: One narrow straight medieval UNPAVED road LEFT TO RIGHT, dusty ochre track with subtle parallel wear and irregular edges on tiny thin rocky verge. Long thin stamp, ends open for joining. No asphalt, modern lines, buildings, stone pavement, vehicles or surrounding scene. Fine restrained ink/watercolor with muted ochre and buff. Near-overhead view. Road only, thin silhouette, generous transparent margin and true transparent alpha outside. No background, glow, gradient, checkerboard, horizon, text, labels, people or border. Entire segment contained; clear endpoints so it can be layered with separately generated connectors. Stylized visual segment, not surveyed historical route."
+    },
+    {
+      "id": "road-bend",
+      "prompt": "ONE reusable road graphic for historical atlas map: One narrow medieval UNPAVED road in gentle S curve LEFT TO RIGHT, horizontal open ends for joining, dusty ochre track, subtle wear, tiny rocky verge. No asphalt, modern lines, stone pavement, buildings, vehicles or surrounding scene. Fine restrained ink/watercolor with muted ochre and buff. Near-overhead view. Road only, thin silhouette, generous transparent margin and true transparent alpha outside. No background, glow, gradient, checkerboard, horizon, text, labels, people or border. Entire segment contained; clear endpoints so it can be layered with separately generated connectors. Stylized visual segment, not surveyed historical route."
+    },
+    {
+      "id": "jordan-river",
+      "prompt": "ONE isolated dedicated historic atlas water asset. NARROW north-south Jordan River-style connector, NORTH at TOP. Thin blue-green meandering river within narrow riparian strip of low reeds and tiny scattered trees with minimal dry pale ground fringe. No huge river, canyon, waterfalls, bridges, boats, roads or buildings. North and south river ends open for connecting. Near-overhead atlas view, no horizon. Schematic Lower Jordan morphology, not surveyed course. Fine ink/watercolor with muted blue-green water, pale dry buff and narrow sage vegetation, upper LEFT subtle light. NORTH-UP near overhead, long VERTICAL cutout. Entire silhouette within transparent margin. Actual transparent alpha, no sky/backdrop/gradient/glow/checkerboard or shadow outside cutout. No text, labels, flags, people or border. Schematic map connector, not a hydrologically surveyed course."
+    },
+    {
+      "id": "sea-of-galilee",
+      "prompt": "ONE dedicated historic atlas lake cutout. Sea of Galilee / Lake Tiberias NORTH-UP waterbody cutout viewed almost directly overhead. Irregular pear/harp outline, broad northern half, narrower southern end, distinctly longer north-south than east-west. Muted freshwater blue-green, fine ripples; thin natural shore with narrow low green-buff fringe. Short thin Jordan inlet at north and outlet near southwestern/southern tip. No islands, boats, cities, piers, dams or roads. Entire outline visible. Recognizable regional shape, not exact medieval shoreline. Fine restrained ink and watercolor, natural muted water colors and pale dry buff margins, subtle upper LEFT light. NORTH-UP near-overhead view, VERTICAL layout, water shape dominates. Entire lake and shore fringe within generous transparent padding. REAL transparent alpha; no sky/backdrop/gradient/glow/checkerboard/outer shadow. No text, labels, compass, frame, flags or people. Do not turn this into an oblique basin diorama that hides the shoreline."
+    },
+    {
+      "id": "dead-sea",
+      "prompt": "ONE dedicated historic atlas lake cutout. Dead Sea NORTH-UP waterbody cutout viewed almost directly overhead. Long narrow north-south saline lake, muted blue/teal water, pale salt-edged dry shores and narrow low rugged dry margins. Larger deep northern basin, east-side Lisan peninsula projecting WEST into lower-middle lake, modest shallow southern basin CONNECTED around peninsula. Generalized historical connected form, NOT today's disconnected industrial ponds. Short thin Jordan inlet NORTH, NO south outlet. No islands, boats, palms, towns, roads, dams, rectangular evaporation cells or beaches. Entire silhouette visible, thin ground skirt. Interpretive period-review candidate, not exact1180 shoreline. Fine restrained ink and watercolor, natural muted water colors and pale dry buff margins, subtle upper LEFT light. NORTH-UP near-overhead view, VERTICAL layout, water shape dominates. Entire lake and shore fringe within generous transparent padding. REAL transparent alpha; no sky/backdrop/gradient/glow/checkerboard/outer shadow. No text, labels, compass, frame, flags or people. Do not turn this into an oblique basin diorama that hides the shoreline."
+    }
+  ]
+}

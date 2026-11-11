@@ -1,0 +1,474 @@
+{
+  "type": "FeatureCollection",
+  "scope": "Context anchors and unassigned road segments, not approved geographic geometry",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2,
+          30.0
+        ]
+      },
+      "properties": {
+        "id": "sand-dunes",
+        "asset": "data/landscape-assets/png/sand-dunes.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33,
+          31.55
+        ]
+      },
+      "properties": {
+        "id": "rocky-desert",
+        "asset": "data/landscape-assets/png/rocky-desert.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.44,
+          31.87
+        ]
+      },
+      "properties": {
+        "id": "palm-oasis",
+        "asset": "data/landscape-assets/png/palm-oasis.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.55,
+          32.05
+        ]
+      },
+      "properties": {
+        "id": "broad-valley-floor",
+        "asset": "data/landscape-assets/png/broad-valley-floor.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "road-straight",
+        "asset": "data/landscape-assets/png/road-straight.png",
+        "orientation": "near-overhead-left-right",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "road-bend",
+        "asset": "data/landscape-assets/png/road-bend.png",
+        "orientation": "near-overhead-left-right",
+        "placement_status": "route-alignment-unassigned",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.55,
+          32.1
+        ]
+      },
+      "properties": {
+        "id": "jordan-river",
+        "asset": "data/landscape-assets/png/jordan-river.png",
+        "orientation": "north-up-near-overhead",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.58,
+          32.84
+        ]
+      },
+      "properties": {
+        "id": "sea-of-galilee",
+        "asset": "data/landscape-assets/png/sea-of-galilee.png",
+        "orientation": "north-up-near-overhead",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.48,
+          31.5
+        ]
+      },
+      "properties": {
+        "id": "dead-sea",
+        "asset": "data/landscape-assets/png/dead-sea.png",
+        "orientation": "north-up-near-overhead",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "gravel-wasteland",
+        "asset": "data/landscape-assets/png/gravel-wasteland.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "repeatable-dry-zone-piece",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "salt-flat",
+        "asset": "data/landscape-assets/png/salt-flat.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "repeatable-dry-zone-piece",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "eroded-badlands",
+        "asset": "data/landscape-assets/png/eroded-badlands.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "repeatable-dry-zone-piece",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "dune-transition",
+        "asset": "data/landscape-assets/png/dune-transition.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "repeatable-dry-zone-piece",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "dry-scrub-steppe",
+        "asset": "data/landscape-assets/png/dry-scrub-steppe.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "repeatable-dry-zone-piece",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "desert-escarpment",
+        "asset": "data/landscape-assets/png/desert-escarpment.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "repeatable-dry-zone-piece",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "gravel-wasteland-deep",
+        "asset": "data/landscape-assets/png/gravel-wasteland-deep.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "repeatable-dry-zone-piece",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "salt-flat-basin",
+        "asset": "data/landscape-assets/png/salt-flat-basin.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "repeatable-dry-zone-piece",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "badlands-tall-massif",
+        "asset": "data/landscape-assets/png/badlands-tall-massif.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "repeatable-dry-zone-piece",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "dune-field-deep",
+        "asset": "data/landscape-assets/png/dune-field-deep.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "repeatable-dry-zone-piece",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "steppe-basin-deep",
+        "asset": "data/landscape-assets/png/steppe-basin-deep.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "repeatable-dry-zone-piece",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "escarpment-tall-deep",
+        "asset": "data/landscape-assets/png/escarpment-tall-deep.png",
+        "orientation": "oblique-from-south",
+        "placement_status": "repeatable-dry-zone-piece",
+        "approval": "approved-for-artwork-and-placement-planning; geographic-review-required",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "aegean-island-interior",
+        "asset": "data/landscape-assets/png/aegean-island-interior.png",
+        "orientation": "near-overhead",
+        "placement_status": "source-texture-for-coastline-masks",
+        "approval": "approved-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22,
+          32.56
+        ]
+      },
+      "properties": {
+        "id": "levant-farmland",
+        "asset": "data/landscape-assets/png/levant-farmland.png",
+        "orientation": "near-overhead",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.46,
+          37.08
+        ]
+      },
+      "properties": {
+        "id": "aegean-terraced-farmland",
+        "asset": "data/landscape-assets/png/aegean-terraced-farmland.png",
+        "orientation": "near-overhead",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.02,
+          32.1
+        ]
+      },
+      "properties": {
+        "id": "flat-desert-pavement",
+        "asset": "data/landscape-assets/png/flat-desert-pavement.png",
+        "orientation": "near-overhead",
+        "placement_status": "context-anchor-only-review-required",
+        "approval": "approved-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "aegean-rocky-islet",
+        "asset": "data/landscape-assets/png/aegean-rocky-islet.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "approved-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "orchard-field-mosaic",
+        "asset": "data/landscape-assets/png/orchard-field-mosaic.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "approved-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "flat-desert-sand-sheet",
+        "asset": "data/landscape-assets/png/flat-desert-sand-sheet.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "approved-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "dry-stone-pasture",
+        "asset": "data/landscape-assets/png/dry-stone-pasture.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "approved-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "shallow-desert-wash",
+        "asset": "data/landscape-assets/png/shallow-desert-wash.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "approved-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "aegean-low-scrub-islet",
+        "asset": "data/landscape-assets/png/aegean-low-scrub-islet.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "approved-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "river-floodplain-fields",
+        "asset": "data/landscape-assets/png/river-floodplain-fields.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "available-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "desert-gravel-sand-transition",
+        "asset": "data/landscape-assets/png/desert-gravel-sand-transition.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "available-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "aegean-coastal-rocks",
+        "asset": "data/landscape-assets/png/aegean-coastal-rocks.png",
+        "orientation": "near-overhead",
+        "placement_status": "generic-manual-placement",
+        "approval": "available-for-generic-placement",
+        "historical_accuracy_certified": false
+      }
+    }
+  ]
+}

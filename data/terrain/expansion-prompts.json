@@ -1,0 +1,56 @@
+{
+  "method": "built-in image_gen",
+  "prompts": [
+    {
+      "id": "lebanon-saddle",
+      "prompt": "ONE isolated overlapping mountain terrain stamp. High broad limestone shoulders on either side of lower central saddle, sparse cedar-like lower woodland and tiny snow remnants high. Fine hand-painted medieval atlas ink/watercolor, warm gray/buff rock and muted sage, upper LEFT light, oblique bird's eye from south. Tapered ends, minimal irregular footing, ample transparent margin. Actual transparent alpha; no sky/backdrop/gradient/glow/checkerboard. No buildings, roads, labels, text, people or borders. Compact regional terrain connector, not surveyed geography."
+    },
+    {
+      "id": "taurus-cliff-spur",
+      "prompt": "ONE isolated overlapping mountain terrain stamp. Short Anatolian limestone escarpment spur, steep stratified front cliffs, rocky crest and scree apron, sparse pine. Fine hand-painted medieval atlas ink/watercolor, warm gray/buff rock and muted sage, upper LEFT light, oblique bird's eye from south. Tapered ends, minimal irregular footing, ample transparent margin. Actual transparent alpha; no sky/backdrop/gradient/glow/checkerboard. No buildings, roads, labels, text, people or borders. Compact regional terrain connector, not surveyed geography."
+    },
+    {
+      "id": "taurus-short-peaks",
+      "prompt": "ONE isolated overlapping mountain terrain stamp. Three angular gray-buff limestone summits in short linked ridge, sharp gullies, sparse lower pine, little snow. Fine hand-painted medieval atlas ink/watercolor, warm gray/buff rock and muted sage, upper LEFT light, high oblique south view. Tapered ends, minimal irregular footing, ample transparent margin. Actual transparent alpha; no sky/backdrop/gradient/glow/checkerboard. No buildings, roads, labels, text, people or borders. Compact regional terrain connector, not surveyed geography."
+    },
+    {
+      "id": "anatolian-steppe-foothills",
+      "prompt": "ONE isolated overlapping mountain terrain stamp. Low broad rolling brown-gray Anatolian steppe foothills, radial shallow gullies, dry grasses, almost no trees, no snow. Fine hand-painted medieval atlas ink/watercolor, warm gray/buff rock and muted sage, upper LEFT light, high oblique south view. Tapered ends, minimal irregular footing, ample transparent margin. Actual transparent alpha; no sky/backdrop/gradient/glow/checkerboard. No buildings, roads, labels, text, people or borders. Compact regional terrain connector, not surveyed geography."
+    },
+    {
+      "id": "anatolian-small-cone",
+      "prompt": "ONE isolated overlapping mountain terrain stamp. One compact small eroded gray-brown volcanic cone with subsidiary shoulder and radial gullies. Dry grasses, no snow, smoke or eruption. Fine hand-painted medieval atlas ink/watercolor, warm gray/buff rock and muted sage, upper LEFT light, high oblique south view. Tapered ends, minimal irregular footing, ample transparent margin. Actual transparent alpha; no sky/backdrop/gradient/glow/checkerboard. No buildings, roads, labels, text, people or borders. Compact regional terrain connector, not surveyed geography."
+    },
+    {
+      "id": "greek-forested-foothills",
+      "prompt": "ONE isolated overlapping mountain terrain stamp. Low rolling Greek Mediterranean foothills, subdued mixed woodland, scattered limestone outcrops, green sage palette, no snow. Fine hand-painted medieval atlas ink/watercolor, warm gray/buff rock and muted sage, upper LEFT light, high oblique south view. Tapered ends, minimal irregular footing, ample transparent margin. Actual transparent alpha; no sky/backdrop/gradient/glow/checkerboard. No buildings, roads, labels, text, people or borders. Compact regional terrain connector, not surveyed geography."
+    },
+    {
+      "id": "greek-gorge-gap",
+      "prompt": "ONE isolated overlapping mountain terrain stamp. Two steep gray limestone forested spurs framing deep open central gorge from front to rear. Shaded dry valley floor, no painted river, no snow. Fine hand-painted medieval atlas ink/watercolor, warm gray/buff rock and muted sage, upper LEFT light, high oblique south view. Tapered ends, minimal irregular footing, ample transparent margin. Actual transparent alpha; no sky/backdrop/gradient/glow/checkerboard. No buildings, roads, labels, text, people or borders. Compact regional terrain connector, not surveyed geography."
+    },
+    {
+      "id": "greek-short-ridge",
+      "prompt": "ONE isolated overlapping mountain terrain stamp. Three linked rugged Greek gray limestone summits in compact ridge, wooded lower slopes and bare upper rock, no snow. Fine hand-painted medieval atlas ink/watercolor, warm gray/buff rock and muted sage, upper LEFT light, high oblique south view. Tapered ends, minimal irregular footing, ample transparent margin. Actual transparent alpha; no sky/backdrop/gradient/glow/checkerboard. No buildings, roads, labels, text, people or borders. Compact regional terrain connector, not surveyed geography."
+    }
+  ],
+  "earlier_turn_briefs": [
+    {
+      "id": "palestine-foothills-west",
+      "brief": "Low dry limestone foothills with taller hills at right, tapering left."
+    },
+    {
+      "id": "palestine-foothills-east",
+      "brief": "Low dry limestone foothills with taller hills at left, tapering right."
+    },
+    {
+      "id": "limestone-valley-gap",
+      "brief": "Two limestone spurs framing an open dry central valley."
+    },
+    {
+      "id": "lebanon-short-ridge",
+      "brief": "Short high limestone ridge with blunt summits, sparse lower conifers and small snow remnants."
+    }
+  ],
+  "earlier_brief_note": "These four brief summaries document the prior-turn generations; full prompt wording remains in the chat."
+}

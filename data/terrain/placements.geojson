@@ -1,0 +1,1391 @@
+{
+  "type": "FeatureCollection",
+  "approval_authority": "User instruction: add to repo, markup for placement, approve and proceed with next",
+  "scope": "Artwork and regional placement planning; not historical/geographic certification or final composition",
+  "coordinate_system": "EPSG:4326 longitude,latitude",
+  "sheet_px": [
+    10800,
+    14400
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15,
+          31.85
+        ]
+      },
+      "properties": {
+        "id": "palestine-limestone-ridge",
+        "asset": "data/terrain/png/palestine-limestone-ridge.png",
+        "family": "palestine-limestone-ridge",
+        "role": "massif",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6834.090202505618,
+          11182.468495795407
+        ],
+        "top_left_sheet_px": [
+          6578.090202505618,
+          11061.968495795407
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 133.5,
+        "anchor_normalized": [
+          0.5,
+          0.9026217228464419
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.91,
+          34.12
+        ]
+      },
+      "properties": {
+        "id": "lebanon-high-massif",
+        "asset": "data/terrain/png/lebanon-high-massif.png",
+        "family": "lebanon-high-massif",
+        "role": "massif",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          8016.385129021009,
+          7048.266406060984
+        ],
+        "top_left_sheet_px": [
+          7760.385129021009,
+          6902.766406060984
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 158.5,
+        "anchor_normalized": [
+          0.5,
+          0.917981072555205
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          37.4
+        ]
+      },
+      "properties": {
+        "id": "taurus-ridge",
+        "asset": "data/terrain/png/taurus-ridge.png",
+        "family": "taurus-ridge",
+        "role": "massif",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6323.146484476885,
+          1050.5470283689956
+        ],
+        "top_left_sheet_px": [
+          6067.146484476885,
+          942.0470283689956
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 121.5,
+        "anchor_normalized": [
+          0.5,
+          0.8930041152263375
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.45,
+          38.53
+        ]
+      },
+      "properties": {
+        "id": "anatolian-volcanic-massif",
+        "asset": "data/terrain/png/anatolian-volcanic-massif.png",
+        "family": "anatolian-volcanic-massif",
+        "role": "massif",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "outside_current_frames",
+        "sheet_anchor_px": null,
+        "top_left_sheet_px": null,
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 248.5,
+        "anchor_normalized": [
+          0.5,
+          0.9476861167002012
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "future-extension-only",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3,
+          39.5
+        ]
+      },
+      "properties": {
+        "id": "pindus-forested-ridge",
+        "asset": "data/terrain/png/pindus-forested-ridge.png",
+        "family": "pindus-forested-ridge",
+        "role": "massif",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "aegean",
+        "sheet_anchor_px": [
+          892.0134658243538,
+          1490.7301917588745
+        ],
+        "top_left_sheet_px": [
+          636.0134658243538,
+          1347.2301917588745
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 156.5,
+        "anchor_normalized": [
+          0.5,
+          0.9169329073482428
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15,
+          31.85
+        ]
+      },
+      "properties": {
+        "id": "palestine-foothills-west",
+        "asset": "data/terrain/png/palestine-foothills-west.png",
+        "family": "palestine-limestone-ridge",
+        "role": "endcap-left",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6834.090202505618,
+          11182.468495795407
+        ],
+        "top_left_sheet_px": [
+          6578.090202505618,
+          11049.968495795407
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 145.5,
+        "anchor_normalized": [
+          0.5,
+          0.9106529209621993
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15,
+          31.85
+        ]
+      },
+      "properties": {
+        "id": "palestine-foothills-east",
+        "asset": "data/terrain/png/palestine-foothills-east.png",
+        "family": "palestine-limestone-ridge",
+        "role": "endcap-right",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6834.090202505618,
+          11182.468495795407
+        ],
+        "top_left_sheet_px": [
+          6578.090202505618,
+          11021.468495795407
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 174.0,
+        "anchor_normalized": [
+          0.5,
+          0.9252873563218391
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15,
+          31.85
+        ]
+      },
+      "properties": {
+        "id": "limestone-valley-gap",
+        "asset": "data/terrain/png/limestone-valley-gap.png",
+        "family": "palestine-limestone-ridge",
+        "role": "valley",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6834.090202505618,
+          11182.468495795407
+        ],
+        "top_left_sheet_px": [
+          6578.090202505618,
+          10992.968495795407
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 202.5,
+        "anchor_normalized": [
+          0.5,
+          0.9358024691358025
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.91,
+          34.12
+        ]
+      },
+      "properties": {
+        "id": "lebanon-short-ridge",
+        "asset": "data/terrain/png/lebanon-short-ridge.png",
+        "family": "lebanon-high-massif",
+        "role": "short-ridge",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          8016.385129021009,
+          7048.266406060984
+        ],
+        "top_left_sheet_px": [
+          7760.385129021009,
+          6879.266406060984
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 182.0,
+        "anchor_normalized": [
+          0.5,
+          0.9285714285714286
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.91,
+          34.12
+        ]
+      },
+      "properties": {
+        "id": "lebanon-saddle",
+        "asset": "data/terrain/png/lebanon-saddle.png",
+        "family": "lebanon-high-massif",
+        "role": "saddle",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          8016.385129021009,
+          7048.266406060984
+        ],
+        "top_left_sheet_px": [
+          7760.385129021009,
+          6912.766406060984
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 148.5,
+        "anchor_normalized": [
+          0.5,
+          0.9124579124579124
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          37.4
+        ]
+      },
+      "properties": {
+        "id": "taurus-cliff-spur",
+        "asset": "data/terrain/png/taurus-cliff-spur.png",
+        "family": "taurus-ridge",
+        "role": "cliff",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6323.146484476885,
+          1050.5470283689956
+        ],
+        "top_left_sheet_px": [
+          6067.146484476885,
+          861.0470283689956
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 202.5,
+        "anchor_normalized": [
+          0.5,
+          0.9358024691358025
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          37.4
+        ]
+      },
+      "properties": {
+        "id": "taurus-short-peaks",
+        "asset": "data/terrain/png/taurus-short-peaks.png",
+        "family": "taurus-ridge",
+        "role": "short-ridge",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6323.146484476885,
+          1050.5470283689956
+        ],
+        "top_left_sheet_px": [
+          6067.146484476885,
+          855.0470283689956
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 208.5,
+        "anchor_normalized": [
+          0.5,
+          0.9376498800959233
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.45,
+          38.53
+        ]
+      },
+      "properties": {
+        "id": "anatolian-steppe-foothills",
+        "asset": "data/terrain/png/anatolian-steppe-foothills.png",
+        "family": "anatolian-volcanic-massif",
+        "role": "foothills",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "outside_current_frames",
+        "sheet_anchor_px": null,
+        "top_left_sheet_px": null,
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 154.0,
+        "anchor_normalized": [
+          0.5,
+          0.9155844155844156
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "future-extension-only",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.45,
+          38.53
+        ]
+      },
+      "properties": {
+        "id": "anatolian-small-cone",
+        "asset": "data/terrain/png/anatolian-small-cone.png",
+        "family": "anatolian-volcanic-massif",
+        "role": "peak",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "outside_current_frames",
+        "sheet_anchor_px": null,
+        "top_left_sheet_px": null,
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 187.5,
+        "anchor_normalized": [
+          0.5,
+          0.9306666666666666
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "future-extension-only",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3,
+          39.5
+        ]
+      },
+      "properties": {
+        "id": "greek-forested-foothills",
+        "asset": "data/terrain/png/greek-forested-foothills.png",
+        "family": "pindus-forested-ridge",
+        "role": "foothills",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "aegean",
+        "sheet_anchor_px": [
+          892.0134658243538,
+          1490.7301917588745
+        ],
+        "top_left_sheet_px": [
+          636.0134658243538,
+          1352.7301917588745
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 151.0,
+        "anchor_normalized": [
+          0.5,
+          0.9139072847682119
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3,
+          39.5
+        ]
+      },
+      "properties": {
+        "id": "greek-gorge-gap",
+        "asset": "data/terrain/png/greek-gorge-gap.png",
+        "family": "pindus-forested-ridge",
+        "role": "gorge",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "aegean",
+        "sheet_anchor_px": [
+          892.0134658243538,
+          1490.7301917588745
+        ],
+        "top_left_sheet_px": [
+          636.0134658243538,
+          1238.7301917588745
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 265.0,
+        "anchor_normalized": [
+          0.5,
+          0.9509433962264151
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3,
+          39.5
+        ]
+      },
+      "properties": {
+        "id": "greek-short-ridge",
+        "asset": "data/terrain/png/greek-short-ridge.png",
+        "family": "pindus-forested-ridge",
+        "role": "short-ridge",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "aegean",
+        "sheet_anchor_px": [
+          892.0134658243538,
+          1490.7301917588745
+        ],
+        "top_left_sheet_px": [
+          636.0134658243538,
+          1308.7301917588745
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 195.0,
+        "anchor_normalized": [
+          0.5,
+          0.9333333333333333
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15,
+          31.85
+        ]
+      },
+      "properties": {
+        "id": "limestone-narrow-spine",
+        "asset": "data/terrain/png/limestone-narrow-spine.png",
+        "family": "palestine-limestone-ridge",
+        "role": "spine",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6834.090202505618,
+          11182.468495795407
+        ],
+        "top_left_sheet_px": [
+          6578.090202505618,
+          11110.468495795407
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 85.0,
+        "anchor_normalized": [
+          0.5,
+          0.8470588235294118
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15,
+          31.85
+        ]
+      },
+      "properties": {
+        "id": "limestone-branching-spur",
+        "asset": "data/terrain/png/limestone-branching-spur.png",
+        "family": "palestine-limestone-ridge",
+        "role": "branch",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6834.090202505618,
+          11182.468495795407
+        ],
+        "top_left_sheet_px": [
+          6578.090202505618,
+          10888.968495795407
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 306.5,
+        "anchor_normalized": [
+          0.5,
+          0.9575856443719413
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.91,
+          34.12
+        ]
+      },
+      "properties": {
+        "id": "high-rocky-ridge-spine",
+        "asset": "data/terrain/png/high-rocky-ridge-spine.png",
+        "family": "lebanon-high-massif",
+        "role": "spine",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          8016.385129021009,
+          7048.266406060984
+        ],
+        "top_left_sheet_px": [
+          7760.385129021009,
+          6879.766406060984
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 181.5,
+        "anchor_normalized": [
+          0.5,
+          0.928374655647383
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.45,
+          38.53
+        ]
+      },
+      "properties": {
+        "id": "anatolian-rocky-saddle",
+        "asset": "data/terrain/png/anatolian-rocky-saddle.png",
+        "family": "anatolian-volcanic-massif",
+        "role": "saddle",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "outside_current_frames",
+        "sheet_anchor_px": null,
+        "top_left_sheet_px": null,
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 120.5,
+        "anchor_normalized": [
+          0.5,
+          0.8921161825726142
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "future-extension-only",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3,
+          39.5
+        ]
+      },
+      "properties": {
+        "id": "greek-branching-spur",
+        "asset": "data/terrain/png/greek-branching-spur.png",
+        "family": "pindus-forested-ridge",
+        "role": "branch",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "aegean",
+        "sheet_anchor_px": [
+          892.0134658243538,
+          1490.7301917588745
+        ],
+        "top_left_sheet_px": [
+          636.0134658243538,
+          1239.7301917588745
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 264.0,
+        "anchor_normalized": [
+          0.5,
+          0.9507575757575758
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3,
+          39.5
+        ]
+      },
+      "properties": {
+        "id": "greek-narrow-spine",
+        "asset": "data/terrain/png/greek-narrow-spine.png",
+        "family": "pindus-forested-ridge",
+        "role": "spine",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "aegean",
+        "sheet_anchor_px": [
+          892.0134658243538,
+          1490.7301917588745
+        ],
+        "top_left_sheet_px": [
+          636.0134658243538,
+          1384.7301917588745
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 119.0,
+        "anchor_normalized": [
+          0.5,
+          0.8907563025210085
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15,
+          31.85
+        ]
+      },
+      "properties": {
+        "id": "dry-limestone-pass",
+        "asset": "data/terrain/png/dry-limestone-pass.png",
+        "family": "palestine-limestone-ridge",
+        "role": "pass",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6834.090202505618,
+          11182.468495795407
+        ],
+        "top_left_sheet_px": [
+          6578.090202505618,
+          11029.968495795407
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 165.5,
+        "anchor_normalized": [
+          0.5,
+          0.9214501510574018
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3,
+          39.5
+        ]
+      },
+      "properties": {
+        "id": "forested-pass",
+        "asset": "data/terrain/png/forested-pass.png",
+        "family": "pindus-forested-ridge",
+        "role": "pass",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "aegean",
+        "sheet_anchor_px": [
+          892.0134658243538,
+          1490.7301917588745
+        ],
+        "top_left_sheet_px": [
+          636.0134658243538,
+          1329.7301917588745
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 174.0,
+        "anchor_normalized": [
+          0.5,
+          0.9252873563218391
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.45,
+          38.53
+        ]
+      },
+      "properties": {
+        "id": "rocky-foothill-fan",
+        "asset": "data/terrain/png/rocky-foothill-fan.png",
+        "family": "anatolian-volcanic-massif",
+        "role": "fan",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "outside_current_frames",
+        "sheet_anchor_px": null,
+        "top_left_sheet_px": null,
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 251.0,
+        "anchor_normalized": [
+          0.5,
+          0.9482071713147411
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "future-extension-only",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15,
+          31.85
+        ]
+      },
+      "properties": {
+        "id": "coastal-foothill-transition",
+        "asset": "data/terrain/png/coastal-foothill-transition.png",
+        "family": "palestine-limestone-ridge",
+        "role": "foothill-transition",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6834.090202505618,
+          11182.468495795407
+        ],
+        "top_left_sheet_px": [
+          6578.090202505618,
+          11016.468495795407
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 179.0,
+        "anchor_normalized": [
+          0.5,
+          0.9273743016759777
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15,
+          31.85
+        ]
+      },
+      "properties": {
+        "id": "dry-wadi-connector",
+        "asset": "data/terrain/png/dry-wadi-connector.png",
+        "family": "palestine-limestone-ridge",
+        "role": "wadi",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6834.090202505618,
+          11182.468495795407
+        ],
+        "top_left_sheet_px": [
+          6578.090202505618,
+          10918.468495795407
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 277.0,
+        "anchor_normalized": [
+          0.5,
+          0.9530685920577617
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          37.4
+        ]
+      },
+      "properties": {
+        "id": "open-plateau-escarpment",
+        "asset": "data/terrain/png/open-plateau-escarpment.png",
+        "family": "taurus-ridge",
+        "role": "escarpment",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6323.146484476885,
+          1050.5470283689956
+        ],
+        "top_left_sheet_px": [
+          6067.146484476885,
+          860.0470283689956
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 203.5,
+        "anchor_normalized": [
+          0.5,
+          0.9361179361179361
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.91,
+          34.12
+        ]
+      },
+      "properties": {
+        "id": "sparse-cedar-woodland",
+        "asset": "data/terrain/png/sparse-cedar-woodland.png",
+        "family": "lebanon-high-massif",
+        "role": "woodland",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          8016.385129021009,
+          7048.266406060984
+        ],
+        "top_left_sheet_px": [
+          7760.385129021009,
+          6898.266406060984
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 163.0,
+        "anchor_normalized": [
+          0.5,
+          0.9202453987730062
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.75,
+          37.4
+        ]
+      },
+      "properties": {
+        "id": "pine-slope-transition",
+        "asset": "data/terrain/png/pine-slope-transition.png",
+        "family": "taurus-ridge",
+        "role": "woodland",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6323.146484476885,
+          1050.5470283689956
+        ],
+        "top_left_sheet_px": [
+          6067.146484476885,
+          890.5470283689956
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 173.0,
+        "anchor_normalized": [
+          0.5,
+          0.9248554913294798
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15,
+          31.85
+        ]
+      },
+      "properties": {
+        "id": "mediterranean-scrub-fill",
+        "asset": "data/terrain/png/mediterranean-scrub-fill.png",
+        "family": "palestine-limestone-ridge",
+        "role": "scrub",
+        "approval": "approved-for-artwork-and-placement-planning",
+        "historical_geography_certified": false,
+        "region": "main",
+        "sheet_anchor_px": [
+          6834.090202505618,
+          11182.468495795407
+        ],
+        "top_left_sheet_px": [
+          6578.090202505618,
+          11045.968495795407
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 149.5,
+        "anchor_normalized": [
+          0.5,
+          0.9130434782608695
+        ],
+        "overlap_fraction": [
+          0.2,
+          0.35
+        ],
+        "placement_status": "regional-context-anchor-not-individual-stamp-location",
+        "notes": "Variants share context anchors; do not stack all at that point. Distribute along reviewed terrain corridors; keep rivers, passes, cities and labels clear."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.05,
+            31.5
+          ],
+          [
+            35.16,
+            31.85
+          ],
+          [
+            35.25,
+            32.2
+          ],
+          [
+            35.3,
+            32.6
+          ]
+        ]
+      },
+      "properties": {
+        "id": "guide-palestine-limestone-ridge",
+        "family": "palestine-limestone-ridge",
+        "name": "Palestine limestone uplands",
+        "region": "main",
+        "type": "schematic-family-placement-corridor",
+        "approval": "approved-for-placement-planning",
+        "geographic_accuracy": "editorial-guide-not-surveyed-ridgeline"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.86,
+            33.42
+          ],
+          [
+            35.9,
+            33.8
+          ],
+          [
+            35.91,
+            34.12
+          ],
+          [
+            36.1,
+            34.4
+          ]
+        ]
+      },
+      "properties": {
+        "id": "guide-lebanon-high-massif",
+        "family": "lebanon-high-massif",
+        "name": "Lebanon / Hermon context",
+        "region": "main",
+        "type": "schematic-family-placement-corridor",
+        "approval": "approved-for-placement-planning",
+        "geographic_accuracy": "editorial-guide-not-surveyed-ridgeline"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.9,
+            37.1
+          ],
+          [
+            34.75,
+            37.4
+          ],
+          [
+            35.6,
+            37.65
+          ],
+          [
+            36.1,
+            37.75
+          ]
+        ]
+      },
+      "properties": {
+        "id": "guide-taurus-ridge",
+        "family": "taurus-ridge",
+        "name": "Taurus range context",
+        "region": "main",
+        "type": "schematic-family-placement-corridor",
+        "approval": "approved-for-placement-planning",
+        "geographic_accuracy": "editorial-guide-not-surveyed-ridgeline"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            20.9,
+            40.0
+          ],
+          [
+            21.15,
+            39.7
+          ],
+          [
+            21.3,
+            39.5
+          ],
+          [
+            21.6,
+            39.1
+          ]
+        ]
+      },
+      "properties": {
+        "id": "guide-pindus-forested-ridge",
+        "family": "pindus-forested-ridge",
+        "name": "Pindus range context",
+        "region": "aegean",
+        "type": "schematic-family-placement-corridor",
+        "approval": "approved-for-placement-planning",
+        "geographic_accuracy": "editorial-guide-not-surveyed-ridgeline"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.2,
+            38.3
+          ],
+          [
+            35.45,
+            38.53
+          ],
+          [
+            35.6,
+            38.7
+          ]
+        ]
+      },
+      "properties": {
+        "id": "guide-anatolian-volcanic-massif",
+        "family": "anatolian-volcanic-massif",
+        "name": "Central Anatolia: future map extension",
+        "region": "outside_current_frames",
+        "type": "schematic-family-placement-corridor",
+        "approval": "approved-for-placement-planning",
+        "geographic_accuracy": "editorial-guide-not-surveyed-ridgeline"
+      }
+    }
+  ]
+}

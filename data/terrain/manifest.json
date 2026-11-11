@@ -1,0 +1,1781 @@
+{
+  "schema_version": 1,
+  "generation_method": "built-in image_gen",
+  "asset_type": "reusable-overlapping-terrain-stamps",
+  "assets": [
+    {
+      "id": "palestine-limestone-ridge",
+      "name": "Palestine limestone uplands",
+      "file": "png/palestine-limestone-ridge.png",
+      "source": "sources/palestine-limestone-ridge.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.15,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        267
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "5093c3f582a46bef9c054fd8403d4a475ed0332522ccff951b11dcdec15263ad",
+      "sha256": "8c44e3192c41541947befdec1c738a565eaad05e747e44525c03a25afee115f2",
+      "anchor_normalized": [
+        0.5,
+        0.9026217228464419
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 677308,
+        "cleaned_source_nonzero_alpha": 645996,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "lebanon-high-massif",
+      "name": "Lebanon / Hermon high limestone",
+      "file": "png/lebanon-high-massif.png",
+      "source": "sources/lebanon-high-massif.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.91,
+          34.12
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-lebanon-mountains",
+          "landscape-mount-hermon"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.15,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        317
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "32579e296dfc91136f8069e99535e2ad90a5abf152a218e46e8267deaaea1578",
+      "sha256": "5d141592f06868e6c6f6a03cceac42dfc7c59967eb20ecff6cb4ebb92f5e48d7",
+      "anchor_normalized": [
+        0.5,
+        0.917981072555205
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 749257,
+        "cleaned_source_nonzero_alpha": 721568,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "taurus-ridge",
+      "name": "Taurus limestone range",
+      "file": "png/taurus-ridge.png",
+      "source": "sources/taurus-ridge.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          34.75,
+          37.4
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-taurus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.15,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        243
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "ae0e0e60174108051ce644544c386c8997df9be2584b216bb18731a679bd7f26",
+      "sha256": "61a1746198c082c9fe70225d45a5a8c79f8262c14b7c4d1ad3a01a1efab1bd60",
+      "anchor_normalized": [
+        0.5,
+        0.8930041152263375
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 558563,
+        "cleaned_source_nonzero_alpha": 536179,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "anatolian-volcanic-massif",
+      "name": "Central Anatolian volcanic massif",
+      "file": "png/anatolian-volcanic-massif.png",
+      "source": "sources/anatolian-volcanic-massif.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "outside_current_frames",
+        "suggested_anchor_lonlat": [
+          35.45,
+          38.53
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.15,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        497
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "67ada058487335e9160ab0a5eb5d3e6d9c0b8826c9ee8ccddfc14651cc488f81",
+      "sha256": "dc3da1d18160a8ee4d82ee12bb4f429c2ef27a78596580f53a3fca71757afcd4",
+      "anchor_normalized": [
+        0.5,
+        0.9476861167002012
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 663122,
+        "cleaned_source_nonzero_alpha": 641112,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "pindus-forested-ridge",
+      "name": "Pindus / Greek forested range",
+      "file": "png/pindus-forested-ridge.png",
+      "source": "sources/pindus-forested-ridge.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "aegean",
+        "suggested_anchor_lonlat": [
+          21.3,
+          39.5
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-pindus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.15,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        313
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "dfef9c5890997fdccac942f1ba9cf17be8a5045ef741dfd3623ad34a84ecbb48",
+      "sha256": "39fd21fe03cdc3c15f3167e3279e11bb32e74a99f0547b68c0151a715eba41d4",
+      "anchor_normalized": [
+        0.5,
+        0.9169329073482428
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 770779,
+        "cleaned_source_nonzero_alpha": 742777,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "palestine-foothills-west",
+      "name": "Palestine Foothills West",
+      "file": "png/palestine-foothills-west.png",
+      "source": "sources/palestine-foothills-west.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Reuse regional anchor only as context, not a distinct landmark. Overlap 20\u201335%; foreground pieces can mask base seams. Do not block open valley or gorge centers.",
+        "scale_range_relative": [
+          0.65,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        291
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "2a9b6058ee7f4daa0bc460933338b5e317a9698b66815ea821e3492a98ba3ade",
+      "anchor_normalized": [
+        0.5,
+        0.9106529209621993
+      ],
+      "family": "palestine-limestone-ridge",
+      "interlay_role": "endcap-left",
+      "sha256": "a5d9ffd26843f8423b80400e71080d9e933f23716ae6d5f282fe0c20f048ace5",
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 559122,
+        "cleaned_source_nonzero_alpha": 532286,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "palestine-foothills-east",
+      "name": "Palestine Foothills East",
+      "file": "png/palestine-foothills-east.png",
+      "source": "sources/palestine-foothills-east.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Reuse regional anchor only as context, not a distinct landmark. Overlap 20\u201335%; foreground pieces can mask base seams. Do not block open valley or gorge centers.",
+        "scale_range_relative": [
+          0.65,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        348
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "1203af3beeb7d89cee1a1b80d2ecc672a01393bacbec1bec03b85d4b15337c1e",
+      "anchor_normalized": [
+        0.5,
+        0.9252873563218391
+      ],
+      "family": "palestine-limestone-ridge",
+      "interlay_role": "endcap-right",
+      "sha256": "85d677e788501f4528ad092da53978ad07622d0e7905eec1f98e49e15a5bb935",
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 623781,
+        "cleaned_source_nonzero_alpha": 595558,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "limestone-valley-gap",
+      "name": "Limestone Valley Gap",
+      "file": "png/limestone-valley-gap.png",
+      "source": "sources/limestone-valley-gap.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Reuse regional anchor only as context, not a distinct landmark. Overlap 20\u201335%; foreground pieces can mask base seams. Do not block open valley or gorge centers.",
+        "scale_range_relative": [
+          0.65,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        405
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_sha256": "95b8f0114577284223990c36d02f5efc052d0eb66dc1815406eaa671ddb25d66",
+      "anchor_normalized": [
+        0.5,
+        0.9358024691358025
+      ],
+      "family": "palestine-limestone-ridge",
+      "interlay_role": "valley",
+      "sha256": "d879c00267f5d4c9680778ffa01782683ab01be1f7b0a1690460a019c34dc29e",
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 735728,
+        "cleaned_source_nonzero_alpha": 699856,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "lebanon-short-ridge",
+      "name": "Lebanon Short Ridge",
+      "file": "png/lebanon-short-ridge.png",
+      "source": "sources/lebanon-short-ridge.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.91,
+          34.12
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-lebanon-mountains",
+          "landscape-mount-hermon"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Reuse regional anchor only as context, not a distinct landmark. Overlap 20\u201335%; foreground pieces can mask base seams. Do not block open valley or gorge centers.",
+        "scale_range_relative": [
+          0.65,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        364
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "0bf0efceb6ebc9e83df8e7396f74ae290483b7ccd69ac2503481b0f9805bdf79",
+      "anchor_normalized": [
+        0.5,
+        0.9285714285714286
+      ],
+      "family": "lebanon-high-massif",
+      "interlay_role": "short-ridge",
+      "sha256": "8f04a2d32a3b7f3d95e04c02dd554d23a0639b962bca161668d9b9b4b395895a",
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 922015,
+        "cleaned_source_nonzero_alpha": 891579,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "lebanon-saddle",
+      "name": "Lebanon Saddle",
+      "file": "png/lebanon-saddle.png",
+      "source": "sources/lebanon-saddle.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.91,
+          34.12
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-lebanon-mountains",
+          "landscape-mount-hermon"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Reuse regional anchor only as context, not a distinct landmark. Overlap 20\u201335%; foreground pieces can mask base seams. Do not block open valley or gorge centers.",
+        "scale_range_relative": [
+          0.65,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        297
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "7da521902eda673eedb52e3342e4bbc22431943d8b20c83d9a77b75cd550b30f",
+      "anchor_normalized": [
+        0.5,
+        0.9124579124579124
+      ],
+      "family": "lebanon-high-massif",
+      "interlay_role": "saddle",
+      "sha256": "8d5aac1c9d67761a903ada66e85ee178cac9051fe0fa247ce700d39a525f2a50",
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 597309,
+        "cleaned_source_nonzero_alpha": 575500,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "taurus-cliff-spur",
+      "name": "Taurus Cliff Spur",
+      "file": "png/taurus-cliff-spur.png",
+      "source": "sources/taurus-cliff-spur.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          34.75,
+          37.4
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-taurus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Reuse regional anchor only as context, not a distinct landmark. Overlap 20\u201335%; foreground pieces can mask base seams. Do not block open valley or gorge centers.",
+        "scale_range_relative": [
+          0.65,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        405
+      ],
+      "source_dimensions_px": [
+        1855,
+        848
+      ],
+      "source_sha256": "d2f9bcea69036ecf1478a6f17469f004cb44d3018a4626091786c038a444323c",
+      "anchor_normalized": [
+        0.5,
+        0.9358024691358025
+      ],
+      "family": "taurus-ridge",
+      "interlay_role": "cliff",
+      "sha256": "bc877a7babf62afe1638450247329b25d5957c10fca0bdbd8eb88b5947de6cb9",
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 651239,
+        "cleaned_source_nonzero_alpha": 613773,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "taurus-short-peaks",
+      "name": "Taurus Short Peaks",
+      "file": "png/taurus-short-peaks.png",
+      "source": "sources/taurus-short-peaks.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          34.75,
+          37.4
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-taurus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Reuse regional anchor only as context, not a distinct landmark. Overlap 20\u201335%; foreground pieces can mask base seams. Do not block open valley or gorge centers.",
+        "scale_range_relative": [
+          0.65,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        417
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_sha256": "8360c5c8dafe5e0d78fd69648a8c0179ecf084e721b34e7cd836ef27a734b71f",
+      "anchor_normalized": [
+        0.5,
+        0.9376498800959233
+      ],
+      "family": "taurus-ridge",
+      "interlay_role": "short-ridge",
+      "sha256": "b66a9bcd11145fc6d1882f228a7ed17a135481829d60cb37aaa2060ca238db84",
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 583811,
+        "cleaned_source_nonzero_alpha": 556673,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "anatolian-steppe-foothills",
+      "name": "Anatolian Steppe Foothills",
+      "file": "png/anatolian-steppe-foothills.png",
+      "source": "sources/anatolian-steppe-foothills.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "outside_current_frames",
+        "suggested_anchor_lonlat": [
+          35.45,
+          38.53
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Reuse regional anchor only as context, not a distinct landmark. Overlap 20\u201335%; foreground pieces can mask base seams. Do not block open valley or gorge centers.",
+        "scale_range_relative": [
+          0.65,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        308
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "f46015dfbb8b9e2a60f6b933976809611d13a3d13bc9471b45636502196786ab",
+      "anchor_normalized": [
+        0.5,
+        0.9155844155844156
+      ],
+      "family": "anatolian-volcanic-massif",
+      "interlay_role": "foothills",
+      "sha256": "5703ecb2d8e1ec4015c4859fd01d6a9211d12bdc9fd6470c3aaf523f49257460",
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 682243,
+        "cleaned_source_nonzero_alpha": 656089,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "anatolian-small-cone",
+      "name": "Anatolian Small Cone",
+      "file": "png/anatolian-small-cone.png",
+      "source": "sources/anatolian-small-cone.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "outside_current_frames",
+        "suggested_anchor_lonlat": [
+          35.45,
+          38.53
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Reuse regional anchor only as context, not a distinct landmark. Overlap 20\u201335%; foreground pieces can mask base seams. Do not block open valley or gorge centers.",
+        "scale_range_relative": [
+          0.65,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        375
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_sha256": "89acc15e098946d6be06ee2f5443c8c691fbb130d1cdae45f89fc6620b28106d",
+      "anchor_normalized": [
+        0.5,
+        0.9306666666666666
+      ],
+      "family": "anatolian-volcanic-massif",
+      "interlay_role": "peak",
+      "sha256": "c293000fb910a819637eef030db4d8e94689e83ea30838a38f237725cd1965c7",
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 453226,
+        "cleaned_source_nonzero_alpha": 433074,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "greek-forested-foothills",
+      "name": "Greek Forested Foothills",
+      "file": "png/greek-forested-foothills.png",
+      "source": "sources/greek-forested-foothills.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "aegean",
+        "suggested_anchor_lonlat": [
+          21.3,
+          39.5
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-pindus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Reuse regional anchor only as context, not a distinct landmark. Overlap 20\u201335%; foreground pieces can mask base seams. Do not block open valley or gorge centers.",
+        "scale_range_relative": [
+          0.65,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        302
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "e4e98e124711d95227b328b516b27a4243544598069018c6a9e421cbe808feee",
+      "anchor_normalized": [
+        0.5,
+        0.9139072847682119
+      ],
+      "family": "pindus-forested-ridge",
+      "interlay_role": "foothills",
+      "sha256": "ebbbd50d8cc68176c06148bb9aa46327af1c7c141fc4f64e3c3157ab4480490b",
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 665506,
+        "cleaned_source_nonzero_alpha": 624692,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "greek-gorge-gap",
+      "name": "Greek Gorge Gap",
+      "file": "png/greek-gorge-gap.png",
+      "source": "sources/greek-gorge-gap.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "aegean",
+        "suggested_anchor_lonlat": [
+          21.3,
+          39.5
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-pindus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Reuse regional anchor only as context, not a distinct landmark. Overlap 20\u201335%; foreground pieces can mask base seams. Do not block open valley or gorge centers.",
+        "scale_range_relative": [
+          0.65,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        530
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_sha256": "9522ed1203be1665fb536a9a059adb419639ac6bc922d076e3a17abf79b4bd79",
+      "anchor_normalized": [
+        0.5,
+        0.9509433962264151
+      ],
+      "family": "pindus-forested-ridge",
+      "interlay_role": "gorge",
+      "sha256": "9851eb310f8f4b4488095eb892913775439633405b856ae61c76f15710378ea6",
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 872409,
+        "cleaned_source_nonzero_alpha": 847207,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "greek-short-ridge",
+      "name": "Greek Short Ridge",
+      "file": "png/greek-short-ridge.png",
+      "source": "sources/greek-short-ridge.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "aegean",
+        "suggested_anchor_lonlat": [
+          21.3,
+          39.5
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-pindus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Reuse regional anchor only as context, not a distinct landmark. Overlap 20\u201335%; foreground pieces can mask base seams. Do not block open valley or gorge centers.",
+        "scale_range_relative": [
+          0.65,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        390
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_sha256": "69a2ec6cea7a30e17c7ccc2def19a1a168cbce6672e1a00c5e3b252613f361eb",
+      "anchor_normalized": [
+        0.5,
+        0.9333333333333333
+      ],
+      "family": "pindus-forested-ridge",
+      "interlay_role": "short-ridge",
+      "sha256": "e093ecde67c2fbca7fb22e023d0b5df7a49f72403341e6402fae1527767330f1",
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 589970,
+        "cleaned_source_nonzero_alpha": 564591,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "limestone-narrow-spine",
+      "name": "Limestone Narrow Spine",
+      "file": "png/limestone-narrow-spine.png",
+      "source": "sources/limestone-narrow-spine.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Narrow/branching connector: align tips with neighboring ridges and preserve lower saddle openings.",
+        "scale_range_relative": [
+          0.5,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        170
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "6ff60c0bda5ff73fc4731a02ad5c02845b7b1250caa933bbd879888bbdee6e7a",
+      "sha256": "1e1ae61e4e7ce88444a9fe27f10285491c2c1de42cfe163e19dd314cadd227b7",
+      "anchor_normalized": [
+        0.5,
+        0.8470588235294118
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 261019,
+        "cleaned_source_nonzero_alpha": 211739,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "family": "palestine-limestone-ridge",
+      "interlay_role": "spine",
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "limestone-branching-spur",
+      "name": "Limestone Branching Spur",
+      "file": "png/limestone-branching-spur.png",
+      "source": "sources/limestone-branching-spur.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Narrow/branching connector: align tips with neighboring ridges and preserve lower saddle openings.",
+        "scale_range_relative": [
+          0.5,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        613
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "615ccb615f96e7449231b600e016f6639cbe8e8f0750805f4bf814c3579501eb",
+      "sha256": "c6e5e938400a093e1eff3befd57cd094e1dae364ca62736caf58669f1e680589",
+      "anchor_normalized": [
+        0.5,
+        0.9575856443719413
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 487171,
+        "cleaned_source_nonzero_alpha": 464181,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "family": "palestine-limestone-ridge",
+      "interlay_role": "branch",
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "high-rocky-ridge-spine",
+      "name": "High Rocky Ridge Spine",
+      "file": "png/high-rocky-ridge-spine.png",
+      "source": "sources/high-rocky-ridge-spine.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.91,
+          34.12
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-lebanon-mountains",
+          "landscape-mount-hermon"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Narrow/branching connector: align tips with neighboring ridges and preserve lower saddle openings.",
+        "scale_range_relative": [
+          0.5,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        363
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "b7cbdca925f8945d8d9560aab3e406dcc48d238541cca1f6b807a8910617a035",
+      "sha256": "d6dbaba81bf2b4bda549d9ed19358add835747f7e7041011e2ea7b1deab7c7e9",
+      "anchor_normalized": [
+        0.5,
+        0.928374655647383
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 704323,
+        "cleaned_source_nonzero_alpha": 680190,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "family": "lebanon-high-massif",
+      "interlay_role": "spine",
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "anatolian-rocky-saddle",
+      "name": "Anatolian Rocky Saddle",
+      "file": "png/anatolian-rocky-saddle.png",
+      "source": "sources/anatolian-rocky-saddle.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "outside_current_frames",
+        "suggested_anchor_lonlat": [
+          35.45,
+          38.53
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Narrow/branching connector: align tips with neighboring ridges and preserve lower saddle openings.",
+        "scale_range_relative": [
+          0.5,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        241
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "6abe09d357dfdc4f3cce80740c344af3db963b13885d174ce955a66313904f5d",
+      "sha256": "d0b2539cb2e5b037b2a19d056c4d657d7c225359695e6885a917284f7b2ce325",
+      "anchor_normalized": [
+        0.5,
+        0.8921161825726142
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 470509,
+        "cleaned_source_nonzero_alpha": 443237,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "family": "anatolian-volcanic-massif",
+      "interlay_role": "saddle",
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "greek-branching-spur",
+      "name": "Greek Branching Spur",
+      "file": "png/greek-branching-spur.png",
+      "source": "sources/greek-branching-spur.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "aegean",
+        "suggested_anchor_lonlat": [
+          21.3,
+          39.5
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-pindus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Narrow/branching connector: align tips with neighboring ridges and preserve lower saddle openings.",
+        "scale_range_relative": [
+          0.5,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        528
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_sha256": "3aca01b1e47554105375b938badd5e2734c8454af9162760a1eeb86c64aea37f",
+      "sha256": "0d43ae0bd3466251090365b869d3e0d8349c9e4e50e151174a70100689d9c5bc",
+      "anchor_normalized": [
+        0.5,
+        0.9507575757575758
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 546157,
+        "cleaned_source_nonzero_alpha": 518592,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "family": "pindus-forested-ridge",
+      "interlay_role": "branch",
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "greek-narrow-spine",
+      "name": "Greek Narrow Spine",
+      "file": "png/greek-narrow-spine.png",
+      "source": "sources/greek-narrow-spine.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "aegean",
+        "suggested_anchor_lonlat": [
+          21.3,
+          39.5
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-pindus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Narrow/branching connector: align tips with neighboring ridges and preserve lower saddle openings.",
+        "scale_range_relative": [
+          0.5,
+          1.15
+        ]
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        238
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "d6baf20e3d1d3f89e35df7a4fcb67d53e0e07d03fc4db4021c1f15fa7687879f",
+      "sha256": "9377da908221e2a8e0970e4bb88daac9783566b981be2709a0e0a44ccdfa8985",
+      "anchor_normalized": [
+        0.5,
+        0.8907563025210085
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 440438,
+        "cleaned_source_nonzero_alpha": 413677,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "family": "pindus-forested-ridge",
+      "interlay_role": "spine",
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "dry-limestone-pass",
+      "name": "Dry Limestone Pass",
+      "file": "png/dry-limestone-pass.png",
+      "source": "sources/dry-limestone-pass.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        331
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_sha256": "962ad37856d1818ac5fda435d9628ec3446c48ddfc509c86395dcde5460fd258",
+      "sha256": "3694c1ebae71402098b9d785a34486d38313ea1c6561638ed6f9bdd1ed3d7e7f",
+      "anchor_normalized": [
+        0.5,
+        0.9214501510574018
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 489027,
+        "cleaned_source_nonzero_alpha": 447501,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "family": "palestine-limestone-ridge",
+      "interlay_role": "pass",
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "forested-pass",
+      "name": "Forested Pass",
+      "file": "png/forested-pass.png",
+      "source": "sources/forested-pass.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "aegean",
+        "suggested_anchor_lonlat": [
+          21.3,
+          39.5
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-pindus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        348
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_sha256": "fc2cd25362f1c1d924a3bdaeb55982cdbb14a91043244dcf9586dc7d84f201e2",
+      "sha256": "c60ac54b99bced43b8d73b25dbeb5c0305c60bfcd1d78aab872a1e2a88b916ff",
+      "anchor_normalized": [
+        0.5,
+        0.9252873563218391
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 546118,
+        "cleaned_source_nonzero_alpha": 504472,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "family": "pindus-forested-ridge",
+      "interlay_role": "pass",
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "rocky-foothill-fan",
+      "name": "Rocky Foothill Fan",
+      "file": "png/rocky-foothill-fan.png",
+      "source": "sources/rocky-foothill-fan.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "outside_current_frames",
+        "suggested_anchor_lonlat": [
+          35.45,
+          38.53
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        502
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_sha256": "71a4fbdeec677d3cbd5a87a70ce1b84745d9291bd7fe4f881d00e09f1107e371",
+      "sha256": "30cf1c1c9bf2468fdc57aedd9bb7c11374538e89e67169fd0813e5b76a04c9d6",
+      "anchor_normalized": [
+        0.5,
+        0.9482071713147411
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 627364,
+        "cleaned_source_nonzero_alpha": 596488,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "family": "anatolian-volcanic-massif",
+      "interlay_role": "fan",
+      "approval": "approved-for-artwork-and-placement-planning"
+    },
+    {
+      "id": "coastal-foothill-transition",
+      "name": "Coastal Foothill Transition",
+      "file": "png/coastal-foothill-transition.png",
+      "source": "sources/coastal-foothill-transition.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Low-relief transition: use regional coordinate only as context, adjust to actual foothill/valley terrain; do not locate on summit."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        358
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_sha256": "bb051283940aea232051fc6a6e33894547ab3dbb4a63ada049e2faccc4e55dfd",
+      "sha256": "f2ae085357ab971e271ce3748cdb6d231e9cfa6630d3cc0f6fc170d76a60cc3a",
+      "anchor_normalized": [
+        0.5,
+        0.9273743016759777
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 564477,
+        "cleaned_source_nonzero_alpha": 540222,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning",
+      "family": "palestine-limestone-ridge",
+      "interlay_role": "foothill-transition"
+    },
+    {
+      "id": "dry-wadi-connector",
+      "name": "Dry Wadi Connector",
+      "file": "png/dry-wadi-connector.png",
+      "source": "sources/dry-wadi-connector.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Low-relief transition: use regional coordinate only as context, adjust to actual foothill/valley terrain; do not locate on summit."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        554
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "3758d73d36e71190e6018111ac0aa03850f62d2dc37ebf5f8b6ee743f5864de7",
+      "sha256": "157d04bf3624d88ba97371d40b7a85026afcc3a42051ae87200a411ac3a98afa",
+      "anchor_normalized": [
+        0.5,
+        0.9530685920577617
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 838074,
+        "cleaned_source_nonzero_alpha": 805221,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning",
+      "family": "palestine-limestone-ridge",
+      "interlay_role": "wadi"
+    },
+    {
+      "id": "open-plateau-escarpment",
+      "name": "Open Plateau Escarpment",
+      "file": "png/open-plateau-escarpment.png",
+      "source": "sources/open-plateau-escarpment.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          34.75,
+          37.4
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-taurus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Low-relief transition: use regional coordinate only as context, adjust to actual foothill/valley terrain; do not locate on summit."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "illustrative seasonal remnants where depicted, not dated climate evidence",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        407
+      ],
+      "source_dimensions_px": [
+        1823,
+        863
+      ],
+      "source_sha256": "698721713b917b4be879a9762eb7c298a4e035dfc74314ab06ff771c0ca7ec81",
+      "sha256": "8c9f4500003b9f8c5733f67c41a7a194b96abd8a13e0f1152a72e44ffe430e00",
+      "anchor_normalized": [
+        0.5,
+        0.9361179361179361
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 777961,
+        "cleaned_source_nonzero_alpha": 757120,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning",
+      "family": "taurus-ridge",
+      "interlay_role": "escarpment"
+    },
+    {
+      "id": "sparse-cedar-woodland",
+      "name": "Sparse Cedar Woodland",
+      "file": "png/sparse-cedar-woodland.png",
+      "source": "sources/sparse-cedar-woodland.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.91,
+          34.12
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-lebanon-mountains",
+          "landscape-mount-hermon"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Vegetation filler: regional family anchor is context, not evidence of historical forest extent; use smaller tree scale to match nearby city sprites and keep valleys open."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "none depicted",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        326
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "f0a42f46da514b38f306c10a5916e6530232764dbfc5f9aeb69c5acb8faa8346",
+      "sha256": "ddffb15528a3921e641ad36d69abae152e1c3c68d9a481e3fc1dffe85dd361c0",
+      "anchor_normalized": [
+        0.5,
+        0.9202453987730062
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 750112,
+        "cleaned_source_nonzero_alpha": 669386,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning",
+      "family": "lebanon-high-massif",
+      "interlay_role": "woodland"
+    },
+    {
+      "id": "pine-slope-transition",
+      "name": "Pine Slope Transition",
+      "file": "png/pine-slope-transition.png",
+      "source": "sources/pine-slope-transition.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          34.75,
+          37.4
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-taurus-mountains"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Vegetation filler: regional family anchor is context, not evidence of historical forest extent; use smaller tree scale to match nearby city sprites and keep valleys open."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "none depicted",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        346
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "10e4fec196c7ccaff09abae6412cf0a344861857a7bef7cc8c8a2b856d6cbf52",
+      "sha256": "76e109c5f1e179c52a5f0297568e65a3146acf346ac5f38af6f46f68efeea216",
+      "anchor_normalized": [
+        0.5,
+        0.9248554913294798
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 634473,
+        "cleaned_source_nonzero_alpha": 598135,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning",
+      "family": "taurus-ridge",
+      "interlay_role": "woodland"
+    },
+    {
+      "id": "mediterranean-scrub-fill",
+      "name": "Mediterranean Scrub Fill",
+      "file": "png/mediterranean-scrub-fill.png",
+      "source": "sources/mediterranean-scrub-fill.png",
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "placement": {
+        "region": "main",
+        "suggested_anchor_lonlat": [
+          35.15,
+          31.85
+        ],
+        "coordinate_accuracy": "approximate regional label anchor, not summit survey",
+        "landscape_manifest_ids": [
+          "landscape-judaean-hills",
+          "landscape-samaria-hills"
+        ],
+        "repeatable": true,
+        "overlap_recommended_fraction": 0.25,
+        "rotate_with_caution": true,
+        "notes": "Rotate sparingly to retain upper-left lighting; do not mirror. Behind cities and labels, above base wash. Follow actual range corridors rather than treating this as surveyed terrain. Vegetation filler: regional family anchor is context, not evidence of historical forest extent; use smaller tree scale to match nearby city sprites and keep valleys open."
+      },
+      "geography_accuracy": "regional-artistic-typology-not-surveyed-topography",
+      "medieval_vegetation_verified": false,
+      "snow": "none depicted",
+      "review_status": "technical-checks-passed; visual-review-complete; geographic-accuracy-not-certified",
+      "dimensions_px": [
+        1024,
+        299
+      ],
+      "source_dimensions_px": [
+        2172,
+        724
+      ],
+      "source_sha256": "fbf3168d07928e620f2f8ae4f073c23ea77b39e3fa8aeac10a7cc6201ba48d48",
+      "sha256": "7146d58c86c3ead7547ea29b3ab3d678afd1dae41766ff6f88ecf1d20ec4e906",
+      "anchor_normalized": [
+        0.5,
+        0.9130434782608695
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 624785,
+        "cleaned_source_nonzero_alpha": 568862,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "approval": "approved-for-artwork-and-placement-planning",
+      "family": "palestine-limestone-ridge",
+      "interlay_role": "scrub"
+    }
+  ],
+  "interlay_policy": {
+    "seamless_tiles": false,
+    "preferred_overlap_fraction": [
+      0.2,
+      0.35
+    ],
+    "lighting": "upper-left",
+    "mirror": false,
+    "draw_order": "rear-high-ridges, middle-ridges, foreground-foothills; keep valleys clear",
+    "approved_scope": "Reusable illustrative terrain; geographic placement and medieval vegetation unverified"
+  }
+}
