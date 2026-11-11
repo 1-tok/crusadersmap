@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "bagras-1180-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.225,
+          36.426944444444445
+        ]
+      },
+      "properties": {
+        "name": "Bagras",
+        "source_site_id": "CP-064",
+        "asset_path": "data/sprites/greece-egypt-fortresses-04-review/bagras-1180-review-v1.png",
+        "approval_for_placement": false,
+        "placement_status": "review-only",
+        "period_1180_eligible": true,
+        "date_ranges": {
+          "approved_art_from": 1180,
+          "approved_art_through": 1180
+        },
+        "map_region": "main",
+        "review_anchor_px": [
+          1950.63,
+          652.41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "safed-1245-review-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.495,
+          32.968333333333334
+        ]
+      },
+      "properties": {
+        "name": "Safed (rebuilding begun 1240)",
+        "source_site_id": "CP-010",
+        "asset_path": "data/sprites/greece-egypt-fortresses-04-review/safed-1245-review-v1.png",
+        "approval_for_placement": false,
+        "placement_status": "review-only",
+        "period_1180_eligible": false,
+        "date_ranges": {
+          "approved_art_from": 1245,
+          "approved_art_through": 1245
+        },
+        "map_region": "main",
+        "review_anchor_px": [
+          1697.14,
+          2102.95
+        ]
+      }
+    }
+  ]
+}

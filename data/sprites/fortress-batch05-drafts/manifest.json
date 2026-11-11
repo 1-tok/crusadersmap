@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "batch_id": "fortress-05",
+  "generation_method": "built-in image_gen",
+  "release_status": "technical-hold",
+  "approval_policy": "Draft paintings and geographic markup only. Not imported into production catalog. No placement approval until visible background/edge defects are corrected.",
+  "assets": [
+    {
+      "id": "beaufort-1180-draft-v1",
+      "site_id": "beaufort",
+      "name": "Beaufort (Frankish construction after 1139)",
+      "source_site_id": "CP-013",
+      "category": "castle",
+      "file": "beaufort-1180-draft.png",
+      "source": "sources/beaufort-original.png",
+      "coordinates": [
+        35.531944,
+        33.324167
+      ],
+      "map_region": "main",
+      "coordinate_evidence": {
+        "url": "https://geographic.org/geographic_names/name.php?c=lebanon&fid=3643&uni=-1160992",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published NGA-derived ancient-site point; not surveyed medieval footprint."
+      },
+      "depiction_year": 1180,
+      "approval_for_placement": false,
+      "placement_status": "technical-hold",
+      "review_required": true,
+      "repaint_required": true,
+      "historical_accuracy_certified": false,
+      "repaint_flags": [
+        "Period-informed schematic: tower count, gate positions, curtain heights, interiors and terrain are not plan-verified.",
+        "Exclude later Ayyubid/Mamluk/Ottoman building phases; specialist phase review remains required."
+      ],
+      "references": [
+        "https://sharinghistory.museumwnf.org/database_item.php?id=monuments%3BAWE%3Blb%3B52%3Ben"
+      ],
+      "technical_qa": {
+        "status": "fail-visual-background",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1536,
+          1024
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          81,
+          1506,
+          1005
+        ],
+        "transparent_padding_px": 0,
+        "sha256": "a184837272d1982b1b62c1c78a0e9b01a042206472af1bf5146d0dcbcd89fd1c",
+        "issues": [
+          "Brown peripheral halo persists after image-tool cleanup.",
+          "An additional Beaufort hard-edge candidate removes the halo but introduces colored edge artifacts and is not released."
+        ]
+      }
+    },
+    {
+      "id": "toron-1180-draft-v1",
+      "site_id": "toron",
+      "name": "Toron / Tibnin (circa 1180 phase)",
+      "source_site_id": "CP-033",
+      "category": "castle",
+      "file": "toron-1180-draft.png",
+      "source": "sources/toron-original.png",
+      "coordinates": [
+        35.412279,
+        33.19543
+      ],
+      "map_region": "main",
+      "coordinate_evidence": {
+        "url": "https://www.hep-web.org/projects/202410ReportCultureHeritageDestructionLebanon/Report-02-Cultural-Heritage-Destruction-Lebanon-English-Nov-2024.pdf",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published cultural heritage report point; surviving walls include later reconstruction."
+      },
+      "depiction_year": 1180,
+      "approval_for_placement": false,
+      "placement_status": "technical-hold",
+      "review_required": true,
+      "repaint_required": true,
+      "historical_accuracy_certified": false,
+      "repaint_flags": [
+        "Period-informed schematic: tower count, gate positions, curtain heights, interiors and terrain are not plan-verified.",
+        "Exclude later Ayyubid/Mamluk/Ottoman building phases; specialist phase review remains required."
+      ],
+      "references": [
+        "https://whc.unesco.org/en/list/1810/"
+      ],
+      "technical_qa": {
+        "status": "fail-visual-background",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1536,
+          1024
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          61,
+          47,
+          1504,
+          956
+        ],
+        "transparent_padding_px": 32,
+        "sha256": "392f173ceea8d5453c43e6da0fbd44facabab022e1cb06bbbe9d2dd03464dbf4",
+        "issues": [
+          "Brown peripheral halo persists after image-tool cleanup.",
+          "An additional Beaufort hard-edge candidate removes the halo but introduces colored edge artifacts and is not released."
+        ]
+      }
+    }
+  ]
+}

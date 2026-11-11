@@ -1,0 +1,2550 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-08",
+  "scope": {
+    "catalog_records": 77,
+    "unique_catalog_pngs": 61,
+    "generated_published": 21,
+    "uncommitted_draft_candidates": 6
+  },
+  "policy": "Visual audit findings, not architectural certification; existing published permissions are not rewritten by this report. Uncommitted batch04 and pilot correction are held from release.",
+  "reference": {
+    "original_city_sheet": "data/sprites/sources/levant-atlas.png",
+    "original_city_example": "data/sprites/png/acre.png",
+    "warning": "Reference artwork itself has unverified historical details. Match graphic treatment, not its fortification plan or flags."
+  },
+  "entries": [
+    {
+      "id": "athens-1180-v1",
+      "site_id": "athens",
+      "name": "Athens",
+      "path": "data/sprites/greece-egypt-1180/athens-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "repaint-required",
+      "observed_issues": "Invented water at inland city; ungrounded outer wall ring. Acropolis and roofed Parthenon distinguish site, but lower city remains schematic.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "thessaloniki-1180-v1",
+      "site_id": "thessaloniki",
+      "name": "Thessaloniki",
+      "path": "data/sprites/greece-egypt-1180/thessaloniki-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Site identity depends on a generic upper citadel and large church. Wall circuit, Rotunda and harbor relationships not checked against a period plan.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "corinth-1180-v1",
+      "site_id": "corinth",
+      "name": "Corinth",
+      "path": "data/sprites/greece-egypt-1180/corinth-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "repaint-required",
+      "observed_issues": "Invented waterfront at lower Corinth. Acrocorinth-to-town distances compressed; castle layers and church placement not plan-checked.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "chalkida-1180-v1",
+      "site_id": "chalkida",
+      "name": "Chalkida",
+      "path": "data/sprites/greece-egypt-1180/chalkida-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Bridge gives useful identity, but town-on-water composition, wall ring and bridge form are reconstructions without plan evidence.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "heraklion-1180-v1",
+      "site_id": "heraklion",
+      "name": "Heraklion",
+      "path": "data/sprites/greece-egypt-1180/heraklion-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Nearly interchangeable with Rhodes: compact wall ring, tiled houses, domed church, semicircular harbor. No documented1180 street or wall plan.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "rhodes-1180-v1",
+      "site_id": "rhodes",
+      "name": "Rhodes",
+      "path": "data/sprites/greece-egypt-1180/rhodes-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Nearly interchangeable with Heraklion. Omitting Knights buildings does not establish the Byzantine city plan or harbor circuit.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "cairo-1180-v1",
+      "site_id": "cairo",
+      "name": "Cairo",
+      "path": "data/sprites/greece-egypt-1180/cairo-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "repaint-required",
+      "observed_issues": "Invented or misplaced water strip beside generic circular walled core. Repeated flat-roof houses and mosque silhouettes are not a checked Fatimid plan.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "alexandria-1180-v1",
+      "site_id": "alexandria",
+      "name": "Alexandria",
+      "path": "data/sprites/greece-egypt-1180/alexandria-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Pharos adds identity; lighthouse tiers, scale and medieval state need checking. Walls and port are generalized. Compare specific shoreline evidence.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "damietta-1180-v1",
+      "site_id": "damietta",
+      "name": "Damietta",
+      "path": "data/sprites/greece-egypt-1180/damietta-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "geolocation-and-history-hold",
+      "observed_issues": "Medieval site coordinate unresolved. East-bank port concept only; river geometry, enclosing walls and housing are hypothetical.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "patras-1180-v1",
+      "site_id": "patras",
+      "name": "Patras",
+      "path": "data/sprites/greece-egypt-1180-batch02/patras-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Coastal town below castle is identifiable, but generic wall/harbor/church arrangement repeats earlier assets. Castle phases need evidence.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "thebes-1180-v1",
+      "site_id": "thebes",
+      "name": "Thebes",
+      "path": "data/sprites/greece-egypt-1180-batch02/thebes-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Inland setting is right; generic ring-walled hill town lacks evidence for Theban layout and textiles-era urban fabric.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "rosetta-1180-v1",
+      "site_id": "rosetta",
+      "name": "Rosetta",
+      "path": "data/sprites/greece-egypt-1180-batch02/rosetta-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "River-side settlement is distinct from Greek sprites, but houses, mosque and quay are generic; medieval riverbank and urban extent unchecked.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "tinnis-1180-v1",
+      "site_id": "tinnis",
+      "name": "Tinnis",
+      "path": "data/sprites/greece-egypt-1180-batch02/tinnis-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Island setting is useful. Circular wall and town layout are invented; occupation intensity in1180 remains uncertain.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "bilbeis-1180-v1",
+      "site_id": "bilbeis",
+      "name": "Bilbeis",
+      "path": "data/sprites/greece-egypt-1180-batch02/bilbeis-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Inland setting retained, but generic circular fortified town; wall form and reconstructed post1168 settlement lack plan evidence.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "jaffa-1180-v1",
+      "site_id": "jaffa",
+      "name": "Jaffa",
+      "path": "data/sprites/greece-egypt-1180-batch02/jaffa-1180-v1.png",
+      "reference_path": "data/sprites/archive-1180/clean/archive-crs-024-jaffa.png",
+      "reference_role": "Recovered Jaffa — same-site original",
+      "status": "review-required",
+      "observed_issues": "Hill/roadstead silhouette is site-specific. Compare directly with recovered original; summit castle, church and housing still schematic.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "methoni-1180-v1",
+      "site_id": "methoni",
+      "name": "Methoni",
+      "path": "data/sprites/greece-egypt-1180-batch03/methoni-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Peninsula identity is useful; invented wall line, gate and church forms. Earlier Byzantine phase needs evidence beyond excluding Venetian additions.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "koroni-1180-v1",
+      "site_id": "koroni",
+      "name": "Koroni",
+      "path": "data/sprites/greece-egypt-1180-batch03/koroni-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Promontory identity is useful; steep terrain and ring fortifications remain ungrounded. Similar architecture repeats other Greek sprites.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "andravida-1180-v1",
+      "site_id": "andravida",
+      "name": "Andravida",
+      "path": "data/sprites/greece-egypt-1180-batch03/andravida-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Unfortified flat-town brief followed. Pre1204 building evidence is weak, so church designs and settlement extent remain hypothetical.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "chania-1180-v1",
+      "site_id": "chania",
+      "name": "Chania",
+      "path": "data/sprites/greece-egypt-1180-batch03/chania-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Corrected cutout is usable. It depicts an enclosure with few houses; medieval settlement intensity, hill form and church plan remain uncertain.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "rethymno-1180-v1",
+      "site_id": "rethymno",
+      "name": "Rethymno",
+      "path": "data/sprites/greece-egypt-1180-batch03/rethymno-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Earlier small settlement intent is clear; circular wall and church/harbor layout were generated rather than reconstructed.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "suez-1180-v1",
+      "site_id": "suez",
+      "name": "Suez",
+      "path": "data/sprites/greece-egypt-1180-batch03/suez-1180-v1.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "review-required",
+      "observed_issues": "Small decayed settlement matches research direction. Coarse modern city point is not medieval registration; mosque and harbor are hypothetical.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": true
+    },
+    {
+      "id": "nafpaktos-1180-v1",
+      "site_id": "nafpaktos",
+      "name": "Nafpaktos",
+      "path": "data/sprites/greece-egypt-1180-batch04/sources/nafpaktos.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "draft-hold",
+      "observed_issues": "Uncommitted draft has broad colored haze. Hill-town/harbor is recognizable; stacked walls and buildings mix schematic details without phase verification.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": false
+    },
+    {
+      "id": "monemvasia-1180-v1",
+      "site_id": "monemvasia",
+      "name": "Monemvasia",
+      "path": "data/sprites/greece-egypt-1180-batch04/sources/monemvasia.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "draft-hold",
+      "observed_issues": "Rock-islet silhouette is distinctive. Lower-town scale, causeway and upper church still require specific1180 plan evidence. No release review completed.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": false
+    },
+    {
+      "id": "corfu-1180-v1",
+      "site_id": "corfu",
+      "name": "Corfu",
+      "path": "data/sprites/greece-egypt-1180-batch04/sources/corfu.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "draft-hold",
+      "observed_issues": "Two-crest peninsula concept is distinctive. Towers, suburbs and coastline are schematic; no demonstrated1180 reconstruction. No release review completed.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": false
+    },
+    {
+      "id": "chios-1180-v1",
+      "site_id": "chios",
+      "name": "Chios",
+      "path": "data/sprites/greece-egypt-1180-batch04/sources/chios.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "draft-hold",
+      "observed_issues": "Uncommitted draft became a full landscape with cross-marked sails. Later cutout attempts were not adopted. No period plan or final alpha review.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": false
+    },
+    {
+      "id": "ascalon-1180-v1",
+      "site_id": "ascalon",
+      "name": "Ascalon",
+      "path": "data/sprites/greece-egypt-1180-batch04/sources/ascalon.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "draft-hold",
+      "observed_issues": "Uncommitted draft became a framed heraldic illustration. Semicircular concept exists but composition and decorative flags break sprite brief.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": false
+    },
+    {
+      "id": "beirut-1180-v1",
+      "site_id": "beirut",
+      "name": "Beirut",
+      "path": "data/sprites/greece-egypt-1180-batch04/sources/beirut.png",
+      "reference_path": "data/sprites/png/acre.png",
+      "reference_role": "Original Acre — STYLE ONLY",
+      "status": "draft-hold",
+      "observed_issues": "Uncommitted draft has landscape/haze; cathedral and seafort are generic. Historic-core point does not verify the depicted urban plan.",
+      "approval_for_release": false,
+      "historical_validation": "not-established-by-image-generation",
+      "was_previously_published": false
+    }
+  ],
+  "catalog_inventory": [
+    {
+      "asset": "png/jerusalem.png",
+      "record_ids": [
+        "CITY-001",
+        "archive-crs-001-jerusalem",
+        "archive-crs-001-jerusalem-sheet"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          446,
+          319
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          438,
+          311
+        ],
+        "pixel_sha256": "c356e38f32ba4e6c8ecb568b6838e6dc41208b8c78022c7fdab7e7b9fea19735",
+        "sha256": "314c9220e839c89cff8d82919984ea98b81714b9f439a180ee6bb554f32accd7"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Original supplied reference / extraction. Preserve as reference; historical plan and heraldry not certified.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "png/acre.png",
+      "record_ids": [
+        "CITY-002",
+        "archive-crs-002-acre",
+        "archive-crs-002-acre-sheet"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          456,
+          317
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          448,
+          309
+        ],
+        "pixel_sha256": "5a8e2603bd426179a6bed6a70fd849231a5a74caff0930696573c949d6b7acef",
+        "sha256": "dfb3603567bcdaa0df47c7e8fd7f1e95fe21b1d10689378403956cb174581323"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Original supplied reference / extraction. Preserve as reference; historical plan and heraldry not certified.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "png/antioch.png",
+      "record_ids": [
+        "CITY-003",
+        "archive-crs-003-antioch",
+        "archive-crs-003-antioch-sheet"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          455,
+          380
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          447,
+          372
+        ],
+        "pixel_sha256": "85bb09b955a8e895f37085ef8b61d7268d8c12f1be5e948112300bd3e351cb8b",
+        "sha256": "e9e4ac7068a3f718759291a6bba27601ad4e049ce2f7e1acbf74f32e48d56748"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Original supplied reference / extraction. Preserve as reference; historical plan and heraldry not certified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "png/tripoli.png",
+      "record_ids": [
+        "CITY-004",
+        "archive-crs-004-tripoli",
+        "archive-crs-004-tripoli-sheet"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          453,
+          322
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          445,
+          314
+        ],
+        "pixel_sha256": "1650d2b7e984b1a1b1c1251004d9e16e0c85fbc4c3a5734705c80fe8b9c7d44d",
+        "sha256": "05f78c8dc02fe527bd5b48a4204194a46e88a151420e99558f6ffed723f6b45c"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Original supplied reference / extraction. Preserve as reference; historical plan and heraldry not certified.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "png/krak-des-chevaliers.png",
+      "record_ids": [
+        "CAST-001",
+        "archive-crs-005-krak-des-chevaliers-sheet"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          448,
+          377
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          440,
+          369
+        ],
+        "pixel_sha256": "4a1a08ee4478ccb78ca0524f850aa22f57d709c206878fc63e550be407eed61f",
+        "sha256": "9fec54afd4ba79b178d0479d5d34d8f4f5ee7b89cddce3b69667d7c6f2844c40"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Original supplied reference / extraction. Preserve as reference; historical plan and heraldry not certified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "png/belvoir.png",
+      "record_ids": [
+        "CAST-002",
+        "archive-crs-006-belvoir-sheet"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          438,
+          375
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          430,
+          367
+        ],
+        "pixel_sha256": "edb008b17e86e5fb93359f907ce75a39f699d12422562f767d221092269c8fcb",
+        "sha256": "9d3c98ecfc9c98d21eac6edfb23342b03ede487c5db99ec0eeee8e3aebe35b3c"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Original supplied reference / extraction. Preserve as reference; historical plan and heraldry not certified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "png/kerak.png",
+      "record_ids": [
+        "CAST-003",
+        "archive-crs-007-kerak-sheet"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          454,
+          373
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          446,
+          365
+        ],
+        "pixel_sha256": "ed802c29251319ec7183d5cfbde228738aba12ac0484c3639b3d72252edb36c8",
+        "sha256": "7b272397f5b5c19fb66040841fc11b7c72f435e7a740ce2f31a9940d440b7b68"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Original supplied reference / extraction. Preserve as reference; historical plan and heraldry not certified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "png/montreal-shobak.png",
+      "record_ids": [
+        "CAST-004",
+        "archive-crs-008-montreal-shobak-sheet"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          440,
+          368
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          432,
+          360
+        ],
+        "pixel_sha256": "d10e5c0ab25907c3f4cf3daaae843e09b6547fffa1396f99c5a794e829fa79a9",
+        "sha256": "d6874b1c230c893d54672c0b0603d14d85c68f9977fe8d782439804cefc89898"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Original supplied reference / extraction. Preserve as reference; historical plan and heraldry not certified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "png/krak-des-chevaliers-standalone.png",
+      "record_ids": [
+        "CAST-001-STANDALONE",
+        "archive-crs-005-krak-des-chevaliers"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1448,
+          1023
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          1440,
+          1015
+        ],
+        "pixel_sha256": "d53954d457d8fa05119d476e4e0550df28a9a6d4ce92471f428912dd8c21c3ed",
+        "sha256": "f499d84e63ca9e46a08fd0fe35973eee34275ef53021cc9031ae92ac32881213"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Original supplied reference / extraction. Preserve as reference; historical plan and heraldry not certified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "historical-1180/jerusalem-1180-v2.png",
+      "record_ids": [
+        "jerusalem-1180-v2"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          2048,
+          994
+        ],
+        "transparent_padding_px": 51,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          51,
+          51,
+          1997,
+          943
+        ],
+        "pixel_sha256": "2dc558d666465f86e01a1c04310f71f53a1ec0d8a1751271e7c8a75a6b7f59da",
+        "sha256": "288b0ecbb7368193975b3b3f679ad3146fbed4420c274aa54a77504b92668c24"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Earlier assistant-generated interpretation. Similarity to a source style does not validate the reconstructed site plan.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "historical-1180/belvoir-1180-v2.png",
+      "record_ids": [
+        "belvoir-1180-v2"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          889
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          863
+        ],
+        "pixel_sha256": "2b817b80dcfa597c010c8dce2ab8a5784e34cbf450ccd8a33b6c400d9ecb9115",
+        "sha256": "36631ab23495f6ba0304ce68bf0c54992c95885695d1bb7a03bdc2a900477445"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Earlier assistant-generated interpretation. Similarity to a source style does not validate the reconstructed site plan."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "historical-1180/acre-1180-v2.png",
+      "record_ids": [
+        "acre-1180-v2"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          606
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          580
+        ],
+        "pixel_sha256": "4dd860427ff863b0fa932f1e3466aa5740e5f886d4a805e9cce663ae4548ba94",
+        "sha256": "7430a7f22a79f4b405aa1c68918970e4b3cd1717f0dcb2fb9327fba4f4182d3b"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Earlier assistant-generated interpretation. Similarity to a source style does not validate the reconstructed site plan.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "historical-1180/antioch-1180-v2.png",
+      "record_ids": [
+        "antioch-1180-v2"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          683
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          657
+        ],
+        "pixel_sha256": "e503daa10d370819800f36dea4cdfd66556116f7eba2589b188a7d2fda7f06f6",
+        "sha256": "9fe3f4a5bff2eb71e6cce364556faf8901c638756c04de55fb4f6b79d53d52d8"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Earlier assistant-generated interpretation. Similarity to a source style does not validate the reconstructed site plan."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "historical-1180/tripoli-1180-v2.png",
+      "record_ids": [
+        "tripoli-1180-v2"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          517
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          491
+        ],
+        "pixel_sha256": "097e3cb8e2bdc0d1cf34edbd5ba2c5450bad2fbabb69302907eeec649c5fce12",
+        "sha256": "428bb8e659e3ee2183143d69fc220e28af72e494d68e453345ca0e131b821b1c"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Earlier assistant-generated interpretation. Similarity to a source style does not validate the reconstructed site plan.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "expansion/byblos-1180-v1.png",
+      "record_ids": [
+        "byblos-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          756
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          730
+        ],
+        "pixel_sha256": "802df67373dbbfa59bb4f5262837e0313b33dbd345df781571aa7980f71c17ea",
+        "sha256": "9acc95be62191d40ee85c22f5d4cb6ceee9710fd3fba0c23f06a975f10d206bc"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Earlier assistant-generated interpretation. Similarity to a source style does not validate the reconstructed site plan."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "expansion/tyre-1180-v1.png",
+      "record_ids": [
+        "tyre-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          601
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          575
+        ],
+        "pixel_sha256": "01d903e905d99c0c8d62f8eda6f39a43cbbdb138498f3fcb5a269e94a6151756",
+        "sha256": "d3b7824e1162595fa6465edb7b4db6cf4103f48a670ca7fa2525d9f2c3dd5eac"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Earlier assistant-generated interpretation. Similarity to a source style does not validate the reconstructed site plan.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-crs-006-belvoir.png",
+      "record_ids": [
+        "archive-crs-006-belvoir"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1258,
+          1134
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          1250,
+          1126
+        ],
+        "pixel_sha256": "c82bb8a404d899f4421df493c9c24b6fbe69df0c3f8dde6fa353d32a678ccc72",
+        "sha256": "704c0f0bca4850a813fd6c062236a58f7581e16bde17b435ce26392eb4cc4e66"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-crs-007-kerak.png",
+      "record_ids": [
+        "archive-crs-007-kerak"
+      ],
+      "visual_contact_sheet": "full-inventory-01.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1255,
+          1221
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          1247,
+          1213
+        ],
+        "pixel_sha256": "6f3a0abc6a6883a2aa6e5e67bfa55dc44d18218c615719776322aae13ff61c72",
+        "sha256": "461f2059c4d1c3e8e6f893fdcfb3c014a7873bc1f27ccc188fe72aa35642ae54"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-crs-008-montreal-shobak.png",
+      "record_ids": [
+        "archive-crs-008-montreal-shobak"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1247,
+          1212
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          1239,
+          1204
+        ],
+        "pixel_sha256": "0f0934c57b3397c51cbd0dc78fa864ee09b4fcabf195015df93adf4e1e672b83",
+        "sha256": "cafc6483a10194bbd5d973f43ae076eb693b8d405d0fa09bff962c543a21c432"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-crs-009-tortosa.png",
+      "record_ids": [
+        "archive-crs-009-tortosa",
+        "archive-var-tortosa-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          399,
+          278
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          391,
+          270
+        ],
+        "pixel_sha256": "320fa4ac18dac502c057f5e15dbf004d8ab6ae0e26b40820d5606a5c545ad370",
+        "sha256": "4e43a43bc8efdfdced58836a69a78fa8ac797193498f279668ca348d2c5bd4ca"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified.",
+        "Image depicts an inland-looking hill castle with bridge and water; cannot read this as a checked reconstruction of coastal Tartus. Review source identity/subject."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-crs-011-chateau-pelerin.png",
+      "record_ids": [
+        "archive-crs-011-chateau-pelerin",
+        "archive-var-chateau-pelerin-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          402,
+          293
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          394,
+          285
+        ],
+        "pixel_sha256": "aa026555076b1496769d70568658be577dc99af9c42046e92de081f57911d3bf",
+        "sha256": "13418891e6c9c0410ab3f46b26c39d9640d4b8f2d71854f30b7838f10fc72db1"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified.",
+        "Hilltop castle silhouette does not establish the coastal Atlit plan. Already excluded from1180; later-period building depiction also needs checking."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-crs-012-montfort.png",
+      "record_ids": [
+        "archive-crs-012-montfort"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1259,
+          1228
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          1251,
+          1220
+        ],
+        "pixel_sha256": "f7faddb1a2b3c5e98f0e33cbf06c1f25487107e3be5d9b96cc0d5fe79a5476f9",
+        "sha256": "412a45351d7515752ca05397805e1839c874c578e6bf31885c2520c8c59a683e"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-crs-021-tyre.png",
+      "record_ids": [
+        "archive-crs-021-tyre"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          777,
+          482
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          769,
+          474
+        ],
+        "pixel_sha256": "5c761300ed3386657e016331e7319431aa7fe5f5994fe3a8be969257eeb16c64",
+        "sha256": "5fa436d41b02f8ec1acb03c04a9b8b3681559503ab947af3932ede0a7bf10c48"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-crs-022-sidon.png",
+      "record_ids": [
+        "archive-crs-022-sidon"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          780,
+          453
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          772,
+          445
+        ],
+        "pixel_sha256": "7d3ca479a0211483ba342770ce10f830d1307985a1408b40c35e0073a3d13fa9",
+        "sha256": "94af1fdd5b7da3ccede421a89c21a709fcee444ec14b2586e5bfd9606af1d3af"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-crs-023-caesarea.png",
+      "record_ids": [
+        "archive-crs-023-caesarea"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          784,
+          430
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          776,
+          422
+        ],
+        "pixel_sha256": "e5709a5eb9e2f972f839225fddb188bd9810019d0a1ff104df4b5a6ed4688d0c",
+        "sha256": "ad54d9d99b4b0530e611ab2e43b344be5c51f383f2976a9796a88610ecbcfba7"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-crs-024-jaffa.png",
+      "record_ids": [
+        "archive-crs-024-jaffa"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          775,
+          432
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          767,
+          424
+        ],
+        "pixel_sha256": "6cb0e14a05ad59f9bfe116f86e9c7fd7e6c85b9310e4ebb10e6ed9137f105269",
+        "sha256": "18d9ecf7e4eca7844d6971a3ccf8d25234dd65227252c27715c5476ecfdba97b"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-crs-025-arqah.png",
+      "record_ids": [
+        "archive-crs-025-arqah",
+        "archive-var-arqah-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          377,
+          289
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          369,
+          281
+        ],
+        "pixel_sha256": "ab994e4f889fb45f03a024f986342eb8864a7de2628f6a05b29e258cf6515e10",
+        "sha256": "7180d7c84a8fadd31e7f5532f76d9ee829f121a46d18582d77ab3cfa6d70be62"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-var-acre-16up.png",
+      "record_ids": [
+        "archive-var-acre-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          391,
+          268
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          383,
+          260
+        ],
+        "pixel_sha256": "6dd60dfea5a0b648ad21fb0ef957152502019661ba0cce04d47521780c217c28",
+        "sha256": "1ea87fd0aa1181c6c4ef10870cceb9ca43131a582fd8279483e2da25f6ea7483"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-var-antioch-16up.png",
+      "record_ids": [
+        "archive-var-antioch-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          373,
+          271
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          365,
+          263
+        ],
+        "pixel_sha256": "418cf479cc8069701b9a126c222bdb91d403617d1c36f966a24c3327b764cf11",
+        "sha256": "bb9b10c725d2e64f00b55187eee8b785084d0f852f821681c78104c66d3dbf7a"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-var-belvoir-16up.png",
+      "record_ids": [
+        "archive-var-belvoir-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          359,
+          269
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          351,
+          261
+        ],
+        "pixel_sha256": "402f26db361e66c5e124812550665478aa0e0acf50bbee92f468fe371ca05a22",
+        "sha256": "57bb8acaf76b178d9619290d1d76f9a72c54ebfd2b9f8cc582510001af2a2e85"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-var-caesarea-16up.png",
+      "record_ids": [
+        "archive-var-caesarea-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          387,
+          209
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          379,
+          201
+        ],
+        "pixel_sha256": "bd9b312d99af57dec36b28315a135bdba82d08b25dee436c8b15f4dcc2eb0aa8",
+        "sha256": "8a1271bf35097adf0ae4a2acb449eee2b83ed55ad8fd3357c8824e5972165d68"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-var-jaffa-16up.png",
+      "record_ids": [
+        "archive-var-jaffa-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          377,
+          208
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          369,
+          200
+        ],
+        "pixel_sha256": "2676d56c9594da5ddc5dd60f6b71b96e13cbeee3887bd56a1e5b2dc63d259e94",
+        "sha256": "3cfe4f7d68af6bce9550d694a0054433c9d3138c212693394b466078db7afddd"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-var-jerusalem-16up.png",
+      "record_ids": [
+        "archive-var-jerusalem-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          406,
+          269
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          398,
+          261
+        ],
+        "pixel_sha256": "2666e1733830c99aae02f7fd267ab8a9e93a63e417219aae90fb7bf5ebfe5eaf",
+        "sha256": "1b8d8061892cbda6884cc9233f0aa8b4088a66fd8058fd299a35875474fbe563"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-var-kerak-16up.png",
+      "record_ids": [
+        "archive-var-kerak-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          399,
+          264
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          391,
+          256
+        ],
+        "pixel_sha256": "a2621d2489ab365f9e3d15af8f3a7147c3bcc116b828f386cafe3a455ad7b64c",
+        "sha256": "49d6e6ac0d00bf0db5d7d9459607946cf25d1fce8f36f54f9260d3f584447403"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified.",
+        "Visible detached fragment of neighboring artwork at right. Alpha/padding tests passed but did not detect this extraction contamination."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-var-krak-des-chevaliers-16up.png",
+      "record_ids": [
+        "archive-var-krak-des-chevaliers-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          441,
+          278
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          433,
+          270
+        ],
+        "pixel_sha256": "c0849e90fd829ab64b803689eed52842f041ef0b62e298248f842f2e5c5a79ba",
+        "sha256": "329574dd8c9bf6b40ac63b186f9feb09d046c6f6ae8a4d78ba58b75d0d8ec772"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-var-montfort-16up.png",
+      "record_ids": [
+        "archive-var-montfort-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-02.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          382,
+          286
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          374,
+          278
+        ],
+        "pixel_sha256": "7e87026c53cf9071574402a8b5b1a041eaba16efdf882c5944f12a2eb7151a9a",
+        "sha256": "2709d5acf786d4ce56fe1c0a9e938097226991d5c10f6b3feb98698fd684ff99"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-var-montreal-shobak-16up.png",
+      "record_ids": [
+        "archive-var-montreal-shobak-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          394,
+          267
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          386,
+          259
+        ],
+        "pixel_sha256": "e78ababcd5d0758eebeb57a98d049078c0cf7e776680ac38b8d0f5f4e9b133e4",
+        "sha256": "7da554d89d9668aa1a266eb48d53ac0338891071113261639c6413c08283e552"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified.",
+        "Visible fragment of neighboring artwork at left. Requires a cleaner source crop; do not count transparent padding as extraction accuracy."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-var-sidon-16up.png",
+      "record_ids": [
+        "archive-var-sidon-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          361,
+          203
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          353,
+          195
+        ],
+        "pixel_sha256": "8bffb615daa769a045de4871577414f86d7d258d1c30a4fe965654b4050b97cf",
+        "sha256": "f7ebb6c0d40ee2a6b0282ecfbb24ae7a90be3653837759569f25d69eb85ac285"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-var-tripoli-16up.png",
+      "record_ids": [
+        "archive-var-tripoli-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          377,
+          268
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          369,
+          260
+        ],
+        "pixel_sha256": "fd2d2a4e659e5487e7a7f9e0c270a80c17dd71bd8cdd6c6a43bdd1a3f6b845d3",
+        "sha256": "88a2e82344bb78776e627f492f66839428a6f5ca06f9bae05a10e9f1378f4808"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "archive-1180/clean/archive-var-tyre-16up.png",
+      "record_ids": [
+        "archive-var-tyre-16up"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          418,
+          203
+        ],
+        "transparent_padding_px": 8,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          410,
+          195
+        ],
+        "pixel_sha256": "02e8a48bcaffdb82f84c5e484392d483fabc0962c4022cfd216d0fcec194852a",
+        "sha256": "b4be673a5103916982d495f848ea2bd49d137dc3349040bf7a5111a98af2f835"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "Recovered original/alternate source. Provenance is established; architectural and geographic depiction is not independently verified.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180/athens-1180-v1.png",
+      "record_ids": [
+        "athens-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          700
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          674
+        ],
+        "pixel_sha256": "43c63dc6f41c7d7b95092f519a8b775670d1c648248d5d7a08219d07403db30d",
+        "sha256": "579dc262442aa7fa05663f4dbc015d8577001c24fd8df8df29456b128ee1fca6"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180/thessaloniki-1180-v1.png",
+      "record_ids": [
+        "thessaloniki-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          652
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          626
+        ],
+        "pixel_sha256": "f0a50e9c1cfd5ce139f4aa7efaf51b1a9a5a74c4506ef0b416a29d7f27320128",
+        "sha256": "e4650ba924db7b184113744526ed7ca85e40d45065223b06d7bf879f2ca6c43d"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180/corinth-1180-v1.png",
+      "record_ids": [
+        "corinth-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          689
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          663
+        ],
+        "pixel_sha256": "52f47ea1fffdf15ed5f202e09d11e7b15821b1e81cca7b942ebb12cffae78a50",
+        "sha256": "50bc51ff8d0406d9a743365c84bb1e63eb1b170ffc51b1638deab69ffdc5d3a6"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180/chalkida-1180-v1.png",
+      "record_ids": [
+        "chalkida-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          694
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          668
+        ],
+        "pixel_sha256": "34baa1ae9a183b6a9f260cb0f9de8917d202f830e5c0bba9d48b2b60276fbe53",
+        "sha256": "0f37b55604cd2bf0facc317b18da17c0750be9b225842aff171790e7e45b48f9"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180/heraklion-1180-v1.png",
+      "record_ids": [
+        "heraklion-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          703
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          677
+        ],
+        "pixel_sha256": "726e81b448fdbcfcdf0fbe2c4c5e5d6a03f988bc83138a258cdfcafd625a2d3f",
+        "sha256": "d9f111ea8020544b289d002dd29352b53f5b15fc5bba06825ea5ed9ef7714e33"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180/rhodes-1180-v1.png",
+      "record_ids": [
+        "rhodes-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          700
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          674
+        ],
+        "pixel_sha256": "e607063cb01d6b99ac8f0860525d2b2c0c3f5cc6f4c0fd3d30f43861a488f640",
+        "sha256": "e42ced20d813acd0fa7742ac30dfb3930c2599a40b86eaeb38dac6bb3bee7f3c"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180/cairo-1180-v1.png",
+      "record_ids": [
+        "cairo-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          690
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          997,
+          664
+        ],
+        "pixel_sha256": "e49702f6c92c08cbc700902a63969aac8384a7a18c0c4849ad0f8bc11f71667d",
+        "sha256": "e46e053035f20461dc641a45f5edf16acee21f9d90b2c5d2380305b3e98e66cf"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180/alexandria-1180-v1.png",
+      "record_ids": [
+        "alexandria-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          695
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          669
+        ],
+        "pixel_sha256": "b5c4fdd4e5d27ed8cc4ad3aa9f9ad85233dbeb68bb609e0eca02509073906863",
+        "sha256": "02cd38001e4b417369f5f8dfe4b2208a75cef5804a15262479158b4f0f7fa43f"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180/damietta-1180-v1.png",
+      "record_ids": [
+        "damietta-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          690
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          664
+        ],
+        "pixel_sha256": "0d181b926f11ff3e7adf700d43ec5d784ee78b07515bd3bcb9613f8f34d8f561",
+        "sha256": "ea5f273335b733a02d72dcee90da77f1e0554a60d025ac65eb30f849666e94b2"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180-batch02/patras-1180-v1.png",
+      "record_ids": [
+        "patras-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          692
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          33,
+          998,
+          666
+        ],
+        "pixel_sha256": "5c334c5553fc1b4dafa657abd6c7620ba7e815698fa9757430488602658405e8",
+        "sha256": "efe658ae50f45e1340133c092dcccdcc141a6cb1bc7f0747aaf410338e1946e9"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180-batch02/thebes-1180-v1.png",
+      "record_ids": [
+        "thebes-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          690
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          32,
+          998,
+          664
+        ],
+        "pixel_sha256": "735b6ed71cc02fd6fd7834f9c81bf065f6b7ef1ffbc51cf43ee5c60b656a34cb",
+        "sha256": "a734f12cb2051146b4a0bf1b7cd9fb2bbadeb39b2f5ae04cde4e7729446c9abc"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180-batch02/rosetta-1180-v1.png",
+      "record_ids": [
+        "rosetta-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          701
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          675
+        ],
+        "pixel_sha256": "f12d9d5e1c36632a3bd95460003a248df2a515d081d2bc339edc708cae65a8d1",
+        "sha256": "b489e066e4e1fb3ac70b8e960aaa7036f08452c3f1650187239a789294ca7b9c"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180-batch02/tinnis-1180-v1.png",
+      "record_ids": [
+        "tinnis-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          696
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          670
+        ],
+        "pixel_sha256": "4e0f762d2dc30dd12b35b4b10b8f24576a9186ca4a8996e20056db6246e59b02",
+        "sha256": "2f5f68c373bdb93fe333a33e5f95c4ca7ba91af89dc7058a7ce6ff70337bd582"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180-batch02/bilbeis-1180-v1.png",
+      "record_ids": [
+        "bilbeis-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-03.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          694
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          668
+        ],
+        "pixel_sha256": "1042f3989ae38d999965e7a708428c711a46fd382de5a1e34ea49c1fd3ac4e87",
+        "sha256": "f58dd2f4bbebda7b7d58bb01bb34f2becd4ce6f820519224b993594270c1732e"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180-batch02/jaffa-1180-v1.png",
+      "record_ids": [
+        "jaffa-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-04.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          687
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          661
+        ],
+        "pixel_sha256": "f80b06458b79c1ed9e54843db2aed1fafa669356d522346d5a201352412c3768",
+        "sha256": "813d4563d69b245e923b6cc2b5c6ce0b4c0697b16fd7ca905752e194beb7953c"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry.",
+        "Wall/harbor/holy-site compositions vary substantially between variants. Do not treat their common place name as evidence of a consistent mapped footprint."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180-batch03/methoni-1180-v1.png",
+      "record_ids": [
+        "methoni-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-04.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          694
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          668
+        ],
+        "pixel_sha256": "5a8f25a0c91241a0162e77af7568700830f96acbcec85cd77c8551b0141cc5f2",
+        "sha256": "e7d9531466fe730f1c345e37cf9a8fdd869399465b5b47178d3b9d04b432791b"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180-batch03/koroni-1180-v1.png",
+      "record_ids": [
+        "koroni-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-04.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          700
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          674
+        ],
+        "pixel_sha256": "ba92d2f6093ad0b3b1b5053422509432fed6665faa9d6a7d543853b9b3c45248",
+        "sha256": "231ab8659bbbcc3bf805361e28dd970aab02c30219a9a3abed4a88a38182ce51"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180-batch03/andravida-1180-v1.png",
+      "record_ids": [
+        "andravida-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-04.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          685
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          659
+        ],
+        "pixel_sha256": "6acfe9e7221b6d0af0ab30b0781dd06e8306face66b2533e4500d3adc5bf2503",
+        "sha256": "ca6857c812751cd55eda57b69b27e0c25d97b4ec7187ee912073e2da5d7bb83d"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180-batch03/chania-1180-v1.png",
+      "record_ids": [
+        "chania-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-04.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          702
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          992,
+          676
+        ],
+        "pixel_sha256": "e99ec1d8ac66f017dddb34168cdf38f90b8a3dd1d78d66c70ec593ef56458aa6",
+        "sha256": "24e41d3a94361f51d0044b71e8527f13d9691394fb0dcdbc704c23a6ae5b63f7"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180-batch03/rethymno-1180-v1.png",
+      "record_ids": [
+        "rethymno-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-04.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          787
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          761
+        ],
+        "pixel_sha256": "8e1c7b066a18d1c4b3042bb66f3b7ae33fbd3e7b92b62201ad3f2f60467b955d",
+        "sha256": "70c7c54281bac326b756e9a13e6ac70ea025080798076dbd884c38cd8b2b796f"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    },
+    {
+      "asset": "greece-egypt-1180-batch03/suez-1180-v1.png",
+      "record_ids": [
+        "suez-1180-v1"
+      ],
+      "visual_contact_sheet": "full-inventory-04.jpg",
+      "historical_audit": "not-certified",
+      "approval_change": "none",
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          744
+        ],
+        "transparent_padding_px": 26,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          718
+        ],
+        "pixel_sha256": "eb801a678f859093945249e254a0e3a3b446500be920f1a0e084954eb0040152",
+        "sha256": "f106c94a58873565e4affca341fa4a15653fd744744198d9ad41b19c96393141"
+      },
+      "visual_inspection": "contact-sheet inspected 2026-11-08",
+      "observed_issues": [
+        "New generated city. See site-specific comparison and audit entry."
+      ],
+      "recommendation": "preserve-source-and-review"
+    }
+  ],
+  "findings": [
+    "Approval was synthesized automatically in the city import loop rather than supplied by an individual visual/historical acceptance record.",
+    "Original city style was progressively replaced by assistant-generated references, including Belvoir v2.",
+    "Sourced coordinates locate sites; they do not verify painted orientations, wall circuits, waterfronts or building phases.",
+    "Technical RGBA and padding checks cannot detect invented water, wrong urban plans or neighboring crop fragments."
+  ],
+  "release_gate_fix": "City batch importer now requires explicit published-provisional batch release status. Existing three published batches retain release history; unfinished batch04 is audit-hold and not imported."
+}

@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "status": "period-informed-reconstruction-candidates",
+  "generation_method": "built-in image_gen",
+  "target_year": 1180,
+  "year_selection": "working batch date selected from earlier provisional brief; not a date for the whole atlas",
+  "historical_accuracy_certified": false,
+  "assets": [
+    {
+      "id": "jerusalem-1180-v2",
+      "file": "jerusalem-1180-v2.png",
+      "source": "sources/jerusalem.png",
+      "location_manifest_id": "place-main-jerusalem",
+      "legacy_sprite_id": "CITY-001",
+      "repo_place_id": "P:jerusalem",
+      "coordinates": [
+        35.23,
+        31.78
+      ],
+      "output_width_px": 2048,
+      "display_width_units": 1024,
+      "relative_display_scale": 2,
+      "review": {
+        "status": "internal-visual-review-complete-specialist-review-pending",
+        "supported_features": [
+          "Temple precinct in eastern city",
+          "Holy Sepulchre in northwestern interior",
+          "Romanesque Holy Sepulchre phase established by 1149",
+          "Crusader use of Dome as Templum Domini",
+          "Exclude sixteenth-century Ottoman exterior tilework"
+        ],
+        "uncertainties": [
+          "Dome roof color in 1180 is unresolved; gray metal is a provisional depiction, not a proven finish",
+          "Wall circuit, tower count, gates and house distribution are schematic",
+          "Temple platform elevation, facades and roof forms are interpretive",
+          "Landmark sizes exaggerated for map legibility",
+          "No survey-level city plan or specialist sign-off"
+        ]
+      },
+      "references": [
+        "https://www.custodia.org/en/news/celebration-dedication-basilica-holy-sepulchre/",
+        "https://www.metmuseum.org/exhibitions/listings/2012/byzantium-and-islam/blog/where-in-the-world/posts/dome-of-the-rock",
+        "https://islamicart.museumwnf.org/database_item.php?id=monument%3Bisl%3Bpa%3Bmon01%3B4%3Ben",
+        "https://www.cambridge.org/core/books/abs/journal-of-medieval-military-history-xxi/capturing-jerusalem-the-fatimidseljuk-crusader-and-ayyubid-fortifications-ditches-and-military-outworks-of-the-city/E5D5FF9BF8A39C307063E262E6C51A37"
+      ],
+      "dimensions_px": [
+        2048,
+        994
+      ],
+      "source_dimensions_px": [
+        1774,
+        887
+      ],
+      "source_sha256": "bdcc67b99ee95eb8fd470b7a254cb096bb96d405c1a242e7ab0eff26a07897a7",
+      "sha256": "288b0ecbb7368193975b3b3f679ad3146fbed4420c274aa54a77504b92668c24",
+      "anchor_normalized": [
+        0.5,
+        0.9486921529175051
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 51,
+        "source_nonzero_alpha": 1108319,
+        "cleaned_source_nonzero_alpha": 1087540,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      }
+    },
+    {
+      "id": "belvoir-1180-v2",
+      "file": "belvoir-1180-v2.png",
+      "source": "sources/belvoir.png",
+      "location_manifest_id": "place-main-kokhav-hayarden",
+      "legacy_sprite_id": "CAST-002",
+      "repo_place_id": "P:belvoir",
+      "coordinates": [
+        35.52,
+        32.6
+      ],
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "relative_display_scale": 1,
+      "review": {
+        "status": "internal-visual-review-complete-specialist-review-pending",
+        "supported_features": [
+          "Square inner enclosure with quadrangular corner towers",
+          "Outer enclosure with seven projecting towers",
+          "Dry ditch on three sides with steep eastern aspect",
+          "Basalt plateau and concentric defensive organization"
+        ],
+        "uncertainties": [
+          "Complete enclosure at specifically 1180 is a working reconstruction",
+          "Upper-course heights and roof forms not established",
+          "Exposed curved roofs and outer service buildings are artistic inventions",
+          "Gate approach and outwork phase are simplified",
+          "No specialist plan overlay verification"
+        ]
+      },
+      "references": [
+        "https://journals.openedition.org/medievalista/pdf/6265",
+        "https://en.parks.org.il/reserve-park/kokhav-hayarden-national-park/"
+      ],
+      "dimensions_px": [
+        1024,
+        889
+      ],
+      "source_dimensions_px": [
+        1254,
+        1254
+      ],
+      "source_sha256": "b9ac76f5027ac2e5da31d981716f4ee6428b52a7266d5575f4fafd18571c80b8",
+      "sha256": "36631ab23495f6ba0304ce68bf0c54992c95885695d1bb7a03bdc2a900477445",
+      "anchor_normalized": [
+        0.5,
+        0.9707536557930259
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 1139584,
+        "cleaned_source_nonzero_alpha": 1117678,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      }
+    },
+    {
+      "id": "acre-1180-v2",
+      "file": "acre-1180-v2.png",
+      "source": "sources/acre.png",
+      "location_manifest_id": "place-main-akko",
+      "legacy_sprite_id": "CITY-002",
+      "repo_place_id": "P:acre",
+      "coordinates": [
+        35.07,
+        32.92
+      ],
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "relative_display_scale": 1,
+      "review": {
+        "status": "internal-visual-review-complete-specialist-review-pending",
+        "supported_features": [
+          "Walled peninsula port and sheltered harbor context",
+          "Exclude later walled Montmusard expansion",
+          "Exclude Ottoman citadel and mosque skyline"
+        ],
+        "uncertainties": [
+          "Exact 1180 street plan, towers, churches and harbor structures are schematic",
+          "Building facades and ship details are interpretive",
+          "No archaeological plan overlay or specialist sign-off"
+        ]
+      },
+      "references": [
+        "https://whc.unesco.org/en/list/1042/",
+        "https://hadashot.iaa.org.il/report_detail_eng.aspx?id=1561",
+        "https://www.akko.org.il/en/attraction/the-knights-halls/"
+      ],
+      "dimensions_px": [
+        1024,
+        606
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "3f5c2785775dd1e8c6fb1a971105c7424eeb2e52494b1331c0b0820b18a850ff",
+      "sha256": "7430a7f22a79f4b405aa1c68918970e4b3cd1717f0dcb2fb9327fba4f4182d3b",
+      "anchor_normalized": [
+        0.5,
+        0.9570957095709571
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 896036,
+        "cleaned_source_nonzero_alpha": 877636,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      }
+    },
+    {
+      "id": "antioch-1180-v2",
+      "file": "antioch-1180-v2.png",
+      "source": "sources/antioch.png",
+      "location_manifest_id": "place-main-antakya",
+      "legacy_sprite_id": "CITY-003",
+      "repo_place_id": "P:antioch",
+      "coordinates": [
+        36.16,
+        36.2
+      ],
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "relative_display_scale": 1,
+      "review": {
+        "status": "internal-visual-review-complete-specialist-review-pending",
+        "supported_features": [
+          "Orontes alongside lower city",
+          "Mount Silpius and walls climbing ridge",
+          "Unbuilt slope within fortification circuit"
+        ],
+        "uncertainties": [
+          "Exact 1180 wall circuit and hilltop citadel massing remain schematic",
+          "Churches and urban fabric are interpretive",
+          "Camera orientation varies from other sprites for geographic legibility"
+        ]
+      },
+      "references": [
+        "https://www.persee.fr/doc/topoi_1764-0733_2004_act_5_1_2895?pageId=T1_172",
+        "https://www.cambridge.org/core/books/abs/antioch-on-the-orontes/city-walls-of-antioch/18FBD1E6E788EBF65C413479F019F387"
+      ],
+      "dimensions_px": [
+        1024,
+        683
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "67a66c9d6bfbf1e1a9fa0a0f1fea408869662e252942940c3274925a8c00f275",
+      "sha256": "9fe3f4a5bff2eb71e6cce364556faf8901c638756c04de55fb4f6b79d53d52d8",
+      "anchor_normalized": [
+        0.5,
+        0.9619326500732065
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 1064031,
+        "cleaned_source_nonzero_alpha": 1043134,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      }
+    },
+    {
+      "id": "tripoli-1180-v2",
+      "file": "tripoli-1180-v2.png",
+      "source": "sources/tripoli.png",
+      "location_manifest_id": "place-main-tripoli",
+      "legacy_sprite_id": "CITY-004",
+      "repo_place_id": "P:tripoli",
+      "coordinates": [
+        35.84,
+        34.44
+      ],
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "relative_display_scale": 1,
+      "review": {
+        "status": "internal-visual-review-complete-specialist-review-pending",
+        "supported_features": [
+          "Coastal peninsular city at al-Mina",
+          "Inland Mont Pelerin citadel excluded as separate feature",
+          "Later Mamluk inland urban skyline excluded"
+        ],
+        "uncertainties": [
+          "Port shape, buildings, towers and church facades are artistic approximations",
+          "Existing catalog coordinate is inland Tripoli; use proposed coastal anchor for this sprite",
+          "Precise shoreline and 1180 building phases require specialist review"
+        ]
+      },
+      "references": [
+        "https://real-phd.mtak.hu/2112/1/BTK_DD_2025_chlela.pdf"
+      ],
+      "proposed_placement_coordinates": [
+        35.81,
+        34.45
+      ],
+      "placement_review_required": true,
+      "dimensions_px": [
+        1024,
+        517
+      ],
+      "source_dimensions_px": [
+        1665,
+        945
+      ],
+      "source_sha256": "00a1097df8dba758b9189b4e3947b2cfbcc6d79d9da42a809967b2f6ae1ddea4",
+      "sha256": "428bb8e659e3ee2183143d69fc220e28af72e494d68e453345ca0e131b821b1c",
+      "anchor_normalized": [
+        0.5,
+        0.9497098646034816
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 889419,
+        "cleaned_source_nonzero_alpha": 861530,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "batch_id": "greece-egypt-fortresses-04-review",
+  "default_year": 1180,
+  "generation_method": "built-in image_gen",
+  "release_status": "placement-review",
+  "review_map_base_commit": "e408a535a2d502ab00172073ed6bab25927cbeb5",
+  "approval_policy": "Candidate artwork appears in the separate placement review. Production import requires approval.",
+  "assets": [
+    {
+      "id": "bagras-1180-review-v1",
+      "site_id": "bagras",
+      "name": "Bagras",
+      "historical_name": "Gaston",
+      "alternate_names": [
+        "Bagras"
+      ],
+      "source_site_id": "CP-064",
+      "site_type": "castle",
+      "category": "castle",
+      "map_region": "main",
+      "map_layers": [
+        "fortifications",
+        "main",
+        "placement-review"
+      ],
+      "coordinates": [
+        36.225,
+        36.426944444444445
+      ],
+      "longitude": 36.225,
+      "latitude": 36.426944444444445,
+      "coordinate_evidence": {
+        "url": "https://burgenwelt.de/tuerkei/bagras/object.php",
+        "published_value": "36°25′37″N, 36°13′30″E",
+        "surveyed": false,
+        "accessed": "2026-11-09",
+        "uncertainty_note": "Published site point. The sprite footprint is illustrative."
+      },
+      "period_1180_eligible": true,
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "file": "bagras-1180-review-v1.png",
+      "source": "sources/bagras.png",
+      "display_width_units": 512,
+      "artwork_approval": "pending-user-review",
+      "approval_for_placement": false,
+      "placement_status": "review-only",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Templar phase on an earlier site. Review the terraces, entrances and tower forms against the archaeological plans."
+      ],
+      "references": [
+        "https://charlvarchive.org/Site/74",
+        "https://orca.cardiff.ac.uk/id/eprint/69566/1/2015vandekerckhovedphd.pdf"
+      ],
+      "asset_path": "data/sprites/greece-egypt-fortresses-04-review/bagras-1180-review-v1.png",
+      "source_sha256": "41c9753fdf172972a68a8e43842c930b42cefd117493418b624f0e505ff47994",
+      "sha256": "bc575444d4c12851fbede8683dd2feb726840dec56065f136a4fb4c33b44a1c4",
+      "pixel_sha256": "be18b9eea501cb453f6e233000eaef4a4f2800b2c0218f11127723adf16ecaad",
+      "dimensions_px": [
+        1024,
+        709
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9633286318758815
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          709
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          985,
+          683
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 354.5,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "safed-1245-review-v1",
+      "site_id": "safed",
+      "name": "Safed (rebuilding begun 1240)",
+      "historical_name": "Safed",
+      "alternate_names": [
+        "Safed"
+      ],
+      "source_site_id": "CP-010",
+      "site_type": "castle",
+      "category": "castle",
+      "map_region": "main",
+      "map_layers": [
+        "fortifications",
+        "main",
+        "placement-review"
+      ],
+      "coordinates": [
+        35.495,
+        32.968333333333334
+      ],
+      "longitude": 35.495,
+      "latitude": 32.968333333333334,
+      "coordinate_evidence": {
+        "url": "https://www.burgenwelt.org/israel/safed/burgenwelt-safed-objektseite.pdf",
+        "published_value": "32°58′6″N, 35°29′42″E",
+        "surveyed": false,
+        "accessed": "2026-11-09",
+        "uncertainty_note": "Published site point. The sprite footprint is illustrative."
+      },
+      "period_1180_eligible": false,
+      "date_ranges": {
+        "approved_art_from": 1245,
+        "approved_art_through": 1245
+      },
+      "file": "safed-1245-review-v1.png",
+      "source": "sources/safed.png",
+      "display_width_units": 512,
+      "artwork_approval": "pending-user-review",
+      "approval_for_placement": false,
+      "placement_status": "review-only",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "The circa-1245 illustration represents the thirteenth-century rebuilding. Review the outer ditch, tower spacing and ground plan. Earlier occupation requires a separate depiction."
+      ],
+      "references": [
+        "https://library.biblicalarchaeology.org/book/the-new-encyclopedia-of-archaeological-excavations-in-the-holy-land/safed/",
+        "https://publications.iaa.org.il/atiqot/vol81/iss1/11/",
+        "https://ndl.ethernet.edu.et/bitstream/123456789/52701/1/1.Adrian%20J.Boas.pdf"
+      ],
+      "construction": {
+        "started_year": 1240,
+        "phase": "Templar rebuilding",
+        "reference": "https://ndl.ethernet.edu.et/bitstream/123456789/52701/1/1.Adrian%20J.Boas.pdf"
+      },
+      "asset_path": "data/sprites/greece-egypt-fortresses-04-review/safed-1245-review-v1.png",
+      "source_sha256": "08580d4c041f23b47d6e87f83854ea1d3c21e71b993d4723185e768351d7dfce",
+      "sha256": "d93d1963a8bd42b7f10ad93843312845f614344e22f29eb10b0eb13e6eee25fd",
+      "pixel_sha256": "059ae813f7788b3e6acd2f2527378089892ab6fc84eed72b2dbdc50ee97b9b93",
+      "dimensions_px": [
+        1024,
+        685
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.962043795620438
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          685
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          659
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 342.5,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "generation_method": "built-in image_gen",
+  "default_year": 1180,
+  "assets": [
+    {
+      "id": "byblos-1180-v1",
+      "site_id": "byblos",
+      "name": "Gibelet (Byblos)",
+      "category": "castle",
+      "file": "byblos-1180-v1.png",
+      "source": "sources/byblos.png",
+      "coordinates": [
+        35.65,
+        34.12
+      ],
+      "repo_place_id": "M:castle_frankish",
+      "repo_place_name": "Gibelet",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "period-informed-interpretation",
+        "references": [
+          "https://mail.jbail-byblos.gov.lb/baldati/amaken.php?id=3&la=en",
+          "https://marble.nd.edu/item/4cf7d434-7f4c-48cc-81b4-fcb61b91d05b"
+        ],
+        "supported_constraints": [
+          "Crusader castle belongs to the twelfth-century site"
+        ],
+        "repaint_flags": [
+          "Exact enclosure geometry, tower count, gate, donjon heights and ditch not plan-verified",
+          "Exposed curved-roof service buildings are interpretive",
+          "Bridge, masonry patterns and crenellations are schematic"
+        ]
+      },
+      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1; approximate",
+      "coordinates_surveyed": false,
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "selection_priority": 30,
+      "dimensions_px": [
+        1024,
+        756
+      ],
+      "source_dimensions_px": [
+        1402,
+        1122
+      ],
+      "source_sha256": "e0e0093ed9b0ad4e28c052e370b666f88a9a065fbbf400f18450276705833295",
+      "sha256": "9acc95be62191d40ee85c22f5d4cb6ceee9710fd3fba0c23f06a975f10d206bc",
+      "anchor_normalized": [
+        0.5,
+        0.9656084656084656
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 1043335,
+        "cleaned_source_nonzero_alpha": 1026488,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "visual_review": {
+        "status": "pass-provisional",
+        "backgrounds": [
+          "light-paper",
+          "dark-blue"
+        ],
+        "notes": "No broad background halo visible after inherited alpha-noise packaging. Historical and repaint flags remain active."
+      }
+    },
+    {
+      "id": "tyre-1180-v1",
+      "site_id": "tyre",
+      "name": "Tyre (Sur)",
+      "category": "city",
+      "file": "tyre-1180-v1.png",
+      "source": "sources/tyre.png",
+      "coordinates": [
+        35.2,
+        33.27
+      ],
+      "repo_place_id": "P:tyre",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "period-informed-interpretation",
+        "references": [
+          "https://whc.unesco.org/en/list/299/"
+        ],
+        "supported_constraints": [
+          "Promontory city with Crusader castle remains",
+          "UNESCO dates cathedral to 1127"
+        ],
+        "repaint_flags": [
+          "Street layout, wall circuit, harbor geometry and cathedral facade not surveyed",
+          "Large exposed antique fragments and stone pier details require review",
+          "Ship rigging and tower heights remain interpretive"
+        ]
+      },
+      "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1; approximate",
+      "coordinates_surveyed": false,
+      "output_width_px": 1024,
+      "display_width_units": 512,
+      "selection_priority": 30,
+      "dimensions_px": [
+        1024,
+        601
+      ],
+      "source_dimensions_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "644747d95ed41dbf8bcbf98f6a883a1c9f9527165c1e85f10f454e46a4841edc",
+      "sha256": "d3b7824e1162595fa6465edb7b4db6cf4103f48a670ca7fa2525d9f2c3dd5eac",
+      "anchor_normalized": [
+        0.5,
+        0.956738768718802
+      ],
+      "technical_validation": {
+        "mode": "RGBA",
+        "transparent_padding_px": 26,
+        "source_nonzero_alpha": 852415,
+        "cleaned_source_nonzero_alpha": 835779,
+        "alpha_floor": 16,
+        "minimum_component_pixels": 20,
+        "native_detail_increased_by_resizing": false
+      },
+      "visual_review": {
+        "status": "pass-provisional",
+        "backgrounds": [
+          "light-paper",
+          "dark-blue"
+        ],
+        "notes": "No broad background halo visible after inherited alpha-noise packaging. Historical and repaint flags remain active."
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gaza-1180-review",
+  "site_id": "gaza",
+  "status": "approved-provisional",
+  "approval_for_placement": true,
+  "asset": "gaza-1180-review.png",
+  "period_brief": 1180,
+  "generation_method": "built-in image generation",
+  "prompt": "Generate a single isolated transparent atlas sprite of inland Gaza circa 1180, matching the attached original Acre sprite's miniature ink-and-watercolor texture and colors only. Historically grounded concept: a small fortified civilian suburb on the coastal plain surrounding a low sandy rise with Baldwin III's mid-twelfth-century Templar castle. Show a modest blocky limestone keep and compact fort enclosure on the rise, restrained low walls and a gate around only part of the town, irregular local stone and earthen flat-roof houses and courtyards, dusty tracks, a few olive trees and garden strips. Keep the fort form schematic, as the historical plan is uncertain. Oblique aerial angle, warm ochre and muted olive, compact natural cutout readable at map scale. Entirely dry land, no harbor, no water, no ships, no mountainous landscape, no intact classical monuments, no modern or later Mamluk architecture, no flags or lettering, no horizon, no shadow or haze. Generous fully transparent alpha margins.",
+  "representative_location": {
+    "longitude": 34.458046,
+    "latitude": 31.510975,
+    "source": "https://silver.kbr.be/Gaza",
+    "scope": "Ancient Gaza reference point, not a surveyed Templar castle location."
+  },
+  "historical_reference": "https://mamlukpalestine.huji.ac.il/sites/default/files/reuven/files/amitai-gaza_in_the_frankish_and_ayyubid_periods.pdf",
+  "review_notes": [
+    "Dry inland town with castle and documented fortified suburb.",
+    "Keep height, wall circuit and individual buildings are schematic. Review the prominence of the keep before release."
+  ],
+  "source_site_id": "CP-018",
+  "historical_name": "Gadres",
+  "site_type": "fortified town",
+  "map_region": "main",
+  "production_asset": "data/sprites/greece-egypt-1180-batch04/gaza-1180-v1.png"
+}
