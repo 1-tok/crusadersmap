@@ -107,21 +107,23 @@
         "enlarged": "assets/terrain/large_area/enlarged_underlays/upper_mesopotamia_green_steppe_enlarged.png",
         "feathered": "assets/terrain/large_area/feathered_overlays/upper_mesopotamia_green_steppe_feathered.png"
       },
-      "qa": "superseded_opaque_underlay_not_for_placement",
+      "qa": "retained_as_rectangular_background_only_not_as_foreground",
       "binary_status": "not_yet_uploaded",
       "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
       "prior_qa_state": "provisional_repaint_native_resolution_before_print",
       "replaced_by": "assets/terrain/large_area/transparent_redo_03/upper_mesopotamia_green_steppe.png",
       "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
       "placement_review": {
-        "status": "superseded_pending_transparent_replacement",
+        "status": "queued_as_opaque_underlay_only",
         "approved": false,
         "placed_on_map": false
       },
       "print_quality_review": {
-        "status": "superseded_not_print_approved",
+        "status": "needs_high_resolution_repaint_before_300dpi_print",
         "approved": false
-      }
+      },
+      "supersession_exception": "retained_opaque_background_04",
+      "retained_variant": "assets/terrain/large_area/rect_underlays_04/green_plain_edge_matched.png"
     },
     {
       "id": "arabian_rocky_gravel",
@@ -395,7 +397,8 @@
   "binary_status": "local_download_package_ready_repo_binary_push_pending",
   "caution": "Manifest alone does not place textures into the existing map renderers or assert that the PNGs are present on GitHub.",
   "review_version": "2026-11-10-replaced-by-transparent-redo-03",
-  "placement_queue_status": "superseded_by_transparent_redo_03",
+  "placement_queue_status": "opaque_foreground_versions_superseded_except_one_reworked_background_underlay",
   "print_quality_review_queue_status": "superseded_by_transparent_redo_03",
-  "superseded_by_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json"
+  "superseded_by_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+  "retained_rectangle_exception_manifest": "assets/terrain/large_area/manifest_rectangular_underlays_04.json"
 }
