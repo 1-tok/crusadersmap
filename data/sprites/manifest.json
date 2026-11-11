@@ -1,0 +1,501 @@
+{
+  "schema_version": 1,
+  "status": "art-library-requires-historical-review",
+  "source_conversation_id": "6aef6198-8f90-83e8-843c-1799469bf02e",
+  "units": "pixels",
+  "crop_convention": "left, top, right exclusive, bottom exclusive",
+  "anchor_convention": "normalized image coordinates; bottom center of painted bounds, not a surveyed geographic point",
+  "rights": "User-supplied ChatGPT artwork; no new repository-wide license asserted.",
+  "sprites": [
+    {
+      "id": "CITY-001",
+      "slug": "jerusalem",
+      "name": "Jerusalem",
+      "category": "city",
+      "variant": "sheet",
+      "asset": "png/jerusalem.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          0,
+          0,
+          443,
+          450
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          5,
+          88,
+          435,
+          391
+        ]
+      },
+      "placement": {
+        "repo_place_id": "P:jerusalem",
+        "longitude": 35.23,
+        "latitude": 31.78,
+        "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+        "coordinates_verified": false
+      },
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Check Frankish-period walls and sacred-site roofs; flags and architectural phases unverified.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "dimensions_px": [
+        446,
+        319
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9749216300940439
+      ],
+      "sha256": "314c9220e839c89cff8d82919984ea98b81714b9f439a180ee6bb554f32accd7"
+    },
+    {
+      "id": "CITY-002",
+      "slug": "acre",
+      "name": "Acre",
+      "category": "city",
+      "variant": "sheet",
+      "asset": "png/acre.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          443,
+          0,
+          887,
+          450
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          0,
+          101,
+          440,
+          402
+        ]
+      },
+      "placement": {
+        "repo_place_id": "P:acre",
+        "longitude": 35.07,
+        "latitude": 32.92,
+        "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+        "coordinates_verified": false
+      },
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Harbor, sea walls and waterfront architecture need comparison with pre-1187 plans.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "dimensions_px": [
+        456,
+        317
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9747634069400631
+      ],
+      "sha256": "dfb3603567bcdaa0df47c7e8fd7f1e95fe21b1d10689378403956cb174581323"
+    },
+    {
+      "id": "CITY-003",
+      "slug": "antioch",
+      "name": "Antioch",
+      "category": "city",
+      "variant": "sheet",
+      "asset": "png/antioch.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          887,
+          0,
+          1330,
+          450
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          0,
+          47,
+          439,
+          411
+        ]
+      },
+      "placement": {
+        "repo_place_id": "P:antioch",
+        "longitude": 36.16,
+        "latitude": 36.2,
+        "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+        "coordinates_verified": false
+      },
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Mountain citadel, bridge, wall circuit and urban density are artistic approximations.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "dimensions_px": [
+        455,
+        380
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9789473684210527
+      ],
+      "sha256": "e9e4ac7068a3f718759291a6bba27601ad4e049ce2f7e1acbf74f32e48d56748"
+    },
+    {
+      "id": "CITY-004",
+      "slug": "tripoli",
+      "name": "Tripoli",
+      "category": "city",
+      "variant": "sheet",
+      "asset": "png/tripoli.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          1330,
+          0,
+          1774,
+          450
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          4,
+          87,
+          441,
+          393
+        ]
+      },
+      "placement": {
+        "repo_place_id": "P:tripoli",
+        "longitude": 35.84,
+        "latitude": 34.44,
+        "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+        "coordinates_verified": false
+      },
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Review relationship of coastal settlement and hilltop citadel; do not treat this composition as a surveyed plan.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "dimensions_px": [
+        453,
+        322
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9751552795031055
+      ],
+      "sha256": "05f78c8dc02fe527bd5b48a4204194a46e88a151420e99558f6ffed723f6b45c"
+    },
+    {
+      "id": "CAST-001",
+      "slug": "krak-des-chevaliers",
+      "name": "Krak des Chevaliers",
+      "category": "castle",
+      "variant": "sheet",
+      "asset": "png/krak-des-chevaliers.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          0,
+          450,
+          443,
+          887
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          10,
+          34,
+          442,
+          395
+        ]
+      },
+      "placement": {
+        "repo_place_id": "P:krak",
+        "longitude": 36.29,
+        "latitude": 34.76,
+        "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+        "coordinates_verified": false
+      },
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Concentric defenses may conflate 12th- and 13th-century phases; cannot certify for 1180.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": [
+          "https://whc.unesco.org/en/list/1229/"
+        ]
+      },
+      "dimensions_px": [
+        448,
+        377
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9787798408488063
+      ],
+      "sha256": "9fec54afd4ba79b178d0479d5d34d8f4f5ee7b89cddce3b69667d7c6f2844c40"
+    },
+    {
+      "id": "CAST-002",
+      "slug": "belvoir",
+      "name": "Belvoir",
+      "category": "castle",
+      "variant": "sheet",
+      "asset": "png/belvoir.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          443,
+          450,
+          887,
+          887
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          9,
+          37,
+          431,
+          396
+        ]
+      },
+      "placement": {
+        "repo_place_id": "P:belvoir",
+        "longitude": 35.52,
+        "latitude": 32.6,
+        "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+        "coordinates_verified": false
+      },
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Dominant keep and round towers need repaint review against the known Hospitaller plan.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "dimensions_px": [
+        438,
+        375
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9786666666666667
+      ],
+      "sha256": "9d3c98ecfc9c98d21eac6edfb23342b03ede487c5db99ec0eeee8e3aebe35b3c"
+    },
+    {
+      "id": "CAST-003",
+      "slug": "kerak",
+      "name": "Kerak",
+      "category": "castle",
+      "variant": "sheet",
+      "asset": "png/kerak.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          887,
+          450,
+          1330,
+          887
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          2,
+          36,
+          440,
+          393
+        ]
+      },
+      "placement": {
+        "repo_place_id": "P:kerak",
+        "longitude": 35.7,
+        "latitude": 31.18,
+        "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+        "coordinates_verified": false
+      },
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Keep, towers and defenses need phase-specific review; later additions must be excluded for 1180.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "dimensions_px": [
+        454,
+        373
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9785522788203753
+      ],
+      "sha256": "7b272397f5b5c19fb66040841fc11b7c72f435e7a740ce2f31a9940d440b7b68"
+    },
+    {
+      "id": "CAST-004",
+      "slug": "montreal-shobak",
+      "name": "Montréal (Shobak)",
+      "category": "castle",
+      "variant": "sheet",
+      "asset": "png/montreal-shobak.png",
+      "source": {
+        "path": "sources/levant-atlas.png",
+        "crop_xyxy": [
+          1330,
+          450,
+          1774,
+          887
+        ],
+        "identification": "inferred from original chat order and visual motifs; not labeled in image",
+        "sha256": "a882961e8ccf6316d828eb6f7d316fc3677b7e0ce3f19d6cb07e1585c3064437",
+        "trim_xyxy_within_crop": [
+          10,
+          41,
+          434,
+          393
+        ]
+      },
+      "placement": {
+        "repo_place_id": "P:montreal",
+        "longitude": 35.53,
+        "latitude": 30.53,
+        "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+        "coordinates_verified": false
+      },
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Generic hilltop fortress; wall plan, towers and later additions unverified.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": []
+      },
+      "dimensions_px": [
+        440,
+        368
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9782608695652174
+      ],
+      "sha256": "d6874b1c230c893d54672c0b0603d14d85c68f9977fe8d782439804cefc89898"
+    },
+    {
+      "id": "CAST-001-STANDALONE",
+      "slug": "krak-des-chevaliers",
+      "name": "Krak des Chevaliers",
+      "category": "castle",
+      "variant": "standalone",
+      "asset": "png/krak-des-chevaliers-standalone.png",
+      "source": {
+        "path": "sources/krak-standalone.png",
+        "crop_xyxy": [
+          0,
+          0,
+          1448,
+          1086
+        ],
+        "identification": "user-supplied standalone Krak des Chevaliers image",
+        "sha256": "17a4db3ef71888a7dc55d15bfad6777ac88425e92601d3efe38ac1a5d33adfdc",
+        "trim_xyxy_within_crop": [
+          14,
+          63,
+          1446,
+          1070
+        ]
+      },
+      "placement": {
+        "repo_place_id": "P:krak",
+        "longitude": 36.29,
+        "latitude": 34.76,
+        "coordinate_source": "places.py at 22e91d258bca9603a2ecb261528e455ad19c63f1",
+        "coordinates_verified": false
+      },
+      "historical": {
+        "target_year": 1180,
+        "target_year_confirmed": false,
+        "accuracy": "unverified-artistic-interpretation",
+        "period_accurate": false,
+        "requires_historical_review": true,
+        "requires_repaint_review": true,
+        "notes": [
+          "Concentric defenses may conflate 12th- and 13th-century phases; cannot certify for 1180.",
+          "Heraldry, architectural details, orientation and scale are not verified."
+        ],
+        "references": [
+          "https://whc.unesco.org/en/list/1229/"
+        ]
+      },
+      "dimensions_px": [
+        1448,
+        1023
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9921798631476051
+      ],
+      "sha256": "f499d84e63ca9e46a08fd0fe35973eee34275ef53021cc9031ae92ac32881213"
+    }
+  ]
+}

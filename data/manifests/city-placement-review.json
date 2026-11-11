@@ -1,0 +1,2895 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-09",
+  "scope": "City and urban settlement candidates from existing PLACES definitions plus sourced Bosphorus companion settlements. Not a complete historical gazetteer.",
+  "meaning_of_needs_placement": "For existing_map_marker=true, the source marker already exists; needs_sprite means missing painted artwork. Added detail settlements may have no original regional marker. Respect placement_views.",
+  "coordinate_policy": "Coordinates copied from original manifest for audit only; do not treat as newly verified. Operational recovered-sprite coordinates remain authoritative in data/sprites/catalog.json.",
+  "counts": {
+    "total": 97,
+    "by_group": {
+      "Levant / Cyprus / Cilicia": 49,
+      "Other Aegean / Anatolia": 9,
+      "Greece": 28,
+      "Egypt": 11
+    },
+    "by_status": {
+      "sprite_available": 51,
+      "needs_sprite": 45,
+      "later_period_artwork": 1
+    }
+  },
+  "entries": [
+    {
+      "location_id": "place-main-jerusalem",
+      "name": "Jerusalem",
+      "map_name": "Iherusalem",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:jerusalem",
+      "coordinates": [
+        35.23,
+        31.78
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "CITY-001",
+        "jerusalem-1180-v2",
+        "archive-crs-001-jerusalem",
+        "archive-crs-001-jerusalem-sheet",
+        "archive-var-jerusalem-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-akko",
+      "name": "Akko",
+      "map_name": "Acre",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:acre",
+      "coordinates": [
+        35.07,
+        32.92
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "CITY-002",
+        "acre-1180-v2",
+        "archive-crs-002-acre",
+        "archive-crs-002-acre-sheet",
+        "archive-var-acre-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-tyre",
+      "name": "Tyre",
+      "map_name": "Sur",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:tyre",
+      "coordinates": [
+        35.2,
+        33.27
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "tyre-1180-v1",
+        "archive-crs-021-tyre",
+        "archive-var-tyre-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-ashkelon",
+      "name": "Ashkelon",
+      "map_name": "Escalone",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:ascalon",
+      "coordinates": [
+        34.55,
+        31.66
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "ascalon-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-jaffa",
+      "name": "Jaffa",
+      "map_name": "Japhe",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:jaffa",
+      "coordinates": [
+        34.75,
+        32.05
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "archive-crs-024-jaffa",
+        "archive-var-jaffa-16up",
+        "jaffa-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-caesarea",
+      "name": "Caesarea",
+      "map_name": "Cesaire",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:caesarea",
+      "coordinates": [
+        34.89,
+        32.5
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "archive-crs-023-caesarea",
+        "archive-var-caesarea-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-sidon",
+      "name": "Sidon",
+      "map_name": "Saiete",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:sidon",
+      "coordinates": [
+        35.37,
+        33.56
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "archive-crs-022-sidon",
+        "archive-var-sidon-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-beirut",
+      "name": "Beirut",
+      "map_name": "Baruth",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        35.5,
+        33.9
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "beirut-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-safed",
+      "name": "Safed",
+      "map_name": "Saphet",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "castle_or_citadel",
+      "existing_map_marker": true,
+      "renderer_mark": "P:safed",
+      "coordinates": [
+        35.5,
+        32.96
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-ajloun",
+      "name": "Ajloun",
+      "map_name": "Ajlun",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "castle_or_citadel",
+      "existing_map_marker": true,
+      "renderer_mark": "P:ajlun",
+      "coordinates": [
+        35.73,
+        32.33
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "ajloun-1190-v1"
+      ],
+      "placement_status": "later_period_artwork",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-gaza",
+      "name": "Gaza",
+      "map_name": "Gadres",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        34.46,
+        31.52
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "gaza-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-bethlehem",
+      "name": "Bethlehem",
+      "map_name": "Bethleem",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "religious_settlement_or_site",
+      "existing_map_marker": true,
+      "renderer_mark": "P:bethlehem",
+      "coordinates": [
+        35.2,
+        31.7
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "bethlehem-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-hebron",
+      "name": "Hebron",
+      "map_name": "Saint-Abraham",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "religious_settlement_or_site",
+      "existing_map_marker": true,
+      "renderer_mark": "P:hebron",
+      "coordinates": [
+        35.1,
+        31.53
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "hebron-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-nazareth",
+      "name": "Nazareth",
+      "map_name": "Nazareth",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "religious_settlement_or_site",
+      "existing_map_marker": true,
+      "renderer_mark": "P:nazareth",
+      "coordinates": [
+        35.3,
+        32.7
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-nablus",
+      "name": "Nablus",
+      "map_name": "Naples",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        35.26,
+        32.22
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-tiberias",
+      "name": "Tiberias",
+      "map_name": "Tabarie",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        35.53,
+        32.79
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-banias",
+      "name": "Banias",
+      "map_name": "Belinas",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        35.69,
+        33.25
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-tibnin",
+      "name": "Tibnin",
+      "map_name": "Toron",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        35.4,
+        33.19
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "toron-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-bosra",
+      "name": "Bosra",
+      "map_name": "Bosra",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        36.48,
+        32.52
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-damascus",
+      "name": "Damascus",
+      "map_name": "Dimashq",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:damascus",
+      "coordinates": [
+        36.31,
+        33.51
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-baalbek",
+      "name": "Baalbek",
+      "map_name": "Baalbek",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:mosque",
+      "coordinates": [
+        36.2,
+        34.01
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-aleppo",
+      "name": "Aleppo",
+      "map_name": "Halab",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:aleppo",
+      "coordinates": [
+        37.16,
+        36.2
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-hama",
+      "name": "Hama",
+      "map_name": "Hamah",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:hama",
+      "coordinates": [
+        36.75,
+        35.13
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-homs",
+      "name": "Homs",
+      "map_name": "Hims",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:hims",
+      "coordinates": [
+        36.72,
+        34.73
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-antakya",
+      "name": "Antakya",
+      "map_name": "Antioche",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:antioch",
+      "coordinates": [
+        36.16,
+        36.2
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "CITY-003",
+        "antioch-1180-v2",
+        "archive-crs-003-antioch",
+        "archive-crs-003-antioch-sheet",
+        "archive-var-antioch-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-tripoli",
+      "name": "Tripoli",
+      "map_name": "Triple",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:tripoli",
+      "coordinates": [
+        35.84,
+        34.44
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "CITY-004",
+        "tripoli-1180-v2",
+        "archive-crs-004-tripoli",
+        "archive-crs-004-tripoli-sheet",
+        "archive-var-tripoli-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-tartus",
+      "name": "Tartus",
+      "map_name": "Tortose",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:tortosa",
+      "coordinates": [
+        35.89,
+        34.89
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "archive-crs-009-tortosa",
+        "archive-var-tortosa-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-latakia",
+      "name": "Latakia",
+      "map_name": "Laodicee",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        35.78,
+        35.52
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-jableh",
+      "name": "Jableh",
+      "map_name": "Gibel",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        35.93,
+        35.36
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-baniyas",
+      "name": "Baniyas",
+      "map_name": "Valenie",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        35.95,
+        35.2
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-apamea",
+      "name": "Apamea",
+      "map_name": "Apamee",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        36.4,
+        35.42
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-harim",
+      "name": "Harim",
+      "map_name": "Harenc",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        36.52,
+        36.21
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-artah",
+      "name": "Artah",
+      "map_name": "Artah",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        36.35,
+        36.3
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-iskenderun",
+      "name": "Iskenderun",
+      "map_name": "Alexandrete",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        36.17,
+        36.58
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-batroun",
+      "name": "Batroun",
+      "map_name": "Botron",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        35.65,
+        34.25
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "batroun-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-byblos",
+      "name": "Byblos",
+      "map_name": "Gibelet",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        35.65,
+        34.12
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "byblos-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-arqa",
+      "name": "Arqa",
+      "map_name": "Arqa",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        36.0,
+        34.52
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "archive-crs-025-arqah",
+        "archive-var-arqah-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-kozan",
+      "name": "Kozan",
+      "map_name": "Sis",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "castle_or_citadel",
+      "existing_map_marker": true,
+      "renderer_mark": "P:sis",
+      "coordinates": [
+        35.81,
+        37.45
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-tarsus",
+      "name": "Tarsus",
+      "map_name": "Tarse",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        34.89,
+        36.92
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-adana",
+      "name": "Adana",
+      "map_name": "Adane",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        35.32,
+        37.0
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-misis",
+      "name": "Misis",
+      "map_name": "Mamistra",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        35.63,
+        36.98
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-yumurtalik",
+      "name": "Yumurtalik",
+      "map_name": "Lajazzo",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        35.79,
+        36.77
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-kahramanmaras",
+      "name": "Kahramanmaras",
+      "map_name": "Maresch",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_armenian",
+      "coordinates": [
+        36.93,
+        37.58
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-famagusta",
+      "name": "Famagusta",
+      "map_name": "Famagouste",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:famagusta",
+      "coordinates": [
+        33.94,
+        35.12
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-nicosia",
+      "name": "Nicosia",
+      "map_name": "Nicosie",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:nicosia",
+      "coordinates": [
+        33.37,
+        35.17
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "nicosia-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-kyrenia",
+      "name": "Kyrenia",
+      "map_name": "Cerines",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        33.32,
+        35.34
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "kyrenia-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-limassol",
+      "name": "Limassol",
+      "map_name": "Limeso",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        33.04,
+        34.67
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "limassol-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-paphos",
+      "name": "Paphos",
+      "map_name": "Baffe",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        32.42,
+        34.77
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-main-larnaca",
+      "name": "Larnaca",
+      "map_name": "Salines",
+      "group": "Levant / Cyprus / Cilicia",
+      "region": "main",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        33.63,
+        34.92
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "larnaca-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-istanbul",
+      "name": "Istanbul",
+      "map_name": "Konstantinoupolis",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:constantinople",
+      "coordinates": [
+        28.97,
+        41.01
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "constantinople-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-beyoglu",
+      "name": "Beyoglu",
+      "map_name": "Pera",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:galata",
+      "coordinates": [
+        28.97,
+        41.03
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "galata-sykai-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "Companion sprite is approved only for the enlarged Constantinople detail, excluded from regional overlay.",
+        "Use sprite manifest/cited point rather than any inherited approximate map marker."
+      ],
+      "references": [
+        "https://www.persee.fr/doc/rebyz_0766-5598_1961_num_19_1_1265",
+        "https://in-scription.edel.univ-poitiers.fr/index.php?id=480",
+        "https://topostext.org/place/410290USyk"
+      ],
+      "placement_views": [
+        "constantinople-detail"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-thessaloniki",
+      "name": "Thessaloniki",
+      "map_name": "Thessalonike",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        22.94,
+        40.64
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "thessaloniki-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "provisional_repaint_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates.",
+        "Upper citadel shape, Rotunda visibility, harbor and wall circuit schematic; verify individual churches.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [],
+      "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-edirne",
+      "name": "Edirne",
+      "map_name": "Andrinople",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        26.56,
+        41.68
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-iznik",
+      "name": "Iznik",
+      "map_name": "Nicee",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        29.72,
+        40.43
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-chalkida",
+      "name": "Chalkida",
+      "map_name": "Negroponte",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:negroponte",
+      "coordinates": [
+        23.6,
+        38.46
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "chalkida-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "provisional_repaint_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates.",
+        "Bridge arches, abutments and wall geometry are interpretive; no surveyed 1180 bridge reconstruction.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [],
+      "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-athens",
+      "name": "Athens",
+      "map_name": "Athenes",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:athens",
+      "coordinates": [
+        23.73,
+        37.97
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "athens-1180-v3"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "provisional_repaint_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates.",
+        "Remove invented blue water edge; Athens is inland. Verify Parthenon church proportions and Acropolis enclosure.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [],
+      "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-thebes",
+      "name": "Thebes",
+      "map_name": "Estives",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        23.32,
+        38.32
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "thebes-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-corinth",
+      "name": "Corinth",
+      "map_name": "Corinthe",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        22.88,
+        37.91
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "corinth-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "provisional_repaint_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates.",
+        "Remove invented waterfront at lower town. Hill-to-town distance compressed; wall tiers, church forms and heights need plan review.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [],
+      "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-andravida",
+      "name": "Andravida",
+      "map_name": "Andreville",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        21.28,
+        37.9
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "andravida-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-patras",
+      "name": "Patras",
+      "map_name": "Patras",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        21.73,
+        38.25
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "patras-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-methoni",
+      "name": "Methoni",
+      "map_name": "Modon",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        21.71,
+        36.81
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "methoni-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-koroni",
+      "name": "Koroni",
+      "map_name": "Coron",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        21.96,
+        36.8
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "koroni-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-navarino",
+      "name": "Navarino",
+      "map_name": "Navarin",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        21.66,
+        36.96
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-monemvasia",
+      "name": "Monemvasia",
+      "map_name": "Monemvasie",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:sea_castle",
+      "coordinates": [
+        23.04,
+        36.69
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "monemvasia-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-mystras",
+      "name": "Mystras",
+      "map_name": "Mistras",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "castle_or_citadel",
+      "existing_map_marker": true,
+      "renderer_mark": "P:mistra",
+      "coordinates": [
+        22.37,
+        37.07
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "excluded_1180",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification",
+        "Fortress dates to 1249; do not place medieval Mystras at 1180.",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [
+        "https://whc.unesco.org/en/list/511/"
+      ],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-nafpaktos",
+      "name": "Nafpaktos",
+      "map_name": "Lepanto",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        21.83,
+        38.39
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "nafpaktos-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-corfu",
+      "name": "Corfu",
+      "map_name": "Corfou",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        19.92,
+        39.62
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "corfu-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-zakynthos",
+      "name": "Zakynthos",
+      "map_name": "Jacinthe",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        20.9,
+        37.78
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-kythira",
+      "name": "Kythira",
+      "map_name": "Cerigo",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        23.0,
+        36.15
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-heraklion",
+      "name": "Heraklion",
+      "map_name": "Candie",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:candia",
+      "coordinates": [
+        25.13,
+        35.34
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "heraklion-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "provisional_repaint_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates.",
+        "Harbor geometry, church placement and Byzantine wall circuit are schematic; no claim to recreate Venetian Candia.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [],
+      "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-chania",
+      "name": "Chania",
+      "map_name": "La Cane",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        24.02,
+        35.51
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "chania-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-rethymno",
+      "name": "Rethymno",
+      "map_name": "Rethymno",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        24.48,
+        35.37
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "rethymno-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-rhodes",
+      "name": "Rhodes",
+      "map_name": "Rodes",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:rhodes",
+      "coordinates": [
+        28.22,
+        36.44
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "rhodes-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "provisional_repaint_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "City existed before 1180; Hospitaller city/fortifications require a later-period depiction (1309 onward).",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates.",
+        "Depicts earlier Byzantine city; walls and harbor require pre-Hospitaller phase review. UNESCO point locates urban site, not 1180 boundaries.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [
+        "https://whc.unesco.org/en/list/493/"
+      ],
+      "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-kos",
+      "name": "Kos",
+      "map_name": "Lango",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        27.29,
+        36.89
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-leros",
+      "name": "Leros",
+      "map_name": "Lero",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        26.85,
+        37.15
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-naxos",
+      "name": "Naxos",
+      "map_name": "Naxie",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        25.38,
+        37.1
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-tinos",
+      "name": "Tinos",
+      "map_name": "Tine",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        25.16,
+        37.54
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-santorini",
+      "name": "Santorini",
+      "map_name": "Santorin",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        25.43,
+        36.4
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-chios",
+      "name": "Chios",
+      "map_name": "Scio",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:chios",
+      "coordinates": [
+        26.14,
+        38.37
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "chios-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-mytilene",
+      "name": "Mytilene",
+      "map_name": "Mitylene",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        26.55,
+        39.1
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-foca",
+      "name": "Foca",
+      "map_name": "Foglie",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        26.75,
+        38.67
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-lemnos",
+      "name": "Lemnos",
+      "map_name": "Stalimene",
+      "group": "Greece",
+      "region": "aegean",
+      "source_category": "castle_or_fortification",
+      "existing_map_marker": true,
+      "renderer_mark": "M:castle_frankish",
+      "coordinates": [
+        25.07,
+        39.88
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "urban candidate inferred from named town; renderer currently emphasizes castle; review classification",
+        "Choose Byzantine-era city art for an 1180 view; later Frankish/Venetian associations are not city foundation dates."
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-selcuk",
+      "name": "Selcuk",
+      "map_name": "Ayasoluk",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        27.37,
+        37.94
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-aegean-alasehir",
+      "name": "Alasehir",
+      "map_name": "Philadelphie",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        28.52,
+        38.35
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task"
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-delta-cairo",
+      "name": "Cairo",
+      "map_name": "al-Qahira",
+      "group": "Egypt",
+      "region": "delta",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:cairo_",
+      "coordinates": [
+        31.26,
+        30.04
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "cairo-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "provisional_repaint_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Use appropriate Egyptian urban architecture and rule for selected year; crusader raid/siege does not imply enduring Frankish ownership.",
+        "Bab Zuwayla selected as ground anchor; city icon is exaggerated. Minaret forms, mosque silhouettes and wall circuit remain interpretive.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction.",
+        "Water strip at cutout edge is schematic; do not interpret as actual Fatimid city shoreline."
+      ],
+      "references": [],
+      "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-delta-alexandria",
+      "name": "Alexandria",
+      "map_name": "al-Iskandariyya",
+      "group": "Egypt",
+      "region": "delta",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:alexandria",
+      "coordinates": [
+        29.92,
+        31.2
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "alexandria-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "provisional_repaint_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Use appropriate Egyptian urban architecture and rule for selected year; crusader raid/siege does not imply enduring Frankish ownership.",
+        "Coarse published city anchor, not Pharos monument location. Lighthouse medieval upper stages, relative scale and harbor coastline require review.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [],
+      "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-delta-damietta",
+      "name": "Damietta",
+      "map_name": "Dimyat",
+      "group": "Egypt",
+      "region": "delta",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:damietta",
+      "coordinates": [
+        31.82,
+        31.42
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "damietta-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "provisional_repaint_review",
+      "priority": "first",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Use appropriate Egyptian urban architecture and rule for selected year; crusader raid/siege does not imply enduring Frankish ownership.",
+        "Verify medieval Damietta site rather than assuming modern city centroid.",
+        "Medieval location unresolved. No invented coordinate supplied; do not substitute modern Damietta centroid. Riverbank, wall and mosque arrangement schematic.",
+        "Street layout, orientation, terrain and building heights are artistic approximations, not measured reconstruction."
+      ],
+      "references": [],
+      "batch_manifest": "data/sprites/greece-egypt-1180/manifest.json",
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-delta-mansoura",
+      "name": "Mansoura",
+      "map_name": "al-Mansura",
+      "group": "Egypt",
+      "region": "delta",
+      "source_category": "city_or_town",
+      "existing_map_marker": true,
+      "renderer_mark": "P:mansura",
+      "coordinates": [
+        31.38,
+        31.04
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "excluded_1180",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "City founded in 1219; reserve for later-period layer.",
+        "Use appropriate Egyptian urban architecture and rule for selected year; crusader raid/siege does not imply enduring Frankish ownership."
+      ],
+      "references": [
+        "https://thfac.mans.edu.eg/images/files/wafedin/forign.pdf"
+      ],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-delta-faraskur",
+      "name": "Faraskur",
+      "map_name": "Fariskur",
+      "group": "Egypt",
+      "region": "delta",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        31.72,
+        31.33
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Use appropriate Egyptian urban architecture and rule for selected year; crusader raid/siege does not imply enduring Frankish ownership."
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-delta-rosetta",
+      "name": "Rosetta",
+      "map_name": "Rashid",
+      "group": "Egypt",
+      "region": "delta",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        30.42,
+        31.4
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "rosetta-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Use appropriate Egyptian urban architecture and rule for selected year; crusader raid/siege does not imply enduring Frankish ownership."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-delta-tinnis",
+      "name": "Tinnis",
+      "map_name": "Tinnis",
+      "group": "Egypt",
+      "region": "delta",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        32.22,
+        31.17
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "tinnis-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Use appropriate Egyptian urban architecture and rule for selected year; crusader raid/siege does not imply enduring Frankish ownership."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-delta-pelusium",
+      "name": "Pelusium",
+      "map_name": "al-Farama",
+      "group": "Egypt",
+      "region": "delta",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        32.55,
+        31.05
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [],
+      "placement_status": "needs_sprite",
+      "approval_for_new_placement": false,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Use appropriate Egyptian urban architecture and rule for selected year; crusader raid/siege does not imply enduring Frankish ownership.",
+        "Existing manifest flags Pelusium/Bilbeis alias conflict; resolve identity and coordinates before painted placement."
+      ],
+      "references": [],
+      "placement_views": [],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-delta-bilbeis",
+      "name": "Bilbeis",
+      "map_name": "Bilbays",
+      "group": "Egypt",
+      "region": "delta",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        31.57,
+        30.42
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "bilbeis-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Use appropriate Egyptian urban architecture and rule for selected year; crusader raid/siege does not imply enduring Frankish ownership.",
+        "Existing manifest flags Pelusium/Bilbeis alias conflict; resolve identity and coordinates before painted placement."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-delta-suez",
+      "name": "Suez",
+      "map_name": "al-Suways",
+      "group": "Egypt",
+      "region": "delta",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:walled_town",
+      "coordinates": [
+        32.55,
+        29.97
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "suez-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Use appropriate Egyptian urban architecture and rule for selected year; crusader raid/siege does not imply enduring Frankish ownership."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "place-delta-al-tur",
+      "name": "al-Tur",
+      "map_name": "Sur",
+      "group": "Egypt",
+      "region": "delta",
+      "source_category": "settlement_or_profile",
+      "existing_map_marker": true,
+      "renderer_mark": "M:town",
+      "coordinates": [
+        33.62,
+        28.24
+      ],
+      "coordinate_status": "inherited_approximate_not_newly_verified",
+      "sprite_ids": [
+        "tyre-1180-v1",
+        "archive-crs-021-tyre",
+        "archive-var-tyre-16up"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "requires_phase_review",
+      "priority": "normal",
+      "notes": [
+        "existing map marker; painted sprite placement is a separate task",
+        "Use appropriate Egyptian urban architecture and rule for selected year; crusader raid/siege does not imply enduring Frankish ownership."
+      ],
+      "references": [],
+      "placement_views": [
+        "atlas"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "detail-chrysopolis",
+      "name": "Chrysopolis",
+      "map_name": "Chrysopolis / Skoutarion",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "source_category": "city_or_town",
+      "existing_map_marker": false,
+      "renderer_mark": null,
+      "coordinates": [
+        29.012856,
+        41.020639
+      ],
+      "coordinate_status": "sourced_representative_point_not_surveyed_medieval_footprint",
+      "sprite_ids": [
+        "chrysopolis-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "eligible_site_architecture_provisional",
+      "priority": "high",
+      "notes": [
+        "Companion sprite is approved only for the enlarged Constantinople detail, excluded from regional overlay.",
+        "Use sprite manifest/cited point rather than any inherited approximate map marker."
+      ],
+      "references": [
+        "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Bosphorus-BlackSea/Chalcedon-Belke2021.pdf",
+        "https://imperium.ahlfeldt.se/places/22696"
+      ],
+      "placement_views": [
+        "constantinople-detail"
+      ],
+      "draft_artwork": []
+    },
+    {
+      "location_id": "detail-chalcedon",
+      "name": "Chalcedon",
+      "map_name": "Chalkēdōn",
+      "group": "Other Aegean / Anatolia",
+      "region": "aegean",
+      "source_category": "city_or_town",
+      "existing_map_marker": false,
+      "renderer_mark": null,
+      "coordinates": [
+        29.025789,
+        40.983393
+      ],
+      "coordinate_status": "sourced_representative_point_not_surveyed_medieval_footprint",
+      "sprite_ids": [
+        "chalcedon-1180-v1"
+      ],
+      "placement_status": "sprite_available",
+      "approval_for_new_placement": true,
+      "period_1180_review": "eligible_site_architecture_provisional",
+      "priority": "high",
+      "notes": [
+        "Companion sprite is approved only for the enlarged Constantinople detail, excluded from regional overlay.",
+        "Use sprite manifest/cited point rather than any inherited approximate map marker."
+      ],
+      "references": [
+        "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Bosphorus-BlackSea/Chalcedon-Belke2021.pdf",
+        "https://rpc.ashmus.ox.ac.uk/city/362"
+      ],
+      "placement_views": [
+        "constantinople-detail"
+      ],
+      "draft_artwork": []
+    }
+  ]
+}

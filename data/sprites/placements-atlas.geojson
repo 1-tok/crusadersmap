@@ -1,0 +1,4108 @@
+{
+  "type": "FeatureCollection",
+  "period_mode": "multi-period; construction dates shown in later-site titles",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "jerusalem-1180-v2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23166666666667,
+          31.77777777777778
+        ]
+      },
+      "properties": {
+        "sprite_id": "jerusalem-1180-v2",
+        "site_group": "jerusalem",
+        "name": "Jerusalem",
+        "asset": "data/sprites/historical-1180/jerusalem-1180-v2.png",
+        "sha256": "288b0ecbb7368193975b3b3f679ad3146fbed4420c274aa54a77504b92668c24",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Jerusalem",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/148/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/148/",
+          "published_value": "N31 46 40 E35 13 54",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Old City representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Jerusalem",
+        "anchor_normalized": [
+          0.5,
+          0.9486921529175051
+        ],
+        "sheet_anchor_px": [
+          6960.333,
+          11315.003
+        ],
+        "display_width_sheet_px": 1024,
+        "display_height_sheet_px": 497.0,
+        "top_left_sheet_px": [
+          6448.333,
+          10843.503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "belvoir-1180-v2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.52139,
+          32.59556
+        ]
+      },
+      "properties": {
+        "sprite_id": "belvoir-1180-v2",
+        "site_group": "belvoir",
+        "name": "Belvoir",
+        "asset": "data/sprites/historical-1180/belvoir-1180-v2.png",
+        "sha256": "36631ab23495f6ba0304ce68bf0c54992c95885695d1bb7a03bdc2a900477445",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Belvoir",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)",
+          "published_value": "32.59556 N 35.52139 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Belvoir",
+        "anchor_normalized": [
+          0.5,
+          0.9707536557930259
+        ],
+        "sheet_anchor_px": [
+          7416.96,
+          9826.421
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 444.5,
+        "top_left_sheet_px": [
+          7160.96,
+          9394.921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "acre-1180-v2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.084,
+          32.928
+        ]
+      },
+      "properties": {
+        "sprite_id": "acre-1180-v2",
+        "site_group": "acre",
+        "name": "Acre",
+        "asset": "data/sprites/historical-1180/acre-1180-v2.png",
+        "sha256": "7430a7f22a79f4b405aa1c68918970e4b3cd1717f0dcb2fb9327fba4f4182d3b",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Acre",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/document/164227",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/164227",
+          "published_value": "32.928 / 35.084",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Old City representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Use UNESCO periodic-report Old City point. Main listing gives a different point (32°55′18″N 35°4′8″E); report point is appropriate for the urban icon. No claim of exact medieval centroid."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Acre",
+        "anchor_normalized": [
+          0.5,
+          0.9570957095709571
+        ],
+        "sheet_anchor_px": [
+          6746.739,
+          9216.558
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 303.0,
+        "top_left_sheet_px": [
+          6490.739,
+          8926.558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "antioch-1180-v2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.18167,
+          36.20472
+        ]
+      },
+      "properties": {
+        "sprite_id": "antioch-1180-v2",
+        "site_group": "antioch",
+        "name": "Antioch",
+        "asset": "data/sprites/historical-1180/antioch-1180-v2.png",
+        "sha256": "9fe3f4a5bff2eb71e6cce364556faf8901c638756c04de55fb4f6b79d53d52d8",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Antioch",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Antioch",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Antioch",
+          "published_value": "36.20472 N 36.18167 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Historical city representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Secondary gazetteer coordinate for historical Antioch; city extent and painted citadel orientation remain approximate."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Antioch",
+        "anchor_normalized": [
+          0.5,
+          0.9619326500732065
+        ],
+        "sheet_anchor_px": [
+          8418.13,
+          3243.745
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 341.5,
+        "top_left_sheet_px": [
+          8162.13,
+          2915.245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tripoli-1180-v2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.81783,
+          34.447
+        ]
+      },
+      "properties": {
+        "sprite_id": "tripoli-1180-v2",
+        "site_group": "tripoli",
+        "name": "Tripoli",
+        "asset": "data/sprites/historical-1180/tripoli-1180-v2.png",
+        "sha256": "428bb8e659e3ee2183143d69fc220e28af72e494d68e453345ca0e131b821b1c",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Tripoli",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/El_Mina,_Lebanon",
+          "published_value": "34.44700 N 35.81783 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Coastal medieval city / El Mina representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Coastal settlement point, not the inland Mamluk city or Raymond citadel. Exact medieval urban centroid is unknown; composite sheet painting may conflate city and citadel."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Tripoli",
+        "anchor_normalized": [
+          0.5,
+          0.9497098646034816
+        ],
+        "sheet_anchor_px": [
+          7877.073,
+          6451.898
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 258.5,
+        "top_left_sheet_px": [
+          7621.073,
+          6206.398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "byblos-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.64555555555555,
+          34.119170000000004
+        ]
+      },
+      "properties": {
+        "sprite_id": "byblos-1180-v1",
+        "site_group": "byblos",
+        "name": "Gibelet (Byblos)",
+        "asset": "data/sprites/expansion/byblos-1180-v1.png",
+        "sha256": "9acc95be62191d40ee85c22f5d4cb6ceee9710fd3fba0c23f06a975f10d206bc",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Gibelet (Byblos)",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/295/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/295/",
+          "published_value": "N34 7 9.012 E35 38 44",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Historic site representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Gibelet",
+        "anchor_normalized": [
+          0.5,
+          0.9656084656084656
+        ],
+        "sheet_anchor_px": [
+          7615.336,
+          7049.311
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 378.0,
+        "top_left_sheet_px": [
+          7359.336,
+          6684.311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tyre-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19583333333333,
+          33.26916666666666
+        ]
+      },
+      "properties": {
+        "sprite_id": "tyre-1180-v1",
+        "site_group": "tyre",
+        "name": "Tyre (Sur)",
+        "asset": "data/sprites/expansion/tyre-1180-v1.png",
+        "sha256": "d3b7824e1162595fa6465edb7b4db6cf4103f48a670ca7fa2525d9f2c3dd5eac",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Tyre (Sur)",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "working circa-1180 depiction only; other years require phase review"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/299/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/299/",
+          "published_value": "N33 16 09 E35 11 45",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Historic peninsula archaeological site representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "UNESCO peninsula point, not inland Al-Bass necropolis; representative city anchor rather than a medieval urban centroid."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Tyre",
+        "anchor_normalized": [
+          0.5,
+          0.956738768718802
+        ],
+        "sheet_anchor_px": [
+          6922.857,
+          8595.883
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 300.5,
+        "top_left_sheet_px": [
+          6666.857,
+          8308.383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-005-krak-des-chevaliers",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.294444444444444,
+          34.75666666666667
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-005-krak-des-chevaliers",
+        "site_group": "krak-des-chevaliers",
+        "name": "Krak des Chevaliers",
+        "asset": "data/sprites/png/krak-des-chevaliers-standalone.png",
+        "sha256": "f499d84e63ca9e46a08fd0fe35973eee34275ef53021cc9031ae92ac32881213",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Krak des Chevaliers",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/1229/maps",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/1229/maps",
+          "published_value": "N34 45 24 E36 17 40",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "UNESCO current map point; older nomination coordinates conflict. Later concentric defenses in painting require repaint review, while the castle site is eligible in 1180."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Crac de l’Hospital",
+        "anchor_normalized": [
+          0.5,
+          0.9921798631476051
+        ],
+        "sheet_anchor_px": [
+          8595.032,
+          5886.021
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 361.724,
+        "top_left_sheet_px": [
+          8339.032,
+          5527.126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-007-kerak",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.70139,
+          31.18056
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-007-kerak",
+        "site_group": "kerak",
+        "name": "Kerak",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-007-kerak.png",
+        "sha256": "461f2059c4d1c3e8e6f893fdcfb3c014a7873bc1f27ccc188fe72aa35642ae54",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Kerak",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Kerak_Castle",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Kerak_Castle",
+          "published_value": "31.18056 N 35.70139 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Representative site point, not a surveyed building footprint; source precision is not positional accuracy."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Kerak",
+        "anchor_normalized": [
+          0.5,
+          0.9934479934479934
+        ],
+        "sheet_anchor_px": [
+          7689.824,
+          12407.0
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 498.129,
+        "top_left_sheet_px": [
+          7433.824,
+          11912.134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-008-montreal-shobak",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5608,
+          30.5315
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-008-montreal-shobak",
+        "site_group": "montreal-shobak",
+        "name": "Montréal (Shobak)",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-008-montreal-shobak.png",
+        "sha256": "cafc6483a10194bbd5d973f43ae076eb693b8d405d0fa09bff962c543a21c432",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Montréal (Shobak)",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://www.sacred-destinations.com/jordan/shobak-castle",
+        "coordinate_evidence": {
+          "url": "https://www.sacred-destinations.com/jordan/shobak-castle",
+          "published_value": "30.5315 N 35.5608 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Published castle point; other gazetteers differ by tens of metres. Later Ayyubid/Mamluk fabric must not be treated as verified 1180 architecture."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Montréal",
+        "anchor_normalized": [
+          0.5,
+          0.9933993399339934
+        ],
+        "sheet_anchor_px": [
+          7465.553,
+          13590.268
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 497.63,
+        "top_left_sheet_px": [
+          7209.553,
+          13095.923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-009-tortosa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.89,
+          34.89
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-009-tortosa",
+        "site_group": "tortosa",
+        "name": "Tortosa (Tartus)",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-009-tortosa.png",
+        "sha256": "4e43a43bc8efdfdced58836a69a78fa8ac797193498f279668ca348d2c5bd4ca",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Tortosa (Tartus)",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "35.89, 34.89",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Tortosa",
+        "anchor_normalized": [
+          0.5,
+          0.9712230215827338
+        ],
+        "sheet_anchor_px": [
+          7986.188,
+          5643.921
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 356.732,
+        "top_left_sheet_px": [
+          7730.188,
+          5297.455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-011-chateau-pelerin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.93388888888889,
+          32.70528055555556
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-011-chateau-pelerin",
+        "site_group": "chateau-pelerin",
+        "name": "Château Pèlerin (begun 1218)",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-011-chateau-pelerin.png",
+        "sha256": "13418891e6c9c0410ab3f46b26c39d9640d4b8f2d71854f30b7838f10fc72db1",
+        "preferred": true,
+        "preferred_1180": false,
+        "display_title": "Château Pèlerin (begun 1218)",
+        "construction": {
+          "started_year": 1218,
+          "date_type": "construction_commencement",
+          "references": [
+            "https://theses.gla.ac.uk/30916/1/2018haberlinphd.pdf"
+          ],
+          "note": "1218 is the conventional commencement date used in this catalog. Archaeological reports also describe work in 1217–1218. This label does not certify completion of every depicted structure."
+        },
+        "approval": "approved-provisional-later-period",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1218,
+          "through_year": 1291,
+          "basis": "Later-period provisional art window; start is construction commencement, not completion"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://commons.wikimedia.org/wiki/Category:Chateau_Pelerin",
+        "coordinate_evidence": {
+          "url": "https://commons.wikimedia.org/wiki/Category:Chateau_Pelerin",
+          "published_value": "32°42′19.01″N 34°56′02″E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "Templar fortress dates to 1218; not an 1180 asset. Earlier nearby fortifications do not justify using this fortress."
+        },
+        "approval_for_placement": false,
+        "period_1180_eligible": false,
+        "map_layers": [
+          "sprites-later-period",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Château Pèlerin",
+        "anchor_normalized": [
+          0.5,
+          0.9726962457337884
+        ],
+        "sheet_anchor_px": [
+          6512.215,
+          9620.578
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 373.174,
+        "top_left_sheet_px": [
+          6256.215,
+          9257.593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-012-montfort",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22611,
+          33.04472
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-012-montfort",
+        "site_group": "montfort",
+        "name": "Montfort (begun 1226)",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-012-montfort.png",
+        "sha256": "412a45351d7515752ca05397805e1839c874c578e6bf31885c2520c8c59a683e",
+        "preferred": true,
+        "preferred_1180": false,
+        "display_title": "Montfort (begun 1226)",
+        "construction": {
+          "started_year": 1226,
+          "date_type": "construction_commencement",
+          "references": [
+            "https://moses.creighton.edu/vr/Montfort/txt/intro.html"
+          ],
+          "note": "Construction commenced in 1226; multiple subsequent phases, not a single completion date."
+        },
+        "approval": "approved-provisional-later-period",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1226,
+          "through_year": 1271,
+          "basis": "Later-period provisional art window; start is construction commencement, not completion"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Montfort_Castle",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Montfort_Castle",
+          "published_value": "33.04472 N 35.22611 E",
+          "accessed": "2026-11-07",
+          "anchor_kind": "Castle representative point",
+          "method": "Published coordinate transcribed; DMS converted arithmetically where applicable",
+          "uncertainty_note": "1226 is construction start; later depiction needs phase review. Main Teutonic castle is anachronistic in 1180."
+        },
+        "approval_for_placement": false,
+        "period_1180_eligible": false,
+        "map_layers": [
+          "sprites-later-period",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Montfort",
+        "anchor_normalized": [
+          0.5,
+          0.993485342019544
+        ],
+        "sheet_anchor_px": [
+          6966.582,
+          9005.345
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 499.393,
+        "top_left_sheet_px": [
+          6710.582,
+          8509.205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-022-sidon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.37,
+          33.56
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-022-sidon",
+        "site_group": "sidon",
+        "name": "Sidon",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-022-sidon.png",
+        "sha256": "94af1fdd5b7da3ccede421a89c21a709fcee444ec14b2586e5bfd9606af1d3af",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Sidon",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "35.37, 33.56",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Sidon",
+        "anchor_normalized": [
+          0.5,
+          0.9823399558498896
+        ],
+        "sheet_anchor_px": [
+          7192.264,
+          8067.255
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 297.354,
+        "top_left_sheet_px": [
+          6936.264,
+          7775.153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-023-caesarea",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89,
+          32.5
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-023-caesarea",
+        "site_group": "caesarea",
+        "name": "Caesarea",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-023-caesarea.png",
+        "sha256": "ad54d9d99b4b0530e611ab2e43b344be5c51f383f2976a9796a88610ecbcfba7",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Caesarea",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "34.89, 32.5",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Caesarea",
+        "anchor_normalized": [
+          0.5,
+          0.9813953488372092
+        ],
+        "sheet_anchor_px": [
+          6440.956,
+          9994.137
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 280.816,
+        "top_left_sheet_px": [
+          6184.956,
+          9718.545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "archive-crs-025-arqah",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0,
+          34.52
+        ]
+      },
+      "properties": {
+        "sprite_id": "archive-crs-025-arqah",
+        "site_group": "arqah",
+        "name": "Arqah",
+        "asset": "data/sprites/archive-1180/clean/archive-crs-025-arqah.png",
+        "sha256": "7180d7c84a8fadd31e7f5532f76d9ee829f121a46d18582d77ab3cfa6d70be62",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Arqah",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "Circa-1180 provisional art"
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+        "coordinate_evidence": {
+          "url": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+          "published_value": "36.0, 34.52",
+          "accessed": "2026-11-08",
+          "anchor_kind": "Inherited map catalog representative point",
+          "method": "Exact transcription of repository places.py; no new geodetic verification",
+          "uncertainty_note": "Approximate repository site point; manually register the painted ground footprint and review coastal alignment."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Arqa",
+        "anchor_normalized": [
+          0.5,
+          0.972318339100346
+        ],
+        "sheet_anchor_px": [
+          8152.177,
+          6318.738
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 392.488,
+        "top_left_sheet_px": [
+          7896.177,
+          5937.115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "athens-1180-v3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.726,
+          37.971
+        ]
+      },
+      "properties": {
+        "sprite_id": "athens-1180-v3",
+        "site_group": "athens",
+        "name": "Athens",
+        "asset": "data/sprites/greece-egypt-1180/athens-1180-v3.png",
+        "sha256": "e0c3a933e350125fb4f7f21dc95b41c244e650db890399ad5ebae1b6ad5afa35",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Athens",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/document/164198",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/164198",
+          "published_value": "37.971 / 23.726; Acropolis reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published Acropolis reference point, not a surveyed medieval city footprint; schematic bottom-center sprite anchor."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Athēnai",
+        "anchor_normalized": [
+          0.5,
+          0.9630156472261735
+        ],
+        "sheet_anchor_px": [
+          1992.806,
+          2426.063
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 351.5,
+        "top_left_sheet_px": [
+          1736.806,
+          2087.563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "thessaloniki-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94388889,
+          40.64027778
+        ]
+      },
+      "properties": {
+        "sprite_id": "thessaloniki-1180-v1",
+        "site_group": "thessaloniki",
+        "name": "Thessaloniki",
+        "asset": "data/sprites/greece-egypt-1180/thessaloniki-1180-v1.png",
+        "sha256": "e4650ba924db7b184113744526ed7ca85e40d45065223b06d7bf879f2ca6c43d",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Thessaloniki",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://ungegn.un.org/dashboard/cities/details?id=596",
+        "coordinate_evidence": {
+          "url": "https://ungegn.un.org/dashboard/cities/details?id=596",
+          "published_value": "40.64027778 N, 22.94388889 E; city reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Upper citadel shape, Rotunda visibility, harbor and wall circuit schematic; verify individual churches."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Thessalonikē",
+        "anchor_normalized": [
+          0.5,
+          0.9601226993865031
+        ],
+        "sheet_anchor_px": [
+          1661.183,
+          838.293
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 326.0,
+        "top_left_sheet_px": [
+          1405.183,
+          525.293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "corinth-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.878805,
+          37.904935
+        ]
+      },
+      "properties": {
+        "sprite_id": "corinth-1180-v1",
+        "site_group": "corinth",
+        "name": "Corinth",
+        "asset": "data/sprites/greece-egypt-1180/corinth-1180-v1.png",
+        "sha256": "50bc51ff8d0406d9a743365c84bb1e63eb1b170ffc51b1638deab69ffdc5d3a6",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Corinth",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://www.religiousgreece.gr/en/attractions/ancient-corinth",
+        "coordinate_evidence": {
+          "url": "https://www.religiousgreece.gr/en/attractions/ancient-corinth",
+          "published_value": "37.904935 N, 22.878805 E; Ancient Corinth reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Remove invented waterfront at lower town. Hill-to-town distance compressed; wall tiers, church forms and heights need plan review."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Korinthos",
+        "anchor_normalized": [
+          0.5,
+          0.9622641509433962
+        ],
+        "sheet_anchor_px": [
+          1594.843,
+          2457.929
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 344.5,
+        "top_left_sheet_px": [
+          1338.843,
+          2126.429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chalkida-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.595,
+          38.4625
+        ]
+      },
+      "properties": {
+        "sprite_id": "chalkida-1180-v1",
+        "site_group": "chalkida",
+        "name": "Chalkida",
+        "asset": "data/sprites/greece-egypt-1180/chalkida-1180-v1.png",
+        "sha256": "0f37b55604cd2bf0facc317b18da17c0750be9b225842aff171790e7e45b48f9",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Chalkida",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Chalcis",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Chalcis",
+          "published_value": "38.46250 N, 23.59500 E; city reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Bridge arches, abutments and wall geometry are interpretive; no surveyed 1180 bridge reconstruction."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Chalkis / Euripos",
+        "anchor_normalized": [
+          0.5,
+          0.962536023054755
+        ],
+        "sheet_anchor_px": [
+          1935.799,
+          2134.143
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 347.0,
+        "top_left_sheet_px": [
+          1679.799,
+          1800.143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "heraklion-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1344,
+          35.3403
+        ]
+      },
+      "properties": {
+        "sprite_id": "heraklion-1180-v1",
+        "site_group": "heraklion",
+        "name": "Heraklion",
+        "asset": "data/sprites/greece-egypt-1180/heraklion-1180-v1.png",
+        "sha256": "d9f111ea8020544b289d002dd29352b53f5b15fc5bba06825ea5ed9ef7714e33",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Heraklion",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Heraklion",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Heraklion",
+          "published_value": "35.3403 N, 25.1344 E; city reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Harbor geometry, church placement and Byzantine wall circuit are schematic; no claim to recreate Venetian Candia."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Chandax",
+        "anchor_normalized": [
+          0.5,
+          0.9630156472261735
+        ],
+        "sheet_anchor_px": [
+          2655.253,
+          3988.16
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 351.5,
+        "top_left_sheet_px": [
+          2399.253,
+          3649.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rhodes-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.22631111111111,
+          36.443080555555554
+        ]
+      },
+      "properties": {
+        "sprite_id": "rhodes-1180-v1",
+        "site_group": "rhodes",
+        "name": "Rhodes",
+        "asset": "data/sprites/greece-egypt-1180/rhodes-1180-v1.png",
+        "sha256": "e42ced20d813acd0fa7742ac30dfb3930c2599a40b86eaeb38dac6bb3bee7f3c",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Rhodes",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/document/164203",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/164203",
+          "published_value": "N36 26 35.090 E28 13 34.720; corrected UNESCO medieval city point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Depicts earlier Byzantine city; walls and harbor require pre-Hospitaller phase review. UNESCO point locates urban site, not 1180 boundaries."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Rhodos",
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "sheet_anchor_px": [
+          4133.46,
+          3308.183
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 350.0,
+        "top_left_sheet_px": [
+          3877.46,
+          2971.183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cairo-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2578,
+          30.0428
+        ]
+      },
+      "properties": {
+        "sprite_id": "cairo-1180-v1",
+        "site_group": "cairo",
+        "name": "Cairo",
+        "asset": "data/sprites/greece-egypt-1180/cairo-1180-v1.png",
+        "sha256": "e46e053035f20461dc641a45f5edf16acee21f9d90b2c5d2380305b3e98e66cf",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Cairo",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://aldarbalahmar.com/explore/1",
+        "coordinate_evidence": {
+          "url": "https://aldarbalahmar.com/explore/1",
+          "published_value": "30.0428 N, 31.2578 E; Bab Zuwaila anchor for Fatimid city",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Bab Zuwayla selected as ground anchor; city icon is exaggerated. Minaret forms, mosque silhouettes and wall circuit remain interpretive."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "delta"
+        ],
+        "map_region": "delta",
+        "historical_name": "al-Qahira",
+        "anchor_normalized": [
+          0.5,
+          0.9623188405797102
+        ],
+        "sheet_anchor_px": [
+          1672.898,
+          11459.373
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 345.0,
+        "top_left_sheet_px": [
+          1416.898,
+          11127.373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "alexandria-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9,
+          31.2
+        ]
+      },
+      "properties": {
+        "sprite_id": "alexandria-1180-v1",
+        "site_group": "alexandria",
+        "name": "Alexandria",
+        "asset": "data/sprites/greece-egypt-1180/alexandria-1180-v1.png",
+        "sha256": "02cd38001e4b417369f5f8dfe4b2208a75cef5804a15262479158b4f0f7fa43f",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Alexandria",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://collections.tepapa.govt.nz/place/2077199",
+        "coordinate_evidence": {
+          "url": "https://collections.tepapa.govt.nz/place/2077199",
+          "published_value": "31.2 N, 29.9 E; coarse city reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Coarse published city anchor, not Pharos monument location. Lighthouse medieval upper stages, relative scale and harbor coastline require review."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "delta"
+        ],
+        "map_region": "delta",
+        "historical_name": "al-Iskandariyya",
+        "anchor_normalized": [
+          0.5,
+          0.962589928057554
+        ],
+        "sheet_anchor_px": [
+          520.537,
+          10313.106
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 347.5,
+        "top_left_sheet_px": [
+          264.537,
+          9978.606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "damietta-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.816,
+          31.422933333333333
+        ]
+      },
+      "properties": {
+        "sprite_id": "damietta-1180-v1",
+        "site_group": "damietta",
+        "name": "Damietta",
+        "asset": "data/sprites/greece-egypt-1180/damietta-1180-v1.png",
+        "sha256": "ea5f273335b733a02d72dcee90da77f1e0554a60d025ac65eb30f849666e94b2",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Damietta",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://www.eeaa.gov.eg/Uploads/Reports/Files/20221127122412262.pdf",
+        "coordinate_evidence": {
+          "url": "https://www.eeaa.gov.eg/Uploads/Reports/Files/20221127122412262.pdf",
+          "published_value": "Table 16-1, site 001: 31°25.376′ N, 31°48.960′ E, converted from decimal minutes",
+          "accessed": "2026-11-09",
+          "surveyed": false,
+          "uncertainty_note": "Representative Abu el-Maati (Amr ibn al-As) mosque inventory point. The siege study uses the mosque to locate the earlier city. The medieval extent and shoreline remain disputed; the cited Southampton study does not establish a precise city footprint."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "delta"
+        ],
+        "map_region": "delta",
+        "historical_name": "Dumyat",
+        "anchor_normalized": [
+          0.5,
+          0.9623188405797102
+        ],
+        "sheet_anchor_px": [
+          2142.973,
+          10096.791
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 345.0,
+        "top_left_sheet_px": [
+          1886.973,
+          9764.791
+        ],
+        "source_site_id": "CP-134"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "patras-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.742901,
+          38.244844
+        ]
+      },
+      "properties": {
+        "sprite_id": "patras-1180-v1",
+        "site_group": "patras",
+        "name": "Patras",
+        "asset": "data/sprites/greece-egypt-1180-batch02/patras-1180-v1.png",
+        "sha256": "efe658ae50f45e1340133c092dcccdcc141a6cb1bc7f0747aaf410338e1946e9",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Patras",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://religiousgreece.gr/index.php/en/attractions/castle-patras",
+        "coordinate_evidence": {
+          "url": "https://religiousgreece.gr/index.php/en/attractions/castle-patras",
+          "published_value": "38.244844 N,21.742901 E; castle point used as city/castle ensemble anchor",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Hill-to-shore distance compressed; verify pre-1205 castle fabric; no Frankish inner enclosure intended."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Patrai",
+        "anchor_normalized": [
+          0.5,
+          0.9624277456647399
+        ],
+        "sheet_anchor_px": [
+          1069.158,
+          2241.361
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 346.0,
+        "top_left_sheet_px": [
+          813.158,
+          1908.361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "thebes-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.317799,
+          38.319077
+        ]
+      },
+      "properties": {
+        "sprite_id": "thebes-1180-v1",
+        "site_group": "thebes",
+        "name": "Thebes",
+        "asset": "data/sprites/greece-egypt-1180-batch02/thebes-1180-v1.png",
+        "sha256": "a734f12cb2051146b4a0bf1b7cd9fb2bbadeb39b2f5ae04cde4e7729446c9abc",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Thebes",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://ora.ox.ac.uk/objects/uuid%3Af7f02498-4ae1-4ff0-81f6-aad909f041b1/files/m6dff832f3f1ab8497fd13c7102af1c74",
+        "coordinate_evidence": {
+          "url": "https://ora.ox.ac.uk/objects/uuid%3Af7f02498-4ae1-4ff0-81f6-aad909f041b1/files/m6dff832f3f1ab8497fd13c7102af1c74",
+          "published_value": "38.319077 N,23.317799 E; published ancient Thebae reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published settlement reference point; medieval urban extent uncertain. Walls, church positions and textile courtyards are interpretive."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Thebai",
+        "anchor_normalized": [
+          0.5,
+          0.9623188405797102
+        ],
+        "sheet_anchor_px": [
+          1805.205,
+          2216.927
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 345.0,
+        "top_left_sheet_px": [
+          1549.205,
+          1884.927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rosetta-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.41639,
+          31.40444
+        ]
+      },
+      "properties": {
+        "sprite_id": "rosetta-1180-v1",
+        "site_group": "rosetta",
+        "name": "Rosetta",
+        "asset": "data/sprites/greece-egypt-1180-batch02/rosetta-1180-v1.png",
+        "sha256": "b489e066e4e1fb3ac70b8e960aaa7036f08452c3f1650187239a789294ca7b9c",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Rosetta",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Rosetta",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Rosetta",
+          "published_value": "31.40444 N,30.41639 E; city reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Modern gazetteer point locates continuous settlement; medieval river course, quay and city extent not surveyed. Ottoman merchant mansions excluded."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "delta"
+        ],
+        "map_region": "delta",
+        "historical_name": "Rashid",
+        "anchor_normalized": [
+          0.5,
+          0.9629101283880172
+        ],
+        "sheet_anchor_px": [
+          959.406,
+          10115.198
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 350.5,
+        "top_left_sheet_px": [
+          703.406,
+          9777.698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tinnis-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.233333333333334,
+          31.2
+        ]
+      },
+      "properties": {
+        "sprite_id": "tinnis-1180-v1",
+        "site_group": "tinnis",
+        "name": "Tinnis",
+        "asset": "data/sprites/greece-egypt-1180-batch02/tinnis-1180-v1.png",
+        "sha256": "2f5f68c373bdb93fe333a33e5f95c4ca7ba91af89dc7058a7ce6ff70337bd582",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Tinnis",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Tinnis",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Tinnis",
+          "published_value": "31 degrees12 minutes N,32 degrees14 minutes E; coarse island city reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Coarse published island point. Sources differ on early-12th-century decline versus final evacuation1227; degree of occupation in1180 uncertain. Treat inhabited buildings as provisional reconstruction."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "delta"
+        ],
+        "map_region": "delta",
+        "historical_name": "Tinnis",
+        "anchor_normalized": [
+          0.5,
+          0.9626436781609196
+        ],
+        "sheet_anchor_px": [
+          2498.067,
+          10313.694
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 348.0,
+        "top_left_sheet_px": [
+          2242.067,
+          9978.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bilbeis-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.55917,
+          30.42167
+        ]
+      },
+      "properties": {
+        "sprite_id": "bilbeis-1180-v1",
+        "site_group": "bilbeis",
+        "name": "Bilbeis",
+        "asset": "data/sprites/greece-egypt-1180-batch02/bilbeis-1180-v1.png",
+        "sha256": "f58dd2f4bbebda7b7d58bb01bb34f2becd4ce6f820519224b993594270c1732e",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Bilbeis",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Bilbeis",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Bilbeis",
+          "published_value": "30.42167 N,31.55917 E; infobox city point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Source also provides coarse header30.417 N31.567 E; infobox city point selected, not a surveyed medieval center. Bilbeis is distinct from Pelusium; walls and recovery from1168 damage require review."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "delta"
+        ],
+        "map_region": "delta",
+        "historical_name": "Bilbays / Phelbes",
+        "anchor_normalized": [
+          0.5,
+          0.962536023054755
+        ],
+        "sheet_anchor_px": [
+          1929.855,
+          11085.139
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 347.0,
+        "top_left_sheet_px": [
+          1673.855,
+          10751.139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jaffa-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7552,
+          32.0549
+        ]
+      },
+      "properties": {
+        "sprite_id": "jaffa-1180-v1",
+        "site_group": "jaffa",
+        "name": "Jaffa",
+        "asset": "data/sprites/greece-egypt-1180-batch02/jaffa-1180-v1.png",
+        "sha256": "813d4563d69b245e923b6cc2b5c6ce0b4c0697b16fd7ca905752e194beb7953c",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Jaffa",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://www.getty.edu/vow/TGNFullDisplay?english=&find=&nation=&place=&subjectid=8713916",
+        "coordinate_evidence": {
+          "url": "https://www.getty.edu/vow/TGNFullDisplay?english=&find=&nation=&place=&subjectid=8713916",
+          "published_value": "32.0549 N,34.7552 E; Old Jaffa neighborhood point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "New generated variant, alongside recovered archive Jaffa. Harbor rocks, summit fortress and church forms are schematic; Old Jaffa point, not surveyed1180 extent."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Jaffa / Yafa",
+        "anchor_normalized": [
+          0.5,
+          0.9621542940320232
+        ],
+        "sheet_anchor_px": [
+          6223.828,
+          10803.361
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 343.5,
+        "top_left_sheet_px": [
+          5967.828,
+          10472.861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "methoni-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.70529,
+          36.81705
+        ]
+      },
+      "properties": {
+        "sprite_id": "methoni-1180-v1",
+        "site_group": "methoni",
+        "name": "Methoni",
+        "asset": "data/sprites/greece-egypt-1180-batch03/methoni-1180-v1.png",
+        "sha256": "e7d9531466fe730f1c345e37cf9a8fdd869399465b5b47178d3b9d04b432791b",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Methoni",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://historica.unibo.it/entities/place/0bc0bdd7-4624-4b25-afe0-05cc08c7deb3",
+        "coordinate_evidence": {
+          "url": "https://historica.unibo.it/entities/place/0bc0bdd7-4624-4b25-afe0-05cc08c7deb3",
+          "published_value": "36.81705 N,21.70529 E; castle/settlement promontory reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published castle point locates medieval promontory, not1180 enclosure. Later Venetian walls, stone bridge and Ottoman Bourtzi excluded; quay, defenses and houses remain interpretive."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Methone / Modon",
+        "anchor_normalized": [
+          0.5,
+          0.962536023054755
+        ],
+        "sheet_anchor_px": [
+          1021.672,
+          3085.706
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 347.0,
+        "top_left_sheet_px": [
+          765.672,
+          2751.706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "koroni-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9628972,
+          36.7948917
+        ]
+      },
+      "properties": {
+        "sprite_id": "koroni-1180-v1",
+        "site_group": "koroni",
+        "name": "Koroni",
+        "asset": "data/sprites/greece-egypt-1180-batch03/koroni-1180-v1.png",
+        "sha256": "231ab8659bbbcc3bf805361e28dd970aab02c30219a9a3abed4a88a38182ce51",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Koroni",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Koroni",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Koroni",
+          "published_value": "36.7948917 N,21.9628972 E; town reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Modern Koroni urban point identifies medieval settlement, not ancient Koroni at Petalidi. Byzantine wall circuit, heights and harbor layout are not surveyed; later Venetian fortress excluded."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Korone",
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "sheet_anchor_px": [
+          1143.823,
+          3102.994
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 350.0,
+        "top_left_sheet_px": [
+          887.823,
+          2765.994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "andravida-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.267,
+          37.9
+        ]
+      },
+      "properties": {
+        "sprite_id": "andravida-1180-v1",
+        "site_group": "andravida",
+        "name": "Andravida",
+        "asset": "data/sprites/greece-egypt-1180-batch03/andravida-1180-v1.png",
+        "sha256": "ca6857c812751cd55eda57b69b27e0c25d97b4ec7187ee912073e2da5d7bb83d",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Andravida",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Andravida",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Andravida",
+          "published_value": "37.900 N,21.267 E; coarse town point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Coarse settlement reference point; no surviving pre1204 monuments identified in source. Reconstructed earlier unfortified town. No Gothic Hagia Sophia or Chlemoutsi intended; house and church forms hypothetical."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Andravida",
+        "anchor_normalized": [
+          0.5,
+          0.962043795620438
+        ],
+        "sheet_anchor_px": [
+          838.866,
+          2437.062
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 342.5,
+        "top_left_sheet_px": [
+          582.866,
+          2107.562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chania-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.016667,
+          35.516667
+        ]
+      },
+      "properties": {
+        "sprite_id": "chania-1180-v1",
+        "site_group": "chania",
+        "name": "Chania",
+        "asset": "data/sprites/greece-egypt-1180-batch03/chania-1180-v1.png",
+        "sha256": "24e41d3a94361f51d0044b71e8527f13d9691394fb0dcdbc704c23a6ae5b63f7",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Chania",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://www.getty.edu/cona/CONAFullSubject.aspx?subid=700082990",
+        "coordinate_evidence": {
+          "url": "https://www.getty.edu/cona/CONAFullSubject.aspx?subid=700082990",
+          "published_value": "35.516667 N,24.016667 E; Kastelli Hill reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Getty coarse Kastelli reference differs from more precise gazetteer hill points. Medieval settlement intensity and extent uncertain; small Byzantine enclosure intended. Venetian1252 redevelopment and harbor works excluded."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Kydonia",
+        "anchor_normalized": [
+          0.5,
+          0.9629629629629629
+        ],
+        "sheet_anchor_px": [
+          2113.691,
+          3881.19
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 351.0,
+        "top_left_sheet_px": [
+          1857.691,
+          3543.19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rethymno-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.47389,
+          35.36889
+        ]
+      },
+      "properties": {
+        "sprite_id": "rethymno-1180-v1",
+        "site_group": "rethymno",
+        "name": "Rethymno",
+        "asset": "data/sprites/greece-egypt-1180-batch03/rethymno-1180-v1.png",
+        "sha256": "70c7c54281bac326b756e9a13e6ac70ea025080798076dbd884c38cd8b2b796f",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Rethymno",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Rethymno",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Rethymno",
+          "published_value": "35.36889 N,24.47389 E; urban reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Representative city point, not a surveyed Byzantine footprint. Earlier smaller settlement reconstructed; Venetian Fortezza1573-1580, fountain, loggia and later lighthouse excluded. Byzantine walls and harbor schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Rithymna / Rethemnon",
+        "anchor_normalized": [
+          0.5,
+          0.9669631512071156
+        ],
+        "sheet_anchor_px": [
+          2334.663,
+          3970.545
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 393.5,
+        "top_left_sheet_px": [
+          2078.663,
+          3590.045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "suez-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.55,
+          29.966667
+        ]
+      },
+      "properties": {
+        "sprite_id": "suez-1180-v1",
+        "site_group": "suez",
+        "name": "Suez",
+        "asset": "data/sprites/greece-egypt-1180-batch03/suez-1180-v1.png",
+        "sha256": "f106c94a58873565e4affca341fa4a15653fd744744198d9ad41b19c96393141",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Suez",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://geographic.org/geographic_names/name.php?c=egypt&fid=1627&uni=-448369",
+        "coordinate_evidence": {
+          "url": "https://geographic.org/geographic_names/name.php?c=egypt&fid=1627&uni=-448369",
+          "published_value": "29.966667 N,32.55 E; NGA-derived modern Suez city point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Coarse modern Suez point is a provisional city-region anchor, not surveyed medieval al-Suways. Do not conflate nearby Qulzum archaeological site. Al-Idrisi describes both settlements as mostly destroyed; surviving1180 occupation uncertain. No canal or flourishing fortified port intended."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "delta"
+        ],
+        "map_region": "delta",
+        "historical_name": "al-Suways",
+        "anchor_normalized": [
+          0.5,
+          0.9650537634408602
+        ],
+        "sheet_anchor_px": [
+          2782.167,
+          11526.475
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 372.0,
+        "top_left_sheet_px": [
+          2526.167,
+          11167.475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nafpaktos-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.83056,
+          38.39389
+        ]
+      },
+      "properties": {
+        "sprite_id": "nafpaktos-1180-v1",
+        "site_group": "nafpaktos",
+        "name": "Nafpaktos",
+        "asset": "data/sprites/greece-egypt-1180-batch04/nafpaktos-1180-v1.png",
+        "sha256": "8522d0f57ca116126bde28feca982a5cd1f49993f555fb6622548106cc4e9e85",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Nafpaktos",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Nafpaktos",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Nafpaktos",
+          "published_value": "38.39389 N,21.83056 E; city reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published city point, not surveyed harbor gate. Surviving stepped wall circuit mixes phases; upper castle, harbor and episcopal buildings are schematic, with later Venetian/Ottoman features excluded."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Naupaktos",
+        "anchor_normalized": [
+          0.5,
+          0.9626436781609196
+        ],
+        "sheet_anchor_px": [
+          1113.079,
+          2154.558
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 348.0,
+        "top_left_sheet_px": [
+          857.079,
+          1819.558
+        ],
+        "source_site_id": "CP-109"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "monemvasia-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.05556,
+          36.68778
+        ]
+      },
+      "properties": {
+        "sprite_id": "monemvasia-1180-v1",
+        "site_group": "monemvasia",
+        "name": "Monemvasia",
+        "asset": "data/sprites/greece-egypt-1180-batch04/monemvasia-1180-v1.png",
+        "sha256": "123cd5f679fe0d1dd199d6d1d80abc5726f0507e3b69abde5f667ee3577745c9",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Monemvasia",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Monemvasia",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Monemvasia",
+          "published_value": "36.68778 N,23.05556 E; rock-town reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published town point, not surveyed1180 footprint. Rock, upper enclosure, lower-town density, causeway and church silhouettes are interpretive; later fortification phases excluded."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Monemvasia",
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "sheet_anchor_px": [
+          1662.694,
+          3180.34
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 350.0,
+        "top_left_sheet_px": [
+          1406.694,
+          2843.34
+        ],
+        "source_site_id": "CP-107"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "corfu-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9287,
+          39.623228
+        ]
+      },
+      "properties": {
+        "sprite_id": "corfu-1180-v1",
+        "site_group": "corfu",
+        "name": "Corfu",
+        "asset": "data/sprites/greece-egypt-1180-batch04/corfu-1180-v1.png",
+        "sha256": "2097a37c1b593e9cb8dde6d18d5c962a077026db6bb8eff5140ec3aefd99d4a8",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Corfu",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://religiousgreece.gr/en/attractions/old-fortress-corfu",
+        "coordinate_evidence": {
+          "url": "https://religiousgreece.gr/en/attractions/old-fortress-corfu",
+          "published_value": "39.623228 N,19.928700 E; Old Fortress reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Anchor on early medieval fortress peninsula, not modern town centroid. Twelfth-century tower descriptions do not establish full building layout. Later Venetian bastions, moat and British church excluded."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Korypho",
+        "anchor_normalized": [
+          0.5,
+          0.9514925373134329
+        ],
+        "sheet_anchor_px": [
+          267.22,
+          1388.159
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 268.0,
+        "top_left_sheet_px": [
+          11.22,
+          1133.159
+        ],
+        "source_site_id": "CP-110"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chios-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.137,
+          38.374
+        ]
+      },
+      "properties": {
+        "sprite_id": "chios-1180-v1",
+        "site_group": "chios",
+        "name": "Chios",
+        "asset": "data/sprites/greece-egypt-1180-batch04/chios-1180-v1.png",
+        "sha256": "77482631778288275724bd6a18b9d6f0a066fb580ff9aafbf0000e32481357b9",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Chios",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Castle_of_Chios",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Castle_of_Chios",
+          "published_value": "38.374 N,26.137 E; castle nucleus reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published castle-nucleus point; surviving walls largely reflect later Genoese and Ottoman changes. Earlier Byzantine nucleus and harbor are interpretive; later Genoese palace and bastion facades excluded."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Chios",
+        "anchor_normalized": [
+          0.5,
+          0.9617083946980854
+        ],
+        "sheet_anchor_px": [
+          3120.062,
+          2188.256
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 339.5,
+        "top_left_sheet_px": [
+          2864.062,
+          1861.756
+        ],
+        "source_site_id": "CP-124"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ascalon-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.54583,
+          31.66389
+        ]
+      },
+      "properties": {
+        "sprite_id": "ascalon-1180-v1",
+        "site_group": "ascalon",
+        "name": "Ascalon",
+        "asset": "data/sprites/greece-egypt-1180-batch04/ascalon-1180-v1.png",
+        "sha256": "cee17b372ae8be73205c81eaa8c48148e57f85658e4d33ad7d34e213f948bbc6",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Ascalon",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Ashkelon_National_Park",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Ashkelon_National_Park",
+          "published_value": "31.66389 N,34.54583 E; ancient Ascalon archaeological park reference point",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Archaeological park reference point, not modern Ashkelon center or exact medieval centroid. Semicircular landward rampart follows researched site description; gates, towers, church and reconstructed houses remain schematic. Later1192 rebuilding excluded."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Ascalon",
+        "anchor_normalized": [
+          0.5,
+          0.9610194902548725
+        ],
+        "sheet_anchor_px": [
+          5889.539,
+          11512.287
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 333.5,
+        "top_left_sheet_px": [
+          5633.539,
+          11191.787
+        ],
+        "source_site_id": "CP-004"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beirut-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.505141,
+          33.896339
+        ]
+      },
+      "properties": {
+        "sprite_id": "beirut-1180-v1",
+        "site_group": "beirut",
+        "name": "Beirut",
+        "asset": "data/sprites/greece-egypt-1180-batch04/beirut-1180-v1.png",
+        "sha256": "3822a0378728f8406e337fe7abe4a07f33d285bf71a259080ca5bc77dfad7412",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Beirut",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Saint_George_Greek_Orthodox_Cathedral",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Saint_George_Greek_Orthodox_Cathedral",
+          "published_value": "33.896339 N,35.505141 E; archaeological historic-core point at Greek Orthodox cathedral",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Historic-core archaeological reference point; it does not locate the medieval Latin cathedral shown schematically. Harbor, coastal defenses and urban extent remain interpretive. Grand13th-century Ibelin palace and later Ottoman structures excluded."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Beirut",
+        "anchor_normalized": [
+          0.5,
+          0.9618208516886931
+        ],
+        "sheet_anchor_px": [
+          7400.851,
+          7454.954
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 340.5,
+        "top_left_sheet_px": [
+          7144.851,
+          7127.454
+        ],
+        "source_site_id": "CP-008"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gaza-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.458046,
+          31.510975
+        ]
+      },
+      "properties": {
+        "sprite_id": "gaza-1180-v1",
+        "site_group": "gaza",
+        "name": "Gaza",
+        "asset": "data/sprites/greece-egypt-1180-batch04/gaza-1180-v1.png",
+        "sha256": "6a4bd1ce65195f31b31d4c1549090af2fae1787fa946ee86d38115fb072a6155",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Gaza",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://silver.kbr.be/Gaza",
+        "coordinate_evidence": {
+          "url": "https://silver.kbr.be/Gaza",
+          "published_value": "31.510975 N, 34.458046 E",
+          "surveyed": false,
+          "accessed": "2026-11-09",
+          "uncertainty_note": "Ancient Gaza reference point, not a surveyed Templar castle location."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Gadres",
+        "anchor_normalized": [
+          0.5,
+          0.9624819624819625
+        ],
+        "sheet_anchor_px": [
+          5748.809,
+          11789.24
+        ],
+        "display_width_sheet_px": 360,
+        "display_height_sheet_px": 243.633,
+        "top_left_sheet_px": [
+          5568.809,
+          11554.748
+        ],
+        "source_site_id": "CP-018"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "constantinople-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.98333333333333,
+          41.00833333333333
+        ]
+      },
+      "properties": {
+        "sprite_id": "constantinople-1180-v1",
+        "site_group": "constantinople",
+        "name": "Constantinople",
+        "asset": "data/sprites/greece-egypt-1180-constantinople/constantinople-1180-v1.png",
+        "sha256": "155cf2bd6d49f2341d0b251619718852d2ae90422a375c5982b9e63ec0c8315f",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Constantinople",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": {
+          "required": true,
+          "priority": "high",
+          "status": "approved-placeholder-awaiting-replacement",
+          "keep_current_placement": true,
+          "approval_authority": "User: Approve for now, markup for future replacement; 2026-11-08",
+          "reason": "Recognizable schematic city illustration, not a verified 1180 reconstruction.",
+          "acceptance_criteria": [
+            "Ground peninsula outline and major monuments in a cited historical plan.",
+            "Correct Hippodrome orientation, palace condition, land-wall system and Hagia Sophia proportions.",
+            "Preserve double-size display width 1024 atlas pixels and transparent padding.",
+            "Coordinate separate north-bank and Asian-shore sprites without merging shores, covering waterways or implying bridges."
+          ]
+        },
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/356/maps/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/356/maps/",
+          "published_value": "Sultanahmet component N41 0 30 E28 58 60; converted exactly from published DMS",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Representative Sultanahmet reference point, not a surveyed medieval city centroid or sprite footprint. Schematic bottom-center visual anchor; peninsula orientation is illustrative."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "aegean"
+        ],
+        "map_region": "aegean",
+        "historical_name": "Kōnstantinoupolis",
+        "anchor_normalized": [
+          0.5,
+          0.9516728624535316
+        ],
+        "sheet_anchor_px": [
+          4379.664,
+          591.914
+        ],
+        "display_width_sheet_px": 1024,
+        "display_height_sheet_px": 538.0,
+        "top_left_sheet_px": [
+          3867.664,
+          79.914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kyrenia-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.322222,
+          35.341389
+        ]
+      },
+      "properties": {
+        "sprite_id": "kyrenia-1180-v1",
+        "site_group": "kyrenia",
+        "name": "Kyrenia",
+        "asset": "data/sprites/greece-egypt-1180-cyprus-egypt/kyrenia-1180-v1.png",
+        "sha256": "1e6e3b80162d74f3349f696080dbd4cb3e019482709a67ecb8f197febe8b03cb",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Kyrenia",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Kyrenia_Castle",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Kyrenia_Castle",
+          "published_value": "35°20′29″N 33°19′20″E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Keryneia",
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "sheet_anchor_px": [
+          4147.24,
+          4772.788
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 350.0,
+        "top_left_sheet_px": [
+          3891.24,
+          4435.788
+        ],
+        "source_site_id": "CP-082"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nicosia-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.365,
+          35.1725
+        ]
+      },
+      "properties": {
+        "sprite_id": "nicosia-1180-v1",
+        "site_group": "nicosia",
+        "name": "Nicosia",
+        "asset": "data/sprites/greece-egypt-1180-cyprus-egypt/nicosia-1180-v1.png",
+        "sha256": "548a9ec36ec03ccda3be4746dfa7f52890f49c116eabc41729e45eee3ba0c95c",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Nicosia",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Nicosia",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Nicosia",
+          "published_value": "35°10′21″N 33°21′54″E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Lefkosia",
+        "anchor_normalized": [
+          0.5,
+          0.9629629629629629
+        ],
+        "sheet_anchor_px": [
+          4203.705,
+          5082.437
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 351.0,
+        "top_left_sheet_px": [
+          3947.705,
+          4744.437
+        ],
+        "source_site_id": "CP-080"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "st-hilarion-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2808,
+          35.3123
+        ]
+      },
+      "properties": {
+        "sprite_id": "st-hilarion-1180-v1",
+        "site_group": "st-hilarion",
+        "name": "St Hilarion",
+        "asset": "data/sprites/greece-egypt-1180-cyprus-egypt/st-hilarion-1180-v1.png",
+        "sha256": "504dfc856c27dc4a645518b759406c4b9fef50bb1157dc6802a4a1556558d48b",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "St Hilarion",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Saint_Hilarion_Castle",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Saint_Hilarion_Castle",
+          "published_value": "33.2808°E, 35.3123°N",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Dieudamour",
+        "anchor_normalized": [
+          0.5,
+          0.9623733719247467
+        ],
+        "sheet_anchor_px": [
+          4083.993,
+          4824.312
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 345.5,
+        "top_left_sheet_px": [
+          3827.993,
+          4491.812
+        ],
+        "source_site_id": "CP-081"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "st-catherines-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.975,
+          28.556
+        ]
+      },
+      "properties": {
+        "sprite_id": "st-catherines-1180-v1",
+        "site_group": "st-catherines",
+        "name": "St Catherine's",
+        "asset": "data/sprites/greece-egypt-1180-cyprus-egypt/st-catherines-1180-v1.png",
+        "sha256": "4675098f8f77047899f70437bb0ae483f8b2920b764884788d12de9a1805470f",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "St Catherine's",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/document/217511",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/217511",
+          "published_value": "28.556°N, 33.975°E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "religious-sites",
+          "delta"
+        ],
+        "map_region": "delta",
+        "historical_name": "Sainte-Katherine",
+        "anchor_normalized": [
+          0.5,
+          0.9620991253644315
+        ],
+        "sheet_anchor_px": [
+          4040.804,
+          12893.415
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 343.0,
+        "top_left_sheet_px": [
+          3784.804,
+          12563.415
+        ],
+        "source_site_id": "CP-147"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "giza-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.134722222222223,
+          29.977777777777778
+        ]
+      },
+      "properties": {
+        "sprite_id": "giza-1180-v1",
+        "site_group": "giza",
+        "name": "Giza",
+        "asset": "data/sprites/greece-egypt-1180-cyprus-egypt/giza-1180-v1.png",
+        "sha256": "fa7257a75959718ffc7308df719e3b1ce7be0b950d5fa54fbb27b5a43d17244b",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Giza",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/document/104639",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/104639",
+          "published_value": "29°58′40″N 31°8′5″E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "landmarks",
+          "delta"
+        ],
+        "map_region": "delta",
+        "historical_name": "Pyramides",
+        "anchor_normalized": [
+          0.5,
+          0.9622093023255814
+        ],
+        "sheet_anchor_px": [
+          1567.353,
+          11523.569
+        ],
+        "display_width_sheet_px": 400,
+        "display_height_sheet_px": 268.75,
+        "top_left_sheet_px": [
+          1367.353,
+          11264.975
+        ],
+        "source_site_id": "CP-142"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wadi-al-natrun-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.47611,
+          30.29139
+        ]
+      },
+      "properties": {
+        "sprite_id": "wadi-al-natrun-1180-v1",
+        "site_group": "wadi-al-natrun",
+        "name": "Wadi El Natrun",
+        "asset": "data/sprites/greece-egypt-1180-cyprus-egypt/wadi-al-natrun-1180-v1.png",
+        "sha256": "902a6fe50b5e35c97ae27c07075cc3f037da2affc76f1617ed6a2cdc74c6c96e",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Wadi El Natrun",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Monastery_of_Saint_Macarius_the_Great",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Monastery_of_Saint_Macarius_the_Great",
+          "published_value": "30°17′29″N 30°28′34″E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "religious-sites",
+          "delta"
+        ],
+        "map_region": "delta",
+        "historical_name": "Dayr Abu Maqar",
+        "anchor_normalized": [
+          0.5,
+          0.9630156472261735
+        ],
+        "sheet_anchor_px": [
+          1003.803,
+          11212.899
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 351.5,
+        "top_left_sheet_px": [
+          747.803,
+          10874.399
+        ],
+        "source_site_id": "CP-141"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beaufort-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.531944,
+          33.324167
+        ]
+      },
+      "properties": {
+        "sprite_id": "beaufort-1180-v1",
+        "site_group": "beaufort",
+        "name": "Beaufort",
+        "asset": "data/sprites/greece-egypt-1180-mount-amel/beaufort-1180-v1.png",
+        "sha256": "e553a949b732b75d4d35a353f7572800dc8d355554084872c87f3e9d9d9954e6",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Beaufort",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://geographic.org/geographic_names/name.php?c=lebanon&fid=3643&uni=-1160992",
+        "coordinate_evidence": {
+          "url": "https://geographic.org/geographic_names/name.php?c=lebanon&fid=3643&uni=-1160992",
+          "published_value": "33.324167°N, 35.531944°E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Belfort",
+        "anchor_normalized": [
+          0.5,
+          0.9627507163323782
+        ],
+        "sheet_anchor_px": [
+          7437.928,
+          8498.258
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 349.0,
+        "top_left_sheet_px": [
+          7181.928,
+          8162.258
+        ],
+        "source_site_id": "CP-013"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toron-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.412279,
+          33.19543
+        ]
+      },
+      "properties": {
+        "sprite_id": "toron-1180-v1",
+        "site_group": "toron",
+        "name": "Tibnin",
+        "asset": "data/sprites/greece-egypt-1180-mount-amel/toron-1180-v1.png",
+        "sha256": "01e50bdf7bee6f203254a5f04482113c7859a5c7523dac4bc395d3a4a160badb",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Tibnin",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://www.hep-web.org/projects/202410ReportCultureHeritageDestructionLebanon/Report-02-Cultural-Heritage-Destruction-Lebanon-English-Nov-2024.pdf",
+        "coordinate_evidence": {
+          "url": "https://www.hep-web.org/projects/202410ReportCultureHeritageDestructionLebanon/Report-02-Cultural-Heritage-Destruction-Lebanon-English-Nov-2024.pdf",
+          "published_value": "33.19543°N, 35.412279°E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Toron",
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "sheet_anchor_px": [
+          7253.691,
+          8732.195
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 350.0,
+        "top_left_sheet_px": [
+          6997.691,
+          8395.195
+        ],
+        "source_site_id": "CP-033"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bethlehem-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2075,
+          31.70435277777778
+        ]
+      },
+      "properties": {
+        "sprite_id": "bethlehem-1180-v1",
+        "site_group": "bethlehem",
+        "name": "Bethlehem",
+        "asset": "data/sprites/greece-egypt-1180-small-settlements/bethlehem-1180-v1.png",
+        "sha256": "f2d6b2d0a24209649cf6eaa2c551cdda796c9542cb8c3bec56fbcedfe3aa78c7",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Bethlehem",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/list/1433/maps/",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/list/1433/maps/",
+          "published_value": "N31 42 15.67 E35 12 27",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Bethleem",
+        "anchor_normalized": [
+          0.5,
+          0.9626436781609196
+        ],
+        "sheet_anchor_px": [
+          6921.808,
+          11448.625
+        ],
+        "display_width_sheet_px": 320,
+        "display_height_sheet_px": 217.5,
+        "top_left_sheet_px": [
+          6761.808,
+          11239.25
+        ],
+        "source_site_id": "CP-025"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "batroun-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.66429,
+          34.24932
+        ]
+      },
+      "properties": {
+        "sprite_id": "batroun-1180-v1",
+        "site_group": "batroun",
+        "name": "Batroun",
+        "asset": "data/sprites/greece-egypt-1180-small-settlements/batroun-1180-v1.png",
+        "sha256": "ccd4c4e8757983b0a86f492177a7430d183502139b462b038237ba85ca09dca8",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Batroun",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/en/tentativelists/6428",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/en/tentativelists/6428",
+          "published_value": "34.24932 N, 35.664290 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Botron",
+        "anchor_normalized": [
+          0.5,
+          0.962536023054755
+        ],
+        "sheet_anchor_px": [
+          7644.283,
+          6812.046
+        ],
+        "display_width_sheet_px": 320,
+        "display_height_sheet_px": 216.875,
+        "top_left_sheet_px": [
+          7484.283,
+          6603.296
+        ],
+        "source_site_id": "CP-067"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "larnaca-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63479,
+          34.9115
+        ]
+      },
+      "properties": {
+        "sprite_id": "larnaca-1180-v1",
+        "site_group": "larnaca",
+        "name": "Larnaca",
+        "asset": "data/sprites/greece-egypt-1180-small-settlements/larnaca-1180-v1.png",
+        "sha256": "d77a53733d5bb710870d0bacc7763ab188c2bae18944ddbf18619bdd50c7b696",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Larnaca",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://inherit-eu.com/trail-detail/downloads/CY-Trail-4-Thombs-EN-final.pdf",
+        "coordinate_evidence": {
+          "url": "https://inherit-eu.com/trail-detail/downloads/CY-Trail-4-Thombs-EN-final.pdf",
+          "published_value": "34.9115 N, 33.63479 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Salines",
+        "anchor_normalized": [
+          0.5,
+          0.9632248939179632
+        ],
+        "sheet_anchor_px": [
+          4597.465,
+          5567.787
+        ],
+        "display_width_sheet_px": 320,
+        "display_height_sheet_px": 220.938,
+        "top_left_sheet_px": [
+          4437.465,
+          5354.975
+        ],
+        "source_site_id": "CP-088"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beit-guvrin-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89555555555555,
+          31.6075
+        ]
+      },
+      "properties": {
+        "sprite_id": "beit-guvrin-1180-v1",
+        "site_group": "beit-guvrin",
+        "name": "Beit Guvrin",
+        "asset": "data/sprites/greece-egypt-1180-small-settlements-02/beit-guvrin-1180-v1.png",
+        "sha256": "d85da7eb9e545b6434a17286c8fb2452d964c83c78b13da8ac6ed81daa059e9a",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Beit Guvrin",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://slought.org/media/files/s584-2016-09-07-erasures_newspaper.pdf",
+        "coordinate_evidence": {
+          "url": "https://slought.org/media/files/s584-2016-09-07-erasures_newspaper.pdf",
+          "published_value": "31°36′27″N 34°53′44″E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Representative published site point. The settlement footprint is schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Bethgibelin",
+        "anchor_normalized": [
+          0.5,
+          0.962589928057554
+        ],
+        "sheet_anchor_px": [
+          6433.889,
+          11621.255
+        ],
+        "display_width_sheet_px": 320,
+        "display_height_sheet_px": 217.188,
+        "top_left_sheet_px": [
+          6273.889,
+          11412.193
+        ],
+        "source_site_id": "CP-022"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hebron-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.109,
+          31.524
+        ]
+      },
+      "properties": {
+        "sprite_id": "hebron-1180-v1",
+        "site_group": "hebron",
+        "name": "Hebron",
+        "asset": "data/sprites/greece-egypt-1180-small-settlements-02/hebron-1180-v1.png",
+        "sha256": "bdbdefcae8bbefa33989475d418c3fe58b0f65eade66ceed43dc6a73aed5075f",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Hebron",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/document/218007",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/218007",
+          "published_value": "31.524 N, 35.109 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Representative published site point. The settlement footprint is schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Saint-Abraham",
+        "anchor_normalized": [
+          0.5,
+          0.9630156472261735
+        ],
+        "sheet_anchor_px": [
+          6765.787,
+          11776.362
+        ],
+        "display_width_sheet_px": 320,
+        "display_height_sheet_px": 219.688,
+        "top_left_sheet_px": [
+          6605.787,
+          11564.799
+        ],
+        "source_site_id": "CP-026"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "limassol-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.04163,
+          34.6722
+        ]
+      },
+      "properties": {
+        "sprite_id": "limassol-1180-v1",
+        "site_group": "limassol",
+        "name": "Limassol",
+        "asset": "data/sprites/greece-egypt-1180-small-settlements-02/limassol-1180-v1.png",
+        "sha256": "476b5c3c38da2714ec2b2cd42f8cbbc4d7305caca04276dcc95ef9be8e64784e",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Limassol",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/lemesos-limassol-medieval-castle/",
+        "coordinate_evidence": {
+          "url": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/lemesos-limassol-medieval-castle/",
+          "published_value": "34.6722 N, 33.04163 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Representative published site point. The settlement footprint is schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Limeso",
+        "anchor_normalized": [
+          0.5,
+          0.9630156472261735
+        ],
+        "sheet_anchor_px": [
+          3694.424,
+          5982.274
+        ],
+        "display_width_sheet_px": 320,
+        "display_height_sheet_px": 219.688,
+        "top_left_sheet_px": [
+          3534.424,
+          5770.711
+        ],
+        "source_site_id": "CP-085"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "saone-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.035,
+          35.62138888888889
+        ]
+      },
+      "properties": {
+        "sprite_id": "saone-1180-v1",
+        "site_group": "saone",
+        "name": "Saône (Sahyun)",
+        "asset": "data/sprites/greece-egypt-fortresses-03/saone-1180-v1.png",
+        "sha256": "274bf7e2b6739feccf52d27ceaaf16527acb4c102a87754e452ac26d6f1c4019",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Saône (Sahyun)",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://whc.unesco.org/document/168916",
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/168916",
+          "published_value": "N35 37 17 E36 02 06",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint is schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Saône",
+        "anchor_normalized": [
+          0.5,
+          0.9516728624535316
+        ],
+        "sheet_anchor_px": [
+          8202.415,
+          4309.208
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 269.0,
+        "top_left_sheet_px": [
+          7946.415,
+          4053.208
+        ],
+        "source_site_id": "CP-053"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "margat-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.949167,
+          35.151111
+        ]
+      },
+      "properties": {
+        "sprite_id": "margat-1180-v1",
+        "site_group": "margat",
+        "name": "Margat",
+        "asset": "data/sprites/greece-egypt-fortresses-03/margat-1180-v1.png",
+        "sha256": "9c5c2c691a7435c665085084e7af1b17d68995356c54a42641d5625723f1f638",
+        "preferred": true,
+        "preferred_1180": true,
+        "display_title": "Margat",
+        "construction": null,
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1180,
+          "through_year": 1180,
+          "basis": "circa-1180 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Margat",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Margat",
+          "published_value": "35.151111 N, 35.949167 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint is schematic."
+        },
+        "approval_for_placement": true,
+        "period_1180_eligible": true,
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Margat",
+        "anchor_normalized": [
+          0.5,
+          0.9626972740315638
+        ],
+        "sheet_anchor_px": [
+          8074.899,
+          5167.534
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 348.5,
+        "top_left_sheet_px": [
+          7818.899,
+          4832.034
+        ],
+        "source_site_id": "CP-050"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ajloun-1190-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7272806,
+          32.3252083
+        ]
+      },
+      "properties": {
+        "sprite_id": "ajloun-1190-v1",
+        "site_group": "ajloun",
+        "name": "Ajloun (begun 1184)",
+        "asset": "data/sprites/greece-egypt-fortresses-03/ajloun-1190-v1.png",
+        "sha256": "61b31653f6280dc7808dde199a4e4fcc9c4ef9e448624f5917557132e3474278",
+        "preferred": true,
+        "preferred_1180": false,
+        "display_title": "Ajloun (begun 1184)",
+        "construction": {
+          "started_year": 1184,
+          "basis": "Jordan Ministry of Interior",
+          "reference": "https://moi.gov.jo/EN/ListDetails/Governorates_and_Sectors/57/11"
+        },
+        "approval": "approved-provisional",
+        "repaint_later": true,
+        "historical_accuracy_certified": false,
+        "replacement_review": null,
+        "placement_view": "atlas",
+        "availability": {
+          "from_year": 1190,
+          "through_year": 1190,
+          "basis": "circa-1190 depiction. Political occupation is tracked separately."
+        },
+        "coordinates_surveyed": false,
+        "coordinate_source_checked": true,
+        "coordinate_source": "https://en.wikipedia.org/wiki/Ajloun_Castle",
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Ajloun_Castle",
+          "published_value": "32.3252083 N, 35.7272806 E",
+          "surveyed": false,
+          "accessed": "2026-11-08",
+          "uncertainty_note": "Published site reference point. The painted footprint is schematic."
+        },
+        "approval_for_placement": false,
+        "period_1180_eligible": false,
+        "map_layers": [
+          "sprites-later-period",
+          "fortifications",
+          "main"
+        ],
+        "map_region": "main",
+        "historical_name": "Ajloun",
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "sheet_anchor_px": [
+          7733.869,
+          10320.101
+        ],
+        "display_width_sheet_px": 512,
+        "display_height_sheet_px": 350.0,
+        "top_left_sheet_px": [
+          7477.869,
+          9983.101
+        ],
+        "source_site_id": "CP-017"
+      }
+    }
+  ]
+}

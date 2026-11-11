@@ -1,0 +1,43 @@
+{
+  "source_places": 147,
+  "source_events": 34,
+  "source_island_labels": 12,
+  "source_roads": 9,
+  "locations_total": 217,
+  "landscape_total": 193,
+  "location_status_counts": {
+    "existing_source_definition": 181,
+    "proposed_addition": 36
+  },
+  "landscape_category_counts": {
+    "island_label": 12,
+    "road": 9,
+    "river": 9,
+    "terrain_zone": 80,
+    "political_label": 13,
+    "valley": 7,
+    "wetland_plain": 1,
+    "wetland_valley": 1,
+    "gorge": 2,
+    "depression": 1,
+    "mountain_range": 10,
+    "mountain": 2,
+    "uplands": 3,
+    "plateau": 1,
+    "plain": 3,
+    "pass_corridor": 1,
+    "desert": 3,
+    "steppe": 1,
+    "floodplain": 1,
+    "wetland": 1,
+    "lake": 2,
+    "sea": 3,
+    "strait": 2,
+    "gulf": 2,
+    "river_network": 1,
+    "historic_woodland": 1,
+    "route_corridor": 10,
+    "restored_lake": 6,
+    "base_dataset": 5
+  }
+}

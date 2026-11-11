@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-08",
+  "conversation_id": "6aef6198-8f90-83e8-843c-1799469bf02e",
+  "recovery_complete": true,
+  "requested_originals": [
+    {
+      "path": "/mnt/data/crusader_sprite_library_1180_batch.zip",
+      "status": "recovered",
+      "prior_recovery_note": "Chat text includes sandbox link, but read_thread returned no attachments; /mnt/data does not exist on this host. This is not the same as the 16 independently recovered repository PNGs."
+    },
+    {
+      "path": "/mnt/data/crusader_sprite_library_1180_batch/manifest.json",
+      "status": "recovered"
+    },
+    {
+      "name": "prior standalone Krak des Chevaliers",
+      "status": "recovered",
+      "asset": "png/krak-des-chevaliers-standalone.png"
+    },
+    {
+      "name": "prior standalone Belvoir, Kerak, Montréal/Shobak, Montfort",
+      "status": "recovered",
+      "prior_recovery_note": "Sheet crops and Belvoir v2 are present; no evidence identifies these as the earlier standalone originals."
+    },
+    {
+      "name": "eight-city/castle sprite sheet",
+      "status": "recovered",
+      "asset": "sources/levant-atlas.png"
+    }
+  ],
+  "searched": [
+    "Referenced chat: all available turns, no attachments exposed",
+    "Workspace sprite-library and historical-batch-01",
+    "Documents/ChatGPT and /private/tmp filenames",
+    "Freshly fetched repository branch trees: main, assets/crusader-sprite-library, assets/historical-batch-01, assets/provisional-sprite-expansion, data/map-content-manifests"
+  ],
+  "scope": "All supplied ZIP members preserved unchanged; operational cleanup, approval, geographic anchors and period flags are recorded separately.",
+  "next_recovery_step": null,
+  "source_zip": "/Users/darylwallace/Downloads/crusader_sprite_library_1180_batch.zip",
+  "source_zip_sha256": "6867d4c3a98a20066fe0bf24e470138e3a0213ba667a654a7a346233a8da7872",
+  "recovered_directory": "archive-1180",
+  "original_member_count": 46,
+  "primary_sprite_count": 16,
+  "alternate_sprite_count": 24,
+  "reference_sheet_count": 4,
+  "verification": "Every extracted original compared byte-for-byte with the supplied ZIP; original metadata preserved as data, not instructions.",
+  "import_manifest": "archive-1180/imported.json",
+  "original_member_hashes": "archive-1180/member-hashes.json"
+}

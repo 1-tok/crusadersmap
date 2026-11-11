@@ -1,0 +1,78 @@
+{
+  "alpha_floor": 16,
+  "minimum_component_pixels": 20,
+  "sprites": [
+    {
+      "id": "CITY-001",
+      "nonzero_alpha_before": 126246,
+      "nonzero_alpha_after": 98630,
+      "transparent_padding_px": 8,
+      "visual_review": "reviewed-light-and-dark",
+      "source_crop_touches_content": false
+    },
+    {
+      "id": "CITY-002",
+      "nonzero_alpha_before": 125087,
+      "nonzero_alpha_after": 100313,
+      "transparent_padding_px": 8,
+      "visual_review": "reviewed-light-and-dark",
+      "source_crop_touches_content": true
+    },
+    {
+      "id": "CITY-003",
+      "nonzero_alpha_before": 142322,
+      "nonzero_alpha_after": 119931,
+      "transparent_padding_px": 8,
+      "visual_review": "reviewed-light-and-dark",
+      "source_crop_touches_content": true
+    },
+    {
+      "id": "CITY-004",
+      "nonzero_alpha_before": 107051,
+      "nonzero_alpha_after": 84897,
+      "transparent_padding_px": 8,
+      "visual_review": "reviewed-light-and-dark",
+      "source_crop_touches_content": false
+    },
+    {
+      "id": "CAST-001",
+      "nonzero_alpha_before": 136750,
+      "nonzero_alpha_after": 113185,
+      "transparent_padding_px": 8,
+      "visual_review": "reviewed-light-and-dark",
+      "source_crop_touches_content": false
+    },
+    {
+      "id": "CAST-002",
+      "nonzero_alpha_before": 120884,
+      "nonzero_alpha_after": 96989,
+      "transparent_padding_px": 8,
+      "visual_review": "reviewed-light-and-dark",
+      "source_crop_touches_content": false
+    },
+    {
+      "id": "CAST-003",
+      "nonzero_alpha_before": 112185,
+      "nonzero_alpha_after": 93820,
+      "transparent_padding_px": 8,
+      "visual_review": "reviewed-light-and-dark",
+      "source_crop_touches_content": false
+    },
+    {
+      "id": "CAST-004",
+      "nonzero_alpha_before": 105012,
+      "nonzero_alpha_after": 89596,
+      "transparent_padding_px": 8,
+      "visual_review": "reviewed-light-and-dark",
+      "source_crop_touches_content": false
+    },
+    {
+      "id": "CAST-001-STANDALONE",
+      "nonzero_alpha_before": 1105366,
+      "nonzero_alpha_after": 1083066,
+      "transparent_padding_px": 8,
+      "visual_review": "reviewed-light-and-dark",
+      "source_crop_touches_content": false
+    }
+  ]
+}

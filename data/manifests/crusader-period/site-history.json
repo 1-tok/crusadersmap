@@ -1,0 +1,4854 @@
+{
+  "schema_version": 1,
+  "title": "Crusader Period",
+  "from_year": 1095,
+  "through_year": 1291,
+  "subtitle": "Selected occupations and recorded sieges",
+  "coverage": {
+    "site_records": 147,
+    "sites_with_siege_records": 39,
+    "sites_without_dated_occupation_record": 0,
+    "sites_requiring_review": 129,
+    "geographic_references_outside_period": 2
+  },
+  "historical_policy": "Selected occupations and documented sieges, not a claim of exhaustive political history. Regional context is identified explicitly. Missing siege records never mean a site was never besieged.",
+  "sites": [
+    {
+      "id": "CP-001",
+      "source_index": 0,
+      "region": "main",
+      "tier": 1,
+      "mark": "P:jerusalem",
+      "title": "Jerusalem",
+      "name": "Iherusalem",
+      "modern_name": "Jerusalem",
+      "alternate_name": "al-Quds",
+      "coordinates": [
+        35.23,
+        31.78
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1099–1187; Ayyubid 1187–1229; Frankish treaty possession 1229–1239 and 1241–1244; Khwarazmian capture 1244",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Frankish 1099 - 1187, 1229 - 1244",
+      "sieges": [
+        {
+          "period": "7 June–15 July 1099",
+          "from_year": 1099,
+          "through_year": 1099,
+          "references": [
+            "https://api.pageplace.de/preview/DT0400.9781134582723_A24624809/preview-9781134582723_A24624809.pdf"
+          ]
+        },
+        {
+          "period": "20 September–2 October 1187",
+          "from_year": 1187,
+          "through_year": 1187,
+          "references": [
+            "https://api.pageplace.de/preview/DT0400.9781134582723_A24624809/preview-9781134582723_A24624809.pdf"
+          ]
+        }
+      ],
+      "siege_label": "7 June–15 July 1099; 20 September–2 October 1187",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "The short 1239–1241 interruption is retained; treaty possession did not include every sacred precinct."
+      ],
+      "references": [
+        "https://api.pageplace.de/preview/DT0400.9781134582723_A24624809/preview-9781134582723_A24624809.pdf",
+        "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-002",
+      "source_index": 1,
+      "region": "main",
+      "tier": 1,
+      "mark": "P:acre",
+      "title": "Akko",
+      "name": "Acre",
+      "modern_name": "Akko",
+      "alternate_name": "Akka",
+      "coordinates": [
+        35.07,
+        32.92
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1104–1187; 1191–1291",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1104 - 1187, 1191 - 1291",
+      "sieges": [
+        {
+          "period": "1189–1191",
+          "from_year": 1189,
+          "through_year": 1191,
+          "references": [
+            "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en",
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ]
+        },
+        {
+          "period": "1291",
+          "from_year": 1291,
+          "through_year": 1291,
+          "references": [
+            "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en"
+          ]
+        }
+      ],
+      "siege_label": "1189–1191; 1291",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en",
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-003",
+      "source_index": 2,
+      "region": "main",
+      "tier": 1,
+      "mark": "P:tyre",
+      "title": "Tyre",
+      "name": "Sur",
+      "modern_name": "Tyre",
+      "alternate_name": "Tyr",
+      "coordinates": [
+        35.2,
+        33.27
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1124–1291",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1124 - 1291",
+      "sieges": [
+        {
+          "period": "1111–1112",
+          "from_year": 1111,
+          "through_year": 1112,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        },
+        {
+          "period": "1124",
+          "from_year": 1124,
+          "through_year": 1124,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        },
+        {
+          "period": "1187–1188",
+          "from_year": 1187,
+          "through_year": 1188,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1111–1112; 1124; 1187–1188",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-004",
+      "source_index": 3,
+      "region": "main",
+      "tier": 1,
+      "mark": "P:ascalon",
+      "title": "Ashkelon",
+      "name": "Escalone",
+      "modern_name": "Ashkelon",
+      "alternate_name": "Asqalan",
+      "coordinates": [
+        34.55,
+        31.66
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1153–1187",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1153 - 1187",
+      "sieges": [
+        {
+          "period": "1153",
+          "from_year": 1153,
+          "through_year": 1153,
+          "references": [],
+          "review_required": true,
+          "source": "Inherited BATTLES catalog; detailed siege limits require review"
+        }
+      ],
+      "siege_label": "1153",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-005",
+      "source_index": 4,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:jaffa",
+      "title": "Jaffa",
+      "name": "Japhe",
+      "modern_name": "Jaffa",
+      "alternate_name": "Yafa",
+      "coordinates": [
+        34.75,
+        32.05
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1099–1187; restored 1191; intermittent Frankish possession to Mamluk conquest 1268",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Frankish 1099 - 1268",
+      "sieges": [
+        {
+          "period": "July–August 1192 (siege and relief)",
+          "from_year": 1192,
+          "through_year": 1192,
+          "references": [
+            "https://www.academia.edu/563828/The_History_and_Archaeology_of_Jaffa_1"
+          ]
+        }
+      ],
+      "siege_label": "July–August 1192 (siege and relief)",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Do not read the outer dates as uninterrupted Frankish control."
+      ],
+      "references": [
+        "https://www.academia.edu/563828/The_History_and_Archaeology_of_Jaffa_1",
+        "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-006",
+      "source_index": 5,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:caesarea",
+      "title": "Caesarea",
+      "name": "Cesaire",
+      "modern_name": "Caesarea",
+      "alternate_name": "Qaysariyya",
+      "coordinates": [
+        34.89,
+        32.5
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1101–1187; restored 1191; later Frankish phases to Mamluk conquest 1265",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Frankish 1101 - 1265",
+      "sieges": [
+        {
+          "period": "1265",
+          "from_year": 1265,
+          "through_year": 1265,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1265",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Intervening destruction and occupation require finer local phase review."
+      ],
+      "references": [
+        "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en",
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-007",
+      "source_index": 6,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:sidon",
+      "title": "Sidon",
+      "name": "Saiete",
+      "modern_name": "Sidon",
+      "alternate_name": "Sayda",
+      "coordinates": [
+        35.37,
+        33.56
+      ],
+      "in_scope": true,
+      "occupation": "Frankish December 1110–July 1187; restored 1197–1291, with shared-control and interruption phases",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Frankish 1110 - 1291",
+      "sieges": [
+        {
+          "period": "1110",
+          "from_year": 1110,
+          "through_year": 1110,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1110",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Later condominium and short Muslim occupation phases require local dating; outer dates are not uninterrupted sole Frankish control."
+      ],
+      "references": [
+        "https://api.pageplace.de/preview/DT0400.9781000943337_A47046209/preview-9781000943337_A47046209.pdf",
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-008",
+      "source_index": 7,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:walled_town",
+      "title": "Beirut",
+      "name": "Baruth",
+      "modern_name": "Beirut",
+      "alternate_name": "Bayrut",
+      "coordinates": [
+        35.5,
+        33.9
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1110–1187; Ayyubid 1187–1197; Frankish again 1197–1291",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Frankish 1110 - 1291",
+      "sieges": [
+        {
+          "period": "February–13 May 1110",
+          "from_year": 1110,
+          "through_year": 1110,
+          "references": [
+            "https://ndl.ethernet.edu.et/bitstream/123456789/52701/1/1.Adrian%20J.Boas.pdf"
+          ]
+        },
+        {
+          "period": "1187 (eight-day siege)",
+          "from_year": 1187,
+          "through_year": 1187,
+          "references": [
+            "https://ndl.ethernet.edu.et/bitstream/123456789/52701/1/1.Adrian%20J.Boas.pdf"
+          ]
+        }
+      ],
+      "siege_label": "February–13 May 1110; 1187 (eight-day siege)",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://ndl.ethernet.edu.et/bitstream/123456789/52701/1/1.Adrian%20J.Boas.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-009",
+      "source_index": 8,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:pelerin",
+      "title": "Château Pèlerin (begun 1218)",
+      "name": "Chastel Pelerin",
+      "modern_name": "Atlit",
+      "alternate_name": "Athlith",
+      "coordinates": [
+        34.94,
+        32.69
+      ],
+      "in_scope": true,
+      "occupation": "Templar fortress 1218–1291 (construction begun 1217/1218)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Templar 1218 - 1291",
+      "sieges": [
+        {
+          "period": "1218–1220 (reported attack/siege campaigns)",
+          "from_year": 1218,
+          "through_year": 1220,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "note": "Chronicles and modern accounts differ on the individual campaign date; not a continuous two-year siege."
+        }
+      ],
+      "siege_label": "1218–1220 (reported attack/siege campaigns)",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://archeologie.culture.gouv.fr/monde/fr/atlit-cimetiere-croise",
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-010",
+      "source_index": 9,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:safed",
+      "title": "Safed",
+      "name": "Saphet",
+      "modern_name": "Safed",
+      "alternate_name": "Safad",
+      "coordinates": [
+        35.5,
+        32.96
+      ],
+      "in_scope": true,
+      "occupation": "Templar 1240–1266",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Templar 1240 - 1266",
+      "sieges": [
+        {
+          "period": "1266",
+          "from_year": 1266,
+          "through_year": 1266,
+          "references": [
+            "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en"
+          ]
+        }
+      ],
+      "siege_label": "1266",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-011",
+      "source_index": 10,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:belvoir",
+      "title": "Kokhav HaYarden",
+      "name": "Belvoir",
+      "modern_name": "Kokhav HaYarden",
+      "alternate_name": "Kawkab al-Hawa",
+      "coordinates": [
+        35.52,
+        32.6
+      ],
+      "in_scope": true,
+      "occupation": "Hospitaller 1168–January 1189; Ayyubid possession after surrender",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Hospitaller 1168 - 1189",
+      "sieges": [
+        {
+          "period": "1187–January 1189 (blockade/siege phases)",
+          "from_year": 1187,
+          "through_year": 1189,
+          "references": [
+            "https://www.academia.edu/94557124/The_occupation_of_Belvoir_by_the_Hospitallers_chronology_and_written_sources"
+          ]
+        }
+      ],
+      "siege_label": "1187–January 1189 (blockade/siege phases)",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://www.academia.edu/94557124/The_occupation_of_Belvoir_by_the_Hospitallers_chronology_and_written_sources"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-012",
+      "source_index": 11,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:montfort",
+      "title": "Montfort (begun 1226)",
+      "name": "Montfort",
+      "modern_name": "Montfort",
+      "alternate_name": "Qal'at al-Qurain",
+      "coordinates": [
+        35.24,
+        33.04
+      ],
+      "in_scope": true,
+      "occupation": "Teutonic castle 1226–1271 (construction began 1226)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Teutonic 1228 - 1271",
+      "sieges": [
+        {
+          "period": "1266",
+          "from_year": 1266,
+          "through_year": 1266,
+          "references": [
+            "https://cris.iucc.ac.il/en/publications/the-two-sieges-and-the-conquest-of-montfort/"
+          ]
+        },
+        {
+          "period": "June 1271",
+          "from_year": 1271,
+          "through_year": 1271,
+          "references": [
+            "https://moses.creighton.edu/vr/Montfort/txt/intro.html",
+            "https://cris.iucc.ac.il/en/publications/the-two-sieges-and-the-conquest-of-montfort/"
+          ]
+        }
+      ],
+      "siege_label": "1266; June 1271",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://moses.creighton.edu/vr/Montfort/txt/intro.html",
+        "https://cris.iucc.ac.il/en/publications/the-two-sieges-and-the-conquest-of-montfort/"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-013",
+      "source_index": 12,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:beaufort",
+      "title": "Arnoun",
+      "name": "Beaufort",
+      "modern_name": "Arnoun",
+      "alternate_name": "Qal'at al-Shaqif",
+      "coordinates": [
+        35.53,
+        33.32
+      ],
+      "in_scope": true,
+      "occupation": "Templar 1260–1268",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Templar 1260 - 1268",
+      "sieges": [
+        {
+          "period": "1268",
+          "from_year": 1268,
+          "through_year": 1268,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1268",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-014",
+      "source_index": 13,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:kerak",
+      "title": "Kerak",
+      "name": "Crac de Moab",
+      "modern_name": "Kerak",
+      "alternate_name": "al-Karak",
+      "coordinates": [
+        35.7,
+        31.18
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1142–1188",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1142 - 1188",
+      "sieges": [
+        {
+          "period": "1183; 1184; 1187–1188",
+          "from_year": 1183,
+          "through_year": 1188,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "note": "Three separate sieges, not one continuous siege from 1183."
+        }
+      ],
+      "siege_label": "1183; 1184; 1187–1188",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-015",
+      "source_index": 14,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:montreal",
+      "title": "Shobak",
+      "name": "Montreal",
+      "modern_name": "Shobak",
+      "alternate_name": "al-Shawbak",
+      "coordinates": [
+        35.53,
+        30.53
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1115–1189",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1115 - 1189",
+      "sieges": [
+        {
+          "period": "1187–1189",
+          "from_year": 1187,
+          "through_year": 1189,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1187–1189",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-016",
+      "source_index": 15,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Petra",
+      "name": "Li Vaux Moyse",
+      "modern_name": "Petra",
+      "alternate_name": "Wadi Musa",
+      "coordinates": [
+        35.44,
+        30.32
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1107–1189",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1107 - 1189",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-017",
+      "source_index": 16,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:ajlun",
+      "title": "Ajloun (begun 1184)",
+      "name": "Ajlun",
+      "modern_name": "Ajloun",
+      "alternate_name": "Qal'at al-Rabad",
+      "coordinates": [
+        35.73,
+        32.33
+      ],
+      "in_scope": true,
+      "occupation": "Ayyubid castle begun in 1184",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Ayyubid 1184",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "The circa-1190 illustration shows the early Ayyubid phase. Later additions need a separate reconstruction."
+      ],
+      "references": [
+        "https://moi.gov.jo/EN/ListDetails/Governorates_and_Sectors/57/11"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-018",
+      "source_index": 17,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:town",
+      "title": "Gaza",
+      "name": "Gadres",
+      "modern_name": "Gaza",
+      "alternate_name": "Ghazza",
+      "coordinates": [
+        34.46,
+        31.52
+      ],
+      "in_scope": true,
+      "occupation": "Frankish/Templar holding from 1149; lost in 1187",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Frankish 1149 - 1170",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-019",
+      "source_index": 18,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:tower_",
+      "title": "Deir al-Balah",
+      "name": "Darum",
+      "modern_name": "Deir al-Balah",
+      "alternate_name": "Dayr al-Balah",
+      "coordinates": [
+        34.42,
+        31.42
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1170–1187",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1170 - 1187",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-020",
+      "source_index": 19,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Tell es-Safi",
+      "name": "Blanchegarde",
+      "modern_name": "Tell es-Safi",
+      "alternate_name": "Tall al-Safiya",
+      "coordinates": [
+        34.85,
+        31.7
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1142–1191",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1142 - 1191",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-021",
+      "source_index": 20,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Yavne",
+      "name": "Ibelin",
+      "modern_name": "Yavne",
+      "alternate_name": "Yibna",
+      "coordinates": [
+        34.69,
+        31.89
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1141–1187",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1141 - 1187",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-022",
+      "source_index": 21,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Beit Guvrin",
+      "name": "Bethgibelin",
+      "modern_name": "Beit Guvrin",
+      "alternate_name": "Bayt Jibrin",
+      "coordinates": [
+        34.88,
+        31.61
+      ],
+      "in_scope": true,
+      "occupation": "Hospitaller 1136–1187",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Hospitaller 1136 - 1187",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-023",
+      "source_index": 22,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Latrun",
+      "name": "Toron des Chevaliers",
+      "modern_name": "Latrun",
+      "alternate_name": "Latrun",
+      "coordinates": [
+        35.03,
+        31.84
+      ],
+      "in_scope": true,
+      "occupation": "Templar 1133–1187",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Templar 1133 - 1187",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-024",
+      "source_index": 23,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:tower_",
+      "title": "Nabi Samwil",
+      "name": "Montjoie",
+      "modern_name": "Nabi Samwil",
+      "alternate_name": "al-Nabi Samwil",
+      "coordinates": [
+        35.18,
+        31.83
+      ],
+      "in_scope": true,
+      "occupation": "Montjoie 1170–1187",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Montjoie 1170 - 1187",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-025",
+      "source_index": 24,
+      "region": "main",
+      "tier": 3,
+      "mark": "P:bethlehem",
+      "title": "Bethlehem",
+      "name": "Bethleem",
+      "modern_name": "Bethlehem",
+      "alternate_name": "Bayt Lahm",
+      "coordinates": [
+        35.2,
+        31.7
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1099–1187; Ayyubid 1187–1229; Latin kingdom 1229–1244; Muslim rule after 1244",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://www.custodia.org/en/sanctuaries/bethlehem-basilica-of-the-nativity/"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-026",
+      "source_index": 25,
+      "region": "main",
+      "tier": 3,
+      "mark": "P:hebron",
+      "title": "Hebron",
+      "name": "Saint-Abraham",
+      "modern_name": "Hebron",
+      "alternate_name": "al-Khalil",
+      "coordinates": [
+        35.1,
+        31.53
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1099–1187; Ayyubid rule after 1187",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://whc.unesco.org/document/159613"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-027",
+      "source_index": 26,
+      "region": "main",
+      "tier": 3,
+      "mark": "P:nazareth",
+      "title": "Nazareth",
+      "name": "Nazareth",
+      "modern_name": "Nazareth",
+      "alternate_name": "al-Nasira",
+      "coordinates": [
+        35.3,
+        32.7
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1099–1187; restored by treaty 1229; sacked by Baybars 1263",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected phases; possession between individual agreements requires further local review."
+      ],
+      "references": [
+        "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-028",
+      "source_index": 27,
+      "region": "main",
+      "tier": 3,
+      "mark": "P:tabor",
+      "title": "Mount Tabor",
+      "name": "Mont Thabor",
+      "modern_name": "Mount Tabor",
+      "alternate_name": "Jabal al-Tur",
+      "coordinates": [
+        35.39,
+        32.69
+      ],
+      "in_scope": true,
+      "occupation": "Benedictine/Frankish monastery until 1187; Ayyubid fortress begun 1212; later Christian/Hospitaller phases to 1263",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [
+        {
+          "period": "1183; 1217 (separate siege attempts)",
+          "from_year": 1183,
+          "through_year": 1217,
+          "references": [
+            "https://ndl.ethernet.edu.et/bitstream/123456789/52968/1/18.Murphy-O%E2%80%99Connor.pdf"
+          ],
+          "note": "Separate events, not a continuous siege."
+        }
+      ],
+      "siege_label": "1183; 1217 (separate siege attempts)",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://theses.gla.ac.uk/30916/1/2018haberlinphd.pdf",
+        "https://ndl.ethernet.edu.et/bitstream/123456789/52968/1/18.Murphy-O%E2%80%99Connor.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-029",
+      "source_index": 28,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:latin_cathedral",
+      "title": "Sebastia",
+      "name": "Sebaste",
+      "modern_name": "Sebastia",
+      "alternate_name": "Sabastiya",
+      "coordinates": [
+        35.19,
+        32.28
+      ],
+      "in_scope": true,
+      "occupation": "Frankish settlement and bishopric, 12th century–July 1187; taken by Saladin’s nephew in 1187",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://mosaiccentrejericho.com/wp-content/uploads/2021/04/Sabastiya_the_fruits_of_history.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-030",
+      "source_index": 29,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:town",
+      "title": "Nablus",
+      "name": "Naples",
+      "modern_name": "Nablus",
+      "alternate_name": "Nabulus",
+      "coordinates": [
+        35.26,
+        32.22
+      ],
+      "in_scope": true,
+      "occupation": "Frankish July 1099–July 1187; Muslim rule thereafter",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "The Templar raid of 1242 was not a permanent return to Frankish occupation."
+      ],
+      "references": [
+        "https://ndl.ethernet.edu.et/bitstream/123456789/52701/1/1.Adrian%20J.Boas.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-031",
+      "source_index": 30,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:town",
+      "title": "Tiberias",
+      "name": "Tabarie",
+      "modern_name": "Tiberias",
+      "alternate_name": "Tabariyya",
+      "coordinates": [
+        35.53,
+        32.79
+      ],
+      "in_scope": true,
+      "occupation": "Frankish city until 1187; Galilean territories restored 1240/1241; later local end date under review",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [
+        {
+          "period": "July 1187",
+          "from_year": 1187,
+          "through_year": 1187,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "July 1187",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en",
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-032",
+      "source_index": 31,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Banias",
+      "name": "Belinas",
+      "modern_name": "Banias",
+      "alternate_name": "Banyas",
+      "coordinates": [
+        35.69,
+        33.25
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1129–1164",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1129 - 1164",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-033",
+      "source_index": 32,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Tibnin",
+      "name": "Toron",
+      "modern_name": "Tibnin",
+      "alternate_name": "Tibnin",
+      "coordinates": [
+        35.4,
+        33.19
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1105–1266",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1105 - 1266",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-034",
+      "source_index": 33,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:castle_frankish",
+      "title": "Iskandaruna",
+      "name": "Scandalion",
+      "modern_name": "Iskandaruna",
+      "alternate_name": "Iskandaruna",
+      "coordinates": [
+        35.15,
+        33.1
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1116–1291",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1116 - 1291",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-035",
+      "source_index": 34,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:tower_",
+      "title": "Jacob's Ford",
+      "name": "Chastellet",
+      "modern_name": "Jacob's Ford",
+      "alternate_name": "Bayt al-Ahzan",
+      "coordinates": [
+        35.62,
+        33.01
+      ],
+      "in_scope": true,
+      "occupation": "Templar 1178–1179",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Templar 1178 - 1179",
+      "sieges": [
+        {
+          "period": "1179",
+          "from_year": 1179,
+          "through_year": 1179,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1179",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-036",
+      "source_index": 35,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:latin_church",
+      "title": "Mount Carmel",
+      "name": "Mont Carmel",
+      "modern_name": "Mount Carmel",
+      "alternate_name": "Jabal Mar Ilyas",
+      "coordinates": [
+        34.98,
+        32.74
+      ],
+      "in_scope": true,
+      "occupation": "Carmelite hermit community, early 13th century–1291; Rule received 1206–1214",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Religious presence is distinguished from sovereignty or a castle garrison."
+      ],
+      "references": [
+        "https://www.carmelitaniscalzi.com/en/who-we-are/storia/from-mount-carmel/"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-037",
+      "source_index": 36,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:point_of_interest",
+      "title": "Sea of Galilee",
+      "name": "Mer de Galilee",
+      "modern_name": "Sea of Galilee",
+      "alternate_name": "Bahr Tabariyya",
+      "coordinates": [
+        35.58,
+        32.84
+      ],
+      "in_scope": true,
+      "occupation": "Landscape / pilgrimage marker; no independent military occupation period assigned",
+      "occupation_status": "not-an-independent-garrison-tenure",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Landscape, sacred place or archaeological site: an occupation period is not a separate military garrison tenure."
+      ],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-038",
+      "source_index": 37,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:point_of_interest",
+      "title": "Cana",
+      "name": "Cana",
+      "modern_name": "Cana",
+      "alternate_name": "Kafr Kanna",
+      "coordinates": [
+        35.34,
+        32.75
+      ],
+      "in_scope": true,
+      "occupation": "Landscape / pilgrimage marker; no independent military occupation period assigned",
+      "occupation_status": "not-an-independent-garrison-tenure",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Landscape, sacred place or archaeological site: an occupation period is not a separate military garrison tenure."
+      ],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-039",
+      "source_index": 38,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:holy_spring",
+      "title": "Jordan baptism place",
+      "name": "Bethabara",
+      "modern_name": "Jordan baptism place",
+      "alternate_name": "Qasr al-Yahud",
+      "coordinates": [
+        35.55,
+        31.84
+      ],
+      "in_scope": true,
+      "occupation": "Landscape / pilgrimage marker; no independent military occupation period assigned",
+      "occupation_status": "not-an-independent-garrison-tenure",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Landscape, sacred place or archaeological site: an occupation period is not a separate military garrison tenure."
+      ],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-040",
+      "source_index": 39,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:ruin",
+      "title": "Gerasa",
+      "name": "Jerash",
+      "modern_name": "Gerasa",
+      "alternate_name": "Jarash",
+      "coordinates": [
+        35.89,
+        32.28
+      ],
+      "in_scope": true,
+      "occupation": "Damascene fort destroyed by Baldwin II in 1121; not established as a lasting Frankish garrison",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Landscape, sacred place or archaeological site: an occupation period is not a separate military garrison tenure."
+      ],
+      "references": [
+        "https://doi.org/10.1080/00758914.2022.2033016"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-041",
+      "source_index": 40,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:town",
+      "title": "Bosra",
+      "name": "Bosra",
+      "modern_name": "Bosra",
+      "alternate_name": "Busra",
+      "coordinates": [
+        36.48,
+        32.52
+      ],
+      "in_scope": true,
+      "occupation": "Zengid governor confirmed 1154; Ayyubid city under al-Adil and successors, 1196–1260; Mongol capture 1260, then Mamluk rule",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+      ],
+      "references": [
+        "https://archeologie.culture.gouv.fr/bosra/fr/bosra-aux-periodes-islamiques",
+        "https://archeologie.culture.gouv.fr/bosra/fr/la-citadelle"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-042",
+      "source_index": 41,
+      "region": "main",
+      "tier": 1,
+      "mark": "P:damascus",
+      "title": "Damascus",
+      "name": "Dimashq",
+      "modern_name": "Damascus",
+      "alternate_name": "",
+      "coordinates": [
+        36.31,
+        33.51
+      ],
+      "in_scope": true,
+      "occupation": "Burid emirate in early 12th century; Zengid under Nur al-Din 1154–1174; later Ayyubid and Mamluk phases",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [
+        {
+          "period": "1148",
+          "from_year": 1148,
+          "through_year": 1148,
+          "references": [],
+          "review_required": true,
+          "source": "Inherited BATTLES catalog; detailed siege limits require review"
+        }
+      ],
+      "siege_label": "1148",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected named phases; subsequent local transitions and brief Mongol occupation require a finer chronology."
+      ],
+      "references": [
+        "https://www.archnet.org/authorities/3603?media_content_id=681894",
+        "https://thedocs.worldbank.org/en/doc/598021391537604240-0560011974/original/WorldBankGroupArchivesFolder1772712.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-043",
+      "source_index": 42,
+      "region": "main",
+      "tier": 2,
+      "mark": "M:mosque",
+      "title": "Baalbek",
+      "name": "Baalbek",
+      "modern_name": "Baalbek",
+      "alternate_name": "",
+      "coordinates": [
+        36.2,
+        34.01
+      ],
+      "in_scope": true,
+      "occupation": "Zengi captured the citadel in 1139; Ayyubid emirate from 1175; Mongol capture 1260",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [
+        {
+          "period": "1139",
+          "from_year": 1139,
+          "through_year": 1139,
+          "references": [
+            "https://echoes-and-edifices.newmedialab.cuny.edu/items/show/352"
+          ],
+          "review_required": true
+        }
+      ],
+      "siege_label": "1139",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected attested phases; local succession between listed events is not represented as uninterrupted rule."
+      ],
+      "references": [
+        "https://echoes-and-edifices.newmedialab.cuny.edu/items/show/352"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-044",
+      "source_index": 43,
+      "region": "main",
+      "tier": 1,
+      "mark": "P:aleppo",
+      "title": "Aleppo",
+      "name": "Halab",
+      "modern_name": "Aleppo",
+      "alternate_name": "",
+      "coordinates": [
+        37.16,
+        36.2
+      ],
+      "in_scope": true,
+      "occupation": "Ayyubid 1183–1260; Mongol conquest 1260; earlier Zengid and later Mamluk phases",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://islamic-art.smb.museum/wp-content/uploads/2022/04/TimelineofSelectedHistoricalBuilding_Aleppo_compressed.pdf",
+        "https://thedocs.worldbank.org/en/doc/598021391537604240-0560011974/original/WorldBankGroupArchivesFolder1772712.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-045",
+      "source_index": 44,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:hama",
+      "title": "Hama",
+      "name": "Hamah",
+      "modern_name": "Hama",
+      "alternate_name": "",
+      "coordinates": [
+        36.75,
+        35.13
+      ],
+      "in_scope": true,
+      "occupation": "Ayyubid principality from 1175 through 1291; Mamluk suzerainty in the later 13th century",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected attested phases; local succession between listed events is not represented as uninterrupted rule."
+      ],
+      "references": [
+        "https://era.ed.ac.uk/bitstream/1842/25741/1/Alsumsam2017.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-046",
+      "source_index": 45,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:hims",
+      "title": "Homs",
+      "name": "Hims",
+      "modern_name": "Homs",
+      "alternate_name": "la Chamelle",
+      "coordinates": [
+        36.72,
+        34.73
+      ],
+      "in_scope": true,
+      "occupation": "Ayyubid from late 12th century; Mamluk annexation 1262, continuing through 1291",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected attested phases; local succession between listed events is not represented as uninterrupted rule."
+      ],
+      "references": [
+        "https://islamansiklopedisi.org.tr/eyyubiler",
+        "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-047",
+      "source_index": 46,
+      "region": "main",
+      "tier": 1,
+      "mark": "P:antioch",
+      "title": "Antakya",
+      "name": "Antioche",
+      "modern_name": "Antakya",
+      "alternate_name": "Antakiya",
+      "coordinates": [
+        36.16,
+        36.2
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1098–1268",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1098 - 1268",
+      "sieges": [
+        {
+          "period": "1097–1098",
+          "from_year": 1097,
+          "through_year": 1098,
+          "references": [
+            "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en"
+          ]
+        },
+        {
+          "period": "1268",
+          "from_year": 1268,
+          "through_year": 1268,
+          "references": [
+            "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en"
+          ]
+        }
+      ],
+      "siege_label": "1097–1098; 1268",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-048",
+      "source_index": 47,
+      "region": "main",
+      "tier": 1,
+      "mark": "P:tripoli",
+      "title": "Tripoli",
+      "name": "Triple",
+      "modern_name": "Tripoli",
+      "alternate_name": "Tarabulus",
+      "coordinates": [
+        35.84,
+        34.44
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1109–1289",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1109 - 1289",
+      "sieges": [
+        {
+          "period": "1102–1109 (intermittent blockade and campaigns)",
+          "from_year": 1102,
+          "through_year": 1109,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        },
+        {
+          "period": "1289",
+          "from_year": 1289,
+          "through_year": 1289,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1102–1109 (intermittent blockade and campaigns); 1289",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-049",
+      "source_index": 48,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:krak",
+      "title": "Qal'at al-Hisn",
+      "name": "Crac des Chevaliers",
+      "modern_name": "Qal'at al-Hisn",
+      "alternate_name": "Hisn al-Akrad",
+      "coordinates": [
+        36.29,
+        34.76
+      ],
+      "in_scope": true,
+      "occupation": "Hospitaller 1142–1271",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Hospitaller 1142 - 1271",
+      "sieges": [
+        {
+          "period": "1271",
+          "from_year": 1271,
+          "through_year": 1271,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ]
+        }
+      ],
+      "siege_label": "1271",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-050",
+      "source_index": 49,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:margat",
+      "title": "Margat",
+      "name": "Margat",
+      "modern_name": "Qal'at al-Marqab",
+      "alternate_name": "al-Marqab",
+      "coordinates": [
+        35.95,
+        35.15
+      ],
+      "in_scope": true,
+      "occupation": "Frankish Mazoir castle in the 12th century, then Hospitaller from 1186/1187 to the Mamluk capture in 1285",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Hospitaller 1186 - 1285",
+      "sieges": [
+        {
+          "period": "1285",
+          "from_year": 1285,
+          "through_year": 1285,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ]
+        }
+      ],
+      "siege_label": "1285",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Sources differ by a year on the Hospitaller transfer. The circa-1180 illustration depicts the earlier castle, whose fabric remains poorly documented."
+      ],
+      "references": [
+        "https://btk.ppke.hu/en/margat-syria-2",
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-051",
+      "source_index": 50,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:tortosa",
+      "title": "Tartus",
+      "name": "Tortose",
+      "modern_name": "Tartus",
+      "alternate_name": "Tartus",
+      "coordinates": [
+        35.89,
+        34.89
+      ],
+      "in_scope": true,
+      "occupation": "Templar citadel from 1152; citadel retained after attack in 1188; evacuated 1291",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Templar 1152 - 1291",
+      "sieges": [
+        {
+          "period": "1188 (town attacked; Templar citadel held)",
+          "from_year": 1188,
+          "through_year": 1188,
+          "references": [
+            "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1188 (town attacked; Templar citadel held)",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://whc.unesco.org/en/tentativelists/1301/",
+        "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-052",
+      "source_index": 51,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:sea_castle",
+      "title": "Arwad (later Templar holding)",
+      "name": "Ruad",
+      "modern_name": "Arwad",
+      "alternate_name": "Arwad",
+      "coordinates": [
+        35.86,
+        34.86
+      ],
+      "in_scope": false,
+      "occupation": "The cataloged Templar holding, 1302–1303, is outside 1095–1291; retained only as an island reference",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Templar 1302 - 1303",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-053",
+      "source_index": 52,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:saone",
+      "title": "Saône (Sahyun)",
+      "name": "Saone",
+      "modern_name": "Qal'at Salah ad-Din",
+      "alternate_name": "Sahyun",
+      "coordinates": [
+        36.07,
+        35.59
+      ],
+      "in_scope": true,
+      "occupation": "Frankish fortress until the Ayyubid capture in 1188, with earlier Byzantine fortifications",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Frankish 1110 - 1188",
+      "sieges": [
+        {
+          "period": "1188",
+          "from_year": 1188,
+          "through_year": 1188,
+          "references": [
+            "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1188",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected phases. The circa-1180 illustration shows the Frankish phase and earlier fabric. Later Ayyubid additions require a separate depiction."
+      ],
+      "references": [
+        "https://whc.unesco.org/document/168916",
+        "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-054",
+      "source_index": 53,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:walled_town",
+      "title": "Latakia",
+      "name": "Laodicee",
+      "modern_name": "Latakia",
+      "alternate_name": "al-Ladhiqiyya",
+      "coordinates": [
+        35.78,
+        35.52
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1097–1188",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1097 - 1188",
+      "sieges": [
+        {
+          "period": "1188",
+          "from_year": 1188,
+          "through_year": 1188,
+          "references": [
+            "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        },
+        {
+          "period": "1287",
+          "from_year": 1287,
+          "through_year": 1287,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1188; 1287",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-055",
+      "source_index": 54,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:town",
+      "title": "Jableh",
+      "name": "Gibel",
+      "modern_name": "Jableh",
+      "alternate_name": "Jabala",
+      "coordinates": [
+        35.93,
+        35.36
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1109–1189",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1109 - 1189",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-056",
+      "source_index": 55,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:castle_frankish",
+      "title": "Baniyas",
+      "name": "Valenie",
+      "modern_name": "Baniyas",
+      "alternate_name": "Baniyas",
+      "coordinates": [
+        35.95,
+        35.2
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1110–1189",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1110 - 1189",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-057",
+      "source_index": 56,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Bourzey",
+      "name": "Bourzey",
+      "modern_name": "Bourzey",
+      "alternate_name": "Qal'at Barziya",
+      "coordinates": [
+        36.38,
+        35.52
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1100–1175",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1100 - 1175",
+      "sieges": [
+        {
+          "period": "1188",
+          "from_year": 1188,
+          "through_year": 1188,
+          "references": [
+            "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1188",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-058",
+      "source_index": 57,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:castle_muslim",
+      "title": "Shaizar",
+      "name": "Shayzar",
+      "modern_name": "Shaizar",
+      "alternate_name": "",
+      "coordinates": [
+        36.57,
+        35.27
+      ],
+      "in_scope": true,
+      "occupation": "Banu Munqidh 1081–1157; Nur al-Din took control after the 1157 earthquake",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [
+        {
+          "period": "1138",
+          "from_year": 1138,
+          "through_year": 1138,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1138",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected attested phases; local succession between listed events is not represented as uninterrupted rule."
+      ],
+      "references": [
+        "https://iris.unive.it/retrieve/e4239ddd-3904-7180-e053-3705fe0a3322/Tonghini%20nuraldin%20shayzar%202019.pdf",
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-059",
+      "source_index": 58,
+      "region": "main",
+      "tier": 3,
+      "mark": "P:masyaf",
+      "title": "Masyaf",
+      "name": "Masyaf",
+      "modern_name": "Masyaf",
+      "alternate_name": "",
+      "coordinates": [
+        36.34,
+        35.06
+      ],
+      "in_scope": true,
+      "occupation": "Nizari 1140–1273",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Nizari 1140 - 1273",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-060",
+      "source_index": 59,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:castle_nizari",
+      "title": "Qadmus",
+      "name": "Qadmus",
+      "modern_name": "Qadmus",
+      "alternate_name": "",
+      "coordinates": [
+        35.97,
+        35.08
+      ],
+      "in_scope": true,
+      "occupation": "Nizari 1132–1260",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Nizari 1132 - 1260",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-061",
+      "source_index": 60,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:walled_town",
+      "title": "Apamea",
+      "name": "Apamee",
+      "modern_name": "Apamea",
+      "alternate_name": "Qal'at al-Mudiq",
+      "coordinates": [
+        36.4,
+        35.42
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1106–1149",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1106 - 1149",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-062",
+      "source_index": 61,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:town",
+      "title": "Harim",
+      "name": "Harenc",
+      "modern_name": "Harim",
+      "alternate_name": "Harim",
+      "coordinates": [
+        36.52,
+        36.21
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1097–1164",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1097 - 1164",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-063",
+      "source_index": 62,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:town",
+      "title": "Artah",
+      "name": "Artah",
+      "modern_name": "Artah",
+      "alternate_name": "Artah",
+      "coordinates": [
+        36.35,
+        36.3
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1098–1164",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1098 - 1164",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-064",
+      "source_index": 63,
+      "region": "main",
+      "tier": 3,
+      "mark": "P:baghras",
+      "title": "Bagras",
+      "name": "Gastin",
+      "modern_name": "Bagras",
+      "alternate_name": "Baghras",
+      "coordinates": [
+        36.2,
+        36.5
+      ],
+      "in_scope": true,
+      "occupation": "Templar 1131–1268",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Templar 1131 - 1268",
+      "sieges": [
+        {
+          "period": "1188",
+          "from_year": 1188,
+          "through_year": 1188,
+          "references": [
+            "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1188",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-065",
+      "source_index": 64,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:castle_frankish",
+      "title": "Darbsak",
+      "name": "Darbsak",
+      "modern_name": "Darbsak",
+      "alternate_name": "Darbsak",
+      "coordinates": [
+        36.43,
+        36.42
+      ],
+      "in_scope": true,
+      "occupation": "Templar 1137–1188",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Templar 1137 - 1188",
+      "sieges": [
+        {
+          "period": "1188",
+          "from_year": 1188,
+          "through_year": 1188,
+          "references": [
+            "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1188",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://www.persee.fr/doc/anisl_0570-1716_2009_num_43_1_1468",
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-066",
+      "source_index": 65,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:town",
+      "title": "Iskenderun",
+      "name": "Alexandrete",
+      "modern_name": "Iskenderun",
+      "alternate_name": "Iskenderun",
+      "coordinates": [
+        36.17,
+        36.58
+      ],
+      "in_scope": true,
+      "occupation": "Alexandretta: Templar station/fortress attested in 1155; exact local tenure endpoints remain unestablished",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated attestation; not a claim that all intervening local transitions have been resolved."
+      ],
+      "references": [
+        "https://tu-dresden.de/gsw/fovog/textedaten/templerlexikon/templerniederlassungen"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-067",
+      "source_index": 66,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:castle_frankish",
+      "title": "Batroun",
+      "name": "Botron",
+      "modern_name": "Batroun",
+      "alternate_name": "al-Batrun",
+      "coordinates": [
+        35.65,
+        34.25
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1104–1289",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1104 - 1289",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-068",
+      "source_index": 67,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:castle_frankish",
+      "title": "Byblos",
+      "name": "Gibelet",
+      "modern_name": "Byblos",
+      "alternate_name": "Jubayl",
+      "coordinates": [
+        35.65,
+        34.12
+      ],
+      "in_scope": true,
+      "occupation": "Genoese 1104–1289",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Genoese 1104 - 1289",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-069",
+      "source_index": 68,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:castle_frankish",
+      "title": "Arqa",
+      "name": "Arqa",
+      "modern_name": "Arqa",
+      "alternate_name": "Arqa",
+      "coordinates": [
+        36.0,
+        34.52
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1109–1289",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1109 - 1289",
+      "sieges": [
+        {
+          "period": "1099 (unsuccessful siege)",
+          "from_year": 1099,
+          "through_year": 1099,
+          "references": [
+            "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en"
+          ],
+          "review_required": true
+        }
+      ],
+      "siege_label": "1099 (unsuccessful siege)",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://www.israeliarchaeology.org/periods/the-crusader-period/?lang=en"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-070",
+      "source_index": 69,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:sis",
+      "title": "Kozan",
+      "name": "Sis",
+      "modern_name": "Kozan",
+      "alternate_name": "",
+      "coordinates": [
+        35.81,
+        37.45
+      ],
+      "in_scope": true,
+      "occupation": "Sis: royal seat of Armenian Cilicia, kingdom established 1198; earlier local transitions under review",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Armenian royal seat",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://etheses.bham.ac.uk/id/eprint/8689/5/Lin2019PhD.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-071",
+      "source_index": 70,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:castle_armenian",
+      "title": "Anavarza",
+      "name": "Anazarbe",
+      "modern_name": "Anavarza",
+      "alternate_name": "Anavarza",
+      "coordinates": [
+        35.9,
+        37.26
+      ],
+      "in_scope": true,
+      "occupation": "Armenian capture 1111; Byzantine interlude 1137–1144; Armenian capital/fortress thereafter (selected phases)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+      ],
+      "references": [
+        "https://www.ktb.gov.tr/EN-114122/anavarza.html",
+        "https://journals.openedition.org/ashp/pdf/2998"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-072",
+      "source_index": 71,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:walled_town",
+      "title": "Tarsus",
+      "name": "Tarse",
+      "modern_name": "Tarsus",
+      "alternate_name": "Tarsus",
+      "coordinates": [
+        34.89,
+        36.92
+      ],
+      "in_scope": true,
+      "occupation": "Frankish holding before John II’s Byzantine conquest in 1137; Armenian coronation of King Levon in 1198",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+      ],
+      "references": [
+        "https://www.academia.edu/43727540/Byzantium_and_the_Crusader_States_1096_1204",
+        "https://etheses.bham.ac.uk/id/eprint/8689/5/Lin2019PhD.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-073",
+      "source_index": 72,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:town",
+      "title": "Adana",
+      "name": "Adane",
+      "modern_name": "Adana",
+      "alternate_name": "Adana",
+      "coordinates": [
+        35.32,
+        37.0
+      ],
+      "in_scope": true,
+      "occupation": "Frankish holding before Byzantine conquest in 1137; later Cilician Armenian phases in the 12th–13th centuries",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+      ],
+      "references": [
+        "https://www.academia.edu/43727540/Byzantium_and_the_Crusader_States_1096_1204",
+        "https://etheses.bham.ac.uk/id/eprint/8689/5/Lin2019PhD.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-074",
+      "source_index": 73,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:walled_town",
+      "title": "Misis",
+      "name": "Mamistra",
+      "modern_name": "Misis",
+      "alternate_name": "Misis",
+      "coordinates": [
+        35.63,
+        36.98
+      ],
+      "in_scope": true,
+      "occupation": "Frankish Mopsuestia before Byzantine conquest in 1137; later Cilician Armenian phases in the 12th–13th centuries",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+      ],
+      "references": [
+        "https://www.academia.edu/43727540/Byzantium_and_the_Crusader_States_1096_1204",
+        "https://etheses.bham.ac.uk/id/eprint/8689/5/Lin2019PhD.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-075",
+      "source_index": 74,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:walled_town",
+      "title": "Yumurtalik",
+      "name": "Lajazzo",
+      "modern_name": "Yumurtalik",
+      "alternate_name": "Ayas",
+      "coordinates": [
+        35.79,
+        36.77
+      ],
+      "in_scope": true,
+      "occupation": "Ayas: port of the Cilician Armenian kingdom in the 13th century; Venetian treaty 1201; Marco Polo’s departure 1271",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+      ],
+      "references": [
+        "https://www.academia.edu/127051322/Marco_Polo_in_Armenia_Art_Culture_Religion_and_Commercial_Relations"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-076",
+      "source_index": 75,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:castle_armenian",
+      "title": "Feke",
+      "name": "Vahka",
+      "modern_name": "Feke",
+      "alternate_name": "Feke",
+      "coordinates": [
+        35.9,
+        37.82
+      ],
+      "in_scope": true,
+      "occupation": "Armenian capture in the 1090s from a Byzantine garrison; Byzantine recapture in John II’s campaign, 1137/1138",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+      ],
+      "references": [
+        "https://eurekamag.com/research/109/566/109566935.php",
+        "https://www.academia.edu/43727540/Byzantium_and_the_Crusader_States_1096_1204"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-077",
+      "source_index": 76,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:castle_armenian",
+      "title": "Kizkalesi",
+      "name": "Courc",
+      "modern_name": "Kizkalesi",
+      "alternate_name": "Korykos",
+      "coordinates": [
+        34.18,
+        36.46
+      ],
+      "in_scope": true,
+      "occupation": "Korykos: Byzantine recapture 1137; Armenian possession restored 1163; Armenian coastal stronghold in the 13th century",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+      ],
+      "references": [
+        "https://mersin.ktb.gov.tr/TR-73469/kaleler--hisarlar-ve-tabyalar.html"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-078",
+      "source_index": 77,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:castle_armenian",
+      "title": "Kahramanmaras",
+      "name": "Maresch",
+      "modern_name": "Kahramanmaras",
+      "alternate_name": "Marash",
+      "coordinates": [
+        36.93,
+        37.58
+      ],
+      "in_scope": true,
+      "occupation": "Frankish/Armenian frontier lordship during 1097–1149; conquest by forces of Iconium in 1149",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated holdings or transitions, not an exhaustive tenure list. Regional and construction evidence do not prove continuous local control."
+      ],
+      "references": [
+        "https://johschool.com/?makale_id=45755&mod=makale_ing_ozet"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-079",
+      "source_index": 78,
+      "region": "main",
+      "tier": 1,
+      "mark": "P:famagusta",
+      "title": "Famagusta",
+      "name": "Famagouste",
+      "modern_name": "Famagusta",
+      "alternate_name": "Ammochostos",
+      "coordinates": [
+        33.94,
+        35.12
+      ],
+      "in_scope": true,
+      "occupation": "Lusignan 1192–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Lusignan 1192 - 1489, Venetian 1489 - 1571",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-080",
+      "source_index": 79,
+      "region": "main",
+      "tier": 1,
+      "mark": "P:nicosia",
+      "title": "Nicosia",
+      "name": "Nicosie",
+      "modern_name": "Nicosia",
+      "alternate_name": "Lefkosia",
+      "coordinates": [
+        33.37,
+        35.17
+      ],
+      "in_scope": true,
+      "occupation": "Lusignan 1192–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Lusignan 1192 - 1489, Venetian 1489 - 1570",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-081",
+      "source_index": 80,
+      "region": "main",
+      "tier": 2,
+      "mark": "P:hilarion",
+      "title": "St Hilarion",
+      "name": "Dieudamour",
+      "modern_name": "St Hilarion",
+      "alternate_name": "Saint-Hilarion",
+      "coordinates": [
+        33.28,
+        35.3
+      ],
+      "in_scope": true,
+      "occupation": "Lusignan 1191–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Lusignan 1191 - 1489",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-082",
+      "source_index": 81,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Kyrenia",
+      "name": "Cerines",
+      "modern_name": "Kyrenia",
+      "alternate_name": "Kyrenia",
+      "coordinates": [
+        33.32,
+        35.34
+      ],
+      "in_scope": true,
+      "occupation": "Lusignan 1191–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Lusignan 1191 - 1570",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-083",
+      "source_index": 82,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:castle_frankish",
+      "title": "Buffavento",
+      "name": "Buffavent",
+      "modern_name": "Buffavento",
+      "alternate_name": "Buffavento",
+      "coordinates": [
+        33.35,
+        35.3
+      ],
+      "in_scope": true,
+      "occupation": "Lusignan 1191–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Lusignan 1191 - 1489",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-084",
+      "source_index": 83,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:castle_frankish",
+      "title": "Kantara",
+      "name": "La Candare",
+      "modern_name": "Kantara",
+      "alternate_name": "Kantara",
+      "coordinates": [
+        34.0,
+        35.4
+      ],
+      "in_scope": true,
+      "occupation": "Lusignan 1191–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Lusignan 1191 - 1489",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-085",
+      "source_index": 84,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:town",
+      "title": "Limassol",
+      "name": "Limeso",
+      "modern_name": "Limassol",
+      "alternate_name": "Lemesos",
+      "coordinates": [
+        33.04,
+        34.67
+      ],
+      "in_scope": true,
+      "occupation": "Lusignan 1191–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Lusignan 1191 - 1489",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-086",
+      "source_index": 85,
+      "region": "main",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Kolossi",
+      "name": "Colos",
+      "modern_name": "Kolossi",
+      "alternate_name": "Kolossi",
+      "coordinates": [
+        32.93,
+        34.67
+      ],
+      "in_scope": true,
+      "occupation": "Hospitaller 1210–1291",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Hospitaller 1210 - 1291",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-087",
+      "source_index": 86,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:town",
+      "title": "Paphos",
+      "name": "Baffe",
+      "modern_name": "Paphos",
+      "alternate_name": "Paphos",
+      "coordinates": [
+        32.42,
+        34.77
+      ],
+      "in_scope": true,
+      "occupation": "Cypriot regional context: Byzantine until 1191; conquest 1191; Lusignan kingdom 1192–1291 (continues)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Regional sovereignty rather than a complete local garrison or monastic tenure history."
+      ],
+      "references": [
+        "https://www.visitcyprus.com/discover-cyprus/culture/cultural-routes/cyprus-venice-cultural-route/"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-088",
+      "source_index": 87,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:town",
+      "title": "Larnaca",
+      "name": "Salines",
+      "modern_name": "Larnaca",
+      "alternate_name": "Larnaca",
+      "coordinates": [
+        33.63,
+        34.92
+      ],
+      "in_scope": true,
+      "occupation": "Cypriot regional context: Byzantine until 1191; conquest 1191; Lusignan kingdom 1192–1291 (continues)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Regional sovereignty rather than a complete local garrison or monastic tenure history."
+      ],
+      "references": [
+        "https://www.visitcyprus.com/discover-cyprus/culture/cultural-routes/cyprus-venice-cultural-route/"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-089",
+      "source_index": 88,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:greek_monastery",
+      "title": "Kykkos",
+      "name": "Cicho",
+      "modern_name": "Kykkos",
+      "alternate_name": "Kykkos",
+      "coordinates": [
+        32.74,
+        34.99
+      ],
+      "in_scope": true,
+      "occupation": "Cypriot regional context: Byzantine until 1191; conquest 1191; Lusignan kingdom 1192–1291 (continues)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Regional sovereignty rather than a complete local garrison or monastic tenure history."
+      ],
+      "references": [
+        "https://www.visitcyprus.com/discover-cyprus/culture/cultural-routes/cyprus-venice-cultural-route/"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-090",
+      "source_index": 89,
+      "region": "main",
+      "tier": 4,
+      "mark": "M:latin_church",
+      "title": "Bellapais",
+      "name": "Lapais",
+      "modern_name": "Bellapais",
+      "alternate_name": "Bellapais",
+      "coordinates": [
+        33.35,
+        35.31
+      ],
+      "in_scope": true,
+      "occupation": "Cypriot regional context: Byzantine until 1191; conquest 1191; Lusignan kingdom 1192–1291 (continues)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Regional sovereignty rather than a complete local garrison or monastic tenure history."
+      ],
+      "references": [
+        "https://www.visitcyprus.com/discover-cyprus/culture/cultural-routes/cyprus-venice-cultural-route/"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-091",
+      "source_index": 90,
+      "region": "aegean",
+      "tier": 1,
+      "mark": "P:constantinople",
+      "title": "Istanbul",
+      "name": "Konstantinoupolis",
+      "modern_name": "Istanbul",
+      "alternate_name": "Kostantiniyye",
+      "coordinates": [
+        28.97,
+        41.01
+      ],
+      "in_scope": true,
+      "occupation": "Latin 1204–1261; Greek 1261–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Latin 1204 - 1261, Greek 1261 - 1453",
+      "sieges": [
+        {
+          "period": "1204",
+          "from_year": 1204,
+          "through_year": 1204,
+          "references": [],
+          "review_required": true,
+          "source": "Inherited BATTLES catalog; detailed siege limits require review"
+        }
+      ],
+      "siege_label": "1204",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-092",
+      "source_index": 91,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "P:galata",
+      "title": "Beyoglu",
+      "name": "Pera",
+      "modern_name": "Beyoglu",
+      "alternate_name": "Galata",
+      "coordinates": [
+        28.97,
+        41.03
+      ],
+      "in_scope": true,
+      "occupation": "Genoese 1267–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Genoese 1267 - 1453",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-093",
+      "source_index": 92,
+      "region": "aegean",
+      "tier": 2,
+      "mark": "M:walled_town",
+      "title": "Thessaloniki",
+      "name": "Thessalonike",
+      "modern_name": "Thessaloniki",
+      "alternate_name": "Salonique",
+      "coordinates": [
+        22.94,
+        40.64
+      ],
+      "in_scope": true,
+      "occupation": "Byzantine until 1204; Latin kingdom 1204–1224; Epirote rule 1224–1246; Nicaean/Byzantine from 1246 to 1291 (continues)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Venetian 1423 - 1430",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+      ],
+      "references": [
+        "https://culturalegnatia.culture.gov.gr/en/route-stops/thessaloniki/",
+        "https://www.ime.gr/chronos/projects/fragokratia/en/webpages/thessal_gen.html"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-094",
+      "source_index": 93,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Gelibolu",
+      "name": "Gallipoli",
+      "modern_name": "Gelibolu",
+      "alternate_name": "Kallipolis",
+      "coordinates": [
+        26.67,
+        40.41
+      ],
+      "in_scope": true,
+      "occupation": "Byzantine; Venetian interval 1204–1235; Byzantine again from 1235 through 1291",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Venetian 1384 - 1416",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+      ],
+      "references": [
+        "https://en.wikipedia.org/wiki/Gallipoli"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-095",
+      "source_index": 94,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:walled_town",
+      "title": "Edirne",
+      "name": "Andrinople",
+      "modern_name": "Edirne",
+      "alternate_name": "Adrianoupolis",
+      "coordinates": [
+        26.56,
+        41.68
+      ],
+      "in_scope": true,
+      "occupation": "Nicaean entry c.1225; contested with the rulers of Thessaloniki in the 1220s",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+      ],
+      "references": [
+        "https://www.ime.gr/chronos/10/en/p/pa3/pa3a.html"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-096",
+      "source_index": 95,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:walled_town",
+      "title": "Iznik",
+      "name": "Nicee",
+      "modern_name": "Iznik",
+      "alternate_name": "Nikaia",
+      "coordinates": [
+        29.72,
+        40.43
+      ],
+      "in_scope": true,
+      "occupation": "Nicene empire 1204–1261",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Nicene empire 1204 - 1261",
+      "sieges": [
+        {
+          "period": "1097",
+          "from_year": 1097,
+          "through_year": 1097,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "1097",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-097",
+      "source_index": 96,
+      "region": "aegean",
+      "tier": 2,
+      "mark": "P:negroponte",
+      "title": "Chalkida",
+      "name": "Negroponte",
+      "modern_name": "Chalkida",
+      "alternate_name": "Evripos",
+      "coordinates": [
+        23.6,
+        38.46
+      ],
+      "in_scope": true,
+      "occupation": "Latin triarchs after 1204/1205; Venetian rights and shared rule from 1209 through 1291",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Venetian 1390 - 1470",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+      ],
+      "references": [
+        "https://iris.unitn.it/retrieve/handle/11572/440530/898889/TESI%20-%20versione%20online.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-098",
+      "source_index": 97,
+      "region": "aegean",
+      "tier": 2,
+      "mark": "P:athens",
+      "title": "Athens",
+      "name": "Athenes",
+      "modern_name": "Athens",
+      "alternate_name": "Setines",
+      "coordinates": [
+        23.73,
+        37.97
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1205–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1205 - 1456",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-099",
+      "source_index": 98,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Thebes",
+      "name": "Estives",
+      "modern_name": "Thebes",
+      "alternate_name": "Thebes",
+      "coordinates": [
+        23.32,
+        38.32
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1205–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1205 - 1311",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-100",
+      "source_index": 99,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Corinth",
+      "name": "Corinthe",
+      "modern_name": "Corinth",
+      "alternate_name": "Acrocorinth",
+      "coordinates": [
+        22.88,
+        37.91
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1210–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1210 - 1458",
+      "sieges": [
+        {
+          "period": "c.1205–1210 (prolonged resistance/campaigns)",
+          "from_year": 1205,
+          "through_year": 1210,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true,
+          "note": "Selected historical siege/campaign. Year-level index entry; detailed start/end dates and campaign continuity require local source review."
+        }
+      ],
+      "siege_label": "c.1205–1210 (prolonged resistance/campaigns)",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-101",
+      "source_index": 100,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:town",
+      "title": "Andravida",
+      "name": "Andreville",
+      "modern_name": "Andravida",
+      "alternate_name": "Andravida",
+      "coordinates": [
+        21.28,
+        37.9
+      ],
+      "in_scope": true,
+      "occupation": "Frankish capital of Achaea from 1205 to 1291 (continues); earlier Byzantine settlement",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "capital of Achaia",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+      ],
+      "references": [
+        "https://www.mdpi.com/2073-445x/7/4/153"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-102",
+      "source_index": 101,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Chlemoutsi",
+      "name": "Clermont",
+      "modern_name": "Chlemoutsi",
+      "alternate_name": "Chlemoutsi",
+      "coordinates": [
+        21.1,
+        37.86
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1220–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1220 - 1427",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-103",
+      "source_index": 102,
+      "region": "aegean",
+      "tier": 4,
+      "mark": "M:town",
+      "title": "Patras",
+      "name": "Patras",
+      "modern_name": "Patras",
+      "alternate_name": "Patrai",
+      "coordinates": [
+        21.73,
+        38.25
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1205–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1205 - 1429",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-104",
+      "source_index": 103,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Methoni",
+      "name": "Modon",
+      "modern_name": "Methoni",
+      "alternate_name": "Methoni",
+      "coordinates": [
+        21.71,
+        36.81
+      ],
+      "in_scope": true,
+      "occupation": "Venetian 1209–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Venetian 1209 - 1500",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-105",
+      "source_index": 104,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Koroni",
+      "name": "Coron",
+      "modern_name": "Koroni",
+      "alternate_name": "Koroni",
+      "coordinates": [
+        21.96,
+        36.8
+      ],
+      "in_scope": true,
+      "occupation": "Venetian 1206–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Venetian 1206 - 1500",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-106",
+      "source_index": 105,
+      "region": "aegean",
+      "tier": 4,
+      "mark": "M:castle_frankish",
+      "title": "Navarino",
+      "name": "Navarin",
+      "modern_name": "Navarino",
+      "alternate_name": "Pylos",
+      "coordinates": [
+        21.66,
+        36.96
+      ],
+      "in_scope": true,
+      "occupation": "Frankish Palaiokastro founded c.1278; late-13th-century holding of Achaea",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+      ],
+      "references": [
+        "https://www.visitpeloponnese.com/en/prdct/pylos-palaiokastro-old-navarino-fortress"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-107",
+      "source_index": 106,
+      "region": "aegean",
+      "tier": 2,
+      "mark": "M:sea_castle",
+      "title": "Monemvasia",
+      "name": "Monemvasie",
+      "modern_name": "Monemvasia",
+      "alternate_name": "Monemvasia",
+      "coordinates": [
+        23.04,
+        36.69
+      ],
+      "in_scope": true,
+      "occupation": "Frankish capture conventionally 1248 (alternative 1252/1253); Byzantine again from 1262 to 1291 (continues)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Greek 1262 - 1464, Venetian 1464 - 1540",
+      "sieges": [
+        {
+          "period": "Long siege ending 1248 (alternative conquest date 1252/1253)",
+          "from_year": 1248,
+          "through_year": 1253,
+          "references": [
+            "https://www.amnv.gr/wp-content/uploads/2020/05/%CE%91%CE%BD%CE%AC%CE%B4%CE%B5%CE%B9%CE%BE%CE%B7-%CE%86%CE%BD%CF%8E-%CE%A0%CF%8C%CE%BB%CE%B7%CF%82-%CE%9C%CE%BF%CE%BD%CE%B5%CE%BC%CE%B2%CE%B1%CF%83%CE%AF%CE%B1%CF%82.pdf"
+          ],
+          "note": "Conquest dating is disputed; this numeric interval brackets alternatives, not a proven five-year siege."
+        }
+      ],
+      "siege_label": "Long siege ending 1248 (alternative conquest date 1252/1253)",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+      ],
+      "references": [
+        "https://www.amnv.gr/wp-content/uploads/2020/05/%CE%91%CE%BD%CE%AC%CE%B4%CE%B5%CE%B9%CE%BE%CE%B7-%CE%86%CE%BD%CF%8E-%CE%A0%CF%8C%CE%BB%CE%B7%CF%82-%CE%9C%CE%BF%CE%BD%CE%B5%CE%BC%CE%B2%CE%B1%CF%83%CE%AF%CE%B1%CF%82.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-108",
+      "source_index": 107,
+      "region": "aegean",
+      "tier": 2,
+      "mark": "P:mistra",
+      "title": "Mystras",
+      "name": "Mistras",
+      "modern_name": "Mystras",
+      "alternate_name": "",
+      "coordinates": [
+        22.37,
+        37.07
+      ],
+      "in_scope": true,
+      "occupation": "Frankish castle founded 1249; Byzantine possession from 1262 to 1291 (continues)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Despotate of Morea 1349 - 1460",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://whc.unesco.org/en/list/511/",
+        "https://digital.bsa.ac.uk/results.php?collection=SPHS+BSA+Image+Collection&department=Archive&irn=142233&start=7001"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-109",
+      "source_index": 108,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Nafpaktos",
+      "name": "Lepanto",
+      "modern_name": "Nafpaktos",
+      "alternate_name": "Naupaktos",
+      "coordinates": [
+        21.83,
+        38.39
+      ],
+      "in_scope": true,
+      "occupation": "Epirote rule after 1204 through 1291; Angevin transfer occurs after this map period",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Venetian 1407 - 1499",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+      ],
+      "references": [
+        "https://castleroute.culture.gov.gr/en/nafpaktos/"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-110",
+      "source_index": 109,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:walled_town",
+      "title": "Corfu",
+      "name": "Corfou",
+      "modern_name": "Corfu",
+      "alternate_name": "Kerkyra",
+      "coordinates": [
+        19.92,
+        39.62
+      ],
+      "in_scope": true,
+      "occupation": "Angevin possession from 1267 to 1291 (continues); earlier Byzantine, Norman and Epirote phases",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Venetian 1386 - 1797",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+      ],
+      "references": [
+        "https://www.zth-airport.gr/uploads/flipbooks/ZTH_01/files/basic-html/page34.html"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-111",
+      "source_index": 110,
+      "region": "aegean",
+      "tier": 4,
+      "mark": "M:town",
+      "title": "Zakynthos",
+      "name": "Jacinthe",
+      "modern_name": "Zakynthos",
+      "alternate_name": "Zakynthos",
+      "coordinates": [
+        20.9,
+        37.78
+      ],
+      "in_scope": true,
+      "occupation": "Byzantine until 1185; Norman conquest and county palatine from 1185 through 1291",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+      ],
+      "references": [
+        "https://www.arxaiologikoktimatologio.gov.gr/resources/informationMaterial/IFMWRV98M01/megalomatis_zakynthos_fylladio%20%282%29.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-112",
+      "source_index": 111,
+      "region": "aegean",
+      "tier": 4,
+      "mark": "M:town",
+      "title": "Kythira",
+      "name": "Cerigo",
+      "modern_name": "Kythira",
+      "alternate_name": "Kythira",
+      "coordinates": [
+        23.0,
+        36.15
+      ],
+      "in_scope": true,
+      "occupation": "Venier lordship, established in early/mid-13th century; Byzantine recovery c.1275",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Venetian 1363 - 1797",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+      ],
+      "references": [
+        "https://kythira.gr/oldsite/pages/culture/history_2.htm"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-113",
+      "source_index": 112,
+      "region": "aegean",
+      "tier": 2,
+      "mark": "P:candia",
+      "title": "Heraklion",
+      "name": "Candie",
+      "modern_name": "Heraklion",
+      "alternate_name": "Chandax",
+      "coordinates": [
+        25.13,
+        35.34
+      ],
+      "in_scope": true,
+      "occupation": "Venetian 1211–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Venetian 1211 - 1669",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-114",
+      "source_index": 113,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:walled_town",
+      "title": "Chania",
+      "name": "La Cane",
+      "modern_name": "Chania",
+      "alternate_name": "Chania",
+      "coordinates": [
+        24.02,
+        35.51
+      ],
+      "in_scope": true,
+      "occupation": "Venetian 1252–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Venetian 1252 - 1645",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-115",
+      "source_index": 114,
+      "region": "aegean",
+      "tier": 4,
+      "mark": "M:town",
+      "title": "Rethymno",
+      "name": "Rethymno",
+      "modern_name": "Rethymno",
+      "alternate_name": "Rethymno",
+      "coordinates": [
+        24.48,
+        35.37
+      ],
+      "in_scope": true,
+      "occupation": "Venetian 1210–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Venetian 1210 - 1646",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-116",
+      "source_index": 115,
+      "region": "aegean",
+      "tier": 1,
+      "mark": "P:rhodes",
+      "title": "Rhodes",
+      "name": "Rodes",
+      "modern_name": "Rhodes",
+      "alternate_name": "Rodos",
+      "coordinates": [
+        28.22,
+        36.44
+      ],
+      "in_scope": true,
+      "occupation": "Byzantine/local rule; Leo Gabalas administration from 1204; Hospitaller occupation begins only after this map period",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Hospitaller 1309 - 1522",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://ebooks.epublishing.ekt.gr/index.php/chae/catalog/book/6"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-117",
+      "source_index": 116,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Kos",
+      "name": "Lango",
+      "modern_name": "Kos",
+      "alternate_name": "Kos",
+      "coordinates": [
+        27.29,
+        36.89
+      ],
+      "in_scope": true,
+      "occupation": "Nicaean recovery in the early 13th century; later Hospitaller occupation lies outside 1095–1291",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Hospitaller 1315 - 1522",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+      ],
+      "references": [
+        "https://www.ime.gr/chronos/10/en/p/pa3/pa3a.html"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-118",
+      "source_index": 117,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "P:bodrum",
+      "title": "Bodrum (later castle; outside period)",
+      "name": "Saint-Pierre",
+      "modern_name": "Bodrum",
+      "alternate_name": "Petronion",
+      "coordinates": [
+        27.43,
+        37.03
+      ],
+      "in_scope": false,
+      "occupation": "The Hospitaller castle belongs to 1404 onward, outside 1095–1291; retained only as a geographic cross-reference",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Hospitaller 1404 - 1523",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-119",
+      "source_index": 118,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Izmir",
+      "name": "Smyrne",
+      "modern_name": "Izmir",
+      "alternate_name": "Izmir",
+      "coordinates": [
+        27.14,
+        38.42
+      ],
+      "in_scope": true,
+      "occupation": "Byzantine/Nicaean administrative centre in 12th–13th centuries; officials attested in 1207",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Hospitaller 1344 - 1402",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+      ],
+      "references": [
+        "https://www.academia.edu/19412235/The_Provincial_Aristocracy_in_Byzantine_Asia_Minor_1081_1261_"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-120",
+      "source_index": 119,
+      "region": "aegean",
+      "tier": 4,
+      "mark": "M:castle_frankish",
+      "title": "Leros",
+      "name": "Lero",
+      "modern_name": "Leros",
+      "alternate_name": "Leros",
+      "coordinates": [
+        26.85,
+        37.15
+      ],
+      "in_scope": true,
+      "occupation": "Byzantine castle/monastic holdings granted to Christodoulos in 1087/1088; later Hospitaller occupation falls after 1291",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Hospitaller 1314 - 1522",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated attestation; not a claim that all intervening local transitions have been resolved."
+      ],
+      "references": [
+        "https://leros.gr/ova_por/castle-leros/"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-121",
+      "source_index": 120,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Naxos",
+      "name": "Naxie",
+      "modern_name": "Naxos",
+      "alternate_name": "Naxos",
+      "coordinates": [
+        25.38,
+        37.1
+      ],
+      "in_scope": true,
+      "occupation": "Duchy of the Archipelago 1207–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Duchy of the Archipelago 1207 - 1566",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-122",
+      "source_index": 121,
+      "region": "aegean",
+      "tier": 4,
+      "mark": "M:castle_frankish",
+      "title": "Tinos",
+      "name": "Tine",
+      "modern_name": "Tinos",
+      "alternate_name": "Tinos",
+      "coordinates": [
+        25.16,
+        37.54
+      ],
+      "in_scope": true,
+      "occupation": "Ghisi Latin lordship from 1207 through 1291 (continues)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Venetian 1390 - 1715",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated attestation; not a claim that all intervening local transitions have been resolved."
+      ],
+      "references": [
+        "https://unitesi.unive.it/retrieve/309a2227-fd32-4f8b-b7ee-bd82030beb0d/831717-1157793.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-123",
+      "source_index": 122,
+      "region": "aegean",
+      "tier": 4,
+      "mark": "M:town",
+      "title": "Santorini",
+      "name": "Santorin",
+      "modern_name": "Santorini",
+      "alternate_name": "Thira",
+      "coordinates": [
+        25.43,
+        36.4
+      ],
+      "in_scope": true,
+      "occupation": "Barozzi/Latin lordship after 1204, traditionally dated 1207; interrupted in the later 13th century",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+      ],
+      "references": [
+        "https://www.treccani.it/enciclopedia/iacopo-barozzi_res-49eb1331-87e7-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-124",
+      "source_index": 123,
+      "region": "aegean",
+      "tier": 2,
+      "mark": "P:chios",
+      "title": "Chios",
+      "name": "Scio",
+      "modern_name": "Chios",
+      "alternate_name": "Chios",
+      "coordinates": [
+        26.14,
+        38.37
+      ],
+      "in_scope": true,
+      "occupation": "Nicaean recovery in the early 13th century; Byzantine imperial island in the 13th century",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Genoese 1346 - 1566",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+      ],
+      "references": [
+        "https://www.ime.gr/chronos/10/en/p/pa3/pa3a.html"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-125",
+      "source_index": 124,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:walled_town",
+      "title": "Mytilene",
+      "name": "Mitylene",
+      "modern_name": "Mytilene",
+      "alternate_name": "Mytilini",
+      "coordinates": [
+        26.55,
+        39.1
+      ],
+      "in_scope": true,
+      "occupation": "Byzantine island; Latin allocation from 1204; Byzantine reintegration by 1261 (selected phases)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Gattilusio 1355 - 1462",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+      ],
+      "references": [
+        "https://asiaminor.ehw.gr/forms/filePage.aspx?lemmaId=6873"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-126",
+      "source_index": 125,
+      "region": "aegean",
+      "tier": 4,
+      "mark": "M:town",
+      "title": "Foca",
+      "name": "Foglie",
+      "modern_name": "Foca",
+      "alternate_name": "Phocaea",
+      "coordinates": [
+        26.75,
+        38.67
+      ],
+      "in_scope": true,
+      "occupation": "Genoese 1275–1291 (continues)",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Genoese 1275 - 1455",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-127",
+      "source_index": 126,
+      "region": "aegean",
+      "tier": 4,
+      "mark": "M:castle_frankish",
+      "title": "Lemnos",
+      "name": "Stalimene",
+      "modern_name": "Lemnos",
+      "alternate_name": "Limnos",
+      "coordinates": [
+        25.07,
+        39.88
+      ],
+      "in_scope": true,
+      "occupation": "Navigajosi Latin lordship from 1207; Byzantine recovery during 1277–1279, then Byzantine through 1291",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected dated occupation/transition. A complete local succession and precise start/end dates remain subject to review."
+      ],
+      "references": [
+        "https://efales-lem.gr/en/timeline/1207-1214/",
+        "https://efales-lem.gr/en/chron-category/category8-en/"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-128",
+      "source_index": 127,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:town",
+      "title": "Selcuk",
+      "name": "Ayasoluk",
+      "modern_name": "Selcuk",
+      "alternate_name": "Ephesus",
+      "coordinates": [
+        27.37,
+        37.94
+      ],
+      "in_scope": true,
+      "occupation": "Ephesos/Theologos: Byzantine/Nicaean administrative centre in 12th–13th centuries",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+      ],
+      "references": [
+        "https://www.academia.edu/19412235/The_Provincial_Aristocracy_in_Byzantine_Asia_Minor_1081_1261_"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-129",
+      "source_index": 128,
+      "region": "aegean",
+      "tier": 4,
+      "mark": "M:walled_town",
+      "title": "Alasehir",
+      "name": "Philadelphie",
+      "modern_name": "Alasehir",
+      "alternate_name": "Alasehir",
+      "coordinates": [
+        28.52,
+        38.35
+      ],
+      "in_scope": true,
+      "occupation": "Philadelphia: Byzantine/Nicaean administrative centre in 12th–13th centuries",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Greek until 1390",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Selected documented phases; not an exhaustive sequence of every local ruler or garrison."
+      ],
+      "references": [
+        "https://www.academia.edu/19412235/The_Provincial_Aristocracy_in_Byzantine_Asia_Minor_1081_1261_"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-130",
+      "source_index": 129,
+      "region": "aegean",
+      "tier": 3,
+      "mark": "M:greek_monastery",
+      "title": "Mount Athos",
+      "name": "Mont Athos",
+      "modern_name": "Mount Athos",
+      "alternate_name": "Agion Oros",
+      "coordinates": [
+        24.33,
+        40.15
+      ],
+      "in_scope": true,
+      "occupation": "Orthodox monastic community throughout 1095–1291; first charter 972",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Religious community continuity; not a claim of a military occupation."
+      ],
+      "references": [
+        "https://whc.unesco.org/document/164199"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-131",
+      "source_index": 130,
+      "region": "aegean",
+      "tier": 4,
+      "mark": "M:greek_monastery",
+      "title": "Patmos",
+      "name": "Patmos",
+      "modern_name": "Patmos",
+      "alternate_name": "Patmos",
+      "coordinates": [
+        26.55,
+        37.31
+      ],
+      "in_scope": true,
+      "occupation": "Monastery of St John, founded 1088; Orthodox community during 1095–1291",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Monastic presence, not a complete political-control history."
+      ],
+      "references": [
+        "https://www.aegeanislands.gr/pois/patmos-the-monastery-of-saint-john-the-theologian-en/"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-132",
+      "source_index": 131,
+      "region": "delta",
+      "tier": 1,
+      "mark": "P:cairo_",
+      "title": "Cairo",
+      "name": "al-Qahira",
+      "modern_name": "Cairo",
+      "alternate_name": "Babilonie",
+      "coordinates": [
+        31.26,
+        30.04
+      ],
+      "in_scope": true,
+      "occupation": "Fatimid 1095–1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://egymonuments.gov.eg/collections/historical-cairo/",
+        "https://www.ifao.egnet.net/anisl/032/06"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-133",
+      "source_index": 132,
+      "region": "delta",
+      "tier": 1,
+      "mark": "P:alexandria",
+      "title": "Alexandria",
+      "name": "al-Iskandariyya",
+      "modern_name": "Alexandria",
+      "alternate_name": "Alixandre",
+      "coordinates": [
+        29.92,
+        31.2
+      ],
+      "in_scope": true,
+      "occupation": "Egyptian dynastic context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "Frankish raid 1365",
+      "sieges": [
+        {
+          "period": "1167",
+          "from_year": 1167,
+          "through_year": 1167,
+          "references": [],
+          "review_required": true,
+          "source": "Inherited BATTLES catalog; detailed siege limits require review"
+        }
+      ],
+      "siege_label": "1167",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Regional political chronology, not continuous local garrison documentation. The 1365 raid is outside this map."
+      ],
+      "references": [
+        "https://egymonuments.gov.eg/collections/historical-cairo/",
+        "https://www.ifao.egnet.net/anisl/032/06"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": false
+    },
+    {
+      "id": "CP-134",
+      "source_index": 133,
+      "region": "delta",
+      "tier": 1,
+      "mark": "P:damietta",
+      "title": "Damietta",
+      "name": "Dimyat",
+      "modern_name": "Damietta",
+      "alternate_name": "Damiete",
+      "coordinates": [
+        31.82,
+        31.42
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1219–1221; 1249–1250",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1219 - 1221, 1249 - 1250",
+      "sieges": [
+        {
+          "period": "1169 (unsuccessful Franco-Byzantine siege)",
+          "from_year": 1169,
+          "through_year": 1169,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "review_required": true
+        },
+        {
+          "period": "1218–1219",
+          "from_year": 1218,
+          "through_year": 1219,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ]
+        },
+        {
+          "period": "June 1249 (landing and capture)",
+          "from_year": 1249,
+          "through_year": 1249,
+          "references": [
+            "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+          ],
+          "note": "Rapid capture after a landing, not a prolonged siege."
+        }
+      ],
+      "siege_label": "1169 (unsuccessful Franco-Byzantine siege); 1218–1219; June 1249 (landing and capture)",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-135",
+      "source_index": 134,
+      "region": "delta",
+      "tier": 2,
+      "mark": "P:mansura",
+      "title": "Mansoura",
+      "name": "al-Mansura",
+      "modern_name": "Mansoura",
+      "alternate_name": "la Massoure",
+      "coordinates": [
+        31.38,
+        31.04
+      ],
+      "in_scope": true,
+      "occupation": "Founded during Fifth Crusade, 1219; Ayyubid then Mamluk Egyptian city; battle 1250 was not a lasting Frankish occupation",
+      "occupation_status": "selected-phases-reviewed",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [
+        "https://orca.cardiff.ac.uk/id/eprint/87056/1/2016fultonmsphd.pdf",
+        "https://www.ifao.egnet.net/anisl/032/06"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-136",
+      "source_index": 135,
+      "region": "delta",
+      "tier": 3,
+      "mark": "M:town",
+      "title": "Faraskur",
+      "name": "Fariskur",
+      "modern_name": "Faraskur",
+      "alternate_name": "",
+      "coordinates": [
+        31.72,
+        31.33
+      ],
+      "in_scope": true,
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "occupation_status": "regional-context-local-control-unresolved",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Dynastic chronology is regional context, not evidence for uninterrupted occupation of this individual site."
+      ],
+      "references": [
+        "https://www.ifao.egnet.net/anisl/032/06"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-137",
+      "source_index": 136,
+      "region": "delta",
+      "tier": 3,
+      "mark": "M:town",
+      "title": "Rosetta",
+      "name": "Rashid",
+      "modern_name": "Rosetta",
+      "alternate_name": "Rosette",
+      "coordinates": [
+        30.42,
+        31.4
+      ],
+      "in_scope": true,
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "occupation_status": "regional-context-local-control-unresolved",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Dynastic chronology is regional context, not evidence for uninterrupted occupation of this individual site."
+      ],
+      "references": [
+        "https://www.ifao.egnet.net/anisl/032/06"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-138",
+      "source_index": 137,
+      "region": "delta",
+      "tier": 3,
+      "mark": "M:walled_town",
+      "title": "Tinnis",
+      "name": "Tinnis",
+      "modern_name": "Tinnis",
+      "alternate_name": "",
+      "coordinates": [
+        32.22,
+        31.17
+      ],
+      "in_scope": true,
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "occupation_status": "regional-context-local-control-unresolved",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Dynastic chronology is regional context, not evidence for uninterrupted occupation of this individual site."
+      ],
+      "references": [
+        "https://www.ifao.egnet.net/anisl/032/06"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-139",
+      "source_index": 138,
+      "region": "delta",
+      "tier": 3,
+      "mark": "M:walled_town",
+      "title": "Pelusium",
+      "name": "al-Farama",
+      "modern_name": "Pelusium",
+      "alternate_name": "Belbeis",
+      "coordinates": [
+        32.55,
+        31.05
+      ],
+      "in_scope": true,
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "occupation_status": "regional-context-local-control-unresolved",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Dynastic chronology is regional context, not evidence for uninterrupted occupation of this individual site."
+      ],
+      "references": [
+        "https://www.ifao.egnet.net/anisl/032/06"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-140",
+      "source_index": 139,
+      "region": "delta",
+      "tier": 3,
+      "mark": "M:town",
+      "title": "Bilbeis",
+      "name": "Bilbays",
+      "modern_name": "Bilbeis",
+      "alternate_name": "Belbeis",
+      "coordinates": [
+        31.57,
+        30.42
+      ],
+      "in_scope": true,
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "occupation_status": "regional-context-local-control-unresolved",
+      "source_occupation": "",
+      "sieges": [
+        {
+          "period": "1168",
+          "from_year": 1168,
+          "through_year": 1168,
+          "references": [],
+          "review_required": true,
+          "source": "Inherited BATTLES catalog; detailed siege limits require review"
+        }
+      ],
+      "siege_label": "1168",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Dynastic chronology is regional context, not evidence for uninterrupted occupation of this individual site."
+      ],
+      "references": [
+        "https://www.ifao.egnet.net/anisl/032/06"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-141",
+      "source_index": 140,
+      "region": "delta",
+      "tier": 3,
+      "mark": "M:eastern_church",
+      "title": "Wadi El Natrun",
+      "name": "Wadi al-Natrun",
+      "modern_name": "Wadi El Natrun",
+      "alternate_name": "Sainte-Macaire",
+      "coordinates": [
+        30.33,
+        30.38
+      ],
+      "in_scope": true,
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "occupation_status": "regional-context-local-control-unresolved",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Dynastic chronology is regional context, not evidence for uninterrupted occupation of this individual site."
+      ],
+      "references": [
+        "https://www.ifao.egnet.net/anisl/032/06"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-142",
+      "source_index": 141,
+      "region": "delta",
+      "tier": 4,
+      "mark": "M:ruin",
+      "title": "Giza",
+      "name": "Pyramides",
+      "modern_name": "Giza",
+      "alternate_name": "al-Ahram",
+      "coordinates": [
+        31.13,
+        29.98
+      ],
+      "in_scope": true,
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "occupation_status": "regional-context-local-control-unresolved",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Dynastic chronology is regional context, not evidence for uninterrupted occupation of this individual site.",
+        "Landscape, sacred place or archaeological site: an occupation period is not a separate military garrison tenure."
+      ],
+      "references": [
+        "https://www.ifao.egnet.net/anisl/032/06"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-143",
+      "source_index": 142,
+      "region": "delta",
+      "tier": 3,
+      "mark": "M:walled_town",
+      "title": "Suez",
+      "name": "al-Suways",
+      "modern_name": "Suez",
+      "alternate_name": "Clisma",
+      "coordinates": [
+        32.55,
+        29.97
+      ],
+      "in_scope": true,
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "occupation_status": "regional-context-local-control-unresolved",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Dynastic chronology is regional context, not evidence for uninterrupted occupation of this individual site."
+      ],
+      "references": [
+        "https://www.ifao.egnet.net/anisl/032/06"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-144",
+      "source_index": 143,
+      "region": "delta",
+      "tier": 4,
+      "mark": "M:town",
+      "title": "al-Tur",
+      "name": "Sur",
+      "modern_name": "al-Tur",
+      "alternate_name": "Raithou",
+      "coordinates": [
+        33.62,
+        28.24
+      ],
+      "in_scope": true,
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "occupation_status": "regional-context-local-control-unresolved",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Dynastic chronology is regional context, not evidence for uninterrupted occupation of this individual site."
+      ],
+      "references": [
+        "https://www.ifao.egnet.net/anisl/032/06"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-145",
+      "source_index": 144,
+      "region": "delta",
+      "tier": 2,
+      "mark": "M:sea_castle",
+      "title": "Pharaoh's Island",
+      "name": "Ile de Graye",
+      "modern_name": "Pharaoh's Island",
+      "alternate_name": "Jazirat Fir'awn",
+      "coordinates": [
+        34.85,
+        29.46
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1115–1170",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1115 - 1170",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-146",
+      "source_index": 145,
+      "region": "delta",
+      "tier": 3,
+      "mark": "M:castle_frankish",
+      "title": "Aqaba",
+      "name": "Aila",
+      "modern_name": "Aqaba",
+      "alternate_name": "Ayla",
+      "coordinates": [
+        34.95,
+        29.55
+      ],
+      "in_scope": true,
+      "occupation": "Frankish 1116–1170",
+      "occupation_status": "inherited-chronology-requires-review",
+      "source_occupation": "Frankish 1116 - 1170",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [],
+      "references": [],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    },
+    {
+      "id": "CP-147",
+      "source_index": 146,
+      "region": "delta",
+      "tier": 2,
+      "mark": "P:sinai",
+      "title": "St Catherine's",
+      "name": "Sainte-Katherine",
+      "modern_name": "St Catherine's",
+      "alternate_name": "Dayr Sant Katrin",
+      "coordinates": [
+        33.97,
+        28.56
+      ],
+      "in_scope": true,
+      "occupation": "Egyptian regional context: Fatimid to 1171; Ayyubid 1171–1250; Mamluk 1250–1291 (continues)",
+      "occupation_status": "regional-context-local-control-unresolved",
+      "source_occupation": "",
+      "sieges": [],
+      "siege_label": "No siege recorded in this index",
+      "siege_coverage": "selected-documented-events; absence is not proof of no siege",
+      "notes": [
+        "Dynastic chronology is regional context, not evidence for uninterrupted occupation of this individual site."
+      ],
+      "references": [
+        "https://www.ifao.egnet.net/anisl/032/06"
+      ],
+      "inherited_source": "https://github.com/1-tok/crusadersmap/blob/22e91d258bca9603a2ecb261528e455ad19c63f1/places.py",
+      "coordinates_surveyed": false,
+      "review_required": true
+    }
+  ]
+}
