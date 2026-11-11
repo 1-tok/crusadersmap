@@ -9,3 +9,8 @@ These are period-informed schematic paintings for circa 1180, not measured recon
 ## Superseded by approved release
 
 The apparent broad halo came from viewing RGB without the alpha channel. The preserved original paintings passed light and dark composition review after standard packaging. The approved cutouts and geographic markup are in [Mount Amel release](../greece-egypt-1180-mount-amel/manifest.json). This folder documents the earlier draft state.
+
+
+## 2026-11-10 override — draft display authorized
+
+The user authorized **all drafts** for review-only map placement despite technical holds. Beaufort and Toron draft files retain their halo/edge-failure QA and are not production-approved. `placement-candidates.geojson` and the dedicated `placements-review*.geojson` layers now permit visual placement with `placement_view=sprite-review`. The older 'no placement approval' restriction above applies only to production placement.

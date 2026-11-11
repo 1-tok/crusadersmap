@@ -8,3 +8,7 @@ The existing released catalog and `placements-1180.geojson` are unchanged; the p
 
 A review placement record means the PNG can be shown at its recorded representative WGS84 point for visual QA; it does not certify the medieval plan, coastline or precise building footprint. Review-layer compositing at print scale still requires QA.
 
+
+## Rendering the map review layer
+
+Run `python3 render_sprite_layer.py --year 1180 --review` to generate `previews/sprite-layer-review-1180.svg` and `previews/sprite-placement-review-1180.jpg`. Use `--year 1245 --review` for the Safed rebuilding. Add `--all-review-variants` for explicit side-by-side debugging; it may cause overlapping alternate paintings at the same anchor. The default production rendering command is unchanged. The review-only PNGs may have halos, opaque backgrounds or other issues: this is intentional visibility for quality review, not automatic final acceptance.

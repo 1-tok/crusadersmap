@@ -8,3 +8,8 @@ The review map displays both candidates at published geographic points and links
 - [Placement close-ups](../../../previews/fortresses-04-placement-review.jpg)
 - [Candidate points](placement-candidates.geojson)
 - [Built-in image generation prompts](prompts.json)
+
+
+## 2026-11-10 override — review placement authorization
+
+All draft paintings in this folder are now approved for **review-only map placement**, even while final artwork approval is pending. The updated manifest and placement GeoJSON carry `approval_for_review_placement=true`, `production_approved=false`, and `placement_view=sprite-review`. Historic dates and repaint flags remain active. This supersedes older text above that describes candidates as unavailable for placement.
