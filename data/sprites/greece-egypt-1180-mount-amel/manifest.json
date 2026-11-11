@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "batch_id": "greece-egypt-1180-mount-amel",
+  "default_year": 1180,
+  "generation_method": "built-in image_gen",
+  "release_status": "published-provisional",
+  "approval_policy": "User approved provisional placement on 2026-11-08. All release PNGs passed light and dark composition QA. Historical and repaint review stays active.",
+  "assets": [
+    {
+      "id": "beaufort-1180-v1",
+      "site_id": "beaufort",
+      "name": "Beaufort",
+      "historical_name": "Belfort",
+      "alternate_names": [
+        "Arnoun",
+        "Qal'at al-Shaqif"
+      ],
+      "source_site_id": "CP-013",
+      "site_type": "castle",
+      "category": "castle",
+      "file": "beaufort-1180-v1.png",
+      "source": "sources/beaufort.png",
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "fortifications",
+        "main"
+      ],
+      "coordinates": [
+        35.531944,
+        33.324167
+      ],
+      "longitude": 35.531944,
+      "latitude": 33.324167,
+      "coordinate_evidence": {
+        "url": "https://geographic.org/geographic_names/name.php?c=lebanon&fid=3643&uni=-1160992",
+        "published_value": "33.324167°N, 35.531944°E",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+      },
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Frankish ridge fortress after construction began following the 1139 acquisition. Long cliff enclosure is a schematic. Gate, donjon and curtain profile need historical review."
+      ],
+      "references": [
+        "https://sharinghistory.museumwnf.org/database_item.php?id=monuments%3BAWE%3Blb%3B52%3Ben",
+        "https://whc.unesco.org/en/list/1810/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-mount-amel/beaufort-1180-v1.png",
+      "source_sha256": "e1f3399c27e7f9c8452299b2be230a794f639217a337dfdd3dc6826c1fa6d542",
+      "sha256": "e553a949b732b75d4d35a353f7572800dc8d355554084872c87f3e9d9d9954e6",
+      "pixel_sha256": "fca1de4e909df42f23c74611bee9cc9c5cf8c55cbab6c82444101ad20e24659d",
+      "dimensions_px": [
+        1024,
+        698
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9627507163323782
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          698
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          672
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 349.0,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "toron-1180-v1",
+      "site_id": "toron",
+      "name": "Tibnin",
+      "historical_name": "Toron",
+      "alternate_names": [
+        "Tebnine",
+        "Qalaat Tibnin"
+      ],
+      "source_site_id": "CP-033",
+      "site_type": "castle",
+      "category": "castle",
+      "file": "toron-1180-v1.png",
+      "source": "sources/toron.png",
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "fortifications",
+        "main"
+      ],
+      "coordinates": [
+        35.412279,
+        33.19543
+      ],
+      "longitude": 35.412279,
+      "latitude": 33.19543,
+      "coordinate_evidence": {
+        "url": "https://www.hep-web.org/projects/202410ReportCultureHeritageDestructionLebanon/Report-02-Cultural-Heritage-Destruction-Lebanon-English-Nov-2024.pdf",
+        "published_value": "33.19543°N, 35.412279°E",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+      },
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Early Frankish hilltop fort schematic. The extant structure includes later rebuilding. The drawn tower count, wall profile and interiors are interpretive."
+      ],
+      "references": [
+        "https://whc.unesco.org/en/list/1810/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-mount-amel/toron-1180-v1.png",
+      "source_sha256": "d4bb198fd10ce5b02182d52555f73e052bdff0dd03db10fa287670bbbd4af0aa",
+      "sha256": "01e50bdf7bee6f203254a5f04482113c7859a5c7523dac4bc395d3a4a160badb",
+      "pixel_sha256": "0d0fb86917834c785257ca720d4c1823525fa94854bb16536589dcb4c0fe43d7",
+      "dimensions_px": [
+        1024,
+        700
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9628571428571429
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          700
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          674
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 350.0,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    }
+  ]
+}

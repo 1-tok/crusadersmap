@@ -1,0 +1,325 @@
+{
+  "type": "FeatureCollection",
+  "coordinate_system": "EPSG:4326",
+  "note": "Route each feature to its map_region: main, aegean or delta. Do not project inset cities through mainland frame.to_px. Any city lacking grounded coordinates is omitted.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "kyrenia-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.322222,
+          35.341389
+        ]
+      },
+      "properties": {
+        "site_id": "kyrenia",
+        "name": "Kyrenia",
+        "asset_path": "data/sprites/greece-egypt-1180-cyprus-egypt/kyrenia-1180-v1.png",
+        "map_region": "main",
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9628571428571429
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            700
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            674
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 350.0,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Kyrenia_Castle",
+          "published_value": "35°20′29″N 33°19′20″E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "repaint_flags": [
+          "Byzantine harbor castle, depicted circa 1180. The source describes four towers and a 1191 attestation. The courtyard, chapel location and wall heights are schematic. The later Venetian bastions are omitted."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nicosia-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.365,
+          35.1725
+        ]
+      },
+      "properties": {
+        "site_id": "nicosia",
+        "name": "Nicosia",
+        "asset_path": "data/sprites/greece-egypt-1180-cyprus-egypt/nicosia-1180-v1.png",
+        "map_region": "main",
+        "map_layers": [
+          "sprites-1180",
+          "settlements",
+          "main"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9629629629629629
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            702
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            676
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 351.0,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Nicosia",
+          "published_value": "35°10′21″N 33°21′54″E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "repaint_flags": [
+          "Schematic Byzantine town circa 1180. The coordinate is a representative city point. The painted churches, footprint and street plan are interpretive. Later Venetian walls and Gothic landmarks are omitted."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "st-hilarion-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2808,
+          35.3123
+        ]
+      },
+      "properties": {
+        "site_id": "st-hilarion",
+        "name": "St Hilarion",
+        "asset_path": "data/sprites/greece-egypt-1180-cyprus-egypt/st-hilarion-1180-v1.png",
+        "map_region": "main",
+        "map_layers": [
+          "sprites-1180",
+          "fortifications",
+          "main"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9623733719247467
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            691
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            665
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 345.5,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Saint_Hilarion_Castle",
+          "published_value": "33.2808°E, 35.3123°N",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "repaint_flags": [
+          "Conservative Byzantine-phase interpretation. The first castle reference is 1191. The circa-1180 extent is inferred and the depicted terraces and fortifications need phase review. Later Lusignan apartments are omitted."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "st-catherines-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.975,
+          28.556
+        ]
+      },
+      "properties": {
+        "site_id": "st-catherines",
+        "name": "St Catherine's",
+        "asset_path": "data/sprites/greece-egypt-1180-cyprus-egypt/st-catherines-1180-v1.png",
+        "map_region": "delta",
+        "map_layers": [
+          "sprites-1180",
+          "religious-sites",
+          "delta"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9620991253644315
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            686
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            34,
+            998,
+            660
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 343.0,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/217511",
+          "published_value": "28.556°N, 33.975°E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "repaint_flags": [
+          "Sixth-century fortified monastery with basilica and a schematic 1106 Fatimid mosque. The 1871 bell tower is omitted. Mosque roof, minaret and enclosure layout need review."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "giza-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.134722222222223,
+          29.977777777777778
+        ]
+      },
+      "properties": {
+        "site_id": "giza",
+        "name": "Giza",
+        "asset_path": "data/sprites/greece-egypt-1180-cyprus-egypt/giza-1180-v1.png",
+        "map_region": "delta",
+        "map_layers": [
+          "sprites-1180",
+          "landmarks",
+          "delta"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9622093023255814
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            688
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            998,
+            662
+          ],
+          "display_width_atlas_px": 400,
+          "display_height_atlas_px": 268.75,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://whc.unesco.org/document/104639",
+          "published_value": "29°58′40″N 31°8′5″E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "repaint_flags": [
+          "Ancient pyramid group as a landscape landmark during the Crusader period. Spacing is compressed and remaining medieval casing is approximate. The Sphinx and modern development are omitted."
+        ],
+        "placement_view": "atlas"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wadi-al-natrun-1180-v1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.47611,
+          30.29139
+        ]
+      },
+      "properties": {
+        "site_id": "wadi-al-natrun",
+        "name": "Wadi El Natrun",
+        "asset_path": "data/sprites/greece-egypt-1180-cyprus-egypt/wadi-al-natrun-1180-v1.png",
+        "map_region": "delta",
+        "map_layers": [
+          "sprites-1180",
+          "religious-sites",
+          "delta"
+        ],
+        "anchor_normalized": [
+          0.5,
+          0.9630156472261735
+        ],
+        "visual_footprint": {
+          "canvas_px": [
+            1024,
+            703
+          ],
+          "painted_bounds_xyxy": [
+            26,
+            26,
+            997,
+            677
+          ],
+          "display_width_atlas_px": 512,
+          "display_height_atlas_px": 351.5,
+          "geographic_scale": false
+        },
+        "approval_for_placement": true,
+        "coordinate_evidence": {
+          "url": "https://en.wikipedia.org/wiki/Monastery_of_Saint_Macarius_the_Great",
+          "published_value": "30°17′29″N 30°28′34″E",
+          "accessed": "2026-11-08",
+          "surveyed": false,
+          "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+        },
+        "repaint_flags": [
+          "Saint Macarius represents the regional monastic marker. Church, enclosure and refuge tower are a schematic early phase. Later churches and modern extensions are omitted. Exact dome forms and tower date need review."
+        ],
+        "placement_view": "atlas"
+      }
+    }
+  ]
+}

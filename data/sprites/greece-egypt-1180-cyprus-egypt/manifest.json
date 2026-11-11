@@ -1,0 +1,545 @@
+{
+  "schema_version": 1,
+  "batch_id": "greece-egypt-1180-cyprus-egypt",
+  "default_year": 1180,
+  "generation_method": "built-in image_gen",
+  "release_status": "published-provisional",
+  "approval_policy": "User approved provisional placement on 2026-11-08. All release PNGs passed light and dark composition QA. Historical and repaint review stays active.",
+  "assets": [
+    {
+      "id": "kyrenia-1180-v1",
+      "site_id": "kyrenia",
+      "name": "Kyrenia",
+      "historical_name": "Keryneia",
+      "alternate_names": [
+        "Cerines",
+        "Girne"
+      ],
+      "source_site_id": "CP-082",
+      "site_type": "castle",
+      "category": "castle",
+      "file": "kyrenia-1180-v1.png",
+      "source": "sources/kyrenia.png",
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "fortifications",
+        "main"
+      ],
+      "coordinates": [
+        33.322222,
+        35.341389
+      ],
+      "longitude": 33.322222,
+      "latitude": 35.341389,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Kyrenia_Castle",
+        "published_value": "35°20′29″N 33°19′20″E",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+      },
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Byzantine harbor castle, depicted circa 1180. The source describes four towers and a 1191 attestation. The courtyard, chapel location and wall heights are schematic. The later Venetian bastions are omitted."
+      ],
+      "references": [
+        "https://www.visitncy.com/discover/kyrenia-castle-shipwreck-museum/",
+        "https://eemd.gov.ct.tr/Portals/46/Girne%20Kalesi%20-%20Kyrenia%20Castle_1.pdf"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-cyprus-egypt/kyrenia-1180-v1.png",
+      "source_sha256": "1433348c836670ef56269a9e335ef4228fb79892d99d3f40bae4da69a8e4a318",
+      "sha256": "1e6e3b80162d74f3349f696080dbd4cb3e019482709a67ecb8f197febe8b03cb",
+      "pixel_sha256": "41539ece3d1c24d8222c3d32dbb9c1f45321c82e4c592cc31b9f5ffa10675661",
+      "dimensions_px": [
+        1024,
+        700
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9628571428571429
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          700
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          674
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 350.0,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "nicosia-1180-v1",
+      "site_id": "nicosia",
+      "name": "Nicosia",
+      "historical_name": "Lefkosia",
+      "alternate_names": [
+        "Nicosie",
+        "Lefkosia"
+      ],
+      "source_site_id": "CP-080",
+      "site_type": "city",
+      "category": "city",
+      "file": "nicosia-1180-v1.png",
+      "source": "sources/nicosia.png",
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "main"
+      ],
+      "coordinates": [
+        33.365,
+        35.1725
+      ],
+      "longitude": 33.365,
+      "latitude": 35.1725,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Nicosia",
+        "published_value": "35°10′21″N 33°21′54″E",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+      },
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Schematic Byzantine town circa 1180. The coordinate is a representative city point. The painted churches, footprint and street plan are interpretive. Later Venetian walls and Gothic landmarks are omitted."
+      ],
+      "references": [
+        "https://leventismuseum.org.cy/venetian-period/",
+        "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/the-medieval-walls-of-lefkosia-nicosia/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-cyprus-egypt/nicosia-1180-v1.png",
+      "source_sha256": "f67f865ecf438d566cf367f8b6edb4caa66c983ecf363fcdb5f743fd62cad078",
+      "sha256": "548a9ec36ec03ccda3be4746dfa7f52890f49c116eabc41729e45eee3ba0c95c",
+      "pixel_sha256": "af0c80e57e5d9c2ebffe9e8afcc6ad3a10ef10cde0d7f76c7937625d1b0ab3c8",
+      "dimensions_px": [
+        1024,
+        702
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9629629629629629
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          702
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          676
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 351.0,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "st-hilarion-1180-v1",
+      "site_id": "st-hilarion",
+      "name": "St Hilarion",
+      "historical_name": "Dieudamour",
+      "alternate_names": [
+        "Saint-Hilarion",
+        "Saint Hilarion Castle"
+      ],
+      "source_site_id": "CP-081",
+      "site_type": "castle",
+      "category": "castle",
+      "file": "st-hilarion-1180-v1.png",
+      "source": "sources/st-hilarion.png",
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "fortifications",
+        "main"
+      ],
+      "coordinates": [
+        33.2808,
+        35.3123
+      ],
+      "longitude": 33.2808,
+      "latitude": 35.3123,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Saint_Hilarion_Castle",
+        "published_value": "33.2808°E, 35.3123°N",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+      },
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Conservative Byzantine-phase interpretation. The first castle reference is 1191. The circa-1180 extent is inferred and the depicted terraces and fortifications need phase review. Later Lusignan apartments are omitted."
+      ],
+      "references": [
+        "https://www.visitncy.com/discover/saint-hilarion-castle/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-cyprus-egypt/st-hilarion-1180-v1.png",
+      "source_sha256": "eaae8d06d53332866f385e2c04590a97f3dc4e27631627e1d628d93ccf464bfb",
+      "sha256": "504dfc856c27dc4a645518b759406c4b9fef50bb1157dc6802a4a1556558d48b",
+      "pixel_sha256": "5d596052c3eafe0a25e0ea93e71c1258296cb29ed291020a998d4cb9133f179c",
+      "dimensions_px": [
+        1024,
+        691
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9623733719247467
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          691
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          665
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 345.5,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "st-catherines-1180-v1",
+      "site_id": "st-catherines",
+      "name": "St Catherine's",
+      "historical_name": "Sainte-Katherine",
+      "alternate_names": [
+        "Dayr Sant Katrin",
+        "Saint Catherine Monastery"
+      ],
+      "source_site_id": "CP-147",
+      "site_type": "monastery",
+      "category": "monastery",
+      "file": "st-catherines-1180-v1.png",
+      "source": "sources/st-catherines.png",
+      "map_region": "delta",
+      "map_layers": [
+        "sprites-1180",
+        "religious-sites",
+        "delta"
+      ],
+      "coordinates": [
+        33.975,
+        28.556
+      ],
+      "longitude": 33.975,
+      "latitude": 28.556,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/document/217511",
+        "published_value": "28.556°N, 33.975°E",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+      },
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Sixth-century fortified monastery with basilica and a schematic 1106 Fatimid mosque. The 1871 bell tower is omitted. Mosque roof, minaret and enclosure layout need review."
+      ],
+      "references": [
+        "https://whc.unesco.org/en/list/954/",
+        "https://egymonuments.gov.eg/en/monuments/the-fatimid-mosque",
+        "https://www.loc.gov/item/2019700070/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-cyprus-egypt/st-catherines-1180-v1.png",
+      "source_sha256": "e0ec5c1e67b263ac3ff5b9727780e5c8367f5eccf8bb6086c3b4a7ae5b8bdcf2",
+      "sha256": "4675098f8f77047899f70437bb0ae483f8b2920b764884788d12de9a1805470f",
+      "pixel_sha256": "41761fa4a4d8f991411e73276facd5126887f66a620d89d430491bab2ba0c7fc",
+      "dimensions_px": [
+        1024,
+        686
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9620991253644315
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          686
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          34,
+          998,
+          660
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 343.0,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "giza-1180-v1",
+      "site_id": "giza",
+      "name": "Giza",
+      "historical_name": "Pyramides",
+      "alternate_names": [
+        "al-Ahram",
+        "Pyramids of Giza"
+      ],
+      "source_site_id": "CP-142",
+      "site_type": "landmark",
+      "category": "landmark",
+      "file": "giza-1180-v1.png",
+      "source": "sources/giza.png",
+      "map_region": "delta",
+      "map_layers": [
+        "sprites-1180",
+        "landmarks",
+        "delta"
+      ],
+      "coordinates": [
+        31.134722222222223,
+        29.977777777777778
+      ],
+      "longitude": 31.134722222222223,
+      "latitude": 29.977777777777778,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/document/104639",
+        "published_value": "29°58′40″N 31°8′5″E",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+      },
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Ancient pyramid group as a landscape landmark during the Crusader period. Spacing is compressed and remaining medieval casing is approximate. The Sphinx and modern development are omitted."
+      ],
+      "references": [
+        "https://giza.fas.harvard.edu/",
+        "https://academic.oup.com/edited-volume/43506/chapter/364132852"
+      ],
+      "display_width_units": 400,
+      "asset_path": "data/sprites/greece-egypt-1180-cyprus-egypt/giza-1180-v1.png",
+      "source_sha256": "f261336ab1f4ffc6af88051c91225d3617a037f1c16a0a00fec77a51da0a82de",
+      "sha256": "fa7257a75959718ffc7308df719e3b1ce7be0b950d5fa54fbb27b5a43d17244b",
+      "pixel_sha256": "1ab308ec91dbd52e15e34ede263f54fa73df396bebfd60401b197f2c7da70659",
+      "dimensions_px": [
+        1024,
+        688
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9622093023255814
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          688
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          662
+        ],
+        "display_width_atlas_px": 400,
+        "display_height_atlas_px": 268.75,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "wadi-al-natrun-1180-v1",
+      "site_id": "wadi-al-natrun",
+      "name": "Wadi El Natrun",
+      "historical_name": "Dayr Abu Maqar",
+      "alternate_names": [
+        "Wadi al-Natrun",
+        "Sainte-Macaire",
+        "Saint Macarius Monastery"
+      ],
+      "source_site_id": "CP-141",
+      "site_type": "monastery",
+      "category": "monastery",
+      "file": "wadi-al-natrun-1180-v1.png",
+      "source": "sources/wadi-al-natrun.png",
+      "map_region": "delta",
+      "map_layers": [
+        "sprites-1180",
+        "religious-sites",
+        "delta"
+      ],
+      "coordinates": [
+        30.47611,
+        30.29139
+      ],
+      "longitude": 30.47611,
+      "latitude": 30.29139,
+      "coordinate_evidence": {
+        "url": "https://en.wikipedia.org/wiki/Monastery_of_Saint_Macarius_the_Great",
+        "published_value": "30°17′29″N 30°28′34″E",
+        "accessed": "2026-11-08",
+        "surveyed": false,
+        "uncertainty_note": "Published representative site point. The normalized visual anchor does not define a medieval building footprint."
+      },
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "period_1180_eligible": true,
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Saint Macarius represents the regional monastic marker. Church, enclosure and refuge tower are a schematic early phase. Later churches and modern extensions are omitted. Exact dome forms and tower date need review."
+      ],
+      "references": [
+        "https://stmacariusmonastery.org/overview/?lang=en",
+        "https://whc.unesco.org/en/tentativelists/1827/"
+      ],
+      "display_width_units": 512,
+      "asset_path": "data/sprites/greece-egypt-1180-cyprus-egypt/wadi-al-natrun-1180-v1.png",
+      "source_sha256": "7111656ff9a390983be9d1a08936187a7eb4ac75131026b467b20758280e51a2",
+      "sha256": "902a6fe50b5e35c97ae27c07075cc3f037da2affc76f1617ed6a2cdc74c6c96e",
+      "pixel_sha256": "dfeca18a77992b757dc5b68c7148d352439101a7263b21d130aede47348852ae",
+      "dimensions_px": [
+        1024,
+        703
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9630156472261735
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          703
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          997,
+          677
+        ],
+        "display_width_atlas_px": 512,
+        "display_height_atlas_px": 351.5,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    }
+  ]
+}

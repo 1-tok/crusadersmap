@@ -1,0 +1,17 @@
+{
+  "beirut": {
+    "prompt": "Remove sky, haze and shadow. Preserve the circa-1180 waterfront concept and output a transparent sprite.",
+    "selected": "sources/beirut-cutout.png"
+  },
+  "ascalon": {
+    "selected": "sources/ascalon-cutout.png",
+    "method": "Recovered earlier image generation cutout pass. Removes original border and heraldry."
+  },
+  "chios": {
+    "selected": "sources/chios-cutout.png",
+    "method": "Recovered earlier image generation cutout pass."
+  },
+  "gaza": {
+    "source_review": "../../../reviews/gaza-1180/review.json"
+  }
+}

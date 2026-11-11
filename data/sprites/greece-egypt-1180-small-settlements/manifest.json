@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "batch_id": "greece-egypt-1180-small-settlements",
+  "default_year": 1180,
+  "generation_method": "built-in image_gen",
+  "release_status": "published-provisional",
+  "assets": [
+    {
+      "id": "bethlehem-1180-v1",
+      "site_id": "bethlehem",
+      "name": "Bethlehem",
+      "historical_name": "Bethleem",
+      "alternate_names": [
+        "Bethlehem"
+      ],
+      "source_site_id": "CP-025",
+      "category": "town",
+      "site_type": "town",
+      "file": "bethlehem-1180-v1.png",
+      "source": "sources/bethlehem.png",
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "main"
+      ],
+      "coordinates": [
+        35.2075,
+        31.70435277777778
+      ],
+      "longitude": 35.2075,
+      "latitude": 31.70435277777778,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/list/1433/maps/",
+        "published_value": "N31 42 15.67 E35 12 27",
+        "surveyed": false,
+        "accessed": "2026-11-08",
+        "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+      },
+      "period_1180_eligible": true,
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Nativity basilica and neighboring houses are schematic. Repaint the basilica massing, apse arrangement and approach using a surveyed plan."
+      ],
+      "references": [
+        "https://whc.unesco.org/en/list/1433/"
+      ],
+      "display_width_units": 320,
+      "asset_path": "data/sprites/greece-egypt-1180-small-settlements/bethlehem-1180-v1.png",
+      "source_sha256": "ef510709efa8182e5e7cdb3e3bafec2093b6e96373b8b05c857935a3f43b60a4",
+      "sha256": "f2d6b2d0a24209649cf6eaa2c551cdda796c9542cb8c3bec56fbcedfe3aa78c7",
+      "pixel_sha256": "a067580030519b09ecf20cd148a0c9f05681b99c56a1b054d31bba6b5246fecb",
+      "dimensions_px": [
+        1024,
+        696
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9626436781609196
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          696
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          994,
+          670
+        ],
+        "display_width_atlas_px": 320,
+        "display_height_atlas_px": 217.5,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "batroun-1180-v1",
+      "site_id": "batroun",
+      "name": "Batroun",
+      "historical_name": "Botron",
+      "alternate_names": [
+        "Batroun"
+      ],
+      "source_site_id": "CP-067",
+      "category": "town",
+      "site_type": "town",
+      "file": "batroun-1180-v1.png",
+      "source": "sources/batroun.png",
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "main"
+      ],
+      "coordinates": [
+        35.66429,
+        34.24932
+      ],
+      "longitude": 35.66429,
+      "latitude": 34.24932,
+      "coordinate_evidence": {
+        "url": "https://whc.unesco.org/en/tentativelists/6428",
+        "published_value": "34.24932 N, 35.664290 E",
+        "surveyed": false,
+        "accessed": "2026-11-08",
+        "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+      },
+      "period_1180_eligible": true,
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "Small port with a fortified dwelling and surrounding houses. Review the tower profile, shore, boats and town footprint. The published point represents the historic center."
+      ],
+      "references": [
+        "https://real-phd.mtak.hu/2112/1/BTK_DD_2025_chlela.pdf"
+      ],
+      "display_width_units": 320,
+      "asset_path": "data/sprites/greece-egypt-1180-small-settlements/batroun-1180-v1.png",
+      "source_sha256": "11cab5d10b4b213447fc9589df66df5b6ab7987ca7c6bbd2bcfc11cc682466be",
+      "sha256": "ccd4c4e8757983b0a86f492177a7430d183502139b462b038237ba85ca09dca8",
+      "pixel_sha256": "71d04c5968eddfe9991c02f577d19a474bdd41e6ac51544fc60f792434f22777",
+      "dimensions_px": [
+        1024,
+        694
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.962536023054755
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          694
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          997,
+          668
+        ],
+        "display_width_atlas_px": 320,
+        "display_height_atlas_px": 216.875,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    },
+    {
+      "id": "larnaca-1180-v1",
+      "site_id": "larnaca",
+      "name": "Larnaca",
+      "historical_name": "Salines",
+      "alternate_names": [
+        "Larnaca"
+      ],
+      "source_site_id": "CP-088",
+      "category": "town",
+      "site_type": "town",
+      "file": "larnaca-1180-v1.png",
+      "source": "sources/larnaca.png",
+      "map_region": "main",
+      "map_layers": [
+        "sprites-1180",
+        "settlements",
+        "main"
+      ],
+      "coordinates": [
+        33.63479,
+        34.9115
+      ],
+      "longitude": 33.63479,
+      "latitude": 34.9115,
+      "coordinate_evidence": {
+        "url": "https://inherit-eu.com/trail-detail/downloads/CY-Trail-4-Thombs-EN-final.pdf",
+        "published_value": "34.9115 N, 33.63479 E",
+        "surveyed": false,
+        "accessed": "2026-11-08",
+        "uncertainty_note": "Published site reference point. The painted footprint and streets are schematic."
+      },
+      "period_1180_eligible": true,
+      "date_ranges": {
+        "approved_art_from": 1180,
+        "approved_art_through": 1180
+      },
+      "approval_for_placement": true,
+      "artwork_approval": "approved-provisional",
+      "placement_status": "approved-provisional",
+      "review_required": true,
+      "repaint_required": true,
+      "repaint_flags": [
+        "The Byzantine church is the reference landmark. Houses, church roof and shoreline are schematic. The later belfry and porch were excluded from the brief."
+      ],
+      "references": [
+        "https://www.culture.gov.cy/dmculture/DA/DA.nsf/All/8A2AB44D662B5553C225719900325B15"
+      ],
+      "display_width_units": 320,
+      "asset_path": "data/sprites/greece-egypt-1180-small-settlements/larnaca-1180-v1.png",
+      "source_sha256": "a443fdff5ac3cb5567662003e8cad925afad0625b7edf2080d9754768776e4e0",
+      "sha256": "d77a53733d5bb710870d0bacc7763ab188c2bae18944ddbf18619bdd50c7b696",
+      "pixel_sha256": "e53cb04184f7ea9758c85a5ca9cdf30f064da6686024ffa6aa6547a90a10e67c",
+      "dimensions_px": [
+        1024,
+        707
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.9632248939179632
+      ],
+      "visual_footprint": {
+        "canvas_px": [
+          1024,
+          707
+        ],
+        "painted_bounds_xyxy": [
+          26,
+          26,
+          998,
+          681
+        ],
+        "display_width_atlas_px": 320,
+        "display_height_atlas_px": 220.9375,
+        "geographic_scale": false
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_padding_px": 26
+      },
+      "visual_review": "reviewed on light and dark; provisional; see repaint_flags"
+    }
+  ],
+  "approval_policy": "Provisional map placement with historical repaint flags. All three cutouts passed light and dark composition review."
+}
