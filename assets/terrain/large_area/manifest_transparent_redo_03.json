@@ -9,7 +9,14 @@
   "placement_status": "queued_not_placed",
   "print_quality_status": "queued_not_approved",
   "review_policy": "Do not assert final seamless tessellation or 300dpi print acceptance; alpha edges verified locally, manual overlaps need full-map review",
-  "layer_order": "above parchment/geographic base, below hydrology, routes, structures and labels",
+  "layer_order": [
+    "geographic base",
+    "the four rectangular gap-fill underlays (masked to geography)",
+    "transparent terrain cutouts redo03",
+    "water and coastlines",
+    "roads and landmarks",
+    "labels"
+  ],
   "assets": [
     {
       "id": "aegean_dry_foothills",
@@ -779,5 +786,13 @@
     "final_seamless_tessellation_verified": false,
     "final_print_300dpi_approved": false,
     "final_map_placement_approved": false
+  },
+  "rectangular_background_exception": {
+    "enabled": true,
+    "count": 4,
+    "manifest": "assets/terrain/large_area/manifest_rectangular_underlays_04.json",
+    "rule": "The four opaque rectangles are retained solely as the base gap-fill underlay below all irregular transparent redo-03 terrain cutouts; transparent sprite replacement remains the default for all primary placement marks.",
+    "binary_upload_required": true,
+    "print_approval_required": true
   }
 }
