@@ -1,49 +1,10 @@
 # Crusader sprite intake — 10 November 2026
 
-**Status: assets attached in ChatGPT; binary PNG files NOT YET pushed to GitHub.**
-This branch is a staging record only. Do not treat it as an image upload or a map-placement approval.
+**Uploaded:** 30 CSV terrain PNGs plus 14 full-resolution source sheet groups (19 PNG files). All binary assets are committed to this branch.
 
-A verified local intake package contains:
+- Rural PNGs: `data/sprites/rural-landscapes/png/CSV-089.png` through `CSV-118.png`.
+- Nine whole source PNGs: `source_sheets/*.png` (some repacked with lossless PNG compression).
+- Five other source sheets: ten lossless top/bottom PNGs in `source_sheets/parts/`. Use `python3 tools/reconstruct_crusader_source_sheets.py --output-dir OUTPUT` to rebuild pixel-identical full sheets.
+- See `intake_manifest.json` for original hashes, image dimensions, part offsets and QA states.
 
-- 30 cutout terrain PNG files, `CSV-089.png` to `CSV-118.png`, for the *existing* main-branch rural landscape manifest. Expected destination: `data/sprites/rural-landscapes/png/`.
-- 14 distinct raw sprite sheets, expected destination: `data/sprites/intake/2026-11-10/source_sheets/`, with sheet names and provenance in the package's `intake_manifest.json`.
-- The user's two 23 MB ZIP uploads are bit-identical; use one only. Three originals in the ZIP are pixel-identical to three of the loose terrain sheets and were deduplicated in the package.
-
-## After adding the PNGs
-
-Copy `data/` and `tools/` from the `crusader_map_sprite_repo_ready_2026-11-10.zip` package into a checkout of this branch. Then run:
-
-```bash
-python3 tools/register_crusader_drop_2026_11_10.py --check
-python3 tools/register_crusader_drop_2026_11_10.py
-git add data/sprites/rural-landscapes data/sprites/intake/2026-11-10
-git commit -m "Import 30 landscape sprites and 14 Crusader source sheets"
-git push origin assets/intake-2026-11-10-pending-binaries
-```
-
-The script preserves existing placement coordinates and review gates and deliberately sets `ready_for_renderer: false`.
-
-## QA rules
-
-- Verify silhouettes and alpha edges at 100% zoom; several loose sheets have colored red/yellow/green edge contamination or opaque black backgrounds.
-- Source sheets are **not** individual sprite PNGs yet; crop and catalog them before use.
-- Historical building forms, identifying individual towns/castles, flags, and orientation require separate QA. Rendered architecture should not automatically be treated as an accurate named historical monument.
-- Only place coastal features with matched coast-facing geometry; only place river features against a matching river reach.
-- Check for collisions with historical city markers, labels, landmarks and existing art.
-
-This record intentionally does not set asset paths in the *live* manifest while the referenced PNGs are absent.
-
-
-## Tested GitHub binary upload route (without Work credits)
-
-The complete `crusader_map_sprite_repo_ready_FIXED.zip` includes 44 PNG binaries, an integrity manifest, and `upload_to_github.sh`. Download and unzip it into `crusader_intake`, then run:
-
-```bash
-bash crusader_intake/upload_to_github.sh crusader_intake
-```
-
-The script checks the SHA-256 of every PNG, sparse-clones the staging branch, copies the files, registers existing CSV-089–118 paths without enabling renderer placement, commits and pushes to the existing draft pull request.
-
-The process was tested end-to-end against a temporary local Git remote, not against GitHub. **The binary PNGs have NOT yet been pushed to GitHub** from this chat.
-
-If the full ZIP download fails, unpack all five `crusader_sprites_part_0X.zip` files into the same directory before running the script.
+**Not approved for renderer/map placement:** all source sheets still need individual cropping, alpha/halo cleanup, historical-identification checks and southern point-of-view verification. Existing terrain placement study coordinates and review gates remain intact; their PNG paths are registered while `ready_for_renderer` remains false.

@@ -3,8 +3,8 @@
   "project": "Crusader Map",
   "asset_type": "regional_terrain_with_embedded_small_settlements",
   "approved_for_placement": true,
-  "artwork_delivery": "files_present_requires_visual_review",
-  "notes": "All thirty PNG files are committed, but historical, alpha, visual and geographic placement reviews remain pending. Renderer flags intentionally false.",
+  "artwork_delivery": "pngs_committed_pending_visual_QA",
+  "notes": "All 30 CSV-089–CSV-118 PNG files are committed to the repository; geometry, alpha, historical and map compositor integration QA remain pending for every entry.",
   "view": "elevated oblique from south",
   "layer": "terrain-composite below named settlements and labels",
   "placement_rules": [

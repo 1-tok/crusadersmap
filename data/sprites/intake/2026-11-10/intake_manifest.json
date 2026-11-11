@@ -1,0 +1,779 @@
+{
+  "schema_version": "1.1",
+  "batch_id": "2026-11-10",
+  "project": "Crusader Map (1095\u20131571); source batch",
+  "repository": "1-tok/crusadersmap",
+  "upload_status": "binary_assets_committed",
+  "source_sheet_groups": 14,
+  "source_sheet_png_files": 19,
+  "rural_sprite_png_files": 30,
+  "total_committed_png_files": 49,
+  "source_sheet_qa_policy": "Source sheets are for review, not renderer placement. No identities/locations have been asserted for unnamed illustrations.",
+  "placement_policy": "Place rural sprites only after alpha/edge, geographic, coast/river orientation and overlap review; keep historical site callouts unobstructed.",
+  "extracted_rural_sprites": [
+    {
+      "id": "CSV-089",
+      "path": "data/sprites/rural-landscapes/png/CSV-089.png",
+      "sha256": "5c9063915a79cb072ba4d313f3f5d1f346c9ca7184f26e283a2c4861bbb57169",
+      "size_bytes": 595018,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-090",
+      "path": "data/sprites/rural-landscapes/png/CSV-090.png",
+      "sha256": "dfe4a3bd78603dbd1b5d449dd3cf5b5f6f1c64642351fde2764f04fa99490579",
+      "size_bytes": 598563,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-091",
+      "path": "data/sprites/rural-landscapes/png/CSV-091.png",
+      "sha256": "f89affab85a9acbb997bfc4c970354630c7090dac7f6067fd8ea658d9321e6c5",
+      "size_bytes": 534873,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-092",
+      "path": "data/sprites/rural-landscapes/png/CSV-092.png",
+      "sha256": "354056c670d34bff683b71793004973dc7b88fd46787142bb1a7f2f405eecc92",
+      "size_bytes": 577894,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-093",
+      "path": "data/sprites/rural-landscapes/png/CSV-093.png",
+      "sha256": "59004acf1b08b5f0c782f4a2c72e596a0fa0ea4807486c775078c9b9a543be4a",
+      "size_bytes": 638312,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-094",
+      "path": "data/sprites/rural-landscapes/png/CSV-094.png",
+      "sha256": "5a26c03040b405ced61e8eeebb90b90d671b61d68a90cad7cf2158b149e123c2",
+      "size_bytes": 636861,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-095",
+      "path": "data/sprites/rural-landscapes/png/CSV-095.png",
+      "sha256": "676c1181bfad8c39cf5bc3e735b83f64a67c2f01fbf6bca9c124eb3d05695830",
+      "size_bytes": 320052,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-096",
+      "path": "data/sprites/rural-landscapes/png/CSV-096.png",
+      "sha256": "c2cf607c9a354513a5f5ee404c904cc683c88cfb3defda6650d6155b6c01d92d",
+      "size_bytes": 310762,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-097",
+      "path": "data/sprites/rural-landscapes/png/CSV-097.png",
+      "sha256": "75a0e691f022c6e0bb7c857078d023a4cb59a746b15a9bfeac6c9a6935b925f4",
+      "size_bytes": 304873,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-098",
+      "path": "data/sprites/rural-landscapes/png/CSV-098.png",
+      "sha256": "08046dddb966dfe6ac1d4bd484400cb3c54c294c8a4a1257adcddc904753cd7c",
+      "size_bytes": 328393,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-099",
+      "path": "data/sprites/rural-landscapes/png/CSV-099.png",
+      "sha256": "60db6318bb9f62097d74d543e50a88b2ce6f7cd186754729ce20b29329177e6b",
+      "size_bytes": 339158,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-100",
+      "path": "data/sprites/rural-landscapes/png/CSV-100.png",
+      "sha256": "7e514c737c56bb8355e23ed8aee99b65dbae11a9395d78cafe41417aa7f4689e",
+      "size_bytes": 311519,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-101",
+      "path": "data/sprites/rural-landscapes/png/CSV-101.png",
+      "sha256": "96203d1fa95dbc4a3646e411d991c2f88b6671563d2e836030e3a67d955e28fd",
+      "size_bytes": 321007,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-102",
+      "path": "data/sprites/rural-landscapes/png/CSV-102.png",
+      "sha256": "b2d87432a25e712d1f4616fb167bf85710ef0b49a232b99540701b05b13ac58b",
+      "size_bytes": 326240,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-103",
+      "path": "data/sprites/rural-landscapes/png/CSV-103.png",
+      "sha256": "199abf0933b78463846859263d10860ad83e0df99351618fb9ea9a522fb2afae",
+      "size_bytes": 335133,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-104",
+      "path": "data/sprites/rural-landscapes/png/CSV-104.png",
+      "sha256": "4b44c4033d8d63b8a5e8849e01f7596d2b0589eb6c670777638a508fd8a7e2fb",
+      "size_bytes": 327521,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-105",
+      "path": "data/sprites/rural-landscapes/png/CSV-105.png",
+      "sha256": "ebf05faeb987e3e419bb6a790bc88d59cbb4fa0944547a32350e62a3a099ca60",
+      "size_bytes": 332903,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-106",
+      "path": "data/sprites/rural-landscapes/png/CSV-106.png",
+      "sha256": "77fe30877265a4b0e7f535a5a50c625f543321f4ecdce71d996e3b8f2dabcc62",
+      "size_bytes": 333042,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-107",
+      "path": "data/sprites/rural-landscapes/png/CSV-107.png",
+      "sha256": "5f349244363af61f4a5211b4d817b94735027e14c633b3d456fc6cc5ecf151c0",
+      "size_bytes": 320590,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-108",
+      "path": "data/sprites/rural-landscapes/png/CSV-108.png",
+      "sha256": "055e3dd19ad8aa6a1c9fcab194f602ad258ebcd812e88e1b04e43e7b53703867",
+      "size_bytes": 315320,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-109",
+      "path": "data/sprites/rural-landscapes/png/CSV-109.png",
+      "sha256": "7cf2ecdc08314a1055597d06711818915278800bab667d8a5072a1f1184c131d",
+      "size_bytes": 315342,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-110",
+      "path": "data/sprites/rural-landscapes/png/CSV-110.png",
+      "sha256": "026b647d9cbbcb46d843f7f9772f58986cac06232483cab706c4b4f9b0b9dc24",
+      "size_bytes": 324125,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-111",
+      "path": "data/sprites/rural-landscapes/png/CSV-111.png",
+      "sha256": "626e4764ffeea72b1b738e66c7577a1cb19ae1b38947c0d794bd33a87d7db247",
+      "size_bytes": 333089,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-112",
+      "path": "data/sprites/rural-landscapes/png/CSV-112.png",
+      "sha256": "13c0bfb7b74266ef1dc362339f9331623c31914b543ea069dee18ed28f473d87",
+      "size_bytes": 310656,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-113",
+      "path": "data/sprites/rural-landscapes/png/CSV-113.png",
+      "sha256": "5b700604f30068fa875feaba8524d224f062ac4a1906fb6ace1746a9763c9eb3",
+      "size_bytes": 325372,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-114",
+      "path": "data/sprites/rural-landscapes/png/CSV-114.png",
+      "sha256": "3137a10ea5876b2f464a665d2e4d7d27188619c9f6bd46832f65e292ef1677e6",
+      "size_bytes": 311542,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-115",
+      "path": "data/sprites/rural-landscapes/png/CSV-115.png",
+      "sha256": "b1016cecde9a79fd1543ed183626824f592a05d018949a420697ef0acda0642c",
+      "size_bytes": 335740,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-116",
+      "path": "data/sprites/rural-landscapes/png/CSV-116.png",
+      "sha256": "6cead61882ced3799c2b9865990cee6f7a70dab585afebc8bcfbdfb736998854",
+      "size_bytes": 327002,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-117",
+      "path": "data/sprites/rural-landscapes/png/CSV-117.png",
+      "sha256": "66f2a999bfbf8871e6726ff1f546bbadc97a93bc1b8a7483d962d1e1de592231",
+      "size_bytes": 327022,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    },
+    {
+      "id": "CSV-118",
+      "path": "data/sprites/rural-landscapes/png/CSV-118.png",
+      "sha256": "80b711c2205df0f5be49cc9ef8fb5681e0ee43a470dc4f8be214e4bffb75b466",
+      "size_bytes": 324600,
+      "status": "needs_alpha_edge_and_geography_review",
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_alpha_edge_and_geography_review",
+      "uploaded_to_repo": true
+    }
+  ],
+  "source_sheets": [
+    {
+      "id": "abbey_and_church_variants_08",
+      "source_name": "ChatGPT Image Nov 10, 2026, 08_15_58 PM-5.png",
+      "original_sha256": "1554816e9a4002d752ed574af69bb935111aa0c44caa7a15a91ccd85b46f6417",
+      "original_size_bytes": 2028479,
+      "dimensions_px": [
+        1774,
+        887
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "full_png",
+        "path": "data/sprites/intake/2026-11-10/source_sheets/abbey_and_church_variants_08.png",
+        "sha256": "1554816e9a4002d752ed574af69bb935111aa0c44caa7a15a91ccd85b46f6417",
+        "size_bytes": 2028479,
+        "pixel_identical_to_original": true,
+        "lossless_png_repack": false
+      }
+    },
+    {
+      "id": "city_and_castle_variants_07",
+      "source_name": "ChatGPT Image Nov 10, 2026, 08_15_56 PM-4.png",
+      "original_sha256": "07612b98a7f03c871427c71dea187de5400c225543b30b92b5ca8a80d5495fc6",
+      "original_size_bytes": 2900500,
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "full_png",
+        "path": "data/sprites/intake/2026-11-10/source_sheets/city_and_castle_variants_07.png",
+        "sha256": "07612b98a7f03c871427c71dea187de5400c225543b30b92b5ca8a80d5495fc6",
+        "size_bytes": 2900500,
+        "pixel_identical_to_original": true,
+        "lossless_png_repack": false
+      }
+    },
+    {
+      "id": "coastal_town_variants_04",
+      "source_name": "ChatGPT Image Nov 10, 2026, 08_15_44 PM-1.png",
+      "original_sha256": "505db144b7b3347ab257fe624a63c602ace07c37701313f4a447f63c9da8c5ac",
+      "original_size_bytes": 2774566,
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "full_png",
+        "path": "data/sprites/intake/2026-11-10/source_sheets/coastal_town_variants_04.png",
+        "sha256": "505db144b7b3347ab257fe624a63c602ace07c37701313f4a447f63c9da8c5ac",
+        "size_bytes": 2774566,
+        "pixel_identical_to_original": true,
+        "lossless_png_repack": false
+      }
+    },
+    {
+      "id": "coastal_town_variants_05",
+      "source_name": "ChatGPT Image Nov 10, 2026, 08_15_49 PM-2.png",
+      "original_sha256": "bfd81adfb1c857cfbedf67eda11ccb76ec558c3e265cd25f6f680cf10efa915e",
+      "original_size_bytes": 3182404,
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "full_png",
+        "path": "data/sprites/intake/2026-11-10/source_sheets/coastal_town_variants_05.png",
+        "sha256": "32c13f327536f1a60928cb51d274eaa4f637437b7f877e71fcca9abe168a6372",
+        "size_bytes": 2766820,
+        "pixel_identical_to_original": true,
+        "lossless_png_repack": true
+      }
+    },
+    {
+      "id": "fortified_town_variants_01",
+      "source_name": "ChatGPT Image Nov 10, 2026, 08_15_25 PM-1.png",
+      "original_sha256": "eff4bacf5603bf581f56b0d9e2976981ee1a736bceb30903415dabc39bf0e7c8",
+      "original_size_bytes": 2826146,
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "full_png",
+        "path": "data/sprites/intake/2026-11-10/source_sheets/fortified_town_variants_01.png",
+        "sha256": "35ab5deda4a95e21cd78ef6517683d1813b327d3aa56fa8b64571506dc104820",
+        "size_bytes": 2490824,
+        "pixel_identical_to_original": true,
+        "lossless_png_repack": true
+      }
+    },
+    {
+      "id": "fortress_and_pass_variants_06",
+      "source_name": "ChatGPT Image Nov 10, 2026, 08_15_53 PM-3.png",
+      "original_sha256": "2fa5ab14979f2dff5cd4922873123177f970a4f7779d02053a9d345e5a3187ad",
+      "original_size_bytes": 2564049,
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "full_png",
+        "path": "data/sprites/intake/2026-11-10/source_sheets/fortress_and_pass_variants_06.png",
+        "sha256": "7c8d69eefdd7ec6a4c6ba1b110a7433b448c88b735dcd9cda0d04f637e0820a3",
+        "size_bytes": 2292161,
+        "pixel_identical_to_original": true,
+        "lossless_png_repack": true
+      }
+    },
+    {
+      "id": "fortress_grid_09",
+      "source_name": "Medieval Fortress Sprite Sheet(1).png",
+      "original_sha256": "6fa04e24bc20060cb6f73a7e904ded1269e7f19642e9f0a9b4147e6ee104535b",
+      "original_size_bytes": 3342053,
+      "dimensions_px": [
+        1774,
+        887
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "split_vertical_lossless",
+        "pieces": [
+          {
+            "path": "data/sprites/intake/2026-11-10/source_sheets/parts/fortress_grid_09__top.png",
+            "offset_xy": [
+              0,
+              0
+            ],
+            "size_px": [
+              1774,
+              443
+            ],
+            "sha256": "1566fd143476d0faeb37735966a77882bf4f333aff776ff9f1f168b02fdd666f",
+            "size_bytes": 1471511
+          },
+          {
+            "path": "data/sprites/intake/2026-11-10/source_sheets/parts/fortress_grid_09__bottom.png",
+            "offset_xy": [
+              0,
+              443
+            ],
+            "size_px": [
+              1774,
+              444
+            ],
+            "sha256": "38172b84d2e613e90cf8724e4c20f381d7038d3cb5119e9c972c71b35d859a61",
+            "size_bytes": 1546488
+          }
+        ],
+        "pixel_identical_to_original": true,
+        "reconstruction": "tools/reconstruct_crusader_source_sheets.py"
+      }
+    },
+    {
+      "id": "fortress_variants_02",
+      "source_name": "ChatGPT Image Nov 10, 2026, 08_15_29 PM-2.png",
+      "original_sha256": "a217450e639acb3ae2a2052b9efe6a8c8fc31c56f1e562ae31717ea20c3aa885",
+      "original_size_bytes": 3214274,
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "full_png",
+        "path": "data/sprites/intake/2026-11-10/source_sheets/fortress_variants_02.png",
+        "sha256": "826102d463f448bada811bd2c35652f049d57d5aeb82eefe3426338191293bd1",
+        "size_bytes": 2871099,
+        "pixel_identical_to_original": true,
+        "lossless_png_repack": true
+      }
+    },
+    {
+      "id": "landscape_grid_13",
+      "source_name": "Medieval Mediterranean Landscape Map Tiles(1).png",
+      "original_sha256": "cbe6e3a23e87144e394e8b4116c4edd164e6ba819943be04b82828e984268598",
+      "original_size_bytes": 4494318,
+      "dimensions_px": [
+        1774,
+        887
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "split_vertical_lossless",
+        "pieces": [
+          {
+            "path": "data/sprites/intake/2026-11-10/source_sheets/parts/landscape_grid_13__top.png",
+            "offset_xy": [
+              0,
+              0
+            ],
+            "size_px": [
+              1774,
+              443
+            ],
+            "sha256": "4a3e5b75759a233662e6b4c5804821ce50ab3c4d974dc34592b9be252907a804",
+            "size_bytes": 1949736
+          },
+          {
+            "path": "data/sprites/intake/2026-11-10/source_sheets/parts/landscape_grid_13__bottom.png",
+            "offset_xy": [
+              0,
+              443
+            ],
+            "size_px": [
+              1774,
+              444
+            ],
+            "sha256": "ea25e9874b9d0adf3465bc2e9aa6115cffe20a5542e621864b2bb76acf02dd1d",
+            "size_bytes": 2005258
+          }
+        ],
+        "pixel_identical_to_original": true,
+        "reconstruction": "tools/reconstruct_crusader_source_sheets.py"
+      }
+    },
+    {
+      "id": "settlement_grid_11",
+      "source_name": "Medieval Mediterranean Settlement Sprite Sheet(1).png",
+      "original_sha256": "6913079807fcd71664538782ff40fbeff899e5d979bd6e46a5d59ad58cab2b1e",
+      "original_size_bytes": 2922524,
+      "dimensions_px": [
+        2048,
+        682
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "full_png",
+        "path": "data/sprites/intake/2026-11-10/source_sheets/settlement_grid_11.png",
+        "sha256": "e073a5f8c1e6813ff11a277e97875954e6523b43c4a946553a886ff96e12dc1e",
+        "size_bytes": 2422409,
+        "pixel_identical_to_original": true,
+        "lossless_png_repack": true
+      }
+    },
+    {
+      "id": "settlement_oasis_grid_10",
+      "source_name": "Crusader-Era Settlements and Oases(1).png",
+      "original_sha256": "0aa899ef2e0c51694733248f2b44406c42451c63b5477c27345023c7e5c59654",
+      "original_size_bytes": 2655470,
+      "dimensions_px": [
+        2048,
+        682
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "full_png",
+        "path": "data/sprites/intake/2026-11-10/source_sheets/settlement_oasis_grid_10.png",
+        "sha256": "0aac2363d6f03d9d78d8634ef3c8e634ff2a2c648babe835561617b2cd90cdbc",
+        "size_bytes": 2271688,
+        "pixel_identical_to_original": true,
+        "lossless_png_repack": true
+      }
+    },
+    {
+      "id": "terrain_atlas_grid_14",
+      "source_name": "Crusader-Era Mediterranean Terrain Atlas(1).png",
+      "original_sha256": "81ad92132a668dafc35e63661ef78b44ad0b546e3638138c5c0c7291c0a89c43",
+      "original_size_bytes": 4506053,
+      "dimensions_px": [
+        1774,
+        887
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "split_vertical_lossless",
+        "pieces": [
+          {
+            "path": "data/sprites/intake/2026-11-10/source_sheets/parts/terrain_atlas_grid_14__top.png",
+            "offset_xy": [
+              0,
+              0
+            ],
+            "size_px": [
+              1774,
+              443
+            ],
+            "sha256": "0b7082541ff7e08b61facfa6703dacba18d04075f3f22436aeb2c65b02725281",
+            "size_bytes": 1950750
+          },
+          {
+            "path": "data/sprites/intake/2026-11-10/source_sheets/parts/terrain_atlas_grid_14__bottom.png",
+            "offset_xy": [
+              0,
+              443
+            ],
+            "size_px": [
+              1774,
+              444
+            ],
+            "sha256": "8c20362d02757213cdc84762ad8d4e4a49e519e1faf072590df3721ee328a07a",
+            "size_bytes": 1982636
+          }
+        ],
+        "pixel_identical_to_original": true,
+        "reconstruction": "tools/reconstruct_crusader_source_sheets.py"
+      }
+    },
+    {
+      "id": "terrain_grid_12",
+      "source_name": "Crusader-Era Mediterranean Terrain Tiles(1).png",
+      "original_sha256": "e0194491b77b6554aeb2970391d843bdcd2bb0c8f4ec909d1f83030af32cac1b",
+      "original_size_bytes": 4184059,
+      "dimensions_px": [
+        1774,
+        887
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "split_vertical_lossless",
+        "pieces": [
+          {
+            "path": "data/sprites/intake/2026-11-10/source_sheets/parts/terrain_grid_12__top.png",
+            "offset_xy": [
+              0,
+              0
+            ],
+            "size_px": [
+              1774,
+              443
+            ],
+            "sha256": "53f5b6febfc1e1e6a0cb99c051b20f83fc548d96948e7333c29f2db07eb907ba",
+            "size_bytes": 1794738
+          },
+          {
+            "path": "data/sprites/intake/2026-11-10/source_sheets/parts/terrain_grid_12__bottom.png",
+            "offset_xy": [
+              0,
+              443
+            ],
+            "size_px": [
+              1774,
+              444
+            ],
+            "sha256": "7ebf7629c8ec97e03aa00c81e3460168b31a6e0ab1b98aa8263bb2ac1dd902d4",
+            "size_bytes": 1862859
+          }
+        ],
+        "pixel_identical_to_original": true,
+        "reconstruction": "tools/reconstruct_crusader_source_sheets.py"
+      }
+    },
+    {
+      "id": "town_and_landmark_variants_03",
+      "source_name": "ChatGPT Image Nov 10, 2026, 08_15_33 PM-3.png",
+      "original_sha256": "7c3d7533b3ca3f3ce38e379dd31d9e3e331a46db44d03e05e1c83a18be9ed69d",
+      "original_size_bytes": 3573487,
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "approved_for_placement": false,
+      "ready_for_renderer": false,
+      "asset_visual_qa": "needs_sprite_crop_alpha_edge_and_historical_review",
+      "view": "elevated oblique from south - verify case by case",
+      "storage": {
+        "kind": "split_vertical_lossless",
+        "pieces": [
+          {
+            "path": "data/sprites/intake/2026-11-10/source_sheets/parts/town_and_landmark_variants_03__top.png",
+            "offset_xy": [
+              0,
+              0
+            ],
+            "size_px": [
+              1536,
+              512
+            ],
+            "sha256": "02d773430ebf73e9283d31acfa43ba6e554c30d8088880ded175577e98d246c4",
+            "size_bytes": 1483643
+          },
+          {
+            "path": "data/sprites/intake/2026-11-10/source_sheets/parts/town_and_landmark_variants_03__bottom.png",
+            "offset_xy": [
+              0,
+              512
+            ],
+            "size_px": [
+              1536,
+              512
+            ],
+            "sha256": "2e0b2ee45ab981f96525c33463a4419ff490957d7b98a88499adaae7fb7cf6b4",
+            "size_bytes": 1730602
+          }
+        ],
+        "pixel_identical_to_original": true,
+        "reconstruction": "tools/reconstruct_crusader_source_sheets.py"
+      }
+    }
+  ],
+  "duplicates_omitted": [
+    {
+      "source": "crusader_terrain_sprites_batches_04_06 (1).zip",
+      "same_bytes_as": "crusader_terrain_sprites_batches_04_06(1).zip"
+    },
+    {
+      "source": "original_sheets/a_detailed_painted_map_style_compilation_of_six_la.png",
+      "pixel_identical_to": "terrain_grid_12"
+    },
+    {
+      "source": "original_sheets/a_detailed_illustration_collage_a_black_backgroun.png",
+      "pixel_identical_to": "landscape_grid_13"
+    },
+    {
+      "source": "original_sheets/a_highly_detailed_painted_atlas_style_collage_of_1.png",
+      "pixel_identical_to": "terrain_atlas_grid_14"
+    }
+  ],
+  "qa_gates": [
+    "alpha_cleanup",
+    "edge_halo_removal",
+    "historical_accuracy",
+    "south_pov",
+    "shoreline_and_water_geometry",
+    "label_and_landmark_collision",
+    "scale_test",
+    "300dpi_print_review"
+  ],
+  "notes": "All source pixels retained. Five large image sheets are stored as lossless top/bottom PNG pairs and can be reconstructed by the included script; four complete sheets were losslessly recompressed to pass connector transfer limits. No source sheet is renderer-approved."
+}
