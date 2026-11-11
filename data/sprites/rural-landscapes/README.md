@@ -6,6 +6,6 @@ Thirty regional terrain pictures, each with small villages, hamlets, farmsteads 
 
 These files were first committed to the 1-tok/atlas repository by mistake and were moved here on 9 Nov 2026.
 
-**The 30 PNG files are not in the repository.** The manifest says `png_package_unavailable_for_review`, every `png_path` is null, and nothing can be rendered until the images are added. Add them as `data/sprites/rural-landscapes/png/CSV-089.png` onward, then fill in `png_path`.
+**All 30 PNG files are present** at `data/sprites/rural-landscapes/png/CSV-089.png` through `CSV-118.png`, and `png_path` values are registered. However, all `ready_for_renderer` values remain false pending alpha, geographic and visual review; no final print or placement approval is implied.
 
 Placement rules (from the manifest): never place a generic settlement on a named city or landmark; use coastal pieces only where the coast matches and river or marsh pieces only where the hydrography matches; scale so buildings read smaller than named settlements; blend edges and align roads, slopes and waterways; avoid obvious repetition and mirror only where safe.
