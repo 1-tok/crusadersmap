@@ -1,0 +1,404 @@
+{
+  "project": "1-tok/crusadersmap",
+  "batch": "regional_terrain_expansion_02",
+  "created": "2026-11-10",
+  "entries": [
+    {
+      "id": "aegean_dry_foothills",
+      "region_hint": "Greek mainland and Aegean dry uplands",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/aegean_dry_foothills_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/aegean_dry_foothills_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/aegean_dry_foothills_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/aegean_dry_foothills.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "thrace_balkan_mixed_woodland",
+      "region_hint": "Thrace and southern Balkan interior",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/thrace_balkan_mixed_woodland_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/thrace_balkan_mixed_woodland_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/thrace_balkan_mixed_woodland_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/thrace_balkan_mixed_woodland.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "central_anatolian_rocky_plateau",
+      "region_hint": "Central Anatolian steppe plateau",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/central_anatolian_rocky_plateau_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/central_anatolian_rocky_plateau_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/central_anatolian_rocky_plateau_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/central_anatolian_rocky_plateau.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "north_syria_dry_steppe",
+      "region_hint": "North Syrian interior and Upper Euphrates steppe",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/north_syria_dry_steppe_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/north_syria_dry_steppe_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/north_syria_dry_steppe_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/north_syria_dry_steppe.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "upper_mesopotamia_green_steppe",
+      "region_hint": "Upper Mesopotamia between river valleys",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/upper_mesopotamia_green_steppe_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/upper_mesopotamia_green_steppe_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/upper_mesopotamia_green_steppe_feathered.png"
+      },
+      "qa": "retained_as_rectangular_background_only_not_as_foreground",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/upper_mesopotamia_green_steppe.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "queued_as_opaque_underlay_only",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "needs_high_resolution_repaint_before_300dpi_print",
+        "approved": false
+      },
+      "supersession_exception": "retained_opaque_background_04",
+      "retained_variant": "assets/terrain/large_area/rect_underlays_04/green_plain_edge_matched.png"
+    },
+    {
+      "id": "arabian_rocky_gravel",
+      "region_hint": "Interior Arabia, rocky desert zones",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/arabian_rocky_gravel_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/arabian_rocky_gravel_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/arabian_rocky_gravel_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/arabian_rocky_gravel.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "judean_desert_wadis",
+      "region_hint": "Judean Desert and Dead Sea escarpments",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/judean_desert_wadis_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/judean_desert_wadis_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/judean_desert_wadis_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/judean_desert_wadis.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "mediterranean_cultivated_lowlands",
+      "region_hint": "Cilician and Levantine fertile lowlands",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/mediterranean_cultivated_lowlands_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/mediterranean_cultivated_lowlands_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/mediterranean_cultivated_lowlands_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/mediterranean_cultivated_lowlands.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "taurus_levant_mixed_forest",
+      "region_hint": "Taurus and north Levant mountain slopes",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/taurus_levant_mixed_forest_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/taurus_levant_mixed_forest_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/taurus_levant_mixed_forest_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/taurus_levant_mixed_forest.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "anatolian_temperate_forest",
+      "region_hint": "Northern Anatolian forest belt",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/anatolian_temperate_forest_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/anatolian_temperate_forest_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/anatolian_temperate_forest_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/anatolian_temperate_forest.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "armenian_high_mountains",
+      "region_hint": "Eastern Anatolian/Armenian highlands",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/armenian_high_mountains_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/armenian_high_mountains_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/armenian_high_mountains_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/armenian_high_mountains.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "nile_alluvial_fertile_plain",
+      "region_hint": "Nile Valley floodplain and cultivable Delta",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/nile_alluvial_fertile_plain_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/nile_alluvial_fertile_plain_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/nile_alluvial_fertile_plain_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/nile_alluvial_fertile_plain.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "delta_river_marsh_wetland",
+      "region_hint": "Nile Delta and historically appropriate wetland margins",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/delta_river_marsh_wetland_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/delta_river_marsh_wetland_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/delta_river_marsh_wetland_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/delta_river_marsh_wetland.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "cappadocia_volcanic_badlands",
+      "region_hint": "Central Anatolian volcanic tuff/Cappadocia",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/cappadocia_volcanic_badlands_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/cappadocia_volcanic_badlands_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/cappadocia_volcanic_badlands_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/cappadocia_volcanic_badlands.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "levant_coastal_hinterland",
+      "region_hint": "Levantine rocky hill country above coastal plain",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/levant_coastal_hinterland_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/levant_coastal_hinterland_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/levant_coastal_hinterland_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/levant_coastal_hinterland.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    },
+    {
+      "id": "syrian_semiarid_plain",
+      "region_hint": "Semi-arid Syrian interior",
+      "files": {
+        "crop": "assets/terrain/large_area/native_crops/syrian_semiarid_plain_native.png",
+        "enlarged": "assets/terrain/large_area/enlarged_underlays/syrian_semiarid_plain_enlarged.png",
+        "feathered": "assets/terrain/large_area/feathered_overlays/syrian_semiarid_plain_feathered.png"
+      },
+      "qa": "superseded_opaque_underlay_not_for_placement",
+      "binary_status": "not_yet_uploaded",
+      "notes": "Atlas-extracted art, labels removed; 1536x1024 version is resampled. Must be feather-blended and checked against geography, DEM and other terrain.",
+      "prior_qa_state": "provisional_repaint_native_resolution_before_print",
+      "replaced_by": "assets/terrain/large_area/transparent_redo_03/syrian_semiarid_plain.png",
+      "replacement_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+      "placement_review": {
+        "status": "superseded_pending_transparent_replacement",
+        "approved": false,
+        "placed_on_map": false
+      },
+      "print_quality_review": {
+        "status": "superseded_not_print_approved",
+        "approved": false
+      }
+    }
+  ],
+  "print_readiness": "not_approved",
+  "texture_qa": "provisional",
+  "intended_layer": "terrain_underlays_below_hydrology_roads_settlements_labels",
+  "archive": "crusadersmap_terrain_expansion_02_20261110.zip",
+  "binary_status": "local_download_package_ready_repo_binary_push_pending",
+  "caution": "Manifest alone does not place textures into the existing map renderers or assert that the PNGs are present on GitHub.",
+  "review_version": "2026-11-10-replaced-by-transparent-redo-03",
+  "placement_queue_status": "opaque_foreground_versions_superseded_except_one_reworked_background_underlay",
+  "print_quality_review_queue_status": "superseded_by_transparent_redo_03",
+  "superseded_by_manifest": "assets/terrain/large_area/manifest_transparent_redo_03.json",
+  "retained_rectangle_exception_manifest": "assets/terrain/large_area/manifest_rectangular_underlays_04.json"
+}

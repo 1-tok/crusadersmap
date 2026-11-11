@@ -1,0 +1,798 @@
+{
+  "project": "1-tok/crusadersmap",
+  "batch": "terrain_transparent_redo_03",
+  "created": "2026-11-10",
+  "purpose": "Replace opaque rectangular / resampled terrain atlas underlays with independent hand-painted RGBA sprites with irregular translucent edges, view from south",
+  "supersedes_manifest": "assets/terrain/large_area/manifest_regional_expansion_02.json",
+  "export_archive": "crusadersmap_terrain_transparent_redo_03_20261110.zip",
+  "availability": "download archive generated in conversation; PNG binaries NOT confirmed on GitHub",
+  "placement_status": "queued_not_placed",
+  "print_quality_status": "queued_not_approved",
+  "review_policy": "Do not assert final seamless tessellation or 300dpi print acceptance; alpha edges verified locally, manual overlaps need full-map review",
+  "layer_order": [
+    "geographic base",
+    "the four rectangular gap-fill underlays (masked to geography)",
+    "transparent terrain cutouts redo03",
+    "water and coastlines",
+    "roads and landmarks",
+    "labels"
+  ],
+  "assets": [
+    {
+      "id": "aegean_dry_foothills",
+      "legacy_id": "aegean_dry_foothills",
+      "path": "assets/terrain/large_area/transparent_redo_03/aegean_dry_foothills.png",
+      "expected_dimensions_px": [
+        487,
+        288
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Greek mainland and Aegean dry uplands",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "provisional",
+      "native_300dpi_width_in": 1.62,
+      "native_300dpi_height_in": 0.96,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "thrace_balkan_mixed_woodland",
+      "legacy_id": "thrace_balkan_mixed_woodland",
+      "path": "assets/terrain/large_area/transparent_redo_03/thrace_balkan_mixed_woodland.png",
+      "expected_dimensions_px": [
+        600,
+        305
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Thrace and southern Balkan interior",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "provisional",
+      "native_300dpi_width_in": 2,
+      "native_300dpi_height_in": 1.02,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "central_anatolian_rocky_plateau",
+      "legacy_id": "central_anatolian_rocky_plateau",
+      "path": "assets/terrain/large_area/transparent_redo_03/central_anatolian_rocky_plateau.png",
+      "expected_dimensions_px": [
+        736,
+        293
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Central Anatolian steppe plateau",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "provisional",
+      "native_300dpi_width_in": 2.45,
+      "native_300dpi_height_in": 0.98,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "north_syria_dry_steppe",
+      "legacy_id": "north_syria_dry_steppe",
+      "path": "assets/terrain/large_area/transparent_redo_03/north_syria_dry_steppe.png",
+      "expected_dimensions_px": [
+        492,
+        281
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "North Syrian interior and Upper Euphrates steppe",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "provisional",
+      "native_300dpi_width_in": 1.64,
+      "native_300dpi_height_in": 0.94,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "upper_mesopotamia_green_steppe",
+      "legacy_id": "upper_mesopotamia_green_steppe",
+      "path": "assets/terrain/large_area/transparent_redo_03/upper_mesopotamia_green_steppe.png",
+      "expected_dimensions_px": [
+        605,
+        302
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Upper Mesopotamia between river valleys",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "provisional",
+      "native_300dpi_width_in": 2.02,
+      "native_300dpi_height_in": 1.01,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "arabian_rocky_gravel",
+      "legacy_id": "arabian_rocky_gravel",
+      "path": "assets/terrain/large_area/transparent_redo_03/arabian_rocky_gravel.png",
+      "expected_dimensions_px": [
+        489,
+        299
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Interior Arabia, rocky desert zones",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "provisional",
+      "native_300dpi_width_in": 1.63,
+      "native_300dpi_height_in": 1,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "judean_desert_wadis",
+      "legacy_id": "judean_desert_wadis",
+      "path": "assets/terrain/large_area/transparent_redo_03/judean_desert_wadis.png",
+      "expected_dimensions_px": [
+        830,
+        277
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Judean Desert and Dead Sea escarpments",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "provisional",
+      "native_300dpi_width_in": 2.77,
+      "native_300dpi_height_in": 0.92,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "mediterranean_cultivated_lowlands",
+      "legacy_id": "mediterranean_cultivated_lowlands",
+      "path": "assets/terrain/large_area/transparent_redo_03/mediterranean_cultivated_lowlands.png",
+      "expected_dimensions_px": [
+        517,
+        283
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Cilician and Levantine fertile lowlands",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "contains_buildings_repaint_or_remove",
+      "native_300dpi_width_in": 1.72,
+      "native_300dpi_height_in": 0.94,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "taurus_levant_mixed_forest",
+      "legacy_id": "taurus_levant_mixed_forest",
+      "path": "assets/terrain/large_area/transparent_redo_03/taurus_levant_mixed_forest.png",
+      "expected_dimensions_px": [
+        645,
+        296
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Taurus and north Levant mountain slopes",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "forest_density_and_repaint_review",
+      "native_300dpi_width_in": 2.15,
+      "native_300dpi_height_in": 0.99,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "anatolian_temperate_forest",
+      "legacy_id": "anatolian_temperate_forest",
+      "path": "assets/terrain/large_area/transparent_redo_03/anatolian_temperate_forest.png",
+      "expected_dimensions_px": [
+        527,
+        288
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Northern Anatolian forest belt",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "provisional",
+      "native_300dpi_width_in": 1.76,
+      "native_300dpi_height_in": 0.96,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "armenian_high_mountains",
+      "legacy_id": "armenian_high_mountains",
+      "path": "assets/terrain/large_area/transparent_redo_03/armenian_high_mountains.png",
+      "expected_dimensions_px": [
+        682,
+        319
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Eastern Anatolian/Armenian highlands",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "provisional",
+      "native_300dpi_width_in": 2.27,
+      "native_300dpi_height_in": 1.06,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "nile_alluvial_fertile_plain",
+      "legacy_id": "nile_alluvial_fertile_plain",
+      "path": "assets/terrain/large_area/transparent_redo_03/nile_alluvial_fertile_plain.png",
+      "expected_dimensions_px": [
+        714,
+        284
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Nile Valley floodplain and cultivable Delta",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "contains_buildings_repaint_or_remove",
+      "native_300dpi_width_in": 2.38,
+      "native_300dpi_height_in": 0.95,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "delta_river_marsh_wetland",
+      "legacy_id": "delta_river_marsh_wetland",
+      "path": "assets/terrain/large_area/transparent_redo_03/delta_river_marsh_wetland.png",
+      "expected_dimensions_px": [
+        650,
+        275
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Nile Delta and historically appropriate wetland margins",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "hydrography_mask_review",
+      "native_300dpi_width_in": 2.17,
+      "native_300dpi_height_in": 0.92,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "cappadocia_volcanic_badlands",
+      "legacy_id": "cappadocia_volcanic_badlands",
+      "path": "assets/terrain/large_area/transparent_redo_03/cappadocia_volcanic_badlands.png",
+      "expected_dimensions_px": [
+        549,
+        295
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Central Anatolian volcanic tuff/Cappadocia",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "geology_specific_repaint_review",
+      "native_300dpi_width_in": 1.83,
+      "native_300dpi_height_in": 0.98,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "levant_coastal_hinterland",
+      "legacy_id": "levant_coastal_hinterland",
+      "path": "assets/terrain/large_area/transparent_redo_03/levant_coastal_hinterland.png",
+      "expected_dimensions_px": [
+        528,
+        297
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Levantine rocky hill country above coastal plain",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "provisional",
+      "native_300dpi_width_in": 1.76,
+      "native_300dpi_height_in": 0.99,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    },
+    {
+      "id": "syrian_semiarid_plain",
+      "legacy_id": "syrian_semiarid_plain",
+      "path": "assets/terrain/large_area/transparent_redo_03/syrian_semiarid_plain.png",
+      "expected_dimensions_px": [
+        567,
+        319
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "background": "transparent irregular cutout with alpha-fringed edges (no rectangular field fill)",
+      "placement_region_hint": "Semi-arid Syrian interior",
+      "placement_status": "queued_for_review",
+      "placement_approved": false,
+      "placed": false,
+      "print_review_status": "queued_for_review",
+      "print_approved": false,
+      "qa_state": "provisional",
+      "native_300dpi_width_in": 1.89,
+      "native_300dpi_height_in": 1.06,
+      "print_caution": "Sheet-extracted art, not stand-alone full-resolution repaint; review at final print scale",
+      "binary_status": "not_yet_uploaded",
+      "masks": [
+        "land",
+        "coastline",
+        "rivers",
+        "DEM",
+        "settlements",
+        "historical_landcover"
+      ],
+      "review_checks": [
+        "alpha transparency",
+        "overlap on base",
+        "seam/color/scale compatibility",
+        "southern-view orientation",
+        "geographic/historical accuracy",
+        "300dpi pixel density at final placement"
+      ]
+    }
+  ],
+  "supplements": [
+    {
+      "id": "alternative_a_01",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_a_01.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_a_02",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_a_02.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_a_03",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_a_03.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_a_04",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_a_04.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_a_05",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_a_05.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_a_06",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_a_06.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_a_07",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_a_07.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_a_08",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_a_08.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_a_09",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_a_09.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_a_10",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_a_10.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_a_11",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_a_11.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_c_12",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_c_12.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_c_13",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_c_13.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_c_14",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_c_14.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_c_15",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_c_15.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_c_16",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_c_16.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_c_17",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_c_17.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_c_18",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_c_18.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    },
+    {
+      "id": "alternative_c_19",
+      "path": "assets/terrain/large_area/transparent_redo_03/alternative_c_19.png",
+      "qa": "unassigned_region_review",
+      "print_approved": false,
+      "binary_status": "not_yet_uploaded"
+    }
+  ],
+  "testing": {
+    "rgba_alpha_verified": true,
+    "alpha_zero_at_each_sprite_corner": true,
+    "feathered_edges_measured": true,
+    "sample_overlap_composite_created": true,
+    "final_seamless_tessellation_verified": false,
+    "final_print_300dpi_approved": false,
+    "final_map_placement_approved": false
+  },
+  "rectangular_background_exception": {
+    "enabled": true,
+    "count": 4,
+    "manifest": "assets/terrain/large_area/manifest_rectangular_underlays_04.json",
+    "rule": "The four opaque rectangles are retained solely as the base gap-fill underlay below all irregular transparent redo-03 terrain cutouts; transparent sprite replacement remains the default for all primary placement marks.",
+    "binary_upload_required": true,
+    "print_approval_required": true
+  }
+}

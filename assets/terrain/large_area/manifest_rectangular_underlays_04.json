@@ -1,0 +1,171 @@
+{
+  "project": "1-tok/crusadersmap",
+  "created": "2026-11-10",
+  "batch": "retained_rectangular_underlays_04",
+  "purpose": "Four full-rectangle opaque background gap-fill terrain sprites retained as exceptions to the transparent-only overlay policy",
+  "retention_policy": "Keep exactly these four rectangles as terrain underlays; all other opaque atlas-derived patch sprites remain superseded for foreground placement",
+  "order": [
+    "land/parchment/geographic base",
+    "retained opaque rectangles clipped to landcover/geography",
+    "irregular transparent terrain cutouts (redo 03)",
+    "water/shoreline/hydrology",
+    "routes and roads",
+    "cities/castles",
+    "labels"
+  ],
+  "binary_status": "all_8_pngs_committed_to_main_original_sha_verified",
+  "pack": "crusadersmap_rect_underlays_04_20261110.zip",
+  "qa_summary": {
+    "print_approval": false,
+    "placement_applied": false,
+    "opposite_edge_pixels_matched_on_edge_matched_versions": true,
+    "visual_repeat_approved": false,
+    "binary_git_sha_matches_local_source": true
+  },
+  "assets": [
+    {
+      "id": "RUL-01",
+      "terrain_class": "broad_desert",
+      "region_hint": "Egypt outside the Nile cultivation corridor; other appropriate sandy desert interiors",
+      "source_painting": "desert_egypt_mixed_sand_v01",
+      "origin": "full_resolution_painting",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "original_path": "assets/terrain/large_area/rect_underlays_04/desert_sand_opaque.png",
+      "edge_matched_path": "assets/terrain/large_area/rect_underlays_04/desert_sand_edge_matched.png",
+      "opaque": true,
+      "placement_layer": "terrain_underlay_below_transparent_redo_03",
+      "placement_status": "queued_for_trial_not_placed",
+      "print_review": "required_not_approved",
+      "qa_checks": [
+        "geographical mask",
+        "opposite-edge joins under repeat",
+        "distinctive motif repetition",
+        "palette and projection match",
+        "overlay transitions",
+        "native 300 DPI pixel density"
+      ],
+      "binary_status": "committed_original_and_edge_matched_on_main",
+      "print_note": "Original full-scene image; check final print use and regional palette"
+    },
+    {
+      "id": "RUL-02",
+      "terrain_class": "dry_steppe",
+      "region_hint": "Interior Syria, Anatolia and arid Upper Mesopotamia",
+      "source_painting": "steppe_rolling_dry_grass_v01",
+      "origin": "full_resolution_painting",
+      "dimensions_px": [
+        1774,
+        887
+      ],
+      "original_path": "assets/terrain/large_area/rect_underlays_04/dry_steppe_opaque.png",
+      "edge_matched_path": "assets/terrain/large_area/rect_underlays_04/dry_steppe_edge_matched.png",
+      "opaque": true,
+      "placement_layer": "terrain_underlay_below_transparent_redo_03",
+      "placement_status": "queued_for_trial_not_placed",
+      "print_review": "required_not_approved",
+      "qa_checks": [
+        "geographical mask",
+        "opposite-edge joins under repeat",
+        "distinctive motif repetition",
+        "palette and projection match",
+        "overlay transitions",
+        "native 300 DPI pixel density"
+      ],
+      "binary_status": "committed_original_and_edge_matched_on_main",
+      "print_note": "Original full-scene image; check final print use and regional palette"
+    },
+    {
+      "id": "RUL-03",
+      "terrain_class": "limestone_scrub",
+      "region_hint": "Canaan and Levantine dry limestone hill-country",
+      "source_painting": "canaan_scrub_limestone_v01",
+      "origin": "full_resolution_painting",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "original_path": "assets/terrain/large_area/rect_underlays_04/canaan_scrub_opaque.png",
+      "edge_matched_path": "assets/terrain/large_area/rect_underlays_04/canaan_scrub_edge_matched.png",
+      "opaque": true,
+      "placement_layer": "terrain_underlay_below_transparent_redo_03",
+      "placement_status": "queued_for_trial_not_placed",
+      "print_review": "required_not_approved",
+      "qa_checks": [
+        "geographical mask",
+        "opposite-edge joins under repeat",
+        "distinctive motif repetition",
+        "palette and projection match",
+        "overlay transitions",
+        "native 300 DPI pixel density"
+      ],
+      "binary_status": "committed_original_and_edge_matched_on_main",
+      "print_note": "Original full-scene image; check final print use and regional palette"
+    },
+    {
+      "id": "RUL-04",
+      "terrain_class": "green_lowland",
+      "region_hint": "Upper Mesopotamian greener steppe and fertile margins, subject to landcover review",
+      "source_painting": "upper_mesopotamia_green_steppe_enlarged",
+      "origin": "atlas_crop_resampled_native_resolution_repaint_required",
+      "dimensions_px": [
+        1536,
+        1012
+      ],
+      "original_path": "assets/terrain/large_area/rect_underlays_04/green_plain_opaque.png",
+      "edge_matched_path": "assets/terrain/large_area/rect_underlays_04/green_plain_edge_matched.png",
+      "opaque": true,
+      "placement_layer": "terrain_underlay_below_transparent_redo_03",
+      "placement_status": "queued_for_trial_not_placed",
+      "print_review": "required_not_approved",
+      "qa_checks": [
+        "geographical mask",
+        "opposite-edge joins under repeat",
+        "distinctive motif repetition",
+        "palette and projection match",
+        "overlay transitions",
+        "native 300 DPI pixel density"
+      ],
+      "binary_status": "committed_original_and_edge_matched_on_main",
+      "print_note": "Upscaled crop; do not approve print at large scale without repaint",
+      "sha256_source": null
+    }
+  ],
+  "verified_binary_count": 8,
+  "sha256_verification": {
+    "canaan_scrub_edge_matched.png": {
+      "git_blob_sha": "f32b7f4978a7b17311fb253e94cfd682cf7bca21",
+      "sha256": "73b0c5774484353025779de83bac12504a73b409681ccded7e0eaaeecf95abbc"
+    },
+    "canaan_scrub_opaque.png": {
+      "git_blob_sha": "7c730e313248c969b3dd9868b6dd6969b03be293",
+      "sha256": "f36030b42d5307edbdde1c0cc695cfc8a7196069c066f378a63d0199db69d18e"
+    },
+    "desert_sand_edge_matched.png": {
+      "git_blob_sha": "fa39aea244317f36645f2a095264432d2ce030ff",
+      "sha256": "2c69b3239a0f5e41c3268a6a96ac60e7c3ebc54a801a7085b0c1c43ceefaec4c"
+    },
+    "desert_sand_opaque.png": {
+      "git_blob_sha": "273baf2e68e2e69a7b58f2042455cc48e4b9d3c0",
+      "sha256": "da51a527fabc32a4cc3b9b19951cb94ce7cf33077b296b9b126e9602e301a68d"
+    },
+    "dry_steppe_edge_matched.png": {
+      "git_blob_sha": "9d841b2b2b56036ac00c1451d8eb4bd589a0ca83",
+      "sha256": "eecf0cd31bc3d42545f6fdda89fec1618d7417271d7cca3a9170d65aeada53f2"
+    },
+    "dry_steppe_opaque.png": {
+      "git_blob_sha": "519962339f81a9ed0fe86f7eea3931cd09eea88f",
+      "sha256": "defa4a9fde46a03afabbcf520b3096e9b42e11e714e18d251d4e358513c2bdd1"
+    },
+    "green_plain_edge_matched.png": {
+      "git_blob_sha": "6992043bbd1ebdd35cc103059c331b07a2671210",
+      "sha256": "fb89ed160ffcfa0a0e240455294b6bb6ae30577fa5fd4e9fefe90d089d0f35b8"
+    },
+    "green_plain_opaque.png": {
+      "git_blob_sha": "5b4f62a96f0eb34cfbbd22f2009f15727f3c02f5",
+      "sha256": "43b5de6d3b70f7ea981d8ab1ead2187a5706b866ba19f9972b3336283d238cce"
+    }
+  }
+}
