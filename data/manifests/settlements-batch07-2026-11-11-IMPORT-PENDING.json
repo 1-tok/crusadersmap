@@ -1,0 +1,352 @@
+{
+  "batch": "settlements-batch07-2026-11-11",
+  "record_count": 15,
+  "source_status": "PNGs are packaged externally and NOT included in this Git branch; do not resolve these paths until binary import succeeds",
+  "records": [
+    {
+      "id": "crusader_settlement_batch07_01",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_01.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 1,
+      "source_column": 1,
+      "category": "coastal_fortress",
+      "dimensions_px": [
+        307,
+        321
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_02",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_02.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 1,
+      "source_column": 2,
+      "category": "inland_walled_town",
+      "dimensions_px": [
+        307,
+        286
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_03",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_03.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 1,
+      "source_column": 3,
+      "category": "port_town",
+      "dimensions_px": [
+        308,
+        277
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_04",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_04.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 1,
+      "source_column": 4,
+      "category": "hilltop_castle",
+      "dimensions_px": [
+        305,
+        329
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_05",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_05.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 1,
+      "source_column": 5,
+      "category": "river_bridge_town",
+      "dimensions_px": [
+        307,
+        270
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_06",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_06.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 2,
+      "source_column": 1,
+      "category": "monastic_complex",
+      "dimensions_px": [
+        307,
+        324
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_07",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_07.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 2,
+      "source_column": 2,
+      "category": "fortified_harbor",
+      "dimensions_px": [
+        307,
+        269
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_08",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_08.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 2,
+      "source_column": 3,
+      "category": "agricultural_walled_town",
+      "dimensions_px": [
+        305,
+        326
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_09",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_09.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 2,
+      "source_column": 4,
+      "category": "hilltop_fortress",
+      "dimensions_px": [
+        307,
+        327
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_10",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_10.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 2,
+      "source_column": 5,
+      "category": "rock_cut_monastery",
+      "dimensions_px": [
+        307,
+        337
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_11",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_11.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 3,
+      "source_column": 1,
+      "category": "coastal_port",
+      "dimensions_px": [
+        307,
+        289
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_12",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_12.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 3,
+      "source_column": 2,
+      "category": "oasis_walled_town",
+      "dimensions_px": [
+        307,
+        304
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_13",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_13.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 3,
+      "source_column": 3,
+      "category": "roman_ruins_town",
+      "dimensions_px": [
+        308,
+        300
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_14",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_14.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 3,
+      "source_column": 4,
+      "category": "rocky_religious_town",
+      "dimensions_px": [
+        307,
+        316
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "crusader_settlement_batch07_15",
+      "expected_asset_path": "data/sprites/intake/settlements-batch07-2026-11-11/crusader_settlement_batch07_15.png",
+      "source_sheet": "a_detailed_high_resolution_illustration_sheet_a.png",
+      "source_row": 3,
+      "source_column": 5,
+      "category": "river_valley_town",
+      "dimensions_px": [
+        307,
+        299
+      ],
+      "anchor": {
+        "type": "bottom_center",
+        "normalized_x": 0.5,
+        "normalized_y": 1
+      },
+      "placement_status": "import_pending",
+      "review_placement_allowed": false,
+      "qa_status": "provisional_edge_and_historical_review",
+      "identity_status": "unassigned",
+      "latitude": null,
+      "longitude": null
+    }
+  ]
+}
