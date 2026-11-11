@@ -71,7 +71,7 @@ def render(year=1180, atlas=False, review=False, all_review_variants=False):
         draw.text((bx*scale+5,by*scale+5),region,fill='#30251e')
     for e in sorted(chosen,key=lambda e:-e['coordinates'][1]):
         px,py=sheet_anchor(e)
-        im=Image.open(BASE/e['asset'])
+        im=Image.open(BASE/e['asset']).convert('RGBA')
         width=e['display_width_units']; height=width*im.height/im.width
         ax,ay=e['anchor_normalized']; x=px-ax*width;y=py-ay*height
         encoded=base64.b64encode((BASE/e['asset']).read_bytes()).decode('ascii')
