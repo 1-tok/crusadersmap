@@ -40,7 +40,7 @@ def extract_archives(root: Path) -> dict:
                             or any(part in (".", "..") for part in p.parts)
                             or ":" in p.parts[0] or stat.S_ISLNK(mode)):
                         raise ValueError(f"unsafe archive member: {name!r}")
-                    if p.suffix.lower() not in (".png", ".json"):
+                    if p.suffix.lower() not in (".png", ".json", ".md", ".csv", ".txt"):
                         raise ValueError(f"unexpected archive member: {name!r}")
                     if info.file_size > MAX_MEMBER:
                         raise ValueError(f"oversized member: {name!r}")
@@ -53,7 +53,8 @@ def extract_archives(root: Path) -> dict:
                     if relative.as_posix().lower() in seen:
                         raise ValueError(f"duplicate member path: {name!r}")
                     seen.add(relative.as_posix().lower())
-                    planned.append((info, relative))
+                    if p.suffix.lower() in (".png", ".json"):
+                        planned.append((info, relative))
                 if not any(p.suffix.lower() == ".png" for _, p in planned):
                     raise ValueError("archive contains no PNGs")
                 for info, rel in planned:
