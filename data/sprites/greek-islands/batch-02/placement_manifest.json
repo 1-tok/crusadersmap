@@ -1,0 +1,3245 @@
+{
+  "schema_version": "1.0.0",
+  "map_id": "crusadersmap",
+  "repository": "1-tok/crusadersmap",
+  "batch_id": "greek_islands_coastline_2026_11_10_02",
+  "title": "Greek Islands Batch 02 — Cyclades, Dodecanese, Sporades and Ionian Islands",
+  "date": "2026-11-10",
+  "sprite_count": 35,
+  "inset_region": "aegean",
+  "inset_extent_wgs84": [
+    19.6,
+    34.7,
+    30.4,
+    41.75
+  ],
+  "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+  "integration_state": "assets_registered_not_yet_composited",
+  "ready_for_map_overlay": true,
+  "coordinate_reference_system": "EPSG:4326",
+  "north_up": true,
+  "requires_projection_transform": true,
+  "placement_contract": {
+    "source_image_bbox": "render_bbox_wgs84 [west,south,east,north]",
+    "map_frame": "frame.INSETS['aegean']",
+    "location": "Use map projection on source image geographic rectangle, not independent pixel scaling",
+    "z_order": "above water and base terrain, below labels and standalone named landmarks",
+    "transparent_margin": "kept within full image bbox; do not auto-trim PNG without updating bbox",
+    "labeling": "No built-in geographic labels; avoid painting duplicate named settlements over island icons",
+    "off_map_rule": "Skip if island not visible in final inset"
+  },
+  "qa_policy": {
+    "geometry": "GSHHS intermediate; preview shoreline must be checked against native Natural Earth land geometry before print",
+    "alpha": "all RGBA with transparent exterior",
+    "historical_buildings": "decorative stylized until individual monument-specific 1095–1571 chronology passes",
+    "output_status": "registration available; not yet composited into existing print pipeline"
+  },
+  "specific_historical_sources": [
+    {
+      "subject": "Patmos fortified monastery",
+      "url": "https://whc.unesco.org/en/list/942",
+      "note": "Founded 1088"
+    },
+    {
+      "subject": "Skaros, Thera",
+      "url": "https://cyclades.culture.gov.gr/en/location/the-medieval-castle-city-of-skaros-thera/",
+      "note": "Venetian castle 13th century"
+    },
+    {
+      "subject": "Chora, Amorgos",
+      "url": "https://cyclades.culture.gov.gr/en/location/byzantine-amorgos/",
+      "note": "Byzantine beginnings; 1206/07 Venetian walls"
+    },
+    {
+      "subject": "Andros Kato Kastro",
+      "url": "https://cyclades.culture.gov.gr/en/location/the-lower-castle-kato-kastro-in-chora-andros/",
+      "note": "Built under first Latin ruler 1207–1238/43"
+    }
+  ],
+  "sprites": [
+    {
+      "id": "CR-GRI2-ANDROS",
+      "name": "Andros",
+      "slug": "andros",
+      "png_path": "data/sprites/greek-islands/batch-02/13_andros.png",
+      "sha256": "2c95cd8dfcda1d5e96633e89d9c31157ee6c4ccd0b1e4629d8837efffbe5a763",
+      "file_size_bytes": 377753,
+      "size_px": [
+        1068,
+        1316
+      ],
+      "gshhs_polygon_index": 14,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        24.68041992,
+        37.68292236,
+        25.0,
+        37.99874878
+      ],
+      "render_bbox_wgs84": [
+        24.66642609,
+        37.67188128,
+        25.01399383,
+        38.00978987
+      ],
+      "towns": [
+        {
+          "name": "Chora (Andros)",
+          "longitude": 24.94,
+          "latitude": 37.84,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            839,
+            663
+          ],
+          "geographic_anchor_px": [
+            839.8,
+            660.8
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Gavrio",
+          "longitude": 24.74,
+          "latitude": 37.88,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            235,
+            488
+          ],
+          "geographic_anchor_px": [
+            225.9,
+            505.1
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Batsi",
+          "longitude": 24.79,
+          "latitude": 37.86,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            379,
+            583
+          ],
+          "geographic_anchor_px": [
+            379.4,
+            582.9
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated",
+        "historical_reviewer_notes": "Kato Kastro, Chora fortified under Marinos Dandolos after 1207, per Cyclades Ephorate; leave pre-1207 variant unfortified."
+      }
+    },
+    {
+      "id": "CR-GRI2-TINOS",
+      "name": "Tinos",
+      "slug": "tinos",
+      "png_path": "data/sprites/greek-islands/batch-02/14_tinos.png",
+      "sha256": "0c88ed8b2b88a120dff7599523315ef58e07505e64119c858109655ca94a6e5c",
+      "file_size_bytes": 373964,
+      "size_px": [
+        1316,
+        930
+      ],
+      "gshhs_polygon_index": 24,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        24.97122192,
+        37.52458191,
+        25.25627136,
+        37.67958069
+      ],
+      "render_bbox_wgs84": [
+        24.96125678,
+        37.51668505,
+        25.26623651,
+        37.68747755
+      ],
+      "towns": [
+        {
+          "name": "Tinos port",
+          "longitude": 25.16,
+          "latitude": 37.54,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            862,
+            797
+          ],
+          "geographic_anchor_px": [
+            856.9,
+            802.2
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Exomvourgo",
+          "longitude": 25.17,
+          "latitude": 37.59,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            900,
+            530
+          ],
+          "geographic_anchor_px": [
+            900.1,
+            530.2
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Pyrgos",
+          "longitude": 25.05,
+          "latitude": 37.65,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            383,
+            204
+          ],
+          "geographic_anchor_px": [
+            382.6,
+            203.9
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-MYKONOS",
+      "name": "Mykonos",
+      "slug": "mykonos",
+      "png_path": "data/sprites/greek-islands/batch-02/15_mykonos.png",
+      "sha256": "2e463aa2b8fbdc6013fc2795476ea13d3bbfc0653d0cfe90ed1a027f81c657c2",
+      "file_size_bytes": 315706,
+      "size_px": [
+        1056,
+        831
+      ],
+      "gshhs_polygon_index": 37,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        25.29958344,
+        37.40208435,
+        25.46208191,
+        37.5012207
+      ],
+      "render_bbox_wgs84": [
+        25.29237989,
+        37.39636239,
+        25.46928545,
+        37.50694267
+      ],
+      "towns": [
+        {
+          "name": "Chora (Mykonos)",
+          "longitude": 25.33,
+          "latitude": 37.44,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            224,
+            502
+          ],
+          "geographic_anchor_px": [
+            224.4,
+            502.5
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Ano Mera",
+          "longitude": 25.39,
+          "latitude": 37.44,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            582,
+            502
+          ],
+          "geographic_anchor_px": [
+            582.2,
+            502.5
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated",
+        "historical_reviewer_notes": "Do not portray the post-medieval Panagia Tourliani monastery or iconic modern windmills as 12th-century features."
+      }
+    },
+    {
+      "id": "CR-GRI2-SYROS",
+      "name": "Syros",
+      "slug": "syros",
+      "png_path": "data/sprites/greek-islands/batch-02/16_syros.png",
+      "sha256": "a19b4e17e541d5c4b5de6b2c44f2c5937b8c3ca607c8c3bebe265a271de89b2e",
+      "file_size_bytes": 233571,
+      "size_px": [
+        703,
+        1056
+      ],
+      "gshhs_polygon_index": 38,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        24.85455322,
+        37.36288452,
+        24.97377777,
+        37.51164246
+      ],
+      "render_bbox_wgs84": [
+        24.84624422,
+        37.3562901,
+        24.98208678,
+        37.51823688
+      ],
+      "towns": [
+        {
+          "name": "Syra (Ano Syros)",
+          "longitude": 24.94,
+          "latitude": 37.45,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            485,
+            445
+          ],
+          "geographic_anchor_px": [
+            484.5,
+            444.5
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Finikas",
+          "longitude": 24.88,
+          "latitude": 37.4,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            174,
+            770
+          ],
+          "geographic_anchor_px": [
+            174.4,
+            770.3
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated",
+        "historical_reviewer_notes": "Ano Syros medieval settlement, but modern Ermoupoli buildings are NOT appropriate to 1097–1291."
+      }
+    },
+    {
+      "id": "CR-GRI2-KEA",
+      "name": "Kea",
+      "slug": "kea",
+      "png_path": "data/sprites/greek-islands/batch-02/17_kea.png",
+      "sha256": "166d3f08410318d086e2dd6448718efc99bd9c0dc81c3c105fa29b79bece6bd3",
+      "file_size_bytes": 251483,
+      "size_px": [
+        765,
+        1056
+      ],
+      "gshhs_polygon_index": 27,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        24.26289368,
+        37.52207947,
+        24.40953064,
+        37.68791199
+      ],
+      "render_bbox_wgs84": [
+        24.25360739,
+        37.51472813,
+        24.41881693,
+        37.69526333
+      ],
+      "towns": [
+        {
+          "name": "Ioulis",
+          "longitude": 24.34,
+          "latitude": 37.63,
+          "symbol_type": "walled_town",
+          "painting_anchor_px": [
+            400,
+            381
+          ],
+          "geographic_anchor_px": [
+            399.5,
+            381.4
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Korissia",
+          "longitude": 24.31,
+          "latitude": 37.66,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            261,
+            206
+          ],
+          "geographic_anchor_px": [
+            260.8,
+            206.1
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Karthaia",
+          "longitude": 24.39,
+          "latitude": 37.59,
+          "symbol_type": "site",
+          "painting_anchor_px": [
+            580,
+            565
+          ],
+          "geographic_anchor_px": [
+            630.7,
+            615.1
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-KYTHNOS",
+      "name": "Kythnos",
+      "slug": "kythnos",
+      "png_path": "data/sprites/greek-islands/batch-02/18_kythnos.png",
+      "sha256": "1010d27651344100a195f710005f2879f3fdf56ff2829e8e1a0a520e3d6d7400",
+      "file_size_bytes": 183153,
+      "size_px": [
+        609,
+        1056
+      ],
+      "gshhs_polygon_index": 32,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        24.36122131,
+        37.29878235,
+        24.4861908,
+        37.48291779
+      ],
+      "render_bbox_wgs84": [
+        24.35094658,
+        37.29061964,
+        24.49646553,
+        37.49108049
+      ],
+      "towns": [
+        {
+          "name": "Chora (Kythnos)",
+          "longitude": 24.43,
+          "latitude": 37.4,
+          "symbol_type": "walled_town",
+          "painting_anchor_px": [
+            330,
+            479
+          ],
+          "geographic_anchor_px": [
+            330.3,
+            479.3
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Dryopida",
+          "longitude": 24.42,
+          "latitude": 37.36,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            289,
+            690
+          ],
+          "geographic_anchor_px": [
+            288.5,
+            689.9
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-SERIFOS",
+      "name": "Serifos",
+      "slug": "serifos",
+      "png_path": "data/sprites/greek-islands/batch-02/19_serifos.png",
+      "sha256": "842f5e6ab681c1568d57be09a7b14a3f4b9ef3ffb06886571636554fa24b526e",
+      "file_size_bytes": 424437,
+      "size_px": [
+        1038,
+        1056
+      ],
+      "gshhs_polygon_index": 42,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        24.41205597,
+        37.10958862,
+        24.53624725,
+        37.21035767
+      ],
+      "render_bbox_wgs84": [
+        24.40644649,
+        37.10512154,
+        24.54185673,
+        37.21482475
+      ],
+      "towns": [
+        {
+          "name": "Chora (Serifos)",
+          "longitude": 24.52,
+          "latitude": 37.16,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            870,
+            527
+          ],
+          "geographic_anchor_px": [
+            869.6,
+            527.2
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Livadi",
+          "longitude": 24.52,
+          "latitude": 37.14,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            889,
+            703
+          ],
+          "geographic_anchor_px": [
+            869.6,
+            719.6
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-SIFNOS",
+      "name": "Sifnos",
+      "slug": "sifnos",
+      "png_path": "data/sprites/greek-islands/batch-02/20_sifnos.png",
+      "sha256": "1283caeb884e1cf202760fd2db658b4d0fbe3845fce3a42feb6233dff4cb37c3",
+      "file_size_bytes": 265194,
+      "size_px": [
+        805,
+        1056
+      ],
+      "gshhs_polygon_index": 40,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        24.63542175,
+        36.90122223,
+        24.76702881,
+        37.04289246
+      ],
+      "render_bbox_wgs84": [
+        24.62755096,
+        36.894942,
+        24.77489961,
+        37.04917268
+      ],
+      "towns": [
+        {
+          "name": "Kastro (Sifnos)",
+          "longitude": 24.73,
+          "latitude": 36.98,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            559,
+            473
+          ],
+          "geographic_anchor_px": [
+            559.0,
+            473.2
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Artemonas",
+          "longitude": 24.71,
+          "latitude": 37.0,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            450,
+            336
+          ],
+          "geographic_anchor_px": [
+            449.9,
+            336.4
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Kamares",
+          "longitude": 24.67,
+          "latitude": 36.99,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            237,
+            409
+          ],
+          "geographic_anchor_px": [
+            231.6,
+            404.8
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-MILOS",
+      "name": "Milos",
+      "slug": "milos",
+      "png_path": "data/sprites/greek-islands/batch-02/21_milos.png",
+      "sha256": "1abf9f487eae30c6b05f053cb9fc752e5b32ed527eef56aaac5ac3122c27e67a",
+      "file_size_bytes": 295352,
+      "size_px": [
+        1056,
+        769
+      ],
+      "gshhs_polygon_index": 26,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        24.31705475,
+        36.64369202,
+        24.54708099,
+        36.77372742
+      ],
+      "render_bbox_wgs84": [
+        24.30685771,
+        36.63550531,
+        24.55727803,
+        36.78191413
+      ],
+      "towns": [
+        {
+          "name": "Kastro (Milos)",
+          "longitude": 24.42,
+          "latitude": 36.74,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            477,
+            220
+          ],
+          "geographic_anchor_px": [
+            476.7,
+            219.9
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Adamas",
+          "longitude": 24.44,
+          "latitude": 36.72,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            570,
+            294
+          ],
+          "geographic_anchor_px": [
+            560.9,
+            324.8
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Pollonia",
+          "longitude": 24.53,
+          "latitude": 36.77,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            928,
+            99
+          ],
+          "geographic_anchor_px": [
+            940.1,
+            62.5
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated",
+        "historical_reviewer_notes": "Volcanic caldera coastal outline matches generalized intermediate GSHHS, not detailed individual harbor shorelines."
+      }
+    },
+    {
+      "id": "CR-GRI2-KIMOLOS",
+      "name": "Kimolos",
+      "slug": "kimolos",
+      "png_path": "data/sprites/greek-islands/batch-02/22_kimolos.png",
+      "sha256": "758264e697e20762c4303e5b38772197fbeb4f73279cc3330e9515f3e1c34fb9",
+      "file_size_bytes": 357384,
+      "size_px": [
+        982,
+        1056
+      ],
+      "gshhs_polygon_index": 56,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        24.51872253,
+        36.77036285,
+        24.60624695,
+        36.84619141
+      ],
+      "render_bbox_wgs84": [
+        24.51452214,
+        36.76700138,
+        24.61044734,
+        36.84955288
+      ],
+      "towns": [
+        {
+          "name": "Chora (Kimolos)",
+          "longitude": 24.58,
+          "latitude": 36.79,
+          "symbol_type": "walled_town",
+          "painting_anchor_px": [
+            670,
+            761
+          ],
+          "geographic_anchor_px": [
+            669.6,
+            761.1
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Psathi",
+          "longitude": 24.58,
+          "latitude": 36.79,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            670,
+            761
+          ],
+          "geographic_anchor_px": [
+            669.6,
+            761.1
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-IOS",
+      "name": "Ios",
+      "slug": "ios",
+      "png_path": "data/sprites/greek-islands/batch-02/23_ios.png",
+      "sha256": "95846f4ff4772e7d52a84bc838d028bca80776c6bcf9e2649c837a76e1f326ea",
+      "file_size_bytes": 267043,
+      "size_px": [
+        893,
+        1056
+      ],
+      "gshhs_polygon_index": 31,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        25.24621582,
+        36.64125061,
+        25.40289307,
+        36.79205322
+      ],
+      "render_bbox_wgs84": [
+        25.23786747,
+        36.63456555,
+        25.41124142,
+        36.79873829
+      ],
+      "towns": [
+        {
+          "name": "Chora (Ios)",
+          "longitude": 25.28,
+          "latitude": 36.73,
+          "symbol_type": "walled_town",
+          "painting_anchor_px": [
+            217,
+            442
+          ],
+          "geographic_anchor_px": [
+            216.8,
+            441.7
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Ormos",
+          "longitude": 25.27,
+          "latitude": 36.72,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            165,
+            506
+          ],
+          "geographic_anchor_px": [
+            165.3,
+            506.0
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-AMORGOS",
+      "name": "Amorgos",
+      "slug": "amorgos",
+      "png_path": "data/sprites/greek-islands/batch-02/24_amorgos.png",
+      "sha256": "9fde571afb295eda4080f10308d866a38eedc5f5fc4fe3e4164ee992dbd5e7dc",
+      "file_size_bytes": 179295,
+      "size_px": [
+        1316,
+        848
+      ],
+      "gshhs_polygon_index": 28,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        25.74285889,
+        36.7645874,
+        26.08877563,
+        36.93619537
+      ],
+      "render_bbox_wgs84": [
+        25.73076586,
+        36.75490349,
+        26.10086866,
+        36.94587929
+      ],
+      "towns": [
+        {
+          "name": "Chora (Amorgos)",
+          "longitude": 25.9,
+          "latitude": 36.83,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            601,
+            514
+          ],
+          "geographic_anchor_px": [
+            601.3,
+            513.9
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Hozoviotissa monastery",
+          "longitude": 25.91,
+          "latitude": 36.83,
+          "symbol_type": "monastery",
+          "painting_anchor_px": [
+            637,
+            514
+          ],
+          "geographic_anchor_px": [
+            636.8,
+            513.9
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Katapola",
+          "longitude": 25.86,
+          "latitude": 36.83,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            459,
+            514
+          ],
+          "geographic_anchor_px": [
+            459.2,
+            513.9
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Aegiali",
+          "longitude": 25.98,
+          "latitude": 36.9,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            886,
+            203
+          ],
+          "geographic_anchor_px": [
+            885.5,
+            203.5
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated",
+        "historical_reviewer_notes": "Chora has Middle Byzantine core; Venetian strengthening after 1206/07, later modifications should be phase-gated (Cyclades Ephorate)."
+      }
+    },
+    {
+      "id": "CR-GRI2-THERA",
+      "name": "Thera / Santorini",
+      "slug": "thera",
+      "png_path": "data/sprites/greek-islands/batch-02/25_thera.png",
+      "sha256": "e46d6125e87e8386c04334fd99325ede77acf4f96110fccc4d13379a91646d8f",
+      "file_size_bytes": 220574,
+      "size_px": [
+        784,
+        1056
+      ],
+      "gshhs_polygon_index": 41,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        25.35374451,
+        36.33041382,
+        25.48875427,
+        36.48124695
+      ],
+      "render_bbox_wgs84": [
+        25.34542729,
+        36.3237274,
+        25.49707149,
+        36.48793337
+      ],
+      "towns": [
+        {
+          "name": "Skaros",
+          "longitude": 25.43,
+          "latitude": 36.43,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            437,
+            372
+          ],
+          "geographic_anchor_px": [
+            436.7,
+            372.2
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Akrotiri",
+          "longitude": 25.4,
+          "latitude": 36.35,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            282,
+            886
+          ],
+          "geographic_anchor_px": [
+            281.8,
+            886.2
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Mesa Gonia",
+          "longitude": 25.45,
+          "latitude": 36.39,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            540,
+            629
+          ],
+          "geographic_anchor_px": [
+            540.0,
+            629.2
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated",
+        "historical_reviewer_notes": "Skaros castle is 13th century (1207–1265) per Cyclades Ephorate; for earlier phases depict a less developed settlement. The caldera is geographically preserved as land-only; Thirasia requires a separate sprite."
+      }
+    },
+    {
+      "id": "CR-GRI2-FOLEGANDROS",
+      "name": "Folegandros",
+      "slug": "folegandros",
+      "png_path": "data/sprites/greek-islands/batch-02/26_folegandros.png",
+      "sha256": "2ec027d5b33040f43b68d970a9ed40ad549411b9c4b3f45db8af4a9699b1f4d7",
+      "file_size_bytes": 223432,
+      "size_px": [
+        1056,
+        759
+      ],
+      "gshhs_polygon_index": 60,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        24.83705139,
+        36.59706116,
+        24.96125031,
+        36.66622162
+      ],
+      "render_bbox_wgs84": [
+        24.83154567,
+        36.59264229,
+        24.96675603,
+        36.67064049
+      ],
+      "towns": [
+        {
+          "name": "Chora (Folegandros)",
+          "longitude": 24.92,
+          "latitude": 36.63,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            690,
+            395
+          ],
+          "geographic_anchor_px": [
+            690.2,
+            395.0
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Karavostasis",
+          "longitude": 24.95,
+          "latitude": 36.62,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            893,
+            515
+          ],
+          "geographic_anchor_px": [
+            924.3,
+            492.1
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-ANAFI",
+      "name": "Anafi",
+      "slug": "anafi",
+      "png_path": "data/sprites/greek-islands/batch-02/27_anafi.png",
+      "sha256": "54ddd7762d3b01aa1ad3b8eb23ff9efb99fa3d19392300ce79a6a3dbe32da681",
+      "file_size_bytes": 202689,
+      "size_px": [
+        1056,
+        669
+      ],
+      "gshhs_polygon_index": 54,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        25.72789001,
+        36.34205627,
+        25.85871887,
+        36.40538788
+      ],
+      "render_bbox_wgs84": [
+        25.72209038,
+        36.33738516,
+        25.8645185,
+        36.41005899
+      ],
+      "towns": [
+        {
+          "name": "Chora (Anafi)",
+          "longitude": 25.77,
+          "latitude": 36.35,
+          "symbol_type": "walled_town",
+          "painting_anchor_px": [
+            355,
+            552
+          ],
+          "geographic_anchor_px": [
+            354.9,
+            552.0
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Kastelli",
+          "longitude": 25.79,
+          "latitude": 36.36,
+          "symbol_type": "site",
+          "painting_anchor_px": [
+            503,
+            460
+          ],
+          "geographic_anchor_px": [
+            503.0,
+            460.1
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-PATMOS",
+      "name": "Patmos",
+      "slug": "patmos",
+      "png_path": "data/sprites/greek-islands/batch-02/28_patmos.png",
+      "sha256": "5e5fde8c011b34f9e43651e55aa2a31a04782ab7b722cc0713668425176ee7f2",
+      "file_size_bytes": 200447,
+      "size_px": [
+        717,
+        1055
+      ],
+      "gshhs_polygon_index": 58,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        26.52619171,
+        37.26916504,
+        26.61624908,
+        37.37913513
+      ],
+      "render_bbox_wgs84": [
+        26.52005468,
+        37.26428505,
+        26.62238612,
+        37.38401513
+      ],
+      "towns": [
+        {
+          "name": "Monastery of St John",
+          "longitude": 26.55,
+          "latitude": 37.3,
+          "symbol_type": "monastery",
+          "painting_anchor_px": [
+            210,
+            740
+          ],
+          "geographic_anchor_px": [
+            209.5,
+            739.6
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Chora (Patmos)",
+          "longitude": 26.55,
+          "latitude": 37.3,
+          "symbol_type": "walled_town",
+          "painting_anchor_px": [
+            210,
+            740
+          ],
+          "geographic_anchor_px": [
+            209.5,
+            739.6
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Skala",
+          "longitude": 26.55,
+          "latitude": 37.32,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            210,
+            564
+          ],
+          "geographic_anchor_px": [
+            209.5,
+            563.5
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated",
+        "historical_reviewer_notes": "Monastery of St John was founded in 1088 (UNESCO); draw only a simplified fortified monastic core, not later 17th-century structures."
+      }
+    },
+    {
+      "id": "CR-GRI2-LEROS",
+      "name": "Leros",
+      "slug": "leros",
+      "png_path": "data/sprites/greek-islands/batch-02/29_leros.png",
+      "sha256": "7f8bbb3c1a9230b51a96e754136646056f595a496206cc4b2759b8625b57e5db",
+      "file_size_bytes": 313328,
+      "size_px": [
+        1010,
+        1056
+      ],
+      "gshhs_polygon_index": 47,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        26.7653656,
+        37.09706116,
+        26.89291382,
+        37.20368958
+      ],
+      "render_bbox_wgs84": [
+        26.75942992,
+        37.09233433,
+        26.8988495,
+        37.2084164
+      ],
+      "towns": [
+        {
+          "name": "Kastro of Leros",
+          "longitude": 26.86,
+          "latitude": 37.16,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            726,
+            459
+          ],
+          "geographic_anchor_px": [
+            727.8,
+            440.0
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Platanos",
+          "longitude": 26.85,
+          "latitude": 37.15,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            655,
+            531
+          ],
+          "geographic_anchor_px": [
+            655.5,
+            530.9
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Alinda",
+          "longitude": 26.85,
+          "latitude": 37.17,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            625,
+            332
+          ],
+          "geographic_anchor_px": [
+            655.5,
+            349.1
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-KALYMNOS",
+      "name": "Kalymnos",
+      "slug": "kalymnos",
+      "png_path": "data/sprites/greek-islands/batch-02/30_kalymnos.png",
+      "sha256": "7bcbae316475e7c9fd5d480addc96165bb384ebb73ef4eb212f05cd5bd699d8c",
+      "file_size_bytes": 321613,
+      "size_px": [
+        971,
+        1056
+      ],
+      "gshhs_polygon_index": 30,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        26.88160706,
+        36.92456055,
+        27.05500031,
+        37.07621765
+      ],
+      "render_bbox_wgs84": [
+        26.8731823,
+        36.9178376,
+        27.06342506,
+        37.0829406
+      ],
+      "towns": [
+        {
+          "name": "Chorio",
+          "longitude": 26.98,
+          "latitude": 36.97,
+          "symbol_type": "walled_town",
+          "painting_anchor_px": [
+            545,
+            722
+          ],
+          "geographic_anchor_px": [
+            544.6,
+            721.7
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Vathy",
+          "longitude": 27.02,
+          "latitude": 37.0,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            749,
+            530
+          ],
+          "geographic_anchor_px": [
+            748.6,
+            530.0
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Pothia harbor",
+          "longitude": 26.98,
+          "latitude": 36.95,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            545,
+            849
+          ],
+          "geographic_anchor_px": [
+            544.6,
+            849.5
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-ASTYPALAIA",
+      "name": "Astypalaia",
+      "slug": "astypalaia",
+      "png_path": "data/sprites/greek-islands/batch-02/31_astypalaia.png",
+      "sha256": "aec1aff2797077dc28b966c9df8e734f5247a033daecb80c86ecd3316df09e7e",
+      "file_size_bytes": 268781,
+      "size_px": [
+        1056,
+        874
+      ],
+      "gshhs_polygon_index": 33,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        26.259552,
+        36.50541687,
+        26.47535706,
+        36.64622498
+      ],
+      "render_bbox_wgs84": [
+        26.24998539,
+        36.49773318,
+        26.48492367,
+        36.65390867
+      ],
+      "towns": [
+        {
+          "name": "Chora (Astypalaia)",
+          "longitude": 26.35,
+          "latitude": 36.55,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            449,
+            581
+          ],
+          "geographic_anchor_px": [
+            449.1,
+            580.8
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Livadi",
+          "longitude": 26.34,
+          "latitude": 36.55,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            404,
+            581
+          ],
+          "geographic_anchor_px": [
+            404.2,
+            580.8
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated",
+        "historical_reviewer_notes": "Querini hilltop Venetian castle is 15th century; generic older hilltop defensive symbolism only, revisit for late-phase depiction."
+      }
+    },
+    {
+      "id": "CR-GRI2-KARPATHOS",
+      "name": "Karpathos",
+      "slug": "karpathos",
+      "png_path": "data/sprites/greek-islands/batch-02/32_karpathos.png",
+      "sha256": "c4c859fbaa95afca93fbdd3c52c89514309f7f713f9b225c2aa525e960bed57b",
+      "file_size_bytes": 177335,
+      "size_px": [
+        521,
+        1316
+      ],
+      "gshhs_polygon_index": 16,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        27.05369568,
+        35.39705658,
+        27.24285889,
+        35.83119202
+      ],
+      "render_bbox_wgs84": [
+        27.03499679,
+        35.38187949,
+        27.26155778,
+        35.84636911
+      ],
+      "towns": [
+        {
+          "name": "Olympos",
+          "longitude": 27.17,
+          "latitude": 35.74,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            310,
+            301
+          ],
+          "geographic_anchor_px": [
+            309.9,
+            301.1
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Pigadia",
+          "longitude": 27.21,
+          "latitude": 35.5,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            402,
+            981
+          ],
+          "geographic_anchor_px": [
+            401.7,
+            980.6
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Menetes",
+          "longitude": 27.17,
+          "latitude": 35.51,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            310,
+            952
+          ],
+          "geographic_anchor_px": [
+            309.9,
+            952.3
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-KASOS",
+      "name": "Kasos",
+      "slug": "kasos",
+      "png_path": "data/sprites/greek-islands/batch-02/33_kasos.png",
+      "sha256": "65a0aa390ce6396d8960851d509466155139ce7f4738bdb0bf2197796127c41e",
+      "file_size_bytes": 215752,
+      "size_px": [
+        1056,
+        779
+      ],
+      "gshhs_polygon_index": 43,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        26.84788513,
+        35.34041595,
+        27.01371765,
+        35.4370575
+      ],
+      "render_bbox_wgs84": [
+        26.84053379,
+        35.33441944,
+        27.02106899,
+        35.44305401
+      ],
+      "towns": [
+        {
+          "name": "Fry",
+          "longitude": 26.94,
+          "latitude": 35.42,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            581,
+            165
+          ],
+          "geographic_anchor_px": [
+            581.3,
+            165.1
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Agia Marina",
+          "longitude": 26.92,
+          "latitude": 35.42,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            464,
+            165
+          ],
+          "geographic_anchor_px": [
+            464.4,
+            165.1
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-SYMI",
+      "name": "Symi",
+      "slug": "symi",
+      "png_path": "data/sprites/greek-islands/batch-02/34_symi.png",
+      "sha256": "f7e021cd51a58abfc7f79e7a01b383a0b1e33cf3c418a8b028e4393431f8a43b",
+      "file_size_bytes": 315677,
+      "size_px": [
+        946,
+        1056
+      ],
+      "gshhs_polygon_index": 46,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        27.76452637,
+        36.53955078,
+        27.87872314,
+        36.64286041
+      ],
+      "render_bbox_wgs84": [
+        27.75881653,
+        36.53497108,
+        27.88443298,
+        36.64744012
+      ],
+      "towns": [
+        {
+          "name": "Symi harbor (Gialos)",
+          "longitude": 27.84,
+          "latitude": 36.62,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            618,
+            272
+          ],
+          "geographic_anchor_px": [
+            610.7,
+            257.4
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Chorio",
+          "longitude": 27.85,
+          "latitude": 36.62,
+          "symbol_type": "walled_town",
+          "painting_anchor_px": [
+            686,
+            257
+          ],
+          "geographic_anchor_px": [
+            686.0,
+            257.4
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Panormitis",
+          "longitude": 27.84,
+          "latitude": 36.56,
+          "symbol_type": "site",
+          "painting_anchor_px": [
+            617,
+            798
+          ],
+          "geographic_anchor_px": [
+            610.7,
+            820.2
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-NISYROS",
+      "name": "Nisyros",
+      "slug": "nisyros",
+      "png_path": "data/sprites/greek-islands/batch-02/35_nisyros.png",
+      "sha256": "eeb1478becd1ffa5e218564894f7b6a1caad92f4a3e9990075f4b5a50a448928",
+      "file_size_bytes": 378900,
+      "size_px": [
+        1055,
+        942
+      ],
+      "gshhs_polygon_index": 53,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        27.12291718,
+        36.55705261,
+        27.21458435,
+        36.62205505
+      ],
+      "render_bbox_wgs84": [
+        27.11884939,
+        36.5537873,
+        27.21865214,
+        36.62532036
+      ],
+      "towns": [
+        {
+          "name": "Mandraki",
+          "longitude": 27.13,
+          "latitude": 36.61,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            118,
+            202
+          ],
+          "geographic_anchor_px": [
+            117.8,
+            201.5
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Nikia",
+          "longitude": 27.17,
+          "latitude": 36.58,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            540,
+            596
+          ],
+          "geographic_anchor_px": [
+            540.2,
+            596.2
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-TILOS",
+      "name": "Tilos",
+      "slug": "tilos",
+      "png_path": "data/sprites/greek-islands/batch-02/36_tilos.png",
+      "sha256": "e04a4422466dc975b24cd387dab0882fe2a3ac199cb46625fa83ddfdc32b7a04",
+      "file_size_bytes": 298398,
+      "size_px": [
+        1056,
+        908
+      ],
+      "gshhs_polygon_index": 45,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        27.29208374,
+        36.37541199,
+        27.45205688,
+        36.48455811
+      ],
+      "render_bbox_wgs84": [
+        27.28499215,
+        36.3697024,
+        27.45914848,
+        36.4902677
+      ],
+      "towns": [
+        {
+          "name": "Megalo Chorio",
+          "longitude": 27.36,
+          "latitude": 36.45,
+          "symbol_type": "walled_town",
+          "painting_anchor_px": [
+            454,
+            303
+          ],
+          "geographic_anchor_px": [
+            454.4,
+            302.9
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Livadia",
+          "longitude": 27.39,
+          "latitude": 36.42,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            636,
+            529
+          ],
+          "geographic_anchor_px": [
+            636.1,
+            528.6
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-THASOS",
+      "name": "Thasos",
+      "slug": "thasos",
+      "png_path": "data/sprites/greek-islands/batch-02/37_thasos.png",
+      "sha256": "7501a77c010ca01f747d046372631777c1690ed90fa5a757d332f14b44db16a8",
+      "file_size_bytes": 647053,
+      "size_px": [
+        1188,
+        1316
+      ],
+      "gshhs_polygon_index": 13,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        24.51124573,
+        40.56872559,
+        24.78702545,
+        40.80205536
+      ],
+      "render_bbox_wgs84": [
+        24.50048481,
+        40.56056853,
+        24.79778637,
+        40.81021242
+      ],
+      "towns": [
+        {
+          "name": "Limenas (Thasos)",
+          "longitude": 24.71,
+          "latitude": 40.78,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            837,
+            159
+          ],
+          "geographic_anchor_px": [
+            836.5,
+            159.1
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Theologos",
+          "longitude": 24.71,
+          "latitude": 40.66,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            837,
+            791
+          ],
+          "geographic_anchor_px": [
+            836.5,
+            791.2
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Limenaria",
+          "longitude": 24.57,
+          "latitude": 40.63,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            278,
+            949
+          ],
+          "geographic_anchor_px": [
+            277.5,
+            949.3
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-SAMOTHRACE",
+      "name": "Samothrace",
+      "slug": "samothrace",
+      "png_path": "data/sprites/greek-islands/batch-02/38_samothrace.png",
+      "sha256": "0eff40eccbf29c32141960a5794eb7f9bc895e1b8d92009a0b22c08cff5d971c",
+      "file_size_bytes": 262944,
+      "size_px": [
+        1056,
+        648
+      ],
+      "gshhs_polygon_index": 25,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        25.44374847,
+        40.39291382,
+        25.70041656,
+        40.50624847
+      ],
+      "render_bbox_wgs84": [
+        25.4323704,
+        40.38424231,
+        25.71179463,
+        40.51491999
+      ],
+      "towns": [
+        {
+          "name": "Chora (Samothrace)",
+          "longitude": 25.53,
+          "latitude": 40.47,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            369,
+            222
+          ],
+          "geographic_anchor_px": [
+            368.6,
+            222.4
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Kamariotissa",
+          "longitude": 25.5,
+          "latitude": 40.47,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            255,
+            222
+          ],
+          "geographic_anchor_px": [
+            255.3,
+            222.4
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-SKIATHOS",
+      "name": "Skiathos",
+      "slug": "skiathos",
+      "png_path": "data/sprites/greek-islands/batch-02/39_skiathos.png",
+      "sha256": "7535110094e386b1ce38b6b144f0c21ffccf272a7fbc62bb7abfd0d47e73517d",
+      "file_size_bytes": 272087,
+      "size_px": [
+        1056,
+        887
+      ],
+      "gshhs_polygon_index": 49,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        23.38622284,
+        39.12791443,
+        23.51371765,
+        39.20957947
+      ],
+      "render_bbox_wgs84": [
+        23.38057101,
+        39.12353041,
+        23.51936948,
+        39.21396348
+      ],
+      "towns": [
+        {
+          "name": "Skiathos town",
+          "longitude": 23.49,
+          "latitude": 39.16,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            813,
+            488
+          ],
+          "geographic_anchor_px": [
+            831.8,
+            528.7
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Kastro",
+          "longitude": 23.46,
+          "latitude": 39.21,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            604,
+            44
+          ],
+          "geographic_anchor_px": [
+            603.7,
+            38.8
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-SKOPELOS",
+      "name": "Skopelos",
+      "slug": "skopelos",
+      "png_path": "data/sprites/greek-islands/batch-02/40_skopelos.png",
+      "sha256": "c67b4810e396055e02bc3a3154e8e528a77b73e9e2466b8fd922e7fc510a4cc9",
+      "file_size_bytes": 257391,
+      "size_px": [
+        1056,
+        996
+      ],
+      "gshhs_polygon_index": 36,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        23.58872223,
+        39.06791687,
+        23.78333282,
+        39.20957947
+      ],
+      "render_bbox_wgs84": [
+        23.58009516,
+        39.06122292,
+        23.79195989,
+        39.21627341
+      ],
+      "towns": [
+        {
+          "name": "Skopelos town",
+          "longitude": 23.73,
+          "latitude": 39.12,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            746,
+            618
+          ],
+          "geographic_anchor_px": [
+            746.5,
+            617.8
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Glossa",
+          "longitude": 23.62,
+          "latitude": 39.17,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            199,
+            297
+          ],
+          "geographic_anchor_px": [
+            198.7,
+            296.9
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-ALONISSOS",
+      "name": "Alonissos",
+      "slug": "alonissos",
+      "png_path": "data/sprites/greek-islands/batch-02/41_alonissos.png",
+      "sha256": "d3004a822f1a93bdc7908b74d82383c0a0a292f8ea3add9d1bf450bb0ff382ba",
+      "file_size_bytes": 182867,
+      "size_px": [
+        817,
+        1056
+      ],
+      "gshhs_polygon_index": 44,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        23.82705688,
+        39.13288879,
+        23.98368835,
+        39.29371643
+      ],
+      "render_bbox_wgs84": [
+        23.81784327,
+        39.12575932,
+        23.99290197,
+        39.3008459
+      ],
+      "towns": [
+        {
+          "name": "Old Chora",
+          "longitude": 23.89,
+          "latitude": 39.16,
+          "symbol_type": "walled_town",
+          "painting_anchor_px": [
+            336,
+            849
+          ],
+          "geographic_anchor_px": [
+            336.3,
+            848.7
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Patitiri",
+          "longitude": 23.92,
+          "latitude": 39.15,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            393,
+            821
+          ],
+          "geographic_anchor_px": [
+            476.2,
+            908.9
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-SKYROS",
+      "name": "Skyros",
+      "slug": "skyros",
+      "png_path": "data/sprites/greek-islands/batch-02/42_skyros.png",
+      "sha256": "b0ac73c6cc9a1a24354bc3699216783c4a1208d2405ca659256d1f0a45e4192d",
+      "file_size_bytes": 435889,
+      "size_px": [
+        1180,
+        1316
+      ],
+      "gshhs_polygon_index": 22,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        24.43119812,
+        38.76042175,
+        24.68369293,
+        38.98124695
+      ],
+      "render_bbox_wgs84": [
+        24.42127374,
+        38.75270185,
+        24.69361732,
+        38.98896685
+      ],
+      "towns": [
+        {
+          "name": "Chora (Skyros)",
+          "longitude": 24.57,
+          "latitude": 38.9,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            644,
+            495
+          ],
+          "geographic_anchor_px": [
+            643.8,
+            495.2
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Linaria",
+          "longitude": 24.54,
+          "latitude": 38.84,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            514,
+            819
+          ],
+          "geographic_anchor_px": [
+            514.0,
+            829.1
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-IKARIA",
+      "name": "Ikaria",
+      "slug": "ikaria",
+      "png_path": "data/sprites/greek-islands/batch-02/43_ikaria.png",
+      "sha256": "e5d000b2bd7152fb3af9d289f2e04ae836395d309febf7b05d1d8212c0e116f6",
+      "file_size_bytes": 220523,
+      "size_px": [
+        1316,
+        790
+      ],
+      "gshhs_polygon_index": 21,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        25.97621918,
+        37.51166534,
+        26.36705017,
+        37.68914032
+      ],
+      "render_bbox_wgs84": [
+        25.96255598,
+        37.50082525,
+        26.38071337,
+        37.69998041
+      ],
+      "towns": [
+        {
+          "name": "Kastro of Koskinas",
+          "longitude": 26.12,
+          "latitude": 37.63,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            495,
+            277
+          ],
+          "geographic_anchor_px": [
+            495.1,
+            277.2
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Agios Kirykos",
+          "longitude": 26.3,
+          "latitude": 37.61,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            1047,
+            339
+          ],
+          "geographic_anchor_px": [
+            1061.2,
+            356.5
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Evdilos",
+          "longitude": 26.18,
+          "latitude": 37.63,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            684,
+            284
+          ],
+          "geographic_anchor_px": [
+            683.8,
+            277.2
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-ZAKYNTHOS",
+      "name": "Zakynthos",
+      "slug": "zakynthos",
+      "png_path": "data/sprites/greek-islands/batch-02/44_zakynthos.png",
+      "sha256": "4908e2efe03b5770a1e98dd63ec86f9290c68277fc4f0a1ac74fc3be96f37900",
+      "file_size_bytes": 432597,
+      "size_px": [
+        1316,
+        1279
+      ],
+      "gshhs_polygon_index": 12,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        20.6178894,
+        37.64788818,
+        20.99285889,
+        37.93541718
+      ],
+      "render_bbox_wgs84": [
+        20.60478072,
+        37.63752461,
+        21.00596758,
+        37.94578075
+      ],
+      "towns": [
+        {
+          "name": "Zakynthos town",
+          "longitude": 20.9,
+          "latitude": 37.79,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            968,
+            646
+          ],
+          "geographic_anchor_px": [
+            967.7,
+            645.9
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Bochali Kastro",
+          "longitude": 20.89,
+          "latitude": 37.8,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            935,
+            604
+          ],
+          "geographic_anchor_px": [
+            934.9,
+            604.4
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Volimes",
+          "longitude": 20.66,
+          "latitude": 37.87,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            181,
+            314
+          ],
+          "geographic_anchor_px": [
+            181.0,
+            314.2
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated",
+        "historical_reviewer_notes": "City and castle remain schematic; do not project Venetian-age skyline backward before its construction."
+      }
+    },
+    {
+      "id": "CR-GRI2-LEFKADA",
+      "name": "Lefkada",
+      "slug": "lefkada",
+      "png_path": "data/sprites/greek-islands/batch-02/45_lefkada.png",
+      "sha256": "28084094330e61e170e297e8dc6a96383c59fbabf0f34d513f74a1753bcccb4e",
+      "file_size_bytes": 329821,
+      "size_px": [
+        723,
+        1315
+      ],
+      "gshhs_polygon_index": 17,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        20.5403595,
+        38.56080627,
+        20.73366547,
+        38.85205078
+      ],
+      "render_bbox_wgs84": [
+        20.52731059,
+        38.55061627,
+        20.74671438,
+        38.86224078
+      ],
+      "towns": [
+        {
+          "name": "Lefkada town",
+          "longitude": 20.7,
+          "latitude": 38.83,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            568,
+            136
+          ],
+          "geographic_anchor_px": [
+            568.3,
+            135.9
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Karya",
+          "longitude": 20.65,
+          "latitude": 38.76,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            404,
+            431
+          ],
+          "geographic_anchor_px": [
+            403.7,
+            431.1
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Vasiliki",
+          "longitude": 20.61,
+          "latitude": 38.63,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            272,
+            979
+          ],
+          "geographic_anchor_px": [
+            272.1,
+            979.3
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated",
+        "historical_reviewer_notes": "Need coastline period check for causeway/channel and modern Lefkada harbor; no precise town reconstruction."
+      }
+    },
+    {
+      "id": "CR-GRI2-ITHACA",
+      "name": "Ithaca",
+      "slug": "ithaca",
+      "png_path": "data/sprites/greek-islands/batch-02/46_ithaca.png",
+      "sha256": "dd96707174ecb30cfe6e49b86c7887c2e0afc58af0cac95117952c1b3107a9c7",
+      "file_size_bytes": 276211,
+      "size_px": [
+        803,
+        1316
+      ],
+      "gshhs_polygon_index": 34,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        20.61375427,
+        38.29958344,
+        20.76583099,
+        38.50375366
+      ],
+      "render_bbox_wgs84": [
+        20.60463391,
+        38.29244578,
+        20.77495135,
+        38.51089132
+      ],
+      "towns": [
+        {
+          "name": "Vathy",
+          "longitude": 20.72,
+          "latitude": 38.36,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            543,
+            908
+          ],
+          "geographic_anchor_px": [
+            543.2,
+            908.3
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Anogi",
+          "longitude": 20.66,
+          "latitude": 38.43,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            261,
+            487
+          ],
+          "geographic_anchor_px": [
+            260.7,
+            487.0
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Kioni",
+          "longitude": 20.69,
+          "latitude": 38.45,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            402,
+            367
+          ],
+          "geographic_anchor_px": [
+            402.0,
+            366.6
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    },
+    {
+      "id": "CR-GRI2-KYTHIRA",
+      "name": "Kythira",
+      "slug": "kythira",
+      "png_path": "data/sprites/greek-islands/batch-02/47_kythira.png",
+      "sha256": "00cfcf4937f9219c3a6fc67fccacb50dd43bbf6959942dc5a11c461375a3836a",
+      "file_size_bytes": 374212,
+      "size_px": [
+        910,
+        1316
+      ],
+      "gshhs_polygon_index": 20,
+      "coastline_source": "GSHHS intermediate; Basemap area_thresh=1 km2",
+      "polygon_bbox_wgs84": [
+        22.89118958,
+        36.12957764,
+        23.10458374,
+        36.38627625
+      ],
+      "render_bbox_wgs84": [
+        22.88005371,
+        36.12060362,
+        23.1157196,
+        36.39525026
+      ],
+      "towns": [
+        {
+          "name": "Chora (Kythira)",
+          "longitude": 22.99,
+          "latitude": 36.15,
+          "symbol_type": "castle",
+          "painting_anchor_px": [
+            424,
+            1174
+          ],
+          "geographic_anchor_px": [
+            424.1,
+            1174.3
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Kapsali",
+          "longitude": 23.0,
+          "latitude": 36.14,
+          "symbol_type": "port",
+          "painting_anchor_px": [
+            470,
+            1201
+          ],
+          "geographic_anchor_px": [
+            462.7,
+            1222.1
+          ],
+          "art_anchor_adjusted_inside_coast": true,
+          "historical_detail_status": "illustrative_not_site_verified"
+        },
+        {
+          "name": "Mylopotamos",
+          "longitude": 22.96,
+          "latitude": 36.23,
+          "symbol_type": "village",
+          "painting_anchor_px": [
+            308,
+            791
+          ],
+          "geographic_anchor_px": [
+            308.4,
+            791.2
+          ],
+          "art_anchor_adjusted_inside_coast": false,
+          "historical_detail_status": "illustrative_not_site_verified"
+        }
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean",
+        "placement_method": "render_bbox_wgs84",
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "z_order": "land_overlay_above_sea_below_text",
+        "requires_map_extent_intersection": true,
+        "needs_visual_registration_review": true
+      },
+      "qa": {
+        "alpha": "PASS_RGBA_TRANSPARENT_EXTERIOR",
+        "geographic_geometry": "PASS_GSHHS_POLYGON_BBOX",
+        "historical_architecture": "PROVISIONAL_ILLUSTRATIVE",
+        "source_period": "reference geography",
+        "selected_island_polygon_unique": true,
+        "coastline_vs_final_map": "PENDING",
+        "towns": "intentionally_exaggerated"
+      }
+    }
+  ]
+}
