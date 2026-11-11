@@ -1,0 +1,76 @@
+import io
+import json
+import tempfile
+import unittest
+import zipfile
+from pathlib import Path
+from PIL import Image
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
+from sprite_zip_intake import extract_archives
+from sprite_intake import process
+
+
+class ZipIntakeTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        self.incoming = self.root / "assets/sprites/incoming"
+        self.incoming.mkdir(parents=True)
+        (self.root / "data/sprites").mkdir(parents=True)
+
+    def png(self):
+        im = Image.new("RGBA", (90, 90), (0, 0, 0, 0))
+        for x in range(10, 80):
+            for y in range(10, 80):
+                im.putpixel((x, y), (180, 130, 80, 255))
+        bio = io.BytesIO()
+        im.save(bio, format="PNG")
+        return bio.getvalue()
+
+    def make_zip(self, name, members):
+        with zipfile.ZipFile(self.incoming / name, "w") as z:
+            for path, content in members.items():
+                z.writestr(path, content)
+
+    def test_zip_process_repeat_and_duplicate(self):
+        source = self.png()
+        self.make_zip("batch.zip", {
+            "batch/castle.png": source,
+            "batch/castle.json": json.dumps({"category":"castle","subject":"Unknown castle","status":"provisional"}),
+            "README.md": "source notes",
+        })
+        report = extract_archives(self.root)
+        self.assertEqual(report["extracted"], 1)
+        first = process(self.root)
+        self.assertEqual(first["registered"], 1)
+        self.assertTrue((self.root / "data/sprites/automated-intake/placements-review.geojson").exists())
+        self.assertEqual(extract_archives(self.root)["errors"], [])
+        self.assertEqual(process(self.root)["registered"], 0)
+        records = json.loads((self.root / "data/sprites/automated-intake/manifest.json").read_text())["assets"]
+        self.assertIsNone(records[0]["coordinates"])
+        self.assertFalse(records[0]["historical_accuracy_certified"])
+
+    def test_reject_traversal(self):
+        self.make_zip("unsafe.zip", {"../outside.png": self.png()})
+        self.assertEqual(len(extract_archives(self.root)["errors"]), 1)
+        self.assertFalse((self.root / "outside.png").exists())
+
+    def test_reject_too_many(self):
+        self.make_zip("huge.zip", {f"{i}.png": b"x" for i in range(251)})
+        self.assertEqual(len(extract_archives(self.root)["errors"]), 1)
+
+    def test_idempotent_separate_archives_dedup(self):
+        source = self.png()
+        self.make_zip("a.zip", {"a.png": source})
+        self.make_zip("b.zip", {"b.png": source})
+        self.assertEqual(extract_archives(self.root)["extracted"], 2)
+        result = process(self.root)
+        self.assertEqual(result["registered"], 1)
+        self.assertEqual(result["duplicates"], 1)
+
+
+if __name__ == "__main__":
+    unittest.main()
