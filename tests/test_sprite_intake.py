@@ -50,6 +50,17 @@ class IntakeTests(unittest.TestCase):
         entries = json.loads((self.root / "data/sprites/automated-intake/manifest.json").read_text())["assets"]
         self.assertEqual(sum(bool(e["geographic_placement_ready"]) for e in entries), 1)
 
+    def test_existing_repository_png_preserved(self):
+        source = Path(__file__).resolve().parents[1] / "data/landscape-assets/islands/chios.png"
+        if not source.exists():
+            self.skipTest("repository example missing")
+        dest = self.root / "assets/sprites/incoming/chios.png"
+        dest.write_bytes(source.read_bytes())
+        result = process(self.root)
+        self.assertEqual(result["registered"], 1)
+        asset = json.loads((self.root / "data/sprites/automated-intake/manifest.json").read_text())["assets"][0]
+        self.assertEqual((self.root / "data/sprites" / asset["asset"]).read_bytes(), source.read_bytes())
+
     def test_invalid_png_preserved_and_reported(self):
         p = self.root / "assets/sprites/incoming/bad.png"
         p.write_bytes(b"broken")
