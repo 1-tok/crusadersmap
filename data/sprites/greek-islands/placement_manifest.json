@@ -1,0 +1,1303 @@
+{
+  "schema_version": "1.0.0",
+  "map_id": "crusader-states",
+  "batch_id": "greek_islands_coastline_2026_11_10_01",
+  "title": "Greek Islands — coastline-registered painted overlays",
+  "collection_date": "2026-11-10",
+  "map_period": {
+    "start_year": 1097,
+    "end_year": 1291,
+    "kind": "diachronic"
+  },
+  "approval_status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+  "user_approval": "2026-11-10: Commit to GitHub with placements marked up and approved ready for map.",
+  "integration_state": "assets_registered_not_yet_composited",
+  "ready_for_map_overlay": true,
+  "coordinate_reference_system": "EPSG:4326",
+  "coordinate_frame": "north_up_equirectangular_lon_lat",
+  "map_alignment": {
+    "method": "register sprite entire rectangle using render_bbox_wgs84 [west,south,east,north]",
+    "renderer": "Use the map projection/georeferencing to warp or georeference the rectangle; do not merely scale by latitude-independent pixels on a projected canvas",
+    "z_order": "land_underlay_above_water_below_standalone_town_labels_and_landmarks",
+    "no_mirror": true,
+    "clockwise_rotation_degrees": 0,
+    "coastline_tolerance": "reference-level match to GSHHS intermediate; manually reconcile against period-specific coastline before production lock",
+    "auto_place_when_georeferenced": true,
+    "require_distortion_check": true,
+    "preserve_artistically_enlarged_towns": true,
+    "external_labels_only": true
+  },
+  "art_provenance": {
+    "source": "GSHHS intermediate coastline polygons (Basemap distribution)",
+    "town_visual": "illustrative medieval Mediterranean; not a verified reconstruction of specific buildings",
+    "orientation": "north-up island silhouette, oblique structures viewed from the south",
+    "note": "Towns and villages are intentionally larger than their true footprint."
+  },
+  "qa_policy": {
+    "geometry": "PASS_REFERENCE_GEOMETRY_NOT_FINAL_COASTLINE_CHECK",
+    "alpha": "PASS_RGBA_WITH_TRANSPARENT_EXTERIOR",
+    "historical_architecture": "PROVISIONAL_REPAINT_IF_SITE_SPECIFIC_DETAILS_FAIL_REVIEW",
+    "date_validity": "Cross-check named buildings and site appearance within 1097–1291 before historical-detail publication; this approval is for compositional placement",
+    "map_extent": "Only place sprites whose geographic bounds intersect the actual map canvas; never squeeze distant islands into the visible extent",
+    "approval_scope": "Approved for provisional compositing, not a claim of historical reconstruction or completed insertion on a printed map"
+  },
+  "sprites": [
+    {
+      "id": "CR-GRI-CRETE",
+      "name": "Crete",
+      "slug": "crete",
+      "category": "island_landmass_overlay",
+      "asset_path": "data/sprites/greek-islands/01_crete.png",
+      "source_filename": "01_crete.png",
+      "file_format": "PNG_RGBA",
+      "sha256": "bfafe103cdc1bba39865b9cdcf4c4f62e12747892689e05be0462c9dfa53a65d",
+      "byte_size": 457747,
+      "pixel_dimensions": [
+        1726,
+        533
+      ],
+      "opaque_region_pixel_bbox": [
+        36,
+        36,
+        1691,
+        497
+      ],
+      "render_bbox_wgs84": [
+        23.4491134,
+        34.8549743,
+        26.3824677,
+        35.7608018
+      ],
+      "island_bbox_wgs84": [
+        23.5136948,
+        34.9195557,
+        26.3178864,
+        35.6962204
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "placement_method": "render_bbox_wgs84",
+        "registration": "north_up_equirectangular_lon_lat",
+        "anchor_lon": 24.9157906,
+        "anchor_lat": 35.3078881,
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "landmass_overlay_z_index": 20,
+        "labels_layer_above": true,
+        "map_extent_required": true,
+        "needs_visual_registration_review": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean"
+      },
+      "period": {
+        "valid_for_compositional_reference": [
+          1097,
+          1291
+        ],
+        "site_specific_detail_review_required": true
+      },
+      "towns": [
+        {
+          "name": "Candia / Heraklion",
+          "longitude": 25.14,
+          "latitude": 35.34,
+          "pixel_x": 995,
+          "pixel_y": 248,
+          "class_": "major_town"
+        },
+        {
+          "name": "Chania",
+          "longitude": 24.02,
+          "latitude": 35.52,
+          "pixel_x": 336,
+          "pixel_y": 142,
+          "class_": "major_town"
+        },
+        {
+          "name": "Rethymno",
+          "longitude": 24.47,
+          "latitude": 35.37,
+          "pixel_x": 601,
+          "pixel_y": 230,
+          "class_": "major_town"
+        },
+        {
+          "name": "Sitia",
+          "longitude": 26.1,
+          "latitude": 35.2,
+          "pixel_x": 1560,
+          "pixel_y": 330,
+          "class_": "major_town"
+        },
+        {
+          "name": "Ierapetra",
+          "longitude": 25.74,
+          "latitude": 35.01,
+          "pixel_x": 1348,
+          "pixel_y": 442,
+          "class_": "village"
+        },
+        {
+          "name": "Kissamos",
+          "longitude": 23.66,
+          "latitude": 35.49,
+          "pixel_x": 124,
+          "pixel_y": 159,
+          "class_": "village"
+        }
+      ],
+      "qa": {
+        "alpha": "PASS",
+        "dimension_check": "PASS",
+        "geographic_data_alignment": "PASS_SOURCE_BBOX",
+        "coastline_vs_target_map": "PENDING_FINAL_GEOREGISTRATION_CHECK",
+        "historical_authenticity": "PROVISIONAL",
+        "towns": "exaggerated_by_design",
+        "notes": {
+          "coastline": "geo_polygon_mask",
+          "towns": "enlarged_illustrative_approximations",
+          "architecture": "illustrative medieval Mediterranean (not building-by-building accurate)",
+          "placement": "coordinate-aligned only if target map uses compatible georeferencing; check against target shoreline"
+        }
+      }
+    },
+    {
+      "id": "CR-GRI-RHODES",
+      "name": "Rhodes",
+      "slug": "rhodes",
+      "category": "island_landmass_overlay",
+      "asset_path": "data/sprites/greek-islands/02_rhodes.png",
+      "source_filename": "02_rhodes.png",
+      "file_format": "PNG_RGBA",
+      "sha256": "2f0f722372e3bc721797c498fd4b7506330aab07ac887eab2fa309c1c75e98e8",
+      "byte_size": 553281,
+      "pixel_dimensions": [
+        1076,
+        1112
+      ],
+      "opaque_region_pixel_bbox": [
+        36,
+        36,
+        1041,
+        1076
+      ],
+      "render_bbox_wgs84": [
+        27.6640129,
+        35.8556557,
+        28.270092,
+        36.481823
+      ],
+      "island_bbox_wgs84": [
+        27.6854172,
+        35.8770599,
+        28.2486877,
+        36.4604187
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "placement_method": "render_bbox_wgs84",
+        "registration": "north_up_equirectangular_lon_lat",
+        "anchor_lon": 27.9670525,
+        "anchor_lat": 36.1687393,
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "landmass_overlay_z_index": 20,
+        "labels_layer_above": true,
+        "map_extent_required": true,
+        "needs_visual_registration_review": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean"
+      },
+      "period": {
+        "valid_for_compositional_reference": [
+          1097,
+          1291
+        ],
+        "site_specific_detail_review_required": true
+      },
+      "towns": [
+        {
+          "name": "Rhodes",
+          "longitude": 28.23,
+          "latitude": 36.44,
+          "pixel_x": 1005,
+          "pixel_y": 74,
+          "class_": "major_town"
+        },
+        {
+          "name": "Lindos",
+          "longitude": 28.09,
+          "latitude": 36.09,
+          "pixel_x": 756,
+          "pixel_y": 696,
+          "class_": "major_town"
+        },
+        {
+          "name": "Kamiros",
+          "longitude": 27.82,
+          "latitude": 36.34,
+          "pixel_x": 277,
+          "pixel_y": 252,
+          "class_": "village"
+        },
+        {
+          "name": "Archangelos",
+          "longitude": 28.11,
+          "latitude": 36.21,
+          "pixel_x": 792,
+          "pixel_y": 483,
+          "class_": "village"
+        }
+      ],
+      "qa": {
+        "alpha": "PASS",
+        "dimension_check": "PASS",
+        "geographic_data_alignment": "PASS_SOURCE_BBOX",
+        "coastline_vs_target_map": "PENDING_FINAL_GEOREGISTRATION_CHECK",
+        "historical_authenticity": "PROVISIONAL",
+        "towns": "exaggerated_by_design",
+        "notes": {
+          "coastline": "geo_polygon_mask",
+          "towns": "enlarged_illustrative_approximations",
+          "architecture": "illustrative medieval Mediterranean (not building-by-building accurate)",
+          "placement": "coordinate-aligned only if target map uses compatible georeferencing; check against target shoreline"
+        }
+      }
+    },
+    {
+      "id": "CR-GRI-LESBOS",
+      "name": "Lesbos",
+      "slug": "lesbos",
+      "category": "island_landmass_overlay",
+      "asset_path": "data/sprites/greek-islands/03_lesbos.png",
+      "source_filename": "03_lesbos.png",
+      "file_format": "PNG_RGBA",
+      "sha256": "ba6200b63db6410df4f69d80ecc39ac1cda28eea95c2034d1ea4b01a4df4610d",
+      "byte_size": 376202,
+      "pixel_dimensions": [
+        1076,
+        620
+      ],
+      "opaque_region_pixel_bbox": [
+        36,
+        36,
+        1041,
+        584
+      ],
+      "render_bbox_wgs84": [
+        25.8013598,
+        38.9322192,
+        26.6460813,
+        39.4185803
+      ],
+      "island_bbox_wgs84": [
+        25.831192,
+        38.9620514,
+        26.6162491,
+        39.3887482
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "placement_method": "render_bbox_wgs84",
+        "registration": "north_up_equirectangular_lon_lat",
+        "anchor_lon": 26.2237205,
+        "anchor_lat": 39.1753997,
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "landmass_overlay_z_index": 20,
+        "labels_layer_above": true,
+        "map_extent_required": true,
+        "needs_visual_registration_review": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean"
+      },
+      "period": {
+        "valid_for_compositional_reference": [
+          1097,
+          1291
+        ],
+        "site_specific_detail_review_required": true
+      },
+      "towns": [
+        {
+          "name": "Mytilene",
+          "longitude": 26.55,
+          "latitude": 39.11,
+          "pixel_x": 954,
+          "pixel_y": 393,
+          "class_": "major_town"
+        },
+        {
+          "name": "Methymna",
+          "longitude": 26.18,
+          "latitude": 39.37,
+          "pixel_x": 482,
+          "pixel_y": 62,
+          "class_": "major_town"
+        },
+        {
+          "name": "Kalloni",
+          "longitude": 26.21,
+          "latitude": 39.23,
+          "pixel_x": 521,
+          "pixel_y": 240,
+          "class_": "village"
+        },
+        {
+          "name": "Eresos",
+          "longitude": 25.93,
+          "latitude": 39.17,
+          "pixel_x": 164,
+          "pixel_y": 317,
+          "class_": "village"
+        },
+        {
+          "name": "Plomari",
+          "longitude": 26.37,
+          "latitude": 38.97,
+          "pixel_x": 724,
+          "pixel_y": 571,
+          "class_": "village"
+        }
+      ],
+      "qa": {
+        "alpha": "PASS",
+        "dimension_check": "PASS",
+        "geographic_data_alignment": "PASS_SOURCE_BBOX",
+        "coastline_vs_target_map": "PENDING_FINAL_GEOREGISTRATION_CHECK",
+        "historical_authenticity": "PROVISIONAL",
+        "towns": "exaggerated_by_design",
+        "notes": {
+          "coastline": "geo_polygon_mask",
+          "towns": "enlarged_illustrative_approximations",
+          "architecture": "illustrative medieval Mediterranean (not building-by-building accurate)",
+          "placement": "coordinate-aligned only if target map uses compatible georeferencing; check against target shoreline"
+        }
+      }
+    },
+    {
+      "id": "CR-GRI-CHIOS",
+      "name": "Chios",
+      "slug": "chios",
+      "category": "island_landmass_overlay",
+      "asset_path": "data/sprites/greek-islands/04_chios.png",
+      "source_filename": "04_chios.png",
+      "file_format": "PNG_RGBA",
+      "sha256": "fbcbd717dd0b095b981d42736e4c4c218a69b7c721dc9e7e5881f26523190840",
+      "byte_size": 637369,
+      "pixel_dimensions": [
+        976,
+        1315
+      ],
+      "opaque_region_pixel_bbox": [
+        36,
+        36,
+        941,
+        1279
+      ],
+      "render_bbox_wgs84": [
+        25.8172836,
+        38.1343383,
+        26.1760789,
+        38.617714
+      ],
+      "island_bbox_wgs84": [
+        25.8312531,
+        38.1483078,
+        26.1621094,
+        38.6037445
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "placement_method": "render_bbox_wgs84",
+        "registration": "north_up_equirectangular_lon_lat",
+        "anchor_lon": 25.9966813,
+        "anchor_lat": 38.3760262,
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "landmass_overlay_z_index": 20,
+        "labels_layer_above": true,
+        "map_extent_required": true,
+        "needs_visual_registration_review": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean"
+      },
+      "period": {
+        "valid_for_compositional_reference": [
+          1097,
+          1291
+        ],
+        "site_specific_detail_review_required": true
+      },
+      "towns": [
+        {
+          "name": "Chios",
+          "longitude": 26.14,
+          "latitude": 38.37,
+          "pixel_x": 878,
+          "pixel_y": 674,
+          "class_": "major_town"
+        },
+        {
+          "name": "Volissos",
+          "longitude": 25.92,
+          "latitude": 38.47,
+          "pixel_x": 279,
+          "pixel_y": 402,
+          "class_": "major_town"
+        },
+        {
+          "name": "Pyrgi",
+          "longitude": 26.02,
+          "latitude": 38.22,
+          "pixel_x": 551,
+          "pixel_y": 1082,
+          "class_": "village"
+        },
+        {
+          "name": "Kardamyla",
+          "longitude": 26.09,
+          "latitude": 38.52,
+          "pixel_x": 742,
+          "pixel_y": 266,
+          "class_": "village"
+        }
+      ],
+      "qa": {
+        "alpha": "PASS",
+        "dimension_check": "PASS",
+        "geographic_data_alignment": "PASS_SOURCE_BBOX",
+        "coastline_vs_target_map": "PENDING_FINAL_GEOREGISTRATION_CHECK",
+        "historical_authenticity": "PROVISIONAL",
+        "towns": "exaggerated_by_design",
+        "notes": {
+          "coastline": "geo_polygon_mask",
+          "towns": "enlarged_illustrative_approximations",
+          "architecture": "illustrative medieval Mediterranean (not building-by-building accurate)",
+          "placement": "coordinate-aligned only if target map uses compatible georeferencing; check against target shoreline"
+        }
+      }
+    },
+    {
+      "id": "CR-GRI-SAMOS",
+      "name": "Samos",
+      "slug": "samos",
+      "category": "island_landmass_overlay",
+      "asset_path": "data/sprites/greek-islands/05_samos.png",
+      "source_filename": "05_samos.png",
+      "file_format": "PNG_RGBA",
+      "sha256": "08b3bb34120ab5aedc6fefbaed841689a8f52dd3c1429267ae66c126ed9c6ab7",
+      "byte_size": 254144,
+      "pixel_dimensions": [
+        1076,
+        425
+      ],
+      "opaque_region_pixel_bbox": [
+        35,
+        36,
+        1041,
+        389
+      ],
+      "render_bbox_wgs84": [
+        26.5471597,
+        37.617991,
+        27.0878195,
+        37.8311514
+      ],
+      "island_bbox_wgs84": [
+        26.5662537,
+        37.637085,
+        27.0687256,
+        37.8120575
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "placement_method": "render_bbox_wgs84",
+        "registration": "north_up_equirectangular_lon_lat",
+        "anchor_lon": 26.8174896,
+        "anchor_lat": 37.7245712,
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "landmass_overlay_z_index": 20,
+        "labels_layer_above": true,
+        "map_extent_required": true,
+        "needs_visual_registration_review": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean"
+      },
+      "period": {
+        "valid_for_compositional_reference": [
+          1097,
+          1291
+        ],
+        "site_specific_detail_review_required": true
+      },
+      "towns": [
+        {
+          "name": "Samos",
+          "longitude": 26.98,
+          "latitude": 37.75,
+          "pixel_x": 861,
+          "pixel_y": 162,
+          "class_": "major_town"
+        },
+        {
+          "name": "Pythagoreion",
+          "longitude": 26.95,
+          "latitude": 37.69,
+          "pixel_x": 802,
+          "pixel_y": 281,
+          "class_": "major_town"
+        },
+        {
+          "name": "Marathokampos",
+          "longitude": 26.68,
+          "latitude": 37.73,
+          "pixel_x": 264,
+          "pixel_y": 201,
+          "class_": "village"
+        }
+      ],
+      "qa": {
+        "alpha": "PASS",
+        "dimension_check": "PASS",
+        "geographic_data_alignment": "PASS_SOURCE_BBOX",
+        "coastline_vs_target_map": "PENDING_FINAL_GEOREGISTRATION_CHECK",
+        "historical_authenticity": "PROVISIONAL",
+        "towns": "exaggerated_by_design",
+        "notes": {
+          "coastline": "geo_polygon_mask",
+          "towns": "enlarged_illustrative_approximations",
+          "architecture": "illustrative medieval Mediterranean (not building-by-building accurate)",
+          "placement": "coordinate-aligned only if target map uses compatible georeferencing; check against target shoreline"
+        }
+      }
+    },
+    {
+      "id": "CR-GRI-KOS",
+      "name": "Kos",
+      "slug": "kos",
+      "category": "island_landmass_overlay",
+      "asset_path": "data/sprites/greek-islands/06_kos.png",
+      "source_filename": "06_kos.png",
+      "file_format": "PNG_RGBA",
+      "sha256": "d0b20f6456a6eb26daca51408dbdaafa7db900a6473a23efdd65b64ebe70d568",
+      "byte_size": 260324,
+      "pixel_dimensions": [
+        976,
+        580
+      ],
+      "opaque_region_pixel_bbox": [
+        35,
+        36,
+        941,
+        544
+      ],
+      "render_bbox_wgs84": [
+        26.8993388,
+        36.6530848,
+        27.3764639,
+        36.9364919
+      ],
+      "island_bbox_wgs84": [
+        26.9179153,
+        36.6716614,
+        27.3578873,
+        36.9179153
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "placement_method": "render_bbox_wgs84",
+        "registration": "north_up_equirectangular_lon_lat",
+        "anchor_lon": 27.1379013,
+        "anchor_lat": 36.7947884,
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "landmass_overlay_z_index": 20,
+        "labels_layer_above": true,
+        "map_extent_required": true,
+        "needs_visual_registration_review": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean"
+      },
+      "period": {
+        "valid_for_compositional_reference": [
+          1097,
+          1291
+        ],
+        "site_specific_detail_review_required": true
+      },
+      "towns": [
+        {
+          "name": "Kos",
+          "longitude": 27.29,
+          "latitude": 36.89,
+          "pixel_x": 799,
+          "pixel_y": 95,
+          "class_": "major_town"
+        },
+        {
+          "name": "Kefalos",
+          "longitude": 26.98,
+          "latitude": 36.74,
+          "pixel_x": 165,
+          "pixel_y": 402,
+          "class_": "major_town"
+        },
+        {
+          "name": "Antimachia",
+          "longitude": 27.12,
+          "latitude": 36.81,
+          "pixel_x": 451,
+          "pixel_y": 259,
+          "class_": "village"
+        }
+      ],
+      "qa": {
+        "alpha": "PASS",
+        "dimension_check": "PASS",
+        "geographic_data_alignment": "PASS_SOURCE_BBOX",
+        "coastline_vs_target_map": "PENDING_FINAL_GEOREGISTRATION_CHECK",
+        "historical_authenticity": "PROVISIONAL",
+        "towns": "exaggerated_by_design",
+        "notes": {
+          "coastline": "geo_polygon_mask",
+          "towns": "enlarged_illustrative_approximations",
+          "architecture": "illustrative medieval Mediterranean (not building-by-building accurate)",
+          "placement": "coordinate-aligned only if target map uses compatible georeferencing; check against target shoreline"
+        }
+      }
+    },
+    {
+      "id": "CR-GRI-EUBOEA",
+      "name": "Euboea",
+      "slug": "euboea",
+      "category": "island_landmass_overlay",
+      "asset_path": "data/sprites/greek-islands/07_euboea.png",
+      "source_filename": "07_euboea.png",
+      "file_format": "PNG_RGBA",
+      "sha256": "df3f33222bb7e39fbbd4ccc744af8c6574ef6bb757cddc6389e217fea4cf020b",
+      "byte_size": 505940,
+      "pixel_dimensions": [
+        1376,
+        878
+      ],
+      "opaque_region_pixel_bbox": [
+        35,
+        35,
+        1341,
+        842
+      ],
+      "render_bbox_wgs84": [
+        22.7775824,
+        37.8988592,
+        24.6453302,
+        39.0903299
+      ],
+      "island_bbox_wgs84": [
+        22.8291626,
+        37.9504395,
+        24.59375,
+        39.0387497
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "placement_method": "render_bbox_wgs84",
+        "registration": "north_up_equirectangular_lon_lat",
+        "anchor_lon": 23.7114563,
+        "anchor_lat": 38.4945946,
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "landmass_overlay_z_index": 20,
+        "labels_layer_above": true,
+        "map_extent_required": true,
+        "needs_visual_registration_review": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean"
+      },
+      "period": {
+        "valid_for_compositional_reference": [
+          1097,
+          1291
+        ],
+        "site_specific_detail_review_required": true
+      },
+      "towns": [
+        {
+          "name": "Chalkis",
+          "longitude": 23.6,
+          "latitude": 38.46,
+          "pixel_x": 606,
+          "pixel_y": 464,
+          "class_": "major_town"
+        },
+        {
+          "name": "Karystos",
+          "longitude": 24.42,
+          "latitude": 37.99,
+          "pixel_x": 1210,
+          "pixel_y": 811,
+          "class_": "major_town"
+        },
+        {
+          "name": "Eretria",
+          "longitude": 23.8,
+          "latitude": 38.4,
+          "pixel_x": 753,
+          "pixel_y": 509,
+          "class_": "village"
+        },
+        {
+          "name": "Limni",
+          "longitude": 23.3,
+          "latitude": 38.77,
+          "pixel_x": 385,
+          "pixel_y": 236,
+          "class_": "village"
+        },
+        {
+          "name": "Kymi",
+          "longitude": 24.1,
+          "latitude": 38.63,
+          "pixel_x": 974,
+          "pixel_y": 339,
+          "class_": "village"
+        }
+      ],
+      "qa": {
+        "alpha": "PASS",
+        "dimension_check": "PASS",
+        "geographic_data_alignment": "PASS_SOURCE_BBOX",
+        "coastline_vs_target_map": "PENDING_FINAL_GEOREGISTRATION_CHECK",
+        "historical_authenticity": "PROVISIONAL",
+        "towns": "exaggerated_by_design",
+        "notes": {
+          "coastline": "geo_polygon_mask",
+          "towns": "enlarged_illustrative_approximations",
+          "architecture": "illustrative medieval Mediterranean (not building-by-building accurate)",
+          "placement": "coordinate-aligned only if target map uses compatible georeferencing; check against target shoreline"
+        }
+      }
+    },
+    {
+      "id": "CR-GRI-CORFU",
+      "name": "Corfu",
+      "slug": "corfu",
+      "category": "island_landmass_overlay",
+      "asset_path": "data/sprites/greek-islands/08_corfu.png",
+      "source_filename": "08_corfu.png",
+      "file_format": "PNG_RGBA",
+      "sha256": "810a0eec7e9fae29d16953598a69d1ca0ba144c886a3bd7d5eb65245bd6ea9aa",
+      "byte_size": 621737,
+      "pixel_dimensions": [
+        1076,
+        1008
+      ],
+      "opaque_region_pixel_bbox": [
+        36,
+        36,
+        1041,
+        972
+      ],
+      "render_bbox_wgs84": [
+        19.6090511,
+        39.3431896,
+        20.1408039,
+        39.8408619
+      ],
+      "island_bbox_wgs84": [
+        19.6278305,
+        39.361969,
+        20.1220245,
+        39.8220825
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "placement_method": "render_bbox_wgs84",
+        "registration": "north_up_equirectangular_lon_lat",
+        "anchor_lon": 19.8749275,
+        "anchor_lat": 39.5920258,
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "landmass_overlay_z_index": 20,
+        "labels_layer_above": true,
+        "map_extent_required": true,
+        "needs_visual_registration_review": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean"
+      },
+      "period": {
+        "valid_for_compositional_reference": [
+          1097,
+          1291
+        ],
+        "site_specific_detail_review_required": true
+      },
+      "towns": [
+        {
+          "name": "Kerkyra",
+          "longitude": 19.92,
+          "latitude": 39.62,
+          "pixel_x": 629,
+          "pixel_y": 446,
+          "class_": "major_town"
+        },
+        {
+          "name": "Kassiopi",
+          "longitude": 19.92,
+          "latitude": 39.79,
+          "pixel_x": 613,
+          "pixel_y": 102,
+          "class_": "major_town"
+        },
+        {
+          "name": "Paleokastritsa",
+          "longitude": 19.71,
+          "latitude": 39.67,
+          "pixel_x": 189,
+          "pixel_y": 319,
+          "class_": "village"
+        }
+      ],
+      "qa": {
+        "alpha": "PASS",
+        "dimension_check": "PASS",
+        "geographic_data_alignment": "PASS_SOURCE_BBOX",
+        "coastline_vs_target_map": "PENDING_FINAL_GEOREGISTRATION_CHECK",
+        "historical_authenticity": "PROVISIONAL",
+        "towns": "exaggerated_by_design",
+        "notes": {
+          "coastline": "geo_polygon_mask",
+          "towns": "enlarged_illustrative_approximations",
+          "architecture": "illustrative medieval Mediterranean (not building-by-building accurate)",
+          "placement": "coordinate-aligned only if target map uses compatible georeferencing; check against target shoreline"
+        }
+      }
+    },
+    {
+      "id": "CR-GRI-KEFALONIA",
+      "name": "Kefalonia",
+      "slug": "kefalonia",
+      "category": "island_landmass_overlay",
+      "asset_path": "data/sprites/greek-islands/09_kefalonia.png",
+      "source_filename": "09_kefalonia.png",
+      "file_format": "PNG_RGBA",
+      "sha256": "b5ab9373362ffe108a55e22a1acac19e7228aa1fa317b1814291ec3dba9920f7",
+      "byte_size": 624901,
+      "pixel_dimensions": [
+        1076,
+        950
+      ],
+      "opaque_region_pixel_bbox": [
+        36,
+        36,
+        1041,
+        914
+      ],
+      "render_bbox_wgs84": [
+        20.3179789,
+        38.0379267,
+        20.8353491,
+        38.4944982
+      ],
+      "island_bbox_wgs84": [
+        20.3362503,
+        38.0561981,
+        20.8170776,
+        38.4762268
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "placement_method": "render_bbox_wgs84",
+        "registration": "north_up_equirectangular_lon_lat",
+        "anchor_lon": 20.576664,
+        "anchor_lat": 38.2662124,
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "landmass_overlay_z_index": 20,
+        "labels_layer_above": true,
+        "map_extent_required": true,
+        "needs_visual_registration_review": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean"
+      },
+      "period": {
+        "valid_for_compositional_reference": [
+          1097,
+          1291
+        ],
+        "site_specific_detail_review_required": true
+      },
+      "towns": [
+        {
+          "name": "Argostoli",
+          "longitude": 20.49,
+          "latitude": 38.17,
+          "pixel_x": 357,
+          "pixel_y": 674,
+          "class_": "major_town"
+        },
+        {
+          "name": "Sami",
+          "longitude": 20.65,
+          "latitude": 38.26,
+          "pixel_x": 694,
+          "pixel_y": 502,
+          "class_": "major_town"
+        },
+        {
+          "name": "Assos",
+          "longitude": 20.54,
+          "latitude": 38.38,
+          "pixel_x": 461,
+          "pixel_y": 238,
+          "class_": "village"
+        },
+        {
+          "name": "Lixouri",
+          "longitude": 20.43,
+          "latitude": 38.2,
+          "pixel_x": 216,
+          "pixel_y": 607,
+          "class_": "village"
+        }
+      ],
+      "qa": {
+        "alpha": "PASS",
+        "dimension_check": "PASS",
+        "geographic_data_alignment": "PASS_SOURCE_BBOX",
+        "coastline_vs_target_map": "PENDING_FINAL_GEOREGISTRATION_CHECK",
+        "historical_authenticity": "PROVISIONAL",
+        "towns": "exaggerated_by_design",
+        "notes": {
+          "coastline": "geo_polygon_mask",
+          "towns": "enlarged_illustrative_approximations",
+          "architecture": "illustrative medieval Mediterranean (not building-by-building accurate)",
+          "placement": "coordinate-aligned only if target map uses compatible georeferencing; check against target shoreline"
+        }
+      }
+    },
+    {
+      "id": "CR-GRI-NAXOS",
+      "name": "Naxos",
+      "slug": "naxos",
+      "category": "island_landmass_overlay",
+      "asset_path": "data/sprites/greek-islands/10_naxos.png",
+      "source_filename": "10_naxos.png",
+      "file_format": "PNG_RGBA",
+      "sha256": "158d672b7d1ae19b8f7817ff9cc12aa648f8e646213969bffcd6119f8e285d5f",
+      "byte_size": 647374,
+      "pixel_dimensions": [
+        976,
+        1018
+      ],
+      "opaque_region_pixel_bbox": [
+        36,
+        36,
+        941,
+        982
+      ],
+      "render_bbox_wgs84": [
+        25.3221502,
+        36.9054784,
+        25.6194392,
+        37.2153254
+      ],
+      "island_bbox_wgs84": [
+        25.333725,
+        36.9170532,
+        25.6078644,
+        37.2037506
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "placement_method": "render_bbox_wgs84",
+        "registration": "north_up_equirectangular_lon_lat",
+        "anchor_lon": 25.4707947,
+        "anchor_lat": 37.0604019,
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "landmass_overlay_z_index": 20,
+        "labels_layer_above": true,
+        "map_extent_required": true,
+        "needs_visual_registration_review": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean"
+      },
+      "period": {
+        "valid_for_compositional_reference": [
+          1097,
+          1291
+        ],
+        "site_specific_detail_review_required": true
+      },
+      "towns": [
+        {
+          "name": "Naxos",
+          "longitude": 25.37,
+          "latitude": 37.11,
+          "pixel_x": 182,
+          "pixel_y": 388,
+          "class_": "major_town"
+        },
+        {
+          "name": "Apiranthos",
+          "longitude": 25.54,
+          "latitude": 37.08,
+          "pixel_x": 715,
+          "pixel_y": 444,
+          "class_": "village"
+        },
+        {
+          "name": "Filoti",
+          "longitude": 25.48,
+          "latitude": 37.05,
+          "pixel_x": 518,
+          "pixel_y": 542,
+          "class_": "village"
+        }
+      ],
+      "qa": {
+        "alpha": "PASS",
+        "dimension_check": "PASS",
+        "geographic_data_alignment": "PASS_SOURCE_BBOX",
+        "coastline_vs_target_map": "PENDING_FINAL_GEOREGISTRATION_CHECK",
+        "historical_authenticity": "PROVISIONAL",
+        "towns": "exaggerated_by_design",
+        "notes": {
+          "coastline": "geo_polygon_mask",
+          "towns": "enlarged_illustrative_approximations",
+          "architecture": "illustrative medieval Mediterranean (not building-by-building accurate)",
+          "placement": "coordinate-aligned only if target map uses compatible georeferencing; check against target shoreline"
+        }
+      }
+    },
+    {
+      "id": "CR-GRI-PAROS",
+      "name": "Paros",
+      "slug": "paros",
+      "category": "island_landmass_overlay",
+      "asset_path": "data/sprites/greek-islands/11_paros.png",
+      "source_filename": "11_paros.png",
+      "file_format": "PNG_RGBA",
+      "sha256": "06ebd7a20a3a1501fe022619175eda62f0459a4adc80674669a6706eefef8a68",
+      "byte_size": 601773,
+      "pixel_dimensions": [
+        976,
+        908
+      ],
+      "opaque_region_pixel_bbox": [
+        35,
+        36,
+        941,
+        872
+      ],
+      "render_bbox_wgs84": [
+        25.08958,
+        36.9654497,
+        25.3028913,
+        37.163693
+      ],
+      "island_bbox_wgs84": [
+        25.0978851,
+        36.9737549,
+        25.2945862,
+        37.1553879
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "placement_method": "render_bbox_wgs84",
+        "registration": "north_up_equirectangular_lon_lat",
+        "anchor_lon": 25.1962356,
+        "anchor_lat": 37.0645714,
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "landmass_overlay_z_index": 20,
+        "labels_layer_above": true,
+        "map_extent_required": true,
+        "needs_visual_registration_review": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean"
+      },
+      "period": {
+        "valid_for_compositional_reference": [
+          1097,
+          1291
+        ],
+        "site_specific_detail_review_required": true
+      },
+      "towns": [
+        {
+          "name": "Parikia",
+          "longitude": 25.15,
+          "latitude": 37.08,
+          "pixel_x": 276,
+          "pixel_y": 382,
+          "class_": "major_town"
+        },
+        {
+          "name": "Naousa",
+          "longitude": 25.23,
+          "latitude": 37.12,
+          "pixel_x": 642,
+          "pixel_y": 199,
+          "class_": "village"
+        },
+        {
+          "name": "Marpissa",
+          "longitude": 25.27,
+          "latitude": 37.04,
+          "pixel_x": 809,
+          "pixel_y": 560,
+          "class_": "village"
+        }
+      ],
+      "qa": {
+        "alpha": "PASS",
+        "dimension_check": "PASS",
+        "geographic_data_alignment": "PASS_SOURCE_BBOX",
+        "coastline_vs_target_map": "PENDING_FINAL_GEOREGISTRATION_CHECK",
+        "historical_authenticity": "PROVISIONAL",
+        "towns": "exaggerated_by_design",
+        "notes": {
+          "coastline": "geo_polygon_mask",
+          "towns": "enlarged_illustrative_approximations",
+          "architecture": "illustrative medieval Mediterranean (not building-by-building accurate)",
+          "placement": "coordinate-aligned only if target map uses compatible georeferencing; check against target shoreline"
+        }
+      }
+    },
+    {
+      "id": "CR-GRI-LEMNOS",
+      "name": "Lemnos",
+      "slug": "lemnos",
+      "category": "island_landmass_overlay",
+      "asset_path": "data/sprites/greek-islands/12_lemnos.png",
+      "source_filename": "12_lemnos.png",
+      "file_format": "PNG_RGBA",
+      "sha256": "7da0aec9965a3a5655c7b9b49f412e3071b40ec610f2eb1e3c87c6e8fc60f59d",
+      "byte_size": 447004,
+      "pixel_dimensions": [
+        976,
+        636
+      ],
+      "opaque_region_pixel_bbox": [
+        35,
+        36,
+        941,
+        600
+      ],
+      "render_bbox_wgs84": [
+        25.0192536,
+        39.765477,
+        25.4657165,
+        40.0561325
+      ],
+      "island_bbox_wgs84": [
+        25.0366364,
+        39.7828598,
+        25.4483337,
+        40.0387497
+      ],
+      "placement": {
+        "status": "APPROVED_FOR_PROVISIONAL_PLACEMENT",
+        "enabled": true,
+        "placement_method": "render_bbox_wgs84",
+        "registration": "north_up_equirectangular_lon_lat",
+        "anchor_lon": 25.242485,
+        "anchor_lat": 39.9108047,
+        "rotation_degrees": 0,
+        "mirror_x": false,
+        "mirror_y": false,
+        "landmass_overlay_z_index": 20,
+        "labels_layer_above": true,
+        "map_extent_required": true,
+        "needs_visual_registration_review": true,
+        "region": "aegean",
+        "target_frame": "frame.INSETS.aegean"
+      },
+      "period": {
+        "valid_for_compositional_reference": [
+          1097,
+          1291
+        ],
+        "site_specific_detail_review_required": true
+      },
+      "towns": [
+        {
+          "name": "Myrina",
+          "longitude": 25.05,
+          "latitude": 39.87,
+          "pixel_x": 75,
+          "pixel_y": 419,
+          "class_": "major_town"
+        },
+        {
+          "name": "Moudros",
+          "longitude": 25.27,
+          "latitude": 39.87,
+          "pixel_x": 543,
+          "pixel_y": 421,
+          "class_": "major_town"
+        },
+        {
+          "name": "Platy",
+          "longitude": 25.07,
+          "latitude": 39.85,
+          "pixel_x": 110,
+          "pixel_y": 450,
+          "class_": "village"
+        }
+      ],
+      "qa": {
+        "alpha": "PASS",
+        "dimension_check": "PASS",
+        "geographic_data_alignment": "PASS_SOURCE_BBOX",
+        "coastline_vs_target_map": "PENDING_FINAL_GEOREGISTRATION_CHECK",
+        "historical_authenticity": "PROVISIONAL",
+        "towns": "exaggerated_by_design",
+        "notes": {
+          "coastline": "geo_polygon_mask",
+          "towns": "enlarged_illustrative_approximations",
+          "architecture": "illustrative medieval Mediterranean (not building-by-building accurate)",
+          "placement": "coordinate-aligned only if target map uses compatible georeferencing; check against target shoreline"
+        }
+      }
+    }
+  ],
+  "map_integration": {
+    "repository": "1-tok/crusadersmap",
+    "asset_root": "data/sprites/greek-islands/",
+    "target_region": "aegean",
+    "frame_definition": "frame.INSETS['aegean']",
+    "inset_extent_wgs84": [
+      19.6,
+      34.7,
+      30.4,
+      41.75
+    ],
+    "note": "Full source rectangle must be reprojected from WGS84 into the Aegean inset. Asset registration is not yet renderer insertion."
+  }
+}
