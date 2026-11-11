@@ -1,0 +1,23 @@
+{
+  "asset": "bosphorus-water-join-1180.png",
+  "status": "approved-provisional",
+  "approval_for_placement": true,
+  "placement_view": "constantinople-landscape-1180",
+  "period_brief": 1180,
+  "generation_method": "built-in image generation",
+  "prompt": "Create one isolated transparent raster atlas sprite consisting exclusively of a broad continuous patch of painted open water to tuck underneath the three existing sprites in the supplied reference layout. Match the dark muted petrol-blue/teal water and fine sparse cream-blue horizontal ripples exactly. The patch must cover the empty central channel between Galata's south-facing waterfront at top, Constantinople's northeast edge at lower left, and the Asian shore at right. Export ONLY the new water patch, no existing sprites. Wide flat oblique aerial atlas view, no horizon. Shape a long slightly diagonal, solid, gently irregular cutout, narrow tapered western tip on the left expanding into broad open water at right, about 2.7 times wider than tall. It must be opaque and uninterrupted throughout its interior with fine low-contrast ripples, and true transparent alpha beyond its perimeter. No gradient into white, large waves, foam border, land, rocks, boats, buildings, bridges, chains, shadows, haze, or lettering. High detail. Generous transparent padding.",
+  "reference_asset": "previews/golden-horn-north-shore-review.jpg",
+  "pairing": {
+    "city_display_width_px": 1024,
+    "companion_display_width_px": 820,
+    "companion_top_left_relative_to_city_px": [
+      500,
+      42
+    ],
+    "draw_order": "behind all shore and city sprites"
+  },
+  "uncertainty": "Illustrated water layer positioned by visual offsets.",
+  "approval_authority": "User approved map placement, 2026-11-08",
+  "period_1180_eligible": true,
+  "approved_year": 1180
+}
