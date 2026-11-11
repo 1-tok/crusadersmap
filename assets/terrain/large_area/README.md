@@ -28,3 +28,11 @@ The **16 original expansion-02 regions** have replacement hand-painted **irregul
 See `manifest_transparent_redo_03.json` for paths, expected dimensions, placement review and print QA. **Old 02 images are superseded** for map use. **No PNG binaries from redo 03 have been uploaded to GitHub yet**; the manifest is not evidence of an image commit. Unzip the conversation archive into a checkout and commit its `assets/terrain/large_area/transparent_redo_03/*.png` files before enabling the placements.
 
 Alpha corners and cutout edges have been checked; overlap previews exist in the conversation. Seamless tiling, geographic placement and 300-DPI print quality are **not approved**. Source crops average only several hundred pixels wide, so large print placements need new high-native-resolution repaints; preserve the original extract as a reference, not a falsely sharp enlargement.
+
+## Exactly four retained rectangular gap-fill underlays
+
+**Exception to transparent-only art:** keep four full-size opaque RGB rectangles strictly **below** the irregular RGBA cutouts: `desert_sand`, `dry_steppe`, `canaan_scrub`, `green_plain`. See `manifest_rectangular_underlays_04.json`.
+
+Each has an untouched rectangular source and a second, edge-matched version (exact opposing-edge pixel matches). These provide desert, dry steppe, limestone scrub and green lowland fill where standalone transparent pieces leave patches uncovered. Clip the rectangles to real geography and landcover, then layer transparent cutouts above them; keep roads, hydrology, cities and labels on their usual upper layers. Match palette, motif scale and overlaps on the final map.
+
+**QA:** Repeat-pattern and print-scale inspection remains pending. The `green_plain` was derived from an enlarged reference-atlas crop and requires native-resolution repaint if used prominently at 300 DPI. Underlay PNG binaries are available in the separately downloadable `crusadersmap_rect_underlays_04_20261110.zip`, **not on GitHub until explicitly uploaded**. Do not confuse manifest commits with binary image commits.
