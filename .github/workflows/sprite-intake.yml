@@ -49,6 +49,8 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
       - name: Open or update safe import pull request (no direct main commits)
+        id: create_pr
+        continue-on-error: true
         if: github.event_name != 'pull_request' && steps.changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
@@ -70,6 +72,13 @@ jobs:
             - No automatic merge: approve after QA and placement inspection.
           labels: |
             sprite-intake
+      - name: Explain GitHub Actions PR restriction (asset processing succeeded)
+        if: github.event_name != 'pull_request' && steps.create_pr.outcome == 'failure'
+        run: |
+          echo "::warning title=Review PR permission disabled::Files have been processed and pushed to automation/sprite-intake-review, but Actions is not permitted to open its PR. Enable Settings > Actions > General > Allow GitHub Actions to create and approve pull requests, or create a PR manually."
+          echo "### Sprite intake succeeded; review PR not created" >> "$GITHUB_STEP_SUMMARY"
+          echo "PNG validation and tests passed; GitHub Actions could not create a PR under the current repository policy." >> "$GITHUB_STEP_SUMMARY"
+          echo "Enable **Settings → Actions → General → Allow GitHub Actions to create and approve pull requests**, or [create the review PR manually](https://github.com/1-tok/crusadersmap/compare/main...automation/sprite-intake-review)." >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
