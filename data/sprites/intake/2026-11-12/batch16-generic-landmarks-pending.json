@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "batch_id": "crusader-batch16-generic-landmarks-2026-11-12",
+  "status": "source_zip_ready_not_uploaded",
+  "artwork_type": "generic_architectural_filler",
+  "image_count": 6,
+  "source_package": "crusadersmap_batch16_generic_landmarks_upload_2026-11-12.zip",
+  "asset_ids": [
+    "B16-01",
+    "B16-02",
+    "B16-03",
+    "B16-04",
+    "B16-05",
+    "B16-06"
+  ],
+  "subjects": [
+    "fortified harbor generic",
+    "ridge citadel generic",
+    "walled abbey generic",
+    "hilltop monastery generic",
+    "terraced hilltown generic",
+    "offshore castle generic"
+  ],
+  "review_policy": {
+    "map_placement_approved": false,
+    "production_approved": false,
+    "site_ids": null,
+    "coordinates": null,
+    "year_gate": "unverified",
+    "historical_accuracy_certified": false
+  },
+  "qa_notes": [
+    "All six candidate crops are RGBA outputs derived from an original RGB checkerboard sheet; alpha extraction requires visual fringe review",
+    "These illustrations are generic. Do not assign to a named city, castle or abbey without identifying and repainting site-specific fabric",
+    "Cross banners and Latin-style buildings are inappropriate for many non-Frankish regions or periods",
+    "Retain native image resolution and preserve original source for corrections"
+  ]
+}
