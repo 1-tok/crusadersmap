@@ -62,3 +62,11 @@ The 12 religious candidates are present in `data/sprites/automated-intake/manife
 **Blocking finding:** all 25 imported manifest entries have `coordinates: null`. The processing tool correctly did not invent coordinates. Do not mark these automatically placed or production approved. Next work is conservative matching to existing `places.py` / source gazetteer anchors, phase filtering, historical visual QA, and review-only placement records.
 
 Recent main commits: automated intake `0b7f1aff`; religious PR merges `77d8812e` and `404732d1`.
+
+## Geographic candidate staging — 12 November 2026
+
+New **non-rendering** candidate FeatureCollection: `data/sprites/placements-intake-fortress-candidates-2026-11-12.geojson`, committed as `1368b3a9`. Reused original `CP-` coordinates from `data/manifests/crusader-period/site-history.json` for eight imported fortress candidates (Chastellet/Jacob's Ford, Darbsak, Feke, Kızkalesi, Buffavento, Kantara, Kolossi, Chlemoutsi). Every candidate has `approval_for_review_placement=false`, `default_visible=false`, `candidate_only=true`, and `production_approved=false`. These are geographic research anchors, not claims that the artwork depicts the site accurately.
+
+Darbsak and Feke are tagged with a proposed 1180 review phase; Chastellet has 1179 standing-only; Kızkalesi, Buffavento, Kantara, Kolossi and Chlemoutsi receive **later-period review placeholders**, not historical construction-date certifications. Kızkalesi offshore depiction and Kolossi's later surviving tower require particular scrutiny. Unclassified religious Batch 14 sprites remain without coordinates; do not guess identities.
+
+**Next action:** manually inspect the eight individual PNGs, correct historical architectural errors, then explicitly approve chosen visual-review placements without promoting them to production rendering. Do not duplicate the four fortress Batch 13 images already placed on review layers.
