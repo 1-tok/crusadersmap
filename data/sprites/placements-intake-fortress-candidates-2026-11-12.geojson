@@ -5,8 +5,9 @@
     "date": "2026-11-12",
     "source_manifest": "data/sprites/automated-intake/manifest.json",
     "source_gazetteer": "data/manifests/crusader-period/site-history.json",
-    "approval": "NOT automatically approved for rendering",
-    "note": "No external coordinate verification; existing WGS84 locations reused. Dates are proposed review phases, not authenticated depiction dates. Only enable after visual/historical QA."
+    "approval": "APPROVED_FOR_REVIEW_MAP_ONLY",
+    "note": "User authorized review placement 2026-11-12. Historical and print QA outstanding; date gating mandatory; identity and period warnings retained.",
+    "updated": "2026-11-12"
   },
   "features": [
     {
@@ -30,16 +31,16 @@
         "placement_view": "sprite-review",
         "map_layers": [
           "sprites-review",
-          "incoming-candidates",
+          "fortifications",
           "main"
         ],
-        "candidate_only": true,
-        "approval_for_review_placement": false,
+        "candidate_only": false,
+        "approval_for_review_placement": true,
         "production_approved": false,
-        "default_visible": false,
+        "default_visible": true,
         "period_1180_eligible": false,
         "technical_qa_status": "pass",
-        "geographic_placement_ready": false,
+        "geographic_placement_ready": true,
         "coordinate_evidence": {
           "source": "data/manifests/crusader-period/site-history.json",
           "site_id": "CP-035",
@@ -50,8 +51,17 @@
         "visual_review_required": true,
         "display_width_units": 512,
         "variant_group": "chastellet-jacobs-ford",
-        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
-        "review_note": "1178–1179 standing Chastellet only; destroyed in 1179; not visible standing in 1180"
+        "variant_rule": "One variant per site only; compare against earlier candidates and never stack",
+        "review_note": "1178–1179 standing Chastellet only; destroyed in 1179; not visible standing in 1180",
+        "approval_for_placement": true,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "repaint_flags": [
+          "1178–1179 standing Chastellet only; destroyed in 1179; not visible standing in 1180"
+        ],
+        "period_note": "Review depiction_year only; do not infer exact construction phase from this candidate illustration"
       }
     },
     {
@@ -75,16 +85,16 @@
         "placement_view": "sprite-review",
         "map_layers": [
           "sprites-review",
-          "incoming-candidates",
+          "fortifications",
           "main"
         ],
-        "candidate_only": true,
-        "approval_for_review_placement": false,
+        "candidate_only": false,
+        "approval_for_review_placement": true,
         "production_approved": false,
-        "default_visible": false,
+        "default_visible": true,
         "period_1180_eligible": true,
         "technical_qa_status": "pass",
-        "geographic_placement_ready": false,
+        "geographic_placement_ready": true,
         "coordinate_evidence": {
           "source": "data/manifests/crusader-period/site-history.json",
           "site_id": "CP-065",
@@ -95,8 +105,17 @@
         "visual_review_required": true,
         "display_width_units": 512,
         "variant_group": "darbsak",
-        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
-        "review_note": "Existing Templar possession recorded for 1137–1188; historical silhouette unverified"
+        "variant_rule": "One variant per site only; compare against earlier candidates and never stack",
+        "review_note": "Existing Templar possession recorded for 1137–1188; historical silhouette unverified",
+        "approval_for_placement": true,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": false,
+        "repaint_flags": [
+          "Existing Templar possession recorded for 1137–1188; historical silhouette unverified"
+        ],
+        "period_note": "Review depiction_year only; do not infer exact construction phase from this candidate illustration"
       }
     },
     {
@@ -120,16 +139,16 @@
         "placement_view": "sprite-review",
         "map_layers": [
           "sprites-review",
-          "incoming-candidates",
+          "fortifications",
           "main"
         ],
-        "candidate_only": true,
-        "approval_for_review_placement": false,
+        "candidate_only": false,
+        "approval_for_review_placement": true,
         "production_approved": false,
-        "default_visible": false,
+        "default_visible": true,
         "period_1180_eligible": true,
         "technical_qa_status": "pass",
-        "geographic_placement_ready": false,
+        "geographic_placement_ready": true,
         "coordinate_evidence": {
           "source": "data/manifests/crusader-period/site-history.json",
           "site_id": "CP-076",
@@ -140,8 +159,17 @@
         "visual_review_required": true,
         "display_width_units": 512,
         "variant_group": "feke",
-        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
-        "review_note": "Fortification location recorded, but lordship/architecture in 1180 needs research"
+        "variant_rule": "One variant per site only; compare against earlier candidates and never stack",
+        "review_note": "Fortification location recorded, but lordship/architecture in 1180 needs research",
+        "approval_for_placement": true,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": false,
+        "repaint_flags": [
+          "Fortification location recorded, but lordship/architecture in 1180 needs research"
+        ],
+        "period_note": "Review depiction_year only; do not infer exact construction phase from this candidate illustration"
       }
     },
     {
@@ -165,16 +193,16 @@
         "placement_view": "sprite-review",
         "map_layers": [
           "sprites-review",
-          "incoming-candidates",
+          "fortifications",
           "main"
         ],
-        "candidate_only": true,
-        "approval_for_review_placement": false,
+        "candidate_only": false,
+        "approval_for_review_placement": true,
         "production_approved": false,
-        "default_visible": false,
+        "default_visible": true,
         "period_1180_eligible": false,
         "technical_qa_status": "pass",
-        "geographic_placement_ready": false,
+        "geographic_placement_ready": true,
         "coordinate_evidence": {
           "source": "data/manifests/crusader-period/site-history.json",
           "site_id": "CP-077",
@@ -185,8 +213,17 @@
         "visual_review_required": true,
         "display_width_units": 512,
         "variant_group": "kizkalesi",
-        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
-        "review_note": "Offshore castle identity and date of sea-castle fabric unverified; refuse default placement until visual review"
+        "variant_rule": "One variant per site only; compare against earlier candidates and never stack",
+        "review_note": "Offshore castle identity and date of sea-castle fabric unverified; refuse default placement until visual review",
+        "approval_for_placement": true,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "repaint_flags": [
+          "Offshore castle identity and date of sea-castle fabric unverified; refuse default placement until visual review"
+        ],
+        "period_note": "Review depiction_year only; do not infer exact construction phase from this candidate illustration"
       }
     },
     {
@@ -210,16 +247,16 @@
         "placement_view": "sprite-review",
         "map_layers": [
           "sprites-review",
-          "incoming-candidates",
+          "fortifications",
           "main"
         ],
-        "candidate_only": true,
-        "approval_for_review_placement": false,
+        "candidate_only": false,
+        "approval_for_review_placement": true,
         "production_approved": false,
-        "default_visible": false,
+        "default_visible": true,
         "period_1180_eligible": false,
         "technical_qa_status": "pass",
-        "geographic_placement_ready": false,
+        "geographic_placement_ready": true,
         "coordinate_evidence": {
           "source": "data/manifests/crusader-period/site-history.json",
           "site_id": "CP-083",
@@ -230,8 +267,17 @@
         "visual_review_required": true,
         "display_width_units": 512,
         "variant_group": "buffavento",
-        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
-        "review_note": "1191+ Lusignan-period record; do not infer original construction date"
+        "variant_rule": "One variant per site only; compare against earlier candidates and never stack",
+        "review_note": "1191+ Lusignan-period record; do not infer original construction date",
+        "approval_for_placement": true,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": false,
+        "repaint_flags": [
+          "1191+ Lusignan-period record; do not infer original construction date"
+        ],
+        "period_note": "Review depiction_year only; do not infer exact construction phase from this candidate illustration"
       }
     },
     {
@@ -255,16 +301,16 @@
         "placement_view": "sprite-review",
         "map_layers": [
           "sprites-review",
-          "incoming-candidates",
+          "fortifications",
           "main"
         ],
-        "candidate_only": true,
-        "approval_for_review_placement": false,
+        "candidate_only": false,
+        "approval_for_review_placement": true,
         "production_approved": false,
-        "default_visible": false,
+        "default_visible": true,
         "period_1180_eligible": false,
         "technical_qa_status": "pass",
-        "geographic_placement_ready": false,
+        "geographic_placement_ready": true,
         "coordinate_evidence": {
           "source": "data/manifests/crusader-period/site-history.json",
           "site_id": "CP-084",
@@ -275,8 +321,17 @@
         "visual_review_required": true,
         "display_width_units": 512,
         "variant_group": "kantara",
-        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
-        "review_note": "1191+ Lusignan-period record; do not infer original construction date"
+        "variant_rule": "One variant per site only; compare against earlier candidates and never stack",
+        "review_note": "1191+ Lusignan-period record; do not infer original construction date",
+        "approval_for_placement": true,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": false,
+        "repaint_flags": [
+          "1191+ Lusignan-period record; do not infer original construction date"
+        ],
+        "period_note": "Review depiction_year only; do not infer exact construction phase from this candidate illustration"
       }
     },
     {
@@ -300,16 +355,16 @@
         "placement_view": "sprite-review",
         "map_layers": [
           "sprites-review",
-          "incoming-candidates",
+          "fortifications",
           "main"
         ],
-        "candidate_only": true,
-        "approval_for_review_placement": false,
+        "candidate_only": false,
+        "approval_for_review_placement": true,
         "production_approved": false,
-        "default_visible": false,
+        "default_visible": true,
         "period_1180_eligible": false,
         "technical_qa_status": "pass",
-        "geographic_placement_ready": false,
+        "geographic_placement_ready": true,
         "coordinate_evidence": {
           "source": "data/manifests/crusader-period/site-history.json",
           "site_id": "CP-086",
@@ -320,8 +375,17 @@
         "visual_review_required": true,
         "display_width_units": 512,
         "variant_group": "kolossi",
-        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
-        "review_note": "Hospitaller 1210+; exclude the much later surviving tower form; artwork needs phase review"
+        "variant_rule": "One variant per site only; compare against earlier candidates and never stack",
+        "review_note": "Hospitaller 1210+; exclude the much later surviving tower form; artwork needs phase review",
+        "approval_for_placement": true,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "repaint_flags": [
+          "Hospitaller 1210+; exclude the much later surviving tower form; artwork needs phase review"
+        ],
+        "period_note": "Review depiction_year only; do not infer exact construction phase from this candidate illustration"
       }
     },
     {
@@ -345,16 +409,16 @@
         "placement_view": "sprite-review",
         "map_layers": [
           "sprites-review",
-          "incoming-candidates",
+          "fortifications",
           "aegean"
         ],
-        "candidate_only": true,
-        "approval_for_review_placement": false,
+        "candidate_only": false,
+        "approval_for_review_placement": true,
         "production_approved": false,
-        "default_visible": false,
+        "default_visible": true,
         "period_1180_eligible": false,
         "technical_qa_status": "pass",
-        "geographic_placement_ready": false,
+        "geographic_placement_ready": true,
         "coordinate_evidence": {
           "source": "data/manifests/crusader-period/site-history.json",
           "site_id": "CP-102",
@@ -365,8 +429,17 @@
         "visual_review_required": true,
         "display_width_units": 512,
         "variant_group": "chlemoutsi",
-        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
-        "review_note": "Fortress built c. 1220s, never on 1180 layer"
+        "variant_rule": "One variant per site only; compare against earlier candidates and never stack",
+        "review_note": "Fortress built c. 1220s, never on 1180 layer",
+        "approval_for_placement": true,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": false,
+        "repaint_flags": [
+          "Fortress built c. 1220s, never on 1180 layer"
+        ],
+        "period_note": "Review depiction_year only; do not infer exact construction phase from this candidate illustration"
       }
     }
   ]
