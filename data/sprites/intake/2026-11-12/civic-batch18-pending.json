@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "batch_id": "CIVIC-B18",
+  "approval_scope": "provisional artwork and placement review",
+  "status": "pending_png_binary_upload",
+  "historical_accuracy_certified": false,
+  "source_sheet": "a_detailed_watercolor_ink_illustration_sheet_tran.png",
+  "sheet_format": "RGB, near-white background",
+  "processing": "6 cutouts with reconstructed alpha, edge review needed",
+  "geographic_placement_ready": false,
+  "assets": [
+    {
+      "id": "CIVIC-B18-01",
+      "subject": "Limestone quarry",
+      "category": "terrain",
+      "file": "civic-b18-01-limestone-quarry.png",
+      "status": "provisional",
+      "historical_review_required": true,
+      "alpha_edge_review_required": true,
+      "coordinates": null,
+      "binary_present_in_repository": false
+    },
+    {
+      "id": "CIVIC-B18-02",
+      "subject": "Vineyard wine press",
+      "category": "landmark",
+      "file": "civic-b18-02-vineyard-wine-press.png",
+      "status": "provisional",
+      "historical_review_required": true,
+      "alpha_edge_review_required": true,
+      "coordinates": null,
+      "binary_present_in_repository": false
+    },
+    {
+      "id": "CIVIC-B18-03",
+      "subject": "Olive oil press",
+      "category": "landmark",
+      "file": "civic-b18-03-olive-oil-press.png",
+      "status": "provisional",
+      "historical_review_required": true,
+      "alpha_edge_review_required": true,
+      "coordinates": null,
+      "binary_present_in_repository": false
+    },
+    {
+      "id": "CIVIC-B18-04",
+      "subject": "Beehive apiary",
+      "category": "farmland",
+      "file": "civic-b18-04-beehive-apiary.png",
+      "status": "provisional",
+      "historical_review_required": true,
+      "alpha_edge_review_required": true,
+      "coordinates": null,
+      "binary_present_in_repository": false
+    },
+    {
+      "id": "CIVIC-B18-05",
+      "subject": "Irrigation shaduf",
+      "category": "landmark",
+      "file": "civic-b18-05-irrigation-shaduf.png",
+      "status": "provisional",
+      "historical_review_required": true,
+      "alpha_edge_review_required": true,
+      "coordinates": null,
+      "binary_present_in_repository": false
+    },
+    {
+      "id": "CIVIC-B18-06",
+      "subject": "Charcoal burning and metalworking yard",
+      "category": "landmark",
+      "file": "civic-b18-06-charcoal-smithing-yard.png",
+      "status": "provisional",
+      "historical_review_required": true,
+      "alpha_edge_review_required": true,
+      "coordinates": null,
+      "binary_present_in_repository": false
+    }
+  ]
+}
