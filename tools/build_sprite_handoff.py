@@ -198,11 +198,16 @@ def main():
     for a in records:
         cls = "source" if a["kind"] == "source-master" else ("missing" if not a["file_exists"] else "")
         url = "../" + (a["path"] or "")
-        img = (f'<img loading="lazy" src="{escape(url, quote=True)}" alt="">'
+        remote_path = "https://raw.githubusercontent.com/1-tok/crusadersmap/main/" + (a["path"] or "")
+        github_page = "https://github.com/1-tok/crusadersmap/blob/main/" + (a["path"] or "")
+        img = (f'<img loading="lazy" src="{escape(url, quote=True)}" '
+               f'onerror="this.onerror=null;this.src=&#39;{escape(remote_path, quote=True)}&#39;" '
+               f'alt="">'
                if a["file_exists"] else '<div>FILE MISSING</div>')
         cards.append(f'<article class="{cls}">{img}<strong>{escape(a["label"])}</strong>'
                      f'<small>{escape(a["source"])} · {escape(a["kind"])}</small>'
                      f'<small>{escape(a["status"])}</small>'
+                     f'<small><a href="{escape(github_page, quote=True)}">Open image in GitHub</a></small>'
                      f'<small>{escape(a["path"] or "NO FILE")}</small></article>')
     html = ('<!doctype html><html><head><meta charset="utf-8">'
             '<title>Crusader Map — all-sprite review gallery</title><style>'+styles+
