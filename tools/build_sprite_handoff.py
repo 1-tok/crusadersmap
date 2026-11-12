@@ -125,6 +125,31 @@ def collect():
             note="Warp using render_bbox_wgs84, not center point placement"))
             # Additional Greek island batches must be discovered by the
             # repository inventory; do not assume the original twelve are all.
+    # Final safety net: capture every PNG physically present in the repository,
+    # including old archive/city/castle/island batches not referenced above.
+    # Physical discovery is review-library inclusion, NEVER automatic map approval.
+    known = {x["path"] for x in records if x.get("path")}
+    for folder in (SPRITES, DATA / "terrain"):
+        if not folder.is_dir():
+            continue
+        for file in sorted(folder.rglob("*.png")):
+            relative = file.relative_to(ROOT).as_posix()
+            if relative in known:
+                continue
+            name = file.stem.lower()
+            source = str(file.parent.relative_to(ROOT))
+            reference = any(word in name for word in (
+                "source_sheet", "original_sheet", "sprite_sheet", "atlas_sheet",
+                "contact_sheet", "collage", "combined_sheet"))
+            status = "source-reference-only" if reference else "unindexed-review-only"
+            records.append(review_record(
+                "filesystem-discovery", relative, file.stem, relative,
+                "source-master" if reference else "unindexed-artwork",
+                status=status,
+                note="Discovered on disk without a matched placement record. "
+                     "Keep in gallery; must resolve provenance, date and region before use."))
+            records[-1]["source_folder"] = source
+            known.add(relative)
     return records
 
 def main():
