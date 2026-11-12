@@ -13,6 +13,8 @@ on:
       - 'terrainsp.py'
       - 'build_fallback_assets.py'
       - 'tools/import_recent_terrain_zips.py'
+      - 'tools/report_map_sprite_utilization.py'
+      - 'terrain.py'
 
 permissions:
   contents: write
@@ -58,6 +60,7 @@ jobs:
           cp deliver/image-usage-and-off-map-list.csv reports/rebuild-2026-11-12/
           cp deliver/terrain-gap-report.md reports/rebuild-2026-11-12/
           cp deliver/terrain-gap-cells.csv reports/rebuild-2026-11-12/
+          python tools/report_map_sprite_utilization.py
       - name: Upload build outputs for review
         if: always()
         uses: actions/upload-artifact@v4
