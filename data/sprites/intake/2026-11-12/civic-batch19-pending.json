@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "batch_id": "CIVIC-B19",
+  "status": "provisional",
+  "image_binary_status": "pending_zip_upload",
+  "source_sheet": "a_detailed_painted_watercolor_ink_illustration_she.png",
+  "subjects": [
+    "Hillside stone hamlet",
+    "Roadside inn and stables",
+    "Stone sheepfold",
+    "Cattle enclosure and shelter",
+    "Citrus orchard",
+    "Olive grove and harvest",
+    "Wheat harvest and cart",
+    "Caravan tent encampment",
+    "Fishing hamlet and net racks",
+    "Irrigated crop terraces"
+  ],
+  "excluded_as_duplicates": [
+    "watermill",
+    "fortified watchpost"
+  ],
+  "geographic_placement_ready": false,
+  "historical_accuracy_certified": false,
+  "alpha_edge_review_required": true
+}
