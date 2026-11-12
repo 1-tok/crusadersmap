@@ -8,13 +8,16 @@ on:
   pull_request:
     paths:
       - 'tools/sprite_intake.py'
+      - 'tools/sprite_zip_intake.py'
       - 'tests/test_sprite_intake.py'
+      - 'tests/test_sprite_zip_intake.py'
       - 'requirements-sprite-intake.txt'
       - '.github/workflows/sprite-intake.yml'
 permissions:
   contents: write
+  pull-requests: write
 concurrency:
-  group: sprite-intake-main
+  group: sprite-intake-${{ github.ref }}
   cancel-in-progress: false
 jobs:
   process:
@@ -29,23 +32,49 @@ jobs:
           cache: pip
           cache-dependency-path: requirements-sprite-intake.txt
       - run: pip install -r requirements-sprite-intake.txt
+      - name: Safely extract uploaded ZIP batches (staging only)
+        run: python tools/sprite_zip_intake.py
       - name: Validate and register PNGs
         run: python tools/sprite_intake.py
       - name: Validate intake unit tests
-        run: python -m unittest discover -s tests -p 'test_sprite_intake.py' -v
-      - name: Commit outputs (never originals)
+        run: python -m unittest discover -s tests -p 'test_sprite*intake.py' -v
+      - name: Check for import output changes
         if: github.event_name != 'pull_request'
+        id: changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/sprites/automated-intake data/sprites/catalog.json
-          if ! git diff --cached --quiet; then
-            git commit -m "chore(sprites): catalog incoming PNG sprites [skip ci]"
-            git push origin HEAD:main
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+      - name: Open or update safe import pull request (no direct main commits)
+        if: github.event_name != 'pull_request' && steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          add-paths: |
+            data/sprites/automated-intake/**
+            data/sprites/catalog.json
+          commit-message: "chore(sprites): register incoming PNG and ZIP sprites"
+          branch: automation/sprite-intake-review
+          delete-branch: true
+          title: "Sprite intake: provisional PNG assets and placement markup"
+          body: |
+            Automated ingestion from assets/sprites/incoming.
+            - Generated assets and registry only. Source ZIP/PNG inputs are preserved.
+            - Duplicate pixel digests are recorded, not imported twice.
+            - Historical accuracy remains unverified; review and repaint flags are retained.
+            - Geographic placement is gated by coordinates plus coordinate_source.
+            - Review automated-intake/processing-report.json before merging.
+            - No automatic merge: approve after QA and placement inspection.
+          labels: |
+            sprite-intake
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: sprite-intake-report
-          path: data/sprites/automated-intake/processing-report.json
+          path: |
+            data/sprites/automated-intake/processing-report.json
+            data/sprites/automated-intake/manifest.json
           if-no-files-found: warn
