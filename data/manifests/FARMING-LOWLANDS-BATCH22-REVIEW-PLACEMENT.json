@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "batch": "farming-lowlands-batch22",
+  "created": "2026-11-12",
+  "repository": "1-tok/crusadersmap",
+  "binary_status": "NOT_UPLOADED_TO_GITHUB",
+  "source_archive": "crusader_farming_lowlands_batch22_2026-11-12.zip",
+  "placement_approval": "approved_for_provisional_1180_map_review_after_binary_import_and_geo_mask_validation",
+  "production_approved": false,
+  "print_approved": false,
+  "actual_placement_status": "unplaced",
+  "layer": "above clipped green_plain underlay, below geographic water, sites, roads and labels",
+  "rules": [
+    "Draw all six as eligible region-pool options on geographic review edition only, not indiscriminately at fabricated coordinates.",
+    "Before displaying, confirm file SHA256 and transparency, match regional ecology and mapped landcover, then select safe geography from actual render gaps.",
+    "Any painted water must coincide with actual georeferenced waterways or be masked out.",
+    "Preserve the review-visible unapproved state; do not mark 300-dpi ready.",
+    "Keep all six accessible from review gallery even if not yet map-placed."
+  ],
+  "assets": [
+    {
+      "id": "F22-01",
+      "file": "assets/sprites/incoming/farming-lowlands-batch22/farming_01_dry_levant_grain.png",
+      "terrain_class": "Dry Levant grain and fallow",
+      "region_pool": "Sharon; Galilee; Samaria; inland Levant",
+      "sha256": "0cd7d30003e0e65959a980d50aab4209fc17457f42d2e504e1a7dac590997181",
+      "qa_status": "provisional",
+      "approved_for_review_placement": true,
+      "geographic_geometry": null,
+      "binary_present_in_repo": false,
+      "visible_on_map": false
+    },
+    {
+      "id": "F22-02",
+      "file": "assets/sprites/incoming/farming-lowlands-batch22/farming_02_meadow_lowland.png",
+      "terrain_class": "Lowland meadow and wet pasture",
+      "region_pool": "Cilician; Orontes; Greek lowlands",
+      "sha256": "e2244d9901dfe8cd3b6448a5e20846316bcd81c32a29b137f185c5fa425156ca",
+      "qa_status": "provisional",
+      "approved_for_review_placement": true,
+      "geographic_geometry": null,
+      "binary_present_in_repo": false,
+      "visible_on_map": false
+    },
+    {
+      "id": "F22-03",
+      "file": "assets/sprites/incoming/farming-lowlands-batch22/farming_03_field_woodland_transition.png",
+      "terrain_class": "Farmland-to-woodland transition",
+      "region_pool": "Aegean; Levant; Cyprus foothills",
+      "sha256": "8f1ff30e179d40dd23c10bd90df724ba87dfcafef1fd78a967ef6035b6c97132",
+      "qa_status": "provisional",
+      "approved_for_review_placement": true,
+      "geographic_geometry": null,
+      "binary_present_in_repo": false,
+      "visible_on_map": false
+    },
+    {
+      "id": "F22-04",
+      "file": "assets/sprites/incoming/farming-lowlands-batch22/farming_04_nile_floodplain.png",
+      "terrain_class": "Nile cultivated floodplain",
+      "region_pool": "Egypt Delta inset only",
+      "sha256": "6ad5f4950f2c79cfb06497b9cfe62e7eea5ae4a9c69c5257732a05b091eb9d40",
+      "qa_status": "provisional",
+      "approved_for_review_placement": true,
+      "geographic_geometry": null,
+      "binary_present_in_repo": false,
+      "visible_on_map": false
+    },
+    {
+      "id": "F22-05",
+      "file": "assets/sprites/incoming/farming-lowlands-batch22/farming_05_mediterranean_olive_orchards.png",
+      "terrain_class": "Mediterranean olive orchard mosaic",
+      "region_pool": "Cyprus; Aegean; coastal Levant slopes",
+      "sha256": "d49ab2d79b26f5cc10dfb26e4574393bcfe759f8e40ce249cb39c7aa07182694",
+      "qa_status": "provisional",
+      "approved_for_review_placement": true,
+      "geographic_geometry": null,
+      "binary_present_in_repo": false,
+      "visible_on_map": false
+    },
+    {
+      "id": "F22-06",
+      "file": "assets/sprites/incoming/farming-lowlands-batch22/farming_06_broad_grain_patchwork.png",
+      "terrain_class": "Broad cultivated field patchwork",
+      "region_pool": "Cilician and Amuq plains; Hauran; Thessaly; Cyprus Mesaoria",
+      "sha256": null,
+      "qa_status": "provisional",
+      "approved_for_review_placement": true,
+      "geographic_geometry": null,
+      "binary_present_in_repo": false,
+      "visible_on_map": false
+    }
+  ]
+}
