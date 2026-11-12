@@ -2142,6 +2142,198 @@
         },
         "period_1180_eligible": true
       }
+    },
+    {
+      "type": "Feature",
+      "id": "fortress-bourzey-1180-review",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.38,
+          35.52
+        ]
+      },
+      "properties": {
+        "site_id": "bourzey",
+        "site_catalog_id": "CP-057",
+        "name": "Bourzey / Rochefort",
+        "asset_path": "data/sprites/fortress-batch13-review/png/bourzey-1180-provisional-v1.png",
+        "depiction_year": 1180,
+        "map_region": "main",
+        "display_width_units": 448,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "technical_qa_status": "visual-and-print-QA-pending",
+        "default_visible": true,
+        "variant_group": "bourzey",
+        "variant_rule": "One variant per site; do not stack duplicate candidates",
+        "coordinate_evidence": {
+          "source_file": "places.py",
+          "value": [
+            36.38,
+            35.52
+          ],
+          "uncertainty_note": "Existing source map coordinate from places.py, not a surveyed medieval castle footprint"
+        },
+        "repaint_flags": [
+          "Illustrative fortress geometry; historical plan unverified",
+          "Bourzey no longer Frankish in the 1180 setting: no anachronistic crusader heraldry"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fortress-shaizar-1180-review",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.57,
+          35.27
+        ]
+      },
+      "properties": {
+        "site_id": "shaizar",
+        "site_catalog_id": "CP-058",
+        "name": "Shaizar",
+        "asset_path": "data/sprites/fortress-batch13-review/png/shaizar-1180-provisional-v1.png",
+        "depiction_year": 1180,
+        "map_region": "main",
+        "display_width_units": 448,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "technical_qa_status": "visual-and-print-QA-pending",
+        "default_visible": true,
+        "variant_group": "shaizar",
+        "variant_rule": "One variant per site; do not stack duplicate candidates",
+        "coordinate_evidence": {
+          "source_file": "places.py",
+          "value": [
+            36.57,
+            35.27
+          ],
+          "uncertainty_note": "Existing source map coordinate from places.py, not a surveyed medieval castle footprint"
+        },
+        "repaint_flags": [
+          "Illustrative reconstruction of river-gorge citadel",
+          "Hydrography and backdrop must align with the Orontes layer"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fortress-masyaf-1180-review",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.34,
+          35.06
+        ]
+      },
+      "properties": {
+        "site_id": "masyaf",
+        "site_catalog_id": "CP-059",
+        "name": "Masyaf",
+        "asset_path": "data/sprites/fortress-batch13-review/png/masyaf-1180-provisional-v1.png",
+        "depiction_year": 1180,
+        "map_region": "main",
+        "display_width_units": 448,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "technical_qa_status": "visual-and-print-QA-pending",
+        "default_visible": true,
+        "variant_group": "masyaf",
+        "variant_rule": "One variant per site; do not stack duplicate candidates",
+        "coordinate_evidence": {
+          "source_file": "places.py",
+          "value": [
+            36.34,
+            35.06
+          ],
+          "uncertainty_note": "Existing source map coordinate from places.py, not a surveyed medieval castle footprint"
+        },
+        "repaint_flags": [
+          "Nizari fortress; no assumption of Crusader ownership",
+          "Illustrative geometry; castle fabric must be checked for 1180"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fortress-qadmus-1180-review",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.97,
+          35.08
+        ]
+      },
+      "properties": {
+        "site_id": "qadmus",
+        "site_catalog_id": "CP-060",
+        "name": "Qadmus",
+        "asset_path": "data/sprites/fortress-batch13-review/png/qadmus-1180-provisional-v1.png",
+        "depiction_year": 1180,
+        "map_region": "main",
+        "display_width_units": 448,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "main"
+        ],
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": true,
+        "technical_qa_status": "visual-and-print-QA-pending",
+        "default_visible": true,
+        "variant_group": "qadmus",
+        "variant_rule": "One variant per site; do not stack duplicate candidates",
+        "coordinate_evidence": {
+          "source_file": "places.py",
+          "value": [
+            35.97,
+            35.08
+          ],
+          "uncertainty_note": "Existing source map coordinate from places.py, not a surveyed medieval castle footprint"
+        },
+        "repaint_flags": [
+          "Nizari fortress; no assumption of Crusader ownership",
+          "Illustrative site footprint and village setting"
+        ]
+      }
     }
   ]
 }
