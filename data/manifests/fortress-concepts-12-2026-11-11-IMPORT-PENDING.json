@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "batch_id": "fortress-concepts-12-2026-11-11",
+  "status": "import_pending_pngs_not_committed",
+  "artwork_count": 12,
+  "warning": "Real historical sites listed as possible concepts, not certified paintings. No automatic geographic placement or production use. Existing historical map and catalog are unchanged.",
+  "source": "User-provided image from current Crusader Map chat",
+  "assets": [
+    {
+      "id": "CRUS-FORT-Q13-01",
+      "site_name": "Chastellet / Jacob's Ford",
+      "site_slug": "chastellet-jacobs-ford",
+      "identity_assignment": "proposed_not_verified",
+      "source_sheet": "medieval_crusader_fortress_sprite_collection.png",
+      "sheet_row": 1,
+      "sheet_col": 1,
+      "expected_png": "data/sprites/intake/fortress-queue-2026-11-11/fortress-concept-01-chastellet-jacobs-ford.png",
+      "github_actions_intake_filename": "fortress-concept-01-chastellet-jacobs-ford.png",
+      "dimensions_px": [
+        372,
+        280
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "viewpoint": "south_elevated",
+      "map_region": "main",
+      "geographic_coordinates": null,
+      "geographic_placement_ready": false,
+      "temporal_gate": {
+        "start": 1178,
+        "end": 1179
+      },
+      "approved_for_review_placement": true,
+      "production_approved": false,
+      "print_quality_verified": false,
+      "historical_accuracy_certified": false,
+      "repaint_required": true,
+      "notes": [
+        "Built 1178 and destroyed 1179; never use as standing fortress in 1180.",
+        "Inspect visible red/yellow edge speckling and native pixel density before map print."
+      ]
+    },
+    {
+      "id": "CRUS-FORT-Q13-02",
+      "site_name": "Bourzey",
+      "site_slug": "bourzey",
+      "identity_assignment": "proposed_not_verified",
+      "source_sheet": "medieval_crusader_fortress_sprite_collection.png",
+      "sheet_row": 1,
+      "sheet_col": 2,
+      "expected_png": "data/sprites/intake/fortress-queue-2026-11-11/fortress-concept-02-bourzey.png",
+      "github_actions_intake_filename": "fortress-concept-02-bourzey.png",
+      "dimensions_px": [
+        376,
+        322
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "viewpoint": "south_elevated",
+      "map_region": "main",
+      "geographic_coordinates": null,
+      "geographic_placement_ready": false,
+      "temporal_gate": null,
+      "approved_for_review_placement": true,
+      "production_approved": false,
+      "print_quality_verified": false,
+      "historical_accuracy_certified": false,
+      "repaint_required": true,
+      "notes": [
+        "Generic church and red-cross flag should not be assumed accurate.",
+        "Inspect visible red/yellow edge speckling and native pixel density before map print."
+      ]
+    },
+    {
+      "id": "CRUS-FORT-Q13-03",
+      "site_name": "Shaizar",
+      "site_slug": "shaizar",
+      "identity_assignment": "proposed_not_verified",
+      "source_sheet": "medieval_crusader_fortress_sprite_collection.png",
+      "sheet_row": 1,
+      "sheet_col": 3,
+      "expected_png": "data/sprites/intake/fortress-queue-2026-11-11/fortress-concept-03-shaizar.png",
+      "github_actions_intake_filename": "fortress-concept-03-shaizar.png",
+      "dimensions_px": [
+        379,
+        351
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "viewpoint": "south_elevated",
+      "map_region": "main",
+      "geographic_coordinates": null,
+      "geographic_placement_ready": false,
+      "temporal_gate": null,
+      "approved_for_review_placement": true,
+      "production_approved": false,
+      "print_quality_verified": false,
+      "historical_accuracy_certified": false,
+      "repaint_required": true,
+      "notes": [
+        "Orontes valley morphology and domed structures require correction.",
+        "Inspect visible red/yellow edge speckling and native pixel density before map print."
+      ]
+    },
+    {
+      "id": "CRUS-FORT-Q13-04",
+      "site_name": "Masyaf",
+      "site_slug": "masyaf",
+      "identity_assignment": "proposed_not_verified",
+      "source_sheet": "medieval_crusader_fortress_sprite_collection.png",
+      "sheet_row": 1,
+      "sheet_col": 4,
+      "expected_png": "data/sprites/intake/fortress-queue-2026-11-11/fortress-concept-04-masyaf.png",
+      "github_actions_intake_filename": "fortress-concept-04-masyaf.png",
+      "dimensions_px": [
+        368,
+        351
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "viewpoint": "south_elevated",
+      "map_region": "main",
+      "geographic_coordinates": null,
+      "geographic_placement_ready": false,
+      "temporal_gate": null,
+      "approved_for_review_placement": true,
+      "production_approved": false,
+      "print_quality_verified": false,
+      "historical_accuracy_certified": false,
+      "repaint_required": true,
+      "notes": [
+        "Conspicuous rocky citadel silhouette requires topographic check.",
+        "Inspect visible red/yellow edge speckling and native pixel density before map print."
+      ]
+    },
+    {
+      "id": "CRUS-FORT-Q13-05",
+      "site_name": "Qadmus",
+      "site_slug": "qadmus",
+      "identity_assignment": "proposed_not_verified",
+      "source_sheet": "medieval_crusader_fortress_sprite_collection.png",
+      "sheet_row": 2,
+      "sheet_col": 1,
+      "expected_png": "data/sprites/intake/fortress-queue-2026-11-11/fortress-concept-05-qadmus.png",
+      "github_actions_intake_filename": "fortress-concept-05-qadmus.png",
+      "dimensions_px": [
+        375,
+        333
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "viewpoint": "south_elevated",
+      "map_region": "main",
+      "geographic_coordinates": null,
+      "geographic_placement_ready": false,
+      "temporal_gate": null,
+      "approved_for_review_placement": true,
+      "production_approved": false,
+      "print_quality_verified": false,
+      "historical_accuracy_certified": false,
+      "repaint_required": true,
+      "notes": [
+        "Tower and church architecture not verified.",
+        "Inspect visible red/yellow edge speckling and native pixel density before map print."
+      ]
+    },
+    {
+      "id": "CRUS-FORT-Q13-06",
+      "site_name": "Darbsak",
+      "site_slug": "darbsak",
+      "identity_assignment": "proposed_not_verified",
+      "source_sheet": "medieval_crusader_fortress_sprite_collection.png",
+      "sheet_row": 2,
+      "sheet_col": 2,
+      "expected_png": "data/sprites/intake/fortress-queue-2026-11-11/fortress-concept-06-darbsak.png",
+      "github_actions_intake_filename": "fortress-concept-06-darbsak.png",
+      "dimensions_px": [
+        378,
+        297
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "viewpoint": "south_elevated",
+      "map_region": "main",
+      "geographic_coordinates": null,
+      "geographic_placement_ready": false,
+      "temporal_gate": null,
+      "approved_for_review_placement": true,
+      "production_approved": false,
+      "print_quality_verified": false,
+      "historical_accuracy_certified": false,
+      "repaint_required": true,
+      "notes": [
+        "Depicted bridge may be geographically unsupported.",
+        "Inspect visible red/yellow edge speckling and native pixel density before map print."
+      ]
+    },
+    {
+      "id": "CRUS-FORT-Q13-07",
+      "site_name": "Feke",
+      "site_slug": "feke",
+      "identity_assignment": "proposed_not_verified",
+      "source_sheet": "medieval_crusader_fortress_sprite_collection.png",
+      "sheet_row": 2,
+      "sheet_col": 3,
+      "expected_png": "data/sprites/intake/fortress-queue-2026-11-11/fortress-concept-07-feke.png",
+      "github_actions_intake_filename": "fortress-concept-07-feke.png",
+      "dimensions_px": [
+        379,
+        349
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "viewpoint": "south_elevated",
+      "map_region": "main",
+      "geographic_coordinates": null,
+      "geographic_placement_ready": false,
+      "temporal_gate": null,
+      "approved_for_review_placement": true,
+      "production_approved": false,
+      "print_quality_verified": false,
+      "historical_accuracy_certified": false,
+      "repaint_required": true,
+      "notes": [
+        "Armenian Cilician architectural/heraldic verification required.",
+        "Inspect visible red/yellow edge speckling and native pixel density before map print."
+      ]
+    },
+    {
+      "id": "CRUS-FORT-Q13-08",
+      "site_name": "Kızkalesi",
+      "site_slug": "kizkalesi",
+      "identity_assignment": "proposed_not_verified",
+      "source_sheet": "medieval_crusader_fortress_sprite_collection.png",
+      "sheet_row": 2,
+      "sheet_col": 4,
+      "expected_png": "data/sprites/intake/fortress-queue-2026-11-11/fortress-concept-08-kizkalesi.png",
+      "github_actions_intake_filename": "fortress-concept-08-kizkalesi.png",
+      "dimensions_px": [
+        379,
+        289
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "viewpoint": "south_elevated",
+      "map_region": "main",
+      "geographic_coordinates": null,
+      "geographic_placement_ready": false,
+      "temporal_gate": {
+        "start": 1200,
+        "end": null
+      },
+      "approved_for_review_placement": true,
+      "production_approved": false,
+      "print_quality_verified": false,
+      "historical_accuracy_certified": false,
+      "repaint_required": true,
+      "notes": [
+        "Depicted offshore island motif is suitable as concept, but outline and heraldry unverified.",
+        "Inspect visible red/yellow edge speckling and native pixel density before map print."
+      ]
+    },
+    {
+      "id": "CRUS-FORT-Q13-09",
+      "site_name": "Buffavento",
+      "site_slug": "buffavento",
+      "identity_assignment": "proposed_not_verified",
+      "source_sheet": "medieval_crusader_fortress_sprite_collection.png",
+      "sheet_row": 3,
+      "sheet_col": 1,
+      "expected_png": "data/sprites/intake/fortress-queue-2026-11-11/fortress-concept-09-buffavento.png",
+      "github_actions_intake_filename": "fortress-concept-09-buffavento.png",
+      "dimensions_px": [
+        378,
+        349
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "viewpoint": "south_elevated",
+      "map_region": "main",
+      "geographic_coordinates": null,
+      "geographic_placement_ready": false,
+      "temporal_gate": null,
+      "approved_for_review_placement": true,
+      "production_approved": false,
+      "print_quality_verified": false,
+      "historical_accuracy_certified": false,
+      "repaint_required": true,
+      "notes": [
+        "Ridge height and fortification footprint must be compared to site.",
+        "Inspect visible red/yellow edge speckling and native pixel density before map print."
+      ]
+    },
+    {
+      "id": "CRUS-FORT-Q13-10",
+      "site_name": "Kantara",
+      "site_slug": "kantara",
+      "identity_assignment": "proposed_not_verified",
+      "source_sheet": "medieval_crusader_fortress_sprite_collection.png",
+      "sheet_row": 3,
+      "sheet_col": 2,
+      "expected_png": "data/sprites/intake/fortress-queue-2026-11-11/fortress-concept-10-kantara.png",
+      "github_actions_intake_filename": "fortress-concept-10-kantara.png",
+      "dimensions_px": [
+        380,
+        349
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "viewpoint": "south_elevated",
+      "map_region": "main",
+      "geographic_coordinates": null,
+      "geographic_placement_ready": false,
+      "temporal_gate": null,
+      "approved_for_review_placement": true,
+      "production_approved": false,
+      "print_quality_verified": false,
+      "historical_accuracy_certified": false,
+      "repaint_required": true,
+      "notes": [
+        "Ridge and castle shape require geographic review.",
+        "Inspect visible red/yellow edge speckling and native pixel density before map print."
+      ]
+    },
+    {
+      "id": "CRUS-FORT-Q13-11",
+      "site_name": "Kolossi",
+      "site_slug": "kolossi",
+      "identity_assignment": "proposed_not_verified",
+      "source_sheet": "medieval_crusader_fortress_sprite_collection.png",
+      "sheet_row": 3,
+      "sheet_col": 3,
+      "expected_png": "data/sprites/intake/fortress-queue-2026-11-11/fortress-concept-11-kolossi.png",
+      "github_actions_intake_filename": "fortress-concept-11-kolossi.png",
+      "dimensions_px": [
+        379,
+        314
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "viewpoint": "south_elevated",
+      "map_region": "main",
+      "geographic_coordinates": null,
+      "geographic_placement_ready": false,
+      "temporal_gate": {
+        "start": 1200,
+        "end": null
+      },
+      "approved_for_review_placement": true,
+      "production_approved": false,
+      "print_quality_verified": false,
+      "historical_accuracy_certified": false,
+      "repaint_required": true,
+      "notes": [
+        "Prominent keep may reflect later fabric; never assume 1180 appearance.",
+        "Inspect visible red/yellow edge speckling and native pixel density before map print."
+      ]
+    },
+    {
+      "id": "CRUS-FORT-Q13-12",
+      "site_name": "Chlemoutsi",
+      "site_slug": "chlemoutsi",
+      "identity_assignment": "proposed_not_verified",
+      "source_sheet": "medieval_crusader_fortress_sprite_collection.png",
+      "sheet_row": 3,
+      "sheet_col": 4,
+      "expected_png": "data/sprites/intake/fortress-queue-2026-11-11/fortress-concept-12-chlemoutsi.png",
+      "github_actions_intake_filename": "fortress-concept-12-chlemoutsi.png",
+      "dimensions_px": [
+        380,
+        326
+      ],
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "viewpoint": "south_elevated",
+      "map_region": "aegean",
+      "geographic_coordinates": null,
+      "geographic_placement_ready": false,
+      "temporal_gate": {
+        "start": 1220,
+        "end": null
+      },
+      "approved_for_review_placement": true,
+      "production_approved": false,
+      "print_quality_verified": false,
+      "historical_accuracy_certified": false,
+      "repaint_required": true,
+      "notes": [
+        "Construction begins in 1220s; exclude from 1180.",
+        "Inspect visible red/yellow edge speckling and native pixel density before map print."
+      ]
+    }
+  ]
+}
