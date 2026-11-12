@@ -182,19 +182,7 @@
       "reason": "missing or incompatible depiction_year"
     }
   ],
-  "failures": [
-    {
-      "id": "feke-1180-intake-review",
-      "reason": "sprite footprint clips sheet",
-      "path": "data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png",
-      "rect": [
-        1936,
-        -39,
-        2064,
-        79
-      ]
-    }
-  ],
+  "failures": [],
   "rendered_assets": [
     {
       "id": "constantinople-1180-v1",
@@ -394,10 +382,10 @@
         291
       ],
       "pixel_footprint": [
-        1936,
-        -39,
-        2064,
-        79
+        1964,
+        10,
+        2036,
+        76
       ]
     },
     {
