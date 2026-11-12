@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-11",
+  "batch": "fortress-batch13",
+  "repository_status": "binary PNG cutouts and split approved source masters committed",
+  "asset_count": 73,
+  "named_fortress_count": 4,
+  "generic_asset_count": 69,
+  "named_fortresses": [
+    "Bourzey",
+    "Shaizar",
+    "Masyaf",
+    "Qadmus"
+  ],
+  "approved_for_review_placement": true,
+  "production_approved": false,
+  "named_placement_file": "data/sprites/placements-review-1180.geojson",
+  "generic_placement_policy": "visual-review library approved; no coordinates invented; manual review placement only",
+  "star_fort_exclusion": "map_fillers_set_a-010.png excluded; original set A collage omitted",
+  "remaining_unpainted_from_previous_seven": [
+    "Chastellet/Jacob's Ford (only 1178-1179; do not show standing in 1180)",
+    "Darbsak",
+    "Feke"
+  ],
+  "priority_repaint": [
+    "Kizkalesi as small offshore castle"
+  ],
+  "technical_qa": "alpha edges, historical period/identity and print validation pending"
+}
