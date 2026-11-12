@@ -7,8 +7,9 @@ from PIL import Image, ImageEnhance
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = os.path.join(HERE, "assets", "terrain")
-DRYSTRIP = ["gravel-wasteland", "rocky-desert", "dry-scrub-steppe", "eroded-badlands", "salt-flat", "desert-escarpment", "dune-transition"]
-DUNES = ["sand-dunes", "dune-transition"]
+DRYSTRIP = ["gravel-wasteland", "rocky-desert", "dry-scrub-steppe", "eroded-badlands", "salt-flat", "desert-escarpment", "dune-transition",
+            "flat-desert-pavement", "flat-desert-sand-sheet", "shallow-desert-wash", "desert-gravel-sand-transition", "salt-flat-basin"]
+DUNES = ["sand-dunes", "dune-transition", "dune-field-deep"]
 LEB_P = ["lebanon-high-massif"]; LEB_M = ["lebanon-short-ridge", "lebanon-saddle", "lebanon-short-ridge", "sparse-cedar-woodland"]
 PAL_P = ["palestine-limestone-ridge", "limestone-narrow-spine"]; PAL_M = ["limestone-narrow-spine", "palestine-limestone-ridge", "limestone-branching-spur", "limestone-valley-gap"]
 TAU_P = ["taurus-ridge", "taurus-short-peaks", "taurus-ridge"]; TAU_M = ["taurus-cliff-spur", "anatolian-rocky-saddle", "taurus-short-peaks"]
@@ -46,10 +47,10 @@ GUSED = {}
 POOL = {"green": G_GREEN + G2P.get("green", []), "past": G_PAST + G2P.get("past", []), "arid": G_ARID + G2P.get("arid", []),
         "oasis": G_OASIS + G2P.get("oasis", []), "vegg": G2P.get("vegg", []), "vegd": G2P.get("vegd", []), "vega": G2P.get("vega", []),
         "rock": G2P.get("rock", []), "ruin": G2P.get("ruin", []), "patchg": G2P.get("patchg", []), "patchw": G2P.get("patchw", []),
-        "patchd": G2P.get("patchd", []), "patcha": G2P.get("patcha", []), "delta": G2P.get("delta", []) + G2P.get("green", [])[:4]}
+        "patchd": G2P.get("patchd", []), "patcha": G2P.get("patcha", []), "delta": G2P.get("delta", []) + G2P.get("green", [])[:4], "town": G2P.get("fb:town", [])}
 POOL_SHIP = G2P.get("ship", [])
 GSIZE = {"green": (120, 150), "past": (120, 150), "arid": (115, 145), "oasis": (120, 150), "vegg": (70, 95), "vegd": (60, 85), "vega": (70, 90),
-         "rock": (95, 130), "ruin": (105, 130), "patchg": (190, 240), "patchw": (190, 240), "patchd": (190, 240), "patcha": (200, 250), "delta": (115, 140)}
+         "rock": (95, 130), "ruin": (105, 130), "patchg": (190, 240), "patchw": (190, 240), "patchd": (190, 240), "patcha": (200, 250), "delta": (115, 140), "town": (170, 205)}
 
 
 def gsurf(i, edition, width):
@@ -81,14 +82,14 @@ def gdraw(c, i, x, y, width, edition):
     c.restore()
 
 
-DEEP = ["gravel-wasteland-deep", "steppe-basin-deep"]
+DEEP = ["gravel-wasteland-deep", "steppe-basin-deep", "dune-field-deep", "badlands-tall-massif", "escarpment-tall-deep"]
 FARM_RICH = ["levant-farmland", "orchard-field-mosaic", "river-floodplain-fields", "orchard-field-mosaic", "levant-farmland"]
 FARM_FLAT = ["river-floodplain-fields", "levant-farmland", "river-floodplain-fields"]
 FARM_PASTURE = ["dry-stone-pasture"]
 FARM_AEG = ["aegean-terraced-farmland", "aegean-island-interior", "aegean-terraced-farmland"]
 FEATHER = set(FARM_RICH + FARM_PASTURE + FARM_AEG + ["gravel-wasteland-deep", "steppe-basin-deep"])
 
-FEATHER |= set(C_RICH + C_PAST + C_WASTE)
+FEATHER |= set(DEEP) | set(C_RICH + C_PAST + C_WASTE)
 
 
 def choose(kind, lon, lat, waste, aegean, rnd):

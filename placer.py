@@ -250,6 +250,8 @@ def build_items(TER, REG, BOX):
         it.rf = RF[region]
         it.sprite = SP.MATCH.get(name)
         it.w = (SP.width_for(tier, it.rf, it.sprite.get('units', 512)) * SP.SCALE.get(name, 1.0) if it.sprite else symbol_size(mark, tier, name) * it.rf)
+        if it.sprite and region == "main" and 35.0 < lon < 35.95 and 32.3 < lat < 33.4:
+            it.w *= 0.85                                  # Galilee is crowded: sprites there are a little smaller
         if it.sprite:
             nudge_sprite(it, WF)
         else:
@@ -414,13 +416,13 @@ def curved_fallback(c, it, lines, base, rr, ctx):
     """Try tilted / curved placement of the name (and modern name) around the symbol."""
     LF, HARD, sym, labs, soft, terr, W, H = ctx
     lines = lines[:2]
-    for scale in (0.86, 0.74, 0.64, 0.56):
+    for far, scale in [(False, s_) for s_ in (0.86, 0.74, 0.64, 0.56, 0.5)] + [(True, s_) for s_ in (0.74, 0.64, 0.56)]:
         blk = measure(c, lines, base * scale)
         bw = max(b[3] for b in blk); fs0 = blk[0][1]
         cx, cy = (rr[0] + rr[2]) / 2, (rr[1] + rr[3]) / 2
         rad0 = max(rr[2] - rr[0], rr[3] - rr[1]) / 2 + 10 * it.rf + 10 + (28 if it.kind == 'isle' else 0)
         best = None
-        for dist_k in ((1.0, 1.25, 1.6, 2.2, 3.0, 4.2, 6.0) if it.kind != 'isle' else (1.0, 2.0, 3.5, 5.0, 7.0, 10.0)):
+        for dist_k in (((1.0, 1.25, 1.6) if not far else (2.2, 3.0, 4.2, 6.0)) if it.kind != 'isle' else ((1.0, 2.0) if not far else (3.5, 5.0, 7.0, 10.0))):
             for ak in range(16):
                 a = 2 * math.pi * ak / 16
                 for theta_d in (0, -20, 20, -35, 35, -60, 60, -85, 85):
@@ -438,7 +440,7 @@ def curved_fallback(c, it, lines, base, rr, ctx):
                             r_ = (x - fs0 * 0.45, y - hh * 0.8, x + fs0 * 0.45, y + hh * 0.5)
                             if r_[0] < 110 or r_[2] > W - 110 or r_[1] < 110 or r_[3] > H - 110:
                                 ok = False; break
-                            if not HARD.free(r_, 3) or not sym.free(r_, 4) or not labs.free(r_, 5) or soft.frac(r_) > 0.2 or terr.frac(r_) > (0.30 if scale > 0.7 else 0.6):
+                            if not HARD.free(r_, 3) or not sym.free(r_, 4) or not labs.free(r_, 5) or soft.frac(r_) > 0.2 or terr.frac(r_) > (0.30 if scale > 0.7 else 0.85):
                                 ok = False; break
                             if not LF(x, y) and it.kind in ("place",):
                                 if not sea_ok(LF, r_):
@@ -453,6 +455,7 @@ def curved_fallback(c, it, lines, base, rr, ctx):
         if best:
             _, pts, boxes, dk = best
             if dk > 1.6 and it.kind != 'isle':
+                it.leader = True
                 q = min(pts, key=lambda t: (t[0] - cx) ** 2 + (t[1] - cy) ** 2)
                 c.save(); c.set_source_rgba(*INKC, 0.8); c.set_line_width(2.2); c.move_to(min(max(q[0], rr[0]), rr[2]), min(max(q[1], rr[1]), rr[3])); c.line_to(q[0], q[1]); c.stroke(); c.restore()
             off = 0.0
@@ -638,8 +641,8 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
         rr = it.rect
         h_sym = rr[3] - rr[1]
         done = False
-        for thr in (0.10, 0.45):
-          for scale in (1.0, 0.86, 0.74, 0.64):
+        for thr in (0.10, 0.45, 0.85):
+          for scale in (1.0, 0.86, 0.74, 0.64, 0.56):
             blk = measure(c, lines, base * scale)
             bw = max(b[3] for b in blk); bh = sum(b[4] for b in blk)
             gap = 11 * it.rf + 8
@@ -709,7 +712,7 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
     log("placed", len(kept), "symbols of", len(items))
     for it in kept:
         sp_ = getattr(it, "sprite", None)
-        REPORT[(it.name, it.kind)] = dict(status="shown", region=it.region, x=round(it.x + BOX[it.region][0]), y=round(it.y + BOX[it.region][1]),
+        REPORT[(it.name, it.kind)] = dict(status="shown", region=it.region, x=round(it.x), y=round(it.y), leader=bool(getattr(it, 'leader', False)),
                                           sprite=(sp_ or {}).get("variant"), generic=bool((sp_ or {}).get("generic")),
                                           label=("no label room" if it.name in misses else "labelled"))
     import json as _j

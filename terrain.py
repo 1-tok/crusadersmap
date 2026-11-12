@@ -570,6 +570,8 @@ class Terrain:
                         gk = None
                 elif f <= 0.28 and e < 1200 and self.dland[at(x, y)[1], at(x, y)[0]] > 8:
                     gk = ("oasis" if u < 0.012 else "arid") if u < 0.06 else ("patcha" if u < 0.10 else ("vega" if u < 0.108 else ("ruin" if u < 0.115 else None)))
+                if gk in ("green", "past") and not in_delta(x, y) and rnd.random() < (0.16 if gk == "green" else 0.10):
+                    gk = "town"
                 if gk and TSP.POOL.get(gk):
                     lo_, hi_ = TSP.GSIZE[gk]
                     items.append((y, "hamlet", x, y, rnd.uniform(lo_, hi_) * m, rnd.randint(1, 10 ** 6), gk))
