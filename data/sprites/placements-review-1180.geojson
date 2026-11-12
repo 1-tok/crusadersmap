@@ -8,9 +8,10 @@
     "approval_scope": "Every drafted image is approved for review map placement despite incomplete or failed QA. Never imply production or historical approval.",
     "duplicates": "Choose one candidate per site; only show review layer when enabled.",
     "date_guard": "Honor depiction_year; Safed 1245 not on 1180 layer.",
-    "updated": "2026-11-11",
+    "updated": "2026-11-12",
     "additional_city_sprites": 43,
-    "notes": "Later-founded Mystras and Mansoura excluded from 1180."
+    "notes": "Later-founded Mystras and Mansoura excluded from 1180.",
+    "note": "Darbsak and Feke imported review variants added; Jacob's Ford standing fortress and later castles excluded from 1180."
   },
   "features": [
     {
@@ -2333,6 +2334,114 @@
           "Nizari fortress; no assumption of Crusader ownership",
           "Illustrative site footprint and village setting"
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "darbsak-1180-intake-review",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.43,
+          36.42
+        ]
+      },
+      "properties": {
+        "site_id": "darbsak",
+        "source_site_id": "CP-065",
+        "name": "Darbsak",
+        "asset_id": "INTAKE-30eaae615a8de1e43000",
+        "asset_path": "data/sprites/automated-intake/png/darbsak-30eaae615a8d.png",
+        "map_region": "main",
+        "depiction_year": 1180,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "fortifications",
+          "main"
+        ],
+        "candidate_only": false,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "default_visible": true,
+        "period_1180_eligible": true,
+        "technical_qa_status": "pass",
+        "geographic_placement_ready": true,
+        "coordinate_evidence": {
+          "source": "data/manifests/crusader-period/site-history.json",
+          "site_id": "CP-065",
+          "surveyed": false,
+          "uncertainty_note": "Inherited source gazetteer anchor, not surveyed castle footprint"
+        },
+        "historical_review_required": true,
+        "visual_review_required": true,
+        "display_width_units": 512,
+        "variant_group": "darbsak",
+        "variant_rule": "Show one variant per site at a time; never overlay Batch 12/13 alternatives",
+        "review_note": "Existing Templar possession recorded for 1137–1188; historical silhouette unverified",
+        "approval_for_placement": true,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": false,
+        "repaint_flags": [
+          "Existing Templar possession recorded for 1137–1188; historical silhouette unverified"
+        ],
+        "period_note": "Review depiction_year only; do not infer exact construction phase from this candidate illustration"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "feke-1180-intake-review",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9,
+          37.82
+        ]
+      },
+      "properties": {
+        "site_id": "feke",
+        "source_site_id": "CP-076",
+        "name": "Feke",
+        "asset_id": "INTAKE-9222ed7f72b98002f2c9",
+        "asset_path": "data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png",
+        "map_region": "main",
+        "depiction_year": 1180,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "fortifications",
+          "main"
+        ],
+        "candidate_only": false,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "default_visible": true,
+        "period_1180_eligible": true,
+        "technical_qa_status": "pass",
+        "geographic_placement_ready": true,
+        "coordinate_evidence": {
+          "source": "data/manifests/crusader-period/site-history.json",
+          "site_id": "CP-076",
+          "surveyed": false,
+          "uncertainty_note": "Inherited source gazetteer anchor, not surveyed castle footprint"
+        },
+        "historical_review_required": true,
+        "visual_review_required": true,
+        "display_width_units": 512,
+        "variant_group": "feke",
+        "variant_rule": "Show one variant per site at a time; never overlay Batch 12/13 alternatives",
+        "review_note": "Fortification location recorded, but lordship/architecture in 1180 needs research",
+        "approval_for_placement": true,
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "repaint_required": false,
+        "repaint_flags": [
+          "Fortification location recorded, but lordship/architecture in 1180 needs research"
+        ],
+        "period_note": "Review depiction_year only; do not infer exact construction phase from this candidate illustration"
       }
     }
   ]
