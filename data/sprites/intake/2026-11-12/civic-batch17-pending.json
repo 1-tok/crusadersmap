@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "batch_id": "CIVIC-B17",
+  "status": "provisional_for_map_placement_review",
+  "historical_accuracy_certified": false,
+  "source_image": "a_detailed_watercolor_ink_style_sprite_sheet_on_tr.png",
+  "binary_upload_status": "pending_binary_intake",
+  "note": "Four unique selected sprites only; reconstructed alpha from RGB checkerboard source, all crops touch edges; retain originals and review print quality.",
+  "assets": [
+    {
+      "id": "CIVIC-B17-01",
+      "subject": "Medieval shipyard",
+      "category": "port",
+      "filename": "civic-b17-01-shipyard.png",
+      "sha256": "7d754b53a71645aafc988794c1587fd50a2b24e2fbf9b44a94eec25890bf76fb",
+      "dimensions_px": [
+        384,
+        322
+      ],
+      "approval_status": "provisional",
+      "approved_for_placement_review": true,
+      "geographic_placement_ready": false,
+      "coordinates": null,
+      "historical_review_required": true,
+      "alpha_review_required": true,
+      "source_cell_edge_contact": true,
+      "binary_present_in_repository": false
+    },
+    {
+      "id": "CIVIC-B17-02",
+      "subject": "Salt evaporation pans",
+      "category": "terrain",
+      "filename": "civic-b17-02-salt-pans.png",
+      "sha256": "c8e82e5e007b87b47e071682d1bcd752d1625e8f5af129bec440b1fc63567a1d",
+      "dimensions_px": [
+        384,
+        339
+      ],
+      "approval_status": "provisional",
+      "approved_for_placement_review": true,
+      "geographic_placement_ready": false,
+      "coordinates": null,
+      "historical_review_required": true,
+      "alpha_review_required": true,
+      "source_cell_edge_contact": true,
+      "binary_present_in_repository": false
+    },
+    {
+      "id": "CIVIC-B17-03",
+      "subject": "Desert caravan well",
+      "category": "landmark",
+      "filename": "civic-b17-03-desert-caravan-well.png",
+      "sha256": "b6e6ed9e411a3aeedad29e3f78644d8bf2168db4dc7bc3f770cbacae5591de24",
+      "dimensions_px": [
+        384,
+        306
+      ],
+      "approval_status": "provisional",
+      "approved_for_placement_review": true,
+      "geographic_placement_ready": false,
+      "coordinates": null,
+      "historical_review_required": true,
+      "alpha_review_required": true,
+      "source_cell_edge_contact": true,
+      "binary_present_in_repository": false
+    },
+    {
+      "id": "CIVIC-B17-04",
+      "subject": "Pottery and brick kilns",
+      "category": "landmark",
+      "filename": "civic-b17-04-pottery-brick-kilns.png",
+      "sha256": "81fdbfd99444eb9686d0c72e7d7205e9418e232380bf80ec2e0aaf31e08f6bf1",
+      "dimensions_px": [
+        384,
+        324
+      ],
+      "approval_status": "provisional",
+      "approved_for_placement_review": true,
+      "geographic_placement_ready": false,
+      "coordinates": null,
+      "historical_review_required": true,
+      "alpha_review_required": true,
+      "source_cell_edge_contact": true,
+      "binary_present_in_repository": false
+    }
+  ]
+}
