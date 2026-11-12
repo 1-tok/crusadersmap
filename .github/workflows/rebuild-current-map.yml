@@ -1,0 +1,74 @@
+name: Rebuild latest Crusader map composite
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rebuild-current-map.yml'
+      - 'tools/rebuild_city_coastal_qa.py'
+      - 'build_stage1.py'
+      - 'build_stage2.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: map-rebuild-main
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Graphics libraries and fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y libcairo2-dev pkg-config fontconfig
+          fc-cache -f fonts || true
+          python -m pip install --upgrade pip
+          python -m pip install numpy Pillow scipy shapely pyproj pycairo
+      - name: Regenerate current inventory and select latest located artwork
+        run: |
+          mkdir -p out deliver reports/rebuild-2026-11-12
+          python tools/build_sprite_handoff.py
+          python build_sprite_assets.py "$PWD"
+          python build_generic_assets.py "$PWD"
+          python build_fallback_assets.py
+          python tools/rebuild_city_coastal_qa.py
+      - name: Render actual current map from geographic sources
+        run: |
+          python build_stage2.py 0.30 colour
+          cp out/stage2-colour.jpg reports/rebuild-2026-11-12/outremer-current-composite.jpg
+      - name: Generate new coverage and asset-usage registers
+        run: |
+          mkdir -p deliver
+          python make_registers.py "$PWD"
+          cp deliver/site-coverage-register.csv reports/rebuild-2026-11-12/
+          cp deliver/image-usage-and-off-map-list.csv reports/rebuild-2026-11-12/
+          cp deliver/terrain-gap-report.md reports/rebuild-2026-11-12/
+          cp deliver/terrain-gap-cells.csv reports/rebuild-2026-11-12/
+      - name: Upload build outputs for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: latest-crusader-composite-and-QA
+          path: |
+            reports/rebuild-2026-11-12/
+            out/placement_log.json
+            out/usage.json
+          if-no-files-found: warn
+      - name: Commit latest composite and QA registers to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/rebuild-2026-11-12/
+          if ! git diff --cached --quiet; then
+            git commit -m "build: current composite with enlarged title, refreshed city sprites, terrain coverage [skip ci]"
+            git push
+          fi
