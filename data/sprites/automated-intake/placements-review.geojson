@@ -49,6 +49,28 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-2095a3bf52a4bd71d9ce",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2095a3bf52a4bd71d9ce",
+        "asset": "data/sprites/automated-intake/png/darbsak-trapesac-2095a3bf52a4.png",
+        "site_id": "darbsak-trapesac",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-21cdd6fda2717da7e6ce",
       "geometry": null,
       "properties": {
@@ -207,6 +229,28 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-5df9cdf9a419a108ee37",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-5df9cdf9a419a108ee37",
+        "asset": "data/sprites/automated-intake/png/feke-vahga-5df9cdf9a419.png",
+        "site_id": "feke-vahga",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-6b5a1ae89a82778944a0",
       "geometry": null,
       "properties": {
@@ -246,6 +290,28 @@
         "display_width_units": 512,
         "review_flags": [
           "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8906198a8b883086d7b9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-8906198a8b883086d7b9",
+        "asset": "data/sprites/automated-intake/png/k-zkalesi-offshore-castle-8906198a8b88.png",
+        "site_id": "kizkalesi-offshore",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
           "coordinates_unverified"
         ]
       }
@@ -472,6 +538,29 @@
           "category_unverified",
           "coordinates_unverified",
           "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-d05cf2a06c1aea95bf49",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-d05cf2a06c1aea95bf49",
+        "asset": "data/sprites/automated-intake/png/jacob-s-ford-chastellet-ruins-d05cf2a06c1a.png",
+        "site_id": "jacobs-ford-chastellet-ruins",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
         ]
       }
     },
