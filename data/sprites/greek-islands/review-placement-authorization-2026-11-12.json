@@ -1,0 +1,596 @@
+{
+  "schema_version": "1.0",
+  "approved_on": "2026-11-12",
+  "approval_scope": "PROVISIONAL_VISUAL_REVIEW",
+  "status": "AUTHORIZED_FOR_REVIEW_NOT_GEOREGISTERED",
+  "description": "User has explicitly authorized placement for review. All PNGs are enabled in a review gallery. Four Batch 04 subjects have pre-existing approximate anchors for pin-only geographic review; these are not enough to place painted island silhouettes. Do not place unregistered shapes on land/sea.",
+  "sprites": [
+    {
+      "asset_path": "data/sprites/greek-islands/batch-04/review-unregistered/72-arki-marathi-cluster-draft-9d7fbc4c2d88.png",
+      "subject_id": "greek-island-72",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": true,
+      "review_marker_anchor_wgs84": [
+        26.74,
+        37.39
+      ],
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-04/review-unregistered/73-oinousses-cluster-draft-fd807ab99f04.png",
+      "subject_id": "greek-island-73",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": true,
+      "review_marker_anchor_wgs84": [
+        26.22,
+        38.51
+      ],
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-04/review-unregistered/74-fournoi-cluster-draft-ca98b66a708c.png",
+      "subject_id": "greek-island-74",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": true,
+      "review_marker_anchor_wgs84": [
+        26.49,
+        37.58
+      ],
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-04/review-unregistered/75-antikythera-draft-09bb8904668b.png",
+      "subject_id": "greek-island-75",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": true,
+      "review_marker_anchor_wgs84": [
+        23.3,
+        35.87
+      ],
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-05/review-unregistered/b05-concept-01-unassigned-draft-74191efe98aa.png",
+      "subject_id": null,
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-05/review-unregistered/b05-concept-02-unassigned-draft-bbbf8b229ab5.png",
+      "subject_id": null,
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-05/review-unregistered/b05-concept-03-unassigned-draft-b1d2b8d18c89.png",
+      "subject_id": null,
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-05/review-unregistered/b05-concept-04-unassigned-draft-263ddba85249.png",
+      "subject_id": null,
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-06/review-unregistered/76-othonoi-concept-65b2888de91b.png",
+      "subject_id": "greek-island-76",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-06/review-unregistered/77-ereikoussa-concept-121fcdbe63d7.png",
+      "subject_id": "greek-island-77",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-06/review-unregistered/78-mathraki-concept-8c230f7ded59.png",
+      "subject_id": "greek-island-78",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-06/review-unregistered/79-saria-concept-06d4c61e5832.png",
+      "subject_id": "greek-island-79",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-08/review-unregistered/86-polyaigos-concept-d0b77d2b1cfe.png",
+      "subject_id": "greek-island-86",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-08/review-unregistered/87-gyaros-concept-52d0b94c4e4d.png",
+      "subject_id": "greek-island-87",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-08/review-unregistered/88-makronisos-concept-48de6d91dca5.png",
+      "subject_id": "greek-island-88",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-08/review-unregistered/89-dokos-concept-ad2102d19765.png",
+      "subject_id": "greek-island-89",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-08/review-unregistered/90-sapientza-concept-7d28e59627c7.png",
+      "subject_id": "greek-island-90",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-08/review-unregistered/91-schiza-concept-0a2fcaf14b22.png",
+      "subject_id": "greek-island-91",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-09/review-unregistered/92-thirasia-concept-d68549eea353.png",
+      "subject_id": "greek-island-92",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-09/review-unregistered/93-despotiko-concept-4cca48917a9f.png",
+      "subject_id": "greek-island-93",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-09/review-unregistered/94-dia-concept-757a8049c4c9.png",
+      "subject_id": "greek-island-94",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-09/review-unregistered/95-antimilos-concept-7a3f40bb4125.png",
+      "subject_id": "greek-island-95",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-09/review-unregistered/96-gramvousa-concept-3fc3adbd687b.png",
+      "subject_id": "greek-island-96",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-09/review-unregistered/97-chrysi-concept-9595a7a06e05.png",
+      "subject_id": "greek-island-97",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-10/review-unregistered/100-kyra-panagia-concept-e0be838bd796.png",
+      "subject_id": "greek-island-100",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-10/review-unregistered/101-gioura-concept-5fd81cf6ac1e.png",
+      "subject_id": "greek-island-101",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-10/review-unregistered/102-piperi-sporades-concept-5f278c47616e.png",
+      "subject_id": "greek-island-102",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-10/review-unregistered/103-skantzoura-concept-133f1b87a823.png",
+      "subject_id": "greek-island-103",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-10/review-unregistered/98-agios-efstratios-concept-fef992e0674c.png",
+      "subject_id": "greek-island-98",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    },
+    {
+      "asset_path": "data/sprites/greek-islands/batch-10/review-unregistered/99-peristera-sporades-concept-18b90c11fb97.png",
+      "subject_id": "greek-island-99",
+      "concept_only": true,
+      "review_authorized": true,
+      "review_gallery_enabled": true,
+      "review_map_marker_enabled": false,
+      "review_marker_anchor_wgs84": null,
+      "geographic_sprite_placement_enabled": false,
+      "render_bbox_wgs84": null,
+      "historical_accuracy_certified": false,
+      "print_quality_approved": false,
+      "qa_required": [
+        "verified-coastline",
+        "medieval-building-chronology",
+        "alpha-fringe",
+        "duplicate-and-scale-review"
+      ]
+    }
+  ],
+  "pending_zip_intake": [
+    "crusader_greek_islands_batch07_intake.zip",
+    "crusader_greek_islands_batch11_intake.zip"
+  ],
+  "review_rule": "For a mapped sprite, require verified coastlines + actual image render_bbox_wgs84 before enabling geographic_sprite_placement_enabled. Review pin markers are separate from painted overlays."
+}
