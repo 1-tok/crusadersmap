@@ -1,0 +1,53 @@
+name: Review map diagnostic preview
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'render_sprite_layer.py'
+      - 'sprite_geometry.py'
+      - 'tools/audit_review_map.py'
+      - 'tests/test_review_sprite_date_gates.py'
+      - '.github/workflows/review-map-diagnostics.yml'
+      - 'data/sprites/placements-review-1180.geojson'
+      - 'data/sprites/placements-review-1250.geojson'
+
+permissions:
+  contents: read
+
+jobs:
+  review-layer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install diagnostic dependencies
+        run: python -m pip install Pillow pyproj
+      - name: Check year-gating regression tests
+        run: python -m unittest discover -s tests -p 'test_review_sprite_date_gates.py' -v
+      - name: Build review-only 1180 sprite preview
+        run: |
+          mkdir -p previews
+          python render_sprite_layer.py --year 1180 --review
+          python tools/audit_review_map.py --year 1180
+      - name: Build later-phase 1250 sprite preview
+        run: |
+          python render_sprite_layer.py --year 1250 --review
+          python tools/audit_review_map.py --year 1250
+      - name: Upload diagnostic JPG and audit results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crusader-map-review-diagnostics
+          path: |
+            previews/sprite-placement-review-1180.jpg
+            previews/sprite-placement-review-1250.jpg
+            previews/review-placement-audit-1180.json
+            previews/review-placement-audit-1180.md
+            previews/review-placement-audit-1250.json
+            previews/review-placement-audit-1250.md
+          if-no-files-found: warn
