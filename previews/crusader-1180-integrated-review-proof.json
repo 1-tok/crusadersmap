@@ -1,0 +1,1345 @@
+{
+  "purpose": "visual integration proof, not production or print approval",
+  "map_source": "previews/crusader-stage3c-colour.jpg",
+  "year": 1180,
+  "dimensions_px": [
+    2700,
+    3600
+  ],
+  "selected": 67,
+  "rendered": 67,
+  "held": [
+    {
+      "id": "safed-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "nazareth-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "nablus-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "tiberias-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "banias-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "bosra-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "damascus-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "baalbek-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "aleppo-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "hama-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "homs-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "latakia-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "jableh-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "baniyas-syria-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "apamea-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "harim-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "artah-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "iskenderun-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "kozan-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "tarsus-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "adana-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "misis-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "yumurtalik-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "kahramanmaras-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "famagusta-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "paphos-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "edirne-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "iznik-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "navarino-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "zakynthos-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "kythira-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "kos-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "leros-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "naxos-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "tinos-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "santorini-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "mytilene-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "foca-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "lemnos-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "selcuk-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "alasehir-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "faraskur-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    },
+    {
+      "id": "pelusium-1180-review-v1",
+      "reason": "missing or incompatible depiction_year"
+    }
+  ],
+  "failures": [
+    {
+      "id": "feke-1180-intake-review",
+      "reason": "sprite footprint clips sheet",
+      "path": "data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png",
+      "rect": [
+        1936,
+        -39,
+        2064,
+        79
+      ]
+    }
+  ],
+  "rendered_assets": [
+    {
+      "id": "constantinople-1180-v1",
+      "name": "Constantinople",
+      "site_id": "constantinople",
+      "asset": "data/sprites/greece-egypt-1180-constantinople/constantinople-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        4380,
+        592
+      ],
+      "pixel_footprint": [
+        967,
+        20,
+        1223,
+        154
+      ]
+    },
+    {
+      "id": "thessaloniki-1180-v1",
+      "name": "Thessaloniki",
+      "site_id": "thessaloniki",
+      "asset": "data/sprites/greece-egypt-1180/thessaloniki-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        1661,
+        838
+      ],
+      "pixel_footprint": [
+        351,
+        131,
+        479,
+        213
+      ]
+    },
+    {
+      "id": "corfu-1180-v1",
+      "name": "Corfu",
+      "site_id": "corfu",
+      "asset": "data/sprites/greece-egypt-1180-batch04/corfu-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        267,
+        1388
+      ],
+      "pixel_footprint": [
+        3,
+        283,
+        131,
+        350
+      ]
+    },
+    {
+      "id": "chalkida-1180-v1",
+      "name": "Chalkida",
+      "site_id": "chalkida",
+      "asset": "data/sprites/greece-egypt-1180/chalkida-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        1936,
+        2134
+      ],
+      "pixel_footprint": [
+        420,
+        450,
+        548,
+        537
+      ]
+    },
+    {
+      "id": "nafpaktos-1180-v1",
+      "name": "Nafpaktos",
+      "site_id": "nafpaktos",
+      "asset": "data/sprites/greece-egypt-1180-batch04/nafpaktos-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        1113,
+        2155
+      ],
+      "pixel_footprint": [
+        214,
+        455,
+        342,
+        542
+      ]
+    },
+    {
+      "id": "chios-1180-v1",
+      "name": "Chios",
+      "site_id": "chios",
+      "asset": "data/sprites/greece-egypt-1180-batch04/chios-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        3120,
+        2188
+      ],
+      "pixel_footprint": [
+        716,
+        465,
+        844,
+        550
+      ]
+    },
+    {
+      "id": "thebes-1180-v1",
+      "name": "Thebes",
+      "site_id": "thebes",
+      "asset": "data/sprites/greece-egypt-1180-batch02/thebes-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        1805,
+        2217
+      ],
+      "pixel_footprint": [
+        387,
+        471,
+        515,
+        557
+      ]
+    },
+    {
+      "id": "patras-1180-v1",
+      "name": "Patras",
+      "site_id": "patras",
+      "asset": "data/sprites/greece-egypt-1180-batch02/patras-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        1069,
+        2241
+      ],
+      "pixel_footprint": [
+        203,
+        478,
+        331,
+        564
+      ]
+    },
+    {
+      "id": "athens-1180-v3",
+      "name": "Athens",
+      "site_id": "athens",
+      "asset": "data/sprites/greece-egypt-1180/athens-1180-v3.png",
+      "source": "standard",
+      "anchor_px": [
+        1993,
+        2426
+      ],
+      "pixel_footprint": [
+        434,
+        522,
+        562,
+        610
+      ]
+    },
+    {
+      "id": "corinth-1180-v1",
+      "name": "Corinth",
+      "site_id": "corinth",
+      "asset": "data/sprites/greece-egypt-1180/corinth-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        1595,
+        2458
+      ],
+      "pixel_footprint": [
+        335,
+        532,
+        463,
+        618
+      ]
+    },
+    {
+      "id": "andravida-1180-v1",
+      "name": "Andravida",
+      "site_id": "andravida",
+      "asset": "data/sprites/greece-egypt-1180-batch03/andravida-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        839,
+        2437
+      ],
+      "pixel_footprint": [
+        146,
+        527,
+        274,
+        613
+      ]
+    },
+    {
+      "id": "feke-1180-intake-review",
+      "name": "Feke",
+      "site_id": "feke",
+      "asset": "data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png",
+      "source": "review",
+      "anchor_px": [
+        8001,
+        291
+      ],
+      "pixel_footprint": [
+        1936,
+        -39,
+        2064,
+        79
+      ]
+    },
+    {
+      "id": "anavarza-1180-review-v1",
+      "name": "Anavarza / Anazarbus",
+      "site_id": "anavarza",
+      "asset": "data/sprites/fortress-batch12-review/sprites/anavarza-1180-review-v1.png",
+      "source": "review",
+      "anchor_px": [
+        7993,
+        1366
+      ],
+      "pixel_footprint": [
+        1911,
+        254,
+        2086,
+        345
+      ]
+    },
+    {
+      "id": "methoni-1180-v1",
+      "name": "Methoni",
+      "site_id": "methoni",
+      "asset": "data/sprites/greece-egypt-1180-batch03/methoni-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        1022,
+        3086
+      ],
+      "pixel_footprint": [
+        191,
+        688,
+        319,
+        775
+      ]
+    },
+    {
+      "id": "koroni-1180-v1",
+      "name": "Koroni",
+      "site_id": "koroni",
+      "asset": "data/sprites/greece-egypt-1180-batch03/koroni-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        1144,
+        3103
+      ],
+      "pixel_footprint": [
+        222,
+        691,
+        350,
+        779
+      ]
+    },
+    {
+      "id": "monemvasia-1180-v1",
+      "name": "Monemvasia",
+      "site_id": "monemvasia",
+      "asset": "data/sprites/greece-egypt-1180-batch04/monemvasia-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        1663,
+        3180
+      ],
+      "pixel_footprint": [
+        352,
+        710,
+        480,
+        798
+      ]
+    },
+    {
+      "id": "rhodes-1180-v1",
+      "name": "Rhodes",
+      "site_id": "rhodes",
+      "asset": "data/sprites/greece-egypt-1180/rhodes-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        4133,
+        3308
+      ],
+      "pixel_footprint": [
+        969,
+        742,
+        1097,
+        830
+      ]
+    },
+    {
+      "id": "bagras-1180-review-v1",
+      "name": "Bagras",
+      "site_id": "bagras",
+      "asset": "data/sprites/greece-egypt-fortresses-04-review/bagras-1180-review-v1.png",
+      "source": "review",
+      "anchor_px": [
+        8481,
+        2838
+      ],
+      "pixel_footprint": [
+        2056,
+        625,
+        2184,
+        714
+      ]
+    },
+    {
+      "id": "darbsak-1180-intake-review",
+      "name": "Darbsak",
+      "site_id": "darbsak",
+      "asset": "data/sprites/automated-intake/png/darbsak-30eaae615a8d.png",
+      "source": "review",
+      "anchor_px": [
+        8784,
+        2849
+      ],
+      "pixel_footprint": [
+        2132,
+        616,
+        2260,
+        717
+      ]
+    },
+    {
+      "id": "antioch-1180-v2",
+      "name": "Antioch",
+      "site_id": "antioch",
+      "asset": "data/sprites/historical-1180/antioch-1180-v2.png",
+      "source": "standard",
+      "anchor_px": [
+        8418,
+        3244
+      ],
+      "pixel_footprint": [
+        2041,
+        729,
+        2169,
+        814
+      ]
+    },
+    {
+      "id": "saone-1180-v1",
+      "name": "Saône (Sahyun)",
+      "site_id": "saone",
+      "asset": "data/sprites/greece-egypt-fortresses-03/saone-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        8202,
+        4309
+      ],
+      "pixel_footprint": [
+        1987,
+        1014,
+        2115,
+        1081
+      ]
+    },
+    {
+      "id": "fortress-bourzey-1180-review",
+      "name": "Bourzey / Rochefort",
+      "site_id": "bourzey",
+      "asset": "data/sprites/fortress-batch13-review/png/bourzey-1180-provisional-v1.png",
+      "source": "review",
+      "anchor_px": [
+        8717,
+        4493
+      ],
+      "pixel_footprint": [
+        2123,
+        1052,
+        2235,
+        1127
+      ]
+    },
+    {
+      "id": "chania-1180-v1",
+      "name": "Chania",
+      "site_id": "chania",
+      "asset": "data/sprites/greece-egypt-1180-batch03/chania-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        2114,
+        3881
+      ],
+      "pixel_footprint": [
+        464,
+        886,
+        592,
+        974
+      ]
+    },
+    {
+      "id": "rethymno-1180-v1",
+      "name": "Rethymno",
+      "site_id": "rethymno",
+      "asset": "data/sprites/greece-egypt-1180-batch03/rethymno-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        2335,
+        3971
+      ],
+      "pixel_footprint": [
+        520,
+        898,
+        648,
+        996
+      ]
+    },
+    {
+      "id": "kyrenia-1180-v1",
+      "name": "Kyrenia",
+      "site_id": "kyrenia",
+      "asset": "data/sprites/greece-egypt-1180-cyprus-egypt/kyrenia-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        4147,
+        4773
+      ],
+      "pixel_footprint": [
+        973,
+        1108,
+        1101,
+        1196
+      ]
+    },
+    {
+      "id": "heraklion-1180-v1",
+      "name": "Heraklion",
+      "site_id": "heraklion",
+      "asset": "data/sprites/greece-egypt-1180/heraklion-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        2655,
+        3988
+      ],
+      "pixel_footprint": [
+        600,
+        912,
+        728,
+        1000
+      ]
+    },
+    {
+      "id": "st-hilarion-1180-v1",
+      "name": "St Hilarion",
+      "site_id": "st-hilarion",
+      "asset": "data/sprites/greece-egypt-1180-cyprus-egypt/st-hilarion-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        4084,
+        4824
+      ],
+      "pixel_footprint": [
+        957,
+        1123,
+        1085,
+        1209
+      ]
+    },
+    {
+      "id": "fortress-shaizar-1180-review",
+      "name": "Shaizar",
+      "site_id": "shaizar",
+      "asset": "data/sprites/fortress-batch13-review/png/shaizar-1180-provisional-v1.png",
+      "source": "review",
+      "anchor_px": [
+        9004,
+        4947
+      ],
+      "pixel_footprint": [
+        2195,
+        1169,
+        2307,
+        1240
+      ]
+    },
+    {
+      "id": "nicosia-1180-v1",
+      "name": "Nicosia",
+      "site_id": "nicosia",
+      "asset": "data/sprites/greece-egypt-1180-cyprus-egypt/nicosia-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        4204,
+        5082
+      ],
+      "pixel_footprint": [
+        987,
+        1186,
+        1115,
+        1274
+      ]
+    },
+    {
+      "id": "margat-1180-v1",
+      "name": "Margat",
+      "site_id": "margat",
+      "asset": "data/sprites/greece-egypt-fortresses-03/margat-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        8075,
+        5168
+      ],
+      "pixel_footprint": [
+        1955,
+        1208,
+        2083,
+        1295
+      ]
+    },
+    {
+      "id": "fortress-qadmus-1180-review",
+      "name": "Qadmus",
+      "site_id": "qadmus",
+      "asset": "data/sprites/fortress-batch13-review/png/qadmus-1180-provisional-v1.png",
+      "source": "review",
+      "anchor_px": [
+        8106,
+        5297
+      ],
+      "pixel_footprint": [
+        1971,
+        1254,
+        2083,
+        1328
+      ]
+    },
+    {
+      "id": "fortress-masyaf-1180-review",
+      "name": "Masyaf",
+      "site_id": "masyaf",
+      "asset": "data/sprites/fortress-batch13-review/png/masyaf-1180-provisional-v1.png",
+      "source": "review",
+      "anchor_px": [
+        8661,
+        5332
+      ],
+      "pixel_footprint": [
+        2109,
+        1261,
+        2221,
+        1337
+      ]
+    },
+    {
+      "id": "larnaca-1180-v1",
+      "name": "Larnaca",
+      "site_id": "larnaca",
+      "asset": "data/sprites/greece-egypt-1180-small-settlements/larnaca-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        4597,
+        5568
+      ],
+      "pixel_footprint": [
+        1109,
+        1339,
+        1189,
+        1394
+      ]
+    },
+    {
+      "id": "archive-crs-009-tortosa",
+      "name": "Tortosa (Tartus)",
+      "site_id": "tortosa",
+      "asset": "data/sprites/archive-1180/clean/archive-crs-009-tortosa.png",
+      "source": "standard",
+      "anchor_px": [
+        7986,
+        5644
+      ],
+      "pixel_footprint": [
+        1933,
+        1325,
+        2061,
+        1414
+      ]
+    },
+    {
+      "id": "archive-crs-005-krak-des-chevaliers",
+      "name": "Krak des Chevaliers",
+      "site_id": "krak-des-chevaliers",
+      "asset": "data/sprites/png/krak-des-chevaliers-standalone.png",
+      "source": "standard",
+      "anchor_px": [
+        8595,
+        5886
+      ],
+      "pixel_footprint": [
+        2085,
+        1382,
+        2213,
+        1472
+      ]
+    },
+    {
+      "id": "limassol-1180-v1",
+      "name": "Limassol",
+      "site_id": "limassol",
+      "asset": "data/sprites/greece-egypt-1180-small-settlements-02/limassol-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        3694,
+        5982
+      ],
+      "pixel_footprint": [
+        884,
+        1443,
+        964,
+        1498
+      ]
+    },
+    {
+      "id": "archive-crs-025-arqah",
+      "name": "Arqah",
+      "site_id": "arqah",
+      "asset": "data/sprites/archive-1180/clean/archive-crs-025-arqah.png",
+      "source": "standard",
+      "anchor_px": [
+        8152,
+        6319
+      ],
+      "pixel_footprint": [
+        1974,
+        1484,
+        2102,
+        1582
+      ]
+    },
+    {
+      "id": "tripoli-1180-v2",
+      "name": "Tripoli",
+      "site_id": "tripoli",
+      "asset": "data/sprites/historical-1180/tripoli-1180-v2.png",
+      "source": "standard",
+      "anchor_px": [
+        7877,
+        6452
+      ],
+      "pixel_footprint": [
+        1905,
+        1551,
+        2033,
+        1616
+      ]
+    },
+    {
+      "id": "batroun-1180-v1",
+      "name": "Batroun",
+      "site_id": "batroun",
+      "asset": "data/sprites/greece-egypt-1180-small-settlements/batroun-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        7644,
+        6812
+      ],
+      "pixel_footprint": [
+        1871,
+        1651,
+        1951,
+        1705
+      ]
+    },
+    {
+      "id": "byblos-1180-v1",
+      "name": "Gibelet (Byblos)",
+      "site_id": "byblos",
+      "asset": "data/sprites/expansion/byblos-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        7615,
+        7049
+      ],
+      "pixel_footprint": [
+        1840,
+        1672,
+        1968,
+        1766
+      ]
+    },
+    {
+      "id": "beirut-1180-v1",
+      "name": "Beirut",
+      "site_id": "beirut",
+      "asset": "data/sprites/greece-egypt-1180-batch04/beirut-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        7401,
+        7455
+      ],
+      "pixel_footprint": [
+        1786,
+        1782,
+        1914,
+        1867
+      ]
+    },
+    {
+      "id": "archive-crs-022-sidon",
+      "name": "Sidon",
+      "site_id": "sidon",
+      "asset": "data/sprites/archive-1180/clean/archive-crs-022-sidon.png",
+      "source": "standard",
+      "anchor_px": [
+        7192,
+        8067
+      ],
+      "pixel_footprint": [
+        1734,
+        1944,
+        1862,
+        2018
+      ]
+    },
+    {
+      "id": "beaufort-1180-draft-v1",
+      "name": "Beaufort (Frankish construction after 1139)",
+      "site_id": "beaufort",
+      "asset": "data/sprites/fortress-batch05-drafts/beaufort-1180-draft.png",
+      "source": "review",
+      "anchor_px": [
+        7438,
+        8498
+      ],
+      "pixel_footprint": [
+        1795,
+        2044,
+        1923,
+        2129
+      ]
+    },
+    {
+      "id": "tyre-1180-v1",
+      "name": "Tyre (Sur)",
+      "site_id": "tyre",
+      "asset": "data/sprites/expansion/tyre-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        6923,
+        8596
+      ],
+      "pixel_footprint": [
+        1667,
+        2077,
+        1795,
+        2152
+      ]
+    },
+    {
+      "id": "toron-1180-draft-v1",
+      "name": "Toron / Tibnin (circa 1180 phase)",
+      "site_id": "toron",
+      "asset": "data/sprites/fortress-batch05-drafts/toron-1180-draft.png",
+      "source": "review",
+      "anchor_px": [
+        7254,
+        8732
+      ],
+      "pixel_footprint": [
+        1749,
+        2102,
+        1877,
+        2187
+      ]
+    },
+    {
+      "id": "acre-1180-v2",
+      "name": "Acre",
+      "site_id": "acre",
+      "asset": "data/sprites/historical-1180/acre-1180-v2.png",
+      "source": "standard",
+      "anchor_px": [
+        6747,
+        9217
+      ],
+      "pixel_footprint": [
+        1623,
+        2231,
+        1751,
+        2307
+      ]
+    },
+    {
+      "id": "belvoir-1180-v2",
+      "name": "Belvoir",
+      "site_id": "belvoir",
+      "asset": "data/sprites/historical-1180/belvoir-1180-v2.png",
+      "source": "standard",
+      "anchor_px": [
+        7417,
+        9826
+      ],
+      "pixel_footprint": [
+        1790,
+        2349,
+        1918,
+        2460
+      ]
+    },
+    {
+      "id": "archive-crs-023-caesarea",
+      "name": "Caesarea",
+      "site_id": "caesarea",
+      "asset": "data/sprites/archive-1180/clean/archive-crs-023-caesarea.png",
+      "source": "standard",
+      "anchor_px": [
+        6441,
+        9994
+      ],
+      "pixel_footprint": [
+        1546,
+        2430,
+        1674,
+        2500
+      ]
+    },
+    {
+      "id": "jaffa-1180-v1",
+      "name": "Jaffa",
+      "site_id": "jaffa",
+      "asset": "data/sprites/greece-egypt-1180-batch02/jaffa-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        6224,
+        10803
+      ],
+      "pixel_footprint": [
+        1492,
+        2618,
+        1620,
+        2704
+      ]
+    },
+    {
+      "id": "jerusalem-1180-v2",
+      "name": "Jerusalem",
+      "site_id": "jerusalem",
+      "asset": "data/sprites/historical-1180/jerusalem-1180-v2.png",
+      "source": "standard",
+      "anchor_px": [
+        6960,
+        11315
+      ],
+      "pixel_footprint": [
+        1612,
+        2711,
+        1868,
+        2835
+      ]
+    },
+    {
+      "id": "bethlehem-1180-v1",
+      "name": "Bethlehem",
+      "site_id": "bethlehem",
+      "asset": "data/sprites/greece-egypt-1180-small-settlements/bethlehem-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        6922,
+        11449
+      ],
+      "pixel_footprint": [
+        1690,
+        2810,
+        1770,
+        2864
+      ]
+    },
+    {
+      "id": "ascalon-1180-v1",
+      "name": "Ascalon",
+      "site_id": "ascalon",
+      "asset": "data/sprites/greece-egypt-1180-batch04/ascalon-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        5890,
+        11512
+      ],
+      "pixel_footprint": [
+        1408,
+        2798,
+        1536,
+        2881
+      ]
+    },
+    {
+      "id": "beit-guvrin-1180-v1",
+      "name": "Beit Guvrin",
+      "site_id": "beit-guvrin",
+      "asset": "data/sprites/greece-egypt-1180-small-settlements-02/beit-guvrin-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        6434,
+        11621
+      ],
+      "pixel_footprint": [
+        1568,
+        2853,
+        1648,
+        2907
+      ]
+    },
+    {
+      "id": "hebron-1180-v1",
+      "name": "Hebron",
+      "site_id": "hebron",
+      "asset": "data/sprites/greece-egypt-1180-small-settlements-02/hebron-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        6766,
+        11776
+      ],
+      "pixel_footprint": [
+        1651,
+        2891,
+        1731,
+        2946
+      ]
+    },
+    {
+      "id": "gaza-1180-v1",
+      "name": "Gaza",
+      "site_id": "gaza",
+      "asset": "data/sprites/greece-egypt-1180-batch04/gaza-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        5749,
+        11789
+      ],
+      "pixel_footprint": [
+        1392,
+        2889,
+        1482,
+        2950
+      ]
+    },
+    {
+      "id": "damietta-1180-v1",
+      "name": "Damietta",
+      "site_id": "damietta",
+      "asset": "data/sprites/greece-egypt-1180/damietta-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        2143,
+        10097
+      ],
+      "pixel_footprint": [
+        472,
+        2441,
+        600,
+        2527
+      ]
+    },
+    {
+      "id": "rosetta-1180-v1",
+      "name": "Rosetta",
+      "site_id": "rosetta",
+      "asset": "data/sprites/greece-egypt-1180-batch02/rosetta-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        959,
+        10115
+      ],
+      "pixel_footprint": [
+        176,
+        2444,
+        304,
+        2532
+      ]
+    },
+    {
+      "id": "alexandria-1180-v1",
+      "name": "Alexandria",
+      "site_id": "alexandria",
+      "asset": "data/sprites/greece-egypt-1180/alexandria-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        521,
+        10313
+      ],
+      "pixel_footprint": [
+        66,
+        2495,
+        194,
+        2582
+      ]
+    },
+    {
+      "id": "tinnis-1180-v1",
+      "name": "Tinnis",
+      "site_id": "tinnis",
+      "asset": "data/sprites/greece-egypt-1180-batch02/tinnis-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        2498,
+        10314
+      ],
+      "pixel_footprint": [
+        561,
+        2495,
+        689,
+        2582
+      ]
+    },
+    {
+      "id": "archive-crs-007-kerak",
+      "name": "Kerak",
+      "site_id": "kerak",
+      "asset": "data/sprites/archive-1180/clean/archive-crs-007-kerak.png",
+      "source": "standard",
+      "anchor_px": [
+        7690,
+        12407
+      ],
+      "pixel_footprint": [
+        1858,
+        2978,
+        1986,
+        3103
+      ]
+    },
+    {
+      "id": "archive-crs-008-montreal-shobak",
+      "name": "Montréal (Shobak)",
+      "site_id": "montreal-shobak",
+      "asset": "data/sprites/archive-1180/clean/archive-crs-008-montreal-shobak.png",
+      "source": "standard",
+      "anchor_px": [
+        7466,
+        13590
+      ],
+      "pixel_footprint": [
+        1802,
+        3274,
+        1930,
+        3398
+      ]
+    },
+    {
+      "id": "bilbeis-1180-v1",
+      "name": "Bilbeis",
+      "site_id": "bilbeis",
+      "asset": "data/sprites/greece-egypt-1180-batch02/bilbeis-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        1930,
+        11085
+      ],
+      "pixel_footprint": [
+        418,
+        2688,
+        546,
+        2775
+      ]
+    },
+    {
+      "id": "wadi-al-natrun-1180-v1",
+      "name": "Wadi El Natrun",
+      "site_id": "wadi-al-natrun",
+      "asset": "data/sprites/greece-egypt-1180-cyprus-egypt/wadi-al-natrun-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        1004,
+        11213
+      ],
+      "pixel_footprint": [
+        187,
+        2718,
+        315,
+        2806
+      ]
+    },
+    {
+      "id": "cairo-1180-v1",
+      "name": "Cairo",
+      "site_id": "cairo",
+      "asset": "data/sprites/greece-egypt-1180/cairo-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        1673,
+        11459
+      ],
+      "pixel_footprint": [
+        354,
+        2782,
+        482,
+        2868
+      ]
+    },
+    {
+      "id": "giza-1180-v1",
+      "name": "Giza",
+      "site_id": "giza",
+      "asset": "data/sprites/greece-egypt-1180-cyprus-egypt/giza-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        1567,
+        11524
+      ],
+      "pixel_footprint": [
+        342,
+        2816,
+        442,
+        2883
+      ]
+    },
+    {
+      "id": "suez-1180-v1",
+      "name": "Suez",
+      "site_id": "suez",
+      "asset": "data/sprites/greece-egypt-1180-batch03/suez-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        2782,
+        11526
+      ],
+      "pixel_footprint": [
+        632,
+        2792,
+        760,
+        2885
+      ]
+    },
+    {
+      "id": "st-catherines-1180-v1",
+      "name": "St Catherine's",
+      "site_id": "st-catherines",
+      "asset": "data/sprites/greece-egypt-1180-cyprus-egypt/st-catherines-1180-v1.png",
+      "source": "standard",
+      "anchor_px": [
+        4041,
+        12893
+      ],
+      "pixel_footprint": [
+        946,
+        3141,
+        1074,
+        3227
+      ]
+    }
+  ],
+  "notes": [
+    "Sprites overlay the pre-existing colour base; its lettering is not re-layered above sprites.",
+    "Only explicit 1180 review records are included. Undated records are held.",
+    "Visual reconstruction, political boundary dates, heraldry and print resolution need separate review.",
+    "A selected review variant replaces the standard variant with the same normalized site ID."
+  ]
+}
