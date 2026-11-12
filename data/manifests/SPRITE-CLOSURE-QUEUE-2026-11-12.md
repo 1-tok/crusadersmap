@@ -40,3 +40,25 @@
 Every required site or terrain family needs: unique site ID, source/master path, actual RGBA PNG path (verified to exist), asset hash, phase/date gate, reference coordinate/geometry, viewer orientation, transparent-edge QA, historical QA, placement-review flag, and production/print approval flag. Use distinct states `missing_binary`, `awaiting_intake`, `provisional_review`, `repaint_required`, `production_approved`.
 
 Do not update counts based solely on historical manifest text: check actual HEAD and source ZIP processing on each reconciliation.
+
+## Intake verification addendum — 12 November 2026 (after PR #14 and PR #15)
+
+**This addendum supersedes the earlier `await binary intake inspection` statuses above.** GitHub main now includes `data/sprites/automated-intake/processing-report.json` and `data/sprites/automated-intake/manifest.json`. The report records 12 unique fortress PNG imports requiring placement review, 12 duplicate copies of those fortress files, 12 provisional religious PNG imports, and one source collage. The 25 distinct manifest records have technical PNG QA status `pass`; this does **not** certify site identity, geography, period, composition or print suitability.
+
+| Subject | Imported PNG | Next gate |
+|---|---|---|
+| Chastellet / Jacob's Ford | `data/sprites/automated-intake/png/chastellet-jacob-s-ford-6b5a1ae89a82.png` | Verify ruins variant for 1180, standing only 1178–79 |
+| Darbsak | `data/sprites/automated-intake/png/darbsak-30eaae615a8d.png` | historical/geographic placement review |
+| Feke | `data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png` | historical/geographic placement review |
+| Kızkalesi | `data/sprites/automated-intake/png/k-zkalesi-afb58e1ddd84.png` | verify offshore castle silhouette; repaint if oversized shore-attached city |
+| Buffavento | `data/sprites/automated-intake/png/buffavento-eb686a366b52.png` | Cyprus ridge and construction-phase review |
+| Kantara | `data/sprites/automated-intake/png/kantara-21cdd6fda271.png` | Cyprus ridge and construction-phase review |
+| Kolossi | `data/sprites/automated-intake/png/kolossi-2cad1dc9839e.png` | exclude later tower forms from 1180 |
+| Chlemoutsi | `data/sprites/automated-intake/png/chlemoutsi-clermont-a7440d538d45.png` | built after 1180; later-period map only |
+| Bourzey, Shaizar, Masyaf, Qadmus | imported second variants in automated intake | compare with already committed Batch 13 artwork, avoid duplicates |
+
+The 12 religious candidates are present in `data/sprites/automated-intake/manifest.json`; their old `religious-batch14-pending.json` metadata is a **prior snapshot**, not current binary availability. Imported religious records have `category: unclassified` and `coordinates: null`: classify and identify first, before geographic placement. Hagia Sophia retains repaint-required later-minaret warning. Generic religious concepts remain unplaced.
+
+**Blocking finding:** all 25 imported manifest entries have `coordinates: null`. The processing tool correctly did not invent coordinates. Do not mark these automatically placed or production approved. Next work is conservative matching to existing `places.py` / source gazetteer anchors, phase filtering, historical visual QA, and review-only placement records.
+
+Recent main commits: automated intake `0b7f1aff`; religious PR merges `77d8812e` and `404732d1`.
