@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "project": "Crusader Map",
+  "batch": "greek-islands-batch-04",
+  "period": "circa 1180 CE",
+  "review_policy": "USER_APPROVED_FOR_PROVISIONAL_MAP_REVIEW_ONLY",
+  "binary_assets_status": "PENDING_INTAKE_UPLOAD",
+  "note": "Manifest/approval only. PNG binary files are not yet present in this branch. Coordinate anchors are approximate locator points, NOT registration bounds. Do not composit until files exist and coastlines are verified.",
+  "sprites": [
+    {
+      "filename": "72_arki_marathi_cluster_DRAFT.png",
+      "subject": "Arki and Marathi",
+      "region": "Dodecanese",
+      "sha256": "1e3897accc6ac493b5771ae2323f253e240dd34089dc10985c3d1d568008e176",
+      "size_px": [
+        1770,
+        875
+      ],
+      "location_anchor_wgs84": [
+        26.74,
+        37.39
+      ],
+      "approval": "APPROVED_FOR_PROVISIONAL_VISUAL_REVIEW",
+      "qa_status": "REPAINT_OR_REGISTRATION_REQUIRED",
+      "placement": {
+        "enabled": false,
+        "render_bbox_wgs84": null,
+        "region": "aegean",
+        "layer": "island_overlay_below_labels",
+        "south_oblique_view": true
+      },
+      "qa_flags": [
+        "coastline-not-registered",
+        "architectural-details-speculative",
+        "red-fringing-review",
+        "print-scale-unverified",
+        "source-binary-pending"
+      ]
+    },
+    {
+      "filename": "73_oinousses_cluster_DRAFT.png",
+      "subject": "Oinousses cluster",
+      "region": "Northeast Aegean",
+      "sha256": "25d754f20dd1badf389b6706670eed7354a86da40199cf2fa2f16af0a312b4c7",
+      "size_px": [
+        1832,
+        857
+      ],
+      "location_anchor_wgs84": [
+        26.22,
+        38.51
+      ],
+      "approval": "APPROVED_FOR_PROVISIONAL_VISUAL_REVIEW",
+      "qa_status": "REPAINT_OR_REGISTRATION_REQUIRED",
+      "placement": {
+        "enabled": false,
+        "render_bbox_wgs84": null,
+        "region": "aegean",
+        "layer": "island_overlay_below_labels",
+        "south_oblique_view": true
+      },
+      "qa_flags": [
+        "coastline-not-registered",
+        "architectural-details-speculative",
+        "red-fringing-review",
+        "print-scale-unverified",
+        "source-binary-pending"
+      ]
+    },
+    {
+      "filename": "74_fournoi_cluster_DRAFT.png",
+      "subject": "Fournoi cluster",
+      "region": "Eastern Aegean",
+      "sha256": "09847c2bf7aaaf5d3e0311615fc97f2b8b4b35f6ae270001eebf761f6dbdbded",
+      "size_px": [
+        1774,
+        887
+      ],
+      "location_anchor_wgs84": [
+        26.49,
+        37.58
+      ],
+      "approval": "APPROVED_FOR_PROVISIONAL_VISUAL_REVIEW",
+      "qa_status": "REPAINT_OR_REGISTRATION_REQUIRED",
+      "placement": {
+        "enabled": false,
+        "render_bbox_wgs84": null,
+        "region": "aegean",
+        "layer": "island_overlay_below_labels",
+        "south_oblique_view": true
+      },
+      "qa_flags": [
+        "coastline-not-registered",
+        "architectural-details-speculative",
+        "red-fringing-review",
+        "print-scale-unverified",
+        "source-binary-pending"
+      ]
+    },
+    {
+      "filename": "75_antikythera_DRAFT.png",
+      "subject": "Antikythera",
+      "region": "Cretan Sea",
+      "sha256": "6587b5c84f7e1d582a59e521e4b418dd447f2e8639c3a1e76b3dafbf7ae72cde",
+      "size_px": [
+        1774,
+        887
+      ],
+      "location_anchor_wgs84": [
+        23.3,
+        35.87
+      ],
+      "approval": "APPROVED_FOR_PROVISIONAL_VISUAL_REVIEW",
+      "qa_status": "REPAINT_OR_REGISTRATION_REQUIRED",
+      "placement": {
+        "enabled": false,
+        "render_bbox_wgs84": null,
+        "region": "aegean",
+        "layer": "island_overlay_below_labels",
+        "south_oblique_view": true
+      },
+      "qa_flags": [
+        "coastline-not-registered",
+        "architectural-details-speculative",
+        "red-fringing-review",
+        "print-scale-unverified",
+        "source-binary-pending"
+      ]
+    }
+  ]
+}
