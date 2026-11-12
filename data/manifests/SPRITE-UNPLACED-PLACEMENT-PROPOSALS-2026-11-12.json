@@ -16,22 +16,21 @@
     "trade-caravan": 10,
     "sea-coast": 11,
     "mountains": 11,
-    "rural-infrastructure": 8,
+    "rural-infrastructure": 11,
     "island-outline": 30,
     "religious": 38,
-    "unassigned": 5,
     "named-candidate": 38,
     "river-marsh": 15,
     "ships": 6,
     "generic-town": 5,
-    "woodland": 10,
-    "source-master": 11,
+    "woodland": 11,
+    "source-master": 12,
     "generic-fort": 3,
     "arid": 3
   },
   "matched_named_sites": 26,
-  "source_masters": 11,
-  "regional_pool_candidates": 147,
+  "source_masters": 12,
+  "regional_pool_candidates": 146,
   "assets": [
     {
       "asset_id": "INTAKE-022a25c48358db79d8cc",
@@ -287,17 +286,17 @@
       "name": "B19-07_classical_ruins",
       "asset_path": "data/sprites/automated-intake/png/b19-07-classical-ruins-0c233cf8912e.png",
       "source_batch": "crusadersmap_batch19_mixed_upload_2026-11-12",
-      "classification": "unassigned",
+      "classification": "rural-infrastructure",
       "proposal_status": "regional-pool-review",
       "site_id": null,
       "anchor_candidate_lonlat": null,
       "frame": null,
       "suggested_regions": [
-        "Manual review library only"
+        "Historical archaeology context in Levant and Aegean only, after confirmed local ruins"
       ],
       "placement_guidance": "No geographic location recommended until identified",
-      "proposed_layer": "intake-unassigned",
-      "qa_hold": "no automatic placement",
+      "proposed_layer": "landmark-review",
+      "qa_hold": "Do not invent ruins at a site; archaeological identity mandatory",
       "approved_for_geographic_placement": false,
       "production_approved": false
     },
@@ -1032,17 +1031,15 @@
       "name": "a_detailed_painted_watercolor_ink_illustration_she",
       "asset_path": "data/sprites/automated-intake/png/a-detailed-painted-watercolor-ink-illustration-she-29dfca8c39d1.png",
       "source_batch": "crusader_map_batch19_rural_intake",
-      "classification": "unassigned",
-      "proposal_status": "regional-pool-review",
+      "classification": "source-master",
+      "proposal_status": "source-master-exclude",
       "site_id": null,
       "anchor_candidate_lonlat": null,
       "frame": null,
-      "suggested_regions": [
-        "Manual review library only"
-      ],
+      "suggested_regions": [],
       "placement_guidance": "No geographic location recommended until identified",
-      "proposed_layer": "intake-unassigned",
-      "qa_hold": "no automatic placement",
+      "proposed_layer": "source-reference",
+      "qa_hold": "Reference sheet/collage; never place on map",
       "approved_for_geographic_placement": false,
       "production_approved": false
     },
@@ -2603,17 +2600,18 @@
       "name": "Charcoal burning and metalworking yard",
       "asset_path": "data/sprites/automated-intake/png/charcoal-burning-and-metalworking-yard-7d9dcbc9ddbf.png",
       "source_batch": "crusader_map_batch18_rural_intake",
-      "classification": "unassigned",
+      "classification": "rural-infrastructure",
       "proposal_status": "regional-pool-review",
       "site_id": null,
       "anchor_candidate_lonlat": null,
       "frame": null,
       "suggested_regions": [
-        "Manual review library only"
+        "Cilician mountain foothills (main frame)",
+        "Levant settled interior (main frame)"
       ],
       "placement_guidance": "No geographic location recommended until identified",
-      "proposed_layer": "intake-unassigned",
-      "qa_hold": "no automatic placement",
+      "proposed_layer": "rural-activity-review",
+      "qa_hold": "Period/specific industry depiction QA",
       "approved_for_geographic_placement": false,
       "production_approved": false
     },
@@ -3201,17 +3199,18 @@
       "name": "B18-27_scrub_patch",
       "asset_path": "data/sprites/automated-intake/png/b18-27-scrub-patch-9c2063c79c87.png",
       "source_batch": "crusadersmap_batch18_coast_rural_upload_2026-11-12",
-      "classification": "unassigned",
+      "classification": "woodland",
       "proposal_status": "regional-pool-review",
       "site_id": null,
       "anchor_candidate_lonlat": null,
       "frame": null,
       "suggested_regions": [
-        "Manual review library only"
+        "Levant dry uplands (main frame)",
+        "Sinai inland slopes (delta inset)"
       ],
       "placement_guidance": "No geographic location recommended until identified",
-      "proposed_layer": "intake-unassigned",
-      "qa_hold": "no automatic placement",
+      "proposed_layer": "irregular-terrain",
+      "qa_hold": "Avoid duplicate overpainting",
       "approved_for_geographic_placement": false,
       "production_approved": false
     },
@@ -3789,17 +3788,18 @@
       "name": "B19-20_herd_with_figure",
       "asset_path": "data/sprites/automated-intake/png/b19-20-herd-with-figure-bff3ce6dd639.png",
       "source_batch": "crusadersmap_batch19_mixed_upload_2026-11-12",
-      "classification": "unassigned",
+      "classification": "rural-infrastructure",
       "proposal_status": "regional-pool-review",
       "site_id": null,
       "anchor_candidate_lonlat": null,
       "frame": null,
       "suggested_regions": [
-        "Manual review library only"
+        "Transjordan grazing areas (main frame)",
+        "Levantine foothills (main frame)"
       ],
       "placement_guidance": "No geographic location recommended until identified",
-      "proposed_layer": "intake-unassigned",
-      "qa_hold": "no automatic placement",
+      "proposed_layer": "rural-activity-review",
+      "qa_hold": "Species and clothing historical review",
       "approved_for_geographic_placement": false,
       "production_approved": false
     },
