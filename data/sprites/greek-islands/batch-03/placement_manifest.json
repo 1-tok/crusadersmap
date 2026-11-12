@@ -1,885 +1,1029 @@
 {
   "schema_version": "1.0",
-  "repository": "1-tok/crusadersmap",
-  "batch_id": "greek_islands_2026_11_11_03",
-  "asset_type": "island_sprite_draft_intake",
-  "created_utc": "2026-11-11T15:10:55.230949+00:00",
-  "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-  "integration_state": "assets_registered_geometry_qa_required",
-  "ready_for_map_overlay": false,
-  "notes": "Raw artwork from two generated contact sheets. Individual tile crops preserve original painting and alpha, but geographic identity and coastlines cannot be substantiated from the sheets. Earlier batches 01 and 02 remain approved provisional; this new batch is only intake for correction.",
-  "placement_policy": {
-    "region": "aegean",
-    "epsg": "EPSG:4326",
-    "render_bbox_wgs84": null,
-    "enabled": false,
-    "z_order": "land overlay below labels after verification",
-    "requires": "Verified island polygon, accurate shape, correct historical settlement, cleaned alpha, no overlap with adjacent islands"
-  },
+  "repo": "1-tok/crusadersmap",
+  "batch_id": "greek_islands_art_staging_2026_11_12_03",
+  "status": "STAGED_NOT_APPROVED_FOR_PLACEMENT",
+  "integration_state": "art_crops_registered_not_georeferenced_not_composited",
+  "asset_count": 24,
+  "rendering_policy": "Do not render these candidates as geographic islands until subject identity, bbox, coastline, and alpha are verified. Preserve 47 previous approved provisional assets.",
+  "source_sheets": [
+    "mediterranean_atlas_greek_island_sprites.png",
+    "mediterranean_island_atlas_sprite_sheet.png"
+  ],
+  "notes": [
+    "The source images are painterly collage sheets, not faithful geographic outlines.",
+    "Bright neon halos are present in the source. Cleaning applied is provisional.",
+    "Names and center coordinates are intended targets based on original requested subjects in row-major order, not confirmed matching of illustrations.",
+    "Proposed anchors are only hints and may be off-canvas. Renderer must filter map extent and validate silhouettes."
+  ],
   "sprites": [
     {
-      "id": "CR-GRI3-48",
-      "candidate_island": "aegina",
-      "filename": "data/sprites/greek-islands/batch-03/48_aegina_DRAFT.png",
-      "source_sheet": "source-sheet-1.png",
-      "source_cell": {
+      "id": "CR-GRI3-AEGINA",
+      "name": "Aegina",
+      "candidate_name": "aegina",
+      "filename": "48_aegina.png",
+      "path": "data/sprites/greek-islands/batch-03/48_aegina.png",
+      "sha256": "ff77df673f0448a6ad7b290712fd858dac480349a270b5952c652d2c1ea1ff95",
+      "dimensions": [
+        407,
+        262
+      ],
+      "source_sheet": "mediterranean_atlas_greek_island_sprites.png",
+      "source_grid": {
+        "columns": 3,
+        "rows": 4,
+        "cell_index": 0,
+        "row": 0,
+        "column": 0
+      },
+      "candidate_anchor_lonlat": [
+        23.43,
+        37.75
+      ],
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
+    },
+    {
+      "id": "CR-GRI3-SALAMIS",
+      "name": "Salamis",
+      "candidate_name": "salamis",
+      "filename": "49_salamis.png",
+      "path": "data/sprites/greek-islands/batch-03/49_salamis.png",
+      "sha256": "38a553dc8d95aa2bf24e9eaac19639e175b6117165afb3b6830995c756b68328",
+      "dimensions": [
+        450,
+        259
+      ],
+      "source_sheet": "mediterranean_atlas_greek_island_sprites.png",
+      "source_grid": {
+        "columns": 3,
+        "rows": 4,
+        "cell_index": 1,
+        "row": 0,
+        "column": 1
+      },
+      "candidate_anchor_lonlat": [
+        23.49,
+        37.96
+      ],
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
+    },
+    {
+      "id": "CR-GRI3-POROS",
+      "name": "Poros",
+      "candidate_name": "poros",
+      "filename": "50_poros.png",
+      "path": "data/sprites/greek-islands/batch-03/50_poros.png",
+      "sha256": "b012ec8d9286590cc4089e597dd3ca6da9b4fb9fb6860d38f4967ea1f66152b8",
+      "dimensions": [
+        440,
+        241
+      ],
+      "source_sheet": "mediterranean_atlas_greek_island_sprites.png",
+      "source_grid": {
+        "columns": 3,
+        "rows": 4,
+        "cell_index": 2,
+        "row": 0,
+        "column": 2
+      },
+      "candidate_anchor_lonlat": [
+        23.46,
+        37.5
+      ],
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
+    },
+    {
+      "id": "CR-GRI3-HYDRA",
+      "name": "Hydra",
+      "candidate_name": "hydra",
+      "filename": "51_hydra.png",
+      "path": "data/sprites/greek-islands/batch-03/51_hydra.png",
+      "sha256": "1aab8a9e6a061598fa91f74426e9a4104beb428bc0731b5585fc26dfc811783c",
+      "dimensions": [
+        442,
+        262
+      ],
+      "source_sheet": "mediterranean_atlas_greek_island_sprites.png",
+      "source_grid": {
+        "columns": 3,
+        "rows": 4,
+        "cell_index": 3,
         "row": 1,
-        "column": 1,
-        "rows": 4,
-        "columns": 3,
-        "crop_box_px": [
-          0,
-          0,
-          483,
-          272
-        ]
+        "column": 0
       },
-      "size_px": [
-        483,
-        272
+      "candidate_anchor_lonlat": [
+        23.47,
+        37.35
       ],
-      "sha256": "f2cb15451b06e365d6a723e48054475476af070ce66fdd485a4c92e7ea791064",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-49",
-      "candidate_island": "salamis",
-      "filename": "data/sprites/greek-islands/batch-03/49_salamis_DRAFT.png",
-      "source_sheet": "source-sheet-1.png",
-      "source_cell": {
+      "id": "CR-GRI3-SPETSES",
+      "name": "Spetses",
+      "candidate_name": "spetses",
+      "filename": "52_spetses.png",
+      "path": "data/sprites/greek-islands/batch-03/52_spetses.png",
+      "sha256": "2f6533a5ca0ed0f59a9eeb9508edd7f84b601a2da63233100b8ae1826ae397e0",
+      "dimensions": [
+        418,
+        238
+      ],
+      "source_sheet": "mediterranean_atlas_greek_island_sprites.png",
+      "source_grid": {
+        "columns": 3,
+        "rows": 4,
+        "cell_index": 4,
         "row": 1,
-        "column": 2,
-        "rows": 4,
-        "columns": 3,
-        "crop_box_px": [
-          483,
-          0,
-          965,
-          272
-        ]
+        "column": 1
       },
-      "size_px": [
-        482,
-        272
+      "candidate_anchor_lonlat": [
+        23.16,
+        37.26
       ],
-      "sha256": "0d1da51336b08a49da37acbf51218c4ad92b9baeb64441d9c8c26c1df870f3b8",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-50",
-      "candidate_island": "poros",
-      "filename": "data/sprites/greek-islands/batch-03/50_poros_DRAFT.png",
-      "source_sheet": "source-sheet-1.png",
-      "source_cell": {
+      "id": "CR-GRI3-AGISTRI",
+      "name": "Agistri",
+      "candidate_name": "agistri",
+      "filename": "53_agistri.png",
+      "path": "data/sprites/greek-islands/batch-03/53_agistri.png",
+      "sha256": "5d4286827c032d46cef4ae2fff9fc3471af54c406d85cf3b5beffef9eca496bc",
+      "dimensions": [
+        347,
+        253
+      ],
+      "source_sheet": "mediterranean_atlas_greek_island_sprites.png",
+      "source_grid": {
+        "columns": 3,
+        "rows": 4,
+        "cell_index": 5,
         "row": 1,
-        "column": 3,
-        "rows": 4,
-        "columns": 3,
-        "crop_box_px": [
-          965,
-          0,
-          1448,
-          272
-        ]
+        "column": 2
       },
-      "size_px": [
-        483,
-        272
+      "candidate_anchor_lonlat": [
+        23.35,
+        37.7
       ],
-      "sha256": "b5a49dae12868ffc1a28ad8894d7576167de351055a8d4fa6f899fe548116b78",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-51",
-      "candidate_island": "hydra",
-      "filename": "data/sprites/greek-islands/batch-03/51_hydra_DRAFT.png",
-      "source_sheet": "source-sheet-1.png",
-      "source_cell": {
+      "id": "CR-GRI3-PAXOS",
+      "name": "Paxos",
+      "candidate_name": "paxos",
+      "filename": "54_paxos.png",
+      "path": "data/sprites/greek-islands/batch-03/54_paxos.png",
+      "sha256": "5ab4bc6943fc87dd8772e4c62f2504689e5d10dbbe94c44be23ad180f4412cf9",
+      "dimensions": [
+        335,
+        269
+      ],
+      "source_sheet": "mediterranean_atlas_greek_island_sprites.png",
+      "source_grid": {
+        "columns": 3,
+        "rows": 4,
+        "cell_index": 6,
         "row": 2,
-        "column": 1,
-        "rows": 4,
-        "columns": 3,
-        "crop_box_px": [
-          0,
-          272,
-          483,
-          543
-        ]
+        "column": 0
       },
-      "size_px": [
-        483,
-        271
+      "candidate_anchor_lonlat": [
+        20.16,
+        39.21
       ],
-      "sha256": "c7107d7ebc506880cb77925cc7a74489b4c3b6ea96ac19dc0a4ec82b11ff48e8",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-52",
-      "candidate_island": "spetses",
-      "filename": "data/sprites/greek-islands/batch-03/52_spetses_DRAFT.png",
-      "source_sheet": "source-sheet-1.png",
-      "source_cell": {
+      "id": "CR-GRI3-ANTIPAXOS",
+      "name": "Antipaxos",
+      "candidate_name": "antipaxos",
+      "filename": "55_antipaxos.png",
+      "path": "data/sprites/greek-islands/batch-03/55_antipaxos.png",
+      "sha256": "4b29ffbe6c4dea4f35652b22735503b92464ba9f5ae2458bd5a27be6d18e25fd",
+      "dimensions": [
+        468,
+        200
+      ],
+      "source_sheet": "mediterranean_atlas_greek_island_sprites.png",
+      "source_grid": {
+        "columns": 3,
+        "rows": 4,
+        "cell_index": 7,
         "row": 2,
-        "column": 2,
-        "rows": 4,
-        "columns": 3,
-        "crop_box_px": [
-          483,
-          272,
-          965,
-          543
-        ]
+        "column": 1
       },
-      "size_px": [
-        482,
-        271
+      "candidate_anchor_lonlat": [
+        20.23,
+        39.15
       ],
-      "sha256": "ca644f89dcb481a507d4d211fb64791440f86dfca5b78fb2172a4b296139cb67",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-53",
-      "candidate_island": "agistri",
-      "filename": "data/sprites/greek-islands/batch-03/53_agistri_DRAFT.png",
-      "source_sheet": "source-sheet-1.png",
-      "source_cell": {
+      "id": "CR-GRI3-ANTIPAROS",
+      "name": "Antiparos",
+      "candidate_name": "antiparos",
+      "filename": "56_antiparos.png",
+      "path": "data/sprites/greek-islands/batch-03/56_antiparos.png",
+      "sha256": "36aeee945dc203ce3d835ad41ad28758a6612a9689021af03c118cd7c38db48c",
+      "dimensions": [
+        463,
+        267
+      ],
+      "source_sheet": "mediterranean_atlas_greek_island_sprites.png",
+      "source_grid": {
+        "columns": 3,
+        "rows": 4,
+        "cell_index": 8,
         "row": 2,
-        "column": 3,
-        "rows": 4,
-        "columns": 3,
-        "crop_box_px": [
-          965,
-          272,
-          1448,
-          543
-        ]
+        "column": 2
       },
-      "size_px": [
-        483,
-        271
+      "candidate_anchor_lonlat": [
+        25.05,
+        37.04
       ],
-      "sha256": "1f8072b70b8eac24285e88a188981e4cd4b1933aae0e7770e6421a23dc07c389",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-54",
-      "candidate_island": "paxos",
-      "filename": "data/sprites/greek-islands/batch-03/54_paxos_DRAFT.png",
-      "source_sheet": "source-sheet-1.png",
-      "source_cell": {
+      "id": "CR-GRI3-DELOS",
+      "name": "Delos",
+      "candidate_name": "delos",
+      "filename": "57_delos.png",
+      "path": "data/sprites/greek-islands/batch-03/57_delos.png",
+      "sha256": "3cef75d465df7b2c113c819d7f49ddbbdb265669efa6c0a1182b9d46eb2827fd",
+      "dimensions": [
+        401,
+        254
+      ],
+      "source_sheet": "mediterranean_atlas_greek_island_sprites.png",
+      "source_grid": {
+        "columns": 3,
+        "rows": 4,
+        "cell_index": 9,
         "row": 3,
-        "column": 1,
-        "rows": 4,
-        "columns": 3,
-        "crop_box_px": [
-          0,
-          543,
-          483,
-          814
-        ]
+        "column": 0
       },
-      "size_px": [
-        483,
-        271
+      "candidate_anchor_lonlat": [
+        25.27,
+        37.4
       ],
-      "sha256": "9af1971d04e47d9eb89b337a5b562ce3e242c38e8c00f06c3e8e2f15ce7d5fef",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-55",
-      "candidate_island": "antipaxos",
-      "filename": "data/sprites/greek-islands/batch-03/55_antipaxos_DRAFT.png",
-      "source_sheet": "source-sheet-1.png",
-      "source_cell": {
+      "id": "CR-GRI3-RHENIA",
+      "name": "Rhenia",
+      "candidate_name": "rhenia",
+      "filename": "58_rhenia.png",
+      "path": "data/sprites/greek-islands/batch-03/58_rhenia.png",
+      "sha256": "cc8a7979454bfe78378a432eb3c4cf4f189de1168765a01675ab4d7244805606",
+      "dimensions": [
+        462,
+        237
+      ],
+      "source_sheet": "mediterranean_atlas_greek_island_sprites.png",
+      "source_grid": {
+        "columns": 3,
+        "rows": 4,
+        "cell_index": 10,
         "row": 3,
-        "column": 2,
-        "rows": 4,
-        "columns": 3,
-        "crop_box_px": [
-          483,
-          543,
-          965,
-          814
-        ]
+        "column": 1
       },
-      "size_px": [
-        482,
-        271
+      "candidate_anchor_lonlat": [
+        25.23,
+        37.39
       ],
-      "sha256": "56d093ab425d7f37f845055f4d57b7f0ee0eae20e27b8341cd951b62d0c47712",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-56",
-      "candidate_island": "antiparos",
-      "filename": "data/sprites/greek-islands/batch-03/56_antiparos_DRAFT.png",
-      "source_sheet": "source-sheet-1.png",
-      "source_cell": {
+      "id": "CR-GRI3-SIKINOS",
+      "name": "Sikinos",
+      "candidate_name": "sikinos",
+      "filename": "59_sikinos.png",
+      "path": "data/sprites/greek-islands/batch-03/59_sikinos.png",
+      "sha256": "e22592eab04a1a1cd0eca7114e50a1f5b90e581709deb9fdf3c3c723ae5592d6",
+      "dimensions": [
+        425,
+        247
+      ],
+      "source_sheet": "mediterranean_atlas_greek_island_sprites.png",
+      "source_grid": {
+        "columns": 3,
+        "rows": 4,
+        "cell_index": 11,
         "row": 3,
-        "column": 3,
-        "rows": 4,
-        "columns": 3,
-        "crop_box_px": [
-          965,
-          543,
-          1448,
-          814
-        ]
+        "column": 2
       },
-      "size_px": [
-        483,
-        271
+      "candidate_anchor_lonlat": [
+        24.98,
+        36.68
       ],
-      "sha256": "8acdf8eef8432f3557c856fca96200623f6d4bf8770e0fce74d8871e41598eb7",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-57",
-      "candidate_island": "delos",
-      "filename": "data/sprites/greek-islands/batch-03/57_delos_DRAFT.png",
-      "source_sheet": "source-sheet-1.png",
-      "source_cell": {
-        "row": 4,
-        "column": 1,
-        "rows": 4,
-        "columns": 3,
-        "crop_box_px": [
-          0,
-          814,
-          483,
-          1086
-        ]
-      },
-      "size_px": [
-        483,
-        272
+      "id": "CR-GRI3-DONOUSA",
+      "name": "Donousa",
+      "candidate_name": "donousa",
+      "filename": "60_donousa.png",
+      "path": "data/sprites/greek-islands/batch-03/60_donousa.png",
+      "sha256": "cd0c7ef57dea92d1a4305cb3b2e9aa1a26904b40ad2e4133dffb29d69a16f248",
+      "dimensions": [
+        338,
+        300
       ],
-      "sha256": "11c788b1544f36b3da511a1964f9400a11534090718416da85e04c8dd14e5673",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "source_sheet": "mediterranean_island_atlas_sprite_sheet.png",
+      "source_grid": {
+        "columns": 4,
+        "rows": 3,
+        "cell_index": 0,
+        "row": 0,
+        "column": 0
+      },
+      "candidate_anchor_lonlat": [
+        25.8,
+        37.1
+      ],
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-58",
-      "candidate_island": "rhenia",
-      "filename": "data/sprites/greek-islands/batch-03/58_rhenia_DRAFT.png",
-      "source_sheet": "source-sheet-1.png",
-      "source_cell": {
-        "row": 4,
-        "column": 2,
-        "rows": 4,
-        "columns": 3,
-        "crop_box_px": [
-          483,
-          814,
-          965,
-          1086
-        ]
-      },
-      "size_px": [
-        482,
-        272
+      "id": "CR-GRI3-IRAKLEIA",
+      "name": "Irakleia",
+      "candidate_name": "irakleia",
+      "filename": "61_irakleia.png",
+      "path": "data/sprites/greek-islands/batch-03/61_irakleia.png",
+      "sha256": "4f77dfd506573c3f926fc4cd395863c9938e1beec7f3dd4fb0426d9974defa26",
+      "dimensions": [
+        341,
+        235
       ],
-      "sha256": "6300a7cdfef94b690d81e1a4bba3a628710db7685e1a8015475131a4be6a16fb",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "source_sheet": "mediterranean_island_atlas_sprite_sheet.png",
+      "source_grid": {
+        "columns": 4,
+        "rows": 3,
+        "cell_index": 1,
+        "row": 0,
+        "column": 1
+      },
+      "candidate_anchor_lonlat": [
+        25.46,
+        36.84
+      ],
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-59",
-      "candidate_island": "sikinos",
-      "filename": "data/sprites/greek-islands/batch-03/59_sikinos_DRAFT.png",
-      "source_sheet": "source-sheet-1.png",
-      "source_cell": {
-        "row": 4,
-        "column": 3,
-        "rows": 4,
-        "columns": 3,
-        "crop_box_px": [
-          965,
-          814,
-          1448,
-          1086
-        ]
-      },
-      "size_px": [
-        483,
-        272
+      "id": "CR-GRI3-SCHINOUSSA",
+      "name": "Schinoussa",
+      "candidate_name": "schinoussa",
+      "filename": "62_schinoussa.png",
+      "path": "data/sprites/greek-islands/batch-03/62_schinoussa.png",
+      "sha256": "abb48eaa9dab2954a00be3bd7a42ffe7f6557d4645b8320e2e80cb5af1df626a",
+      "dimensions": [
+        332,
+        233
       ],
-      "sha256": "0dc3c0ff5f590cec33ae3fa8d313af1710fa443fb6eb6bfc219afec088a8b3bb",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "source_sheet": "mediterranean_island_atlas_sprite_sheet.png",
+      "source_grid": {
+        "columns": 4,
+        "rows": 3,
+        "cell_index": 2,
+        "row": 0,
+        "column": 2
+      },
+      "candidate_anchor_lonlat": [
+        25.52,
+        36.87
+      ],
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-60",
-      "candidate_island": "donousa",
-      "filename": "data/sprites/greek-islands/batch-03/60_donousa_DRAFT.png",
-      "source_sheet": "source-sheet-2.png",
-      "source_cell": {
+      "id": "CR-GRI3-KOUFONISIA",
+      "name": "Koufonisia",
+      "candidate_name": "koufonisia",
+      "filename": "63_koufonisia.png",
+      "path": "data/sprites/greek-islands/batch-03/63_koufonisia.png",
+      "sha256": "6695314a835b5e054246b6d0638fb52199cf2a666049c2e588e1934d6a42f229",
+      "dimensions": [
+        335,
+        289
+      ],
+      "source_sheet": "mediterranean_island_atlas_sprite_sheet.png",
+      "source_grid": {
+        "columns": 4,
+        "rows": 3,
+        "cell_index": 3,
+        "row": 0,
+        "column": 3
+      },
+      "candidate_anchor_lonlat": [
+        25.6,
+        36.94
+      ],
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
+    },
+    {
+      "id": "CR-GRI3-CHALKI",
+      "name": "Chalki",
+      "candidate_name": "chalki",
+      "filename": "64_chalki.png",
+      "path": "data/sprites/greek-islands/batch-03/64_chalki.png",
+      "sha256": "74fe97548897cc629cd67441dbbf486f12d7359cb9b50d9bd53625a074d61b27",
+      "dimensions": [
+        350,
+        223
+      ],
+      "source_sheet": "mediterranean_island_atlas_sprite_sheet.png",
+      "source_grid": {
+        "columns": 4,
+        "rows": 3,
+        "cell_index": 4,
         "row": 1,
-        "column": 1,
-        "rows": 3,
-        "columns": 4,
-        "crop_box_px": [
-          0,
-          0,
-          362,
-          362
-        ]
+        "column": 0
       },
-      "size_px": [
-        362,
-        362
+      "candidate_anchor_lonlat": [
+        27.57,
+        36.22
       ],
-      "sha256": "d8c176d8d871f642a1d4e1826a27e4ada0361f96fe59f3054dcf9280803b771f",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-61",
-      "candidate_island": "irakleia",
-      "filename": "data/sprites/greek-islands/batch-03/61_irakleia_DRAFT.png",
-      "source_sheet": "source-sheet-2.png",
-      "source_cell": {
+      "id": "CR-GRI3-LIPSI",
+      "name": "Lipsi",
+      "candidate_name": "lipsi",
+      "filename": "65_lipsi.png",
+      "path": "data/sprites/greek-islands/batch-03/65_lipsi.png",
+      "sha256": "b6684b993810d1962fa062032647a266d2549befe4c126bed981e3d03ce4ddd5",
+      "dimensions": [
+        342,
+        276
+      ],
+      "source_sheet": "mediterranean_island_atlas_sprite_sheet.png",
+      "source_grid": {
+        "columns": 4,
+        "rows": 3,
+        "cell_index": 5,
         "row": 1,
-        "column": 2,
-        "rows": 3,
-        "columns": 4,
-        "crop_box_px": [
-          362,
-          0,
-          724,
-          362
-        ]
+        "column": 1
       },
-      "size_px": [
-        362,
-        362
+      "candidate_anchor_lonlat": [
+        26.77,
+        37.29
       ],
-      "sha256": "ae7b604c531f71dbf537bd83a6d54ac7e26edd8995ec8bd83890804792cedbeb",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-62",
-      "candidate_island": "schinoussa",
-      "filename": "data/sprites/greek-islands/batch-03/62_schinoussa_DRAFT.png",
-      "source_sheet": "source-sheet-2.png",
-      "source_cell": {
+      "id": "CR-GRI3-KASTELLORIZO",
+      "name": "Kastellorizo",
+      "candidate_name": "kastellorizo",
+      "filename": "66_kastellorizo.png",
+      "path": "data/sprites/greek-islands/batch-03/66_kastellorizo.png",
+      "sha256": "4030ce0e7a090eac1205dce010a1cb8c049314d45e0271c3fd0a1cdde21c10af",
+      "dimensions": [
+        360,
+        224
+      ],
+      "source_sheet": "mediterranean_island_atlas_sprite_sheet.png",
+      "source_grid": {
+        "columns": 4,
+        "rows": 3,
+        "cell_index": 6,
         "row": 1,
-        "column": 3,
-        "rows": 3,
-        "columns": 4,
-        "crop_box_px": [
-          724,
-          0,
-          1086,
-          362
-        ]
+        "column": 2
       },
-      "size_px": [
-        362,
-        362
+      "candidate_anchor_lonlat": [
+        29.59,
+        36.15
       ],
-      "sha256": "3dd9323dc65ec24e2a253a46b0aa792a080a2cdecdb7f6a3defbb5fd92c54200",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-63",
-      "candidate_island": "koufonisia",
-      "filename": "data/sprites/greek-islands/batch-03/63_koufonisia_DRAFT.png",
-      "source_sheet": "source-sheet-2.png",
-      "source_cell": {
+      "id": "CR-GRI3-IMBROS",
+      "name": "Imbros",
+      "candidate_name": "imbros",
+      "filename": "67_imbros.png",
+      "path": "data/sprites/greek-islands/batch-03/67_imbros.png",
+      "sha256": "862868340a33cc272dda71be28bf58f0600fc6aa90dc7e98428fc32ac9625bea",
+      "dimensions": [
+        350,
+        293
+      ],
+      "source_sheet": "mediterranean_island_atlas_sprite_sheet.png",
+      "source_grid": {
+        "columns": 4,
+        "rows": 3,
+        "cell_index": 7,
         "row": 1,
-        "column": 4,
-        "rows": 3,
-        "columns": 4,
-        "crop_box_px": [
-          1086,
-          0,
-          1448,
-          362
-        ]
+        "column": 3
       },
-      "size_px": [
-        362,
-        362
+      "candidate_anchor_lonlat": [
+        25.9,
+        40.18
       ],
-      "sha256": "b25521f090b67569db167a58a2e359cc292c01a69209e551aa1da4101187020c",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-64",
-      "candidate_island": "chalki",
-      "filename": "data/sprites/greek-islands/batch-03/64_chalki_DRAFT.png",
-      "source_sheet": "source-sheet-2.png",
-      "source_cell": {
+      "id": "CR-GRI3-TENEDOS",
+      "name": "Tenedos",
+      "candidate_name": "tenedos",
+      "filename": "68_tenedos.png",
+      "path": "data/sprites/greek-islands/batch-03/68_tenedos.png",
+      "sha256": "1789f7efbe2728593f3dd99aa8f514442c40f8d9e934633c89e279fabc3fa1b8",
+      "dimensions": [
+        326,
+        241
+      ],
+      "source_sheet": "mediterranean_island_atlas_sprite_sheet.png",
+      "source_grid": {
+        "columns": 4,
+        "rows": 3,
+        "cell_index": 8,
         "row": 2,
-        "column": 1,
-        "rows": 3,
-        "columns": 4,
-        "crop_box_px": [
-          0,
-          362,
-          362,
-          724
-        ]
+        "column": 0
       },
-      "size_px": [
-        362,
-        362
+      "candidate_anchor_lonlat": [
+        26.06,
+        39.83
       ],
-      "sha256": "aed0270c6ef0412a8a89b27797917a58dc384a44a1ee933db1106ffb750ca01e",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-65",
-      "candidate_island": "lipsi",
-      "filename": "data/sprites/greek-islands/batch-03/65_lipsi_DRAFT.png",
-      "source_sheet": "source-sheet-2.png",
-      "source_cell": {
+      "id": "CR-GRI3-PSARA",
+      "name": "Psara",
+      "candidate_name": "psara",
+      "filename": "69_psara.png",
+      "path": "data/sprites/greek-islands/batch-03/69_psara.png",
+      "sha256": "660eea501cfc8dc96b5fab8e4aa96377711394048437deb8f45c52d19d5cc58a",
+      "dimensions": [
+        348,
+        258
+      ],
+      "source_sheet": "mediterranean_island_atlas_sprite_sheet.png",
+      "source_grid": {
+        "columns": 4,
+        "rows": 3,
+        "cell_index": 9,
         "row": 2,
-        "column": 2,
-        "rows": 3,
-        "columns": 4,
-        "crop_box_px": [
-          362,
-          362,
-          724,
-          724
-        ]
+        "column": 1
       },
-      "size_px": [
-        362,
-        362
+      "candidate_anchor_lonlat": [
+        25.56,
+        38.54
       ],
-      "sha256": "54a1bfaf476b055c84955108bbbdd6634a963fffcb1d5c89a7c664f2e928315f",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-66",
-      "candidate_island": "kastellorizo",
-      "filename": "data/sprites/greek-islands/batch-03/66_kastellorizo_DRAFT.png",
-      "source_sheet": "source-sheet-2.png",
-      "source_cell": {
+      "id": "CR-GRI3-GAVDOS",
+      "name": "Gavdos",
+      "candidate_name": "gavdos",
+      "filename": "70_gavdos.png",
+      "path": "data/sprites/greek-islands/batch-03/70_gavdos.png",
+      "sha256": "72869d37430ae3adf4db9c7969afe25fe82e6eed42f13dc64f194f9f99513687",
+      "dimensions": [
+        359,
+        214
+      ],
+      "source_sheet": "mediterranean_island_atlas_sprite_sheet.png",
+      "source_grid": {
+        "columns": 4,
+        "rows": 3,
+        "cell_index": 10,
         "row": 2,
-        "column": 3,
-        "rows": 3,
-        "columns": 4,
-        "crop_box_px": [
-          724,
-          362,
-          1086,
-          724
-        ]
+        "column": 2
       },
-      "size_px": [
-        362,
-        362
+      "candidate_anchor_lonlat": [
+        24.08,
+        34.84
       ],
-      "sha256": "7ccc8688ad1dcb954ff815ab6a482e39d07c9a98c8f4d7652f14824d70a4ce8c",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
+      },
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     },
     {
-      "id": "CR-GRI3-67",
-      "candidate_island": "imbros",
-      "filename": "data/sprites/greek-islands/batch-03/67_imbros_DRAFT.png",
-      "source_sheet": "source-sheet-2.png",
-      "source_cell": {
+      "id": "CR-GRI3-ELAFONISOS",
+      "name": "Elafonisos",
+      "candidate_name": "elafonisos",
+      "filename": "71_elafonisos.png",
+      "path": "data/sprites/greek-islands/batch-03/71_elafonisos.png",
+      "sha256": "dcbbcde738ca256b147bdaec98539653bad4f6fcf1d0a7cb2573e5ee64889281",
+      "dimensions": [
+        305,
+        265
+      ],
+      "source_sheet": "mediterranean_island_atlas_sprite_sheet.png",
+      "source_grid": {
+        "columns": 4,
+        "rows": 3,
+        "cell_index": 11,
         "row": 2,
-        "column": 4,
-        "rows": 3,
-        "columns": 4,
-        "crop_box_px": [
-          1086,
-          362,
-          1448,
-          724
-        ]
+        "column": 3
       },
-      "size_px": [
-        362,
-        362
+      "candidate_anchor_lonlat": [
+        22.97,
+        36.5
       ],
-      "sha256": "5d65df4655220052beefa24b68c54d3fbe266930f70b8bbd0d1724958a83339e",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
-    },
-    {
-      "id": "CR-GRI3-68",
-      "candidate_island": "tenedos",
-      "filename": "data/sprites/greek-islands/batch-03/68_tenedos_DRAFT.png",
-      "source_sheet": "source-sheet-2.png",
-      "source_cell": {
-        "row": 3,
-        "column": 1,
-        "rows": 3,
-        "columns": 4,
-        "crop_box_px": [
-          0,
-          724,
-          362,
-          1086
-        ]
+      "placement": {
+        "region": "aegean",
+        "status": "HOLD_FOR_VISUAL_REVIEW",
+        "approval": "PROVISIONAL_ART_ONLY",
+        "enabled": false,
+        "auto_place": false,
+        "georeferenced": false,
+        "render_bbox_wgs84": null,
+        "reason": "Source sheet is an illustrative collage, not a coastline-matched geo-registered island sprite; candidate identity is inferred from prompt order, not visually verified"
       },
-      "size_px": [
-        362,
-        362
-      ],
-      "sha256": "b1c1705c2c820af868385f138eb20c31c0fa3fa8525549c757e65656e09c10ca",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
-    },
-    {
-      "id": "CR-GRI3-69",
-      "candidate_island": "psara",
-      "filename": "data/sprites/greek-islands/batch-03/69_psara_DRAFT.png",
-      "source_sheet": "source-sheet-2.png",
-      "source_cell": {
-        "row": 3,
-        "column": 2,
-        "rows": 3,
-        "columns": 4,
-        "crop_box_px": [
-          362,
-          724,
-          724,
-          1086
-        ]
-      },
-      "size_px": [
-        362,
-        362
-      ],
-      "sha256": "7ce50f86c59fe93ec93fcfe5f1d47c2eb1ded7dfc65103b3a927ba651d44c227",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
-    },
-    {
-      "id": "CR-GRI3-70",
-      "candidate_island": "gavdos",
-      "filename": "data/sprites/greek-islands/batch-03/70_gavdos_DRAFT.png",
-      "source_sheet": "source-sheet-2.png",
-      "source_cell": {
-        "row": 3,
-        "column": 3,
-        "rows": 3,
-        "columns": 4,
-        "crop_box_px": [
-          724,
-          724,
-          1086,
-          1086
-        ]
-      },
-      "size_px": [
-        362,
-        362
-      ],
-      "sha256": "855113f319c4b4b378714a4744a2d8d8e72a674f0e9bff3777943638c4f36256",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
-    },
-    {
-      "id": "CR-GRI3-71",
-      "candidate_island": "elafonisos",
-      "filename": "data/sprites/greek-islands/batch-03/71_elafonisos_DRAFT.png",
-      "source_sheet": "source-sheet-2.png",
-      "source_cell": {
-        "row": 3,
-        "column": 4,
-        "rows": 3,
-        "columns": 4,
-        "crop_box_px": [
-          1086,
-          724,
-          1448,
-          1086
-        ]
-      },
-      "size_px": [
-        362,
-        362
-      ],
-      "sha256": "4682d9c47a0ca71bdaf81e9d3f8678e43389514f59d5ac7f336347526e96c0fd",
-      "status": "DRAFT_FOR_MAP_PLACEMENT_REVIEW",
-      "identity_verified": false,
-      "coastline_alignment_verified": false,
-      "transparent_alpha_present": true,
-      "render_bbox_wgs84": null,
-      "region": "aegean",
-      "enabled_for_compositor": false,
-      "qa_notes": [
-        "Candidate name is an intended sheet assignment, not confirmed image identity",
-        "Image-generated outlines are not verified against historical or geographic coastlines",
-        "Do not composite until assigned verified footprint and transparency/halo cleaned",
-        "Illustrative buildings are not chronologically validated"
-      ]
+      "qa": {
+        "alpha_exterior": "transparent",
+        "artifact_cleanup": "automated neon fringe suppression; residual contamination and crop boundaries need review",
+        "historic_architecture": "unverified",
+        "coastline_match": "unverified",
+        "subject_identity": "unverified",
+        "status": "REQUIRES_REPAINT_OR_GEOMETRY_RECONCILIATION"
+      }
     }
   ]
 }

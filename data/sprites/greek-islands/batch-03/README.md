@@ -1,7 +1,7 @@
-# Greek Islands — Batch 03 draft intake
+# Crusader Map Greek islands — Batch 03 candidate art
 
-24 candidate island sprites cropped from two AI-painted contact sheets, accompanied by untouched original sheets. **Not approved for compositor placement yet.**
+24 island candidate PNGs cropped from two generated transparent montage sheets. Intended ordered subject names and approximate geographic anchors are recorded in `placement_manifest.json`; **these are NOT coastline-registered or verified to depict their intended island**. Transparent outer backgrounds and obviously neon-colored fringe pixels were cleaned programmatically but image QA remains open.
 
-The contact sheets were produced as **artistic studies**, not coastline-matched GIS artwork. Names are intended sheet assignments and not verified identities. Crops are individually editable RGBA PNG files; bright colored halos and any transparency defects require review. No EPSG:4326 placement envelopes were invented.
+**Status: STAGED_NOT_APPROVED_FOR_PLACEMENT.** `placement.enabled=false`, `render_bbox_wgs84=null`. Do not run map placement until the outline matches geographic coastline in the inset and the architecture is verified for the intended year. Do not conflate this with Batches 01 and 02, which retain their own provisional-placement approvals.
 
-`placement_manifest.json` and `placement_queue.csv` record candidate names, source sheet coordinates and QA state, with `enabled_for_compositor=false`. To promote each crop: verify correspondence to a named island and true coastline polygon, repaint any inaccurate silhouettes/historical buildings, clean alpha halos, derive geographic bbox/projection, and check collisions on the map proof. Keep batch-01 and batch-02 assets unchanged.
+Sheets contain color fringe artifacts; originals preserved beside crops for future repaint.
