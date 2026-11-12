@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "project": "1-tok/crusadersmap",
+  "batch": "terrain-batch05",
+  "created": "2026-11-11",
+  "intent": "Additional small, transparent map terrain sprites and three wider transparent composites, to be blended above four retained opaque gap-fill rectangles",
+  "source_package": "crusadersmap_terrain_batch05_20261111.zip",
+  "file_status": "PNG binaries and atlas uploaded to GitHub",
+  "asset_count": 18,
+  "artwork_review_status": "provisional",
+  "placement_review_status": "queued_not_placed",
+  "print_quality_review_status": "not_approved",
+  "qa_notes": [
+    "Real RGBA cutouts with zero-alpha border, checked locally",
+    "Artwork cropped from generated atlas illustration, native resolution relatively small",
+    "River and reed pieces require a correct hydrography mask",
+    "Do not enlarge to multi-inch 300DPI placements without repaint/quality review",
+    "Historical land cover and specific coordinates unverified"
+  ],
+  "layer_order": [
+    "geographic/parchment base",
+    "4 existing opaque rectangular gap-fill underlays",
+    "transparent terrain sprites batch 05",
+    "coastline/hydrology",
+    "roads/structures",
+    "labels"
+  ],
+  "assets": [
+    {
+      "id": "nile_delta_reedbed_west",
+      "file": "data/sprites/terrain-batch05/nile_delta_reedbed_west.png",
+      "sha256": "b901d2b061df98b8a6ba6100f8ee70f654310b8b58bad437f3efe95040be5911",
+      "dimensions_px": [
+        319,
+        125
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Nile Delta wetland fringe",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "nile_delta_reedbed_central",
+      "file": "data/sprites/terrain-batch05/nile_delta_reedbed_central.png",
+      "sha256": "1f762af77fb75ef0ed329c20b0f9dd0fa21bbe14c03c242445152fa6d6bff3e4",
+      "dimensions_px": [
+        328,
+        119
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Nile Delta reeds and shallow pool edge",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "euphrates_reedbank",
+      "file": "data/sprites/terrain-batch05/euphrates_reedbank.png",
+      "sha256": "b25a5b4da7f36bd3c43902de0c3845a75c7fe626b4ff683f4036203edbce85f6",
+      "dimensions_px": [
+        287,
+        124
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Euphrates or Tigris reed bank",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "aegean_olive_terraces",
+      "file": "data/sprites/terrain-batch05/aegean_olive_terraces.png",
+      "sha256": "6503b6b3a17cf85c13ed5d9846c617deb06f0059bbbaff45ddaf218b2afc9bcc",
+      "dimensions_px": [
+        298,
+        124
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Aegean terraced cultivation",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "cilician_grain_farms",
+      "file": "data/sprites/terrain-batch05/cilician_grain_farms.png",
+      "sha256": "ab0f04e874ed48f756a214b07e376ee1b48b30e322c444848c6fd6fc4ffa753c",
+      "dimensions_px": [
+        172,
+        130
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Cilician grain fields",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "levant_terrace_mosaic",
+      "file": "data/sprites/terrain-batch05/levant_terrace_mosaic.png",
+      "sha256": "8e232520c11a4540fabfc539c96bd62aa575a57b0761d9334ac3f9acd8ddc7a7",
+      "dimensions_px": [
+        254,
+        132
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Levantine terraced fields",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "thrace_broadleaf_woodland",
+      "file": "data/sprites/terrain-batch05/thrace_broadleaf_woodland.png",
+      "sha256": "1e6c692de9ac0fcf2562ba4f773981aa3a41bae1704d5b7a96586b09738f7dc7",
+      "dimensions_px": [
+        311,
+        139
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Thracian mixed broadleaf woodland",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "pontic_mixed_conifer",
+      "file": "data/sprites/terrain-batch05/pontic_mixed_conifer.png",
+      "sha256": "7a3ec3d90e15caf991cf3371c40e0f70d026dd6f4cb094af3e7caf05e295cb0d",
+      "dimensions_px": [
+        290,
+        138
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Pontic and north Anatolian mixed woodland",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "taurus_wooded_ridge",
+      "file": "data/sprites/terrain-batch05/taurus_wooded_ridge.png",
+      "sha256": "726ed478479fd2f3fd2ad83f2850b120e4128b5545eb1e0adca4f6e9bfb6c372",
+      "dimensions_px": [
+        288,
+        136
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Taurus wooded ridge",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "syrian_dry_wadi",
+      "file": "data/sprites/terrain-batch05/syrian_dry_wadi.png",
+      "sha256": "59bb8d731e87b2ce41b33e34dc98878f9a48a2629aa47bd6170f92dc0c56cc8f",
+      "dimensions_px": [
+        267,
+        114
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Syrian stony dry wash",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "transjordan_rock_pavement",
+      "file": "data/sprites/terrain-batch05/transjordan_rock_pavement.png",
+      "sha256": "accc3ddcdda3264f17851312ee8831d78c4c733fc60f103e43a2b767dc074cd3",
+      "dimensions_px": [
+        295,
+        122
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Transjordan rocky desert margin",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "sinai_palm_oasis",
+      "file": "data/sprites/terrain-batch05/sinai_palm_oasis.png",
+      "sha256": "4055731357db40c3535c477152a7800b0b0db7503fc3b75b938bff3ce852c4c2",
+      "dimensions_px": [
+        230,
+        127
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Sinai palm oasis where water is present",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "anatolian_steppe_sward",
+      "file": "data/sprites/terrain-batch05/anatolian_steppe_sward.png",
+      "sha256": "c3e86dc79ccb48853e6361b47f7bc61f6e4fd6377e8ee1d702005b9c0b0a53b3",
+      "dimensions_px": [
+        241,
+        129
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Central Anatolian steppe",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "canaan_scrub_steppe_edge",
+      "file": "data/sprites/terrain-batch05/canaan_scrub_steppe_edge.png",
+      "sha256": "e38d7c29901664b38ebe4fa9b8773386760ac1ebc2e18a6a262ef6f618c74099",
+      "dimensions_px": [
+        291,
+        122
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Canaan scrub to steppe transition",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "aegean_spring_maquis",
+      "file": "data/sprites/terrain-batch05/aegean_spring_maquis.png",
+      "sha256": "7923fb8a8e286de7962b3e07a2f1c5d9897a062a2099f0ac9eaff48d8c8cfa58",
+      "dimensions_px": [
+        224,
+        122
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Aegean Mediterranean maquis",
+      "role": "single irregular terrain cutout",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "northern_woodland_band",
+      "file": "data/sprites/terrain-batch05/northern_woodland_band.png",
+      "sha256": "c703b6a5e2ca71b04b22b55b3bf056f7b56842d1e94fb36287f9a386810a940d",
+      "dimensions_px": [
+        753,
+        197
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Broad northern woodland composite",
+      "role": "multi-source composite overlay",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "cultivated_terrace_band",
+      "file": "data/sprites/terrain-batch05/cultivated_terrace_band.png",
+      "sha256": "3d44e242c6a8171d7a5eb2c4f7eb66e6cde0f9a724aff39e5c849036715eb9bf",
+      "dimensions_px": [
+        612,
+        200
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Broad cultivated terrace composite",
+      "role": "multi-source composite overlay",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    },
+    {
+      "id": "arid_scrub_transition_band",
+      "file": "data/sprites/terrain-batch05/arid_scrub_transition_band.png",
+      "sha256": "d0e17ea46119b1fe9871925ce15d4ed9f55dee26d9028e8aa5983510dee0aff1",
+      "dimensions_px": [
+        892,
+        193
+      ],
+      "format": "PNG RGBA",
+      "region_hint": "Broad dry scrub-steppe composite",
+      "role": "multi-source composite overlay",
+      "binary_status": "committed",
+      "map_placement_status": "queued_for_review",
+      "placed": false,
+      "print_approved": false,
+      "review_checks": [
+        "alpha edge",
+        "regional applicability",
+        "hydrography collision",
+        "neighbor blend",
+        "native print resolution"
+      ]
+    }
+  ],
+  "source_atlas": "data/sprites/terrain-batch05/terrain_batch05_atlas_rgba.png",
+  "atlas_coordinates": "data/sprites/terrain-batch05/terrain_batch05_atlas.json",
+  "binary_import_status": "blob_transfer_verified_commit_in_progress"
+}
