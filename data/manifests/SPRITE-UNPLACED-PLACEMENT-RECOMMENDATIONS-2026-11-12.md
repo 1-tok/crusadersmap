@@ -43,3 +43,15 @@ The **12 named unmatched records** are Lampron, Toprakkale/Til, Qal'at Ja'bar, H
 **A.** Use the 26 named-anchor candidates for manual alternate-variant review against existing map sites. **B.** Add regional terrain pool overlays in the actual composition in the lower-content areas, starting with Cilician fields, Orontes and Nile wetlands, Transjordan drylands and Taurus/Lebanon foothill gaps. **C.** Review Aegean island concepts against vector coast and inset frame. **D.** Place ships and caravan/farm details only after establishing empty water/road corridors. **E.** Religious/architectural generics remain optional, not mass-placed.
 
 **No new paintings are warranted from the numeric deficit alone.** Recompute the true remaining gaps from the rendered final map, then commission site-specific corrections.
+
+## Implementation checkpoint — review renderer and diagnostics
+
+Changes committed to `main`:
+- `render_sprite_layer.py` now ignores explicitly mismatched depiction years in year-specific review maps; older undated records remain candidates only inside their curated year-specific review file. The default renderer picks one visible sprite per site to avoid stacked duplicate variants.
+- `tests/test_review_sprite_date_gates.py` tests phase exclusion, missing geometry and alternate-variant behavior.
+- `tools/audit_review_map.py` calculates sheet-space sprite bounding boxes, region counts, potential overlaps and print-sheet clipping for the selected review layer. Overlap is a warning, not proof of actual visual conflict.
+- `.github/workflows/review-map-diagnostics.yml` builds 1180 and 1250 diagnostic JPEGs and JSON/Markdown reports on the next matching push or workflow dispatch, uploading them as GitHub Actions artifacts without modifying the production map.
+
+**Execution status:** workflow created and committed, but successful Actions execution and generated artifact content are **not yet confirmed** in this audit. The full geographical base, labels and hydrology are **not** composited by `render_sprite_layer.py` (it renders sprites on a diagnostic grid). Do not call its output a final full-map preview.
+
+**Placement next:** review the diagnostic images; approve individually selected generic terrain candidates in constrained coastline/river/field/mountain regions after visual fit and clash QA. Do not bulk assign invented lat/lon to the unplaced 226 intake items.
