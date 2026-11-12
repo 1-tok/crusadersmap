@@ -3,6 +3,74 @@
   "features": [
     {
       "type": "Feature",
+      "id": "INTAKE-03b8997fe3ac075f1dc9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-03b8997fe3ac075f1dc9",
+        "asset": "data/sprites/automated-intake/png/fortified-caravanserai-03b8997fe3ac.png",
+        "site_id": "generic-fortified-caravanserai",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-069b5256b3d9c42cd7ea",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-069b5256b3d9c42cd7ea",
+        "asset": "data/sprites/automated-intake/png/coastal-watchtower-069b5256b3d9.png",
+        "site_id": "generic-coastal-watchtower",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-06d4c61e58322b953adb",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-06d4c61e58322b953adb",
+        "asset": "data/sprites/automated-intake/png/79-saria-concept-06d4c61e5832.png",
+        "site_id": "79-saria-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-0731ce87a8f3eb5b2386",
       "geometry": null,
       "properties": {
@@ -20,6 +88,120 @@
         "display_width_units": 512,
         "review_flags": [
           "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-09bb8904668be895301b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-09bb8904668be895301b",
+        "asset": "data/sprites/automated-intake/png/75-antikythera-draft-09bb8904668b.png",
+        "site_id": "75-antikythera-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-0c2dad4283418779b61c",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-0c2dad4283418779b61c",
+        "asset": "data/sprites/automated-intake/png/lampron-namrun-0c2dad428341.png",
+        "site_id": "lampron-namrun",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-111b9730ed0ac3a9c5fe",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-111b9730ed0ac3a9c5fe",
+        "asset": "data/sprites/automated-intake/png/harbor-monastery-111b9730ed0a.png",
+        "site_id": "harbor-monastery",
+        "approval": "approved",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-121fcdbe63d7de9ff449",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-121fcdbe63d7de9ff449",
+        "asset": "data/sprites/automated-intake/png/77-ereikoussa-concept-121fcdbe63d7.png",
+        "site_id": "77-ereikoussa-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-15f3fad4b91e0bb5110e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-15f3fad4b91e0bb5110e",
+        "asset": "data/sprites/automated-intake/png/coastal-domed-church-15f3fad4b91e.png",
+        "site_id": "coastal-domed-church",
+        "approval": "approved",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
           "coordinates_unverified"
         ]
       }
@@ -44,6 +226,76 @@
         "review_flags": [
           "category_unverified",
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-1d4471d4c7afa2d90d9f",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-1d4471d4c7afa2d90d9f",
+        "asset": "data/sprites/automated-intake/png/b15-05-kykkos-monastery-1d4471d4c7af.png",
+        "site_id": "b15-05-kykkos-monastery",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-1d57b24b65517982f078",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-1d57b24b65517982f078",
+        "asset": "data/sprites/automated-intake/png/desert-mountain-monastery-1d57b24b6551.png",
+        "site_id": "desert-mountain-monastery",
+        "approval": "approved",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2021a2fc4e4d54c41517",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2021a2fc4e4d54c41517",
+        "asset": "data/sprites/automated-intake/png/b16-05-terraced-hilltown-generic-2021a2fc4e4d.png",
+        "site_id": "b16-05-terraced-hilltown-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -116,6 +368,54 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-263ddba8524951c6770a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-263ddba8524951c6770a",
+        "asset": "data/sprites/automated-intake/png/b05-concept-04-unassigned-draft-263ddba85249.png",
+        "site_id": "b05-concept-04-unassigned-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2b643a14b79de97638ad",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2b643a14b79de97638ad",
+        "asset": "data/sprites/automated-intake/png/b15-04-mount-tabor-2b643a14b79d.png",
+        "site_id": "b15-04-mount-tabor",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-2ba6bd0bb5c3f12749ff",
       "geometry": null,
       "properties": {
@@ -183,6 +483,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-3376553f7d9a16647053",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-3376553f7d9a16647053",
+        "asset": "data/sprites/automated-intake/png/b16-06-offshore-castle-generic-3376553f7d9a.png",
+        "site_id": "b16-06-offshore-castle-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-39a9e488a0adf99f86bf",
       "geometry": null,
       "properties": {
@@ -200,6 +524,50 @@
         "display_width_units": 512,
         "review_flags": [
           "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-3d4b1fcd08602350cb1e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-3d4b1fcd08602350cb1e",
+        "asset": "data/sprites/automated-intake/png/g-kvelio-lu-castle-3d4b1fcd0860.png",
+        "site_id": "g-kvelio-lu-castle",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-403baea15271bdfec008",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-403baea15271bdfec008",
+        "asset": "data/sprites/automated-intake/png/tumlu-kalesi-403baea15271.png",
+        "site_id": "tumlu-kalesi",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
           "coordinates_unverified"
         ]
       }
@@ -229,6 +597,52 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-4df089b22f7aa9972ef0",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-4df089b22f7aa9972ef0",
+        "asset": "data/sprites/automated-intake/png/b15-03-nabi-samwil-4df089b22f7a.png",
+        "site_id": "b15-03-nabi-samwil",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-58bc99dbddd6ebba32e7",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-58bc99dbddd6ebba32e7",
+        "asset": "data/sprites/automated-intake/png/savranda-servantikar-58bc99dbddd6.png",
+        "site_id": "savranda-servantikar",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-5df9cdf9a419a108ee37",
       "geometry": null,
       "properties": {
@@ -251,6 +665,76 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-5ede2f1b3a374fbd35d9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-5ede2f1b3a374fbd35d9",
+        "asset": "data/sprites/automated-intake/png/ravanda-ravendel-5ede2f1b3a37.png",
+        "site_id": "ravanda-ravendel",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-65b2888de91b70c94848",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-65b2888de91b70c94848",
+        "asset": "data/sprites/automated-intake/png/76-othonoi-concept-65b2888de91b.png",
+        "site_id": "76-othonoi-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-675ce22f6f4ade256a40",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-675ce22f6f4ade256a40",
+        "asset": "data/sprites/automated-intake/png/b16-02-ridge-citadel-generic-675ce22f6f4a.png",
+        "site_id": "b16-02-ridge-citadel-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-6b5a1ae89a82778944a0",
       "geometry": null,
       "properties": {
@@ -268,6 +752,98 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6bd02e6bbe7f080a923e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-6bd02e6bbe7f080a923e",
+        "asset": "data/sprites/automated-intake/png/domed-bath-complex-6bd02e6bbe7f.png",
+        "site_id": "generic-domed-bath-complex",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6dd7c326faa6c31f9c95",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-6dd7c326faa6c31f9c95",
+        "asset": "data/sprites/automated-intake/png/b15-02-apamea-citadel-6dd7c326faa6.png",
+        "site_id": "b15-02-apamea-citadel",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6f325d2804d2548c2499",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-6f325d2804d2548c2499",
+        "asset": "data/sprites/automated-intake/png/silifke-seleucia-6f325d2804d2.png",
+        "site_id": "silifke-seleucia",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-74191efe98aad56ed0a3",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-74191efe98aad56ed0a3",
+        "asset": "data/sprites/automated-intake/png/b05-concept-01-unassigned-draft-74191efe98aa.png",
+        "site_id": "b05-concept-01-unassigned-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -296,6 +872,50 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-7f735b59e5487b2a5c04",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7f735b59e5487b2a5c04",
+        "asset": "data/sprites/automated-intake/png/rural-abbey-with-vineyard-7f735b59e548.png",
+        "site_id": "rural-abbey-with-vineyard",
+        "approval": "approved",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-80665a0a23e1f921b2d5",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-80665a0a23e1f921b2d5",
+        "asset": "data/sprites/automated-intake/png/gothic-abbey-complex-80665a0a23e1.png",
+        "site_id": "gothic-abbey-complex",
+        "approval": "approved",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-8906198a8b883086d7b9",
       "geometry": null,
       "properties": {
@@ -313,6 +933,52 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8adca7d15df8c7e70c2f",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-8adca7d15df8c7e70c2f",
+        "asset": "data/sprites/automated-intake/png/medieval-windmill-and-farm-8adca7d15df8.png",
+        "site_id": "generic-medieval-windmill-farm",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8c230f7ded59681b4102",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-8c230f7ded59681b4102",
+        "asset": "data/sprites/automated-intake/png/78-mathraki-concept-8c230f7ded59.png",
+        "site_id": "78-mathraki-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -347,6 +1013,98 @@
         "asset": "data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png",
         "site_id": "feke",
         "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-93b600ef3128b540e82c",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-93b600ef3128b540e82c",
+        "asset": "data/sprites/automated-intake/png/byzantine-cross-domed-church-93b600ef3128.png",
+        "site_id": "byzantine-cross-domed-church",
+        "approval": "approved",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-96722e3b338548cb8bf6",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-96722e3b338548cb8bf6",
+        "asset": "data/sprites/automated-intake/png/b15-06-bellapais-early-96722e3b3385.png",
+        "site_id": "b15-06-bellapais-early",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9d7fbc4c2d886297ce33",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-9d7fbc4c2d886297ce33",
+        "asset": "data/sprites/automated-intake/png/72-arki-marathi-cluster-draft-9d7fbc4c2d88.png",
+        "site_id": "72-arki-marathi-cluster-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9f7e306cdacafeb6369c",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-9f7e306cdacafeb6369c",
+        "asset": "data/sprites/automated-intake/png/fortified-stone-river-bridge-9f7e306cdaca.png",
+        "site_id": "generic-fortified-river-bridge",
+        "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
         "historical_accuracy_certified": false,
@@ -429,6 +1187,28 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-a855c61276d4b7ae8db3",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-a855c61276d4b7ae8db3",
+        "asset": "data/sprites/automated-intake/png/byzantine-monastic-church-a855c61276d4.png",
+        "site_id": "byzantine-monastic-church",
+        "approval": "approved",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-a8e135625a205da1e7f2",
       "geometry": null,
       "properties": {
@@ -446,6 +1226,28 @@
         "display_width_units": 512,
         "review_flags": [
           "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-adb44d1af8059809ee97",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-adb44d1af8059809ee97",
+        "asset": "data/sprites/automated-intake/png/coastal-cliff-monastery-adb44d1af805.png",
+        "site_id": "coastal-cliff-monastery",
+        "approval": "approved",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
           "coordinates_unverified"
         ]
       }
@@ -519,12 +1321,174 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-b1d2b8d18c8980bf6e09",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-b1d2b8d18c8980bf6e09",
+        "asset": "data/sprites/automated-intake/png/b05-concept-03-unassigned-draft-b1d2b8d18c89.png",
+        "site_id": "b05-concept-03-unassigned-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-bbbf8b229ab562e70a3e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-bbbf8b229ab562e70a3e",
+        "asset": "data/sprites/automated-intake/png/b05-concept-02-unassigned-draft-bbbf8b229ab5.png",
+        "site_id": "b05-concept-02-unassigned-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-bedc59165cf4b72a8db9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-bedc59165cf4b72a8db9",
+        "asset": "data/sprites/automated-intake/png/b16-04-hilltop-monastery-generic-bedc59165cf4.png",
+        "site_id": "b16-04-hilltop-monastery-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-c20660fea423df4418ab",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-c20660fea423df4418ab",
+        "asset": "data/sprites/automated-intake/png/anavarza-anazarbus-c20660fea423.png",
+        "site_id": "anavarza-anazarbus",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-c243886984d20d5a00a2",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-c243886984d20d5a00a2",
+        "asset": "data/sprites/automated-intake/png/harim-harenc-c243886984d2.png",
+        "site_id": "harim-harenc",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-c39e8abdd8a9d913dbaf",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-c39e8abdd8a9d913dbaf",
         "asset": "data/sprites/automated-intake/png/medieval-crusader-fortress-sprite-collection-c39e8abdd8a9.png",
         "site_id": "medieval-crusader-fortress-sprite-collection",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-c4ca6e27b3b4e8d2dd15",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-c4ca6e27b3b4e8d2dd15",
+        "asset": "data/sprites/automated-intake/png/terraced-vineyard-estate-c4ca6e27b3b4.png",
+        "site_id": "generic-terraced-vineyard-estate",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-ca98b66a708c799259ad",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-ca98b66a708c799259ad",
+        "asset": "data/sprites/automated-intake/png/74-fournoi-cluster-draft-ca98b66a708c.png",
+        "site_id": "74-fournoi-cluster-draft",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -566,6 +1530,80 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-d887135cdc6da0faa2d1",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-d887135cdc6da0faa2d1",
+        "asset": "data/sprites/automated-intake/png/source-sheet-original-rgb-d887135cdc6d.png",
+        "site_id": "source-sheet-original-rgb",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-d8c049060e0dd02e5a51",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-d8c049060e0dd02e5a51",
+        "asset": "data/sprites/automated-intake/png/b16-01-fortified-harbor-generic-d8c049060e0d.png",
+        "site_id": "b16-01-fortified-harbor-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-da0073b1136201e647a4",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-da0073b1136201e647a4",
+        "asset": "data/sprites/automated-intake/png/b15-01-harim-castle-da0073b11362.png",
+        "site_id": "b15-01-harim-castle",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-dddca42c6790b34b00fd",
       "geometry": null,
       "properties": {
@@ -583,6 +1621,52 @@
         "display_width_units": 512,
         "review_flags": [
           "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e3b6a89346ac619b96ac",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-e3b6a89346ac619b96ac",
+        "asset": "data/sprites/automated-intake/png/b16-03-walled-abbey-generic-e3b6a89346ac.png",
+        "site_id": "b16-03-walled-abbey-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e65323d310e1fbb63d1c",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-e65323d310e1fbb63d1c",
+        "asset": "data/sprites/automated-intake/png/gothic-cathedral-precinct-e65323d310e1.png",
+        "site_id": "gothic-cathedral-precinct",
+        "approval": "approved",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
           "coordinates_unverified"
         ]
       }
@@ -633,6 +1717,120 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-edfc16350be6504f71c9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-edfc16350be6504f71c9",
+        "asset": "data/sprites/automated-intake/png/batch15-original-six-sprite-sheet-edfc16350be6.png",
+        "site_id": "batch15-original-six-sprite-sheet",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-ef259f613924c71a73a2",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-ef259f613924c71a73a2",
+        "asset": "data/sprites/automated-intake/png/fortified-cliff-monastery-ef259f613924.png",
+        "site_id": "fortified-cliff-monastery",
+        "approval": "approved",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-ef55ad2566f6a9640cda",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-ef55ad2566f6a9640cda",
+        "asset": "data/sprites/automated-intake/png/fortified-church-ef55ad2566f6.png",
+        "site_id": "fortified-church",
+        "approval": "approved",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f5cc1e773542e205ef1e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-f5cc1e773542e205ef1e",
+        "asset": "data/sprites/automated-intake/png/hillside-stone-aqueduct-f5cc1e773542.png",
+        "site_id": "generic-hillside-aqueduct",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f7e2aa4d87b2bfc4c099",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-f7e2aa4d87b2bfc4c099",
+        "asset": "data/sprites/automated-intake/png/domed-cathedral-compound-f7e2aa4d87b2.png",
+        "site_id": "domed-cathedral-compound",
+        "approval": "approved",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-f8a5901ed2aec513c483",
       "geometry": null,
       "properties": {
@@ -651,6 +1849,30 @@
         "review_flags": [
           "category_unverified",
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-fd807ab99f04b9a7d53b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-fd807ab99f04b9a7d53b",
+        "asset": "data/sprites/automated-intake/png/73-oinousses-cluster-draft-fd807ab99f04.png",
+        "site_id": "73-oinousses-cluster-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     }
