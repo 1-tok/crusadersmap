@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "batch_id": "terrain-connectors-batch21-2026-11-12",
+  "status": "source_zip_ready_png_upload_pending",
+  "upload_zip": "crusadersmap_batch21_terrain_connectors_upload_2026-11-12.zip",
+  "asset_count": 21,
+  "groups": {
+    "coastal-transitions": 4,
+    "river-transitions": 4,
+    "farmland-and-village": 5,
+    "mountain-and-desert-transitions": 4,
+    "woodland-and-wetland": 4
+  },
+  "source_file": "source_sheet_original_rgb.png",
+  "source_mode": "RGB near-white checkerboard",
+  "alpha": "threshold-based reconstruction with component isolation and transparent margins",
+  "technical_qa": "archive integrity verified; visually inspected on dark background; residual crop edges/halos need per-asset QA",
+  "editing": "Excluded two incomplete crops B21-18 and B21-22",
+  "placement": {
+    "review_approved": false,
+    "production_approved": false,
+    "coordinates": null,
+    "water_alignment": "mask to georeferenced coastline and rivers",
+    "layering": "four retained rectangle underlays below irregular terrain cutouts; roads, cities and labels above"
+  },
+  "print_quality": "native crops 150-540px wide, size must be assessed at printed atlas scale",
+  "historical_status": "generic illustrative terrain; buildings within some farmland pieces not historically verified",
+  "files_manifest": "manifest.json inside upload ZIP"
+}
