@@ -254,7 +254,7 @@ def draw_ink(edition):
     plate(c, 300, 4800, 2000, 4300)
     centred(c, "KEY", 1300, 4990, 90, SEP)
     plate(c, 2700, 6750, 2700, 1000)
-    centred(c, "Outremer", 4050, 7300, 190)
+    centred(c, "Outremer", 4050, 7310, 320)
     centred(c, "The Crusader States and their Neighbours", 4050, 7480, 62)
     centred(c, "1095 - 1571", 4050, 7640, 52, SEP, "IM FELL English", cairo.FONT_SLANT_ITALIC)
     plate(c, 190, 13920, 10420, 330)
