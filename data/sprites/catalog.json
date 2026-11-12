@@ -17110,6 +17110,2334 @@
         "Provisional site eligibility does not certify every painted roof, wall, flag or terrain detail."
       ],
       "duplicate_of": null
+    },
+    {
+      "id": "INTAKE-0731ce87a8f3eb5b2386",
+      "site_id": "domed-walled-religious-precinct",
+      "name": "Domed walled religious precinct",
+      "display_title": "Domed walled religious precinct",
+      "category": "unclassified",
+      "asset": "automated-intake/png/domed-walled-religious-precinct-0731ce87a8f3.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_14_intake/religious-b14-04-domed-abbey.png",
+        "sha256": "ef8bcf522d6f8419d22230b42ff0546279a71a0d822ac1a54f349248a598159e",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          292
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          292
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          5,
+          379,
+          287
+        ],
+        "pixel_sha256": "0731ce87a8f3eb5b23869bcf3ba8915c7b500b35fbb1824c09e0386dcc74761c",
+        "sha256": "ef8bcf522d6f8419d22230b42ff0546279a71a0d822ac1a54f349248a598159e",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-16e5604899889eed683f",
+      "site_id": "cross-domed-byzantine-style-church",
+      "name": "Cross-domed Byzantine-style church",
+      "display_title": "Cross-domed Byzantine-style church",
+      "category": "unclassified",
+      "asset": "automated-intake/png/cross-domed-byzantine-style-church-16e560489988.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_14_intake/religious-b14-08-byzantine-church.png",
+        "sha256": "5b187ef5d2d445d22f67e193269f903011a9c7debc87097462ed9731b9c09325",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          294
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          294
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          1,
+          5,
+          379,
+          289
+        ],
+        "pixel_sha256": "16e5604899889eed683fa8b184bd42ae39abceee54d701818f64107c0fa5dde8",
+        "sha256": "5b187ef5d2d445d22f67e193269f903011a9c7debc87097462ed9731b9c09325",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-21cdd6fda2717da7e6ce",
+      "site_id": "kantara",
+      "name": "Kantara",
+      "display_title": "Kantara",
+      "category": "castle",
+      "asset": "automated-intake/png/kantara-21cdd6fda271.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortress_next_12_intake/assets/sprites/incoming/fortress-concept-10-kantara.png",
+        "sha256": "5119fa6dd6fbe26e2b5f00ee42c15c95e44b2a861d68b202da1f254e2bec0727",
+        "crop_xyxy": [
+          0,
+          0,
+          380,
+          349
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "Review island/ridge/river overlap; raster may need geographic masking",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          380,
+          349
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          370,
+          339
+        ],
+        "pixel_sha256": "21cdd6fda2717da7e6ce7ffedbd68e8203229a6e97483e373b8d58c78a0bde12",
+        "sha256": "5119fa6dd6fbe26e2b5f00ee42c15c95e44b2a861d68b202da1f254e2bec0727",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-24a89c6ceecf0c22338c",
+      "site_id": "twin-tower-latin-church",
+      "name": "Twin-tower Latin church",
+      "display_title": "Twin-tower Latin church",
+      "category": "unclassified",
+      "asset": "automated-intake/png/twin-tower-latin-church-24a89c6ceecf.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_14_intake/religious-b14-09-twin-tower-latin-cathedral.png",
+        "sha256": "a1bafeeb9f5f25f29c248653768d1552bf913cc7e0b5194afe6f3291b7289859",
+        "crop_xyxy": [
+          0,
+          0,
+          382,
+          315
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          382,
+          315
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          5,
+          4,
+          382,
+          310
+        ],
+        "pixel_sha256": "24a89c6ceecf0c22338cd592d1464067b1e73416d3e33741bfa990dd72594dad",
+        "sha256": "a1bafeeb9f5f25f29c248653768d1552bf913cc7e0b5194afe6f3291b7289859",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-2ba6bd0bb5c3f12749ff",
+      "site_id": "pointed-arch-gothic-church",
+      "name": "Pointed-arch Gothic church",
+      "display_title": "Pointed-arch Gothic church",
+      "category": "unclassified",
+      "asset": "automated-intake/png/pointed-arch-gothic-church-2ba6bd0bb5c3.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_14_intake/religious-b14-10-gothic-cathedral.png",
+        "sha256": "c688ad885c44a8c0332a59b4cfaa20deb368569d876c053fe943fb2b28101a5a",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          315
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          315
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          1,
+          5,
+          384,
+          310
+        ],
+        "pixel_sha256": "2ba6bd0bb5c3f12749ffe8ec92306e3d9e21cf668cedc100e1018f30ffd37245",
+        "sha256": "c688ad885c44a8c0332a59b4cfaa20deb368569d876c053fe943fb2b28101a5a",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-2cad1dc9839e0df887cc",
+      "site_id": "kolossi",
+      "name": "Kolossi",
+      "display_title": "Kolossi",
+      "category": "castle",
+      "asset": "automated-intake/png/kolossi-2cad1dc9839e.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortress_next_12_intake/assets/sprites/incoming/fortress-concept-11-kolossi.png",
+        "sha256": "c16625b0b423a7c856eef839fcd4280f17b313768d4a885cf7648371cbfe6798",
+        "crop_xyxy": [
+          0,
+          0,
+          379,
+          314
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "Review island/ridge/river overlap; raster may need geographic masking",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          379,
+          314
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          369,
+          304
+        ],
+        "pixel_sha256": "2cad1dc9839e0df887cc93074b5ebcf7baf3b514ba137418e3ec9ff07ef32b31",
+        "sha256": "c16625b0b423a7c856eef839fcd4280f17b313768d4a885cf7648371cbfe6798",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-30eaae615a8de1e43000",
+      "site_id": "darbsak",
+      "name": "Darbsak",
+      "display_title": "Darbsak",
+      "category": "castle",
+      "asset": "automated-intake/png/darbsak-30eaae615a8d.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortress_next_12_intake/assets/sprites/incoming/fortress-concept-06-darbsak.png",
+        "sha256": "4555f3e8ddbe22ae6c061618475ae0a79329418f518d95d523098b753f485aff",
+        "crop_xyxy": [
+          0,
+          0,
+          378,
+          297
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "Review island/ridge/river overlap; raster may need geographic masking",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          378,
+          297
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          368,
+          287
+        ],
+        "pixel_sha256": "30eaae615a8de1e430000f5a8147953a6d761807c7ce290676f9ac61c9ab063b",
+        "sha256": "4555f3e8ddbe22ae6c061618475ae0a79329418f518d95d523098b753f485aff",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-39a9e488a0adf99f86bf",
+      "site_id": "fortified-stone-monastery",
+      "name": "Fortified stone monastery",
+      "display_title": "Fortified stone monastery",
+      "category": "unclassified",
+      "asset": "automated-intake/png/fortified-stone-monastery-39a9e488a0ad.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_14_intake/religious-b14-07-fortified-monastery.png",
+        "sha256": "07680c570d1e9ca4915961578e5f270d2f9764a117cd166fd01b595516116fd7",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          304
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          304
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          4,
+          5,
+          382,
+          299
+        ],
+        "pixel_sha256": "39a9e488a0adf99f86bf826cffd82854226f43c3468d56fba038a8094442f16a",
+        "sha256": "07680c570d1e9ca4915961578e5f270d2f9764a117cd166fd01b595516116fd7",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-443050a4ab9be37818c1",
+      "site_id": "gold-domed-octagonal-shrine",
+      "name": "Gold-domed octagonal shrine",
+      "display_title": "Gold-domed octagonal shrine",
+      "category": "unclassified",
+      "asset": "automated-intake/png/gold-domed-octagonal-shrine-443050a4ab9b.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_14_intake/religious-b14-03-dome-of-the-rock-inspired.png",
+        "sha256": "6deb7a2a13b20ba75933c9752cb44ff509324fa13da6c08a7b1994de31245ca2",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          309
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          309
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          5,
+          383,
+          304
+        ],
+        "pixel_sha256": "443050a4ab9be37818c1b01dfc8866752b019975d4e74dfd0898949b672a9871",
+        "sha256": "6deb7a2a13b20ba75933c9752cb44ff509324fa13da6c08a7b1994de31245ca2",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-6b5a1ae89a82778944a0",
+      "site_id": "chastellet-jacobs-ford",
+      "name": "Chastellet / Jacob’s Ford",
+      "display_title": "Chastellet / Jacob’s Ford",
+      "category": "castle",
+      "asset": "automated-intake/png/chastellet-jacob-s-ford-6b5a1ae89a82.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortress_next_12_intake/assets/sprites/incoming/fortress-concept-01-chastellet-jacobs-ford.png",
+        "sha256": "7348b903794fa1ba492d189a44d44d9c10d01e4ef05c4a6e52034e9eef680572",
+        "crop_xyxy": [
+          0,
+          0,
+          372,
+          280
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "Review island/ridge/river overlap; raster may need geographic masking",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          372,
+          280
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          362,
+          270
+        ],
+        "pixel_sha256": "6b5a1ae89a82778944a079e6ff9854b9b86e07587f0d9957001ad40ce4ee97b4",
+        "sha256": "7348b903794fa1ba492d189a44d44d9c10d01e4ef05c4a6e52034e9eef680572",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-7d4549d9b2c5571dc95e",
+      "site_id": "hagia-sophia-inspired-domed-complex",
+      "name": "Hagia Sophia-inspired domed complex",
+      "display_title": "Hagia Sophia-inspired domed complex",
+      "category": "unclassified",
+      "asset": "automated-intake/png/hagia-sophia-inspired-domed-complex-7d4549d9b2c5.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_14_intake/religious-b14-01-hagia-sophia-inspired.png",
+        "sha256": "3cf009462348467afce7fee27c50ef685a2a1b11e5a0f3ff8c6a84cdeaf6c8b4",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          310
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          310
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          4,
+          5,
+          384,
+          305
+        ],
+        "pixel_sha256": "7d4549d9b2c5571dc95e8b5c3644165767db065ca803ef7247009a37ab4bb03f",
+        "sha256": "3cf009462348467afce7fee27c50ef685a2a1b11e5a0f3ff8c6a84cdeaf6c8b4",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-8f4e66fea529488b286b",
+      "site_id": "bourzey",
+      "name": "Bourzey / Burzey",
+      "display_title": "Bourzey / Burzey",
+      "category": "castle",
+      "asset": "automated-intake/png/bourzey-burzey-8f4e66fea529.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortress_next_12_intake/assets/sprites/incoming/fortress-concept-02-bourzey.png",
+        "sha256": "c26c64883a5e5b69a96d926352724e61849203c907053146aef334ae2af4aaea",
+        "crop_xyxy": [
+          0,
+          0,
+          376,
+          322
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "Review island/ridge/river overlap; raster may need geographic masking",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          376,
+          322
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          366,
+          312
+        ],
+        "pixel_sha256": "8f4e66fea529488b286b65dc5c5a5ee127c08aed110d472269d9fe556b7265ac",
+        "sha256": "c26c64883a5e5b69a96d926352724e61849203c907053146aef334ae2af4aaea",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-9222ed7f72b98002f2c9",
+      "site_id": "feke",
+      "name": "Feke / Vahka",
+      "display_title": "Feke / Vahka",
+      "category": "castle",
+      "asset": "automated-intake/png/feke-vahka-9222ed7f72b9.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortress_next_12_intake/assets/sprites/incoming/fortress-concept-07-feke.png",
+        "sha256": "be985b75832a9a5de4222802976b310b1fc569061e0d3d8b4710199efd5f6aeb",
+        "crop_xyxy": [
+          0,
+          0,
+          379,
+          349
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "Review island/ridge/river overlap; raster may need geographic masking",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          379,
+          349
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          369,
+          339
+        ],
+        "pixel_sha256": "9222ed7f72b98002f2c9e75b86106b718040b09eaaa1d6a5f6acd3796e78237e",
+        "sha256": "be985b75832a9a5de4222802976b310b1fc569061e0d3d8b4710199efd5f6aeb",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-a004220580c6f9db3ded",
+      "site_id": "coastal-cliffside-monastery",
+      "name": "Coastal cliffside monastery",
+      "display_title": "Coastal cliffside monastery",
+      "category": "unclassified",
+      "asset": "automated-intake/png/coastal-cliffside-monastery-a004220580c6.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_14_intake/religious-b14-05-coastal-monastery.png",
+        "sha256": "57689f09b088b7bb053db2b9e565c01377af1e18065697e63cf2c7aaf1f937b5",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          312
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          312
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          4,
+          5,
+          384,
+          307
+        ],
+        "pixel_sha256": "a004220580c6f9db3dedbc9272a6881676b1a32936111abcdee592bcfc715427",
+        "sha256": "57689f09b088b7bb053db2b9e565c01377af1e18065697e63cf2c7aaf1f937b5",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-a20a8f7f9045cb31c6c4",
+      "site_id": "masyaf",
+      "name": "Masyaf",
+      "display_title": "Masyaf",
+      "category": "castle",
+      "asset": "automated-intake/png/masyaf-a20a8f7f9045.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortress_next_12_intake/assets/sprites/incoming/fortress-concept-04-masyaf.png",
+        "sha256": "3e81ee2a29aa3bcc4094bf4e843f1217d9977a2d355eaa59bd45895250082a18",
+        "crop_xyxy": [
+          0,
+          0,
+          368,
+          351
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "Review island/ridge/river overlap; raster may need geographic masking",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          368,
+          351
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          358,
+          341
+        ],
+        "pixel_sha256": "a20a8f7f9045cb31c6c45471880858460cfa490bba2715fecbbe342462320ccd",
+        "sha256": "3e81ee2a29aa3bcc4094bf4e843f1217d9977a2d355eaa59bd45895250082a18",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-a7440d538d459efb815e",
+      "site_id": "chlemoutsi",
+      "name": "Chlemoutsi / Clermont",
+      "display_title": "Chlemoutsi / Clermont",
+      "category": "castle",
+      "asset": "automated-intake/png/chlemoutsi-clermont-a7440d538d45.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortress_next_12_intake/assets/sprites/incoming/fortress-concept-12-chlemoutsi.png",
+        "sha256": "53c1495b0be443fcf356d74babe54c96c05a13a75034172801d7286150943c8f",
+        "crop_xyxy": [
+          0,
+          0,
+          380,
+          326
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "aegean",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "aegean"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "Review island/ridge/river overlap; raster may need geographic masking",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          380,
+          326
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          370,
+          316
+        ],
+        "pixel_sha256": "a7440d538d459efb815e45dab6ab74c75d2118ff24a300d9e49ea8f202fb2822",
+        "sha256": "53c1495b0be443fcf356d74babe54c96c05a13a75034172801d7286150943c8f",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-a8e135625a205da1e7f2",
+      "site_id": "domed-rotunda-and-church-group",
+      "name": "Domed rotunda and church group",
+      "display_title": "Domed rotunda and church group",
+      "category": "unclassified",
+      "asset": "automated-intake/png/domed-rotunda-and-church-group-a8e135625a20.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_14_intake/religious-b14-11-rotunda-church.png",
+        "sha256": "ce695e853306eae71faa04521966f29a73ed08d1edf727444f0c6eb582b043f1",
+        "crop_xyxy": [
+          0,
+          0,
+          381,
+          316
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          381,
+          316
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          5,
+          0,
+          378,
+          311
+        ],
+        "pixel_sha256": "a8e135625a205da1e7f2ba04582ae655b67ad832f77b791d17efe0d4461c0aee",
+        "sha256": "ce695e853306eae71faa04521966f29a73ed08d1edf727444f0c6eb582b043f1",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-ae098fc9579ca3fa5393",
+      "site_id": "fortified-desert-monastery",
+      "name": "Fortified desert monastery",
+      "display_title": "Fortified desert monastery",
+      "category": "unclassified",
+      "asset": "automated-intake/png/fortified-desert-monastery-ae098fc9579c.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_14_intake/religious-b14-06-sinai-monastery-inspired.png",
+        "sha256": "95c41e1e20a3449b3f6b12207ab18251e45771cb9f7f137de4fa2b1600216bb2",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          311
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          311
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          5,
+          384,
+          306
+        ],
+        "pixel_sha256": "ae098fc9579ca3fa53930637053f99d38b8b649b1e72d3f9fcf6d4719dea656f",
+        "sha256": "95c41e1e20a3449b3f6b12207ab18251e45771cb9f7f137de4fa2b1600216bb2",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-afb58e1ddd842e4c4fcb",
+      "site_id": "kizkalesi",
+      "name": "Kızkalesi",
+      "display_title": "Kızkalesi",
+      "category": "castle",
+      "asset": "automated-intake/png/k-zkalesi-afb58e1ddd84.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortress_next_12_intake/assets/sprites/incoming/fortress-concept-08-kizkalesi.png",
+        "sha256": "9fb24c185d6ec1b3b7e824484930b501afca6b545ad18ccd0e07781ae58765db",
+        "crop_xyxy": [
+          0,
+          0,
+          379,
+          289
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "Review island/ridge/river overlap; raster may need geographic masking",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          379,
+          289
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          369,
+          279
+        ],
+        "pixel_sha256": "afb58e1ddd842e4c4fcb87de140cdd5e3b1f17b74628a63d8877aa3757aaa1a3",
+        "sha256": "9fb24c185d6ec1b3b7e824484930b501afca6b545ad18ccd0e07781ae58765db",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-b1335fb7ad715637d8ec",
+      "site_id": "shaizar",
+      "name": "Shaizar",
+      "display_title": "Shaizar",
+      "category": "castle",
+      "asset": "automated-intake/png/shaizar-b1335fb7ad71.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortress_next_12_intake/assets/sprites/incoming/fortress-concept-03-shaizar.png",
+        "sha256": "e08773d73eb0c52a473bd88aa5040cd96c7b89dc3a12a765236b11e6aeade7f7",
+        "crop_xyxy": [
+          0,
+          0,
+          379,
+          351
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "Review island/ridge/river overlap; raster may need geographic masking",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          379,
+          351
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          369,
+          341
+        ],
+        "pixel_sha256": "b1335fb7ad715637d8ecdac4734fa4f32fec5340fd217c16d032f9ee435d85ea",
+        "sha256": "e08773d73eb0c52a473bd88aa5040cd96c7b89dc3a12a765236b11e6aeade7f7",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-c39e8abdd8a9d913dbaf",
+      "site_id": "medieval-crusader-fortress-sprite-collection",
+      "name": "medieval_crusader_fortress_sprite_collection",
+      "display_title": "medieval_crusader_fortress_sprite_collection",
+      "category": "unclassified",
+      "asset": "automated-intake/png/medieval-crusader-fortress-sprite-collection-c39e8abdd8a9.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortress_next_12_intake/source/medieval_crusader_fortress_sprite_collection.png",
+        "sha256": "97a4b6531f60fc7c6cacbf29335ecebbe2a70bdfbda454aa83b0b832ccd5d878",
+        "crop_xyxy": [
+          0,
+          0,
+          1448,
+          1086
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1448,
+          1086
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          4,
+          1448,
+          1086
+        ],
+        "pixel_sha256": "c39e8abdd8a9d913dbafd8196b9dc001b49fe83a103ac202ea233b82c1027896",
+        "sha256": "97a4b6531f60fc7c6cacbf29335ecebbe2a70bdfbda454aa83b0b832ccd5d878",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-dddca42c6790b34b00fd",
+      "site_id": "romanesque-abbey-precinct",
+      "name": "Romanesque abbey precinct",
+      "display_title": "Romanesque abbey precinct",
+      "category": "unclassified",
+      "asset": "automated-intake/png/romanesque-abbey-precinct-dddca42c6790.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_14_intake/religious-b14-12-romanesque-abbey.png",
+        "sha256": "1208a907181eb22965c2413c5f67a93948f0e53baf069a10ae2f4fd3edd006fb",
+        "crop_xyxy": [
+          0,
+          0,
+          383,
+          314
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          383,
+          314
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          378,
+          309
+        ],
+        "pixel_sha256": "dddca42c6790b34b00fdbef2737d9f7319d4829733cad945d9635957f895869f",
+        "sha256": "1208a907181eb22965c2413c5f67a93948f0e53baf069a10ae2f4fd3edd006fb",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-e74b6a869462c5f4de1f",
+      "site_id": "qadmus",
+      "name": "Qadmus",
+      "display_title": "Qadmus",
+      "category": "castle",
+      "asset": "automated-intake/png/qadmus-e74b6a869462.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortress_next_12_intake/assets/sprites/incoming/fortress-concept-05-qadmus.png",
+        "sha256": "ac9a3eda48cfe07279b09284983c881a24e1c6cf008a6c7389f1b81137a1e8e6",
+        "crop_xyxy": [
+          0,
+          0,
+          375,
+          333
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "Review island/ridge/river overlap; raster may need geographic masking",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          375,
+          333
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          365,
+          323
+        ],
+        "pixel_sha256": "e74b6a869462c5f4de1f19ee1feafaa987c6e0ec2f80518a53ee4a725c29e902",
+        "sha256": "ac9a3eda48cfe07279b09284983c881a24e1c6cf008a6c7389f1b81137a1e8e6",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-eb686a366b52ebd9b6b8",
+      "site_id": "buffavento",
+      "name": "Buffavento",
+      "display_title": "Buffavento",
+      "category": "castle",
+      "asset": "automated-intake/png/buffavento-eb686a366b52.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortress_next_12_intake/assets/sprites/incoming/fortress-concept-09-buffavento.png",
+        "sha256": "976bc2f54b748c3e4bd0ce94a09c12afe206ffc3bf79bca6ff2508cb9c75ff7c",
+        "crop_xyxy": [
+          0,
+          0,
+          378,
+          349
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "Review island/ridge/river overlap; raster may need geographic masking",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          378,
+          349
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          368,
+          339
+        ],
+        "pixel_sha256": "eb686a366b52ebd9b6b83b5a9c44e6a893a0d1848e58b53f597eddc99d825131",
+        "sha256": "976bc2f54b748c3e4bd0ce94a09c12afe206ffc3bf79bca6ff2508cb9c75ff7c",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-f8a5901ed2aec513c483",
+      "site_id": "multiple-domed-church-compound",
+      "name": "Multiple-domed church compound",
+      "display_title": "Multiple-domed church compound",
+      "category": "unclassified",
+      "asset": "automated-intake/png/multiple-domed-church-compound-f8a5901ed2ae.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_14_intake/religious-b14-02-holy-sepulchre-inspired.png",
+        "sha256": "618e480b79c33d261ece7342f657a76ac2f2d63598f0b6e8cd906173aef99386",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          305
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          305
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          5,
+          384,
+          300
+        ],
+        "pixel_sha256": "f8a5901ed2aec513c4833c5a7864b5c711c459aa090661ad8ac6b02263bf21c2",
+        "sha256": "618e480b79c33d261ece7342f657a76ac2f2d63598f0b6e8cd906173aef99386",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
+      ]
     }
   ],
   "coordinate_precision_policy": "Published points transcribed exactly; not surveyed medieval footprints. See per-site evidence and uncertainty.",
