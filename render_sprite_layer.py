@@ -15,11 +15,17 @@ from sprite_catalog import BASE, ROOT, placements, atlas_placements
 
 
 def review_placements(year, show_all_variants=False):
-    """Review-only artwork is displayable even when production or technical approval fails."""
+    """Select date-compatible review artwork, one visible variant per site by default.
+
+    Year-specific review manifests may contain older city records without
+    depiction_year. Those are explicitly held in their year-specific file,
+    so they remain reviewable, but any explicit year mismatch is excluded.
+    """
     path = BASE / f'placements-review-{year}.geojson'
     if not path.exists():
         raise FileNotFoundError(f'No draft review placements for {year}: {path}')
     data = json.loads(path.read_text())
+    selected = {}
     result = []
     for feature in data['features']:
         p = feature['properties']
@@ -27,11 +33,20 @@ def review_placements(year, show_all_variants=False):
             continue
         if not (show_all_variants or p.get('default_visible', False)):
             continue
+        depiction_year = p.get('depiction_year')
+        if depiction_year is not None and int(depiction_year) != year:
+            continue
+        if p.get('period_1180_eligible') is False and year == 1180:
+            continue
+        if feature.get('geometry') is None or feature['geometry'].get('type') != 'Point':
+            continue
+        if not feature['geometry'].get('coordinates'):
+            continue
         rel = Path(p['asset_path']).relative_to('data/sprites')
         image = BASE / rel
         if not image.is_file():
             raise FileNotFoundError(f'Review-placement image is missing: {image}')
-        result.append(dict(
+        entry = dict(
             id=feature['id'],
             site_id=p['site_id'],
             name=p['name'] + ' [REVIEW ONLY]',
@@ -40,10 +55,16 @@ def review_placements(year, show_all_variants=False):
             map_region=p.get('map_region', 'main'),
             display_width_units=p.get('display_width_units', 512),
             anchor_normalized=p.get('anchor_normalized', [0.5, 0.95]),
-            period_1180_eligible=(p.get('depiction_year') == 1180),
+            period_1180_eligible=(year == 1180 and depiction_year in (None, 1180)),
             review_only=True,
-        ))
-    return result
+        )
+        if show_all_variants:
+            result.append(entry)
+        else:
+            # Preserve the first default-visible variant in manifest order.
+            # Do not overlay a second image at the same named site.
+            selected.setdefault(p['site_id'], entry)
+    return result if show_all_variants else list(selected.values())
 
 
 def render(year=1180, atlas=False, review=False, all_review_variants=False):
