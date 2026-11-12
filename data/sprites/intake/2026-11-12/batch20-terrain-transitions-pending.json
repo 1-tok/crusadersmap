@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "batch_id": "terrain-transition-batch20-2026-11-12",
+  "upload_zip": "crusadersmap_batch20_terrain_transitions_upload_2026-11-12.zip",
+  "asset_count": 9,
+  "status": "generated_binary_zip_pending_github_upload",
+  "source": "single 1536x1024 RGBA generated sheet",
+  "sprites": [
+    "coast_to_farmland",
+    "river_to_marsh",
+    "terraced_farmland_hills",
+    "broad_reed_marsh",
+    "rocky_foothill_scrub",
+    "dry_steppe_to_foothills",
+    "alpine_forest_to_crags",
+    "wooded_hills_to_farms",
+    "desert_to_rocky_mountains"
+  ],
+  "approval": {
+    "review_map": false,
+    "production": false
+  },
+  "qa_hold": [
+    "Not genuinely seamless tessellated tiles; blend manually",
+    "Coasts and rivers illustrative, mask to georeferenced hydrology",
+    "A few panel background buildings require historical review",
+    "Native resolution approx 500x250 pixels per crop; unsuitable as large 300dpi full-resolution fill without repaint",
+    "Source and individual PNG hashes/crop bounds stored inside zip manifest.json"
+  ]
+}
