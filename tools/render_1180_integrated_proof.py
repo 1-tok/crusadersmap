@@ -6,9 +6,12 @@ separation. It does not confer historical, phase, native-DPI, or print approval.
 from __future__ import annotations
 import argparse
 import json
+import sys
 from collections import Counter
 from pathlib import Path
 from PIL import Image, ImageDraw
+# Running as tools/script.py does not automatically put the repository root on sys.path.
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import frame
 from sprite_geometry import sheet_anchor
 
