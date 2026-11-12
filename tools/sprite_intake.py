@@ -5,6 +5,7 @@ import argparse
 import hashlib
 import json
 import re
+import zipfile
 from pathlib import Path
 from PIL import Image, UnidentifiedImageError
 
@@ -92,9 +93,39 @@ def extract(im, meta):
         return [(b, {}) for b in auto], "isolated_alpha_components"
     return [((0, 0, im.width, im.height), {})], "intact_image_or_uncertain_sheet"
 
+def unpack_archives(incoming):
+    """Safely unpack only root-level PNG and matching JSON files from uploaded ZIPs.
+
+    Preserve ZIP originals. Never overwrite an existing intake file.
+    """
+    for archive in sorted(incoming.glob("*.zip")):
+        with zipfile.ZipFile(archive) as zf:
+            members = zf.infolist()
+            if len(members) > 256 or sum(info.file_size for info in members) > 250_000_000:
+                raise ValueError(f"ZIP exceeds safety limits: {archive.name}")
+            for info in members:
+                name = info.filename
+                # Reject traversal, nested images and hidden paths. The original
+                # image collage may be stored in originals/ in the ZIP, untouched.
+                if (info.is_dir() or "/" in name or "\\\\" in name
+                        or name.startswith(".") or Path(name).suffix.lower() not in (".png", ".json")):
+                    continue
+                target = incoming / name
+                payload = zf.read(info)
+                if len(payload) != info.file_size:
+                    raise ValueError(f"Invalid ZIP member size: {name}")
+                if target.exists():
+                    if target.read_bytes() != payload:
+                        raise ValueError(f"ZIP member conflicts with existing intake: {name}")
+                else:
+                    target.write_bytes(payload)
+
+
 def process(root):
     incoming = root / "assets/sprites/incoming"
     base = root / "data/sprites"
+    if incoming.exists():
+        unpack_archives(incoming)
     out = base / "automated-intake"
     registry_file = out / "manifest.json"
     registry = read_json(registry_file, dict(DEFAULTS))
