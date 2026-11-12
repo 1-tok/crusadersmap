@@ -1,0 +1,54 @@
+name: Crusader Map pre-build sprite inventory
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/build_sprite_handoff.py'
+      - 'docs/FINAL-MAP-BUILD-READINESS.md'
+      - '.github/workflows/map-build-preflight.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Enumerate every image and prepare gallery
+        run: python tools/build_sprite_handoff.py
+      - name: Report inventory and broken references
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("data/manifests/CLAUDE-BUILD-IMAGE-LEDGER.json")
+          d=json.loads(p.read_text())
+          lines=[
+            "## Crusader map sprite inventory",
+            f"- Record references: {d['record_count']}",
+            f"- Unique referenced paths: {d['unique_referenced_file_count']}",
+            f"- Missing referenced image paths: {d['missing_referenced_file_count']}",
+            f"- Unlocated intake images: {d['intake_unlocated_count']}",
+            f"- Source master images: {d['source_master_count']}",
+            "",
+            "Gallery and detailed ledger are in the build artifact.",
+          ]
+          print("\n".join(lines))
+          with open(__import__("os").environ["GITHUB_STEP_SUMMARY"],"a") as f:
+              f.write("\n".join(lines)+"\n")
+          PY
+      - name: Publish gallery and machine-readable ledger
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crusader-map-build-handoff
+          path: |
+            data/manifests/CLAUDE-BUILD-IMAGE-LEDGER.json
+            previews/claude-all-sprites-review.html
+          if-no-files-found: warn
