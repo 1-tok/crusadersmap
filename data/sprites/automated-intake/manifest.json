@@ -190,6 +190,98 @@
       ]
     },
     {
+      "id": "INTAKE-2095a3bf52a4bd71d9ce",
+      "site_id": "darbsak-trapesac",
+      "name": "Darbsak (Trapesac)",
+      "display_title": "Darbsak (Trapesac)",
+      "category": "castle",
+      "asset": "automated-intake/png/darbsak-trapesac-2095a3bf52a4.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortresses_batch15_intake/darbsak_trapesac.png",
+        "sha256": "77858d5eb6b73a7ae383f3357c84b46ab69a24699718d135f19b7b50625c983c",
+        "crop_xyxy": [
+          0,
+          0,
+          757,
+          406
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          757,
+          406
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          3,
+          1,
+          757,
+          406
+        ],
+        "pixel_sha256": "2095a3bf52a4bd71d9ce0dabe8b06930ab7115a99f01ce4d61e44fdc33b84e1a",
+        "sha256": "77858d5eb6b73a7ae383f3357c84b46ab69a24699718d135f19b7b50625c983c",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-21cdd6fda2717da7e6ce",
       "site_id": "kantara",
       "name": "Kantara",
@@ -842,6 +934,98 @@
       ]
     },
     {
+      "id": "INTAKE-5df9cdf9a419a108ee37",
+      "site_id": "feke-vahga",
+      "name": "Feke (Vahga)",
+      "display_title": "Feke (Vahga)",
+      "category": "castle",
+      "asset": "automated-intake/png/feke-vahga-5df9cdf9a419.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortresses_batch15_intake/feke_vahga.png",
+        "sha256": "ff1a7ce161bd79a3ab448abd384e6d3914a36e9aa0de0089bbefa88e4fa76ef4",
+        "crop_xyxy": [
+          0,
+          0,
+          766,
+          505
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          766,
+          505
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          766,
+          505
+        ],
+        "pixel_sha256": "5df9cdf9a419a108ee37e6edf87fe1eaac7918356286aa5fea82a55de17270cd",
+        "sha256": "ff1a7ce161bd79a3ab448abd384e6d3914a36e9aa0de0089bbefa88e4fa76ef4",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-6b5a1ae89a82778944a0",
       "site_id": "chastellet-jacobs-ford",
       "name": "Chastellet / Jacob’s Ford",
@@ -1024,6 +1208,98 @@
       "repaint_required": false,
       "review_flags": [
         "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-8906198a8b883086d7b9",
+      "site_id": "kizkalesi-offshore",
+      "name": "Kızkalesi offshore castle",
+      "display_title": "Kızkalesi offshore castle",
+      "category": "castle",
+      "asset": "automated-intake/png/k-zkalesi-offshore-castle-8906198a8b88.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortresses_batch15_intake/kizkalesi_offshore.png",
+        "sha256": "c70ff4b40b04548d780aa58eedd2c897837f0bd46f040e3afabe98c93bb03ddd",
+        "crop_xyxy": [
+          0,
+          0,
+          768,
+          491
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1200,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": false,
+      "availability": {
+        "from_year": 1200,
+        "through_year": 1200,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          768,
+          491
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          768,
+          491
+        ],
+        "pixel_sha256": "8906198a8b883086d7b9544b04e36a0a89f588ea18def605b79dcaee02be6393",
+        "sha256": "c70ff4b40b04548d780aa58eedd2c897837f0bd46f040e3afabe98c93bb03ddd",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
         "coordinates_unverified"
       ]
     },
@@ -1955,6 +2231,100 @@
         "category_unverified",
         "coordinates_unverified",
         "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-d05cf2a06c1aea95bf49",
+      "site_id": "jacobs-ford-chastellet-ruins",
+      "name": "Jacob’s Ford (Chastellet) ruins",
+      "display_title": "Jacob’s Ford (Chastellet) ruins",
+      "category": "unclassified",
+      "asset": "automated-intake/png/jacob-s-ford-chastellet-ruins-d05cf2a06c1a.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortresses_batch15_intake/jacobs_ford_chastellet_ruins.png",
+        "sha256": "8d1093f01d2868155c2271885f2987d78a3677febecbb3aaa67119502a55f5d4",
+        "crop_xyxy": [
+          0,
+          0,
+          762,
+          446
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "placement_review_required",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          762,
+          446
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          2,
+          762,
+          446
+        ],
+        "pixel_sha256": "d05cf2a06c1aea95bf49e31836a1b489c148dc0e2f1c24b75f6556c70b196aa4",
+        "sha256": "8d1093f01d2868155c2271885f2987d78a3677febecbb3aaa67119502a55f5d4",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
       ]
     },
     {
