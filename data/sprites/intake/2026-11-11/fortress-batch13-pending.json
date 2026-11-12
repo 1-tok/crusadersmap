@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "batch_id": "FORT-B13",
+  "date": "2026-11-11",
+  "approval": "provisional",
+  "historical_accuracy_certified": false,
+  "image_commit_status": "pending_binary_upload",
+  "source": "accepted southern elevated view sheet in ChatGPT; local extraction prepared",
+  "source_file": "medieval_crusader_fortress_sprite_atlas.png",
+  "source_grid": {
+    "columns": 4,
+    "rows": 3,
+    "width_px": 1448,
+    "height_px": 1086
+  },
+  "warning": "All source cell alpha masks touch grid boundaries; preserve original sheet and review clipping/colored halos before print approval.",
+  "assets": [
+    {
+      "id": "FORT-B13-01",
+      "subject": "Bourzey",
+      "site_id": "bourzey",
+      "filename": "fortress-b13-01-bourzey.png",
+      "source_cell": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "status": "provisional",
+      "historical_review_required": true,
+      "placement_review_required": true,
+      "geographic_placement_ready": false,
+      "period_brief_unverified": 1180,
+      "binary_present_in_repo": false
+    },
+    {
+      "id": "FORT-B13-02",
+      "subject": "Shaizar",
+      "site_id": "shaizar",
+      "filename": "fortress-b13-02-shaizar.png",
+      "source_cell": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "status": "provisional",
+      "historical_review_required": true,
+      "placement_review_required": true,
+      "geographic_placement_ready": false,
+      "period_brief_unverified": 1180,
+      "binary_present_in_repo": false
+    },
+    {
+      "id": "FORT-B13-03",
+      "subject": "Masyaf",
+      "site_id": "masyaf",
+      "filename": "fortress-b13-03-masyaf.png",
+      "source_cell": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "status": "provisional",
+      "historical_review_required": true,
+      "placement_review_required": true,
+      "geographic_placement_ready": false,
+      "period_brief_unverified": 1180,
+      "binary_present_in_repo": false
+    },
+    {
+      "id": "FORT-B13-04",
+      "subject": "Qadmus",
+      "site_id": "qadmus",
+      "filename": "fortress-b13-04-qadmus.png",
+      "source_cell": [
+        1086,
+        0,
+        1448,
+        362
+      ],
+      "status": "provisional",
+      "historical_review_required": true,
+      "placement_review_required": true,
+      "geographic_placement_ready": false,
+      "period_brief_unverified": 1180,
+      "binary_present_in_repo": false
+    },
+    {
+      "id": "FORT-B13-05",
+      "subject": "Darbsak",
+      "site_id": "darbsak",
+      "filename": "fortress-b13-05-darbsak.png",
+      "source_cell": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "status": "provisional",
+      "historical_review_required": true,
+      "placement_review_required": true,
+      "geographic_placement_ready": false,
+      "period_brief_unverified": 1180,
+      "binary_present_in_repo": false
+    },
+    {
+      "id": "FORT-B13-06",
+      "subject": "Feke",
+      "site_id": "feke",
+      "filename": "fortress-b13-06-feke.png",
+      "source_cell": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "status": "provisional",
+      "historical_review_required": true,
+      "placement_review_required": true,
+      "geographic_placement_ready": false,
+      "period_brief_unverified": 1180,
+      "binary_present_in_repo": false
+    },
+    {
+      "id": "FORT-B13-07",
+      "subject": "Chastellet / Jacob's Ford (ruins)",
+      "site_id": "chastellet-jacobs-ford",
+      "filename": "fortress-b13-07-chastellet-jacobs-ford.png",
+      "source_cell": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "status": "provisional",
+      "historical_review_required": true,
+      "placement_review_required": true,
+      "geographic_placement_ready": false,
+      "period_brief_unverified": 1180,
+      "binary_present_in_repo": false
+    },
+    {
+      "id": "FORT-B13-08",
+      "subject": "Buffavento",
+      "site_id": "buffavento",
+      "filename": "fortress-b13-08-buffavento.png",
+      "source_cell": [
+        1086,
+        362,
+        1448,
+        724
+      ],
+      "status": "provisional",
+      "historical_review_required": true,
+      "placement_review_required": true,
+      "geographic_placement_ready": false,
+      "period_brief_unverified": 1180,
+      "binary_present_in_repo": false
+    },
+    {
+      "id": "FORT-B13-09",
+      "subject": "Kantara",
+      "site_id": "kantara",
+      "filename": "fortress-b13-09-kantara.png",
+      "source_cell": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "status": "provisional",
+      "historical_review_required": true,
+      "placement_review_required": true,
+      "geographic_placement_ready": false,
+      "period_brief_unverified": 1180,
+      "binary_present_in_repo": false
+    },
+    {
+      "id": "FORT-B13-10",
+      "subject": "Kolossi",
+      "site_id": "kolossi",
+      "filename": "fortress-b13-10-kolossi.png",
+      "source_cell": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "status": "provisional",
+      "historical_review_required": true,
+      "placement_review_required": true,
+      "geographic_placement_ready": false,
+      "period_brief_unverified": 1450,
+      "binary_present_in_repo": false
+    },
+    {
+      "id": "FORT-B13-11",
+      "subject": "Chlemoutsi",
+      "site_id": "chlemoutsi",
+      "filename": "fortress-b13-11-chlemoutsi.png",
+      "source_cell": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "status": "provisional",
+      "historical_review_required": true,
+      "placement_review_required": true,
+      "geographic_placement_ready": false,
+      "period_brief_unverified": 1250,
+      "binary_present_in_repo": false
+    },
+    {
+      "id": "FORT-B13-12",
+      "subject": "Kizkalesi",
+      "site_id": "kizkalesi",
+      "filename": "fortress-b13-12-kizkalesi.png",
+      "source_cell": [
+        1086,
+        724,
+        1448,
+        1086
+      ],
+      "status": "provisional",
+      "historical_review_required": true,
+      "placement_review_required": true,
+      "geographic_placement_ready": false,
+      "period_brief_unverified": 1250,
+      "binary_present_in_repo": false
+    }
+  ]
+}
