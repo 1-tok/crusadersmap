@@ -1,0 +1,373 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Automated intake fortress candidates — geographic review only",
+    "date": "2026-11-12",
+    "source_manifest": "data/sprites/automated-intake/manifest.json",
+    "source_gazetteer": "data/manifests/crusader-period/site-history.json",
+    "approval": "NOT automatically approved for rendering",
+    "note": "No external coordinate verification; existing WGS84 locations reused. Dates are proposed review phases, not authenticated depiction dates. Only enable after visual/historical QA."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "intake-chastellet-jacobs-ford-1179-candidate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.62,
+          33.01
+        ]
+      },
+      "properties": {
+        "site_id": "chastellet-jacobs-ford",
+        "source_site_id": "CP-035",
+        "name": "Jacob's Ford",
+        "asset_id": "INTAKE-6b5a1ae89a82778944a0",
+        "asset_path": "data/sprites/automated-intake/png/chastellet-jacob-s-ford-6b5a1ae89a82.png",
+        "map_region": "main",
+        "depiction_year": 1179,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "incoming-candidates",
+          "main"
+        ],
+        "candidate_only": true,
+        "approval_for_review_placement": false,
+        "production_approved": false,
+        "default_visible": false,
+        "period_1180_eligible": false,
+        "technical_qa_status": "pass",
+        "geographic_placement_ready": false,
+        "coordinate_evidence": {
+          "source": "data/manifests/crusader-period/site-history.json",
+          "site_id": "CP-035",
+          "surveyed": false,
+          "uncertainty_note": "Inherited source gazetteer anchor, not surveyed castle footprint"
+        },
+        "historical_review_required": true,
+        "visual_review_required": true,
+        "display_width_units": 512,
+        "variant_group": "chastellet-jacobs-ford",
+        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
+        "review_note": "1178–1179 standing Chastellet only; destroyed in 1179; not visible standing in 1180"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "intake-darbsak-1180-candidate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.43,
+          36.42
+        ]
+      },
+      "properties": {
+        "site_id": "darbsak",
+        "source_site_id": "CP-065",
+        "name": "Darbsak",
+        "asset_id": "INTAKE-30eaae615a8de1e43000",
+        "asset_path": "data/sprites/automated-intake/png/darbsak-30eaae615a8d.png",
+        "map_region": "main",
+        "depiction_year": 1180,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "incoming-candidates",
+          "main"
+        ],
+        "candidate_only": true,
+        "approval_for_review_placement": false,
+        "production_approved": false,
+        "default_visible": false,
+        "period_1180_eligible": true,
+        "technical_qa_status": "pass",
+        "geographic_placement_ready": false,
+        "coordinate_evidence": {
+          "source": "data/manifests/crusader-period/site-history.json",
+          "site_id": "CP-065",
+          "surveyed": false,
+          "uncertainty_note": "Inherited source gazetteer anchor, not surveyed castle footprint"
+        },
+        "historical_review_required": true,
+        "visual_review_required": true,
+        "display_width_units": 512,
+        "variant_group": "darbsak",
+        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
+        "review_note": "Existing Templar possession recorded for 1137–1188; historical silhouette unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "intake-feke-1180-candidate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9,
+          37.82
+        ]
+      },
+      "properties": {
+        "site_id": "feke",
+        "source_site_id": "CP-076",
+        "name": "Feke",
+        "asset_id": "INTAKE-9222ed7f72b98002f2c9",
+        "asset_path": "data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png",
+        "map_region": "main",
+        "depiction_year": 1180,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "incoming-candidates",
+          "main"
+        ],
+        "candidate_only": true,
+        "approval_for_review_placement": false,
+        "production_approved": false,
+        "default_visible": false,
+        "period_1180_eligible": true,
+        "technical_qa_status": "pass",
+        "geographic_placement_ready": false,
+        "coordinate_evidence": {
+          "source": "data/manifests/crusader-period/site-history.json",
+          "site_id": "CP-076",
+          "surveyed": false,
+          "uncertainty_note": "Inherited source gazetteer anchor, not surveyed castle footprint"
+        },
+        "historical_review_required": true,
+        "visual_review_required": true,
+        "display_width_units": 512,
+        "variant_group": "feke",
+        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
+        "review_note": "Fortification location recorded, but lordship/architecture in 1180 needs research"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "intake-kizkalesi-1250-candidate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.18,
+          36.46
+        ]
+      },
+      "properties": {
+        "site_id": "kizkalesi",
+        "source_site_id": "CP-077",
+        "name": "Kizkalesi",
+        "asset_id": "INTAKE-afb58e1ddd842e4c4fcb",
+        "asset_path": "data/sprites/automated-intake/png/k-zkalesi-afb58e1ddd84.png",
+        "map_region": "main",
+        "depiction_year": 1250,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "incoming-candidates",
+          "main"
+        ],
+        "candidate_only": true,
+        "approval_for_review_placement": false,
+        "production_approved": false,
+        "default_visible": false,
+        "period_1180_eligible": false,
+        "technical_qa_status": "pass",
+        "geographic_placement_ready": false,
+        "coordinate_evidence": {
+          "source": "data/manifests/crusader-period/site-history.json",
+          "site_id": "CP-077",
+          "surveyed": false,
+          "uncertainty_note": "Inherited source gazetteer anchor, not surveyed castle footprint"
+        },
+        "historical_review_required": true,
+        "visual_review_required": true,
+        "display_width_units": 512,
+        "variant_group": "kizkalesi",
+        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
+        "review_note": "Offshore castle identity and date of sea-castle fabric unverified; refuse default placement until visual review"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "intake-buffavento-1250-candidate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.35,
+          35.3
+        ]
+      },
+      "properties": {
+        "site_id": "buffavento",
+        "source_site_id": "CP-083",
+        "name": "Buffavento",
+        "asset_id": "INTAKE-eb686a366b52ebd9b6b8",
+        "asset_path": "data/sprites/automated-intake/png/buffavento-eb686a366b52.png",
+        "map_region": "main",
+        "depiction_year": 1250,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "incoming-candidates",
+          "main"
+        ],
+        "candidate_only": true,
+        "approval_for_review_placement": false,
+        "production_approved": false,
+        "default_visible": false,
+        "period_1180_eligible": false,
+        "technical_qa_status": "pass",
+        "geographic_placement_ready": false,
+        "coordinate_evidence": {
+          "source": "data/manifests/crusader-period/site-history.json",
+          "site_id": "CP-083",
+          "surveyed": false,
+          "uncertainty_note": "Inherited source gazetteer anchor, not surveyed castle footprint"
+        },
+        "historical_review_required": true,
+        "visual_review_required": true,
+        "display_width_units": 512,
+        "variant_group": "buffavento",
+        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
+        "review_note": "1191+ Lusignan-period record; do not infer original construction date"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "intake-kantara-1250-candidate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34,
+          35.4
+        ]
+      },
+      "properties": {
+        "site_id": "kantara",
+        "source_site_id": "CP-084",
+        "name": "Kantara",
+        "asset_id": "INTAKE-21cdd6fda2717da7e6ce",
+        "asset_path": "data/sprites/automated-intake/png/kantara-21cdd6fda271.png",
+        "map_region": "main",
+        "depiction_year": 1250,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "incoming-candidates",
+          "main"
+        ],
+        "candidate_only": true,
+        "approval_for_review_placement": false,
+        "production_approved": false,
+        "default_visible": false,
+        "period_1180_eligible": false,
+        "technical_qa_status": "pass",
+        "geographic_placement_ready": false,
+        "coordinate_evidence": {
+          "source": "data/manifests/crusader-period/site-history.json",
+          "site_id": "CP-084",
+          "surveyed": false,
+          "uncertainty_note": "Inherited source gazetteer anchor, not surveyed castle footprint"
+        },
+        "historical_review_required": true,
+        "visual_review_required": true,
+        "display_width_units": 512,
+        "variant_group": "kantara",
+        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
+        "review_note": "1191+ Lusignan-period record; do not infer original construction date"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "intake-kolossi-1250-candidate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.93,
+          34.67
+        ]
+      },
+      "properties": {
+        "site_id": "kolossi",
+        "source_site_id": "CP-086",
+        "name": "Kolossi",
+        "asset_id": "INTAKE-2cad1dc9839e0df887cc",
+        "asset_path": "data/sprites/automated-intake/png/kolossi-2cad1dc9839e.png",
+        "map_region": "main",
+        "depiction_year": 1250,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "incoming-candidates",
+          "main"
+        ],
+        "candidate_only": true,
+        "approval_for_review_placement": false,
+        "production_approved": false,
+        "default_visible": false,
+        "period_1180_eligible": false,
+        "technical_qa_status": "pass",
+        "geographic_placement_ready": false,
+        "coordinate_evidence": {
+          "source": "data/manifests/crusader-period/site-history.json",
+          "site_id": "CP-086",
+          "surveyed": false,
+          "uncertainty_note": "Inherited source gazetteer anchor, not surveyed castle footprint"
+        },
+        "historical_review_required": true,
+        "visual_review_required": true,
+        "display_width_units": 512,
+        "variant_group": "kolossi",
+        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
+        "review_note": "Hospitaller 1210+; exclude the much later surviving tower form; artwork needs phase review"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "intake-chlemoutsi-1250-candidate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1,
+          37.86
+        ]
+      },
+      "properties": {
+        "site_id": "chlemoutsi",
+        "source_site_id": "CP-102",
+        "name": "Chlemoutsi",
+        "asset_id": "INTAKE-a7440d538d459efb815e",
+        "asset_path": "data/sprites/automated-intake/png/chlemoutsi-clermont-a7440d538d45.png",
+        "map_region": "aegean",
+        "depiction_year": 1250,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "incoming-candidates",
+          "aegean"
+        ],
+        "candidate_only": true,
+        "approval_for_review_placement": false,
+        "production_approved": false,
+        "default_visible": false,
+        "period_1180_eligible": false,
+        "technical_qa_status": "pass",
+        "geographic_placement_ready": false,
+        "coordinate_evidence": {
+          "source": "data/manifests/crusader-period/site-history.json",
+          "site_id": "CP-102",
+          "surveyed": false,
+          "uncertainty_note": "Inherited source gazetteer anchor, not surveyed castle footprint"
+        },
+        "historical_review_required": true,
+        "visual_review_required": true,
+        "display_width_units": 512,
+        "variant_group": "chlemoutsi",
+        "variant_rule": "Show only one candidate per geographic site; do not stack existing Batch 13 or Batch 12 variants",
+        "review_note": "Fortress built c. 1220s, never on 1180 layer"
+      }
+    }
+  ]
+}
