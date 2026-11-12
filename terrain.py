@@ -724,7 +724,12 @@ class Terrain:
             elif kind == "hamlet":
                 c.restore(); c.save()
                 lst = TSP.POOL[_x]
-                TSP.gdraw(c, r.choice(lst), x, y, size, edition)
+                # Cycle through suitable artwork before heavily repeating one
+                # motif. Classification still enforces ecological suitability.
+                # Random tie-breaking keeps the scattering organic.
+                least = min(TSP.GUSED.get(asset, 0) for asset in lst)
+                options = [asset for asset in lst if TSP.GUSED.get(asset, 0) <= least + 1]
+                TSP.gdraw(c, r.choice(options), x, y, size, edition)
             elif kind == "farm":
                 c.restore(); c.save()
                 if _x in ("crich", "cpast", "cwaste", "cflat"):
