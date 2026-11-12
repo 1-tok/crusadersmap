@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "app": "Crusader Map",
+    "format": "RGBA8888",
+    "image": "terrain_batch05_atlas_rgba.png",
+    "size": {
+      "w": 2048,
+      "h": 896
+    },
+    "scale": "1",
+    "pixel_convention": "top-left, x right, y down",
+    "spacing_px": 52,
+    "outer_padding_px": 44,
+    "transparent_background": true,
+    "source_batch": "terrain-batch05",
+    "purpose": "Unscaled, unrotated transparent sprite atlas with separable rectangular frames",
+    "retain_opaque_rectangular_underlays": true
+  },
+  "frames": {
+    "nile_delta_reedbed_west": {
+      "frame": {
+        "x": 1149,
+        "y": 541,
+        "w": 319,
+        "h": 125
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 319,
+        "h": 125
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 319,
+        "h": 125
+      },
+      "source_file": "nile_delta_reedbed_west.png",
+      "source_png_sha256": "b901d2b061df98b8a6ba6100f8ee70f654310b8b58bad437f3efe95040be5911",
+      "region_hint": "Nile Delta reedbeds and seasonal wetland margins",
+      "role": "wetland",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "nile_delta_reedbed_central": {
+      "frame": {
+        "x": 1349,
+        "y": 725,
+        "w": 328,
+        "h": 119
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 328,
+        "h": 119
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 119
+      },
+      "source_file": "nile_delta_reedbed_central.png",
+      "source_png_sha256": "1f762af77fb75ef0ed329c20b0f9dd0fa21bbe14c03c242445152fa6d6bff3e4",
+      "region_hint": "Nile Delta shallow pools and papyrus-like reeds",
+      "role": "wetland",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "euphrates_reedbank": {
+      "frame": {
+        "x": 44,
+        "y": 725,
+        "w": 287,
+        "h": 124
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 287,
+        "h": 124
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 287,
+        "h": 124
+      },
+      "source_file": "euphrates_reedbank.png",
+      "source_png_sha256": "b25a5b4da7f36bd3c43902de0c3845a75c7fe626b4ff683f4036203edbce85f6",
+      "region_hint": "Euphrates/Tigris riparian reeds, riverbank edges",
+      "role": "wetland",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "aegean_olive_terraces": {
+      "frame": {
+        "x": 1520,
+        "y": 541,
+        "w": 298,
+        "h": 124
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 298,
+        "h": 124
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 298,
+        "h": 124
+      },
+      "source_file": "aegean_olive_terraces.png",
+      "source_png_sha256": "6503b6b3a17cf85c13ed5d9846c617deb06f0059bbbaff45ddaf218b2afc9bcc",
+      "region_hint": "Aegean and southern Greek terraced slopes",
+      "role": "agriculture",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "cilician_grain_farms": {
+      "frame": {
+        "x": 350,
+        "y": 541,
+        "w": 172,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 172,
+        "h": 130
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 172,
+        "h": 130
+      },
+      "source_file": "cilician_grain_farms.png",
+      "source_png_sha256": "ab0f04e874ed48f756a214b07e376ee1b48b30e322c444848c6fd6fc4ffa753c",
+      "region_hint": "Cilician plain / appropriate inland grain cultivation",
+      "role": "agriculture",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "levant_terrace_mosaic": {
+      "frame": {
+        "x": 44,
+        "y": 541,
+        "w": 254,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 254,
+        "h": 132
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 254,
+        "h": 132
+      },
+      "source_file": "levant_terrace_mosaic.png",
+      "source_png_sha256": "8e232520c11a4540fabfc539c96bd62aa575a57b0761d9334ac3f9acd8ddc7a7",
+      "region_hint": "Levantine orchard/stone-wall cultivation",
+      "role": "agriculture",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "thrace_broadleaf_woodland": {
+      "frame": {
+        "x": 988,
+        "y": 296,
+        "w": 311,
+        "h": 139
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 311,
+        "h": 139
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 311,
+        "h": 139
+      },
+      "source_file": "thrace_broadleaf_woodland.png",
+      "source_png_sha256": "1e6c692de9ac0fcf2562ba4f773981aa3a41bae1704d5b7a96586b09738f7dc7",
+      "region_hint": "Thrace/Balkan oak woodland and fertile interiors",
+      "role": "woodland",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "pontic_mixed_conifer": {
+      "frame": {
+        "x": 1351,
+        "y": 296,
+        "w": 290,
+        "h": 138
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 290,
+        "h": 138
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 290,
+        "h": 138
+      },
+      "source_file": "pontic_mixed_conifer.png",
+      "source_png_sha256": "7a3ec3d90e15caf991cf3371c40e0f70d026dd6f4cb094af3e7caf05e295cb0d",
+      "region_hint": "Northern Anatolia / Pontic evergreen and mixed slope",
+      "role": "woodland",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "taurus_wooded_ridge": {
+      "frame": {
+        "x": 1693,
+        "y": 296,
+        "w": 288,
+        "h": 136
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 288,
+        "h": 136
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 288,
+        "h": 136
+      },
+      "source_file": "taurus_wooded_ridge.png",
+      "source_png_sha256": "726ed478479fd2f3fd2ad83f2850b120e4128b5545eb1e0adca4f6e9bfb6c372",
+      "region_hint": "Taurus/Anatolian shaded slopes",
+      "role": "woodland",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "syrian_dry_wadi": {
+      "frame": {
+        "x": 1729,
+        "y": 725,
+        "w": 267,
+        "h": 114
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 267,
+        "h": 114
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 267,
+        "h": 114
+      },
+      "source_file": "syrian_dry_wadi.png",
+      "source_png_sha256": "59bb8d731e87b2ce41b33e34dc98878f9a48a2629aa47bd6170f92dc0c56cc8f",
+      "region_hint": "Dry stony wash / semi-arid Syrian interior",
+      "role": "arid_transition",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "transjordan_rock_pavement": {
+      "frame": {
+        "x": 383,
+        "y": 725,
+        "w": 295,
+        "h": 122
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 295,
+        "h": 122
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 295,
+        "h": 122
+      },
+      "source_file": "transjordan_rock_pavement.png",
+      "source_png_sha256": "accc3ddcdda3264f17851312ee8831d78c4c733fc60f103e43a2b767dc074cd3",
+      "region_hint": "Transjordan gravel, rock outcrops and dry scrub",
+      "role": "arid_transition",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "sinai_palm_oasis": {
+      "frame": {
+        "x": 867,
+        "y": 541,
+        "w": 230,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 230,
+        "h": 127
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 230,
+        "h": 127
+      },
+      "source_file": "sinai_palm_oasis.png",
+      "source_png_sha256": "4055731357db40c3535c477152a7800b0b0db7503fc3b75b938bff3ce852c4c2",
+      "region_hint": "Sinai / Egyptian desert oasis, only where historically supportable",
+      "role": "oasis",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "anatolian_steppe_sward": {
+      "frame": {
+        "x": 574,
+        "y": 541,
+        "w": 241,
+        "h": 129
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 241,
+        "h": 129
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 241,
+        "h": 129
+      },
+      "source_file": "anatolian_steppe_sward.png",
+      "source_png_sha256": "c3e86dc79ccb48853e6361b47f7bc61f6e4fd6377e8ee1d702005b9c0b0a53b3",
+      "region_hint": "Central Anatolian and northern Syrian grass/scrub steppe",
+      "role": "steppe",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "canaan_scrub_steppe_edge": {
+      "frame": {
+        "x": 730,
+        "y": 725,
+        "w": 291,
+        "h": 122
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 291,
+        "h": 122
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 291,
+        "h": 122
+      },
+      "source_file": "canaan_scrub_steppe_edge.png",
+      "source_png_sha256": "e38d7c29901664b38ebe4fa9b8773386760ac1ebc2e18a6a262ef6f618c74099",
+      "region_hint": "Canaan-to-steppe scrub and low rocky breaks",
+      "role": "steppe",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "aegean_spring_maquis": {
+      "frame": {
+        "x": 1073,
+        "y": 725,
+        "w": 224,
+        "h": 122
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 224,
+        "h": 122
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 224,
+        "h": 122
+      },
+      "source_file": "aegean_spring_maquis.png",
+      "source_png_sha256": "7923fb8a8e286de7962b3e07a2f1c5d9897a062a2099f0ac9eaff48d8c8cfa58",
+      "region_hint": "Rocky Aegean hill scrub, flowered seasonal vegetation",
+      "role": "scrub",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "northern_woodland_band": {
+      "frame": {
+        "x": 708,
+        "y": 44,
+        "w": 753,
+        "h": 197
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 753,
+        "h": 197
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 753,
+        "h": 197
+      },
+      "source_file": "northern_woodland_band.png",
+      "source_png_sha256": "c703b6a5e2ca71b04b22b55b3bf056f7b56842d1e94fb36287f9a386810a940d",
+      "region_hint": "Thrace, northern Anatolia and other temperate wooded uplands",
+      "role": "woodland_composite",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "cultivated_terrace_band": {
+      "frame": {
+        "x": 44,
+        "y": 44,
+        "w": 612,
+        "h": 200
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 612,
+        "h": 200
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 612,
+        "h": 200
+      },
+      "source_file": "cultivated_terrace_band.png",
+      "source_png_sha256": "3d44e242c6a8171d7a5eb2c4f7eb66e6cde0f9a724aff39e5c849036715eb9bf",
+      "region_hint": "Cilicia, south Aegean and inland Levant, only where terraced agriculture appropriate",
+      "role": "agricultural_composite",
+      "print_approved": false,
+      "placement_status": "provisional"
+    },
+    "arid_scrub_transition_band": {
+      "frame": {
+        "x": 44,
+        "y": 296,
+        "w": 892,
+        "h": 193
+      },
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": {
+        "w": 892,
+        "h": 193
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 892,
+        "h": 193
+      },
+      "source_file": "arid_scrub_transition_band.png",
+      "source_png_sha256": "d0e17ea46119b1fe9871925ce15d4ed9f55dee26d9028e8aa5983510dee0aff1",
+      "region_hint": "North Syria/Transjordan dry rocky scrub to steppe transition",
+      "role": "arid_composite",
+      "print_approved": false,
+      "placement_status": "provisional"
+    }
+  },
+  "placement_review_status": "pending",
+  "print_quality_review_status": "pending",
+  "atlas_png_sha256": "d4e7ab15e3f9ddc349ab14e751486c7c5be1e13bb107a8bc004dd0514bb43be1"
+}
