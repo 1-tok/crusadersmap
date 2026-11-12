@@ -1,0 +1,962 @@
+{
+  "project": "1-tok/crusadersmap",
+  "batch": "terrain-batch06",
+  "created": "2026-11-11",
+  "schema_version": 1,
+  "source": "Two original ImageGen RGBA sheets, 20 independent cutouts extracted from each",
+  "asset_count": 40,
+  "atlas_sheets": [
+    "terrain_batch06_sheet_a.png",
+    "terrain_batch06_sheet_b.png"
+  ],
+  "batch05_relation": "Additional terrain variation; not replacements for terrain-batch05",
+  "transparent_sprite_layer": "above four rectangular terrain gap-fill underlays and below roads, cities and labels",
+  "hydrography_rule": "River/wetland sprites are illustrative: align and mask waterways to authoritative river/coastline geometry",
+  "placement_status": "provisional_pending_review",
+  "print_status": "not_approved_at_300_dpi",
+  "original_rendering_sources_in_zip_not_in_repo": true,
+  "assets": [
+    {
+      "id": "t06-a01",
+      "name": "aegean_cypress_limestone_hill",
+      "terrain_class": "rocky_upland",
+      "region_hint": "Greek/Aegean uplands; pale limestone, cypress foothills",
+      "file": "data/sprites/terrain-batch06/t06_a01_aegean_cypress_limestone_hill.png",
+      "frame": {
+        "x": 12,
+        "y": 26,
+        "w": 383,
+        "h": 203
+      },
+      "size_px": [
+        383,
+        203
+      ],
+      "sha256": "d404548727ecfb4169299fae6a701ed443160a9a34fbad9a413c247ea194eb4b",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a02",
+      "name": "aegean_sparse_rock_scrub",
+      "terrain_class": "scrubland",
+      "region_hint": "Greek mainland and Aegean hills; open scrub and rock",
+      "file": "data/sprites/terrain-batch06/t06_a02_aegean_sparse_rock_scrub.png",
+      "frame": {
+        "x": 396,
+        "y": 39,
+        "w": 357,
+        "h": 191
+      },
+      "size_px": [
+        357,
+        191
+      ],
+      "sha256": "73fc56e93d665f831a12002f5c04fbfc258e394e39e7e93b835dfe2dfb8a5887",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a03",
+      "name": "balkan_broadleaf_forest_copse",
+      "terrain_class": "woodland",
+      "region_hint": "Balkan and northern Greek wooded hills",
+      "file": "data/sprites/terrain-batch06/t06_a03_balkan_broadleaf_forest_copse.png",
+      "frame": {
+        "x": 752,
+        "y": 8,
+        "w": 350,
+        "h": 224
+      },
+      "size_px": [
+        350,
+        224
+      ],
+      "sha256": "268612d16ec27f563dfdecacead7ee2df7b96e0a3fc5c23019844b894593fcc2",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a04",
+      "name": "aegean_cypress_oak_grove",
+      "terrain_class": "woodland",
+      "region_hint": "Aegean hills; mixed cypress-oak grove",
+      "file": "data/sprites/terrain-batch06/t06_a04_aegean_cypress_oak_grove.png",
+      "frame": {
+        "x": 1098,
+        "y": 5,
+        "w": 329,
+        "h": 230
+      },
+      "size_px": [
+        329,
+        230
+      ],
+      "sha256": "d39d659975048395387865e37d8b05182fb4b93031c52735cd2be75c887cc0ac",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a05",
+      "name": "aegean_flowering_maquis",
+      "terrain_class": "scrubland",
+      "region_hint": "Aegean and coastal Levant Mediterranean maquis",
+      "file": "data/sprites/terrain-batch06/t06_a05_aegean_flowering_maquis.png",
+      "frame": {
+        "x": 1423,
+        "y": 35,
+        "w": 346,
+        "h": 191
+      },
+      "size_px": [
+        346,
+        191
+      ],
+      "sha256": "98c2562194a359b353205b72ba889363552379c8d70baeef23bef07b3e586737",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a06",
+      "name": "leventine_dry_grain_terraces",
+      "terrain_class": "farmland",
+      "region_hint": "Levantine hillside agriculture with stone walls",
+      "file": "data/sprites/terrain-batch06/t06_a06_leventine_dry_grain_terraces.png",
+      "frame": {
+        "x": 9,
+        "y": 250,
+        "w": 374,
+        "h": 203
+      },
+      "size_px": [
+        374,
+        203
+      ],
+      "sha256": "7ba188f28caee2d72795e953d38b47bb8a8a90fc6a11a020113a5da5bbb65f42",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a07",
+      "name": "cilician_vineyard_terraces",
+      "terrain_class": "farmland",
+      "region_hint": "Cilician or Aegean vineyard slopes",
+      "file": "data/sprites/terrain-batch06/t06_a07_cilician_vineyard_terraces.png",
+      "frame": {
+        "x": 360,
+        "y": 254,
+        "w": 346,
+        "h": 197
+      },
+      "size_px": [
+        346,
+        197
+      ],
+      "sha256": "852549be04ff7b4ff63cd1025a58cf65908ec3bec364a9c254d1c7ffcacccb70",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a08",
+      "name": "aegean_old_olive_grove",
+      "terrain_class": "farmland",
+      "region_hint": "Greek/Aegean olive groves",
+      "file": "data/sprites/terrain-batch06/t06_a08_aegean_old_olive_grove.png",
+      "frame": {
+        "x": 707,
+        "y": 255,
+        "w": 349,
+        "h": 201
+      },
+      "size_px": [
+        349,
+        201
+      ],
+      "sha256": "9f55615e88591e6eda264b45b20b5e8106dcd013c23f8042a3281228d51dc76a",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a09",
+      "name": "cilician_golden_wheat",
+      "terrain_class": "farmland",
+      "region_hint": "Cilician lowland wheat cultivation",
+      "file": "data/sprites/terrain-batch06/t06_a09_cilician_golden_wheat.png",
+      "frame": {
+        "x": 1058,
+        "y": 252,
+        "w": 343,
+        "h": 202
+      },
+      "size_px": [
+        343,
+        202
+      ],
+      "sha256": "81c18fbb93213e6ea2c021f330211829ab5aeb52ec44a1d102d4da0f4a3ce001",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a10",
+      "name": "fertile_garden_cottage",
+      "terrain_class": "settlement_agriculture",
+      "region_hint": "Agricultural fringes; cottage illustration needs settlement collision QA",
+      "file": "data/sprites/terrain-batch06/t06_a10_fertile_garden_cottage.png",
+      "frame": {
+        "x": 1402,
+        "y": 246,
+        "w": 358,
+        "h": 204
+      },
+      "size_px": [
+        358,
+        204
+      ],
+      "sha256": "8d534b2f6780795b0f2d81c17279087263be4a7e283c2f891f8cc1a0e0b1b203",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": [
+        "Illustrated buildings must be checked against settlement layer"
+      ]
+    },
+    {
+      "id": "t06-a11",
+      "name": "levant_riverbank_wooded_bend",
+      "terrain_class": "riverbank",
+      "region_hint": "Levantine riverbank; mask all depicted water to real channel",
+      "file": "data/sprites/terrain-batch06/t06_a11_levant_riverbank_wooded_bend.png",
+      "frame": {
+        "x": 11,
+        "y": 461,
+        "w": 360,
+        "h": 201
+      },
+      "size_px": [
+        360,
+        201
+      ],
+      "sha256": "3da7957ddae4c187b39620c5da4be794fddcc61fbbf8374bb9e420cf7efaf0e5",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": [
+        "Illustrated water must be clipped/matched to mapped river and wetland"
+      ]
+    },
+    {
+      "id": "t06-a12",
+      "name": "nile_reed_lily_pool",
+      "terrain_class": "wetland",
+      "region_hint": "Nile delta/pools with reeds; hydrology review",
+      "file": "data/sprites/terrain-batch06/t06_a12_nile_reed_lily_pool.png",
+      "frame": {
+        "x": 362,
+        "y": 472,
+        "w": 373,
+        "h": 184
+      },
+      "size_px": [
+        373,
+        184
+      ],
+      "sha256": "5586743a242be5ea065b2c5142791d8c35ba6449c10a9b42bd771ddc902a3123",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": [
+        "Illustrated water must be clipped/matched to mapped river and wetland"
+      ]
+    },
+    {
+      "id": "t06-a13",
+      "name": "delta_broad_reed_mosaic",
+      "terrain_class": "wetland",
+      "region_hint": "Nile Delta marsh; must align to actual wetland",
+      "file": "data/sprites/terrain-batch06/t06_a13_delta_broad_reed_mosaic.png",
+      "frame": {
+        "x": 740,
+        "y": 482,
+        "w": 328,
+        "h": 177
+      },
+      "size_px": [
+        328,
+        177
+      ],
+      "sha256": "53a751c99ae1581f7e460dcb4371f4d944844b06843d3b5190954759d34e8ef8",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": [
+        "Illustrated water must be clipped/matched to mapped river and wetland"
+      ]
+    },
+    {
+      "id": "t06-a14",
+      "name": "orontes_lowland_stream",
+      "terrain_class": "riverbank",
+      "region_hint": "Orontes stream margins, water mask required",
+      "file": "data/sprites/terrain-batch06/t06_a14_orontes_lowland_stream.png",
+      "frame": {
+        "x": 1067,
+        "y": 476,
+        "w": 340,
+        "h": 181
+      },
+      "size_px": [
+        340,
+        181
+      ],
+      "sha256": "4cf0f4e9b76fd1e0a443afcab75ee1dfa22b3050c7b160426fc14a1aa5d39b45",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": [
+        "Illustrated water must be clipped/matched to mapped river and wetland"
+      ]
+    },
+    {
+      "id": "t06-a15",
+      "name": "egypt_palm_oasis_grove",
+      "terrain_class": "oasis",
+      "region_hint": "Oasis patches in Egypt and Sinai; verify water source",
+      "file": "data/sprites/terrain-batch06/t06_a15_egypt_palm_oasis_grove.png",
+      "frame": {
+        "x": 1405,
+        "y": 447,
+        "w": 359,
+        "h": 211
+      },
+      "size_px": [
+        359,
+        211
+      ],
+      "sha256": "d71216f2d99ac4b234db5e67446501d5e187faf10c985881ee8085423fdbcbaf",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a16",
+      "name": "egypt_sand_dune_cluster",
+      "terrain_class": "desert",
+      "region_hint": "Western Egyptian sandy desert or Araba",
+      "file": "data/sprites/terrain-batch06/t06_a16_egypt_sand_dune_cluster.png",
+      "frame": {
+        "x": 9,
+        "y": 686,
+        "w": 379,
+        "h": 178
+      },
+      "size_px": [
+        379,
+        178
+      ],
+      "sha256": "bb035ff9aabecad50b97cdcd34fbfe7dbf25a5601f59a26b7651256edff25ea9",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a17",
+      "name": "syrian_red_broken_badlands",
+      "terrain_class": "badlands",
+      "region_hint": "Syrian/Transjordan desert badlands",
+      "file": "data/sprites/terrain-batch06/t06_a17_syrian_red_broken_badlands.png",
+      "frame": {
+        "x": 382,
+        "y": 675,
+        "w": 353,
+        "h": 188
+      },
+      "size_px": [
+        353,
+        188
+      ],
+      "sha256": "cbe49b40571cf54e8bcbde49578a1f83451bc89cd5bfa3047331f775be1ad79d",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a18",
+      "name": "canaan_pale_limestone_mounds",
+      "terrain_class": "rocky_upland",
+      "region_hint": "Canaan and Transjordan limestone foothills",
+      "file": "data/sprites/terrain-batch06/t06_a18_canaan_pale_limestone_mounds.png",
+      "frame": {
+        "x": 729,
+        "y": 681,
+        "w": 327,
+        "h": 189
+      },
+      "size_px": [
+        327,
+        189
+      ],
+      "sha256": "9f14dc1019dae756d49f43142ab9746710d7d33a0db8df32da0bd2d721a6bbec",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a19",
+      "name": "taurus_cedar_cliff_ledge",
+      "terrain_class": "mountain",
+      "region_hint": "Taurus cedar slopes on rocky cliffs",
+      "file": "data/sprites/terrain-batch06/t06_a19_taurus_cedar_cliff_ledge.png",
+      "frame": {
+        "x": 1054,
+        "y": 672,
+        "w": 374,
+        "h": 189
+      },
+      "size_px": [
+        374,
+        189
+      ],
+      "sha256": "845b69e7425d1589f12dee8f0e10c826d45cbebb957db8ee4f7942dc2ed72306",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-a20",
+      "name": "anatolia_red_brown_volcanic_buttress",
+      "terrain_class": "volcanic",
+      "region_hint": "Volcanic Anatolian rock typology, geology check",
+      "file": "data/sprites/terrain-batch06/t06_a20_anatolia_red_brown_volcanic_buttress.png",
+      "frame": {
+        "x": 1393,
+        "y": 686,
+        "w": 374,
+        "h": 172
+      },
+      "size_px": [
+        374,
+        172
+      ],
+      "sha256": "421eb82164a0ee7daf49f9d887340f7fd020b5ad70d1e376a484de8e650c0e05",
+      "source_sheet": "terrain_batch06_sheet_a.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b01",
+      "name": "delta_marsh_reeds_large",
+      "terrain_class": "wetland",
+      "region_hint": "Nile Delta marsh; wetland only",
+      "file": "data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png",
+      "frame": {
+        "x": 5,
+        "y": 14,
+        "w": 373,
+        "h": 221
+      },
+      "size_px": [
+        373,
+        221
+      ],
+      "sha256": "ad320711af20212ae2c724611e5083a814c9ffa64537b52162f731cb47009388",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": [
+        "Illustrated water must be clipped/matched to mapped river and wetland"
+      ]
+    },
+    {
+      "id": "t06-b02",
+      "name": "delta_reed_channels_braided",
+      "terrain_class": "wetland",
+      "region_hint": "Nile Delta braided marsh with blue water; hydrography must match",
+      "file": "data/sprites/terrain-batch06/t06_b02_delta_reed_channels_braided.png",
+      "frame": {
+        "x": 375,
+        "y": 8,
+        "w": 377,
+        "h": 227
+      },
+      "size_px": [
+        377,
+        227
+      ],
+      "sha256": "00fa283eed527e544b147f578d45af55249e4304bc3e0d02737cbca43c458f44",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": [
+        "Illustrated water must be clipped/matched to mapped river and wetland"
+      ]
+    },
+    {
+      "id": "t06-b03",
+      "name": "jordan_tree_lined_streambank",
+      "terrain_class": "riverbank",
+      "region_hint": "River Jordan bank foliage; mask illustrated river",
+      "file": "data/sprites/terrain-batch06/t06_b03_jordan_tree_lined_streambank.png",
+      "frame": {
+        "x": 724,
+        "y": 25,
+        "w": 396,
+        "h": 197
+      },
+      "size_px": [
+        396,
+        197
+      ],
+      "sha256": "3dbe97340d45663ba7993887863f359fd11745c3e9195323ebb2c66a94ffcff0",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": [
+        "Illustrated water must be clipped/matched to mapped river and wetland"
+      ]
+    },
+    {
+      "id": "t06-b04",
+      "name": "orontes_wooded_horseshoe",
+      "terrain_class": "riverbank",
+      "region_hint": "Orontes broad bend; mask illustrated water to georeferenced river",
+      "file": "data/sprites/terrain-batch06/t06_b04_orontes_wooded_horseshoe.png",
+      "frame": {
+        "x": 1033,
+        "y": 9,
+        "w": 441,
+        "h": 214
+      },
+      "size_px": [
+        441,
+        214
+      ],
+      "sha256": "79ff391d2a8db54e20f921deaaa584394260d7c700709db60c146578189a9fd0",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": [
+        "Illustrated water must be clipped/matched to mapped river and wetland"
+      ]
+    },
+    {
+      "id": "t06-b05",
+      "name": "euphrates_reach_short_meander",
+      "terrain_class": "riverbank",
+      "region_hint": "Euphrates/Tigris woodland meander; geometry provisional",
+      "file": "data/sprites/terrain-batch06/t06_b05_euphrates_reach_short_meander.png",
+      "frame": {
+        "x": 1453,
+        "y": 21,
+        "w": 321,
+        "h": 215
+      },
+      "size_px": [
+        321,
+        215
+      ],
+      "sha256": "15fedfd049917d6731060b47d4630ad4d986016157aec0f97d60d1f302f71960",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": [
+        "Illustrated water must be clipped/matched to mapped river and wetland"
+      ]
+    },
+    {
+      "id": "t06-b06",
+      "name": "aegean_patchwork_grain_fields",
+      "terrain_class": "farmland",
+      "region_hint": "Greek agricultural patchwork and dry stone edges",
+      "file": "data/sprites/terrain-batch06/t06_b06_aegean_patchwork_grain_fields.png",
+      "frame": {
+        "x": 3,
+        "y": 232,
+        "w": 376,
+        "h": 235
+      },
+      "size_px": [
+        376,
+        235
+      ],
+      "sha256": "747ac5a07e5a852324df03862a46f54be0898e580959b888f6427a31140067f5",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b07",
+      "name": "levante_vineyard_cypress_terraces",
+      "terrain_class": "farmland",
+      "region_hint": "Levantine vineyard and cypress terraces",
+      "file": "data/sprites/terrain-batch06/t06_b07_levante_vineyard_cypress_terraces.png",
+      "frame": {
+        "x": 364,
+        "y": 253,
+        "w": 357,
+        "h": 217
+      },
+      "size_px": [
+        357,
+        217
+      ],
+      "sha256": "723d35d114e603abf9da1cac2064b21cee155c445ddc3a09e1ef6ec366b92694",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b08",
+      "name": "upper_mesopotamia_harvest_field",
+      "terrain_class": "farmland",
+      "region_hint": "Upper Mesopotamia grain with haystacks",
+      "file": "data/sprites/terrain-batch06/t06_b08_upper_mesopotamia_harvest_field.png",
+      "frame": {
+        "x": 703,
+        "y": 247,
+        "w": 338,
+        "h": 226
+      },
+      "size_px": [
+        338,
+        226
+      ],
+      "sha256": "0914177891295350f4d0eeb289fbce126ef48fe014de9c51a8ca446d2dd4b777",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b09",
+      "name": "aegean_old_olive_cluster",
+      "terrain_class": "woodland",
+      "region_hint": "Olive grove on limestone hill",
+      "file": "data/sprites/terrain-batch06/t06_b09_aegean_old_olive_cluster.png",
+      "frame": {
+        "x": 1029,
+        "y": 254,
+        "w": 397,
+        "h": 209
+      },
+      "size_px": [
+        397,
+        209
+      ],
+      "sha256": "13d28ca94143baf1954c8b645148f223b55abd0ad4193c22a63bf04d7850b904",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b10",
+      "name": "levant_orchard_fruit_trees",
+      "terrain_class": "farmland",
+      "region_hint": "Levantine citrus/fruit orchards; crop type unverified",
+      "file": "data/sprites/terrain-batch06/t06_b10_levant_orchard_fruit_trees.png",
+      "frame": {
+        "x": 1405,
+        "y": 261,
+        "w": 366,
+        "h": 199
+      },
+      "size_px": [
+        366,
+        199
+      ],
+      "sha256": "76b8feda7cb0018a5617328452c11ba93c838984e0741987c27cf82c5174347a",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b11",
+      "name": "pontic_dense_broadleaf_copse",
+      "terrain_class": "woodland",
+      "region_hint": "Pontic/Anatolian dense mixed woodland",
+      "file": "data/sprites/terrain-batch06/t06_b11_pontic_dense_broadleaf_copse.png",
+      "frame": {
+        "x": 6,
+        "y": 475,
+        "w": 377,
+        "h": 198
+      },
+      "size_px": [
+        377,
+        198
+      ],
+      "sha256": "7d62c81ba9882545a01e5b1125d032ac1c4de394596fc1c44217fbb47ad5a0f2",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b12",
+      "name": "levant_open_evergreen_grove",
+      "terrain_class": "woodland",
+      "region_hint": "Levantine evergreen orchard/woodland variation",
+      "file": "data/sprites/terrain-batch06/t06_b12_levant_open_evergreen_grove.png",
+      "frame": {
+        "x": 370,
+        "y": 476,
+        "w": 347,
+        "h": 189
+      },
+      "size_px": [
+        347,
+        189
+      ],
+      "sha256": "694b319f49d6d0ebb55edb846637352b57d57d3f629e798488c2676140a71591",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b13",
+      "name": "greek_flowering_scrub_patch",
+      "terrain_class": "scrubland",
+      "region_hint": "Greek Mediterranean maquis and flowers",
+      "file": "data/sprites/terrain-batch06/t06_b13_greek_flowering_scrub_patch.png",
+      "frame": {
+        "x": 715,
+        "y": 484,
+        "w": 361,
+        "h": 173
+      },
+      "size_px": [
+        361,
+        173
+      ],
+      "sha256": "3f20b5f4a799794a349feba8bceee8fa00133cd5c4808c6ffa0a9ce2f727e2b3",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b14",
+      "name": "canaan_yellow_flowering_rocky_hill",
+      "terrain_class": "scrubland",
+      "region_hint": "Canaan spring scrub and rock",
+      "file": "data/sprites/terrain-batch06/t06_b14_canaan_yellow_flowering_rocky_hill.png",
+      "frame": {
+        "x": 1067,
+        "y": 478,
+        "w": 343,
+        "h": 186
+      },
+      "size_px": [
+        343,
+        186
+      ],
+      "sha256": "8cdc32808624029f62cc9cca85703427842314c7cf9ddae18dba7adb0c7f034e",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b15",
+      "name": "greek_white_karst_outcrops",
+      "terrain_class": "rocky_upland",
+      "region_hint": "Greek limestone karst outcrops",
+      "file": "data/sprites/terrain-batch06/t06_b15_greek_white_karst_outcrops.png",
+      "frame": {
+        "x": 1405,
+        "y": 473,
+        "w": 368,
+        "h": 201
+      },
+      "size_px": [
+        368,
+        201
+      ],
+      "sha256": "aecc06cd84dcfde8f223e797530ae25d4cdf2594e124026f91557024a72f0b62",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b16",
+      "name": "canaan_stony_olive_hills",
+      "terrain_class": "rocky_upland",
+      "region_hint": "Canaan dry olive hills",
+      "file": "data/sprites/terrain-batch06/t06_b16_canaan_stony_olive_hills.png",
+      "frame": {
+        "x": 3,
+        "y": 683,
+        "w": 375,
+        "h": 193
+      },
+      "size_px": [
+        375,
+        193
+      ],
+      "sha256": "a3945297a726212853a52cda131c28b7782bee6584b7f5f1f80e12a2599bfaa7",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b17",
+      "name": "transjordan_bare_rocky_foothills",
+      "terrain_class": "rocky_upland",
+      "region_hint": "Transjordan stony foothills",
+      "file": "data/sprites/terrain-batch06/t06_b17_transjordan_bare_rocky_foothills.png",
+      "frame": {
+        "x": 370,
+        "y": 696,
+        "w": 352,
+        "h": 169
+      },
+      "size_px": [
+        352,
+        169
+      ],
+      "sha256": "24ed1e7d227271b72b6d64b1c8dc657a2991a6edb555b10dde3d25c462c84f23",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b18",
+      "name": "levant_stone_terrace_orchard",
+      "terrain_class": "farmland",
+      "region_hint": "Levant dry stone terrace orchard",
+      "file": "data/sprites/terrain-batch06/t06_b18_levant_stone_terrace_orchard.png",
+      "frame": {
+        "x": 716,
+        "y": 686,
+        "w": 361,
+        "h": 190
+      },
+      "size_px": [
+        361,
+        190
+      ],
+      "sha256": "602be5f3d54774a4b2e96bd31bbae6c4f054eefcf0a22a3498b213e71709ab1e",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b19",
+      "name": "sinai_oasis_date_palm_cluster",
+      "terrain_class": "oasis",
+      "region_hint": "Sinai date palm oasis, source water required",
+      "file": "data/sprites/terrain-batch06/t06_b19_sinai_oasis_date_palm_cluster.png",
+      "frame": {
+        "x": 1068,
+        "y": 663,
+        "w": 342,
+        "h": 216
+      },
+      "size_px": [
+        342,
+        216
+      ],
+      "sha256": "e4beddec35c5ad033f15b4e2c1edd44fbffddd52a167bdcc29219020682266b9",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    },
+    {
+      "id": "t06-b20",
+      "name": "syrian_sandy_scrub_foothill",
+      "terrain_class": "scrubland",
+      "region_hint": "Syrian scrub-to-sand transition",
+      "file": "data/sprites/terrain-batch06/t06_b20_syrian_sandy_scrub_foothill.png",
+      "frame": {
+        "x": 1406,
+        "y": 693,
+        "w": 368,
+        "h": 180
+      },
+      "size_px": [
+        368,
+        180
+      ],
+      "sha256": "a57cec4235eb70f49404cc38f54fce37fd2174a326bb2d9fda98efd86ab17cc1",
+      "source_sheet": "terrain_batch06_sheet_b.png",
+      "alpha_mode": "RGBA with fully transparent exterior",
+      "placement_review_status": "provisional_not_placed",
+      "print_quality_status": "native_resolution_review_required",
+      "qa_notes": []
+    }
+  ],
+  "binary_import_status": "committed_to_repository",
+  "source_artworks_preserved_in_download_zip": true
+}
