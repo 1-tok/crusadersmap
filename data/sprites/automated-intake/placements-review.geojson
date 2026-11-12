@@ -1,0 +1,569 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "INTAKE-0731ce87a8f3eb5b2386",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-0731ce87a8f3eb5b2386",
+        "asset": "data/sprites/automated-intake/png/domed-walled-religious-precinct-0731ce87a8f3.png",
+        "site_id": "domed-walled-religious-precinct",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-16e5604899889eed683f",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-16e5604899889eed683f",
+        "asset": "data/sprites/automated-intake/png/cross-domed-byzantine-style-church-16e560489988.png",
+        "site_id": "cross-domed-byzantine-style-church",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-21cdd6fda2717da7e6ce",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-21cdd6fda2717da7e6ce",
+        "asset": "data/sprites/automated-intake/png/kantara-21cdd6fda271.png",
+        "site_id": "kantara",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-24a89c6ceecf0c22338c",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-24a89c6ceecf0c22338c",
+        "asset": "data/sprites/automated-intake/png/twin-tower-latin-church-24a89c6ceecf.png",
+        "site_id": "twin-tower-latin-church",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2ba6bd0bb5c3f12749ff",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2ba6bd0bb5c3f12749ff",
+        "asset": "data/sprites/automated-intake/png/pointed-arch-gothic-church-2ba6bd0bb5c3.png",
+        "site_id": "pointed-arch-gothic-church",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2cad1dc9839e0df887cc",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2cad1dc9839e0df887cc",
+        "asset": "data/sprites/automated-intake/png/kolossi-2cad1dc9839e.png",
+        "site_id": "kolossi",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-30eaae615a8de1e43000",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-30eaae615a8de1e43000",
+        "asset": "data/sprites/automated-intake/png/darbsak-30eaae615a8d.png",
+        "site_id": "darbsak",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-39a9e488a0adf99f86bf",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-39a9e488a0adf99f86bf",
+        "asset": "data/sprites/automated-intake/png/fortified-stone-monastery-39a9e488a0ad.png",
+        "site_id": "fortified-stone-monastery",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-443050a4ab9be37818c1",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-443050a4ab9be37818c1",
+        "asset": "data/sprites/automated-intake/png/gold-domed-octagonal-shrine-443050a4ab9b.png",
+        "site_id": "gold-domed-octagonal-shrine",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6b5a1ae89a82778944a0",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-6b5a1ae89a82778944a0",
+        "asset": "data/sprites/automated-intake/png/chastellet-jacob-s-ford-6b5a1ae89a82.png",
+        "site_id": "chastellet-jacobs-ford",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-7d4549d9b2c5571dc95e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7d4549d9b2c5571dc95e",
+        "asset": "data/sprites/automated-intake/png/hagia-sophia-inspired-domed-complex-7d4549d9b2c5.png",
+        "site_id": "hagia-sophia-inspired-domed-complex",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8f4e66fea529488b286b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-8f4e66fea529488b286b",
+        "asset": "data/sprites/automated-intake/png/bourzey-burzey-8f4e66fea529.png",
+        "site_id": "bourzey",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9222ed7f72b98002f2c9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-9222ed7f72b98002f2c9",
+        "asset": "data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png",
+        "site_id": "feke",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-a004220580c6f9db3ded",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-a004220580c6f9db3ded",
+        "asset": "data/sprites/automated-intake/png/coastal-cliffside-monastery-a004220580c6.png",
+        "site_id": "coastal-cliffside-monastery",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-a20a8f7f9045cb31c6c4",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-a20a8f7f9045cb31c6c4",
+        "asset": "data/sprites/automated-intake/png/masyaf-a20a8f7f9045.png",
+        "site_id": "masyaf",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-a7440d538d459efb815e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-a7440d538d459efb815e",
+        "asset": "data/sprites/automated-intake/png/chlemoutsi-clermont-a7440d538d45.png",
+        "site_id": "chlemoutsi",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-a8e135625a205da1e7f2",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-a8e135625a205da1e7f2",
+        "asset": "data/sprites/automated-intake/png/domed-rotunda-and-church-group-a8e135625a20.png",
+        "site_id": "domed-rotunda-and-church-group",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-ae098fc9579ca3fa5393",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-ae098fc9579ca3fa5393",
+        "asset": "data/sprites/automated-intake/png/fortified-desert-monastery-ae098fc9579c.png",
+        "site_id": "fortified-desert-monastery",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-afb58e1ddd842e4c4fcb",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-afb58e1ddd842e4c4fcb",
+        "asset": "data/sprites/automated-intake/png/k-zkalesi-afb58e1ddd84.png",
+        "site_id": "kizkalesi",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-b1335fb7ad715637d8ec",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-b1335fb7ad715637d8ec",
+        "asset": "data/sprites/automated-intake/png/shaizar-b1335fb7ad71.png",
+        "site_id": "shaizar",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-c39e8abdd8a9d913dbaf",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-c39e8abdd8a9d913dbaf",
+        "asset": "data/sprites/automated-intake/png/medieval-crusader-fortress-sprite-collection-c39e8abdd8a9.png",
+        "site_id": "medieval-crusader-fortress-sprite-collection",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-dddca42c6790b34b00fd",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-dddca42c6790b34b00fd",
+        "asset": "data/sprites/automated-intake/png/romanesque-abbey-precinct-dddca42c6790.png",
+        "site_id": "romanesque-abbey-precinct",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e74b6a869462c5f4de1f",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-e74b6a869462c5f4de1f",
+        "asset": "data/sprites/automated-intake/png/qadmus-e74b6a869462.png",
+        "site_id": "qadmus",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-eb686a366b52ebd9b6b8",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-eb686a366b52ebd9b6b8",
+        "asset": "data/sprites/automated-intake/png/buffavento-eb686a366b52.png",
+        "site_id": "buffavento",
+        "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f8a5901ed2aec513c483",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-f8a5901ed2aec513c483",
+        "asset": "data/sprites/automated-intake/png/multiple-domed-church-compound-f8a5901ed2ae.png",
+        "site_id": "multiple-domed-church-compound",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    }
+  ]
+}
