@@ -3,6 +3,30 @@
   "features": [
     {
       "type": "Feature",
+      "id": "INTAKE-022a25c48358db79d8cc",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-022a25c48358db79d8cc",
+        "asset": "data/sprites/automated-intake/png/b18-20-vineyard-rows-022a25c48358.png",
+        "site_id": "b18-20-vineyard-rows",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-03b8997fe3ac075f1dc9",
       "geometry": null,
       "properties": {
@@ -20,6 +44,78 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-058ad572fcafa0abef0b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-058ad572fcafa0abef0b",
+        "asset": "data/sprites/automated-intake/png/b18-16-rocky-coastal-headland-058ad572fcaf.png",
+        "site_id": "b18-16-rocky-coastal-headland",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-05de75dadf78fb66f2b5",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-05de75dadf78fb66f2b5",
+        "asset": "data/sprites/automated-intake/png/b20-07-alpine-forest-to-crags-05de75dadf78.png",
+        "site_id": "b20-07-alpine-forest-to-crags",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-068d25f90cbaa9bba6c3",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-068d25f90cbaa9bba6c3",
+        "asset": "data/sprites/automated-intake/png/b19-21-cattle-068d25f90cba.png",
+        "site_id": "b19-21-cattle",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -94,12 +190,106 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-0936d53b9b755c602afc",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-0936d53b9b755c602afc",
+        "asset": "data/sprites/automated-intake/png/b18-05-walled-monastery-generic-0936d53b9b75.png",
+        "site_id": "b18-05-walled-monastery-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-09bb8904668be895301b",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-09bb8904668be895301b",
         "asset": "data/sprites/automated-intake/png/75-antikythera-draft-09bb8904668b.png",
         "site_id": "75-antikythera-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-0a2fcaf14b225a5184ea",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-0a2fcaf14b225a5184ea",
+        "asset": "data/sprites/automated-intake/png/91-schiza-concept-0a2fcaf14b22.png",
+        "site_id": "91-schiza-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-0ae14ae46cca42b3b0be",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-0ae14ae46cca42b3b0be",
+        "asset": "data/sprites/automated-intake/png/beehive-apiary-0ae14ae46cca.png",
+        "site_id": "generic-beehive-apiary",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 360,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-0c233cf8912e4b90b1c1",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-0c233cf8912e4b90b1c1",
+        "asset": "data/sprites/automated-intake/png/b19-07-classical-ruins-0c233cf8912e.png",
+        "site_id": "b19-07-classical-ruins",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -140,6 +330,52 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-10c8d38fd3df4f39ac93",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-10c8d38fd3df4f39ac93",
+        "asset": "data/sprites/automated-intake/png/irrigation-shaduf-10c8d38fd3df.png",
+        "site_id": "generic-irrigation-shaduf",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 360,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-10e51f6889ee317c1748",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-10e51f6889ee317c1748",
+        "asset": "data/sprites/automated-intake/png/b21-03-sandy-shore-to-rock-10e51f6889ee.png",
+        "site_id": "b21-03-sandy-shore-to-rock",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-111b9730ed0ac3a9c5fe",
       "geometry": null,
       "properties": {
@@ -162,12 +398,106 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-115c67adc323fce42dcd",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-115c67adc323fce42dcd",
+        "asset": "data/sprites/automated-intake/png/b18-10-crusader-camp-115c67adc323.png",
+        "site_id": "b18-10-crusader-camp",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-121fcdbe63d7de9ff449",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-121fcdbe63d7de9ff449",
         "asset": "data/sprites/automated-intake/png/77-ereikoussa-concept-121fcdbe63d7.png",
         "site_id": "77-ereikoussa-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-129d414ac64871848c0d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-129d414ac64871848c0d",
+        "asset": "data/sprites/automated-intake/png/medieval-shipyard-129d414ac648.png",
+        "site_id": "medieval-shipyard",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-133f1b87a8230c3be89c",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-133f1b87a8230c3be89c",
+        "asset": "data/sprites/automated-intake/png/103-skantzoura-concept-133f1b87a823.png",
+        "site_id": "103-skantzoura-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-14ea8605677781ca888f",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-14ea8605677781ca888f",
+        "asset": "data/sprites/automated-intake/png/b19-09-island-watchtower-14ea86056777.png",
+        "site_id": "b19-09-island-watchtower",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -208,6 +538,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-1632ebc04987250c2eb4",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-1632ebc04987250c2eb4",
+        "asset": "data/sprites/automated-intake/png/b19-17-market-tents-1632ebc04987.png",
+        "site_id": "b19-17-market-tents",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-16e5604899889eed683f",
       "geometry": null,
       "properties": {
@@ -226,6 +580,124 @@
         "review_flags": [
           "category_unverified",
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-1756fd4761bae9ae0ec5",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-1756fd4761bae9ae0ec5",
+        "asset": "data/sprites/automated-intake/png/toprakkale-til-1756fd4761ba.png",
+        "site_id": "toprakkale-til",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-18a7910068821f59b59c",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-18a7910068821f59b59c",
+        "asset": "data/sprites/automated-intake/png/b21-13-rural-houses-18a791006882.png",
+        "site_id": "b21-13-rural-houses",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-18b90c11fb9743a66706",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-18b90c11fb9743a66706",
+        "asset": "data/sprites/automated-intake/png/99-peristera-sporades-concept-18b90c11fb97.png",
+        "site_id": "99-peristera-sporades-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-18ea360bf9dedbef4d3c",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-18ea360bf9dedbef4d3c",
+        "asset": "data/sprites/automated-intake/png/korykos-mainland-fortress-18ea360bf9de.png",
+        "site_id": "korykos-mainland-fortress",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-1c2762361496bd44e0e2",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-1c2762361496bd44e0e2",
+        "asset": "data/sprites/automated-intake/png/b18-14-rocky-littoral-1c2762361496.png",
+        "site_id": "b18-14-rocky-littoral",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -262,6 +734,28 @@
         "asset": "data/sprites/automated-intake/png/desert-mountain-monastery-1d57b24b6551.png",
         "site_id": "desert-mountain-monastery",
         "approval": "approved",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-1fb518a52cdbe58a783e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-1fb518a52cdbe58a783e",
+        "asset": "data/sprites/automated-intake/png/qal-at-ja-bar-1fb518a52cdb.png",
+        "site_id": "qal-at-ja-bar",
+        "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
         "historical_accuracy_certified": false,
@@ -323,6 +817,100 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-209b90999ce5f30923f2",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-209b90999ce5f30923f2",
+        "asset": "data/sprites/automated-intake/png/b19-04-rocky-fortress-209b90999ce5.png",
+        "site_id": "b19-04-rocky-fortress",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-20a69638ee7827752df4",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-20a69638ee7827752df4",
+        "asset": "data/sprites/automated-intake/png/b20-08-wooded-hills-to-farms-20a69638ee78.png",
+        "site_id": "b20-08-wooded-hills-to-farms",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-212221222149d5b61a79",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-212221222149d5b61a79",
+        "asset": "data/sprites/automated-intake/png/b20-02-river-to-marsh-212221222149.png",
+        "site_id": "b20-02-river-to-marsh",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2190d5ed770cd14c7d17",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2190d5ed770cd14c7d17",
+        "asset": "data/sprites/automated-intake/png/harran-citadel-2190d5ed770c.png",
+        "site_id": "harran-citadel",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-21cdd6fda2717da7e6ce",
       "geometry": null,
       "properties": {
@@ -338,6 +926,98 @@
           0.95
         ],
         "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2285ae1cfed2ec6162e5",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2285ae1cfed2ec6162e5",
+        "asset": "data/sprites/automated-intake/png/b18-26-date-palms-2285ae1cfed2.png",
+        "site_id": "b18-26-date-palms",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-22e6e84efa16d8f187ba",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-22e6e84efa16d8f187ba",
+        "asset": "data/sprites/automated-intake/png/caravan-tent-encampment-22e6e84efa16.png",
+        "site_id": "generic-caravan-encampment",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 340,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-23550772dcd840031dda",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-23550772dcd840031dda",
+        "asset": "data/sprites/automated-intake/png/b21-14-rocky-scrub-foothills-23550772dcd8.png",
+        "site_id": "b21-14-rocky-scrub-foothills",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-23cc811952f3740cf403",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-23cc811952f3740cf403",
+        "asset": "data/sprites/automated-intake/png/wheat-harvest-and-cart-23cc811952f3.png",
+        "site_id": "generic-wheat-harvest",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 340,
         "review_flags": [
           "coordinates_unverified"
         ]
@@ -368,12 +1048,109 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-2594b7bd680b379cee5d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2594b7bd680b379cee5d",
+        "asset": "data/sprites/automated-intake/png/b21-06-river-reedbanks-2594b7bd680b.png",
+        "site_id": "b21-06-river-reedbanks",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-25af1e661c90445d898a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-25af1e661c90445d898a",
+        "asset": "data/sprites/automated-intake/png/b19-14-lateen-ship-b-25af1e661c90.png",
+        "site_id": "b19-14-lateen-ship-b",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-263ddba8524951c6770a",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-263ddba8524951c6770a",
         "asset": "data/sprites/automated-intake/png/b05-concept-04-unassigned-draft-263ddba85249.png",
         "site_id": "b05-concept-04-unassigned-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-29dfca8c39d1f6560d7a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-29dfca8c39d1f6560d7a",
+        "asset": "data/sprites/automated-intake/png/a-detailed-painted-watercolor-ink-illustration-she-29dfca8c39d1.png",
+        "site_id": "a-detailed-painted-watercolor-ink-illustration-she",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2acb7a30d0c25a92a085",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2acb7a30d0c25a92a085",
+        "asset": "data/sprites/automated-intake/png/b18-21-olive-tree-2acb7a30d0c2.png",
+        "site_id": "b18-21-olive-tree",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -439,6 +1216,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-2c9ebdf7f4fafefffd2a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2c9ebdf7f4fafefffd2a",
+        "asset": "data/sprites/automated-intake/png/b20-05-rocky-foothill-scrub-2c9ebdf7f4fa.png",
+        "site_id": "b20-05-rocky-foothill-scrub",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-2cad1dc9839e0df887cc",
       "geometry": null,
       "properties": {
@@ -456,6 +1257,126 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2cc9ae56ea3afcbf1489",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2cc9ae56ea3afcbf1489",
+        "asset": "data/sprites/automated-intake/png/b20-03-terraced-farmland-hills-2cc9ae56ea3a.png",
+        "site_id": "b20-03-terraced-farmland-hills",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2cfcb50e825c530c9190",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2cfcb50e825c530c9190",
+        "asset": "data/sprites/automated-intake/png/b18-23-flowering-tree-2cfcb50e825c.png",
+        "site_id": "b18-23-flowering-tree",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2db8f0b09341a03e9780",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2db8f0b09341a03e9780",
+        "asset": "data/sprites/automated-intake/png/original-sheet-2db8f0b09341.png",
+        "site_id": "original-sheet",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2e1317eda9b367c6320c",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-2e1317eda9b367c6320c",
+        "asset": "data/sprites/automated-intake/png/fishing-hamlet-and-net-racks-2e1317eda9b3.png",
+        "site_id": "generic-fishing-hamlet",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 340,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-308e492e699b1eaecf2b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-308e492e699b1eaecf2b",
+        "asset": "data/sprites/automated-intake/png/b20-01-coast-to-farmland-308e492e699b.png",
+        "site_id": "b20-01-coast-to-farmland",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -483,12 +1404,130 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-31596eaa059ecca1c41c",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-31596eaa059ecca1c41c",
+        "asset": "data/sprites/automated-intake/png/b19-19-ox-cart-31596eaa059e.png",
+        "site_id": "b19-19-ox-cart",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-31e838da17cc45e6340b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-31e838da17cc45e6340b",
+        "asset": "data/sprites/automated-intake/png/b21-02-rocky-shore-to-sand-31e838da17cc.png",
+        "site_id": "b21-02-rocky-shore-to-sand",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-31f78f281970e0f5e033",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-31f78f281970e0f5e033",
+        "asset": "data/sprites/automated-intake/png/b18-01-fortified-coastal-city-generic-31f78f281970.png",
+        "site_id": "b18-01-fortified-coastal-city-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-3376553f7d9a16647053",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-3376553f7d9a16647053",
         "asset": "data/sprites/automated-intake/png/b16-06-offshore-castle-generic-3376553f7d9a.png",
         "site_id": "b16-06-offshore-castle-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-345117df6dad49dd017c",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-345117df6dad49dd017c",
+        "asset": "data/sprites/automated-intake/png/irrigated-crop-terraces-345117df6dad.png",
+        "site_id": "generic-irrigated-terraces",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 340,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-3673359599e20ae33079",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-3673359599e20ae33079",
+        "asset": "data/sprites/automated-intake/png/b18-12-hilltop-watchtower-3673359599e2.png",
+        "site_id": "b18-12-hilltop-watchtower",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -552,6 +1591,102 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-3e6428bc9e9367888db0",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-3e6428bc9e9367888db0",
+        "asset": "data/sprites/automated-intake/png/b19-16-fortified-tents-3e6428bc9e93.png",
+        "site_id": "b19-16-fortified-tents",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-3ed2d6eac2ad65a83029",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-3ed2d6eac2ad65a83029",
+        "asset": "data/sprites/automated-intake/png/b19-31-yellow-shrub-3ed2d6eac2ad.png",
+        "site_id": "b19-31-yellow-shrub",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-3fc3adbd687bfe2e7f69",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-3fc3adbd687bfe2e7f69",
+        "asset": "data/sprites/automated-intake/png/96-gramvousa-concept-3fc3adbd687b.png",
+        "site_id": "96-gramvousa-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-3fe541de4a16d636d902",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-3fe541de4a16d636d902",
+        "asset": "data/sprites/automated-intake/png/b18-17-reed-wetland-3fe541de4a16.png",
+        "site_id": "b18-17-reed-wetland",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-403baea15271bdfec008",
       "geometry": null,
       "properties": {
@@ -569,6 +1704,30 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-430793485616d475046a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-430793485616d475046a",
+        "asset": "data/sprites/automated-intake/png/b19-22-stony-boulders-430793485616.png",
+        "site_id": "b19-22-stony-boulders",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -592,6 +1751,146 @@
         "review_flags": [
           "category_unverified",
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-45383b9bcb1d0b0cf5cd",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-45383b9bcb1d0b0cf5cd",
+        "asset": "data/sprites/automated-intake/png/desert-caravan-well-45383b9bcb1d.png",
+        "site_id": "desert-caravan-well",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-48de6d91dca5f010f39b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-48de6d91dca5f010f39b",
+        "asset": "data/sprites/automated-intake/png/88-makronisos-concept-48de6d91dca5.png",
+        "site_id": "88-makronisos-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-4c6be4f8ac82e5884bf4",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-4c6be4f8ac82e5884bf4",
+        "asset": "data/sprites/automated-intake/png/b21-21-mixed-tree-woods-4c6be4f8ac82.png",
+        "site_id": "b21-21-mixed-tree-woods",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-4c83486647c7ce03ad33",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-4c83486647c7ce03ad33",
+        "asset": "data/sprites/automated-intake/png/olive-oil-press-4c83486647c7.png",
+        "site_id": "generic-olive-oil-press",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 360,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-4cca48917a9fee25ac8d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-4cca48917a9fee25ac8d",
+        "asset": "data/sprites/automated-intake/png/93-despotiko-concept-4cca48917a9f.png",
+        "site_id": "93-despotiko-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-4d6e4f9a9ae3c03528d5",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-4d6e4f9a9ae3c03528d5",
+        "asset": "data/sprites/automated-intake/png/b18-19-marsh-water-reeds-4d6e4f9a9ae3.png",
+        "site_id": "b18-19-marsh-water-reeds",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -621,6 +1920,150 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-5089d96695cccd2f4a1a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-5089d96695cccd2f4a1a",
+        "asset": "data/sprites/automated-intake/png/b20-09-desert-to-rocky-mountains-5089d96695cc.png",
+        "site_id": "b20-09-desert-to-rocky-mountains",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-51105e00a48d89840a48",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-51105e00a48d89840a48",
+        "asset": "data/sprites/automated-intake/png/b19-28-cypress-stand-51105e00a48d.png",
+        "site_id": "b19-28-cypress-stand",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-51f6b6d5afb5ddc1a96d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-51f6b6d5afb5ddc1a96d",
+        "asset": "data/sprites/automated-intake/png/source-sheet-original-rgb-51f6b6d5afb5.png",
+        "site_id": "source-sheet-original-rgb",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-52d0b94c4e4d0de859d9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-52d0b94c4e4d0de859d9",
+        "asset": "data/sprites/automated-intake/png/87-gyaros-concept-52d0b94c4e4d.png",
+        "site_id": "87-gyaros-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-551250fcc90e7b45f019",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-551250fcc90e7b45f019",
+        "asset": "data/sprites/automated-intake/png/b21-15-foothill-to-mountain-551250fcc90e.png",
+        "site_id": "b21-15-foothill-to-mountain",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-553c9c96a91b30e6ca40",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-553c9c96a91b30e6ca40",
+        "asset": "data/sprites/automated-intake/png/birecik-castle-553c9c96a91b.png",
+        "site_id": "birecik-castle",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-58bc99dbddd6ebba32e7",
       "geometry": null,
       "properties": {
@@ -638,6 +2081,80 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-59649c6e9f389a9f0a4e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-59649c6e9f389a9f0a4e",
+        "asset": "data/sprites/automated-intake/png/original-generation-sheet-59649c6e9f38.png",
+        "site_id": "original-generation-sheet",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-59848fc848a180e7ecb6",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-59848fc848a180e7ecb6",
+        "asset": "data/sprites/automated-intake/png/b21-17-arid-rocky-ridges-59848fc848a1.png",
+        "site_id": "b21-17-arid-rocky-ridges",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-5c1aa17f707daa758f65",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-5c1aa17f707daa758f65",
+        "asset": "data/sprites/automated-intake/png/b19-30-flowering-shrub-5c1aa17f707d.png",
+        "site_id": "b19-30-flowering-shrub",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -665,6 +2182,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-5e68d3606aa8bf73290d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-5e68d3606aa8bf73290d",
+        "asset": "data/sprites/automated-intake/png/b20-04-broad-reed-marsh-5e68d3606aa8.png",
+        "site_id": "b20-04-broad-reed-marsh",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-5ede2f1b3a374fbd35d9",
       "geometry": null,
       "properties": {
@@ -682,6 +2223,150 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-5f278c47616ef7eb2408",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-5f278c47616ef7eb2408",
+        "asset": "data/sprites/automated-intake/png/102-piperi-sporades-concept-5f278c47616e.png",
+        "site_id": "102-piperi-sporades-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-5fd81cf6ac1e0512d90b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-5fd81cf6ac1e0512d90b",
+        "asset": "data/sprites/automated-intake/png/101-gioura-concept-5fd81cf6ac1e.png",
+        "site_id": "101-gioura-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-632c106a02648fc8d5bc",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-632c106a02648fc8d5bc",
+        "asset": "data/sprites/automated-intake/png/b21-04-cliff-coast-to-pines-632c106a0264.png",
+        "site_id": "b21-04-cliff-coast-to-pines",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6330cbb777eafbe53798",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-6330cbb777eafbe53798",
+        "asset": "data/sprites/automated-intake/png/b18-04-ruined-hillfort-generic-6330cbb777ea.png",
+        "site_id": "b18-04-ruined-hillfort-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-64bcc38d5619175b4806",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-64bcc38d5619175b4806",
+        "asset": "data/sprites/automated-intake/png/b19-11-lateen-ship-cross-sail-64bcc38d5619.png",
+        "site_id": "b19-11-lateen-ship-cross-sail",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-65332efbb3e93ca7b632",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-65332efbb3e93ca7b632",
+        "asset": "data/sprites/automated-intake/png/b21-08-river-bend-scrub-65332efbb3e9.png",
+        "site_id": "b21-08-river-bend-scrub",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -711,12 +2396,106 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-66059ba54ca1d92b862b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-66059ba54ca1d92b862b",
+        "asset": "data/sprites/automated-intake/png/roadside-inn-and-stables-66059ba54ca1.png",
+        "site_id": "generic-roadside-inn",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 340,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6700ffc32b70497e95b0",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-6700ffc32b70497e95b0",
+        "asset": "data/sprites/automated-intake/png/b20-06-dry-steppe-to-foothills-6700ffc32b70.png",
+        "site_id": "b20-06-dry-steppe-to-foothills",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-673c23a3d3d42457593e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-673c23a3d3d42457593e",
+        "asset": "data/sprites/automated-intake/png/b21-12-hillside-farm-673c23a3d3d4.png",
+        "site_id": "b21-12-hillside-farm",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-675ce22f6f4ade256a40",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-675ce22f6f4ade256a40",
         "asset": "data/sprites/automated-intake/png/b16-02-ridge-citadel-generic-675ce22f6f4a.png",
         "site_id": "b16-02-ridge-citadel-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6947ffff7e8a5e57471e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-6947ffff7e8a5e57471e",
+        "asset": "data/sprites/automated-intake/png/b19-08-domed-chapel-6947ffff7e8a.png",
+        "site_id": "b19-08-domed-chapel",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -825,12 +2604,270 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-70ca8bfc82b3b3b171f9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-70ca8bfc82b3b3b171f9",
+        "asset": "data/sprites/automated-intake/png/b18-03-medieval-harbor-generic-70ca8bfc82b3.png",
+        "site_id": "b18-03-medieval-harbor-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-70fb557bdccfd9a602ad",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-70fb557bdccfd9a602ad",
+        "asset": "data/sprites/automated-intake/png/b19-29-palm-tree-70fb557bdccf.png",
+        "site_id": "b19-29-palm-tree",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-73d8ed338a4a5099165a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-73d8ed338a4a5099165a",
+        "asset": "data/sprites/automated-intake/png/olive-grove-and-harvest-73d8ed338a4a.png",
+        "site_id": "generic-olive-grove",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 340,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-74191efe98aad56ed0a3",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-74191efe98aad56ed0a3",
         "asset": "data/sprites/automated-intake/png/b05-concept-01-unassigned-draft-74191efe98aa.png",
         "site_id": "b05-concept-01-unassigned-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-757a8049c4c9141216a1",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-757a8049c4c9141216a1",
+        "asset": "data/sprites/automated-intake/png/94-dia-concept-757a8049c4c9.png",
+        "site_id": "94-dia-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-759df99099a65f2b4b53",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-759df99099a65f2b4b53",
+        "asset": "data/sprites/automated-intake/png/b19-26-olive-tree-759df99099a6.png",
+        "site_id": "b19-26-olive-tree",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-767c571fb42550ed43b7",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-767c571fb42550ed43b7",
+        "asset": "data/sprites/automated-intake/png/b18-08-stone-village-chapel-767c571fb425.png",
+        "site_id": "b18-08-stone-village-chapel",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-77b41bca5e79c2e3c1aa",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-77b41bca5e79c2e3c1aa",
+        "asset": "data/sprites/automated-intake/png/qal-at-najm-77b41bca5e79.png",
+        "site_id": "qal-at-najm",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-7a3f40bb4125fb524919",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7a3f40bb4125fb524919",
+        "asset": "data/sprites/automated-intake/png/95-antimilos-concept-7a3f40bb4125.png",
+        "site_id": "95-antimilos-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-7ad37a912ce3db570e68",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7ad37a912ce3db570e68",
+        "asset": "data/sprites/automated-intake/png/b19-27-umbrella-pine-7ad37a912ce3.png",
+        "site_id": "b19-27-umbrella-pine",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-7cab9160c1dd031a4c93",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7cab9160c1dd031a4c93",
+        "asset": "data/sprites/automated-intake/png/citrus-orchard-7cab9160c1dd.png",
+        "site_id": "generic-citrus-orchard",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 340,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-7d28e59627c73066a605",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7d28e59627c73066a605",
+        "asset": "data/sprites/automated-intake/png/90-sapientza-concept-7d28e59627c7.png",
+        "site_id": "90-sapientza-concept",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -867,6 +2904,52 @@
         "review_flags": [
           "category_unverified",
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-7d9dcbc9ddbf509452b0",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7d9dcbc9ddbf509452b0",
+        "asset": "data/sprites/automated-intake/png/charcoal-burning-and-metalworking-yard-7d9dcbc9ddbf.png",
+        "site_id": "generic-charcoal-smithing-yard",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 360,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-7f450edc630335cd37d5",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7f450edc630335cd37d5",
+        "asset": "data/sprites/automated-intake/png/b21-01-rocky-cove-to-beach-7f450edc6303.png",
+        "site_id": "b21-01-rocky-cove-to-beach",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -916,6 +2999,225 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-80bcb2f92b79ad1e8c7a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-80bcb2f92b79ad1e8c7a",
+        "asset": "data/sprites/automated-intake/png/b18-15-sandy-cove-80bcb2f92b79.png",
+        "site_id": "b18-15-sandy-cove",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8182f5c13805fab02f54",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-8182f5c13805fab02f54",
+        "asset": "data/sprites/automated-intake/png/b18-28-rocky-hills-8182f5c13805.png",
+        "site_id": "b18-28-rocky-hills",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-81ac720094c3e6df81b0",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-81ac720094c3e6df81b0",
+        "asset": "data/sprites/automated-intake/png/softa-kalesi-81ac720094c3.png",
+        "site_id": "softa-kalesi",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-81ac8e7ba0e6cd64d9c8",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-81ac8e7ba0e6cd64d9c8",
+        "asset": "data/sprites/automated-intake/png/b19-10-harbor-crane-quay-81ac8e7ba0e6.png",
+        "site_id": "b19-10-harbor-crane-quay",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-82fb3e4d844937997438",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-82fb3e4d844937997438",
+        "asset": "data/sprites/automated-intake/png/source-sheet-original-rgb-82fb3e4d8449.png",
+        "site_id": "source-sheet-original-rgb",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-848bdf03409f13b4e474",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-848bdf03409f13b4e474",
+        "asset": "data/sprites/automated-intake/png/b18-24-cypress-stand-848bdf03409f.png",
+        "site_id": "b18-24-cypress-stand",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-85c492df82d45789aa74",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-85c492df82d45789aa74",
+        "asset": "data/sprites/automated-intake/png/batch10-source-sheet-85c492df82d4.png",
+        "site_id": "batch10-source-sheet",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-85c6f4aa303ef35b8db1",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-85c6f4aa303ef35b8db1",
+        "asset": "data/sprites/automated-intake/png/b21-16-alpine-crags-85c6f4aa303e.png",
+        "site_id": "b21-16-alpine-crags",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-861df6967d1f839fc2de",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-861df6967d1f839fc2de",
+        "asset": "data/sprites/automated-intake/png/b19-25-low-shrub-861df6967d1f.png",
+        "site_id": "b19-25-low-shrub",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-8906198a8b883086d7b9",
       "geometry": null,
       "properties": {
@@ -933,6 +3235,30 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8a6cd66b55ece220c8d1",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-8a6cd66b55ece220c8d1",
+        "asset": "data/sprites/automated-intake/png/b19-03-western-church-8a6cd66b55ec.png",
+        "site_id": "b19-03-western-church",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -1006,6 +3332,54 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-8fa2802c637ed029e4ca",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-8fa2802c637ed029e4ca",
+        "asset": "data/sprites/automated-intake/png/b19-02-domical-church-compound-8fa2802c637e.png",
+        "site_id": "b19-02-domical-church-compound",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-915b1620bfbbcf6b6e6e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-915b1620bfbbcf6b6e6e",
+        "asset": "data/sprites/automated-intake/png/b18-11-market-tents-915b1620bfbb.png",
+        "site_id": "b18-11-market-tents",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-9222ed7f72b98002f2c9",
       "geometry": null,
       "properties": {
@@ -1013,6 +3387,28 @@
         "asset": "data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png",
         "site_id": "feke",
         "approval": "placement_review_required",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9263c882bffdc619ca0b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-9263c882bffdc619ca0b",
+        "asset": "data/sprites/automated-intake/png/pottery-and-brick-kilns-9263c882bffd.png",
+        "site_id": "pottery-and-brick-kilns",
+        "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
         "historical_accuracy_certified": false,
@@ -1050,6 +3446,80 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-94996b7287c9fa6c4d45",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-94996b7287c9fa6c4d45",
+        "asset": "data/sprites/automated-intake/png/b19-15-riverside-watermill-94996b7287c9.png",
+        "site_id": "b19-15-riverside-watermill",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9595a7a06e05d07ca171",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-9595a7a06e05d07ca171",
+        "asset": "data/sprites/automated-intake/png/97-chrysi-concept-9595a7a06e05.png",
+        "site_id": "97-chrysi-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-95ac348ff091d65c349f",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-95ac348ff091d65c349f",
+        "asset": "data/sprites/automated-intake/png/a-detailed-watercolor-ink-style-sprite-sheet-on-tr-95ac348ff091.png",
+        "site_id": "a-detailed-watercolor-ink-style-sprite-sheet-on-tr",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-96722e3b338548cb8bf6",
       "geometry": null,
       "properties": {
@@ -1074,12 +3544,130 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-98c58ae9967dfb006b13",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-98c58ae9967dfb006b13",
+        "asset": "data/sprites/automated-intake/png/b21-23-broad-delta-reeds-98c58ae9967d.png",
+        "site_id": "b21-23-broad-delta-reeds",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9ad914c36ae9f2a24226",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-9ad914c36ae9f2a24226",
+        "asset": "data/sprites/automated-intake/png/limestone-quarry-9ad914c36ae9.png",
+        "site_id": "generic-limestone-quarry",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 360,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9c2063c79c8776564d95",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-9c2063c79c8776564d95",
+        "asset": "data/sprites/automated-intake/png/b18-27-scrub-patch-9c2063c79c87.png",
+        "site_id": "b18-27-scrub-patch",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-9d7fbc4c2d886297ce33",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-9d7fbc4c2d886297ce33",
         "asset": "data/sprites/automated-intake/png/72-arki-marathi-cluster-draft-9d7fbc4c2d88.png",
         "site_id": "72-arki-marathi-cluster-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9eb54e5e6e151a38dbee",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-9eb54e5e6e151a38dbee",
+        "asset": "data/sprites/automated-intake/png/b21-09-vineyard-wheat-connector-9eb54e5e6e15.png",
+        "site_id": "b21-09-vineyard-wheat-connector",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9f3183dbbc7c3aa4784d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-9f3183dbbc7c3aa4784d",
+        "asset": "data/sprites/automated-intake/png/b18-06-multiarch-stone-aqueduct-9f3183dbbc7c.png",
+        "site_id": "b18-06-multiarch-stone-aqueduct",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -1165,6 +3753,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-a6bf1b8ee6b151df0dd7",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-a6bf1b8ee6b151df0dd7",
+        "asset": "data/sprites/automated-intake/png/b19-24-cave-rocks-a6bf1b8ee6b1.png",
+        "site_id": "b19-24-cave-rocks",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-a7440d538d459efb815e",
       "geometry": null,
       "properties": {
@@ -1227,6 +3839,30 @@
         "review_flags": [
           "category_unverified",
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-ad2102d197655be92be7",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-ad2102d197655be92be7",
+        "asset": "data/sprites/automated-intake/png/89-dokos-concept-ad2102d19765.png",
+        "site_id": "89-dokos-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -1345,6 +3981,147 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-b395a12e5f7bdfcb54dc",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-b395a12e5f7bdfcb54dc",
+        "asset": "data/sprites/automated-intake/png/hillside-stone-hamlet-b395a12e5f7b.png",
+        "site_id": "generic-hillside-hamlet",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 340,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-b838de0df29d05661e72",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-b838de0df29d05661e72",
+        "asset": "data/sprites/automated-intake/png/b21-10-fields-with-chapel-b838de0df29d.png",
+        "site_id": "b21-10-fields-with-chapel",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-b84b8c8e16dcbfaf5aa9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-b84b8c8e16dcbfaf5aa9",
+        "asset": "data/sprites/automated-intake/png/b18-02-offshore-rock-citadel-generic-b84b8c8e16dc.png",
+        "site_id": "b18-02-offshore-rock-citadel-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-b84f4fa44ca98a1e7282",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-b84f4fa44ca98a1e7282",
+        "asset": "data/sprites/automated-intake/png/b18-13-windmill-b84f4fa44ca9.png",
+        "site_id": "b18-13-windmill",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-bb49f3825587259c397d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-bb49f3825587259c397d",
+        "asset": "data/sprites/automated-intake/png/sis-kozan-bb49f3825587.png",
+        "site_id": "sis-kozan",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.96
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-bb842cb79c4130ada98b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-bb842cb79c4130ada98b",
+        "asset": "data/sprites/automated-intake/png/b19-05-domed-shrine-minaret-bb842cb79c41.png",
+        "site_id": "b19-05-domed-shrine-minaret",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-bbbf8b229ab562e70a3e",
       "geometry": null,
       "properties": {
@@ -1369,12 +4146,108 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-bbfd9ae68b9cd2dd51a5",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-bbfd9ae68b9cd2dd51a5",
+        "asset": "data/sprites/automated-intake/png/b18-18-streambank-bbfd9ae68b9c.png",
+        "site_id": "b18-18-streambank",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-be81cbfd69dcec8e3b4e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-be81cbfd69dcec8e3b4e",
+        "asset": "data/sprites/automated-intake/png/b21-19-cypress-stand-be81cbfd69dc.png",
+        "site_id": "b21-19-cypress-stand",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-bedc59165cf4b72a8db9",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-bedc59165cf4b72a8db9",
         "asset": "data/sprites/automated-intake/png/b16-04-hilltop-monastery-generic-bedc59165cf4.png",
         "site_id": "b16-04-hilltop-monastery-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-bfed0ed5b90d49eaa6bd",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-bfed0ed5b90d49eaa6bd",
+        "asset": "data/sprites/automated-intake/png/b18-22-fruit-tree-bfed0ed5b90d.png",
+        "site_id": "b18-22-fruit-tree",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-bff3ce6dd6397df402ad",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-bff3ce6dd6397df402ad",
+        "asset": "data/sprites/automated-intake/png/b19-20-herd-with-figure-bff3ce6dd639.png",
+        "site_id": "b19-20-herd-with-figure",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -1483,12 +4356,131 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-c4d44b5c2e6ce539b909",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-c4d44b5c2e6ce539b909",
+        "asset": "data/sprites/automated-intake/png/stone-sheepfold-c4d44b5c2e6c.png",
+        "site_id": "generic-stone-sheepfold",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 340,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-c6aec74d703b30d3ff94",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-c6aec74d703b30d3ff94",
+        "asset": "data/sprites/automated-intake/png/b18-09-river-watermill-c6aec74d703b.png",
+        "site_id": "b18-09-river-watermill",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-ca98b66a708c799259ad",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-ca98b66a708c799259ad",
         "asset": "data/sprites/automated-intake/png/74-fournoi-cluster-draft-ca98b66a708c.png",
         "site_id": "74-fournoi-cluster-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-ce96f156a136480bf246",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-ce96f156a136480bf246",
+        "asset": "data/sprites/automated-intake/png/b21-07-wide-river-woodland-ce96f156a136.png",
+        "site_id": "b21-07-wide-river-woodland",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-cf6b7e0821b9a588e296",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-cf6b7e0821b9a588e296",
+        "asset": "data/sprites/automated-intake/png/source-sheet-original-cf6b7e0821b9.png",
+        "site_id": "source-sheet-original",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-cfda8dc299c3236ae4b8",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-cfda8dc299c3236ae4b8",
+        "asset": "data/sprites/automated-intake/png/b21-20-open-olive-woodland-cfda8dc299c3.png",
+        "site_id": "b21-20-open-olive-woodland",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -1525,6 +4517,126 @@
         "review_flags": [
           "category_unverified",
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-d0b77d2b1cfe2ba3e4c0",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-d0b77d2b1cfe2ba3e4c0",
+        "asset": "data/sprites/automated-intake/png/86-polyaigos-concept-d0b77d2b1cfe.png",
+        "site_id": "86-polyaigos-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-d40ef1fd60dec058003c",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-d40ef1fd60dec058003c",
+        "asset": "data/sprites/automated-intake/png/b19-06-hillside-monastery-d40ef1fd60de.png",
+        "site_id": "b19-06-hillside-monastery",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-d5f6b604fa52c3641766",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-d5f6b604fa52c3641766",
+        "asset": "data/sprites/automated-intake/png/b18-25-umbrella-pines-d5f6b604fa52.png",
+        "site_id": "b18-25-umbrella-pines",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-d68549eea353b2f6083d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-d68549eea353b2f6083d",
+        "asset": "data/sprites/automated-intake/png/92-thirasia-concept-d68549eea353.png",
+        "site_id": "92-thirasia-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-d835031f1395e6836daa",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-d835031f1395e6836daa",
+        "asset": "data/sprites/automated-intake/png/b19-18-camel-caravan-d835031f1395.png",
+        "site_id": "b19-18-camel-caravan",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -1604,6 +4716,52 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-dce6c57f7fdd007da56d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-dce6c57f7fdd007da56d",
+        "asset": "data/sprites/automated-intake/png/b19-12-oared-ship-cross-sail-dce6c57f7fdd.png",
+        "site_id": "b19-12-oared-ship-cross-sail",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-dd95379c2fd894980b30",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-dd95379c2fd894980b30",
+        "asset": "data/sprites/automated-intake/png/cattle-enclosure-and-shelter-dd95379c2fd8.png",
+        "site_id": "generic-cattle-enclosure",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 340,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-dddca42c6790b34b00fd",
       "geometry": null,
       "properties": {
@@ -1622,6 +4780,78 @@
         "review_flags": [
           "category_unverified",
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-de8c290477b7a9bea2b9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-de8c290477b7a9bea2b9",
+        "asset": "data/sprites/automated-intake/png/b19-13-lateen-ship-a-de8c290477b7.png",
+        "site_id": "b19-13-lateen-ship-a",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e0bd526c0a92797d5afb",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-e0bd526c0a92797d5afb",
+        "asset": "data/sprites/automated-intake/png/b19-23-mountain-rocks-e0bd526c0a92.png",
+        "site_id": "b19-23-mountain-rocks",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e0be838bd7963f1da791",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-e0be838bd7963f1da791",
+        "asset": "data/sprites/automated-intake/png/100-kyra-panagia-concept-e0be838bd796.png",
+        "site_id": "100-kyra-panagia-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -1673,6 +4903,28 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-e65eb962b07dcbc4c974",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-e65eb962b07dcbc4c974",
+        "asset": "data/sprites/automated-intake/png/salt-evaporation-pans-e65eb962b07d.png",
+        "site_id": "salt-evaporation-pans",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-e74b6a869462c5f4de1f",
       "geometry": null,
       "properties": {
@@ -1690,6 +4942,100 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e7b0bd9b10ab2f1694d8",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-e7b0bd9b10ab2f1694d8",
+        "asset": "data/sprites/automated-intake/png/b19-01-domed-walled-precinct-e7b0bd9b10ab.png",
+        "site_id": "b19-01-domed-walled-precinct",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e90f337fb223eb90fc27",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-e90f337fb223eb90fc27",
+        "asset": "data/sprites/automated-intake/png/b21-05-river-bend-rocky-bank-e90f337fb223.png",
+        "site_id": "b21-05-river-bend-rocky-bank",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-eb2efb668f4962850d5b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-eb2efb668f4962850d5b",
+        "asset": "data/sprites/automated-intake/png/vineyard-wine-press-eb2efb668f49.png",
+        "site_id": "generic-vineyard-wine-press",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 360,
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-eb442da6284f68885b4d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-eb442da6284f68885b4d",
+        "asset": "data/sprites/automated-intake/png/b21-11-orchard-field-connector-eb442da6284f.png",
+        "site_id": "b21-11-orchard-field-connector",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -1786,6 +5132,32 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-f1f3092613cff0013d0f",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-f1f3092613cff0013d0f",
+        "asset": "data/sprites/automated-intake/png/source-sheet-original-rgb-f1f3092613cf.png",
+        "site_id": "source-sheet-original-rgb",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-f5cc1e773542e205ef1e",
       "geometry": null,
       "properties": {
@@ -1803,6 +5175,30 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f646d5db6f76ae603885",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-f646d5db6f76ae603885",
+        "asset": "data/sprites/automated-intake/png/b18-07-fortified-river-bridge-f646d5db6f76.png",
+        "site_id": "b18-07-fortified-river-bridge",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -1860,6 +5256,30 @@
         "sprite_id": "INTAKE-fd807ab99f04b9a7d53b",
         "asset": "data/sprites/automated-intake/png/73-oinousses-cluster-draft-fd807ab99f04.png",
         "site_id": "73-oinousses-cluster-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-fef992e0674cabf88608",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-fef992e0674cabf88608",
+        "asset": "data/sprites/automated-intake/png/98-agios-efstratios-concept-fef992e0674c.png",
+        "site_id": "98-agios-efstratios-concept",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
