@@ -12,6 +12,7 @@ on:
       - 'placer.py'
       - 'terrainsp.py'
       - 'build_fallback_assets.py'
+      - 'tools/import_recent_terrain_zips.py'
 
 permissions:
   contents: write
@@ -42,6 +43,7 @@ jobs:
           python tools/build_sprite_handoff.py
           python build_sprite_assets.py "$PWD"
           python build_generic_assets.py "$PWD"
+          python tools/import_recent_terrain_zips.py
           python build_fallback_assets.py
           python tools/rebuild_city_coastal_qa.py
       - name: Render actual current map from geographic sources
