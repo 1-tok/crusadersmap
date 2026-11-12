@@ -1,0 +1,26 @@
+name: Assemble rectangular terrain PNGs from verified parts
+on:
+  push:
+    branches:
+      - terrain-assets-access-20261110
+    paths:
+      - '.terrain-staging/rect_underlays_04/**'
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Reassemble and SHA256-verify original PNGs
+        run: python3 tools/reassemble_rect_underlays_04.py
+      - name: Commit exact PNGs and remove temporary parts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/terrain/large_area/rect_underlays_04/
+          git rm -r .terrain-staging/rect_underlays_04/
+          git commit -m "Add four original rectangular terrain underlays (8 PNGs, SHA256 verified)"
+          git push origin HEAD:terrain-assets-access-20261110
