@@ -1,0 +1,2348 @@
+{
+  "schema_version": 1,
+  "created": "2026-11-12",
+  "scope": "Cru​sader Map circa 1180 integration audit",
+  "status": "repository-static-audit-not-an-executed-rebuild",
+  "sources": [
+    "data/sprites/placements-1180.geojson",
+    "data/sprites/placements-review-1180.geojson",
+    "data/sprites/placements-intake-fortress-candidates-2026-11-12.geojson",
+    "data/sprites/automated-intake/manifest.json",
+    "data/manifests/crusader-period/site-history.json"
+  ],
+  "frame": {
+    "dimensions_px": [
+      10800,
+      14400
+    ],
+    "main_projected_bounds_m": {
+      "x": [
+        -486000,
+        170000
+      ],
+      "y": [
+        -345000,
+        530000
+      ]
+    },
+    "insets": {
+      "aegean": [
+        19.6,
+        34.7,
+        30.4,
+        41.75
+      ],
+      "delta": [
+        29.5,
+        27.7,
+        35.2,
+        31.8
+      ]
+    },
+    "frame_test": "WGS84 LCC approximate equivalent and inset bounding boxes; sprite footprint clipping not evaluated"
+  },
+  "counts": {
+    "gazetteer_sites": 147,
+    "sites_in_frame": 147,
+    "standard_1180_placements": 59,
+    "review_manifest_records": 58,
+    "review_renderer_selected": 53,
+    "review_records_with_explicit_1180_year": 10,
+    "review_records_without_1180_year": 43,
+    "fortress_candidates": 8,
+    "automated_intake_assets": 226,
+    "automated_intake_missing_coordinates": 226,
+    "automated_intake_technical_pass": 226,
+    "site_status_distribution": {
+      "standard_placement_record": 50,
+      "unmatched_in_checked_placement_layers": 42,
+      "review_renderer_selection": 49,
+      "candidate_only": 6
+    }
+  },
+  "limitations": [
+    "The standard 1180 SVG and diagnostic JPEG exist in previews but do not include review-only sprites",
+    "The review renderer selects on review approval and default_visible, without requiring depiction_year === 1180; missing dates are not evidence of the wrong date",
+    "The main printing scripts do not call render_sprite_layer.py or embed its SVG; an integrated finished 1180 print was not verified",
+    "Only the current placement layers and current automated intake manifest were enumerated, not bytewise QA of every PNG in the repository",
+    "No new full raster render performed; this report is not evidence of actual visual compositing or print accuracy"
+  ],
+  "rows": [
+    {
+      "id": "CP-001",
+      "name": "Jerusalem",
+      "region": "main",
+      "longitude": 35.23,
+      "latitude": 31.78,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "historical-1180/jerusalem-1180-v2.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-002",
+      "name": "Akko",
+      "region": "main",
+      "longitude": 35.07,
+      "latitude": 32.92,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "historical-1180/acre-1180-v2.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-003",
+      "name": "Tyre",
+      "region": "main",
+      "longitude": 35.2,
+      "latitude": 33.27,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "expansion/tyre-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-004",
+      "name": "Ashkelon",
+      "region": "main",
+      "longitude": 34.55,
+      "latitude": 31.66,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch04/ascalon-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-005",
+      "name": "Jaffa",
+      "region": "main",
+      "longitude": 34.75,
+      "latitude": 32.05,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch02/jaffa-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-006",
+      "name": "Caesarea",
+      "region": "main",
+      "longitude": 34.89,
+      "latitude": 32.5,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "archive-1180/clean/archive-crs-023-caesarea.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-007",
+      "name": "Sidon",
+      "region": "main",
+      "longitude": 35.37,
+      "latitude": 33.56,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "archive-1180/clean/archive-crs-022-sidon.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-008",
+      "name": "Beirut",
+      "region": "main",
+      "longitude": 35.5,
+      "latitude": 33.9,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch04/beirut-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-009",
+      "name": "Château Pèlerin (begun 1218)",
+      "region": "main",
+      "longitude": 34.94,
+      "latitude": 32.69,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-010",
+      "name": "Safed",
+      "region": "main",
+      "longitude": 35.5,
+      "latitude": 32.96,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/safed-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-011",
+      "name": "Kokhav HaYarden",
+      "region": "main",
+      "longitude": 35.52,
+      "latitude": 32.6,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "historical-1180/belvoir-1180-v2.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-012",
+      "name": "Montfort (begun 1226)",
+      "region": "main",
+      "longitude": 35.24,
+      "latitude": 33.04,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-013",
+      "name": "Arnoun",
+      "region": "main",
+      "longitude": 35.53,
+      "latitude": 33.32,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-mount-amel/beaufort-1180-v1.png"
+      ],
+      "review_assets": [
+        "data/sprites/fortress-batch05-drafts/beaufort-1180-draft.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-014",
+      "name": "Kerak",
+      "region": "main",
+      "longitude": 35.7,
+      "latitude": 31.18,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "archive-1180/clean/archive-crs-007-kerak.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-015",
+      "name": "Shobak",
+      "region": "main",
+      "longitude": 35.53,
+      "latitude": 30.53,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-016",
+      "name": "Petra",
+      "region": "main",
+      "longitude": 35.44,
+      "latitude": 30.32,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-017",
+      "name": "Ajloun (begun 1184)",
+      "region": "main",
+      "longitude": 35.73,
+      "latitude": 32.33,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-018",
+      "name": "Gaza",
+      "region": "main",
+      "longitude": 34.46,
+      "latitude": 31.52,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch04/gaza-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-019",
+      "name": "Deir al-Balah",
+      "region": "main",
+      "longitude": 34.42,
+      "latitude": 31.42,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-020",
+      "name": "Tell es-Safi",
+      "region": "main",
+      "longitude": 34.85,
+      "latitude": 31.7,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-021",
+      "name": "Yavne",
+      "region": "main",
+      "longitude": 34.69,
+      "latitude": 31.89,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-022",
+      "name": "Beit Guvrin",
+      "region": "main",
+      "longitude": 34.88,
+      "latitude": 31.61,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-small-settlements-02/beit-guvrin-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-023",
+      "name": "Latrun",
+      "region": "main",
+      "longitude": 35.03,
+      "latitude": 31.84,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-024",
+      "name": "Nabi Samwil",
+      "region": "main",
+      "longitude": 35.18,
+      "latitude": 31.83,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-025",
+      "name": "Bethlehem",
+      "region": "main",
+      "longitude": 35.2,
+      "latitude": 31.7,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-small-settlements/bethlehem-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-026",
+      "name": "Hebron",
+      "region": "main",
+      "longitude": 35.1,
+      "latitude": 31.53,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-small-settlements-02/hebron-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-027",
+      "name": "Nazareth",
+      "region": "main",
+      "longitude": 35.3,
+      "latitude": 32.7,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/nazareth-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-028",
+      "name": "Mount Tabor",
+      "region": "main",
+      "longitude": 35.39,
+      "latitude": 32.69,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-029",
+      "name": "Sebastia",
+      "region": "main",
+      "longitude": 35.19,
+      "latitude": 32.28,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-030",
+      "name": "Nablus",
+      "region": "main",
+      "longitude": 35.26,
+      "latitude": 32.22,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/nablus-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-031",
+      "name": "Tiberias",
+      "region": "main",
+      "longitude": 35.53,
+      "latitude": 32.79,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/tiberias-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-032",
+      "name": "Banias",
+      "region": "main",
+      "longitude": 35.69,
+      "latitude": 33.25,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/banias-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-033",
+      "name": "Tibnin",
+      "region": "main",
+      "longitude": 35.4,
+      "latitude": 33.19,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-mount-amel/toron-1180-v1.png"
+      ],
+      "review_assets": [
+        "data/sprites/fortress-batch05-drafts/toron-1180-draft.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-034",
+      "name": "Iskandaruna",
+      "region": "main",
+      "longitude": 35.15,
+      "latitude": 33.1,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-035",
+      "name": "Jacob's Ford",
+      "region": "main",
+      "longitude": 35.62,
+      "latitude": 33.01,
+      "inside_frame": true,
+      "status": "candidate_only",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [
+        "data/sprites/automated-intake/png/chastellet-jacob-s-ford-6b5a1ae89a82.png"
+      ],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-036",
+      "name": "Mount Carmel",
+      "region": "main",
+      "longitude": 34.98,
+      "latitude": 32.74,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-037",
+      "name": "Sea of Galilee",
+      "region": "main",
+      "longitude": 35.58,
+      "latitude": 32.84,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-038",
+      "name": "Cana",
+      "region": "main",
+      "longitude": 35.34,
+      "latitude": 32.75,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-039",
+      "name": "Jordan baptism place",
+      "region": "main",
+      "longitude": 35.55,
+      "latitude": 31.84,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-040",
+      "name": "Gerasa",
+      "region": "main",
+      "longitude": 35.89,
+      "latitude": 32.28,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-041",
+      "name": "Bosra",
+      "region": "main",
+      "longitude": 36.48,
+      "latitude": 32.52,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/bosra-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-042",
+      "name": "Damascus",
+      "region": "main",
+      "longitude": 36.31,
+      "latitude": 33.51,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/damascus-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-043",
+      "name": "Baalbek",
+      "region": "main",
+      "longitude": 36.2,
+      "latitude": 34.01,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/baalbek-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-044",
+      "name": "Aleppo",
+      "region": "main",
+      "longitude": 37.16,
+      "latitude": 36.2,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/aleppo-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-045",
+      "name": "Hama",
+      "region": "main",
+      "longitude": 36.75,
+      "latitude": 35.13,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/hama-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-046",
+      "name": "Homs",
+      "region": "main",
+      "longitude": 36.72,
+      "latitude": 34.73,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/homs-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-047",
+      "name": "Antakya",
+      "region": "main",
+      "longitude": 36.16,
+      "latitude": 36.2,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-048",
+      "name": "Tripoli",
+      "region": "main",
+      "longitude": 35.84,
+      "latitude": 34.44,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-049",
+      "name": "Qal'at al-Hisn",
+      "region": "main",
+      "longitude": 36.29,
+      "latitude": 34.76,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-050",
+      "name": "Margat",
+      "region": "main",
+      "longitude": 35.95,
+      "latitude": 35.15,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-fortresses-03/margat-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-051",
+      "name": "Tartus",
+      "region": "main",
+      "longitude": 35.89,
+      "latitude": 34.89,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-052",
+      "name": "Arwad (later Templar holding)",
+      "region": "main",
+      "longitude": 35.86,
+      "latitude": 34.86,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-053",
+      "name": "Saône (Sahyun)",
+      "region": "main",
+      "longitude": 36.07,
+      "latitude": 35.59,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-fortresses-03/saone-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-054",
+      "name": "Latakia",
+      "region": "main",
+      "longitude": 35.78,
+      "latitude": 35.52,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/latakia-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-055",
+      "name": "Jableh",
+      "region": "main",
+      "longitude": 35.93,
+      "latitude": 35.36,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/jableh-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-056",
+      "name": "Baniyas",
+      "region": "main",
+      "longitude": 35.95,
+      "latitude": 35.2,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/baniyas-syria-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-057",
+      "name": "Bourzey",
+      "region": "main",
+      "longitude": 36.38,
+      "latitude": 35.52,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/fortress-batch13-review/png/bourzey-1180-provisional-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-058",
+      "name": "Shaizar",
+      "region": "main",
+      "longitude": 36.57,
+      "latitude": 35.27,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/fortress-batch13-review/png/shaizar-1180-provisional-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-059",
+      "name": "Masyaf",
+      "region": "main",
+      "longitude": 36.34,
+      "latitude": 35.06,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/fortress-batch13-review/png/masyaf-1180-provisional-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-060",
+      "name": "Qadmus",
+      "region": "main",
+      "longitude": 35.97,
+      "latitude": 35.08,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/fortress-batch13-review/png/qadmus-1180-provisional-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-061",
+      "name": "Apamea",
+      "region": "main",
+      "longitude": 36.4,
+      "latitude": 35.42,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/apamea-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-062",
+      "name": "Harim",
+      "region": "main",
+      "longitude": 36.52,
+      "latitude": 36.21,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/harim-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-063",
+      "name": "Artah",
+      "region": "main",
+      "longitude": 36.35,
+      "latitude": 36.3,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/artah-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-064",
+      "name": "Bagras",
+      "region": "main",
+      "longitude": 36.2,
+      "latitude": 36.5,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-065",
+      "name": "Darbsak",
+      "region": "main",
+      "longitude": 36.43,
+      "latitude": 36.42,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/automated-intake/png/darbsak-30eaae615a8d.png"
+      ],
+      "candidate_assets": [
+        "data/sprites/automated-intake/png/darbsak-30eaae615a8d.png"
+      ],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-066",
+      "name": "Iskenderun",
+      "region": "main",
+      "longitude": 36.17,
+      "latitude": 36.58,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/iskenderun-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-067",
+      "name": "Batroun",
+      "region": "main",
+      "longitude": 35.65,
+      "latitude": 34.25,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-small-settlements/batroun-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-068",
+      "name": "Byblos",
+      "region": "main",
+      "longitude": 35.65,
+      "latitude": 34.12,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "expansion/byblos-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-069",
+      "name": "Arqa",
+      "region": "main",
+      "longitude": 36,
+      "latitude": 34.52,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-070",
+      "name": "Kozan",
+      "region": "main",
+      "longitude": 35.81,
+      "latitude": 37.45,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/kozan-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-071",
+      "name": "Anavarza",
+      "region": "main",
+      "longitude": 35.9,
+      "latitude": 37.26,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-072",
+      "name": "Tarsus",
+      "region": "main",
+      "longitude": 34.89,
+      "latitude": 36.92,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/tarsus-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-073",
+      "name": "Adana",
+      "region": "main",
+      "longitude": 35.32,
+      "latitude": 37,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/adana-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-074",
+      "name": "Misis",
+      "region": "main",
+      "longitude": 35.63,
+      "latitude": 36.98,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/misis-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-075",
+      "name": "Yumurtalik",
+      "region": "main",
+      "longitude": 35.79,
+      "latitude": 36.77,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/yumurtalik-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-076",
+      "name": "Feke",
+      "region": "main",
+      "longitude": 35.9,
+      "latitude": 37.82,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png"
+      ],
+      "candidate_assets": [
+        "data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png"
+      ],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-077",
+      "name": "Kizkalesi",
+      "region": "main",
+      "longitude": 34.18,
+      "latitude": 36.46,
+      "inside_frame": true,
+      "status": "candidate_only",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [
+        "data/sprites/automated-intake/png/k-zkalesi-afb58e1ddd84.png"
+      ],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-078",
+      "name": "Kahramanmaras",
+      "region": "main",
+      "longitude": 36.93,
+      "latitude": 37.58,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/kahramanmaras-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-079",
+      "name": "Famagusta",
+      "region": "main",
+      "longitude": 33.94,
+      "latitude": 35.12,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/famagusta-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-080",
+      "name": "Nicosia",
+      "region": "main",
+      "longitude": 33.37,
+      "latitude": 35.17,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-cyprus-egypt/nicosia-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-081",
+      "name": "St Hilarion",
+      "region": "main",
+      "longitude": 33.28,
+      "latitude": 35.3,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-cyprus-egypt/st-hilarion-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-082",
+      "name": "Kyrenia",
+      "region": "main",
+      "longitude": 33.32,
+      "latitude": 35.34,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-cyprus-egypt/kyrenia-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-083",
+      "name": "Buffavento",
+      "region": "main",
+      "longitude": 33.35,
+      "latitude": 35.3,
+      "inside_frame": true,
+      "status": "candidate_only",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [
+        "data/sprites/automated-intake/png/buffavento-eb686a366b52.png"
+      ],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-084",
+      "name": "Kantara",
+      "region": "main",
+      "longitude": 34,
+      "latitude": 35.4,
+      "inside_frame": true,
+      "status": "candidate_only",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [
+        "data/sprites/automated-intake/png/kantara-21cdd6fda271.png"
+      ],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-085",
+      "name": "Limassol",
+      "region": "main",
+      "longitude": 33.04,
+      "latitude": 34.67,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-small-settlements-02/limassol-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-086",
+      "name": "Kolossi",
+      "region": "main",
+      "longitude": 32.93,
+      "latitude": 34.67,
+      "inside_frame": true,
+      "status": "candidate_only",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [
+        "data/sprites/automated-intake/png/kolossi-2cad1dc9839e.png"
+      ],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-087",
+      "name": "Paphos",
+      "region": "main",
+      "longitude": 32.42,
+      "latitude": 34.77,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/paphos-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-088",
+      "name": "Larnaca",
+      "region": "main",
+      "longitude": 33.63,
+      "latitude": 34.92,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-small-settlements/larnaca-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-089",
+      "name": "Kykkos",
+      "region": "main",
+      "longitude": 32.74,
+      "latitude": 34.99,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-090",
+      "name": "Bellapais",
+      "region": "main",
+      "longitude": 33.35,
+      "latitude": 35.31,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-091",
+      "name": "Istanbul",
+      "region": "aegean",
+      "longitude": 28.97,
+      "latitude": 41.01,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-092",
+      "name": "Beyoglu",
+      "region": "aegean",
+      "longitude": 28.97,
+      "latitude": 41.03,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-093",
+      "name": "Thessaloniki",
+      "region": "aegean",
+      "longitude": 22.94,
+      "latitude": 40.64,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180/thessaloniki-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-094",
+      "name": "Gelibolu",
+      "region": "aegean",
+      "longitude": 26.67,
+      "latitude": 40.41,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-095",
+      "name": "Edirne",
+      "region": "aegean",
+      "longitude": 26.56,
+      "latitude": 41.68,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/edirne-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-096",
+      "name": "Iznik",
+      "region": "aegean",
+      "longitude": 29.72,
+      "latitude": 40.43,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/iznik-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-097",
+      "name": "Chalkida",
+      "region": "aegean",
+      "longitude": 23.6,
+      "latitude": 38.46,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180/chalkida-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-098",
+      "name": "Athens",
+      "region": "aegean",
+      "longitude": 23.73,
+      "latitude": 37.97,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180/athens-1180-v3.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-099",
+      "name": "Thebes",
+      "region": "aegean",
+      "longitude": 23.32,
+      "latitude": 38.32,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch02/thebes-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-100",
+      "name": "Corinth",
+      "region": "aegean",
+      "longitude": 22.88,
+      "latitude": 37.91,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180/corinth-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-101",
+      "name": "Andravida",
+      "region": "aegean",
+      "longitude": 21.28,
+      "latitude": 37.9,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch03/andravida-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-102",
+      "name": "Chlemoutsi",
+      "region": "aegean",
+      "longitude": 21.1,
+      "latitude": 37.86,
+      "inside_frame": true,
+      "status": "candidate_only",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [
+        "data/sprites/automated-intake/png/chlemoutsi-clermont-a7440d538d45.png"
+      ],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-103",
+      "name": "Patras",
+      "region": "aegean",
+      "longitude": 21.73,
+      "latitude": 38.25,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch02/patras-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-104",
+      "name": "Methoni",
+      "region": "aegean",
+      "longitude": 21.71,
+      "latitude": 36.81,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch03/methoni-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-105",
+      "name": "Koroni",
+      "region": "aegean",
+      "longitude": 21.96,
+      "latitude": 36.8,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch03/koroni-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-106",
+      "name": "Navarino",
+      "region": "aegean",
+      "longitude": 21.66,
+      "latitude": 36.96,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/navarino-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-107",
+      "name": "Monemvasia",
+      "region": "aegean",
+      "longitude": 23.04,
+      "latitude": 36.69,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch04/monemvasia-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-108",
+      "name": "Mystras",
+      "region": "aegean",
+      "longitude": 22.37,
+      "latitude": 37.07,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-109",
+      "name": "Nafpaktos",
+      "region": "aegean",
+      "longitude": 21.83,
+      "latitude": 38.39,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch04/nafpaktos-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-110",
+      "name": "Corfu",
+      "region": "aegean",
+      "longitude": 19.92,
+      "latitude": 39.62,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch04/corfu-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-111",
+      "name": "Zakynthos",
+      "region": "aegean",
+      "longitude": 20.9,
+      "latitude": 37.78,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/zakynthos-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-112",
+      "name": "Kythira",
+      "region": "aegean",
+      "longitude": 23,
+      "latitude": 36.15,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/kythira-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-113",
+      "name": "Heraklion",
+      "region": "aegean",
+      "longitude": 25.13,
+      "latitude": 35.34,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180/heraklion-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-114",
+      "name": "Chania",
+      "region": "aegean",
+      "longitude": 24.02,
+      "latitude": 35.51,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch03/chania-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-115",
+      "name": "Rethymno",
+      "region": "aegean",
+      "longitude": 24.48,
+      "latitude": 35.37,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch03/rethymno-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-116",
+      "name": "Rhodes",
+      "region": "aegean",
+      "longitude": 28.22,
+      "latitude": 36.44,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180/rhodes-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-117",
+      "name": "Kos",
+      "region": "aegean",
+      "longitude": 27.29,
+      "latitude": 36.89,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/kos-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-118",
+      "name": "Bodrum (later castle; outside period)",
+      "region": "aegean",
+      "longitude": 27.43,
+      "latitude": 37.03,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-119",
+      "name": "Izmir",
+      "region": "aegean",
+      "longitude": 27.14,
+      "latitude": 38.42,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-120",
+      "name": "Leros",
+      "region": "aegean",
+      "longitude": 26.85,
+      "latitude": 37.15,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/leros-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-121",
+      "name": "Naxos",
+      "region": "aegean",
+      "longitude": 25.38,
+      "latitude": 37.1,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/naxos-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-122",
+      "name": "Tinos",
+      "region": "aegean",
+      "longitude": 25.16,
+      "latitude": 37.54,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/tinos-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-123",
+      "name": "Santorini",
+      "region": "aegean",
+      "longitude": 25.43,
+      "latitude": 36.4,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/santorini-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-124",
+      "name": "Chios",
+      "region": "aegean",
+      "longitude": 26.14,
+      "latitude": 38.37,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch04/chios-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-125",
+      "name": "Mytilene",
+      "region": "aegean",
+      "longitude": 26.55,
+      "latitude": 39.1,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/mytilene-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-126",
+      "name": "Foca",
+      "region": "aegean",
+      "longitude": 26.75,
+      "latitude": 38.67,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/foca-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-127",
+      "name": "Lemnos",
+      "region": "aegean",
+      "longitude": 25.07,
+      "latitude": 39.88,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/lemnos-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-128",
+      "name": "Selcuk",
+      "region": "aegean",
+      "longitude": 27.37,
+      "latitude": 37.94,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/selcuk-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-129",
+      "name": "Alasehir",
+      "region": "aegean",
+      "longitude": 28.52,
+      "latitude": 38.35,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/alasehir-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-130",
+      "name": "Mount Athos",
+      "region": "aegean",
+      "longitude": 24.33,
+      "latitude": 40.15,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-131",
+      "name": "Patmos",
+      "region": "aegean",
+      "longitude": 26.55,
+      "latitude": 37.31,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-132",
+      "name": "Cairo",
+      "region": "delta",
+      "longitude": 31.26,
+      "latitude": 30.04,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180/cairo-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-133",
+      "name": "Alexandria",
+      "region": "delta",
+      "longitude": 29.92,
+      "latitude": 31.2,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": false
+    },
+    {
+      "id": "CP-134",
+      "name": "Damietta",
+      "region": "delta",
+      "longitude": 31.82,
+      "latitude": 31.42,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180/damietta-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-135",
+      "name": "Mansoura",
+      "region": "delta",
+      "longitude": 31.38,
+      "latitude": 31.04,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-136",
+      "name": "Faraskur",
+      "region": "delta",
+      "longitude": 31.72,
+      "latitude": 31.33,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/faraskur-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-137",
+      "name": "Rosetta",
+      "region": "delta",
+      "longitude": 30.42,
+      "latitude": 31.4,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch02/rosetta-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-138",
+      "name": "Tinnis",
+      "region": "delta",
+      "longitude": 32.22,
+      "latitude": 31.17,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-139",
+      "name": "Pelusium",
+      "region": "delta",
+      "longitude": 32.55,
+      "latitude": 31.05,
+      "inside_frame": true,
+      "status": "review_renderer_selection",
+      "standard_assets": [],
+      "review_assets": [
+        "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/pelusium-1180-review-v1.png"
+      ],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-140",
+      "name": "Bilbeis",
+      "region": "delta",
+      "longitude": 31.57,
+      "latitude": 30.42,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch02/bilbeis-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-141",
+      "name": "Wadi El Natrun",
+      "region": "delta",
+      "longitude": 30.33,
+      "latitude": 30.38,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-cyprus-egypt/wadi-al-natrun-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-142",
+      "name": "Giza",
+      "region": "delta",
+      "longitude": 31.13,
+      "latitude": 29.98,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-cyprus-egypt/giza-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-143",
+      "name": "Suez",
+      "region": "delta",
+      "longitude": 32.55,
+      "latitude": 29.97,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-batch03/suez-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-144",
+      "name": "al-Tur",
+      "region": "delta",
+      "longitude": 33.62,
+      "latitude": 28.24,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-145",
+      "name": "Pharaoh's Island",
+      "region": "delta",
+      "longitude": 34.85,
+      "latitude": 29.46,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-146",
+      "name": "Aqaba",
+      "region": "delta",
+      "longitude": 34.95,
+      "latitude": 29.55,
+      "inside_frame": true,
+      "status": "unmatched_in_checked_placement_layers",
+      "standard_assets": [],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    },
+    {
+      "id": "CP-147",
+      "name": "St Catherine's",
+      "region": "delta",
+      "longitude": 33.97,
+      "latitude": 28.56,
+      "inside_frame": true,
+      "status": "standard_placement_record",
+      "standard_assets": [
+        "greece-egypt-1180-cyprus-egypt/st-catherines-1180-v1.png"
+      ],
+      "review_assets": [],
+      "candidate_assets": [],
+      "identity_match": "explicit site ID or name+coordinate (<0.018 degree); unmatched may still have a renamed sprite",
+      "historical_review_required": true
+    }
+  ]
+}
