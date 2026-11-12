@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "batch_id": "crusader-landmark-batch15-2026-11-12",
+  "status": "art_direction_approved_pending_png_intake",
+  "year_scope": "1095-1291",
+  "art_direction": {
+    "view": "elevated oblique looking north from south",
+    "style": "medieval ink and muted watercolor atlas, consistent with existing Crusader Map sprites",
+    "background": "transparent RGBA",
+    "layout": "six isolated cutout paintings; no captions; no cast shadows outside alpha; no contact between subjects",
+    "preservation": "source painting and individual cropped transparent PNG with padding; final output technical/historical QA required"
+  },
+  "assets": [
+    {
+      "id": "B15-01",
+      "subject": "Harim castle and tell",
+      "site_id": "CP-062",
+      "period": 1180,
+      "notes": "12th-century Muslim-held frontier citadel on elevated tell, few low curtain walls and rectangular towers, no later architecture; earlier town treatment may exist",
+      "status": "draft_requested"
+    },
+    {
+      "id": "B15-02",
+      "subject": "Apamea / Qal'at al-Mudiq citadel",
+      "site_id": "CP-061",
+      "period": 1180,
+      "notes": "12th-century fortification on ancient mound; rectangular towers; historically interpretive; no intact classical temples invented",
+      "status": "draft_requested"
+    },
+    {
+      "id": "B15-03",
+      "subject": "Nabi Samwil hilltop shrine complex",
+      "site_id": "CP-024",
+      "period": 1180,
+      "notes": "restrained pre-13th-century hilltop religious fortified compound; avoid extant later minaret and modern forms",
+      "status": "draft_requested"
+    },
+    {
+      "id": "B15-04",
+      "subject": "Mount Tabor church and fortified precinct",
+      "site_id": "CP-028",
+      "period": 1180,
+      "notes": "12th-century hilltop basilica precinct; avoid 13th-century later fortifications and modern Transfiguration basilica",
+      "status": "draft_requested"
+    },
+    {
+      "id": "B15-05",
+      "subject": "Kykkos monastery",
+      "site_id": "CP-089",
+      "period": 1180,
+      "notes": "Cyprus early monastery, modest Byzantine structures in wooded mountains; no later extensive roofs and 18th-century architecture",
+      "status": "draft_requested"
+    },
+    {
+      "id": "B15-06",
+      "subject": "Bellapais Abbey early Lusignan phase",
+      "site_id": "CP-090",
+      "period": 1220,
+      "notes": "after c. 1198-1205 foundation; simple 13th-century church and early precinct; exclude 14th-century cloisters and refectory, not on 1180 map",
+      "status": "draft_requested"
+    }
+  ],
+  "approval": {
+    "review_map": false,
+    "production": false,
+    "coordinates_assigned": false
+  },
+  "references": [
+    "https://doi.org/10.1080/09503110.2016.1198533",
+    "https://doi.org/10.1017/CBO9780511523175.010",
+    "https://www.culture.gov.cy/dmculture/DA/DA.nsf/All/346C43BDB3F8F043C2257276003A8DB8?OpenDocument="
+  ]
+}
