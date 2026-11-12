@@ -1,0 +1,31 @@
+{
+  "scope": "Multi-period Crusader atlas 1095\u20131571 (not a strict 1180 reconstruction)",
+  "status": "renderer usage evidence; no separate human visual/period certification",
+  "named_art_selected_in_repo": 146,
+  "named_art_drawn": 145,
+  "named_sites_shown": 148,
+  "hidden_items": 1,
+  "hidden_names": [
+    "Konstantinoupolis"
+  ],
+  "generic_pool_records": 319,
+  "generic_distinct_used": 178,
+  "generic_total_instances": 2374,
+  "recent_zip_generic_eligible": 19,
+  "recent_zip_generic_distinct_used": 19,
+  "recent_zip_generic_total_instances": 196,
+  "recent_zip_generic_used_by_category": {
+    "patchd": 3,
+    "patcha": 2,
+    "patchg": 14
+  },
+  "terrain_distinct_used": 70,
+  "terrain_total_instances": 6320,
+  "island_overlays_used": 46,
+  "ship_instances": 8,
+  "notes": [
+    "Unused source sheets and older variants should not be forced onto map",
+    "No geographic accuracy guarantee for generic land sprites",
+    "Coastal orientation holds remain in coastal-city-orientation-audit.json"
+  ]
+}
