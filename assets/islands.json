@@ -1,0 +1,472 @@
+[
+ {
+  "id": "CR-GRI-CRETE",
+  "name": "Crete",
+  "file": "01_crete.png",
+  "src": "data/sprites/greek-islands/01_crete.png",
+  "w": 23.4491134,
+  "s": 34.8549743,
+  "e": 26.3824677,
+  "n": 35.7608018
+ },
+ {
+  "id": "CR-GRI-RHODES",
+  "name": "Rhodes",
+  "file": "02_rhodes.png",
+  "src": "data/sprites/greek-islands/02_rhodes.png",
+  "w": 27.6640129,
+  "s": 35.8556557,
+  "e": 28.270092,
+  "n": 36.481823
+ },
+ {
+  "id": "CR-GRI-LESBOS",
+  "name": "Lesbos",
+  "file": "03_lesbos.png",
+  "src": "data/sprites/greek-islands/03_lesbos.png",
+  "w": 25.8013598,
+  "s": 38.9322192,
+  "e": 26.6460813,
+  "n": 39.4185803
+ },
+ {
+  "id": "CR-GRI-CHIOS",
+  "name": "Chios",
+  "file": "04_chios.png",
+  "src": "data/sprites/greek-islands/04_chios.png",
+  "w": 25.8172836,
+  "s": 38.1343383,
+  "e": 26.1760789,
+  "n": 38.617714
+ },
+ {
+  "id": "CR-GRI-SAMOS",
+  "name": "Samos",
+  "file": "05_samos.png",
+  "src": "data/sprites/greek-islands/05_samos.png",
+  "w": 26.5471597,
+  "s": 37.617991,
+  "e": 27.0878195,
+  "n": 37.8311514
+ },
+ {
+  "id": "CR-GRI-KOS",
+  "name": "Kos",
+  "file": "06_kos.png",
+  "src": "data/sprites/greek-islands/06_kos.png",
+  "w": 26.8993388,
+  "s": 36.6530848,
+  "e": 27.3764639,
+  "n": 36.9364919
+ },
+ {
+  "id": "CR-GRI-EUBOEA",
+  "name": "Euboea",
+  "file": "07_euboea.png",
+  "src": "data/sprites/greek-islands/07_euboea.png",
+  "w": 22.7775824,
+  "s": 37.8988592,
+  "e": 24.6453302,
+  "n": 39.0903299
+ },
+ {
+  "id": "CR-GRI-CORFU",
+  "name": "Corfu",
+  "file": "08_corfu.png",
+  "src": "data/sprites/greek-islands/08_corfu.png",
+  "w": 19.6090511,
+  "s": 39.3431896,
+  "e": 20.1408039,
+  "n": 39.8408619
+ },
+ {
+  "id": "CR-GRI-KEFALONIA",
+  "name": "Kefalonia",
+  "file": "09_kefalonia.png",
+  "src": "data/sprites/greek-islands/09_kefalonia.png",
+  "w": 20.3179789,
+  "s": 38.0379267,
+  "e": 20.8353491,
+  "n": 38.4944982
+ },
+ {
+  "id": "CR-GRI-NAXOS",
+  "name": "Naxos",
+  "file": "10_naxos.png",
+  "src": "data/sprites/greek-islands/10_naxos.png",
+  "w": 25.3221502,
+  "s": 36.9054784,
+  "e": 25.6194392,
+  "n": 37.2153254
+ },
+ {
+  "id": "CR-GRI-PAROS",
+  "name": "Paros",
+  "file": "11_paros.png",
+  "src": "data/sprites/greek-islands/11_paros.png",
+  "w": 25.08958,
+  "s": 36.9654497,
+  "e": 25.3028913,
+  "n": 37.163693
+ },
+ {
+  "id": "CR-GRI-LEMNOS",
+  "name": "Lemnos",
+  "file": "12_lemnos.png",
+  "src": "data/sprites/greek-islands/12_lemnos.png",
+  "w": 25.0192536,
+  "s": 39.765477,
+  "e": 25.4657165,
+  "n": 40.0561325
+ },
+ {
+  "id": "CR-GRI2-ANDROS",
+  "name": "Andros",
+  "file": "13_andros.png",
+  "src": "data/sprites/greek-islands/batch-02/13_andros.png",
+  "w": 24.66642609,
+  "s": 37.67188128,
+  "e": 25.01399383,
+  "n": 38.00978987
+ },
+ {
+  "id": "CR-GRI2-TINOS",
+  "name": "Tinos",
+  "file": "14_tinos.png",
+  "src": "data/sprites/greek-islands/batch-02/14_tinos.png",
+  "w": 24.96125678,
+  "s": 37.51668505,
+  "e": 25.26623651,
+  "n": 37.68747755
+ },
+ {
+  "id": "CR-GRI2-MYKONOS",
+  "name": "Mykonos",
+  "file": "15_mykonos.png",
+  "src": "data/sprites/greek-islands/batch-02/15_mykonos.png",
+  "w": 25.29237989,
+  "s": 37.39636239,
+  "e": 25.46928545,
+  "n": 37.50694267
+ },
+ {
+  "id": "CR-GRI2-SYROS",
+  "name": "Syros",
+  "file": "16_syros.png",
+  "src": "data/sprites/greek-islands/batch-02/16_syros.png",
+  "w": 24.84624422,
+  "s": 37.3562901,
+  "e": 24.98208678,
+  "n": 37.51823688
+ },
+ {
+  "id": "CR-GRI2-KEA",
+  "name": "Kea",
+  "file": "17_kea.png",
+  "src": "data/sprites/greek-islands/batch-02/17_kea.png",
+  "w": 24.25360739,
+  "s": 37.51472813,
+  "e": 24.41881693,
+  "n": 37.69526333
+ },
+ {
+  "id": "CR-GRI2-KYTHNOS",
+  "name": "Kythnos",
+  "file": "18_kythnos.png",
+  "src": "data/sprites/greek-islands/batch-02/18_kythnos.png",
+  "w": 24.35094658,
+  "s": 37.29061964,
+  "e": 24.49646553,
+  "n": 37.49108049
+ },
+ {
+  "id": "CR-GRI2-SERIFOS",
+  "name": "Serifos",
+  "file": "19_serifos.png",
+  "src": "data/sprites/greek-islands/batch-02/19_serifos.png",
+  "w": 24.40644649,
+  "s": 37.10512154,
+  "e": 24.54185673,
+  "n": 37.21482475
+ },
+ {
+  "id": "CR-GRI2-SIFNOS",
+  "name": "Sifnos",
+  "file": "20_sifnos.png",
+  "src": "data/sprites/greek-islands/batch-02/20_sifnos.png",
+  "w": 24.62755096,
+  "s": 36.894942,
+  "e": 24.77489961,
+  "n": 37.04917268
+ },
+ {
+  "id": "CR-GRI2-MILOS",
+  "name": "Milos",
+  "file": "21_milos.png",
+  "src": "data/sprites/greek-islands/batch-02/21_milos.png",
+  "w": 24.30685771,
+  "s": 36.63550531,
+  "e": 24.55727803,
+  "n": 36.78191413
+ },
+ {
+  "id": "CR-GRI2-KIMOLOS",
+  "name": "Kimolos",
+  "file": "22_kimolos.png",
+  "src": "data/sprites/greek-islands/batch-02/22_kimolos.png",
+  "w": 24.51452214,
+  "s": 36.76700138,
+  "e": 24.61044734,
+  "n": 36.84955288
+ },
+ {
+  "id": "CR-GRI2-IOS",
+  "name": "Ios",
+  "file": "23_ios.png",
+  "src": "data/sprites/greek-islands/batch-02/23_ios.png",
+  "w": 25.23786747,
+  "s": 36.63456555,
+  "e": 25.41124142,
+  "n": 36.79873829
+ },
+ {
+  "id": "CR-GRI2-AMORGOS",
+  "name": "Amorgos",
+  "file": "24_amorgos.png",
+  "src": "data/sprites/greek-islands/batch-02/24_amorgos.png",
+  "w": 25.73076586,
+  "s": 36.75490349,
+  "e": 26.10086866,
+  "n": 36.94587929
+ },
+ {
+  "id": "CR-GRI2-THERA",
+  "name": "Thera / Santorini",
+  "file": "25_thera.png",
+  "src": "data/sprites/greek-islands/batch-02/25_thera.png",
+  "w": 25.34542729,
+  "s": 36.3237274,
+  "e": 25.49707149,
+  "n": 36.48793337
+ },
+ {
+  "id": "CR-GRI2-FOLEGANDROS",
+  "name": "Folegandros",
+  "file": "26_folegandros.png",
+  "src": "data/sprites/greek-islands/batch-02/26_folegandros.png",
+  "w": 24.83154567,
+  "s": 36.59264229,
+  "e": 24.96675603,
+  "n": 36.67064049
+ },
+ {
+  "id": "CR-GRI2-ANAFI",
+  "name": "Anafi",
+  "file": "27_anafi.png",
+  "src": "data/sprites/greek-islands/batch-02/27_anafi.png",
+  "w": 25.72209038,
+  "s": 36.33738516,
+  "e": 25.8645185,
+  "n": 36.41005899
+ },
+ {
+  "id": "CR-GRI2-PATMOS",
+  "name": "Patmos",
+  "file": "28_patmos.png",
+  "src": "data/sprites/greek-islands/batch-02/28_patmos.png",
+  "w": 26.52005468,
+  "s": 37.26428505,
+  "e": 26.62238612,
+  "n": 37.38401513
+ },
+ {
+  "id": "CR-GRI2-LEROS",
+  "name": "Leros",
+  "file": "29_leros.png",
+  "src": "data/sprites/greek-islands/batch-02/29_leros.png",
+  "w": 26.75942992,
+  "s": 37.09233433,
+  "e": 26.8988495,
+  "n": 37.2084164
+ },
+ {
+  "id": "CR-GRI2-KALYMNOS",
+  "name": "Kalymnos",
+  "file": "30_kalymnos.png",
+  "src": "data/sprites/greek-islands/batch-02/30_kalymnos.png",
+  "w": 26.8731823,
+  "s": 36.9178376,
+  "e": 27.06342506,
+  "n": 37.0829406
+ },
+ {
+  "id": "CR-GRI2-ASTYPALAIA",
+  "name": "Astypalaia",
+  "file": "31_astypalaia.png",
+  "src": "data/sprites/greek-islands/batch-02/31_astypalaia.png",
+  "w": 26.24998539,
+  "s": 36.49773318,
+  "e": 26.48492367,
+  "n": 36.65390867
+ },
+ {
+  "id": "CR-GRI2-KARPATHOS",
+  "name": "Karpathos",
+  "file": "32_karpathos.png",
+  "src": "data/sprites/greek-islands/batch-02/32_karpathos.png",
+  "w": 27.03499679,
+  "s": 35.38187949,
+  "e": 27.26155778,
+  "n": 35.84636911
+ },
+ {
+  "id": "CR-GRI2-KASOS",
+  "name": "Kasos",
+  "file": "33_kasos.png",
+  "src": "data/sprites/greek-islands/batch-02/33_kasos.png",
+  "w": 26.84053379,
+  "s": 35.33441944,
+  "e": 27.02106899,
+  "n": 35.44305401
+ },
+ {
+  "id": "CR-GRI2-SYMI",
+  "name": "Symi",
+  "file": "34_symi.png",
+  "src": "data/sprites/greek-islands/batch-02/34_symi.png",
+  "w": 27.75881653,
+  "s": 36.53497108,
+  "e": 27.88443298,
+  "n": 36.64744012
+ },
+ {
+  "id": "CR-GRI2-NISYROS",
+  "name": "Nisyros",
+  "file": "35_nisyros.png",
+  "src": "data/sprites/greek-islands/batch-02/35_nisyros.png",
+  "w": 27.11884939,
+  "s": 36.5537873,
+  "e": 27.21865214,
+  "n": 36.62532036
+ },
+ {
+  "id": "CR-GRI2-TILOS",
+  "name": "Tilos",
+  "file": "36_tilos.png",
+  "src": "data/sprites/greek-islands/batch-02/36_tilos.png",
+  "w": 27.28499215,
+  "s": 36.3697024,
+  "e": 27.45914848,
+  "n": 36.4902677
+ },
+ {
+  "id": "CR-GRI2-THASOS",
+  "name": "Thasos",
+  "file": "37_thasos.png",
+  "src": "data/sprites/greek-islands/batch-02/37_thasos.png",
+  "w": 24.50048481,
+  "s": 40.56056853,
+  "e": 24.79778637,
+  "n": 40.81021242
+ },
+ {
+  "id": "CR-GRI2-SAMOTHRACE",
+  "name": "Samothrace",
+  "file": "38_samothrace.png",
+  "src": "data/sprites/greek-islands/batch-02/38_samothrace.png",
+  "w": 25.4323704,
+  "s": 40.38424231,
+  "e": 25.71179463,
+  "n": 40.51491999
+ },
+ {
+  "id": "CR-GRI2-SKIATHOS",
+  "name": "Skiathos",
+  "file": "39_skiathos.png",
+  "src": "data/sprites/greek-islands/batch-02/39_skiathos.png",
+  "w": 23.38057101,
+  "s": 39.12353041,
+  "e": 23.51936948,
+  "n": 39.21396348
+ },
+ {
+  "id": "CR-GRI2-SKOPELOS",
+  "name": "Skopelos",
+  "file": "40_skopelos.png",
+  "src": "data/sprites/greek-islands/batch-02/40_skopelos.png",
+  "w": 23.58009516,
+  "s": 39.06122292,
+  "e": 23.79195989,
+  "n": 39.21627341
+ },
+ {
+  "id": "CR-GRI2-ALONISSOS",
+  "name": "Alonissos",
+  "file": "41_alonissos.png",
+  "src": "data/sprites/greek-islands/batch-02/41_alonissos.png",
+  "w": 23.81784327,
+  "s": 39.12575932,
+  "e": 23.99290197,
+  "n": 39.3008459
+ },
+ {
+  "id": "CR-GRI2-SKYROS",
+  "name": "Skyros",
+  "file": "42_skyros.png",
+  "src": "data/sprites/greek-islands/batch-02/42_skyros.png",
+  "w": 24.42127374,
+  "s": 38.75270185,
+  "e": 24.69361732,
+  "n": 38.98896685
+ },
+ {
+  "id": "CR-GRI2-IKARIA",
+  "name": "Ikaria",
+  "file": "43_ikaria.png",
+  "src": "data/sprites/greek-islands/batch-02/43_ikaria.png",
+  "w": 25.96255598,
+  "s": 37.50082525,
+  "e": 26.38071337,
+  "n": 37.69998041
+ },
+ {
+  "id": "CR-GRI2-ZAKYNTHOS",
+  "name": "Zakynthos",
+  "file": "44_zakynthos.png",
+  "src": "data/sprites/greek-islands/batch-02/44_zakynthos.png",
+  "w": 20.60478072,
+  "s": 37.63752461,
+  "e": 21.00596758,
+  "n": 37.94578075
+ },
+ {
+  "id": "CR-GRI2-LEFKADA",
+  "name": "Lefkada",
+  "file": "45_lefkada.png",
+  "src": "data/sprites/greek-islands/batch-02/45_lefkada.png",
+  "w": 20.52731059,
+  "s": 38.55061627,
+  "e": 20.74671438,
+  "n": 38.86224078
+ },
+ {
+  "id": "CR-GRI2-ITHACA",
+  "name": "Ithaca",
+  "file": "46_ithaca.png",
+  "src": "data/sprites/greek-islands/batch-02/46_ithaca.png",
+  "w": 20.60463391,
+  "s": 38.29244578,
+  "e": 20.77495135,
+  "n": 38.51089132
+ },
+ {
+  "id": "CR-GRI2-KYTHIRA",
+  "name": "Kythira",
+  "file": "47_kythira.png",
+  "src": "data/sprites/greek-islands/batch-02/47_kythira.png",
+  "w": 22.88005371,
+  "s": 36.12060362,
+  "e": 23.1157196,
+  "n": 36.39525026
+ }
+]
