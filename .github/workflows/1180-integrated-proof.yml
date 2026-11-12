@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - tools/render_1180_integrated_proof.py
+      - data/sprites/placements-review-1180.geojson
+      - data/sprites/placements-1180.geojson
       - .github/workflows/1180-integrated-proof.yml
 
 permissions:
