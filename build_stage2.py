@@ -182,6 +182,11 @@ def draw_ink2(edition, surf=None, scale=None, mode=None):
             c.set_fill_rule(cairo.FILL_RULE_EVEN_ODD)
         c.clip()
         TER[k].ink(c, edition)
+        if k == "main":
+            import waterart; waterart.draw(c, REG[k], edition)
+        import islandart; islandart.draw(c, REG[k], edition, k)
+        if k == "main":
+            import shipart; shipart.draw(c, REG[k], edition)
         c.restore()
         if k == "main":
             c.save()
@@ -255,4 +260,8 @@ if __name__ == "__main__":
         img = composite(base, surf)
         Image.fromarray(img).save(f"out/stage2-{ed}.jpg", quality=88)
         print("saved", ed, round(time.time() - t0), "s", flush=True)
+        if ed == "colour":
+            import gapreport, json as _j, terrainsp as _T, islandart as _I, shipart as _S
+            gapreport.run(img, TER, REG, BOX)
+            _j.dump(dict(generic={str(k): v for k, v in _T.GUSED.items()}, islands=_I.USED, ships=_S.USED, terrain=_T.TUSED), open("out/usage.json", "w"), indent=1)
         del surf, base

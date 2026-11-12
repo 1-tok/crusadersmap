@@ -103,6 +103,8 @@ PLACES = [
     ("main", 4, "M:latin_church", 33.35, 35.31, "Lapais", "Bellapais", "Bellapais", "", ()),
     # ---------------------------------------------------------------- Aegean inset
     ("aegean", 1, "P:constantinople", 28.97, 41.01, "Konstantinoupolis", "Kostantiniyye", "Istanbul", "Latin 1204 - 1261, Greek 1261 - 1453", ("byz",)),
+    ("aegean", 4, "P:chalcedon", 29.0258, 40.9834, "Chalkedon", "Kadikoy", "Kadikoy", "Byzantine", ()),
+    ("aegean", 4, "P:chrysopolis", 29.0129, 41.0206, "Chrysopolis", "Uskudar", "Uskudar", "Byzantine", ()),
     ("aegean", 3, "P:galata", 28.97, 41.03, "Pera", "Galata", "Beyoglu", "Genoese 1267 - 1453", ("gen",)),
     ("aegean", 2, "M:walled_town", 22.94, 40.64, "Thessalonike", "Salonique", "Thessaloniki", "Venetian 1423 - 1430", ("ven", "byz")),
     ("aegean", 3, "M:castle_frankish", 26.67, 40.41, "Gallipoli", "Kallipolis", "Gelibolu", "Venetian 1384 - 1416", ("ven",)),
@@ -166,7 +168,7 @@ BATTLES = [
     # main
     ("main", "battle", 35.45, 32.80, "Hattin", "Hittin", "1187"),
     ("main", "battle", 34.82, 31.88, "Montgisard", "Tell Jezer", "1177"),
-    ("main", "battle", 34.82, 32.20, "Arsur", "Arsuf", "1191"),
+    ("main", "battle", 34.82, 32.20, "Arsur", "Arsuf", "1191, 1265"),
     ("main", "battle", 34.87, 31.93, "Rames", "Ramla", "1101, 1102, 1105"),
     ("main", "battle", 34.50, 31.37, "la Forbie", "Harbiyya", "1244"),
     ("main", "battle", 35.35, 32.55, "Ain Jalut", "Ain Harod", "1260"),
@@ -175,7 +177,7 @@ BATTLES = [
     ("main", "battle", 36.45, 36.00, "Harenc", "Harim", "1164"),
     ("main", "battle", 33.34, 34.80, "Chirokitia", "Khirokitia", "1426"),
     ("main", "battle", 33.20, 35.15, "Agridi", "Agridi", "1232"),
-    ("main", "siege", 35.23, 31.78, "Iherusalem", "Jerusalem", "1099, 1187"),
+    ("main", "siege", 35.23, 31.78, "Iherusalem", "Jerusalem", "1099, 1187, 1244"),
     ("main", "siege", 35.07, 32.92, "Acre", "Akko", "1189 - 91, 1291"),
     ("main", "siege", 36.16, 36.20, "Antioche", "Antakya", "1098, 1268"),
     ("main", "siege", 35.84, 34.44, "Triple", "Tripoli", "1289"),
@@ -185,6 +187,11 @@ BATTLES = [
     ("main", "siege", 33.94, 35.12, "Famagouste", "Famagusta", "1571"),
     ("main", "siege", 33.37, 35.17, "Nicosie", "Nicosia", "1570"),
     ("main", "siege", 35.70, 31.18, "Crac de Moab", "Kerak", "1183, 1187"),
+    ("main", "battle", 35.24, 32.80, "Cresson", "Ayn Jalut / Al-Mazra", "1187"),
+    ("main", "battle", 36.62, 35.07, "Cornes de Hama", "Qurun Hamah", "1175"),
+    ("main", "battle", 34.68, 31.60, "Plaine d'Escalone", "Ashkelon", "1099"),
+    ("main", "battle", 36.50, 36.00, "Inab", "Inab", "1149"),
+    ("main", "battle", 35.97, 36.45, "Harran", "Altun-Tash", "1104"),
     ("main", "sea", 34.30, 31.75, "Ascalon", "Ashkelon", "1123"),
     # aegean
     ("aegean", "siege", 28.97, 41.01, "Konstantinoupolis", "Istanbul", "1204, 1453"),
@@ -193,6 +200,9 @@ BATTLES = [
     ("aegean", "battle", 21.40, 41.00, "Pelagonie", "Pelagonia", "1259"),
     ("aegean", "battle", 22.78, 39.18, "Halmyros", "Almyros", "1311"),
     ("aegean", "siege", 23.60, 38.46, "Negroponte", "Chalkida", "1470"),
+    ("aegean", "battle", 29.30, 37.75, "Mont Cadmus", "Honaz Dagi", "1148"),
+    ("aegean", "battle", 30.55, 39.78, "Dorylee", "Eskisehir", "1097"),
+    ("aegean", "siege", 29.72, 40.43, "Nicee", "Iznik", "1097"),
     ("aegean", "sea", 21.00, 38.30, "Lepante", "Lepanto", "1571"),
     # delta
     ("delta", "battle", 31.40, 31.05, "la Massoure", "Mansoura", "1250"),

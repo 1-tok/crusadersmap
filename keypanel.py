@@ -5,6 +5,8 @@ from hand import Pen, INK, SEPIA
 import marks as MK
 import placer as PC
 import ridges as RD
+import sprites as SPR
+import terrainsp as TSP
 
 BLUEINK = (0.20, 0.33, 0.45)
 RED = (0.59, 0.125, 0.11)
@@ -120,7 +122,7 @@ def draw_key(c, edition, X, Y, Wd, Ht):
     x1 = X + 40; x2 = X + 50 + cw
     RH = 134
 
-    def column(x, y, sections):
+    def column(x, y, sections, RH=RH):
         for title, rows in sections:
             _heading(c, title, x, y + 40, cw - 30)
             y += 98
@@ -134,18 +136,30 @@ def draw_key(c, edition, X, Y, Wd, Ht):
         return y
 
     M = lambda nm, w=124: (lambda cx, gy: _mark(c, nm, cx, gy, w * 1.18, edition))
+    BYNAME = {r["name"]: r for r in SPR._META}
+
+    def city(nm, w=150):
+        return lambda cx, gy: SPR.draw(c, BYNAME[nm], cx, gy, w, edition)
+
+    def gen(i, w=150):
+        return lambda cx, gy: TSP.gdraw(c, i, cx, gy + 6, w, edition)
+
+    def tile(nm, w=200, dy=24):
+        return lambda cx, gy: TSP.draw(c, nm, cx, gy + dy, w, edition, alpha=1.0)
+
     col1 = [
-        ("Fortresses", [(M("castle_frankish"), "Frankish castle", ""), (M("castle_muslim"), "Muslim fortress", ""),
-                        (M("castle_byzantine"), "Byzantine castle", ""), (M("castle_armenian"), "Armenian hill castle", ""),
-                        (M("castle_nizari"), "Nizari stronghold", ""), (M("cave_fortress"), "Cave fortress", ""),
-                        (M("sea_castle"), "Sea castle", ""), (M("tower_", 96), "Watch tower", "")]),
-        ("Towns and ports", [(M("walled_town"), "Walled city", ""), (M("town", 110), "Town", ""), (M("village", 100), "Village", ""),
-                             (M("ruin", 100), "Ruin", ""), (M("port", 100), "Harbour", "")]),
-        ("Holy places", [(M("latin_cathedral"), "Latin cathedral", ""), (M("latin_church", 110), "Latin church", ""),
-                         (M("greek_monastery", 110), "Greek monastery", ""), (M("eastern_church", 110), "Armenian or Syriac church", ""),
-                         (M("mosque"), "Mosque", ""), (M("shrine", 110), "Shrine or maqam", ""),
-                         (M("jewish_holy", 110), "Jewish holy place", ""), (M("point_of_interest", 110), "Place of Gospel memory", ""),
-                         (M("holy_spring", 110), "Holy spring", "")]),
+        ("Cities and castles", [(city("Acre"), "Walled city", "Acre"), (city("Tyre (Sur)"), "Port city", "Sur"),
+                                (city("Krak des Chevaliers", 140), "Castle", "Crac des Chevaliers"),
+                                (city("Montfort (begun 1226)", 100), "Rock castle", "Montfort"),
+                                (city("Château Pèlerin (begun 1218)", 140), "Sea castle", "Chastel Pelerin"),
+                                (city("St Catherine's", 150), "Monastery", "Sainte-Katherine"),
+                                (city("Bethlehem", 150), "Pilgrim town", "Bethlehem")]),
+        ("Villages and farms", [(gen(0), "Hamlet", ""), (gen(10), "Farmstead and vines", ""), (gen(12), "Farm and flock", ""),
+                                (gen(1), "Chapel", ""), (gen(8), "Domed shrine", ""), (gen(5), "Mosque and village", ""),
+                                (gen(4, 120), "Watch tower", ""), (gen(9), "Watermill", ""), (gen(11), "Ruin", ""),
+                                (gen(19, 110), "Well", "")]),
+        ("Desert and pasture", [(gen(13), "Bedouin camp", ""), (gen(27), "Caravan halt", ""), (gen(16), "Oasis", ""),
+                                (gen(20), "Sheepfold", ""), (gen(25), "Seasonal pasture", "")]),
     ]
 
     def hill(cx, gy):
@@ -193,16 +207,20 @@ def draw_key(c, edition, X, Y, Wd, Ht):
         ("Battles and sieges", [(lambda cx, gy: _battle(c, "battle", cx, gy - 44, 100), "Battle", ""),
                                 (lambda cx, gy: _battle(c, "siege", cx, gy - 44, 100), "Siege", ""),
                                 (lambda cx, gy: _battle(c, "sea_battle", cx, gy - 44, 100), "Sea battle", "")]),
-        ("Land", [(swatch(Q(fer)), "Fertile land", ""), (swatch(Q(des)), "Steppe and desert", ""), (hill, "Hills", ""), (massif, "Mountains", ""),
-                  (alpine, "High peaks", ""), (mesa, "Desert ranges", ""), (lambda cx, gy: _trees(c, cx, gy, edition), "Forest", ""),
-                  (lambda cx, gy: _marsh(c, cx, gy), "Marsh", ""), (lambda cx, gy: _dune(c, cx, gy), "Dunes", ""),
-                  (lambda cx, gy: _oasis(c, cx, gy, edition), "Oasis", ""), (river, "River", ""), (road, "Road", "")]),
+        ("Land", [(tile("levant-farmland", 190), "Fields and orchards", ""), (tile("dry-stone-pasture", 190), "Pasture", ""),
+                  (tile("gravel-wasteland-deep", 190), "Desert waste", ""), (swatch(Q(fer)), "Fertile land", ""), (swatch(Q(des)), "Steppe", ""),
+                  (hill, "Hills", ""), (massif, "Mountains", ""), (alpine, "High peaks", ""),
+                  (lambda cx, gy: _trees(c, cx, gy, edition), "Forest", ""), (lambda cx, gy: _marsh(c, cx, gy), "Marsh", ""),
+                  (lambda cx, gy: _dune(c, cx, gy), "Dunes", ""), (river, "River", ""), (road, "Road", "")]),
         ("Military orders", [(arms("o", k), PC.ORD[k][0], PC.ORD[k][1]) for k in ("hosp", "temp", "teut", "laz", "thom", "mont")]),
         ("Maritime powers", [(arms("p", k), PC.POW[k][0], PC.POW[k][1]) for k in ("ven", "gen", "pis", "byz")]),
     ]
     y0 = Y + 250
-    column(x1, y0, col1)
-    column(x2, y0, col2)
+    def fit(cols):
+        n = sum(len(r) for _, r in cols)
+        return min(134, (Y + Ht - 70 - y0 - 98 * len(cols)) / n)
+    column(x1, y0, col1, fit(col1))
+    column(x2, y0, col2, fit(col2))
     c.set_source_rgba(*SEPIA, 0.5); c.set_line_width(2)
     c.move_to(X + Wd / 2, Y + 270); c.line_to(X + Wd / 2, Y + Ht - 60); c.stroke()
 

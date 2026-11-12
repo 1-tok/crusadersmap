@@ -1,9 +1,9 @@
 """Place symbols, arms, labels and battle marks on the sheet with collision avoidance.
 Everything works in sheet print px (10800 x 14400)."""
-import math
+import math, os
 import numpy as np
 import cairo
-import profiles as PR, marks as MK, places as PL
+import profiles as PR, marks as MK, places as PL, sprites as SP
 from hand import Pen
 
 INKC = (0.17, 0.13, 0.10); SEP = (0.42, 0.32, 0.22); RED = (0.59, 0.125, 0.11)
@@ -51,6 +51,10 @@ class Item:
     pass
 
 
+REPORT = {}
+PAINTED_WATER = ("Mer de Galilee",)
+
+
 def mark_func(spec):
     kind, name = spec.split(":")
     return (PR if kind == "P" else MK), getattr(PR if kind == "P" else MK, name), kind
@@ -70,6 +74,12 @@ def symbol_size(spec, tier, name):
     if tier >= 4:
         base *= 0.86
     return base
+
+
+def item_rect(it, w):
+    if getattr(it, 'sprite', None):
+        return SP.rect(it.sprite, it.x, it.y, w)
+    return symbol_rect(it.mark, it.x, it.y, w)[0]
 
 
 def symbol_rect(spec, px, py, w):
@@ -160,9 +170,56 @@ def land_fn_for(TER, BOX, region):
 NO_NUDGE = {"sea_castle", "port"}
 
 
+def water_fn_for(TER, BOX, region):
+    t = TER[region]; bx, by = BOX[region]
+    sc = t.lw / t.W
+
+    def f(x, y):
+        ix = int((x - bx) * sc); iy = int((y - by) * sc)
+        if ix < 0 or iy < 0 or ix >= t.lw or iy >= t.lh:
+            return True
+        return bool(t.water_l[iy, ix])
+    return f
+
+
+def nudge_sprite(it, WF):
+    """Push a sprite inland until its building footprint is dry. Small islands: search stays local and the sprite
+    shrinks in steps rather than jumping to another landmass."""
+    rec = it.sprite
+    if not rec["foot"]:
+        return
+    f = WF[it.region]
+    rmax = 280 if it.region == "main" else 110
+    w0 = it.w
+    def over(x, y, w, grow=1.0):
+        h = w * rec["h"] / rec["w"]
+        return sum(f(x + dx * w * grow, y - dy * h * grow) for dx, dy in rec["foot"]) / len(rec["foot"])
+    x0, y0 = it.x, it.y
+    steps = (1.0,) if it.region == "main" else (1.0, 0.85, 0.72, 0.6, 0.5, 0.42, 0.35)
+    best = None
+    for sh in steps:
+        w = w0 * sh
+        if over(x0, y0, w) == 0:
+            it.w = w; return
+        for r in range(8, rmax + 1, 8):
+            cands = []
+            for k in range(24):
+                a = 2 * math.pi * k / 24
+                x = x0 + r * math.cos(a); y = y0 + r * math.sin(a)
+                o = over(x, y, w)
+                if o == 0:
+                    cands.append((over(x, y, w, 1.25), x, y))
+                elif best is None or o < best[0] - 1e-9:
+                    best = (o, x, y, w)
+            if cands:
+                cands.sort(); it.x, it.y, it.w = cands[0][1], cands[0][2], w; return
+    if best:
+        it.x, it.y, it.w = best[1], best[2], best[3]
+
+
 def nudge(it, LF):
     """Move a symbol inland until its foot stands wholly on land."""
-    if it.kind != "place" or it.mark.split(":")[1] in NO_NUDGE:
+    if it.kind != "place" or it.mark.split(":")[1] in NO_NUDGE or getattr(it, "sprite", None):
         return
     f = LF[it.region]
     half = 0.40 * it.w
@@ -182,6 +239,7 @@ def nudge(it, LF):
 
 def build_items(TER, REG, BOX):
     LF = {k: land_fn_for(TER, BOX, k) for k in TER}
+    WF = {k: water_fn_for(TER, BOX, k) for k in TER}
     items = []
     for t in PL.PLACES:
         region, tier, mark, lon, lat, name, alt, modern, dates, arms = t
@@ -190,8 +248,12 @@ def build_items(TER, REG, BOX):
         px, py = REG[region].ll_px(lon, lat)
         it.x, it.y = bx + px, by + py
         it.rf = RF[region]
-        it.w = symbol_size(mark, tier, name) * it.rf
-        nudge(it, LF)
+        it.sprite = SP.MATCH.get(name)
+        it.w = (SP.width_for(tier, it.rf, it.sprite.get('units', 512)) * SP.SCALE.get(name, 1.0) if it.sprite else symbol_size(mark, tier, name) * it.rf)
+        if it.sprite:
+            nudge_sprite(it, WF)
+        else:
+            nudge(it, LF)
         items.append(it)
     for b in PL.BATTLES:
         region, kind, lon, lat, name, modern, year = b
@@ -220,7 +282,7 @@ def avoid_rects(TER, REG, BOX):
             continue
         bx, by = BOX[it.region]
         if it.kind == "place":
-            r, _ = symbol_rect(it.mark, it.x, it.y, it.w)
+            r = item_rect(it, it.w)
             ex = 0.0
             if it.arms:
                 ws = max(30.0, it.w * 0.17)
@@ -312,6 +374,105 @@ def draw_label(c, block, x, y_top, align, w_total):
         y += hh * 0.14
 
 
+DBGN=('Pelagonie','Blanchegarde','Bethgibelin','Smyrne','Lero','Foglie','Patmos','Marj Ayyun')
+
+def _path_pts(px, py, theta, kappa, length, n=40):
+    """Centre-line of a (possibly curved) text run: starts at its middle (px, py) heading theta, curvature kappa (1/px)."""
+    pts = []
+    for i in range(n + 1):
+        s = (i / n - 0.5) * length
+        if abs(kappa) < 1e-9:
+            x = s; y = 0.0; ang = 0.0
+        else:
+            ang = s * kappa
+            x = math.sin(ang) / kappa; y = (1 - math.cos(ang)) / kappa
+        ct, st = math.cos(theta), math.sin(theta)
+        pts.append((px + x * ct - y * st, py + x * st + y * ct, theta + ang, s))
+    return pts
+
+
+def _curved_line(c, text, fs, k, pts, length, off):
+    fam, sl = FONTS[k]
+    c.select_font_face(fam, sl, cairo.FONT_WEIGHT_NORMAL); c.set_font_size(fs)
+    adv = [c.text_extents(ch).x_advance for ch in text]
+    tot = sum(adv) or 1.0
+    s = -tot / 2
+    for ch, a in zip(text, adv):
+        sm = s + a / 2
+        i = min(len(pts) - 1, max(0, int(round((sm / length + 0.5) * (len(pts) - 1)))))
+        x, y, ang, _ = pts[i]
+        nx, ny = -math.sin(ang), math.cos(ang)
+        c.save(); c.translate(x + nx * off, y + ny * off); c.rotate(ang); c.translate(-a / 2, 0)
+        c.move_to(0, 0); c.text_path(ch)
+        c.set_source_rgba(*PAPER_HALO); c.set_line_width(fs * 0.16); c.set_line_join(cairo.LINE_JOIN_ROUND); c.stroke_preserve()
+        c.set_source_rgb(*(INKC if k == "n" else SEP)); c.fill()
+        c.restore()
+        s += a
+
+
+def curved_fallback(c, it, lines, base, rr, ctx):
+    """Try tilted / curved placement of the name (and modern name) around the symbol."""
+    LF, HARD, sym, labs, soft, terr, W, H = ctx
+    lines = lines[:2]
+    for scale in (0.86, 0.74, 0.64, 0.56):
+        blk = measure(c, lines, base * scale)
+        bw = max(b[3] for b in blk); fs0 = blk[0][1]
+        cx, cy = (rr[0] + rr[2]) / 2, (rr[1] + rr[3]) / 2
+        rad0 = max(rr[2] - rr[0], rr[3] - rr[1]) / 2 + 10 * it.rf + 10 + (28 if it.kind == 'isle' else 0)
+        best = None
+        for dist_k in ((1.0, 1.25, 1.6, 2.2, 3.0, 4.2, 6.0) if it.kind != 'isle' else (1.0, 2.0, 3.5, 5.0, 7.0, 10.0)):
+            for ak in range(16):
+                a = 2 * math.pi * ak / 16
+                for theta_d in (0, -20, 20, -35, 35, -60, 60, -85, 85):
+                    for kap in (0.0, 1.0 / (2.2 * bw), -1.0 / (2.2 * bw)):
+                        th = math.radians(theta_d)
+                        # centre of text placed so the run sits clear of the symbol rect along the chosen direction
+                        d = rad0 * dist_k + (bw / 2) * abs(math.cos(a - th)) * 0.0
+                        px = cx + (d + (bw / 2) * abs(math.cos(a - th)) + blk_h(blk) / 2 * abs(math.sin(a - th))) * math.cos(a)
+                        py = cy + (d * 0.75 + (bw / 2) * abs(math.sin(a - th)) * 0.0 + blk_h(blk) / 2) * math.sin(a) + ((rr[3] - rr[1]) / 2 - rad0 * 0.75) * math.sin(a) * 0
+                        pts = _path_pts(px, py, th, kap, bw)
+                        ok = True; boxes = []
+                        for j in range(0, len(pts), 3):
+                            x, y = pts[j][0], pts[j][1]
+                            hh = blk_h(blk)
+                            r_ = (x - fs0 * 0.45, y - hh * 0.8, x + fs0 * 0.45, y + hh * 0.5)
+                            if r_[0] < 110 or r_[2] > W - 110 or r_[1] < 110 or r_[3] > H - 110:
+                                ok = False; break
+                            if not HARD.free(r_, 3) or not sym.free(r_, 4) or not labs.free(r_, 5) or soft.frac(r_) > 0.2 or terr.frac(r_) > (0.30 if scale > 0.7 else 0.6):
+                                ok = False; break
+                            if not LF(x, y) and it.kind in ("place",):
+                                if not sea_ok(LF, r_):
+                                    ok = False; break
+                            boxes.append(r_)
+                        if ok:
+                            sc = dist_k * 100 + abs(theta_d) * 0.3 + abs(kap) * 500
+                            if best is None or sc < best[0]:
+                                best = (sc, pts, boxes, dist_k)
+            if best:
+                break
+        if best:
+            _, pts, boxes, dk = best
+            if dk > 1.6 and it.kind != 'isle':
+                q = min(pts, key=lambda t: (t[0] - cx) ** 2 + (t[1] - cy) ** 2)
+                c.save(); c.set_source_rgba(*INKC, 0.8); c.set_line_width(2.2); c.move_to(min(max(q[0], rr[0]), rr[2]), min(max(q[1], rr[1]), rr[3])); c.line_to(q[0], q[1]); c.stroke(); c.restore()
+            off = 0.0
+            for (text, fs, k, wd, hh) in blk:
+                _curved_line(c, text, fs, k, pts, bw, off)
+                off += hh
+            for b in boxes:
+                labs.mark((b[0], b[1], b[2], b[3] + (len(blk) - 1) * blk[0][4]))
+            return True
+    return False
+
+
+def blk_h(blk):
+    return sum(b[4] for b in blk)
+
+
+def sea_ok(LF, r):
+    return True
+
+
 def land_ok(land_fn, rect, want_sea):
     xs = np.linspace(rect[0], rect[2], 5); ys = np.linspace(rect[1], rect[3], 3)
     for x in xs:
@@ -362,6 +523,7 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
             return float(t.dsea[iy, ix]), float(t.dland[iy, ix])
         return f
 
+    WFS = {k: water_fn_for(TER, BOX, k) for k in TER}
     LF = {k: land_fn_for(k) for k in TER}; DF = {k: dsea_fn_for(k) for k in TER}
 
     items = build_items(TER, REG, BOX)
@@ -374,9 +536,10 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
             rect = (it.x - 50 * it.w / 100, it.y - 50 * it.w / 100, it.x + 50 * it.w / 100, it.y + 50 * it.w / 100)
             # battle boxes are centred on the site
         else:
-            rect, _ = symbol_rect(it.mark, it.x, it.y, it.w)
+            rect = item_rect(it, it.w)
         if HARD[it.region].frac(rect) > 0.04:
             log("under panel:", it.name)
+            REPORT[(it.name, it.kind)] = dict(status="hidden: lies under a panel")
             continue
         if it.kind == "isle":
             it.rect = (it.x - 3, it.y - 3, it.x + 3, it.y + 3); it.arm_rect = None
@@ -385,6 +548,11 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
         placed = False
         x0, y0 = it.x, it.y
         offs = [(0, 0)]
+        if it.kind == "place" and it.tier >= 2 and getattr(it, "sprite", None):
+            for rr_ in (0.6, 1.0, 1.5):
+                for k in range(12):
+                    a_ = 2 * math.pi * k / 12 + 0.3
+                    offs.append((rr_ * it.w * math.cos(a_), rr_ * it.w * math.sin(a_) * 0.6))
         if it.kind != "place":
             for rr_ in (1.05, 1.7):
                 for k in range(8):
@@ -392,12 +560,16 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
                     offs.append((rr_ * it.w * math.cos(a_), rr_ * it.w * math.sin(a_)))
         for ox, oy in offs:
           it.x, it.y = x0 + ox, y0 + oy
+          if (ox or oy) and it.kind == "place":
+              if not LF[it.region](it.x, it.y):
+                  continue
+              w_keep = it.w; nudge_sprite(it, WFS); it.w = w_keep if it.w > w_keep else it.w
           for shrink in (1.0, 0.82, 0.68):
             w = it.w * shrink
             if it.kind != "place":
                 rect = (it.x - 50 * w / 100, it.y - 50 * w / 100, it.x + 50 * w / 100, it.y + 50 * w / 100)
             else:
-                rect, _ = symbol_rect(it.mark, it.x, it.y, w)
+                rect = item_rect(it, w)
             if (ox or oy) and (HARD[it.region].frac(rect) > 0.04 or not LF[it.region](it.x, it.y)):
                 continue
             if sym.frac(rect) < 0.12 and soft.frac(rect) < 0.35:
@@ -411,6 +583,7 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
             it.x, it.y = x0, y0
         if not placed:
             log("skipped symbol:", it.name)
+            REPORT[(it.name, it.kind)] = dict(status="hidden: no room among neighbouring symbols")
             continue
         # reserve symbol with arms
         sym.mark(it.rect)
@@ -427,7 +600,12 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
         if it.kind == "isle":
             continue
         if it.kind == "place":
-            draw_symbol(c, it.mark, it.x, it.y, it.w, seed=hash(it.name) % 100000, edition=edition)
+            if getattr(it, 'sprite', None):
+                SP.draw(c, it.sprite, it.x, it.y, it.w, edition)
+            elif it.name in PAINTED_WATER:
+                pass                                  # the lake painting itself is the picture; the name is lettered beside it
+            else:
+                draw_symbol(c, it.mark, it.x, it.y, it.w, seed=hash(it.name) % 100000, edition=edition)
             if it.arms:
                 draw_arms(c, it.arms, it.rect, it.w, mode, hash(it.name) % 1000, mode == "hatched")
         else:
@@ -523,7 +701,16 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
           if done:
             break
         if not done:
+            done = curved_fallback(c, it, lines, base, rr, (LF[reg], HARD[it.region], sym, labs, soft, terr, W, H))
+        if not done:
             misses.append(it.name)
     if misses:
         log("no label room:", ", ".join(misses))
     log("placed", len(kept), "symbols of", len(items))
+    for it in kept:
+        sp_ = getattr(it, "sprite", None)
+        REPORT[(it.name, it.kind)] = dict(status="shown", region=it.region, x=round(it.x + BOX[it.region][0]), y=round(it.y + BOX[it.region][1]),
+                                          sprite=(sp_ or {}).get("variant"), generic=bool((sp_ or {}).get("generic")),
+                                          label=("no label room" if it.name in misses else "labelled"))
+    import json as _j
+    _j.dump([dict(name=k[0], kind=k[1], **v) for k, v in REPORT.items()], open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "out", "placement_log.json"), "w"), indent=1)

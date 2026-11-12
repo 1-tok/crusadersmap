@@ -41,6 +41,7 @@ def paper_tex(w, h, seed=3):
 def base_for(edition):
     tex = paper_tex(WS, HS)
     out = tex.copy()
+    seam = np.zeros((HS, WS), np.uint8)
     for k in ("main", "aegean", "delta"):
         bx, by = BOX[k]
         x, y = int(round(bx * S)), int(round(by * S))
@@ -52,6 +53,10 @@ def base_for(edition):
             sl = (slice(y + r0, y + r0 + h_), slice(x, x + w_))
             mod = tex[sl] / np.array([239, 228, 201], np.float32)
             out[sl] = tex[sl] * (1 - a) + col * mod * a
+            seam[sl] = np.round(255 * (1 - TER[k]._ml) * (1 - TER[k]._lk)).astype(np.uint8)
+    import sea as SEA
+    SEA.paint_sea(out, seam, S, edition)
+    del seam
     g = grade_jerusalem(out, S, edition)
     jh, jw = g.shape[:2]
     x0, y0 = int(round(JX * S)), int(round(JY * S))
