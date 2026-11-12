@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "collection": "Crusader Map — Greek Islands",
+  "batch": "05",
+  "date": "2026-11-12",
+  "user_review_authorization": "APPROVED_FOR_PROVISIONAL_MAP_REVIEW",
+  "asset_transfer_status": "NOT_UPLOADED_TO_GITHUB",
+  "placement_status": "BLOCKED_UNTIL_ISLAND_ID_AND_COASTLINE_VALIDATION",
+  "notes": "Four generated paintings were shown in the conversation, but they repeat Batch 04 composition and must not be mislabelled as Agathonisi, Pserimos, Telendos, or Meganisi. Approval is for visual comparison and replacement QA, not geographic compositing.",
+  "draft_artwork": [
+    {
+      "draft_id": "b05-concept-01",
+      "source_filename": "a_detailed_isometric_painterly_map_style_illustrat.png",
+      "subject": "unassigned island cluster",
+      "status": "needs repaint / comparison against Batch 04",
+      "review_approved": true,
+      "placement": {
+        "enabled": false,
+        "render_bbox_wgs84": null,
+        "georeference_status": "unverified",
+        "layer": "island_overlay_below_labels"
+      },
+      "qa_flags": [
+        "island-identity-unverified",
+        "shoreline-not-registered",
+        "possible-duplicate-of-batch-04",
+        "red-color-edge-fringing",
+        "medieval-architecture-speculative"
+      ]
+    },
+    {
+      "draft_id": "b05-concept-02",
+      "source_filename": "a_detailed_hand_painted_illustrated_isometric_styl.png",
+      "subject": "unassigned island cluster",
+      "status": "needs repaint / comparison against Batch 04",
+      "review_approved": true,
+      "placement": {
+        "enabled": false,
+        "render_bbox_wgs84": null,
+        "georeference_status": "unverified",
+        "layer": "island_overlay_below_labels"
+      },
+      "qa_flags": [
+        "island-identity-unverified",
+        "shoreline-not-registered",
+        "possible-duplicate-of-batch-04",
+        "red-color-edge-fringing",
+        "medieval-architecture-speculative"
+      ]
+    },
+    {
+      "draft_id": "b05-concept-03",
+      "source_filename": "a_detailed_illustrated_isometric_painting_style_ma.png",
+      "subject": "unassigned island concept",
+      "status": "needs repaint / comparison against Batch 04",
+      "review_approved": true,
+      "placement": {
+        "enabled": false,
+        "render_bbox_wgs84": null,
+        "georeference_status": "unverified",
+        "layer": "island_overlay_below_labels"
+      },
+      "qa_flags": [
+        "island-identity-unverified",
+        "shoreline-not-registered",
+        "possible-duplicate-of-batch-04",
+        "red-color-edge-fringing",
+        "medieval-architecture-speculative"
+      ]
+    },
+    {
+      "draft_id": "b05-concept-04",
+      "source_filename": "a_detailed_painted_isometric_map_like_illustration.png",
+      "subject": "unassigned island cluster",
+      "status": "needs repaint / comparison against Batch 04",
+      "review_approved": true,
+      "placement": {
+        "enabled": false,
+        "render_bbox_wgs84": null,
+        "georeference_status": "unverified",
+        "layer": "island_overlay_below_labels"
+      },
+      "qa_flags": [
+        "island-identity-unverified",
+        "shoreline-not-registered",
+        "possible-duplicate-of-batch-04",
+        "red-color-edge-fringing",
+        "medieval-architecture-speculative"
+      ]
+    }
+  ],
+  "target_islands_pending_geographically_correct_art": [
+    "Agathonisi",
+    "Pserimos",
+    "Telendos",
+    "Meganisi"
+  ]
+}
