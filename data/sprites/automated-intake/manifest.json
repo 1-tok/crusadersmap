@@ -2,6 +2,286 @@
   "schema_version": 1,
   "assets": [
     {
+      "id": "INTAKE-03b8997fe3ac075f1dc9",
+      "site_id": "generic-fortified-caravanserai",
+      "name": "Fortified caravanserai",
+      "display_title": "Fortified caravanserai",
+      "category": "landmark",
+      "asset": "automated-intake/png/fortified-caravanserai-03b8997fe3ac.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_map_batch16_civic_intake/civic-b16-05-fortified-caravanserai.png",
+        "sha256": "e7bb8f16682bc73b72cf487ca02ff07b8a9acdda46d31be65bb814b011cda3b9",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          341
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "landmark",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          341
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          9,
+          384,
+          298
+        ],
+        "pixel_sha256": "03b8997fe3ac075f1dc9b3b77dd4f03332bf939a633ee894c9e8726bb8024744",
+        "sha256": "e7bb8f16682bc73b72cf487ca02ff07b8a9acdda46d31be65bb814b011cda3b9",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-069b5256b3d9c42cd7ea",
+      "site_id": "generic-coastal-watchtower",
+      "name": "Coastal watchtower",
+      "display_title": "Coastal watchtower",
+      "category": "fortification",
+      "asset": "automated-intake/png/coastal-watchtower-069b5256b3d9.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_map_batch16_civic_intake/civic-b16-06-coastal-watchtower.png",
+        "sha256": "c96d10989fefecf4d30fa2f31ffe7d6cc7dae046b826f6664ec39578d9f1927f",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          341
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "fortification",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          341
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          4,
+          0,
+          384,
+          316
+        ],
+        "pixel_sha256": "069b5256b3d9c42cd7ea78726fe670bc11e61d8b63e13c11dd8d37f8fae32dd4",
+        "sha256": "c96d10989fefecf4d30fa2f31ffe7d6cc7dae046b826f6664ec39578d9f1927f",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-06d4c61e58322b953adb",
+      "site_id": "79-saria-concept",
+      "name": "79_saria_CONCEPT",
+      "display_title": "79_saria_CONCEPT",
+      "category": "unclassified",
+      "asset": "automated-intake/png/79-saria-concept-06d4c61e5832.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_greek_islands_batch06_intake/79_saria_CONCEPT.png",
+        "sha256": "899f7f47bd2e50c03c596ba5edd78555f4fd530d5f847c88f3cdc08f188259ac",
+        "crop_xyxy": [
+          0,
+          0,
+          943,
+          478
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          943,
+          478
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          943,
+          478
+        ],
+        "pixel_sha256": "06d4c61e58322b953adbcc18b37feed23e4f1bd0ecd698c8e00cf164b365b25d",
+        "sha256": "899f7f47bd2e50c03c596ba5edd78555f4fd530d5f847c88f3cdc08f188259ac",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-0731ce87a8f3eb5b2386",
       "site_id": "domed-walled-religious-precinct",
       "name": "Domed walled religious precinct",
@@ -92,6 +372,474 @@
       "repaint_required": false,
       "review_flags": [
         "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-09bb8904668be895301b",
+      "site_id": "75-antikythera-draft",
+      "name": "75_antikythera_DRAFT",
+      "display_title": "75_antikythera_DRAFT",
+      "category": "unclassified",
+      "asset": "automated-intake/png/75-antikythera-draft-09bb8904668b.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_greek_islands_batch04_draft/batch-04/75_antikythera_DRAFT.png",
+        "sha256": "6587b5c84f7e1d582a59e521e4b418dd447f2e8639c3a1e76b3dafbf7ae72cde",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1771,
+          887
+        ],
+        "pixel_sha256": "09bb8904668be895301b591d3033bcf9f19f08c7e8dde2a9d5368fa57874db11",
+        "sha256": "6587b5c84f7e1d582a59e521e4b418dd447f2e8639c3a1e76b3dafbf7ae72cde",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-0c2dad4283418779b61c",
+      "site_id": "lampron-namrun",
+      "name": "Lampron Namrun",
+      "display_title": "Lampron Namrun",
+      "category": "castle",
+      "asset": "automated-intake/png/lampron-namrun-0c2dad428341.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortresses_batch16_intake/lampron_namrun.png",
+        "sha256": "a3d76e559de3cd4ddd90021db843b5536e9fc1690f9c112ceb89c4b26bf2b68b",
+        "crop_xyxy": [
+          0,
+          0,
+          749,
+          500
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.96
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          749,
+          500
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          749,
+          500
+        ],
+        "pixel_sha256": "0c2dad4283418779b61cabc9faafdae7baa2ac185273fa9934ef03b768b107eb",
+        "sha256": "a3d76e559de3cd4ddd90021db843b5536e9fc1690f9c112ceb89c4b26bf2b68b",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-111b9730ed0ac3a9c5fe",
+      "site_id": "harbor-monastery",
+      "name": "Harbor monastery",
+      "display_title": "Harbor monastery",
+      "category": "monastery",
+      "asset": "automated-intake/png/harbor-monastery-111b9730ed0a.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_15_intake/religious-b15-09-harbor-monastery.png",
+        "sha256": "17c5c9e1dd302b4cee52dd07c3aa95a3d055b445ca8a5998812df3c9c39fce2e",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          331
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "monastery",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "approved",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          331
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          3,
+          7,
+          384,
+          323
+        ],
+        "pixel_sha256": "111b9730ed0ac3a9c5fe81141dfba46a81fc95e00c9cf72d2906ae35dec6b76a",
+        "sha256": "17c5c9e1dd302b4cee52dd07c3aa95a3d055b445ca8a5998812df3c9c39fce2e",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-121fcdbe63d7de9ff449",
+      "site_id": "77-ereikoussa-concept",
+      "name": "77_ereikoussa_CONCEPT",
+      "display_title": "77_ereikoussa_CONCEPT",
+      "category": "unclassified",
+      "asset": "automated-intake/png/77-ereikoussa-concept-121fcdbe63d7.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_greek_islands_batch06_intake/77_ereikoussa_CONCEPT.png",
+        "sha256": "5f1ea77da8c4f885e1961fae2bdaa6e3c027fb2e7c269b2cd80acf1532e23408",
+        "crop_xyxy": [
+          0,
+          0,
+          972,
+          425
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          972,
+          425
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          972,
+          425
+        ],
+        "pixel_sha256": "121fcdbe63d7de9ff4498d10765cbab7db320f977ab966d4e6f31d21cda0c0b3",
+        "sha256": "5f1ea77da8c4f885e1961fae2bdaa6e3c027fb2e7c269b2cd80acf1532e23408",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-15f3fad4b91e0bb5110e",
+      "site_id": "coastal-domed-church",
+      "name": "Coastal domed church",
+      "display_title": "Coastal domed church",
+      "category": "church",
+      "asset": "automated-intake/png/coastal-domed-church-15f3fad4b91e.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_15_intake/religious-b15-11-coastal-domed-church.png",
+        "sha256": "3347d2c355346acbba8068ac469d658cf6d510e73fd4dd1fee577441c8f2ad58",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          330
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "church",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "approved",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          330
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          8,
+          384,
+          323
+        ],
+        "pixel_sha256": "15f3fad4b91e0bb5110ecc8fdb6dae6211f0186ed02f10041bbd3e5e3d2323e9",
+        "sha256": "3347d2c355346acbba8068ac469d658cf6d510e73fd4dd1fee577441c8f2ad58",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
         "coordinates_unverified"
       ]
     },
@@ -187,6 +935,290 @@
       "review_flags": [
         "category_unverified",
         "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-1d4471d4c7afa2d90d9f",
+      "site_id": "b15-05-kykkos-monastery",
+      "name": "b15-05_kykkos_monastery",
+      "display_title": "b15-05_kykkos_monastery",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b15-05-kykkos-monastery-1d4471d4c7af.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_landmark_batch15_upload_2026-11-12/sprites/b15-05_kykkos_monastery.png",
+        "sha256": "ff81eeab294289f1ce9f3a43073495487509adda0360984901d488aaceb8dc3d",
+        "crop_xyxy": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          512,
+          512
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          15,
+          512,
+          512
+        ],
+        "pixel_sha256": "1d4471d4c7afa2d90d9fcbe756f47dfba954c000470043e6d59f60731ccc9a27",
+        "sha256": "ff81eeab294289f1ce9f3a43073495487509adda0360984901d488aaceb8dc3d",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-1d57b24b65517982f078",
+      "site_id": "desert-mountain-monastery",
+      "name": "Desert mountain monastery",
+      "display_title": "Desert mountain monastery",
+      "category": "monastery",
+      "asset": "automated-intake/png/desert-mountain-monastery-1d57b24b6551.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_15_intake/religious-b15-02-desert-mountain-monastery.png",
+        "sha256": "d8ef5528388a00a9be73e10d5bf9802b3962b3402ec27943af4c9f9fb22f1ba6",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          330
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "monastery",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "approved",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          330
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          8,
+          380,
+          322
+        ],
+        "pixel_sha256": "1d57b24b65517982f0780ccaacc5b595932d4aa4c7fb056331e25ce41b71f03c",
+        "sha256": "d8ef5528388a00a9be73e10d5bf9802b3962b3402ec27943af4c9f9fb22f1ba6",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-2021a2fc4e4d54c41517",
+      "site_id": "b16-05-terraced-hilltown-generic",
+      "name": "B16-05_terraced_hilltown_generic",
+      "display_title": "B16-05_terraced_hilltown_generic",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b16-05-terraced-hilltown-generic-2021a2fc4e4d.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_batch16_generic_landmarks_upload_2026-11-12/B16-05_terraced_hilltown_generic.png",
+        "sha256": "8b4309fc6c575d937cec18f76d836015af7e1a004a128ee1c0565b54086b1721",
+        "crop_xyxy": [
+          0,
+          0,
+          512,
+          382
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          512,
+          382
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          11,
+          512,
+          371
+        ],
+        "pixel_sha256": "2021a2fc4e4d54c41517d080189ea753426f96673ec97e2b3faa8ea12b5af92b",
+        "sha256": "8b4309fc6c575d937cec18f76d836015af7e1a004a128ee1c0565b54086b1721",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
       ]
     },
     {
@@ -468,6 +1500,198 @@
       ]
     },
     {
+      "id": "INTAKE-263ddba8524951c6770a",
+      "site_id": "b05-concept-04-unassigned-draft",
+      "name": "b05_concept_04_UNASSIGNED_DRAFT",
+      "display_title": "b05_concept_04_UNASSIGNED_DRAFT",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b05-concept-04-unassigned-draft-263ddba85249.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_greek_islands_batch05_intake/batch-05/b05_concept_04_UNASSIGNED_DRAFT.png",
+        "sha256": "ac8c8a6304761f7271167a1c58b1af25cba198a21b789ad484e95039e5865933",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1758,
+          887
+        ],
+        "pixel_sha256": "263ddba8524951c6770a577130fc365f23f416facca70c2815606ea9e2f91c09",
+        "sha256": "ac8c8a6304761f7271167a1c58b1af25cba198a21b789ad484e95039e5865933",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-2b643a14b79de97638ad",
+      "site_id": "b15-04-mount-tabor",
+      "name": "b15-04_mount_tabor",
+      "display_title": "b15-04_mount_tabor",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b15-04-mount-tabor-2b643a14b79d.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_landmark_batch15_upload_2026-11-12/sprites/b15-04_mount_tabor.png",
+        "sha256": "b50456ca721ba7affd1c55561a8ef8bb108b8bfacbfb0e7ace19fb06f7ff0569",
+        "crop_xyxy": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          512,
+          512
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          3,
+          512,
+          512
+        ],
+        "pixel_sha256": "2b643a14b79de97638ad3febfbe377f9741ae3238d9e68a67eac3d88fa8ff262",
+        "sha256": "b50456ca721ba7affd1c55561a8ef8bb108b8bfacbfb0e7ace19fb06f7ff0569",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-2ba6bd0bb5c3f12749ff",
       "site_id": "pointed-arch-gothic-church",
       "name": "Pointed-arch Gothic church",
@@ -746,6 +1970,102 @@
       ]
     },
     {
+      "id": "INTAKE-3376553f7d9a16647053",
+      "site_id": "b16-06-offshore-castle-generic",
+      "name": "B16-06_offshore_castle_generic",
+      "display_title": "B16-06_offshore_castle_generic",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b16-06-offshore-castle-generic-3376553f7d9a.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_batch16_generic_landmarks_upload_2026-11-12/B16-06_offshore_castle_generic.png",
+        "sha256": "b0b47bb02b3de8f8a42e98f5eb6ab979c18a1633d1ab2dbf5197745d97129dc7",
+        "crop_xyxy": [
+          0,
+          0,
+          512,
+          413
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          512,
+          413
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          2,
+          11,
+          512,
+          402
+        ],
+        "pixel_sha256": "3376553f7d9a1664705324fd89e18433fd77e9c9219c05bb7882289b9e69ff03",
+        "sha256": "b0b47bb02b3de8f8a42e98f5eb6ab979c18a1633d1ab2dbf5197745d97129dc7",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-39a9e488a0adf99f86bf",
       "site_id": "fortified-stone-monastery",
       "name": "Fortified stone monastery",
@@ -836,6 +2156,190 @@
       "repaint_required": false,
       "review_flags": [
         "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-3d4b1fcd08602350cb1e",
+      "site_id": "g-kvelio-lu-castle",
+      "name": "Gökvelioğlu Castle",
+      "display_title": "Gökvelioğlu Castle",
+      "category": "castle",
+      "asset": "automated-intake/png/g-kvelio-lu-castle-3d4b1fcd0860.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortresses_batch17_intake/gokvelioglu_kalesi.png",
+        "sha256": "9b89dae3d38fa3a0f163c8b516760f0fd9686471944373c030f2006ee39bcad8",
+        "crop_xyxy": [
+          0,
+          0,
+          767,
+          504
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          767,
+          504
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          760,
+          497
+        ],
+        "pixel_sha256": "3d4b1fcd08602350cb1ea4232a151d77784f54a22cb993556943a71037003f45",
+        "sha256": "9b89dae3d38fa3a0f163c8b516760f0fd9686471944373c030f2006ee39bcad8",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-403baea15271bdfec008",
+      "site_id": "tumlu-kalesi",
+      "name": "Tumlu Kalesi",
+      "display_title": "Tumlu Kalesi",
+      "category": "castle",
+      "asset": "automated-intake/png/tumlu-kalesi-403baea15271.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortresses_batch17_intake/tumlu_kalesi.png",
+        "sha256": "a3610f550b2c707827c68620080321d8e7d099612fee70d1b947f4b69228a940",
+        "crop_xyxy": [
+          0,
+          0,
+          765,
+          446
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          765,
+          446
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          7,
+          7,
+          765,
+          439
+        ],
+        "pixel_sha256": "403baea15271bdfec008765b8b6c46d5989daf4a0cf578280b75d52d52a033a2",
+        "sha256": "a3610f550b2c707827c68620080321d8e7d099612fee70d1b947f4b69228a940",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
         "coordinates_unverified"
       ]
     },
@@ -934,6 +2438,194 @@
       ]
     },
     {
+      "id": "INTAKE-4df089b22f7aa9972ef0",
+      "site_id": "b15-03-nabi-samwil",
+      "name": "b15-03_nabi_samwil",
+      "display_title": "b15-03_nabi_samwil",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b15-03-nabi-samwil-4df089b22f7a.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_landmark_batch15_upload_2026-11-12/sprites/b15-03_nabi_samwil.png",
+        "sha256": "8c334e1bae362827d6e486beb56dee80e902c82d632248dc50eea11d8f1771ce",
+        "crop_xyxy": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          512,
+          512
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          512,
+          510
+        ],
+        "pixel_sha256": "4df089b22f7aa9972ef0043f5f09987f0859e571166318801b85f881350f3c6b",
+        "sha256": "8c334e1bae362827d6e486beb56dee80e902c82d632248dc50eea11d8f1771ce",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-58bc99dbddd6ebba32e7",
+      "site_id": "savranda-servantikar",
+      "name": "Savranda / Servantikar",
+      "display_title": "Savranda / Servantikar",
+      "category": "castle",
+      "asset": "automated-intake/png/savranda-servantikar-58bc99dbddd6.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortresses_batch17_intake/savranda_servantikar.png",
+        "sha256": "d5b31dc89f8e23eb9fe326c5fe4555080ef3744be307923beb837394fad46274",
+        "crop_xyxy": [
+          0,
+          0,
+          767,
+          506
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          767,
+          506
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          7,
+          760,
+          506
+        ],
+        "pixel_sha256": "58bc99dbddd6ebba32e7806118d563bd7f13a96432e00d90520cfab32bf4a7d0",
+        "sha256": "d5b31dc89f8e23eb9fe326c5fe4555080ef3744be307923beb837394fad46274",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-5df9cdf9a419a108ee37",
       "site_id": "feke-vahga",
       "name": "Feke (Vahga)",
@@ -1026,6 +2718,290 @@
       ]
     },
     {
+      "id": "INTAKE-5ede2f1b3a374fbd35d9",
+      "site_id": "ravanda-ravendel",
+      "name": "Ravanda / Ravendel",
+      "display_title": "Ravanda / Ravendel",
+      "category": "castle",
+      "asset": "automated-intake/png/ravanda-ravendel-5ede2f1b3a37.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortresses_batch17_intake/ravanda_ravendel.png",
+        "sha256": "2908b058f230b1d98cf4d6d38790b6d93f8fecb2685433a3af153fa2ee921684",
+        "crop_xyxy": [
+          0,
+          0,
+          763,
+          505
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          763,
+          505
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          7,
+          7,
+          763,
+          503
+        ],
+        "pixel_sha256": "5ede2f1b3a374fbd35d913cf0865f0568ab4a5cb66882a5b3b8fa6ac065baf48",
+        "sha256": "2908b058f230b1d98cf4d6d38790b6d93f8fecb2685433a3af153fa2ee921684",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-65b2888de91b70c94848",
+      "site_id": "76-othonoi-concept",
+      "name": "76_othonoi_CONCEPT",
+      "display_title": "76_othonoi_CONCEPT",
+      "category": "unclassified",
+      "asset": "automated-intake/png/76-othonoi-concept-65b2888de91b.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_greek_islands_batch06_intake/76_othonoi_CONCEPT.png",
+        "sha256": "06c1c53ffbf176ff02f1ffadb0bef5a98b1e931d37160a93362ca0bd8c0269a5",
+        "crop_xyxy": [
+          0,
+          0,
+          807,
+          444
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          807,
+          444
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          807,
+          444
+        ],
+        "pixel_sha256": "65b2888de91b70c94848c56396d7aac3c9036f4a36e82fb19516d1f6bef7c598",
+        "sha256": "06c1c53ffbf176ff02f1ffadb0bef5a98b1e931d37160a93362ca0bd8c0269a5",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-675ce22f6f4ade256a40",
+      "site_id": "b16-02-ridge-citadel-generic",
+      "name": "B16-02_ridge_citadel_generic",
+      "display_title": "B16-02_ridge_citadel_generic",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b16-02-ridge-citadel-generic-675ce22f6f4a.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_batch16_generic_landmarks_upload_2026-11-12/B16-02_ridge_citadel_generic.png",
+        "sha256": "d80666142817d0b153bfe0b9eabb674eb8833a31228014ce731ec07a4dcdc9ab",
+        "crop_xyxy": [
+          0,
+          0,
+          512,
+          424
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          512,
+          424
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          11,
+          512,
+          413
+        ],
+        "pixel_sha256": "675ce22f6f4ade256a407e753fcd1cc5ae8ffe8efc99682f4e843e2c337b629d",
+        "sha256": "d80666142817d0b153bfe0b9eabb674eb8833a31228014ce731ec07a4dcdc9ab",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-6b5a1ae89a82778944a0",
       "site_id": "chastellet-jacobs-ford",
       "name": "Chastellet / Jacob’s Ford",
@@ -1115,6 +3091,382 @@
       "repaint_required": false,
       "review_flags": [
         "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-6bd02e6bbe7f080a923e",
+      "site_id": "generic-domed-bath-complex",
+      "name": "Domed bath complex",
+      "display_title": "Domed bath complex",
+      "category": "landmark",
+      "asset": "automated-intake/png/domed-bath-complex-6bd02e6bbe7f.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_map_batch16_civic_intake/civic-b16-04-domed-bath-complex.png",
+        "sha256": "5ff5992fbf13de03639b31dfbbb360bb703130d9f668c278269634fcba43c3bc",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          341
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "landmark",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          341
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          5,
+          0,
+          382,
+          300
+        ],
+        "pixel_sha256": "6bd02e6bbe7f080a923ebf394601f3be9bdf8ad30ef0dac8bf0b74423a3c25e5",
+        "sha256": "5ff5992fbf13de03639b31dfbbb360bb703130d9f668c278269634fcba43c3bc",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-6dd7c326faa6c31f9c95",
+      "site_id": "b15-02-apamea-citadel",
+      "name": "b15-02_apamea_citadel",
+      "display_title": "b15-02_apamea_citadel",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b15-02-apamea-citadel-6dd7c326faa6.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_landmark_batch15_upload_2026-11-12/sprites/b15-02_apamea_citadel.png",
+        "sha256": "df4efbcdea92df819672a70941b6a7f6b7ea9396817a2f48c048e16f22d2e39d",
+        "crop_xyxy": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          512,
+          512
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          21,
+          512,
+          512
+        ],
+        "pixel_sha256": "6dd7c326faa6c31f9c956b98b8c837b03439d7615b2cb4541905f5a81244ccf9",
+        "sha256": "df4efbcdea92df819672a70941b6a7f6b7ea9396817a2f48c048e16f22d2e39d",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-6f325d2804d2548c2499",
+      "site_id": "silifke-seleucia",
+      "name": "Silifke Seleucia",
+      "display_title": "Silifke Seleucia",
+      "category": "castle",
+      "asset": "automated-intake/png/silifke-seleucia-6f325d2804d2.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortresses_batch16_intake/silifke_seleucia.png",
+        "sha256": "d2a00f4bebe5a1f90bfdbc4182a7c749bde63d1a1ef3971efef7ef7f5102b71d",
+        "crop_xyxy": [
+          0,
+          0,
+          755,
+          438
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.96
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          755,
+          438
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          755,
+          438
+        ],
+        "pixel_sha256": "6f325d2804d2548c2499b9291778008c762f37c7423119f7e90bf785bbddf2b2",
+        "sha256": "d2a00f4bebe5a1f90bfdbc4182a7c749bde63d1a1ef3971efef7ef7f5102b71d",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-74191efe98aad56ed0a3",
+      "site_id": "b05-concept-01-unassigned-draft",
+      "name": "b05_concept_01_UNASSIGNED_DRAFT",
+      "display_title": "b05_concept_01_UNASSIGNED_DRAFT",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b05-concept-01-unassigned-draft-74191efe98aa.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_greek_islands_batch05_intake/batch-05/b05_concept_01_UNASSIGNED_DRAFT.png",
+        "sha256": "e89f7e7c74ed1e33cf74fe6c84630d2e19d5a084f933f6f30cb2d9e805da706c",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          9,
+          1760,
+          887
+        ],
+        "pixel_sha256": "74191efe98aad56ed0a38a490b18737b07b119b279a20c37e8231f03c60e9e14",
+        "sha256": "e89f7e7c74ed1e33cf74fe6c84630d2e19d5a084f933f6f30cb2d9e805da706c",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
       ]
     },
     {
@@ -1212,6 +3564,190 @@
       ]
     },
     {
+      "id": "INTAKE-7f735b59e5487b2a5c04",
+      "site_id": "rural-abbey-with-vineyard",
+      "name": "Rural abbey with vineyard",
+      "display_title": "Rural abbey with vineyard",
+      "category": "monastery",
+      "asset": "automated-intake/png/rural-abbey-with-vineyard-7f735b59e548.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_15_intake/religious-b15-12-rural-abbey-vineyard.png",
+        "sha256": "f265d5afbb37ea73f075e987cba82ff98f9b32c58b06b625850eaff31b8adeb8",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          327
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "monastery",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "approved",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          327
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          380,
+          320
+        ],
+        "pixel_sha256": "7f735b59e5487b2a5c04313bada72e3f2c7ad97f71d94e3e050c288901fb9943",
+        "sha256": "f265d5afbb37ea73f075e987cba82ff98f9b32c58b06b625850eaff31b8adeb8",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-80665a0a23e1f921b2d5",
+      "site_id": "gothic-abbey-complex",
+      "name": "Gothic abbey complex",
+      "display_title": "Gothic abbey complex",
+      "category": "monastery",
+      "asset": "automated-intake/png/gothic-abbey-complex-80665a0a23e1.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_15_intake/religious-b15-06-gothic-abbey-complex.png",
+        "sha256": "a1e263a582dd2c1c50af5f0c5309cbbc0fa32979d266f162a306f48212b2bf50",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          321
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "monastery",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "approved",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          321
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          5,
+          7,
+          381,
+          314
+        ],
+        "pixel_sha256": "80665a0a23e1f921b2d522962f6e9fd6bba1a175b982a806667f3e75fbd32718",
+        "sha256": "a1e263a582dd2c1c50af5f0c5309cbbc0fa32979d266f162a306f48212b2bf50",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-8906198a8b883086d7b9",
       "site_id": "kizkalesi-offshore",
       "name": "Kızkalesi offshore castle",
@@ -1301,6 +3837,194 @@
       "repaint_required": false,
       "review_flags": [
         "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-8adca7d15df8c7e70c2f",
+      "site_id": "generic-medieval-windmill-farm",
+      "name": "Medieval windmill and farm",
+      "display_title": "Medieval windmill and farm",
+      "category": "landmark",
+      "asset": "automated-intake/png/medieval-windmill-and-farm-8adca7d15df8.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_map_batch16_civic_intake/civic-b16-01-medieval-windmill-farm.png",
+        "sha256": "77297617b9aaf7bdd4e940803578f4147df4c6cc88a73d55f759f405e3637100",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          342
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "landmark",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          342
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          2,
+          18,
+          384,
+          318
+        ],
+        "pixel_sha256": "8adca7d15df8c7e70c2fe35c45ec51191059dab83663de39b984ba6e3915550b",
+        "sha256": "77297617b9aaf7bdd4e940803578f4147df4c6cc88a73d55f759f405e3637100",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-8c230f7ded59681b4102",
+      "site_id": "78-mathraki-concept",
+      "name": "78_mathraki_CONCEPT",
+      "display_title": "78_mathraki_CONCEPT",
+      "category": "unclassified",
+      "asset": "automated-intake/png/78-mathraki-concept-8c230f7ded59.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_greek_islands_batch06_intake/78_mathraki_CONCEPT.png",
+        "sha256": "7d0febb1d9e110616aecfd974becd75abbe7d96a9533627a6d1072df61b7a6ea",
+        "crop_xyxy": [
+          0,
+          0,
+          801,
+          412
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          801,
+          412
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          801,
+          412
+        ],
+        "pixel_sha256": "8c230f7ded59681b41023dc87ad56af333eca2903263f20854296f6bbeb523ed",
+        "sha256": "7d0febb1d9e110616aecfd974becd75abbe7d96a9533627a6d1072df61b7a6ea",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
       ]
     },
     {
@@ -1477,6 +4201,382 @@
         ],
         "pixel_sha256": "9222ed7f72b98002f2c9e75b86106b718040b09eaaa1d6a5f6acd3796e78237e",
         "sha256": "be985b75832a9a5de4222802976b310b1fc569061e0d3d8b4710199efd5f6aeb",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-93b600ef3128b540e82c",
+      "site_id": "byzantine-cross-domed-church",
+      "name": "Byzantine cross-domed church",
+      "display_title": "Byzantine cross-domed church",
+      "category": "church",
+      "asset": "automated-intake/png/byzantine-cross-domed-church-93b600ef3128.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_15_intake/religious-b15-04-byzantine-cross-domed-church.png",
+        "sha256": "d201080ff9093973fd2aa15553936c1857859a54ee1ad55c0cb24e57c38ea9f1",
+        "crop_xyxy": [
+          0,
+          0,
+          383,
+          290
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "church",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "approved",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          383,
+          290
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          8,
+          376,
+          282
+        ],
+        "pixel_sha256": "93b600ef3128b540e82cc7a75c3748b7b7d4ac10dea55e6ab43cc6c2db01acc4",
+        "sha256": "d201080ff9093973fd2aa15553936c1857859a54ee1ad55c0cb24e57c38ea9f1",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-96722e3b338548cb8bf6",
+      "site_id": "b15-06-bellapais-early",
+      "name": "b15-06_bellapais_early",
+      "display_title": "b15-06_bellapais_early",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b15-06-bellapais-early-96722e3b3385.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_landmark_batch15_upload_2026-11-12/sprites/b15-06_bellapais_early.png",
+        "sha256": "3fe7c3b487b47c55669de8dd9a5ae2426064a656bbf6953013921af8f2d3dd2d",
+        "crop_xyxy": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          512,
+          512
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          1,
+          512,
+          512
+        ],
+        "pixel_sha256": "96722e3b338548cb8bf62413b169d28d862b0001f699b32494a162b06dd9dd4f",
+        "sha256": "3fe7c3b487b47c55669de8dd9a5ae2426064a656bbf6953013921af8f2d3dd2d",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-9d7fbc4c2d886297ce33",
+      "site_id": "72-arki-marathi-cluster-draft",
+      "name": "72_arki_marathi_cluster_DRAFT",
+      "display_title": "72_arki_marathi_cluster_DRAFT",
+      "category": "unclassified",
+      "asset": "automated-intake/png/72-arki-marathi-cluster-draft-9d7fbc4c2d88.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_greek_islands_batch04_draft/batch-04/72_arki_marathi_cluster_DRAFT.png",
+        "sha256": "1e3897accc6ac493b5771ae2323f253e240dd34089dc10985c3d1d568008e176",
+        "crop_xyxy": [
+          0,
+          0,
+          1770,
+          875
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1770,
+          875
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1758,
+          863
+        ],
+        "pixel_sha256": "9d7fbc4c2d886297ce3365ac238b0d94c6a1fa79bbda79dd374c6baa8d5d0381",
+        "sha256": "1e3897accc6ac493b5771ae2323f253e240dd34089dc10985c3d1d568008e176",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-9f7e306cdacafeb6369c",
+      "site_id": "generic-fortified-river-bridge",
+      "name": "Fortified stone river bridge",
+      "display_title": "Fortified stone river bridge",
+      "category": "bridge",
+      "asset": "automated-intake/png/fortified-stone-river-bridge-9f7e306cdaca.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_map_batch16_civic_intake/civic-b16-02-fortified-river-bridge.png",
+        "sha256": "d39c6f3f5d74ce86440d1d99f3369ec522e9009d5e54ad2707e3917f4b193f6f",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          342
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "bridge",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          342
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          1,
+          5,
+          384,
+          313
+        ],
+        "pixel_sha256": "9f7e306cdacafeb6369cc2b69043713d101405a8277a7e004db13bd3cd9e9703",
+        "sha256": "d39c6f3f5d74ce86440d1d99f3369ec522e9009d5e54ad2707e3917f4b193f6f",
         "review_flags": [
           "coordinates_unverified"
         ]
@@ -1766,6 +4866,98 @@
       ]
     },
     {
+      "id": "INTAKE-a855c61276d4b7ae8db3",
+      "site_id": "byzantine-monastic-church",
+      "name": "Byzantine monastic church",
+      "display_title": "Byzantine monastic church",
+      "category": "church",
+      "asset": "automated-intake/png/byzantine-monastic-church-a855c61276d4.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_15_intake/religious-b15-08-byzantine-monastic-church.png",
+        "sha256": "c6767a8d39f2b84c2f5c9daa563a521d7771ae54c1924e9172a67630e02be33c",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          342
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "church",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "approved",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          342
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          2,
+          380,
+          342
+        ],
+        "pixel_sha256": "a855c61276d4b7ae8db3d7ea443e2ed772541bf7c60c4f4717ecbdd80f61facc",
+        "sha256": "c6767a8d39f2b84c2f5c9daa563a521d7771ae54c1924e9172a67630e02be33c",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-a8e135625a205da1e7f2",
       "site_id": "domed-rotunda-and-church-group",
       "name": "Domed rotunda and church group",
@@ -1856,6 +5048,98 @@
       "repaint_required": false,
       "review_flags": [
         "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-adb44d1af8059809ee97",
+      "site_id": "coastal-cliff-monastery",
+      "name": "Coastal cliff monastery",
+      "display_title": "Coastal cliff monastery",
+      "category": "monastery",
+      "asset": "automated-intake/png/coastal-cliff-monastery-adb44d1af805.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_15_intake/religious-b15-01-coastal-cliff-monastery.png",
+        "sha256": "f6a7e8e7fe060df5f8a5001babb6c6d883cbc093ea9cc9aa9b0efe1806ad7ac5",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          327
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "monastery",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "approved",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          327
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          4,
+          7,
+          384,
+          320
+        ],
+        "pixel_sha256": "adb44d1af8059809ee97f8f90da6e1f41e6c89d97ce135f59e6051aa81151961",
+        "sha256": "f6a7e8e7fe060df5f8a5001babb6c6d883cbc093ea9cc9aa9b0efe1806ad7ac5",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
         "coordinates_unverified"
       ]
     },
@@ -2138,6 +5422,478 @@
       ]
     },
     {
+      "id": "INTAKE-b1d2b8d18c8980bf6e09",
+      "site_id": "b05-concept-03-unassigned-draft",
+      "name": "b05_concept_03_UNASSIGNED_DRAFT",
+      "display_title": "b05_concept_03_UNASSIGNED_DRAFT",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b05-concept-03-unassigned-draft-b1d2b8d18c89.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_greek_islands_batch05_intake/batch-05/b05_concept_03_UNASSIGNED_DRAFT.png",
+        "sha256": "66507aa5d961e715fa450d7f9bcd00f90916e26f68e98978df5abcaccb7a538b",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          11,
+          1773,
+          887
+        ],
+        "pixel_sha256": "b1d2b8d18c8980bf6e0939a1c3d105849a53daafb887fad0b9e317ad21a7bffb",
+        "sha256": "66507aa5d961e715fa450d7f9bcd00f90916e26f68e98978df5abcaccb7a538b",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-bbbf8b229ab562e70a3e",
+      "site_id": "b05-concept-02-unassigned-draft",
+      "name": "b05_concept_02_UNASSIGNED_DRAFT",
+      "display_title": "b05_concept_02_UNASSIGNED_DRAFT",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b05-concept-02-unassigned-draft-bbbf8b229ab5.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_greek_islands_batch05_intake/batch-05/b05_concept_02_UNASSIGNED_DRAFT.png",
+        "sha256": "f5d01c473d43763447868544bf7d7f6dc694a45c696fbff705c36da4ba950840",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "bbbf8b229ab562e70a3e956ce0d097af2a8ba3420d2f1c10f779d351e6f97bff",
+        "sha256": "f5d01c473d43763447868544bf7d7f6dc694a45c696fbff705c36da4ba950840",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-bedc59165cf4b72a8db9",
+      "site_id": "b16-04-hilltop-monastery-generic",
+      "name": "B16-04_hilltop_monastery_generic",
+      "display_title": "B16-04_hilltop_monastery_generic",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b16-04-hilltop-monastery-generic-bedc59165cf4.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_batch16_generic_landmarks_upload_2026-11-12/B16-04_hilltop_monastery_generic.png",
+        "sha256": "8b741f553922553b405834b3a2274db6e8de43751569abc7da1870ce126603ee",
+        "crop_xyxy": [
+          0,
+          0,
+          512,
+          424
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          512,
+          424
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          4,
+          11,
+          512,
+          413
+        ],
+        "pixel_sha256": "bedc59165cf4b72a8db96e3d030e8f335760c45c32ecde10be77ea035b53a471",
+        "sha256": "8b741f553922553b405834b3a2274db6e8de43751569abc7da1870ce126603ee",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-c20660fea423df4418ab",
+      "site_id": "anavarza-anazarbus",
+      "name": "Anavarza Anazarbus",
+      "display_title": "Anavarza Anazarbus",
+      "category": "castle",
+      "asset": "automated-intake/png/anavarza-anazarbus-c20660fea423.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortresses_batch16_intake/anavarza_anazarbus.png",
+        "sha256": "087f1494e5e1cd62c247fd8bb976ce42143541521ba4c2809c345c8a26570bd9",
+        "crop_xyxy": [
+          0,
+          0,
+          749,
+          491
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.96
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          749,
+          491
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          749,
+          491
+        ],
+        "pixel_sha256": "c20660fea423df4418ab9ad8c8168e3633ff2c518694482d1e6edd1de7fdc1b2",
+        "sha256": "087f1494e5e1cd62c247fd8bb976ce42143541521ba4c2809c345c8a26570bd9",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-c243886984d20d5a00a2",
+      "site_id": "harim-harenc",
+      "name": "Harim Harenc",
+      "display_title": "Harim Harenc",
+      "category": "castle",
+      "asset": "automated-intake/png/harim-harenc-c243886984d2.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_fortresses_batch16_intake/harim_harenc.png",
+        "sha256": "b8dcb754c52789d65d1a3b3f93b6f55a979153daef09fabb73773a91db3c657f",
+        "crop_xyxy": [
+          0,
+          0,
+          749,
+          382
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.96
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "castle",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          749,
+          382
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          749,
+          382
+        ],
+        "pixel_sha256": "c243886984d20d5a00a2f22229d182e5b3608fbfc94b43849a673391e6af2617",
+        "sha256": "b8dcb754c52789d65d1a3b3f93b6f55a979153daef09fabb73773a91db3c657f",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-c39e8abdd8a9d913dbaf",
       "site_id": "medieval-crusader-fortress-sprite-collection",
       "name": "medieval_crusader_fortress_sprite_collection",
@@ -2219,6 +5975,194 @@
         ],
         "pixel_sha256": "c39e8abdd8a9d913dbafd8196b9dc001b49fe83a103ac202ea233b82c1027896",
         "sha256": "97a4b6531f60fc7c6cacbf29335ecebbe2a70bdfbda454aa83b0b832ccd5d878",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-c4ca6e27b3b4e8d2dd15",
+      "site_id": "generic-terraced-vineyard-estate",
+      "name": "Terraced vineyard estate",
+      "display_title": "Terraced vineyard estate",
+      "category": "farmland",
+      "asset": "automated-intake/png/terraced-vineyard-estate-c4ca6e27b3b4.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_map_batch16_civic_intake/civic-b16-07-terraced-vineyard-estate.png",
+        "sha256": "c975b45d9035badf5b5fd018e7c306056f45b7d545869bcac4977ef5329da568",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          341
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "farmland",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          341
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          1,
+          0,
+          382,
+          299
+        ],
+        "pixel_sha256": "c4ca6e27b3b4e8d2dd1556cd508aa201553470031b2baf507df399bb255161e8",
+        "sha256": "c975b45d9035badf5b5fd018e7c306056f45b7d545869bcac4977ef5329da568",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-ca98b66a708c799259ad",
+      "site_id": "74-fournoi-cluster-draft",
+      "name": "74_fournoi_cluster_DRAFT",
+      "display_title": "74_fournoi_cluster_DRAFT",
+      "category": "unclassified",
+      "asset": "automated-intake/png/74-fournoi-cluster-draft-ca98b66a708c.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_greek_islands_batch04_draft/batch-04/74_fournoi_cluster_DRAFT.png",
+        "sha256": "09847c2bf7aaaf5d3e0311615fc97f2b8b4b35f6ae270001eebf761f6dbdbded",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "ca98b66a708c799259ad84b2991a8a1246b88082b8f19e35ead3323068408534",
+        "sha256": "09847c2bf7aaaf5d3e0311615fc97f2b8b4b35f6ae270001eebf761f6dbdbded",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -2328,6 +6272,298 @@
       ]
     },
     {
+      "id": "INTAKE-d887135cdc6da0faa2d1",
+      "site_id": "source-sheet-original-rgb",
+      "name": "source_sheet_original_rgb",
+      "display_title": "source_sheet_original_rgb",
+      "category": "unclassified",
+      "asset": "automated-intake/png/source-sheet-original-rgb-d887135cdc6d.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_batch16_generic_landmarks_upload_2026-11-12/source_sheet_original_rgb.png",
+        "sha256": "a42d842e9173c951d3949c7b0a06c854f73c6d9efbe5de692a52ec48ad41e74a",
+        "crop_xyxy": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1536,
+          1024
+        ],
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "pixel_sha256": "d887135cdc6da0faa2d11e81a59663b5112b27ffc20e456561d769fd7fb660f0",
+        "sha256": "a42d842e9173c951d3949c7b0a06c854f73c6d9efbe5de692a52ec48ad41e74a",
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "opaque_background_verify_intended_underlay",
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified",
+        "possible_unsplit_sheet"
+      ]
+    },
+    {
+      "id": "INTAKE-d8c049060e0dd02e5a51",
+      "site_id": "b16-01-fortified-harbor-generic",
+      "name": "B16-01_fortified_harbor_generic",
+      "display_title": "B16-01_fortified_harbor_generic",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b16-01-fortified-harbor-generic-d8c049060e0d.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_batch16_generic_landmarks_upload_2026-11-12/B16-01_fortified_harbor_generic.png",
+        "sha256": "565abdf95990b1671f6036369ada59dae41a9022f251adc788b102749b073fd1",
+        "crop_xyxy": [
+          0,
+          0,
+          512,
+          423
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          512,
+          423
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          11,
+          512,
+          412
+        ],
+        "pixel_sha256": "d8c049060e0dd02e5a519a1e7da986c57657e4189feeadc00bb06cda2c84c28d",
+        "sha256": "565abdf95990b1671f6036369ada59dae41a9022f251adc788b102749b073fd1",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-da0073b1136201e647a4",
+      "site_id": "b15-01-harim-castle",
+      "name": "b15-01_harim_castle",
+      "display_title": "b15-01_harim_castle",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b15-01-harim-castle-da0073b11362.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_landmark_batch15_upload_2026-11-12/sprites/b15-01_harim_castle.png",
+        "sha256": "ff17eb34a5692e616e222a09d94265a1074eb77440445b7deefc9e78d0bd67d3",
+        "crop_xyxy": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          512,
+          512
+        ],
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          7,
+          512,
+          496
+        ],
+        "pixel_sha256": "da0073b1136201e647a4244db10f9b099a68fa9d75e5e0b794263530496128d8",
+        "sha256": "ff17eb34a5692e616e222a09d94265a1074eb77440445b7deefc9e78d0bd67d3",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-dddca42c6790b34b00fd",
       "site_id": "romanesque-abbey-precinct",
       "name": "Romanesque abbey precinct",
@@ -2418,6 +6654,194 @@
       "repaint_required": false,
       "review_flags": [
         "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-e3b6a89346ac619b96ac",
+      "site_id": "b16-03-walled-abbey-generic",
+      "name": "B16-03_walled_abbey_generic",
+      "display_title": "B16-03_walled_abbey_generic",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b16-03-walled-abbey-generic-e3b6a89346ac.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_batch16_generic_landmarks_upload_2026-11-12/B16-03_walled_abbey_generic.png",
+        "sha256": "c7cefd3c4baf354e7aba55ea4c9eebbd7cae6fe332b170624b431d6e674c00aa",
+        "crop_xyxy": [
+          0,
+          0,
+          510,
+          434
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          510,
+          434
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          11,
+          11,
+          502,
+          423
+        ],
+        "pixel_sha256": "e3b6a89346ac619b96accc9c97e9e537f5f9d05ecefcacaeede79c262dbc1400",
+        "sha256": "c7cefd3c4baf354e7aba55ea4c9eebbd7cae6fe332b170624b431d6e674c00aa",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-e65323d310e1fbb63d1c",
+      "site_id": "gothic-cathedral-precinct",
+      "name": "Gothic cathedral precinct",
+      "display_title": "Gothic cathedral precinct",
+      "category": "church",
+      "asset": "automated-intake/png/gothic-cathedral-precinct-e65323d310e1.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_15_intake/religious-b15-10-gothic-cathedral-precinct.png",
+        "sha256": "dfc59a659596255e830d34f2d0cebb5d95f8a44327a775b259ba312068fbe5a1",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          329
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "church",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "approved",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          329
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          4,
+          0,
+          384,
+          321
+        ],
+        "pixel_sha256": "e65323d310e1fbb63d1c8b08b5c5d60d3fe5ca677146e6886e8778f3de55ad99",
+        "sha256": "dfc59a659596255e830d34f2d0cebb5d95f8a44327a775b259ba312068fbe5a1",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
         "coordinates_unverified"
       ]
     },
@@ -2606,6 +7030,474 @@
       ]
     },
     {
+      "id": "INTAKE-edfc16350be6504f71c9",
+      "site_id": "batch15-original-six-sprite-sheet",
+      "name": "batch15_original_six_sprite_sheet",
+      "display_title": "batch15_original_six_sprite_sheet",
+      "category": "unclassified",
+      "asset": "automated-intake/png/batch15-original-six-sprite-sheet-edfc16350be6.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusadersmap_landmark_batch15_upload_2026-11-12/source/batch15_original_six_sprite_sheet.png",
+        "sha256": "d89e33739cb9a118c91ebdd3438f55b22e46dcfb2b2fe158bd1683e4d333f682",
+        "crop_xyxy": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1536,
+          1024
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "pixel_sha256": "edfc16350be6504f71c9157848442277cedbbc839f2f604f35c44417af83b7ce",
+        "sha256": "d89e33739cb9a118c91ebdd3438f55b22e46dcfb2b2fe158bd1683e4d333f682",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified",
+        "possible_unsplit_sheet"
+      ]
+    },
+    {
+      "id": "INTAKE-ef259f613924c71a73a2",
+      "site_id": "fortified-cliff-monastery",
+      "name": "Fortified cliff monastery",
+      "display_title": "Fortified cliff monastery",
+      "category": "monastery",
+      "asset": "automated-intake/png/fortified-cliff-monastery-ef259f613924.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_15_intake/religious-b15-05-fortified-cliff-monastery.png",
+        "sha256": "b8cf39a44b6074b7198a07be6b47749d6808a5c64876a5669aaf54eaa46893be",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          322
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "monastery",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "approved",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          322
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          4,
+          7,
+          384,
+          314
+        ],
+        "pixel_sha256": "ef259f613924c71a73a22e4e1ca7fd5d7e75332ab05ccb2d251f0d330f915850",
+        "sha256": "b8cf39a44b6074b7198a07be6b47749d6808a5c64876a5669aaf54eaa46893be",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-ef55ad2566f6a9640cda",
+      "site_id": "fortified-church",
+      "name": "Fortified church",
+      "display_title": "Fortified church",
+      "category": "church",
+      "asset": "automated-intake/png/fortified-church-ef55ad2566f6.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_15_intake/religious-b15-07-fortified-church.png",
+        "sha256": "ffc2c0bfa9f72e33d28bf0e186b398610ac142498c4dbe1704195bf334197d65",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          323
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "church",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "approved",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          323
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          2,
+          8,
+          384,
+          316
+        ],
+        "pixel_sha256": "ef55ad2566f6a9640cda9e6f3a5bd4eb00f265da833f973fc5bc990cee92514d",
+        "sha256": "ffc2c0bfa9f72e33d28bf0e186b398610ac142498c4dbe1704195bf334197d65",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-f5cc1e773542e205ef1e",
+      "site_id": "generic-hillside-aqueduct",
+      "name": "Hillside stone aqueduct",
+      "display_title": "Hillside stone aqueduct",
+      "category": "landmark",
+      "asset": "automated-intake/png/hillside-stone-aqueduct-f5cc1e773542.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_map_batch16_civic_intake/civic-b16-03-hillside-aqueduct.png",
+        "sha256": "8c5bd35efe86b394aefa47cbb4f5a50122d78800bfb97946fb03685efd702561",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          342
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "landmark",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          342
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          1,
+          23,
+          381,
+          307
+        ],
+        "pixel_sha256": "f5cc1e773542e205ef1e2ee55f3866736ffacabbf720ff149591c8fba5e1ad8a",
+        "sha256": "8c5bd35efe86b394aefa47cbb4f5a50122d78800bfb97946fb03685efd702561",
+        "review_flags": [
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-f7e2aa4d87b2bfc4c099",
+      "site_id": "domed-cathedral-compound",
+      "name": "Domed cathedral compound",
+      "display_title": "Domed cathedral compound",
+      "category": "unclassified",
+      "asset": "automated-intake/png/domed-cathedral-compound-f7e2aa4d87b2.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_religious_batch_15_intake/religious-b15-03-domed-cathedral-compound.png",
+        "sha256": "ccde7d7241e8ed84192ce7561fc8132ec60649055718e39c84854f1903e0ca7b",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          318
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "approved",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          318
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          3,
+          7,
+          384,
+          311
+        ],
+        "pixel_sha256": "f7e2aa4d87b2bfc4c099436cfd5d885d6c4888157f1c3ad7bf12a5fc6f13a0cd",
+        "sha256": "ccde7d7241e8ed84192ce7561fc8132ec60649055718e39c84854f1903e0ca7b",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-f8a5901ed2aec513c483",
       "site_id": "multiple-domed-church-compound",
       "name": "Multiple-domed church compound",
@@ -2697,6 +7589,102 @@
       "review_flags": [
         "category_unverified",
         "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-fd807ab99f04b9a7d53b",
+      "site_id": "73-oinousses-cluster-draft",
+      "name": "73_oinousses_cluster_DRAFT",
+      "display_title": "73_oinousses_cluster_DRAFT",
+      "category": "unclassified",
+      "asset": "automated-intake/png/73-oinousses-cluster-draft-fd807ab99f04.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_greek_islands_batch04_draft/batch-04/73_oinousses_cluster_DRAFT.png",
+        "sha256": "25d754f20dd1badf389b6706670eed7354a86da40199cf2fa2f16af0a312b4c7",
+        "crop_xyxy": [
+          0,
+          0,
+          1832,
+          857
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1832,
+          857
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1820,
+          857
+        ],
+        "pixel_sha256": "fd807ab99f04b9a7d53bef9f6f1c2c9bd089176ef92dcc7d8aeb9ba00353900a",
+        "sha256": "25d754f20dd1badf389b6706670eed7354a86da40199cf2fa2f16af0a312b4c7",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
       ]
     }
   ]
