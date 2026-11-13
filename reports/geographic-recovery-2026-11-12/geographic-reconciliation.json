@@ -5,7 +5,7 @@
   "primary_named_sprites_selected": 142,
   "site_matched_named_alternates": 26,
   "newly_sourced_review_castles": 5,
-  "unmatched_named_candidates": 12,
+  "unmatched_named_candidates": 7,
   "water_and_coast_assets_held": 26,
   "decision_counts": {
     "architectural_generic_or_historic_site_review": 46,
@@ -20,16 +20,6 @@
     "water_context_and_historic_rig_qa_required": 6
   },
   "unmatched_named_sites": [
-    {
-      "name": "Lampron Namrun",
-      "source_path": "data/sprites/automated-intake/png/lampron-namrun-0c2dad428341.png",
-      "coordinates": null
-    },
-    {
-      "name": "Toprakkale / Til",
-      "source_path": "data/sprites/automated-intake/png/toprakkale-til-1756fd4761ba.png",
-      "coordinates": null
-    },
     {
       "name": "Qal’at Ja’bar",
       "source_path": "data/sprites/automated-intake/png/qal-at-ja-bar-1fb518a52cdb.png",
@@ -53,21 +43,6 @@
     {
       "name": "Birecik castle",
       "source_path": "data/sprites/automated-intake/png/birecik-castle-553c9c96a91b.png",
-      "coordinates": null
-    },
-    {
-      "name": "Savranda / Servantikar",
-      "source_path": "data/sprites/automated-intake/png/savranda-servantikar-58bc99dbddd6.png",
-      "coordinates": null
-    },
-    {
-      "name": "Ravanda / Ravendel",
-      "source_path": "data/sprites/automated-intake/png/ravanda-ravendel-5ede2f1b3a37.png",
-      "coordinates": null
-    },
-    {
-      "name": "Silifke Seleucia",
-      "source_path": "data/sprites/automated-intake/png/silifke-seleucia-6f325d2804d2.png",
       "coordinates": null
     },
     {

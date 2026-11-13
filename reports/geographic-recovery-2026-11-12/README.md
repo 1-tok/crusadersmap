@@ -4,7 +4,7 @@ Atlas scope: **1095–1571**. Source paintings remain provisional and require hi
 - Named sprites currently selected in renderer: **142**
 - Intake named candidates coincident with existing map primary: **26**
 - Sourced castle candidates in review registry: **5**
-- Remaining named candidates without a map primary or sourced anchor: **12**
+- Remaining named candidates without a map primary or sourced anchor: **7**
 - Shoreline/river assets withheld pending geometric alignment: **26**
 - New unconditional production placements: **0** — duplicate and orientation QA take priority.
 
@@ -23,16 +23,11 @@ Atlas scope: **1095–1571**. Source paintings remain provisional and require hi
 
 ## Named candidates still needing coordinates or primary selection
 
-- Lampron Namrun: sourced_geography_review_placed
-- Toprakkale / Til: sourced_geography_review_placed
 - Qal’at Ja’bar: unlocated_named_historic_site_hold
 - Harran citadel: unlocated_named_historic_site_hold
 - Gökvelioğlu Castle: unlocated_named_historic_site_hold
 - Tumlu Kalesi: unlocated_named_historic_site_hold
 - Birecik castle: unlocated_named_historic_site_hold
-- Savranda / Servantikar: sourced_geography_review_placed
-- Ravanda / Ravendel: sourced_geography_review_placed
-- Silifke Seleucia: sourced_geography_review_placed
 - Qal’at Najm: unlocated_named_historic_site_hold
 - Softa Kalesi: unlocated_named_historic_site_hold
 
