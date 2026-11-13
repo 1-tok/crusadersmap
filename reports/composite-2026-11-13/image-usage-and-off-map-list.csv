@@ -85,9 +85,9 @@ data/sprites/archive-1180/sprites/variants/VAR_tripoli_16up.png,filesystem-disco
 data/sprites/archive-1180/sprites/variants/VAR_tyre_16up.png,filesystem-discovery,unindexed-artwork,VAR_tyre_16up,no,archived earlier version of a site that has a current primary painting
 data/sprites/automated-intake/png/01-nile-delta-lowlands-01cb3de516e7.png,automated-intake,unclassified,01_nile_delta_lowlands,no,large Delta landscape with painted channels (11% water): would clash with the drawn Nile branches
 data/sprites/automated-intake/png/02-levantine-coastal-fields-1942d73828a8.png,automated-intake,unclassified,02_levantine_coastal_fields,no,large landscape with a painted river or marsh (4% water): needs aligning to a real river
-data/sprites/automated-intake/png/03-aegean-greek-lowland-0ea4c93c3a99.png,automated-intake,unclassified,03_aegean_greek_lowland,yes,"large ground tile (aeg land), placed 106 times"
+data/sprites/automated-intake/png/03-aegean-greek-lowland-0ea4c93c3a99.png,automated-intake,unclassified,03_aegean_greek_lowland,yes,"large ground tile (aeg land), placed 120 times"
 data/sprites/automated-intake/png/04-anatolian-river-plain-fa5e9e8ccf18.png,automated-intake,unclassified,04_anatolian_river_plain,no,large landscape with a painted river or marsh (5% water): needs aligning to a real river
-data/sprites/automated-intake/png/05-cyprus-mediterranean-orchards-b466bdd3f8c4.png,automated-intake,unclassified,05_cyprus_mediterranean_orchards,yes,"large ground tile (rich land), placed 8 times"
+data/sprites/automated-intake/png/05-cyprus-mediterranean-orchards-b466bdd3f8c4.png,automated-intake,unclassified,05_cyprus_mediterranean_orchards,yes,"large ground tile (rich land), placed 15 times"
 data/sprites/automated-intake/png/10-nile-delta-floodplain-01-d09277c09f97.png,automated-intake,unclassified,10_nile_delta_floodplain_01,yes,"generic delta piece, placed 3 times"
 data/sprites/automated-intake/png/10-nile-delta-floodplain-02-b92830804030.png,automated-intake,unclassified,10_nile_delta_floodplain_02,yes,"generic delta piece, placed 5 times"
 data/sprites/automated-intake/png/10-nile-delta-floodplain-03-b872b157704e.png,automated-intake,unclassified,10_nile_delta_floodplain_03,yes,"generic delta piece, placed 1 times"
@@ -127,10 +127,10 @@ data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-14-d7
 data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-15-61e92571c016.png,automated-intake,unclassified,11_greek_cyprus_anatolia_levant_lowlands_15,yes,"generic patchg piece, placed 8 times"
 data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-16-66c04c7fb6df.png,automated-intake,unclassified,11_greek_cyprus_anatolia_levant_lowlands_16,no,coast or stream piece (7% water): needs registering to real shoreline or river
 data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-master-a12b43bea6b4.png,automated-intake,unclassified,11_greek_cyprus_anatolia_levant_lowlands_MASTER,no,source sheet or opaque master registered by intake as one image: reference only
-data/sprites/automated-intake/png/25-01-mediterranean-terraced-cultivation-f5bf23740202.png,automated-intake,unclassified,25_01_mediterranean_terraced_cultivation,yes,"large ground tile (rich land), placed 20 times"
-data/sprites/automated-intake/png/25-02-levant-cereal-plot-mosaic-14813c7520a2.png,automated-intake,unclassified,25_02_levant_cereal_plot_mosaic,yes,"large ground tile (rich land), placed 8 times"
-data/sprites/automated-intake/png/25-03-olive-and-grain-transition-effb516f872d.png,automated-intake,unclassified,25_03_olive_and_grain_transition,yes,"large ground tile (rich land), placed 18 times"
-data/sprites/automated-intake/png/25-04-olive-wheat-patchwork-0ad1e4fb90c7.png,automated-intake,unclassified,25_04_olive_wheat_patchwork,yes,"large ground tile (rich land), placed 16 times"
+data/sprites/automated-intake/png/25-01-mediterranean-terraced-cultivation-f5bf23740202.png,automated-intake,unclassified,25_01_mediterranean_terraced_cultivation,yes,"large ground tile (rich land), placed 28 times"
+data/sprites/automated-intake/png/25-02-levant-cereal-plot-mosaic-14813c7520a2.png,automated-intake,unclassified,25_02_levant_cereal_plot_mosaic,yes,"large ground tile (rich land), placed 12 times"
+data/sprites/automated-intake/png/25-03-olive-and-grain-transition-effb516f872d.png,automated-intake,unclassified,25_03_olive_and_grain_transition,yes,"large ground tile (rich land), placed 21 times"
+data/sprites/automated-intake/png/25-04-olive-wheat-patchwork-0ad1e4fb90c7.png,automated-intake,unclassified,25_04_olive_wheat_patchwork,yes,"large ground tile (rich land), placed 24 times"
 data/sprites/automated-intake/png/72-arki-marathi-cluster-draft-9d7fbc4c2d88.png,automated-intake,island-outline,72_arki_marathi_cluster_DRAFT,no,extracted island outline with no registered coordinate box; the registered overlay of the same island is used where one exists
 data/sprites/automated-intake/png/73-oinousses-cluster-draft-fd807ab99f04.png,automated-intake,island-outline,73_oinousses_cluster_DRAFT,no,extracted island outline with no registered coordinate box; the registered overlay of the same island is used where one exists
 data/sprites/automated-intake/png/74-fournoi-cluster-draft-ca98b66a708c.png,automated-intake,island-outline,74_fournoi_cluster_DRAFT,no,extracted island outline with no registered coordinate box; the registered overlay of the same island is used where one exists
@@ -249,10 +249,10 @@ data/sprites/automated-intake/png/b20-02-river-to-marsh-212221222149.png,automat
 data/sprites/automated-intake/png/b20-03-terraced-farmland-hills-2cc9ae56ea3a.png,automated-intake,agriculture,B20-03_terraced_farmland_hills,yes,"generic patchg piece, placed 11 times"
 data/sprites/automated-intake/png/b20-04-broad-reed-marsh-5e68d3606aa8.png,automated-intake,river-marsh,B20-04_broad_reed_marsh,no,"river, marsh or bridge piece: needs aligning to a real river course before use"
 data/sprites/automated-intake/png/b20-05-rocky-foothill-scrub-2c9ebdf7f4fa.png,automated-intake,mountains,B20-05_rocky_foothill_scrub,yes,"generic patchd piece, placed 3 times"
-data/sprites/automated-intake/png/b20-06-dry-steppe-to-foothills-6700ffc32b70.png,automated-intake,arid,B20-06_dry_steppe_to_foothills,yes,"generic patcha piece, placed 9 times"
+data/sprites/automated-intake/png/b20-06-dry-steppe-to-foothills-6700ffc32b70.png,automated-intake,arid,B20-06_dry_steppe_to_foothills,yes,"generic patcha piece, placed 10 times"
 data/sprites/automated-intake/png/b20-07-alpine-forest-to-crags-05de75dadf78.png,automated-intake,mountains,B20-07_alpine_forest_to_crags,yes,"generic patchd piece, placed 3 times"
 data/sprites/automated-intake/png/b20-08-wooded-hills-to-farms-20a69638ee78.png,automated-intake,agriculture,B20-08_wooded_hills_to_farms,yes,"generic patchg piece, placed 11 times"
-data/sprites/automated-intake/png/b20-09-desert-to-rocky-mountains-5089d96695cc.png,automated-intake,arid,B20-09_desert_to_rocky_mountains,yes,"generic patcha piece, placed 11 times"
+data/sprites/automated-intake/png/b20-09-desert-to-rocky-mountains-5089d96695cc.png,automated-intake,arid,B20-09_desert_to_rocky_mountains,yes,"generic patcha piece, placed 12 times"
 data/sprites/automated-intake/png/b21-01-rocky-cove-to-beach-7f450edc6303.png,automated-intake,sea-coast,B21-01_rocky_cove_to_beach,no,coast or shore piece: needs registering to a real stretch of shoreline before use
 data/sprites/automated-intake/png/b21-02-rocky-shore-to-sand-31e838da17cc.png,automated-intake,sea-coast,B21-02_rocky_shore_to_sand,no,coast or shore piece: needs registering to a real stretch of shoreline before use
 data/sprites/automated-intake/png/b21-03-sandy-shore-to-rock-10e51f6889ee.png,automated-intake,religious,B21-03_sandy_shore_to_rock,no,coast or shore piece: needs registering to a real stretch of shoreline before use
@@ -269,14 +269,14 @@ data/sprites/automated-intake/png/b21-13-rural-houses-18a791006882.png,automated
 data/sprites/automated-intake/png/b21-14-rocky-scrub-foothills-23550772dcd8.png,automated-intake,mountains,B21-14_rocky_scrub_foothills,yes,"generic patchd piece, placed 2 times"
 data/sprites/automated-intake/png/b21-15-foothill-to-mountain-551250fcc90e.png,automated-intake,mountains,B21-15_foothill_to_mountain,yes,"generic patchd piece, placed 1 times"
 data/sprites/automated-intake/png/b21-16-alpine-crags-85c6f4aa303e.png,automated-intake,mountains,B21-16_alpine_crags,yes,"generic patchd piece, placed 4 times"
-data/sprites/automated-intake/png/b21-17-arid-rocky-ridges-59848fc848a1.png,automated-intake,arid,B21-17_arid_rocky_ridges,yes,"generic patcha piece, placed 5 times"
+data/sprites/automated-intake/png/b21-17-arid-rocky-ridges-59848fc848a1.png,automated-intake,arid,B21-17_arid_rocky_ridges,yes,"generic patcha piece, placed 6 times"
 data/sprites/automated-intake/png/b21-19-cypress-stand-be81cbfd69dc.png,automated-intake,agriculture,B21-19_cypress_stand,yes,"generic vegg piece, placed 8 times"
 data/sprites/automated-intake/png/b21-20-open-olive-woodland-cfda8dc299c3.png,automated-intake,agriculture,B21-20_open_olive_woodland,yes,"generic vegg piece, placed 7 times"
 data/sprites/automated-intake/png/b21-21-mixed-tree-woods-4c6be4f8ac82.png,automated-intake,woodland,B21-21_mixed_tree_woods,yes,"generic vegd piece, placed 59 times"
 data/sprites/automated-intake/png/b21-23-broad-delta-reeds-98c58ae9967d.png,automated-intake,river-marsh,B21-23_broad_delta_reeds,no,"river, marsh or bridge piece: needs aligning to a real river course before use"
 data/sprites/automated-intake/png/b32-01-01-delta-reed-marsh-4557b0b8173a.png,automated-intake,unclassified,b32_01_01_delta_reed_marsh,yes,"generic delta piece, placed 5 times"
-data/sprites/automated-intake/png/b32-01-02-volcanic-cinder-upland-53dc88200529.png,automated-intake,unclassified,b32_01_02_volcanic_cinder_upland,yes,"generic patcha piece, placed 7 times"
-data/sprites/automated-intake/png/b32-01-03-limestone-escarpment-c4ebc758f9c6.png,automated-intake,unclassified,b32_01_03_limestone_escarpment,yes,"generic patcha piece, placed 10 times"
+data/sprites/automated-intake/png/b32-01-02-volcanic-cinder-upland-53dc88200529.png,automated-intake,unclassified,b32_01_02_volcanic_cinder_upland,no,volcano or basalt piece: removed from the map at Daryl's request
+data/sprites/automated-intake/png/b32-01-03-limestone-escarpment-c4ebc758f9c6.png,automated-intake,unclassified,b32_01_03_limestone_escarpment,yes,"generic patcha piece, placed 9 times"
 data/sprites/automated-intake/png/b32-01-04-river-floodplain-0306e55faca8.png,automated-intake,unclassified,b32_01_04_river_floodplain,no,"river, reed or marsh piece (6% water): needs aligning to real water"
 data/sprites/automated-intake/png/b32-01-05-rocky-low-hills-ae9734b84e3d.png,automated-intake,unclassified,b32_01_05_rocky_low_hills,yes,"generic patchd piece, placed 3 times"
 data/sprites/automated-intake/png/b32-01-06-rocky-coast-3164656cdba8.png,automated-intake,unclassified,b32_01_06_rocky_coast,no,coast or stream piece (11% water): needs registering to real shoreline or river
@@ -285,25 +285,25 @@ data/sprites/automated-intake/png/b32-01-08-heath-transition-c37ee44c10b2.png,au
 data/sprites/automated-intake/png/b32-01-09-coastal-dunes-5e0b2ba938f9.png,automated-intake,unclassified,b32_01_09_coastal_dunes,no,coast or stream piece (1% water): needs registering to real shoreline or river
 data/sprites/automated-intake/png/b32-01-10-wooded-hills-bc21dc01f7c9.png,automated-intake,unclassified,b32_01_10_wooded_hills,yes,"generic patchw piece, placed 2 times"
 data/sprites/automated-intake/png/b32-01-11-marsh-ribbons-7046a45c34bf.png,automated-intake,unclassified,b32_01_11_marsh_ribbons,no,"river, reed or marsh piece (6% water): needs aligning to real water"
-data/sprites/automated-intake/png/b32-01-12-basalt-badlands-e152c0aaa7bd.png,automated-intake,unclassified,b32_01_12_basalt_badlands,yes,"generic patcha piece, placed 9 times"
+data/sprites/automated-intake/png/b32-01-12-basalt-badlands-e152c0aaa7bd.png,automated-intake,unclassified,b32_01_12_basalt_badlands,no,volcano or basalt piece: removed from the map at Daryl's request
 data/sprites/automated-intake/png/b32-02-01-forest-lowland-c03cf9b0b793.png,automated-intake,unclassified,b32_02_01_forest_lowland,yes,"generic patchw piece, placed 3 times"
 data/sprites/automated-intake/png/b32-02-02-limestone-rough-332d519bf32a.png,automated-intake,unclassified,b32_02_02_limestone_rough,yes,"generic patchd piece, placed 4 times"
 data/sprites/automated-intake/png/b32-02-03-mediterranean-maquis-d689503af247.png,automated-intake,unclassified,b32_02_03_mediterranean_maquis,yes,"generic patchd piece, placed 7 times"
-data/sprites/automated-intake/png/b32-02-04-arid-to-green-0b1f8d17f030.png,automated-intake,unclassified,b32_02_04_arid_to_green,yes,"generic patcha piece, placed 8 times"
+data/sprites/automated-intake/png/b32-02-04-arid-to-green-0b1f8d17f030.png,automated-intake,unclassified,b32_02_04_arid_to_green,yes,"generic patcha piece, placed 13 times"
 data/sprites/automated-intake/png/b32-02-05-woodland-copse-213731a4647f.png,automated-intake,unclassified,b32_02_05_woodland_copse,yes,"generic patchw piece, placed 6 times"
 data/sprites/automated-intake/png/b32-02-06-grassy-meadow-ec7f25253ace.png,automated-intake,unclassified,b32_02_06_grassy_meadow,yes,"generic patchg piece, placed 8 times"
 data/sprites/automated-intake/png/b32-02-07-coastal-heath-132bd6deb941.png,automated-intake,unclassified,b32_02_07_coastal_heath,no,coast or stream piece (0% water): needs registering to real shoreline or river
 data/sprites/automated-intake/png/b32-02-08-olive-pasture-cf80c48450c6.png,automated-intake,unclassified,b32_02_08_olive_pasture,yes,"generic patchg piece, placed 7 times"
 data/sprites/automated-intake/png/b32-02-09-pine-mixed-wood-dadd60d0240a.png,automated-intake,unclassified,b32_02_09_pine_mixed_wood,no,generic patchw piece: in the pool but not drawn in this build (random selection)
-data/sprites/automated-intake/png/b32-02-10-dry-scrub-plain-58fea74afe34.png,automated-intake,unclassified,b32_02_10_dry_scrub_plain,yes,"generic patcha piece, placed 9 times"
+data/sprites/automated-intake/png/b32-02-10-dry-scrub-plain-58fea74afe34.png,automated-intake,unclassified,b32_02_10_dry_scrub_plain,yes,"generic patcha piece, placed 11 times"
 data/sprites/automated-intake/png/b32-03-01-nile-cultivated-floodplain-f6f3e51288cc.png,automated-intake,unclassified,b32_03_01_nile_cultivated_floodplain,yes,"generic delta piece, placed 1 times"
 data/sprites/automated-intake/png/b32-03-02-delta-marsh-488163b2716d.png,automated-intake,unclassified,b32_03_02_delta_marsh,yes,"generic delta piece, placed 1 times"
 data/sprites/automated-intake/png/b32-03-03-levant-rocky-coast-a97a6d3d20da.png,automated-intake,unclassified,b32_03_03_levant_rocky_coast,no,coast or stream piece (24% water): needs registering to real shoreline or river
-data/sprites/automated-intake/png/b32-03-04-sinai-dunes-e22df2f96f67.png,automated-intake,unclassified,b32_03_04_sinai_dunes,yes,"generic patcha piece, placed 8 times"
+data/sprites/automated-intake/png/b32-03-04-sinai-dunes-e22df2f96f67.png,automated-intake,unclassified,b32_03_04_sinai_dunes,yes,"generic patcha piece, placed 13 times"
 data/sprites/automated-intake/png/b32-03-05-taurus-wooded-ridge-0ca7b4997673.png,automated-intake,unclassified,b32_03_05_taurus_wooded_ridge,yes,"generic patchd piece, placed 1 times"
-data/sprites/automated-intake/png/b32-03-06-dry-plateau-d4fb19981be3.png,automated-intake,unclassified,b32_03_06_dry_plateau,yes,"generic patcha piece, placed 3 times"
+data/sprites/automated-intake/png/b32-03-06-dry-plateau-d4fb19981be3.png,automated-intake,unclassified,b32_03_06_dry_plateau,yes,"generic patcha piece, placed 8 times"
 data/sprites/automated-intake/png/b32-03-07-wooded-lowland-92d2342a4c0e.png,automated-intake,unclassified,b32_03_07_wooded_lowland,yes,"generic patchw piece, placed 3 times"
-data/sprites/automated-intake/png/b32-03-08-arid-escarpment-7601162ee95b.png,automated-intake,unclassified,b32_03_08_arid_escarpment,yes,"generic patcha piece, placed 10 times"
+data/sprites/automated-intake/png/b32-03-08-arid-escarpment-7601162ee95b.png,automated-intake,unclassified,b32_03_08_arid_escarpment,yes,"generic patcha piece, placed 7 times"
 data/sprites/automated-intake/png/b32-03-09-levant-olive-terraces-7bb2fd5864ac.png,automated-intake,unclassified,b32_03_09_levant_olive_terraces,yes,"generic patchg piece, placed 5 times"
 data/sprites/automated-intake/png/b32-03-10-saline-coastal-flat-d3ec28aabda5.png,automated-intake,unclassified,b32_03_10_saline_coastal_flat,no,coast or stream piece (12% water): needs registering to real shoreline or river
 data/sprites/automated-intake/png/b32-sheet-01-1398bfc72f7b.png,automated-intake,unclassified,b32_sheet_01,no,source sheet or opaque master registered by intake as one image: reference only
@@ -312,11 +312,11 @@ data/sprites/automated-intake/png/b32-sheet-03-26655e858ce9.png,automated-intake
 data/sprites/automated-intake/png/b34-01-eastern-syria-steppe-286f513c5911.png,automated-intake,unclassified,b34_01_eastern_syria_steppe,yes,"large ground tile (waste land), placed 35 times"
 data/sprites/automated-intake/png/b34-02-sinai-negev-mountains-a03fb76a369e.png,automated-intake,unclassified,b34_02_sinai_negev_mountains,yes,"large ground tile (waste land), placed 38 times"
 data/sprites/automated-intake/png/b34-03-taurus-anatolian-forest-belt-844d4eb67f12.png,automated-intake,unclassified,b34_03_taurus_anatolian_forest_belt,yes,"large ground tile (past land), placed 2 times"
-data/sprites/automated-intake/png/b34-04-anti-lebanon-steppe-transition-7287ea3ebcde.png,automated-intake,unclassified,b34_04_anti_lebanon_steppe_transition,yes,"large ground tile (past land), placed 11 times"
-data/sprites/automated-intake/png/b34-05-greek-mainland-countryside-df0b2e8513e9.png,automated-intake,unclassified,b34_05_greek_mainland_countryside,yes,"large ground tile (aeg land), placed 111 times"
-data/sprites/automated-intake/png/b34-06-mediterranean-coastal-margin-563dcf02bc08.png,automated-intake,unclassified,b34_06_mediterranean_coastal_margin,yes,"large ground tile (past land), placed 12 times"
+data/sprites/automated-intake/png/b34-04-anti-lebanon-steppe-transition-7287ea3ebcde.png,automated-intake,unclassified,b34_04_anti_lebanon_steppe_transition,yes,"large ground tile (past land), placed 12 times"
+data/sprites/automated-intake/png/b34-05-greek-mainland-countryside-df0b2e8513e9.png,automated-intake,unclassified,b34_05_greek_mainland_countryside,yes,"large ground tile (aeg land), placed 127 times"
+data/sprites/automated-intake/png/b34-06-mediterranean-coastal-margin-563dcf02bc08.png,automated-intake,unclassified,b34_06_mediterranean_coastal_margin,yes,"large ground tile (past land), placed 13 times"
 data/sprites/automated-intake/png/b34-07-egyptian-desert-escarpment-6299e11b3134.png,automated-intake,unclassified,b34_07_egyptian_desert_escarpment,yes,"large ground tile (waste land), placed 41 times"
-data/sprites/automated-intake/png/b34-08-mediterranean-island-interior-0fe4f25c3a6e.png,automated-intake,unclassified,b34_08_mediterranean_island_interior,yes,"large ground tile (aeg land), placed 132 times"
+data/sprites/automated-intake/png/b34-08-mediterranean-island-interior-0fe4f25c3a6e.png,automated-intake,unclassified,b34_08_mediterranean_island_interior,yes,"large ground tile (aeg land), placed 148 times"
 data/sprites/automated-intake/png/batch07-original-sheet-9a020ec6bbe5.png,automated-intake,unclassified,batch07_original_sheet,no,source sheet or opaque master registered by intake as one image: reference only
 data/sprites/automated-intake/png/batch10-source-sheet-85c492df82d4.png,automated-intake,source-master,batch10_source_sheet,no,"source sheet: reference only, never placed"
 data/sprites/automated-intake/png/batch11-original-sheet-118021ffb6db.png,automated-intake,unclassified,batch11_original_sheet,no,source sheet or opaque master registered by intake as one image: reference only
@@ -363,12 +363,12 @@ data/sprites/automated-intake/png/domed-rotunda-and-church-group-a8e135625a20.pn
 data/sprites/automated-intake/png/domed-walled-religious-precinct-0731ce87a8f3.png,automated-intake,religious,Domed walled religious precinct,no,generic religious or civic building with no matching unpainted site on the map
 data/sprites/automated-intake/png/famagusta-concept-117cbef6d89f.png,automated-intake,unclassified,famagusta-concept,no,"orientation concept sketch (768 px wide strip), superseded by the south-view repaints"
 data/sprites/automated-intake/png/famagusta-concept-repaint-required-458807eb878e.png,automated-intake,unclassified,famagusta-concept-repaint-required,no,marked repaint-required by its own file name
-data/sprites/automated-intake/png/farming-01-dry-levant-grain-53b1e0cd255c.png,automated-intake,unclassified,farming_01_dry_levant_grain,yes,"large ground tile (rich land), placed 13 times"
-data/sprites/automated-intake/png/farming-02-meadow-lowland-2185ecf124f9.png,automated-intake,unclassified,farming_02_meadow_lowland,yes,"large ground tile (rich land), placed 12 times"
-data/sprites/automated-intake/png/farming-03-field-woodland-transition-e9a31fa91e29.png,automated-intake,unclassified,farming_03_field_woodland_transition,yes,"large ground tile (rich land), placed 12 times"
-data/sprites/automated-intake/png/farming-04-nile-floodplain-057828f18d3b.png,automated-intake,unclassified,farming_04_nile_floodplain,yes,"large ground tile (flat land), placed 22 times"
-data/sprites/automated-intake/png/farming-05-mediterranean-olive-orchards-e0cbd1d9fd9f.png,automated-intake,unclassified,farming_05_mediterranean_olive_orchards,yes,"large ground tile (rich land), placed 11 times"
-data/sprites/automated-intake/png/farming-06-broad-grain-patchwork-ab31c931fc60.png,automated-intake,unclassified,farming_06_broad_grain_patchwork,yes,"large ground tile (rich land), placed 17 times"
+data/sprites/automated-intake/png/farming-01-dry-levant-grain-53b1e0cd255c.png,automated-intake,unclassified,farming_01_dry_levant_grain,yes,"large ground tile (rich land), placed 20 times"
+data/sprites/automated-intake/png/farming-02-meadow-lowland-2185ecf124f9.png,automated-intake,unclassified,farming_02_meadow_lowland,yes,"large ground tile (rich land), placed 18 times"
+data/sprites/automated-intake/png/farming-03-field-woodland-transition-e9a31fa91e29.png,automated-intake,unclassified,farming_03_field_woodland_transition,yes,"large ground tile (rich land), placed 23 times"
+data/sprites/automated-intake/png/farming-04-nile-floodplain-057828f18d3b.png,automated-intake,unclassified,farming_04_nile_floodplain,yes,"large ground tile (flat land), placed 34 times"
+data/sprites/automated-intake/png/farming-05-mediterranean-olive-orchards-e0cbd1d9fd9f.png,automated-intake,unclassified,farming_05_mediterranean_olive_orchards,yes,"large ground tile (rich land), placed 18 times"
+data/sprites/automated-intake/png/farming-06-broad-grain-patchwork-ab31c931fc60.png,automated-intake,unclassified,farming_06_broad_grain_patchwork,yes,"large ground tile (rich land), placed 24 times"
 data/sprites/automated-intake/png/feke-vahga-5df9cdf9a419.png,automated-intake,named-candidate,Feke (Vahga),no,alternate variant; primary is data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png
 data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png,automated-intake,named-candidate,Feke / Vahka,yes,dedicated painting for Vahka
 data/sprites/automated-intake/png/fishing-hamlet-and-net-racks-2e1317eda9b3.png,automated-intake,generic-town,Fishing hamlet and net racks,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
@@ -409,10 +409,10 @@ data/sprites/automated-intake/png/korykos-mainland-fortress-18ea360bf9de.png,aut
 data/sprites/automated-intake/png/kyrenia-concept-480f2fbf41a9.png,automated-intake,unclassified,kyrenia-concept,no,"orientation concept sketch (768 px wide strip), superseded by the south-view repaints"
 data/sprites/automated-intake/png/kyrenia-north-harbor-provisional-bee04d091791.png,automated-intake,unclassified,kyrenia_north_harbor_provisional,yes,dedicated painting for Cerines
 data/sprites/automated-intake/png/lampron-namrun-0c2dad428341.png,automated-intake,named-candidate,Lampron Namrun,no,named fortress candidate with no coordinates or matched site in the repository
-data/sprites/automated-intake/png/large-01-grain-field-patchwork-dbc9aa61b09c.png,automated-intake,unclassified,large_01_grain_field_patchwork,yes,"large ground tile (rich land), placed 13 times"
-data/sprites/automated-intake/png/large-02-mediterranean-terraced-orchards-1e433bd2ee4e.png,automated-intake,unclassified,large_02_mediterranean_terraced_orchards,yes,"large ground tile (rich land), placed 11 times"
-data/sprites/automated-intake/png/large-03-mixed-olive-vineyard-fields-65f768aeb9e7.png,automated-intake,unclassified,large_03_mixed_olive_vineyard_fields,yes,"large ground tile (rich land), placed 10 times"
-data/sprites/automated-intake/png/large-04-broad-lowland-grain-43273ed0aaec.png,automated-intake,unclassified,large_04_broad_lowland_grain,yes,"large ground tile (rich land), placed 10 times"
+data/sprites/automated-intake/png/large-01-grain-field-patchwork-dbc9aa61b09c.png,automated-intake,unclassified,large_01_grain_field_patchwork,yes,"large ground tile (rich land), placed 18 times"
+data/sprites/automated-intake/png/large-02-mediterranean-terraced-orchards-1e433bd2ee4e.png,automated-intake,unclassified,large_02_mediterranean_terraced_orchards,yes,"large ground tile (rich land), placed 15 times"
+data/sprites/automated-intake/png/large-03-mixed-olive-vineyard-fields-65f768aeb9e7.png,automated-intake,unclassified,large_03_mixed_olive_vineyard_fields,yes,"large ground tile (rich land), placed 15 times"
+data/sprites/automated-intake/png/large-04-broad-lowland-grain-43273ed0aaec.png,automated-intake,unclassified,large_04_broad_lowland_grain,yes,"large ground tile (rich land), placed 15 times"
 data/sprites/automated-intake/png/limestone-quarry-9ad914c36ae9.png,automated-intake,rural-infrastructure,Limestone quarry,yes,"generic past piece, placed 5 times"
 data/sprites/automated-intake/png/margat-review-d1fe5f1d484b.png,automated-intake,unclassified,margat_review,yes,dedicated painting for Margat
 data/sprites/automated-intake/png/masyaf-a20a8f7f9045.png,automated-intake,named-candidate,Masyaf,no,alternate variant; primary is data/sprites/fortress-batch13-review/png/masyaf-1180-provisional-v1.png
@@ -453,13 +453,13 @@ data/sprites/automated-intake/png/source-sheet-original-rgb-f1f3092613cf.png,aut
 data/sprites/automated-intake/png/source-sheet-rgb-5b2a13258403.png,automated-intake,unclassified,source_sheet_rgb,no,source sheet or opaque master registered by intake as one image: reference only
 data/sprites/automated-intake/png/stone-sheepfold-c4d44b5c2e6c.png,automated-intake,rural-infrastructure,Stone sheepfold,yes,"generic past piece, placed 5 times"
 data/sprites/automated-intake/png/t26-01-taurus-amanus-mountain-1b625f7e44d9.png,automated-intake,unclassified,t26_01_taurus_amanus_mountain,yes,"large ground tile (past land), placed 10 times"
-data/sprites/automated-intake/png/t26-02-lebanon-mountain-0cc98a7df28b.png,automated-intake,unclassified,t26_02_lebanon_mountain,yes,"large ground tile (past land), placed 9 times"
+data/sprites/automated-intake/png/t26-02-lebanon-mountain-0cc98a7df28b.png,automated-intake,unclassified,t26_02_lebanon_mountain,yes,"large ground tile (past land), placed 10 times"
 data/sprites/automated-intake/png/t26-03-taurus-ridge-variant-028f36b450e8.png,automated-intake,unclassified,t26_03_taurus_ridge_variant,yes,"generic patchd piece, placed 6 times"
 data/sprites/automated-intake/png/t26-04-lebanon-foothill-waterfall-ddbd7d30ec68.png,automated-intake,unclassified,t26_04_lebanon_foothill_waterfall,no,"river, reed or marsh piece (2% water): needs aligning to real water"
 data/sprites/automated-intake/png/t26-05-transjordan-rocky-steppe-4267b583da8f.png,automated-intake,unclassified,t26_05_transjordan_rocky_steppe,yes,"generic patchd piece, placed 3 times"
 data/sprites/automated-intake/png/t26-06-orontes-river-valley-004b5ae79a2b.png,automated-intake,unclassified,t26_06_orontes_river_valley,no,"river, reed or marsh piece (3% water): needs aligning to real water"
 data/sprites/automated-intake/png/t26-07-nile-delta-cultivation-46cec1a772f3.png,automated-intake,unclassified,t26_07_nile_delta_cultivation,yes,"generic delta piece, placed 2 times"
-data/sprites/automated-intake/png/t26-08-sinai-negev-arid-ridges-f201af77c113.png,automated-intake,unclassified,t26_08_sinai_negev_arid_ridges,yes,"generic patcha piece, placed 1 times"
+data/sprites/automated-intake/png/t26-08-sinai-negev-arid-ridges-f201af77c113.png,automated-intake,unclassified,t26_08_sinai_negev_arid_ridges,yes,"generic patcha piece, placed 4 times"
 data/sprites/automated-intake/png/t27-01-coastal-sandy-shore-00f3fa955902.png,automated-intake,unclassified,t27_01_coastal_sandy_shore,no,coast or stream piece (13% water): needs registering to real shoreline or river
 data/sprites/automated-intake/png/t27-02-reed-marsh-transition-c7539191e6c9.png,automated-intake,unclassified,t27_02_reed_marsh_transition,no,"river, reed or marsh piece (20% water): needs aligning to real water"
 data/sprites/automated-intake/png/t27-03-wooded-riverbank-f1145a58e082.png,automated-intake,unclassified,t27_03_wooded_riverbank,no,"river, reed or marsh piece (7% water): needs aligning to real water"
@@ -469,11 +469,11 @@ data/sprites/automated-intake/png/t27-06-orchard-and-vineyard-1bb062333c85.png,a
 data/sprites/automated-intake/png/t27-07-flowering-heath-85e88b9302bf.png,automated-intake,unclassified,t27_07_flowering_heath,yes,"generic patchd piece, placed 4 times"
 data/sprites/automated-intake/png/t27-08-limestone-uplands-00c347295e20.png,automated-intake,unclassified,t27_08_limestone_uplands,yes,"generic patchd piece, placed 9 times"
 data/sprites/automated-intake/png/t27-09-open-rocky-steppe-ed937c26da6e.png,automated-intake,unclassified,t27_09_open_rocky_steppe,yes,"generic patchd piece, placed 4 times"
-data/sprites/automated-intake/png/t27-10-palm-sand-oasis-aab31257d10a.png,automated-intake,unclassified,t27_10_palm_sand_oasis,yes,"generic patcha piece, placed 7 times"
+data/sprites/automated-intake/png/t27-10-palm-sand-oasis-aab31257d10a.png,automated-intake,unclassified,t27_10_palm_sand_oasis,yes,"generic patcha piece, placed 10 times"
 data/sprites/automated-intake/png/t27-11-alpine-ridge-d61511fc6635.png,automated-intake,unclassified,t27_11_alpine_ridge,yes,"generic patchd piece, placed 6 times"
 data/sprites/automated-intake/png/t27-12-rocky-foothill-02440f41c0e4.png,automated-intake,unclassified,t27_12_rocky_foothill,yes,"generic patchd piece, placed 6 times"
-data/sprites/automated-intake/png/t27-13-dry-dune-oasis-03f59129048e.png,automated-intake,unclassified,t27_13_dry_dune_oasis,yes,"generic patcha piece, placed 12 times"
-data/sprites/automated-intake/png/t27-14-arid-plateau-1ae241c9a112.png,automated-intake,unclassified,t27_14_arid_plateau,yes,"generic patcha piece, placed 10 times"
+data/sprites/automated-intake/png/t27-13-dry-dune-oasis-03f59129048e.png,automated-intake,unclassified,t27_13_dry_dune_oasis,yes,"generic patcha piece, placed 6 times"
+data/sprites/automated-intake/png/t27-14-arid-plateau-1ae241c9a112.png,automated-intake,unclassified,t27_14_arid_plateau,yes,"generic patcha piece, placed 8 times"
 data/sprites/automated-intake/png/t27-15-wooded-rocky-slope-e261e051f6f0.png,automated-intake,unclassified,t27_15_wooded_rocky_slope,no,generic patchw piece: in the pool but not drawn in this build (random selection)
 data/sprites/automated-intake/png/t27-16-shallow-reed-marsh-0a5d76f9f992.png,automated-intake,unclassified,t27_16_shallow_reed_marsh,no,"river, reed or marsh piece (9% water): needs aligning to real water"
 data/sprites/automated-intake/png/t27-17-pasture-mosaic-d4c3946de4a5.png,automated-intake,unclassified,t27_17_pasture_mosaic,yes,"generic patchg piece, placed 15 times"
@@ -494,28 +494,28 @@ data/sprites/automated-intake/png/t28-09-broadleaf-woodland-transition-5aa3d8427
 data/sprites/automated-intake/png/t28-10-rocky-cedar-woodland-dc96db2fbd08.png,automated-intake,unclassified,t28_10_rocky_cedar_woodland,yes,"generic patchw piece, placed 2 times"
 data/sprites/automated-intake/png/t28-11-olive-slope-transition-ac092292595d.png,automated-intake,unclassified,t28_11_olive_slope_transition,yes,"generic patchg piece, placed 8 times"
 data/sprites/automated-intake/png/t28-12-citrus-orchard-margin-14709b3e7fab.png,automated-intake,unclassified,t28_12_citrus_orchard_margin,yes,"generic patchg piece, placed 7 times"
-data/sprites/automated-intake/png/t29-01-watercolor-medieval-agricultural-landscape-map-246c6cc7347d.png,automated-intake,unclassified,t29_01_watercolor_medieval_agricultural_landscape_map,yes,"large ground tile (rich land), placed 19 times"
-data/sprites/automated-intake/png/t29-02-hand-painted-mediterranean-terrain-map-cc1266f1fce8.png,automated-intake,unclassified,t29_02_hand_painted_mediterranean_terrain_map,yes,"large ground tile (rich land), placed 12 times"
-data/sprites/automated-intake/png/t29-03-mediterranean-orchard-map-terrain-1f4711f00590.png,automated-intake,unclassified,t29_03_mediterranean_orchard_map_terrain,yes,"large ground tile (rich land), placed 11 times"
-data/sprites/automated-intake/png/t29-04-medieval-greenwood-island-map-6764aad7ad05.png,automated-intake,unclassified,t29_04_medieval_greenwood_island_map,yes,"large ground tile (aeg land), placed 107 times"
+data/sprites/automated-intake/png/t29-01-watercolor-medieval-agricultural-landscape-map-246c6cc7347d.png,automated-intake,unclassified,t29_01_watercolor_medieval_agricultural_landscape_map,yes,"large ground tile (rich land), placed 27 times"
+data/sprites/automated-intake/png/t29-02-hand-painted-mediterranean-terrain-map-cc1266f1fce8.png,automated-intake,unclassified,t29_02_hand_painted_mediterranean_terrain_map,yes,"large ground tile (rich land), placed 15 times"
+data/sprites/automated-intake/png/t29-03-mediterranean-orchard-map-terrain-1f4711f00590.png,automated-intake,unclassified,t29_03_mediterranean_orchard_map_terrain,yes,"large ground tile (rich land), placed 17 times"
+data/sprites/automated-intake/png/t29-04-medieval-greenwood-island-map-6764aad7ad05.png,automated-intake,unclassified,t29_04_medieval_greenwood_island_map,yes,"large ground tile (aeg land), placed 127 times"
 data/sprites/automated-intake/png/t29-05-watercolor-medieval-marshland-map-cutout-fdfe2724c96c.png,automated-intake,unclassified,t29_05_watercolor_medieval_marshland_map_cutout,no,large marsh landscape: needs fitting to a real marsh
 data/sprites/automated-intake/png/t29-06-medieval-rocky-steppe-terrain-map-257ff6898c88.png,automated-intake,unclassified,t29_06_medieval_rocky_steppe_terrain_map,yes,"large ground tile (past land), placed 14 times"
 data/sprites/automated-intake/png/t30-01-dry-to-green-foothills-2e35d7ee173b.png,automated-intake,unclassified,t30_01_dry_to_green_foothills,yes,"large ground tile (past land), placed 6 times"
 data/sprites/automated-intake/png/t30-02-river-to-arid-plain-7934ae46f9c4.png,automated-intake,unclassified,t30_02_river_to_arid_plain,no,large landscape with a painted river or marsh (9% water): needs aligning to a real river
-data/sprites/automated-intake/png/t31-01-mediterranean-maquis-scrub-eae276d4f2ab.png,automated-intake,unclassified,t31_01_mediterranean_maquis_scrub,yes,"large ground tile (past land), placed 12 times"
+data/sprites/automated-intake/png/t31-01-mediterranean-maquis-scrub-eae276d4f2ab.png,automated-intake,unclassified,t31_01_mediterranean_maquis_scrub,yes,"large ground tile (past land), placed 13 times"
 data/sprites/automated-intake/png/t31-02-forest-to-meadow-2cf90ea5e023.png,automated-intake,unclassified,t31_02_forest_to_meadow,yes,"large ground tile (past land), placed 12 times"
-data/sprites/automated-intake/png/t31-03-dry-to-green-steppe-00fd1c929b48.png,automated-intake,unclassified,t31_03_dry_to_green_steppe,yes,"large ground tile (past land), placed 9 times"
-data/sprites/automated-intake/png/t31-04-limestone-scrub-plain-593e7f4d0d64.png,automated-intake,unclassified,t31_04_limestone_scrub_plain,yes,"large ground tile (past land), placed 8 times"
+data/sprites/automated-intake/png/t31-03-dry-to-green-steppe-00fd1c929b48.png,automated-intake,unclassified,t31_03_dry_to_green_steppe,yes,"large ground tile (past land), placed 10 times"
+data/sprites/automated-intake/png/t31-04-limestone-scrub-plain-593e7f4d0d64.png,automated-intake,unclassified,t31_04_limestone_scrub_plain,yes,"large ground tile (past land), placed 9 times"
 data/sprites/automated-intake/png/t33-01-taurus-foothill-transition-6769e1768d92.png,automated-intake,unclassified,t33_01_taurus_foothill_transition,yes,"large ground tile (past land), placed 8 times"
-data/sprites/automated-intake/png/t33-02-nile-delta-reeds-fields-c3a3c1114e90.png,automated-intake,unclassified,t33_02_nile_delta_reeds_fields,yes,"large ground tile (flat land), placed 20 times"
-data/sprites/automated-intake/png/t33-03-river-margin-dry-farmland-b8aa92b21dce.png,automated-intake,unclassified,t33_03_river_margin_dry_farmland,yes,"large ground tile (rich land), placed 13 times"
-data/sprites/automated-intake/png/t33-04-transjordan-limestone-escarpment-41ecb074d632.png,automated-intake,unclassified,t33_04_transjordan_limestone_escarpment,yes,"large ground tile (past land), placed 11 times"
+data/sprites/automated-intake/png/t33-02-nile-delta-reeds-fields-c3a3c1114e90.png,automated-intake,unclassified,t33_02_nile_delta_reeds_fields,yes,"large ground tile (flat land), placed 27 times"
+data/sprites/automated-intake/png/t33-03-river-margin-dry-farmland-b8aa92b21dce.png,automated-intake,unclassified,t33_03_river_margin_dry_farmland,yes,"large ground tile (rich land), placed 22 times"
+data/sprites/automated-intake/png/t33-04-transjordan-limestone-escarpment-41ecb074d632.png,automated-intake,unclassified,t33_04_transjordan_limestone_escarpment,yes,"large ground tile (past land), placed 13 times"
 data/sprites/automated-intake/png/t35-01-long-coastal-dune-scrub-413c976065ef.png,automated-intake,unclassified,t35_01_long_coastal_dune_scrub,no,large landscape with a painted river or marsh (9% water): needs aligning to a real river
 data/sprites/automated-intake/png/t35-02-very-wide-gravel-steppe-c5e19a2f4530.png,automated-intake,unclassified,t35_02_very_wide_gravel_steppe,yes,"large ground tile (waste land), placed 44 times"
 data/sprites/automated-intake/png/t35-03-limestone-ridge-to-steppe-503f4a5bba57.png,automated-intake,unclassified,t35_03_limestone_ridge_to_steppe,yes,"large ground tile (past land), placed 8 times"
 data/sprites/automated-intake/png/t35-04-sinai-negev-sandstone-mountains-200aa3d4af2e.png,automated-intake,unclassified,t35_04_sinai_negev_sandstone_mountains,yes,"large ground tile (waste land), placed 51 times"
 data/sprites/automated-intake/png/t35-05-long-anatolian-forest-mountain-belt-5153834b7b35.png,automated-intake,unclassified,t35_05_long_anatolian_forest_mountain_belt,yes,"large ground tile (past land), placed 8 times"
-data/sprites/automated-intake/png/t35-06-greek-mainland-foothills-fields-c3ad074018b6.png,automated-intake,unclassified,t35_06_greek_mainland_foothills_fields,yes,"large ground tile (aeg land), placed 110 times"
+data/sprites/automated-intake/png/t35-06-greek-mainland-foothills-fields-c3ad074018b6.png,automated-intake,unclassified,t35_06_greek_mainland_foothills_fields,yes,"large ground tile (aeg land), placed 122 times"
 data/sprites/automated-intake/png/tannery-and-dyeing-yard-cc450cd249e3.png,automated-intake,unclassified,Tannery and dyeing yard,no,failed transparency: a checkerboard is painted into the background; needs re-export with real alpha
 data/sprites/automated-intake/png/tartus-1180-south-view-review-v1-811e0599d5e4.png,automated-intake,unclassified,tartus_1180_south_view_review_v1,yes,dedicated painting for Tortose
 data/sprites/automated-intake/png/terraced-vineyard-estate-c4ca6e27b3b4.png,automated-intake,agriculture,Terraced vineyard estate,yes,"generic green piece, placed 5 times"
@@ -962,20 +962,20 @@ data/sprites/rural-landscapes/png/CSV-094.png,rural-landscapes,rural-landscape,p
 data/sprites/rural-landscapes/png/CSV-095.png,rural-landscapes,rural-landscape,small upland hamlets,yes,"regional landscape tile, placed 2 times"
 data/sprites/rural-landscapes/png/CSV-096.png,rural-landscapes,rural-landscape,small villages among waterways,no,regional landscape with painted sea or river: would clash with the real coast and rivers
 data/sprites/rural-landscapes/png/CSV-097.png,rural-landscapes,rural-landscape,dispersed coastal dwellings,no,regional landscape with painted sea or river: would clash with the real coast and rivers
-data/sprites/rural-landscapes/png/CSV-098.png,rural-landscapes,rural-landscape,isolated farms and hamlets,yes,"regional landscape tile, placed 2 times"
-data/sprites/rural-landscapes/png/CSV-099.png,rural-landscapes,rural-landscape,sparse mountain outposts,yes,"regional landscape tile, placed 2 times"
+data/sprites/rural-landscapes/png/CSV-098.png,rural-landscapes,rural-landscape,isolated farms and hamlets,yes,"regional landscape tile, placed 4 times"
+data/sprites/rural-landscapes/png/CSV-099.png,rural-landscapes,rural-landscape,sparse mountain outposts,yes,"regional landscape tile, placed 3 times"
 data/sprites/rural-landscapes/png/CSV-100.png,rural-landscapes,rural-landscape,small irrigated hamlet,yes,"regional landscape tile, placed 2 times"
 data/sprites/rural-landscapes/png/CSV-101.png,rural-landscapes,rural-landscape,tiny coastal settlement,no,regional landscape with painted sea or river: would clash with the real coast and rivers
 data/sprites/rural-landscapes/png/CSV-102.png,rural-landscapes,rural-landscape,tent camp and distant ruins,yes,"regional landscape tile, placed 2 times"
 data/sprites/rural-landscapes/png/CSV-103.png,rural-landscapes,rural-landscape,isolated houses among terraces,yes,"regional landscape tile, placed 2 times"
 data/sprites/rural-landscapes/png/CSV-104.png,rural-landscapes,rural-landscape,small waterside farmsteads,no,regional landscape with painted sea or river: would clash with the real coast and rivers
 data/sprites/rural-landscapes/png/CSV-105.png,rural-landscapes,rural-landscape,isolated tower and shelters,yes,"regional landscape tile, placed 2 times"
-data/sprites/rural-landscapes/png/CSV-106.png,rural-landscapes,rural-landscape,scattered shepherd farms,no,regional landscape tile in the pool but not drawn in this build
+data/sprites/rural-landscapes/png/CSV-106.png,rural-landscapes,rural-landscape,scattered shepherd farms,yes,"regional landscape tile, placed 1 times"
 data/sprites/rural-landscapes/png/CSV-107.png,rural-landscapes,rural-landscape,isolated chapels and hamlets,yes,"regional landscape tile, placed 3 times"
 data/sprites/rural-landscapes/png/CSV-108.png,rural-landscapes,rural-landscape,tiny riverbank farms,no,regional landscape with painted sea or river: would clash with the real coast and rivers
 data/sprites/rural-landscapes/png/CSV-109.png,rural-landscapes,rural-landscape,isolated coastal towers,no,regional landscape with painted sea or river: would clash with the real coast and rivers
 data/sprites/rural-landscapes/png/CSV-110.png,rural-landscapes,rural-landscape,small farms among harvested fields,yes,"regional landscape tile, placed 1 times"
-data/sprites/rural-landscapes/png/CSV-111.png,rural-landscapes,rural-landscape,small outpost and farms,yes,"regional landscape tile, placed 2 times"
+data/sprites/rural-landscapes/png/CSV-111.png,rural-landscapes,rural-landscape,small outpost and farms,yes,"regional landscape tile, placed 3 times"
 data/sprites/rural-landscapes/png/CSV-112.png,rural-landscapes,rural-landscape,few houses among palms,yes,"regional landscape tile, placed 1 times"
 data/sprites/rural-landscapes/png/CSV-113.png,rural-landscapes,rural-landscape,tiny village and moored boats,no,regional landscape with painted sea or river: would clash with the real coast and rivers
 data/sprites/rural-landscapes/png/CSV-114.png,rural-landscapes,rural-landscape,small tent waystation,yes,"regional landscape tile, placed 4 times"
@@ -988,7 +988,7 @@ data/sprites/sources/levant-atlas.png,filesystem-discovery,unindexed-artwork,lev
 data/sprites/terrain-batch05/aegean_olive_terraces.png,filesystem-discovery,unindexed-artwork,aegean_olive_terraces,yes,"generic patchg piece, placed 9 times"
 data/sprites/terrain-batch05/aegean_spring_maquis.png,filesystem-discovery,unindexed-artwork,aegean_spring_maquis,yes,"generic patchd piece, placed 4 times"
 data/sprites/terrain-batch05/anatolian_steppe_sward.png,filesystem-discovery,unindexed-artwork,anatolian_steppe_sward,yes,"generic patchd piece, placed 4 times"
-data/sprites/terrain-batch05/arid_scrub_transition_band.png,filesystem-discovery,unindexed-artwork,arid_scrub_transition_band,yes,"generic patcha piece, placed 6 times"
+data/sprites/terrain-batch05/arid_scrub_transition_band.png,filesystem-discovery,unindexed-artwork,arid_scrub_transition_band,yes,"generic patcha piece, placed 7 times"
 data/sprites/terrain-batch05/canaan_scrub_steppe_edge.png,filesystem-discovery,unindexed-artwork,canaan_scrub_steppe_edge,yes,"generic patchd piece, placed 4 times"
 data/sprites/terrain-batch05/cilician_grain_farms.png,filesystem-discovery,unindexed-artwork,cilician_grain_farms,yes,"generic patchg piece, placed 10 times"
 data/sprites/terrain-batch05/cultivated_terrace_band.png,filesystem-discovery,unindexed-artwork,cultivated_terrace_band,yes,"generic patchg piece, placed 8 times"
@@ -1003,7 +1003,7 @@ data/sprites/terrain-batch05/syrian_dry_wadi.png,filesystem-discovery,unindexed-
 data/sprites/terrain-batch05/taurus_wooded_ridge.png,filesystem-discovery,unindexed-artwork,taurus_wooded_ridge,yes,"generic patchw piece, placed 3 times"
 data/sprites/terrain-batch05/terrain_batch05_atlas_rgba.png,filesystem-discovery,unindexed-artwork,terrain_batch05_atlas_rgba,no,"atlas sheet: reference only, the individual cut-outs are used"
 data/sprites/terrain-batch05/thrace_broadleaf_woodland.png,filesystem-discovery,unindexed-artwork,thrace_broadleaf_woodland,yes,"generic patchw piece, placed 6 times"
-data/sprites/terrain-batch05/transjordan_rock_pavement.png,filesystem-discovery,unindexed-artwork,transjordan_rock_pavement,yes,"generic patcha piece, placed 11 times"
+data/sprites/terrain-batch05/transjordan_rock_pavement.png,filesystem-discovery,unindexed-artwork,transjordan_rock_pavement,yes,"generic patcha piece, placed 12 times"
 data/sprites/terrain-batch06/t06_a01_aegean_cypress_limestone_hill.png,terrain-batch06,terrain-cutout,aegean_cypress_limestone_hill,yes,"generic patchd piece, placed 2 times"
 data/sprites/terrain-batch06/t06_a02_aegean_sparse_rock_scrub.png,terrain-batch06,terrain-cutout,aegean_sparse_rock_scrub,yes,"generic patchd piece, placed 5 times"
 data/sprites/terrain-batch06/t06_a03_balkan_broadleaf_forest_copse.png,terrain-batch06,terrain-cutout,balkan_broadleaf_forest_copse,yes,"generic patchw piece, placed 4 times"
@@ -1020,10 +1020,10 @@ data/sprites/terrain-batch06/t06_a13_delta_broad_reed_mosaic.png,terrain-batch06
 data/sprites/terrain-batch06/t06_a14_orontes_lowland_stream.png,terrain-batch06,terrain-cutout,orontes_lowland_stream,no,"river, reed or marsh piece: needs aligning to real water before use"
 data/sprites/terrain-batch06/t06_a15_egypt_palm_oasis_grove.png,terrain-batch06,terrain-cutout,egypt_palm_oasis_grove,yes,"generic oasis piece, placed 9 times"
 data/sprites/terrain-batch06/t06_a16_egypt_sand_dune_cluster.png,terrain-batch06,terrain-cutout,egypt_sand_dune_cluster,yes,"generic patcha piece, placed 8 times"
-data/sprites/terrain-batch06/t06_a17_syrian_red_broken_badlands.png,terrain-batch06,terrain-cutout,syrian_red_broken_badlands,yes,"generic patcha piece, placed 12 times"
+data/sprites/terrain-batch06/t06_a17_syrian_red_broken_badlands.png,terrain-batch06,terrain-cutout,syrian_red_broken_badlands,yes,"generic patcha piece, placed 15 times"
 data/sprites/terrain-batch06/t06_a18_canaan_pale_limestone_mounds.png,terrain-batch06,terrain-cutout,canaan_pale_limestone_mounds,no,generic patchd piece: in the pool but not drawn in this build (random selection)
 data/sprites/terrain-batch06/t06_a19_taurus_cedar_cliff_ledge.png,terrain-batch06,terrain-cutout,taurus_cedar_cliff_ledge,yes,"generic patchw piece, placed 3 times"
-data/sprites/terrain-batch06/t06_a20_anatolia_red_brown_volcanic_buttress.png,terrain-batch06,terrain-cutout,anatolia_red_brown_volcanic_buttress,yes,"generic patcha piece, placed 10 times"
+data/sprites/terrain-batch06/t06_a20_anatolia_red_brown_volcanic_buttress.png,terrain-batch06,terrain-cutout,anatolia_red_brown_volcanic_buttress,no,volcano or basalt piece: removed from the map at Daryl's request
 data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png,terrain-batch06,terrain-cutout,delta_marsh_reeds_large,no,"river, reed or marsh piece: needs aligning to real water before use"
 data/sprites/terrain-batch06/t06_b02_delta_reed_channels_braided.png,terrain-batch06,terrain-cutout,delta_reed_channels_braided,no,"river, reed or marsh piece: needs aligning to real water before use"
 data/sprites/terrain-batch06/t06_b03_jordan_tree_lined_streambank.png,terrain-batch06,terrain-cutout,jordan_tree_lined_streambank,no,"river, reed or marsh piece: needs aligning to real water before use"
@@ -1040,7 +1040,7 @@ data/sprites/terrain-batch06/t06_b13_greek_flowering_scrub_patch.png,terrain-bat
 data/sprites/terrain-batch06/t06_b14_canaan_yellow_flowering_rocky_hill.png,terrain-batch06,terrain-cutout,canaan_yellow_flowering_rocky_hill,yes,"generic patchd piece, placed 2 times"
 data/sprites/terrain-batch06/t06_b15_greek_white_karst_outcrops.png,terrain-batch06,terrain-cutout,greek_white_karst_outcrops,yes,"generic patchd piece, placed 4 times"
 data/sprites/terrain-batch06/t06_b16_canaan_stony_olive_hills.png,terrain-batch06,terrain-cutout,canaan_stony_olive_hills,yes,"generic patchg piece, placed 9 times"
-data/sprites/terrain-batch06/t06_b17_transjordan_bare_rocky_foothills.png,terrain-batch06,terrain-cutout,transjordan_bare_rocky_foothills,yes,"generic patcha piece, placed 5 times"
+data/sprites/terrain-batch06/t06_b17_transjordan_bare_rocky_foothills.png,terrain-batch06,terrain-cutout,transjordan_bare_rocky_foothills,yes,"generic patcha piece, placed 12 times"
 data/sprites/terrain-batch06/t06_b18_levant_stone_terrace_orchard.png,terrain-batch06,terrain-cutout,levant_stone_terrace_orchard,yes,"generic patchg piece, placed 11 times"
 data/sprites/terrain-batch06/t06_b19_sinai_oasis_date_palm_cluster.png,terrain-batch06,terrain-cutout,sinai_oasis_date_palm_cluster,yes,"generic oasis piece, placed 10 times"
 data/sprites/terrain-batch06/t06_b20_syrian_sandy_scrub_foothill.png,terrain-batch06,terrain-cutout,syrian_sandy_scrub_foothill,yes,"generic patcha piece, placed 6 times"

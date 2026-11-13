@@ -130,6 +130,8 @@ for a in new:
             big(a, "past"); continue
         big(a, "rich"); continue
     # small cut-outs
+    if any(k in n for k in ("volcan", "basalt", "cinder")):
+        off(a, "volcano or basalt piece: removed from the map at Daryl's request"); continue
     if any(k in n for k in ("alpine", "taurus")) and "waterfall" not in n:
         generic(a, "patchd", 520); continue
     if delta:

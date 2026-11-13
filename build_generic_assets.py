@@ -82,6 +82,8 @@ for f in sorted(glob.glob(os.path.join(ROOT, "data/sprites/terrain-batch0[56]/**
         put(p, "off", "atlas sheet: reference only, the individual cut-outs are used"); continue
     if any(k in n for k in ("reed", "delta", "stream", "riverbank", "horseshoe", "meander", "wadi", "lily")):
         put(p, "off", "river, reed or marsh piece: needs aligning to real water before use"); continue
+    if any(k in n for k in ("volcan", "basalt", "cinder")):
+        put(p, "off", "volcano or basalt piece: removed from the map at Daryl's request"); continue
     if any(k in n for k in ("oasis", "palm")):
         put(p, "oasis"); continue
     if any(k in n for k in ("dune", "badland", "pavement", "bare_rocky", "sandy", "arid_scrub", "volcanic")):

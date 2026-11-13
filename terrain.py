@@ -1,6 +1,6 @@
 """Hand-drawn terrain for the Crusader States sheet: washes (two editions) and an ink layer
 (coasts, water-lines, rivers, mountains, hills, forests, marshes, dunes)."""
-import math, random
+import math, random, os
 import numpy as np
 import cairo
 from PIL import Image, ImageDraw, ImageFilter
@@ -109,6 +109,23 @@ class Terrain:
         self.rs.__dict__.update(reg.__dict__)
         self.rs.w, self.rs.h = self.ws, self.hs
         self._fields()
+
+    def _underlay(self, c):
+        """Painted ground underlays, tiled by land type, so no flat wash shows between the pieces above."""
+        from scipy.ndimage import gaussian_filter
+        f = np.asarray(self.fert, np.float32); lh, lw = f.shape; m = float(np.clip(150.0 / self.mpp, 0.45, 1.0)) if hasattr(self, "mpp") else 1.0
+        for name, lo, hi in (("desert_sand", -9, 0.18), ("dry_steppe", 0.18, 0.30), ("canaan_scrub", 0.30, 0.50), ("green_plain", 0.50, 9)):
+            a = gaussian_filter(((f >= lo) & (f < hi)).astype(np.float32), 1.6) * 0.85
+            stride = cairo.ImageSurface.format_stride_for_width(cairo.FORMAT_A8, lw)
+            buf = np.zeros((lh, stride), np.uint8); buf[:, :lw] = np.clip(a * 255, 0, 255).astype(np.uint8)
+            ms = cairo.ImageSurface.create_for_data(bytearray(buf.tobytes()), cairo.FORMAT_A8, lw, lh, stride)
+            mp = cairo.SurfacePattern(ms); mp.set_matrix(cairo.Matrix(xx=lw / float(self.W), yy=lh / float(self.H))); mp.set_filter(cairo.FILTER_BILINEAR)
+            im = Image.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets", "underlays", name + ".png")).convert("RGB")
+            tw = int(900 * m); im = im.resize((tw, int(im.height * tw / im.width)), Image.LANCZOS)
+            arr = np.asarray(im); rgb = np.empty((im.height, im.width, 4), np.uint8); rgb[..., 0] = arr[..., 2]; rgb[..., 1] = arr[..., 1]; rgb[..., 2] = arr[..., 0]; rgb[..., 3] = 255
+            ss = cairo.ImageSurface.create_for_data(bytearray(rgb.tobytes()), cairo.FORMAT_RGB24, im.width, im.height, im.width * 4)
+            sp = cairo.SurfacePattern(ss); sp.set_extend(cairo.EXTEND_REPEAT); sp.set_filter(cairo.FILTER_GOOD)
+            c.save(); c.set_source(sp); c.mask(mp); c.restore()
 
     # -------------------------------------------------------------- fields at low resolution
     def _fields(self):
@@ -604,7 +621,7 @@ class Terrain:
                         keep.append(it)
                     continue
                 if kind == "farm":
-                    frac = round((0.30 if self.mpp <= 150 else 0.10) * size / 8) * 8
+                    frac = 0                                  # fields run to the shore; the layer is clipped to the land
                     if shapely.contains_xy(inner_geom(frac), lo[i], la[i]):
                         keep.append(it)
                     continue
@@ -653,107 +670,127 @@ class Terrain:
         self.glyph_rects = [(x - 0.9 * sz, y - 0.55 * sz, x + 0.9 * sz, y + 0.06 * sz) for _, kd, x, y, sz, _s, _e in items if kd in ("peak", "mount", "hill")]
         # --- draw back to front
         items.sort(key=lambda t: t[0])
-        for _, kind, x, y, size, sd, _x in items:
-            c.save(); c.translate(x, y)
-            r = random.Random(sd)
-            if kind in ("peak", "mount", "hill"):
-                ix_ = min(self.lw - 1, max(0, int(x * self.lw / self.W))); iy_ = min(self.lh - 1, max(0, int(y * self.lh / self.H)))
-                waste = float(self.fert[iy_, ix_]) < 0.30
-                X_ = reg.x0 + x / W * (reg.x1 - reg.x0); Y_ = reg.y1 - y / H * (reg.y1 - reg.y0)
-                lo_, la_ = reg.inv.transform(X_, Y_)
-                name = TSP.choose(kind, lo_, la_, waste, self.mpp > 150, r)
-                wid = size * (2.6 if kind == "hill" else 2.2)
-                c.restore(); c.save()
-                TSP.draw(c, name, x, y, wid, edition)
-            elif kind in ("conifer", "decid"):
-                k = size / 40.0
-                c.scale(k, k)
-                tf = ((0.45, 0.58, 0.38) if kind == "conifer" else (0.58, 0.70, 0.42)) if edition == "colour" else ((0.72, 0.76, 0.60) if kind == "conifer" else (0.80, 0.82, 0.64))
-                p = Pen(c, seed=sd, amp=0.5, ink=INK, paper=tf)
-                if kind == "conifer":
-                    p.line([(0, 0), (0, -6)], w=1.2)
-                    for i, (wd, yy) in enumerate(((11, -6), (8.5, -13), (6, -19))):
-                        p.shape([(-wd / 2, yy), (0, yy - 10), (wd / 2, yy)], fill=tf, w=1.1, hatch=dict(angle=70, gap=2.4, w=0.4, xmin=0))
-                else:
-                    p.line([(0, 0), (0, -9)], w=1.4)
-                    pts = [(7 * math.cos(a) * (1 + r.uniform(-0.12, 0.12)), -16 + 6.5 * math.sin(a) * (1 + r.uniform(-0.12, 0.12))) for a in [i * math.pi / 8 for i in range(16)]]
-                    p.shape(pts, fill=tf, w=1.1, hatch=dict(angle=70, gap=2.4, w=0.4, xmin=0))
-            elif kind == "marsh":
-                k = size / 40.0
-                c.scale(k, k)
-                p = Pen(c, seed=sd, amp=0.4, ink=BLUEINK)
-                for dx in (-7, 0, 7):
-                    hh = r.uniform(9, 14)
-                    p.line([(dx, 0), (dx - 1.5, -hh * 0.6), (dx - 3, -hh)], w=0.9, col=BLUEINK)
-                    p.line([(dx, 0), (dx + 0.5, -hh * 0.6), (dx + 1.5, -hh * 1.1)], w=0.9, col=BLUEINK)
-                p.line([(-14, 3), (-5, 3)], w=0.8, col=BLUEINK); p.line([(3, 3), (14, 3)], w=0.8, col=BLUEINK)
-                p.line([(-9, 7), (0, 7)], w=0.7, col=BLUEINK)
-            elif kind == "palm":
-                k = size / 40.0
-                c.scale(k, k)
-                p = Pen(c, seed=sd, amp=0.4, ink=INK)
-                p.palm(0, 0, 26)
-            elif kind == "tuft":
-                k = size / 30.0
-                c.scale(k, k)
-                gc = (0.30, 0.42, 0.20) if edition == "colour" else (0.42, 0.45, 0.28)
-                p = Pen(c, seed=sd, amp=0.3, ink=gc)
-                for dx, hh in ((-5, 8), (0, 11), (5, 7)):
-                    p.line([(dx, 0), (dx + r.uniform(-2, 2), -hh * 0.55), (dx + r.uniform(-4, 4), -hh)], w=0.9, col=gc)
-                p.line([(-9, 2), (9, 2)], w=0.6, col=gc)
-            elif kind == "scrub":
-                k = size / 30.0
-                c.scale(k, k)
-                p = Pen(c, seed=sd, amp=0.3, ink=SEPIA)
-                if r.random() < 0.55:
-                    for dx, hh in ((-4, 6), (0, 8), (4, 5)):
-                        p.line([(dx, 0), (dx + r.uniform(-2, 2), -hh)], w=0.8, col=SEPIA)
-                for i in range(r.randint(4, 8)):
-                    p.dot(r.uniform(-13, 13), r.uniform(-4, 8), 0.7, col=SEPIA)
-            elif kind == "oasis":
-                k = size / 60.0
-                c.scale(k, k)
-                p = Pen(c, seed=sd, amp=0.3, ink=BLUEINK)
-                pool = [(16 * math.cos(a), 6 * math.sin(a) + 14) for a in [i * math.pi / 8 for i in range(16)]]
-                c.save(); p._path(pool); c.close_path()
-                c.set_source_rgb(*((0.50, 0.70, 0.78) if edition == "colour" else (0.74, 0.82, 0.78))); c.fill_preserve()
-                c.set_source_rgb(*BLUEINK); c.set_line_width(1.1); c.stroke(); c.restore()
-                q = Pen(c, seed=sd + 1, amp=0.3, ink=INK)
-                for px_, py_, hh in ((-20, 10, 24), (18, 8, 28), (-2, -2, 22)):
-                    q.palm(px_, py_, hh)
-                for px_ in (-12, 11):
-                    q.line([(px_, 20), (px_ - 1, 14), (px_ - 3, 9)], w=0.8, col=BLUEINK)
-            elif kind == "hamlet":
-                c.restore(); c.save()
-                lst = TSP.POOL[_x]
-                TSP.gdraw(c, r.choice(lst), x, y, size, edition)
-            elif kind == "farm":
-                c.restore(); c.save()
-                if _x in ("crich", "cpast", "cwaste", "cflat"):
-                    pool = {"cflat": TSP.C_FLAT, "crich": TSP.C_RICH, "cpast": TSP.C_PAST, "cwaste": TSP.C_WASTE}[_x]
-                    TSP.draw(c, r.choice(pool), x, y + 0.30 * size * 0.4, size, edition, alpha=0.95)
-                    c.restore(); continue
-                pool = TSP.FARM_AEG if _x == "aeg" else ((TSP.FARM_FLAT if _x == "flat" else TSP.FARM_RICH) if _x in ("rich", "flat") else TSP.FARM_PASTURE)
-                TSP.draw(c, r.choice(pool), x, y + 0.30 * size, size, edition, alpha=0.9)
-            elif kind == "drystrip":
-                c.restore(); c.save()
-                if _x != "dune" and r.random() < 0.5:
-                    nm = r.choice(TSP.DEEP)
-                    TSP.draw(c, nm, x, y + 0.25 * size, size * 1.5, edition, alpha=0.92)
-                else:
-                    nm = r.choice(TSP.DUNES if _x == "dune" else TSP.DRYSTRIP)
-                    TSP.draw(c, nm, x, y, size, edition, alpha=0.9)
-            elif kind == "dune":
-                k = size / 60.0
-                c.scale(k, k)
-                p = Pen(c, seed=sd, amp=0.4, ink=SEPIA, paper=fill_h)
-                p.line([(-22, 0), (-8, -8), (6, -3), (22, 2)], w=0.9, col=SEPIA)
-                p.line([(-14, 6), (0, 2), (12, 6)], w=0.8, col=SEPIA)
-                c.save(); c.move_to(-8, -8); c.curve_to(-4, -6, 2, -5, 6, -3); c.line_to(22, 2); c.curve_to(10, 1, 0, 3, -6, 4)
-                c.close_path(); c.set_source_rgba(0.55, 0.40, 0.22, 0.28); c.fill(); c.restore()
-                for i in range(9):
-                    p.dot(r.uniform(-20, 20), r.uniform(8, 16), 0.55, col=SEPIA)
-            c.restore()
+        under = [it for it in items if it[0] < -1e5]; over = [it for it in items if it[0] >= -1e5]
+        for phase, lst in ((0, under), (1, over)):
+            if phase == 0:
+                c.push_group()
+                if edition == "colour":
+                    self._underlay(c)
+            for _, kind, x, y, size, sd, _x in lst:
+                c.save(); c.translate(x, y)
+                r = random.Random(sd)
+                if kind in ("peak", "mount", "hill"):
+                    ix_ = min(self.lw - 1, max(0, int(x * self.lw / self.W))); iy_ = min(self.lh - 1, max(0, int(y * self.lh / self.H)))
+                    waste = float(self.fert[iy_, ix_]) < 0.30
+                    X_ = reg.x0 + x / W * (reg.x1 - reg.x0); Y_ = reg.y1 - y / H * (reg.y1 - reg.y0)
+                    lo_, la_ = reg.inv.transform(X_, Y_)
+                    name = TSP.choose(kind, lo_, la_, waste, self.mpp > 150, r)
+                    wid = size * (2.6 if kind == "hill" else 2.2)
+                    c.restore(); c.save()
+                    TSP.draw(c, name, x, y, wid, edition)
+                elif kind in ("conifer", "decid"):
+                    k = size / 40.0
+                    c.scale(k, k)
+                    tf = ((0.45, 0.58, 0.38) if kind == "conifer" else (0.58, 0.70, 0.42)) if edition == "colour" else ((0.72, 0.76, 0.60) if kind == "conifer" else (0.80, 0.82, 0.64))
+                    p = Pen(c, seed=sd, amp=0.5, ink=INK, paper=tf)
+                    if kind == "conifer":
+                        p.line([(0, 0), (0, -6)], w=1.2)
+                        for i, (wd, yy) in enumerate(((11, -6), (8.5, -13), (6, -19))):
+                            p.shape([(-wd / 2, yy), (0, yy - 10), (wd / 2, yy)], fill=tf, w=1.1, hatch=dict(angle=70, gap=2.4, w=0.4, xmin=0))
+                    else:
+                        p.line([(0, 0), (0, -9)], w=1.4)
+                        pts = [(7 * math.cos(a) * (1 + r.uniform(-0.12, 0.12)), -16 + 6.5 * math.sin(a) * (1 + r.uniform(-0.12, 0.12))) for a in [i * math.pi / 8 for i in range(16)]]
+                        p.shape(pts, fill=tf, w=1.1, hatch=dict(angle=70, gap=2.4, w=0.4, xmin=0))
+                elif kind == "marsh":
+                    k = size / 40.0
+                    c.scale(k, k)
+                    p = Pen(c, seed=sd, amp=0.4, ink=BLUEINK)
+                    for dx in (-7, 0, 7):
+                        hh = r.uniform(9, 14)
+                        p.line([(dx, 0), (dx - 1.5, -hh * 0.6), (dx - 3, -hh)], w=0.9, col=BLUEINK)
+                        p.line([(dx, 0), (dx + 0.5, -hh * 0.6), (dx + 1.5, -hh * 1.1)], w=0.9, col=BLUEINK)
+                    p.line([(-14, 3), (-5, 3)], w=0.8, col=BLUEINK); p.line([(3, 3), (14, 3)], w=0.8, col=BLUEINK)
+                    p.line([(-9, 7), (0, 7)], w=0.7, col=BLUEINK)
+                elif kind == "palm":
+                    k = size / 40.0
+                    c.scale(k, k)
+                    p = Pen(c, seed=sd, amp=0.4, ink=INK)
+                    p.palm(0, 0, 26)
+                elif kind == "tuft":
+                    k = size / 30.0
+                    c.scale(k, k)
+                    gc = (0.30, 0.42, 0.20) if edition == "colour" else (0.42, 0.45, 0.28)
+                    p = Pen(c, seed=sd, amp=0.3, ink=gc)
+                    for dx, hh in ((-5, 8), (0, 11), (5, 7)):
+                        p.line([(dx, 0), (dx + r.uniform(-2, 2), -hh * 0.55), (dx + r.uniform(-4, 4), -hh)], w=0.9, col=gc)
+                    p.line([(-9, 2), (9, 2)], w=0.6, col=gc)
+                elif kind == "scrub":
+                    k = size / 30.0
+                    c.scale(k, k)
+                    p = Pen(c, seed=sd, amp=0.3, ink=SEPIA)
+                    if r.random() < 0.55:
+                        for dx, hh in ((-4, 6), (0, 8), (4, 5)):
+                            p.line([(dx, 0), (dx + r.uniform(-2, 2), -hh)], w=0.8, col=SEPIA)
+                    for i in range(r.randint(4, 8)):
+                        p.dot(r.uniform(-13, 13), r.uniform(-4, 8), 0.7, col=SEPIA)
+                elif kind == "oasis":
+                    k = size / 60.0
+                    c.scale(k, k)
+                    p = Pen(c, seed=sd, amp=0.3, ink=BLUEINK)
+                    pool = [(16 * math.cos(a), 6 * math.sin(a) + 14) for a in [i * math.pi / 8 for i in range(16)]]
+                    c.save(); p._path(pool); c.close_path()
+                    c.set_source_rgb(*((0.50, 0.70, 0.78) if edition == "colour" else (0.74, 0.82, 0.78))); c.fill_preserve()
+                    c.set_source_rgb(*BLUEINK); c.set_line_width(1.1); c.stroke(); c.restore()
+                    q = Pen(c, seed=sd + 1, amp=0.3, ink=INK)
+                    for px_, py_, hh in ((-20, 10, 24), (18, 8, 28), (-2, -2, 22)):
+                        q.palm(px_, py_, hh)
+                    for px_ in (-12, 11):
+                        q.line([(px_, 20), (px_ - 1, 14), (px_ - 3, 9)], w=0.8, col=BLUEINK)
+                elif kind == "hamlet":
+                    c.restore(); c.save()
+                    lst = TSP.POOL[_x]
+                    TSP.gdraw(c, r.choice(lst), x, y, size, edition)
+                elif kind == "farm":
+                    c.restore(); c.save()
+                    if _x in ("crich", "cpast", "cwaste", "cflat"):
+                        pool = {"cflat": TSP.C_FLAT, "crich": TSP.C_RICH, "cpast": TSP.C_PAST, "cwaste": TSP.C_WASTE}[_x]
+                        TSP.draw(c, r.choice(pool), x, y + 0.30 * size * 0.4, size, edition, alpha=0.95)
+                        c.restore(); continue
+                    pool = TSP.FARM_AEG if _x == "aeg" else ((TSP.FARM_FLAT if _x == "flat" else TSP.FARM_RICH) if _x in ("rich", "flat") else TSP.FARM_PASTURE)
+                    TSP.draw(c, r.choice(pool), x, y + 0.30 * size, size, edition, alpha=0.9)
+                elif kind == "drystrip":
+                    c.restore(); c.save()
+                    if _x != "dune" and r.random() < 0.5:
+                        nm = r.choice(TSP.DEEP)
+                        TSP.draw(c, nm, x, y + 0.25 * size, size * 1.5, edition, alpha=0.92)
+                    else:
+                        nm = r.choice(TSP.DUNES if _x == "dune" else TSP.DRYSTRIP)
+                        TSP.draw(c, nm, x, y, size, edition, alpha=0.9)
+                elif kind == "dune":
+                    k = size / 60.0
+                    c.scale(k, k)
+                    p = Pen(c, seed=sd, amp=0.4, ink=SEPIA, paper=fill_h)
+                    p.line([(-22, 0), (-8, -8), (6, -3), (22, 2)], w=0.9, col=SEPIA)
+                    p.line([(-14, 6), (0, 2), (12, 6)], w=0.8, col=SEPIA)
+                    c.save(); c.move_to(-8, -8); c.curve_to(-4, -6, 2, -5, 6, -3); c.line_to(22, 2); c.curve_to(10, 1, 0, 3, -6, 4)
+                    c.close_path(); c.set_source_rgba(0.55, 0.40, 0.22, 0.28); c.fill(); c.restore()
+                    for i in range(9):
+                        p.dot(r.uniform(-20, 20), r.uniform(8, 16), 0.55, col=SEPIA)
+                c.restore()
+            if phase == 0:
+                pat_ = c.pop_group()
+                c.save(); c.new_path(); c.set_fill_rule(cairo.FILL_RULE_EVEN_ODD)
+                for poly in polys:
+                    if poly.geom_type != "Polygon" or poly.is_empty:
+                        continue
+                    q_ = reg.geom_px(poly)
+                    for ring in [q_.exterior] + list(q_.interiors):
+                        cs_ = list(ring.coords)
+                        c.move_to(*cs_[0][:2])
+                        for p_ in cs_[1:]:
+                            c.line_to(*p_[:2])
+                        c.close_path()
+                c.clip(); c.set_source(pat_); c.paint(); c.restore()
         c.restore()
 
 

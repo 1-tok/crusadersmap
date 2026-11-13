@@ -2055,11 +2055,9 @@
  },
  {
   "src": "data/sprites/terrain-batch06/t06_a20_anatolia_red_brown_volcanic_buttress.png",
-  "file": "t06_a20_anatolia_red_brown_volcanic_buttress.png",
-  "cls": "patcha",
-  "w": 361,
-  "h": 159,
-  "reason": ""
+  "file": "",
+  "cls": "off",
+  "reason": "volcano or basalt piece: removed from the map at Daryl's request"
  },
  {
   "src": "data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png",
@@ -2715,11 +2713,9 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b32-01-02-volcanic-cinder-upland-53dc88200529.png",
-  "file": "b32-01-02-volcanic-cinder-upland-53dc88200529.png",
-  "cls": "patcha",
-  "w": 512,
-  "h": 247,
-  "reason": ""
+  "file": "",
+  "cls": "off",
+  "reason": "volcano or basalt piece: removed from the map at Daryl's request"
  },
  {
   "src": "data/sprites/automated-intake/png/b34-06-mediterranean-coastal-margin-563dcf02bc08.png",
@@ -3462,11 +3458,9 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b32-01-12-basalt-badlands-e152c0aaa7bd.png",
-  "file": "b32-01-12-basalt-badlands-e152c0aaa7bd.png",
-  "cls": "patcha",
-  "w": 504,
-  "h": 249,
-  "reason": ""
+  "file": "",
+  "cls": "off",
+  "reason": "volcano or basalt piece: removed from the map at Daryl's request"
  },
  {
   "src": "data/sprites/automated-intake/png/b32-03-04-sinai-dunes-e22df2f96f67.png",
