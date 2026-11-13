@@ -2222,5 +2222,1411 @@
   "file": "",
   "cls": "off",
   "reason": "atlas sheet: reference only, the individual cut-outs are used"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t26-06-orontes-river-valley-004b5ae79a2b.png",
+  "file": "",
+  "cls": "off",
+  "reason": "river, reed or marsh piece (3% water): needs aligning to real water"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-08-limestone-uplands-00c347295e20.png",
+  "file": "t27-08-limestone-uplands-00c347295e20.png",
+  "cls": "patchd",
+  "w": 506,
+  "h": 240,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-01-coastal-sandy-shore-00f3fa955902.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (13% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t31-03-dry-to-green-steppe-00fd1c929b48.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-t31-03-dry-to-green-steppe-00fd1c929b48",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/01-nile-delta-lowlands-01cb3de516e7.png",
+  "file": "",
+  "cls": "off",
+  "reason": "large Delta landscape with painted channels (11% water): would clash with the drawn Nile branches"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-12-rocky-foothill-02440f41c0e4.png",
+  "file": "t27-12-rocky-foothill-02440f41c0e4.png",
+  "cls": "patchd",
+  "w": 504,
+  "h": 234,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t26-03-taurus-ridge-variant-028f36b450e8.png",
+  "file": "t26-03-taurus-ridge-variant-028f36b450e8.png",
+  "cls": "patchd",
+  "w": 520,
+  "h": 225,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-01-04-river-floodplain-0306e55faca8.png",
+  "file": "",
+  "cls": "off",
+  "reason": "river, reed or marsh piece (6% water): needs aligning to real water"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/104-kalamos-concept-033d59ee3602.png",
+  "file": "",
+  "cls": "off",
+  "reason": "concept island with no registered coordinate box"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-13-dry-dune-oasis-03f59129048e.png",
+  "file": "t27-13-dry-dune-oasis-03f59129048e.png",
+  "cls": "patcha",
+  "w": 520,
+  "h": 136,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/farming-04-nile-floodplain-057828f18d3b.png",
+  "file": "",
+  "cls": "tile:flat",
+  "tile": "up-farming-04-nile-floodplain-057828f18d3b",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-01-07-olive-scrub-0a156fb54ec4.png",
+  "file": "b32-01-07-olive-scrub-0a156fb54ec4.png",
+  "cls": "patchg",
+  "w": 503,
+  "h": 256,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-16-shallow-reed-marsh-0a5d76f9f992.png",
+  "file": "",
+  "cls": "off",
+  "reason": "river, reed or marsh piece (9% water): needs aligning to real water"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/25-04-olive-wheat-patchwork-0ad1e4fb90c7.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-25-04-olive-wheat-patchwork-0ad1e4fb90c7",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-02-04-arid-to-green-0b1f8d17f030.png",
+  "file": "b32-02-04-arid-to-green-0b1f8d17f030.png",
+  "cls": "patcha",
+  "w": 520,
+  "h": 133,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-05-rocky-olive-grove-0bf6acd61032.png",
+  "file": "t27-05-rocky-olive-grove-0bf6acd61032.png",
+  "cls": "patchg",
+  "w": 508,
+  "h": 248,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-03-05-taurus-wooded-ridge-0ca7b4997673.png",
+  "file": "b32-03-05-taurus-wooded-ridge-0ca7b4997673.png",
+  "cls": "patchd",
+  "w": 520,
+  "h": 131,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t26-02-lebanon-mountain-0cc98a7df28b.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-t26-02-lebanon-mountain-0cc98a7df28b",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-02-0d69432e8952.png",
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-02-0d69432e8952.png",
+  "cls": "patchg",
+  "w": 466,
+  "h": 220,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/acre-concept-0db1dc3c9dcf.png",
+  "file": "",
+  "cls": "off",
+  "reason": "orientation concept sketch (768 px wide strip), superseded by the south-view repaints"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/03-aegean-greek-lowland-0ea4c93c3a99.png",
+  "file": "",
+  "cls": "tile:aeg",
+  "tile": "up-03-aegean-greek-lowland-0ea4c93c3a99",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b34-08-mediterranean-island-interior-0fe4f25c3a6e.png",
+  "file": "",
+  "cls": "tile:aeg",
+  "tile": "up-b34-08-mediterranean-island-interior-0fe4f25c3a6e",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t28-03-limestone-coastal-cliff-111c2dd77825.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (6% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/famagusta-concept-117cbef6d89f.png",
+  "file": "",
+  "cls": "off",
+  "reason": "orientation concept sketch (768 px wide strip), superseded by the south-view repaints"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/batch11-original-sheet-118021ffb6db.png",
+  "file": "",
+  "cls": "off",
+  "reason": "source sheet or opaque master registered by intake as one image: reference only"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-02-07-coastal-heath-132bd6deb941.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (0% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-sheet-01-1398bfc72f7b.png",
+  "file": "",
+  "cls": "off",
+  "reason": "source sheet or opaque master registered by intake as one image: reference only"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t28-12-citrus-orchard-margin-14709b3e7fab.png",
+  "file": "t28-12-citrus-orchard-margin-14709b3e7fab.png",
+  "cls": "patchg",
+  "w": 378,
+  "h": 157,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/25-02-levant-cereal-plot-mosaic-14813c7520a2.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-25-02-levant-cereal-plot-mosaic-14813c7520a2",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/generic-scene-05-18c061addcbc.png",
+  "file": "generic-scene-05-18c061addcbc.png",
+  "cls": "fb:town",
+  "w": 509,
+  "h": 344,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/02-levantine-coastal-fields-1942d73828a8.png",
+  "file": "",
+  "cls": "off",
+  "reason": "large landscape with a painted river or marsh (4% water): needs aligning to a real river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-14-arid-plateau-1ae241c9a112.png",
+  "file": "t27-14-arid-plateau-1ae241c9a112.png",
+  "cls": "patcha",
+  "w": 520,
+  "h": 136,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t26-01-taurus-amanus-mountain-1b625f7e44d9.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-t26-01-taurus-amanus-mountain-1b625f7e44d9",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-06-orchard-and-vineyard-1bb062333c85.png",
+  "file": "t27-06-orchard-and-vineyard-1bb062333c85.png",
+  "cls": "patchg",
+  "w": 509,
+  "h": 241,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/large-02-mediterranean-terraced-orchards-1e433bd2ee4e.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-large-02-mediterranean-terraced-orchards-1e433bd2ee4e",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t29-03-mediterranean-orchard-map-terrain-1f4711f00590.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-t29-03-mediterranean-orchard-map-terrain-1f4711f00590",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t35-04-sinai-negev-sandstone-mountains-200aa3d4af2e.png",
+  "file": "",
+  "cls": "tile:waste",
+  "tile": "up-t35-04-sinai-negev-sandstone-mountains-200aa3d4af2e",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t28-05-wooded-reed-riverbank-2084d41b941e.png",
+  "file": "",
+  "cls": "off",
+  "reason": "river, reed or marsh piece (14% water): needs aligning to real water"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-02-05-woodland-copse-213731a4647f.png",
+  "file": "b32-02-05-woodland-copse-213731a4647f.png",
+  "cls": "patchw",
+  "w": 520,
+  "h": 118,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/farming-02-meadow-lowland-2185ecf124f9.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-farming-02-meadow-lowland-2185ecf124f9",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t29-01-watercolor-medieval-agricultural-landscape-map-246c6cc7347d.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-t29-01-watercolor-medieval-agricultural-landscape-map-246c6cc7347d",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t28-04-coastal-rock-arch-24e879386274.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (13% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t29-06-medieval-rocky-steppe-terrain-map-257ff6898c88.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-t29-06-medieval-rocky-steppe-terrain-map-257ff6898c88",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-sheet-03-26655e858ce9.png",
+  "file": "",
+  "cls": "off",
+  "reason": "source sheet or opaque master registered by intake as one image: reference only"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/10-nile-delta-floodplain-05-27ed4a40353f.png",
+  "file": "10-nile-delta-floodplain-05-27ed4a40353f.png",
+  "cls": "delta",
+  "w": 489,
+  "h": 239,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b34-01-eastern-syria-steppe-286f513c5911.png",
+  "file": "",
+  "cls": "tile:waste",
+  "tile": "up-b34-01-eastern-syria-steppe-286f513c5911",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t31-02-forest-to-meadow-2cf90ea5e023.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-t31-02-forest-to-meadow-2cf90ea5e023",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/tripoli-concept-2d56adb2b35e.png",
+  "file": "",
+  "cls": "off",
+  "reason": "orientation concept sketch (768 px wide strip), superseded by the south-view repaints"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-03-2d7de44d0239.png",
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-03-2d7de44d0239.png",
+  "cls": "patchg",
+  "w": 482,
+  "h": 216,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t30-01-dry-to-green-foothills-2e35d7ee173b.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-t30-01-dry-to-green-foothills-2e35d7ee173b",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-01-06-rocky-coast-3164656cdba8.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (11% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/coastal-port-concept-c-3229a557d9f5.png",
+  "file": "coastal-port-concept-c-3229a557d9f5.png",
+  "cls": "fb:harbour_town",
+  "w": 762,
+  "h": 440,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-02-02-limestone-rough-332d519bf32a.png",
+  "file": "b32-02-02-limestone-rough-332d519bf32a.png",
+  "cls": "patchd",
+  "w": 520,
+  "h": 135,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/80-agathonisi-concept-35c3556df4f9.png",
+  "file": "",
+  "cls": "off",
+  "reason": "concept island with no registered coordinate box"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/107-arkoudi-concept-3ddfa9490ef8.png",
+  "file": "",
+  "cls": "off",
+  "reason": "concept island with no registered coordinate box"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-10-407989189932.png",
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-10-407989189932.png",
+  "cls": "patchg",
+  "w": 376,
+  "h": 176,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t35-01-long-coastal-dune-scrub-413c976065ef.png",
+  "file": "",
+  "cls": "off",
+  "reason": "large landscape with a painted river or marsh (9% water): needs aligning to a real river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/82-telendos-concept-41b31cd84a2d.png",
+  "file": "",
+  "cls": "off",
+  "reason": "concept island with no registered coordinate box"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/generic-scene-02-41b91c3e540f.png",
+  "file": "generic-scene-02-41b91c3e540f.png",
+  "cls": "fb:harbour_town",
+  "w": 512,
+  "h": 370,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t33-04-transjordan-limestone-escarpment-41ecb074d632.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-t33-04-transjordan-limestone-escarpment-41ecb074d632",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t26-05-transjordan-rocky-steppe-4267b583da8f.png",
+  "file": "t26-05-transjordan-rocky-steppe-4267b583da8f.png",
+  "cls": "patchd",
+  "w": 520,
+  "h": 193,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/large-04-broad-lowland-grain-43273ed0aaec.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-large-04-broad-lowland-grain-43273ed0aaec",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-01-01-delta-reed-marsh-4557b0b8173a.png",
+  "file": "b32-01-01-delta-reed-marsh-4557b0b8173a.png",
+  "cls": "delta",
+  "w": 505,
+  "h": 245,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/famagusta-concept-repaint-required-458807eb878e.png",
+  "file": "",
+  "cls": "off",
+  "reason": "marked repaint-required by its own file name"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t26-07-nile-delta-cultivation-46cec1a772f3.png",
+  "file": "t26-07-nile-delta-cultivation-46cec1a772f3.png",
+  "cls": "delta",
+  "w": 520,
+  "h": 228,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/kyrenia-concept-480f2fbf41a9.png",
+  "file": "",
+  "cls": "off",
+  "reason": "orientation concept sketch (768 px wide strip), superseded by the south-view repaints"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-03-02-delta-marsh-488163b2716d.png",
+  "file": "b32-03-02-delta-marsh-488163b2716d.png",
+  "cls": "delta",
+  "w": 520,
+  "h": 141,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t35-03-limestone-ridge-to-steppe-503f4a5bba57.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-t35-03-limestone-ridge-to-steppe-503f4a5bba57",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t35-05-long-anatolian-forest-mountain-belt-5153834b7b35.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-t35-05-long-anatolian-forest-mountain-belt-5153834b7b35",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/farming-01-dry-levant-grain-53b1e0cd255c.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-farming-01-dry-levant-grain-53b1e0cd255c",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-01-02-volcanic-cinder-upland-53dc88200529.png",
+  "file": "b32-01-02-volcanic-cinder-upland-53dc88200529.png",
+  "cls": "patcha",
+  "w": 512,
+  "h": 247,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b34-06-mediterranean-coastal-margin-563dcf02bc08.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-b34-06-mediterranean-coastal-margin-563dcf02bc08",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/a-detailed-watercolor-ink-illustrated-sprite-sheet-5736a8535cd8.png",
+  "file": "",
+  "cls": "off",
+  "reason": "source sheet or opaque master registered by intake as one image: reference only"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/generic-scene-03-57818625ebec.png",
+  "file": "generic-scene-03-57818625ebec.png",
+  "cls": "fb:harbour_town",
+  "w": 512,
+  "h": 319,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/rural-smithy-and-forge-581cb7f1dd5c.png",
+  "file": "",
+  "cls": "off",
+  "reason": "failed transparency: a checkerboard is painted into the background; needs re-export with real alpha"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-02-10-dry-scrub-plain-58fea74afe34.png",
+  "file": "b32-02-10-dry-scrub-plain-58fea74afe34.png",
+  "cls": "patcha",
+  "w": 520,
+  "h": 132,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/tortosa-1180-coastal-review-590dfd5c7035.png",
+  "file": "",
+  "cls": "off",
+  "reason": "alternate of Tortosa; the south-view repaint of the same batch series is used"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t31-04-limestone-scrub-plain-593e7f4d0d64.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-t31-04-limestone-scrub-plain-593e7f4d0d64",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t28-09-broadleaf-woodland-transition-5aa3d8427e84.png",
+  "file": "t28-09-broadleaf-woodland-transition-5aa3d8427e84.png",
+  "cls": "patchw",
+  "w": 376,
+  "h": 162,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/jaffa-concept-5aee9f42ca3f.png",
+  "file": "",
+  "cls": "off",
+  "reason": "orientation concept sketch (768 px wide strip), superseded by the south-view repaints"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/source-sheet-rgb-5b2a13258403.png",
+  "file": "",
+  "cls": "off",
+  "reason": "source sheet or opaque master registered by intake as one image: reference only"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-01-09-coastal-dunes-5e0b2ba938f9.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (1% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t28-06-shallow-reed-channel-5f8d6aa52c94.png",
+  "file": "",
+  "cls": "off",
+  "reason": "river, reed or marsh piece (14% water): needs aligning to real water"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-15-61e92571c016.png",
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-15-61e92571c016.png",
+  "cls": "patchg",
+  "w": 495,
+  "h": 183,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b34-07-egyptian-desert-escarpment-6299e11b3134.png",
+  "file": "",
+  "cls": "tile:waste",
+  "tile": "up-b34-07-egyptian-desert-escarpment-6299e11b3134",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/coastal-harbor-concept-a-6531a9294812.png",
+  "file": "coastal-harbor-concept-a-6531a9294812.png",
+  "cls": "fb:harbour_town",
+  "w": 800,
+  "h": 394,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/large-03-mixed-olive-vineyard-fields-65f768aeb9e7.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-large-03-mixed-olive-vineyard-fields-65f768aeb9e7",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-16-66c04c7fb6df.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (7% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t29-04-medieval-greenwood-island-map-6764aad7ad05.png",
+  "file": "",
+  "cls": "tile:aeg",
+  "tile": "up-t29-04-medieval-greenwood-island-map-6764aad7ad05",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t33-01-taurus-foothill-transition-6769e1768d92.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-t33-01-taurus-foothill-transition-6769e1768d92",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-18-flowering-heathland-6aab128c0dc4.png",
+  "file": "t27-18-flowering-heathland-6aab128c0dc4.png",
+  "cls": "patchd",
+  "w": 520,
+  "h": 143,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/upland-town-concept-d-6d787dea2a59.png",
+  "file": "upland-town-concept-d-6d787dea2a59.png",
+  "cls": "fb:town",
+  "w": 752,
+  "h": 505,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-01-11-marsh-ribbons-7046a45c34bf.png",
+  "file": "",
+  "cls": "off",
+  "reason": "river, reed or marsh piece (6% water): needs aligning to real water"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/105-kastos-concept-707632324fc6.png",
+  "file": "",
+  "cls": "off",
+  "reason": "concept island with no registered coordinate box"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-06-7260262e383f.png",
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-06-7260262e383f.png",
+  "cls": "patchg",
+  "w": 520,
+  "h": 227,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b34-04-anti-lebanon-steppe-transition-7287ea3ebcde.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-b34-04-anti-lebanon-steppe-transition-7287ea3ebcde",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-03-08-arid-escarpment-7601162ee95b.png",
+  "file": "b32-03-08-arid-escarpment-7601162ee95b.png",
+  "cls": "patcha",
+  "w": 520,
+  "h": 132,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t30-02-river-to-arid-plain-7934ae46f9c4.png",
+  "file": "",
+  "cls": "off",
+  "reason": "large landscape with a painted river or marsh (9% water): needs aligning to a real river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-01-7b51c65d8d8c.png",
+  "file": "",
+  "cls": "off",
+  "reason": "river, reed or marsh piece (5% water): needs aligning to real water"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-03-09-levant-olive-terraces-7bb2fd5864ac.png",
+  "file": "b32-03-09-levant-olive-terraces-7bb2fd5864ac.png",
+  "cls": "patchg",
+  "w": 520,
+  "h": 138,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t28-08-palm-riverbank-margin-7e4131c46989.png",
+  "file": "",
+  "cls": "off",
+  "reason": "river, reed or marsh piece (7% water): needs aligning to real water"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/coastal-port-concept-a-8066047a7ac1.png",
+  "file": "coastal-port-concept-a-8066047a7ac1.png",
+  "cls": "fb:harbour_town",
+  "w": 767,
+  "h": 423,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/10-nile-delta-floodplain-07-81fd7d44aa61.png",
+  "file": "10-nile-delta-floodplain-07-81fd7d44aa61.png",
+  "cls": "delta",
+  "w": 520,
+  "h": 220,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b34-03-taurus-anatolian-forest-belt-844d4eb67f12.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-b34-03-taurus-anatolian-forest-belt-844d4eb67f12",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-07-flowering-heath-85e88b9302bf.png",
+  "file": "t27-07-flowering-heath-85e88b9302bf.png",
+  "cls": "patchd",
+  "w": 509,
+  "h": 244,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/84-kinaros-concept-8610e2beb05b.png",
+  "file": "",
+  "cls": "off",
+  "reason": "concept island with no registered coordinate box"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-19-alpine-transition-86693319d429.png",
+  "file": "t27-19-alpine-transition-86693319d429.png",
+  "cls": "patchd",
+  "w": 520,
+  "h": 124,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-11-86905ea8623c.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (15% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/coastal-harbor-concept-b-8837c583604b.png",
+  "file": "coastal-harbor-concept-b-8837c583604b.png",
+  "cls": "fb:harbour_town",
+  "w": 800,
+  "h": 526,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/10-nile-delta-floodplain-11-89d3ef9684d9.png",
+  "file": "10-nile-delta-floodplain-11-89d3ef9684d9.png",
+  "cls": "delta",
+  "w": 520,
+  "h": 229,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t28-01-rocky-coast-waterline-8fe60ca031aa.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (12% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-08-901cd4590164.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (6% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-03-07-wooded-lowland-92d2342a4c0e.png",
+  "file": "b32-03-07-wooded-lowland-92d2342a4c0e.png",
+  "cls": "patchw",
+  "w": 520,
+  "h": 129,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/generic-scene-04-96f10507a901.png",
+  "file": "",
+  "cls": "off",
+  "reason": "generic scene with pyramids: reads as Cairo, which has its own painting"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/batch07-original-sheet-9a020ec6bbe5.png",
+  "file": "",
+  "cls": "off",
+  "reason": "source sheet or opaque master registered by intake as one image: reference only"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/generic-scene-06-9b9c46c57831.png",
+  "file": "generic-scene-06-9b9c46c57831.png",
+  "cls": "fb:town",
+  "w": 512,
+  "h": 406,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/upland-castle-concept-b-a01568c9ad45.png",
+  "file": "upland-castle-concept-b-a01568c9ad45.png",
+  "cls": "fb:fort",
+  "w": 700,
+  "h": 466,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b34-02-sinai-negev-mountains-a03fb76a369e.png",
+  "file": "",
+  "cls": "tile:waste",
+  "tile": "up-b34-02-sinai-negev-mountains-a03fb76a369e",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/83-meganisi-concept-a0c0a9377ec6.png",
+  "file": "",
+  "cls": "off",
+  "reason": "concept island with no registered coordinate box"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/10-nile-delta-floodplain-04-a0d00013b96b.png",
+  "file": "10-nile-delta-floodplain-04-a0d00013b96b.png",
+  "cls": "delta",
+  "w": 520,
+  "h": 238,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-master-a12b43bea6b4.png",
+  "file": "",
+  "cls": "off",
+  "reason": "source sheet or opaque master registered by intake as one image: reference only"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-20-dry-steppe-plain-a20ddd8020ab.png",
+  "file": "t27-20-dry-steppe-plain-a20ddd8020ab.png",
+  "cls": "patcha",
+  "w": 520,
+  "h": 125,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t28-07-broad-marsh-channel-a26163dacedf.png",
+  "file": "",
+  "cls": "off",
+  "reason": "river, reed or marsh piece (16% water): needs aligning to real water"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/10-nile-delta-floodplain-06-a286fd1cfd47.png",
+  "file": "10-nile-delta-floodplain-06-a286fd1cfd47.png",
+  "cls": "delta",
+  "w": 520,
+  "h": 222,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/inland-hilltown-concept-a32b3f94a59e.png",
+  "file": "inland-hilltown-concept-a32b3f94a59e.png",
+  "cls": "fb:town",
+  "w": 800,
+  "h": 524,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-03-03-levant-rocky-coast-a97a6d3d20da.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (24% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/sidon-concept-aa754f1023c1.png",
+  "file": "",
+  "cls": "off",
+  "reason": "orientation concept sketch (768 px wide strip), superseded by the south-view repaints"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-10-palm-sand-oasis-aab31257d10a.png",
+  "file": "t27-10-palm-sand-oasis-aab31257d10a.png",
+  "cls": "patcha",
+  "w": 504,
+  "h": 245,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/farming-06-broad-grain-patchwork-ab31c931fc60.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-farming-06-broad-grain-patchwork-ab31c931fc60",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t28-11-olive-slope-transition-ac092292595d.png",
+  "file": "t28-11-olive-slope-transition-ac092292595d.png",
+  "cls": "patchg",
+  "w": 373,
+  "h": 156,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-04-ac7b2c07f490.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (9% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-01-05-rocky-low-hills-ae9734b84e3d.png",
+  "file": "b32-01-05-rocky-low-hills-ae9734b84e3d.png",
+  "cls": "patchd",
+  "w": 512,
+  "h": 255,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/10-nile-delta-floodplain-08-aeaef2efe878.png",
+  "file": "10-nile-delta-floodplain-08-aeaef2efe878.png",
+  "cls": "delta",
+  "w": 511,
+  "h": 254,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-05-b103a1a12fd8.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (14% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/generic-scene-01-b30f86ce1ac9.png",
+  "file": "generic-scene-01-b30f86ce1ac9.png",
+  "cls": "fb:harbour_town",
+  "w": 512,
+  "h": 347,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/05-cyprus-mediterranean-orchards-b466bdd3f8c4.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-05-cyprus-mediterranean-orchards-b466bdd3f8c4",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-07-b470121cb7e7.png",
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-07-b470121cb7e7.png",
+  "cls": "patchg",
+  "w": 363,
+  "h": 175,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-04-dense-temperate-woodland-b62526aeb8a8.png",
+  "file": "t27-04-dense-temperate-woodland-b62526aeb8a8.png",
+  "cls": "patchw",
+  "w": 507,
+  "h": 241,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/10-nile-delta-floodplain-03-b872b157704e.png",
+  "file": "10-nile-delta-floodplain-03-b872b157704e.png",
+  "cls": "delta",
+  "w": 445,
+  "h": 248,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t33-03-river-margin-dry-farmland-b8aa92b21dce.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-t33-03-river-margin-dry-farmland-b8aa92b21dce",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/10-nile-delta-floodplain-02-b92830804030.png",
+  "file": "10-nile-delta-floodplain-02-b92830804030.png",
+  "cls": "delta",
+  "w": 520,
+  "h": 202,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-01-10-wooded-hills-bc21dc01f7c9.png",
+  "file": "b32-01-10-wooded-hills-bc21dc01f7c9.png",
+  "cls": "patchw",
+  "w": 506,
+  "h": 243,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/106-atokos-concept-bc2b8fa78fb1.png",
+  "file": "",
+  "cls": "off",
+  "reason": "concept island with no registered coordinate box"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-22-river-delta-wetland-bd042f1f9c7f.png",
+  "file": "t27-22-river-delta-wetland-bd042f1f9c7f.png",
+  "cls": "delta",
+  "w": 520,
+  "h": 130,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-09-bfdb736efdb5.png",
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-09-bfdb736efdb5.png",
+  "cls": "patchg",
+  "w": 392,
+  "h": 182,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-02-01-forest-lowland-c03cf9b0b793.png",
+  "file": "b32-02-01-forest-lowland-c03cf9b0b793.png",
+  "cls": "patchw",
+  "w": 520,
+  "h": 138,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t28-02-sandy-coast-dune-edge-c18fe185f25c.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (7% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/cairo-concept-repaint-required-c2ded32a0e1c.png",
+  "file": "",
+  "cls": "off",
+  "reason": "marked repaint-required by its own file name"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-01-08-heath-transition-c37ee44c10b2.png",
+  "file": "b32-01-08-heath-transition-c37ee44c10b2.png",
+  "cls": "patchd",
+  "w": 512,
+  "h": 256,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t33-02-nile-delta-reeds-fields-c3a3c1114e90.png",
+  "file": "",
+  "cls": "tile:flat",
+  "tile": "up-t33-02-nile-delta-reeds-fields-c3a3c1114e90",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t35-06-greek-mainland-foothills-fields-c3ad074018b6.png",
+  "file": "",
+  "cls": "tile:aeg",
+  "tile": "up-t35-06-greek-mainland-foothills-fields-c3ad074018b6",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-01-03-limestone-escarpment-c4ebc758f9c6.png",
+  "file": "b32-01-03-limestone-escarpment-c4ebc758f9c6.png",
+  "cls": "patcha",
+  "w": 503,
+  "h": 252,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t35-02-very-wide-gravel-steppe-c5e19a2f4530.png",
+  "file": "",
+  "cls": "tile:waste",
+  "tile": "up-t35-02-very-wide-gravel-steppe-c5e19a2f4530",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-02-reed-marsh-transition-c7539191e6c9.png",
+  "file": "",
+  "cls": "off",
+  "reason": "river, reed or marsh piece (20% water): needs aligning to real water"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t29-02-hand-painted-mediterranean-terrain-map-cc1266f1fce8.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-t29-02-hand-painted-mediterranean-terrain-map-cc1266f1fce8",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/tannery-and-dyeing-yard-cc450cd249e3.png",
+  "file": "",
+  "cls": "off",
+  "reason": "failed transparency: a checkerboard is painted into the background; needs re-export with real alpha"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-12-cd0e74d685d4.png",
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-12-cd0e74d685d4.png",
+  "cls": "patchg",
+  "w": 503,
+  "h": 175,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-21-littoral-dunes-cea4f4f62ed1.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (22% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-02-08-olive-pasture-cf80c48450c6.png",
+  "file": "b32-02-08-olive-pasture-cf80c48450c6.png",
+  "cls": "patchg",
+  "w": 520,
+  "h": 126,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/10-nile-delta-floodplain-01-d09277c09f97.png",
+  "file": "10-nile-delta-floodplain-01-d09277c09f97.png",
+  "cls": "delta",
+  "w": 520,
+  "h": 213,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/10-nile-delta-floodplain-master-d1e6fc4a2441.png",
+  "file": "",
+  "cls": "off",
+  "reason": "source sheet or opaque master registered by intake as one image: reference only"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-03-10-saline-coastal-flat-d3ec28aabda5.png",
+  "file": "",
+  "cls": "off",
+  "reason": "coast or stream piece (12% water): needs registering to real shoreline or river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/caesarea-concept-d46875ca8137.png",
+  "file": "",
+  "cls": "off",
+  "reason": "orientation concept sketch (768 px wide strip), superseded by the south-view repaints"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-17-pasture-mosaic-d4c3946de4a5.png",
+  "file": "t27-17-pasture-mosaic-d4c3946de4a5.png",
+  "cls": "patchg",
+  "w": 520,
+  "h": 126,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-03-06-dry-plateau-d4fb19981be3.png",
+  "file": "b32-03-06-dry-plateau-d4fb19981be3.png",
+  "cls": "patcha",
+  "w": 520,
+  "h": 130,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-11-alpine-ridge-d61511fc6635.png",
+  "file": "t27-11-alpine-ridge-d61511fc6635.png",
+  "cls": "patchd",
+  "w": 512,
+  "h": 251,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-02-03-mediterranean-maquis-d689503af247.png",
+  "file": "b32-02-03-mediterranean-maquis-d689503af247.png",
+  "cls": "patchd",
+  "w": 520,
+  "h": 160,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-14-d7f4d41f3f31.png",
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-14-d7f4d41f3f31.png",
+  "cls": "patchg",
+  "w": 442,
+  "h": 181,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-02-09-pine-mixed-wood-dadd60d0240a.png",
+  "file": "b32-02-09-pine-mixed-wood-dadd60d0240a.png",
+  "cls": "patchw",
+  "w": 520,
+  "h": 129,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/large-01-grain-field-patchwork-dbc9aa61b09c.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-large-01-grain-field-patchwork-dbc9aa61b09c",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t28-10-rocky-cedar-woodland-dc96db2fbd08.png",
+  "file": "t28-10-rocky-cedar-woodland-dc96db2fbd08.png",
+  "cls": "patchw",
+  "w": 366,
+  "h": 164,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t26-04-lebanon-foothill-waterfall-ddbd7d30ec68.png",
+  "file": "",
+  "cls": "off",
+  "reason": "river, reed or marsh piece (2% water): needs aligning to real water"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b34-05-greek-mainland-countryside-df0b2e8513e9.png",
+  "file": "",
+  "cls": "tile:aeg",
+  "tile": "up-b34-05-greek-mainland-countryside-df0b2e8513e9",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/farming-05-mediterranean-olive-orchards-e0cbd1d9fd9f.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-farming-05-mediterranean-olive-orchards-e0cbd1d9fd9f",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/81-pserimos-concept-e0d1df1c3bf7.png",
+  "file": "",
+  "cls": "off",
+  "reason": "concept island with no registered coordinate box"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-01-12-basalt-badlands-e152c0aaa7bd.png",
+  "file": "b32-01-12-basalt-badlands-e152c0aaa7bd.png",
+  "cls": "patcha",
+  "w": 504,
+  "h": 249,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-03-04-sinai-dunes-e22df2f96f67.png",
+  "file": "b32-03-04-sinai-dunes-e22df2f96f67.png",
+  "cls": "patcha",
+  "w": 520,
+  "h": 136,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-15-wooded-rocky-slope-e261e051f6f0.png",
+  "file": "t27-15-wooded-rocky-slope-e261e051f6f0.png",
+  "cls": "patchw",
+  "w": 520,
+  "h": 134,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/tyre-concept-e5a80144539f.png",
+  "file": "",
+  "cls": "off",
+  "reason": "orientation concept sketch (768 px wide strip), superseded by the south-view repaints"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/10-nile-delta-floodplain-10-e763cf8391cb.png",
+  "file": "10-nile-delta-floodplain-10-e763cf8391cb.png",
+  "cls": "delta",
+  "w": 511,
+  "h": 228,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/109-petalas-concept-e7ad71bf09a4.png",
+  "file": "",
+  "cls": "off",
+  "reason": "concept island with no registered coordinate box"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/10-nile-delta-floodplain-09-e9004f5a4e36.png",
+  "file": "10-nile-delta-floodplain-09-e9004f5a4e36.png",
+  "cls": "delta",
+  "w": 520,
+  "h": 223,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/farming-03-field-woodland-transition-e9a31fa91e29.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-farming-03-field-woodland-transition-e9a31fa91e29",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t31-01-mediterranean-maquis-scrub-eae276d4f2ab.png",
+  "file": "",
+  "cls": "tile:past",
+  "tile": "up-t31-01-mediterranean-maquis-scrub-eae276d4f2ab",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-sheet-02-ebe83db37c98.png",
+  "file": "",
+  "cls": "off",
+  "reason": "source sheet or opaque master registered by intake as one image: reference only"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-02-06-grassy-meadow-ec7f25253ace.png",
+  "file": "b32-02-06-grassy-meadow-ec7f25253ace.png",
+  "cls": "patchg",
+  "w": 520,
+  "h": 139,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-09-open-rocky-steppe-ed937c26da6e.png",
+  "file": "t27-09-open-rocky-steppe-ed937c26da6e.png",
+  "cls": "patchd",
+  "w": 510,
+  "h": 217,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/antioch-concept-repaint-required-eda129474f95.png",
+  "file": "",
+  "cls": "off",
+  "reason": "marked repaint-required by its own file name"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-13-eeb812c6248f.png",
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-13-eeb812c6248f.png",
+  "cls": "patchg",
+  "w": 502,
+  "h": 165,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/25-03-olive-and-grain-transition-effb516f872d.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-25-03-olive-and-grain-transition-effb516f872d",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t27-03-wooded-riverbank-f1145a58e082.png",
+  "file": "",
+  "cls": "off",
+  "reason": "river, reed or marsh piece (7% water): needs aligning to real water"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t26-08-sinai-negev-arid-ridges-f201af77c113.png",
+  "file": "t26-08-sinai-negev-arid-ridges-f201af77c113.png",
+  "cls": "patcha",
+  "w": 520,
+  "h": 217,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/source-sheet-batch28-f20c0ad5c65c.png",
+  "file": "",
+  "cls": "off",
+  "reason": "source sheet or opaque master registered by intake as one image: reference only"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/108-oxia-concept-f281584a8173.png",
+  "file": "",
+  "cls": "off",
+  "reason": "concept island with no registered coordinate box"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/85-levitha-concept-f3b23f4f067f.png",
+  "file": "",
+  "cls": "off",
+  "reason": "concept island with no registered coordinate box"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/25-01-mediterranean-terraced-cultivation-f5bf23740202.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-25-01-mediterranean-terraced-cultivation-f5bf23740202",
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/b32-03-01-nile-cultivated-floodplain-f6f3e51288cc.png",
+  "file": "b32-03-01-nile-cultivated-floodplain-f6f3e51288cc.png",
+  "cls": "delta",
+  "w": 520,
+  "h": 136,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/automated-intake/png/04-anatolian-river-plain-fa5e9e8ccf18.png",
+  "file": "",
+  "cls": "off",
+  "reason": "large landscape with a painted river or marsh (5% water): needs aligning to a real river"
+ },
+ {
+  "src": "data/sprites/automated-intake/png/t29-05-watercolor-medieval-marshland-map-cutout-fdfe2724c96c.png",
+  "file": "",
+  "cls": "tile:rich",
+  "tile": "up-t29-05-watercolor-medieval-marshland-map-cutout-fdfe2724c96c",
+  "reason": ""
  }
 ]

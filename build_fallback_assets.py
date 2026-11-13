@@ -5,21 +5,14 @@ import places as PL
 HERE = os.path.dirname(os.path.abspath(__file__))
 S = [r for r in json.load(open(os.path.join(HERE, "assets", "sprites.json"))) if not r.get("generic")]
 G = json.load(open(os.path.join(HERE, "assets", "generic2.json")))
-# Four remaining flat place marks receive existing period-neutral illustrations.
-# Use geographic gazetteer anchors: no new towns or coordinates invented.
-REQUIRED = {"Mont Carmel": "monastery_hill", "Cana": "town",
-            "Bethabara": "oasis", "Jerash": "ruin"}
 pool = {}
 for r in G:
     if r["cls"].startswith("fb:"):
         pool.setdefault(r["cls"][3:], []).append(r)
-    elif r["cls"] in ("oasis", "ruin"):
-        pool.setdefault(r["cls"], []).append(r)
 WANT = {"Li Vaux Moyse": "fort", "Blanchegarde": "fort", "Ibelin": "fort", "Toron des Chevaliers": "fort", "Scandalion": "fort",
         "Gallipoli": "fort", "Aila": "fort", "Shayzar": "fort", "Masyaf": "fort", "Qadmus": "fort", "Smyrne": "harbour_fort",
         "Saint-Pierre": "harbour_fort", "Darum": "tower", "Montjoie": "tower", "Mont Thabor": "monastery_hill", "Sebaste": "latin",
         "Mont Carmel": "monastery_hill", "Cicho": "greek", "Lapais": "latin", "Mont Athos": "monastery_cliff", "Patmos": "monastery_cliff"}
-WANT.update(REQUIRED)
 have = set()
 for r in S:
     for t in PL.PLACES:
@@ -28,11 +21,7 @@ for r in S:
 nxt = {}; n = 0
 for t in PL.PLACES:
     nm = t[5]
-    # Approximate coordinate matching can confuse close neighbours (e.g.
-    # Cana/Tiberias). For required replacements, only exact named artwork
-    # suppresses fallback.
-    already = (any(r["name"] == nm for r in S) if nm in REQUIRED else nm in have)
-    if already or nm not in WANT or not pool.get(WANT[nm]):
+    if nm in have or nm not in WANT or not pool.get(WANT[nm]):
         continue
     lst = pool[WANT[nm]]; g = lst[nxt.get(WANT[nm], 0) % len(lst)]; nxt[WANT[nm]] = nxt.get(WANT[nm], 0) + 1
     fn = "generic-" + g["file"]

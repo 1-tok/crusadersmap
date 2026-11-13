@@ -77,7 +77,13 @@ for p, r in sorted(paths.items()):
     elif p in g2:
         g = g2[p]; n = usage["generic"].get(g["file"], 0)
         fb = [k for k, v in used_paths.items() if k == p]
-        if g["cls"] == "off":
+        if g["cls"].startswith("tile:"):
+            n = usage["terrain"].get(g.get("tile"), 0)
+            if n:
+                use = "yes"; why = "large ground tile (%s land), placed %d times" % (g["cls"][5:], n)
+            else:
+                why = "large ground tile (%s land): in the pool but not drawn in this build" % g["cls"][5:]
+        elif g["cls"] == "off":
             why = g["reason"]
         elif g["cls"].startswith("fb:"):
             why = "generic fallback held in reserve: no unpainted site of this kind is left to use it"

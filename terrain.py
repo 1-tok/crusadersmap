@@ -552,7 +552,7 @@ class Terrain:
                     items.append((y - 0.85e6, "farm", x, y, rnd.uniform(560, 700) * m, rnd.randint(1, 10 ** 6), "cflat" if (dl or e < 150) else "crich"))
                 elif 0.30 < f <= 0.52 and 150 < e < 1000 and not dl and rnd.random() < 0.25:
                     items.append((y - 0.85e6, "farm", x, y, rnd.uniform(520, 640) * m, rnd.randint(1, 10 ** 6), "cpast"))
-                elif f < 0.22 and e < 1200 and self.dland[at(x, y)[1], at(x, y)[0]] > 12 and rnd.random() < 0.16:
+                elif f < 0.22 and e < 1200 and self.dland[at(x, y)[1], at(x, y)[0]] > 12 and rnd.random() < 0.06:
                     items.append((y - 0.85e6, "farm", x, y, rnd.uniform(560, 700) * m, rnd.randint(1, 10 ** 6), "cwaste"))
         cellh = (150 if self.mpp <= 150 else 120) * m
         for gy in range(0, int(H // cellh) + 1):
@@ -563,13 +563,13 @@ class Terrain:
                     continue
                 f = fert_at(x, y); e = elev_at(x, y); u = rnd.random(); gk = None
                 if f > 0.5 and e < 700:
-                    gk = ("delta" if in_delta(x, y) and u < 0.05 else "green") if u < 0.30 else ("vegg" if u < 0.52 else ("patchg" if u < 0.74 and not in_delta(x, y) else None))
+                    gk = ("delta" if in_delta(x, y) and u < 0.05 else "green") if u < 0.30 else ("vegg" if u < 0.52 else ("patchg" if u < 0.64 and not in_delta(x, y) else None))
                 elif 0.28 < f <= 0.5 and e < 1100:
                     gk = "past" if u < 0.09 else ("rock" if u < 0.13 else ("vegd" if u < 0.22 else ("patchd" if u < 0.30 else ("patchw" if u < 0.36 and e > 250 else ("ruin" if u < 0.375 else None)))))
                     if in_delta(x, y) and gk in ("rock", "patchd", "patchw"):
                         gk = None
                 elif f <= 0.28 and e < 1200 and self.dland[at(x, y)[1], at(x, y)[0]] > 8:
-                    gk = ("oasis" if u < 0.012 else "arid") if u < 0.06 else ("patcha" if u < 0.22 else ("vega" if u < 0.232 else ("ruin" if u < 0.24 else None)))
+                    gk = ("oasis" if u < 0.012 else "arid") if u < 0.06 else ("patcha" if u < 0.10 else ("vega" if u < 0.108 else ("ruin" if u < 0.115 else None)))
                 if gk in ("green", "past") and not in_delta(x, y) and rnd.random() < (0.16 if gk == "green" else 0.10):
                     gk = "town"
                 if gk and TSP.POOL.get(gk):
@@ -724,12 +724,7 @@ class Terrain:
             elif kind == "hamlet":
                 c.restore(); c.save()
                 lst = TSP.POOL[_x]
-                # Cycle through suitable artwork before heavily repeating one
-                # motif. Classification still enforces ecological suitability.
-                # Random tie-breaking keeps the scattering organic.
-                least = min(TSP.GUSED.get(asset, 0) for asset in lst)
-                options = [asset for asset in lst if TSP.GUSED.get(asset, 0) <= least + 1]
-                TSP.gdraw(c, r.choice(options), x, y, size, edition)
+                TSP.gdraw(c, r.choice(lst), x, y, size, edition)
             elif kind == "farm":
                 c.restore(); c.save()
                 if _x in ("crich", "cpast", "cwaste", "cflat"):

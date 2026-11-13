@@ -53,6 +53,7 @@ class Item:
 
 REPORT = {}
 PAINTED_WATER = ("Mer de Galilee",)
+RESERVE_NAME = ("Iherusalem",)
 
 
 def mark_func(spec):
@@ -531,11 +532,6 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
 
     items = build_items(TER, REG, BOX)
 
-    # Restoration list: keep geographic anchor, allowing a small painted icon
-    # with a leader line if the registered position is crowded.
-    RESTORE = {"Li Vaux Moyse", "Scandalion", "Mont Carmel", "Cana",
-               "Bethabara", "Ruad", "Buffavent", "Chalkedon",
-               "Chrysopolis", "Pera", "Navarin", "Silifke Kalesi", "Ravanda"}
     # ---- symbols: skip anything that falls under an inset or a plate; avoid overlap by tier
     ordered = sorted(items, key=lambda i: (i.tier + (0.5 if i.kind != "place" else 0), i.y))
     kept = []
@@ -545,7 +541,7 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
             # battle boxes are centred on the site
         else:
             rect = item_rect(it, it.w)
-        if HARD[it.region].frac(rect) > 0.04 and it.name not in RESTORE:
+        if HARD[it.region].frac(rect) > 0.04:
             log("under panel:", it.name)
             REPORT[(it.name, it.kind)] = dict(status="hidden: lies under a panel")
             continue
@@ -555,19 +551,12 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
             continue
         placed = False
         x0, y0 = it.x, it.y
-        if it.name in RESTORE:
-            it.anchor_x, it.anchor_y = x0, y0
         offs = [(0, 0)]
         if it.kind == "place" and it.tier >= 2 and getattr(it, "sprite", None):
             for rr_ in (0.6, 1.0, 1.5):
                 for k in range(12):
                     a_ = 2 * math.pi * k / 12 + 0.3
                     offs.append((rr_ * it.w * math.cos(a_), rr_ * it.w * math.sin(a_) * 0.6))
-        if it.name in RESTORE and it.kind == "place":
-            for rr_ in (0.35, 0.65, 1.0, 1.6, 2.3, 3.2, 4.8, 6.0):
-                for k in range(20):
-                    a_ = 2 * math.pi * k / 20 + 0.14
-                    offs.append((rr_ * it.w * math.cos(a_), rr_ * it.w * math.sin(a_) * 0.75))
         if it.kind != "place":
             for rr_ in (1.05, 1.7):
                 for k in range(8):
@@ -576,18 +565,18 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
         for ox, oy in offs:
           it.x, it.y = x0 + ox, y0 + oy
           if (ox or oy) and it.kind == "place":
-              if not (LF[it.region](it.x, it.y) or (it.mark == "M:sea_castle" and WFS[it.region](it.x, it.y))):
+              if not LF[it.region](it.x, it.y):
                   continue
               w_keep = it.w; nudge_sprite(it, WFS); it.w = w_keep if it.w > w_keep else it.w
-          for shrink in ((0.58, 0.46, 0.36, 0.28) if it.name in RESTORE else (1.0, 0.82, 0.68)):
+          for shrink in (1.0, 0.82, 0.68):
             w = it.w * shrink
             if it.kind != "place":
                 rect = (it.x - 50 * w / 100, it.y - 50 * w / 100, it.x + 50 * w / 100, it.y + 50 * w / 100)
             else:
                 rect = item_rect(it, w)
-            if (ox or oy or it.name in RESTORE) and (HARD[it.region].frac(rect) > 0.04 or not (LF[it.region](it.x, it.y) or (it.mark == "M:sea_castle" and WFS[it.region](it.x, it.y)))):
+            if (ox or oy) and (HARD[it.region].frac(rect) > 0.04 or not LF[it.region](it.x, it.y)):
                 continue
-            if sym.frac(rect) < (0.16 if it.name in RESTORE else 0.12) and soft.frac(rect) < (0.52 if it.name in RESTORE else 0.35):
+            if sym.frac(rect) < 0.12 and soft.frac(rect) < 0.35:
                 it.w = w; it.rect = rect; placed = True
                 break
             if it.tier <= 1 and shrink == 0.82 and not (ox or oy):
@@ -600,10 +589,12 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
             log("skipped symbol:", it.name)
             REPORT[(it.name, it.kind)] = dict(status="hidden: no room among neighbouring symbols")
             continue
-        if it.name in RESTORE:
-            it.restored_offset = math.hypot(it.x - x0, it.y - y0) > max(30, it.w * 0.35)
         # reserve symbol with arms
         sym.mark(it.rect)
+        if it.name in RESERVE_NAME:
+            cx_ = (it.rect[0] + it.rect[2]) / 2; wd_ = it.rect[2] - it.rect[0]
+            it.reserved = (cx_ - 0.6 * wd_, it.rect[3] + 4, cx_ + 0.6 * wd_, it.rect[3] + 4 + 175 * it.rf)
+            sym.mark(it.reserved)
         it.arm_rect = None
         if it.arms:
             ws = max(30.0, it.w * 0.17)
@@ -617,15 +608,6 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
         if it.kind == "isle":
             continue
         if it.kind == "place":
-            if getattr(it, "restored_offset", False):
-                c.save()
-                c.set_source_rgba(0.30, 0.24, 0.17, 0.75)
-                c.set_line_width(2.4)
-                c.set_dash([8, 6])
-                c.move_to(it.anchor_x, it.anchor_y)
-                c.line_to(it.x, it.y)
-                c.stroke()
-                c.restore()
             if getattr(it, 'sprite', None):
                 SP.draw(c, it.sprite, it.x, it.y, it.w, edition)
             elif it.name in PAINTED_WATER:
@@ -664,6 +646,17 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
         rr = it.rect
         h_sym = rr[3] - rr[1]
         done = False
+        if getattr(it, "reserved", None):
+            R_ = it.reserved
+            for scale in (1.0, 0.9, 0.8, 0.7, 0.6):
+                blk = measure(c, lines, base * scale)
+                bw = max(b_[3] for b_ in blk); bh = sum(b_[4] for b_ in blk)
+                if bw <= R_[2] - R_[0] and bh <= R_[3] - R_[1] + 20:
+                    break
+            cxr = (R_[0] + R_[2]) / 2
+            draw_label(c, blk, cxr, R_[1] + 6, "c", bw)
+            labs.mark((cxr - bw / 2, R_[1], cxr + bw / 2, R_[1] + bh + 6))
+            continue
         for thr in (0.10, 0.45, 0.85):
           for scale in (1.0, 0.86, 0.74, 0.64, 0.56):
             blk = measure(c, lines, base * scale)
@@ -737,9 +730,6 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
         sp_ = getattr(it, "sprite", None)
         REPORT[(it.name, it.kind)] = dict(status="shown", region=it.region, x=round(it.x), y=round(it.y), leader=bool(getattr(it, 'leader', False)),
                                           sprite=(sp_ or {}).get("variant"), generic=bool((sp_ or {}).get("generic")),
-                                          label=("no label room" if it.name in misses else "labelled"),
-                                          anchor_x=round(it.anchor_x) if hasattr(it,"anchor_x") else round(it.x),
-                                          anchor_y=round(it.anchor_y) if hasattr(it,"anchor_y") else round(it.y),
-                                          restored_offset=bool(getattr(it,"restored_offset",False)))
+                                          label=("no label room" if it.name in misses else "labelled"))
     import json as _j
     _j.dump([dict(name=k[0], kind=k[1], **v) for k, v in REPORT.items()], open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "out", "placement_log.json"), "w"), indent=1)

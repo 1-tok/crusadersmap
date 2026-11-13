@@ -88,14 +88,6 @@ PLACES = [
     ("main", 4, "M:castle_armenian", 35.90, 37.82, "Vahka", "Feke", "Feke", "", ()),
     ("main", 4, "M:castle_armenian", 34.18, 36.46, "Courc", "Korykos", "Kizkalesi", "", ()),
     ("main", 4, "M:castle_armenian", 36.93, 37.58, "Maresch", "Marash", "Kahramanmaras", "", ()),
-    # -------------------------------------------------- Sourced geographic recovery (map review only)
-    # Exact/or approximate site anchors in data/sprites/placements-geographic-recovery-1095-1571.json.
-    # These are separate from the strictly year-gated 1180 review proof.
-    ("main", 3, "M:castle_armenian", 33.91566, 36.37661, "Silifke Kalesi", "Seleucia", "Silifke Castle", "Medieval Byzantine / Cilician; artwork pending phase QA", ()),
-    ("main", 4, "M:castle_armenian", 34.39, 37.09, "Lampron", "Namrun", "Namrun Castle", "Medieval Armenian / Byzantine; artwork pending phase QA", ()),
-    ("main", 4, "M:castle_frankish", 37.05387, 36.87304, "Ravanda", "Ravendel", "Ravanda Castle", "Medieval Crusader / Armenian; artwork pending phase QA", ()),
-    ("main", 4, "M:castle_armenian", 36.136569, 37.050362, "Toprakkale Kalesi", "Til", "Toprakkale Castle", "Medieval Abbasid and later fortress; artwork pending phase QA", ()),
-    ("main", 4, "M:castle_armenian", 36.45944, 37.14746, "Savranda", "Servantikar", "Savranda Castle", "Medieval fortification; artwork pending phase QA", ()),
     # ---------------------------------------------------------------- Cyprus
     ("main", 1, "P:famagusta", 33.94, 35.12, "Famagouste", "Ammochostos", "Famagusta", "Lusignan 1192 - 1489, Venetian 1489 - 1571", ("gen", "ven")),
     ("main", 1, "P:nicosia", 33.37, 35.17, "Nicosie", "Lefkosia", "Nicosia", "Lusignan 1192 - 1489, Venetian 1489 - 1570", ("ven",)),

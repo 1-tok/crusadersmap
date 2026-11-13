@@ -191,6 +191,35 @@ def plate(c, x, y, w, h):
     c.restore()
 
 
+TITLE_LINES = [("Outremer", 330, "Grenze Gotisch Bold", RED), ("The Crusader States and their Neighbours", 108, "Grenze Gotisch Medium", INKC),
+               ("1095 - 1571", 120, "Grenze Gotisch Bold", RED)]
+
+
+def title_geom(cx=4050, cy=7250):
+    """Size the title plate to its lettering. Returns the plate rect and the baseline of each line."""
+    c = cairo.Context(cairo.ImageSurface(cairo.FORMAT_ARGB32, 8, 8))
+    ws = []; hs = []
+    for txt, size, fam, col in TITLE_LINES:
+        c.select_font_face(fam, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL); c.set_font_size(size)
+        ws.append(c.text_extents(txt).x_advance); hs.append(size)
+    gaps = [0, 62, 58]
+    asc = [0.78 * h for h in hs]
+    H = 95 + sum(asc) + sum(gaps) + 0.22 * hs[-1] + 85
+    W = max(ws) + 2 * 120
+    x0 = int(round(cx - W / 2)); y0 = int(round(cy - H / 2))
+    bl = []; y = y0 + 95
+    for i in range(3):
+        y += gaps[i] + asc[i]; bl.append(y)
+    return (x0, y0, int(round(W)), int(round(H))), bl
+
+
+def draw_title(c, cx=4050):
+    (x0, y0, W, H), bl = title_geom(cx)
+    plate(c, x0, y0, W, H)
+    for (txt, size, fam, col), y in zip(TITLE_LINES, bl):
+        centred(c, txt, cx, y, size, col, fam)
+
+
 def centred(c, s, cx, y, size, color=INKC, fam="Fondamento", slant=cairo.FONT_SLANT_NORMAL):
     c.select_font_face(fam, slant, cairo.FONT_WEIGHT_NORMAL); c.set_font_size(size)
     e = c.text_extents(s)
@@ -253,10 +282,7 @@ def draw_ink(edition):
     # panels
     plate(c, 300, 4800, 2000, 4300)
     centred(c, "KEY", 1300, 4990, 90, SEP)
-    plate(c, 2700, 6750, 2700, 1000)
-    centred(c, "Outremer", 4050, 7310, 320)
-    centred(c, "The Crusader States and their Neighbours", 4050, 7480, 62)
-    centred(c, "1095 - 1571", 4050, 7640, 52, SEP, "IM FELL English", cairo.FONT_SLANT_ITALIC)
+    draw_title(c)
     plate(c, 190, 13920, 10420, 330)
     centred(c, "SOURCES AND SCALE", 5400, 14125, 84, SEP)
     compass(c, 4300, 8950, 330)

@@ -89,6 +89,10 @@ FARM_PASTURE = ["dry-stone-pasture"]
 FARM_AEG = ["aegean-terraced-farmland", "aegean-island-interior", "aegean-terraced-farmland"]
 FEATHER = set(FARM_RICH + FARM_PASTURE + FARM_AEG + ["gravel-wasteland-deep", "steppe-basin-deep"])
 
+BIG = json.load(open(os.path.join(HERE, "assets", "bigtiles.json"))) if os.path.exists(os.path.join(HERE, "assets", "bigtiles.json")) else {}
+FARM_RICH = FARM_RICH + BIG.get("rich", []); FARM_AEG = FARM_AEG + BIG.get("aeg", []); FARM_PASTURE = FARM_PASTURE + BIG.get("past", [])
+FARM_FLAT = FARM_FLAT + BIG.get("flat", []); DEEP = DEEP + BIG.get("waste", [])
+FEATHER |= set(sum(BIG.values(), []))
 FEATHER |= set(DEEP) | set(C_RICH + C_PAST + C_WASTE)
 
 

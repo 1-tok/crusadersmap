@@ -103,7 +103,7 @@ def to_sheet(region, ll):
     return [(bx + x, by + y) for x, y in (REG[region].ll_px(lo, la) for lo, la in ll)]
 
 
-HARD_ALL = [(JX - 40, JY - 40, JX + JW + 40, JY + JH + 40), (270, 4770, 2330, 9130), (2680, 6730, 5430, 7770), (150, 13890, 10650, 14270),
+HARD_ALL = [(JX - 40, JY - 40, JX + JW + 40, JY + JH + 40), (270, 4770, 2330, 9130), (title_geom()[0][0] - 20, title_geom()[0][1] - 20, title_geom()[0][0] + title_geom()[0][2] + 20, title_geom()[0][1] + title_geom()[0][3] + 20), (150, 13890, 10650, 14270),
             (4300 - 480, 8950 - 480, 4300 + 480, 8950 + 480)]
 for _k in ("aegean", "delta"):
     _bx, _by = BOX[_k]
@@ -229,10 +229,7 @@ def draw_ink2(edition, surf=None, scale=None, mode=None):
         c.set_line_width(lw); c.rectangle(JX - off, JY - off, JW + 2 * off, JH + 2 * off); c.stroke()
     plate(c, 300, 4800, 2000, 4300)
     KP.draw_key(c, edition, 300, 4800, 2000, 4300)
-    plate(c, 2700, 6750, 2700, 1000)
-    centred(c, "Outremer", 4050, 7310, 320)
-    centred(c, "The Crusader States and their Neighbours", 4050, 7480, 62)
-    centred(c, "1095 - 1571", 4050, 7640, 52, SEP, "IM FELL English", cairo.FONT_SLANT_ITALIC)
+    draw_title(c)
     plate(c, 190, 13920, 10420, 330)
     KP.draw_sources(c, 190, 13920, 10420, 330, {k: (REG[k].x1 - REG[k].x0) / REG[k].w for k in ("main", "aegean", "delta")})
     c.new_path()
