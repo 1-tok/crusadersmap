@@ -58,14 +58,17 @@ class ZipIntakeTests(unittest.TestCase):
         self.make_zip("location_underlays.zip", {
             "underlays/terrain.png": source,
             "build_location_underlays.py": "print('must never run')",
+            "generated/underlay_syrian_steppe.svg": '<svg onload="alert(1)"/>',
             "manifest.json": '{"category":"terrain"}',
         })
         report = extract_archives(self.root)
         self.assertEqual(report["errors"], [])
         self.assertEqual(report["extracted"], 1)
-        self.assertEqual(len(report["warnings"]), 1)
-        self.assertEqual(report["warnings"][0]["member"], "build_location_underlays.py")
+        self.assertEqual(len(report["warnings"]), 2)
+        self.assertEqual({e["member"] for e in report["warnings"]},
+                         {"build_location_underlays.py", "generated/underlay_syrian_steppe.svg"})
         self.assertFalse((self.root / "assets/sprites/incoming/_zip_extract/location_underlays/build_location_underlays.py").exists())
+        self.assertFalse((self.root / "assets/sprites/incoming/_zip_extract/location_underlays/generated/underlay_syrian_steppe.svg").exists())
         self.assertTrue((self.root / "assets/sprites/incoming/_zip_extract/location_underlays/underlays/terrain.png").exists())
 
     def test_reject_traversal(self):
