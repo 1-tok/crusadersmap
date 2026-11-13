@@ -1,7 +1,7 @@
 region,zone,lon,lat,sheet_x,sheet_y,cell_px,detail,flat
 main,Cilicia and the Taurus,35.57,37.72,7360,320,320,9.3,False
 main,Cilicia and the Taurus,35.79,37.72,7680,320,320,14.4,False
-main,Cilicia and the Taurus,36.88,36.84,9280,1920,320,11.7,False
+main,Cilicia and the Taurus,36.88,36.84,9280,1920,320,11.1,False
 main,"North Syria (Antioch, Aleppo)",37.51,35.43,10240,4480,320,9.4,False
 main,"North Syria (Antioch, Aleppo)",37.29,35.26,9920,4800,320,15.7,False
 main,Syrian desert,37.28,34.55,9920,6080,320,11.5,False
@@ -13,8 +13,7 @@ main,Transjordan and Hauran,37.25,32.62,9920,9600,320,10.1,False
 main,"Galilee, Samaria, Judea",34.37,31.22,5440,12160,320,14.7,False
 aegean,Aegean inset: Anatolia and Thrace,27.83,39.52,3790,1390,200,14.1,False
 aegean,Aegean inset: Anatolia and Thrace,28.27,39.51,3990,1390,200,14.0,False
-aegean,Aegean inset: Greece and the Balkans,22.24,37.5,1190,2590,200,15.4,False
-delta,Egypt inset: Sinai,34.83,31.45,4590,9921,200,14.8,False
+aegean,Aegean inset: Greece and the Balkans,22.24,37.5,1190,2590,200,15.9,False
 delta,Egypt inset: Sinai,34.81,30.84,4590,10521,200,15.4,False
 delta,Egypt inset: Delta,30.57,30.69,990,10721,200,13.6,False
 delta,Egypt inset: Delta,30.81,30.69,1190,10721,200,15.4,False
@@ -24,11 +23,11 @@ delta,Egypt inset: Sinai,34.1,30.66,3990,10721,200,15.2,False
 delta,Egypt inset: Delta,30.11,30.48,590,10921,200,13.9,False
 delta,Egypt inset: Western and Eastern deserts,30.81,30.28,1190,11121,200,15.7,False
 delta,Egypt inset: Western and Eastern deserts,31.04,30.28,1390,11121,200,15.4,False
-delta,Egypt inset: Western and Eastern deserts,31.98,30.28,2190,11121,200,12.4,False
-delta,Egypt inset: Western and Eastern deserts,32.21,30.28,2390,11121,200,14.7,False
+delta,Egypt inset: Western and Eastern deserts,31.98,30.28,2190,11121,200,14.6,False
 delta,Egypt inset: Sinai,33.85,30.26,3790,11121,200,15.6,False
 delta,Egypt inset: Sinai,34.78,30.23,4590,11121,200,15.6,False
 delta,Egypt inset: Western and Eastern deserts,30.11,30.08,590,11321,200,15.5,False
+delta,Egypt inset: Western and Eastern deserts,32.21,29.87,2390,11521,200,15.6,False
 delta,Egypt inset: Sinai,33.14,29.86,3190,11521,200,15.8,False
 delta,Egypt inset: Western and Eastern deserts,31.04,29.68,1390,11721,200,15.5,False
 delta,Egypt inset: Western and Eastern deserts,32.21,29.67,2390,11721,200,8.2,True
@@ -45,7 +44,7 @@ delta,Egypt inset: Western and Eastern deserts,31.05,28.86,1390,12521,200,13.3,F
 delta,Egypt inset: Western and Eastern deserts,31.51,28.86,1790,12521,200,12.5,False
 delta,Egypt inset: Western and Eastern deserts,31.74,28.86,1990,12521,200,14.6,False
 delta,Egypt inset: Sinai,32.43,28.86,2590,12521,200,15.1,False
-delta,Egypt inset: Sinai,33.35,28.84,3390,12521,200,12.6,False
+delta,Egypt inset: Sinai,33.35,28.84,3390,12521,200,14.3,False
 delta,Egypt inset: Sinai,34.5,28.82,4390,12521,200,15.5,False
 delta,Egypt inset: Western and Eastern deserts,30.13,28.66,590,12721,200,14.0,False
 delta,Egypt inset: Western and Eastern deserts,30.59,28.66,990,12721,200,14.0,False

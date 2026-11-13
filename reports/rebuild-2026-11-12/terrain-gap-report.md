@@ -5,7 +5,7 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 | Zone | Land cells | Flat | Thin | Share flat or thin |
 |---|---:|---:|---:|---:|
 | Egypt inset: Western and Eastern deserts | 163 | 5 | 20 | 15% |
-| Egypt inset: Sinai | 185 | 5 | 21 | 14% |
+| Egypt inset: Sinai | 185 | 5 | 20 | 14% |
 | Syrian desert | 33 | 1 | 2 | 9% |
 | Egypt inset: Delta | 51 | 1 | 3 | 8% |
 | Lebanon and Damascus | 39 | 1 | 1 | 5% |
@@ -22,14 +22,14 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 | Negev, Sinai, Arabah | 62 | 0 | 0 | 0% |
 | Aegean inset: islands and Crete | 16 | 0 | 0 | 0% |
 
-Whole sheet: 1288 land cells, 17 flat, 53 thin (5% flat or thin).
+Whole sheet: 1288 land cells, 17 flat, 52 thin (5% flat or thin).
 
 ## Flat cells by position
 
 | Zone | Lon | Lat | Sheet x | Sheet y | Detail |
 |---|---:|---:|---:|---:|---:|
 | Cilicia and the Taurus | 35.57 | 37.72 | 7360 | 320 | 9.3 |
-| Cilicia and the Taurus | 36.88 | 36.84 | 9280 | 1920 | 11.7 |
+| Cilicia and the Taurus | 36.88 | 36.84 | 9280 | 1920 | 11.1 |
 | North Syria (Antioch, Aleppo) | 37.51 | 35.43 | 10240 | 4480 | 9.4 |
 | Syrian desert | 37.28 | 34.55 | 9920 | 6080 | 11.5 |
 | Lebanon and Damascus | 36.84 | 33.50 | 9280 | 8000 | 10.8 |
@@ -50,7 +50,7 @@ The thin cells are listed with the flat ones in terrain-gap-cells.csv.
 
 ## What covers the land now
 
-- Terrain stamps and landscape tiles: 70 different pieces, 6320 placements
-- Generic settlement, farm, tree, rock and ruin pieces: 204 different pieces, 2374 placements
+- Terrain stamps and landscape tiles: 70 different pieces, 6316 placements
+- Generic settlement, farm, tree, rock and ruin pieces: 204 different pieces, 2370 placements
 - Greek island overlays: 47
 - Ships at sea: 8

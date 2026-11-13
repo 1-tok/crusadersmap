@@ -1,26 +1,28 @@
 {
   "scope": "Multi-period Crusader atlas 1095\u20131571 (not a strict 1180 reconstruction)",
   "status": "renderer usage evidence; no separate human visual/period certification",
-  "named_art_selected_in_repo": 146,
-  "named_art_drawn": 145,
-  "named_sites_shown": 148,
-  "hidden_items": 1,
+  "named_art_selected_in_repo": 149,
+  "named_art_drawn": 146,
+  "named_sites_shown": 149,
+  "hidden_items": 3,
   "hidden_names": [
-    "Konstantinoupolis"
+    "Konstantinoupolis",
+    "Silifke Kalesi",
+    "Ravanda"
   ],
   "generic_pool_records": 319,
   "generic_distinct_used": 173,
-  "generic_total_instances": 2374,
+  "generic_total_instances": 2370,
   "recent_zip_generic_eligible": 19,
   "recent_zip_generic_distinct_used": 19,
-  "recent_zip_generic_total_instances": 196,
+  "recent_zip_generic_total_instances": 195,
   "recent_zip_generic_used_by_category": {
     "patchd": 3,
     "patcha": 2,
     "patchg": 14
   },
   "terrain_distinct_used": 70,
-  "terrain_total_instances": 6320,
+  "terrain_total_instances": 6316,
   "island_overlays_used": 47,
   "ship_instances": 8,
   "notes": [
