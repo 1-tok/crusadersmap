@@ -12,3 +12,7 @@ A review placement record means the PNG can be shown at its recorded representat
 ## Rendering the map review layer
 
 Run `python3 render_sprite_layer.py --year 1180 --review` to generate `previews/sprite-layer-review-1180.svg` and `previews/sprite-placement-review-1180.jpg`. Use `--year 1245 --review` for the Safed rebuilding. Add `--all-review-variants` for explicit side-by-side debugging; it may cause overlapping alternate paintings at the same anchor. The default production rendering command is unchanged. The review-only PNGs may have halos, opaque backgrounds or other issues: this is intentional visibility for quality review, not automatic final acceptance.
+
+## Clarification — geographic review placement (13 November 2026)
+
+The blanket visual-review authorization above allows every draft to be **available for inspection in a gallery or diagnostic art review**; it is **not** authorization to invent a geographic location. A feature with null geometry, missing coordinate provenance, incompatible period, `candidate_only=true` or `approval_for_review_placement=false` must remain unpositioned until it is verified and explicitly selected. The older statement that all review records have placement approval describes the November 10 curated review layers, **not** the later automated-intake pool. Production approval and actual visibility in a full-map composite are additional independent checks. See [AI context](../../docs/AI-CONTEXT.md) and [final map readiness](../../docs/FINAL-MAP-BUILD-READINESS.md).
