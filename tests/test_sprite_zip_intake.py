@@ -53,6 +53,21 @@ class ZipIntakeTests(unittest.TestCase):
         self.assertIsNone(records[0]["coordinates"])
         self.assertFalse(records[0]["historical_accuracy_certified"])
 
+    def test_quarantine_python_source_without_rejecting_safe_png(self):
+        source = self.png()
+        self.make_zip("location_underlays.zip", {
+            "underlays/terrain.png": source,
+            "build_location_underlays.py": "print('must never run')",
+            "manifest.json": '{"category":"terrain"}',
+        })
+        report = extract_archives(self.root)
+        self.assertEqual(report["errors"], [])
+        self.assertEqual(report["extracted"], 1)
+        self.assertEqual(len(report["warnings"]), 1)
+        self.assertEqual(report["warnings"][0]["member"], "build_location_underlays.py")
+        self.assertFalse((self.root / "assets/sprites/incoming/_zip_extract/location_underlays/build_location_underlays.py").exists())
+        self.assertTrue((self.root / "assets/sprites/incoming/_zip_extract/location_underlays/underlays/terrain.png").exists())
+
     def test_reject_traversal(self):
         self.make_zip("unsafe.zip", {"../outside.png": self.png()})
         self.assertEqual(len(extract_archives(self.root)["errors"]), 1)
