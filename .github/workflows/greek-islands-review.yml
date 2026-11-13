@@ -1,0 +1,59 @@
+name: Greek islands geographic review
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - islandart.py
+      - tools/greek_islands_review.py
+      - .github/workflows/greek-islands-review.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: greek-island-review
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y libcairo2-dev pkg-config
+          python -m pip install numpy Pillow scipy shapely pyproj pycairo
+      - name: Reconcile all staged island artwork and render native-width review
+        run: python tools/greek_islands_review.py
+      - name: Publish always-available review artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: greek-islands-geographic-review
+          path: reports/greek-islands-review-2026-11-12/
+          if-no-files-found: warn
+      - name: Commit island QA and separate enlarged review preview
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --mixed origin/main
+            git add reports/greek-islands-review-2026-11-12/
+            if git diff --cached --quiet; then
+              echo "No change to reports"
+              exit 0
+            fi
+            git commit -m "build: 4800px Aegean island QA review and candidate reconciliation [skip ci]"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          exit 1
