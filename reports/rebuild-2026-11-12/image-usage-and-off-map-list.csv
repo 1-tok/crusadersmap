@@ -133,14 +133,14 @@ data/sprites/automated-intake/png/b18-02-offshore-rock-citadel-generic-b84b8c8e1
 data/sprites/automated-intake/png/b18-03-medieval-harbor-generic-70ca8bfc82b3.png,automated-intake,generic-town,B18-03_medieval_harbor_generic,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/automated-intake/png/b18-04-ruined-hillfort-generic-6330cbb777ea.png,automated-intake,generic-fort,B18-04_ruined_hillfort_generic,yes,generic fallback painting for Jerash
 data/sprites/automated-intake/png/b18-05-walled-monastery-generic-0936d53b9b75.png,automated-intake,religious,B18-05_walled_monastery_generic,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
-data/sprites/automated-intake/png/b18-06-multiarch-stone-aqueduct-9f3183dbbc7c.png,automated-intake,rural-infrastructure,B18-06_multiarch_stone_aqueduct,yes,"generic past piece, placed 12 times"
+data/sprites/automated-intake/png/b18-06-multiarch-stone-aqueduct-9f3183dbbc7c.png,automated-intake,rural-infrastructure,B18-06_multiarch_stone_aqueduct,no,Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering
 data/sprites/automated-intake/png/b18-07-fortified-river-bridge-f646d5db6f76.png,automated-intake,river-marsh,B18-07_fortified_river_bridge,no,"river, marsh or bridge piece: needs aligning to a real river course before use"
-data/sprites/automated-intake/png/b18-08-stone-village-chapel-767c571fb425.png,automated-intake,religious,B18-08_stone_village_chapel,yes,"generic green piece, placed 4 times"
-data/sprites/automated-intake/png/b18-09-river-watermill-c6aec74d703b.png,automated-intake,river-marsh,B18-09_river_watermill,yes,"generic green piece, placed 4 times"
+data/sprites/automated-intake/png/b18-08-stone-village-chapel-767c571fb425.png,automated-intake,religious,B18-08_stone_village_chapel,yes,"generic green piece, placed 5 times"
+data/sprites/automated-intake/png/b18-09-river-watermill-c6aec74d703b.png,automated-intake,river-marsh,B18-09_river_watermill,no,Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering
 data/sprites/automated-intake/png/b18-10-crusader-camp-115c67adc323.png,automated-intake,trade-caravan,B18-10_crusader_camp,yes,"generic green piece, placed 4 times"
-data/sprites/automated-intake/png/b18-11-market-tents-915b1620bfbb.png,automated-intake,trade-caravan,B18-11_market_tents,yes,"generic green piece, placed 4 times"
+data/sprites/automated-intake/png/b18-11-market-tents-915b1620bfbb.png,automated-intake,trade-caravan,B18-11_market_tents,yes,"generic green piece, placed 3 times"
 data/sprites/automated-intake/png/b18-12-hilltop-watchtower-3673359599e2.png,automated-intake,generic-fort,B18-12_hilltop_watchtower,yes,generic fallback painting for Darum
-data/sprites/automated-intake/png/b18-13-windmill-b84f4fa44ca9.png,automated-intake,agriculture,B18-13_windmill,yes,"generic green piece, placed 5 times"
+data/sprites/automated-intake/png/b18-13-windmill-b84f4fa44ca9.png,automated-intake,agriculture,B18-13_windmill,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/b18-14-rocky-littoral-1c2762361496.png,automated-intake,sea-coast,B18-14_rocky_littoral,no,coast or shore piece: needs registering to a real stretch of shoreline before use
 data/sprites/automated-intake/png/b18-15-sandy-cove-80bcb2f92b79.png,automated-intake,sea-coast,B18-15_sandy_cove,no,coast or shore piece: needs registering to a real stretch of shoreline before use
 data/sprites/automated-intake/png/b18-16-rocky-coastal-headland-058ad572fcaf.png,automated-intake,sea-coast,B18-16_rocky_coastal_headland,no,coast or shore piece: needs registering to a real stretch of shoreline before use
@@ -170,13 +170,13 @@ data/sprites/automated-intake/png/b19-11-lateen-ship-cross-sail-64bcc38d5619.png
 data/sprites/automated-intake/png/b19-12-oared-ship-cross-sail-dce6c57f7fdd.png,automated-intake,ships,B19-12_oared_ship_cross_sail,yes,"generic ship piece, placed 1 times"
 data/sprites/automated-intake/png/b19-13-lateen-ship-a-de8c290477b7.png,automated-intake,ships,B19-13_lateen_ship_a,yes,"generic ship piece, placed 1 times"
 data/sprites/automated-intake/png/b19-14-lateen-ship-b-25af1e661c90.png,automated-intake,ships,B19-14_lateen_ship_b,yes,"generic ship piece, placed 1 times"
-data/sprites/automated-intake/png/b19-15-riverside-watermill-94996b7287c9.png,automated-intake,river-marsh,B19-15_riverside_watermill,yes,"generic green piece, placed 3 times"
-data/sprites/automated-intake/png/b19-16-fortified-tents-3e6428bc9e93.png,automated-intake,trade-caravan,B19-16_fortified_tents,yes,"generic green piece, placed 4 times"
+data/sprites/automated-intake/png/b19-15-riverside-watermill-94996b7287c9.png,automated-intake,river-marsh,B19-15_riverside_watermill,no,Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering
+data/sprites/automated-intake/png/b19-16-fortified-tents-3e6428bc9e93.png,automated-intake,trade-caravan,B19-16_fortified_tents,yes,"generic green piece, placed 3 times"
 data/sprites/automated-intake/png/b19-17-market-tents-1632ebc04987.png,automated-intake,trade-caravan,B19-17_market_tents,yes,"generic green piece, placed 4 times"
-data/sprites/automated-intake/png/b19-18-camel-caravan-d835031f1395.png,automated-intake,trade-caravan,B19-18_camel_caravan,yes,"generic arid piece, placed 13 times"
-data/sprites/automated-intake/png/b19-19-ox-cart-31596eaa059e.png,automated-intake,rural-infrastructure,B19-19_ox_cart,yes,"generic green piece, placed 4 times"
+data/sprites/automated-intake/png/b19-18-camel-caravan-d835031f1395.png,automated-intake,trade-caravan,B19-18_camel_caravan,yes,"generic arid piece, placed 14 times"
+data/sprites/automated-intake/png/b19-19-ox-cart-31596eaa059e.png,automated-intake,rural-infrastructure,B19-19_ox_cart,yes,"generic green piece, placed 5 times"
 data/sprites/automated-intake/png/b19-20-herd-with-figure-bff3ce6dd639.png,automated-intake,rural-infrastructure,B19-20_herd_with_figure,yes,"generic green piece, placed 4 times"
-data/sprites/automated-intake/png/b19-21-cattle-068d25f90cba.png,automated-intake,rural-infrastructure,B19-21_cattle,yes,"generic green piece, placed 3 times"
+data/sprites/automated-intake/png/b19-21-cattle-068d25f90cba.png,automated-intake,rural-infrastructure,B19-21_cattle,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/b19-22-stony-boulders-430793485616.png,automated-intake,mountains,B19-22_stony_boulders,yes,"generic rock piece, placed 8 times"
 data/sprites/automated-intake/png/b19-23-mountain-rocks-e0bd526c0a92.png,automated-intake,mountains,B19-23_mountain_rocks,yes,"generic rock piece, placed 9 times"
 data/sprites/automated-intake/png/b19-24-cave-rocks-a6bf1b8ee6b1.png,automated-intake,mountains,B19-24_cave_rocks,yes,"generic rock piece, placed 9 times"
@@ -208,7 +208,7 @@ data/sprites/automated-intake/png/b21-09-vineyard-wheat-connector-9eb54e5e6e15.p
 data/sprites/automated-intake/png/b21-10-fields-with-chapel-b838de0df29d.png,automated-intake,religious,B21-10_fields_with_chapel,yes,"generic patchg piece, placed 2 times"
 data/sprites/automated-intake/png/b21-11-orchard-field-connector-eb442da6284f.png,automated-intake,agriculture,B21-11_orchard_field_connector,yes,"generic patchg piece, placed 3 times"
 data/sprites/automated-intake/png/b21-12-hillside-farm-673c23a3d3d4.png,automated-intake,agriculture,B21-12_hillside_farm,yes,"generic patchg piece, placed 3 times"
-data/sprites/automated-intake/png/b21-13-rural-houses-18a791006882.png,automated-intake,generic-town,B21-13_rural_houses,yes,"generic green piece, placed 5 times"
+data/sprites/automated-intake/png/b21-13-rural-houses-18a791006882.png,automated-intake,generic-town,B21-13_rural_houses,yes,"generic green piece, placed 3 times"
 data/sprites/automated-intake/png/b21-14-rocky-scrub-foothills-23550772dcd8.png,automated-intake,mountains,B21-14_rocky_scrub_foothills,yes,"generic patchd piece, placed 5 times"
 data/sprites/automated-intake/png/b21-15-foothill-to-mountain-551250fcc90e.png,automated-intake,mountains,B21-15_foothill_to_mountain,yes,"generic patchd piece, placed 5 times"
 data/sprites/automated-intake/png/b21-16-alpine-crags-85c6f4aa303e.png,automated-intake,mountains,B21-16_alpine_crags,yes,"generic patchd piece, placed 5 times"
@@ -219,18 +219,18 @@ data/sprites/automated-intake/png/b21-21-mixed-tree-woods-4c6be4f8ac82.png,autom
 data/sprites/automated-intake/png/b21-23-broad-delta-reeds-98c58ae9967d.png,automated-intake,river-marsh,B21-23_broad_delta_reeds,no,"river, marsh or bridge piece: needs aligning to a real river course before use"
 data/sprites/automated-intake/png/batch10-source-sheet-85c492df82d4.png,automated-intake,source-master,batch10_source_sheet,no,"source sheet: reference only, never placed"
 data/sprites/automated-intake/png/batch15-original-six-sprite-sheet-edfc16350be6.png,automated-intake,source-master,batch15_original_six_sprite_sheet,no,"source sheet: reference only, never placed"
-data/sprites/automated-intake/png/beehive-apiary-0ae14ae46cca.png,automated-intake,agriculture,Beehive apiary,yes,"generic green piece, placed 4 times"
+data/sprites/automated-intake/png/beehive-apiary-0ae14ae46cca.png,automated-intake,agriculture,Beehive apiary,yes,"generic green piece, placed 5 times"
 data/sprites/automated-intake/png/birecik-castle-553c9c96a91b.png,automated-intake,named-candidate,Birecik castle,no,named fortress candidate with no coordinates or matched site in the repository
 data/sprites/automated-intake/png/bourzey-burzey-8f4e66fea529.png,automated-intake,named-candidate,Bourzey / Burzey,no,alternate variant; primary is data/sprites/fortress-batch13-review/png/bourzey-1180-provisional-v1.png
 data/sprites/automated-intake/png/buffavento-eb686a366b52.png,automated-intake,named-candidate,Buffavento,yes,dedicated painting for Buffavent
 data/sprites/automated-intake/png/byzantine-cross-domed-church-93b600ef3128.png,automated-intake,religious,Byzantine cross-domed church,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/automated-intake/png/byzantine-monastic-church-a855c61276d4.png,automated-intake,religious,Byzantine monastic church,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
-data/sprites/automated-intake/png/caravan-tent-encampment-22e6e84efa16.png,automated-intake,trade-caravan,Caravan tent encampment,yes,"generic arid piece, placed 12 times"
+data/sprites/automated-intake/png/caravan-tent-encampment-22e6e84efa16.png,automated-intake,trade-caravan,Caravan tent encampment,yes,"generic arid piece, placed 13 times"
 data/sprites/automated-intake/png/cattle-enclosure-and-shelter-dd95379c2fd8.png,automated-intake,rural-infrastructure,Cattle enclosure and shelter,yes,"generic green piece, placed 3 times"
 data/sprites/automated-intake/png/charcoal-burning-and-metalworking-yard-7d9dcbc9ddbf.png,automated-intake,rural-infrastructure,Charcoal burning and metalworking yard,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/chastellet-jacob-s-ford-6b5a1ae89a82.png,automated-intake,named-candidate,Chastellet / Jacob’s Ford,yes,dedicated painting for Chastellet
 data/sprites/automated-intake/png/chlemoutsi-clermont-a7440d538d45.png,automated-intake,named-candidate,Chlemoutsi / Clermont,yes,dedicated painting for Clermont
-data/sprites/automated-intake/png/citrus-orchard-7cab9160c1dd.png,automated-intake,agriculture,Citrus orchard,yes,"generic green piece, placed 4 times"
+data/sprites/automated-intake/png/citrus-orchard-7cab9160c1dd.png,automated-intake,agriculture,Citrus orchard,yes,"generic green piece, placed 5 times"
 data/sprites/automated-intake/png/coastal-cliff-monastery-adb44d1af805.png,automated-intake,religious,Coastal cliff monastery,yes,generic fallback painting for Mont Athos
 data/sprites/automated-intake/png/coastal-cliffside-monastery-a004220580c6.png,automated-intake,religious,Coastal cliffside monastery,yes,generic fallback painting for Patmos
 data/sprites/automated-intake/png/coastal-domed-church-15f3fad4b91e.png,automated-intake,religious,Coastal domed church,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
@@ -238,7 +238,7 @@ data/sprites/automated-intake/png/coastal-watchtower-069b5256b3d9.png,automated-
 data/sprites/automated-intake/png/cross-domed-byzantine-style-church-16e560489988.png,automated-intake,religious,Cross-domed Byzantine-style church,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/automated-intake/png/darbsak-30eaae615a8d.png,automated-intake,named-candidate,Darbsak,yes,dedicated painting for Darbsak
 data/sprites/automated-intake/png/darbsak-trapesac-2095a3bf52a4.png,automated-intake,named-candidate,Darbsak (Trapesac),no,alternate variant; primary is data/sprites/automated-intake/png/darbsak-30eaae615a8d.png
-data/sprites/automated-intake/png/desert-caravan-well-45383b9bcb1d.png,automated-intake,trade-caravan,Desert caravan well,yes,"generic arid piece, placed 12 times"
+data/sprites/automated-intake/png/desert-caravan-well-45383b9bcb1d.png,automated-intake,trade-caravan,Desert caravan well,yes,"generic arid piece, placed 14 times"
 data/sprites/automated-intake/png/desert-mountain-monastery-1d57b24b6551.png,automated-intake,religious,Desert mountain monastery,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/automated-intake/png/domed-bath-complex-6bd02e6bbe7f.png,automated-intake,religious,Domed bath complex,no,generic religious or civic building with no matching unpainted site on the map
 data/sprites/automated-intake/png/domed-cathedral-compound-f7e2aa4d87b2.png,automated-intake,religious,Domed cathedral compound,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
@@ -247,7 +247,7 @@ data/sprites/automated-intake/png/domed-walled-religious-precinct-0731ce87a8f3.p
 data/sprites/automated-intake/png/feke-vahga-5df9cdf9a419.png,automated-intake,named-candidate,Feke (Vahga),no,alternate variant; primary is data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png
 data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png,automated-intake,named-candidate,Feke / Vahka,yes,dedicated painting for Vahka
 data/sprites/automated-intake/png/fishing-hamlet-and-net-racks-2e1317eda9b3.png,automated-intake,generic-town,Fishing hamlet and net racks,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
-data/sprites/automated-intake/png/fortified-caravanserai-03b8997fe3ac.png,automated-intake,trade-caravan,Fortified caravanserai,yes,"generic arid piece, placed 14 times"
+data/sprites/automated-intake/png/fortified-caravanserai-03b8997fe3ac.png,automated-intake,trade-caravan,Fortified caravanserai,yes,"generic arid piece, placed 13 times"
 data/sprites/automated-intake/png/fortified-church-ef55ad2566f6.png,automated-intake,religious,Fortified church,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/automated-intake/png/fortified-cliff-monastery-ef259f613924.png,automated-intake,religious,Fortified cliff monastery,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/automated-intake/png/fortified-desert-monastery-ae098fc9579c.png,automated-intake,religious,Fortified desert monastery,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
@@ -261,10 +261,10 @@ data/sprites/automated-intake/png/hagia-sophia-inspired-domed-complex-7d4549d9b2
 data/sprites/automated-intake/png/harbor-monastery-111b9730ed0a.png,automated-intake,religious,Harbor monastery,no,generic religious or civic building with no matching unpainted site on the map
 data/sprites/automated-intake/png/harim-harenc-c243886984d2.png,automated-intake,named-candidate,Harim Harenc,no,alternate variant; primary is data/sprites/city-review-2026-11-10/sprites/batch-08-syria/harim-1180-review-v1.png
 data/sprites/automated-intake/png/harran-citadel-2190d5ed770c.png,automated-intake,named-candidate,Harran citadel,no,named fortress candidate with no coordinates or matched site in the repository
-data/sprites/automated-intake/png/hillside-stone-aqueduct-f5cc1e773542.png,automated-intake,rural-infrastructure,Hillside stone aqueduct,yes,"generic past piece, placed 11 times"
-data/sprites/automated-intake/png/hillside-stone-hamlet-b395a12e5f7b.png,automated-intake,generic-town,Hillside stone hamlet,yes,"generic green piece, placed 3 times"
-data/sprites/automated-intake/png/irrigated-crop-terraces-345117df6dad.png,automated-intake,agriculture,Irrigated crop terraces,yes,"generic green piece, placed 4 times"
-data/sprites/automated-intake/png/irrigation-shaduf-10c8d38fd3df.png,automated-intake,river-marsh,Irrigation shaduf,yes,"generic delta piece, placed 3 times"
+data/sprites/automated-intake/png/hillside-stone-aqueduct-f5cc1e773542.png,automated-intake,rural-infrastructure,Hillside stone aqueduct,no,Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering
+data/sprites/automated-intake/png/hillside-stone-hamlet-b395a12e5f7b.png,automated-intake,generic-town,Hillside stone hamlet,yes,"generic green piece, placed 4 times"
+data/sprites/automated-intake/png/irrigated-crop-terraces-345117df6dad.png,automated-intake,agriculture,Irrigated crop terraces,yes,"generic green piece, placed 5 times"
+data/sprites/automated-intake/png/irrigation-shaduf-10c8d38fd3df.png,automated-intake,river-marsh,Irrigation shaduf,no,Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering
 data/sprites/automated-intake/png/jacob-s-ford-chastellet-ruins-d05cf2a06c1a.png,automated-intake,named-candidate,Jacob’s Ford (Chastellet) ruins,no,alternate variant; primary is data/sprites/automated-intake/png/chastellet-jacob-s-ford-6b5a1ae89a82.png
 data/sprites/automated-intake/png/k-zkalesi-afb58e1ddd84.png,automated-intake,named-candidate,Kızkalesi,yes,dedicated painting for Courc
 data/sprites/automated-intake/png/k-zkalesi-offshore-castle-8906198a8b88.png,automated-intake,named-candidate,Kızkalesi offshore castle,no,alternate variant; primary is data/sprites/automated-intake/png/k-zkalesi-afb58e1ddd84.png
@@ -272,18 +272,18 @@ data/sprites/automated-intake/png/kantara-21cdd6fda271.png,automated-intake,name
 data/sprites/automated-intake/png/kolossi-2cad1dc9839e.png,automated-intake,named-candidate,Kolossi,yes,dedicated painting for Colos
 data/sprites/automated-intake/png/korykos-mainland-fortress-18ea360bf9de.png,automated-intake,named-candidate,Korykos mainland fortress,no,alternate variant; primary is data/sprites/automated-intake/png/k-zkalesi-afb58e1ddd84.png
 data/sprites/automated-intake/png/lampron-namrun-0c2dad428341.png,automated-intake,named-candidate,Lampron Namrun,no,named fortress candidate with no coordinates or matched site in the repository
-data/sprites/automated-intake/png/limestone-quarry-9ad914c36ae9.png,automated-intake,rural-infrastructure,Limestone quarry,yes,"generic past piece, placed 11 times"
+data/sprites/automated-intake/png/limestone-quarry-9ad914c36ae9.png,automated-intake,rural-infrastructure,Limestone quarry,yes,"generic past piece, placed 13 times"
 data/sprites/automated-intake/png/masyaf-a20a8f7f9045.png,automated-intake,named-candidate,Masyaf,no,alternate variant; primary is data/sprites/fortress-batch13-review/png/masyaf-1180-provisional-v1.png
 data/sprites/automated-intake/png/medieval-crusader-fortress-sprite-collection-c39e8abdd8a9.png,automated-intake,source-master,medieval_crusader_fortress_sprite_collection,no,"source sheet: reference only, never placed"
 data/sprites/automated-intake/png/medieval-shipyard-129d414ac648.png,automated-intake,ships,Medieval shipyard,no,"harbour scene: belongs inside a named port, which already has its own painting"
-data/sprites/automated-intake/png/medieval-windmill-and-farm-8adca7d15df8.png,automated-intake,agriculture,Medieval windmill and farm,yes,"generic green piece, placed 3 times"
+data/sprites/automated-intake/png/medieval-windmill-and-farm-8adca7d15df8.png,automated-intake,agriculture,Medieval windmill and farm,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/multiple-domed-church-compound-f8a5901ed2ae.png,automated-intake,religious,Multiple-domed church compound,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/automated-intake/png/olive-grove-and-harvest-73d8ed338a4a.png,automated-intake,agriculture,Olive grove and harvest,yes,"generic vegg piece, placed 13 times"
 data/sprites/automated-intake/png/olive-oil-press-4c83486647c7.png,automated-intake,agriculture,Olive oil press,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/original-generation-sheet-59649c6e9f38.png,automated-intake,source-master,original_generation_sheet,no,"source sheet: reference only, never placed"
 data/sprites/automated-intake/png/original-sheet-2db8f0b09341.png,automated-intake,source-master,original_sheet,no,"source sheet: reference only, never placed"
 data/sprites/automated-intake/png/pointed-arch-gothic-church-2ba6bd0bb5c3.png,automated-intake,religious,Pointed-arch Gothic church,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
-data/sprites/automated-intake/png/pottery-and-brick-kilns-9263c882bffd.png,automated-intake,rural-infrastructure,Pottery and brick kilns,yes,"generic green piece, placed 3 times"
+data/sprites/automated-intake/png/pottery-and-brick-kilns-9263c882bffd.png,automated-intake,rural-infrastructure,Pottery and brick kilns,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/qadmus-e74b6a869462.png,automated-intake,named-candidate,Qadmus,no,alternate variant; primary is data/sprites/fortress-batch13-review/png/qadmus-1180-provisional-v1.png
 data/sprites/automated-intake/png/qal-at-ja-bar-1fb518a52cdb.png,automated-intake,named-candidate,Qal’at Ja’bar,no,named fortress candidate with no coordinates or matched site in the repository
 data/sprites/automated-intake/png/qal-at-najm-77b41bca5e79.png,automated-intake,named-candidate,Qal’at Najm,no,named fortress candidate with no coordinates or matched site in the repository
@@ -302,13 +302,13 @@ data/sprites/automated-intake/png/source-sheet-original-rgb-51f6b6d5afb5.png,aut
 data/sprites/automated-intake/png/source-sheet-original-rgb-82fb3e4d8449.png,automated-intake,source-master,source_sheet_original_rgb,no,"source sheet: reference only, never placed"
 data/sprites/automated-intake/png/source-sheet-original-rgb-d887135cdc6d.png,automated-intake,source-master,source_sheet_original_rgb,no,"source sheet: reference only, never placed"
 data/sprites/automated-intake/png/source-sheet-original-rgb-f1f3092613cf.png,automated-intake,source-master,source_sheet_original_rgb,no,"source sheet: reference only, never placed"
-data/sprites/automated-intake/png/stone-sheepfold-c4d44b5c2e6c.png,automated-intake,rural-infrastructure,Stone sheepfold,yes,"generic past piece, placed 12 times"
+data/sprites/automated-intake/png/stone-sheepfold-c4d44b5c2e6c.png,automated-intake,rural-infrastructure,Stone sheepfold,yes,"generic past piece, placed 15 times"
 data/sprites/automated-intake/png/terraced-vineyard-estate-c4ca6e27b3b4.png,automated-intake,agriculture,Terraced vineyard estate,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/toprakkale-til-1756fd4761ba.png,automated-intake,named-candidate,Toprakkale / Til,no,named fortress candidate with no coordinates or matched site in the repository
 data/sprites/automated-intake/png/tumlu-kalesi-403baea15271.png,automated-intake,named-candidate,Tumlu Kalesi,no,named fortress candidate with no coordinates or matched site in the repository
 data/sprites/automated-intake/png/twin-tower-latin-church-24a89c6ceecf.png,automated-intake,religious,Twin-tower Latin church,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
-data/sprites/automated-intake/png/vineyard-wine-press-eb2efb668f49.png,automated-intake,agriculture,Vineyard wine press,yes,"generic green piece, placed 3 times"
-data/sprites/automated-intake/png/wheat-harvest-and-cart-23cc811952f3.png,automated-intake,agriculture,Wheat harvest and cart,yes,"generic green piece, placed 5 times"
+data/sprites/automated-intake/png/vineyard-wine-press-eb2efb668f49.png,automated-intake,agriculture,Vineyard wine press,yes,"generic green piece, placed 4 times"
+data/sprites/automated-intake/png/wheat-harvest-and-cart-23cc811952f3.png,automated-intake,agriculture,Wheat harvest and cart,yes,"generic green piece, placed 4 times"
 data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/aleppo-1180-review-v1.png,review-multi-period,named-site,Aleppo,yes,dedicated painting for Halab
 data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/baalbek-1180-review-v1.png,review-multi-period,named-site,Baalbek,yes,dedicated painting for Baalbek
 data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/banias-1180-review-v1.png,review-multi-period,named-site,Banias,yes,dedicated painting for Belinas
@@ -655,7 +655,7 @@ data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-005.png,
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-006.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-006,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-007.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-007,yes,"generic ruin piece, placed 18 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-008.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-008,yes,"generic ruin piece, placed 18 times"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-009.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-009,yes,"generic green piece, placed 4 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-009.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-009,yes,"generic green piece, placed 3 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-011.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-011,yes,generic fallback painting for Toron des Chevaliers
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-012.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-012,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-013.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-013,yes,generic fallback painting for Scandalion
@@ -667,8 +667,8 @@ data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-018.png,
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-019.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-019,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-020.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-020,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-021.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-021,yes,"generic green piece, placed 4 times"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-022.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-022,yes,"generic green piece, placed 4 times"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-023.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-023,yes,"generic green piece, placed 3 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-022.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-022,yes,"generic green piece, placed 3 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-023.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-023,yes,"generic green piece, placed 5 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-024.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-024,yes,"generic green piece, placed 4 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-025.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-025,yes,"generic vega piece, placed 33 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-026.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-026,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
@@ -700,21 +700,21 @@ data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-008.png,
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-009.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-009,yes,generic fallback painting for Aila
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-010.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-010,no,"depicts the Dome of the Rock, already inside the Jerusalem painting"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-011.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-011,no,two pieces joined in one cut-out: needs splitting
-data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-012.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-012,yes,"generic past piece, placed 12 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-012.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-012,yes,"generic past piece, placed 13 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-013.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-013,yes,"generic ruin piece, placed 18 times"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-014.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-014,yes,"generic green piece, placed 5 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-014.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-014,yes,"generic green piece, placed 3 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-015.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-015,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-016.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-016,no,"coast, lighthouse or sea-rock piece: needs registering to a real stretch of shoreline before use"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-017.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-017,yes,"generic green piece, placed 3 times"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-018.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-018,yes,"generic green piece, placed 3 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-017.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-017,yes,"generic green piece, placed 4 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-018.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-018,yes,"generic green piece, placed 4 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-019.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-019,yes,generic fallback painting for Bethabara
-data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-020.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-020,yes,"generic past piece, placed 12 times"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-021.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-021,yes,"generic green piece, placed 3 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-020.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-020,yes,"generic past piece, placed 13 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-021.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-021,yes,"generic green piece, placed 4 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-022.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-022,yes,"generic rock piece, placed 9 times"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-023.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-023,yes,"generic past piece, placed 12 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-023.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-023,yes,"generic past piece, placed 14 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-024.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-024,yes,"generic vegg piece, placed 12 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-025.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-025,yes,"generic vegg piece, placed 13 times"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-026.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-026,yes,"generic arid piece, placed 13 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-026.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-026,yes,"generic arid piece, placed 14 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-027.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-027,yes,"generic ruin piece, placed 17 times"
 data/sprites/natural-landmarks/png/NAT-L017-cappadocia.png,filesystem-discovery,unindexed-artwork,NAT-L017-cappadocia,no,landmark landscape queued: not yet fitted to its mountain or plateau
 data/sprites/natural-landmarks/png/NAT-L018-cedars-of-lebanon.png,filesystem-discovery,unindexed-artwork,NAT-L018-cedars-of-lebanon,no,landmark landscape queued: not yet fitted to its mountain or plateau

@@ -5,15 +5,15 @@
   "technical_pass": 226,
   "placement_approved": 0,
   "historical_certified": 0,
-  "generic_rendered_distinct": 79,
-  "generic_rendered_instances": 911,
+  "generic_rendered_distinct": 74,
+  "generic_rendered_instances": 890,
   "generic_eligible_but_unused": 0,
   "status_counts": {
     "held_generic_architecture_fallback": 32,
-    "held_geo_water_or_named_art": 59,
+    "held_geo_water_or_named_art": 64,
     "held_unmatched_or_unclassified": 39,
     "named_fortification_needs_coordinates_and_phase": 17,
-    "rendered_as_generic": 79
+    "rendered_as_generic": 74
   },
   "holds_keep_originals": true,
   "rendered_sources": [
@@ -25,7 +25,7 @@
     {
       "name": "Fortified caravanserai",
       "asset": "data/sprites/automated-intake/png/fortified-caravanserai-03b8997fe3ac.png",
-      "times": 14
+      "times": 13
     },
     {
       "name": "B20-07_alpine_forest_to_crags",
@@ -35,22 +35,17 @@
     {
       "name": "B19-21_cattle",
       "asset": "data/sprites/automated-intake/png/b19-21-cattle-068d25f90cba.png",
-      "times": 3
+      "times": 4
     },
     {
       "name": "Beehive apiary",
       "asset": "data/sprites/automated-intake/png/beehive-apiary-0ae14ae46cca.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "B19-07_classical_ruins",
       "asset": "data/sprites/automated-intake/png/b19-07-classical-ruins-0c233cf8912e.png",
       "times": 17
-    },
-    {
-      "name": "Irrigation shaduf",
-      "asset": "data/sprites/automated-intake/png/irrigation-shaduf-10c8d38fd3df.png",
-      "times": 3
     },
     {
       "name": "B18-10_crusader_camp",
@@ -65,7 +60,7 @@
     {
       "name": "B21-13_rural_houses",
       "asset": "data/sprites/automated-intake/png/b21-13-rural-houses-18a791006882.png",
-      "times": 5
+      "times": 3
     },
     {
       "name": "B16-05_terraced_hilltown_generic",
@@ -85,7 +80,7 @@
     {
       "name": "Caravan tent encampment",
       "asset": "data/sprites/automated-intake/png/caravan-tent-encampment-22e6e84efa16.png",
-      "times": 12
+      "times": 13
     },
     {
       "name": "B21-14_rocky_scrub_foothills",
@@ -95,7 +90,7 @@
     {
       "name": "Wheat harvest and cart",
       "asset": "data/sprites/automated-intake/png/wheat-harvest-and-cart-23cc811952f3.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B19-14_lateen_ship_b",
@@ -125,17 +120,17 @@
     {
       "name": "B19-19_ox_cart",
       "asset": "data/sprites/automated-intake/png/b19-19-ox-cart-31596eaa059e.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "Irrigated crop terraces",
       "asset": "data/sprites/automated-intake/png/irrigated-crop-terraces-345117df6dad.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "B19-16_fortified_tents",
       "asset": "data/sprites/automated-intake/png/b19-16-fortified-tents-3e6428bc9e93.png",
-      "times": 4
+      "times": 3
     },
     {
       "name": "B19-31_yellow_shrub",
@@ -150,7 +145,7 @@
     {
       "name": "Desert caravan well",
       "asset": "data/sprites/automated-intake/png/desert-caravan-well-45383b9bcb1d.png",
-      "times": 12
+      "times": 14
     },
     {
       "name": "B21-21_mixed_tree_woods",
@@ -235,7 +230,7 @@
     {
       "name": "B18-08_stone_village_chapel",
       "asset": "data/sprites/automated-intake/png/b18-08-stone-village-chapel-767c571fb425.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "B19-27_umbrella_pine",
@@ -245,7 +240,7 @@
     {
       "name": "Citrus orchard",
       "asset": "data/sprites/automated-intake/png/citrus-orchard-7cab9160c1dd.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "Charcoal burning and metalworking yard",
@@ -275,27 +270,22 @@
     {
       "name": "Medieval windmill and farm",
       "asset": "data/sprites/automated-intake/png/medieval-windmill-and-farm-8adca7d15df8.png",
-      "times": 3
+      "times": 4
     },
     {
       "name": "B18-11_market_tents",
       "asset": "data/sprites/automated-intake/png/b18-11-market-tents-915b1620bfbb.png",
-      "times": 4
+      "times": 3
     },
     {
       "name": "Pottery and brick kilns",
       "asset": "data/sprites/automated-intake/png/pottery-and-brick-kilns-9263c882bffd.png",
-      "times": 3
-    },
-    {
-      "name": "B19-15_riverside_watermill",
-      "asset": "data/sprites/automated-intake/png/b19-15-riverside-watermill-94996b7287c9.png",
-      "times": 3
+      "times": 4
     },
     {
       "name": "Limestone quarry",
       "asset": "data/sprites/automated-intake/png/limestone-quarry-9ad914c36ae9.png",
-      "times": 11
+      "times": 13
     },
     {
       "name": "B18-27_scrub_patch",
@@ -308,11 +298,6 @@
       "times": 4
     },
     {
-      "name": "B18-06_multiarch_stone_aqueduct",
-      "asset": "data/sprites/automated-intake/png/b18-06-multiarch-stone-aqueduct-9f3183dbbc7c.png",
-      "times": 12
-    },
-    {
       "name": "B19-24_cave_rocks",
       "asset": "data/sprites/automated-intake/png/b19-24-cave-rocks-a6bf1b8ee6b1.png",
       "times": 9
@@ -320,7 +305,7 @@
     {
       "name": "Hillside stone hamlet",
       "asset": "data/sprites/automated-intake/png/hillside-stone-hamlet-b395a12e5f7b.png",
-      "times": 3
+      "times": 4
     },
     {
       "name": "B21-10_fields_with_chapel",
@@ -330,7 +315,7 @@
     {
       "name": "B18-13_windmill",
       "asset": "data/sprites/automated-intake/png/b18-13-windmill-b84f4fa44ca9.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B21-19_cypress_stand",
@@ -355,12 +340,7 @@
     {
       "name": "Stone sheepfold",
       "asset": "data/sprites/automated-intake/png/stone-sheepfold-c4d44b5c2e6c.png",
-      "times": 12
-    },
-    {
-      "name": "B18-09_river_watermill",
-      "asset": "data/sprites/automated-intake/png/b18-09-river-watermill-c6aec74d703b.png",
-      "times": 4
+      "times": 15
     },
     {
       "name": "B21-20_open_olive_woodland",
@@ -375,7 +355,7 @@
     {
       "name": "B19-18_camel_caravan",
       "asset": "data/sprites/automated-intake/png/b19-18-camel-caravan-d835031f1395.png",
-      "times": 13
+      "times": 14
     },
     {
       "name": "B19-12_oared_ship_cross_sail",
@@ -400,17 +380,12 @@
     {
       "name": "Vineyard wine press",
       "asset": "data/sprites/automated-intake/png/vineyard-wine-press-eb2efb668f49.png",
-      "times": 3
+      "times": 4
     },
     {
       "name": "B21-11_orchard_field_connector",
       "asset": "data/sprites/automated-intake/png/b21-11-orchard-field-connector-eb442da6284f.png",
       "times": 3
-    },
-    {
-      "name": "Hillside stone aqueduct",
-      "asset": "data/sprites/automated-intake/png/hillside-stone-aqueduct-f5cc1e773542.png",
-      "times": 11
     }
   ],
   "held_sources": [
@@ -452,6 +427,11 @@
     {
       "name": "Lampron Namrun",
       "asset": "data/sprites/automated-intake/png/lampron-namrun-0c2dad428341.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "Irrigation shaduf",
+      "asset": "data/sprites/automated-intake/png/irrigation-shaduf-10c8d38fd3df.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -880,6 +860,11 @@
       "reason": "held_generic_architecture_fallback"
     },
     {
+      "name": "B19-15_riverside_watermill",
+      "asset": "data/sprites/automated-intake/png/b19-15-riverside-watermill-94996b7287c9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "97_chrysi_CONCEPT",
       "asset": "data/sprites/automated-intake/png/97-chrysi-concept-9595a7a06e05.png",
       "reason": "held_unmatched_or_unclassified"
@@ -903,6 +888,11 @@
       "name": "72_arki_marathi_cluster_DRAFT",
       "asset": "data/sprites/automated-intake/png/72-arki-marathi-cluster-draft-9d7fbc4c2d88.png",
       "reason": "held_unmatched_or_unclassified"
+    },
+    {
+      "name": "B18-06_multiarch_stone_aqueduct",
+      "asset": "data/sprites/automated-intake/png/b18-06-multiarch-stone-aqueduct-9f3183dbbc7c.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "Fortified stone river bridge",
@@ -1007,6 +997,11 @@
     {
       "name": "medieval_crusader_fortress_sprite_collection",
       "asset": "data/sprites/automated-intake/png/medieval-crusader-fortress-sprite-collection-c39e8abdd8a9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "B18-09_river_watermill",
+      "asset": "data/sprites/automated-intake/png/b18-09-river-watermill-c6aec74d703b.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1122,6 +1117,11 @@
     {
       "name": "source_sheet_original_rgb",
       "asset": "data/sprites/automated-intake/png/source-sheet-original-rgb-f1f3092613cf.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "Hillside stone aqueduct",
+      "asset": "data/sprites/automated-intake/png/hillside-stone-aqueduct-f5cc1e773542.png",
       "reason": "held_geo_water_or_named_art"
     },
     {

@@ -4,8 +4,8 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 
 | Zone | Land cells | Flat | Thin | Share flat or thin |
 |---|---:|---:|---:|---:|
-| Egypt inset: Western and Eastern deserts | 163 | 5 | 19 | 15% |
-| Egypt inset: Sinai | 185 | 5 | 22 | 15% |
+| Egypt inset: Western and Eastern deserts | 163 | 5 | 20 | 15% |
+| Egypt inset: Sinai | 185 | 5 | 21 | 14% |
 | Syrian desert | 33 | 1 | 2 | 9% |
 | Egypt inset: Delta | 51 | 1 | 3 | 8% |
 | Lebanon and Damascus | 39 | 1 | 1 | 5% |
@@ -51,6 +51,6 @@ The thin cells are listed with the flat ones in terrain-gap-cells.csv.
 ## What covers the land now
 
 - Terrain stamps and landscape tiles: 70 different pieces, 6320 placements
-- Generic settlement, farm, tree, rock and ruin pieces: 209 different pieces, 2374 placements
+- Generic settlement, farm, tree, rock and ruin pieces: 204 different pieces, 2374 placements
 - Greek island overlays: 47
 - Ships at sea: 8
