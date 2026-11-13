@@ -1,5 +1,7 @@
 # Outremer: the Crusader States, 1095 to 1571
 
+> **AI agents and new contributors:** Start with [AGENTS.md](AGENTS.md) and the [active AI context / documentation index](docs/AI-CONTEXT.md). These distinguish current instructions from older historic audit snapshots and define instruction precedence.
+
 Hand-drawn map of the Eastern Mediterranean for print, 36 x 48 in portrait (10800 x 14400 px at 300 dpi), in parchment and full colour editions.
 
 ## Contents
