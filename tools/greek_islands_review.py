@@ -1,7 +1,9 @@
 """Audit Greek-island art against active 47 and render enlarged Aegean review.
 Preserve unregistered artwork. Never promote by center coordinate or filename.
 """
-import csv, hashlib, io, json, os, re, zipfile
+import csv, hashlib, io, json, os, re, zipfile, sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from collections import Counter, defaultdict
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
