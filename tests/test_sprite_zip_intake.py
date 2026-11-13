@@ -71,6 +71,18 @@ class ZipIntakeTests(unittest.TestCase):
         self.assertFalse((self.root / "assets/sprites/incoming/_zip_extract/location_underlays/generated/underlay_syrian_steppe.svg").exists())
         self.assertTrue((self.root / "assets/sprites/incoming/_zip_extract/location_underlays/underlays/terrain.png").exists())
 
+    def test_skip_non_png_source_archive(self):
+        self.make_zip("non_sprite_underlays.zip", {
+            "build_location_underlays.py": "print('not permitted')",
+            "generated/underlay_nile_delta.svg": '<svg/>',
+            "README.md": "vector source only",
+        })
+        report = extract_archives(self.root)
+        self.assertEqual(report["errors"], [])
+        self.assertEqual(report["extracted"], 0)
+        self.assertTrue(any("no PNG sprites" in x["warning"] for x in report["warnings"]))
+        self.assertFalse((self.root / "assets/sprites/incoming/_zip_extract/non_sprite_underlays").exists())
+
     def test_reject_traversal(self):
         self.make_zip("unsafe.zip", {"../outside.png": self.png()})
         self.assertEqual(len(extract_archives(self.root)["errors"]), 1)
