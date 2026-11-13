@@ -52,5 +52,5 @@ The thin cells are listed with the flat ones in terrain-gap-cells.csv.
 
 - Terrain stamps and landscape tiles: 70 different pieces, 6320 placements
 - Generic settlement, farm, tree, rock and ruin pieces: 209 different pieces, 2374 placements
-- Greek island overlays: 46
+- Greek island overlays: 47
 - Ships at sea: 8
