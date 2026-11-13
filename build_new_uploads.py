@@ -114,6 +114,8 @@ for a in new:
     wf = water_frac(im0)
     delta = "nile" in n or "delta" in n
     if w >= 1500:
+        if "marsh" in n:
+            off(a, "large marsh landscape: needs fitting to a real marsh"); continue
         if wf > 0.035 and not delta:
             off(a, "large landscape with a painted river or marsh (%.0f%% water): needs aligning to a real river" % (wf * 100)); continue
         if delta:

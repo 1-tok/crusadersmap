@@ -524,7 +524,7 @@ class Terrain:
         def in_delta(x, y):
             lo_, la_ = _ll(x, y); return 29.3 < lo_ < 33.2 and 29.8 < la_ < 31.7
         # --- painted farmland, orchards and pasture under the trees and hills
-        cellf = (230 if self.mpp <= 150 else 190) * m
+        cellf = (175 if self.mpp <= 150 else 190) * m
         for gy in range(0, int(H // cellf) + 1):
             for gx in range(0, int(W // cellf) + 1):
                 x = (gx + 0.5 + rnd.uniform(-0.3, 0.3)) * cellf
@@ -535,7 +535,7 @@ class Terrain:
                 if self.mpp > 150:
                     if rnd.random() < 0.9 and f > 0.35:
                         items.append((y - 0.9e6, "farm", x, y, rnd.uniform(300, 380) * m, rnd.randint(1, 10 ** 6), "aeg"))
-                elif f > 0.52 and e < 600:
+                elif f > 0.46 and e < 650:
                     items.append((y - 0.9e6, "farm", x, y, rnd.uniform(420, 540) * m, rnd.randint(1, 10 ** 6), "flat" if in_delta(x, y) else "rich"))
                 elif 0.30 < f <= 0.52 and 150 < e < 1000 and rnd.random() < 0.75 and not in_delta(x, y):
                     items.append((y - 0.9e6, "farm", x, y, rnd.uniform(400, 500) * m, rnd.randint(1, 10 ** 6), "past"))
@@ -563,7 +563,7 @@ class Terrain:
                     continue
                 f = fert_at(x, y); e = elev_at(x, y); u = rnd.random(); gk = None
                 if f > 0.5 and e < 700:
-                    gk = ("delta" if in_delta(x, y) and u < 0.05 else "green") if u < 0.30 else ("vegg" if u < 0.52 else ("patchg" if u < 0.64 and not in_delta(x, y) else None))
+                    gk = ("delta" if in_delta(x, y) and u < 0.22 else "green") if u < 0.30 else ("vegg" if u < 0.50 else (("delta" if in_delta(x, y) else "patchg") if u < 0.86 else None))
                 elif 0.28 < f <= 0.5 and e < 1100:
                     gk = "past" if u < 0.09 else ("rock" if u < 0.13 else ("vegd" if u < 0.22 else ("patchd" if u < 0.30 else ("patchw" if u < 0.36 and e > 250 else ("ruin" if u < 0.375 else None)))))
                     if in_delta(x, y) and gk in ("rock", "patchd", "patchw"):
@@ -628,6 +628,8 @@ class Terrain:
                 return False
             if kd == "farm":
                 return False
+            if kd == "hamlet" and it[6] in ("patchg", "delta"):
+                return False                               # field patches lie flat under names and symbols
             if kd == "hamlet":
                 gr = (x - 0.5 * sz, y - 0.75 * sz * 0.65, x + 0.5 * sz, y + 0.1 * sz)
                 if any(not (gr[2] < r[0] or r[2] < gr[0] or gr[3] < r[1] or r[3] < gr[1]) for r in self.avoid_rects):
