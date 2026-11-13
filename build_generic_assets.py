@@ -24,34 +24,14 @@ def put(path, cls, reason=""):
 led = json.load(open(os.path.join(ROOT, "data", "manifests", "CLAUDE-BUILD-IMAGE-LEDGER.json")))["records"]
 ai = [r for r in led if r["source"] == "automated-intake" and not r.get("geometry") and r["kind"] not in ("source-master", "island-outline")]
 ai.sort(key=lambda r: (r["kind"], r["label"]))
-AI = {}
-def setr(idx, cls, reason=""):
-    for i in idx:
-        AI[i] = (cls, reason)
-setr([0, 13, 14, 15, 16, 18, 19, 20, 21, 95, 99, 111, 112, 113, 114, 115, 118, 137, 138, 139, 140, 145, 30, 32, 60, 66], "green")
-setr([108], "delta")
-setr([6, 7, 8, 9, 10, 68], "patchg")
-setr([1, 2, 3, 4, 5, 11, 12, 17, 147, 148, 152, 153, 154, 155], "vegg")
-setr([150, 156, 157], "vegd")
-setr([149], "vega")
-setr([22, 23, 24], "patcha")
-setr([34, 36, 37, 38, 151], "rock")
-setr([39, 40, 41, 42, 43], "patchd")
-setr([109, 116, 117, 119], "past")
-setr([110, 26], "ruin")
-setr([141, 142, 143, 144], "arid")
-setr([132, 133, 134, 135], "ship")
-setr([25], "fb:harbour_fort"); setr([27], "fb:tower"); setr([33, 35], "fb:fort"); setr([28], "fb:town"); setr([29, 31], "fb:harbour_town")
-setr([57, 65, 75, 80, 83], "fb:monastery_hill"); setr([63, 85, 86, 90, 91, 92, 93, 56], "fb:latin"); setr([62, 69, 70, 74, 77, 78, 89, 73], "fb:greek")
-setr([71, 72, 81], "fb:monastery_cliff"); setr([82, 59], "fb:monastery")
-setr([61, 84, 87], "off", "depicts a named monument (Dome of the Rock, Hagia Sophia) that already has its city painting")
-setr([64, 76, 79, 88, 58], "off", "generic religious or civic building with no matching unpainted site on the map")
-setr([67, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 146], "off", "coast or shore piece: needs registering to a real stretch of shoreline before use")
-setr([94, 96, 97, 98, 100, 101, 102, 103, 104, 105, 106, 107], "off", "river, marsh or bridge piece: needs aligning to a real river course before use")
-setr([131, 136], "off", "harbour scene: belongs inside a named port, which already has its own painting")
-setr(list(range(44, 56)), "off", "named fortress candidate with no coordinates or matched site in the repository")
-for i, r in enumerate(ai):
-    cls, why = AI.get(i, ("off", "unclassified"))
+# Keep the vetted placement/scatter classes keyed to an immutable source path.
+# The previous array-index rules silently reclassified unrelated art whenever
+# new ZIPs changed the sorting order: an unsafe placement regression.
+stable = json.load(open(os.path.join(ROOT, "data/manifests/automated-intake-stable-scatter-classes.json")))["entries"]
+for r in ai:
+    decision = stable.get(r["path"], {})
+    cls = decision.get("cls", "off")
+    why = decision.get("reason", "new intake sprite: pending classification and geographic QA")
     put(r["path"], cls, why)
 for r in led:
     if r["source"] == "automated-intake" and r["kind"] == "source-master":
