@@ -91,6 +91,29 @@ for r in cands:
     if add(r["label"], r.get("matched_site_id") or key, "review", region_of(lon, lat, r.get("region")), lon, lat,
            os.path.join(ROOT, r["path"]), 512, r["path"], r["source"], yr):
         taken[key] = recs[-1]; have_files.add(r["path"])
+# Geographic recovery: independently sourced map-review anchors for named
+# candidates previously absent from the 226-item technical-intake geography.
+# This opt-in file does NOT imply production or period artwork approval.
+geo_recovery = os.path.join(SRC, "placements-geographic-recovery-1095-1571.json")
+if os.path.isfile(geo_recovery):
+    recovered = json.load(open(geo_recovery))
+    for p in recovered.get("placements", []):
+        if not p.get("review_only") or p.get("production_approved") is not False:
+            continue
+        if not p.get("coordinate_source_url"):
+            continue
+        lon, lat = p["coordinates"]
+        key = p["site_id"]
+        path = os.path.join(ROOT, p["asset_path"])
+        if not os.path.isfile(path):
+            print("unavailable geographic recovery asset:", p["asset_path"]); continue
+        if any(math.hypot(q["lon"] - lon, q["lat"] - lat) < 0.016 for q in recs):
+            print("skip duplicate map position for recovered site:", p["name"]); continue
+        if add(p["name"], key, p["category"], p.get("map_region", "main"),
+               lon, lat, path, p.get("display_width_units", 300),
+               p["asset_path"], "geo-recovery-review", p.get("approximate_year"),
+               review=True):
+            print("new geographically sourced map-review sprite:", p["name"])
 json.dump(recs, open(os.path.join(OUT, "sprites.json"), "w"), indent=1)
 json.dump(alts, open(os.path.join(OUT, "sprite_alternates.json"), "w"), indent=1)
 print(len(recs), "primary sprites;", len(alts), "alternates")
