@@ -4,6 +4,7 @@
   "intake_records": 226,
   "primary_named_sprites_selected": 142,
   "site_matched_named_alternates": 26,
+  "newly_sourced_review_castles": 5,
   "unmatched_named_candidates": 12,
   "water_and_coast_assets_held": 26,
   "decision_counts": {
@@ -14,7 +15,8 @@
     "river_or_marsh_alignment_required": 15,
     "see_intake-promotion-decisions_for_generic_usage": 68,
     "site_already_rendered_keep_as_alternate": 26,
-    "unlocated_named_historic_site_hold": 12,
+    "sourced_geography_review_placed": 5,
+    "unlocated_named_historic_site_hold": 7,
     "water_context_and_historic_rig_qa_required": 6
   },
   "unmatched_named_sites": [
@@ -264,7 +266,7 @@
       "ledger_site_id": "",
       "ledger_coordinates": null,
       "matched_rendered_primary": null,
-      "decision": "unlocated_named_historic_site_hold",
+      "decision": "sourced_geography_review_placed",
       "period_review": "1095–1571: visual architectural phase not certified",
       "alpha_technical_pass": true,
       "production_approved": false
@@ -420,7 +422,7 @@
       "ledger_site_id": "",
       "ledger_coordinates": null,
       "matched_rendered_primary": null,
-      "decision": "unlocated_named_historic_site_hold",
+      "decision": "sourced_geography_review_placed",
       "period_review": "1095–1571: visual architectural phase not certified",
       "alpha_technical_pass": true,
       "production_approved": false
@@ -1303,7 +1305,7 @@
       "ledger_site_id": "",
       "ledger_coordinates": null,
       "matched_rendered_primary": null,
-      "decision": "unlocated_named_historic_site_hold",
+      "decision": "sourced_geography_review_placed",
       "period_review": "1095–1571: visual architectural phase not certified",
       "alpha_technical_pass": true,
       "production_approved": false
@@ -1389,7 +1391,7 @@
       "ledger_site_id": "",
       "ledger_coordinates": null,
       "matched_rendered_primary": null,
-      "decision": "unlocated_named_historic_site_hold",
+      "decision": "sourced_geography_review_placed",
       "period_review": "1095–1571: visual architectural phase not certified",
       "alpha_technical_pass": true,
       "production_approved": false
@@ -1613,7 +1615,7 @@
       "ledger_site_id": "",
       "ledger_coordinates": null,
       "matched_rendered_primary": null,
-      "decision": "unlocated_named_historic_site_hold",
+      "decision": "sourced_geography_review_placed",
       "period_review": "1095–1571: visual architectural phase not certified",
       "alpha_technical_pass": true,
       "production_approved": false
