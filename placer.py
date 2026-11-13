@@ -535,7 +535,7 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
     # with a leader line if the registered position is crowded.
     RESTORE = {"Li Vaux Moyse", "Scandalion", "Mont Carmel", "Cana",
                "Bethabara", "Ruad", "Buffavent", "Chalkedon",
-               "Chrysopolis", "Pera", "Navarin"}
+               "Chrysopolis", "Pera", "Navarin", "Silifke Kalesi", "Ravanda"}
     # ---- symbols: skip anything that falls under an inset or a plate; avoid overlap by tier
     ordered = sorted(items, key=lambda i: (i.tier + (0.5 if i.kind != "place" else 0), i.y))
     kept = []
