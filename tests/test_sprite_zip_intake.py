@@ -71,6 +71,29 @@ class ZipIntakeTests(unittest.TestCase):
         self.assertFalse((self.root / "assets/sprites/incoming/_zip_extract/location_underlays/generated/underlay_syrian_steppe.svg").exists())
         self.assertTrue((self.root / "assets/sprites/incoming/_zip_extract/location_underlays/underlays/terrain.png").exists())
 
+    def test_master_sheets_skipped_when_individual_cutouts_exist(self):
+        source = self.png()
+        self.make_zip("november_lowland.zip", {
+            "masters/10_nile_delta_floodplain_MASTER.png": source,
+            "png/delta_01.png": source,
+            "png/delta_01.json": json.dumps({
+                "category": "terrain_transition",
+                "subject": "Nile Delta lowland cutout",
+                "status": "provisional",
+                "map_region": "delta",
+                "orientation": "south"
+            }),
+        })
+        result = extract_archives(self.root)
+        self.assertEqual(result["errors"], [])
+        self.assertEqual(result["extracted"], 1)
+        self.assertTrue(any("master sheet skipped" in v["warning"]
+                            for v in result["warnings"]))
+        self.assertFalse((self.incoming / "_zip_extract/november_lowland/masters/10_nile_delta_floodplain_MASTER.png").exists())
+        self.assertTrue((self.incoming / "_zip_extract/november_lowland/png/delta_01.png").exists())
+        outcome = process(self.root)
+        self.assertEqual(outcome["registered"], 1)
+
     def test_skip_non_png_source_archive(self):
         self.make_zip("non_sprite_underlays.zip", {
             "build_location_underlays.py": "print('not permitted')",
