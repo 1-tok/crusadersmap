@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "scope": "Crusader atlas 1095–1571, map-placement-for-review only",
+  "rule": "Only sites with identifiable location evidence and no existing mapped primary. Preserve 1180-specific chronology gates in other overlays. No production or historical art certification.",
+  "placements": [
+    {
+      "site_id": "recovered-silifke-castle",
+      "name": "Silifke Kalesi",
+      "modern_name": "Silifke Castle",
+      "category": "castle",
+      "map_region": "main",
+      "coordinates": [
+        33.91566,
+        36.37661
+      ],
+      "coordinate_source": "OpenStreetMap mapped castle footprint via Mapcarta",
+      "coordinate_source_url": "https://mapcarta.com/W104648262",
+      "asset_path": "data/sprites/automated-intake/png/silifke-seleucia-6f325d2804d2.png",
+      "display_width_units": 310,
+      "approximate_year": 1200,
+      "review_only": true,
+      "production_approved": false,
+      "orientation_qa": "pending_southern_oblique_and_river_bank",
+      "historical_qa": "Byzantine/Armenian medieval castle; painted details and phase unverified"
+    },
+    {
+      "site_id": "recovered-lampron-castle",
+      "name": "Lampron",
+      "modern_name": "Namrun Castle",
+      "category": "castle",
+      "map_region": "main",
+      "coordinates": [
+        34.39,
+        37.09
+      ],
+      "coordinate_source": "Published excavation/conservation study at Çamlıyayla district; approximate site coordinates",
+      "coordinate_source_url": "https://akmb.gov.tr/wp-content/uploads/2024/02/46-Prof.-Dr.-Hasan-BUYRUK-Kazi-Konservasyon-Oncesi-ve-Sonrasinda-Namrun-Lampron-Kalesi-Hamami.pdf",
+      "asset_path": "data/sprites/automated-intake/png/lampron-namrun-0c2dad428341.png",
+      "display_width_units": 290,
+      "approximate_year": 1200,
+      "review_only": true,
+      "production_approved": false,
+      "orientation_qa": "pending_southern_oblique",
+      "historical_qa": "Medieval Armenian/Byzantine site; exact castle silhouette and phase unverified"
+    },
+    {
+      "site_id": "recovered-ravanda-castle",
+      "name": "Ravanda",
+      "modern_name": "Ravanda Castle / Ravendel",
+      "category": "castle",
+      "map_region": "main",
+      "coordinates": [
+        37.05387,
+        36.87304
+      ],
+      "coordinate_source": "OpenStreetMap mapped castle footprint via Mapcarta",
+      "coordinate_source_url": "https://mapcarta.com/W174910605",
+      "asset_path": "data/sprites/automated-intake/png/ravanda-ravendel-5ede2f1b3a37.png",
+      "display_width_units": 285,
+      "approximate_year": 1200,
+      "review_only": true,
+      "production_approved": false,
+      "orientation_qa": "pending_southern_oblique",
+      "historical_qa": "Crusader/Armenian medieval castle; phase and painting unverified"
+    }
+  ]
+}
