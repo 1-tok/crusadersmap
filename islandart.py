@@ -21,8 +21,52 @@ def _surf(fn, edition, w, h):
     return cairo.ImageSurface.create_for_data(bytearray(buf.tobytes()), cairo.FORMAT_ARGB32, im.width, im.height, im.width * 4)
 
 
+HOLD = json.load(open(os.path.join(HERE, "assets", "islands_hold.json"))) if os.path.exists(os.path.join(HERE, "assets", "islands_hold.json")) else []
+_FIT = {}
+_ex = os.path.join(HERE, "assets", "islands_extra.json")
+EXTRA = json.load(open(_ex))["islands"] if os.path.exists(_ex) else []
+
+
+def _fit_hold():
+    """Give each held island the bounding box of the real island polygon under its centre point."""
+    if _FIT or not HOLD:
+        return
+    from shapely.geometry import Point
+    import rough as RG
+    small = [g_ for g in RG.LAND for g_ in getattr(g, "geoms", [g]) if (g_.bounds[2] - g_.bounds[0]) < 2.6 and 19 < g_.bounds[0] < 31]
+    taken = [((r["w"] + r["e"]) / 2, (r["s"] + r["n"]) / 2) for r in ISL]
+    for h in HOLD:
+        p = Point(h["lon"], h["lat"])
+        best = min(small, key=lambda g: g.distance(p), default=None)
+        if best is None or best.distance(p) > 0.06:
+            _FIT[h["id"]] = None; continue
+        w, s, e, n = best.bounds
+        if any(w <= x <= e and s <= y <= n for x, y in taken):
+            _FIT[h["id"]] = "covered"; continue
+        taken.append(((w + e) / 2, (s + n) / 2))
+        _FIT[h["id"]] = dict(id=h["id"], name=h["name"], file=h["file"], src=h["src"], w=w, s=s, e=e, n=n)
+
+
 def draw(c, reg, edition, key):
-    """c is in region pixel units. Draw every overlay whose box lies inside this region."""
+    _fit_hold()
+    for h in HOLD:
+        r = _FIT.get(h["id"])
+        if isinstance(r, dict) and r not in ISL:
+            ISL.append(r)
+    # small islands placed by a centre point and length from general reference
+    if EXTRA:
+        mpp = (reg.x1 - reg.x0) / float(reg.w)
+        boxes = [(r["w"], r["s"], r["e"], r["n"]) for r in ISL]
+        for r in EXTRA:
+            if any(w_ <= r["lon"] <= e_ and s_ <= r["lat"] <= n_ for w_, s_, e_, n_ in boxes):
+                continue
+            x, y = reg.ll_px(r["lon"], r["lat"])
+            wd = max(46.0, r["km"] * 1000.0 / mpp * 1.15); ht = wd * r["aspect"]
+            if not (wd < x < reg.w - wd and ht < y < reg.h - ht):
+                continue
+            s = _surf(r["file"], edition, int(round(wd)), int(round(ht)))
+            c.save(); c.set_source_surface(s, x - wd / 2, y - ht / 2); c.get_source().set_filter(cairo.FILTER_BEST); c.paint(); c.restore()
+            USED[r["id"]] = key
     for r in ISL:
         x0, y0 = reg.ll_px(r["w"], r["n"]); x1, y1 = reg.ll_px(r["e"], r["s"])
         xa, ya = reg.ll_px(r["w"], r["s"]); xb, yb = reg.ll_px(r["e"], r["n"])

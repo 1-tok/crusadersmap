@@ -81,6 +81,9 @@ PLACES = [
     # ---------------------------------------------------------------- Armenian Cilicia
     ("main", 2, "P:sis", 35.81, 37.45, "Sis", "", "Kozan", "Armenian royal seat", ()),
     ("main", 3, "M:castle_armenian", 35.90, 37.26, "Anazarbe", "Anavarza", "Anavarza", "", ()),
+    ("main", 4, "M:castle_armenian", 35.61, 36.84, "Gokvelioglu", "", "Gökvelioğlu Kalesi", "", ()),
+    ("main", 4, "M:castle_armenian", 35.70, 37.15, "Tumlu", "", "Tumlu Kalesi", "", ()),
+    ("main", 4, "M:castle_armenian", 33.02, 36.10, "Softa", "", "Softa Kalesi", "", ()),
     ("main", 3, "M:walled_town", 34.89, 36.92, "Tarse", "Tarsus", "Tarsus", "", ()),
     ("main", 3, "M:town", 35.32, 37.00, "Adane", "Adana", "Adana", "", ()),
     ("main", 4, "M:walled_town", 35.63, 36.98, "Mamistra", "Misis", "Misis", "", ()),
@@ -228,3 +231,12 @@ ISLES = [
     ("aegean", 23.65, 39.15, "Scopelo", "Skopelos"),
     ("aegean", 24.45, 37.45, "Syra", "Syros"),
 ]
+
+
+# places added for paintings located from general reference (build_blocked_assets.py); only those not already near a listed place
+import json as _json, os as _os, math as _math
+_px = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "assets", "places_extra.json")
+if _os.path.exists(_px):
+    for _t in _json.load(open(_px)):
+        if not any(_q[0] == _t[0] and not _q[2].startswith(("M:battle", "M:siege", "M:sea")) and _math.hypot(_q[3] - _t[3], _q[4] - _t[4]) < 0.08 for _q in PLACES):
+            PLACES.append(tuple(_t[:9]) + (tuple(_t[9]),))

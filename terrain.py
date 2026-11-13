@@ -114,7 +114,10 @@ class Terrain:
         """Painted ground underlays, tiled by land type, so no flat wash shows between the pieces above."""
         from scipy.ndimage import gaussian_filter
         f = np.asarray(self.fert, np.float32); lh, lw = f.shape; m = float(np.clip(150.0 / self.mpp, 0.45, 1.0)) if hasattr(self, "mpp") else 1.0
-        for name, lo, hi in (("desert_sand", -9, 0.18), ("dry_steppe", 0.18, 0.30), ("canaan_scrub", 0.30, 0.50), ("green_plain", 0.50, 9)):
+        zones = (("desert_sand", -9, 0.18), ("dry_steppe", 0.18, 0.30), ("canaan_scrub", 0.30, 0.50), ("green_plain", 0.50, 9))
+        if self.mpp > 150:                                  # Greece, Thrace and western Anatolia are scrub and green, never sand
+            zones = (("canaan_scrub", -9, 0.42), ("green_plain", 0.42, 9))
+        for name, lo, hi in zones:
             a = gaussian_filter(((f >= lo) & (f < hi)).astype(np.float32), 1.6) * 0.85
             stride = cairo.ImageSurface.format_stride_for_width(cairo.FORMAT_A8, lw)
             buf = np.zeros((lh, stride), np.uint8); buf[:, :lw] = np.clip(a * 255, 0, 255).astype(np.uint8)
@@ -124,8 +127,19 @@ class Terrain:
             tw = int(900 * m); im = im.resize((tw, int(im.height * tw / im.width)), Image.LANCZOS)
             arr = np.asarray(im); rgb = np.empty((im.height, im.width, 4), np.uint8); rgb[..., 0] = arr[..., 2]; rgb[..., 1] = arr[..., 1]; rgb[..., 2] = arr[..., 0]; rgb[..., 3] = 255
             ss = cairo.ImageSurface.create_for_data(bytearray(rgb.tobytes()), cairo.FORMAT_RGB24, im.width, im.height, im.width * 4)
-            sp = cairo.SurfacePattern(ss); sp.set_extend(cairo.EXTEND_REPEAT); sp.set_filter(cairo.FILTER_GOOD)
+            sp = cairo.SurfacePattern(ss); sp.set_extend(cairo.EXTEND_REFLECT); sp.set_filter(cairo.FILTER_GOOD)
             c.save(); c.set_source(sp); c.mask(mp); c.restore()
+            # second and third lay of the same painting, mirrored, shifted and rescaled, let in through soft cloud-shaped openings
+            for j, (sc_, sig) in enumerate(((1.37, 5.0), (0.83, 3.0))):
+                rs = np.random.RandomState(sum(map(ord, name)) + j)
+                nz = gaussian_filter(rs.rand(lh, lw).astype(np.float32), sig); nz = (nz - nz.min()) / max(1e-6, nz.max() - nz.min())
+                b = np.clip((nz - 0.42) * 6.0, 0, 1) * a
+                buf2 = np.zeros((lh, stride), np.uint8); buf2[:, :lw] = np.clip(b * 255, 0, 255).astype(np.uint8)
+                ms2 = cairo.ImageSurface.create_for_data(bytearray(buf2.tobytes()), cairo.FORMAT_A8, lw, lh, stride)
+                mp2 = cairo.SurfacePattern(ms2); mp2.set_matrix(cairo.Matrix(xx=lw / float(self.W), yy=lh / float(self.H))); mp2.set_filter(cairo.FILTER_BILINEAR)
+                sp2 = cairo.SurfacePattern(ss); sp2.set_extend(cairo.EXTEND_REFLECT); sp2.set_filter(cairo.FILTER_GOOD)
+                sp2.set_matrix(cairo.Matrix(xx=(-1 if j == 0 else 1) / sc_, yy=1 / sc_, x0=im.width * (0.37 + 0.31 * j), y0=im.height * (0.53 - 0.27 * j)))
+                c.save(); c.set_source(sp2); c.mask(mp2); c.restore()
 
     # -------------------------------------------------------------- fields at low resolution
     def _fields(self):
@@ -152,6 +166,7 @@ class Terrain:
                 if ln.geom_type == "LineString" and not ln.is_empty and len(ln.coords) > 1:
                     wd.line([lr.ll_px(x, y) for x, y in ln.coords], fill=255, width=2)
         self.water_l = (~self.land_l) | (np.asarray(wm) > 127)
+        self._wm = np.asarray(wm) > 127
         self.elev = np.where(self.land_l, nd.gaussian_filter(dem_best(lon, lat), 1.0), 0).astype(np.float32)
         km_px = self.mpp * self.W / lw / 1000.0
         self.km_px = km_px
@@ -160,6 +175,7 @@ class Terrain:
         self.rel[~self.land_l] = 0
         self.dsea = nd.distance_transform_edt(~self.land_l) * km_px          # km offshore
         self.dland = nd.distance_transform_edt(self.land_l) * km_px          # km inland
+        self.driv = nd.distance_transform_edt(~self._wm) * km_px             # km from a river or lake
         self.green = zone_field(lon, lat, self.c["green"])
         self.desert = zone_field(lon, lat, self.c["desert"]) if self.c["desert"] else np.zeros_like(lon)
         self.fert = np.clip(np.maximum(self.green * 0.95, np.exp(-self.dland / 55.0) * 0.55) * (1 - 0.8 * self.desert), 0, 1).astype(np.float32)
@@ -589,6 +605,15 @@ class Terrain:
                     gk = ("oasis" if u < 0.012 else "arid") if u < 0.06 else ("patcha" if u < 0.10 else ("vega" if u < 0.108 else ("ruin" if u < 0.115 else None)))
                 if gk in ("green", "past") and not in_delta(x, y) and rnd.random() < (0.16 if gk == "green" else 0.10):
                     gk = "town"
+                ix_, iy_ = at(x, y); dl_ = float(self.dland[iy_, ix_]); dr_ = float(self.driv[iy_, ix_]); u2 = rnd.random()
+                if 2.5 < dl_ < 9 and u2 < 0.30 and TSP.POOL.get("coast"):
+                    gk = "coast"                               # shore pieces, harbour towns, lighthouses
+                elif dr_ < 5 and dl_ > 6 and f > 0.2 and u2 < 0.40 and TSP.POOL.get("river"):
+                    gk = "river"                               # riverside, marsh and bridge pieces
+                elif gk is None and u2 < 0.05 and e > 300 and 0.15 < f < 0.6:
+                    gk = "sfort"                               # generic castles and towers on the hills
+                elif gk is None and u2 < 0.11 and f > 0.35:
+                    gk = "schurch"                             # generic churches and monasteries
                 if gk and TSP.POOL.get(gk):
                     lo_, hi_ = TSP.GSIZE[gk]
                     items.append((y, "hamlet", x, y, rnd.uniform(lo_, hi_) * m, rnd.randint(1, 10 ** 6), gk))
@@ -749,7 +774,7 @@ class Terrain:
                 elif kind == "hamlet":
                     c.restore(); c.save()
                     lst = TSP.POOL[_x]
-                    TSP.gdraw(c, r.choice(lst), x, y, size, edition)
+                    TSP.gdraw(c, TSP.pick(_x, r), x, y, size, edition)
                 elif kind == "farm":
                     c.restore(); c.save()
                     if _x in ("crich", "cpast", "cwaste", "cflat"):

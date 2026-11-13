@@ -441,9 +441,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b18-02-offshore-rock-citadel-generic-b84b8c8e16dc.png",
-  "file": "",
-  "cls": "off",
-  "reason": "generic religious or civic building with no matching unpainted site on the map"
+  "file": "b18-02-offshore-rock-citadel-generic-b84b8c8e16dc.png",
+  "cls": "schurch",
+  "w": 472,
+  "h": 300,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b18-05-walled-monastery-generic-0936d53b9b75.png",
@@ -485,9 +487,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b19-05-domed-shrine-minaret-bb842cb79c41.png",
-  "file": "",
-  "cls": "off",
-  "reason": "generic religious or civic building with no matching unpainted site on the map"
+  "file": "b19-05-domed-shrine-minaret-bb842cb79c41.png",
+  "cls": "schurch",
+  "w": 324,
+  "h": 204,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b19-06-hillside-monastery-d40ef1fd60de.png",
@@ -507,9 +511,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b21-03-sandy-shore-to-rock-10e51f6889ee.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+  "file": "b21-03-sandy-shore-to-rock-10e51f6889ee.png",
+  "cls": "coast",
+  "w": 403,
+  "h": 186,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b21-10-fields-with-chapel-b838de0df29d.png",
@@ -577,9 +583,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/domed-bath-complex-6bd02e6bbe7f.png",
-  "file": "",
-  "cls": "off",
-  "reason": "generic religious or civic building with no matching unpainted site on the map"
+  "file": "domed-bath-complex-6bd02e6bbe7f.png",
+  "cls": "schurch",
+  "w": 376,
+  "h": 299,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/domed-cathedral-compound-f7e2aa4d87b2.png",
@@ -599,9 +607,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/domed-walled-religious-precinct-0731ce87a8f3.png",
-  "file": "",
-  "cls": "off",
-  "reason": "generic religious or civic building with no matching unpainted site on the map"
+  "file": "domed-walled-religious-precinct-0731ce87a8f3.png",
+  "cls": "schurch",
+  "w": 379,
+  "h": 282,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/fortified-church-ef55ad2566f6.png",
@@ -665,9 +675,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/harbor-monastery-111b9730ed0a.png",
-  "file": "",
-  "cls": "off",
-  "reason": "generic religious or civic building with no matching unpainted site on the map"
+  "file": "harbor-monastery-111b9730ed0a.png",
+  "cls": "schurch",
+  "w": 380,
+  "h": 316,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/multiple-domed-church-compound-f8a5901ed2ae.png",
@@ -711,9 +723,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b18-07-fortified-river-bridge-f646d5db6f76.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+  "file": "b18-07-fortified-river-bridge-f646d5db6f76.png",
+  "cls": "river",
+  "w": 406,
+  "h": 209,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b18-09-river-watermill-c6aec74d703b.png",
@@ -725,21 +739,27 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b18-17-reed-wetland-3fe541de4a16.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+  "file": "b18-17-reed-wetland-3fe541de4a16.png",
+  "cls": "river",
+  "w": 264,
+  "h": 168,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b18-18-streambank-bbfd9ae68b9c.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+  "file": "b18-18-streambank-bbfd9ae68b9c.png",
+  "cls": "river",
+  "w": 248,
+  "h": 168,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b18-19-marsh-water-reeds-4d6e4f9a9ae3.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+  "file": "b18-19-marsh-water-reeds-4d6e4f9a9ae3.png",
+  "cls": "river",
+  "w": 217,
+  "h": 166,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b19-15-riverside-watermill-94996b7287c9.png",
@@ -751,51 +771,67 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b20-02-river-to-marsh-212221222149.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+  "file": "b20-02-river-to-marsh-212221222149.png",
+  "cls": "river",
+  "w": 509,
+  "h": 269,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b20-04-broad-reed-marsh-5e68d3606aa8.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+  "file": "b20-04-broad-reed-marsh-5e68d3606aa8.png",
+  "cls": "river",
+  "w": 503,
+  "h": 216,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b21-05-river-bend-rocky-bank-e90f337fb223.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+  "file": "b21-05-river-bend-rocky-bank-e90f337fb223.png",
+  "cls": "river",
+  "w": 382,
+  "h": 156,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b21-06-river-reedbanks-2594b7bd680b.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+  "file": "b21-06-river-reedbanks-2594b7bd680b.png",
+  "cls": "river",
+  "w": 357,
+  "h": 145,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b21-07-wide-river-woodland-ce96f156a136.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+  "file": "b21-07-wide-river-woodland-ce96f156a136.png",
+  "cls": "river",
+  "w": 521,
+  "h": 162,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b21-08-river-bend-scrub-65332efbb3e9.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+  "file": "b21-08-river-bend-scrub-65332efbb3e9.png",
+  "cls": "river",
+  "w": 245,
+  "h": 141,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b21-23-broad-delta-reeds-98c58ae9967d.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+  "file": "b21-23-broad-delta-reeds-98c58ae9967d.png",
+  "cls": "river",
+  "w": 408,
+  "h": 145,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/fortified-stone-river-bridge-9f7e306cdaca.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+  "file": "fortified-stone-river-bridge-9f7e306cdaca.png",
+  "cls": "river",
+  "w": 382,
+  "h": 306,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/irrigation-shaduf-10c8d38fd3df.png",
@@ -895,75 +931,99 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b16-06-offshore-castle-generic-3376553f7d9a.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+  "file": "b16-06-offshore-castle-generic-3376553f7d9a.png",
+  "cls": "coast",
+  "w": 510,
+  "h": 391,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b18-01-fortified-coastal-city-generic-31f78f281970.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+  "file": "b18-01-fortified-coastal-city-generic-31f78f281970.png",
+  "cls": "coast",
+  "w": 562,
+  "h": 317,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b18-14-rocky-littoral-1c2762361496.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+  "file": "b18-14-rocky-littoral-1c2762361496.png",
+  "cls": "coast",
+  "w": 262,
+  "h": 168,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b18-15-sandy-cove-80bcb2f92b79.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+  "file": "b18-15-sandy-cove-80bcb2f92b79.png",
+  "cls": "coast",
+  "w": 276,
+  "h": 168,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b18-16-rocky-coastal-headland-058ad572fcaf.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+  "file": "b18-16-rocky-coastal-headland-058ad572fcaf.png",
+  "cls": "coast",
+  "w": 242,
+  "h": 168,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b19-09-island-watchtower-14ea86056777.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+  "file": "b19-09-island-watchtower-14ea86056777.png",
+  "cls": "coast",
+  "w": 188,
+  "h": 211,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b20-01-coast-to-farmland-308e492e699b.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+  "file": "b20-01-coast-to-farmland-308e492e699b.png",
+  "cls": "coast",
+  "w": 504,
+  "h": 265,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b21-01-rocky-cove-to-beach-7f450edc6303.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+  "file": "b21-01-rocky-cove-to-beach-7f450edc6303.png",
+  "cls": "coast",
+  "w": 386,
+  "h": 185,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b21-02-rocky-shore-to-sand-31e838da17cc.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+  "file": "b21-02-rocky-shore-to-sand-31e838da17cc.png",
+  "cls": "coast",
+  "w": 408,
+  "h": 185,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b21-04-cliff-coast-to-pines-632c106a0264.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+  "file": "b21-04-cliff-coast-to-pines-632c106a0264.png",
+  "cls": "coast",
+  "w": 316,
+  "h": 187,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/coastal-watchtower-069b5256b3d9.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+  "file": "coastal-watchtower-069b5256b3d9.png",
+  "cls": "coast",
+  "w": 379,
+  "h": 315,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b19-10-harbor-crane-quay-81ac8e7ba0e6.png",
-  "file": "",
-  "cls": "off",
-  "reason": "harbour scene: belongs inside a named port, which already has its own painting"
+  "file": "b19-10-harbor-crane-quay-81ac8e7ba0e6.png",
+  "cls": "coast",
+  "w": 354,
+  "h": 194,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b19-11-lateen-ship-cross-sail-64bcc38d5619.png",
@@ -999,9 +1059,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/medieval-shipyard-129d414ac648.png",
-  "file": "",
-  "cls": "off",
-  "reason": "harbour scene: belongs inside a named port, which already has its own painting"
+  "file": "medieval-shipyard-129d414ac648.png",
+  "cls": "coast",
+  "w": 384,
+  "h": 302,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b18-10-crusader-camp-115c67adc323.png",
@@ -1077,9 +1139,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/salt-evaporation-pans-e65eb962b07d.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+  "file": "salt-evaporation-pans-e65eb962b07d.png",
+  "cls": "coast",
+  "w": 384,
+  "h": 329,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b18-22-fruit-tree-bfed0ed5b90d.png",
@@ -1275,9 +1339,11 @@
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-005.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river or reed piece: needs aligning to a real river course before use"
+  "file": "map_fillers_set_a-005.png",
+  "cls": "river",
+  "w": 345,
+  "h": 169,
+  "reason": ""
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-006.png",
@@ -1345,27 +1411,35 @@
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-015.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast, lighthouse or sea-rock piece: needs registering to a real stretch of shoreline before use"
+  "file": "map_fillers_set_a-015.png",
+  "cls": "coast",
+  "w": 181,
+  "h": 120,
+  "reason": ""
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-016.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast, lighthouse or sea-rock piece: needs registering to a real stretch of shoreline before use"
+  "file": "map_fillers_set_a-016.png",
+  "cls": "coast",
+  "w": 108,
+  "h": 126,
+  "reason": ""
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-017.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast, lighthouse or sea-rock piece: needs registering to a real stretch of shoreline before use"
+  "file": "map_fillers_set_a-017.png",
+  "cls": "coast",
+  "w": 144,
+  "h": 126,
+  "reason": ""
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-018.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river or reed piece: needs aligning to a real river course before use"
+  "file": "map_fillers_set_a-018.png",
+  "cls": "river",
+  "w": 216,
+  "h": 87,
+  "reason": ""
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-019.png",
@@ -1481,9 +1555,11 @@
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-033.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river or reed piece: needs aligning to a real river course before use"
+  "file": "map_fillers_set_a-033.png",
+  "cls": "river",
+  "w": 103,
+  "h": 60,
+  "reason": ""
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-034.png",
@@ -1519,9 +1595,11 @@
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-038.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast, lighthouse or sea-rock piece: needs registering to a real stretch of shoreline before use"
+  "file": "map_fillers_set_a-038.png",
+  "cls": "coast",
+  "w": 173,
+  "h": 100,
+  "reason": ""
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-039.png",
@@ -1541,9 +1619,11 @@
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-041.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast, lighthouse or sea-rock piece: needs registering to a real stretch of shoreline before use"
+  "file": "map_fillers_set_a-041.png",
+  "cls": "coast",
+  "w": 113,
+  "h": 110,
+  "reason": ""
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-042.png",
@@ -1555,9 +1635,11 @@
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-043.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast, lighthouse or sea-rock piece: needs registering to a real stretch of shoreline before use"
+  "file": "map_fillers_set_a-043.png",
+  "cls": "coast",
+  "w": 141,
+  "h": 170,
+  "reason": ""
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-001.png",
@@ -1617,9 +1699,11 @@
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-008.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast, lighthouse or sea-rock piece: needs registering to a real stretch of shoreline before use"
+  "file": "map_fillers_set_b-008.png",
+  "cls": "coast",
+  "w": 166,
+  "h": 166,
+  "reason": ""
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-009.png",
@@ -1675,9 +1759,11 @@
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-016.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast, lighthouse or sea-rock piece: needs registering to a real stretch of shoreline before use"
+  "file": "map_fillers_set_b-016.png",
+  "cls": "coast",
+  "w": 227,
+  "h": 151,
+  "reason": ""
  },
  {
   "src": "data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-017.png",
@@ -1825,9 +1911,11 @@
  },
  {
   "src": "data/sprites/terrain-batch05/euphrates_reedbank.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece: needs aligning to real water before use"
+  "file": "euphrates_reedbank.png",
+  "cls": "river",
+  "w": 247,
+  "h": 84,
+  "reason": ""
  },
  {
   "src": "data/sprites/terrain-batch05/levant_terrace_mosaic.png",
@@ -1839,15 +1927,19 @@
  },
  {
   "src": "data/sprites/terrain-batch05/nile_delta_reedbed_central.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece: needs aligning to real water before use"
+  "file": "nile_delta_reedbed_central.png",
+  "cls": "river",
+  "w": 288,
+  "h": 79,
+  "reason": ""
  },
  {
   "src": "data/sprites/terrain-batch05/nile_delta_reedbed_west.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece: needs aligning to real water before use"
+  "file": "nile_delta_reedbed_west.png",
+  "cls": "river",
+  "w": 279,
+  "h": 84,
+  "reason": ""
  },
  {
   "src": "data/sprites/terrain-batch05/northern_woodland_band.png",
@@ -1875,9 +1967,11 @@
  },
  {
   "src": "data/sprites/terrain-batch05/syrian_dry_wadi.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece: needs aligning to real water before use"
+  "file": "syrian_dry_wadi.png",
+  "cls": "river",
+  "w": 227,
+  "h": 74,
+  "reason": ""
  },
  {
   "src": "data/sprites/terrain-batch05/taurus_wooded_ridge.png",
@@ -1991,27 +2085,35 @@
  },
  {
   "src": "data/sprites/terrain-batch06/t06_a11_levant_riverbank_wooded_bend.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece: needs aligning to real water before use"
+  "file": "t06_a11_levant_riverbank_wooded_bend.png",
+  "cls": "river",
+  "w": 348,
+  "h": 187,
+  "reason": ""
  },
  {
   "src": "data/sprites/terrain-batch06/t06_a12_nile_reed_lily_pool.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece: needs aligning to real water before use"
+  "file": "t06_a12_nile_reed_lily_pool.png",
+  "cls": "river",
+  "w": 361,
+  "h": 171,
+  "reason": ""
  },
  {
   "src": "data/sprites/terrain-batch06/t06_a13_delta_broad_reed_mosaic.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece: needs aligning to real water before use"
+  "file": "t06_a13_delta_broad_reed_mosaic.png",
+  "cls": "river",
+  "w": 315,
+  "h": 163,
+  "reason": ""
  },
  {
   "src": "data/sprites/terrain-batch06/t06_a14_orontes_lowland_stream.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece: needs aligning to real water before use"
+  "file": "t06_a14_orontes_lowland_stream.png",
+  "cls": "river",
+  "w": 327,
+  "h": 167,
+  "reason": ""
  },
  {
   "src": "data/sprites/terrain-batch06/t06_a15_egypt_palm_oasis_grove.png",
@@ -2061,33 +2163,43 @@
  },
  {
   "src": "data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece: needs aligning to real water before use"
+  "file": "t06_b01_delta_marsh_reeds_large.png",
+  "cls": "river",
+  "w": 359,
+  "h": 208,
+  "reason": ""
  },
  {
   "src": "data/sprites/terrain-batch06/t06_b02_delta_reed_channels_braided.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece: needs aligning to real water before use"
+  "file": "t06_b02_delta_reed_channels_braided.png",
+  "cls": "river",
+  "w": 364,
+  "h": 214,
+  "reason": ""
  },
  {
   "src": "data/sprites/terrain-batch06/t06_b03_jordan_tree_lined_streambank.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece: needs aligning to real water before use"
+  "file": "t06_b03_jordan_tree_lined_streambank.png",
+  "cls": "river",
+  "w": 382,
+  "h": 183,
+  "reason": ""
  },
  {
   "src": "data/sprites/terrain-batch06/t06_b04_orontes_wooded_horseshoe.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece: needs aligning to real water before use"
+  "file": "t06_b04_orontes_wooded_horseshoe.png",
+  "cls": "river",
+  "w": 427,
+  "h": 200,
+  "reason": ""
  },
  {
   "src": "data/sprites/terrain-batch06/t06_b05_euphrates_reach_short_meander.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece: needs aligning to real water before use"
+  "file": "t06_b05_euphrates_reach_short_meander.png",
+  "cls": "river",
+  "w": 308,
+  "h": 201,
+  "reason": ""
  },
  {
   "src": "data/sprites/terrain-batch06/t06_b06_aegean_patchwork_grain_fields.png",
@@ -2222,10 +2334,116 @@
   "reason": "atlas sheet: reference only, the individual cut-outs are used"
  },
  {
+  "src": "data/sprites/natural-landmarks/png/NAT-L017-cappadocia.png",
+  "file": "nat-l017-cappadocia.png",
+  "cls": "landmark",
+  "w": 1514,
+  "h": 1013,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/natural-landmarks/png/NAT-L018-cedars-of-lebanon.png",
+  "file": "nat-l018-cedars-of-lebanon.png",
+  "cls": "landmark",
+  "w": 1522,
+  "h": 1009,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/natural-landmarks/png/NAT-L019-mount-hermon.png",
+  "file": "nat-l019-mount-hermon.png",
+  "cls": "landmark",
+  "w": 1762,
+  "h": 870,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/rural-landscapes/png/CSV-090.png",
+  "file": "csv-090_irrigated_river_valley.png",
+  "cls": "river",
+  "w": 640,
+  "h": 213,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/rural-landscapes/png/CSV-092.png",
+  "file": "csv-092_rocky_mediterranean_coast.png",
+  "cls": "coast",
+  "w": 640,
+  "h": 203,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/rural-landscapes/png/CSV-096.png",
+  "file": "csv-096_river_plain.png",
+  "cls": "river",
+  "w": 589,
+  "h": 222,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/rural-landscapes/png/CSV-097.png",
+  "file": "csv-097_coastal_hills.png",
+  "cls": "coast",
+  "w": 591,
+  "h": 221,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/rural-landscapes/png/CSV-101.png",
+  "file": "csv-101_rocky_coast.png",
+  "cls": "coast",
+  "w": 590,
+  "h": 221,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/rural-landscapes/png/CSV-104.png",
+  "file": "csv-104_wetlands.png",
+  "cls": "river",
+  "w": 588,
+  "h": 221,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/rural-landscapes/png/CSV-108.png",
+  "file": "csv-108_meandering_river_plain.png",
+  "cls": "river",
+  "w": 592,
+  "h": 221,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/rural-landscapes/png/CSV-109.png",
+  "file": "csv-109_rugged_coast.png",
+  "cls": "coast",
+  "w": 591,
+  "h": 222,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/rural-landscapes/png/CSV-113.png",
+  "file": "csv-113_coastal_cove.png",
+  "cls": "coast",
+  "w": 591,
+  "h": 221,
+  "reason": ""
+ },
+ {
+  "src": "data/sprites/rural-landscapes/png/CSV-116.png",
+  "file": "csv-116_marsh_floodplain.png",
+  "cls": "river",
+  "w": 590,
+  "h": 219,
+  "reason": ""
+ },
+ {
   "src": "data/sprites/automated-intake/png/t26-06-orontes-river-valley-004b5ae79a2b.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece (3% water): needs aligning to real water"
+  "file": "t26-06-orontes-river-valley-004b5ae79a2b.png",
+  "cls": "river",
+  "w": 520,
+  "h": 203,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/t27-08-limestone-uplands-00c347295e20.png",
@@ -2237,9 +2455,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t27-01-coastal-sandy-shore-00f3fa955902.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (13% water): needs registering to real shoreline or river"
+  "file": "t27-01-coastal-sandy-shore-00f3fa955902.png",
+  "cls": "coast",
+  "w": 506,
+  "h": 243,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/t31-03-dry-to-green-steppe-00fd1c929b48.png",
@@ -2250,9 +2470,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/01-nile-delta-lowlands-01cb3de516e7.png",
-  "file": "",
-  "cls": "off",
-  "reason": "large Delta landscape with painted channels (11% water): would clash with the drawn Nile branches"
+  "file": "01-nile-delta-lowlands-01cb3de516e7.png",
+  "cls": "delta",
+  "w": 640,
+  "h": 417,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/t27-12-rocky-foothill-02440f41c0e4.png",
@@ -2272,9 +2494,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b32-01-04-river-floodplain-0306e55faca8.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece (6% water): needs aligning to real water"
+  "file": "b32-01-04-river-floodplain-0306e55faca8.png",
+  "cls": "river",
+  "w": 497,
+  "h": 256,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/104-kalamos-concept-033d59ee3602.png",
@@ -2307,9 +2531,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t27-16-shallow-reed-marsh-0a5d76f9f992.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece (9% water): needs aligning to real water"
+  "file": "t27-16-shallow-reed-marsh-0a5d76f9f992.png",
+  "cls": "river",
+  "w": 520,
+  "h": 130,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/25-04-olive-wheat-patchwork-0ad1e4fb90c7.png",
@@ -2379,9 +2605,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t28-03-limestone-coastal-cliff-111c2dd77825.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (6% water): needs registering to real shoreline or river"
+  "file": "t28-03-limestone-coastal-cliff-111c2dd77825.png",
+  "cls": "coast",
+  "w": 384,
+  "h": 165,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/famagusta-concept-117cbef6d89f.png",
@@ -2397,9 +2625,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b32-02-07-coastal-heath-132bd6deb941.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (0% water): needs registering to real shoreline or river"
+  "file": "b32-02-07-coastal-heath-132bd6deb941.png",
+  "cls": "coast",
+  "w": 520,
+  "h": 161,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b32-sheet-01-1398bfc72f7b.png",
@@ -2432,9 +2662,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/02-levantine-coastal-fields-1942d73828a8.png",
-  "file": "",
-  "cls": "off",
-  "reason": "large landscape with a painted river or marsh (4% water): needs aligning to a real river"
+  "file": "02-levantine-coastal-fields-1942d73828a8.png",
+  "cls": "coast",
+  "w": 640,
+  "h": 424,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/t27-14-arid-plateau-1ae241c9a112.png",
@@ -2482,9 +2714,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t28-05-wooded-reed-riverbank-2084d41b941e.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece (14% water): needs aligning to real water"
+  "file": "t28-05-wooded-reed-riverbank-2084d41b941e.png",
+  "cls": "river",
+  "w": 370,
+  "h": 156,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b32-02-05-woodland-copse-213731a4647f.png",
@@ -2510,9 +2744,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t28-04-coastal-rock-arch-24e879386274.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (13% water): needs registering to real shoreline or river"
+  "file": "t28-04-coastal-rock-arch-24e879386274.png",
+  "cls": "coast",
+  "w": 367,
+  "h": 168,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/t29-06-medieval-rocky-steppe-terrain-map-257ff6898c88.png",
@@ -2572,9 +2808,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b32-01-06-rocky-coast-3164656cdba8.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (11% water): needs registering to real shoreline or river"
+  "file": "b32-01-06-rocky-coast-3164656cdba8.png",
+  "cls": "coast",
+  "w": 508,
+  "h": 256,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/coastal-port-concept-c-3229a557d9f5.png",
@@ -2614,9 +2852,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t35-01-long-coastal-dune-scrub-413c976065ef.png",
-  "file": "",
-  "cls": "off",
-  "reason": "large landscape with a painted river or marsh (9% water): needs aligning to a real river"
+  "file": "t35-01-long-coastal-dune-scrub-413c976065ef.png",
+  "cls": "coast",
+  "w": 640,
+  "h": 143,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/82-telendos-concept-41b31cd84a2d.png",
@@ -2787,15 +3027,19 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b32-01-09-coastal-dunes-5e0b2ba938f9.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (1% water): needs registering to real shoreline or river"
+  "file": "b32-01-09-coastal-dunes-5e0b2ba938f9.png",
+  "cls": "coast",
+  "w": 506,
+  "h": 241,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/t28-06-shallow-reed-channel-5f8d6aa52c94.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece (14% water): needs aligning to real water"
+  "file": "t28-06-shallow-reed-channel-5f8d6aa52c94.png",
+  "cls": "river",
+  "w": 371,
+  "h": 146,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-15-61e92571c016.png",
@@ -2829,9 +3073,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-16-66c04c7fb6df.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (7% water): needs registering to real shoreline or river"
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-16-66c04c7fb6df.png",
+  "cls": "river",
+  "w": 520,
+  "h": 177,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/t29-04-medieval-greenwood-island-map-6764aad7ad05.png",
@@ -2865,9 +3111,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b32-01-11-marsh-ribbons-7046a45c34bf.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece (6% water): needs aligning to real water"
+  "file": "b32-01-11-marsh-ribbons-7046a45c34bf.png",
+  "cls": "river",
+  "w": 512,
+  "h": 245,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/105-kastos-concept-707632324fc6.png",
@@ -2900,15 +3148,19 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t30-02-river-to-arid-plain-7934ae46f9c4.png",
-  "file": "",
-  "cls": "off",
-  "reason": "large landscape with a painted river or marsh (9% water): needs aligning to a real river"
+  "file": "t30-02-river-to-arid-plain-7934ae46f9c4.png",
+  "cls": "river",
+  "w": 640,
+  "h": 317,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-01-7b51c65d8d8c.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece (5% water): needs aligning to real water"
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-01-7b51c65d8d8c.png",
+  "cls": "river",
+  "w": 520,
+  "h": 208,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b32-03-09-levant-olive-terraces-7bb2fd5864ac.png",
@@ -2920,9 +3172,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t28-08-palm-riverbank-margin-7e4131c46989.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece (7% water): needs aligning to real water"
+  "file": "t28-08-palm-riverbank-margin-7e4131c46989.png",
+  "cls": "river",
+  "w": 379,
+  "h": 155,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/coastal-port-concept-a-8066047a7ac1.png",
@@ -2971,9 +3225,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-11-86905ea8623c.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (15% water): needs registering to real shoreline or river"
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-11-86905ea8623c.png",
+  "cls": "coast",
+  "w": 501,
+  "h": 180,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/coastal-harbor-concept-b-8837c583604b.png",
@@ -2993,15 +3249,19 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t28-01-rocky-coast-waterline-8fe60ca031aa.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (12% water): needs registering to real shoreline or river"
+  "file": "t28-01-rocky-coast-waterline-8fe60ca031aa.png",
+  "cls": "coast",
+  "w": 371,
+  "h": 167,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-08-901cd4590164.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (6% water): needs registering to real shoreline or river"
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-08-901cd4590164.png",
+  "cls": "river",
+  "w": 382,
+  "h": 200,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b32-03-07-wooded-lowland-92d2342a4c0e.png",
@@ -3076,9 +3336,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t28-07-broad-marsh-channel-a26163dacedf.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece (16% water): needs aligning to real water"
+  "file": "t28-07-broad-marsh-channel-a26163dacedf.png",
+  "cls": "river",
+  "w": 382,
+  "h": 129,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/10-nile-delta-floodplain-06-a286fd1cfd47.png",
@@ -3098,9 +3360,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b32-03-03-levant-rocky-coast-a97a6d3d20da.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (24% water): needs registering to real shoreline or river"
+  "file": "b32-03-03-levant-rocky-coast-a97a6d3d20da.png",
+  "cls": "coast",
+  "w": 520,
+  "h": 141,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/sidon-concept-aa754f1023c1.png",
@@ -3133,9 +3397,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-04-ac7b2c07f490.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (9% water): needs registering to real shoreline or river"
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-04-ac7b2c07f490.png",
+  "cls": "river",
+  "w": 479,
+  "h": 220,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b32-01-05-rocky-low-hills-ae9734b84e3d.png",
@@ -3155,9 +3421,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-05-b103a1a12fd8.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (14% water): needs registering to real shoreline or river"
+  "file": "11-greek-cyprus-anatolia-levant-lowlands-05-b103a1a12fd8.png",
+  "cls": "coast",
+  "w": 520,
+  "h": 214,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/generic-scene-01-b30f86ce1ac9.png",
@@ -3253,9 +3521,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t28-02-sandy-coast-dune-edge-c18fe185f25c.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (7% water): needs registering to real shoreline or river"
+  "file": "t28-02-sandy-coast-dune-edge-c18fe185f25c.png",
+  "cls": "coast",
+  "w": 381,
+  "h": 157,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/cairo-concept-repaint-required-c2ded32a0e1c.png",
@@ -3302,9 +3572,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t27-02-reed-marsh-transition-c7539191e6c9.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece (20% water): needs aligning to real water"
+  "file": "t27-02-reed-marsh-transition-c7539191e6c9.png",
+  "cls": "river",
+  "w": 505,
+  "h": 240,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/t29-02-hand-painted-mediterranean-terrain-map-cc1266f1fce8.png",
@@ -3329,9 +3601,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t27-21-littoral-dunes-cea4f4f62ed1.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (22% water): needs registering to real shoreline or river"
+  "file": "t27-21-littoral-dunes-cea4f4f62ed1.png",
+  "cls": "coast",
+  "w": 520,
+  "h": 135,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b32-02-08-olive-pasture-cf80c48450c6.png",
@@ -3357,9 +3631,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/b32-03-10-saline-coastal-flat-d3ec28aabda5.png",
-  "file": "",
-  "cls": "off",
-  "reason": "coast or stream piece (12% water): needs registering to real shoreline or river"
+  "file": "b32-03-10-saline-coastal-flat-d3ec28aabda5.png",
+  "cls": "coast",
+  "w": 520,
+  "h": 135,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/caesarea-concept-d46875ca8137.png",
@@ -3432,9 +3708,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t26-04-lebanon-foothill-waterfall-ddbd7d30ec68.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece (2% water): needs aligning to real water"
+  "file": "t26-04-lebanon-foothill-waterfall-ddbd7d30ec68.png",
+  "cls": "river",
+  "w": 520,
+  "h": 235,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/b34-05-greek-mainland-countryside-df0b2e8513e9.png",
@@ -3565,9 +3843,11 @@
  },
  {
   "src": "data/sprites/automated-intake/png/t27-03-wooded-riverbank-f1145a58e082.png",
-  "file": "",
-  "cls": "off",
-  "reason": "river, reed or marsh piece (7% water): needs aligning to real water"
+  "file": "t27-03-wooded-riverbank-f1145a58e082.png",
+  "cls": "river",
+  "w": 509,
+  "h": 241,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/t26-08-sinai-negev-arid-ridges-f201af77c113.png",
@@ -3612,14 +3892,18 @@
  },
  {
   "src": "data/sprites/automated-intake/png/04-anatolian-river-plain-fa5e9e8ccf18.png",
-  "file": "",
-  "cls": "off",
-  "reason": "large landscape with a painted river or marsh (5% water): needs aligning to a real river"
+  "file": "04-anatolian-river-plain-fa5e9e8ccf18.png",
+  "cls": "river",
+  "w": 640,
+  "h": 423,
+  "reason": ""
  },
  {
   "src": "data/sprites/automated-intake/png/t29-05-watercolor-medieval-marshland-map-cutout-fdfe2724c96c.png",
-  "file": "",
-  "cls": "off",
-  "reason": "large marsh landscape: needs fitting to a real marsh"
+  "file": "t29-05-watercolor-medieval-marshland-map-cutout-fdfe2724c96c.png",
+  "cls": "river",
+  "w": 640,
+  "h": 358,
+  "reason": ""
  }
 ]

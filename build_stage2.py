@@ -187,6 +187,7 @@ def draw_ink2(edition, surf=None, scale=None, mode=None):
         import islandart; islandart.draw(c, REG[k], edition, k)
         if k == "main":
             import shipart; shipart.draw(c, REG[k], edition)
+            import landmarkart; landmarkart.draw(c, REG[k], edition)
         c.restore()
         if k == "main":
             c.save()

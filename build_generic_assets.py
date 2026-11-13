@@ -45,10 +45,10 @@ setr([25], "fb:harbour_fort"); setr([27], "fb:tower"); setr([33, 35], "fb:fort")
 setr([57, 65, 75, 80, 83], "fb:monastery_hill"); setr([63, 85, 86, 90, 91, 92, 93, 56], "fb:latin"); setr([62, 69, 70, 74, 77, 78, 89, 73], "fb:greek")
 setr([71, 72, 81], "fb:monastery_cliff"); setr([82, 59], "fb:monastery")
 setr([61, 84, 87], "off", "depicts a named monument (Dome of the Rock, Hagia Sophia) that already has its city painting")
-setr([64, 76, 79, 88, 58], "off", "generic religious or civic building with no matching unpainted site on the map")
-setr([67, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 146], "off", "coast or shore piece: needs registering to a real stretch of shoreline before use")
-setr([94, 96, 97, 98, 100, 101, 102, 103, 104, 105, 106, 107], "off", "river, marsh or bridge piece: needs aligning to a real river course before use")
-setr([131, 136], "off", "harbour scene: belongs inside a named port, which already has its own painting")
+setr([64, 76, 79, 88, 58], "schurch")
+setr([67, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 146], "coast")
+setr([94, 96, 97, 98, 100, 101, 102, 103, 104, 105, 106, 107], "river")
+setr([131, 136], "coast")
 setr(list(range(44, 56)), "off", "named fortress candidate with no coordinates or matched site in the repository")
 for i, r in enumerate(ai):
     cls, why = AI.get(i, ("off", "unclassified"))
@@ -68,8 +68,8 @@ setf([60], "oasis"); setf([53, 61, 64], "past"); setf([6, 7, 54, 68], "ruin"); s
 setf([0, 9, 11, 43, 50, 56], "fb:fort"); setf([10, 12, 24, 40, 48], "fb:tower"); setf([17, 18], "fb:town"); setf([1, 42, 44], "fb:harbour_town")
 setf([5, 45, 47], "fb:latin"); setf([46, 2], "fb:greek"); setf([3, 38], "fb:harbour_fort")
 setf([51], "off", "depicts the Dome of the Rock, already inside the Jerusalem painting")
-setf([4, 16, 31], "off", "river or reed piece: needs aligning to a real river course before use")
-setf([13, 14, 15, 36, 39, 41, 49, 57], "off", "coast, lighthouse or sea-rock piece: needs registering to a real stretch of shoreline before use")
+setf([4, 16, 31], "river")
+setf([13, 14, 15, 36, 39, 41, 49, 57], "coast")
 setf([52], "off", "two pieces joined in one cut-out: needs splitting")
 for i, f in enumerate(fl):
     cls, why = FL.get(i, ("off", "unclassified"))
@@ -81,7 +81,7 @@ for f in sorted(glob.glob(os.path.join(ROOT, "data/sprites/terrain-batch0[56]/**
     if "atlas" in n or "sheet" in n:
         put(p, "off", "atlas sheet: reference only, the individual cut-outs are used"); continue
     if any(k in n for k in ("reed", "delta", "stream", "riverbank", "horseshoe", "meander", "wadi", "lily")):
-        put(p, "off", "river, reed or marsh piece: needs aligning to real water before use"); continue
+        put(p, "river"); continue
     if any(k in n for k in ("volcan", "basalt", "cinder")):
         put(p, "off", "volcano or basalt piece: removed from the map at Daryl's request"); continue
     if any(k in n for k in ("oasis", "palm")):
@@ -93,6 +93,16 @@ for f in sorted(glob.glob(os.path.join(ROOT, "data/sprites/terrain-batch0[56]/**
     if any(k in n for k in ("woodland", "conifer", "forest", "copse", "grove", "wooded", "cedar")):
         put(p, "patchw"); continue
     put(p, "patchd")
+# --- the three landmark landscapes, placed at their own coordinates by landmarkart.py
+for f in sorted(glob.glob(os.path.join(ROOT, "data/sprites/natural-landmarks/png/*.png"))):
+    put(os.path.relpath(f, ROOT), "landmark")
+# --- regional landscapes that carry painted rivers or coast: used as riverside or shore pieces
+for i in (90, 92, 96, 97, 101, 104, 108, 109, 113, 116):
+    for f in glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets", "terrain", "CSV-%03d_*.png" % i)):
+        im = Image.open(f).convert("RGBA"); im.thumbnail((640, 640), Image.LANCZOS)
+        fn = os.path.basename(f).lower(); im.save(os.path.join(OUT, "generic2", fn))
+        coastal = any(k in fn for k in ("coast", "bay", "shore", "sea", "harbor", "harbour", "fishing"))
+        recs.append(dict(src="data/sprites/rural-landscapes/png/CSV-%03d.png" % i, file=fn, cls="coast" if coastal else "river", w=im.width, h=im.height, reason=""))
 json.dump(recs, open(os.path.join(OUT, "generic2.json"), "w"), indent=1)
 import collections
 print(collections.Counter(r["cls"] for r in recs))

@@ -568,7 +568,7 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
               if not LF[it.region](it.x, it.y):
                   continue
               w_keep = it.w; nudge_sprite(it, WFS); it.w = w_keep if it.w > w_keep else it.w
-          for shrink in (1.0, 0.82, 0.68):
+          for shrink in (1.0, 0.82, 0.68, 0.56, 0.46):
             w = it.w * shrink
             if it.kind != "place":
                 rect = (it.x - 50 * w / 100, it.y - 50 * w / 100, it.x + 50 * w / 100, it.y + 50 * w / 100)

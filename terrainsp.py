@@ -48,9 +48,24 @@ POOL = {"green": G_GREEN + G2P.get("green", []), "past": G_PAST + G2P.get("past"
         "oasis": G_OASIS + G2P.get("oasis", []), "vegg": G2P.get("vegg", []), "vegd": G2P.get("vegd", []), "vega": G2P.get("vega", []),
         "rock": G2P.get("rock", []), "ruin": G2P.get("ruin", []), "patchg": G2P.get("patchg", []), "patchw": G2P.get("patchw", []),
         "patchd": G2P.get("patchd", []), "patcha": G2P.get("patcha", []), "delta": G2P.get("delta", []) + G2P.get("green", [])[:4], "town": G2P.get("fb:town", [])}
+POOL["sfort"] = G2P.get("fb:fort", []) + G2P.get("fb:tower", [])
+POOL["schurch"] = G2P.get("fb:latin", []) + G2P.get("fb:greek", []) + G2P.get("fb:monastery", []) + G2P.get("fb:monastery_hill", []) + G2P.get("fb:monastery_cliff", []) + G2P.get("schurch", [])
+POOL["coast"] = G2P.get("coast", []) + G2P.get("fb:harbour_town", []) + G2P.get("fb:harbour_fort", [])
+POOL["river"] = G2P.get("river", [])
+_DECK = {}
+
+
+def pick(pool, r):
+    """Deal the pool like a shuffled deck, so every piece is used before any repeats."""
+    d = _DECK.get(pool)
+    if not d:
+        d = list(POOL[pool]); r.shuffle(d); _DECK[pool] = d
+    return d.pop()
+
+
 POOL_SHIP = G2P.get("ship", [])
 GSIZE = {"green": (120, 150), "past": (120, 150), "arid": (115, 145), "oasis": (120, 150), "vegg": (70, 95), "vegd": (60, 85), "vega": (70, 90),
-         "rock": (95, 130), "ruin": (105, 130), "patchg": (190, 240), "patchw": (190, 240), "patchd": (190, 240), "patcha": (200, 250), "delta": (115, 140), "town": (170, 205)}
+         "rock": (95, 130), "ruin": (105, 130), "patchg": (190, 240), "patchw": (190, 240), "patchd": (190, 240), "patcha": (200, 250), "delta": (115, 140), "town": (170, 205), "sfort": (130, 160), "schurch": (115, 140), "coast": (135, 170), "river": (150, 190)}
 
 
 def gsurf(i, edition, width):

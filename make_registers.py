@@ -54,7 +54,10 @@ for r in led:
 alts = {a["path"]: a for a in json.load(open("assets/sprite_alternates.json"))}
 g2 = {r["src"]: r for r in json.load(open("assets/generic2.json"))}
 isl = {r["src"]: r for r in json.load(open("assets/islands.json"))}
+isl.update({r["src"]: r for r in json.load(open("assets/islands_hold.json"))})
 kit = {os.path.splitext(f)[0] for f in os.listdir("assets/terrain")}
+_x = json.load(open("assets/islands_extra.json")) if os.path.exists("assets/islands_extra.json") else dict(islands=[], duplicates=[])
+xisl = {r["src"]: r for r in _x["islands"]}; xdup = {r["path"]: r["primary"] for r in _x["duplicates"]}
 C_ALL = set(TSP.C_RICH + TSP.C_PAST + TSP.C_WASTE + TSP.C_FLAT)
 res = []
 for p, r in sorted(paths.items()):
@@ -69,11 +72,18 @@ for p, r in sorted(paths.items()):
             why = "primary painting for %s, but the symbol is %s" % (nm, vis)
     elif p in alts:
         why = alts[p]["reason"]
+    elif p in xisl:
+        if xisl[p]["id"] in usage["islands"]:
+            use = "yes"; why = "small island %s, placed at a centre point taken from general reference (coordinates unverified)" % xisl[p]["name"]
+        else:
+            why = "island %s: its position falls outside the frames or under a registered overlay" % xisl[p]["name"]
+    elif p in xdup:
+        why = "alternate variant; primary is %s (another image of the same island)" % xdup[p]
     elif p in isl:
         if isl[p]["id"] in usage["islands"]:
             use = "yes"; why = "island overlay registered by its coordinate box (%s inset)" % usage["islands"][isl[p]["id"]]
         else:
-            why = "island overlay: its coordinate box falls outside the frames"
+            why = "island painting: no separate island polygon under its centre point, or a registered overlay already covers that island"
     elif p in g2:
         g = g2[p]; n = usage["generic"].get(g["file"], 0)
         fb = [k for k, v in used_paths.items() if k == p]
@@ -85,8 +95,10 @@ for p, r in sorted(paths.items()):
                 why = "large ground tile (%s land): in the pool but not drawn in this build" % g["cls"][5:]
         elif g["cls"] == "off":
             why = g["reason"]
+        elif g["cls"].startswith("fb:") and n:
+            use = "yes"; why = "generic %s piece, scattered as an unnamed place, placed %d times" % (g["cls"][3:], n)
         elif g["cls"].startswith("fb:"):
-            why = "generic fallback held in reserve: no unpainted site of this kind is left to use it"
+            why = "generic %s piece: in the pool but not drawn in this build" % g["cls"][3:]
         elif n:
             use = "yes"; why = "generic %s piece, placed %d times" % (g["cls"], n)
         else:

@@ -115,12 +115,12 @@ for a in new:
     delta = "nile" in n or "delta" in n
     if w >= 1500:
         if "marsh" in n:
-            off(a, "large marsh landscape: needs fitting to a real marsh"); continue
+            generic(a, "river", 640); continue
         if wf > 0.035 and not delta:
-            off(a, "large landscape with a painted river or marsh (%.0f%% water): needs aligning to a real river" % (wf * 100)); continue
+            generic(a, "coast" if "coast" in n else "river", 640); continue
         if delta:
             if wf > 0.06:
-                off(a, "large Delta landscape with painted channels (%.0f%% water): would clash with the drawn Nile branches" % (wf * 100)); continue
+                generic(a, "delta", 640); continue
             big(a, "flat"); continue
         if any(k in n for k in ("greek", "aegean", "island", "greenwood")):
             big(a, "aeg"); continue
@@ -137,9 +137,9 @@ for a in new:
     if delta:
         generic(a, "delta", 520); continue
     if any(k in n for k in ("coast", "shore", "littoral", "cliff", "rock_arch", "saline")) or (wf > 0.05 and any(k in n for k in ("11_greek",))):
-        off(a, "coast or stream piece (%.0f%% water): needs registering to real shoreline or river" % (wf * 100)); continue
+        generic(a, "coast" if any(k in n for k in ("coast", "shore", "littoral", "cliff", "rock_arch", "saline")) or wf > 0.09 else "river", 520); continue
     if wf > 0.04 or any(k in n for k in ("marsh", "reed", "river", "channel", "wetland", "floodplain", "waterfall")):
-        off(a, "river, reed or marsh piece (%.0f%% water): needs aligning to real water" % (wf * 100)); continue
+        generic(a, "river", 520); continue
     if any(k in n for k in ("woodland", "wooded", "forest", "cedar", "pine", "copse")):
         generic(a, "patchw", 520); continue
     if any(k in n for k in ("olive", "orchard", "vineyard", "citrus", "pasture", "meadow", "cultivat", "terrace", "11_greek")):
