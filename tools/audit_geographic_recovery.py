@@ -58,7 +58,7 @@ for record in intake:
 count=Counter(x["decision"] for x in rows)
 named=[x for x in rows if x["kind"]=="named-candidate"]
 close=[x for x in named if x["decision"]=="site_already_rendered_keep_as_alternate"]
-miss=[x for x in named if x["decision"]!="site_already_rendered_keep_as_alternate"]
+miss=[x for x in named if x["decision"] not in ("site_already_rendered_keep_as_alternate", "sourced_geography_review_placed")]
 report={
  "scope":"226 sprite intake, 1095-1571 multi-period atlas",
  "status":"Provisional geographical reconciliation; no incorrect or duplicate map placements",
