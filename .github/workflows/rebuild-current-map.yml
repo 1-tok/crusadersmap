@@ -19,6 +19,7 @@ on:
       - 'build_sprite_assets.py'
       - 'places.py'
       - 'data/sprites/placements-geographic-recovery-1095-1571.json'
+      - 'tools/check_geographic_castle_placements.py'
       - 'data/manifests/automated-intake-stable-scatter-classes.json'
       - 'terrain.py'
 
@@ -68,6 +69,7 @@ jobs:
           cp deliver/terrain-gap-cells.csv reports/rebuild-2026-11-12/
           python tools/report_map_sprite_utilization.py
           python tools/audit_intake_promotion.py
+          python tools/check_geographic_castle_placements.py
       - name: Upload build outputs for review
         if: always()
         uses: actions/upload-artifact@v4
