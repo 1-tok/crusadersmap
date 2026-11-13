@@ -40,3 +40,13 @@ The 51 separate candidate cutouts from sheets 06–09 of `crusader_lowlands_comp
 - Once corrected ZIP is pushed to the incoming folder, check the workflow's resulting PR/review branch, merge *only after verifying source counts and no master-sheet placements*, then inspect a new compositor run. No sprite is shown on a map just because a ZIP or registry record exists.
 
 Prior instructions calling for upload of `crusader_lowlands_13nov_remaining_51_ONLY.zip` are superseded by this correction.
+
+## Map preview integration — curated land-only subset
+
+Commit `88f70674ebc9ae01a0050dc930ced4374c7a0485` updates `tools/import_recent_terrain_zips.py` to discover the two **already uploaded** November 13 source archives and promote only a nine-piece dry-field subset into the fertile, low-elevation `patchg` preview artwork pool. The existing terrain placer constrains these stamps to fertile land (`f > 0.5`, `e < 700`) and excludes the Delta from `patchg` random stamps. These candidates therefore enhance Greece/Cyprus/Anatolia/Levant fields, not hydrological features or the Nile Delta.
+
+The nine selected source stems are `05_cyprus_mediterranean_orchards`, and `11_greek_cyprus_anatolia_levant_lowlands_{02,03,07,08,09,12,13,14}`. None is automatically production-approved; PNG alpha, native output scale, southern-oblique perspective, actual visible count and overlaps require inspection of the rebuilt composite.
+
+Source archive items **not on that explicit allowlist are intentionally held**, including Nile Delta wetland/reed/river pieces, mixed coastal strips, river-bearing fields and original contact sheets. Matching these to actual shoreline/water geometry remains a separate task. The separate 51-cutout corrected ZIP is still absent from GitHub; no claim of having imported or rendered it.
+
+GitHub Actions `rebuild-current-map.yml` listens for changes to the updated importer; the push requests a rebuild, but the generated output must be checked before stating it succeeded.
