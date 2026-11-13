@@ -94,6 +94,8 @@ PLACES = [
     ("main", 3, "M:castle_armenian", 33.91566, 36.37661, "Silifke Kalesi", "Seleucia", "Silifke Castle", "Medieval Byzantine / Cilician; artwork pending phase QA", ()),
     ("main", 4, "M:castle_armenian", 34.39, 37.09, "Lampron", "Namrun", "Namrun Castle", "Medieval Armenian / Byzantine; artwork pending phase QA", ()),
     ("main", 4, "M:castle_frankish", 37.05387, 36.87304, "Ravanda", "Ravendel", "Ravanda Castle", "Medieval Crusader / Armenian; artwork pending phase QA", ()),
+    ("main", 4, "M:castle_armenian", 36.136569, 37.050362, "Toprakkale Kalesi", "Til", "Toprakkale Castle", "Medieval Abbasid and later fortress; artwork pending phase QA", ()),
+    ("main", 4, "M:castle_armenian", 36.45944, 37.14746, "Savranda", "Servantikar", "Savranda Castle", "Medieval fortification; artwork pending phase QA", ()),
     # ---------------------------------------------------------------- Cyprus
     ("main", 1, "P:famagusta", 33.94, 35.12, "Famagouste", "Ammochostos", "Famagusta", "Lusignan 1192 - 1489, Venetian 1489 - 1571", ("gen", "ven")),
     ("main", 1, "P:nicosia", 33.37, 35.17, "Nicosie", "Lefkosia", "Nicosia", "Lusignan 1192 - 1489, Venetian 1489 - 1570", ("ven",)),
