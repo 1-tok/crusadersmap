@@ -1,16 +1,16 @@
 {
-  "scope": "Latest 1095-1571 map render; 226 automated-intake sprites",
+  "scope": "Latest 1095-1571 map render; 448 automated-intake sprites",
   "note": "Technical PNG success does not confer geographic or historical approval. Use actual generic render counts from out/usage.json.",
-  "intake_total": 226,
-  "technical_pass": 226,
+  "intake_total": 448,
+  "technical_pass": 448,
   "placement_approved": 0,
   "historical_certified": 0,
   "generic_rendered_distinct": 74,
-  "generic_rendered_instances": 890,
+  "generic_rendered_instances": 946,
   "generic_eligible_but_unused": 0,
   "status_counts": {
     "held_generic_architecture_fallback": 32,
-    "held_geo_water_or_named_art": 64,
+    "held_geo_water_or_named_art": 286,
     "held_unmatched_or_unclassified": 39,
     "named_fortification_needs_coordinates_and_phase": 17,
     "rendered_as_generic": 74
@@ -30,7 +30,7 @@
     {
       "name": "B20-07_alpine_forest_to_crags",
       "asset": "data/sprites/automated-intake/png/b20-07-alpine-forest-to-crags-05de75dadf78.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "B19-21_cattle",
@@ -70,7 +70,7 @@
     {
       "name": "B20-08_wooded_hills_to_farms",
       "asset": "data/sprites/automated-intake/png/b20-08-wooded-hills-to-farms-20a69638ee78.png",
-      "times": 2
+      "times": 5
     },
     {
       "name": "B18-26_date_palms",
@@ -85,7 +85,7 @@
     {
       "name": "B21-14_rocky_scrub_foothills",
       "asset": "data/sprites/automated-intake/png/b21-14-rocky-scrub-foothills-23550772dcd8.png",
-      "times": 5
+      "times": 6
     },
     {
       "name": "Wheat harvest and cart",
@@ -105,12 +105,12 @@
     {
       "name": "B20-05_rocky_foothill_scrub",
       "asset": "data/sprites/automated-intake/png/b20-05-rocky-foothill-scrub-2c9ebdf7f4fa.png",
-      "times": 5
+      "times": 6
     },
     {
       "name": "B20-03_terraced_farmland_hills",
       "asset": "data/sprites/automated-intake/png/b20-03-terraced-farmland-hills-2cc9ae56ea3a.png",
-      "times": 2
+      "times": 4
     },
     {
       "name": "B18-23_flowering_tree",
@@ -160,7 +160,7 @@
     {
       "name": "B20-09_desert_to_rocky_mountains",
       "asset": "data/sprites/automated-intake/png/b20-09-desert-to-rocky-mountains-5089d96695cc.png",
-      "times": 66
+      "times": 79
     },
     {
       "name": "B19-28_cypress_stand",
@@ -170,12 +170,12 @@
     {
       "name": "B21-15_foothill_to_mountain",
       "asset": "data/sprites/automated-intake/png/b21-15-foothill-to-mountain-551250fcc90e.png",
-      "times": 5
+      "times": 6
     },
     {
       "name": "B21-17_arid_rocky_ridges",
       "asset": "data/sprites/automated-intake/png/b21-17-arid-rocky-ridges-59848fc848a1.png",
-      "times": 67
+      "times": 80
     },
     {
       "name": "B19-30_flowering_shrub",
@@ -200,12 +200,12 @@
     {
       "name": "B20-06_dry_steppe_to_foothills",
       "asset": "data/sprites/automated-intake/png/b20-06-dry-steppe-to-foothills-6700ffc32b70.png",
-      "times": 67
+      "times": 81
     },
     {
       "name": "B21-12_hillside_farm",
       "asset": "data/sprites/automated-intake/png/b21-12-hillside-farm-673c23a3d3d4.png",
-      "times": 3
+      "times": 4
     },
     {
       "name": "B19-08_domed_chapel",
@@ -260,7 +260,7 @@
     {
       "name": "B21-16_alpine_crags",
       "asset": "data/sprites/automated-intake/png/b21-16-alpine-crags-85c6f4aa303e.png",
-      "times": 6
+      "times": 7
     },
     {
       "name": "B19-25_low_shrub",
@@ -310,7 +310,7 @@
     {
       "name": "B21-10_fields_with_chapel",
       "asset": "data/sprites/automated-intake/png/b21-10-fields-with-chapel-b838de0df29d.png",
-      "times": 2
+      "times": 5
     },
     {
       "name": "B18-13_windmill",
@@ -385,10 +385,65 @@
     {
       "name": "B21-11_orchard_field_connector",
       "asset": "data/sprites/automated-intake/png/b21-11-orchard-field-connector-eb442da6284f.png",
-      "times": 3
+      "times": 5
     }
   ],
   "held_sources": [
+    {
+      "name": "t26_06_orontes_river_valley",
+      "asset": "data/sprites/automated-intake/png/t26-06-orontes-river-valley-004b5ae79a2b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_08_limestone_uplands",
+      "asset": "data/sprites/automated-intake/png/t27-08-limestone-uplands-00c347295e20.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_01_coastal_sandy_shore",
+      "asset": "data/sprites/automated-intake/png/t27-01-coastal-sandy-shore-00f3fa955902.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t31_03_dry_to_green_steppe",
+      "asset": "data/sprites/automated-intake/png/t31-03-dry-to-green-steppe-00fd1c929b48.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "01_nile_delta_lowlands",
+      "asset": "data/sprites/automated-intake/png/01-nile-delta-lowlands-01cb3de516e7.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_12_rocky_foothill",
+      "asset": "data/sprites/automated-intake/png/t27-12-rocky-foothill-02440f41c0e4.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t26_03_taurus_ridge_variant",
+      "asset": "data/sprites/automated-intake/png/t26-03-taurus-ridge-variant-028f36b450e8.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_01_04_river_floodplain",
+      "asset": "data/sprites/automated-intake/png/b32-01-04-river-floodplain-0306e55faca8.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "104_kalamos_CONCEPT",
+      "asset": "data/sprites/automated-intake/png/104-kalamos-concept-033d59ee3602.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_13_dry_dune_oasis",
+      "asset": "data/sprites/automated-intake/png/t27-13-dry-dune-oasis-03f59129048e.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "farming_04_nile_floodplain",
+      "asset": "data/sprites/automated-intake/png/farming-04-nile-floodplain-057828f18d3b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
     {
       "name": "B18-16_rocky_coastal_headland",
       "asset": "data/sprites/automated-intake/png/b18-16-rocky-coastal-headland-058ad572fcaf.png",
@@ -420,13 +475,68 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "b32_01_07_olive_scrub",
+      "asset": "data/sprites/automated-intake/png/b32-01-07-olive-scrub-0a156fb54ec4.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "91_schiza_CONCEPT",
       "asset": "data/sprites/automated-intake/png/91-schiza-concept-0a2fcaf14b22.png",
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "t27_16_shallow_reed_marsh",
+      "asset": "data/sprites/automated-intake/png/t27-16-shallow-reed-marsh-0a5d76f9f992.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "25_04_olive_wheat_patchwork",
+      "asset": "data/sprites/automated-intake/png/25-04-olive-wheat-patchwork-0ad1e4fb90c7.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_02_04_arid_to_green",
+      "asset": "data/sprites/automated-intake/png/b32-02-04-arid-to-green-0b1f8d17f030.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_05_rocky_olive_grove",
+      "asset": "data/sprites/automated-intake/png/t27-05-rocky-olive-grove-0bf6acd61032.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Lampron Namrun",
       "asset": "data/sprites/automated-intake/png/lampron-namrun-0c2dad428341.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_03_05_taurus_wooded_ridge",
+      "asset": "data/sprites/automated-intake/png/b32-03-05-taurus-wooded-ridge-0ca7b4997673.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t26_02_lebanon_mountain",
+      "asset": "data/sprites/automated-intake/png/t26-02-lebanon-mountain-0cc98a7df28b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_02",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-02-0d69432e8952.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "acre-concept",
+      "asset": "data/sprites/automated-intake/png/acre-concept-0db1dc3c9dcf.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "03_aegean_greek_lowland",
+      "asset": "data/sprites/automated-intake/png/03-aegean-greek-lowland-0ea4c93c3a99.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b34_08_mediterranean_island_interior",
+      "asset": "data/sprites/automated-intake/png/b34-08-mediterranean-island-interior-0fe4f25c3a6e.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -445,6 +555,21 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "t28_03_limestone_coastal_cliff",
+      "asset": "data/sprites/automated-intake/png/t28-03-limestone-coastal-cliff-111c2dd77825.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "famagusta-concept",
+      "asset": "data/sprites/automated-intake/png/famagusta-concept-117cbef6d89f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "batch11_original_sheet",
+      "asset": "data/sprites/automated-intake/png/batch11-original-sheet-118021ffb6db.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "77_ereikoussa_CONCEPT",
       "asset": "data/sprites/automated-intake/png/77-ereikoussa-concept-121fcdbe63d7.png",
       "reason": "held_unmatched_or_unclassified"
@@ -455,9 +580,29 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "b32_02_07_coastal_heath",
+      "asset": "data/sprites/automated-intake/png/b32-02-07-coastal-heath-132bd6deb941.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "103_skantzoura_CONCEPT",
       "asset": "data/sprites/automated-intake/png/103-skantzoura-concept-133f1b87a823.png",
       "reason": "held_unmatched_or_unclassified"
+    },
+    {
+      "name": "b32_sheet_01",
+      "asset": "data/sprites/automated-intake/png/b32-sheet-01-1398bfc72f7b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t28_12_citrus_orchard_margin",
+      "asset": "data/sprites/automated-intake/png/t28-12-citrus-orchard-margin-14709b3e7fab.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "25_02_levant_cereal_plot_mosaic",
+      "asset": "data/sprites/automated-intake/png/25-02-levant-cereal-plot-mosaic-14813c7520a2.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "B19-09_island_watchtower",
@@ -485,9 +630,34 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "generic_scene_05",
+      "asset": "data/sprites/automated-intake/png/generic-scene-05-18c061addcbc.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Korykos mainland fortress",
       "asset": "data/sprites/automated-intake/png/korykos-mainland-fortress-18ea360bf9de.png",
       "reason": "held_unmatched_or_unclassified"
+    },
+    {
+      "name": "02_levantine_coastal_fields",
+      "asset": "data/sprites/automated-intake/png/02-levantine-coastal-fields-1942d73828a8.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_14_arid_plateau",
+      "asset": "data/sprites/automated-intake/png/t27-14-arid-plateau-1ae241c9a112.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t26_01_taurus_amanus_mountain",
+      "asset": "data/sprites/automated-intake/png/t26-01-taurus-amanus-mountain-1b625f7e44d9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_06_orchard_and_vineyard",
+      "asset": "data/sprites/automated-intake/png/t27-06-orchard-and-vineyard-1bb062333c85.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "B18-14_rocky_littoral",
@@ -505,8 +675,33 @@
       "reason": "held_generic_architecture_fallback"
     },
     {
+      "name": "large_02_mediterranean_terraced_orchards",
+      "asset": "data/sprites/automated-intake/png/large-02-mediterranean-terraced-orchards-1e433bd2ee4e.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t29_03_mediterranean_orchard_map_terrain",
+      "asset": "data/sprites/automated-intake/png/t29-03-mediterranean-orchard-map-terrain-1f4711f00590.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Qal’at Ja’bar",
       "asset": "data/sprites/automated-intake/png/qal-at-ja-bar-1fb518a52cdb.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t35_04_sinai_negev_sandstone_mountains",
+      "asset": "data/sprites/automated-intake/png/t35-04-sinai-negev-sandstone-mountains-200aa3d4af2e.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "montfort_review",
+      "asset": "data/sprites/automated-intake/png/montfort-review-2019b73d7b5a.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t28_05_wooded_reed_riverbank",
+      "asset": "data/sprites/automated-intake/png/t28-05-wooded-reed-riverbank-2084d41b941e.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -525,6 +720,16 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "b32_02_05_woodland_copse",
+      "asset": "data/sprites/automated-intake/png/b32-02-05-woodland-copse-213731a4647f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "farming_02_meadow_lowland",
+      "asset": "data/sprites/automated-intake/png/farming-02-meadow-lowland-2185ecf124f9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Harran citadel",
       "asset": "data/sprites/automated-intake/png/harran-citadel-2190d5ed770c.png",
       "reason": "held_geo_water_or_named_art"
@@ -535,9 +740,24 @@
       "reason": "named_fortification_needs_coordinates_and_phase"
     },
     {
+      "name": "t29_01_watercolor_medieval_agricultural_landscape_map",
+      "asset": "data/sprites/automated-intake/png/t29-01-watercolor-medieval-agricultural-landscape-map-246c6cc7347d.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Twin-tower Latin church",
       "asset": "data/sprites/automated-intake/png/twin-tower-latin-church-24a89c6ceecf.png",
       "reason": "held_generic_architecture_fallback"
+    },
+    {
+      "name": "t28_04_coastal_rock_arch",
+      "asset": "data/sprites/automated-intake/png/t28-04-coastal-rock-arch-24e879386274.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t29_06_medieval_rocky_steppe_terrain_map",
+      "asset": "data/sprites/automated-intake/png/t29-06-medieval-rocky-steppe-terrain-map-257ff6898c88.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "B21-06_river_reedbanks",
@@ -550,8 +770,33 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "b32_sheet_03",
+      "asset": "data/sprites/automated-intake/png/b32-sheet-03-26655e858ce9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "ascalon_1180_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/ascalon-1180-south-view-review-v1-26ade0a7ee41.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "10_nile_delta_floodplain_05",
+      "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-05-27ed4a40353f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b34_01_eastern_syria_steppe",
+      "asset": "data/sprites/automated-intake/png/b34-01-eastern-syria-steppe-286f513c5911.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "a_detailed_painted_watercolor_ink_illustration_she",
       "asset": "data/sprites/automated-intake/png/a-detailed-painted-watercolor-ink-illustration-she-29dfca8c39d1.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "batroun_1180_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/batroun-1180-south-view-review-v1-2aeb331911b4.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -570,6 +815,21 @@
       "reason": "named_fortification_needs_coordinates_and_phase"
     },
     {
+      "name": "t31_02_forest_to_meadow",
+      "asset": "data/sprites/automated-intake/png/t31-02-forest-to-meadow-2cf90ea5e023.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "tripoli-concept",
+      "asset": "data/sprites/automated-intake/png/tripoli-concept-2d56adb2b35e.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_03",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-03-2d7de44d0239.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "original_sheet",
       "asset": "data/sprites/automated-intake/png/original-sheet-2db8f0b09341.png",
       "reason": "held_geo_water_or_named_art"
@@ -578,6 +838,11 @@
       "name": "Fishing hamlet and net racks",
       "asset": "data/sprites/automated-intake/png/fishing-hamlet-and-net-racks-2e1317eda9b3.png",
       "reason": "held_generic_architecture_fallback"
+    },
+    {
+      "name": "t30_01_dry_to_green_foothills",
+      "asset": "data/sprites/automated-intake/png/t30-01-dry-to-green-foothills-2e35d7ee173b.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "B20-01_coast_to_farmland",
@@ -590,6 +855,11 @@
       "reason": "named_fortification_needs_coordinates_and_phase"
     },
     {
+      "name": "b32_01_06_rocky_coast",
+      "asset": "data/sprites/automated-intake/png/b32-01-06-rocky-coast-3164656cdba8.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B21-02_rocky_shore_to_sand",
       "asset": "data/sprites/automated-intake/png/b21-02-rocky-shore-to-sand-31e838da17cc.png",
       "reason": "held_geo_water_or_named_art"
@@ -600,8 +870,23 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "coastal-port-concept-c",
+      "asset": "data/sprites/automated-intake/png/coastal-port-concept-c-3229a557d9f5.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_02_02_limestone_rough",
+      "asset": "data/sprites/automated-intake/png/b32-02-02-limestone-rough-332d519bf32a.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B16-06_offshore_castle_generic",
       "asset": "data/sprites/automated-intake/png/b16-06-offshore-castle-generic-3376553f7d9a.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "80_agathonisi_CONCEPT",
+      "asset": "data/sprites/automated-intake/png/80-agathonisi-concept-35c3556df4f9.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -615,8 +900,18 @@
       "reason": "held_generic_architecture_fallback"
     },
     {
+      "name": "alexandria-1180-north-mediterranean-review-v1",
+      "asset": "data/sprites/automated-intake/png/alexandria-1180-north-mediterranean-review-v1-3a98cd5f4a9b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Gökvelioğlu Castle",
       "asset": "data/sprites/automated-intake/png/g-kvelio-lu-castle-3d4b1fcd0860.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "107_arkoudi_CONCEPT",
+      "asset": "data/sprites/automated-intake/png/107-arkoudi-concept-3ddfa9490ef8.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -635,14 +930,79 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_10",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-10-407989189932.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t35_01_long_coastal_dune_scrub",
+      "asset": "data/sprites/automated-intake/png/t35-01-long-coastal-dune-scrub-413c976065ef.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "82_telendos_CONCEPT",
+      "asset": "data/sprites/automated-intake/png/82-telendos-concept-41b31cd84a2d.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "generic_scene_02",
+      "asset": "data/sprites/automated-intake/png/generic-scene-02-41b91c3e540f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t33_04_transjordan_limestone_escarpment",
+      "asset": "data/sprites/automated-intake/png/t33-04-transjordan-limestone-escarpment-41ecb074d632.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t26_05_transjordan_rocky_steppe",
+      "asset": "data/sprites/automated-intake/png/t26-05-transjordan-rocky-steppe-4267b583da8f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "large_04_broad_lowland_grain",
+      "asset": "data/sprites/automated-intake/png/large-04-broad-lowland-grain-43273ed0aaec.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Gold-domed octagonal shrine",
       "asset": "data/sprites/automated-intake/png/gold-domed-octagonal-shrine-443050a4ab9b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_01_01_delta_reed_marsh",
+      "asset": "data/sprites/automated-intake/png/b32-01-01-delta-reed-marsh-4557b0b8173a.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "famagusta-concept-repaint-required",
+      "asset": "data/sprites/automated-intake/png/famagusta-concept-repaint-required-458807eb878e.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t26_07_nile_delta_cultivation",
+      "asset": "data/sprites/automated-intake/png/t26-07-nile-delta-cultivation-46cec1a772f3.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "kyrenia-concept",
+      "asset": "data/sprites/automated-intake/png/kyrenia-concept-480f2fbf41a9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_03_02_delta_marsh",
+      "asset": "data/sprites/automated-intake/png/b32-03-02-delta-marsh-488163b2716d.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "88_makronisos_CONCEPT",
       "asset": "data/sprites/automated-intake/png/88-makronisos-concept-48de6d91dca5.png",
       "reason": "held_unmatched_or_unclassified"
+    },
+    {
+      "name": "byblos_1180_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/byblos-1180-south-view-review-v1-4b0061f7697e.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "93_despotiko_CONCEPT",
@@ -660,6 +1020,26 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "gaza_1180_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/gaza-1180-south-view-review-v1-4ec4a7d15da3.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "chateau_pelerin_atlit_review",
+      "asset": "data/sprites/automated-intake/png/chateau-pelerin-atlit-review-4f44c29e6682.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t35_03_limestone_ridge_to_steppe",
+      "asset": "data/sprites/automated-intake/png/t35-03-limestone-ridge-to-steppe-503f4a5bba57.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t35_05_long_anatolian_forest_mountain_belt",
+      "asset": "data/sprites/automated-intake/png/t35-05-long-anatolian-forest-mountain-belt-5153834b7b35.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "source_sheet_original_rgb",
       "asset": "data/sprites/automated-intake/png/source-sheet-original-rgb-51f6b6d5afb5.png",
       "reason": "held_geo_water_or_named_art"
@@ -670,8 +1050,43 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "constantinople-1180-south-pov-repaint-review-v1",
+      "asset": "data/sprites/automated-intake/png/constantinople-1180-south-pov-repaint-review-v1-53aefc0dea1e.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "farming_01_dry_levant_grain",
+      "asset": "data/sprites/automated-intake/png/farming-01-dry-levant-grain-53b1e0cd255c.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_01_02_volcanic_cinder_upland",
+      "asset": "data/sprites/automated-intake/png/b32-01-02-volcanic-cinder-upland-53dc88200529.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Birecik castle",
       "asset": "data/sprites/automated-intake/png/birecik-castle-553c9c96a91b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b34_06_mediterranean_coastal_margin",
+      "asset": "data/sprites/automated-intake/png/b34-06-mediterranean-coastal-margin-563dcf02bc08.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "a_detailed_watercolor_ink_illustrated_sprite_sheet",
+      "asset": "data/sprites/automated-intake/png/a-detailed-watercolor-ink-illustrated-sprite-sheet-5736a8535cd8.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "generic_scene_03",
+      "asset": "data/sprites/automated-intake/png/generic-scene-03-57818625ebec.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "Rural smithy and forge",
+      "asset": "data/sprites/automated-intake/png/rural-smithy-and-forge-581cb7f1dd5c.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -680,14 +1095,49 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "b32_02_10_dry_scrub_plain",
+      "asset": "data/sprites/automated-intake/png/b32-02-10-dry-scrub-plain-58fea74afe34.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "tortosa-1180-coastal-REVIEW",
+      "asset": "data/sprites/automated-intake/png/tortosa-1180-coastal-review-590dfd5c7035.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t31_04_limestone_scrub_plain",
+      "asset": "data/sprites/automated-intake/png/t31-04-limestone-scrub-plain-593e7f4d0d64.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "original_generation_sheet",
       "asset": "data/sprites/automated-intake/png/original-generation-sheet-59649c6e9f38.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t28_09_broadleaf_woodland_transition",
+      "asset": "data/sprites/automated-intake/png/t28-09-broadleaf-woodland-transition-5aa3d8427e84.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "jaffa-concept",
+      "asset": "data/sprites/automated-intake/png/jaffa-concept-5aee9f42ca3f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "source_sheet_rgb",
+      "asset": "data/sprites/automated-intake/png/source-sheet-rgb-5b2a13258403.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "Feke (Vahga)",
       "asset": "data/sprites/automated-intake/png/feke-vahga-5df9cdf9a419.png",
       "reason": "named_fortification_needs_coordinates_and_phase"
+    },
+    {
+      "name": "b32_01_09_coastal_dunes",
+      "asset": "data/sprites/automated-intake/png/b32-01-09-coastal-dunes-5e0b2ba938f9.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "B20-04_broad_reed_marsh",
@@ -705,13 +1155,38 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "t28_06_shallow_reed_channel",
+      "asset": "data/sprites/automated-intake/png/t28-06-shallow-reed-channel-5f8d6aa52c94.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "101_gioura_CONCEPT",
       "asset": "data/sprites/automated-intake/png/101-gioura-concept-5fd81cf6ac1e.png",
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_15",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-15-61e92571c016.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b34_07_egyptian_desert_escarpment",
+      "asset": "data/sprites/automated-intake/png/b34-07-egyptian-desert-escarpment-6299e11b3134.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B21-04_cliff_coast_to_pines",
       "asset": "data/sprites/automated-intake/png/b21-04-cliff-coast-to-pines-632c106a0264.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "antioch-1180-south-pov-REVIEW",
+      "asset": "data/sprites/automated-intake/png/antioch-1180-south-pov-review-6487f80af89f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "coastal-harbor-concept-a",
+      "asset": "data/sprites/automated-intake/png/coastal-harbor-concept-a-6531a9294812.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -725,9 +1200,34 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "large_03_mixed_olive_vineyard_fields",
+      "asset": "data/sprites/automated-intake/png/large-03-mixed-olive-vineyard-fields-65f768aeb9e7.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_16",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-16-66c04c7fb6df.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B16-02_ridge_citadel_generic",
       "asset": "data/sprites/automated-intake/png/b16-02-ridge-citadel-generic-675ce22f6f4a.png",
       "reason": "held_generic_architecture_fallback"
+    },
+    {
+      "name": "t29_04_medieval_greenwood_island_map",
+      "asset": "data/sprites/automated-intake/png/t29-04-medieval-greenwood-island-map-6764aad7ad05.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t33_01_taurus_foothill_transition",
+      "asset": "data/sprites/automated-intake/png/t33-01-taurus-foothill-transition-6769e1768d92.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_18_flowering_heathland",
+      "asset": "data/sprites/automated-intake/png/t27-18-flowering-heathland-6aab128c0dc4.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "Chastellet / Jacob’s Ford",
@@ -737,6 +1237,11 @@
     {
       "name": "Domed bath complex",
       "asset": "data/sprites/automated-intake/png/domed-bath-complex-6bd02e6bbe7f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "upland-town-concept-d",
+      "asset": "data/sprites/automated-intake/png/upland-town-concept-d-6d787dea2a59.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -750,9 +1255,34 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "tyre_1180_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/tyre-1180-south-view-review-v1-6f557f3d59ef.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_01_11_marsh_ribbons",
+      "asset": "data/sprites/automated-intake/png/b32-01-11-marsh-ribbons-7046a45c34bf.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "105_kastos_CONCEPT",
+      "asset": "data/sprites/automated-intake/png/105-kastos-concept-707632324fc6.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B18-03_medieval_harbor_generic",
       "asset": "data/sprites/automated-intake/png/b18-03-medieval-harbor-generic-70ca8bfc82b3.png",
       "reason": "held_generic_architecture_fallback"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_06",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-06-7260262e383f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b34_04_anti_lebanon_steppe_transition",
+      "asset": "data/sprites/automated-intake/png/b34-04-anti-lebanon-steppe-transition-7287ea3ebcde.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "b05_concept_01_UNASSIGNED_DRAFT",
@@ -765,14 +1295,34 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "b32_03_08_arid_escarpment",
+      "asset": "data/sprites/automated-intake/png/b32-03-08-arid-escarpment-7601162ee95b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Qal’at Najm",
       "asset": "data/sprites/automated-intake/png/qal-at-najm-77b41bca5e79.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t30_02_river_to_arid_plain",
+      "asset": "data/sprites/automated-intake/png/t30-02-river-to-arid-plain-7934ae46f9c4.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "95_antimilos_CONCEPT",
       "asset": "data/sprites/automated-intake/png/95-antimilos-concept-7a3f40bb4125.png",
       "reason": "held_unmatched_or_unclassified"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_01",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-01-7b51c65d8d8c.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_03_09_levant_olive_terraces",
+      "asset": "data/sprites/automated-intake/png/b32-03-09-levant-olive-terraces-7bb2fd5864ac.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "90_sapientza_CONCEPT",
@@ -782,6 +1332,11 @@
     {
       "name": "Hagia Sophia-inspired domed complex",
       "asset": "data/sprites/automated-intake/png/hagia-sophia-inspired-domed-complex-7d4549d9b2c5.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t28_08_palm_riverbank_margin",
+      "asset": "data/sprites/automated-intake/png/t28-08-palm-riverbank-margin-7e4131c46989.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -795,6 +1350,11 @@
       "reason": "held_generic_architecture_fallback"
     },
     {
+      "name": "coastal-port-concept-a",
+      "asset": "data/sprites/automated-intake/png/coastal-port-concept-a-8066047a7ac1.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Gothic abbey complex",
       "asset": "data/sprites/automated-intake/png/gothic-abbey-complex-80665a0a23e1.png",
       "reason": "held_generic_architecture_fallback"
@@ -802,6 +1362,11 @@
     {
       "name": "B18-15_sandy_cove",
       "asset": "data/sprites/automated-intake/png/b18-15-sandy-cove-80bcb2f92b79.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "tartus_1180_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/tartus-1180-south-view-review-v1-811e0599d5e4.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -815,8 +1380,18 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "10_nile_delta_floodplain_07",
+      "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-07-81fd7d44aa61.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "source_sheet_original_rgb",
       "asset": "data/sprites/automated-intake/png/source-sheet-original-rgb-82fb3e4d8449.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b34_03_taurus_anatolian_forest_belt",
+      "asset": "data/sprites/automated-intake/png/b34-03-taurus-anatolian-forest-belt-844d4eb67f12.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -825,14 +1400,49 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "t27_07_flowering_heath",
+      "asset": "data/sprites/automated-intake/png/t27-07-flowering-heath-85e88b9302bf.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "84_kinaros_CONCEPT",
+      "asset": "data/sprites/automated-intake/png/84-kinaros-concept-8610e2beb05b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_19_alpine_transition",
+      "asset": "data/sprites/automated-intake/png/t27-19-alpine-transition-86693319d429.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_11",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-11-86905ea8623c.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "coastal-harbor-concept-b",
+      "asset": "data/sprites/automated-intake/png/coastal-harbor-concept-b-8837c583604b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Kızkalesi offshore castle",
       "asset": "data/sprites/automated-intake/png/k-zkalesi-offshore-castle-8906198a8b88.png",
       "reason": "named_fortification_needs_coordinates_and_phase"
     },
     {
+      "name": "10_nile_delta_floodplain_11",
+      "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-11-89d3ef9684d9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B19-03_western_church",
       "asset": "data/sprites/automated-intake/png/b19-03-western-church-8a6cd66b55ec.png",
       "reason": "held_generic_architecture_fallback"
+    },
+    {
+      "name": "corinth-inland-REVIEW",
+      "asset": "data/sprites/automated-intake/png/corinth-inland-review-8bec1b696946.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "78_mathraki_CONCEPT",
@@ -850,9 +1460,24 @@
       "reason": "held_generic_architecture_fallback"
     },
     {
+      "name": "t28_01_rocky_coast_waterline",
+      "asset": "data/sprites/automated-intake/png/t28-01-rocky-coast-waterline-8fe60ca031aa.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_08",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-08-901cd4590164.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Feke / Vahka",
       "asset": "data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png",
       "reason": "named_fortification_needs_coordinates_and_phase"
+    },
+    {
+      "name": "b32_03_07_wooded_lowland",
+      "asset": "data/sprites/automated-intake/png/b32-03-07-wooded-lowland-92d2342a4c0e.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "Byzantine cross-domed church",
@@ -862,6 +1487,11 @@
     {
       "name": "B19-15_riverside_watermill",
       "asset": "data/sprites/automated-intake/png/b19-15-riverside-watermill-94996b7287c9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "jaffa_1180_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/jaffa-1180-south-view-review-v1-94a78ef64683.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -880,8 +1510,23 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "generic_scene_04",
+      "asset": "data/sprites/automated-intake/png/generic-scene-04-96f10507a901.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B21-23_broad_delta_reeds",
       "asset": "data/sprites/automated-intake/png/b21-23-broad-delta-reeds-98c58ae9967d.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "batch07_original_sheet",
+      "asset": "data/sprites/automated-intake/png/batch07-original-sheet-9a020ec6bbe5.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "generic_scene_06",
+      "asset": "data/sprites/automated-intake/png/generic-scene-06-9b9c46c57831.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -905,9 +1550,59 @@
       "reason": "held_generic_architecture_fallback"
     },
     {
+      "name": "upland-castle-concept-b",
+      "asset": "data/sprites/automated-intake/png/upland-castle-concept-b-a01568c9ad45.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b34_02_sinai_negev_mountains",
+      "asset": "data/sprites/automated-intake/png/b34-02-sinai-negev-mountains-a03fb76a369e.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "sidon_1180_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/sidon-1180-south-view-review-v1-a09f837885a6.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "83_meganisi_CONCEPT",
+      "asset": "data/sprites/automated-intake/png/83-meganisi-concept-a0c0a9377ec6.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "10_nile_delta_floodplain_04",
+      "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-04-a0d00013b96b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_MASTER",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-master-a12b43bea6b4.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Masyaf",
       "asset": "data/sprites/automated-intake/png/masyaf-a20a8f7f9045.png",
       "reason": "named_fortification_needs_coordinates_and_phase"
+    },
+    {
+      "name": "t27_20_dry_steppe_plain",
+      "asset": "data/sprites/automated-intake/png/t27-20-dry-steppe-plain-a20ddd8020ab.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t28_07_broad_marsh_channel",
+      "asset": "data/sprites/automated-intake/png/t28-07-broad-marsh-channel-a26163dacedf.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "10_nile_delta_floodplain_06",
+      "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-06-a286fd1cfd47.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "inland-hilltown-concept",
+      "asset": "data/sprites/automated-intake/png/inland-hilltown-concept-a32b3f94a59e.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "Chlemoutsi / Clermont",
@@ -925,6 +1620,36 @@
       "reason": "held_generic_architecture_fallback"
     },
     {
+      "name": "b32_03_03_levant_rocky_coast",
+      "asset": "data/sprites/automated-intake/png/b32-03-03-levant-rocky-coast-a97a6d3d20da.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "sidon-concept",
+      "asset": "data/sprites/automated-intake/png/sidon-concept-aa754f1023c1.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_10_palm_sand_oasis",
+      "asset": "data/sprites/automated-intake/png/t27-10-palm-sand-oasis-aab31257d10a.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "farming_06_broad_grain_patchwork",
+      "asset": "data/sprites/automated-intake/png/farming-06-broad-grain-patchwork-ab31c931fc60.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t28_11_olive_slope_transition",
+      "asset": "data/sprites/automated-intake/png/t28-11-olive-slope-transition-ac092292595d.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_04",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-04-ac7b2c07f490.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "89_dokos_CONCEPT",
       "asset": "data/sprites/automated-intake/png/89-dokos-concept-ad2102d19765.png",
       "reason": "held_unmatched_or_unclassified"
@@ -940,9 +1665,24 @@
       "reason": "held_generic_architecture_fallback"
     },
     {
+      "name": "b32_01_05_rocky_low_hills",
+      "asset": "data/sprites/automated-intake/png/b32-01-05-rocky-low-hills-ae9734b84e3d.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "10_nile_delta_floodplain_08",
+      "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-08-aeaef2efe878.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Kızkalesi",
       "asset": "data/sprites/automated-intake/png/k-zkalesi-afb58e1ddd84.png",
       "reason": "named_fortification_needs_coordinates_and_phase"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_05",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-05-b103a1a12fd8.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "Shaizar",
@@ -955,8 +1695,43 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "generic_scene_01",
+      "asset": "data/sprites/automated-intake/png/generic-scene-01-b30f86ce1ac9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "05_cyprus_mediterranean_orchards",
+      "asset": "data/sprites/automated-intake/png/05-cyprus-mediterranean-orchards-b466bdd3f8c4.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_07",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-07-b470121cb7e7.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_04_dense_temperate_woodland",
+      "asset": "data/sprites/automated-intake/png/t27-04-dense-temperate-woodland-b62526aeb8a8.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B18-02_offshore_rock_citadel_generic",
       "asset": "data/sprites/automated-intake/png/b18-02-offshore-rock-citadel-generic-b84b8c8e16dc.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "10_nile_delta_floodplain_03",
+      "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-03-b872b157704e.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t33_03_river_margin_dry_farmland",
+      "asset": "data/sprites/automated-intake/png/t33-03-river-margin-dry-farmland-b8aa92b21dce.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "10_nile_delta_floodplain_02",
+      "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-02-b92830804030.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -980,9 +1755,44 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "b32_01_10_wooded_hills",
+      "asset": "data/sprites/automated-intake/png/b32-01-10-wooded-hills-bc21dc01f7c9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "106_atokos_CONCEPT",
+      "asset": "data/sprites/automated-intake/png/106-atokos-concept-bc2b8fa78fb1.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_22_river_delta_wetland",
+      "asset": "data/sprites/automated-intake/png/t27-22-river-delta-wetland-bd042f1f9c7f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B16-04_hilltop_monastery_generic",
       "asset": "data/sprites/automated-intake/png/b16-04-hilltop-monastery-generic-bedc59165cf4.png",
       "reason": "held_generic_architecture_fallback"
+    },
+    {
+      "name": "kyrenia_north_harbor_provisional",
+      "asset": "data/sprites/automated-intake/png/kyrenia-north-harbor-provisional-bee04d091791.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_09",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-09-bfdb736efdb5.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_02_01_forest_lowland",
+      "asset": "data/sprites/automated-intake/png/b32-02-01-forest-lowland-c03cf9b0b793.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t28_02_sandy_coast_dune_edge",
+      "asset": "data/sprites/automated-intake/png/t28-02-sandy-coast-dune-edge-c18fe185f25c.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "Anavarza Anazarbus",
@@ -995,8 +1805,43 @@
       "reason": "named_fortification_needs_coordinates_and_phase"
     },
     {
+      "name": "cairo-medieval-nile-REVIEW",
+      "asset": "data/sprites/automated-intake/png/cairo-medieval-nile-review-c26393c82a24.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "cairo-concept-repaint-required",
+      "asset": "data/sprites/automated-intake/png/cairo-concept-repaint-required-c2ded32a0e1c.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_01_08_heath_transition",
+      "asset": "data/sprites/automated-intake/png/b32-01-08-heath-transition-c37ee44c10b2.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "medieval_crusader_fortress_sprite_collection",
       "asset": "data/sprites/automated-intake/png/medieval-crusader-fortress-sprite-collection-c39e8abdd8a9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t33_02_nile_delta_reeds_fields",
+      "asset": "data/sprites/automated-intake/png/t33-02-nile-delta-reeds-fields-c3a3c1114e90.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t35_06_greek_mainland_foothills_fields",
+      "asset": "data/sprites/automated-intake/png/t35-06-greek-mainland-foothills-fields-c3ad074018b6.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_01_03_limestone_escarpment",
+      "asset": "data/sprites/automated-intake/png/b32-01-03-limestone-escarpment-c4ebc758f9c6.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t35_02_very_wide_gravel_steppe",
+      "asset": "data/sprites/automated-intake/png/t35-02-very-wide-gravel-steppe-c5e19a2f4530.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1005,13 +1850,38 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "t27_02_reed_marsh_transition",
+      "asset": "data/sprites/automated-intake/png/t27-02-reed-marsh-transition-c7539191e6c9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "74_fournoi_cluster_DRAFT",
       "asset": "data/sprites/automated-intake/png/74-fournoi-cluster-draft-ca98b66a708c.png",
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "t29_02_hand_painted_mediterranean_terrain_map",
+      "asset": "data/sprites/automated-intake/png/t29-02-hand-painted-mediterranean-terrain-map-cc1266f1fce8.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "Tannery and dyeing yard",
+      "asset": "data/sprites/automated-intake/png/tannery-and-dyeing-yard-cc450cd249e3.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_12",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-12-cd0e74d685d4.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B21-07_wide_river_woodland",
       "asset": "data/sprites/automated-intake/png/b21-07-wide-river-woodland-ce96f156a136.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_21_littoral_dunes",
+      "asset": "data/sprites/automated-intake/png/t27-21-littoral-dunes-cea4f4f62ed1.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1020,9 +1890,19 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "b32_02_08_olive_pasture",
+      "asset": "data/sprites/automated-intake/png/b32-02-08-olive-pasture-cf80c48450c6.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Jacob’s Ford (Chastellet) ruins",
       "asset": "data/sprites/automated-intake/png/jacob-s-ford-chastellet-ruins-d05cf2a06c1a.png",
       "reason": "held_unmatched_or_unclassified"
+    },
+    {
+      "name": "10_nile_delta_floodplain_01",
+      "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-01-d09277c09f97.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "86_polyaigos_CONCEPT",
@@ -1030,14 +1910,64 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "10_nile_delta_floodplain_MASTER",
+      "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-master-d1e6fc4a2441.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "margat_review",
+      "asset": "data/sprites/automated-intake/png/margat-review-d1fe5f1d484b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_03_10_saline_coastal_flat",
+      "asset": "data/sprites/automated-intake/png/b32-03-10-saline-coastal-flat-d3ec28aabda5.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B19-06_hillside_monastery",
       "asset": "data/sprites/automated-intake/png/b19-06-hillside-monastery-d40ef1fd60de.png",
       "reason": "held_generic_architecture_fallback"
     },
     {
+      "name": "caesarea-concept",
+      "asset": "data/sprites/automated-intake/png/caesarea-concept-d46875ca8137.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_17_pasture_mosaic",
+      "asset": "data/sprites/automated-intake/png/t27-17-pasture-mosaic-d4c3946de4a5.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_03_06_dry_plateau",
+      "asset": "data/sprites/automated-intake/png/b32-03-06-dry-plateau-d4fb19981be3.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_11_alpine_ridge",
+      "asset": "data/sprites/automated-intake/png/t27-11-alpine-ridge-d61511fc6635.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "92_thirasia_CONCEPT",
       "asset": "data/sprites/automated-intake/png/92-thirasia-concept-d68549eea353.png",
       "reason": "held_unmatched_or_unclassified"
+    },
+    {
+      "name": "b32_02_03_mediterranean_maquis",
+      "asset": "data/sprites/automated-intake/png/b32-02-03-mediterranean-maquis-d689503af247.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "safed_review",
+      "asset": "data/sprites/automated-intake/png/safed-review-d6cb9f988892.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_14",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-14-d7f4d41f3f31.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "source_sheet_original_rgb",
@@ -1055,9 +1985,39 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "beirut_1180_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/beirut-1180-south-view-review-v1-dab31584fdbf.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_02_09_pine_mixed_wood",
+      "asset": "data/sprites/automated-intake/png/b32-02-09-pine-mixed-wood-dadd60d0240a.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "large_01_grain_field_patchwork",
+      "asset": "data/sprites/automated-intake/png/large-01-grain-field-patchwork-dbc9aa61b09c.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t28_10_rocky_cedar_woodland",
+      "asset": "data/sprites/automated-intake/png/t28-10-rocky-cedar-woodland-dc96db2fbd08.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t26_04_lebanon_foothill_waterfall",
+      "asset": "data/sprites/automated-intake/png/t26-04-lebanon-foothill-waterfall-ddbd7d30ec68.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Romanesque abbey precinct",
       "asset": "data/sprites/automated-intake/png/romanesque-abbey-precinct-dddca42c6790.png",
       "reason": "held_generic_architecture_fallback"
+    },
+    {
+      "name": "b34_05_greek_mainland_countryside",
+      "asset": "data/sprites/automated-intake/png/b34-05-greek-mainland-countryside-df0b2e8513e9.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "100_kyra_panagia_CONCEPT",
@@ -1065,9 +2025,39 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "farming_05_mediterranean_olive_orchards",
+      "asset": "data/sprites/automated-intake/png/farming-05-mediterranean-olive-orchards-e0cbd1d9fd9f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "81_pserimos_CONCEPT",
+      "asset": "data/sprites/automated-intake/png/81-pserimos-concept-e0d1df1c3bf7.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_01_12_basalt_badlands",
+      "asset": "data/sprites/automated-intake/png/b32-01-12-basalt-badlands-e152c0aaa7bd.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_03_04_sinai_dunes",
+      "asset": "data/sprites/automated-intake/png/b32-03-04-sinai-dunes-e22df2f96f67.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_15_wooded_rocky_slope",
+      "asset": "data/sprites/automated-intake/png/t27-15-wooded-rocky-slope-e261e051f6f0.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B16-03_walled_abbey_generic",
       "asset": "data/sprites/automated-intake/png/b16-03-walled-abbey-generic-e3b6a89346ac.png",
       "reason": "held_generic_architecture_fallback"
+    },
+    {
+      "name": "tyre-concept",
+      "asset": "data/sprites/automated-intake/png/tyre-concept-e5a80144539f.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "Gothic cathedral precinct",
@@ -1085,8 +2075,23 @@
       "reason": "named_fortification_needs_coordinates_and_phase"
     },
     {
+      "name": "10_nile_delta_floodplain_10",
+      "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-10-e763cf8391cb.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "109_petalas_CONCEPT",
+      "asset": "data/sprites/automated-intake/png/109-petalas-concept-e7ad71bf09a4.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B19-01_domed_walled_precinct",
       "asset": "data/sprites/automated-intake/png/b19-01-domed-walled-precinct-e7b0bd9b10ab.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "10_nile_delta_floodplain_09",
+      "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-09-e9004f5a4e36.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1095,13 +2100,53 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "farming_03_field_woodland_transition",
+      "asset": "data/sprites/automated-intake/png/farming-03-field-woodland-transition-e9a31fa91e29.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t31_01_mediterranean_maquis_scrub",
+      "asset": "data/sprites/automated-intake/png/t31-01-mediterranean-maquis-scrub-eae276d4f2ab.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Buffavento",
       "asset": "data/sprites/automated-intake/png/buffavento-eb686a366b52.png",
       "reason": "named_fortification_needs_coordinates_and_phase"
     },
     {
+      "name": "b32_sheet_02",
+      "asset": "data/sprites/automated-intake/png/b32-sheet-02-ebe83db37c98.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "b32_02_06_grassy_meadow",
+      "asset": "data/sprites/automated-intake/png/b32-02-06-grassy-meadow-ec7f25253ace.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_09_open_rocky_steppe",
+      "asset": "data/sprites/automated-intake/png/t27-09-open-rocky-steppe-ed937c26da6e.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "antioch-concept-repaint-required",
+      "asset": "data/sprites/automated-intake/png/antioch-concept-repaint-required-eda129474f95.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "batch15_original_six_sprite_sheet",
       "asset": "data/sprites/automated-intake/png/batch15-original-six-sprite-sheet-edfc16350be6.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "acre_1180_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/acre-1180-south-view-review-v1-eeb5a7a23354.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "11_greek_cyprus_anatolia_levant_lowlands_13",
+      "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-13-eeb812c6248f.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1115,8 +2160,53 @@
       "reason": "held_generic_architecture_fallback"
     },
     {
+      "name": "caesarea_1180_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/caesarea-1180-south-view-review-v1-efa2ce901127.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "25_03_olive_and_grain_transition",
+      "asset": "data/sprites/automated-intake/png/25-03-olive-and-grain-transition-effb516f872d.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t27_03_wooded_riverbank",
+      "asset": "data/sprites/automated-intake/png/t27-03-wooded-riverbank-f1145a58e082.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "source_sheet_original_rgb",
       "asset": "data/sprites/automated-intake/png/source-sheet-original-rgb-f1f3092613cf.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "t26_08_sinai_negev_arid_ridges",
+      "asset": "data/sprites/automated-intake/png/t26-08-sinai-negev-arid-ridges-f201af77c113.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "source_sheet_batch28",
+      "asset": "data/sprites/automated-intake/png/source-sheet-batch28-f20c0ad5c65c.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "108_oxia_CONCEPT",
+      "asset": "data/sprites/automated-intake/png/108-oxia-concept-f281584a8173.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "chalcedon-1180-south-view-correction-review-v1",
+      "asset": "data/sprites/automated-intake/png/chalcedon-1180-south-view-correction-review-v1-f2a231324385.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "85_levitha_CONCEPT",
+      "asset": "data/sprites/automated-intake/png/85-levitha-concept-f3b23f4f067f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "25_01_mediterranean_terraced_cultivation",
+      "asset": "data/sprites/automated-intake/png/25-01-mediterranean-terraced-cultivation-f5bf23740202.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1130,6 +2220,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "b32_03_01_nile_cultivated_floodplain",
+      "asset": "data/sprites/automated-intake/png/b32-03-01-nile-cultivated-floodplain-f6f3e51288cc.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Domed cathedral compound",
       "asset": "data/sprites/automated-intake/png/domed-cathedral-compound-f7e2aa4d87b2.png",
       "reason": "held_generic_architecture_fallback"
@@ -1140,9 +2235,24 @@
       "reason": "held_generic_architecture_fallback"
     },
     {
+      "name": "tripoli_1180_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/tripoli-1180-south-view-review-v1-f908765ef876.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "04_anatolian_river_plain",
+      "asset": "data/sprites/automated-intake/png/04-anatolian-river-plain-fa5e9e8ccf18.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "73_oinousses_cluster_DRAFT",
       "asset": "data/sprites/automated-intake/png/73-oinousses-cluster-draft-fd807ab99f04.png",
       "reason": "held_unmatched_or_unclassified"
+    },
+    {
+      "name": "t29_05_watercolor_medieval_marshland_map_cutout",
+      "asset": "data/sprites/automated-intake/png/t29-05-watercolor-medieval-marshland-map-cutout-fdfe2724c96c.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "98_agios_efstratios_CONCEPT",

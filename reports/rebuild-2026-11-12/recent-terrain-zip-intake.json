@@ -1,116 +1,192 @@
 {
   "archives": [
-    "crusader_terrain_batch26_regional_2026-11-12.zip",
-    "crusader_farming_batch25_preferred_style_2026-11-12.zip",
-    "crusader_large_farming_batch23_2026-11-12.zip",
-    "crusader_farming_lowlands_batch22_2026-11-12.zip"
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip",
+    "crusader_farming_batch25_preferred_style_2026-11-12 (1).zip",
+    "crusader_lowlands_complete_2026_11_13_split_02_of_03.zip",
+    "crusader_lowlands_complete_2026_11_13_split_03_of_03.zip",
+    "crusader_lowlands_complete_2026_11_13_split_01_of_03.zip"
   ],
   "outcomes": {
-    "imported": 19,
-    "not_safe_to_scatter": 3
+    "not_safe_to_scatter": 217,
+    "imported": 4
   },
   "imported": [
     {
-      "file": "recent-c7db94805cd0b73956.png",
-      "class": "patchd",
-      "source": "crusader_terrain_batch26_regional_2026-11-12.zip:crusader_terrain_batch26_regional/t26_01_taurus_amanus_mountain.png"
-    },
-    {
-      "file": "recent-12953a3f3e0e510ee1.png",
-      "class": "patchd",
-      "source": "crusader_terrain_batch26_regional_2026-11-12.zip:crusader_terrain_batch26_regional/t26_02_lebanon_mountain.png"
-    },
-    {
-      "file": "recent-5d2100b4c23a3241e0.png",
-      "class": "patchd",
-      "source": "crusader_terrain_batch26_regional_2026-11-12.zip:crusader_terrain_batch26_regional/t26_03_taurus_ridge_variant.png"
-    },
-    {
-      "file": "recent-b01d910d5dac07fb18.png",
-      "class": "patcha",
-      "source": "crusader_terrain_batch26_regional_2026-11-12.zip:crusader_terrain_batch26_regional/t26_05_transjordan_rocky_steppe.png"
-    },
-    {
-      "file": "recent-afac1e2697de33c944.png",
-      "class": "patchg",
-      "source": "crusader_terrain_batch26_regional_2026-11-12.zip:crusader_terrain_batch26_regional/t26_07_nile_delta_cultivation.png"
-    },
-    {
-      "file": "recent-40fbf6cc5f4f809a36.png",
-      "class": "patcha",
-      "source": "crusader_terrain_batch26_regional_2026-11-12.zip:crusader_terrain_batch26_regional/t26_08_sinai_negev_arid_ridges.png"
-    },
-    {
       "file": "recent-3b8a8d11c3180f2cab.png",
       "class": "patchg",
-      "source": "crusader_farming_batch25_preferred_style_2026-11-12.zip:25_01_mediterranean_terraced_cultivation.png"
+      "source": "crusader_farming_batch25_preferred_style_2026-11-12 (1).zip:25_01_mediterranean_terraced_cultivation.png"
     },
     {
       "file": "recent-3ae91c34f5ccf0dc68.png",
       "class": "patchg",
-      "source": "crusader_farming_batch25_preferred_style_2026-11-12.zip:25_04_olive_wheat_patchwork.png"
+      "source": "crusader_farming_batch25_preferred_style_2026-11-12 (1).zip:25_04_olive_wheat_patchwork.png"
     },
     {
       "file": "recent-bb5f69996f1ccbce88.png",
       "class": "patchg",
-      "source": "crusader_farming_batch25_preferred_style_2026-11-12.zip:25_03_olive_and_grain_transition.png"
+      "source": "crusader_farming_batch25_preferred_style_2026-11-12 (1).zip:25_03_olive_and_grain_transition.png"
     },
     {
-      "file": "recent-22c568bf9817ee9bf6.png",
+      "file": "recent-53c07dcfa8e6f9c569.png",
       "class": "patchg",
-      "source": "crusader_large_farming_batch23_2026-11-12.zip:crusader_large_farming_batch23/large_04_broad_lowland_grain.png"
-    },
-    {
-      "file": "recent-0d3692c6d9f37f395d.png",
-      "class": "patchg",
-      "source": "crusader_large_farming_batch23_2026-11-12.zip:crusader_large_farming_batch23/large_03_mixed_olive_vineyard_fields.png"
-    },
-    {
-      "file": "recent-42912aeecd72a96c56.png",
-      "class": "patchg",
-      "source": "crusader_large_farming_batch23_2026-11-12.zip:crusader_large_farming_batch23/large_02_mediterranean_terraced_orchards.png"
-    },
-    {
-      "file": "recent-5b82066d65b3eff84e.png",
-      "class": "patchg",
-      "source": "crusader_large_farming_batch23_2026-11-12.zip:crusader_large_farming_batch23/large_01_grain_field_patchwork.png"
-    },
-    {
-      "file": "recent-d49ab2d79b26f5cc10.png",
-      "class": "patchg",
-      "source": "crusader_farming_lowlands_batch22_2026-11-12.zip:assets/sprites/incoming/farming-lowlands-batch22/farming_05_mediterranean_olive_orchards.png"
-    },
-    {
-      "file": "recent-e2244d9901dfe8cd3b.png",
-      "class": "patchg",
-      "source": "crusader_farming_lowlands_batch22_2026-11-12.zip:assets/sprites/incoming/farming-lowlands-batch22/farming_02_meadow_lowland.png"
-    },
-    {
-      "file": "recent-0cd7d30003e0e65959.png",
-      "class": "patchg",
-      "source": "crusader_farming_lowlands_batch22_2026-11-12.zip:assets/sprites/incoming/farming-lowlands-batch22/farming_01_dry_levant_grain.png"
-    },
-    {
-      "file": "recent-8f1ff30e179d40dd23.png",
-      "class": "patchg",
-      "source": "crusader_farming_lowlands_batch22_2026-11-12.zip:assets/sprites/incoming/farming-lowlands-batch22/farming_03_field_woodland_transition.png"
-    },
-    {
-      "file": "recent-6ad5f4950f2c79cfb0.png",
-      "class": "patchg",
-      "source": "crusader_farming_lowlands_batch22_2026-11-12.zip:assets/sprites/incoming/farming-lowlands-batch22/farming_04_nile_floodplain.png"
-    },
-    {
-      "file": "recent-b47fc7b578156e0e12.png",
-      "class": "patchg",
-      "source": "crusader_farming_lowlands_batch22_2026-11-12.zip:assets/sprites/incoming/farming-lowlands-batch22/farming_06_broad_grain_patchwork.png"
+      "source": "crusader_lowlands_complete_2026_11_13_split_02_of_03.zip:05_cyprus_mediterranean_orchards.png"
     }
   ],
-  "skipped_count": 3,
+  "skipped_count": 217,
   "skipped_example": [
-    "crusader_terrain_batch26_regional_2026-11-12.zip:crusader_terrain_batch26_regional/t26_04_lebanon_foothill_waterfall.png",
-    "crusader_terrain_batch26_regional_2026-11-12.zip:crusader_terrain_batch26_regional/t26_06_orontes_river_valley.png",
-    "crusader_farming_batch25_preferred_style_2026-11-12.zip:25_02_levant_cereal_plot_mosaic.png"
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_MASTER.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r01_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r01_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r01_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r02_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r02_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r02_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r03_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r03_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r03_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r04_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r04_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r04_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r05_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r05_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:08_delta_aegean_levant_tiles_r05_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:09_coastal_rural_variants_MASTER.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:09_coastal_rural_variants_r01_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:09_coastal_rural_variants_r01_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:09_coastal_rural_variants_r01_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:09_coastal_rural_variants_r02_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:09_coastal_rural_variants_r02_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:09_coastal_rural_variants_r02_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:09_coastal_rural_variants_r03_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:09_coastal_rural_variants_r03_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:09_coastal_rural_variants_r03_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:09_coastal_rural_variants_r04_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:09_coastal_rural_variants_r04_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip:09_coastal_rural_variants_r04_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:06_delta_coastal_transitions_MASTER.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:06_delta_coastal_transitions_r01_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:06_delta_coastal_transitions_r01_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:06_delta_coastal_transitions_r01_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:06_delta_coastal_transitions_r02_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:06_delta_coastal_transitions_r02_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:06_delta_coastal_transitions_r02_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:06_delta_coastal_transitions_r03_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:06_delta_coastal_transitions_r03_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:06_delta_coastal_transitions_r03_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:06_delta_coastal_transitions_r04_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:06_delta_coastal_transitions_r04_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:06_delta_coastal_transitions_r04_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:07_mediterranean_lowland_cutouts_MASTER.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:07_mediterranean_lowland_cutouts_r01_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:07_mediterranean_lowland_cutouts_r01_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:07_mediterranean_lowland_cutouts_r01_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:07_mediterranean_lowland_cutouts_r02_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:07_mediterranean_lowland_cutouts_r02_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:07_mediterranean_lowland_cutouts_r02_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:07_mediterranean_lowland_cutouts_r03_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:07_mediterranean_lowland_cutouts_r03_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:07_mediterranean_lowland_cutouts_r03_c03.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:07_mediterranean_lowland_cutouts_r04_c01.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:07_mediterranean_lowland_cutouts_r04_c02.png",
+    "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip:07_mediterranean_lowland_cutouts_r04_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:06_delta_coastal_transitions_r01_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:06_delta_coastal_transitions_r01_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:06_delta_coastal_transitions_r01_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:06_delta_coastal_transitions_r02_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:06_delta_coastal_transitions_r02_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:06_delta_coastal_transitions_r02_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:06_delta_coastal_transitions_r03_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:06_delta_coastal_transitions_r03_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:06_delta_coastal_transitions_r03_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:06_delta_coastal_transitions_r04_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:06_delta_coastal_transitions_r04_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:06_delta_coastal_transitions_r04_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:07_mediterranean_lowland_cutouts_r01_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:07_mediterranean_lowland_cutouts_r01_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:07_mediterranean_lowland_cutouts_r01_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:07_mediterranean_lowland_cutouts_r02_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:07_mediterranean_lowland_cutouts_r02_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:07_mediterranean_lowland_cutouts_r02_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:07_mediterranean_lowland_cutouts_r03_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:07_mediterranean_lowland_cutouts_r03_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:07_mediterranean_lowland_cutouts_r03_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:07_mediterranean_lowland_cutouts_r04_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:07_mediterranean_lowland_cutouts_r04_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:07_mediterranean_lowland_cutouts_r04_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r01_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r01_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r01_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r02_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r02_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r02_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r03_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r03_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r03_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r04_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r04_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r04_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r05_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r05_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:08_delta_aegean_levant_tiles_r05_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:09_coastal_rural_variants_r01_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:09_coastal_rural_variants_r01_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:09_coastal_rural_variants_r01_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:09_coastal_rural_variants_r02_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:09_coastal_rural_variants_r02_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:09_coastal_rural_variants_r02_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:09_coastal_rural_variants_r03_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:09_coastal_rural_variants_r03_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:09_coastal_rural_variants_r03_c03.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:09_coastal_rural_variants_r04_c01.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:09_coastal_rural_variants_r04_c02.png",
+    "crusader_lowlands_13nov_remaining_51_REGION_QA.zip:09_coastal_rural_variants_r04_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:06_delta_coastal_transitions_r01_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:06_delta_coastal_transitions_r01_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:06_delta_coastal_transitions_r01_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:06_delta_coastal_transitions_r02_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:06_delta_coastal_transitions_r02_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:06_delta_coastal_transitions_r02_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:06_delta_coastal_transitions_r03_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:06_delta_coastal_transitions_r03_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:06_delta_coastal_transitions_r03_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:06_delta_coastal_transitions_r04_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:06_delta_coastal_transitions_r04_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:06_delta_coastal_transitions_r04_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:07_mediterranean_lowland_cutouts_r01_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:07_mediterranean_lowland_cutouts_r01_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:07_mediterranean_lowland_cutouts_r01_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:07_mediterranean_lowland_cutouts_r02_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:07_mediterranean_lowland_cutouts_r02_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:07_mediterranean_lowland_cutouts_r02_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:07_mediterranean_lowland_cutouts_r03_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:07_mediterranean_lowland_cutouts_r03_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:07_mediterranean_lowland_cutouts_r03_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:07_mediterranean_lowland_cutouts_r04_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:07_mediterranean_lowland_cutouts_r04_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:07_mediterranean_lowland_cutouts_r04_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r01_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r01_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r01_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r02_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r02_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r02_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r03_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r03_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r03_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r04_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r04_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r04_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r05_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r05_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:08_delta_aegean_levant_tiles_r05_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:09_coastal_rural_variants_r01_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:09_coastal_rural_variants_r01_c02.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:09_coastal_rural_variants_r01_c03.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:09_coastal_rural_variants_r02_c01.png",
+    "crusader_lowlands_13nov_remaining_51_ONLY.zip:09_coastal_rural_variants_r02_c02.png"
   ],
   "limits": "Only identifiable generic land textures are scattered; unique coasts/rivers/fortresses held for placement QA. Uploaded ZIPs remain unaltered."
 }
