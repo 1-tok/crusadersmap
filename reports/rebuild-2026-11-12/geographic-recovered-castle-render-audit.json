@@ -1,0 +1,39 @@
+{
+  "status": "review_only",
+  "total": 3,
+  "indexed": 3,
+  "shown": 1,
+  "records": [
+    {
+      "site_id": "recovered-silifke-castle",
+      "name": "Silifke Kalesi",
+      "indexed": true,
+      "asset_matches": true,
+      "placement_log_records": 1,
+      "rendered_shown": false,
+      "history_certified": false,
+      "coastal_orientation_certified": false
+    },
+    {
+      "site_id": "recovered-lampron-castle",
+      "name": "Lampron",
+      "indexed": true,
+      "asset_matches": true,
+      "placement_log_records": 1,
+      "rendered_shown": true,
+      "history_certified": false,
+      "coastal_orientation_certified": false
+    },
+    {
+      "site_id": "recovered-ravanda-castle",
+      "name": "Ravanda",
+      "indexed": true,
+      "asset_matches": true,
+      "placement_log_records": 1,
+      "rendered_shown": false,
+      "history_certified": false,
+      "coastal_orientation_certified": false
+    }
+  ],
+  "note": "Automated rendering is not a visual QA signoff; do not treat these castles as strict 1180 art."
+}
