@@ -19,7 +19,8 @@
       "coordinate_status": "unverified",
       "orientation": "south_unverified",
       "review_required": true,
-      "notes": "Place only after evidence-backed site coordinates, map-boundary check, date/phase gate and verification of correct south-facing perspective. Never scatter named castles as generic filler."
+      "notes": "Retain artwork in registry but disregard for current map; outside requested geographic scope.",
+      "map_disposition": "excluded_by_user_from_current_map"
     },
     {
       "asset_id": "INTAKE-2190d5ed770cd14c7d17",
@@ -35,7 +36,8 @@
       "coordinate_status": "unverified",
       "orientation": "south_unverified",
       "review_required": true,
-      "notes": "Place only after evidence-backed site coordinates, map-boundary check, date/phase gate and verification of correct south-facing perspective. Never scatter named castles as generic filler."
+      "notes": "Retain artwork in registry but disregard for current map; outside requested geographic scope.",
+      "map_disposition": "excluded_by_user_from_current_map"
     },
     {
       "asset_id": "INTAKE-3d4b1fcd08602350cb1e",
@@ -43,15 +45,17 @@
       "asset_path": "data/sprites/automated-intake/png/g-kvelio-lu-castle-3d4b1fcd0860.png",
       "approval": "approved_for_provisional_map_review",
       "artwork_authorized_for_review": true,
-      "geographic_placement_ready": false,
-      "placement_enabled": false,
+      "geographic_placement_ready": true,
+      "placement_enabled": true,
       "production_approved": false,
       "historical_accuracy_certified": false,
       "print_approved": false,
       "coordinate_status": "unverified",
       "orientation": "south_unverified",
       "review_required": true,
-      "notes": "Place only after evidence-backed site coordinates, map-boundary check, date/phase gate and verification of correct south-facing perspective. Never scatter named castles as generic filler."
+      "notes": "Place only after evidence-backed site coordinates, map-boundary check, date/phase gate and verification of correct south-facing perspective. Never scatter named castles as generic filler.",
+      "placement_manifest": "data/sprites/placements-review.geojson",
+      "coordinates_note": "Published geographic anchor; visual footprint and date still under review"
     },
     {
       "asset_id": "INTAKE-403baea15271bdfec008",
@@ -59,15 +63,17 @@
       "asset_path": "data/sprites/automated-intake/png/tumlu-kalesi-403baea15271.png",
       "approval": "approved_for_provisional_map_review",
       "artwork_authorized_for_review": true,
-      "geographic_placement_ready": false,
-      "placement_enabled": false,
+      "geographic_placement_ready": true,
+      "placement_enabled": true,
       "production_approved": false,
       "historical_accuracy_certified": false,
       "print_approved": false,
       "coordinate_status": "unverified",
       "orientation": "south_unverified",
       "review_required": true,
-      "notes": "Place only after evidence-backed site coordinates, map-boundary check, date/phase gate and verification of correct south-facing perspective. Never scatter named castles as generic filler."
+      "notes": "Place only after evidence-backed site coordinates, map-boundary check, date/phase gate and verification of correct south-facing perspective. Never scatter named castles as generic filler.",
+      "placement_manifest": "data/sprites/placements-review.geojson",
+      "coordinates_note": "Published geographic anchor; visual footprint and date still under review"
     },
     {
       "asset_id": "INTAKE-553c9c96a91b30e6ca40",
@@ -83,7 +89,8 @@
       "coordinate_status": "unverified",
       "orientation": "south_unverified",
       "review_required": true,
-      "notes": "Place only after evidence-backed site coordinates, map-boundary check, date/phase gate and verification of correct south-facing perspective. Never scatter named castles as generic filler."
+      "notes": "Retain artwork in registry but disregard for current map; outside requested geographic scope.",
+      "map_disposition": "excluded_by_user_from_current_map"
     },
     {
       "asset_id": "INTAKE-77b41bca5e79c2e3c1aa",
@@ -99,7 +106,8 @@
       "coordinate_status": "unverified",
       "orientation": "south_unverified",
       "review_required": true,
-      "notes": "Place only after evidence-backed site coordinates, map-boundary check, date/phase gate and verification of correct south-facing perspective. Never scatter named castles as generic filler."
+      "notes": "Retain artwork in registry but disregard for current map; outside requested geographic scope.",
+      "map_disposition": "excluded_by_user_from_current_map"
     },
     {
       "asset_id": "INTAKE-81ac720094c3e6df81b0",
@@ -107,15 +115,19 @@
       "asset_path": "data/sprites/automated-intake/png/softa-kalesi-81ac720094c3.png",
       "approval": "approved_for_provisional_map_review",
       "artwork_authorized_for_review": true,
-      "geographic_placement_ready": false,
-      "placement_enabled": false,
+      "geographic_placement_ready": true,
+      "placement_enabled": true,
       "production_approved": false,
       "historical_accuracy_certified": false,
       "print_approved": false,
       "coordinate_status": "unverified",
       "orientation": "south_unverified",
       "review_required": true,
-      "notes": "Place only after evidence-backed site coordinates, map-boundary check, date/phase gate and verification of correct south-facing perspective. Never scatter named castles as generic filler."
+      "notes": "Place only after evidence-backed site coordinates, map-boundary check, date/phase gate and verification of correct south-facing perspective. Never scatter named castles as generic filler.",
+      "placement_manifest": "data/sprites/placements-review.geojson",
+      "coordinates_note": "Published geographic anchor; visual footprint and date still under review"
     }
-  ]
+  ],
+  "updated_on": "2026-11-12",
+  "map_selection": "Only Gökvelioğlu Castle, Tumlu Kalesi and Softa Kalesi; four eastern sites excluded from current map per user."
 }
