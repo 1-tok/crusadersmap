@@ -55,8 +55,8 @@
       "reason": ""
     },
     "data/sprites/automated-intake/png/b18-06-multiarch-stone-aqueduct-9f3183dbbc7c.png": {
-      "cls": "past",
-      "reason": ""
+      "cls": "off",
+      "reason": "Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering"
     },
     "data/sprites/automated-intake/png/b18-07-fortified-river-bridge-f646d5db6f76.png": {
       "cls": "off",
@@ -67,8 +67,8 @@
       "reason": ""
     },
     "data/sprites/automated-intake/png/b18-09-river-watermill-c6aec74d703b.png": {
-      "cls": "green",
-      "reason": ""
+      "cls": "off",
+      "reason": "Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering"
     },
     "data/sprites/automated-intake/png/b18-10-crusader-camp-115c67adc323.png": {
       "cls": "green",
@@ -203,8 +203,8 @@
       "reason": ""
     },
     "data/sprites/automated-intake/png/b19-15-riverside-watermill-94996b7287c9.png": {
-      "cls": "green",
-      "reason": ""
+      "cls": "off",
+      "reason": "Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering"
     },
     "data/sprites/automated-intake/png/b19-16-fortified-tents-3e6428bc9e93.png": {
       "cls": "green",
@@ -531,8 +531,8 @@
       "reason": "named fortress candidate with no coordinates or matched site in the repository"
     },
     "data/sprites/automated-intake/png/hillside-stone-aqueduct-f5cc1e773542.png": {
-      "cls": "past",
-      "reason": ""
+      "cls": "off",
+      "reason": "Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering"
     },
     "data/sprites/automated-intake/png/hillside-stone-hamlet-b395a12e5f7b.png": {
       "cls": "green",
@@ -543,8 +543,8 @@
       "reason": ""
     },
     "data/sprites/automated-intake/png/irrigation-shaduf-10c8d38fd3df.png": {
-      "cls": "delta",
-      "reason": ""
+      "cls": "off",
+      "reason": "Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering"
     },
     "data/sprites/automated-intake/png/lampron-namrun-0c2dad428341.png": {
       "cls": "off",
