@@ -93,3 +93,5 @@ jobs:
             echo "Main advanced during push (attempt ${attempt}); retrying"
           done
           exit 1
+
+# Requested full atlas review rebuild on 2026-11-12; retain review-only QA gates.
