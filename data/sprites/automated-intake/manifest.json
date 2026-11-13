@@ -2,6 +2,102 @@
   "schema_version": 1,
   "assets": [
     {
+      "id": "INTAKE-004b5ae79a2b60eef813",
+      "site_id": "t26-06-orontes-river-valley",
+      "name": "t26_06_orontes_river_valley",
+      "display_title": "t26_06_orontes_river_valley",
+      "category": "unclassified",
+      "asset": "automated-intake/png/t26-06-orontes-river-valley-004b5ae79a2b.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_terrain_batch26_regional_2026-11-12/crusader_terrain_batch26_regional/t26_06_orontes_river_valley.png",
+        "sha256": "884adc3fe530092dc170635867a690aa4459de014d4c0a0c80a0efb005547066",
+        "crop_xyxy": [
+          0,
+          0,
+          767,
+          341
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          767,
+          341
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          767,
+          341
+        ],
+        "pixel_sha256": "004b5ae79a2b60eef8138ed116b68aac77ea0a94d4a1bfd76a3e7d9d002a97aa",
+        "sha256": "884adc3fe530092dc170635867a690aa4459de014d4c0a0c80a0efb005547066",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-00c347295e206914b093",
       "site_id": "t27-08-limestone-uplands",
       "name": "t27_08_limestone_uplands",
@@ -578,6 +674,102 @@
       ]
     },
     {
+      "id": "INTAKE-028f36b450e83b39a31c",
+      "site_id": "t26-03-taurus-ridge-variant",
+      "name": "t26_03_taurus_ridge_variant",
+      "display_title": "t26_03_taurus_ridge_variant",
+      "category": "unclassified",
+      "asset": "automated-intake/png/t26-03-taurus-ridge-variant-028f36b450e8.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_terrain_batch26_regional_2026-11-12/crusader_terrain_batch26_regional/t26_03_taurus_ridge_variant.png",
+        "sha256": "5d2100b4c23a3241e07046b796343f794d7f1440d4d347d5ee98f821fc6483ce",
+        "crop_xyxy": [
+          0,
+          0,
+          768,
+          341
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          768,
+          341
+        ],
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          768,
+          341
+        ],
+        "pixel_sha256": "028f36b450e83b39a31cc5e63d929c24c9fe147ae8c2cd40191f17723fe5f431",
+        "sha256": "5d2100b4c23a3241e07046b796343f794d7f1440d4d347d5ee98f821fc6483ce",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-0306e55faca803063b69",
       "site_id": "b32-01-04-river-floodplain",
       "name": "b32_01_04_river_floodplain",
@@ -943,6 +1135,102 @@
         ],
         "pixel_sha256": "03f59129048ecd11070c740221f1ce8d2a49c14fef0758882687c83c8199c69f",
         "sha256": "af9da8f2a663f8d97280e7bd6ae247e69fffb78ecf091e0df4777affd29f670b",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-057828f18d3b6caeae77",
+      "site_id": "farming-04-nile-floodplain",
+      "name": "farming_04_nile_floodplain",
+      "display_title": "farming_04_nile_floodplain",
+      "category": "unclassified",
+      "asset": "automated-intake/png/farming-04-nile-floodplain-057828f18d3b.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_farming_lowlands_batch22_2026-11-12/assets/sprites/incoming/farming-lowlands-batch22/farming_04_nile_floodplain.png",
+        "sha256": "6ad5f4950f2c79cfb06497b9cfe62e7eea5ae4a9c69c5257732a05b091eb9d40",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "057828f18d3b6caeae7702cf43294bb86d1383f7df4b26fe299eb406cd1d6d7f",
+        "sha256": "6ad5f4950f2c79cfb06497b9cfe62e7eea5ae4a9c69c5257732a05b091eb9d40",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -2008,6 +2296,102 @@
       ]
     },
     {
+      "id": "INTAKE-0ad1e4fb90c723a09730",
+      "site_id": "25-04-olive-wheat-patchwork",
+      "name": "25_04_olive_wheat_patchwork",
+      "display_title": "25_04_olive_wheat_patchwork",
+      "category": "unclassified",
+      "asset": "automated-intake/png/25-04-olive-wheat-patchwork-0ad1e4fb90c7.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_farming_batch25_preferred_style_2026-11-12/25_04_olive_wheat_patchwork.png",
+        "sha256": "3ae91c34f5ccf0dc684b33443b3c0b646b6e00f608bef3c8eede12cd83808240",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "0ad1e4fb90c723a09730f4e526f1d4809eb6ee1f63625315249063dfbac638f6",
+        "sha256": "3ae91c34f5ccf0dc684b33443b3c0b646b6e00f608bef3c8eede12cd83808240",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-0ae14ae46cca42b3b0be",
       "site_id": "generic-beehive-apiary",
       "name": "Beehive apiary",
@@ -2561,6 +2945,102 @@
         ],
         "pixel_sha256": "0ca7b4997673e3917ee35e22ae71bb094061fda53126353bde6706cbee3d2407",
         "sha256": "50d725cb0d6e46967ae52b41971a3fa354cd1760aa8efa85d866369979a65fe1",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-0cc98a7df28b276ced40",
+      "site_id": "t26-02-lebanon-mountain",
+      "name": "t26_02_lebanon_mountain",
+      "display_title": "t26_02_lebanon_mountain",
+      "category": "unclassified",
+      "asset": "automated-intake/png/t26-02-lebanon-mountain-0cc98a7df28b.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_terrain_batch26_regional_2026-11-12/crusader_terrain_batch26_regional/t26_02_lebanon_mountain.png",
+        "sha256": "12953a3f3e0e510ee1f71502195ad35af03004efae67fa44187460b1c495fa7c",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          11,
+          1774,
+          887
+        ],
+        "pixel_sha256": "0cc98a7df28b276ced40532e9596f928fb2bbdd40a55cc5d4c2f0223bd214264",
+        "sha256": "12953a3f3e0e510ee1f71502195ad35af03004efae67fa44187460b1c495fa7c",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -4202,6 +4682,102 @@
       ]
     },
     {
+      "id": "INTAKE-14813c7520a25c0ccc7f",
+      "site_id": "25-02-levant-cereal-plot-mosaic",
+      "name": "25_02_levant_cereal_plot_mosaic",
+      "display_title": "25_02_levant_cereal_plot_mosaic",
+      "category": "unclassified",
+      "asset": "automated-intake/png/25-02-levant-cereal-plot-mosaic-14813c7520a2.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_farming_batch25_preferred_style_2026-11-12/25_02_levant_cereal_plot_mosaic.png",
+        "sha256": "d353208e3014d1bbfd60b1227d95f913f9068e696fa93ec53572fd8de0e073cf",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "14813c7520a25c0ccc7f9da6019957fc4212f96089de8c2d74a9ee89cc23103e",
+        "sha256": "d353208e3014d1bbfd60b1227d95f913f9068e696fa93ec53572fd8de0e073cf",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-14ea8605677781ca888f",
       "site_id": "b19-09-island-watchtower",
       "name": "B19-09_island_watchtower",
@@ -5248,6 +5824,102 @@
       ]
     },
     {
+      "id": "INTAKE-1b625f7e44d9465fd2a1",
+      "site_id": "t26-01-taurus-amanus-mountain",
+      "name": "t26_01_taurus_amanus_mountain",
+      "display_title": "t26_01_taurus_amanus_mountain",
+      "category": "unclassified",
+      "asset": "automated-intake/png/t26-01-taurus-amanus-mountain-1b625f7e44d9.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_terrain_batch26_regional_2026-11-12/crusader_terrain_batch26_regional/t26_01_taurus_amanus_mountain.png",
+        "sha256": "c7db94805cd0b73956387b41949717fd07f9d2e84d4c71284b859967f65c418f",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "1b625f7e44d9465fd2a1f8e751a9aa4fd02bc2cb45a3ef59c29c49d242a6b14d",
+        "sha256": "c7db94805cd0b73956387b41949717fd07f9d2e84d4c71284b859967f65c418f",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-1bb062333c85862783bc",
       "site_id": "t27-06-orchard-and-vineyard",
       "name": "t27_06_orchard_and_vineyard",
@@ -5625,6 +6297,102 @@
       "repaint_required": false,
       "review_flags": [
         "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-1e433bd2ee4ef44cb949",
+      "site_id": "large-02-mediterranean-terraced-orchards",
+      "name": "large_02_mediterranean_terraced_orchards",
+      "display_title": "large_02_mediterranean_terraced_orchards",
+      "category": "unclassified",
+      "asset": "automated-intake/png/large-02-mediterranean-terraced-orchards-1e433bd2ee4e.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_large_farming_batch23_2026-11-12/crusader_large_farming_batch23/large_02_mediterranean_terraced_orchards.png",
+        "sha256": "42912aeecd72a96c56030d77afab19bc9624540d521e4a45d2ebc31ae361dc50",
+        "crop_xyxy": [
+          0,
+          0,
+          1760,
+          894
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1760,
+          894
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1760,
+          894
+        ],
+        "pixel_sha256": "1e433bd2ee4ef44cb9492550f15cfbd2460509ef913d7bcde771b1dd55626eee",
+        "sha256": "42912aeecd72a96c56030d77afab19bc9624540d521e4a45d2ebc31ae361dc50",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
       ]
     },
     {
@@ -6661,6 +7429,102 @@
         ],
         "pixel_sha256": "213731a4647fd15864e5a38fa60b50dfb4ffbdc5b3fbc5a2e50cab2a9391061f",
         "sha256": "9d0a1e734871194236c6e1cc8650230a9cb537dde568ef0a5440064b74e9b366",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-2185ecf124f91221fcf9",
+      "site_id": "farming-02-meadow-lowland",
+      "name": "farming_02_meadow_lowland",
+      "display_title": "farming_02_meadow_lowland",
+      "category": "unclassified",
+      "asset": "automated-intake/png/farming-02-meadow-lowland-2185ecf124f9.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_farming_lowlands_batch22_2026-11-12/assets/sprites/incoming/farming-lowlands-batch22/farming_02_meadow_lowland.png",
+        "sha256": "e2244d9901dfe8cd3b6448a5e20846316bcd81c32a29b137f185c5fa425156ca",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "2185ecf124f91221fcf90313b86e841d47bbbe264a5eda621da3800fee8acc8b",
+        "sha256": "e2244d9901dfe8cd3b6448a5e20846316bcd81c32a29b137f185c5fa425156ca",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -12206,6 +13070,102 @@
       ]
     },
     {
+      "id": "INTAKE-4267b583da8faf1a7178",
+      "site_id": "t26-05-transjordan-rocky-steppe",
+      "name": "t26_05_transjordan_rocky_steppe",
+      "display_title": "t26_05_transjordan_rocky_steppe",
+      "category": "unclassified",
+      "asset": "automated-intake/png/t26-05-transjordan-rocky-steppe-4267b583da8f.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_terrain_batch26_regional_2026-11-12/crusader_terrain_batch26_regional/t26_05_transjordan_rocky_steppe.png",
+        "sha256": "b01d910d5dac07fb18024a7ef06692632ed6ef0417b12325772e291125205dab",
+        "crop_xyxy": [
+          0,
+          0,
+          768,
+          341
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          768,
+          341
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          768,
+          341
+        ],
+        "pixel_sha256": "4267b583da8faf1a717829a1ba476961061b8d1a59a2b7fbbbcb18a6f41e470e",
+        "sha256": "b01d910d5dac07fb18024a7ef06692632ed6ef0417b12325772e291125205dab",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-430793485616d475046a",
       "site_id": "b19-22-stony-boulders",
       "name": "B19-22_stony_boulders",
@@ -12287,6 +13247,102 @@
         ],
         "pixel_sha256": "430793485616d475046acff9fca1b685f37e06d1144f03c650d7b3676341781c",
         "sha256": "4a01ee29614ba0b1cfb83ccc2de1bfbbb64166d4ced16217c8e38d1010230f1d",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-43273ed0aaec05588689",
+      "site_id": "large-04-broad-lowland-grain",
+      "name": "large_04_broad_lowland_grain",
+      "display_title": "large_04_broad_lowland_grain",
+      "category": "unclassified",
+      "asset": "automated-intake/png/large-04-broad-lowland-grain-43273ed0aaec.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_large_farming_batch23_2026-11-12/crusader_large_farming_batch23/large_04_broad_lowland_grain.png",
+        "sha256": "22c568bf9817ee9bf60573116e1c758ba83f7e637c8aeaa4f5cea14ce1de15a2",
+        "crop_xyxy": [
+          0,
+          0,
+          1761,
+          893
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1761,
+          893
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1761,
+          893
+        ],
+        "pixel_sha256": "43273ed0aaec055886891856074549a527471643b93b524d6ea9f4fbaee16529",
+        "sha256": "22c568bf9817ee9bf60573116e1c758ba83f7e637c8aeaa4f5cea14ce1de15a2",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -12665,6 +13721,102 @@
         ],
         "pixel_sha256": "458807eb878e92d581ab2921526dc19be17217a729e3b7daa66e0eb3f3cae737",
         "sha256": "e81570990343b251be09e3f587e135174986295cb42e659fc34a209bfdd3ea28",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-46cec1a772f366062386",
+      "site_id": "t26-07-nile-delta-cultivation",
+      "name": "t26_07_nile_delta_cultivation",
+      "display_title": "t26_07_nile_delta_cultivation",
+      "category": "unclassified",
+      "asset": "automated-intake/png/t26-07-nile-delta-cultivation-46cec1a772f3.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_terrain_batch26_regional_2026-11-12/crusader_terrain_batch26_regional/t26_07_nile_delta_cultivation.png",
+        "sha256": "afac1e2697de33c944746267514a4b8f9248916ff1d07288a609c1a8dab2ffbb",
+        "crop_xyxy": [
+          0,
+          0,
+          768,
+          342
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          768,
+          342
+        ],
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          768,
+          342
+        ],
+        "pixel_sha256": "46cec1a772f36606238675b95c064550cfe17192a43ce95f8b7cb121b3340c39",
+        "sha256": "afac1e2697de33c944746267514a4b8f9248916ff1d07288a609c1a8dab2ffbb",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -14408,6 +15560,102 @@
       ]
     },
     {
+      "id": "INTAKE-53b1e0cd255c399bd0e5",
+      "site_id": "farming-01-dry-levant-grain",
+      "name": "farming_01_dry_levant_grain",
+      "display_title": "farming_01_dry_levant_grain",
+      "category": "unclassified",
+      "asset": "automated-intake/png/farming-01-dry-levant-grain-53b1e0cd255c.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_farming_lowlands_batch22_2026-11-12/assets/sprites/incoming/farming-lowlands-batch22/farming_01_dry_levant_grain.png",
+        "sha256": "0cd7d30003e0e65959a980d50aab4209fc17457f42d2e504e1a7dac590997181",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "53b1e0cd255c399bd0e584148c12d24656071f3db64e6a1768042db0b72c547f",
+        "sha256": "0cd7d30003e0e65959a980d50aab4209fc17457f42d2e504e1a7dac590997181",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-53dc8820052937cae70e",
       "site_id": "b32-01-02-volcanic-cinder-upland",
       "name": "b32_01_02_volcanic_cinder_upland",
@@ -14788,6 +16036,104 @@
       ]
     },
     {
+      "id": "INTAKE-5736a8535cd8f4aec9fc",
+      "site_id": "a-detailed-watercolor-ink-illustrated-sprite-sheet",
+      "name": "a_detailed_watercolor_ink_illustrated_sprite_sheet",
+      "display_title": "a_detailed_watercolor_ink_illustrated_sprite_sheet",
+      "category": "unclassified",
+      "asset": "automated-intake/png/a-detailed-watercolor-ink-illustrated-sprite-sheet-5736a8535cd8.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_map_batch20_unique_intake/originals/a_detailed_watercolor_ink_illustrated_sprite_sheet.png",
+        "sha256": "bf452fa50fea7a78ca8a788e4936468a7e71df4952e493bd7e2c302defc00893",
+        "crop_xyxy": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1536,
+          1024
+        ],
+        "alpha_extrema": [
+          91,
+          250
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "pixel_sha256": "5736a8535cd8f4aec9fc68ad9a42c813112014d6e2b0cc8bf4b98f564c73e63a",
+        "sha256": "bf452fa50fea7a78ca8a788e4936468a7e71df4952e493bd7e2c302defc00893",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified",
+        "possible_unsplit_sheet"
+      ]
+    },
+    {
       "id": "INTAKE-57818625ebecb011f898",
       "site_id": "generic-scene-03",
       "name": "generic_scene_03",
@@ -14879,6 +16225,100 @@
       "repaint_required": false,
       "review_flags": [
         "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-581cb7f1dd5c262ce2f2",
+      "site_id": "rural-smithy-and-forge",
+      "name": "Rural smithy and forge",
+      "display_title": "Rural smithy and forge",
+      "category": "landmark",
+      "asset": "automated-intake/png/rural-smithy-and-forge-581cb7f1dd5c.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_map_batch20_unique_intake/civic-b20-02-smithy-forge.png",
+        "sha256": "bb00e8c8d674c66e9759ec77758952b03bdf6c62a5e7c995b6e5cc11eb6b8d5d",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          341
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "landmark",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south_unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          341
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          384,
+          341
+        ],
+        "pixel_sha256": "581cb7f1dd5c262ce2f2d90f96f32cac5adcaf2fdb8dd431c15bf3a502a4f9f6",
+        "sha256": "bb00e8c8d674c66e9759ec77758952b03bdf6c62a5e7c995b6e5cc11eb6b8d5d",
+        "review_flags": [
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
         "coordinates_unverified",
         "southern_pov_unverified"
       ]
@@ -17361,6 +18801,102 @@
         ],
         "pixel_sha256": "65b2888de91b70c94848c56396d7aac3c9036f4a36e82fb19516d1f6bef7c598",
         "sha256": "06c1c53ffbf176ff02f1ffadb0bef5a98b1e931d37160a93362ca0bd8c0269a5",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-65f768aeb9e7c6057c67",
+      "site_id": "large-03-mixed-olive-vineyard-fields",
+      "name": "large_03_mixed_olive_vineyard_fields",
+      "display_title": "large_03_mixed_olive_vineyard_fields",
+      "category": "unclassified",
+      "asset": "automated-intake/png/large-03-mixed-olive-vineyard-fields-65f768aeb9e7.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_large_farming_batch23_2026-11-12/crusader_large_farming_batch23/large_03_mixed_olive_vineyard_fields.png",
+        "sha256": "0d3692c6d9f37f395dbc23634647ce5abd83cdcb61cae13da1143740b5392297",
+        "crop_xyxy": [
+          0,
+          0,
+          1759,
+          894
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1759,
+          894
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1759,
+          894
+        ],
+        "pixel_sha256": "65f768aeb9e7c6057c6714ca63a76a6bfc2227c3994cb230eaa7b008cd417503",
+        "sha256": "0d3692c6d9f37f395dbc23634647ce5abd83cdcb61cae13da1143740b5392297",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -27666,6 +29202,102 @@
       ]
     },
     {
+      "id": "INTAKE-ab31c931fc604f389f79",
+      "site_id": "farming-06-broad-grain-patchwork",
+      "name": "farming_06_broad_grain_patchwork",
+      "display_title": "farming_06_broad_grain_patchwork",
+      "category": "unclassified",
+      "asset": "automated-intake/png/farming-06-broad-grain-patchwork-ab31c931fc60.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_farming_lowlands_batch22_2026-11-12/assets/sprites/incoming/farming-lowlands-batch22/farming_06_broad_grain_patchwork.png",
+        "sha256": "b47fc7b578156e0e1225ba04fc046877ba698bb210df58feaca6d420ae788885",
+        "crop_xyxy": [
+          0,
+          0,
+          1756,
+          896
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1756,
+          896
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1756,
+          896
+        ],
+        "pixel_sha256": "ab31c931fc604f389f79894f56f67084831a8fffd54766bf5c5b04bda5b94872",
+        "sha256": "b47fc7b578156e0e1225ba04fc046877ba698bb210df58feaca6d420ae788885",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-ac092292595d6ab120f8",
       "site_id": "t28-11-olive-slope-transition",
       "name": "t28_11_olive_slope_transition",
@@ -32718,6 +34350,100 @@
       ]
     },
     {
+      "id": "INTAKE-cc450cd249e3128f3570",
+      "site_id": "tannery-and-dyeing-yard",
+      "name": "Tannery and dyeing yard",
+      "display_title": "Tannery and dyeing yard",
+      "category": "landmark",
+      "asset": "automated-intake/png/tannery-and-dyeing-yard-cc450cd249e3.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_map_batch20_unique_intake/civic-b20-01-tannery-dye-yard.png",
+        "sha256": "81ba5d1a7191e3654627b7c79e2e6034690488c9e7f2b063e664c5b1becef31d",
+        "crop_xyxy": [
+          0,
+          0,
+          384,
+          341
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "landmark",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "south_unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          384,
+          341
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          384,
+          341
+        ],
+        "pixel_sha256": "cc450cd249e3128f3570add8114fa97fd221a27358cabbb089a7347a339e482b",
+        "sha256": "81ba5d1a7191e3654627b7c79e2e6034690488c9e7f2b063e664c5b1becef31d",
+        "review_flags": [
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-cd0e74d685d4b7c5ec4d",
       "site_id": "11-greek-cyprus-anatolia-levant-lowlands-12",
       "name": "11_greek_cyprus_anatolia_levant_lowlands_12",
@@ -35410,6 +37136,102 @@
       ]
     },
     {
+      "id": "INTAKE-dbc9aa61b09c18502e35",
+      "site_id": "large-01-grain-field-patchwork",
+      "name": "large_01_grain_field_patchwork",
+      "display_title": "large_01_grain_field_patchwork",
+      "category": "unclassified",
+      "asset": "automated-intake/png/large-01-grain-field-patchwork-dbc9aa61b09c.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_large_farming_batch23_2026-11-12/crusader_large_farming_batch23/large_01_grain_field_patchwork.png",
+        "sha256": "5b82066d65b3eff84ef899913a7916e3c995ed3a40996309ab6d4a4691e88a02",
+        "crop_xyxy": [
+          0,
+          0,
+          1758,
+          894
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1758,
+          894
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1758,
+          894
+        ],
+        "pixel_sha256": "dbc9aa61b09c18502e35e966f4f2e367d3561879ed8512ba2526e100a40222ad",
+        "sha256": "5b82066d65b3eff84ef899913a7916e3c995ed3a40996309ab6d4a4691e88a02",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-dc96db2fbd081cc55534",
       "site_id": "t28-10-rocky-cedar-woodland",
       "name": "t28_10_rocky_cedar_woodland",
@@ -35691,6 +37513,102 @@
       "repaint_required": false,
       "review_flags": [
         "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-ddbd7d30ec68351cdeba",
+      "site_id": "t26-04-lebanon-foothill-waterfall",
+      "name": "t26_04_lebanon_foothill_waterfall",
+      "display_title": "t26_04_lebanon_foothill_waterfall",
+      "category": "unclassified",
+      "asset": "automated-intake/png/t26-04-lebanon-foothill-waterfall-ddbd7d30ec68.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_terrain_batch26_regional_2026-11-12/crusader_terrain_batch26_regional/t26_04_lebanon_foothill_waterfall.png",
+        "sha256": "9340140dbee1981c3c32e9431dcf94b3e431b9a2019adbff320a05c9d952a394",
+        "crop_xyxy": [
+          0,
+          0,
+          768,
+          341
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          768,
+          341
+        ],
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          768,
+          341
+        ],
+        "pixel_sha256": "ddbd7d30ec68351cdebab4dbbe92ede9ee910f00a344f5b9b11b57d6841600dd",
+        "sha256": "9340140dbee1981c3c32e9431dcf94b3e431b9a2019adbff320a05c9d952a394",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
       ]
     },
     {
@@ -36157,6 +38075,102 @@
         ],
         "pixel_sha256": "e0be838bd7963f1da7915e5afdecb35ccaaa2ca72d1a055773818172e1669a24",
         "sha256": "104cab13950eaf3e9abf3731c366152747731e1d9732464ee8ed9f21d6485795",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-e0cbd1d9fd9f5ffa7afd",
+      "site_id": "farming-05-mediterranean-olive-orchards",
+      "name": "farming_05_mediterranean_olive_orchards",
+      "display_title": "farming_05_mediterranean_olive_orchards",
+      "category": "unclassified",
+      "asset": "automated-intake/png/farming-05-mediterranean-olive-orchards-e0cbd1d9fd9f.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_farming_lowlands_batch22_2026-11-12/assets/sprites/incoming/farming-lowlands-batch22/farming_05_mediterranean_olive_orchards.png",
+        "sha256": "d49ab2d79b26f5cc10dfb26e4574393bcfe759f8e40ce249cb39c7aa07182694",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "e0cbd1d9fd9f5ffa7afd756b5d95315e0830602f84af3442f4bd9712c87bfd76",
+        "sha256": "d49ab2d79b26f5cc10dfb26e4574393bcfe759f8e40ce249cb39c7aa07182694",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -37504,6 +39518,102 @@
       ]
     },
     {
+      "id": "INTAKE-e9a31fa91e292d377a07",
+      "site_id": "farming-03-field-woodland-transition",
+      "name": "farming_03_field_woodland_transition",
+      "display_title": "farming_03_field_woodland_transition",
+      "category": "unclassified",
+      "asset": "automated-intake/png/farming-03-field-woodland-transition-e9a31fa91e29.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_farming_lowlands_batch22_2026-11-12/assets/sprites/incoming/farming-lowlands-batch22/farming_03_field_woodland_transition.png",
+        "sha256": "8f1ff30e179d40dd23c10bd90df724ba87dfcafef1fd78a967ef6035b6c97132",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "e9a31fa91e292d377a07841659142d9de2e7ba744084a36f32efcd300c4461f4",
+        "sha256": "8f1ff30e179d40dd23c10bd90df724ba87dfcafef1fd78a967ef6035b6c97132",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-eae276d4f2aba213810a",
       "site_id": "t31-01-mediterranean-maquis-scrub",
       "name": "t31_01_mediterranean_maquis_scrub",
@@ -38836,6 +40946,102 @@
       ]
     },
     {
+      "id": "INTAKE-effb516f872d245aa22c",
+      "site_id": "25-03-olive-and-grain-transition",
+      "name": "25_03_olive_and_grain_transition",
+      "display_title": "25_03_olive_and_grain_transition",
+      "category": "unclassified",
+      "asset": "automated-intake/png/25-03-olive-and-grain-transition-effb516f872d.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_farming_batch25_preferred_style_2026-11-12/25_03_olive_and_grain_transition.png",
+        "sha256": "bb5f69996f1ccbce88e12bc64c13c38926d6a844284005d2961dc859ebd480e6",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          252
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "effb516f872d245aa22c06ba8fb28548cfa38e9105e4edc4ad05e2447264d9e9",
+        "sha256": "bb5f69996f1ccbce88e12bc64c13c38926d6a844284005d2961dc859ebd480e6",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-f1145a58e0823bde50d0",
       "site_id": "t27-03-wooded-riverbank",
       "name": "t27_03_wooded_riverbank",
@@ -39029,6 +41235,102 @@
         "coordinates_unverified",
         "southern_pov_unverified",
         "possible_unsplit_sheet"
+      ]
+    },
+    {
+      "id": "INTAKE-f201af77c113cfddf069",
+      "site_id": "t26-08-sinai-negev-arid-ridges",
+      "name": "t26_08_sinai_negev_arid_ridges",
+      "display_title": "t26_08_sinai_negev_arid_ridges",
+      "category": "unclassified",
+      "asset": "automated-intake/png/t26-08-sinai-negev-arid-ridges-f201af77c113.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_terrain_batch26_regional_2026-11-12/crusader_terrain_batch26_regional/t26_08_sinai_negev_arid_ridges.png",
+        "sha256": "40fbf6cc5f4f809a3650ef7e43c226b8b14addf5778a93addbd9a5ba3364da1d",
+        "crop_xyxy": [
+          0,
+          0,
+          768,
+          342
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          768,
+          342
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          768,
+          342
+        ],
+        "pixel_sha256": "f201af77c113cfddf0691499ab7d3b6ee9d6d205e1b15b5428727317be6999b8",
+        "sha256": "40fbf6cc5f4f809a3650ef7e43c226b8b14addf5778a93addbd9a5ba3364da1d",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
       ]
     },
     {
@@ -39403,6 +41705,102 @@
         ],
         "pixel_sha256": "f3b23f4f067f7e2aa92e91c75cfd8874051ab1108971196f5cc6b291aa92f922",
         "sha256": "2f6c968fffe477bb67b3070d1f926eada3e8a7ca080292670b7b23b459453249",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-f5bf237402023d0508ab",
+      "site_id": "25-01-mediterranean-terraced-cultivation",
+      "name": "25_01_mediterranean_terraced_cultivation",
+      "display_title": "25_01_mediterranean_terraced_cultivation",
+      "category": "unclassified",
+      "asset": "automated-intake/png/25-01-mediterranean-terraced-cultivation-f5bf23740202.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_farming_batch25_preferred_style_2026-11-12/25_01_mediterranean_terraced_cultivation.png",
+        "sha256": "3b8a8d11c3180f2cab551a491e69e135b6526f121358460bd902c0b06953fc06",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "f5bf237402023d0508ab0dee435d8d929586a2f2fe55540183cd6de43f2733a6",
+        "sha256": "3b8a8d11c3180f2cab551a491e69e135b6526f121358460bd902c0b06953fc06",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
