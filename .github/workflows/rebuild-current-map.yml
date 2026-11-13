@@ -16,6 +16,9 @@ on:
       - 'tools/report_map_sprite_utilization.py'
       - 'tools/audit_intake_promotion.py'
       - 'build_generic_assets.py'
+      - 'build_sprite_assets.py'
+      - 'places.py'
+      - 'data/sprites/placements-geographic-recovery-1095-1571.json'
       - 'data/manifests/automated-intake-stable-scatter-classes.json'
       - 'terrain.py'
 
