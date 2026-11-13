@@ -23,5 +23,5 @@ data={"status":"review_only","total":len(rows),"indexed":sum(x["indexed"] for x 
       "note":"Automated rendering is not a visual QA signoff; do not treat these castles as strict 1180 art."}
 (out/"geographic-recovered-castle-render-audit.json").write_text(json.dumps(data,indent=2)+"\n")
 print(json.dumps(data,indent=2))
-if len(rows)!=3 or not all(x["indexed"] and x["asset_matches"] for x in rows):
+if len(rows)!=len(manifest) or not all(x["indexed"] and x["asset_matches"] for x in rows):
     raise SystemExit("Recovered castle asset was omitted or wrongly selected")
