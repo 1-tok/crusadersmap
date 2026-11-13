@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-13",
+  "purpose": "Non-destructive rebuild intake and placement queue; these are review tasks, not geographic placements or production approvals.",
+  "base_ref": "main",
+  "source_registers": [
+    "data/sprites/automated-intake/manifest.json",
+    "data/manifests/SPRITE-UNPLACED-PLACEMENT-PROPOSALS-2026-11-12.json",
+    "reports/rebuild-2026-11-12/intake-promotion-decisions.csv",
+    "reports/rebuild-2026-11-12/image-usage-and-off-map-list.csv",
+    "data/sprites/placements-review.geojson",
+    "data/sprites/placements-review-1180.geojson",
+    "data/manifests/crusader-period/site-history.json"
+  ],
+  "queue": [
+    {
+      "id": "REBUILD-001",
+      "group": "corrected-lowland-51",
+      "source": "crusader_lowlands_13nov_remaining_51_REGION_QA.zip",
+      "source_location": "repository_root",
+      "candidate_count": 51,
+      "state": "blocked_not_in_incoming",
+      "action": "Use the exact corrected region-QA archive for intake, avoiding the obsolete ONLY archive and duplicate (1) copy. Verify SHA-256 and source sidecars; do not count root ZIP as successfully extracted.",
+      "sha256_expected": "d48c93c2e5ebaf6917412cd36f1ab0305555cc8834652c905816214980902e06",
+      "proposed_view": "review_gallery",
+      "approval_for_geographic_placement": false
+    },
+    {
+      "id": "REBUILD-002",
+      "group": "curated-nov13-dry-lowlands",
+      "source": "assets/sprites/incoming/crusader_lowlands_part1_large_2026_11_13.zip; assets/sprites/incoming/crusader_lowlands_batch10_11_2026_11_13.zip",
+      "state": "provisional_preview_pool",
+      "action": "Keep nine dry-field candidates in masked fertile lowland generic pool; measure actual draw count and avoid promoting wetland, water and masters.",
+      "suggested_regions": ["Aegean lowlands","Cyprus","Cilicia","Levant coastal plains"],
+      "approval_for_geographic_placement": false
+    },
+    {
+      "id": "REBUILD-003",
+      "group": "existing-automated-intake-unused",
+      "source": "data/manifests/SPRITE-UNPLACED-PLACEMENT-PROPOSALS-2026-11-12.json",
+      "state": "review-by-individual-asset",
+      "action": "Regenerate image-usage and off-map list; for each technically valid unused non-master, join by canonical asset path/hash, check old and selected artwork for same site, apply phase and south-facing shoreline checks. Only add confirmed geographic anchors to dated review GeoJSON. Assign generic land artwork to ecological pools without invented lat/lon.",
+      "approval_for_geographic_placement": false
+    },
+    {
+      "id": "REBUILD-004",
+      "group": "named-sites-unmatched",
+      "source": "data/manifests/SPRITE-UNPLACED-PLACEMENT-RECOMMENDATIONS-2026-11-12.md",
+      "state": "coordinate_and_phase_hold",
+      "action": "Research existing gazetteer or sourced coordinates for Lampron, Toprakkale/Til, Qal'at Ja'bar, Harran citadel, Gökvelioğlu, Tumlu, Birecik, Savranda, Ravanda, Silifke, Qal'at Najm, Softa. Never place named art at fabricated coordinates or outside atlas frames.",
+      "approval_for_geographic_placement": false
+    },
+    {
+      "id": "REBUILD-005",
+      "group": "coasts-rivers-islands",
+      "state": "geographic_alignment_hold",
+      "action": "Require coastal water-side orientation from south looking north; match vector shoreline and water mask. Reproject 30 Aegean island concepts into inset, remove duplicate selections. Keep river, marsh, Delta reed and coast strips out of randomly scattered terrestrial pools.",
+      "approval_for_geographic_placement": false
+    },
+    {
+      "id": "REBUILD-006",
+      "group": "historical-variants",
+      "state": "period_hold",
+      "action": "Select one variant per site/year. No standing Chastellet in 1180; Montfort and Chateau Pelerin only later dated layers; Chlemoutsi and later Kolossi tower excluded from 1180. Maintain alternate art in gallery.",
+      "approval_for_geographic_placement": false
+    },
+    {
+      "id": "REBUILD-007",
+      "group": "rebuild-workflow",
+      "state": "blocked_by_stale-count-assertion",
+      "evidence": "GitHub Actions run 43486161395: render succeeded but tools/audit_intake_promotion.py failed at len(rows)==226; publication skipped.",
+      "action": "Review count-independent audit fix on this branch, then rerun rebuild. Confirm audit outputs, actual placement usage, overlaps, and committed final composite.",
+      "approval_for_geographic_placement": false
+    }
+  ],
+  "rebuild_gates": {
+    "source_masters_rendered": 0,
+    "invented_coordinates": 0,
+    "duplicate_primary_site_variants": 0,
+    "unmasked_river_or_coast_scatter": 0,
+    "production_approval_from_intake_only": false,
+    "historical_edition_default": 1180,
+    "composite_period_scope": "1095-1571"
+  }
+}
