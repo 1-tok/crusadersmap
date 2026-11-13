@@ -1,0 +1,686 @@
+{
+  "schema_version": 1,
+  "scope": "Stable source-path classes for existing automated intake; changes require review. Never assign by mutable list index.",
+  "entries": {
+    "data/sprites/automated-intake/png/a-detailed-painted-watercolor-ink-illustration-she-29dfca8c39d1.png": {
+      "cls": "off",
+      "reason": "source sheet: reference only, never placed"
+    },
+    "data/sprites/automated-intake/png/a-detailed-watercolor-ink-style-sprite-sheet-on-tr-95ac348ff091.png": {
+      "cls": "off",
+      "reason": "source sheet: reference only, never placed"
+    },
+    "data/sprites/automated-intake/png/b16-01-fortified-harbor-generic-d8c049060e0d.png": {
+      "cls": "fb:harbour_fort",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b16-02-ridge-citadel-generic-675ce22f6f4a.png": {
+      "cls": "fb:fort",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b16-03-walled-abbey-generic-e3b6a89346ac.png": {
+      "cls": "fb:latin",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b16-04-hilltop-monastery-generic-bedc59165cf4.png": {
+      "cls": "fb:monastery_hill",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b16-05-terraced-hilltown-generic-2021a2fc4e4d.png": {
+      "cls": "fb:town",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b16-06-offshore-castle-generic-3376553f7d9a.png": {
+      "cls": "off",
+      "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+    },
+    "data/sprites/automated-intake/png/b18-01-fortified-coastal-city-generic-31f78f281970.png": {
+      "cls": "off",
+      "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+    },
+    "data/sprites/automated-intake/png/b18-02-offshore-rock-citadel-generic-b84b8c8e16dc.png": {
+      "cls": "off",
+      "reason": "generic religious or civic building with no matching unpainted site on the map"
+    },
+    "data/sprites/automated-intake/png/b18-03-medieval-harbor-generic-70ca8bfc82b3.png": {
+      "cls": "fb:harbour_town",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-04-ruined-hillfort-generic-6330cbb777ea.png": {
+      "cls": "ruin",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-05-walled-monastery-generic-0936d53b9b75.png": {
+      "cls": "fb:monastery",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-06-multiarch-stone-aqueduct-9f3183dbbc7c.png": {
+      "cls": "past",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-07-fortified-river-bridge-f646d5db6f76.png": {
+      "cls": "off",
+      "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+    },
+    "data/sprites/automated-intake/png/b18-08-stone-village-chapel-767c571fb425.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-09-river-watermill-c6aec74d703b.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-10-crusader-camp-115c67adc323.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-11-market-tents-915b1620bfbb.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-12-hilltop-watchtower-3673359599e2.png": {
+      "cls": "fb:tower",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-13-windmill-b84f4fa44ca9.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-14-rocky-littoral-1c2762361496.png": {
+      "cls": "off",
+      "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+    },
+    "data/sprites/automated-intake/png/b18-15-sandy-cove-80bcb2f92b79.png": {
+      "cls": "off",
+      "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+    },
+    "data/sprites/automated-intake/png/b18-16-rocky-coastal-headland-058ad572fcaf.png": {
+      "cls": "off",
+      "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+    },
+    "data/sprites/automated-intake/png/b18-17-reed-wetland-3fe541de4a16.png": {
+      "cls": "off",
+      "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+    },
+    "data/sprites/automated-intake/png/b18-18-streambank-bbfd9ae68b9c.png": {
+      "cls": "off",
+      "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+    },
+    "data/sprites/automated-intake/png/b18-19-marsh-water-reeds-4d6e4f9a9ae3.png": {
+      "cls": "off",
+      "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+    },
+    "data/sprites/automated-intake/png/b18-20-vineyard-rows-022a25c48358.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-21-olive-tree-2acb7a30d0c2.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-22-fruit-tree-bfed0ed5b90d.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-23-flowering-tree-2cfcb50e825c.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-24-cypress-stand-848bdf03409f.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-25-umbrella-pines-d5f6b604fa52.png": {
+      "cls": "vega",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-26-date-palms-2285ae1cfed2.png": {
+      "cls": "vegd",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-27-scrub-patch-9c2063c79c87.png": {
+      "cls": "rock",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b18-28-rocky-hills-8182f5c13805.png": {
+      "cls": "rock",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-01-domed-walled-precinct-e7b0bd9b10ab.png": {
+      "cls": "off",
+      "reason": "depicts a named monument (Dome of the Rock, Hagia Sophia) that already has its city painting"
+    },
+    "data/sprites/automated-intake/png/b19-02-domical-church-compound-8fa2802c637e.png": {
+      "cls": "fb:greek",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-03-western-church-8a6cd66b55ec.png": {
+      "cls": "fb:latin",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-04-rocky-fortress-209b90999ce5.png": {
+      "cls": "fb:fort",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-05-domed-shrine-minaret-bb842cb79c41.png": {
+      "cls": "off",
+      "reason": "generic religious or civic building with no matching unpainted site on the map"
+    },
+    "data/sprites/automated-intake/png/b19-06-hillside-monastery-d40ef1fd60de.png": {
+      "cls": "fb:monastery_hill",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-07-classical-ruins-0c233cf8912e.png": {
+      "cls": "ruin",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-08-domed-chapel-6947ffff7e8a.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-09-island-watchtower-14ea86056777.png": {
+      "cls": "off",
+      "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+    },
+    "data/sprites/automated-intake/png/b19-10-harbor-crane-quay-81ac8e7ba0e6.png": {
+      "cls": "off",
+      "reason": "harbour scene: belongs inside a named port, which already has its own painting"
+    },
+    "data/sprites/automated-intake/png/b19-11-lateen-ship-cross-sail-64bcc38d5619.png": {
+      "cls": "ship",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-12-oared-ship-cross-sail-dce6c57f7fdd.png": {
+      "cls": "ship",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-13-lateen-ship-a-de8c290477b7.png": {
+      "cls": "ship",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-14-lateen-ship-b-25af1e661c90.png": {
+      "cls": "ship",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-15-riverside-watermill-94996b7287c9.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-16-fortified-tents-3e6428bc9e93.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-17-market-tents-1632ebc04987.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-18-camel-caravan-d835031f1395.png": {
+      "cls": "arid",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-19-ox-cart-31596eaa059e.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-20-herd-with-figure-bff3ce6dd639.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-21-cattle-068d25f90cba.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-22-stony-boulders-430793485616.png": {
+      "cls": "rock",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-23-mountain-rocks-e0bd526c0a92.png": {
+      "cls": "rock",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-24-cave-rocks-a6bf1b8ee6b1.png": {
+      "cls": "rock",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-25-low-shrub-861df6967d1f.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-26-olive-tree-759df99099a6.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-27-umbrella-pine-7ad37a912ce3.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-28-cypress-stand-51105e00a48d.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-29-palm-tree-70fb557bdccf.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-30-flowering-shrub-5c1aa17f707d.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b19-31-yellow-shrub-3ed2d6eac2ad.png": {
+      "cls": "vegd",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b20-01-coast-to-farmland-308e492e699b.png": {
+      "cls": "off",
+      "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+    },
+    "data/sprites/automated-intake/png/b20-02-river-to-marsh-212221222149.png": {
+      "cls": "off",
+      "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+    },
+    "data/sprites/automated-intake/png/b20-03-terraced-farmland-hills-2cc9ae56ea3a.png": {
+      "cls": "patchg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b20-04-broad-reed-marsh-5e68d3606aa8.png": {
+      "cls": "off",
+      "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+    },
+    "data/sprites/automated-intake/png/b20-05-rocky-foothill-scrub-2c9ebdf7f4fa.png": {
+      "cls": "patchd",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b20-06-dry-steppe-to-foothills-6700ffc32b70.png": {
+      "cls": "patcha",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b20-07-alpine-forest-to-crags-05de75dadf78.png": {
+      "cls": "patchd",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b20-08-wooded-hills-to-farms-20a69638ee78.png": {
+      "cls": "patchg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b20-09-desert-to-rocky-mountains-5089d96695cc.png": {
+      "cls": "patcha",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b21-01-rocky-cove-to-beach-7f450edc6303.png": {
+      "cls": "off",
+      "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+    },
+    "data/sprites/automated-intake/png/b21-02-rocky-shore-to-sand-31e838da17cc.png": {
+      "cls": "off",
+      "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+    },
+    "data/sprites/automated-intake/png/b21-03-sandy-shore-to-rock-10e51f6889ee.png": {
+      "cls": "off",
+      "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+    },
+    "data/sprites/automated-intake/png/b21-04-cliff-coast-to-pines-632c106a0264.png": {
+      "cls": "off",
+      "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+    },
+    "data/sprites/automated-intake/png/b21-05-river-bend-rocky-bank-e90f337fb223.png": {
+      "cls": "off",
+      "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+    },
+    "data/sprites/automated-intake/png/b21-06-river-reedbanks-2594b7bd680b.png": {
+      "cls": "off",
+      "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+    },
+    "data/sprites/automated-intake/png/b21-07-wide-river-woodland-ce96f156a136.png": {
+      "cls": "off",
+      "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+    },
+    "data/sprites/automated-intake/png/b21-08-river-bend-scrub-65332efbb3e9.png": {
+      "cls": "off",
+      "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+    },
+    "data/sprites/automated-intake/png/b21-09-vineyard-wheat-connector-9eb54e5e6e15.png": {
+      "cls": "patchg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b21-10-fields-with-chapel-b838de0df29d.png": {
+      "cls": "patchg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b21-11-orchard-field-connector-eb442da6284f.png": {
+      "cls": "patchg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b21-12-hillside-farm-673c23a3d3d4.png": {
+      "cls": "patchg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b21-13-rural-houses-18a791006882.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b21-14-rocky-scrub-foothills-23550772dcd8.png": {
+      "cls": "patchd",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b21-15-foothill-to-mountain-551250fcc90e.png": {
+      "cls": "patchd",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b21-16-alpine-crags-85c6f4aa303e.png": {
+      "cls": "patchd",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b21-17-arid-rocky-ridges-59848fc848a1.png": {
+      "cls": "patcha",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b21-19-cypress-stand-be81cbfd69dc.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b21-20-open-olive-woodland-cfda8dc299c3.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b21-21-mixed-tree-woods-4c6be4f8ac82.png": {
+      "cls": "vegd",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/b21-23-broad-delta-reeds-98c58ae9967d.png": {
+      "cls": "off",
+      "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+    },
+    "data/sprites/automated-intake/png/batch10-source-sheet-85c492df82d4.png": {
+      "cls": "off",
+      "reason": "source sheet: reference only, never placed"
+    },
+    "data/sprites/automated-intake/png/batch15-original-six-sprite-sheet-edfc16350be6.png": {
+      "cls": "off",
+      "reason": "source sheet: reference only, never placed"
+    },
+    "data/sprites/automated-intake/png/beehive-apiary-0ae14ae46cca.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/birecik-castle-553c9c96a91b.png": {
+      "cls": "off",
+      "reason": "named fortress candidate with no coordinates or matched site in the repository"
+    },
+    "data/sprites/automated-intake/png/byzantine-cross-domed-church-93b600ef3128.png": {
+      "cls": "fb:greek",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/byzantine-monastic-church-a855c61276d4.png": {
+      "cls": "fb:greek",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/caravan-tent-encampment-22e6e84efa16.png": {
+      "cls": "arid",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/cattle-enclosure-and-shelter-dd95379c2fd8.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/charcoal-burning-and-metalworking-yard-7d9dcbc9ddbf.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/citrus-orchard-7cab9160c1dd.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/coastal-cliff-monastery-adb44d1af805.png": {
+      "cls": "fb:monastery_cliff",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/coastal-cliffside-monastery-a004220580c6.png": {
+      "cls": "fb:monastery_cliff",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/coastal-domed-church-15f3fad4b91e.png": {
+      "cls": "fb:greek",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/coastal-watchtower-069b5256b3d9.png": {
+      "cls": "off",
+      "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+    },
+    "data/sprites/automated-intake/png/cross-domed-byzantine-style-church-16e560489988.png": {
+      "cls": "fb:greek",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/desert-caravan-well-45383b9bcb1d.png": {
+      "cls": "arid",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/desert-mountain-monastery-1d57b24b6551.png": {
+      "cls": "fb:monastery_hill",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/domed-bath-complex-6bd02e6bbe7f.png": {
+      "cls": "off",
+      "reason": "generic religious or civic building with no matching unpainted site on the map"
+    },
+    "data/sprites/automated-intake/png/domed-cathedral-compound-f7e2aa4d87b2.png": {
+      "cls": "fb:greek",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/domed-rotunda-and-church-group-a8e135625a20.png": {
+      "cls": "fb:greek",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/domed-walled-religious-precinct-0731ce87a8f3.png": {
+      "cls": "off",
+      "reason": "generic religious or civic building with no matching unpainted site on the map"
+    },
+    "data/sprites/automated-intake/png/fishing-hamlet-and-net-racks-2e1317eda9b3.png": {
+      "cls": "fb:harbour_town",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/fortified-caravanserai-03b8997fe3ac.png": {
+      "cls": "arid",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/fortified-church-ef55ad2566f6.png": {
+      "cls": "fb:monastery_hill",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/fortified-cliff-monastery-ef259f613924.png": {
+      "cls": "fb:monastery_cliff",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/fortified-desert-monastery-ae098fc9579c.png": {
+      "cls": "fb:monastery",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/fortified-stone-monastery-39a9e488a0ad.png": {
+      "cls": "fb:monastery_hill",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/fortified-stone-river-bridge-9f7e306cdaca.png": {
+      "cls": "off",
+      "reason": "river, marsh or bridge piece: needs aligning to a real river course before use"
+    },
+    "data/sprites/automated-intake/png/g-kvelio-lu-castle-3d4b1fcd0860.png": {
+      "cls": "off",
+      "reason": "named fortress candidate with no coordinates or matched site in the repository"
+    },
+    "data/sprites/automated-intake/png/gold-domed-octagonal-shrine-443050a4ab9b.png": {
+      "cls": "off",
+      "reason": "depicts a named monument (Dome of the Rock, Hagia Sophia) that already has its city painting"
+    },
+    "data/sprites/automated-intake/png/gothic-abbey-complex-80665a0a23e1.png": {
+      "cls": "fb:latin",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/gothic-cathedral-precinct-e65323d310e1.png": {
+      "cls": "fb:latin",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/hagia-sophia-inspired-domed-complex-7d4549d9b2c5.png": {
+      "cls": "off",
+      "reason": "depicts a named monument (Dome of the Rock, Hagia Sophia) that already has its city painting"
+    },
+    "data/sprites/automated-intake/png/harbor-monastery-111b9730ed0a.png": {
+      "cls": "off",
+      "reason": "generic religious or civic building with no matching unpainted site on the map"
+    },
+    "data/sprites/automated-intake/png/harran-citadel-2190d5ed770c.png": {
+      "cls": "off",
+      "reason": "named fortress candidate with no coordinates or matched site in the repository"
+    },
+    "data/sprites/automated-intake/png/hillside-stone-aqueduct-f5cc1e773542.png": {
+      "cls": "past",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/hillside-stone-hamlet-b395a12e5f7b.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/irrigated-crop-terraces-345117df6dad.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/irrigation-shaduf-10c8d38fd3df.png": {
+      "cls": "delta",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/lampron-namrun-0c2dad428341.png": {
+      "cls": "off",
+      "reason": "named fortress candidate with no coordinates or matched site in the repository"
+    },
+    "data/sprites/automated-intake/png/limestone-quarry-9ad914c36ae9.png": {
+      "cls": "past",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/medieval-crusader-fortress-sprite-collection-c39e8abdd8a9.png": {
+      "cls": "off",
+      "reason": "source sheet: reference only, never placed"
+    },
+    "data/sprites/automated-intake/png/medieval-shipyard-129d414ac648.png": {
+      "cls": "off",
+      "reason": "harbour scene: belongs inside a named port, which already has its own painting"
+    },
+    "data/sprites/automated-intake/png/medieval-windmill-and-farm-8adca7d15df8.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/multiple-domed-church-compound-f8a5901ed2ae.png": {
+      "cls": "fb:greek",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/olive-grove-and-harvest-73d8ed338a4a.png": {
+      "cls": "vegg",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/olive-oil-press-4c83486647c7.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/original-generation-sheet-59649c6e9f38.png": {
+      "cls": "off",
+      "reason": "source sheet: reference only, never placed"
+    },
+    "data/sprites/automated-intake/png/original-sheet-2db8f0b09341.png": {
+      "cls": "off",
+      "reason": "source sheet: reference only, never placed"
+    },
+    "data/sprites/automated-intake/png/pointed-arch-gothic-church-2ba6bd0bb5c3.png": {
+      "cls": "fb:latin",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/pottery-and-brick-kilns-9263c882bffd.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/qal-at-ja-bar-1fb518a52cdb.png": {
+      "cls": "off",
+      "reason": "named fortress candidate with no coordinates or matched site in the repository"
+    },
+    "data/sprites/automated-intake/png/qal-at-najm-77b41bca5e79.png": {
+      "cls": "off",
+      "reason": "named fortress candidate with no coordinates or matched site in the repository"
+    },
+    "data/sprites/automated-intake/png/ravanda-ravendel-5ede2f1b3a37.png": {
+      "cls": "off",
+      "reason": "named fortress candidate with no coordinates or matched site in the repository"
+    },
+    "data/sprites/automated-intake/png/roadside-inn-and-stables-66059ba54ca1.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/romanesque-abbey-precinct-dddca42c6790.png": {
+      "cls": "fb:latin",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/rural-abbey-with-vineyard-7f735b59e548.png": {
+      "cls": "fb:latin",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/salt-evaporation-pans-e65eb962b07d.png": {
+      "cls": "off",
+      "reason": "coast or shore piece: needs registering to a real stretch of shoreline before use"
+    },
+    "data/sprites/automated-intake/png/savranda-servantikar-58bc99dbddd6.png": {
+      "cls": "off",
+      "reason": "named fortress candidate with no coordinates or matched site in the repository"
+    },
+    "data/sprites/automated-intake/png/silifke-seleucia-6f325d2804d2.png": {
+      "cls": "off",
+      "reason": "named fortress candidate with no coordinates or matched site in the repository"
+    },
+    "data/sprites/automated-intake/png/softa-kalesi-81ac720094c3.png": {
+      "cls": "off",
+      "reason": "named fortress candidate with no coordinates or matched site in the repository"
+    },
+    "data/sprites/automated-intake/png/source-sheet-original-cf6b7e0821b9.png": {
+      "cls": "off",
+      "reason": "source sheet: reference only, never placed"
+    },
+    "data/sprites/automated-intake/png/source-sheet-original-rgb-51f6b6d5afb5.png": {
+      "cls": "off",
+      "reason": "source sheet: reference only, never placed"
+    },
+    "data/sprites/automated-intake/png/source-sheet-original-rgb-82fb3e4d8449.png": {
+      "cls": "off",
+      "reason": "source sheet: reference only, never placed"
+    },
+    "data/sprites/automated-intake/png/source-sheet-original-rgb-d887135cdc6d.png": {
+      "cls": "off",
+      "reason": "source sheet: reference only, never placed"
+    },
+    "data/sprites/automated-intake/png/source-sheet-original-rgb-f1f3092613cf.png": {
+      "cls": "off",
+      "reason": "source sheet: reference only, never placed"
+    },
+    "data/sprites/automated-intake/png/stone-sheepfold-c4d44b5c2e6c.png": {
+      "cls": "past",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/terraced-vineyard-estate-c4ca6e27b3b4.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/toprakkale-til-1756fd4761ba.png": {
+      "cls": "off",
+      "reason": "named fortress candidate with no coordinates or matched site in the repository"
+    },
+    "data/sprites/automated-intake/png/tumlu-kalesi-403baea15271.png": {
+      "cls": "off",
+      "reason": "named fortress candidate with no coordinates or matched site in the repository"
+    },
+    "data/sprites/automated-intake/png/twin-tower-latin-church-24a89c6ceecf.png": {
+      "cls": "fb:latin",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/vineyard-wine-press-eb2efb668f49.png": {
+      "cls": "green",
+      "reason": ""
+    },
+    "data/sprites/automated-intake/png/wheat-harvest-and-cart-23cc811952f3.png": {
+      "cls": "green",
+      "reason": ""
+    }
+  }
+}
