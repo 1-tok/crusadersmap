@@ -21,6 +21,20 @@ _Consolidated 2026-11-13. Applies to the current repository; historical reports 
 - Rendering order: geographic basemap → four rectangular gap underlays → natural/farming terrain → aligned coastline/rivers/islands → named settlements and fortresses → appropriate local generic accents → water-only decoration → clear labels, roads, borders and annotations on top.
 - Prioritize **integrating existing imagery and proving map coverage** before commissioning more art. See [lowland terrain priorities](TERRAIN-FARMING-LOWLAND-PRIORITIES-2026-11-12.md) for Nile Delta, Sharon/Acre, Cilicia, Greek lowlands, Cyprus and transition zones.
 
+## Mandatory POV and coastal-water orientation — 13 November 2026
+
+**NORTH-FACING POV is a hard acceptance requirement for every new or revised city, castle, port, island settlement and coastal terrain sprite.** This means the **observer/camera stands south of the subject and looks north**, from a consistent elevated oblique angle. It does **not** mean viewing the north-facing wall from the north or looking south. Do not switch viewpoints between assets to make the water easier to draw.
+
+For an unrotated north-up map and an unmirrored north-facing sprite:
+- **Top/background = north**, **bottom/foreground = south**; **image left = west**, **image right = east**.
+- **Sea west of the site** (e.g., many eastern Mediterranean mainland shoreline sites): paint water on **image left**. **Sea east of the site**: paint water on **image right**. **Sea north**: water behind the subject; **sea south**: water in the foreground. For bays, peninsulas, offshore castles and islands, trace the actual shoreline shape and multiple water-facing sides rather than imposing a single side.
+- Placement must follow the site's **real coastal geometry and the map projection**, not a convenient painterly composition. Do not flip/mirror or rotate a finished sprite merely to fix a wrong water side: this also reverses architecture, shadows, gates or landmarks. Repaint/re-compose with the same south-to-north viewpoint instead.
+- Inland sites must **not** contain invented sea, harbors, offshore water or rivers; rivers/wetlands must align with actual hydrography, and shore-only water must be clipped to the coastline.
+- Record `camera_position: south`, `camera_looks_toward: north`, `north_up: true`, the site's actual `water_bearings` (subset of N/E/S/W, or a shoreline geometry reference), and `coast_orientation_qa: pass|repaint_required|not_applicable|unverified` in new review metadata when supported. Existing schemas should be extended deliberately rather than introducing unsupported fields that would break intake.
+- Before approving placement, check named-site longitude/latitude against coastline; compare the PNG silhouette, visible shore and compass bearings; inspect the **full geographic composite**, including Aegean/Egypt inset transforms. Flag mismatches as `repaint_required` and do not mark print approved. A visually convincing castle with the sea on the wrong side fails placement QA.
+
+**Reference decision:** the later owner instruction explicitly prioritizes north-facing POV **so coastal water faces the correct side on the assembled map**. This paragraph supersedes vague earlier "side view", "orientation: south" or generic oblique wording wherever ambiguity exists. `orientation: south` in older sidecars means **camera located south, looking north**, never camera looking south.
+
 ## Four distinct states — never collapse them
 1. **Source uploaded:** source ZIP/PNG exists under `assets/sprites/incoming/`; does not prove extraction.
 2. **Technical intake passed:** individual PNG verified, deduplicated and registered; does not prove historical identity, geographic coordinates, placement or print quality.
