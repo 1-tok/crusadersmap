@@ -16,6 +16,7 @@ OUT.mkdir(parents=True,exist_ok=True)
 ledger=json.loads((ROOT/"data/manifests/CLAUDE-BUILD-IMAGE-LEDGER.json").read_text())["records"]
 intake=json.loads((ROOT/"data/sprites/automated-intake/manifest.json").read_text())["assets"]
 primaries=json.loads((ROOT/"assets/sprites.json").read_text())
+recovered={p["asset_path"]:p for p in json.loads((ROOT/"data/sprites/placements-geographic-recovery-1095-1571.json").read_text())["placements"]}
 existing={(p["site"],p["variant"]) for p in primaries}
 def norm(s):return re.sub("[^a-z0-9]","",(s or "").lower())
 def nearby(lon,lat,threshold=0.012):
@@ -39,7 +40,8 @@ for record in intake:
     elif kind=="river-marsh": decision="river_or_marsh_alignment_required"
     elif kind=="ships":decision="water_context_and_historic_rig_qa_required"
     elif kind in ("named-candidate","named-site"):
-        decision=("site_already_rendered_keep_as_alternate" if close else
+        decision=("sourced_geography_review_placed" if path in recovered else
+                  "site_already_rendered_keep_as_alternate" if close else
                   "unlocated_named_historic_site_hold" if not geo else
                   "geolocated_not_rendered_review_needed")
     elif kind in ("religious","generic-fort","generic-town"):
@@ -63,6 +65,7 @@ report={
  "intake_records":len(rows),
  "primary_named_sprites_selected":len(primaries),
  "site_matched_named_alternates":len(close),
+ "newly_sourced_review_castles":sum(x["decision"]=="sourced_geography_review_placed" for x in rows),
  "unmatched_named_candidates":len(miss),
  "water_and_coast_assets_held":sum(x["decision"] in ("coastline_geometry_water_side_qa_required","river_or_marsh_alignment_required") for x in rows),
  "decision_counts":dict(sorted(count.items())),
@@ -87,7 +90,8 @@ md=["# Geographic recovery — 226 intake assets","",
     "Atlas scope: **1095–1571**. Source paintings remain provisional and require historical/coastline review.",
     f"- Named sprites currently selected in renderer: **{len(primaries)}**",
     f"- Intake named candidates coincident with existing map primary: **{len(close)}**",
-    f"- Remaining named candidates without a matching rendered primary: **{len(miss)}**",
+    f"- Sourced castle candidates in review registry: **{report['newly_sourced_review_castles']}**",
+    f"- Remaining named candidates without a map primary or sourced anchor: **{len(miss)}**",
     f"- Shoreline/river assets withheld pending geometric alignment: **{report['water_and_coast_assets_held']}**",
     "- New unconditional production placements: **0** — duplicate and orientation QA take priority.",
     "", "## Decisions", ""]
