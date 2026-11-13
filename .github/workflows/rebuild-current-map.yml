@@ -14,6 +14,8 @@ on:
       - 'build_fallback_assets.py'
       - 'tools/import_recent_terrain_zips.py'
       - 'tools/report_map_sprite_utilization.py'
+      - 'tools/audit_intake_promotion.py'
+      - 'build_generic_assets.py'
       - 'terrain.py'
 
 permissions:
@@ -61,6 +63,7 @@ jobs:
           cp deliver/terrain-gap-report.md reports/rebuild-2026-11-12/
           cp deliver/terrain-gap-cells.csv reports/rebuild-2026-11-12/
           python tools/report_map_sprite_utilization.py
+          python tools/audit_intake_promotion.py
       - name: Upload build outputs for review
         if: always()
         uses: actions/upload-artifact@v4
