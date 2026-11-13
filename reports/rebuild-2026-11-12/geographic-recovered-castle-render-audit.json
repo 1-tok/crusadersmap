@@ -2,7 +2,7 @@
   "status": "review_only",
   "total": 3,
   "indexed": 3,
-  "shown": 1,
+  "shown": 3,
   "records": [
     {
       "site_id": "recovered-silifke-castle",
@@ -10,7 +10,7 @@
       "indexed": true,
       "asset_matches": true,
       "placement_log_records": 1,
-      "rendered_shown": false,
+      "rendered_shown": true,
       "history_certified": false,
       "coastal_orientation_certified": false
     },
@@ -30,7 +30,7 @@
       "indexed": true,
       "asset_matches": true,
       "placement_log_records": 1,
-      "rendered_shown": false,
+      "rendered_shown": true,
       "history_certified": false,
       "coastal_orientation_certified": false
     }
