@@ -62,6 +62,48 @@
       "production_approved": false,
       "orientation_qa": "pending_southern_oblique",
       "historical_qa": "Crusader/Armenian medieval castle; phase and painting unverified"
+    },
+    {
+      "site_id": "recovered-toprakkale-castle",
+      "name": "Toprakkale Kalesi",
+      "modern_name": "Toprakkale Castle",
+      "category": "castle",
+      "map_region": "main",
+      "coordinates": [
+        36.136569,
+        37.050362
+      ],
+      "coordinate_source": "Site geolocation from Toprakkale Kalesi local guide; castle history independently attested by Osmaniye Governorate",
+      "coordinate_source_url": "https://azotede.com/osmaniye/toprakkale/toprakkale-kalesi-osmaniye",
+      "historical_source_url": "https://osmaniye.gov.tr/toprakkale-kalesi",
+      "asset_path": "data/sprites/automated-intake/png/toprakkale-til-1756fd4761ba.png",
+      "display_width_units": 290,
+      "approximate_year": 1200,
+      "review_only": true,
+      "production_approved": false,
+      "orientation_qa": "pending_southern_oblique",
+      "historical_qa": "Medieval fortress; precise construction phase and depicted masonry not confirmed"
+    },
+    {
+      "site_id": "recovered-savranda-castle",
+      "name": "Savranda",
+      "modern_name": "Servantikar Castle",
+      "category": "castle",
+      "map_region": "main",
+      "coordinates": [
+        36.45944,
+        37.14746
+      ],
+      "coordinate_source": "Coordinates from Servantikar visitor reference, site identity and medieval castle established by Turkish Ministry of Culture",
+      "coordinate_source_url": "https://en.tourturka.com/discover/discover-servantikar-savranda-castle/",
+      "historical_source_url": "https://www.kulturportali.gov.tr/turkiye/osmaniye/kulturenvanteri/savranda-kales337070",
+      "asset_path": "data/sprites/automated-intake/png/savranda-servantikar-58bc99dbddd6.png",
+      "display_width_units": 285,
+      "approximate_year": 1200,
+      "review_only": true,
+      "production_approved": false,
+      "orientation_qa": "pending_southern_oblique",
+      "historical_qa": "Medieval fortress; exact bastion construction phase and sprite accuracy still review-only"
     }
   ]
 }
