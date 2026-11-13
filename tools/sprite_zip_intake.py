@@ -20,7 +20,7 @@ MAX_RATIO = 200
 def extract_archives(root: Path) -> dict:
     incoming = root / "assets/sprites/incoming"
     staging = incoming / "_zip_extract"
-    report = {"archives": [], "extracted": 0, "errors": []}
+    report = {"archives": [], "extracted": 0, "errors": [], "warnings": []}
     for archive in sorted(incoming.glob("*.zip")) if incoming.exists() else []:
         dest = staging / archive.stem
         extracted = []
@@ -40,6 +40,14 @@ def extract_archives(root: Path) -> dict:
                             or any(part in (".", "..") for part in p.parts)
                             or ":" in p.parts[0] or stat.S_ISLNK(mode)):
                         raise ValueError(f"unsafe archive member: {name!r}")
+                    if p.suffix.lower() == ".py":
+                        # Source code bundled alongside artwork must NEVER be
+                        # extracted or executed by sprite intake. Report it,
+                        # then safely import the valid PNGs/sidecars in the ZIP.
+                        report["warnings"].append({"archive": archive.name,
+                                                   "member": name,
+                                                   "warning": "Python source quarantined; not extracted or executed"})
+                        continue
                     if p.suffix.lower() not in (".png", ".json", ".md", ".csv", ".txt"):
                         raise ValueError(f"unexpected archive member: {name!r}")
                     if info.file_size > MAX_MEMBER:
