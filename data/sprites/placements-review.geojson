@@ -9,8 +9,8 @@
     "duplicates": "Choose one candidate per site; only show review layer when enabled.",
     "date_guard": "Honor depiction_year; Safed 1245 not on 1180 layer.",
     "updated": "2026-11-12",
-    "latest_review_batch": "fortress-intake-next12",
-    "note": "Eight imported fortress variants approved for review map; guard by depiction_year and do not stack duplicates; production QA pending."
+    "latest_review_batch": "three-cilician-fortresses-sourced-anchors",
+    "note": "Three newly geographically anchored Cilician fortresses visible for review only. 1180 phase and footprint not certified; no inclusion of eastern out-of-frame four."
   },
   "features": [
     {
@@ -2942,6 +2942,159 @@
           "Fortress built c. 1220s, never on 1180 layer"
         ],
         "period_note": "Review depiction_year only; do not infer exact construction phase from this candidate illustration"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gokvelioglu-castle-1180-intake-review",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.608000000000004,
+          36.84402777777778
+        ]
+      },
+      "properties": {
+        "site_id": "gokvelioglu-castle",
+        "name": "Gökvelioğlu Castle",
+        "asset_id": "INTAKE-3d4b1fcd08602350cb1e",
+        "asset_path": "data/sprites/automated-intake/png/g-kvelio-lu-castle-3d4b1fcd0860.png",
+        "depiction_year": 1180,
+        "map_region": "main",
+        "display_width_units": 288,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "fortifications",
+          "main"
+        ],
+        "candidate_only": false,
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "default_visible": true,
+        "technical_qa_status": "pass",
+        "geographic_placement_ready": true,
+        "coordinate_evidence": {
+          "url": "https://www.burgenwelt.org/tuerkei/goekvelioglu/object.php",
+          "surveyed": false,
+          "uncertainty_note": "Published point (not a surveyed medieval castle footprint)."
+        },
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "historical_review_required": true,
+        "visual_review_required": true,
+        "repaint_required": false,
+        "variant_group": "gokvelioglu-castle",
+        "variant_rule": "Only one variant per site; review overlaps before production.",
+        "period_1180_eligible": "provisional_unverified",
+        "period_note": "1180 selected strictly as draft review scenario, not historical confirmation of existing depiction.",
+        "review_note": "Byzantine-origin spur castle in Cilicia; exact visible architectural phase and southern-facing terrain not certified.",
+        "orientation": "southern-oblique-claimed-unverified",
+        "print_approved": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tumlu-kalesi-1180-intake-review",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.70133333333334,
+          37.150444444444446
+        ]
+      },
+      "properties": {
+        "site_id": "tumlu-kalesi",
+        "name": "Tumlu Kalesi",
+        "asset_id": "INTAKE-403baea15271bdfec008",
+        "asset_path": "data/sprites/automated-intake/png/tumlu-kalesi-403baea15271.png",
+        "depiction_year": 1180,
+        "map_region": "main",
+        "display_width_units": 288,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "fortifications",
+          "main"
+        ],
+        "candidate_only": false,
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "default_visible": true,
+        "technical_qa_status": "pass",
+        "geographic_placement_ready": true,
+        "coordinate_evidence": {
+          "url": "https://burgenwelt.de/tuerkei/tumlu/object.php",
+          "surveyed": false,
+          "uncertainty_note": "Published point (not a surveyed medieval castle footprint)."
+        },
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "historical_review_required": true,
+        "visual_review_required": true,
+        "repaint_required": false,
+        "variant_group": "tumlu-kalesi",
+        "variant_rule": "Only one variant per site; review overlaps before production.",
+        "period_1180_eligible": "provisional_unverified",
+        "period_note": "1180 selected strictly as draft review scenario, not historical confirmation of existing depiction.",
+        "review_note": "Armenian Cilician castle; 1180 composition and architectural phase require specialist review.",
+        "orientation": "southern-oblique-claimed-unverified",
+        "print_approved": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "softa-kalesi-1180-intake-review",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.01786,
+          36.10419
+        ]
+      },
+      "properties": {
+        "site_id": "softa-kalesi",
+        "name": "Softa Kalesi",
+        "asset_id": "INTAKE-81ac720094c3e6df81b0",
+        "asset_path": "data/sprites/automated-intake/png/softa-kalesi-81ac720094c3.png",
+        "depiction_year": 1180,
+        "map_region": "main",
+        "display_width_units": 288,
+        "placement_view": "sprite-review",
+        "map_layers": [
+          "sprites-review",
+          "fortifications",
+          "main"
+        ],
+        "candidate_only": false,
+        "approval_for_placement": true,
+        "approval_for_review_placement": true,
+        "production_approved": false,
+        "default_visible": true,
+        "technical_qa_status": "pass",
+        "geographic_placement_ready": true,
+        "coordinate_evidence": {
+          "url": "https://www.geonames.org/12552586",
+          "surveyed": false,
+          "uncertainty_note": "Published point (not a surveyed medieval castle footprint)."
+        },
+        "artwork_approval": "review-only-not-final",
+        "placement_status": "approved-review-only",
+        "review_required": true,
+        "historical_review_required": true,
+        "visual_review_required": true,
+        "repaint_required": false,
+        "variant_group": "softa-kalesi",
+        "variant_rule": "Only one variant per site; review overlaps before production.",
+        "period_1180_eligible": "provisional_unverified",
+        "period_note": "1180 selected strictly as draft review scenario, not historical confirmation of existing depiction.",
+        "review_note": "Softa fortress in Bozyazı, location cross-checked with Türkiye Ministry of Culture; Byzantine/medieval phases need artwork review; hillside is close to south-facing coast.",
+        "orientation": "southern-oblique-claimed-unverified",
+        "print_approved": false
       }
     }
   ]
