@@ -27,8 +27,18 @@ def draw(c, reg, edition, key):
         x0, y0 = reg.ll_px(r["w"], r["n"]); x1, y1 = reg.ll_px(r["e"], r["s"])
         xa, ya = reg.ll_px(r["w"], r["s"]); xb, yb = reg.ll_px(r["e"], r["n"])
         X0 = min(x0, xa); X1 = max(x1, xb); Y0 = min(y0, yb); Y1 = max(y1, ya)
-        if X0 < 0 or Y0 < 0 or X1 > reg.w or Y1 > reg.h or X1 - X0 < 6:
+        # Partially visible islands (notably Corfu on the western inset
+        # boundary) must be clipped, not discarded or shrunk to fit.
+        # Retain the ORIGINAL WGS84 geographic render box and resulting
+        # full-size pixel transform: do not rescale to the clipped rectangle.
+        if X1 <= 0 or Y1 <= 0 or X0 >= reg.w or Y0 >= reg.h or X1 - X0 < 6 or Y1 - Y0 < 6:
             continue
         s = _surf(r["file"], edition, int(round(X1 - X0)), int(round(Y1 - Y0)))
-        c.save(); c.set_source_surface(s, X0, Y0); c.get_source().set_filter(cairo.FILTER_BEST); c.paint(); c.restore()
+        c.save()
+        c.rectangle(0, 0, reg.w, reg.h)
+        c.clip()
+        c.set_source_surface(s, X0, Y0)
+        c.get_source().set_filter(cairo.FILTER_BEST)
+        c.paint()
+        c.restore()
         USED[r["id"]] = key
