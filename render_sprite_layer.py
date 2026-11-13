@@ -73,7 +73,7 @@ def render(year=1180, atlas=False, review=False, all_review_variants=False):
         raise ValueError('Review-only layer cannot use the mixed-period atlas selector')
     chosen=(review_placements(year, all_review_variants) if review
             else atlas_placements(catalog) if atlas else placements(catalog,year))
-    suffix=(f'review-{year}' if review else 'atlas' if atlas else str(year)
+    suffix=(f'review-{year}' if review else 'atlas' if atlas else str(year))
     svg=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{frame.W}" height="{frame.H}" viewBox="0 0 {frame.W} {frame.H}">',
          '<title>'+('DRAFT REVIEW ONLY ' if review else 'Provisional ')+('multi-period atlas' if atlas else 'circa-'+str(year))+' sprite layer; repaint review required</title>']
     # Diagnostic on neutral paper with a geographic grid, not a finished atlas.
