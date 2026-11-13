@@ -1,0 +1,1074 @@
+{
+  "created": "2026-11-12",
+  "policy": "non-destructive; do not promote without verified geometry/shape; remove identical copies from review queue, preserve source files",
+  "candidate_records": 129,
+  "unique_hashes": 97,
+  "duplicate_entries_suppressed": 32,
+  "conflicting_or_invalid_unique_assets": 4,
+  "review_only_unique_assets": 93,
+  "active_geographically_registered": 47,
+  "geo_promoted": 0,
+  "deduplicated_review_queue": [
+    {
+      "path": "data/sprites/greek-islands/batch-03/48_aegina.png",
+      "name": "Aegina",
+      "sha256": "ff77df673f0448a6ad7b290712fd858dac480349a270b5952c652d2c1ea1ff95",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/48_aegina_DRAFT.png",
+      "name": "48_aegina_DRAFT",
+      "sha256": "f2cb15451b06e365d6a723e48054475476af070ce66fdd485a4c92e7ea791064",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/49_salamis.png",
+      "name": "Salamis",
+      "sha256": "38a553dc8d95aa2bf24e9eaac19639e175b6117165afb3b6830995c756b68328",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/49_salamis_DRAFT.png",
+      "name": "49_salamis_DRAFT",
+      "sha256": "0d1da51336b08a49da37acbf51218c4ad92b9baeb64441d9c8c26c1df870f3b8",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/50_poros.png",
+      "name": "Poros",
+      "sha256": "b012ec8d9286590cc4089e597dd3ca6da9b4fb9fb6860d38f4967ea1f66152b8",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/50_poros_DRAFT.png",
+      "name": "50_poros_DRAFT",
+      "sha256": "b5a49dae12868ffc1a28ad8894d7576167de351055a8d4fa6f899fe548116b78",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/51_hydra.png",
+      "name": "Hydra",
+      "sha256": "1aab8a9e6a061598fa91f74426e9a4104beb428bc0731b5585fc26dfc811783c",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/51_hydra_DRAFT.png",
+      "name": "51_hydra_DRAFT",
+      "sha256": "c7107d7ebc506880cb77925cc7a74489b4c3b6ea96ac19dc0a4ec82b11ff48e8",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/52_spetses.png",
+      "name": "Spetses",
+      "sha256": "2f6533a5ca0ed0f59a9eeb9508edd7f84b601a2da63233100b8ae1826ae397e0",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/52_spetses_DRAFT.png",
+      "name": "52_spetses_DRAFT",
+      "sha256": "ca644f89dcb481a507d4d211fb64791440f86dfca5b78fb2172a4b296139cb67",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/53_agistri.png",
+      "name": "Agistri",
+      "sha256": "5d4286827c032d46cef4ae2fff9fc3471af54c406d85cf3b5beffef9eca496bc",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/53_agistri_DRAFT.png",
+      "name": "53_agistri_DRAFT",
+      "sha256": "1f8072b70b8eac24285e88a188981e4cd4b1933aae0e7770e6421a23dc07c389",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/54_paxos.png",
+      "name": "Paxos",
+      "sha256": "5ab4bc6943fc87dd8772e4c62f2504689e5d10dbbe94c44be23ad180f4412cf9",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/54_paxos_DRAFT.png",
+      "name": "54_paxos_DRAFT",
+      "sha256": "9af1971d04e47d9eb89b337a5b562ce3e242c38e8c00f06c3e8e2f15ce7d5fef",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/55_antipaxos.png",
+      "name": "Antipaxos",
+      "sha256": "4b29ffbe6c4dea4f35652b22735503b92464ba9f5ae2458bd5a27be6d18e25fd",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/55_antipaxos_DRAFT.png",
+      "name": "55_antipaxos_DRAFT",
+      "sha256": "56d093ab425d7f37f845055f4d57b7f0ee0eae20e27b8341cd951b62d0c47712",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/56_antiparos.png",
+      "name": "Antiparos",
+      "sha256": "36aeee945dc203ce3d835ad41ad28758a6612a9689021af03c118cd7c38db48c",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/56_antiparos_DRAFT.png",
+      "name": "56_antiparos_DRAFT",
+      "sha256": "8acdf8eef8432f3557c856fca96200623f6d4bf8770e0fce74d8871e41598eb7",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/57_delos.png",
+      "name": "Delos",
+      "sha256": "3cef75d465df7b2c113c819d7f49ddbbdb265669efa6c0a1182b9d46eb2827fd",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/57_delos_DRAFT.png",
+      "name": "57_delos_DRAFT",
+      "sha256": "11c788b1544f36b3da511a1964f9400a11534090718416da85e04c8dd14e5673",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/58_rhenia.png",
+      "name": "Rhenia",
+      "sha256": "cc8a7979454bfe78378a432eb3c4cf4f189de1168765a01675ab4d7244805606",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/58_rhenia_DRAFT.png",
+      "name": "58_rhenia_DRAFT",
+      "sha256": "6300a7cdfef94b690d81e1a4bba3a628710db7685e1a8015475131a4be6a16fb",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/59_sikinos.png",
+      "name": "Sikinos",
+      "sha256": "e22592eab04a1a1cd0eca7114e50a1f5b90e581709deb9fdf3c3c723ae5592d6",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/59_sikinos_DRAFT.png",
+      "name": "59_sikinos_DRAFT",
+      "sha256": "0dc3c0ff5f590cec33ae3fa8d313af1710fa443fb6eb6bfc219afec088a8b3bb",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/60_donousa.png",
+      "name": "Donousa",
+      "sha256": "cd0c7ef57dea92d1a4305cb3b2e9aa1a26904b40ad2e4133dffb29d69a16f248",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/60_donousa_DRAFT.png",
+      "name": "60_donousa_DRAFT",
+      "sha256": "d8c176d8d871f642a1d4e1826a27e4ada0361f96fe59f3054dcf9280803b771f",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/61_irakleia.png",
+      "name": "Irakleia",
+      "sha256": "4f77dfd506573c3f926fc4cd395863c9938e1beec7f3dd4fb0426d9974defa26",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/61_irakleia_DRAFT.png",
+      "name": "61_irakleia_DRAFT",
+      "sha256": "ae7b604c531f71dbf537bd83a6d54ac7e26edd8995ec8bd83890804792cedbeb",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/62_schinoussa.png",
+      "name": "Schinoussa",
+      "sha256": "abb48eaa9dab2954a00be3bd7a42ffe7f6557d4645b8320e2e80cb5af1df626a",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/62_schinoussa_DRAFT.png",
+      "name": "62_schinoussa_DRAFT",
+      "sha256": "3dd9323dc65ec24e2a253a46b0aa792a080a2cdecdb7f6a3defbb5fd92c54200",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/63_koufonisia.png",
+      "name": "Koufonisia",
+      "sha256": "6695314a835b5e054246b6d0638fb52199cf2a666049c2e588e1934d6a42f229",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/63_koufonisia_DRAFT.png",
+      "name": "63_koufonisia_DRAFT",
+      "sha256": "b25521f090b67569db167a58a2e359cc292c01a69209e551aa1da4101187020c",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/64_chalki.png",
+      "name": "Chalki",
+      "sha256": "74fe97548897cc629cd67441dbbf486f12d7359cb9b50d9bd53625a074d61b27",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/64_chalki_DRAFT.png",
+      "name": "64_chalki_DRAFT",
+      "sha256": "aed0270c6ef0412a8a89b27797917a58dc384a44a1ee933db1106ffb750ca01e",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/65_lipsi.png",
+      "name": "Lipsi",
+      "sha256": "b6684b993810d1962fa062032647a266d2549befe4c126bed981e3d03ce4ddd5",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/65_lipsi_DRAFT.png",
+      "name": "65_lipsi_DRAFT",
+      "sha256": "54a1bfaf476b055c84955108bbbdd6634a963fffcb1d5c89a7c664f2e928315f",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/66_kastellorizo.png",
+      "name": "Kastellorizo",
+      "sha256": "4030ce0e7a090eac1205dce010a1cb8c049314d45e0271c3fd0a1cdde21c10af",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/66_kastellorizo_DRAFT.png",
+      "name": "66_kastellorizo_DRAFT",
+      "sha256": "7ccc8688ad1dcb954ff815ab6a482e39d07c9a98c8f4d7652f14824d70a4ce8c",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/67_imbros.png",
+      "name": "Imbros",
+      "sha256": "862868340a33cc272dda71be28bf58f0600fc6aa90dc7e98428fc32ac9625bea",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/67_imbros_DRAFT.png",
+      "name": "67_imbros_DRAFT",
+      "sha256": "5d65df4655220052beefa24b68c54d3fbe266930f70b8bbd0d1724958a83339e",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/68_tenedos.png",
+      "name": "Tenedos",
+      "sha256": "1789f7efbe2728593f3dd99aa8f514442c40f8d9e934633c89e279fabc3fa1b8",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/68_tenedos_DRAFT.png",
+      "name": "68_tenedos_DRAFT",
+      "sha256": "b1c1705c2c820af868385f138eb20c31c0fa3fa8525549c757e65656e09c10ca",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/69_psara.png",
+      "name": "Psara",
+      "sha256": "660eea501cfc8dc96b5fab8e4aa96377711394048437deb8f45c52d19d5cc58a",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/69_psara_DRAFT.png",
+      "name": "69_psara_DRAFT",
+      "sha256": "7ce50f86c59fe93ec93fcfe5f1d47c2eb1ded7dfc65103b3a927ba651d44c227",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/70_gavdos.png",
+      "name": "Gavdos",
+      "sha256": "72869d37430ae3adf4db9c7969afe25fe82e6eed42f13dc64f194f9f99513687",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/70_gavdos_DRAFT.png",
+      "name": "70_gavdos_DRAFT",
+      "sha256": "855113f319c4b4b378714a4744a2d8d8e72a674f0e9bff3777943638c4f36256",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/71_elafonisos.png",
+      "name": "Elafonisos",
+      "sha256": "dcbbcde738ca256b147bdaec98539653bad4f6fcf1d0a7cb2573e5ee64889281",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/71_elafonisos_DRAFT.png",
+      "name": "71_elafonisos_DRAFT",
+      "sha256": "4682d9c47a0ca71bdaf81e9d3f8678e43389514f59d5ac7f336347526e96c0fd",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/mediterranean_atlas_greek_island_sprites.png",
+      "name": "mediterranean_atlas_greek_island_sprites",
+      "sha256": "c7ed12243ec89b2a67e5aac51f19fcb0a98e8e9cab4009b83870b358635792fc",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/mediterranean_island_atlas_sprite_sheet.png",
+      "name": "mediterranean_island_atlas_sprite_sheet",
+      "sha256": "7bf6ab9b1001ecf9119954adca0ff80c0f38d180ed08db020fa76cda40d20e83",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-04/review-unregistered/72-arki-marathi-cluster-draft-9d7fbc4c2d88.png",
+      "name": "72-arki-marathi-cluster-draft-9d7fbc4c2d88",
+      "sha256": "1e3897accc6ac493b5771ae2323f253e240dd34089dc10985c3d1d568008e176",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-04/review-unregistered/73-oinousses-cluster-draft-fd807ab99f04.png",
+      "name": "73-oinousses-cluster-draft-fd807ab99f04",
+      "sha256": "25d754f20dd1badf389b6706670eed7354a86da40199cf2fa2f16af0a312b4c7",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-04/review-unregistered/74-fournoi-cluster-draft-ca98b66a708c.png",
+      "name": "74-fournoi-cluster-draft-ca98b66a708c",
+      "sha256": "09847c2bf7aaaf5d3e0311615fc97f2b8b4b35f6ae270001eebf761f6dbdbded",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-04/review-unregistered/75-antikythera-draft-09bb8904668b.png",
+      "name": "75-antikythera-draft-09bb8904668b",
+      "sha256": "6587b5c84f7e1d582a59e521e4b418dd447f2e8639c3a1e76b3dafbf7ae72cde",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-05/review-unregistered/b05-concept-01-unassigned-draft-74191efe98aa.png",
+      "name": "b05-concept-01-unassigned-draft-74191efe98aa",
+      "sha256": "e89f7e7c74ed1e33cf74fe6c84630d2e19d5a084f933f6f30cb2d9e805da706c",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-05/review-unregistered/b05-concept-02-unassigned-draft-bbbf8b229ab5.png",
+      "name": "b05-concept-02-unassigned-draft-bbbf8b229ab5",
+      "sha256": "f5d01c473d43763447868544bf7d7f6dc694a45c696fbff705c36da4ba950840",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-05/review-unregistered/b05-concept-03-unassigned-draft-b1d2b8d18c89.png",
+      "name": "b05-concept-03-unassigned-draft-b1d2b8d18c89",
+      "sha256": "66507aa5d961e715fa450d7f9bcd00f90916e26f68e98978df5abcaccb7a538b",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-05/review-unregistered/b05-concept-04-unassigned-draft-263ddba85249.png",
+      "name": "b05-concept-04-unassigned-draft-263ddba85249",
+      "sha256": "ac8c8a6304761f7271167a1c58b1af25cba198a21b789ad484e95039e5865933",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-06/review-unregistered/76-othonoi-concept-65b2888de91b.png",
+      "name": "76-othonoi-concept-65b2888de91b",
+      "sha256": "06c1c53ffbf176ff02f1ffadb0bef5a98b1e931d37160a93362ca0bd8c0269a5",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-06/review-unregistered/77-ereikoussa-concept-121fcdbe63d7.png",
+      "name": "77-ereikoussa-concept-121fcdbe63d7",
+      "sha256": "5f1ea77da8c4f885e1961fae2bdaa6e3c027fb2e7c269b2cd80acf1532e23408",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-06/review-unregistered/78-mathraki-concept-8c230f7ded59.png",
+      "name": "78-mathraki-concept-8c230f7ded59",
+      "sha256": "7d0febb1d9e110616aecfd974becd75abbe7d96a9533627a6d1072df61b7a6ea",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-06/review-unregistered/79-saria-concept-06d4c61e5832.png",
+      "name": "79-saria-concept-06d4c61e5832",
+      "sha256": "899f7f47bd2e50c03c596ba5edd78555f4fd530d5f847c88f3cdc08f188259ac",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-08/review-unregistered/86-polyaigos-concept-d0b77d2b1cfe.png",
+      "name": "86-polyaigos-concept-d0b77d2b1cfe",
+      "sha256": "0e4773249b9231cc197b1fbaca1c89ae16b88938cdf4d74b7413bb0eae00ded7",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-08/review-unregistered/87-gyaros-concept-52d0b94c4e4d.png",
+      "name": "87-gyaros-concept-52d0b94c4e4d",
+      "sha256": "80da50f63dd0084b2b37e6e834370e6ca602001787957147530832f7167b65c5",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-08/review-unregistered/88-makronisos-concept-48de6d91dca5.png",
+      "name": "88-makronisos-concept-48de6d91dca5",
+      "sha256": "0de5e40f007d36b703300d22b40b2b9f938d47dc6b279776a7808a95dec38e04",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-08/review-unregistered/89-dokos-concept-ad2102d19765.png",
+      "name": "89-dokos-concept-ad2102d19765",
+      "sha256": "fea20eaabbaf096b703a669a0910142f9ee700776f1b14125c3d2fd76178d1f5",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-08/review-unregistered/90-sapientza-concept-7d28e59627c7.png",
+      "name": "90-sapientza-concept-7d28e59627c7",
+      "sha256": "3aa7c75191cc082c2e396ca413029ab15137240296cd1f5983cca828c6572d8e",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-08/review-unregistered/91-schiza-concept-0a2fcaf14b22.png",
+      "name": "91-schiza-concept-0a2fcaf14b22",
+      "sha256": "3a40c84025d964c13f1eb737174d8f70ebe21c508648c19fdebd3b3891d01cdd",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-09/review-unregistered/92-thirasia-concept-d68549eea353.png",
+      "name": "92-thirasia-concept-d68549eea353",
+      "sha256": "7874ef799af5f012490c31d5ca696b0c7549c4079addc0a6dcdcdd051e58fd11",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-09/review-unregistered/93-despotiko-concept-4cca48917a9f.png",
+      "name": "93-despotiko-concept-4cca48917a9f",
+      "sha256": "4999605d78b2b5eb8c5a9ec817f9c78d95c88ab8359b1966f7b592f526e02048",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-09/review-unregistered/94-dia-concept-757a8049c4c9.png",
+      "name": "94-dia-concept-757a8049c4c9",
+      "sha256": "647544879d67ecbedbf1338b852b779afec9e2e996541eae696569d73225d1ca",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-09/review-unregistered/95-antimilos-concept-7a3f40bb4125.png",
+      "name": "95-antimilos-concept-7a3f40bb4125",
+      "sha256": "8adbfb2ec9d0ad5b51fa5d0499190e34f16bb862376ecf43959101728426af2c",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-09/review-unregistered/96-gramvousa-concept-3fc3adbd687b.png",
+      "name": "96-gramvousa-concept-3fc3adbd687b",
+      "sha256": "f2501e981a76f2c51255892a262b6653aa28c6439cf0e6c530889ca78fc2a392",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-09/review-unregistered/97-chrysi-concept-9595a7a06e05.png",
+      "name": "97-chrysi-concept-9595a7a06e05",
+      "sha256": "b6a3e8d724782f2344e4083c0667eed52d0e7e42f3a77ff251c99030cc150c49",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-10/review-unregistered/100-kyra-panagia-concept-e0be838bd796.png",
+      "name": "100-kyra-panagia-concept-e0be838bd796",
+      "sha256": "104cab13950eaf3e9abf3731c366152747731e1d9732464ee8ed9f21d6485795",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-10/review-unregistered/101-gioura-concept-5fd81cf6ac1e.png",
+      "name": "101-gioura-concept-5fd81cf6ac1e",
+      "sha256": "31f37b37b3c0118a2adab9e90ddf3e5b8d0ec1ba7d28931da1a24f24f345d641",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-10/review-unregistered/102-piperi-sporades-concept-5f278c47616e.png",
+      "name": "102-piperi-sporades-concept-5f278c47616e",
+      "sha256": "4c60307cb0bcc3c8e421eea53d63fb10754488032aa16538d6b41ab71475a250",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-10/review-unregistered/103-skantzoura-concept-133f1b87a823.png",
+      "name": "103-skantzoura-concept-133f1b87a823",
+      "sha256": "320e741cbe55036e5adf36daed967b7ea9c69d1ec02f1b8289765b345a2d54c0",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-10/review-unregistered/98-agios-efstratios-concept-fef992e0674c.png",
+      "name": "98-agios-efstratios-concept-fef992e0674c",
+      "sha256": "489416a03ed777a06f573f1b1823e5a2e8d03937fe816dbe3ae9e71df2bf76ab",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-10/review-unregistered/99-peristera-sporades-concept-18b90c11fb97.png",
+      "name": "99-peristera-sporades-concept-18b90c11fb97",
+      "sha256": "882ae6db0b268f7398d4eea160ffd3e1577e02ee246db7ca117f326b3a5ef3b6",
+      "source": "batch_extracted",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch07_intake.zip:batch-07/80_agathonisi_CONCEPT.png",
+      "name": "80_agathonisi_CONCEPT",
+      "sha256": "64b1bcfe715ff8c8d0d5b2c842cd5fd5a0f73dd9797ce1fcb0afa015ef003fe3",
+      "source": "zip_intake",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch07_intake.zip:batch-07/81_pserimos_CONCEPT.png",
+      "name": "81_pserimos_CONCEPT",
+      "sha256": "0004f5f729a582524478998f5a82866d21b89ffbaeb708c214a3e46c8e379993",
+      "source": "zip_intake",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch07_intake.zip:batch-07/82_telendos_CONCEPT.png",
+      "name": "82_telendos_CONCEPT",
+      "sha256": "5f3c07c0c18a581fbdd903dce20a0a15568ee79cabe932f3e5a5a39248bec394",
+      "source": "zip_intake",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch07_intake.zip:batch-07/83_meganisi_CONCEPT.png",
+      "name": "83_meganisi_CONCEPT",
+      "sha256": "36335db212bf6358fa02bf888a7b6489f1d7bb935f4711da89a0813267967259",
+      "source": "zip_intake",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch07_intake.zip:batch-07/84_kinaros_CONCEPT.png",
+      "name": "84_kinaros_CONCEPT",
+      "sha256": "5b0bc39655c7e2f5aac139f93f382e5ea136922e0e85507556afd85f97bd127b",
+      "source": "zip_intake",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch07_intake.zip:batch-07/85_levitha_CONCEPT.png",
+      "name": "85_levitha_CONCEPT",
+      "sha256": "2f6c968fffe477bb67b3070d1f926eada3e8a7ca080292670b7b23b459453249",
+      "source": "zip_intake",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch07_intake.zip:batch-07/batch07_original_sheet.png",
+      "name": "batch07_original_sheet",
+      "sha256": "f305cb605adf13ded4d689c0c51f47966cd12807eb8bbce0a8cddf8712be9edc",
+      "source": "zip_intake",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch11_intake.zip:batch-11/104_kalamos_CONCEPT.png",
+      "name": "104_kalamos_CONCEPT",
+      "sha256": "3d610916b5e1cc54f07ca1a1ef283e84fc874e41064fa7bf940595bc1cd2f930",
+      "source": "zip_intake",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch11_intake.zip:batch-11/105_kastos_CONCEPT.png",
+      "name": "105_kastos_CONCEPT",
+      "sha256": "fed1fc7bc5d912950cc4b4237381d2daf37c3fec3e3e59dd82685117e8ef9634",
+      "source": "zip_intake",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch11_intake.zip:batch-11/106_atokos_CONCEPT.png",
+      "name": "106_atokos_CONCEPT",
+      "sha256": "a3b6245b7653fcde02953232c5d6cce4bb435013aba19e54741094ae191abb8f",
+      "source": "zip_intake",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch11_intake.zip:batch-11/107_arkoudi_CONCEPT.png",
+      "name": "107_arkoudi_CONCEPT",
+      "sha256": "23eb6caede1c5d3776fde55ac0fe0fe7c733aff9e41b977090e6267804340fe1",
+      "source": "zip_intake",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch11_intake.zip:batch-11/108_oxia_CONCEPT.png",
+      "name": "108_oxia_CONCEPT",
+      "sha256": "9593a9aa9a0d6c978dfbb515f9d5e7fb0ed38c5433ccac008a0ad04af8dad8c9",
+      "source": "zip_intake",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch11_intake.zip:batch-11/109_petalas_CONCEPT.png",
+      "name": "109_petalas_CONCEPT",
+      "sha256": "024c0873c2a2f62b69e590acb6c3bdd4c43e32248af7c83657d5395ba7a28a77",
+      "source": "zip_intake",
+      "region": "aegean",
+      "placement_enabled": false,
+      "hold_reason": "missing verified WGS84 render footprint and coastline validation"
+    }
+  ],
+  "reserved_or_invalid": [
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch08_intake.zip:batch-08/original_sheet.png",
+      "source": "zip_intake",
+      "name": "original_sheet",
+      "sha256": "1b80f353d6919d0c1b27545a229a491d78a2cef91615b0731f95b0e4bded4572",
+      "size_px": [
+        1774,
+        887
+      ],
+      "has_alpha": false,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_requires_transparent_PNG"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch09_intake.zip:batch-09/original_generation_sheet.png",
+      "source": "zip_intake",
+      "name": "original_generation_sheet",
+      "sha256": "728bdf75a602d5033f13b24f38526d7b457f935f4440a6e30857ae3bb6010257",
+      "size_px": [
+        1774,
+        887
+      ],
+      "has_alpha": false,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_requires_transparent_PNG"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch10_intake.zip:batch-10/batch10_source_sheet.png",
+      "source": "zip_intake",
+      "name": "batch10_source_sheet",
+      "sha256": "9c57a900e60d0de351abb6be98016dac5208058182ab83bb21d24079077a3c0c",
+      "size_px": [
+        1774,
+        887
+      ],
+      "has_alpha": false,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_requires_transparent_PNG"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch11_intake.zip:batch-11/batch11_original_sheet.png",
+      "source": "zip_intake",
+      "name": "batch11_original_sheet",
+      "sha256": "72aad57af411d2bb2ea50ca9109437c574205f3242302c042fa3674b53dd1ed6",
+      "size_px": [
+        1774,
+        887
+      ],
+      "has_alpha": false,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_requires_transparent_PNG"
+    }
+  ],
+  "duplicate_entries": [
+    {
+      "path": "data/sprites/greek-islands/batch-03/source-sheet-1.png",
+      "identical_to": "data/sprites/greek-islands/batch-03/mediterranean_atlas_greek_island_sprites.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-03/source-sheet-2.png",
+      "identical_to": "data/sprites/greek-islands/batch-03/mediterranean_island_atlas_sprite_sheet.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch04_draft.zip:batch-04/74_fournoi_cluster_DRAFT.png",
+      "identical_to": "data/sprites/greek-islands/batch-04/review-unregistered/74-fournoi-cluster-draft-ca98b66a708c.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch04_draft.zip:batch-04/73_oinousses_cluster_DRAFT.png",
+      "identical_to": "data/sprites/greek-islands/batch-04/review-unregistered/73-oinousses-cluster-draft-fd807ab99f04.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch04_draft.zip:batch-04/75_antikythera_DRAFT.png",
+      "identical_to": "data/sprites/greek-islands/batch-04/review-unregistered/75-antikythera-draft-09bb8904668b.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch04_draft.zip:batch-04/72_arki_marathi_cluster_DRAFT.png",
+      "identical_to": "data/sprites/greek-islands/batch-04/review-unregistered/72-arki-marathi-cluster-draft-9d7fbc4c2d88.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch05_intake.zip:batch-05/b05_concept_01_UNASSIGNED_DRAFT.png",
+      "identical_to": "data/sprites/greek-islands/batch-05/review-unregistered/b05-concept-01-unassigned-draft-74191efe98aa.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch05_intake.zip:batch-05/b05_concept_02_UNASSIGNED_DRAFT.png",
+      "identical_to": "data/sprites/greek-islands/batch-05/review-unregistered/b05-concept-02-unassigned-draft-bbbf8b229ab5.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch05_intake.zip:batch-05/b05_concept_03_UNASSIGNED_DRAFT.png",
+      "identical_to": "data/sprites/greek-islands/batch-05/review-unregistered/b05-concept-03-unassigned-draft-b1d2b8d18c89.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch05_intake.zip:batch-05/b05_concept_04_UNASSIGNED_DRAFT.png",
+      "identical_to": "data/sprites/greek-islands/batch-05/review-unregistered/b05-concept-04-unassigned-draft-263ddba85249.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch06_intake.zip:76_othonoi_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-06/review-unregistered/76-othonoi-concept-65b2888de91b.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch06_intake.zip:79_saria_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-06/review-unregistered/79-saria-concept-06d4c61e5832.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch06_intake.zip:77_ereikoussa_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-06/review-unregistered/77-ereikoussa-concept-121fcdbe63d7.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch06_intake.zip:78_mathraki_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-06/review-unregistered/78-mathraki-concept-8c230f7ded59.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch08_intake.zip:batch-08/86_polyaigos_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-08/review-unregistered/86-polyaigos-concept-d0b77d2b1cfe.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch08_intake.zip:batch-08/87_gyaros_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-08/review-unregistered/87-gyaros-concept-52d0b94c4e4d.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch08_intake.zip:batch-08/88_makronisos_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-08/review-unregistered/88-makronisos-concept-48de6d91dca5.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch08_intake.zip:batch-08/89_dokos_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-08/review-unregistered/89-dokos-concept-ad2102d19765.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch08_intake.zip:batch-08/90_sapientza_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-08/review-unregistered/90-sapientza-concept-7d28e59627c7.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch08_intake.zip:batch-08/91_schiza_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-08/review-unregistered/91-schiza-concept-0a2fcaf14b22.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch09_intake.zip:batch-09/92_thirasia_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-09/review-unregistered/92-thirasia-concept-d68549eea353.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch09_intake.zip:batch-09/93_despotiko_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-09/review-unregistered/93-despotiko-concept-4cca48917a9f.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch09_intake.zip:batch-09/94_dia_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-09/review-unregistered/94-dia-concept-757a8049c4c9.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch09_intake.zip:batch-09/95_antimilos_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-09/review-unregistered/95-antimilos-concept-7a3f40bb4125.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch09_intake.zip:batch-09/96_gramvousa_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-09/review-unregistered/96-gramvousa-concept-3fc3adbd687b.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch09_intake.zip:batch-09/97_chrysi_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-09/review-unregistered/97-chrysi-concept-9595a7a06e05.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch10_intake.zip:batch-10/100_kyra_panagia_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-10/review-unregistered/100-kyra-panagia-concept-e0be838bd796.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch10_intake.zip:batch-10/101_gioura_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-10/review-unregistered/101-gioura-concept-5fd81cf6ac1e.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch10_intake.zip:batch-10/102_piperi_sporades_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-10/review-unregistered/102-piperi-sporades-concept-5f278c47616e.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch10_intake.zip:batch-10/103_skantzoura_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-10/review-unregistered/103-skantzoura-concept-133f1b87a823.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch10_intake.zip:batch-10/98_agios_efstratios_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-10/review-unregistered/98-agios-efstratios-concept-fef992e0674c.png",
+      "reason": "byte_duplicate"
+    },
+    {
+      "path": "assets/sprites/incoming/crusader_greek_islands_batch10_intake.zip:batch-10/99_peristera_sporades_CONCEPT.png",
+      "identical_to": "data/sprites/greek-islands/batch-10/review-unregistered/99-peristera-sporades-concept-18b90c11fb97.png",
+      "reason": "byte_duplicate"
+    }
+  ]
+}
