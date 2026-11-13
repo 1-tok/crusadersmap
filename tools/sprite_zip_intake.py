@@ -32,6 +32,19 @@ def extract_archives(root: Path) -> dict:
                 total = 0
                 planned = []
                 seen = set()
+                # Source/master sheets are useful references, but should never
+                # become standalone map sprites when the ZIP contains cutouts.
+                def is_master(member_name):
+                    p = PurePosixPath(member_name)
+                    stem = p.stem.lower()
+                    return (p.parts[0].lower() == "masters"
+                            or stem.endswith("_master")
+                            or stem.endswith("-master"))
+                has_cutouts = any(
+                    m.filename.lower().endswith(".png")
+                    and not is_master(m.filename)
+                    for m in members
+                )
                 for info in members:
                     name = info.filename
                     p = PurePosixPath(name)
@@ -60,6 +73,11 @@ def extract_archives(root: Path) -> dict:
                     if relative.as_posix().lower() in seen:
                         raise ValueError(f"duplicate member path: {name!r}")
                     seen.add(relative.as_posix().lower())
+                    if p.suffix.lower() == ".png" and has_cutouts and is_master(name):
+                        report["warnings"].append({
+                            "archive": archive.name, "member": name,
+                            "warning": "source/master sheet skipped; individual cutouts available"})
+                        continue
                     if p.suffix.lower() in (".png", ".json"):
                         planned.append((info, relative))
                 if not any(p.suffix.lower() == ".png" for _, p in planned):
