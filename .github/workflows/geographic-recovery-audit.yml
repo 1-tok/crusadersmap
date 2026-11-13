@@ -1,0 +1,42 @@
+name: Geographic recovery audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/audit_geographic_recovery.py'
+      - '.github/workflows/geographic-recovery-audit.yml'
+permissions:
+  contents: write
+concurrency:
+  group: geographic-recovery-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reconcile held locations and variants
+        run: python tools/audit_geographic_recovery.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: geographic-recovery-qa
+          path: reports/geographic-recovery-2026-11-12/
+      - name: Commit reconciliation (no sprite placement changes)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git reset --mixed origin/main
+            git add reports/geographic-recovery-2026-11-12/
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m "audit: geographic recovery choices and held sprite queue [skip ci]"
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
