@@ -135,10 +135,10 @@ data/sprites/automated-intake/png/b18-04-ruined-hillfort-generic-6330cbb777ea.pn
 data/sprites/automated-intake/png/b18-05-walled-monastery-generic-0936d53b9b75.png,automated-intake,religious,B18-05_walled_monastery_generic,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/automated-intake/png/b18-06-multiarch-stone-aqueduct-9f3183dbbc7c.png,automated-intake,rural-infrastructure,B18-06_multiarch_stone_aqueduct,no,Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering
 data/sprites/automated-intake/png/b18-07-fortified-river-bridge-f646d5db6f76.png,automated-intake,river-marsh,B18-07_fortified_river_bridge,no,"river, marsh or bridge piece: needs aligning to a real river course before use"
-data/sprites/automated-intake/png/b18-08-stone-village-chapel-767c571fb425.png,automated-intake,religious,B18-08_stone_village_chapel,yes,"generic green piece, placed 5 times"
+data/sprites/automated-intake/png/b18-08-stone-village-chapel-767c571fb425.png,automated-intake,religious,B18-08_stone_village_chapel,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/b18-09-river-watermill-c6aec74d703b.png,automated-intake,river-marsh,B18-09_river_watermill,no,Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering
 data/sprites/automated-intake/png/b18-10-crusader-camp-115c67adc323.png,automated-intake,trade-caravan,B18-10_crusader_camp,yes,"generic green piece, placed 4 times"
-data/sprites/automated-intake/png/b18-11-market-tents-915b1620bfbb.png,automated-intake,trade-caravan,B18-11_market_tents,yes,"generic green piece, placed 3 times"
+data/sprites/automated-intake/png/b18-11-market-tents-915b1620bfbb.png,automated-intake,trade-caravan,B18-11_market_tents,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/b18-12-hilltop-watchtower-3673359599e2.png,automated-intake,generic-fort,B18-12_hilltop_watchtower,yes,generic fallback painting for Darum
 data/sprites/automated-intake/png/b18-13-windmill-b84f4fa44ca9.png,automated-intake,agriculture,B18-13_windmill,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/b18-14-rocky-littoral-1c2762361496.png,automated-intake,sea-coast,B18-14_rocky_littoral,no,coast or shore piece: needs registering to a real stretch of shoreline before use
@@ -174,7 +174,7 @@ data/sprites/automated-intake/png/b19-15-riverside-watermill-94996b7287c9.png,au
 data/sprites/automated-intake/png/b19-16-fortified-tents-3e6428bc9e93.png,automated-intake,trade-caravan,B19-16_fortified_tents,yes,"generic green piece, placed 3 times"
 data/sprites/automated-intake/png/b19-17-market-tents-1632ebc04987.png,automated-intake,trade-caravan,B19-17_market_tents,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/b19-18-camel-caravan-d835031f1395.png,automated-intake,trade-caravan,B19-18_camel_caravan,yes,"generic arid piece, placed 14 times"
-data/sprites/automated-intake/png/b19-19-ox-cart-31596eaa059e.png,automated-intake,rural-infrastructure,B19-19_ox_cart,yes,"generic green piece, placed 5 times"
+data/sprites/automated-intake/png/b19-19-ox-cart-31596eaa059e.png,automated-intake,rural-infrastructure,B19-19_ox_cart,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/b19-20-herd-with-figure-bff3ce6dd639.png,automated-intake,rural-infrastructure,B19-20_herd_with_figure,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/b19-21-cattle-068d25f90cba.png,automated-intake,rural-infrastructure,B19-21_cattle,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/b19-22-stony-boulders-430793485616.png,automated-intake,mountains,B19-22_stony_boulders,yes,"generic rock piece, placed 8 times"
@@ -208,7 +208,7 @@ data/sprites/automated-intake/png/b21-09-vineyard-wheat-connector-9eb54e5e6e15.p
 data/sprites/automated-intake/png/b21-10-fields-with-chapel-b838de0df29d.png,automated-intake,religious,B21-10_fields_with_chapel,yes,"generic patchg piece, placed 2 times"
 data/sprites/automated-intake/png/b21-11-orchard-field-connector-eb442da6284f.png,automated-intake,agriculture,B21-11_orchard_field_connector,yes,"generic patchg piece, placed 3 times"
 data/sprites/automated-intake/png/b21-12-hillside-farm-673c23a3d3d4.png,automated-intake,agriculture,B21-12_hillside_farm,yes,"generic patchg piece, placed 3 times"
-data/sprites/automated-intake/png/b21-13-rural-houses-18a791006882.png,automated-intake,generic-town,B21-13_rural_houses,yes,"generic green piece, placed 3 times"
+data/sprites/automated-intake/png/b21-13-rural-houses-18a791006882.png,automated-intake,generic-town,B21-13_rural_houses,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/b21-14-rocky-scrub-foothills-23550772dcd8.png,automated-intake,mountains,B21-14_rocky_scrub_foothills,yes,"generic patchd piece, placed 5 times"
 data/sprites/automated-intake/png/b21-15-foothill-to-mountain-551250fcc90e.png,automated-intake,mountains,B21-15_foothill_to_mountain,yes,"generic patchd piece, placed 5 times"
 data/sprites/automated-intake/png/b21-16-alpine-crags-85c6f4aa303e.png,automated-intake,mountains,B21-16_alpine_crags,yes,"generic patchd piece, placed 6 times"
@@ -226,7 +226,7 @@ data/sprites/automated-intake/png/buffavento-eb686a366b52.png,automated-intake,n
 data/sprites/automated-intake/png/byzantine-cross-domed-church-93b600ef3128.png,automated-intake,religious,Byzantine cross-domed church,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/automated-intake/png/byzantine-monastic-church-a855c61276d4.png,automated-intake,religious,Byzantine monastic church,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/automated-intake/png/caravan-tent-encampment-22e6e84efa16.png,automated-intake,trade-caravan,Caravan tent encampment,yes,"generic arid piece, placed 13 times"
-data/sprites/automated-intake/png/cattle-enclosure-and-shelter-dd95379c2fd8.png,automated-intake,rural-infrastructure,Cattle enclosure and shelter,yes,"generic green piece, placed 3 times"
+data/sprites/automated-intake/png/cattle-enclosure-and-shelter-dd95379c2fd8.png,automated-intake,rural-infrastructure,Cattle enclosure and shelter,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/charcoal-burning-and-metalworking-yard-7d9dcbc9ddbf.png,automated-intake,rural-infrastructure,Charcoal burning and metalworking yard,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/chastellet-jacob-s-ford-6b5a1ae89a82.png,automated-intake,named-candidate,Chastellet / Jacob’s Ford,yes,dedicated painting for Chastellet
 data/sprites/automated-intake/png/chlemoutsi-clermont-a7440d538d45.png,automated-intake,named-candidate,Chlemoutsi / Clermont,yes,dedicated painting for Clermont
@@ -263,7 +263,7 @@ data/sprites/automated-intake/png/harim-harenc-c243886984d2.png,automated-intake
 data/sprites/automated-intake/png/harran-citadel-2190d5ed770c.png,automated-intake,named-candidate,Harran citadel,no,named fortress candidate with no coordinates or matched site in the repository
 data/sprites/automated-intake/png/hillside-stone-aqueduct-f5cc1e773542.png,automated-intake,rural-infrastructure,Hillside stone aqueduct,no,Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering
 data/sprites/automated-intake/png/hillside-stone-hamlet-b395a12e5f7b.png,automated-intake,generic-town,Hillside stone hamlet,yes,"generic green piece, placed 4 times"
-data/sprites/automated-intake/png/irrigated-crop-terraces-345117df6dad.png,automated-intake,agriculture,Irrigated crop terraces,yes,"generic green piece, placed 5 times"
+data/sprites/automated-intake/png/irrigated-crop-terraces-345117df6dad.png,automated-intake,agriculture,Irrigated crop terraces,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/irrigation-shaduf-10c8d38fd3df.png,automated-intake,river-marsh,Irrigation shaduf,no,Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering
 data/sprites/automated-intake/png/jacob-s-ford-chastellet-ruins-d05cf2a06c1a.png,automated-intake,named-candidate,Jacob’s Ford (Chastellet) ruins,no,alternate variant; primary is data/sprites/automated-intake/png/chastellet-jacob-s-ford-6b5a1ae89a82.png
 data/sprites/automated-intake/png/k-zkalesi-afb58e1ddd84.png,automated-intake,named-candidate,Kızkalesi,yes,dedicated painting for Courc
@@ -292,7 +292,7 @@ data/sprites/automated-intake/png/roadside-inn-and-stables-66059ba54ca1.png,auto
 data/sprites/automated-intake/png/romanesque-abbey-precinct-dddca42c6790.png,automated-intake,religious,Romanesque abbey precinct,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/automated-intake/png/rural-abbey-with-vineyard-7f735b59e548.png,automated-intake,religious,Rural abbey with vineyard,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/automated-intake/png/salt-evaporation-pans-e65eb962b07d.png,automated-intake,trade-caravan,Salt evaporation pans,no,coast or shore piece: needs registering to a real stretch of shoreline before use
-data/sprites/automated-intake/png/savranda-servantikar-58bc99dbddd6.png,automated-intake,named-candidate,Savranda / Servantikar,no,named fortress candidate with no coordinates or matched site in the repository
+data/sprites/automated-intake/png/savranda-servantikar-58bc99dbddd6.png,automated-intake,named-candidate,Savranda / Servantikar,yes,dedicated painting for Savranda
 data/sprites/automated-intake/png/shaizar-b1335fb7ad71.png,automated-intake,named-candidate,Shaizar,no,alternate variant; primary is data/sprites/fortress-batch13-review/png/shaizar-1180-provisional-v1.png
 data/sprites/automated-intake/png/silifke-seleucia-6f325d2804d2.png,automated-intake,named-candidate,Silifke Seleucia,yes,dedicated painting for Silifke Kalesi
 data/sprites/automated-intake/png/sis-kozan-bb49f3825587.png,automated-intake,named-candidate,Sis / Kozan,no,alternate variant; primary is data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/kozan-1180-review-v1.png
@@ -304,7 +304,7 @@ data/sprites/automated-intake/png/source-sheet-original-rgb-d887135cdc6d.png,aut
 data/sprites/automated-intake/png/source-sheet-original-rgb-f1f3092613cf.png,automated-intake,source-master,source_sheet_original_rgb,no,"source sheet: reference only, never placed"
 data/sprites/automated-intake/png/stone-sheepfold-c4d44b5c2e6c.png,automated-intake,rural-infrastructure,Stone sheepfold,yes,"generic past piece, placed 15 times"
 data/sprites/automated-intake/png/terraced-vineyard-estate-c4ca6e27b3b4.png,automated-intake,agriculture,Terraced vineyard estate,yes,"generic green piece, placed 4 times"
-data/sprites/automated-intake/png/toprakkale-til-1756fd4761ba.png,automated-intake,named-candidate,Toprakkale / Til,no,named fortress candidate with no coordinates or matched site in the repository
+data/sprites/automated-intake/png/toprakkale-til-1756fd4761ba.png,automated-intake,named-candidate,Toprakkale / Til,yes,dedicated painting for Toprakkale Kalesi
 data/sprites/automated-intake/png/tumlu-kalesi-403baea15271.png,automated-intake,named-candidate,Tumlu Kalesi,no,named fortress candidate with no coordinates or matched site in the repository
 data/sprites/automated-intake/png/twin-tower-latin-church-24a89c6ceecf.png,automated-intake,religious,Twin-tower Latin church,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/automated-intake/png/vineyard-wine-press-eb2efb668f49.png,automated-intake,agriculture,Vineyard wine press,yes,"generic green piece, placed 4 times"
@@ -655,7 +655,7 @@ data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-005.png,
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-006.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-006,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-007.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-007,yes,"generic ruin piece, placed 18 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-008.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-008,yes,"generic ruin piece, placed 17 times"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-009.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-009,yes,"generic green piece, placed 3 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-009.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-009,yes,"generic green piece, placed 4 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-011.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-011,yes,generic fallback painting for Toron des Chevaliers
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-012.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-012,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-013.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-013,yes,generic fallback painting for Scandalion
@@ -667,12 +667,12 @@ data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-018.png,
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-019.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-019,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-020.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-020,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-021.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-021,yes,"generic green piece, placed 4 times"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-022.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-022,yes,"generic green piece, placed 3 times"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-023.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-023,yes,"generic green piece, placed 5 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-022.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-022,yes,"generic green piece, placed 4 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-023.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-023,yes,"generic green piece, placed 4 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-024.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-024,yes,"generic green piece, placed 4 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-025.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-025,yes,"generic vega piece, placed 33 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-026.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-026,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
-data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-027.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-027,yes,"generic green piece, placed 4 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-027.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-027,yes,"generic green piece, placed 3 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-028.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-028,yes,"generic arid piece, placed 14 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-029.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-029,yes,"generic green piece, placed 4 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_a/map_fillers_set_a-030.png,filesystem-discovery,unindexed-artwork,map_fillers_set_a-030,yes,"generic vegg piece, placed 13 times"
@@ -702,11 +702,11 @@ data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-010.png,
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-011.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-011,no,two pieces joined in one cut-out: needs splitting
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-012.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-012,yes,"generic past piece, placed 13 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-013.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-013,yes,"generic ruin piece, placed 18 times"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-014.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-014,yes,"generic green piece, placed 3 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-014.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-014,yes,"generic green piece, placed 4 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-015.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-015,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-016.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-016,no,"coast, lighthouse or sea-rock piece: needs registering to a real stretch of shoreline before use"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-017.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-017,yes,"generic green piece, placed 4 times"
-data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-018.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-018,yes,"generic green piece, placed 4 times"
+data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-018.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-018,yes,"generic green piece, placed 2 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-019.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-019,yes,generic fallback painting for Bethabara
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-020.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-020,yes,"generic past piece, placed 13 times"
 data/sprites/map-fillers-2026-11-11/map_fillers_set_b/map_fillers_set_b-021.png,filesystem-discovery,unindexed-artwork,map_fillers_set_b-021,yes,"generic green piece, placed 4 times"
@@ -824,34 +824,34 @@ data/sprites/terrain-batch06/t06_b19_sinai_oasis_date_palm_cluster.png,terrain-b
 data/sprites/terrain-batch06/t06_b20_syrian_sandy_scrub_foothill.png,terrain-batch06,terrain-cutout,syrian_sandy_scrub_foothill,yes,"generic patcha piece, placed 67 times"
 data/sprites/terrain-batch06/terrain_batch06_sheet_a.png,filesystem-discovery,unindexed-artwork,terrain_batch06_sheet_a,no,"atlas sheet: reference only, the individual cut-outs are used"
 data/sprites/terrain-batch06/terrain_batch06_sheet_b.png,filesystem-discovery,unindexed-artwork,terrain_batch06_sheet_b,no,"atlas sheet: reference only, the individual cut-outs are used"
-data/terrain/png/anatolian-rocky-saddle.png,mountain-terrain,mountain-stamp,Anatolian Rocky Saddle,yes,"terrain stamp, placed 181 times"
+data/terrain/png/anatolian-rocky-saddle.png,mountain-terrain,mountain-stamp,Anatolian Rocky Saddle,yes,"terrain stamp, placed 180 times"
 data/terrain/png/anatolian-small-cone.png,mountain-terrain,mountain-stamp,Anatolian Small Cone,no,terrain stamp in the kit but not drawn in this build
 data/terrain/png/anatolian-steppe-foothills.png,mountain-terrain,mountain-stamp,Anatolian Steppe Foothills,yes,"terrain stamp, placed 23 times"
 data/terrain/png/anatolian-volcanic-massif.png,mountain-terrain,mountain-stamp,Central Anatolian volcanic massif,no,terrain stamp in the kit but not drawn in this build
 data/terrain/png/coastal-foothill-transition.png,mountain-terrain,mountain-stamp,Coastal Foothill Transition,yes,"terrain stamp, placed 44 times"
 data/terrain/png/dry-limestone-pass.png,mountain-terrain,mountain-stamp,Dry Limestone Pass,yes,"terrain stamp, placed 326 times"
-data/terrain/png/dry-wadi-connector.png,mountain-terrain,mountain-stamp,Dry Wadi Connector,yes,"terrain stamp, placed 186 times"
+data/terrain/png/dry-wadi-connector.png,mountain-terrain,mountain-stamp,Dry Wadi Connector,yes,"terrain stamp, placed 185 times"
 data/terrain/png/forested-pass.png,mountain-terrain,mountain-stamp,Forested Pass,no,terrain stamp in the kit but not drawn in this build
 data/terrain/png/greek-branching-spur.png,mountain-terrain,mountain-stamp,Greek Branching Spur,yes,"terrain stamp, placed 80 times"
 data/terrain/png/greek-forested-foothills.png,mountain-terrain,mountain-stamp,Greek Forested Foothills,yes,"terrain stamp, placed 99 times"
 data/terrain/png/greek-gorge-gap.png,mountain-terrain,mountain-stamp,Greek Gorge Gap,no,terrain stamp in the kit but not drawn in this build
 data/terrain/png/greek-narrow-spine.png,mountain-terrain,mountain-stamp,Greek Narrow Spine,yes,"terrain stamp, placed 87 times"
 data/terrain/png/greek-short-ridge.png,mountain-terrain,mountain-stamp,Greek Short Ridge,yes,"terrain stamp, placed 206 times"
-data/terrain/png/high-rocky-ridge-spine.png,mountain-terrain,mountain-stamp,High Rocky Ridge Spine,yes,"terrain stamp, placed 113 times"
+data/terrain/png/high-rocky-ridge-spine.png,mountain-terrain,mountain-stamp,High Rocky Ridge Spine,yes,"terrain stamp, placed 112 times"
 data/terrain/png/lebanon-high-massif.png,mountain-terrain,mountain-stamp,Lebanon / Hermon high limestone,yes,"terrain stamp, placed 25 times"
 data/terrain/png/lebanon-saddle.png,mountain-terrain,mountain-stamp,Lebanon Saddle,yes,"terrain stamp, placed 2 times"
 data/terrain/png/lebanon-short-ridge.png,mountain-terrain,mountain-stamp,Lebanon Short Ridge,yes,"terrain stamp, placed 7 times"
 data/terrain/png/limestone-branching-spur.png,mountain-terrain,mountain-stamp,Limestone Branching Spur,yes,"terrain stamp, placed 9 times"
-data/terrain/png/limestone-narrow-spine.png,mountain-terrain,mountain-stamp,Limestone Narrow Spine,yes,"terrain stamp, placed 239 times"
+data/terrain/png/limestone-narrow-spine.png,mountain-terrain,mountain-stamp,Limestone Narrow Spine,yes,"terrain stamp, placed 238 times"
 data/terrain/png/limestone-valley-gap.png,mountain-terrain,mountain-stamp,Limestone Valley Gap,yes,"terrain stamp, placed 9 times"
 data/terrain/png/mediterranean-scrub-fill.png,mountain-terrain,mountain-stamp,Mediterranean Scrub Fill,yes,"terrain stamp, placed 34 times"
-data/terrain/png/open-plateau-escarpment.png,mountain-terrain,mountain-stamp,Open Plateau Escarpment,yes,"terrain stamp, placed 315 times"
+data/terrain/png/open-plateau-escarpment.png,mountain-terrain,mountain-stamp,Open Plateau Escarpment,yes,"terrain stamp, placed 314 times"
 data/terrain/png/palestine-foothills-east.png,mountain-terrain,mountain-stamp,Palestine Foothills East,yes,"terrain stamp, placed 357 times"
 data/terrain/png/palestine-foothills-west.png,mountain-terrain,mountain-stamp,Palestine Foothills West,yes,"terrain stamp, placed 380 times"
 data/terrain/png/palestine-limestone-ridge.png,mountain-terrain,mountain-stamp,Palestine limestone uplands,yes,"terrain stamp, placed 9 times"
 data/terrain/png/pindus-forested-ridge.png,mountain-terrain,mountain-stamp,Pindus / Greek forested range,yes,"terrain stamp, placed 106 times"
 data/terrain/png/pine-slope-transition.png,mountain-terrain,mountain-stamp,Pine Slope Transition,yes,"terrain stamp, placed 91 times"
-data/terrain/png/rocky-foothill-fan.png,mountain-terrain,mountain-stamp,Rocky Foothill Fan,yes,"terrain stamp, placed 337 times"
+data/terrain/png/rocky-foothill-fan.png,mountain-terrain,mountain-stamp,Rocky Foothill Fan,yes,"terrain stamp, placed 336 times"
 data/terrain/png/sparse-cedar-woodland.png,mountain-terrain,mountain-stamp,Sparse Cedar Woodland,yes,"terrain stamp, placed 6 times"
 data/terrain/png/taurus-cliff-spur.png,mountain-terrain,mountain-stamp,Taurus Cliff Spur,yes,"terrain stamp, placed 155 times"
 data/terrain/png/taurus-ridge.png,mountain-terrain,mountain-stamp,Taurus limestone range,yes,"terrain stamp, placed 93 times"
