@@ -63,7 +63,13 @@ def extract_archives(root: Path) -> dict:
                     if p.suffix.lower() in (".png", ".json"):
                         planned.append((info, relative))
                 if not any(p.suffix.lower() == ".png" for _, p in planned):
-                    raise ValueError("archive contains no PNGs")
+                    # An unrelated map-underlay/source ZIP is not a sprite
+                    # package. Keep it intact and explicitly skip it, rather
+                    # than failing the complete intake of valid PNG archives.
+                    report["warnings"].append({
+                        "archive": archive.name,
+                        "warning": "archive contains no PNG sprites; preserved and skipped"})
+                    continue
                 for info, rel in planned:
                     target = dest / rel
                     target.parent.mkdir(parents=True, exist_ok=True)
