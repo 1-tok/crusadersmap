@@ -4,6 +4,11 @@ on:
     branches: [main]
     paths:
       - 'assets/sprites/incoming/**'
+      - 'tools/sprite_zip_intake.py'
+      - 'tools/sprite_intake.py'
+      - 'tests/test_sprite_zip_intake.py'
+      - 'tests/test_sprite_intake.py'
+      - '.github/workflows/sprite-intake.yml'
   workflow_dispatch:
   pull_request:
     paths:
