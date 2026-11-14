@@ -1,4 +1,5 @@
 import io
+import hashlib
 import json
 import tempfile
 import unittest
@@ -125,6 +126,28 @@ class ZipIntakeTests(unittest.TestCase):
         self.assertEqual(len(report["errors"]), 1)
         self.assertIn("Git blob mismatch", report["errors"][0]["error"])
         self.assertFalse((self.incoming / "_zip_extract/crusader_canaan_batch38_complete/b38_01_acre_carmel_foothills.png").exists())
+
+    def test_pinned_root_zip_recovers_and_rejects_tampering(self):
+        name = "Greek_Islands_12A_part1_RETRY.zip"
+        source = self.png()
+        archive = self.root / name
+        with zipfile.ZipFile(archive, "w") as z:
+            z.writestr("island.png", source)
+        payload = archive.read_bytes()
+        blob = hashlib.sha1(b"blob " + str(len(payload)).encode("ascii")
+                            + b"\0" + payload).hexdigest()
+        audit = self.root / "data/manifests/ROOT-ZIP-RECOVERY-2026-11-13.json"
+        audit.parent.mkdir(parents=True, exist_ok=True)
+        audit.write_text(json.dumps({"root_archives": [{"path": name, "blob_sha": blob}]}))
+        first = extract_archives(self.root)
+        self.assertEqual(first["errors"], [])
+        self.assertEqual(first["extracted"], 1)
+        with zipfile.ZipFile(archive, "w") as z:
+            z.writestr("island.png", source + b"x")
+        second = extract_archives(self.root)
+        self.assertEqual(second["extracted"], 0)
+        self.assertEqual(len(second["errors"]), 1)
+        self.assertIn("root recovery ZIP Git blob mismatch", second["errors"][0]["error"])
 
     def test_reject_traversal(self):
         self.make_zip("unsafe.zip", {"../outside.png": self.png()})
