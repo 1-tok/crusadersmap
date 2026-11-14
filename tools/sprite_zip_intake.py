@@ -27,18 +27,35 @@ def extract_archives(root: Path) -> dict:
     # exceptional root ZIP; do not sweep arbitrary root archives.
     corrected_name = "crusader_lowlands_13nov_remaining_51_REGION_QA.zip"
     corrected_sha256 = "d48c93c2e5ebaf6917412cd36f1ab0305555cc8834652c905816214980902e06"
+    # Verified existing Git blobs at repository root. Only these exact three
+    # archives are admitted; root is never scanned indiscriminately.
+    canaan_git_blobs = {
+        "crusader_canaan_coastal_underlays_complete.zip": "b1522884a9b5ca8c94b2396342605861f4940daf",
+        "crusader_canaan_batch38_complete.zip": "3b6fddefcf6c638c5468ba23f5e96376811c4cb6",
+        "crusader_canaan_coast_batch39_complete.zip": "3c90de2e0ad8594ffce89f2892ecd52590ffb7b1",
+    }
     archives = sorted(incoming.glob("*.zip")) if incoming.exists() else []
     corrected_root = root / corrected_name
     if corrected_root.is_file():
         archives.append(corrected_root)
+    archives.extend(root / name for name in canaan_git_blobs if (root / name).is_file())
     for archive in archives:
         dest = staging / archive.stem
         extracted = []
         try:
             if archive == corrected_root:
-                digest = hashlib.file_digest(archive.open("rb"), "sha256").hexdigest()
+                with archive.open("rb") as source:
+                    digest = hashlib.file_digest(source, "sha256").hexdigest()
                 if digest != corrected_sha256:
                     raise ValueError("corrected lowlands ZIP hash mismatch; refusing import")
+            if archive.name in canaan_git_blobs and archive.parent == root:
+                with archive.open("rb") as source:
+                    payload = source.read()
+                git_blob = hashlib.sha1(
+                    b"blob " + str(len(payload)).encode("ascii") + b"\0" + payload
+                ).hexdigest()
+                if git_blob != canaan_git_blobs[archive.name]:
+                    raise ValueError("Canaan coastal ZIP Git blob mismatch; refusing import")
             with zipfile.ZipFile(archive) as z:
                 members = [m for m in z.infolist() if not m.is_dir()]
                 if not members or len(members) > MAX_FILES:
