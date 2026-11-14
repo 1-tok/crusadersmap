@@ -106,6 +106,16 @@ class ZipIntakeTests(unittest.TestCase):
         self.assertTrue(any("no PNG sprites" in x["warning"] for x in report["warnings"]))
         self.assertFalse((self.root / "assets/sprites/incoming/_zip_extract/non_sprite_underlays").exists())
 
+    def test_corrected_root_archive_rejects_wrong_digest(self):
+        archive = self.root / "crusader_lowlands_13nov_remaining_51_REGION_QA.zip"
+        with zipfile.ZipFile(archive, "w") as z:
+            z.writestr("cutout.png", self.png())
+        report = extract_archives(self.root)
+        self.assertEqual(report["extracted"], 0)
+        self.assertEqual(len(report["errors"]), 1)
+        self.assertIn("hash mismatch", report["errors"][0]["error"])
+        self.assertFalse((self.incoming / "_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/cutout.png").exists())
+
     def test_reject_traversal(self):
         self.make_zip("unsafe.zip", {"../outside.png": self.png()})
         self.assertEqual(len(extract_archives(self.root)["errors"]), 1)
