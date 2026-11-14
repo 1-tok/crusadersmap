@@ -39,6 +39,22 @@ def extract_archives(root: Path) -> dict:
     if corrected_root.is_file():
         archives.append(corrected_root)
     archives.extend(root / name for name in canaan_git_blobs if (root / name).is_file())
+    root_recovery_manifest = root / "data/manifests/ROOT-ZIP-RECOVERY-2026-11-13.json"
+    recovery_blobs = {}
+    if root_recovery_manifest.is_file():
+        recovered = json.loads(root_recovery_manifest.read_text(encoding="utf-8"))
+        for item in recovered.get("root_archives", []):
+            filename = item["path"]
+            expected_blob = item["blob_sha"]
+            # Only immediate root-level .zip files with a pinned Git blob.
+            if (Path(filename).name != filename or not filename.lower().endswith(".zip")
+                    or len(expected_blob) != 40 or not all(c in "0123456789abcdef" for c in expected_blob)):
+                raise ValueError(f"invalid root recovery archive record: {filename!r}")
+            if filename in recovery_blobs:
+                raise ValueError(f"duplicate root recovery archive record: {filename!r}")
+            recovery_blobs[filename] = expected_blob
+            if (root / filename).is_file():
+                archives.append(root / filename)
     for archive in archives:
         dest = staging / archive.stem
         extracted = []
@@ -48,6 +64,14 @@ def extract_archives(root: Path) -> dict:
                     digest = hashlib.file_digest(source, "sha256").hexdigest()
                 if digest != corrected_sha256:
                     raise ValueError("corrected lowlands ZIP hash mismatch; refusing import")
+            if archive.name in recovery_blobs and archive.parent == root:
+                with archive.open("rb") as source:
+                    payload = source.read()
+                blob_sha = hashlib.sha1(
+                    b"blob " + str(len(payload)).encode("ascii") + b"\0" + payload
+                ).hexdigest()
+                if blob_sha != recovery_blobs[archive.name]:
+                    raise ValueError("root recovery ZIP Git blob mismatch; refusing import")
             if archive.name in canaan_git_blobs and archive.parent == root:
                 with archive.open("rb") as source:
                     payload = source.read()
