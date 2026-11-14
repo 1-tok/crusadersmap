@@ -1,0 +1,25 @@
+{
+  "status": "review_only_no_unverified_auto_placement",
+  "archive_count": 33,
+  "source_piece_records": 257,
+  "recovered_new_records": 99,
+  "duplicate_records": 158,
+  "decisions": {
+    "hold_unmatched_island_or_city_geometry": 40,
+    "hold_existing_site_selected_no_unverified_override": 59,
+    "already_registered_duplicate": 158
+  },
+  "active_island_records_preserved": 47,
+  "active_named_art_records_preserved": 154,
+  "new_named_placements_authorized": 0,
+  "island_gallery_items": 32,
+  "coastal_gallery_items": 67,
+  "new_review_composite_created": true,
+  "outputs": [
+    "recovered-root-sprites-reconciliation.csv",
+    "recovered-greek-islands-review.png",
+    "recovered-coastal-cities-review.png",
+    "outremer-recovered-artwork-review.jpg"
+  ],
+  "note": "Newly recovered historical redos and whole-island concepts are not enough evidence to replace mapped art. Existing dated selections remain, and every collision is held pending verified architecture, coastline and viewpoint QA."
+}
