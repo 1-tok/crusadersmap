@@ -7,6 +7,7 @@ assigns historical identity or map coordinates. Run sprite_intake.py afterward.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import stat
 import zipfile
@@ -21,10 +22,23 @@ def extract_archives(root: Path) -> dict:
     incoming = root / "assets/sprites/incoming"
     staging = incoming / "_zip_extract"
     report = {"archives": [], "extracted": 0, "errors": [], "warnings": []}
-    for archive in sorted(incoming.glob("*.zip")) if incoming.exists() else []:
+    # The corrected 51-cutout lowlands archive was committed at repository
+    # root rather than the normal incoming folder. Import only this verified
+    # exceptional root ZIP; do not sweep arbitrary root archives.
+    corrected_name = "crusader_lowlands_13nov_remaining_51_REGION_QA.zip"
+    corrected_sha256 = "d48c93c2e5ebaf6917412cd36f1ab0305555cc8834652c905816214980902e06"
+    archives = sorted(incoming.glob("*.zip")) if incoming.exists() else []
+    corrected_root = root / corrected_name
+    if corrected_root.is_file():
+        archives.append(corrected_root)
+    for archive in archives:
         dest = staging / archive.stem
         extracted = []
         try:
+            if archive == corrected_root:
+                digest = hashlib.file_digest(archive.open("rb"), "sha256").hexdigest()
+                if digest != corrected_sha256:
+                    raise ValueError("corrected lowlands ZIP hash mismatch; refusing import")
             with zipfile.ZipFile(archive) as z:
                 members = [m for m in z.infolist() if not m.is_dir()]
                 if not members or len(members) > MAX_FILES:
