@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "description": "Allowlist of GitHub-root ZIP archives missing from regular automated intake at 2026-11-13 audit. Checks exact Git blob SHA; preserves all original ZIPs, deduplicates pixels, and never authorizes map placement.",
+  "archive_count": 33,
+  "root_archives": [
+    {
+      "path": "Greek_Islands_12A_part1_RETRY.zip",
+      "blob_sha": "b5c6fae304bd8a0cf5589b91f6e87b215c32681b",
+      "bytes": 4595121,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "Greek_Islands_12A_part2_RETRY.zip",
+      "blob_sha": "6b1ee70411627379a26394841b36b03e032af27b",
+      "bytes": 3645644,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "Greek_Islands_12B_RETRY.zip",
+      "blob_sha": "c6a350f1075a3ba4d159b87eaa99ba0813cda5c1",
+      "bytes": 2177029,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "Greek_Islands_Placement_QA_RETRY.zip",
+      "blob_sha": "b88e9b390c37590dcbd02914a5f99ad898dfbb88",
+      "bytes": 657046,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "batch15_part1_paros_skyros.zip",
+      "blob_sha": "e9433af63338b2abc3efeff62221e14ec65ab059",
+      "bytes": 956836,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "batch15_part2_skopelos_tenedos.zip",
+      "blob_sha": "4f538df5aaf9949d78bc1ee0e7883cb733b11b66",
+      "bytes": 994754,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "batch16_part1_syros_samos.zip",
+      "blob_sha": "fb356d564b724e2f87b25eb94c9abfe49ead7763",
+      "bytes": 1184965,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "batch16_part2_ikaria_andros.zip",
+      "blob_sha": "aab1dbc8724c8fe0631241d8f648eddde02b9215",
+      "bytes": 1093604,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_coastal_cities_batch01_historical_redo.zip",
+      "blob_sha": "6237a6a6a62220e46351cf7aa5458a771ca2e2e3",
+      "bytes": 6756777,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_coastal_cities_batch02_historical_redo.zip",
+      "blob_sha": "9b2d85e775a5dd2c37cf1605abecf0cb2d43c9e3",
+      "bytes": 6242888,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_coastal_cities_batch03_historical_redo.zip",
+      "blob_sha": "15422b90f80408873db726168a73ac331236622c",
+      "bytes": 6576038,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_coastal_cities_batch04.zip",
+      "blob_sha": "0f403e275f2cd01ee761b4b0b883a43d98af37c7",
+      "bytes": 6347864,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_coastal_cities_batch04_historical_redo.zip",
+      "blob_sha": "663555559b88b5816d4e72a179d23ea38a1f1b1a",
+      "bytes": 7128112,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_coastal_cities_batch05_historical_redo.zip",
+      "blob_sha": "402000b3cb9526668b80f9f9bf2f13a0b7fe76c8",
+      "bytes": 6907769,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_coastal_cities_batch06_cyprus_review.zip",
+      "blob_sha": "a1246d9458554702e2c13e96a57941ac861af40a",
+      "bytes": 6916845,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_coastal_cities_batch08_aegean_1180_review.zip",
+      "blob_sha": "04aa5d1409ee65b4aad0dc14ee42e5a1f78e7c16",
+      "bytes": 6995638,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_coastal_cities_batch09_greek_1180_review.zip",
+      "blob_sha": "9c704ea5c7a7e8ea542fa99b2fada8d706e5db05",
+      "bytes": 6311714,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_coastal_cities_batch10_crete_1180_review.zip",
+      "blob_sha": "9bcbc1ab547fb33a46353befce82ab5f9ff41d46",
+      "bytes": 6139419,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_coastal_cities_batch11_aegean_fallbacks_1180_review.zip",
+      "blob_sha": "0a0ccd5d0c5a4580033c2e5efba1620c3e8b9cf9",
+      "bytes": 6063708,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_coastal_cities_batch12_aegean_1180_review.zip",
+      "blob_sha": "5e6f2838554714a7799dec8499596bb467c4fb60",
+      "bytes": 7515706,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_coastal_cities_batch13_aegean_1180_review.zip",
+      "blob_sha": "0129c3183a30da9e1bb74980e852d0e6360084b7",
+      "bytes": 7020900,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_lowlands_complete_2026_11_13_split_01_of_03.zip",
+      "blob_sha": "8f7793288a7050c01fe1a2c47f46c589c20ac5f7",
+      "bytes": 13619534,
+      "category": "lowland_terrain",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_lowlands_complete_2026_11_13_split_02_of_03.zip",
+      "blob_sha": "f226eb364e8d897c30767b92c749da435da389bb",
+      "bytes": 16862173,
+      "category": "lowland_terrain",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_lowlands_complete_2026_11_13_split_03_of_03.zip",
+      "blob_sha": "aae3a76fcb33d40f0009d2cd4856cb4027fa5fad",
+      "bytes": 14923976,
+      "category": "lowland_terrain",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_lowlands_part2_cutouts_2026_11_13_split_01_of_02.zip",
+      "blob_sha": "c4ae690f630011563e582bf39936c5b26e454f9a",
+      "bytes": 14038071,
+      "category": "lowland_terrain",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_lowlands_part2_cutouts_2026_11_13_split_02_of_02.zip",
+      "blob_sha": "8a5298d455679d47f57056e6029c1d08e1bab10c",
+      "bytes": 14356939,
+      "category": "lowland_terrain",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_lowlands_review_approved_batch_06.zip",
+      "blob_sha": "d97cdc2b99b491906d74ed432e31ffe51e8b9275",
+      "bytes": 3550059,
+      "category": "lowland_terrain",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_lowlands_review_approved_batch_07.zip",
+      "blob_sha": "dac828de115693793004e1d6ae2297432c043c8a",
+      "bytes": 3489252,
+      "category": "lowland_terrain",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_lowlands_review_approved_batch_08.zip",
+      "blob_sha": "7fbb4e0ec4ea0c8e606a9777f56b447e0c0ccbd4",
+      "bytes": 3628286,
+      "category": "lowland_terrain",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_lowlands_review_approved_batch_09.zip",
+      "blob_sha": "8c6a560def1d2af9a7449aa95c6d44ba715bf87a",
+      "bytes": 3576569,
+      "category": "lowland_terrain",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_paphos_ayas_orientation_review_2026-11-13.zip",
+      "blob_sha": "ddc17789bf4cbce707f2e0a05831655550998d3a",
+      "bytes": 4508311,
+      "category": "coastal_city_revision",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_small_islands_batch17_whole_island_1180_review.zip",
+      "blob_sha": "f31bc2abf53c8ac94cb858b9c88002f8b1b06d8d",
+      "bytes": 6194533,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_small_islands_batch18_whole_island_1180_review.zip",
+      "blob_sha": "e7633d45dd2cb9a37ac7b082e069c05e10f72256",
+      "bytes": 5636373,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    }
+  ],
+  "excluded_policy": [
+    "Source-only manifests are skipped if no PNG",
+    "Historic or orientation replacements do not supersede existing art automatically",
+    "Existing lowlands ONLY archive is superseded by REGION_QA",
+    "Duplicate root archives with the same blob as incoming are excluded",
+    "Corrected REGION_QA and Canaan 37-39 handled separately"
+  ],
+  "review_gates": [
+    "historical_era",
+    "south_oblique_orientation",
+    "shoreline_water_side",
+    "coordinate_source",
+    "alpha_transparency",
+    "print_quality"
+  ]
+}
