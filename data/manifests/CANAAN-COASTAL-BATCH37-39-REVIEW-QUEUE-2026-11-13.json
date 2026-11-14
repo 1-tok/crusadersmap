@@ -208,5 +208,20 @@
       "production_approved": false,
       "print_approved": false
     }
-  ]
+  ],
+  "intake_recovery": {
+    "status": "root_zip_recovery_committed_awaiting_processing_report",
+    "recovery_date": "2026-11-13",
+    "root_archives_verified_by_git_blob": {
+      "crusader_canaan_coastal_underlays_complete.zip": "b1522884a9b5ca8c94b2396342605861f4940daf",
+      "crusader_canaan_batch38_complete.zip": "3b6fddefcf6c638c5468ba23f5e96376811c4cb6",
+      "crusader_canaan_coast_batch39_complete.zip": "3c90de2e0ad8594ffce89f2892ecd52590ffb7b1"
+    },
+    "intake_script_commit": "97894b359e2accbc40d2fd74f8e7de0e8a6dcf90",
+    "test_commit": "5f692b603fe7960df900c685591ba182ddb39fce",
+    "expected_candidate_pngs": 12,
+    "processing_report_confirmed": false,
+    "review_pr_merged": false,
+    "notes": "Root ZIPs verified as GitHub objects. Pipeline will process them on main push; do not mark extracted, geographically registered or approved until post-run report and PNG binaries verified."
+  }
 }
