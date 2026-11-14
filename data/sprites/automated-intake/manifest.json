@@ -98,6 +98,102 @@
       ]
     },
     {
+      "id": "INTAKE-009f435020e1fb05c987",
+      "site_id": "b39-03-sharon-coast-river-review",
+      "name": "b39_03_sharon_coast_river_review",
+      "display_title": "b39_03_sharon_coast_river_review",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b39-03-sharon-coast-river-review-009f435020e1.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_canaan_coast_batch39_complete/b39_03_sharon_coast_river_review.png",
+        "sha256": "3d51e904662d93d4d5c40d2e7f1882c77dc0fdb6299c52e3bb1b9f2541d116ae",
+        "crop_xyxy": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1536,
+          1024
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "pixel_sha256": "009f435020e1fb05c98721183edf3fa34a89d8f24eee77a275b140a40c0e93c9",
+        "sha256": "3d51e904662d93d4d5c40d2e7f1882c77dc0fdb6299c52e3bb1b9f2541d116ae",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-00c347295e206914b093",
       "site_id": "t27-08-limestone-uplands",
       "name": "t27_08_limestone_uplands",
@@ -5799,6 +5895,102 @@
       "repaint_required": false,
       "review_flags": [
         "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-1854c650924c497bf529",
+      "site_id": "b38-02-jaffa-lydda-coastal-farms",
+      "name": "b38_02_jaffa_lydda_coastal_farms",
+      "display_title": "b38_02_jaffa_lydda_coastal_farms",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b38-02-jaffa-lydda-coastal-farms-1854c650924c.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_canaan_batch38_complete/b38_02_jaffa_lydda_coastal_farms.png",
+        "sha256": "dcdb1fd2ab41d451130aeb61d141c9b1940704800de93b258fc2323915809b2f",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "1854c650924c497bf529b17dc6e307e9973e1f0031a30f0c9cd152d926142285",
+        "sha256": "dcdb1fd2ab41d451130aeb61d141c9b1940704800de93b258fc2323915809b2f",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
       ]
     },
     {
@@ -13306,6 +13498,102 @@
       ]
     },
     {
+      "id": "INTAKE-3bb30ffb921661ea1cd5",
+      "site_id": "b39-02-acre-carmel-bay-water-review",
+      "name": "b39_02_acre_carmel_bay_water_review",
+      "display_title": "b39_02_acre_carmel_bay_water_review",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b39-02-acre-carmel-bay-water-review-3bb30ffb9216.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_canaan_coast_batch39_complete/b39_02_acre_carmel_bay_water_review.png",
+        "sha256": "9ba1e9bc69e08d24066a13b69b7c4afc771b4f4e11f18ce3bb168294acb7327a",
+        "crop_xyxy": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1536,
+          1024
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "pixel_sha256": "3bb30ffb921661ea1cd5e5a5eeafaee4e30b4037444826edc0896d9f236194cb",
+        "sha256": "9ba1e9bc69e08d24066a13b69b7c4afc771b4f4e11f18ce3bb168294acb7327a",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-3bc354f6f5d9d6796593",
       "site_id": "lowland-20261113-07-mediterranean-lowland-cutouts-r04-c01",
       "name": "lowland-20261113-07_mediterranean_lowland_cutouts_r04_c01",
@@ -15957,6 +16245,102 @@
       "repaint_required": false,
       "review_flags": [
         "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-4af81056c8deb7c76e69",
+      "site_id": "b38-04-sharon-plain-lowland-fields",
+      "name": "b38_04_sharon_plain_lowland_fields",
+      "display_title": "b38_04_sharon_plain_lowland_fields",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b38-04-sharon-plain-lowland-fields-4af81056c8de.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_canaan_batch38_complete/b38_04_sharon_plain_lowland_fields.png",
+        "sha256": "9866c64f16b688a8b471177b453d4d484ae8924a9628b016fee50127a5702b99",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          2,
+          1,
+          1771,
+          878
+        ],
+        "pixel_sha256": "4af81056c8deb7c76e69a0bc96c4e3919a12a1f8b76ff8ac158200f6b683c06d",
+        "sha256": "9866c64f16b688a8b471177b453d4d484ae8924a9628b016fee50127a5702b99",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
       ]
     },
     {
@@ -19285,6 +19669,102 @@
         ],
         "pixel_sha256": "5aee9f42ca3fdff0f11717f354585e26f1a9a304c7826448cf5d5a7fb92a8c11",
         "sha256": "a4ec2290e6f80a4de4840f6515e43fa98bb68778d19b7115a19bdbc9b328e54d",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-5b17ef933f6a825ae12f",
+      "site_id": "b39-01-southern-coastal-farmland-water-review",
+      "name": "b39_01_southern_coastal_farmland_water_review",
+      "display_title": "b39_01_southern_coastal_farmland_water_review",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b39-01-southern-coastal-farmland-water-review-5b17ef933f6a.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_canaan_coast_batch39_complete/b39_01_southern_coastal_farmland_water_review.png",
+        "sha256": "351e16be5c706ee50814a7247b75414e1e5c4e410d94b9ccd85153504b80c58c",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          16,
+          1774,
+          887
+        ],
+        "pixel_sha256": "5b17ef933f6a825ae12f1d8009e0b9e023bf47b5e7131b344d7929a29256fe3b",
+        "sha256": "351e16be5c706ee50814a7247b75414e1e5c4e410d94b9ccd85153504b80c58c",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -24060,6 +24540,102 @@
       ]
     },
     {
+      "id": "INTAKE-780aed71c33729bf00c6",
+      "site_id": "c37-01-levant-coast-north-south",
+      "name": "c37_01_levant_coast_north_south",
+      "display_title": "c37_01_levant_coast_north_south",
+      "category": "unclassified",
+      "asset": "automated-intake/png/c37-01-levant-coast-north-south-780aed71c337.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_canaan_coastal_underlays_complete/c37_01_levant_coast_north_south.png",
+        "sha256": "9c611edfb50603594bbdd222d65ac2a2d7529aadaa899db6bed4bd1120b99876",
+        "crop_xyxy": [
+          0,
+          0,
+          1086,
+          1448
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1086,
+          1448
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          3,
+          1086,
+          1448
+        ],
+        "pixel_sha256": "780aed71c33729bf00c63d92c9fe847521ab636ca2db83bc523b1a94de15d39c",
+        "sha256": "9c611edfb50603594bbdd222d65ac2a2d7529aadaa899db6bed4bd1120b99876",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-7934ae46f9c4d04cf496",
       "site_id": "t30-02-river-to-arid-plain",
       "name": "t30_02_river_to_arid_plain",
@@ -25478,6 +26054,102 @@
       ]
     },
     {
+      "id": "INTAKE-807bcc76f4fb2ddc3802",
+      "site_id": "b38-01-acre-carmel-foothills",
+      "name": "b38_01_acre_carmel_foothills",
+      "display_title": "b38_01_acre_carmel_foothills",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b38-01-acre-carmel-foothills-807bcc76f4fb.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_canaan_batch38_complete/b38_01_acre_carmel_foothills.png",
+        "sha256": "fe009114cbf82689d5535e8a69985e45d5c31d2242bdfc2cd5d761a5f3277ef1",
+        "crop_xyxy": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1536,
+          1024
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          4,
+          11,
+          1532,
+          1010
+        ],
+        "pixel_sha256": "807bcc76f4fb2ddc3802ac135d7d1c627f46ea2f1912fb92af685ed5a1967806",
+        "sha256": "fe009114cbf82689d5535e8a69985e45d5c31d2242bdfc2cd5d761a5f3277ef1",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-80bcb2f92b79ad1e8c7a",
       "site_id": "b18-15-sandy-cove",
       "name": "B18-15_sandy_cove",
@@ -26636,6 +27308,102 @@
       ]
     },
     {
+      "id": "INTAKE-85ef7bd6f0ca164448e2",
+      "site_id": "c37-03-coastal-mosaic-review",
+      "name": "c37_03_coastal_mosaic_review",
+      "display_title": "c37_03_coastal_mosaic_review",
+      "category": "unclassified",
+      "asset": "automated-intake/png/c37-03-coastal-mosaic-review-85ef7bd6f0ca.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_canaan_coastal_underlays_complete/c37_03_coastal_mosaic_review.png",
+        "sha256": "a00d306af54d8d50740ed1eb47aa2a0e718804da3297c7a77be2b7f7d441e32c",
+        "crop_xyxy": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          1536
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1023,
+          1536
+        ],
+        "pixel_sha256": "85ef7bd6f0ca164448e21052576035761a84267515d09ad3b604d16d7ae19b0b",
+        "sha256": "a00d306af54d8d50740ed1eb47aa2a0e718804da3297c7a77be2b7f7d441e32c",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-8610e2beb05b38010dc8",
       "site_id": "84-kinaros-concept",
       "name": "84_kinaros_CONCEPT",
@@ -27761,6 +28529,102 @@
         ],
         "pixel_sha256": "8c230f7ded59681b41023dc87ad56af333eca2903263f20854296f6bbeb523ed",
         "sha256": "7d0febb1d9e110616aecfd974becd75abbe7d96a9533627a6d1072df61b7a6ea",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-8cc8df17f2e8dd4a4d9f",
+      "site_id": "c37-02-sharon-coastal-plain",
+      "name": "c37_02_sharon_coastal_plain",
+      "display_title": "c37_02_sharon_coastal_plain",
+      "category": "unclassified",
+      "asset": "automated-intake/png/c37-02-sharon-coastal-plain-8cc8df17f2e8.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_canaan_coastal_underlays_complete/c37_02_sharon_coastal_plain.png",
+        "sha256": "ac17225ef945c9a19e1179876c424a161f666f55dfa762cdf9eddcd13ffa4c6c",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "8cc8df17f2e8dd4a4d9fb2b22dd81979bb925bc67a17dcf57c464e58564976e5",
+        "sha256": "ac17225ef945c9a19e1179876c424a161f666f55dfa762cdf9eddcd13ffa4c6c",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -45274,6 +46138,102 @@
       ]
     },
     {
+      "id": "INTAKE-f003f05685f6a8e22c4b",
+      "site_id": "c37-04-carmel-gaza-mosaic-review",
+      "name": "c37_04_carmel_gaza_mosaic_review",
+      "display_title": "c37_04_carmel_gaza_mosaic_review",
+      "category": "unclassified",
+      "asset": "automated-intake/png/c37-04-carmel-gaza-mosaic-review-f003f05685f6.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_canaan_coastal_underlays_complete/c37_04_carmel_gaza_mosaic_review.png",
+        "sha256": "44eb2e0d3f2078138880820d32c11d3aafc6dfc0270f70caff71e30f49cbdfe7",
+        "crop_xyxy": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          1536
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "pixel_sha256": "f003f05685f6a8e22c4bf97e06888529759dcc7dd0f407e99055fed116a6d9ff",
+        "sha256": "44eb2e0d3f2078138880820d32c11d3aafc6dfc0270f70caff71e30f49cbdfe7",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-f072b82742d8815f8a29",
       "site_id": "lowland-20261113-06-delta-coastal-transitions-r04-c03",
       "name": "lowland-20261113-06_delta_coastal_transitions_r04_c03",
@@ -45933,6 +46893,102 @@
         ],
         "pixel_sha256": "f2a231324385f7e4c305f5a894ce13145dc9e3896d706e276220d5826e4f708f",
         "sha256": "b2c822f4459233f25f6304c9c6bbfb6c2bb13c6fc35f8c8a8761373a03c7c334",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-f3924b1a67562e3728ec",
+      "site_id": "b38-03-north-south-coastal-connector",
+      "name": "b38_03_north_south_coastal_connector",
+      "display_title": "b38_03_north_south_coastal_connector",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b38-03-north-south-coastal-connector-f3924b1a6756.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_canaan_batch38_complete/b38_03_north_south_coastal_connector.png",
+        "sha256": "a4b228c4d5f6a07a8d12be6395e218e41518af9e20f20dcc7d0347f0fb8a7a4d",
+        "crop_xyxy": [
+          0,
+          0,
+          887,
+          1774
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          887,
+          1774
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          6,
+          5,
+          886,
+          1767
+        ],
+        "pixel_sha256": "f3924b1a67562e3728ec48768760d096dee004a51397f44f80706ef2bdabee89",
+        "sha256": "a4b228c4d5f6a07a8d12be6395e218e41518af9e20f20dcc7d0347f0fb8a7a4d",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -47445,6 +48501,102 @@
         ],
         "pixel_sha256": "fef992e0674cabf88608063d9ab07bfa4ff3bd7c212e8f409d8b78230d6bf226",
         "sha256": "489416a03ed777a06f573f1b1823e5a2e8d03937fe816dbe3ae9e71df2bf76ab",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-fff15190f05b65951704",
+      "site_id": "b39-04-coastal-plain-connector-water-review",
+      "name": "b39_04_coastal_plain_connector_water_review",
+      "display_title": "b39_04_coastal_plain_connector_water_review",
+      "category": "unclassified",
+      "asset": "automated-intake/png/b39-04-coastal-plain-connector-water-review-fff15190f05b.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_canaan_coast_batch39_complete/b39_04_coastal_plain_connector_water_review.png",
+        "sha256": "7057688dd2de199984e0a2fe8b52ecd5764c00dfa8a9d8b4a494b77c9dc7c372",
+        "crop_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1774,
+          887
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1774,
+          887
+        ],
+        "pixel_sha256": "fff15190f05b659517040604c9463ab7fa85fb52ac85b1026215563278fe6eb5",
+        "sha256": "7057688dd2de199984e0a2fe8b52ecd5764c00dfa8a9d8b4a494b77c9dc7c372",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",

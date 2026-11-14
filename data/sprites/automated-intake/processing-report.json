@@ -182,6 +182,138 @@
       ]
     },
     {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_canaan_batch38_complete/b38_01_acre_carmel_foothills.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-807bcc76f4fb2ddc3802",
+          "status": "provisional",
+          "asset": "automated-intake/png/b38-01-acre-carmel-foothills-807bcc76f4fb.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_canaan_batch38_complete/b38_02_jaffa_lydda_coastal_farms.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-1854c650924c497bf529",
+          "status": "provisional",
+          "asset": "automated-intake/png/b38-02-jaffa-lydda-coastal-farms-1854c650924c.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_canaan_batch38_complete/b38_03_north_south_coastal_connector.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-f3924b1a67562e3728ec",
+          "status": "provisional",
+          "asset": "automated-intake/png/b38-03-north-south-coastal-connector-f3924b1a6756.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_canaan_batch38_complete/b38_04_sharon_plain_lowland_fields.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-4af81056c8deb7c76e69",
+          "status": "provisional",
+          "asset": "automated-intake/png/b38-04-sharon-plain-lowland-fields-4af81056c8de.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coast_batch39_complete/b39_01_southern_coastal_farmland_water_review.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-5b17ef933f6a825ae12f",
+          "status": "provisional",
+          "asset": "automated-intake/png/b39-01-southern-coastal-farmland-water-review-5b17ef933f6a.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coast_batch39_complete/b39_02_acre_carmel_bay_water_review.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-3bb30ffb921661ea1cd5",
+          "status": "provisional",
+          "asset": "automated-intake/png/b39-02-acre-carmel-bay-water-review-3bb30ffb9216.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coast_batch39_complete/b39_03_sharon_coast_river_review.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-009f435020e1fb05c987",
+          "status": "provisional",
+          "asset": "automated-intake/png/b39-03-sharon-coast-river-review-009f435020e1.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coast_batch39_complete/b39_04_coastal_plain_connector_water_review.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-fff15190f05b65951704",
+          "status": "provisional",
+          "asset": "automated-intake/png/b39-04-coastal-plain-connector-water-review-fff15190f05b.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coastal_underlays_complete/c37_01_levant_coast_north_south.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-780aed71c33729bf00c6",
+          "status": "provisional",
+          "asset": "automated-intake/png/c37-01-levant-coast-north-south-780aed71c337.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coastal_underlays_complete/c37_02_sharon_coastal_plain.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-8cc8df17f2e8dd4a4d9f",
+          "status": "provisional",
+          "asset": "automated-intake/png/c37-02-sharon-coastal-plain-8cc8df17f2e8.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coastal_underlays_complete/c37_03_coastal_mosaic_review.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-85ef7bd6f0ca164448e2",
+          "status": "provisional",
+          "asset": "automated-intake/png/c37-03-coastal-mosaic-review-85ef7bd6f0ca.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coastal_underlays_complete/c37_04_carmel_gaza_mosaic_review.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-f003f05685f6a8e22c4b",
+          "status": "provisional",
+          "asset": "automated-intake/png/c37-04-carmel-gaza-mosaic-review-f003f05685f6.png"
+        }
+      ]
+    },
+    {
       "source": "assets/sprites/incoming/_zip_extract/crusader_castles_transparent_review_batch/chateau_pelerin_atlit_review.png",
       "extraction": "intact_image_or_uncertain_sheet",
       "pieces": [
@@ -1647,8 +1779,7 @@
       "pieces": [
         {
           "id": "INTAKE-56464826d36bb1f6e533",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r01-c01-56464826d36b.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1658,8 +1789,7 @@
       "pieces": [
         {
           "id": "INTAKE-d9784bd86c9d13cc2b5c",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r01-c02-d9784bd86c9d.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1669,8 +1799,7 @@
       "pieces": [
         {
           "id": "INTAKE-2e719223b2c2355a312c",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r01-c03-2e719223b2c2.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1680,8 +1809,7 @@
       "pieces": [
         {
           "id": "INTAKE-70df58421790e71670b0",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r02-c01-70df58421790.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1691,8 +1819,7 @@
       "pieces": [
         {
           "id": "INTAKE-e8c0db4a6825ba0c9e59",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r02-c02-e8c0db4a6825.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1702,8 +1829,7 @@
       "pieces": [
         {
           "id": "INTAKE-e33a98059cbd3fb02204",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r02-c03-e33a98059cbd.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1713,8 +1839,7 @@
       "pieces": [
         {
           "id": "INTAKE-69deeb096af5d5e0045f",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r03-c01-69deeb096af5.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1724,8 +1849,7 @@
       "pieces": [
         {
           "id": "INTAKE-abe33357e879e05fdef5",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r03-c02-abe33357e879.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1735,8 +1859,7 @@
       "pieces": [
         {
           "id": "INTAKE-40a12ac16a2e88fd94bb",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r03-c03-40a12ac16a2e.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1746,8 +1869,7 @@
       "pieces": [
         {
           "id": "INTAKE-2a4404fb33bce6d64eb2",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r04-c01-2a4404fb33bc.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1757,8 +1879,7 @@
       "pieces": [
         {
           "id": "INTAKE-51da7389888b8b16b5e0",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r04-c02-51da7389888b.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1768,8 +1889,7 @@
       "pieces": [
         {
           "id": "INTAKE-f072b82742d8815f8a29",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r04-c03-f072b82742d8.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1779,8 +1899,7 @@
       "pieces": [
         {
           "id": "INTAKE-bee1e831101bf8dd3a79",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r01-c01-bee1e831101b.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1790,8 +1909,7 @@
       "pieces": [
         {
           "id": "INTAKE-5ab68f4f66af0eede1be",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r01-c02-5ab68f4f66af.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1801,8 +1919,7 @@
       "pieces": [
         {
           "id": "INTAKE-0999d3327bee682492f7",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r01-c03-0999d3327bee.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1812,8 +1929,7 @@
       "pieces": [
         {
           "id": "INTAKE-32abb34ef5e15c76b77d",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r02-c01-32abb34ef5e1.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1823,8 +1939,7 @@
       "pieces": [
         {
           "id": "INTAKE-f978a77040b345eb5384",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r02-c02-f978a77040b3.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1834,8 +1949,7 @@
       "pieces": [
         {
           "id": "INTAKE-17c38b872bf962933a9c",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r02-c03-17c38b872bf9.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1845,8 +1959,7 @@
       "pieces": [
         {
           "id": "INTAKE-4318ec31a044952795dc",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r03-c01-4318ec31a044.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1856,8 +1969,7 @@
       "pieces": [
         {
           "id": "INTAKE-026a707ada3189428760",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r03-c02-026a707ada31.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1867,8 +1979,7 @@
       "pieces": [
         {
           "id": "INTAKE-95b7b2978a8a99b4db8e",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r03-c03-95b7b2978a8a.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1878,8 +1989,7 @@
       "pieces": [
         {
           "id": "INTAKE-3bc354f6f5d9d6796593",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r04-c01-3bc354f6f5d9.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1889,8 +1999,7 @@
       "pieces": [
         {
           "id": "INTAKE-2e31981c82ee8585c7d0",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r04-c02-2e31981c82ee.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1900,8 +2009,7 @@
       "pieces": [
         {
           "id": "INTAKE-c7decf83bebba92b18b9",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r04-c03-c7decf83bebb.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1911,8 +2019,7 @@
       "pieces": [
         {
           "id": "INTAKE-b51324ecd34b562736b6",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r01-c01-b51324ecd34b.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1922,8 +2029,7 @@
       "pieces": [
         {
           "id": "INTAKE-7a53e3eb251e147e31f2",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r01-c02-7a53e3eb251e.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1933,8 +2039,7 @@
       "pieces": [
         {
           "id": "INTAKE-fa72e3738c226be6d867",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r01-c03-fa72e3738c22.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1944,8 +2049,7 @@
       "pieces": [
         {
           "id": "INTAKE-4989f4b3918bee6bf6c4",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r02-c01-4989f4b3918b.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1955,8 +2059,7 @@
       "pieces": [
         {
           "id": "INTAKE-d0be4cd8d74c6bc104b1",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r02-c02-d0be4cd8d74c.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1966,8 +2069,7 @@
       "pieces": [
         {
           "id": "INTAKE-a660eb14f4029be2e771",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r02-c03-a660eb14f402.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1977,8 +2079,7 @@
       "pieces": [
         {
           "id": "INTAKE-d11fb064da1e51bdcde9",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r03-c01-d11fb064da1e.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1988,8 +2089,7 @@
       "pieces": [
         {
           "id": "INTAKE-29c921302d6442fab7e8",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r03-c02-29c921302d64.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1999,8 +2099,7 @@
       "pieces": [
         {
           "id": "INTAKE-0ca9c8cacebcac2d0a83",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r03-c03-0ca9c8cacebc.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2010,8 +2109,7 @@
       "pieces": [
         {
           "id": "INTAKE-8872df3a1128b43addf3",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r04-c01-8872df3a1128.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2021,8 +2119,7 @@
       "pieces": [
         {
           "id": "INTAKE-04aa9f0f092da07fea5c",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r04-c02-04aa9f0f092d.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2032,8 +2129,7 @@
       "pieces": [
         {
           "id": "INTAKE-5dec4cefb78e09f11fa4",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r04-c03-5dec4cefb78e.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2043,8 +2139,7 @@
       "pieces": [
         {
           "id": "INTAKE-bfc3681e0f9d8892c2ec",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r05-c01-bfc3681e0f9d.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2054,8 +2149,7 @@
       "pieces": [
         {
           "id": "INTAKE-9e629c3262c77558b7dd",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r05-c02-9e629c3262c7.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2065,8 +2159,7 @@
       "pieces": [
         {
           "id": "INTAKE-bc06967ea65eb477205c",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r05-c03-bc06967ea65e.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2076,8 +2169,7 @@
       "pieces": [
         {
           "id": "INTAKE-38799bb8ca499b5e0b95",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-09-coastal-rural-variants-r01-c01-38799bb8ca49.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2087,8 +2179,7 @@
       "pieces": [
         {
           "id": "INTAKE-f9b3153985eb3ebc2e40",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-09-coastal-rural-variants-r01-c02-f9b3153985eb.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2098,8 +2189,7 @@
       "pieces": [
         {
           "id": "INTAKE-c875e01b7e12e87ddecd",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-09-coastal-rural-variants-r01-c03-c875e01b7e12.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2109,8 +2199,7 @@
       "pieces": [
         {
           "id": "INTAKE-35696e9ce3d488843d05",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-09-coastal-rural-variants-r02-c01-35696e9ce3d4.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2120,8 +2209,7 @@
       "pieces": [
         {
           "id": "INTAKE-f4054502da6b1ca72167",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-09-coastal-rural-variants-r02-c02-f4054502da6b.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2131,8 +2219,7 @@
       "pieces": [
         {
           "id": "INTAKE-54c0ea48d4d9f6dc95ad",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-09-coastal-rural-variants-r02-c03-54c0ea48d4d9.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2142,8 +2229,7 @@
       "pieces": [
         {
           "id": "INTAKE-332b51762cdfb6ce088f",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-09-coastal-rural-variants-r03-c01-332b51762cdf.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2153,8 +2239,7 @@
       "pieces": [
         {
           "id": "INTAKE-02ee5015dc53fbd425e1",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-09-coastal-rural-variants-r03-c02-02ee5015dc53.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2164,8 +2249,7 @@
       "pieces": [
         {
           "id": "INTAKE-3efa9a1b7415792a82fb",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-09-coastal-rural-variants-r03-c03-3efa9a1b7415.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2175,8 +2259,7 @@
       "pieces": [
         {
           "id": "INTAKE-36fb9ee2b1705e6a27e4",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-09-coastal-rural-variants-r04-c01-36fb9ee2b170.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2186,8 +2269,7 @@
       "pieces": [
         {
           "id": "INTAKE-9dad8c3026adc9619cac",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-09-coastal-rural-variants-r04-c02-9dad8c3026ad.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -2197,8 +2279,7 @@
       "pieces": [
         {
           "id": "INTAKE-a7b0ded9ee9932f09946",
-          "status": "provisional",
-          "asset": "automated-intake/png/lowland-20261113-09-coastal-rural-variants-r04-c03-a7b0ded9ee99.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -5613,7 +5694,7 @@
       ]
     }
   ],
-  "registered": 51,
-  "duplicates": 505,
+  "registered": 12,
+  "duplicates": 556,
   "errors": 0
 }

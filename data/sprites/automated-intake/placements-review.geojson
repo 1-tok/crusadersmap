@@ -27,6 +27,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-009f435020e1fb05c987",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-009f435020e1fb05c987",
+        "asset": "data/sprites/automated-intake/png/b39-03-sharon-coast-river-review-009f435020e1.png",
+        "site_id": "b39-03-sharon-coast-river-review",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-00c347295e206914b093",
       "geometry": null,
       "properties": {
@@ -1434,6 +1458,30 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-1854c650924c497bf529",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-1854c650924c497bf529",
+        "asset": "data/sprites/automated-intake/png/b38-02-jaffa-lydda-coastal-farms-1854c650924c.png",
+        "site_id": "b38-02-jaffa-lydda-coastal-farms",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -3295,6 +3343,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-3bb30ffb921661ea1cd5",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-3bb30ffb921661ea1cd5",
+        "asset": "data/sprites/automated-intake/png/b39-02-acre-carmel-bay-water-review-3bb30ffb9216.png",
+        "site_id": "b39-02-acre-carmel-bay-water-review",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-3bc354f6f5d9d6796593",
       "geometry": null,
       "properties": {
@@ -3945,6 +4017,30 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-4af81056c8deb7c76e69",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-4af81056c8deb7c76e69",
+        "asset": "data/sprites/automated-intake/png/b38-04-sharon-plain-lowland-fields-4af81056c8de.png",
+        "site_id": "b38-04-sharon-plain-lowland-fields",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -4762,6 +4858,30 @@
         "sprite_id": "INTAKE-5aee9f42ca3fdff0f117",
         "asset": "data/sprites/automated-intake/png/jaffa-concept-5aee9f42ca3f.png",
         "site_id": "jaffa-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-5b17ef933f6a825ae12f",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-5b17ef933f6a825ae12f",
+        "asset": "data/sprites/automated-intake/png/b39-01-southern-coastal-farmland-water-review-5b17ef933f6a.png",
+        "site_id": "b39-01-southern-coastal-farmland-water-review",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -5960,6 +6080,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-780aed71c33729bf00c6",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-780aed71c33729bf00c6",
+        "asset": "data/sprites/automated-intake/png/c37-01-levant-coast-north-south-780aed71c337.png",
+        "site_id": "c37-01-levant-coast-north-south",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-7934ae46f9c4d04cf496",
       "geometry": null,
       "properties": {
@@ -6309,6 +6453,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-807bcc76f4fb2ddc3802",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-807bcc76f4fb2ddc3802",
+        "asset": "data/sprites/automated-intake/png/b38-01-acre-carmel-foothills-807bcc76f4fb.png",
+        "site_id": "b38-01-acre-carmel-foothills",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-80bcb2f92b79ad1e8c7a",
       "geometry": null,
       "properties": {
@@ -6600,6 +6768,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-85ef7bd6f0ca164448e2",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-85ef7bd6f0ca164448e2",
+        "asset": "data/sprites/automated-intake/png/c37-03-coastal-mosaic-review-85ef7bd6f0ca.png",
+        "site_id": "c37-03-coastal-mosaic-review",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-8610e2beb05b38010dc8",
       "geometry": null,
       "properties": {
@@ -6864,6 +7056,30 @@
         "sprite_id": "INTAKE-8c230f7ded59681b4102",
         "asset": "data/sprites/automated-intake/png/78-mathraki-concept-8c230f7ded59.png",
         "site_id": "78-mathraki-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8cc8df17f2e8dd4a4d9f",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-8cc8df17f2e8dd4a4d9f",
+        "asset": "data/sprites/automated-intake/png/c37-02-sharon-coastal-plain-8cc8df17f2e8.png",
+        "site_id": "c37-02-sharon-coastal-plain",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -11215,6 +11431,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-f003f05685f6a8e22c4b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-f003f05685f6a8e22c4b",
+        "asset": "data/sprites/automated-intake/png/c37-04-carmel-gaza-mosaic-review-f003f05685f6.png",
+        "site_id": "c37-04-carmel-gaza-mosaic-review",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-f072b82742d8815f8a29",
       "geometry": null,
       "properties": {
@@ -11366,6 +11606,30 @@
         "sprite_id": "INTAKE-f2a231324385f7e4c305",
         "asset": "data/sprites/automated-intake/png/chalcedon-1180-south-view-correction-review-v1-f2a231324385.png",
         "site_id": "chalcedon-1180-south-view-correction-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f3924b1a67562e3728ec",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-f3924b1a67562e3728ec",
+        "asset": "data/sprites/automated-intake/png/b38-03-north-south-coastal-connector-f3924b1a6756.png",
+        "site_id": "b38-03-north-south-coastal-connector",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -11738,6 +12002,30 @@
         "sprite_id": "INTAKE-fef992e0674cabf88608",
         "asset": "data/sprites/automated-intake/png/98-agios-efstratios-concept-fef992e0674c.png",
         "site_id": "98-agios-efstratios-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-fff15190f05b65951704",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-fff15190f05b65951704",
+        "asset": "data/sprites/automated-intake/png/b39-04-coastal-plain-connector-water-review-fff15190f05b.png",
+        "site_id": "b39-04-coastal-plain-connector-water-review",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
