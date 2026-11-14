@@ -52,7 +52,7 @@ def verify(path: Path = ARCHIVE) -> dict:
                 continue
             content = z.read(name)
             current = hashlib.sha256(content).hexdigest()
-            good_png = (content[:8] == b"\\x89PNG\\r\\n\\x1a\\n"
+            good_png = (content[:8] == bytes.fromhex("89504e470d0a1a0a")
                         and len(content) >= 24
                         and struct.unpack(">II", content[16:24]) == (1254, 1254))
             result["checks"].append({"member": name, "sha256_match": current == expected_digest,
