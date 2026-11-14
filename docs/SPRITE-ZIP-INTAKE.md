@@ -51,3 +51,9 @@ Only root-level ZIPs under `assets/sprites/incoming/` are processed. Archives mu
 - **Workflow not triggered:** pushes touching `assets/sprites/incoming/**` on main trigger the job. The workflow can also be started manually.
 
 **Important:** GitHub Actions cannot reach back into ChatGPT's internal file storage. A ZIP still needs a one-time transfer into GitHub through the browser, Git CLI, or another authorized uploader. Once uploaded, extraction, processing, QA checks, registration, and pull request creation run without ChatGPT Work credits.
+
+## Automated review summary
+
+Every successful intake run now writes `intake-review-summary.json` and `intake-review-summary.md` under `data/sprites/automated-intake/`, includes them in the review pull request, and appends the Markdown summary to the GitHub Actions run summary. The report counts technical registrations, pixel duplicates, intake errors, provisional statuses, unclassified artworks, and sprites lacking geographic placement.
+
+Unclassified sprites receive **filename-based candidate category hints only**. Hints never change the existing manifest, certify a historical subject, set a geographic coordinate, or authorize map printing. Review the individual PNG before deciding on any proposed category.
