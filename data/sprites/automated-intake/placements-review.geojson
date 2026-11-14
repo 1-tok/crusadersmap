@@ -357,6 +357,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-0445f7731930682452c3",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-0445f7731930682452c3",
+        "asset": "data/sprites/automated-intake/png/121-pachia-concept-0445f7731930.png",
+        "site_id": "121-pachia-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-04aa9f0f092da07fea5c",
       "geometry": null,
       "properties": {
@@ -539,6 +563,78 @@
         "review_flags": [
           "category_unverified",
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-078e5696ee633261c2b4",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-078e5696ee633261c2b4",
+        "asset": "data/sprites/automated-intake/png/milos-1180-whole-island-south-view-review-v1-078e5696ee63.png",
+        "site_id": "milos-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-080bf4976d2bd927a3a2",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-080bf4976d2bd927a3a2",
+        "asset": "data/sprites/automated-intake/png/batroun-1180-south-view-historical-redo-review-v2-080bf4976d2b.png",
+        "site_id": "batroun-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-0832f53b24415f9ab8b2",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-0832f53b24415f9ab8b2",
+        "asset": "data/sprites/automated-intake/png/petronion-halicarnassus-bodrum-1180-south-view-review-v1-0832f53b2441.png",
+        "site_id": "petronion-halicarnassus-bodrum-1180-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -896,6 +992,32 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-0d67074b44b9099189c0",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-0d67074b44b9099189c0",
+        "asset": "data/sprites/automated-intake/png/source-sheet-0d67074b44b9.png",
+        "site_id": "source-sheet",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-0d69432e89529e4f3501",
       "geometry": null,
       "properties": {
@@ -1158,6 +1280,54 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-11e04c55e3b4c3e259c4",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-11e04c55e3b4c3e259c4",
+        "asset": "data/sprites/automated-intake/png/114-ro-draft-11e04c55e3b4.png",
+        "site_id": "114-ro-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-11eed6499b0104495ff0",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-11eed6499b0104495ff0",
+        "asset": "data/sprites/automated-intake/png/thasos-1180-whole-island-south-view-review-v1-11eed6499b01.png",
+        "site_id": "thasos-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-121fcdbe63d7de9ff449",
       "geometry": null,
       "properties": {
@@ -1199,6 +1369,78 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-12f3e355666c10f6e228",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-12f3e355666c10f6e228",
+        "asset": "data/sprites/automated-intake/png/leros-panteli-1180-byzantine-south-view-review-v1-12f3e355666c.png",
+        "site_id": "leros-panteli-1180-byzantine-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-13080cb73d2691cc0d6f",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-13080cb73d2691cc0d6f",
+        "asset": "data/sprites/automated-intake/png/jableh-1180-south-view-historical-redo-review-v2-13080cb73d26.png",
+        "site_id": "jableh-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-131cd18693d4c4e7cb98",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-131cd18693d4c4e7cb98",
+        "asset": "data/sprites/automated-intake/png/alexandria-1180-south-view-historical-redo-review-v2-131cd18693d4.png",
+        "site_id": "alexandria-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -1325,12 +1567,60 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-149c29c3dd52b823e495",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-149c29c3dd52b823e495",
+        "asset": "data/sprites/automated-intake/png/naxos-1180-byzantine-south-view-review-v1-149c29c3dd52.png",
+        "site_id": "naxos-1180-byzantine-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-14ea8605677781ca888f",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-14ea8605677781ca888f",
         "asset": "data/sprites/automated-intake/png/b19-09-island-watchtower-14ea86056777.png",
         "site_id": "b19-09-island-watchtower",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-1525bbcb4496f515d8ad",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-1525bbcb4496f515d8ad",
+        "asset": "data/sprites/automated-intake/png/ile-de-graye-pharaohs-island-1180-south-view-historical-redo-review-v2-1525bbcb4496.png",
+        "site_id": "ile-de-graye-pharaohs-island-1180-south-view-historical-redo-review-v2",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -1582,6 +1872,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-191bf89cd8117c139deb",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-191bf89cd8117c139deb",
+        "asset": "data/sprites/automated-intake/png/smyrna-1180-byzantine-south-view-review-v1-191bf89cd811.png",
+        "site_id": "smyrna-1180-byzantine-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-1942d73828a8cfbb7678",
       "geometry": null,
       "properties": {
@@ -1601,6 +1915,32 @@
           "category_unverified",
           "coordinates_unverified",
           "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-19de17b755385a3aab28",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-19de17b755385a3aab28",
+        "asset": "data/sprites/automated-intake/png/source-sheet-rgb-checkerboard-19de17b75538.png",
+        "site_id": "source-sheet-rgb-checkerboard",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
         ]
       }
     },
@@ -2032,6 +2372,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-215b93402da7c69ad4d9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-215b93402da7c69ad4d9",
+        "asset": "data/sprites/automated-intake/png/monemvasia-1180-byzantine-south-view-review-v1-215b93402da7.png",
+        "site_id": "monemvasia-1180-byzantine-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-2185ecf124f91221fcf9",
       "geometry": null,
       "properties": {
@@ -2078,6 +2442,32 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-21cda6811a973536568b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-21cda6811a973536568b",
+        "asset": "data/sprites/automated-intake/png/source-sheet-rgb-checkerboard-21cda6811a97.png",
+        "site_id": "source-sheet-rgb-checkerboard",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-21cdd6fda2717da7e6ce",
       "geometry": null,
       "properties": {
@@ -2106,6 +2496,30 @@
         "sprite_id": "INTAKE-2285ae1cfed2ec6162e5",
         "asset": "data/sprites/automated-intake/png/b18-26-date-palms-2285ae1cfed2.png",
         "site_id": "b18-26-date-palms",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-229c7d80569cefb43f7b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-229c7d80569cefb43f7b",
+        "asset": "data/sprites/automated-intake/png/rhodes-1180-byzantine-south-view-review-v1-229c7d80569c.png",
+        "site_id": "rhodes-1180-byzantine-south-view-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -2187,6 +2601,30 @@
         "display_width_units": 340,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-24425b515bf0ec897296",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-24425b515bf0ec897296",
+        "asset": "data/sprites/automated-intake/png/samos-1180-whole-island-south-view-review-v1-24425b515bf0.png",
+        "site_id": "samos-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -2408,12 +2846,84 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-26fc40656d86c314f798",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-26fc40656d86c314f798",
+        "asset": "data/sprites/automated-intake/png/115-strongyli-draft-26fc40656d86.png",
+        "site_id": "115-strongyli-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-276649c95e953ffa5980",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-276649c95e953ffa5980",
+        "asset": "data/sprites/automated-intake/png/nafpaktos-1180-byzantine-south-view-review-v1-276649c95e95.png",
+        "site_id": "nafpaktos-1180-byzantine-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-27ed4a40353fa91f79b3",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-27ed4a40353fa91f79b3",
         "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-05-27ed4a40353f.png",
         "site_id": "10-nile-delta-floodplain-05",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-281b05f2d1516eb76193",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-281b05f2d1516eb76193",
+        "asset": "data/sprites/automated-intake/png/mount-athos-great-lavra-1180-south-view-review-v1-281b05f2d151.png",
+        "site_id": "mount-athos-great-lavra-1180-south-view-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -3182,6 +3692,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-34f1c0874dceaf3054dd",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-34f1c0874dceaf3054dd",
+        "asset": "data/sprites/automated-intake/png/gallipoli-gelibolu-1180-south-view-review-v1-34f1c0874dce.png",
+        "site_id": "gallipoli-gelibolu-1180-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-35696e9ce3d488843d05",
       "geometry": null,
       "properties": {
@@ -3319,6 +3853,54 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-3a2f2b8148b831069b64",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-3a2f2b8148b831069b64",
+        "asset": "data/sprites/automated-intake/png/120-pergousa-concept-3a2f2b8148b8.png",
+        "site_id": "120-pergousa-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-3a5d4e855eaf4e2274a5",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-3a5d4e855eaf4e2274a5",
+        "asset": "data/sprites/automated-intake/png/jaffa-1180-south-view-historical-redo-review-v2-3a5d4e855eaf.png",
+        "site_id": "jaffa-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-3a98cd5f4a9bbc969924",
       "geometry": null,
       "properties": {
@@ -3384,6 +3966,30 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-3c7eab56a0f44e43d00a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-3c7eab56a0f44e43d00a",
+        "asset": "data/sprites/automated-intake/png/lemnos-myrina-1180-byzantine-south-view-review-v1-3c7eab56a0f4.png",
+        "site_id": "lemnos-myrina-1180-byzantine-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -3616,6 +4222,30 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-40e61a3d3744a0d68cd0",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-40e61a3d3744a0d68cd0",
+        "asset": "data/sprites/automated-intake/png/ruad-arwad-1180-south-view-historical-redo-review-v2-40e61a3d3744.png",
+        "site_id": "ruad-arwad-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -4070,6 +4700,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-4c20e41ddf43ca2da411",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-4c20e41ddf43ca2da411",
+        "asset": "data/sprites/automated-intake/png/andros-1180-whole-island-south-view-review-v1-4c20e41ddf43.png",
+        "site_id": "andros-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-4c6be4f8ac82e5884bf4",
       "geometry": null,
       "properties": {
@@ -4146,6 +4800,30 @@
         "sprite_id": "INTAKE-4d6e4f9a9ae3c03528d5",
         "asset": "data/sprites/automated-intake/png/b18-19-marsh-water-reeds-4d6e4f9a9ae3.png",
         "site_id": "b18-19-marsh-water-reeds",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-4d95cc2ab0bdb44f12dd",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-4d95cc2ab0bdb44f12dd",
+        "asset": "data/sprites/automated-intake/png/chania-kydonia-1180-south-to-north-review-v1-4d95cc2ab0bd.png",
+        "site_id": "chania-kydonia-1180-south-to-north-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -4260,6 +4938,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-504a3f966828ea1dcba7",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-504a3f966828ea1dcba7",
+        "asset": "data/sprites/automated-intake/png/tenedos-bozcaada-1180-whole-island-south-view-review-v1-504a3f966828.png",
+        "site_id": "tenedos-bozcaada-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-5089d96695cccd2f4a1a",
       "geometry": null,
       "properties": {
@@ -4314,6 +5016,30 @@
         "sprite_id": "INTAKE-5153834b7b358ae9f9ee",
         "asset": "data/sprites/automated-intake/png/t35-05-long-anatolian-forest-mountain-belt-5153834b7b35.png",
         "site_id": "t35-05-long-anatolian-forest-mountain-belt",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-51bd1c849b4dc4c26a0a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-51bd1c849b4dc4c26a0a",
+        "asset": "data/sprites/automated-intake/png/ayas-laiazzo-c1300-east-gulf-review-v1-51bd1c849b4d.png",
+        "site_id": "ayas-laiazzo-c1300-east-gulf-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -4544,6 +5270,55 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-558e70b9fda89d31778d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-558e70b9fda89d31778d",
+        "asset": "data/sprites/automated-intake/png/source-sheet-558e70b9fda8.png",
+        "site_id": "source-sheet",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-55af6068e55b16d42d34",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-55af6068e55b16d42d34",
+        "asset": "data/sprites/automated-intake/png/tyre-1180-south-view-historical-redo-review-v2-55af6068e55b.png",
+        "site_id": "tyre-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-563dcf02bc0849d6c388",
       "geometry": null,
       "properties": {
@@ -4590,6 +5365,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-56b53c537c905393c542",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-56b53c537c905393c542",
+        "asset": "data/sprites/automated-intake/png/patmos-1180-whole-island-south-view-review-v1-56b53c537c90.png",
+        "site_id": "patmos-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-5736a8535cd8f4aec9fc",
       "geometry": null,
       "properties": {
@@ -4610,6 +5409,30 @@
           "coordinates_unverified",
           "southern_pov_unverified",
           "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-577bf2889b1b1665a2ad",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-577bf2889b1b1665a2ad",
+        "asset": "data/sprites/automated-intake/png/famagusta-1180-south-view-review-v1-577bf2889b1b.png",
+        "site_id": "famagusta-1180-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -4788,6 +5611,30 @@
         "sprite_id": "INTAKE-59848fc848a180e7ecb6",
         "asset": "data/sprites/automated-intake/png/b21-17-arid-rocky-ridges-59848fc848a1.png",
         "site_id": "b21-17-arid-rocky-ridges",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-5a715c1c44e807f1e72a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-5a715c1c44e807f1e72a",
+        "asset": "data/sprites/automated-intake/png/ruad-arwad-1180-south-view-review-v1-5a715c1c44e8.png",
+        "site_id": "ruad-arwad-1180-south-view-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -5018,6 +5865,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-5e36a4e6a7806f667c8a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-5e36a4e6a7806f667c8a",
+        "asset": "data/sprites/automated-intake/png/patmos-st-john-monastery-1180-south-view-review-v1-5e36a4e6a780.png",
+        "site_id": "patmos-st-john-monastery-1180-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-5e68d3606aa8bf73290d",
       "geometry": null,
       "properties": {
@@ -5136,12 +6007,61 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-61261466a7531e39b5d1",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-61261466a7531e39b5d1",
+        "asset": "data/sprites/automated-intake/png/source-sheet-61261466a753.png",
+        "site_id": "source-sheet",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-61e92571c016a1a8b137",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-61e92571c016a1a8b137",
         "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-15-61e92571c016.png",
         "site_id": "11-greek-cyprus-anatolia-levant-lowlands-15",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-62090da3f9efd3189714",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-62090da3f9efd3189714",
+        "asset": "data/sprites/automated-intake/png/kyrenia-1180-south-view-review-v1-62090da3f9ef.png",
+        "site_id": "kyrenia-1180-south-view-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -5214,6 +6134,30 @@
         "sprite_id": "INTAKE-6330cbb777eafbe53798",
         "asset": "data/sprites/automated-intake/png/b18-04-ruined-hillfort-generic-6330cbb777ea.png",
         "site_id": "b18-04-ruined-hillfort-generic",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-63ab5250f59dd2079369",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-63ab5250f59dd2079369",
+        "asset": "data/sprites/automated-intake/png/leros-1180-whole-island-south-view-review-v1-63ab5250f59d.png",
+        "site_id": "leros-1180-whole-island-south-view-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -5494,6 +6438,31 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-6763618e2f76d8d8646e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-6763618e2f76d8d8646e",
+        "asset": "data/sprites/automated-intake/png/source-sheet-rgba-6763618e2f76.png",
+        "site_id": "source-sheet-rgba",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-6764aad7ad05d15c9d48",
       "geometry": null,
       "properties": {
@@ -5524,6 +6493,54 @@
         "sprite_id": "INTAKE-6769e1768d92ca0b9fe3",
         "asset": "data/sprites/automated-intake/png/t33-01-taurus-foothill-transition-6769e1768d92.png",
         "site_id": "t33-01-taurus-foothill-transition",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-677af348c6efb8b6e74e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-677af348c6efb8b6e74e",
+        "asset": "data/sprites/automated-intake/png/damietta-1180-south-view-historical-redo-review-v2-677af348c6ef.png",
+        "site_id": "damietta-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6914e734114fbe26c105",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-6914e734114fbe26c105",
+        "asset": "data/sprites/automated-intake/png/beirut-1180-south-view-historical-redo-review-v2-6914e734114f.png",
+        "site_id": "beirut-1180-south-view-historical-redo-review-v2",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -5634,6 +6651,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-6b651f7b89d997ec2f43",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-6b651f7b89d997ec2f43",
+        "asset": "data/sprites/automated-intake/png/byblos-1180-south-view-historical-redo-review-v2-6b651f7b89d9.png",
+        "site_id": "byblos-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-6bd02e6bbe7f080a923e",
       "geometry": null,
       "properties": {
@@ -5726,6 +6767,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-6f3a63875371dc0df2ad",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-6f3a63875371dc0df2ad",
+        "asset": "data/sprites/automated-intake/png/skyros-chora-1180-whole-island-south-view-review-v1-6f3a63875371.png",
+        "site_id": "skyros-chora-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-6f557f3d59ef6c81c5d5",
       "geometry": null,
       "properties": {
@@ -5745,6 +6810,31 @@
           "category_unverified",
           "coordinates_unverified",
           "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6fe9c9d3f14aad03f050",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-6fe9c9d3f14aad03f050",
+        "asset": "data/sprites/automated-intake/png/source-sheet-rgba-6fe9c9d3f14a.png",
+        "site_id": "source-sheet-rgba",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
         ]
       }
     },
@@ -5916,6 +7006,32 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-7339a3934d95e452b611",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7339a3934d95e452b611",
+        "asset": "data/sprites/automated-intake/png/source-sheet-rgb-7339a3934d95.png",
+        "site_id": "source-sheet-rgb",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-73d8ed338a4a5099165a",
       "geometry": null,
       "properties": {
@@ -5933,6 +7049,54 @@
         "display_width_units": 340,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-73e899adf613d826fb28",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-73e899adf613d826fb28",
+        "asset": "data/sprites/automated-intake/png/110-keros-draft-73e899adf613.png",
+        "site_id": "110-keros-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-740eeeaa189a6921014b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-740eeeaa189a6921014b",
+        "asset": "data/sprites/automated-intake/png/kos-1180-byzantine-south-view-review-v1-740eeeaa189a.png",
+        "site_id": "kos-1180-byzantine-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -6034,6 +7198,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-7616c672ace9be7a2751",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7616c672ace9be7a2751",
+        "asset": "data/sprites/automated-intake/png/methoni-1180-byzantine-south-view-review-v1-7616c672ace9.png",
+        "site_id": "methoni-1180-byzantine-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-767c571fb42550ed43b7",
       "geometry": null,
       "properties": {
@@ -6104,12 +7292,108 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-787ccaa249953d06dd95",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-787ccaa249953d06dd95",
+        "asset": "data/sprites/automated-intake/png/latakia-1180-south-view-historical-redo-review-v2-787ccaa24995.png",
+        "site_id": "latakia-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-78d10de18bf720bd8437",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-78d10de18bf720bd8437",
+        "asset": "data/sprites/automated-intake/png/118-gavdopoula-concept-78d10de18bf7.png",
+        "site_id": "118-gavdopoula-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-7934ae46f9c4d04cf496",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-7934ae46f9c4d04cf496",
         "asset": "data/sprites/automated-intake/png/t30-02-river-to-arid-plain-7934ae46f9c4.png",
         "site_id": "t30-02-river-to-arid-plain",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-7964ed33b49c975d8001",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7964ed33b49c975d8001",
+        "asset": "data/sprites/automated-intake/png/tripoli-1180-south-view-historical-redo-review-v2-7964ed33b49c.png",
+        "site_id": "tripoli-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-79cd97e51da428535fcb",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-79cd97e51da428535fcb",
+        "asset": "data/sprites/automated-intake/png/phocaea-foca-1180-byzantine-south-view-review-v1-79cd97e51da4.png",
+        "site_id": "phocaea-foca-1180-byzantine-south-view-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -6174,6 +7458,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-7a613ee2dd4761d3d5f8",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7a613ee2dd4761d3d5f8",
+        "asset": "data/sprites/automated-intake/png/skopelos-chora-1180-whole-island-south-view-review-v1-7a613ee2dd47.png",
+        "site_id": "skopelos-chora-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-7ad37a912ce3db570e68",
       "geometry": null,
       "properties": {
@@ -6204,6 +7512,30 @@
         "sprite_id": "INTAKE-7b51c65d8d8cf534984b",
         "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-01-7b51c65d8d8c.png",
         "site_id": "11-greek-cyprus-anatolia-levant-lowlands-01",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-7b9c983b59228b170627",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7b9c983b59228b170627",
+        "asset": "data/sprites/automated-intake/png/sitia-1180-south-to-north-review-v1-7b9c983b5922.png",
+        "site_id": "sitia-1180-south-to-north-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -6337,6 +7669,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-7dbc2885001027d89e84",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-7dbc2885001027d89e84",
+        "asset": "data/sprites/automated-intake/png/candia-chandax-heraklion-1180-south-to-north-review-v1-7dbc28850010.png",
+        "site_id": "candia-chandax-heraklion-1180-south-to-north-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-7e4131c46989172f3d70",
       "geometry": null,
       "properties": {
@@ -6402,6 +7758,30 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8043aae9c5c4a0622bd2",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-8043aae9c5c4a0622bd2",
+        "asset": "data/sprites/automated-intake/png/corfu-kerkyra-1180-byzantine-south-view-review-v1-8043aae9c5c4.png",
+        "site_id": "corfu-kerkyra-1180-byzantine-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -6646,12 +8026,85 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-8350e67cc98b6ab111a6",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-8350e67cc98b6ab111a6",
+        "asset": "data/sprites/automated-intake/png/paphos-1180-south-view-review-v1-8350e67cc98b.png",
+        "site_id": "paphos-1180-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-83dc29bd1193d67e19f9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-83dc29bd1193d67e19f9",
+        "asset": "data/sprites/automated-intake/png/source-sheet-rgba-83dc29bd1193.png",
+        "site_id": "source-sheet-rgba",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-844d4eb67f1208f077e4",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-844d4eb67f1208f077e4",
         "asset": "data/sprites/automated-intake/png/b34-03-taurus-anatolian-forest-belt-844d4eb67f12.png",
         "site_id": "b34-03-taurus-anatolian-forest-belt",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-848801b6fa6551950c6d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-848801b6fa6551950c6d",
+        "asset": "data/sprites/automated-intake/png/acre-1180-south-view-historical-redo-review-v2-848801b6fa65.png",
+        "site_id": "acre-1180-south-view-historical-redo-review-v2",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -6934,6 +8387,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-887e43d298c7227fa8fc",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-887e43d298c7227fa8fc",
+        "asset": "data/sprites/automated-intake/png/117-sesklio-concept-887e43d298c7.png",
+        "site_id": "117-sesklio-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-8906198a8b883086d7b9",
       "geometry": null,
       "properties": {
@@ -7098,6 +8575,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-8d0d409b91eaa57f346b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-8d0d409b91eaa57f346b",
+        "asset": "data/sprites/automated-intake/png/kos-1180-whole-island-south-view-review-v1-8d0d409b91ea.png",
+        "site_id": "kos-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-8f4e66fea529488b286b",
       "geometry": null,
       "properties": {
@@ -7174,6 +8675,30 @@
         "sprite_id": "INTAKE-901cd4590164da076ab0",
         "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-08-901cd4590164.png",
         "site_id": "11-greek-cyprus-anatolia-levant-lowlands-08",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-90b6ea87391986d4d747",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-90b6ea87391986d4d747",
+        "asset": "data/sprites/automated-intake/png/111-farmakonisi-draft-90b6ea873919.png",
+        "site_id": "111-farmakonisi-draft",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -7426,6 +8951,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-95db998350b0ff1bf522",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-95db998350b0ff1bf522",
+        "asset": "data/sprites/automated-intake/png/baniyas-syria-1180-south-view-historical-redo-review-v2-95db998350b0.png",
+        "site_id": "baniyas-syria-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-96722e3b338548cb8bf6",
       "geometry": null,
       "properties": {
@@ -7474,12 +9023,60 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-97fe8b99a558256150e0",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-97fe8b99a558256150e0",
+        "asset": "data/sprites/automated-intake/png/paros-paroikia-1180-whole-island-south-view-review-v1-97fe8b99a558.png",
+        "site_id": "paros-paroikia-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-98c58ae9967dfb006b13",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-98c58ae9967dfb006b13",
         "asset": "data/sprites/automated-intake/png/b21-23-broad-delta-reeds-98c58ae9967d.png",
         "site_id": "b21-23-broad-delta-reeds",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-99b78959b80745b0d5c2",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-99b78959b80745b0d5c2",
+        "asset": "data/sprites/automated-intake/png/rethymno-1180-south-to-north-review-v1-99b78959b807.png",
+        "site_id": "rethymno-1180-south-to-north-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -7575,6 +9172,30 @@
         "sprite_id": "INTAKE-9c2063c79c8776564d95",
         "asset": "data/sprites/automated-intake/png/b18-27-scrub-patch-9c2063c79c87.png",
         "site_id": "b18-27-scrub-patch",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9d24be07f42e7f37debb",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-9d24be07f42e7f37debb",
+        "asset": "data/sprites/automated-intake/png/syros-1180-whole-island-south-view-review-v1-9d24be07f42e.png",
+        "site_id": "syros-1180-whole-island-south-view-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -7898,6 +9519,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-a176f051e6f55eb4c96e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-a176f051e6f55eb4c96e",
+        "asset": "data/sprites/automated-intake/png/mytilene-1180-byzantine-south-view-review-v1-a176f051e6f5.png",
+        "site_id": "mytilene-1180-byzantine-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-a20a8f7f9045cb31c6c4",
       "geometry": null,
       "properties": {
@@ -8151,6 +9796,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-a8e79845dd68c19b0afb",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-a8e79845dd68c19b0afb",
+        "asset": "data/sprites/automated-intake/png/jableh-1180-south-view-review-v1-a8e79845dd68.png",
+        "site_id": "jableh-1180-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-a97a6d3d20da1c42b609",
       "geometry": null,
       "properties": {
@@ -8170,6 +9839,32 @@
           "category_unverified",
           "coordinates_unverified",
           "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-a9d7237f11c17bc51db8",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-a9d7237f11c17bc51db8",
+        "asset": "data/sprites/automated-intake/png/source-sheet-rgb-checkerboard-a9d7237f11c1.png",
+        "site_id": "source-sheet-rgb-checkerboard",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
         ]
       }
     },
@@ -8312,6 +10007,32 @@
           "category_unverified",
           "coordinates_unverified",
           "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-aca0ad7b1e48c09787eb",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-aca0ad7b1e48c09787eb",
+        "asset": "data/sprites/automated-intake/png/source-sheet-rgb-checkerboard-aca0ad7b1e48.png",
+        "site_id": "source-sheet-rgb-checkerboard",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
         ]
       }
     },
@@ -8642,12 +10363,85 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-b52283911d9bb69c2490",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-b52283911d9bb69c2490",
+        "asset": "data/sprites/automated-intake/png/source-sheet-rgba-b52283911d9b.png",
+        "site_id": "source-sheet-rgba",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-b62526aeb8a89bcef928",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-b62526aeb8a89bcef928",
         "asset": "data/sprites/automated-intake/png/t27-04-dense-temperate-woodland-b62526aeb8a8.png",
         "site_id": "t27-04-dense-temperate-woodland",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-b65fa442d8e318437f5c",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-b65fa442d8e318437f5c",
+        "asset": "data/sprites/automated-intake/png/caesarea-1180-south-view-historical-redo-review-v2-b65fa442d8e3.png",
+        "site_id": "caesarea-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-b7b7dd29b8704d42a1ca",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-b7b7dd29b8704d42a1ca",
+        "asset": "data/sprites/automated-intake/png/kefalonia-1180-whole-island-south-view-review-v1-b7b7dd29b870.png",
+        "site_id": "kefalonia-1180-whole-island-south-view-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -8792,6 +10586,30 @@
         "sprite_id": "INTAKE-b92830804030e0896e28",
         "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-02-b92830804030.png",
         "site_id": "10-nile-delta-floodplain-02",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-b92a939783dadc298740",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-b92a939783dadc298740",
+        "asset": "data/sprites/automated-intake/png/santorini-1180-whole-island-south-view-review-v1-b92a939783da.png",
+        "site_id": "santorini-1180-whole-island-south-view-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -8981,6 +10799,55 @@
         "sprite_id": "INTAKE-bd042f1f9c7f23f5694f",
         "asset": "data/sprites/automated-intake/png/t27-22-river-delta-wetland-bd042f1f9c7f.png",
         "site_id": "t27-22-river-delta-wetland",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-bd10c9ba604515616abd",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-bd10c9ba604515616abd",
+        "asset": "data/sprites/automated-intake/png/source-sheet-bd10c9ba6045.png",
+        "site_id": "source-sheet",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-bdc14f300407f5f7f776",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-bdc14f300407f5f7f776",
+        "asset": "data/sprites/automated-intake/png/paphos-1180-south-southwest-harbor-review-v1-bdc14f300407.png",
+        "site_id": "paphos-1180-south-southwest-harbor-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -9327,6 +11194,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-c2f0d61217e54be99706",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-c2f0d61217e54be99706",
+        "asset": "data/sprites/automated-intake/png/patras-1180-byzantine-south-view-review-v1-c2f0d61217e5.png",
+        "site_id": "patras-1180-byzantine-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-c37ee44c10b202d8fdf5",
       "geometry": null,
       "properties": {
@@ -9491,12 +11382,60 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-c53d7189e90d813f25ab",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-c53d7189e90d813f25ab",
+        "asset": "data/sprites/automated-intake/png/imbros-1180-whole-island-south-view-review-v1-c53d7189e90d.png",
+        "site_id": "imbros-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-c5e19a2f4530e42a3114",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-c5e19a2f4530e42a3114",
         "asset": "data/sprites/automated-intake/png/t35-02-very-wide-gravel-steppe-c5e19a2f4530.png",
         "site_id": "t35-02-very-wide-gravel-steppe",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-c6a600656a6448487de2",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-c6a600656a6448487de2",
+        "asset": "data/sprites/automated-intake/png/119-kandelioussa-concept-c6a600656a64.png",
+        "site_id": "119-kandelioussa-concept",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -9986,6 +11925,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-d225c226e5a0a3dd22c2",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-d225c226e5a0a3dd22c2",
+        "asset": "data/sprites/automated-intake/png/koroni-1180-byzantine-south-view-review-v1-d225c226e5a0.png",
+        "site_id": "koroni-1180-byzantine-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-d3ec28aabda5963a8712",
       "geometry": null,
       "properties": {
@@ -10346,6 +12309,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-d9e0e7cdd70c9fd897c9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-d9e0e7cdd70c9fd897c9",
+        "asset": "data/sprites/automated-intake/png/latakia-1180-south-view-review-v1-d9e0e7cdd70c.png",
+        "site_id": "latakia-1180-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-da0073b1136201e647a4",
       "geometry": null,
       "properties": {
@@ -10400,6 +12387,30 @@
         "sprite_id": "INTAKE-dadd60d0240a57099daf",
         "asset": "data/sprites/automated-intake/png/b32-02-09-pine-mixed-wood-dadd60d0240a.png",
         "site_id": "b32-02-09-pine-mixed-wood",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-db12c7b3710db8359c91",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-db12c7b3710db8359c91",
+        "asset": "data/sprites/automated-intake/png/ikaria-1180-whole-island-south-view-review-v1-db12c7b3710d.png",
+        "site_id": "ikaria-1180-whole-island-south-view-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -10589,6 +12600,56 @@
         "sprite_id": "INTAKE-df0b2e8513e9d9f798f2",
         "asset": "data/sprites/automated-intake/png/b34-05-greek-mainland-countryside-df0b2e8513e9.png",
         "site_id": "b34-05-greek-mainland-countryside",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-df62ad29b99e4f8a07a8",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-df62ad29b99e4f8a07a8",
+        "asset": "data/sprites/automated-intake/png/source-sheet-rgb-df62ad29b99e.png",
+        "site_id": "source-sheet-rgb",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e08fe1f9fa4c38bcb8c8",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-e08fe1f9fa4c38bcb8c8",
+        "asset": "data/sprites/automated-intake/png/chios-1180-byzantine-south-view-review-v1-e08fe1f9fa4c.png",
+        "site_id": "chios-1180-byzantine-south-view-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -10889,6 +12950,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-e6f092d852ed7624f73e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-e6f092d852ed7624f73e",
+        "asset": "data/sprites/automated-intake/png/112-alimia-draft-e6f092d852ed.png",
+        "site_id": "112-alimia-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-e74b6a869462c5f4de1f",
       "geometry": null,
       "properties": {
@@ -11053,12 +13138,60 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-e922a20938cc58c1a31e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-e922a20938cc58c1a31e",
+        "asset": "data/sprites/automated-intake/png/gaza-1180-south-view-historical-redo-review-v2-e922a20938cc.png",
+        "site_id": "gaza-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-e9a31fa91e292d377a07",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-e9a31fa91e292d377a07",
         "asset": "data/sprites/automated-intake/png/farming-03-field-woodland-transition-e9a31fa91e29.png",
         "site_id": "farming-03-field-woodland-transition",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-eaa69a4d50c08362612a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-eaa69a4d50c08362612a",
+        "asset": "data/sprites/automated-intake/png/116-nimos-concept-eaa69a4d50c0.png",
+        "site_id": "116-nimos-concept",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -11218,6 +13351,31 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-ecf50d3a34f4bf5c4c21",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-ecf50d3a34f4bf5c4c21",
+        "asset": "data/sprites/automated-intake/png/aegean-review-locator-v2-ecf50d3a34f4.png",
+        "site_id": "aegean-review-locator-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-ed937c26da6e39338d9f",
       "geometry": null,
       "properties": {
@@ -11286,6 +13444,30 @@
           "coordinates_unverified",
           "southern_pov_unverified",
           "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-ee9731287ac4630df25a",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-ee9731287ac4630df25a",
+        "asset": "data/sprites/automated-intake/png/ayasoluk-ephesus-1180-south-view-review-v1-ee9731287ac4.png",
+        "site_id": "ayasoluk-ephesus-1180-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -11437,6 +13619,30 @@
         "sprite_id": "INTAKE-f003f05685f6a8e22c4b",
         "asset": "data/sprites/automated-intake/png/c37-04-carmel-gaza-mosaic-review-f003f05685f6.png",
         "site_id": "c37-04-carmel-gaza-mosaic-review",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f052701659a182b88356",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-f052701659a182b88356",
+        "asset": "data/sprites/automated-intake/png/tartus-1180-south-view-historical-redo-review-v2-f052701659a1.png",
+        "site_id": "tartus-1180-south-view-historical-redo-review-v2",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -11624,6 +13830,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-f2f22b816c94f9a1d04d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-f2f22b816c94f9a1d04d",
+        "asset": "data/sprites/automated-intake/png/ascalon-1180-south-view-historical-redo-review-v2-f2f22b816c94.png",
+        "site_id": "ascalon-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-f3924b1a67562e3728ec",
       "geometry": null,
       "properties": {
@@ -11672,6 +13902,32 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-f3be45757eb7fdc647ff",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-f3be45757eb7fdc647ff",
+        "asset": "data/sprites/automated-intake/png/source-sheet-rgb-f3be45757eb7.png",
+        "site_id": "source-sheet-rgb",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-f4054502da6b1ca72167",
       "geometry": null,
       "properties": {
@@ -11689,6 +13945,30 @@
         "display_width_units": 512,
         "review_flags": [
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f559ae67c0701eb0aaee",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-f559ae67c0701eb0aaee",
+        "asset": "data/sprites/automated-intake/png/chastel-pelerin-atlit-1180-south-view-historical-redo-review-v2-f559ae67c070.png",
+        "site_id": "chastel-pelerin-atlit-1180-south-view-historical-redo-review-v2",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
@@ -11770,6 +14050,30 @@
         "sprite_id": "INTAKE-f6f3e51288cc28593068",
         "asset": "data/sprites/automated-intake/png/b32-03-01-nile-cultivated-floodplain-f6f3e51288cc.png",
         "site_id": "b32-03-01-nile-cultivated-floodplain",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f74bbb83ba94179be51d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-f74bbb83ba94179be51d",
+        "asset": "data/sprites/automated-intake/png/sidon-1180-south-view-historical-redo-review-v2-f74bbb83ba94.png",
+        "site_id": "sidon-1180-south-view-historical-redo-review-v2",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -11948,12 +14252,60 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-fc57b075cca990433f10",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-fc57b075cca990433f10",
+        "asset": "data/sprites/automated-intake/png/113-gyali-draft-fc57b075cca9.png",
+        "site_id": "113-gyali-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-fd807ab99f04b9a7d53b",
       "geometry": null,
       "properties": {
         "sprite_id": "INTAKE-fd807ab99f04b9a7d53b",
         "asset": "data/sprites/automated-intake/png/73-oinousses-cluster-draft-fd807ab99f04.png",
         "site_id": "73-oinousses-cluster-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-fd84ff3379fef890391d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-fd84ff3379fef890391d",
+        "asset": "data/sprites/automated-intake/png/baniyas-syria-1180-south-view-review-v1-fd84ff3379fe.png",
+        "site_id": "baniyas-syria-1180-south-view-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -11991,6 +14343,56 @@
           "category_unverified",
           "coordinates_unverified",
           "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-fe52559d3615598662dd",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-fe52559d3615598662dd",
+        "asset": "data/sprites/automated-intake/png/limassol-1180-south-view-review-v1-fe52559d3615.png",
+        "site_id": "limassol-1180-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-fe5974b993b1c6860754",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-fe5974b993b1c6860754",
+        "asset": "data/sprites/automated-intake/png/source-sheet-rgb-checkerboard-fe5974b993b1.png",
+        "site_id": "source-sheet-rgb-checkerboard",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "opaque_background_verify_intended_underlay",
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
         ]
       }
     },
