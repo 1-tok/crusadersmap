@@ -7,6 +7,9 @@ on:
     paths:
       - '.github/workflows/rebuild-current-map.yml'
       - 'tools/rebuild_city_coastal_qa.py'
+      - 'tools/reconcile_recovered_coasts_islands.py'
+      - 'data/manifests/ROOT-ZIP-RECOVERY-2026-11-13.json'
+      - 'data/sprites/automated-intake/manifest.json'
       - 'build_stage1.py'
       - 'build_stage2.py'
       - 'placer.py'
@@ -70,6 +73,8 @@ jobs:
           python tools/report_map_sprite_utilization.py
           python tools/audit_intake_promotion.py
           python tools/check_geographic_castle_placements.py
+      - name: Reconcile recovered Greek island and coastal city art; render review composite
+        run: python tools/reconcile_recovered_coasts_islands.py
       - name: Upload build outputs for review
         if: always()
         uses: actions/upload-artifact@v4
