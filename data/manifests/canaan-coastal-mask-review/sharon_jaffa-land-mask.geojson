@@ -1,0 +1,83 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.743337,
+              32.039862
+            ],
+            [
+              34.743988,
+              32.044623
+            ],
+            [
+              34.742686,
+              32.055609
+            ],
+            [
+              34.743337,
+              32.06037
+            ],
+            [
+              34.757009,
+              32.066596
+            ],
+            [
+              34.837657,
+              32.280707
+            ],
+            [
+              34.87318,
+              32.430304
+            ],
+            [
+              34.904145,
+              32.560614
+            ],
+            [
+              34.909841,
+              32.570258
+            ],
+            [
+              34.91385350809866,
+              32.6
+            ],
+            [
+              35.1,
+              32.6
+            ],
+            [
+              35.1,
+              31.95
+            ],
+            [
+              34.71072958472183,
+              31.95
+            ],
+            [
+              34.711925,
+              31.951606
+            ],
+            [
+              34.743337,
+              32.039862
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "sharon_jaffa",
+        "status": "diagnostic_only",
+        "not_sprite_footprint": true,
+        "requires_historical_shoreline_review": true,
+        "requires_south_oblique_sprite_orientation_review": true,
+        "production_approved": false
+      }
+    }
+  ]
+}
