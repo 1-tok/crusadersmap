@@ -80,11 +80,19 @@ def apply_land_underlay(base_chunk, terrain, region, row0, row1):
     if land.shape != (h, w) or lake.shape != (h, w):
         raise ValueError("Geographic land/water mask size mismatch")
 
-    # Fail closed near shorelines: leave the fractional 1-pixel coastline edge
-    # to the geographic wash and subsequent coast/river line art.
-    inside = (land >= 0.995) & (lake <= 0.005)
+    # Use the exact rasterized land and lake polygons at the same preview
+    # resolution as the geographic wash. The blurred wash's 0.995 threshold
+    # previously erased the shoreline pixels; a binary geographic mask clips
+    # texture right up to the coast without putting any into the water.
+    exact_land = np.asarray(terrain._land_exact, bool)
+    exact_lake = np.asarray(terrain._lake_exact, bool)
+    if exact_land.shape != (h, w) or exact_lake.shape != (h, w):
+        raise ValueError("Exact geographic coastline mask size mismatch")
+    inside = exact_land & ~exact_lake
     counts = _COUNTS[region]
     counts["land_interior_pixels"] += int(inside.sum())
+    counts["shoreline_land_pixels"] += int(np.count_nonzero(inside & (land < 0.995)))
+    counts["sea_or_lake_excluded_pixels"] += int(np.count_nonzero(~inside))
     counts["excluded_boundary_water_pixels"] += int(inside.size - inside.sum())
     if not np.any(inside):
         return
@@ -117,7 +125,9 @@ def apply_land_underlay(base_chunk, terrain, region, row0, row1):
 
     # This is deliberately a reversible review rendering, not a substitute
     # for visually fitted, high-resolution regional terrain paintings.
-    detail *= 0.82
+    # Feather *within* the exact land boundary: gradual stroke strength for
+    # anti-aliased shoreline land pixels, absolutely zero beyond the boundary.
+    detail *= (0.82 * (0.48 + 0.52 * np.clip(land, 0, 1)) * (1 - lake))[..., None]
     before = base_chunk[inside].copy()
     excluded_before = base_chunk[~inside].copy()
     base_chunk[inside] = np.clip(base_chunk[inside] + detail[inside], 0, 255)
@@ -135,7 +145,7 @@ def apply_land_underlay(base_chunk, terrain, region, row0, row1):
 def write_coverage_report(path="out/underlay-coverage-report.json"):
     out = {
         "status": "provisional_underlay_visual_review",
-        "method": "edge-matched retained paintings, geographic land-interior clipping, texture detail colour-matched to mapped wash",
+        "method": "edge-matched retained paintings, exact land-and-lake polygon clipping up to coastline, in-land feathered texture over geographic wash",
         "enabled": ENABLED,
         "workflow": {
             "head_sha": os.environ.get("GITHUB_SHA"),
@@ -145,7 +155,7 @@ def write_coverage_report(path="out/underlay-coverage-report.json"):
         "notes": [
             "A pixel receiving underpaint is not proof that a visual sprite gap is resolved.",
             "A continuous geographic wash already existed; flat/thin cells can be intentional deserts.",
-            "No sea or lake is painted; geographic boundary antialias pixels stay under the coast ink.",
+            "Exact land-mask pixels now receive underpaint through the shoreline; sea and lakes remain unpainted.",
             "Held 51 lowland cutouts, Canaan coastal strips and island replacements were not promoted.",
             "The enlarged green texture requires repaint/print QA; this is review-only.",
             "Per-region paint totals overlap where inset boxes cover the main map.",
