@@ -90,6 +90,10 @@ FARM_AEG = ["aegean-terraced-farmland", "aegean-island-interior", "aegean-terrac
 FEATHER = set(FARM_RICH + FARM_PASTURE + FARM_AEG + ["gravel-wasteland-deep", "steppe-basin-deep"])
 
 FEATHER |= set(DEEP) | set(C_RICH + C_PAST + C_WASTE)
+# Salt-flat artwork must not retain the rectangular footprint of its source
+# painting; ordinary edge feathering alone can still reveal the rectangle.
+SALT_BLEND = {"salt-flat", "salt-flat-basin"}
+FEATHER |= SALT_BLEND
 
 
 def choose(kind, lon, lat, waste, aegean, rnd):
@@ -133,7 +137,21 @@ def _surf(name, edition, width):
         im = _img(name, edition)
         h = max(1, int(round(im.height * width / im.width)))
         im = im.resize((width, h), Image.LANCZOS)
-        if name in FEATHER:
+        if name in SALT_BLEND:
+            # An irregular, softly feathered playa silhouette removes hard
+            # corners and straight rectangular tile edges. Use normalized
+            # source coordinates so the result scales with the painting.
+            yy, xx = np.mgrid[0:h, 0:width].astype(np.float32)
+            nx = (xx + 0.5) / width * 2 - 1
+            ny = (yy + 0.5) / h * 2 - 1
+            theta = np.arctan2(ny, nx)
+            edge = 0.87 + 0.055 * np.sin(5 * theta + 0.3) + 0.035 * np.sin(9 * theta - 0.6)
+            radius = np.sqrt(nx * nx + ny * ny)
+            fade = np.clip((edge - radius) / 0.22, 0, 1)
+            fade = fade * fade * (3 - 2 * fade)
+            old_alpha = np.asarray(im.getchannel("A"), np.float32)
+            im.putalpha(Image.fromarray(np.uint8(np.clip(old_alpha * fade, 0, 255))))
+        elif name in FEATHER:
             from PIL import ImageFilter
             a_ = im.getchannel("A")
             r_ = max(2, int(width * 0.035))
