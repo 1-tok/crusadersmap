@@ -3,7 +3,7 @@
   "project": "1-tok/crusadersmap",
   "map_year": 1180,
   "created": "2026-11-13",
-  "status": "intake_duplicates_confirmed_mask_builder_added_geographic_placement_hold",
+  "status": "diagnostic_land_masks_generated_sprite_fit_and_shoreline_qa_hold",
   "purpose": "Stage Canaan coastal terrain Batches 37–39 for geographically constrained review, without inventing coordinates or claiming they appear on map.",
   "source_archives": [
     "crusader_canaan_coastal_underlays_complete.zip",
@@ -13,8 +13,8 @@
   "sources_qa": {
     "source_png_members": "12 expected PNG names appear as source paths in automated-intake processing report; not an independent ZIP integrity recheck",
     "extracted_pngs_visible_in_main_tree": 0,
-    "geographic_geometry": "diagnostic mask builder added; no verified mask outputs or per-sprite footprints",
-    "map_composite_integration": "not done",
+    "geographic_geometry": "three regional diagnostic land polygons now generated; individual sprite footprints remain null",
+    "map_composite_integration": "not done: no sprite-to-mask alignment",
     "final_print_approval": false,
     "extraction_processing_records": 12,
     "processing_report_path": "data/sprites/automated-intake/processing-report.json",
@@ -48,7 +48,13 @@
       "print_approved": false,
       "processing_source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coastal_underlays_complete/c37_01_levant_coast_north_south.png",
       "processing_extraction": "intact_image_or_uncertain_sheet",
-      "duplicate_intake_id": "INTAKE-780aed71c33729bf00c6"
+      "duplicate_intake_id": "INTAKE-780aed71c33729bf00c6",
+      "diagnostic_mask_regions": [
+        "acre_carmel",
+        "sharon_jaffa",
+        "ashkelon_gaza"
+      ],
+      "review_placement_status": "hold_sprite_footprint_and_orientation_verification"
     },
     {
       "id": "37-02",
@@ -66,7 +72,11 @@
       "print_approved": false,
       "processing_source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coastal_underlays_complete/c37_02_sharon_coastal_plain.png",
       "processing_extraction": "intact_image_or_uncertain_sheet",
-      "duplicate_intake_id": "INTAKE-8cc8df17f2e8dd4a4d9f"
+      "duplicate_intake_id": "INTAKE-8cc8df17f2e8dd4a4d9f",
+      "diagnostic_mask_regions": [
+        "sharon_jaffa"
+      ],
+      "review_placement_status": "hold_sprite_footprint_and_orientation_verification"
     },
     {
       "id": "37-03",
@@ -84,7 +94,13 @@
       "print_approved": false,
       "processing_source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coastal_underlays_complete/c37_03_coastal_mosaic_review.png",
       "processing_extraction": "intact_image_or_uncertain_sheet",
-      "duplicate_intake_id": "INTAKE-85ef7bd6f0ca164448e2"
+      "duplicate_intake_id": "INTAKE-85ef7bd6f0ca164448e2",
+      "diagnostic_mask_regions": [
+        "acre_carmel",
+        "sharon_jaffa",
+        "ashkelon_gaza"
+      ],
+      "review_placement_status": "hold_sprite_footprint_and_orientation_verification"
     },
     {
       "id": "37-04",
@@ -102,7 +118,13 @@
       "print_approved": false,
       "processing_source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coastal_underlays_complete/c37_04_carmel_gaza_mosaic_review.png",
       "processing_extraction": "intact_image_or_uncertain_sheet",
-      "duplicate_intake_id": "INTAKE-f003f05685f6a8e22c4b"
+      "duplicate_intake_id": "INTAKE-f003f05685f6a8e22c4b",
+      "diagnostic_mask_regions": [
+        "acre_carmel",
+        "sharon_jaffa",
+        "ashkelon_gaza"
+      ],
+      "review_placement_status": "hold_sprite_footprint_and_orientation_verification"
     },
     {
       "id": "38-01",
@@ -120,7 +142,11 @@
       "print_approved": false,
       "processing_source": "assets/sprites/incoming/_zip_extract/crusader_canaan_batch38_complete/b38_01_acre_carmel_foothills.png",
       "processing_extraction": "intact_image_or_uncertain_sheet",
-      "duplicate_intake_id": "INTAKE-807bcc76f4fb2ddc3802"
+      "duplicate_intake_id": "INTAKE-807bcc76f4fb2ddc3802",
+      "diagnostic_mask_regions": [
+        "acre_carmel"
+      ],
+      "review_placement_status": "hold_sprite_footprint_and_orientation_verification"
     },
     {
       "id": "38-02",
@@ -138,7 +164,11 @@
       "print_approved": false,
       "processing_source": "assets/sprites/incoming/_zip_extract/crusader_canaan_batch38_complete/b38_02_jaffa_lydda_coastal_farms.png",
       "processing_extraction": "intact_image_or_uncertain_sheet",
-      "duplicate_intake_id": "INTAKE-1854c650924c497bf529"
+      "duplicate_intake_id": "INTAKE-1854c650924c497bf529",
+      "diagnostic_mask_regions": [
+        "sharon_jaffa"
+      ],
+      "review_placement_status": "hold_sprite_footprint_and_orientation_verification"
     },
     {
       "id": "38-03",
@@ -156,7 +186,13 @@
       "print_approved": false,
       "processing_source": "assets/sprites/incoming/_zip_extract/crusader_canaan_batch38_complete/b38_03_north_south_coastal_connector.png",
       "processing_extraction": "intact_image_or_uncertain_sheet",
-      "duplicate_intake_id": "INTAKE-f3924b1a67562e3728ec"
+      "duplicate_intake_id": "INTAKE-f3924b1a67562e3728ec",
+      "diagnostic_mask_regions": [
+        "acre_carmel",
+        "sharon_jaffa",
+        "ashkelon_gaza"
+      ],
+      "review_placement_status": "hold_sprite_footprint_and_orientation_verification"
     },
     {
       "id": "38-04",
@@ -174,7 +210,11 @@
       "print_approved": false,
       "processing_source": "assets/sprites/incoming/_zip_extract/crusader_canaan_batch38_complete/b38_04_sharon_plain_lowland_fields.png",
       "processing_extraction": "intact_image_or_uncertain_sheet",
-      "duplicate_intake_id": "INTAKE-4af81056c8deb7c76e69"
+      "duplicate_intake_id": "INTAKE-4af81056c8deb7c76e69",
+      "diagnostic_mask_regions": [
+        "sharon_jaffa"
+      ],
+      "review_placement_status": "hold_sprite_footprint_and_orientation_verification"
     },
     {
       "id": "39-01",
@@ -192,7 +232,11 @@
       "print_approved": false,
       "processing_source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coast_batch39_complete/b39_01_southern_coastal_farmland_water_review.png",
       "processing_extraction": "intact_image_or_uncertain_sheet",
-      "duplicate_intake_id": "INTAKE-5b17ef933f6a825ae12f"
+      "duplicate_intake_id": "INTAKE-5b17ef933f6a825ae12f",
+      "diagnostic_mask_regions": [
+        "ashkelon_gaza"
+      ],
+      "review_placement_status": "hold_sprite_footprint_and_orientation_verification"
     },
     {
       "id": "39-02",
@@ -210,7 +254,11 @@
       "print_approved": false,
       "processing_source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coast_batch39_complete/b39_02_acre_carmel_bay_water_review.png",
       "processing_extraction": "intact_image_or_uncertain_sheet",
-      "duplicate_intake_id": "INTAKE-3bb30ffb921661ea1cd5"
+      "duplicate_intake_id": "INTAKE-3bb30ffb921661ea1cd5",
+      "diagnostic_mask_regions": [
+        "acre_carmel"
+      ],
+      "review_placement_status": "hold_sprite_footprint_and_orientation_verification"
     },
     {
       "id": "39-03",
@@ -228,7 +276,11 @@
       "print_approved": false,
       "processing_source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coast_batch39_complete/b39_03_sharon_coast_river_review.png",
       "processing_extraction": "intact_image_or_uncertain_sheet",
-      "duplicate_intake_id": "INTAKE-009f435020e1fb05c987"
+      "duplicate_intake_id": "INTAKE-009f435020e1fb05c987",
+      "diagnostic_mask_regions": [
+        "sharon_jaffa"
+      ],
+      "review_placement_status": "hold_sprite_footprint_and_orientation_verification"
     },
     {
       "id": "39-04",
@@ -246,7 +298,13 @@
       "print_approved": false,
       "processing_source": "assets/sprites/incoming/_zip_extract/crusader_canaan_coast_batch39_complete/b39_04_coastal_plain_connector_water_review.png",
       "processing_extraction": "intact_image_or_uncertain_sheet",
-      "duplicate_intake_id": "INTAKE-fff15190f05b65951704"
+      "duplicate_intake_id": "INTAKE-fff15190f05b65951704",
+      "diagnostic_mask_regions": [
+        "acre_carmel",
+        "sharon_jaffa",
+        "ashkelon_gaza"
+      ],
+      "review_placement_status": "hold_sprite_footprint_and_orientation_verification"
     }
   ],
   "intake_recovery": {
@@ -266,7 +324,7 @@
   },
   "verification_note_2026_11_15": "Processing records establish ingestion recognition, not independent binary inspection, land-mask QA, map placement, or print approval. Historical map scope extends through 16th century; 1180 remains a scenario snapshot only.",
   "coastal_mask_review": {
-    "status": "builder_committed_not_executed",
+    "status": "three_diagnostic_geojson_masks_present",
     "script": "tools/build_canaan_coastal_masks.py",
     "command": "python3 tools/build_canaan_coastal_masks.py",
     "expected_outputs": [
@@ -281,6 +339,28 @@
     "placement_auto_authorized": false,
     "water_sprite_override_authorized": false,
     "south_oblique_orientation_review": "pending visual inspection",
-    "verification": "not executed or visually QA'd in this connector session"
-  }
+    "verification": "2026-11-15: three feature collection files and report read from main; Polygon geometries with production_approved=false; NOT fitted to painted sprites",
+    "generated_report": "data/manifests/canaan-coastal-mask-review/mask-build-report.json",
+    "region_mask_status": {
+      "acre_carmel": {
+        "path": "data/manifests/canaan-coastal-mask-review/acre_carmel-land-mask.geojson",
+        "verified_file_present": true
+      },
+      "sharon_jaffa": {
+        "path": "data/manifests/canaan-coastal-mask-review/sharon_jaffa-land-mask.geojson",
+        "verified_file_present": true
+      },
+      "ashkelon_gaza": {
+        "path": "data/manifests/canaan-coastal-mask-review/ashkelon_gaza-land-mask.geojson",
+        "verified_file_present": true
+      }
+    }
+  },
+  "next_qa_tasks": [
+    "Resolve duplicate intake IDs to canonical asset PNG paths; do not interpret duplicate status as geographic placement.",
+    "Inspect each candidate artwork and compare water-facing side to southern-oblique viewpoint; reject mismatched shoreline-facing elements.",
+    "Fit per-sprite irregular footprint within relevant diagnostic land mask; never use study-box polygon as sprite bbox.",
+    "Mask painted water or retain Batch 39 on hold pending river-mouth and harbor matching; inspect historic-phase coastline.",
+    "Check overlap against active coastal farms, settlements and roads, then produce review-only composite and print-resolution proof."
+  ]
 }
