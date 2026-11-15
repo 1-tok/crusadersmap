@@ -852,6 +852,102 @@
           "verify alpha, scale and print quality"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9666,
+          37.4642
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-27c557236db03b6b0282",
+        "island": "agathonisi",
+        "batch": 30,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_batch30_retry_part2/agathonisi_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "https://mapcarta.com/Agathonisi",
+        "anchor_quality": "external_island_landform_location",
+        "legacy_reference_bbox_wgs84": null,
+        "geometry_not_sprite_alignment": true,
+        "geographic_hold": "RELEASED_FOR_REVIEW_MARKER_ONLY",
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.917,
+          37
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-77ad27c2ab4c57744457",
+        "island": "telendos",
+        "batch": 30,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_batch30_retry_part2/telendos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "https://en.wikipedia.org/wiki/Telendos",
+        "anchor_quality": "external_island_location_approximate",
+        "legacy_reference_bbox_wgs84": null,
+        "geometry_not_sprite_alignment": true,
+        "geographic_hold": "RELEASED_FOR_REVIEW_MARKER_ONLY",
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3,
+          35.87
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-cbe095ac80d9f77c22a9",
+        "island": "antikythera",
+        "batch": 31,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_batch31_retry_elafonisos_antikythera/antikythera_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "provisional",
+        "anchor_source": "data/sprites/greek-islands/batch-04/placement_manifest.json",
+        "anchor_quality": "prior_repo_approximate_island_anchor",
+        "legacy_reference_bbox_wgs84": null,
+        "geometry_not_sprite_alignment": true,
+        "geographic_hold": "RELEASED_FOR_REVIEW_MARKER_ONLY",
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
     }
   ]
 }
