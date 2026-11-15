@@ -69,6 +69,8 @@ jobs:
         run: |
           python build_stage2.py 0.30 colour
           cp out/stage2-colour.jpg reports/rebuild-2026-11-12/outremer-current-composite.jpg
+      - name: Update Canaan geographic review from actual rebuilt map
+        run: python tools/build_canaan_map_review.py
       - name: Generate new coverage and asset-usage registers
         run: |
           mkdir -p deliver
