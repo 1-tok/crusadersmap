@@ -1,8 +1,8 @@
 {
-  "scope": "Latest 1095-1571 map render; 610 automated-intake sprites",
+  "scope": "Latest 1095-1571 map render; 654 automated-intake sprites",
   "note": "Technical PNG success does not confer geographic or historical approval. Use actual generic render counts from out/usage.json.",
-  "intake_total": 610,
-  "technical_pass": 610,
+  "intake_total": 654,
+  "technical_pass": 654,
   "placement_approved": 0,
   "historical_certified": 0,
   "generic_rendered_distinct": 74,
@@ -10,7 +10,7 @@
   "generic_eligible_but_unused": 0,
   "status_counts": {
     "held_generic_architecture_fallback": 32,
-    "held_geo_water_or_named_art": 448,
+    "held_geo_water_or_named_art": 492,
     "held_unmatched_or_unclassified": 39,
     "named_fortification_needs_coordinates_and_phase": 17,
     "rendered_as_generic": 74
@@ -400,6 +400,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "chalki_halki_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/chalki-halki-1180-whole-island-south-view-review-v1-00b9c9cea1fe.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "t27_08_limestone_uplands",
       "asset": "data/sprites/automated-intake/png/t27-08-limestone-uplands-00c347295e20.png",
       "reason": "held_geo_water_or_named_art"
@@ -540,6 +545,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "sifnos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/sifnos-1180-whole-island-south-view-review-v1-0b1df64ecf41.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "b32_02_04_arid_to_green",
       "asset": "data/sprites/automated-intake/png/b32-02-04-arid-to-green-0b1f8d17f030.png",
       "reason": "held_geo_water_or_named_art"
@@ -567,6 +577,11 @@
     {
       "name": "t26_02_lebanon_mountain",
       "asset": "data/sprites/automated-intake/png/t26-02-lebanon-mountain-0cc98a7df28b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "karpathos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/karpathos-1180-whole-island-south-view-review-v1-0d56fbd6d9bc.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -695,6 +710,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "astypalaia_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/astypalaia-1180-whole-island-south-view-review-v1-14f64efeb66c.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "ile_de_graye_pharaohs_island_1180_south_view_historical_redo_review_v2",
       "asset": "data/sprites/automated-intake/png/ile-de-graye-pharaohs-island-1180-south-view-historical-redo-review-v2-1525bbcb4496.png",
       "reason": "held_geo_water_or_named_art"
@@ -755,6 +775,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "ithaca_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/ithaca-1180-whole-island-south-view-review-v1-1a45be386059.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "t27_14_arid_plateau",
       "asset": "data/sprites/automated-intake/png/t27-14-arid-plateau-1ae241c9a112.png",
       "reason": "held_geo_water_or_named_art"
@@ -783,6 +808,11 @@
       "name": "Desert mountain monastery",
       "asset": "data/sprites/automated-intake/png/desert-mountain-monastery-1d57b24b6551.png",
       "reason": "held_generic_architecture_fallback"
+    },
+    {
+      "name": "kimolos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/kimolos-1180-whole-island-south-view-review-v1-1e0adc36b349.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "large_02_mediterranean_terraced_orchards",
@@ -920,6 +950,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "agathonisi_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/agathonisi-1180-whole-island-south-view-review-v1-27c557236db0.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "10_nile_delta_floodplain_05",
       "asset": "data/sprites/automated-intake/png/10-nile-delta-floodplain-05-27ed4a40353f.png",
       "reason": "held_geo_water_or_named_art"
@@ -990,6 +1025,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "hydra_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/hydra-1180-whole-island-south-view-review-v1-2e10afe12f5f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Fishing hamlet and net racks",
       "asset": "data/sprites/automated-intake/png/fishing-hamlet-and-net-racks-2e1317eda9b3.png",
       "reason": "held_generic_architecture_fallback"
@@ -1037,6 +1077,11 @@
     {
       "name": "coastal-port-concept-c",
       "asset": "data/sprites/automated-intake/png/coastal-port-concept-c-3229a557d9f5.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "anafi_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/anafi-1180-whole-island-south-view-review-v1-32a918edc30c.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1170,6 +1215,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "delos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/delos-1180-whole-island-south-view-review-v1-40e72311645c.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "t35_01_long_coastal_dune_scrub",
       "asset": "data/sprites/automated-intake/png/t35-01-long-coastal-dune-scrub-413c976065ef.png",
       "reason": "held_geo_water_or_named_art"
@@ -1182,6 +1232,11 @@
     {
       "name": "generic_scene_02",
       "asset": "data/sprites/automated-intake/png/generic-scene-02-41b91c3e540f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "symi_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/symi-1180-whole-island-south-view-review-v1-41d7d54b7858.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1225,6 +1280,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "skiathos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/skiathos-1180-whole-island-south-view-review-v1-479b0df7804d.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "kyrenia-concept",
       "asset": "data/sprites/automated-intake/png/kyrenia-concept-480f2fbf41a9.png",
       "reason": "held_geo_water_or_named_art"
@@ -1240,8 +1300,18 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "folegandros_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/folegandros-1180-whole-island-south-view-review-v1-49712b6b348c.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "lowland-20261113-08_delta_aegean_levant_tiles_r02_c01",
       "asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r02-c01-4989f4b3918b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "lipsi_leipsoi_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/lipsi-leipsoi-1180-whole-island-south-view-review-v1-4a93a54331de.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1257,6 +1327,11 @@
     {
       "name": "andros_1180_whole_island_south_view_review_v1",
       "asset": "data/sprites/automated-intake/png/andros-1180-whole-island-south-view-review-v1-4c20e41ddf43.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "salamis_attica_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/salamis-attica-1180-whole-island-south-view-review-v1-4c80c538db77.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1287,6 +1362,11 @@
     {
       "name": "chateau_pelerin_atlit_review",
       "asset": "data/sprites/automated-intake/png/chateau-pelerin-atlit-review-4f44c29e6682.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "chios_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/chios-1180-whole-island-south-view-review-v1-4f519ac44c2f.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1660,6 +1740,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "spetses_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/spetses-1180-whole-island-south-view-review-v1-70ffebba213c.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "11_greek_cyprus_anatolia_levant_lowlands_06",
       "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-06-7260262e383f.png",
       "reason": "held_geo_water_or_named_art"
@@ -1690,6 +1775,16 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "lefkada_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/lefkada-1180-whole-island-south-view-review-v1-742d06b18369.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "aegina_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/aegina-1180-whole-island-south-view-review-v1-7570f203f6ae.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "94_dia_CONCEPT",
       "asset": "data/sprites/automated-intake/png/94-dia-concept-757a8049c4c9.png",
       "reason": "held_unmatched_or_unclassified"
@@ -1702,6 +1797,11 @@
     {
       "name": "methoni_1180_byzantine_south_view_review_v1",
       "asset": "data/sprites/automated-intake/png/methoni-1180-byzantine-south-view-review-v1-7616c672ace9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "telendos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/telendos-1180-whole-island-south-view-review-v1-77ad27c2ab4c.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1722,6 +1822,11 @@
     {
       "name": "118_gavdopoula_CONCEPT",
       "asset": "data/sprites/automated-intake/png/118-gavdopoula-concept-78d10de18bf7.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "lesbos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/lesbos-1180-whole-island-south-view-review-v1-78d6db9101a5.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1770,6 +1875,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "antiparos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/antiparos-1180-whole-island-south-view-review-v1-7cdaca6e4e02.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "90_sapientza_CONCEPT",
       "asset": "data/sprites/automated-intake/png/90-sapientza-concept-7d28e59627c7.png",
       "reason": "held_unmatched_or_unclassified"
@@ -1787,6 +1897,11 @@
     {
       "name": "t28_08_palm_riverbank_margin",
       "asset": "data/sprites/automated-intake/png/t28-08-palm-riverbank-margin-7e4131c46989.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "kastellorizo_megisti_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/kastellorizo-megisti-1180-whole-island-south-view-review-v1-7e41769e1e01.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1890,6 +2005,16 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "kasos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/kasos-1180-whole-island-south-view-review-v1-864900ef4811.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "ios_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/ios-1180-whole-island-south-view-review-v1-865fcdd33e2e.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "t27_19_alpine_transition",
       "asset": "data/sprites/automated-intake/png/t27-19-alpine-transition-86693319d429.png",
       "reason": "held_geo_water_or_named_art"
@@ -1902,6 +2027,11 @@
     {
       "name": "coastal-harbor-concept-b",
       "asset": "data/sprites/automated-intake/png/coastal-harbor-concept-b-8837c583604b.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "corfu_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/corfu-1180-whole-island-south-view-review-v1-8861491f6266.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -1928,6 +2058,11 @@
       "name": "B19-03_western_church",
       "asset": "data/sprites/automated-intake/png/b19-03-western-church-8a6cd66b55ec.png",
       "reason": "held_generic_architecture_fallback"
+    },
+    {
+      "name": "euboea_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/euboea-1180-whole-island-south-view-review-v1-8a70eb4bb0fc.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "corinth-inland-REVIEW",
@@ -1980,6 +2115,11 @@
       "reason": "named_fortification_needs_coordinates_and_phase"
     },
     {
+      "name": "samothrace_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/samothrace-1180-whole-island-south-view-review-v1-9280f5de6968.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "b32_03_07_wooded_lowland",
       "asset": "data/sprites/automated-intake/png/b32-03-07-wooded-lowland-92d2342a4c0e.png",
       "reason": "held_geo_water_or_named_art"
@@ -1988,6 +2128,11 @@
       "name": "Byzantine cross-domed church",
       "asset": "data/sprites/automated-intake/png/byzantine-cross-domed-church-93b600ef3128.png",
       "reason": "held_generic_architecture_fallback"
+    },
+    {
+      "name": "antipaxos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/antipaxos-1180-whole-island-south-view-review-v1-940e9c1ca64f.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "B19-15_riverside_watermill",
@@ -2065,6 +2210,11 @@
       "reason": "held_unmatched_or_unclassified"
     },
     {
+      "name": "irakleia_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/irakleia-1180-whole-island-south-view-review-v1-9d88ff971953.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "lowland-20261113-09_coastal_rural_variants_r04_c02",
       "asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r04-c02-9dad8c3026ad.png",
       "reason": "held_geo_water_or_named_art"
@@ -2077,6 +2227,11 @@
     {
       "name": "B18-06_multiarch_stone_aqueduct",
       "asset": "data/sprites/automated-intake/png/b18-06-multiarch-stone-aqueduct-9f3183dbbc7c.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "paxos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/paxos-1180-whole-island-south-view-review-v1-9f6ca9d23f7f.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -2097,6 +2252,11 @@
     {
       "name": "b34_02_sinai_negev_mountains",
       "asset": "data/sprites/automated-intake/png/b34-02-sinai-negev-mountains-a03fb76a369e.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "tilos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/tilos-1180-whole-island-south-view-review-v1-a06bd77460e7.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -2220,6 +2380,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "donousa_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/donousa-1180-whole-island-south-view-review-v1-ac92275ee745.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "source_sheet_rgb_checkerboard",
       "asset": "data/sprites/automated-intake/png/source-sheet-rgb-checkerboard-aca0ad7b1e48.png",
       "reason": "held_geo_water_or_named_art"
@@ -2260,6 +2425,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "sikinos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/sikinos-1180-whole-island-south-view-review-v1-b11937b261db.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Shaizar",
       "asset": "data/sprites/automated-intake/png/shaizar-b1335fb7ad71.png",
       "reason": "named_fortification_needs_coordinates_and_phase"
@@ -2282,6 +2452,11 @@
     {
       "name": "11_greek_cyprus_anatolia_levant_lowlands_07",
       "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-07-b470121cb7e7.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "koufonisia_ano_kato_1180_whole_islands_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/koufonisia-ano-kato-1180-whole-islands-south-view-review-v1-b4af7c06f206.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -2490,6 +2665,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "schinoussa_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/schinoussa-1180-whole-island-south-view-review-v1-c712cda6c87f.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "t27_02_reed_marsh_transition",
       "asset": "data/sprites/automated-intake/png/t27-02-reed-marsh-transition-c7539191e6c9.png",
       "reason": "held_geo_water_or_named_art"
@@ -2522,6 +2702,16 @@
     {
       "name": "11_greek_cyprus_anatolia_levant_lowlands_12",
       "asset": "data/sprites/automated-intake/png/11-greek-cyprus-anatolia-levant-lowlands-12-cd0e74d685d4.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "rhenia_rheneia_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/rhenia-rheneia-1180-whole-island-south-view-review-v1-cd687d0eb4dd.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "poros_kalavria_sferia_1180_whole_islands_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/poros-kalavria-sferia-1180-whole-islands-south-view-review-v1-cdde02d66626.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -2685,6 +2875,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "alonissos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/alonissos-1180-whole-island-south-view-review-v1-dcef6a63825d.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "t26_04_lebanon_foothill_waterfall",
       "asset": "data/sprites/automated-intake/png/t26-04-lebanon-foothill-waterfall-ddbd7d30ec68.png",
       "reason": "held_geo_water_or_named_art"
@@ -2745,6 +2940,16 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "kalymnos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/kalymnos-1180-whole-island-south-view-review-v1-e37b59b20f9a.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "agistri_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/agistri-1180-whole-island-south-view-review-v1-e38a0c785590.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "B16-03_walled_abbey_generic",
       "asset": "data/sprites/automated-intake/png/b16-03-walled-abbey-generic-e3b6a89346ac.png",
       "reason": "held_generic_architecture_fallback"
@@ -2770,6 +2975,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "rhodes_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/rhodes-1180-whole-island-south-view-review-v1-e6ff294c30d7.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "Qadmus",
       "asset": "data/sprites/automated-intake/png/qadmus-e74b6a869462.png",
       "reason": "named_fortification_needs_coordinates_and_phase"
@@ -2790,6 +3000,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "nisyros_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/nisyros-1180-whole-island-south-view-review-v1-e88ea237483e.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "lowland-20261113-06_delta_coastal_transitions_r02_c02",
       "asset": "data/sprites/automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r02-c02-e8c0db4a6825.png",
       "reason": "held_geo_water_or_named_art"
@@ -2807,6 +3022,11 @@
     {
       "name": "gaza_1180_south_view_historical_redo_review_v2",
       "asset": "data/sprites/automated-intake/png/gaza-1180-south-view-historical-redo-review-v2-e922a20938cc.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "amorgos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/amorgos-1180-whole-island-south-view-review-v1-e995cb24b250.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
