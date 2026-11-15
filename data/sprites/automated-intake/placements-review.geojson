@@ -3978,6 +3978,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-3614daffde890dbfed01",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-3614daffde890dbfed01",
+        "asset": "data/sprites/automated-intake/png/psara-1180-whole-island-south-view-review-v1-3614daffde89.png",
+        "site_id": "psara-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-3673359599e20ae33079",
       "geometry": null,
       "properties": {
@@ -10050,6 +10074,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-9f3638e67336b2d4ed66",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-9f3638e67336b2d4ed66",
+        "asset": "data/sprites/automated-intake/png/elafonisos-1180-whole-island-south-view-review-v1-9f3638e67336.png",
+        "site_id": "elafonisos-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-9f6ca9d23f7f0d4304e2",
       "geometry": null,
       "properties": {
@@ -12416,6 +12464,30 @@
         "sprite_id": "INTAKE-ca98b66a708c799259ad",
         "asset": "data/sprites/automated-intake/png/74-fournoi-cluster-draft-ca98b66a708c.png",
         "site_id": "74-fournoi-cluster-draft",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-cbe095ac80d9f77c22a9",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-cbe095ac80d9f77c22a9",
+        "asset": "data/sprites/automated-intake/png/antikythera-1180-whole-island-south-view-review-v1-cbe095ac80d9.png",
+        "site_id": "antikythera-1180-whole-island-south-view-review-v1",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -15166,6 +15238,30 @@
         "review_flags": [
           "category_unverified",
           "coordinates_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f85d57ec8eff404b16c4",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-f85d57ec8eff404b16c4",
+        "asset": "data/sprites/automated-intake/png/gavdos-1180-whole-island-south-view-review-v1-f85d57ec8eff.png",
+        "site_id": "gavdos-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
