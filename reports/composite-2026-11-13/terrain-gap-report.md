@@ -4,96 +4,85 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 
 | Zone | Land cells | Flat | Thin | Share flat or thin |
 |---|---:|---:|---:|---:|
-| Egypt inset: Western and Eastern deserts | 163 | 30 | 40 | 43% |
-| Upper Mesopotamia | 8 | 0 | 3 | 38% |
-| Syrian desert | 33 | 10 | 2 | 36% |
-| Egypt inset: Sinai | 185 | 6 | 25 | 17% |
-| Transjordan and Hauran | 153 | 7 | 18 | 16% |
-| Lebanon and Damascus | 39 | 3 | 3 | 15% |
-| North Syria (Antioch, Aleppo) | 63 | 4 | 4 | 13% |
-| Negev, Sinai, Arabah | 62 | 0 | 5 | 8% |
-| Egypt inset: Delta | 51 | 0 | 2 | 4% |
+| Egypt inset: Western and Eastern deserts | 163 | 24 | 46 | 43% |
+| Aegean inset: islands and Crete | 16 | 0 | 5 | 31% |
+| Upper Mesopotamia | 8 | 0 | 2 | 25% |
+| Syrian desert | 33 | 3 | 5 | 24% |
+| Egypt inset: Sinai | 185 | 6 | 29 | 19% |
+| North Syria (Antioch, Aleppo) | 63 | 4 | 6 | 16% |
+| Transjordan and Hauran | 153 | 7 | 14 | 14% |
+| Negev, Sinai, Arabah | 62 | 2 | 5 | 11% |
+| Lebanon and Damascus | 39 | 0 | 3 | 8% |
+| Egypt inset: Delta | 51 | 0 | 3 | 6% |
+| Syrian coast and Orontes | 33 | 0 | 1 | 3% |
+| Aegean inset: Greece and the Balkans | 105 | 0 | 2 | 2% |
+| Aegean inset: Anatolia and Thrace | 119 | 0 | 2 | 2% |
 | Cilicia and the Taurus | 140 | 0 | 1 | 1% |
 | other | 40 | 0 | 0 | 0% |
 | Cyprus | 25 | 0 | 0 | 0% |
-| Syrian coast and Orontes | 33 | 0 | 0 | 0% |
 | Galilee, Samaria, Judea | 53 | 0 | 0 | 0% |
-| Aegean inset: Greece and the Balkans | 105 | 0 | 0 | 0% |
-| Aegean inset: Anatolia and Thrace | 119 | 0 | 0 | 0% |
-| Aegean inset: islands and Crete | 16 | 0 | 0 | 0% |
 
-Whole sheet: 1288 land cells, 60 flat, 103 thin (13% flat or thin).
+Whole sheet: 1288 land cells, 46 flat, 124 thin (13% flat or thin).
 
 ## Flat cells by position
 
 | Zone | Lon | Lat | Sheet x | Sheet y | Detail |
 |---|---:|---:|---:|---:|---:|
-| North Syria (Antioch, Aleppo) | 37.51 | 35.60 | 10240 | 4160 | 10.8 |
-| North Syria (Antioch, Aleppo) | 36.86 | 35.44 | 9280 | 4480 | 9.5 |
-| North Syria (Antioch, Aleppo) | 37.51 | 35.43 | 10240 | 4480 | 8.5 |
-| North Syria (Antioch, Aleppo) | 37.50 | 35.25 | 10240 | 4800 | 7.4 |
-| Syrian desert | 37.28 | 34.55 | 9920 | 6080 | 10.7 |
-| Syrian desert | 37.27 | 33.85 | 9920 | 7360 | 11.9 |
-| Syrian desert | 37.05 | 33.68 | 9600 | 7680 | 10.5 |
-| Syrian desert | 37.47 | 33.67 | 10240 | 7680 | 8.8 |
-| Syrian desert | 37.05 | 33.50 | 9600 | 8000 | 9.9 |
-| Syrian desert | 37.47 | 33.50 | 10240 | 8000 | 9.2 |
-| Syrian desert | 37.05 | 33.33 | 9600 | 8320 | 10.1 |
-| Syrian desert | 37.26 | 33.33 | 9920 | 8320 | 8.8 |
-| Syrian desert | 37.05 | 33.15 | 9600 | 8640 | 10.8 |
-| Syrian desert | 37.26 | 33.15 | 9920 | 8640 | 11.4 |
-| Lebanon and Damascus | 36.84 | 33.50 | 9280 | 8000 | 11.9 |
-| Lebanon and Damascus | 36.84 | 33.33 | 9280 | 8320 | 11.1 |
-| Lebanon and Damascus | 36.84 | 33.15 | 9280 | 8640 | 7.5 |
-| Transjordan and Hauran | 37.25 | 32.97 | 9920 | 8960 | 11.1 |
-| Transjordan and Hauran | 37.04 | 32.80 | 9600 | 9280 | 8.9 |
-| Transjordan and Hauran | 37.25 | 32.80 | 9920 | 9280 | 11.9 |
-| Transjordan and Hauran | 36.83 | 32.10 | 9280 | 10560 | 10.2 |
-| Transjordan and Hauran | 37.03 | 32.10 | 9600 | 10560 | 7.5 |
-| Transjordan and Hauran | 37.24 | 32.10 | 9920 | 10560 | 10.9 |
-| Transjordan and Hauran | 36.20 | 30.52 | 8320 | 13440 | 8.5 |
-| Egypt inset: Sinai | 34.10 | 30.66 | 3990 | 10721 | 11.4 |
-| Egypt inset: Sinai | 34.09 | 30.45 | 3990 | 10921 | 11.2 |
-| Egypt inset: Sinai | 34.32 | 30.45 | 4190 | 10921 | 11.5 |
-| Egypt inset: Sinai | 34.32 | 30.24 | 4190 | 11121 | 10.0 |
-| Egypt inset: Sinai | 33.37 | 29.86 | 3390 | 11521 | 9.5 |
-| Egypt inset: Sinai | 32.90 | 29.66 | 2990 | 11721 | 9.7 |
-| Egypt inset: Western and Eastern deserts | 29.87 | 30.48 | 390 | 10921 | 10.1 |
-| Egypt inset: Western and Eastern deserts | 29.88 | 30.28 | 390 | 11121 | 11.9 |
-| Egypt inset: Western and Eastern deserts | 29.89 | 29.06 | 390 | 12321 | 11.5 |
-| Egypt inset: Western and Eastern deserts | 30.12 | 29.06 | 590 | 12321 | 10.2 |
-| Egypt inset: Western and Eastern deserts | 30.58 | 29.07 | 990 | 12321 | 9.7 |
-| Egypt inset: Western and Eastern deserts | 30.81 | 29.07 | 1190 | 12321 | 11.6 |
-| Egypt inset: Western and Eastern deserts | 29.89 | 28.86 | 390 | 12521 | 10.7 |
-| Egypt inset: Western and Eastern deserts | 29.90 | 28.66 | 390 | 12721 | 10.0 |
-| Egypt inset: Western and Eastern deserts | 30.13 | 28.66 | 590 | 12721 | 11.0 |
-| Egypt inset: Western and Eastern deserts | 30.36 | 28.66 | 790 | 12721 | 10.1 |
-| Egypt inset: Western and Eastern deserts | 30.59 | 28.66 | 990 | 12721 | 11.5 |
-| Egypt inset: Western and Eastern deserts | 31.74 | 28.66 | 1990 | 12721 | 11.6 |
-| Egypt inset: Western and Eastern deserts | 30.13 | 28.46 | 590 | 12921 | 10.7 |
-| Egypt inset: Western and Eastern deserts | 30.36 | 28.46 | 790 | 12921 | 10.9 |
-| Egypt inset: Western and Eastern deserts | 31.05 | 28.46 | 1390 | 12921 | 11.8 |
-| Egypt inset: Western and Eastern deserts | 31.73 | 28.46 | 1990 | 12921 | 9.4 |
-| Egypt inset: Western and Eastern deserts | 30.59 | 28.26 | 990 | 13121 | 11.0 |
-| Egypt inset: Western and Eastern deserts | 31.05 | 28.26 | 1390 | 13121 | 8.6 |
-| Egypt inset: Western and Eastern deserts | 31.27 | 28.26 | 1590 | 13121 | 10.8 |
-| Egypt inset: Western and Eastern deserts | 31.50 | 28.26 | 1790 | 13121 | 11.8 |
-| Egypt inset: Western and Eastern deserts | 31.96 | 28.25 | 2190 | 13121 | 8.8 |
-| Egypt inset: Western and Eastern deserts | 29.90 | 28.05 | 390 | 13321 | 10.1 |
-| Egypt inset: Western and Eastern deserts | 30.36 | 28.05 | 790 | 13321 | 9.6 |
-| Egypt inset: Western and Eastern deserts | 30.59 | 28.05 | 990 | 13321 | 10.5 |
-| Egypt inset: Western and Eastern deserts | 31.50 | 28.05 | 1790 | 13321 | 11.6 |
-| Egypt inset: Western and Eastern deserts | 31.73 | 28.05 | 1990 | 13321 | 10.8 |
-| Egypt inset: Western and Eastern deserts | 30.36 | 27.85 | 790 | 13521 | 11.6 |
-| Egypt inset: Western and Eastern deserts | 31.27 | 27.85 | 1590 | 13521 | 7.2 |
-| Egypt inset: Western and Eastern deserts | 31.50 | 27.85 | 1790 | 13521 | 6.9 |
-| Egypt inset: Western and Eastern deserts | 31.73 | 27.85 | 1990 | 13521 | 10.8 |
+| North Syria (Antioch, Aleppo) | 37.08 | 35.43 | 9600 | 4480 | 11.9 |
+| North Syria (Antioch, Aleppo) | 37.29 | 35.43 | 9920 | 4480 | 10.4 |
+| North Syria (Antioch, Aleppo) | 37.51 | 35.43 | 10240 | 4480 | 11.0 |
+| North Syria (Antioch, Aleppo) | 37.50 | 35.25 | 10240 | 4800 | 11.4 |
+| Syrian desert | 37.27 | 34.38 | 9920 | 6400 | 8.3 |
+| Syrian desert | 37.49 | 34.38 | 10240 | 6400 | 7.6 |
+| Syrian desert | 37.46 | 33.15 | 10240 | 8640 | 11.7 |
+| Transjordan and Hauran | 37.46 | 32.80 | 10240 | 9280 | 11.5 |
+| Transjordan and Hauran | 37.25 | 32.62 | 9920 | 9600 | 8.8 |
+| Transjordan and Hauran | 36.21 | 32.10 | 8320 | 10560 | 9.3 |
+| Transjordan and Hauran | 36.41 | 32.10 | 8640 | 10560 | 11.7 |
+| Transjordan and Hauran | 37.03 | 32.10 | 9600 | 10560 | 10.6 |
+| Transjordan and Hauran | 36.00 | 30.87 | 8000 | 12800 | 10.1 |
+| Transjordan and Hauran | 36.20 | 30.52 | 8320 | 13440 | 8.9 |
+| Negev, Sinai, Arabah | 34.18 | 30.51 | 5120 | 13440 | 9.3 |
+| Negev, Sinai, Arabah | 35.19 | 30.52 | 6720 | 13440 | 11.8 |
+| Egypt inset: Sinai | 33.60 | 29.85 | 3590 | 11521 | 10.3 |
+| Egypt inset: Sinai | 34.07 | 29.84 | 3990 | 11521 | 11.1 |
+| Egypt inset: Sinai | 32.90 | 29.66 | 2990 | 11721 | 10.8 |
+| Egypt inset: Sinai | 33.83 | 29.65 | 3790 | 11721 | 11.7 |
+| Egypt inset: Sinai | 34.06 | 29.44 | 3990 | 11921 | 11.4 |
+| Egypt inset: Sinai | 34.29 | 29.43 | 4190 | 11921 | 11.4 |
+| Egypt inset: Western and Eastern deserts | 29.88 | 30.28 | 390 | 11121 | 10.9 |
+| Egypt inset: Western and Eastern deserts | 29.88 | 29.87 | 390 | 11521 | 9.6 |
+| Egypt inset: Western and Eastern deserts | 30.35 | 29.47 | 790 | 11921 | 11.2 |
+| Egypt inset: Western and Eastern deserts | 29.89 | 29.26 | 390 | 12121 | 11.2 |
+| Egypt inset: Western and Eastern deserts | 29.89 | 29.06 | 390 | 12321 | 11.9 |
+| Egypt inset: Western and Eastern deserts | 30.58 | 29.07 | 990 | 12321 | 7.8 |
+| Egypt inset: Western and Eastern deserts | 30.81 | 29.07 | 1190 | 12321 | 11.7 |
+| Egypt inset: Western and Eastern deserts | 29.89 | 28.86 | 390 | 12521 | 10.0 |
+| Egypt inset: Western and Eastern deserts | 29.90 | 28.66 | 390 | 12721 | 7.7 |
+| Egypt inset: Western and Eastern deserts | 31.05 | 28.66 | 1390 | 12721 | 11.7 |
+| Egypt inset: Western and Eastern deserts | 31.74 | 28.66 | 1990 | 12721 | 11.7 |
+| Egypt inset: Western and Eastern deserts | 30.13 | 28.46 | 590 | 12921 | 11.6 |
+| Egypt inset: Western and Eastern deserts | 31.05 | 28.46 | 1390 | 12921 | 11.3 |
+| Egypt inset: Western and Eastern deserts | 30.59 | 28.26 | 990 | 13121 | 11.1 |
+| Egypt inset: Western and Eastern deserts | 31.05 | 28.26 | 1390 | 13121 | 8.4 |
+| Egypt inset: Western and Eastern deserts | 31.27 | 28.26 | 1590 | 13121 | 9.6 |
+| Egypt inset: Western and Eastern deserts | 31.96 | 28.25 | 2190 | 13121 | 9.0 |
+| Egypt inset: Western and Eastern deserts | 29.90 | 28.05 | 390 | 13321 | 11.0 |
+| Egypt inset: Western and Eastern deserts | 30.36 | 28.05 | 790 | 13321 | 10.9 |
+| Egypt inset: Western and Eastern deserts | 30.59 | 28.05 | 990 | 13321 | 11.0 |
+| Egypt inset: Western and Eastern deserts | 31.73 | 28.05 | 1990 | 13321 | 10.9 |
+| Egypt inset: Western and Eastern deserts | 31.27 | 27.85 | 1590 | 13521 | 8.6 |
+| Egypt inset: Western and Eastern deserts | 31.50 | 27.85 | 1790 | 13521 | 6.1 |
+| Egypt inset: Western and Eastern deserts | 31.73 | 27.85 | 1990 | 13521 | 8.6 |
 
 The thin cells are listed with the flat ones in terrain-gap-cells.csv.
 
 ## What covers the land now
 
-- Terrain stamps and landscape tiles: 115 different pieces, 6841 placements
-- Generic settlement, farm, tree, rock and ruin pieces: 425 different pieces, 2273 placements
-- Greek island overlays: 130
+- Terrain stamps and landscape tiles: 116 different pieces, 6798 placements
+- Generic settlement, farm, tree, rock and ruin pieces: 425 different pieces, 2272 placements
+- Greek island overlays: 126
 - Ships at sea: 8
+
+**Interpretation:** Flat/thin classifications measure local texture contrast, not verified exposure of the base-map layer. The CSV preserves the upstream flag as `legacy_flat_flag`, derives `flat` from the documented <12 threshold, and marks `base_layer_exposure=unverified` pending visual geographic review.
+

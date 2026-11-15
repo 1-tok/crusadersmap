@@ -1,0 +1,2375 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-15",
+  "source_register": "data/manifests/LOWLAND-51-CANONICAL-PLACEMENT-AUDIT-2026-11-15.json",
+  "all_51_binaries_inspected": true,
+  "qa_type": "actual_png_decode_alpha_color_and_boundary_automated_screening",
+  "human_visual_and_historical_approval": false,
+  "automated_preview_selection": "groups_07_09_only_blue_teal_at_most_3_5_percent; group_06_08_hydrology_held",
+  "coastline_preview_policy": "land polygon clipping REQUIRED for every accepted candidate; no seaward pixels",
+  "layering": "under coastline ink, below all town/fortress/industry sprites, roads and labels",
+  "candidate_regions": {
+    "Nile Delta": {
+      "frame": "delta",
+      "bbox": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "land": "Nile Delta floodplain"
+    },
+    "Greek lowlands": {
+      "frame": "aegean",
+      "bbox": [
+        21.0,
+        36.8,
+        24.5,
+        39.5
+      ],
+      "land": "Peloponnese and Greek cultivated lowlands"
+    },
+    "Cyprus": {
+      "frame": "main",
+      "bbox": [
+        32.3,
+        34.6,
+        34.45,
+        35.45
+      ],
+      "land": "Cyprus interior/coastal cultivated plain"
+    },
+    "Cilicia": {
+      "frame": "main",
+      "bbox": [
+        34.3,
+        36.5,
+        35.95,
+        37.35
+      ],
+      "land": "Cilician coastal alluvium"
+    },
+    "Levantine coastal fields": {
+      "frame": "main",
+      "bbox": [
+        34.5,
+        31.5,
+        35.85,
+        34.9
+      ],
+      "land": "Levantine littoral farms"
+    }
+  },
+  "summary": {
+    "total": 51,
+    "binary_present": 51,
+    "preview_eligible": 12,
+    "held": 39,
+    "eligible_by_group": {
+      "07": 5,
+      "09": 7
+    },
+    "hold_reasons": {
+      "mixed_water_or_delta_hydrology_requires_registration": 27,
+      "preview_provisional": 12,
+      "possible_water_or_shoreline_orientation_requires_visual_review": 12
+    }
+  },
+  "records": [
+    {
+      "id": "INTAKE-56464826d36bb1f6e533",
+      "source_group": "06",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r01-c01-56464826d36b.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/06_delta_coastal_transitions_r01_c01.png",
+      "source_region_hints": [
+        "Nile Delta"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "fa3eb9c954f84ea982de0d8abe59a852ef5851ee2f0d0b2038d17b00fdfb0921",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.23856,
+      "visible_fraction": 0.74383,
+      "opaque_boundary_fraction": 0.26823,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.08671,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-d9784bd86c9d13cc2b5c",
+      "source_group": "06",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r01-c02-d9784bd86c9d.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/06_delta_coastal_transitions_r01_c02.png",
+      "source_region_hints": [
+        "Nile Delta"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "240cfac0d6897db445d00acd485b4bbc4ea6c9b5d078a276b40a9e4f79eb80f0",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.34868,
+      "visible_fraction": 0.62466,
+      "opaque_boundary_fraction": 0.4375,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.01831,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-2e719223b2c2355a312c",
+      "source_group": "06",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r01-c03-2e719223b2c2.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/06_delta_coastal_transitions_r01_c03.png",
+      "source_region_hints": [
+        "Nile Delta"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "a6059e3a2c4af458b5e5fe6ecc5264b70f1a4137e84d4d8dcda65ea8fb8d9226",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.25351,
+      "visible_fraction": 0.73434,
+      "opaque_boundary_fraction": 0.26888,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.0,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-70df58421790e71670b0",
+      "source_group": "06",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r02-c01-70df58421790.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/06_delta_coastal_transitions_r02_c01.png",
+      "source_region_hints": [
+        "Nile Delta"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "821efa8e9a625006e5b9594da3c5f3f4a9a96433b4b524052fe3bb656f4053b2",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.31713,
+      "visible_fraction": 0.65871,
+      "opaque_boundary_fraction": 0.32812,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.063,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-e8c0db4a6825ba0c9e59",
+      "source_group": "06",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r02-c02-e8c0db4a6825.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/06_delta_coastal_transitions_r02_c02.png",
+      "source_region_hints": [
+        "Nile Delta"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "2c08d39c238595f76dd37077178fb929db5cff34c08bde3878182f3947428e69",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.3241,
+      "visible_fraction": 0.64396,
+      "opaque_boundary_fraction": 0.38346,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.00223,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-e33a98059cbd3fb02204",
+      "source_group": "06",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r02-c03-e33a98059cbd.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/06_delta_coastal_transitions_r02_c03.png",
+      "source_region_hints": [
+        "Nile Delta"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "c74fee402433fdc2d396d84e9720bed7441fb23ead27e9e91337dff639c02b09",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.28293,
+      "visible_fraction": 0.70329,
+      "opaque_boundary_fraction": 0.46615,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.11499,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-69deeb096af5d5e0045f",
+      "source_group": "06",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r03-c01-69deeb096af5.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/06_delta_coastal_transitions_r03_c01.png",
+      "source_region_hints": [
+        "Nile Delta"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "901d2f3409e8200f2af69345bef94d12c5f6cb3b904ad77e4ce024eb60982467",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.32682,
+      "visible_fraction": 0.65567,
+      "opaque_boundary_fraction": 0.30599,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.10577,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-abe33357e879e05fdef5",
+      "source_group": "06",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r03-c02-abe33357e879.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/06_delta_coastal_transitions_r03_c02.png",
+      "source_region_hints": [
+        "Nile Delta"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "b8f77c29144fba82045bd9543c1d272f721e87eadc21c7784f3723209a9c059b",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.36774,
+      "visible_fraction": 0.6115,
+      "opaque_boundary_fraction": 0.17188,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.00091,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-40a12ac16a2e88fd94bb",
+      "source_group": "06",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r03-c03-40a12ac16a2e.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/06_delta_coastal_transitions_r03_c03.png",
+      "source_region_hints": [
+        "Nile Delta"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "51ccda7207981f8d0c3a80a4dfe0bd41aea2450348c28553f7ff221e13eb0fbf",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.35032,
+      "visible_fraction": 0.6281,
+      "opaque_boundary_fraction": 0.3138,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.0464,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-2a4404fb33bce6d64eb2",
+      "source_group": "06",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r04-c01-2a4404fb33bc.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/06_delta_coastal_transitions_r04_c01.png",
+      "source_region_hints": [
+        "Nile Delta"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "b8be8d74e7c2e193a2fb062bdb46bb6585adcc4831a8e74bb8b8bf26656a47dc",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.39551,
+      "visible_fraction": 0.58688,
+      "opaque_boundary_fraction": 0.14518,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.1824,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-51da7389888b8b16b5e0",
+      "source_group": "06",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r04-c02-51da7389888b.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/06_delta_coastal_transitions_r04_c02.png",
+      "source_region_hints": [
+        "Nile Delta"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "a009bc014a4f6b997c5d026219a2b6c6645d14bb0ae857ae96e2a57c4708bc8b",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.40941,
+      "visible_fraction": 0.56904,
+      "opaque_boundary_fraction": 0.07682,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.01823,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-f072b82742d8815f8a29",
+      "source_group": "06",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-06-delta-coastal-transitions-r04-c03-f072b82742d8.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/06_delta_coastal_transitions_r04_c03.png",
+      "source_region_hints": [
+        "Nile Delta"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "21e0422f08d97e9110ee2e74ef4c60fcaab9f8d66fc9266a08b19eb1d4880660",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.38599,
+      "visible_fraction": 0.59441,
+      "opaque_boundary_fraction": 0.03971,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.13188,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-bee1e831101bf8dd3a79",
+      "source_group": "07",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r01-c01-bee1e831101b.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/07_mediterranean_lowland_cutouts_r01_c01.png",
+      "source_region_hints": [
+        "Cyprus",
+        "Cilicia",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Cyprus",
+      "review_zone_bbox_wgs84": [
+        32.3,
+        34.6,
+        34.45,
+        35.45
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": true,
+      "render_status": "region_clipped_preview_only",
+      "sha256": "bec0b698fe427b035e18b92fc671d86d46ed09d336c451b75e85ece8cf47c938",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.23375,
+      "visible_fraction": 0.74986,
+      "opaque_boundary_fraction": 0.16602,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.0,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": null,
+      "approval": "provisional_underpaint_only"
+    },
+    {
+      "id": "INTAKE-5ab68f4f66af0eede1be",
+      "source_group": "07",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r01-c02-5ab68f4f66af.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/07_mediterranean_lowland_cutouts_r01_c02.png",
+      "source_region_hints": [
+        "Cyprus",
+        "Cilicia",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Cilicia",
+      "review_zone_bbox_wgs84": [
+        34.3,
+        36.5,
+        35.95,
+        37.35
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "6791fbd0d380e9c1c89379778a784b4fda41b46aa525ed78b273240aae01adaf",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.24105,
+      "visible_fraction": 0.73985,
+      "opaque_boundary_fraction": 0.16927,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.08012,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "possible_water_or_shoreline_orientation_requires_visual_review"
+    },
+    {
+      "id": "INTAKE-0999d3327bee682492f7",
+      "source_group": "07",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r01-c03-0999d3327bee.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/07_mediterranean_lowland_cutouts_r01_c03.png",
+      "source_region_hints": [
+        "Cyprus",
+        "Cilicia",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Greek lowlands",
+      "review_zone_bbox_wgs84": [
+        21.0,
+        36.8,
+        24.5,
+        39.5
+      ],
+      "frame": "aegean",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "07d395651f21674dc91fc28517e29090fcfb53bf61650539a3e956392720be0d",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.27819,
+      "visible_fraction": 0.70177,
+      "opaque_boundary_fraction": 0.13477,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.09843,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "possible_water_or_shoreline_orientation_requires_visual_review"
+    },
+    {
+      "id": "INTAKE-32abb34ef5e15c76b77d",
+      "source_group": "07",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r02-c01-32abb34ef5e1.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/07_mediterranean_lowland_cutouts_r02_c01.png",
+      "source_region_hints": [
+        "Cyprus",
+        "Cilicia",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Levantine coastal fields",
+      "review_zone_bbox_wgs84": [
+        34.5,
+        31.5,
+        35.85,
+        34.9
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "b3e7a6f548caa9e0d24331158a7beb82de8dce98e3db60fab8a4ca1a4947078f",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.31297,
+      "visible_fraction": 0.66987,
+      "opaque_boundary_fraction": 0.18294,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.16857,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "possible_water_or_shoreline_orientation_requires_visual_review"
+    },
+    {
+      "id": "INTAKE-f978a77040b345eb5384",
+      "source_group": "07",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r02-c02-f978a77040b3.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/07_mediterranean_lowland_cutouts_r02_c02.png",
+      "source_region_hints": [
+        "Cyprus",
+        "Cilicia",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Cyprus",
+      "review_zone_bbox_wgs84": [
+        32.3,
+        34.6,
+        34.45,
+        35.45
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": true,
+      "render_status": "region_clipped_preview_only",
+      "sha256": "5ce6ca15182a58f2c18c13fd5683d06ca784e3343a33257b2c78e7fbe7c634d1",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.29949,
+      "visible_fraction": 0.68026,
+      "opaque_boundary_fraction": 0.22786,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.00593,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": null,
+      "approval": "provisional_underpaint_only"
+    },
+    {
+      "id": "INTAKE-17c38b872bf962933a9c",
+      "source_group": "07",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r02-c03-17c38b872bf9.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/07_mediterranean_lowland_cutouts_r02_c03.png",
+      "source_region_hints": [
+        "Cyprus",
+        "Cilicia",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Cilicia",
+      "review_zone_bbox_wgs84": [
+        34.3,
+        36.5,
+        35.95,
+        37.35
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": true,
+      "render_status": "region_clipped_preview_only",
+      "sha256": "9d046bd17af3ea91d1e6b959f4aeb6585aef91c81aaf19abf0af8f56f1d4eedb",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.3438,
+      "visible_fraction": 0.63491,
+      "opaque_boundary_fraction": 0.26107,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.00357,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": null,
+      "approval": "provisional_underpaint_only"
+    },
+    {
+      "id": "INTAKE-4318ec31a044952795dc",
+      "source_group": "07",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r03-c01-4318ec31a044.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/07_mediterranean_lowland_cutouts_r03_c01.png",
+      "source_region_hints": [
+        "Cyprus",
+        "Cilicia",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Greek lowlands",
+      "review_zone_bbox_wgs84": [
+        21.0,
+        36.8,
+        24.5,
+        39.5
+      ],
+      "frame": "aegean",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "501b6fe92f9b3c454757ac5ad89b756ee18c4738dbe3d0368786e1fb4672271a",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.15324,
+      "visible_fraction": 0.83225,
+      "opaque_boundary_fraction": 0.28711,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.1623,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "possible_water_or_shoreline_orientation_requires_visual_review"
+    },
+    {
+      "id": "INTAKE-026a707ada3189428760",
+      "source_group": "07",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r03-c02-026a707ada31.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/07_mediterranean_lowland_cutouts_r03_c02.png",
+      "source_region_hints": [
+        "Cyprus",
+        "Cilicia",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Levantine coastal fields",
+      "review_zone_bbox_wgs84": [
+        34.5,
+        31.5,
+        35.85,
+        34.9
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "d8923c2ec452f62444ed2a4b0d436c77ea3078f2c03631c8c37b503d0ef41a87",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.37593,
+      "visible_fraction": 0.60113,
+      "opaque_boundary_fraction": 0.21419,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.11371,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "possible_water_or_shoreline_orientation_requires_visual_review"
+    },
+    {
+      "id": "INTAKE-95b7b2978a8a99b4db8e",
+      "source_group": "07",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r03-c03-95b7b2978a8a.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/07_mediterranean_lowland_cutouts_r03_c03.png",
+      "source_region_hints": [
+        "Cyprus",
+        "Cilicia",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Cyprus",
+      "review_zone_bbox_wgs84": [
+        32.3,
+        34.6,
+        34.45,
+        35.45
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": true,
+      "render_status": "region_clipped_preview_only",
+      "sha256": "faeb51ddac5a4d4f0316dd196f0d686c0fed1451aad53e3bf0005669562ae99b",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.39068,
+      "visible_fraction": 0.58804,
+      "opaque_boundary_fraction": 0.16862,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.0,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": null,
+      "approval": "provisional_underpaint_only"
+    },
+    {
+      "id": "INTAKE-3bc354f6f5d9d6796593",
+      "source_group": "07",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r04-c01-3bc354f6f5d9.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/07_mediterranean_lowland_cutouts_r04_c01.png",
+      "source_region_hints": [
+        "Cyprus",
+        "Cilicia",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Cilicia",
+      "review_zone_bbox_wgs84": [
+        34.3,
+        36.5,
+        35.95,
+        37.35
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "129a389b9906e17aba622dc2fb6665812b04fa5f625b0b79c983fc2e2d65c155",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.32701,
+      "visible_fraction": 0.65221,
+      "opaque_boundary_fraction": 0.19987,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.13015,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "possible_water_or_shoreline_orientation_requires_visual_review"
+    },
+    {
+      "id": "INTAKE-2e31981c82ee8585c7d0",
+      "source_group": "07",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r04-c02-2e31981c82ee.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/07_mediterranean_lowland_cutouts_r04_c02.png",
+      "source_region_hints": [
+        "Cyprus",
+        "Cilicia",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Greek lowlands",
+      "review_zone_bbox_wgs84": [
+        21.0,
+        36.8,
+        24.5,
+        39.5
+      ],
+      "frame": "aegean",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "516af3e68eb06ce9f354d11f39493dfe8078efa4ba4e67ff6daaa17f2bbc147e",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.32989,
+      "visible_fraction": 0.64767,
+      "opaque_boundary_fraction": 0.13867,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.13371,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "possible_water_or_shoreline_orientation_requires_visual_review"
+    },
+    {
+      "id": "INTAKE-c7decf83bebba92b18b9",
+      "source_group": "07",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r04-c03-c7decf83bebb.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/07_mediterranean_lowland_cutouts_r04_c03.png",
+      "source_region_hints": [
+        "Cyprus",
+        "Cilicia",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Levantine coastal fields",
+      "review_zone_bbox_wgs84": [
+        34.5,
+        31.5,
+        35.85,
+        34.9
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": true,
+      "render_status": "region_clipped_preview_only",
+      "sha256": "b614dc1e6f888e6a436b083f4f5a8c38bd58f0774ad27a19c4f1232870e4bb69",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.30564,
+      "visible_fraction": 0.67889,
+      "opaque_boundary_fraction": 0.08203,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.0,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": null,
+      "approval": "provisional_underpaint_only"
+    },
+    {
+      "id": "INTAKE-b51324ecd34b562736b6",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r01-c01-b51324ecd34b.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r01_c01.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "bd675fdfeec9ee4c25302d7ed8a9a463c736660baf56de570511cdd30a6f302b",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        205
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        205
+      ],
+      "transparent_fraction": 0.12441,
+      "visible_fraction": 0.7151,
+      "opaque_boundary_fraction": 0.18271,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.13528,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-7a53e3eb251e147e31f2",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r01-c02-7a53e3eb251e.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r01_c02.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Greek lowlands",
+      "review_zone_bbox_wgs84": [
+        21.0,
+        36.8,
+        24.5,
+        39.5
+      ],
+      "frame": "aegean",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "4e820629af08ba7c73b9a5b983f565de71ccdd542f79587014f21e93ef89652b",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        205
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        205
+      ],
+      "transparent_fraction": 0.13256,
+      "visible_fraction": 0.68633,
+      "opaque_boundary_fraction": 0.10739,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.01823,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-fa72e3738c226be6d867",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r01-c03-fa72e3738c22.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r01_c03.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Levantine coastal fields",
+      "review_zone_bbox_wgs84": [
+        34.5,
+        31.5,
+        35.85,
+        34.9
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "891a0ed8f0460401e7500ff6a321dfdea50bcb89ab2059f5f1b68f5a299ebdfc",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        205
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        205
+      ],
+      "transparent_fraction": 0.15951,
+      "visible_fraction": 0.64825,
+      "opaque_boundary_fraction": 0.02999,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.12375,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-4989f4b3918bee6bf6c4",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r02-c01-4989f4b3918b.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r02_c01.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "b4b20e87c7f61557bde02ee0e6b40a181dd60f0b5b2877e3eb0f5e5c889c2603",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        205
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        205
+      ],
+      "transparent_fraction": 0.08897,
+      "visible_fraction": 0.67398,
+      "opaque_boundary_fraction": 0.33612,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.19727,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-d0be4cd8d74c6bc104b1",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r02-c02-d0be4cd8d74c.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r02_c02.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Greek lowlands",
+      "review_zone_bbox_wgs84": [
+        21.0,
+        36.8,
+        24.5,
+        39.5
+      ],
+      "frame": "aegean",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "0f154f8671fbb70eb209aae6c5757825244b5b303329c53531378497cdc91c40",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        205
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        205
+      ],
+      "transparent_fraction": 0.06257,
+      "visible_fraction": 0.67842,
+      "opaque_boundary_fraction": 0.15202,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.00029,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-a660eb14f4029be2e771",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r02-c03-a660eb14f402.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r02_c03.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Levantine coastal fields",
+      "review_zone_bbox_wgs84": [
+        34.5,
+        31.5,
+        35.85,
+        34.9
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "d7eafba5e3520510ef99925f455b75823a85d7c8b4c787380d746fc0643cb623",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        205
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        205
+      ],
+      "transparent_fraction": 0.10604,
+      "visible_fraction": 0.67941,
+      "opaque_boundary_fraction": 0.18271,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.19662,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-d11fb064da1e51bdcde9",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r03-c01-d11fb064da1e.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r03_c01.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "6b8c415c70eb3f180c958c2c0bad39730f25f9ed85ce6dc01a9e73aa7add6a03",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        204
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        204
+      ],
+      "transparent_fraction": 0.05507,
+      "visible_fraction": 0.65117,
+      "opaque_boundary_fraction": 0.24721,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.05978,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-29c921302d6442fab7e8",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r03-c02-29c921302d64.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r03_c02.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Greek lowlands",
+      "review_zone_bbox_wgs84": [
+        21.0,
+        36.8,
+        24.5,
+        39.5
+      ],
+      "frame": "aegean",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "ad7e7068b4a99a37c3146e479b96e7d724d711d04cbea178fb667db2715b144a",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        204
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        204
+      ],
+      "transparent_fraction": 0.09971,
+      "visible_fraction": 0.6109,
+      "opaque_boundary_fraction": 0.18087,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.12984,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-0ca9c8cacebcac2d0a83",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r03-c03-0ca9c8cacebc.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r03_c03.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Levantine coastal fields",
+      "review_zone_bbox_wgs84": [
+        34.5,
+        31.5,
+        35.85,
+        34.9
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "0c8104e39ae79bf9126dc0f63742ff53b5384a1aeb7baf9bda1c9a4d7c454bb7",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        204
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        204
+      ],
+      "transparent_fraction": 0.11408,
+      "visible_fraction": 0.63596,
+      "opaque_boundary_fraction": 0.19204,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.1267,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-8872df3a1128b43addf3",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r04-c01-8872df3a1128.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r04_c01.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "150ad0ede700e32da0eea9a6924ecda7d327179e59daec12844d426f8b4f8849",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        205
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        205
+      ],
+      "transparent_fraction": 0.12974,
+      "visible_fraction": 0.58384,
+      "opaque_boundary_fraction": 0.04324,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.0,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-04aa9f0f092da07fea5c",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r04-c02-04aa9f0f092d.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r04_c02.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Greek lowlands",
+      "review_zone_bbox_wgs84": [
+        21.0,
+        36.8,
+        24.5,
+        39.5
+      ],
+      "frame": "aegean",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "f36a2ef8f69ba7faa47dda40206cbc7a9b20174e2a5cdbfb9cd43e1d4d6f335b",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        205
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        205
+      ],
+      "transparent_fraction": 0.0491,
+      "visible_fraction": 0.59692,
+      "opaque_boundary_fraction": 0.10391,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.14279,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-5dec4cefb78e09f11fa4",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r04-c03-5dec4cefb78e.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r04_c03.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Levantine coastal fields",
+      "review_zone_bbox_wgs84": [
+        34.5,
+        31.5,
+        35.85,
+        34.9
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "3ee572509bd1798bb304f8107664dffb1d2cac47414d1447904c0f6d8a126ad9",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        205
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        205
+      ],
+      "transparent_fraction": 0.08826,
+      "visible_fraction": 0.65026,
+      "opaque_boundary_fraction": 0.05509,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.19645,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-bfc3681e0f9d8892c2ec",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r05-c01-bfc3681e0f9d.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r05_c01.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Nile Delta",
+      "review_zone_bbox_wgs84": [
+        29.9,
+        30.2,
+        32.2,
+        31.55
+      ],
+      "frame": "delta",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "4e6d20813469c96af180dd8dc6f2573f0afd9f815f8cd5010516362b7084c15c",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        205
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        205
+      ],
+      "transparent_fraction": 0.09964,
+      "visible_fraction": 0.6244,
+      "opaque_boundary_fraction": 0.06206,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.0417,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-9e629c3262c77558b7dd",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r05-c02-9e629c3262c7.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r05_c02.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Greek lowlands",
+      "review_zone_bbox_wgs84": [
+        21.0,
+        36.8,
+        24.5,
+        39.5
+      ],
+      "frame": "aegean",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "827622332f90c13138c09f54919792a800bb8125f306624d9742f06f0ed0dd4f",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        205
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        205
+      ],
+      "transparent_fraction": 0.08461,
+      "visible_fraction": 0.63122,
+      "opaque_boundary_fraction": 0.11576,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.13044,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-bc06967ea65eb477205c",
+      "source_group": "08",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r05-c03-bc06967ea65e.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/08_delta_aegean_levant_tiles_r05_c03.png",
+      "source_region_hints": [
+        "Nile Delta",
+        "Greek lowlands",
+        "Levantine coastal fields"
+      ],
+      "assigned_review_region": "Levantine coastal fields",
+      "review_zone_bbox_wgs84": [
+        34.5,
+        31.5,
+        35.85,
+        34.9
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "a8e6a9703a48b9527f3c7b0bc231d133f2e8650c3c6ccbe864c54f05de5d7447",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        205
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        205
+      ],
+      "transparent_fraction": 0.17601,
+      "visible_fraction": 0.66511,
+      "opaque_boundary_fraction": 0.05091,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.0,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "mixed_water_or_delta_hydrology_requires_registration"
+    },
+    {
+      "id": "INTAKE-38799bb8ca499b5e0b95",
+      "source_group": "09",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r01-c01-38799bb8ca49.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/09_coastal_rural_variants_r01_c01.png",
+      "source_region_hints": [
+        "Levantine coastal fields",
+        "Cyprus",
+        "Cilicia"
+      ],
+      "assigned_review_region": "Levantine coastal fields",
+      "review_zone_bbox_wgs84": [
+        34.5,
+        31.5,
+        35.85,
+        34.9
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": true,
+      "render_status": "region_clipped_preview_only",
+      "sha256": "febe42cd861d2b3e9e22757b925fdb8ed4d13acbf5ea5f2927a4c19b15962625",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.26123,
+      "visible_fraction": 0.72771,
+      "opaque_boundary_fraction": 0.3125,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.00075,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": null,
+      "approval": "provisional_underpaint_only"
+    },
+    {
+      "id": "INTAKE-f9b3153985eb3ebc2e40",
+      "source_group": "09",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r01-c02-f9b3153985eb.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/09_coastal_rural_variants_r01_c02.png",
+      "source_region_hints": [
+        "Levantine coastal fields",
+        "Cyprus",
+        "Cilicia"
+      ],
+      "assigned_review_region": "Cyprus",
+      "review_zone_bbox_wgs84": [
+        32.3,
+        34.6,
+        34.45,
+        35.45
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "8bdf8e711031a34632b0eaa71b6447cd8be777bf78a87ec6bb22c1db9903445a",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.31684,
+      "visible_fraction": 0.66797,
+      "opaque_boundary_fraction": 0.47786,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.04777,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "possible_water_or_shoreline_orientation_requires_visual_review"
+    },
+    {
+      "id": "INTAKE-c875e01b7e12e87ddecd",
+      "source_group": "09",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r01-c03-c875e01b7e12.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/09_coastal_rural_variants_r01_c03.png",
+      "source_region_hints": [
+        "Levantine coastal fields",
+        "Cyprus",
+        "Cilicia"
+      ],
+      "assigned_review_region": "Cilicia",
+      "review_zone_bbox_wgs84": [
+        34.3,
+        36.5,
+        35.95,
+        37.35
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": true,
+      "render_status": "region_clipped_preview_only",
+      "sha256": "adaec9f45a4897eb7d6578fb07e8fc690a5ea21782fc1adfc98db1dfb293a9ba",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.17162,
+      "visible_fraction": 0.8179,
+      "opaque_boundary_fraction": 0.3737,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.01793,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": null,
+      "approval": "provisional_underpaint_only"
+    },
+    {
+      "id": "INTAKE-35696e9ce3d488843d05",
+      "source_group": "09",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r02-c01-35696e9ce3d4.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/09_coastal_rural_variants_r02_c01.png",
+      "source_region_hints": [
+        "Levantine coastal fields",
+        "Cyprus",
+        "Cilicia"
+      ],
+      "assigned_review_region": "Levantine coastal fields",
+      "review_zone_bbox_wgs84": [
+        34.5,
+        31.5,
+        35.85,
+        34.9
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "31b9c4a805fe64acfa17d043f79ff3f361227ded8797db87175ebfa68445ff45",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.30903,
+      "visible_fraction": 0.67417,
+      "opaque_boundary_fraction": 0.3125,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.10805,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "possible_water_or_shoreline_orientation_requires_visual_review"
+    },
+    {
+      "id": "INTAKE-f4054502da6b1ca72167",
+      "source_group": "09",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r02-c02-f4054502da6b.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/09_coastal_rural_variants_r02_c02.png",
+      "source_region_hints": [
+        "Levantine coastal fields",
+        "Cyprus",
+        "Cilicia"
+      ],
+      "assigned_review_region": "Cyprus",
+      "review_zone_bbox_wgs84": [
+        32.3,
+        34.6,
+        34.45,
+        35.45
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": true,
+      "render_status": "region_clipped_preview_only",
+      "sha256": "27ae5fbfff0e7dad16acfc19f598d8284c429a07470bb72778adcda13964f747",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.37063,
+      "visible_fraction": 0.60613,
+      "opaque_boundary_fraction": 0.21549,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.00856,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": null,
+      "approval": "provisional_underpaint_only"
+    },
+    {
+      "id": "INTAKE-54c0ea48d4d9f6dc95ad",
+      "source_group": "09",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r02-c03-54c0ea48d4d9.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/09_coastal_rural_variants_r02_c03.png",
+      "source_region_hints": [
+        "Levantine coastal fields",
+        "Cyprus",
+        "Cilicia"
+      ],
+      "assigned_review_region": "Cilicia",
+      "review_zone_bbox_wgs84": [
+        34.3,
+        36.5,
+        35.95,
+        37.35
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": true,
+      "render_status": "region_clipped_preview_only",
+      "sha256": "add733240f8100974765704af81b8c51da3d371690760f3952a8d0bf37a6d689",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.3737,
+      "visible_fraction": 0.60818,
+      "opaque_boundary_fraction": 0.31706,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.00966,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": null,
+      "approval": "provisional_underpaint_only"
+    },
+    {
+      "id": "INTAKE-332b51762cdfb6ce088f",
+      "source_group": "09",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r03-c01-332b51762cdf.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/09_coastal_rural_variants_r03_c01.png",
+      "source_region_hints": [
+        "Levantine coastal fields",
+        "Cyprus",
+        "Cilicia"
+      ],
+      "assigned_review_region": "Levantine coastal fields",
+      "review_zone_bbox_wgs84": [
+        34.5,
+        31.5,
+        35.85,
+        34.9
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "50844453175c3e76d8c765159304490f68148ea76bf8095b48d833df10d39478",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.36586,
+      "visible_fraction": 0.61726,
+      "opaque_boundary_fraction": 0.14714,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.11245,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "possible_water_or_shoreline_orientation_requires_visual_review"
+    },
+    {
+      "id": "INTAKE-02ee5015dc53fbd425e1",
+      "source_group": "09",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r03-c02-02ee5015dc53.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/09_coastal_rural_variants_r03_c02.png",
+      "source_region_hints": [
+        "Levantine coastal fields",
+        "Cyprus",
+        "Cilicia"
+      ],
+      "assigned_review_region": "Cyprus",
+      "review_zone_bbox_wgs84": [
+        32.3,
+        34.6,
+        34.45,
+        35.45
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": true,
+      "render_status": "region_clipped_preview_only",
+      "sha256": "9c87efb7115eb3f83d1ae332e1399e40d1a9f530062d55640bb9d99ed7b2e398",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.36749,
+      "visible_fraction": 0.59566,
+      "opaque_boundary_fraction": 0.10807,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.00241,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": null,
+      "approval": "provisional_underpaint_only"
+    },
+    {
+      "id": "INTAKE-3efa9a1b7415792a82fb",
+      "source_group": "09",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r03-c03-3efa9a1b7415.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/09_coastal_rural_variants_r03_c03.png",
+      "source_region_hints": [
+        "Levantine coastal fields",
+        "Cyprus",
+        "Cilicia"
+      ],
+      "assigned_review_region": "Cilicia",
+      "review_zone_bbox_wgs84": [
+        34.3,
+        36.5,
+        35.95,
+        37.35
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "01d421fcb1b4c0c85ee470dfe6f4c95a4384ba4aa21ba616a3e8a04ac3a3d12d",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.38033,
+      "visible_fraction": 0.6022,
+      "opaque_boundary_fraction": 0.08724,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.18852,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "possible_water_or_shoreline_orientation_requires_visual_review"
+    },
+    {
+      "id": "INTAKE-36fb9ee2b1705e6a27e4",
+      "source_group": "09",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r04-c01-36fb9ee2b170.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/09_coastal_rural_variants_r04_c01.png",
+      "source_region_hints": [
+        "Levantine coastal fields",
+        "Cyprus",
+        "Cilicia"
+      ],
+      "assigned_review_region": "Levantine coastal fields",
+      "review_zone_bbox_wgs84": [
+        34.5,
+        31.5,
+        35.85,
+        34.9
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": true,
+      "render_status": "region_clipped_preview_only",
+      "sha256": "b94c442a5bae3e3844fdf0f77f6a99bf27b3ea18c4eb37dd64f9996f7e8e88de",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.38342,
+      "visible_fraction": 0.59708,
+      "opaque_boundary_fraction": 0.12044,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.0,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": null,
+      "approval": "provisional_underpaint_only"
+    },
+    {
+      "id": "INTAKE-9dad8c3026adc9619cac",
+      "source_group": "09",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r04-c02-9dad8c3026ad.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/09_coastal_rural_variants_r04_c02.png",
+      "source_region_hints": [
+        "Levantine coastal fields",
+        "Cyprus",
+        "Cilicia"
+      ],
+      "assigned_review_region": "Cyprus",
+      "review_zone_bbox_wgs84": [
+        32.3,
+        34.6,
+        34.45,
+        35.45
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": true,
+      "render_status": "region_clipped_preview_only",
+      "sha256": "aafa65e898eb04e195313c918e640ee36ca2221f873334b6b52e463cb9d024c7",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.25853,
+      "visible_fraction": 0.72815,
+      "opaque_boundary_fraction": 0.17839,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.0,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": null,
+      "approval": "provisional_underpaint_only"
+    },
+    {
+      "id": "INTAKE-a7b0ded9ee9932f09946",
+      "source_group": "09",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r04-c03-a7b0ded9ee99.png",
+      "original_source": "assets/sprites/incoming/_zip_extract/crusader_lowlands_13nov_remaining_51_REGION_QA/09_coastal_rural_variants_r04_c03.png",
+      "source_region_hints": [
+        "Levantine coastal fields",
+        "Cyprus",
+        "Cilicia"
+      ],
+      "assigned_review_region": "Cilicia",
+      "review_zone_bbox_wgs84": [
+        34.3,
+        36.5,
+        35.95,
+        37.35
+      ],
+      "frame": "main",
+      "georeferencing": "region_polygon_only_not_fixed_site_coordinate",
+      "png_present": true,
+      "preview_eligible": false,
+      "render_status": "held",
+      "sha256": "9b27d9ca442fcf948e380dd9ee6d49cd01c44c9ac5f9ebc4e611a5702615419a",
+      "png_format": "PNG",
+      "native_mode": "RGBA",
+      "native_size": [
+        512,
+        256
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        256
+      ],
+      "transparent_fraction": 0.38185,
+      "visible_fraction": 0.60382,
+      "opaque_boundary_fraction": 0.01432,
+      "native_alpha_channel": true,
+      "blue_teal_visible_fraction": 0.13903,
+      "valid_png_rgba_preview": true,
+      "edge_treatment": "14pct_tile_edge_feather_then_precise_land_mask",
+      "edge_feather_required": true,
+      "hold_reason": "possible_water_or_shoreline_orientation_requires_visual_review"
+    }
+  ]
+}

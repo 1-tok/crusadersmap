@@ -1,6 +1,6 @@
 # Unused sprites: what is superseded and what did not make it
 
-1111 images in the repository ledger; 721 are on the composite.
+1111 images in the repository ledger; 722 are on the composite.
 
 | Group | Images | What it means |
 |---|---:|---|
@@ -10,7 +10,7 @@
 | Held | 8 | shows a named monument that already stands in its own city painting (5); marked repaint-required by its own file name (3) |
 | Broken | 6 | file missing from the repository (3); checkerboard painted into the background (2); two pieces joined in one cut-out (1) |
 | No room | 12 | site painting whose place has no room on the sheet (12) |
-| Not picked | 7 | in a pool or queue but not placed in this build (7) |
+| Not picked | 6 | in a pool or queue but not placed in this build (6) |
 | Removed | 3 | volcano or basalt piece, removed on request (3) |
 
 Every image is listed with its group and reason in image-usage-and-off-map-list.csv.
@@ -65,11 +65,10 @@ Every image is listed with its group and reason in image-usage-and-off-map-list.
 - `galata-sykai-1180-v1.png`: primary painting for Pera, but the symbol is hidden: no room among neighbouring symbols
 - `map_fillers_set_a-013.png`: primary painting for Scandalion, but the symbol is hidden: no room among neighbouring symbols
 
-### Not picked (7)
+### Not picked (6)
 
 - `NAT-L017-cappadocia.png`: generic landmark piece: in the pool but not drawn in this build (random selection)
-- `CSV-089.png`: regional landscape tile in the pool but not drawn in this build
-- `CSV-093.png`: regional landscape tile in the pool but not drawn in this build
+- `CSV-114.png`: regional landscape tile in the pool but not drawn in this build
 - `anatolian-small-cone.png`: terrain stamp in the kit but not drawn in this build
 - `anatolian-volcanic-massif.png`: terrain stamp in the kit but not drawn in this build
 - `forested-pass.png`: terrain stamp in the kit but not drawn in this build
