@@ -1,0 +1,94 @@
+{
+  "purpose": "selected PNG source evidence for four user-flagged cities; requires manual comparison",
+  "production_approved": false,
+  "records": [
+    {
+      "city": "Acre",
+      "site_id": "acre",
+      "selected_file": "assets/sprites/acre-1180-v2.png",
+      "source_variant": "data/sprites/historical-1180/acre-1180-v2.png",
+      "original_px": [
+        900,
+        513
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "hold_user_reported_water_orientation",
+      "expected_global_water_side": "west/left with harbor-specific exceptions",
+      "visually_verified_by_script": false,
+      "coastline_fit_verified": false,
+      "production_approved": false,
+      "repaint_or_variant_review_required": true,
+      "map_asset_changed": false
+    },
+    {
+      "city": "Caesarea",
+      "site_id": "caesarea",
+      "selected_file": "assets/sprites/archive-crs-023-caesarea.png",
+      "source_variant": "data/sprites/archive-1180/clean/archive-crs-023-caesarea.png",
+      "original_px": [
+        768,
+        414
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "hold_user_reported_water_orientation",
+      "expected_global_water_side": "west/left with harbor-specific exceptions",
+      "visually_verified_by_script": false,
+      "coastline_fit_verified": false,
+      "production_approved": false,
+      "repaint_or_variant_review_required": true,
+      "map_asset_changed": false
+    },
+    {
+      "city": "Jaffa",
+      "site_id": "jaffa",
+      "selected_file": "assets/sprites/jaffa-1180-v1.png",
+      "source_variant": "data/sprites/greece-egypt-1180-batch02/jaffa-1180-v1.png",
+      "original_px": [
+        900,
+        518
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "hold_user_reported_water_orientation",
+      "expected_global_water_side": "west/left with harbor-specific exceptions",
+      "visually_verified_by_script": false,
+      "coastline_fit_verified": false,
+      "production_approved": false,
+      "repaint_or_variant_review_required": true,
+      "map_asset_changed": false
+    },
+    {
+      "city": "Ashkelon / Ascalon",
+      "site_id": "ascalon",
+      "selected_file": "assets/sprites/ascalon-1180-v1.png",
+      "source_variant": "data/sprites/greece-egypt-1180-batch04/ascalon-1180-v1.png",
+      "original_px": [
+        900,
+        555
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "hold_user_reported_water_orientation",
+      "expected_global_water_side": "west/left with harbor-specific exceptions",
+      "visually_verified_by_script": false,
+      "coastline_fit_verified": false,
+      "production_approved": false,
+      "repaint_or_variant_review_required": true,
+      "map_asset_changed": false
+    }
+  ]
+}
