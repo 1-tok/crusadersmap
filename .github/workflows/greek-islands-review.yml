@@ -7,6 +7,7 @@ on:
     paths:
       - islandart.py
       - tools/greek_islands_review.py
+      - tools/render_aegean_ionian_island_proof.py
       - .github/workflows/greek-islands-review.yml
 
 permissions:
@@ -32,12 +33,16 @@ jobs:
           python -m pip install numpy Pillow scipy shapely pyproj pycairo
       - name: Reconcile all staged island artwork and render native-width review
         run: python tools/greek_islands_review.py
+      - name: Render Aegean and Ionian candidate artwork proof
+        run: python tools/render_aegean_ionian_island_proof.py
       - name: Publish always-available review artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: greek-islands-geographic-review
-          path: reports/greek-islands-review-2026-11-12/
+          path: |
+            reports/greek-islands-review-2026-11-12/
+            reports/island-review-2026-11-15/
           if-no-files-found: warn
       - name: Commit island QA and separate enlarged review preview
         run: |
@@ -46,7 +51,7 @@ jobs:
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --mixed origin/main
-            git add reports/greek-islands-review-2026-11-12/
+            git add reports/greek-islands-review-2026-11-12/ reports/island-review-2026-11-15/
             if git diff --cached --quiet; then
               echo "No change to reports"
               exit 0
