@@ -38,6 +38,7 @@ on:
       - 'water_palette.py'
       - 'sprites.py'
       - 'assets/sprites/water-masks/**'
+      - 'tools/preview_azure_harbor_masks.py'
 
 permissions:
   contents: write
@@ -72,7 +73,15 @@ jobs:
           python build_fallback_assets.py
           python tools/activate_review_coastal_sprites.py
           python tools/rebuild_city_coastal_qa.py
+      - name: Prepare reproducible Mediterranean azure harbor masks
+        env:
+          MEDITERRANEAN_AZURE_WASH: '1'
+        run: |
+          python tools/preview_azure_harbor_masks.py
+          cp reports/azure-water-qa/provisional-water-mask-report.json reports/rebuild-2026-11-12/harbor-water-mask-report.json
       - name: Render actual current map from geographic sources
+        env:
+          MEDITERRANEAN_AZURE_WASH: '1'
         run: |
           python build_stage2.py 0.30 colour
           cp out/stage2-colour.jpg reports/rebuild-2026-11-12/outremer-current-composite.jpg
@@ -105,6 +114,7 @@ jobs:
           name: latest-crusader-composite-and-QA
           path: |
             reports/rebuild-2026-11-12/
+            reports/azure-water-qa/
             reports/island-review-2026-11-15/
             out/underlay-coverage-report.json
             out/placement_log.json
