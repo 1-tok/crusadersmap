@@ -91,13 +91,18 @@ def inspect_one(item, group_index):
         result["png_format"] == "PNG" and "A" in result["native_mode"]
         and min(image.size) >= 64 and has_visible
         and result["transparent_fraction"] >= .01
-        and result["opaque_boundary_fraction"] <= .12
     )
-    # Group 07 is the only source named as generic land-only cutouts. Mixed
-    # Delta/shoreline groups cannot auto-pass even if the pixel heuristic
-    # fails to detect painted water. Group 07 stays PROVISIONAL.
+    # These are clipped rectangular landscape tiles, not isolated castle
+    # silhouettes. Opaque cut edges are valid only when an additional soft
+    # feather is applied BEFORE the geographic coastline clip.
+    result["edge_treatment"] = "14pct_tile_edge_feather_then_precise_land_mask"
+    result["edge_feather_required"] = result["opaque_boundary_fraction"] > .01
+    # Only dry-coloured terrain from groups 07/09 can enter the REVIEW map.
+    # Group 06 hydrology and group 08 mixed-source Delta and coastal pieces
+    # remain held even where automated blue screening does not spot water.
+    # All printed/historical/individual coast orientation approvals remain false.
     result["preview_eligible"] = (
-        group == "07" and result["valid_png_rgba_preview"]
+        group in ("07", "09") and result["valid_png_rgba_preview"]
         and result["blue_teal_visible_fraction"] <= 0.035
     )
     if result["preview_eligible"]:
@@ -106,10 +111,10 @@ def inspect_one(item, group_index):
         result["approval"] = "provisional_underpaint_only"
     elif not result["valid_png_rgba_preview"]:
         result["hold_reason"] = "alpha_or_native_png_quality"
-    elif group in ("06", "08", "09"):
-        result["hold_reason"] = "mixed_water_coast_or_hydrology_requires_visual_placement"
+    elif group in ("06", "08"):
+        result["hold_reason"] = "mixed_water_or_delta_hydrology_requires_registration"
     else:
-        result["hold_reason"] = "blue_teal_content_needs_visual_water_review"
+        result["hold_reason"] = "possible_water_or_shoreline_orientation_requires_visual_review"
     return result, image
 
 
@@ -149,6 +154,7 @@ def run():
         "all_51_binaries_inspected": True,
         "qa_type": "actual_png_decode_alpha_color_and_boundary_automated_screening",
         "human_visual_and_historical_approval": False,
+        "automated_preview_selection": "groups_07_09_only_blue_teal_at_most_3_5_percent; group_06_08_hydrology_held",
         "coastline_preview_policy": "land polygon clipping REQUIRED for every accepted candidate; no seaward pixels",
         "layering": "under coastline ink, below all town/fortress/industry sprites, roads and labels",
         "candidate_regions": REGIONS,
