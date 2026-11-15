@@ -55,6 +55,13 @@ def _img(rec, edition):
     k = (rec["file"], edition)
     if k not in _IMG:
         im = Image.open(os.path.join(HERE, "assets", "sprites", rec["file"])).convert("RGBA")
+        # Only a reviewed water mask can safely distinguish harbor water from blue roofs.
+        if edition == "colour":
+            from water_palette import grade_masked_sprite
+            mask_path = os.path.join(HERE, "assets", "sprites", "water-masks", rec["file"])
+            if os.path.isfile(mask_path):
+                with Image.open(mask_path) as mask:
+                    im = grade_masked_sprite(im, mask)
         if edition != "colour":
             a = im.getchannel("A")
             rgb = ImageEnhance.Color(im.convert("RGB")).enhance(0.62)
