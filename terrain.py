@@ -215,6 +215,11 @@ class Terrain:
         alpha = a_land * land + a_sea * (1 - land)
         sl = slice(r0 - R0, r0 - R0 + (r1 - r0))
         self._ml = land[sl, :, 0].copy(); self._lk = lake[sl, :, 0].copy()
+        # Exact vector-raster shoreline at working resolution. Soft wash masks
+        # intentionally blur across the sea and therefore cannot govern the
+        # placement boundary of painted land-only underlays.
+        self._land_exact = np.asarray(mask, np.uint8)[sl, :] > 127
+        self._lake_exact = np.asarray(lakes, np.uint8)[sl, :] > 127
         return col[sl].astype(np.float32), alpha[sl].astype(np.float32)
 
     def _lakes(self):
