@@ -42,10 +42,18 @@ def _surface(path, width):
         h = max(1, round(img.height / img.width * width))
         img = img.resize((width, h), Image.Resampling.LANCZOS)
         a = np.asarray(img, np.float32)
-        alpha = a[..., 3:4] / 255.0
+        # Rectangular source cuts have abrupt opaque boundaries. Feather
+        # their own edges first; the independent coastline clip below then
+        # ensures no part of any tile enters sea or lakes.
+        px = np.arange(width, dtype=np.float32) + 0.5
+        py = np.arange(h, dtype=np.float32) + 0.5
+        fx = np.clip(np.minimum(px, width-px) / max(1., width*.14), 0, 1)
+        fy = np.clip(np.minimum(py, h-py) / max(1., h*.14), 0, 1)
+        feather = np.minimum(fy[:, None], fx[None, :])
+        alpha = (a[..., 3] / 255.0 * feather)[..., None]
         premult = np.empty((h, width, 4), dtype=np.uint8)
         premult[..., :3] = (a[..., [2, 1, 0]] * alpha).astype(np.uint8)
-        premult[..., 3] = a[..., 3].astype(np.uint8)
+        premult[..., 3] = np.clip(alpha[..., 0] * 255, 0, 255).astype(np.uint8)
         backing = bytearray(premult.tobytes())
         surf = cairo.ImageSurface.create_for_data(backing, cairo.FORMAT_ARGB32, width, h, width * 4)
         _SURF[key] = (surf, backing)
