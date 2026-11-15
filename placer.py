@@ -183,11 +183,22 @@ def water_fn_for(TER, BOX, region):
     return f
 
 
+# Constantinople and its three companions are painted standing in the water of the strait: they keep their true positions
+def it_is_companion(i):
+    return i.kind == "place" and i.name in COMPANIONS
+
+
+COMPANIONS = ("Pera", "Chrysopolis", "Chalkedon")
+# the true anchors lie within a kilometre of the city, so at map scale the companions stand beside it, joined to their anchors by a fine line
+COMP_OFFSET = {"Pera": (-285, -95), "Chrysopolis": (200, 10), "Chalkedon": (230, 150)}
+NO_NUDGE = ("Konstantinoupolis", "Pera", "Chrysopolis", "Chalkedon")
+
+
 def nudge_sprite(it, WF):
     """Push a sprite inland until its building footprint is dry. Small islands: search stays local and the sprite
     shrinks in steps rather than jumping to another landmass."""
     rec = it.sprite
-    if not rec["foot"]:
+    if not rec["foot"] or it.name in NO_NUDGE:
         return
     f = WF[it.region]
     rmax = 280 if it.region == "main" else 110
@@ -551,6 +562,14 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
             continue
         placed = False
         x0, y0 = it.x, it.y
+        if it.kind == "place" and it.name in COMPANIONS and getattr(it, "sprite", None):
+            # the three companions of Constantinople stand at their true anchors, over the edge of the great painting
+            dx_, dy_ = COMP_OFFSET[it.name]
+            it.ax, it.ay = x0, y0
+            it.x, it.y = x0 + dx_, y0 + dy_
+            it.rect = item_rect(it, it.w); sym.mark(it.rect); it.arm_rect = None
+            kept.append(it)
+            continue
         offs = [(0, 0)]
         if it.kind == "place" and it.tier >= 2 and getattr(it, "sprite", None):
             for rr_ in (0.6, 1.0, 1.5):
@@ -604,11 +623,15 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
         kept.append(it)
 
     # ---- draw symbols back to front
-    for it in sorted(kept, key=lambda i: i.y):
+    for it in sorted(kept, key=lambda i: i.y + (100000 if it_is_companion(i) else 0)):
         if it.kind == "isle":
             continue
         if it.kind == "place":
             if getattr(it, 'sprite', None):
+                if it_is_companion(it):
+                    c.save(); c.set_source_rgba(0.25, 0.18, 0.10, 0.85); c.set_line_width(2.2)
+                    c.move_to(it.x, it.y - 6); c.line_to(it.ax, it.ay); c.stroke()
+                    c.arc(it.ax, it.ay, 4.5, 0, 6.2832); c.fill(); c.restore()
                 SP.draw(c, it.sprite, it.x, it.y, it.w, edition)
             elif it.name in PAINTED_WATER:
                 pass                                  # the lake painting itself is the picture; the name is lettered beside it
@@ -657,17 +680,23 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
             draw_label(c, blk, cxr, R_[1] + 6, "c", bw)
             labs.mark((cxr - bw / 2, R_[1], cxr + bw / 2, R_[1] + bh + 6))
             continue
-        for thr in (0.10, 0.45, 0.85):
+        for near_lim, thr in ((45, 0.10), (45, 0.45), (45, 0.85), (1e9, 0.10), (1e9, 0.45), (1e9, 0.85)):   # names touching the sprite come first
           for scale in (1.0, 0.86, 0.74, 0.64, 0.56):
             blk = measure(c, lines, base * scale)
             bw = max(b[3] for b in blk); bh = sum(b[4] for b in blk)
-            gap = 11 * it.rf + 8
+            gap = 3 * it.rf + 3
             cy = (rr[1] + rr[3]) / 2
             cands = []
             def add(x0, y0, anchor, align, sea):
                 cands.append(((x0, y0, x0 + bw, y0 + bh), anchor, align, y0, sea))
             xl = rr[0] - gap; xr = (it.arm_rect[2] if it.arm_rect else rr[2]) + gap
             yc = cy - bh / 2
+            def add_top_right(sea):
+                """Against the picture itself, level with its top and above the arms that stand at its lower right."""
+                x_t = rr[2] + gap
+                arm_top = it.arm_rect[1] if it.arm_rect else rr[3]
+                y_t = max(rr[1] - bh * 0.6, min(rr[1] + 0.05 * (rr[3] - rr[1]), arm_top - bh - 1))
+                add(x_t, y_t, x_t, "l", sea)
             if it.kind == "isle":
                 add(it.x - bw / 2, it.y - bh / 2, it.x, "c", "land")
             if coastal:
@@ -675,6 +704,7 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
                     add(xl - bw, yc, xl, "r", sea)
                     add(xl - bw, rr[3] - bh * 0.9, xl, "r", sea)
                     add(xl - bw, rr[1] - bh * 0.1, xl, "r", sea)
+                    add_top_right(sea)
                     add(xr, yc, xr, "l", sea)
                     add((rr[0] + rr[2]) / 2 - bw / 2, rr[3] + gap, (rr[0] + rr[2]) / 2, "c", sea)
                     add((rr[0] + rr[2]) / 2 - bw / 2, rr[1] - gap - bh, (rr[0] + rr[2]) / 2, "c", sea)
@@ -688,6 +718,7 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
                 add(xl - bw, rr[3] - bh * 0.9, xl, "r", sea)
                 add(xr, rr[1] - bh * 0.2, xr, "l", sea)
                 add(xl - bw, rr[1] - bh * 0.2, xl, "r", sea)
+                add_top_right(sea)
             valid = []
             gb = (rr[0], rr[3] - 0.38 * h_sym, rr[2], rr[3])
             for rect, anchor, align, ytop, sea in cands:
@@ -695,7 +726,7 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
                     continue
                 if not HARD[it.region].free(rect, 4):
                     continue
-                if not sym.free(rect, 6) or not labs.free(rect, 8) or soft.frac(rect) > 0.2 or terr.frac(rect) > thr:
+                if not sym.free(rect, 1) or not labs.free(rect, 6) or soft.frac(rect) > 0.2 or terr.frac(rect) > thr:
                     continue
                 if sea == "land":
                     if not land_ok(LF[reg], rect, False):
@@ -707,6 +738,8 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
                     elif not coastal and not land_ok(LF[reg], rect, False):
                         continue
                 dx = max(gb[0] - rect[2], rect[0] - gb[2], 0); dy = max(gb[1] - rect[3], rect[1] - gb[3], 0)
+                if math.hypot(dx, dy) + (0 if sea else 18) > near_lim:
+                    continue
                 valid.append((math.hypot(dx, dy) + (0 if sea else 18), rect, anchor, align, ytop))
             if valid:
                 valid.sort(key=lambda v: v[0])

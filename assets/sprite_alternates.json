@@ -5,16 +5,6 @@
   "reason": "alternate variant; primary is historical-1180/jerusalem-1180-v2.png"
  },
  {
-  "path": "data/sprites/png/jerusalem.png",
-  "site": "jerusalem",
-  "reason": "alternate variant; primary is historical-1180/jerusalem-1180-v2.png"
- },
- {
-  "path": "data/sprites/png/acre.png",
-  "site": "acre",
-  "reason": "alternate variant; primary is historical-1180/acre-1180-v2.png"
- },
- {
   "path": "data/sprites/png/acre.png",
   "site": "acre",
   "reason": "alternate variant; primary is historical-1180/acre-1180-v2.png"
@@ -23,16 +13,6 @@
   "path": "data/sprites/png/antioch.png",
   "site": "antioch",
   "reason": "alternate variant; primary is historical-1180/antioch-1180-v2.png"
- },
- {
-  "path": "data/sprites/png/antioch.png",
-  "site": "antioch",
-  "reason": "alternate variant; primary is historical-1180/antioch-1180-v2.png"
- },
- {
-  "path": "data/sprites/png/tripoli.png",
-  "site": "tripoli",
-  "reason": "alternate variant; primary is historical-1180/tripoli-1180-v2.png"
  },
  {
   "path": "data/sprites/png/tripoli.png",
@@ -155,49 +135,9 @@
   "reason": "alternate variant; primary is expansion/tyre-1180-v1.png"
  },
  {
-  "path": "data/sprites/png/krak-des-chevaliers.png",
-  "site": "krak-des-chevaliers",
-  "reason": "alternate variant; primary is png/krak-des-chevaliers-standalone.png"
- },
- {
   "path": "data/sprites/png/krak-des-chevaliers-standalone.png",
   "site": "krak-des-chevaliers",
   "reason": "alternate variant; primary is png/krak-des-chevaliers-standalone.png"
- },
- {
-  "path": "data/sprites/png/belvoir.png",
-  "site": "belvoir",
-  "reason": "alternate variant; primary is historical-1180/belvoir-1180-v2.png"
- },
- {
-  "path": "data/sprites/png/kerak.png",
-  "site": "kerak",
-  "reason": "alternate variant; primary is archive-1180/clean/archive-crs-007-kerak.png"
- },
- {
-  "path": "data/sprites/png/montreal-shobak.png",
-  "site": "montreal-shobak",
-  "reason": "alternate variant; primary is archive-1180/clean/archive-crs-008-montreal-shobak.png"
- },
- {
-  "path": "data/sprites/png/jerusalem.png",
-  "site": "jerusalem",
-  "reason": "alternate variant; primary is historical-1180/jerusalem-1180-v2.png"
- },
- {
-  "path": "data/sprites/png/acre.png",
-  "site": "acre",
-  "reason": "alternate variant; primary is historical-1180/acre-1180-v2.png"
- },
- {
-  "path": "data/sprites/png/antioch.png",
-  "site": "antioch",
-  "reason": "alternate variant; primary is historical-1180/antioch-1180-v2.png"
- },
- {
-  "path": "data/sprites/png/tripoli.png",
-  "site": "tripoli",
-  "reason": "alternate variant; primary is historical-1180/tripoli-1180-v2.png"
  },
  {
   "path": "data/sprites/expansion/sources/tyre-draft.png",
@@ -408,5 +348,200 @@
   "path": "data/sprites/historical-1180/tripoli-1180-v2.png",
   "site": "tripoli",
   "reason": "superseded by the 12-13 November repaint data/sprites/automated-intake/png/tripoli-1180-south-view-review-v1-f908765ef876.png"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/acre-1180-south-view-review-v1-eeb5a7a23354.png",
+  "site": "acre",
+  "reason": "superseded by the newer painting acre-1180-south-view-historical-redo-review-v2-848801b6fa65.png"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/caesarea-1180-south-view-review-v1-efa2ce901127.png",
+  "site": "caesarea",
+  "reason": "superseded by the newer painting caesarea-1180-south-view-historical-redo-review-v2-b65fa442d8e3.png"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/jaffa-1180-south-view-review-v1-94a78ef64683.png",
+  "site": "jaffa",
+  "reason": "superseded by the newer painting jaffa-1180-south-view-historical-redo-review-v2-3a5d4e855eaf.png"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/ascalon-1180-south-view-review-v1-26ade0a7ee41.png",
+  "site": "ascalon",
+  "reason": "superseded by the newer painting ascalon-1180-south-view-historical-redo-review-v2-f2f22b816c94.png"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/tyre-1180-south-view-review-v1-6f557f3d59ef.png",
+  "site": "tyre",
+  "reason": "superseded by the newer painting tyre-1180-south-view-historical-redo-review-v2-55af6068e55b.png"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/sidon-1180-south-view-review-v1-a09f837885a6.png",
+  "site": "sidon",
+  "reason": "superseded by the newer painting sidon-1180-south-view-historical-redo-review-v2-f74bbb83ba94.png"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/batroun-1180-south-view-review-v1-2aeb331911b4.png",
+  "site": "batroun",
+  "reason": "superseded by the newer painting batroun-1180-south-view-historical-redo-review-v2-080bf4976d2b.png"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/byblos-1180-south-view-review-v1-4b0061f7697e.png",
+  "site": "byblos",
+  "reason": "superseded by the newer painting byblos-1180-south-view-historical-redo-review-v2-6b651f7b89d9.png"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/tripoli-1180-south-view-review-v1-f908765ef876.png",
+  "site": "tripoli",
+  "reason": "superseded by the newer painting tripoli-1180-south-view-historical-redo-review-v2-7964ed33b49c.png"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/gaza-1180-south-view-review-v1-4ec4a7d15da3.png",
+  "site": "gaza",
+  "reason": "superseded by the newer painting gaza-1180-south-view-historical-redo-review-v2-e922a20938cc.png"
+ },
+ {
+  "path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/jableh-1180-review-v1.png",
+  "site": "jableh",
+  "reason": "superseded by the newer painting jableh-1180-south-view-historical-redo-review-v2-13080cb73d26.png"
+ },
+ {
+  "path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/latakia-1180-review-v1.png",
+  "site": "latakia",
+  "reason": "superseded by the newer painting latakia-1180-south-view-historical-redo-review-v2-787ccaa24995.png"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/chateau-pelerin-atlit-review-4f44c29e6682.png",
+  "site": "chateau-pelerin",
+  "reason": "superseded by the newer painting chastel-pelerin-atlit-1180-south-view-historical-redo-review-v2-f559ae67c070.png"
+ },
+ {
+  "path": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/baniyas-syria-1180-review-v1.png",
+  "site": "baniyas-syria",
+  "reason": "superseded by the newer painting baniyas-syria-1180-south-view-historical-redo-review-v2-95db998350b0.png"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/alexandria-1180-north-mediterranean-review-v1-3a98cd5f4a9b.png",
+  "site": "alexandria",
+  "reason": "superseded by the newer painting alexandria-1180-south-view-historical-redo-review-v2-131cd18693d4.png"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180/damietta-1180-v1.png",
+  "site": "damietta",
+  "reason": "superseded by the newer painting damietta-1180-south-view-historical-redo-review-v2-677af348c6ef.png"
+ },
+ {
+  "path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/famagusta-1180-review-v1.png",
+  "site": "famagusta",
+  "reason": "superseded by the newer painting famagusta-1180-south-view-review-v1-577bf2889b1b.png"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-small-settlements-02/limassol-1180-v1.png",
+  "site": "limassol",
+  "reason": "superseded by the newer painting limassol-1180-south-view-review-v1-fe52559d3615.png"
+ },
+ {
+  "path": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/paphos-1180-review-v1.png",
+  "site": "paphos",
+  "reason": "superseded by the newer painting paphos-1180-south-southwest-harbor-review-v1-bdc14f300407.png"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-batch04/chios-1180-v1.png",
+  "site": "chios",
+  "reason": "superseded by the newer painting chios-1180-whole-island-south-view-review-v1-4f519ac44c2f.png"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-batch04/monemvasia-1180-v1.png",
+  "site": "monemvasia",
+  "reason": "superseded by the newer painting monemvasia-1180-byzantine-south-view-review-v1-215b93402da7.png"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-batch04/nafpaktos-1180-v1.png",
+  "site": "nafpaktos",
+  "reason": "superseded by the newer painting nafpaktos-1180-byzantine-south-view-review-v1-276649c95e95.png"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-batch03/methoni-1180-v1.png",
+  "site": "methoni",
+  "reason": "superseded by the newer painting methoni-1180-byzantine-south-view-review-v1-7616c672ace9.png"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-batch03/koroni-1180-v1.png",
+  "site": "koroni",
+  "reason": "superseded by the newer painting koroni-1180-byzantine-south-view-review-v1-d225c226e5a0.png"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-batch03/chania-1180-v1.png",
+  "site": "chania",
+  "reason": "superseded by the newer painting chania-kydonia-1180-south-to-north-review-v1-4d95cc2ab0bd.png"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-batch03/rethymno-1180-v1.png",
+  "site": "rethymno",
+  "reason": "superseded by the newer painting rethymno-1180-south-to-north-review-v1-99b78959b807.png"
+ },
+ {
+  "path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/naxos-1180-review-v1.png",
+  "site": "naxos",
+  "reason": "superseded by the newer painting naxos-1180-byzantine-south-view-review-v1-149c29c3dd52.png"
+ },
+ {
+  "path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/kos-1180-review-v1.png",
+  "site": "kos",
+  "reason": "superseded by the newer painting kos-1180-whole-island-south-view-review-v1-8d0d409b91ea.png"
+ },
+ {
+  "path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/mytilene-1180-review-v1.png",
+  "site": "mytilene",
+  "reason": "superseded by the newer painting mytilene-1180-byzantine-south-view-review-v1-a176f051e6f5.png"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-batch02/patras-1180-v1.png",
+  "site": "patras",
+  "reason": "superseded by the newer painting patras-1180-byzantine-south-view-review-v1-c2f0d61217e5.png"
+ },
+ {
+  "path": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/leros-1180-review-v1.png",
+  "site": "leros",
+  "reason": "superseded by the newer painting leros-panteli-1180-byzantine-south-view-review-v1-12f3e355666c.png"
+ },
+ {
+  "path": "data/sprites/city-review-2026-11-10/sprites/batch-11-aegean-egypt/lemnos-1180-review-v1.png",
+  "site": "lemnos",
+  "reason": "superseded by the newer painting lemnos-myrina-1180-byzantine-south-view-review-v1-3c7eab56a0f4.png"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-batch04/corfu-1180-v1.png",
+  "site": "corfu",
+  "reason": "superseded by the newer painting corfu-kerkyra-1180-byzantine-south-view-review-v1-8043aae9c5c4.png"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/constantinople-1180-south-pov-repaint-review-v1-53aefc0dea1e.png",
+  "site": "constantinople",
+  "reason": "replaced by the original Constantinople layout chosen by the owner"
+ },
+ {
+  "path": "data/sprites/automated-intake/png/chalcedon-1180-south-view-correction-review-v1-f2a231324385.png",
+  "site": "chalcedon",
+  "reason": "replaced by the original Constantinople layout chosen by the owner"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-bosphorus/galata-sykai-1180-v1.png",
+  "site": "galata-sykai",
+  "reason": "replaced by the original Constantinople layout chosen by the owner"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-bosphorus/chrysopolis-1180-v1.png",
+  "site": "chrysopolis",
+  "reason": "replaced by the original Constantinople layout chosen by the owner"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-constantinople/constantinople-1180-v1.png",
+  "site": "constantinople",
+  "reason": "replaced by the original Constantinople layout chosen by the owner"
+ },
+ {
+  "path": "data/sprites/greece-egypt-1180-bosphorus/chalcedon-1180-v1.png",
+  "site": "chalcedon",
+  "reason": "replaced by the original Constantinople layout chosen by the owner"
  }
 ]
