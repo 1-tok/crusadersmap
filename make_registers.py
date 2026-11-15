@@ -134,8 +134,27 @@ for c in cells:
         z[1] += 1; z[3].append(c)
     elif c["detail"] < 16:
         z[2] += 1
+# The source "flat" flag is a separate upstream signal and can be False even
+# when measured texture is <12. Preserve it, but publish consistent threshold
+# classifications. Texture sparsity alone is NOT evidence of exposed base art.
+flagged_cells = []
+for c in cells:
+    if c["detail"] >= 16:
+        continue
+    row = dict(c)
+    row["legacy_flat_flag"] = row.get("flat")
+    row["flat"] = bool(row["detail"] < 12)
+    row["detail_class"] = "flat" if row["flat"] else "thin"
+    row["base_layer_exposure"] = "unverified"
+    flagged_cells.append(row)
+fields = list(cells[0].keys())
+for field in ("flat", "legacy_flat_flag", "detail_class", "base_layer_exposure"):
+    if field not in fields:
+        fields.append(field)
 with open(os.path.join(OUT, "terrain-gap-cells.csv"), "w", newline="") as f:
-    w = csv.DictWriter(f, fieldnames=list(cells[0].keys())); w.writeheader(); w.writerows([c for c in cells if c["detail"] < 16])
+    w = csv.DictWriter(f, fieldnames=fields)
+    w.writeheader()
+    w.writerows(flagged_cells)
 md = ["# Terrain gap report", "",
       "Measured on the composite preview. Each frame is cut into square cells (320 px on the main sheet, 200 px in the insets, at print scale). "
       "A land cell counts as flat when its painted detail (brightness spread) is under 12, and thin when it is 12 to 16. Panels and sea are left out.", "",
@@ -153,6 +172,7 @@ md += ["", "The thin cells are listed with the flat ones in terrain-gap-cells.cs
        "- Terrain stamps and landscape tiles: %d different pieces, %d placements" % (len(usage["terrain"]), sum(usage["terrain"].values())),
        "- Generic settlement, farm, tree, rock and ruin pieces: %d different pieces, %d placements" % (len(usage["generic"]), sum(usage["generic"].values())),
        "- Greek island overlays: %d" % len(usage["islands"]), "- Ships at sea: %d" % len(usage["ships"])]
+md += ["", "**Interpretation:** Flat/thin classifications measure local texture contrast, not verified exposure of the base-map layer. The CSV preserves the upstream flag as `legacy_flat_flag`, derives `flat` from the documented <12 threshold, and marks `base_layer_exposure=unverified` pending visual geographic review.", ""]
 open(os.path.join(OUT, "terrain-gap-report.md"), "w").write("\n".join(md) + "\n")
 print("sites", cc); print("images", len(res), collections.Counter(r["on_map"] for r in res)); print(oc.most_common(30))
 print("gaps", tot, tf, tt)
