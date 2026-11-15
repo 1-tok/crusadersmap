@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "purpose": "Review queue only: no category, date, historical, or geographic approval is changed",
-  "intake_assets_total": 654,
+  "intake_assets_total": 658,
   "intake_report": {
-    "processed_sources": 896,
-    "newly_registered_this_run": 44,
-    "duplicates_this_run": 852,
+    "processed_sources": 900,
+    "newly_registered_this_run": 4,
+    "duplicates_this_run": 896,
     "errors_this_run": 0
   },
   "categories": {
@@ -20,16 +20,16 @@
     "settlement": 1,
     "terrain": 2,
     "terrain_transition": 51,
-    "unclassified": 536,
+    "unclassified": 540,
     "village": 2
   },
   "approval_states": {
     "approved": 12,
     "placement_review_required": 16,
-    "provisional": 626
+    "provisional": 630
   },
-  "missing_geographic_placement": 654,
-  "unclassified_count": 536,
+  "missing_geographic_placement": 658,
+  "unclassified_count": 540,
   "unclassified_category_hints": [
     {
       "id": "INTAKE-01cb3de516e79cb3f98f",
@@ -2826,6 +2826,20 @@
       ]
     },
     {
+      "id": "INTAKE-cbe095ac80d9f77c22a9",
+      "name": "antikythera_1180_whole_island_south_view_review_v1",
+      "asset": "automated-intake/png/antikythera-1180-whole-island-south-view-review-v1-cbe095ac80d9.png",
+      "candidate_categories": [
+        "island"
+      ],
+      "status": "hint_only_not_classified",
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-6487f80af89fb3d60fe2",
       "name": "antioch-1180-south-pov-REVIEW",
       "asset": "automated-intake/png/antioch-1180-south-pov-review-6487f80af89f.png",
@@ -4238,6 +4252,20 @@
       ]
     },
     {
+      "id": "INTAKE-9f3638e67336b2d4ed66",
+      "name": "elafonisos_1180_whole_island_south_view_review_v1",
+      "asset": "automated-intake/png/elafonisos-1180-whole-island-south-view-review-v1-9f3638e67336.png",
+      "candidate_categories": [
+        "island"
+      ],
+      "status": "hint_only_not_classified",
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-8a70eb4bb0fc6ec19bde",
       "name": "euboea_1180_whole_island_south_view_review_v1",
       "asset": "automated-intake/png/euboea-1180-whole-island-south-view-review-v1-8a70eb4bb0fc.png",
@@ -4384,6 +4412,20 @@
       "name": "gallipoli_gelibolu_1180_south_view_review_v1",
       "asset": "automated-intake/png/gallipoli-gelibolu-1180-south-view-review-v1-34f1c0874dce.png",
       "candidate_categories": [],
+      "status": "hint_only_not_classified",
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-f85d57ec8eff404b16c4",
+      "name": "gavdos_1180_whole_island_south_view_review_v1",
+      "asset": "automated-intake/png/gavdos-1180-whole-island-south-view-review-v1-f85d57ec8eff.png",
+      "candidate_categories": [
+        "island"
+      ],
       "status": "hint_only_not_classified",
       "review_flags": [
         "category_unverified",
@@ -5288,6 +5330,20 @@
       "name": "poros_kalavria_sferia_1180_whole_islands_south_view_review_v1",
       "asset": "automated-intake/png/poros-kalavria-sferia-1180-whole-islands-south-view-review-v1-cdde02d66626.png",
       "candidate_categories": [],
+      "status": "hint_only_not_classified",
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-3614daffde890dbfed01",
+      "name": "psara_1180_whole_island_south_view_review_v1",
+      "asset": "automated-intake/png/psara-1180-whole-island-south-view-review-v1-3614daffde89.png",
+      "candidate_categories": [
+        "island"
+      ],
       "status": "hint_only_not_classified",
       "review_flags": [
         "category_unverified",
