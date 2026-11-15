@@ -111,13 +111,17 @@ def apply_land_underlay(base_chunk, terrain, region, row0, row1):
     # for visually fitted, high-resolution regional terrain paintings.
     detail *= 0.82
     before = base_chunk[inside].copy()
+    excluded_before = base_chunk[~inside].copy()
     base_chunk[inside] = np.clip(base_chunk[inside] + detail[inside], 0, 255)
     counts["underlay_eligible_pixels"] += int(inside.sum())
     counts["visually_changed_pixels"] += int(np.any(
         np.abs(base_chunk[inside] - before) >= 0.5, axis=1
     ).sum())
-    # Writing only through `inside` guarantees strict masking of sea/lakes.
-    counts["water_pixels_painted"] += 0
+    # Measure, rather than merely assume, that the excluded shoreline,
+    # open sea and lakes are unchanged.
+    counts["water_pixels_painted"] += int(np.any(
+        base_chunk[~inside] != excluded_before, axis=1
+    ).sum())
 
 
 def write_coverage_report(path="out/underlay-coverage-report.json"):
