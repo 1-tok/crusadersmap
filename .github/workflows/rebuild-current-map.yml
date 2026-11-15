@@ -13,6 +13,8 @@ on:
       - 'build_stage1.py'
       - 'build_stage2.py'
       - 'tools/render_aegean_ionian_island_proof.py'
+      - 'tools/render_all_island_placements_review.py'
+      - 'data/manifests/GREEK-ISLANDS-ALL-ORPHAN-SELECTED-REVIEW-2026-11-15.json'
       - 'placer.py'
       - 'terrainsp.py'
       - 'build_fallback_assets.py'
@@ -87,6 +89,8 @@ jobs:
         run: python tools/reconcile_recovered_coasts_islands.py
       - name: Render separate Aegean and Ionian painted-island reviews
         run: python tools/render_aegean_ionian_island_proof.py
+      - name: Render all new Aegean and Ionian island paintings for visual approval
+        run: python tools/render_all_island_placements_review.py
       - name: Upload build outputs for review
         if: always()
         uses: actions/upload-artifact@v4
