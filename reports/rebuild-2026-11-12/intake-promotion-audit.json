@@ -1,8 +1,8 @@
 {
-  "scope": "Latest 1095-1571 map render; 658 automated-intake sprites",
+  "scope": "Latest 1095-1571 map render; 660 automated-intake sprites",
   "note": "Technical PNG success does not confer geographic or historical approval. Use actual generic render counts from out/usage.json.",
-  "intake_total": 658,
-  "technical_pass": 658,
+  "intake_total": 660,
+  "technical_pass": 660,
   "placement_approved": 0,
   "historical_certified": 0,
   "generic_rendered_distinct": 74,
@@ -10,7 +10,7 @@
   "generic_eligible_but_unused": 0,
   "status_counts": {
     "held_generic_architecture_fallback": 32,
-    "held_geo_water_or_named_art": 496,
+    "held_geo_water_or_named_art": 498,
     "held_unmatched_or_unclassified": 39,
     "named_fortification_needs_coordinates_and_phase": 17,
     "rendered_as_generic": 74
@@ -1385,6 +1385,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "tartus-azure-1096-1600",
+      "asset": "data/sprites/automated-intake/png/tartus-azure-1096-1600-5056e5143230.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "t35_05_long_anatolian_forest_mountain_belt",
       "asset": "data/sprites/automated-intake/png/t35-05-long-anatolian-forest-mountain-belt-5153834b7b35.png",
       "reason": "held_geo_water_or_named_art"
@@ -2317,6 +2322,11 @@
     {
       "name": "inland-hilltown-concept",
       "asset": "data/sprites/automated-intake/png/inland-hilltown-concept-a32b3f94a59e.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "beirut-azure-1096-1600",
+      "asset": "data/sprites/automated-intake/png/beirut-azure-1096-1600-a5c9a2af188e.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
