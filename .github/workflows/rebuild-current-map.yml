@@ -12,6 +12,7 @@ on:
       - 'data/sprites/automated-intake/manifest.json'
       - 'build_stage1.py'
       - 'build_stage2.py'
+      - 'tools/render_aegean_ionian_island_proof.py'
       - 'placer.py'
       - 'terrainsp.py'
       - 'build_fallback_assets.py'
@@ -78,6 +79,8 @@ jobs:
           python tools/check_geographic_castle_placements.py
       - name: Reconcile recovered Greek island and coastal city art; render review composite
         run: python tools/reconcile_recovered_coasts_islands.py
+      - name: Render separate Aegean and Ionian painted-island reviews
+        run: python tools/render_aegean_ionian_island_proof.py
       - name: Upload build outputs for review
         if: always()
         uses: actions/upload-artifact@v4
@@ -85,6 +88,7 @@ jobs:
           name: latest-crusader-composite-and-QA
           path: |
             reports/rebuild-2026-11-12/
+            reports/island-review-2026-11-15/
             out/placement_log.json
             out/usage.json
           if-no-files-found: warn
@@ -98,7 +102,7 @@ jobs:
           for attempt in 1 2 3 4; do
             git fetch origin main
             git reset --mixed origin/main
-            git add reports/rebuild-2026-11-12/
+            git add reports/rebuild-2026-11-12/ reports/island-review-2026-11-15/
             if git diff --cached --quiet; then
               echo "Reports already match current main"
               exit 0
