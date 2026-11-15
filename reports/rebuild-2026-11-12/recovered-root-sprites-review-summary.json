@@ -2,17 +2,15 @@
   "status": "review_only_no_unverified_auto_placement",
   "archive_count": 39,
   "source_piece_records": 312,
-  "recovered_new_records": 20,
-  "duplicate_records": 292,
+  "recovered_new_records": 0,
+  "duplicate_records": 312,
   "decisions": {
-    "already_registered_duplicate": 292,
-    "hold_existing_site_selected_no_unverified_override": 8,
-    "hold_unmatched_island_or_city_geometry": 12
+    "already_registered_duplicate": 312
   },
   "active_island_records_preserved": 47,
   "active_named_art_records_preserved": 154,
   "new_named_placements_authorized": 0,
-  "island_gallery_items": 20,
+  "island_gallery_items": 0,
   "coastal_gallery_items": 0,
   "new_review_composite_created": true,
   "outputs": [

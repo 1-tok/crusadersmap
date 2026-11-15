@@ -1,8 +1,8 @@
 {
-  "scope": "Latest 1095-1571 map render; 654 automated-intake sprites",
+  "scope": "Latest 1095-1571 map render; 658 automated-intake sprites",
   "note": "Technical PNG success does not confer geographic or historical approval. Use actual generic render counts from out/usage.json.",
-  "intake_total": 654,
-  "technical_pass": 654,
+  "intake_total": 658,
+  "technical_pass": 658,
   "placement_approved": 0,
   "historical_certified": 0,
   "generic_rendered_distinct": 74,
@@ -10,7 +10,7 @@
   "generic_eligible_but_unused": 0,
   "status_counts": {
     "held_generic_architecture_fallback": 32,
-    "held_geo_water_or_named_art": 492,
+    "held_geo_water_or_named_art": 496,
     "held_unmatched_or_unclassified": 39,
     "named_fortification_needs_coordinates_and_phase": 17,
     "rendered_as_generic": 74
@@ -1117,6 +1117,11 @@
     {
       "name": "80_agathonisi_CONCEPT",
       "asset": "data/sprites/automated-intake/png/80-agathonisi-concept-35c3556df4f9.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "psara_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/psara-1180-whole-island-south-view-review-v1-3614daffde89.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -2230,6 +2235,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "elafonisos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/elafonisos-1180-whole-island-south-view-review-v1-9f3638e67336.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "paxos_1180_whole_island_south_view_review_v1",
       "asset": "data/sprites/automated-intake/png/paxos-1180-whole-island-south-view-review-v1-9f6ca9d23f7f.png",
       "reason": "held_geo_water_or_named_art"
@@ -2688,6 +2698,11 @@
       "name": "74_fournoi_cluster_DRAFT",
       "asset": "data/sprites/automated-intake/png/74-fournoi-cluster-draft-ca98b66a708c.png",
       "reason": "held_unmatched_or_unclassified"
+    },
+    {
+      "name": "antikythera_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/antikythera-1180-whole-island-south-view-review-v1-cbe095ac80d9.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "t29_02_hand_painted_mediterranean_terrain_map",
@@ -3218,6 +3233,11 @@
       "name": "Domed cathedral compound",
       "asset": "data/sprites/automated-intake/png/domed-cathedral-compound-f7e2aa4d87b2.png",
       "reason": "held_generic_architecture_fallback"
+    },
+    {
+      "name": "gavdos_1180_whole_island_south_view_review_v1",
+      "asset": "data/sprites/automated-intake/png/gavdos-1180-whole-island-south-view-review-v1-f85d57ec8eff.png",
+      "reason": "held_geo_water_or_named_art"
     },
     {
       "name": "Multiple-domed church compound",
