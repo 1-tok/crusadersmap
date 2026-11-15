@@ -23,9 +23,16 @@ def clean(v): return re.sub(r"[^a-z0-9]", "", v.lower())
 active_names = {clean(r["name"]) for r in active}
 pins = {clean(f["properties"]["island"]): f["geometry"]["coordinates"] for f in markers}
 source_by_id = {}
+# Processing report's 'duplicate' entries intentionally omit their asset path.
+# The canonical intake-review index preserves the original imported file.
+review_index = read("data/sprites/automated-intake/intake-review-summary.json")
+for item in review_index.get("unclassified_category_hints", []):
+    if item.get("asset"):
+        source_by_id[item["id"]] = ROOT / "data/sprites" / item["asset"]
 for entry in processing:
     for piece in entry.get("pieces", []):
-        if piece.get("asset"): source_by_id[piece["id"]] = ROOT / "data/sprites" / piece["asset"]
+        if piece.get("asset"):
+            source_by_id[piece["id"]] = ROOT / "data/sprites" / piece["asset"]
 selected = {}
 replacements = []
 for r in records:
@@ -98,6 +105,12 @@ def panel(region, bounds):
     eligible=[]
     for a in selected.values():
         if not a["anchor"]: continue
+        # Overlapping inset bounds must not draw one island twice.
+        # Assign all Aegean/Saronic/Peloponnesian islands east of 21E to
+        # the Aegean proof; draw western Ionian islands only on Ionian.
+        lon,lat=a["anchor"]
+        designated = "ionian" if lon < 21.0 else "aegean"
+        if region != designated: continue
         x,y=project(*a["anchor"])
         if not (40<x<W-40 and 40<y<H-40): continue
         eligible.append((a,x,y))
