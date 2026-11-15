@@ -1,0 +1,35 @@
+{
+  "source": "reports/rebuild-2026-11-12/outremer-current-composite.jpg",
+  "source_dimensions_px": [
+    3240,
+    4320
+  ],
+  "study_bbox_wgs84": [
+    33.95,
+    30.95,
+    36.2,
+    33.7
+  ],
+  "crop_source_pixel_box": [
+    1460,
+    2315,
+    2562,
+    3867
+  ],
+  "image_dimensions_px": [
+    1102,
+    1552
+  ],
+  "actual_atlas_crop": true,
+  "new_coastal_assets_composited": false,
+  "regional_qa_boxes_are_not_sprite_footprints": true,
+  "mask_regions": [
+    "acre_carmel",
+    "sharon_jaffa",
+    "ashkelon_gaza"
+  ],
+  "coastal_assets_in_manifest": 12,
+  "coastal_assets_placed_by_this_script": 0,
+  "print_approved": false,
+  "notes": "Actual current atlas crop and diagnostic regional outlines only. Individual candidate PNG fit, orientation and waterline QA remain pending."
+}
