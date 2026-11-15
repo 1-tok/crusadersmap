@@ -168,5 +168,21 @@ class ZipIntakeTests(unittest.TestCase):
         self.assertEqual(result["duplicates"], 1)
 
 
+
+    def test_source_sheet_reference_not_registered_as_sprite(self):
+        source = self.png()
+        self.make_zip("whole_island.zip", {
+            "source_sheet_rgb_checkerboard.png": source,
+            "island_a.png": source,
+            "island_a.json": json.dumps({"subject":"Island A","category":"island"}),
+        })
+        extracted = extract_archives(self.root)
+        self.assertEqual(extracted["errors"], [])
+        self.assertEqual(extracted["extracted"], 1)
+        self.assertTrue(any("master sheet skipped" in w["warning"]
+                            for w in extracted["warnings"]))
+        self.assertFalse((self.incoming / "_zip_extract/whole_island/source_sheet_rgb_checkerboard.png").exists())
+        self.assertEqual(process(self.root)["registered"], 1)
+
 if __name__ == "__main__":
     unittest.main()
