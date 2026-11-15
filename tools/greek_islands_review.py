@@ -135,6 +135,73 @@ for la in range(35,42):
 islandart.USED.clear()
 islandart.draw(ctx,REG,"colour","aegean")
 surface.write_to_png(str(OUT/"aegean-island-placement-review-4800px.png"))
+# Four provisional images shown as genuine alpha-isolated art on the map,
+# never as bordered cards. A source with an opaque backdrop is held for
+# background-removal repaint rather than pasted as a solid rectangle.
+review_pin_file = ROOT / "data/sprites/review/island-batches-25-31-pins-2026-11-15.geojson"
+review_ids = {
+    "antikythera": "INTAKE-cbe095ac80d9f77c22a9",
+    "elafonisos": "INTAKE-9f3638e67336b2d4ed66",
+    "gavdos": "INTAKE-f85d57ec8eff404b16c4",
+    "psara": "INTAKE-3614daffde890dbfed01",
+}
+preview_audit = {"status": "alpha_only_geographic_review", "items": [],
+                 "production_sprite_placements_created": 0}
+if review_pin_file.exists():
+    import numpy as np
+    review_pins = json.loads(review_pin_file.read_text(encoding="utf-8"))
+    intake_manifest = json.loads((ROOT/"data/sprites/automated-intake/manifest.json").read_text())
+    intake_lookup = {q.get("id"): q for q in intake_manifest.get("assets", [])}
+    preview = Image.open(OUT/"aegean-island-placement-review-4800px.png").convert("RGBA")
+    # Final image is an RGB map for review, with source alpha composited
+    # over water. The source must contain real transparent edges.
+    for feature in review_pins.get("features", []):
+        props = feature.get("properties") or {}
+        island = props.get("island", "").lower()
+        if island not in review_ids or props.get("id") != review_ids[island]:
+            continue
+        point = (feature.get("geometry") or {}).get("coordinates")
+        item = {"island": island, "sprite_id": review_ids[island],
+                "review_anchor_wgs84": point, "image_preview_enabled": False,
+                "georegistered": False, "coastline_verified": False}
+        source = intake_lookup.get(review_ids[island])
+        if source and isinstance(point, list) and len(point) == 2:
+            image_path = ROOT/"data/sprites"/source["asset"]
+            if image_path.exists():
+                with Image.open(image_path) as source_image:
+                    sprite = source_image.convert("RGBA")
+                original_alpha = np.asarray(sprite.getchannel("A"))
+                opaque_fraction = float(np.count_nonzero(original_alpha >= 250))/original_alpha.size
+                item["original_opaque_fraction"] = round(opaque_fraction, 4)
+                # Check that there is actual transparency at the perimeter.
+                edges = np.concatenate((original_alpha[0,:],original_alpha[-1,:],
+                                        original_alpha[:,0],original_alpha[:,-1]))
+                edge_transparent_fraction = float(np.count_nonzero(edges <= 10))/edges.size
+                item["transparent_edge_fraction"] = round(edge_transparent_fraction, 4)
+                item["source_asset"] = str(image_path.relative_to(ROOT))
+                if edge_transparent_fraction < 0.05:
+                    item["hold_reason"] = "source_opaque_or_rectangular_edge; repaint_or_segment_before_map_use"
+                else:
+                    bbox = sprite.getchannel("A").getbbox()
+                    if bbox:
+                        sprite = sprite.crop(bbox)
+                        # Deliberately conservative review scale: pin-centered
+                        # alpha silhouette, NOT a geographic island footprint.
+                        sprite.thumbnail((190, 160), Image.Resampling.LANCZOS)
+                        px, py = REG.ll_px(point[0], point[1])
+                        pos = (int(px-sprite.width/2), int(py-sprite.height/2))
+                        # clip naturally to the inset, avoiding negative offsets
+                        overlay = Image.new("RGBA", preview.size, (0,0,0,0))
+                        overlay.paste(sprite,pos)
+                        preview.alpha_composite(overlay)
+                        item["image_preview_enabled"] = True
+                        item["preview_size_px"] = list(sprite.size)
+                        item["render_style"] = "alpha_cutout_pin_centered_no_card"
+        preview_audit["items"].append(item)
+    preview.convert("RGB").save(OUT/"aegean-four-new-islands-review-4800px.png")
+(OUT/"four-new-islands-review-audit.json").write_text(
+    json.dumps(preview_audit,indent=2)+"\n",encoding="utf-8")
+
 drawn=set(islandart.USED)
 missing=[x for x in ACTIVE if x["id"] not in drawn]
 (OUT/"render-audit.json").write_text(json.dumps({
@@ -177,6 +244,8 @@ md += ["","## Files",
        "- reconciliation.json — inspected candidates and hashes",
        "- unplaced-artwork.csv — per-file QA queue",
        "- render-audit.json — actual renderer count and Corfu status",
+       "- aegean-four-new-islands-review-4800px.png — true-alpha map sprite previews only; opaque sources held, no cards",
+       "- four-new-islands-review-audit.json — explicit no-georegistration audit",
        "", "Review artwork remains subject to island identity, coastline geometry, alpha edge and historical-building QA."]
 (OUT/"README.md").write_text("\n".join(md)+"\n")
 print(json.dumps({"registered":len(ACTIVE),"drawn":len(drawn),"missing":[x["name"] for x in missing],

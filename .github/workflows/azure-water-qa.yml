@@ -1,0 +1,88 @@
+name: Azure water and harbor visual QA
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/mediterranean-azure-wash-20261115
+    paths:
+      - 'water_palette.py'
+      - 'sea.py'
+      - 'terrain.py'
+      - 'sprites.py'
+      - 'tools/preview_azure_harbor_masks.py'
+      - '.github/workflows/azure-water-qa.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install graphics prerequisites
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y libcairo2-dev pkg-config fontconfig
+          fc-cache -f fonts || true
+          python -m pip install numpy Pillow scipy scikit-image shapely pyproj pycairo
+      - name: Prepare existing map assets
+        run: |
+          mkdir -p out reports/azure-water-qa
+          python tools/build_sprite_handoff.py
+          python build_sprite_assets.py "$PWD"
+          python build_generic_assets.py "$PWD"
+          python tools/import_recent_terrain_zips.py
+          python build_fallback_assets.py
+          python tools/rebuild_city_coastal_qa.py
+      - name: Before — original dark water, unmodified sprites
+        env:
+          MEDITERRANEAN_AZURE_WASH: '0'
+        run: |
+          python build_stage2.py 0.20 colour
+          cp out/stage2-colour.jpg reports/azure-water-qa/before-full-map.jpg
+      - name: Produce provisional sprite masks and comparison gallery
+        run: python tools/preview_azure_harbor_masks.py
+      - name: After — azure sea with provisional masked harbor water
+        env:
+          MEDITERRANEAN_AZURE_WASH: '1'
+        run: |
+          python build_stage2.py 0.20 colour
+          cp out/stage2-colour.jpg reports/azure-water-qa/after-full-map.jpg
+      - name: Build side-by-side review comparison
+        run: |
+          python - <<'PY'
+          from PIL import Image, ImageOps, ImageDraw
+          from pathlib import Path
+          p=Path("reports/azure-water-qa")
+          a=Image.open(p/"before-full-map.jpg").convert("RGB")
+          b=Image.open(p/"after-full-map.jpg").convert("RGB")
+          # Small full-map A/B sheet for quick browser viewing.
+          h=1800
+          w=round(a.width*h/a.height)
+          x=Image.new("RGB",(w*2,h+50),"#f0e6d2")
+          d=ImageDraw.Draw(x)
+          for i,(im,title) in enumerate(((a,"BEFORE — ORIGINAL"),(b,"AFTER — AZURE / PROVISIONAL HARBORS"))):
+              x.paste(im.resize((w,h),Image.Resampling.LANCZOS),(i*w,50))
+              d.text((i*w+12,15),title,fill="#1c2933")
+          x.save(p/"full-map-comparison.jpg",quality=88)
+          # Aegean inset is located at the top left of the map. Show closer review crop.
+          crop=(30,30,round(a.width*.47),round(a.height*.34))
+          panels=[im.crop(crop) for im in (a,b)]
+          x=Image.new("RGB",(panels[0].width*2,panels[0].height))
+          x.paste(panels[0],(0,0));x.paste(panels[1],(panels[0].width,0))
+          x.save(p/"aegean-comparison.jpg",quality=91)
+          PY
+      - name: Publish visual QA artifact (no merge or production approval)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: azure-harbor-water-qa
+          path: reports/azure-water-qa/
+          if-no-files-found: warn
+          retention-days: 30

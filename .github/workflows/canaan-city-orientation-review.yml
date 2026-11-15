@@ -1,0 +1,39 @@
+name: Canaan four city orientation review
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/build_canaan_city_orientation_review.py'
+      - '.github/workflows/canaan-city-orientation-review.yml'
+permissions:
+  contents: write
+jobs:
+  orientation-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Compare actual selected city PNGs
+        run: python tools/build_canaan_city_orientation_review.py
+      - name: Upload orientation review contact sheet
+        uses: actions/upload-artifact@v4
+        with:
+          name: canaan-four-coastal-cities-orientation-review
+          path: reports/canaan-coastal-review/orientation/
+      - name: Publish review only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --mixed origin/main
+            git add reports/canaan-coastal-review/orientation/
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m "qa: publish four-city Canaan orientation contact sheet [skip ci]"
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1

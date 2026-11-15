@@ -1,0 +1,856 @@
+{
+  "schema_version": 1,
+  "owner_decision": "Accept all November 13 lowland artwork for placement in map",
+  "approval_scope": "All 83 individually extracted sprites approved as review-map artwork. Geographic placement requires frame, ecosystem, hydrography, shoreline and overlap checks; no fabricated coordinates.",
+  "population": {
+    "large": 5,
+    "batches_10_11": 27,
+    "batches_06_09": 51,
+    "total": 83
+  },
+  "placement_view": "sprite-review",
+  "review_artwork_approved": true,
+  "print_approved": false,
+  "production_approved": false,
+  "historical_accuracy_certified": false,
+  "source_master_sheets_approved": false,
+  "actual_render_visibility_verified": false,
+  "notes": [
+    "No blue water or coastline edge may be scattered over unrelated geography; align to existing geographic coastline and water geometry before rendering.",
+    "Approval authorizes moving every asset through review-placement work; it does not declare every asset already rendered.",
+    "For already-uploaded 32, existing registry PNGs take precedence; do not duplicate source archives.",
+    "Four new replacement ZIPs (06–09) contain same PNG bytes as corrected 51 pack and explicit review approval metadata."
+  ],
+  "assets": [
+    {
+      "asset_key": "01_nile_delta_lowlands",
+      "source_archive": "crusader_lowlands_part1_large_2026_11_13.zip",
+      "source_member": "01_nile_delta_lowlands.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "02_levantine_coastal_fields",
+      "source_archive": "crusader_lowlands_part1_large_2026_11_13.zip",
+      "source_member": "02_levantine_coastal_fields.png",
+      "map_region_candidate": "main",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "03_aegean_greek_lowland",
+      "source_archive": "crusader_lowlands_part1_large_2026_11_13.zip",
+      "source_member": "03_aegean_greek_lowland.png",
+      "map_region_candidate": "aegean",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": false
+    },
+    {
+      "asset_key": "04_anatolian_river_plain",
+      "source_archive": "crusader_lowlands_part1_large_2026_11_13.zip",
+      "source_member": "04_anatolian_river_plain.png",
+      "map_region_candidate": "main",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "05_cyprus_mediterranean_orchards",
+      "source_archive": "crusader_lowlands_part1_large_2026_11_13.zip",
+      "source_member": "05_cyprus_mediterranean_orchards.png",
+      "map_region_candidate": "main",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": false
+    },
+    {
+      "asset_key": "10_nile_delta_floodplain_01",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/10_nile_delta_floodplain_01.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "10_nile_delta_floodplain_02",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/10_nile_delta_floodplain_02.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "10_nile_delta_floodplain_03",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/10_nile_delta_floodplain_03.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "10_nile_delta_floodplain_04",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/10_nile_delta_floodplain_04.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "10_nile_delta_floodplain_05",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/10_nile_delta_floodplain_05.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "10_nile_delta_floodplain_06",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/10_nile_delta_floodplain_06.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "10_nile_delta_floodplain_07",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/10_nile_delta_floodplain_07.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "10_nile_delta_floodplain_08",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/10_nile_delta_floodplain_08.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "10_nile_delta_floodplain_09",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/10_nile_delta_floodplain_09.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "10_nile_delta_floodplain_10",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/10_nile_delta_floodplain_10.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "10_nile_delta_floodplain_11",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/10_nile_delta_floodplain_11.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_01",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_02",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_03",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_04",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_04.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_05",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_05.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_06",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_06.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_07",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_07.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_08",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_08.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_09",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_09.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_10",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_10.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_11",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_11.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_12",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_12.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_13",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_13.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_14",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_14.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_15",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_15.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "11_greek_cyprus_anatolia_levant_lowlands_16",
+      "source_archive": "crusader_lowlands_batch10_11_2026_11_13.zip",
+      "source_member": "png/11_greek_cyprus_anatolia_levant_lowlands_16.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "06_delta_coastal_transitions_r01_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_06.zip",
+      "source_member": "06_delta_coastal_transitions_r01_c01.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "06_delta_coastal_transitions_r01_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_06.zip",
+      "source_member": "06_delta_coastal_transitions_r01_c02.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "06_delta_coastal_transitions_r01_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_06.zip",
+      "source_member": "06_delta_coastal_transitions_r01_c03.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "06_delta_coastal_transitions_r02_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_06.zip",
+      "source_member": "06_delta_coastal_transitions_r02_c01.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "06_delta_coastal_transitions_r02_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_06.zip",
+      "source_member": "06_delta_coastal_transitions_r02_c02.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "06_delta_coastal_transitions_r02_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_06.zip",
+      "source_member": "06_delta_coastal_transitions_r02_c03.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "06_delta_coastal_transitions_r03_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_06.zip",
+      "source_member": "06_delta_coastal_transitions_r03_c01.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "06_delta_coastal_transitions_r03_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_06.zip",
+      "source_member": "06_delta_coastal_transitions_r03_c02.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "06_delta_coastal_transitions_r03_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_06.zip",
+      "source_member": "06_delta_coastal_transitions_r03_c03.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "06_delta_coastal_transitions_r04_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_06.zip",
+      "source_member": "06_delta_coastal_transitions_r04_c01.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "06_delta_coastal_transitions_r04_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_06.zip",
+      "source_member": "06_delta_coastal_transitions_r04_c02.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "06_delta_coastal_transitions_r04_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_06.zip",
+      "source_member": "06_delta_coastal_transitions_r04_c03.png",
+      "map_region_candidate": "delta",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "07_mediterranean_lowland_cutouts_r01_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_07.zip",
+      "source_member": "07_mediterranean_lowland_cutouts_r01_c01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "07_mediterranean_lowland_cutouts_r01_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_07.zip",
+      "source_member": "07_mediterranean_lowland_cutouts_r01_c02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "07_mediterranean_lowland_cutouts_r01_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_07.zip",
+      "source_member": "07_mediterranean_lowland_cutouts_r01_c03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "07_mediterranean_lowland_cutouts_r02_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_07.zip",
+      "source_member": "07_mediterranean_lowland_cutouts_r02_c01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "07_mediterranean_lowland_cutouts_r02_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_07.zip",
+      "source_member": "07_mediterranean_lowland_cutouts_r02_c02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "07_mediterranean_lowland_cutouts_r02_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_07.zip",
+      "source_member": "07_mediterranean_lowland_cutouts_r02_c03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "07_mediterranean_lowland_cutouts_r03_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_07.zip",
+      "source_member": "07_mediterranean_lowland_cutouts_r03_c01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "07_mediterranean_lowland_cutouts_r03_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_07.zip",
+      "source_member": "07_mediterranean_lowland_cutouts_r03_c02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "07_mediterranean_lowland_cutouts_r03_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_07.zip",
+      "source_member": "07_mediterranean_lowland_cutouts_r03_c03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "07_mediterranean_lowland_cutouts_r04_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_07.zip",
+      "source_member": "07_mediterranean_lowland_cutouts_r04_c01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "07_mediterranean_lowland_cutouts_r04_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_07.zip",
+      "source_member": "07_mediterranean_lowland_cutouts_r04_c02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "07_mediterranean_lowland_cutouts_r04_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_07.zip",
+      "source_member": "07_mediterranean_lowland_cutouts_r04_c03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r01_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r01_c01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r01_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r01_c02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r01_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r01_c03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r02_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r02_c01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r02_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r02_c02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r02_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r02_c03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r03_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r03_c01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r03_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r03_c02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r03_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r03_c03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r04_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r04_c01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r04_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r04_c02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r04_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r04_c03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r05_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r05_c01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r05_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r05_c02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "08_delta_aegean_levant_tiles_r05_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_08.zip",
+      "source_member": "08_delta_aegean_levant_tiles_r05_c03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "09_coastal_rural_variants_r01_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_09.zip",
+      "source_member": "09_coastal_rural_variants_r01_c01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "09_coastal_rural_variants_r01_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_09.zip",
+      "source_member": "09_coastal_rural_variants_r01_c02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "09_coastal_rural_variants_r01_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_09.zip",
+      "source_member": "09_coastal_rural_variants_r01_c03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "09_coastal_rural_variants_r02_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_09.zip",
+      "source_member": "09_coastal_rural_variants_r02_c01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "09_coastal_rural_variants_r02_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_09.zip",
+      "source_member": "09_coastal_rural_variants_r02_c02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "09_coastal_rural_variants_r02_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_09.zip",
+      "source_member": "09_coastal_rural_variants_r02_c03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "09_coastal_rural_variants_r03_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_09.zip",
+      "source_member": "09_coastal_rural_variants_r03_c01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "09_coastal_rural_variants_r03_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_09.zip",
+      "source_member": "09_coastal_rural_variants_r03_c02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "09_coastal_rural_variants_r03_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_09.zip",
+      "source_member": "09_coastal_rural_variants_r03_c03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "09_coastal_rural_variants_r04_c01",
+      "source_archive": "crusader_lowlands_review_approved_batch_09.zip",
+      "source_member": "09_coastal_rural_variants_r04_c01.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "09_coastal_rural_variants_r04_c02",
+      "source_archive": "crusader_lowlands_review_approved_batch_09.zip",
+      "source_member": "09_coastal_rural_variants_r04_c02.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    },
+    {
+      "asset_key": "09_coastal_rural_variants_r04_c03",
+      "source_archive": "crusader_lowlands_review_approved_batch_09.zip",
+      "source_member": "09_coastal_rural_variants_r04_c03.png",
+      "map_region_candidate": "review_unassigned",
+      "approved_for_review_map_use": true,
+      "geographic_placement_ready": false,
+      "production_approved": false,
+      "water_geometry_review_required": true
+    }
+  ]
+}

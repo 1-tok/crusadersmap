@@ -3,9 +3,9 @@
   "active_count": 47,
   "active_expected_drawn": 47,
   "archive_unique_count": 8,
-  "candidate_records": 129,
+  "candidate_records": 141,
   "candidate_decisions": {
-    "hold_not_geographically_registered": 125,
+    "hold_not_geographically_registered": 137,
     "hold_requires_transparent_PNG": 4
   },
   "byte_identical_groups": [
@@ -105,6 +105,48 @@
       "paths": [
         "data/sprites/greek-islands/batch-06/review-unregistered/79-saria-concept-06d4c61e5832.png",
         "assets/sprites/incoming/crusader_greek_islands_batch06_intake.zip:79_saria_CONCEPT.png"
+      ]
+    },
+    {
+      "sha256": "64b1bcfe715ff8c8d0d5b2c842cd5fd5a0f73dd9797ce1fcb0afa015ef003fe3",
+      "paths": [
+        "data/sprites/greek-islands/batch-07/review-unregistered/80-agathonisi-concept-35c3556df4f9.png",
+        "assets/sprites/incoming/crusader_greek_islands_batch07_intake.zip:batch-07/80_agathonisi_CONCEPT.png"
+      ]
+    },
+    {
+      "sha256": "0004f5f729a582524478998f5a82866d21b89ffbaeb708c214a3e46c8e379993",
+      "paths": [
+        "data/sprites/greek-islands/batch-07/review-unregistered/81-pserimos-concept-e0d1df1c3bf7.png",
+        "assets/sprites/incoming/crusader_greek_islands_batch07_intake.zip:batch-07/81_pserimos_CONCEPT.png"
+      ]
+    },
+    {
+      "sha256": "5f3c07c0c18a581fbdd903dce20a0a15568ee79cabe932f3e5a5a39248bec394",
+      "paths": [
+        "data/sprites/greek-islands/batch-07/review-unregistered/82-telendos-concept-41b31cd84a2d.png",
+        "assets/sprites/incoming/crusader_greek_islands_batch07_intake.zip:batch-07/82_telendos_CONCEPT.png"
+      ]
+    },
+    {
+      "sha256": "36335db212bf6358fa02bf888a7b6489f1d7bb935f4711da89a0813267967259",
+      "paths": [
+        "data/sprites/greek-islands/batch-07/review-unregistered/83-meganisi-concept-a0c0a9377ec6.png",
+        "assets/sprites/incoming/crusader_greek_islands_batch07_intake.zip:batch-07/83_meganisi_CONCEPT.png"
+      ]
+    },
+    {
+      "sha256": "5b0bc39655c7e2f5aac139f93f382e5ea136922e0e85507556afd85f97bd127b",
+      "paths": [
+        "data/sprites/greek-islands/batch-07/review-unregistered/84-kinaros-concept-8610e2beb05b.png",
+        "assets/sprites/incoming/crusader_greek_islands_batch07_intake.zip:batch-07/84_kinaros_CONCEPT.png"
+      ]
+    },
+    {
+      "sha256": "2f6c968fffe477bb67b3070d1f926eada3e8a7ca080292670b7b23b459453249",
+      "paths": [
+        "data/sprites/greek-islands/batch-07/review-unregistered/85-levitha-concept-f3b23f4f067f.png",
+        "assets/sprites/incoming/crusader_greek_islands_batch07_intake.zip:batch-07/85_levitha_CONCEPT.png"
       ]
     },
     {
@@ -231,6 +273,48 @@
       "paths": [
         "data/sprites/greek-islands/batch-10/review-unregistered/99-peristera-sporades-concept-18b90c11fb97.png",
         "assets/sprites/incoming/crusader_greek_islands_batch10_intake.zip:batch-10/99_peristera_sporades_CONCEPT.png"
+      ]
+    },
+    {
+      "sha256": "3d610916b5e1cc54f07ca1a1ef283e84fc874e41064fa7bf940595bc1cd2f930",
+      "paths": [
+        "data/sprites/greek-islands/batch-11/review-unregistered/104-kalamos-concept-033d59ee3602.png",
+        "assets/sprites/incoming/crusader_greek_islands_batch11_intake.zip:batch-11/104_kalamos_CONCEPT.png"
+      ]
+    },
+    {
+      "sha256": "fed1fc7bc5d912950cc4b4237381d2daf37c3fec3e3e59dd82685117e8ef9634",
+      "paths": [
+        "data/sprites/greek-islands/batch-11/review-unregistered/105-kastos-concept-707632324fc6.png",
+        "assets/sprites/incoming/crusader_greek_islands_batch11_intake.zip:batch-11/105_kastos_CONCEPT.png"
+      ]
+    },
+    {
+      "sha256": "a3b6245b7653fcde02953232c5d6cce4bb435013aba19e54741094ae191abb8f",
+      "paths": [
+        "data/sprites/greek-islands/batch-11/review-unregistered/106-atokos-concept-bc2b8fa78fb1.png",
+        "assets/sprites/incoming/crusader_greek_islands_batch11_intake.zip:batch-11/106_atokos_CONCEPT.png"
+      ]
+    },
+    {
+      "sha256": "23eb6caede1c5d3776fde55ac0fe0fe7c733aff9e41b977090e6267804340fe1",
+      "paths": [
+        "data/sprites/greek-islands/batch-11/review-unregistered/107-arkoudi-concept-3ddfa9490ef8.png",
+        "assets/sprites/incoming/crusader_greek_islands_batch11_intake.zip:batch-11/107_arkoudi_CONCEPT.png"
+      ]
+    },
+    {
+      "sha256": "9593a9aa9a0d6c978dfbb515f9d5e7fb0ed38c5433ccac008a0ad04af8dad8c9",
+      "paths": [
+        "data/sprites/greek-islands/batch-11/review-unregistered/108-oxia-concept-f281584a8173.png",
+        "assets/sprites/incoming/crusader_greek_islands_batch11_intake.zip:batch-11/108_oxia_CONCEPT.png"
+      ]
+    },
+    {
+      "sha256": "024c0873c2a2f62b69e590acb6c3bdd4c43e32248af7c83657d5395ba7a28a77",
+      "paths": [
+        "data/sprites/greek-islands/batch-11/review-unregistered/109-petalas-concept-e7ad71bf09a4.png",
+        "assets/sprites/incoming/crusader_greek_islands_batch11_intake.zip:batch-11/109_petalas_CONCEPT.png"
       ]
     }
   ],
@@ -1198,6 +1282,96 @@
       "decision": "hold_not_geographically_registered"
     },
     {
+      "path": "data/sprites/greek-islands/batch-07/review-unregistered/80-agathonisi-concept-35c3556df4f9.png",
+      "source": "batch_extracted",
+      "name": "80-agathonisi-concept-35c3556df4f9",
+      "sha256": "64b1bcfe715ff8c8d0d5b2c842cd5fd5a0f73dd9797ce1fcb0afa015ef003fe3",
+      "size_px": [
+        592,
+        412
+      ],
+      "has_alpha": true,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_not_geographically_registered"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-07/review-unregistered/81-pserimos-concept-e0d1df1c3bf7.png",
+      "source": "batch_extracted",
+      "name": "81-pserimos-concept-e0d1df1c3bf7",
+      "sha256": "0004f5f729a582524478998f5a82866d21b89ffbaeb708c214a3e46c8e379993",
+      "size_px": [
+        591,
+        423
+      ],
+      "has_alpha": true,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_not_geographically_registered"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-07/review-unregistered/82-telendos-concept-41b31cd84a2d.png",
+      "source": "batch_extracted",
+      "name": "82-telendos-concept-41b31cd84a2d",
+      "sha256": "5f3c07c0c18a581fbdd903dce20a0a15568ee79cabe932f3e5a5a39248bec394",
+      "size_px": [
+        591,
+        443
+      ],
+      "has_alpha": true,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_not_geographically_registered"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-07/review-unregistered/83-meganisi-concept-a0c0a9377ec6.png",
+      "source": "batch_extracted",
+      "name": "83-meganisi-concept-a0c0a9377ec6",
+      "sha256": "36335db212bf6358fa02bf888a7b6489f1d7bb935f4711da89a0813267967259",
+      "size_px": [
+        592,
+        424
+      ],
+      "has_alpha": true,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_not_geographically_registered"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-07/review-unregistered/84-kinaros-concept-8610e2beb05b.png",
+      "source": "batch_extracted",
+      "name": "84-kinaros-concept-8610e2beb05b",
+      "sha256": "5b0bc39655c7e2f5aac139f93f382e5ea136922e0e85507556afd85f97bd127b",
+      "size_px": [
+        591,
+        436
+      ],
+      "has_alpha": true,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_not_geographically_registered"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-07/review-unregistered/85-levitha-concept-f3b23f4f067f.png",
+      "source": "batch_extracted",
+      "name": "85-levitha-concept-f3b23f4f067f",
+      "sha256": "2f6c968fffe477bb67b3070d1f926eada3e8a7ca080292670b7b23b459453249",
+      "size_px": [
+        591,
+        437
+      ],
+      "has_alpha": true,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_not_geographically_registered"
+    },
+    {
       "path": "data/sprites/greek-islands/batch-08/review-unregistered/86-polyaigos-concept-d0b77d2b1cfe.png",
       "source": "batch_extracted",
       "name": "86-polyaigos-concept-d0b77d2b1cfe",
@@ -1460,6 +1634,96 @@
       "size_px": [
         592,
         377
+      ],
+      "has_alpha": true,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_not_geographically_registered"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-11/review-unregistered/104-kalamos-concept-033d59ee3602.png",
+      "source": "batch_extracted",
+      "name": "104-kalamos-concept-033d59ee3602",
+      "sha256": "3d610916b5e1cc54f07ca1a1ef283e84fc874e41064fa7bf940595bc1cd2f930",
+      "size_px": [
+        443,
+        256
+      ],
+      "has_alpha": true,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_not_geographically_registered"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-11/review-unregistered/105-kastos-concept-707632324fc6.png",
+      "source": "batch_extracted",
+      "name": "105-kastos-concept-707632324fc6",
+      "sha256": "fed1fc7bc5d912950cc4b4237381d2daf37c3fec3e3e59dd82685117e8ef9634",
+      "size_px": [
+        437,
+        223
+      ],
+      "has_alpha": true,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_not_geographically_registered"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-11/review-unregistered/106-atokos-concept-bc2b8fa78fb1.png",
+      "source": "batch_extracted",
+      "name": "106-atokos-concept-bc2b8fa78fb1",
+      "sha256": "a3b6245b7653fcde02953232c5d6cce4bb435013aba19e54741094ae191abb8f",
+      "size_px": [
+        443,
+        209
+      ],
+      "has_alpha": true,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_not_geographically_registered"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-11/review-unregistered/107-arkoudi-concept-3ddfa9490ef8.png",
+      "source": "batch_extracted",
+      "name": "107-arkoudi-concept-3ddfa9490ef8",
+      "sha256": "23eb6caede1c5d3776fde55ac0fe0fe7c733aff9e41b977090e6267804340fe1",
+      "size_px": [
+        434,
+        245
+      ],
+      "has_alpha": true,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_not_geographically_registered"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-11/review-unregistered/108-oxia-concept-f281584a8173.png",
+      "source": "batch_extracted",
+      "name": "108-oxia-concept-f281584a8173",
+      "sha256": "9593a9aa9a0d6c978dfbb515f9d5e7fb0ed38c5433ccac008a0ad04af8dad8c9",
+      "size_px": [
+        443,
+        241
+      ],
+      "has_alpha": true,
+      "byte_identical_to_active": null,
+      "possible_active_name_collision": null,
+      "coastline_registration_verified": false,
+      "decision": "hold_not_geographically_registered"
+    },
+    {
+      "path": "data/sprites/greek-islands/batch-11/review-unregistered/109-petalas-concept-e7ad71bf09a4.png",
+      "source": "batch_extracted",
+      "name": "109-petalas-concept-e7ad71bf09a4",
+      "sha256": "024c0873c2a2f62b69e590acb6c3bdd4c43e32248af7c83657d5395ba7a28a77",
+      "size_px": [
+        443,
+        275
       ],
       "has_alpha": true,
       "byte_identical_to_active": null,

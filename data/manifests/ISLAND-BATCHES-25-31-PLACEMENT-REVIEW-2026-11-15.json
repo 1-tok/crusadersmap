@@ -1,0 +1,43 @@
+{
+  "created": "2026-11-15",
+  "source_reconciliation": "data/manifests/ISLAND-BATCHES-25-31-RECONCILIATION-2026-11-15.json",
+  "feature_file": "data/sprites/review/island-batches-25-31-pins-2026-11-15.geojson",
+  "counts": {
+    "total": 28,
+    "review_markers": 28,
+    "unanchored": 0,
+    "production_sprite_placements": 0
+  },
+  "unanchored": [],
+  "rendering_instruction": "Load GeoJSON as separate review pins above Aegean/Ionian base map. Do not feed to island sprite painter as raster footprint; do not replace already approved original sprite.",
+  "future_gate": "Only promote image after actual visual sprite identity, coastline registration and history QA. 1180 filenames do not limit entire atlas history, which spans Crusader era through 16th century.",
+  "review_release": {
+    "date": "2026-11-15",
+    "islands": [
+      "agathonisi",
+      "telendos",
+      "antikythera"
+    ],
+    "scope": "Geographic review pins only; unchanged sprite overlay hold pending coastline and historical QA",
+    "anchor_sources": [
+      {
+        "island": "agathonisi",
+        "source": "https://mapcarta.com/Agathonisi",
+        "coordinate_order": "longitude latitude",
+        "quality": "external_island_landform_location"
+      },
+      {
+        "island": "telendos",
+        "source": "https://en.wikipedia.org/wiki/Telendos",
+        "coordinate_order": "longitude latitude",
+        "quality": "external_island_location_approximate"
+      },
+      {
+        "island": "antikythera",
+        "source": "data/sprites/greek-islands/batch-04/placement_manifest.json",
+        "coordinate_order": "longitude latitude",
+        "quality": "prior_repo_approximate_island_anchor"
+      }
+    ]
+  }
+}

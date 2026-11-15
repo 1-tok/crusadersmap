@@ -222,8 +222,9 @@ class Terrain:
         mid = np.clip((elev - 250) / 500, 0, 1) * (1 - high)
 
         if edition == "colour":
-            sea_far = np.array([150, 186, 202], np.float32)
-            sea_near = np.array([108, 152, 178], np.float32)
+            from water_palette import enabled
+            sea_far = np.array([22, 111, 159] if enabled() else [150, 186, 202], np.float32)
+            sea_near = np.array([84, 201, 203] if enabled() else [108, 152, 178], np.float32)
             wsea = np.exp(-dsea / 30.0)
             sea = sea_far * (1 - wsea) + sea_near * wsea
             c_des = np.array([234, 206, 138], np.float32); c_ste = np.array([216, 192, 112], np.float32)
@@ -251,6 +252,11 @@ class Terrain:
         alpha = a_land * land + a_sea * (1 - land)
         sl = slice(r0 - R0, r0 - R0 + (r1 - r0))
         self._ml = land[sl, :, 0].copy(); self._lk = lake[sl, :, 0].copy()
+        # Exact vector-raster shoreline at working resolution. Soft wash masks
+        # intentionally blur across the sea and therefore cannot govern the
+        # placement boundary of painted land-only underlays.
+        self._land_exact = np.asarray(mask, np.uint8)[sl, :] > 127
+        self._lake_exact = np.asarray(lakes, np.uint8)[sl, :] > 127
         return col[sl].astype(np.float32), alpha[sl].astype(np.float32)
 
     def _lakes(self):
@@ -373,6 +379,13 @@ class Terrain:
                 continue
             for pg in getattr(g, "geoms", [g]):
                 if pg.geom_type != "Polygon":
+                    continue
+                # The approved Dead Sea illustration is drawn later by waterart.draw().
+                # Do not stroke the legacy Natural Earth/roughened Dead Sea shore
+                # beneath it: the two silhouettes differ and produce a double coast.
+                # This excludes only the Dead Sea, not Galilee or other lakes.
+                if (35.30 < pg.centroid.x < 35.67 and
+                        31.00 < pg.centroid.y < 31.87):
                     continue
                 q = reg.geom_px(pg)
                 pts = [(x / 1.5, y / 1.5) for x, y in q.exterior.coords]

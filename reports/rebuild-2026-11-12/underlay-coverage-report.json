@@ -1,0 +1,61 @@
+{
+  "status": "provisional_underlay_visual_review",
+  "method": "edge-matched retained paintings, geographic land-interior clipping, texture detail colour-matched to mapped wash",
+  "enabled": true,
+  "workflow": {
+    "head_sha": "d0fe180f3f29ad564568af6a609bb9c05c269b2a",
+    "run_id": "43735460835"
+  },
+  "sources": {
+    "desert": "assets/terrain/large_area/rect_underlays_04/desert_sand_edge_matched.png",
+    "steppe": "assets/terrain/large_area/rect_underlays_04/dry_steppe_edge_matched.png",
+    "scrub": "assets/terrain/large_area/rect_underlays_04/canaan_scrub_edge_matched.png",
+    "fertile": "assets/terrain/large_area/rect_underlays_04/green_plain_edge_matched.png"
+  },
+  "notes": [
+    "A pixel receiving underpaint is not proof that a visual sprite gap is resolved.",
+    "A continuous geographic wash already existed; flat/thin cells can be intentional deserts.",
+    "No sea or lake is painted; geographic boundary antialias pixels stay under the coast ink.",
+    "Held 51 lowland cutouts, Canaan coastal strips and island replacements were not promoted.",
+    "The enlarged green texture requires repaint/print QA; this is review-only.",
+    "Per-region paint totals overlap where inset boxes cover the main map."
+  ],
+  "regions": {
+    "aegean": {
+      "land_interior_pixels": 793589,
+      "excluded_boundary_water_pixels": 977611,
+      "desert_weighted_pixel_equivalents": 37360,
+      "fertile_weighted_pixel_equivalents": 202310,
+      "scrub_weighted_pixel_equivalents": 221566,
+      "steppe_weighted_pixel_equivalents": 332350,
+      "underlay_eligible_pixels": 793589,
+      "visually_changed_pixels": 793179,
+      "water_pixels_painted": 0,
+      "interior_underlay_fraction": 1.0
+    },
+    "delta": {
+      "land_interior_pixels": 1422335,
+      "excluded_boundary_water_pixels": 322945,
+      "desert_weighted_pixel_equivalents": 947175,
+      "fertile_weighted_pixel_equivalents": 46619,
+      "scrub_weighted_pixel_equivalents": 171415,
+      "steppe_weighted_pixel_equivalents": 257123,
+      "underlay_eligible_pixels": 1422335,
+      "visually_changed_pixels": 1418664,
+      "water_pixels_painted": 0,
+      "interior_underlay_fraction": 1.0
+    },
+    "main": {
+      "land_interior_pixels": 7931347,
+      "excluded_boundary_water_pixels": 6065453,
+      "desert_weighted_pixel_equivalents": 2251315,
+      "fertile_weighted_pixel_equivalents": 1177276,
+      "scrub_weighted_pixel_equivalents": 3151923,
+      "steppe_weighted_pixel_equivalents": 1350824,
+      "underlay_eligible_pixels": 7931347,
+      "visually_changed_pixels": 7923353,
+      "water_pixels_painted": 0,
+      "interior_underlay_fraction": 1.0
+    }
+  }
+}

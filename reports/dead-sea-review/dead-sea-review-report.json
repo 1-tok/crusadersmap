@@ -1,0 +1,35 @@
+{
+  "source": "reports/rebuild-2026-11-12/outremer-current-composite.jpg",
+  "source_sha256": "b76a534245d1795593c3b10326a842de1ede4a048d5e19f6a2742acc312bea71",
+  "source_px": [
+    3240,
+    4320
+  ],
+  "wgs84_review_bbox": [
+    35.23,
+    30.97,
+    35.82,
+    31.94
+  ],
+  "crop_px": [
+    2059,
+    3279,
+    2389,
+    3861
+  ],
+  "crop_size_px": [
+    330,
+    582
+  ],
+  "scale_note": "3x inspection is nearest-neighbor, not higher source resolution",
+  "approved_dead_sea_sprite_modified": false,
+  "legacy_dead_sea_ink_suppression_code": "terrain.py",
+  "legacy_ink_suppression_present": true,
+  "river_inlet_reference_lonlat": [
+    35.545,
+    31.775
+  ],
+  "double_coast_visual_verdict": "requires human inspection",
+  "river_connection_visual_verdict": "requires human inspection",
+  "print_qa_approved": false
+}

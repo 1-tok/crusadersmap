@@ -1,0 +1,49 @@
+{
+  "scope": "1096\u20131600 master atlas; non-destructive review reconciliation",
+  "intake_total": 660,
+  "matched_geographic_review_candidates": 142,
+  "status_counts": {
+    "anchored_review_alternate": 113,
+    "bbox_center_review_only": 29,
+    "hold_unmatched": 138,
+    "not_drawable": 28,
+    "regional_pool_review": 352
+  },
+  "production_placements_changed": 0,
+  "map_margin_artwork": 0,
+  "note": "Named sites use existing anchors; island candidates use bbox centers for identification only. No candidate is automatically rendered as a second primary.",
+  "coastal_azure": [
+    {
+      "intake_id": "INTAKE-5056e514323046b9dc2e",
+      "name": "tartus-azure-1096-1600",
+      "asset": "data/sprites/automated-intake/png/tartus-azure-1096-1600-5056e5143230.png",
+      "class": "named_site",
+      "match_site": "tortosa",
+      "match_confidence": "existing_named_site_alias",
+      "longitude": 35.89,
+      "latitude": 34.89,
+      "placement_source": "assets/sprites.json or site-history.json",
+      "status": "anchored_review_alternate",
+      "reason": "same named site; historical phase and painted coastline still require review",
+      "production_approved": false
+    },
+    {
+      "intake_id": "INTAKE-a5c9a2af188e770f5fd5",
+      "name": "beirut-azure-1096-1600",
+      "asset": "data/sprites/automated-intake/png/beirut-azure-1096-1600-a5c9a2af188e.png",
+      "class": "named_site",
+      "match_site": "beirut",
+      "match_confidence": "existing_named_site_alias",
+      "longitude": 35.505141,
+      "latitude": 33.896339,
+      "placement_source": "assets/sprites.json or site-history.json",
+      "status": "anchored_review_alternate",
+      "reason": "same named site; historical phase and painted coastline still require review",
+      "production_approved": false
+    }
+  ],
+  "outputs": [
+    "reports/rebuild-2026-11-12/intake-geographic-reconciliation.csv",
+    "reports/rebuild-2026-11-12/intake-geographic-review-candidates.geojson"
+  ]
+}

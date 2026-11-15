@@ -1,4 +1,8 @@
-# Outremer: the Crusader States, 1095 to 1571
+# Outremer: Crusader and Eastern Mediterranean Atlas, 1096–1600 CE
+
+> **AI agents and new contributors:** Start with [AGENTS.md](AGENTS.md) and the [active AI context / documentation index](docs/AI-CONTEXT.md). These distinguish current instructions from older historic audit snapshots and define instruction precedence.
+
+An encyclopedic, multi-period map of the Eastern Mediterranean covering the First Crusade through the end of the 16th century (1096–1600 CE). The master composite combines historically attested sites from across the period; it is not a depiction of all structures existing simultaneously. Year-specific reconstructions (including 1180) remain optional filtered views.
 
 Hand-drawn map of the Eastern Mediterranean for print, 36 x 48 in portrait (10800 x 14400 px at 300 dpi), in parchment and full colour editions.
 
@@ -20,6 +24,6 @@ Repeat with `parchment` for the second edition. Intermediate files (print/*.npy,
 
 ## Current final sprite-map integration handoff
 
-Before rendering the full geographic 1180 review edition, read [Final Map Build Readiness](docs/FINAL-MAP-BUILD-READINESS.md). It specifies all-artwork review (including unapproved sprites), historic site matching, generic terrain coverage, layer ordering, date restrictions and required evidence of actual map placement.
+Before rendering the full geographic multi-period master atlas (or an optional dated review edition), read [Final Map Build Readiness](docs/FINAL-MAP-BUILD-READINESS.md). It specifies all-artwork review (including unapproved sprites), historic site matching, generic terrain coverage, layer ordering, date restrictions and required evidence of actual map placement.
 
 Run `python3 tools/build_sprite_handoff.py` to regenerate `data/manifests/CLAUDE-BUILD-IMAGE-LEDGER.json` and `previews/claude-all-sprites-review.html`. The preflight Actions workflow is [map-build-preflight](.github/workflows/map-build-preflight.yml). The existing sprite-only diagnostic preview does **not** replace a full geographic map render.

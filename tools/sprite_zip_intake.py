@@ -7,6 +7,7 @@ assigns historical identity or map coordinates. Run sprite_intake.py afterward.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import stat
 import zipfile
@@ -21,10 +22,64 @@ def extract_archives(root: Path) -> dict:
     incoming = root / "assets/sprites/incoming"
     staging = incoming / "_zip_extract"
     report = {"archives": [], "extracted": 0, "errors": [], "warnings": []}
-    for archive in sorted(incoming.glob("*.zip")) if incoming.exists() else []:
+    # The corrected 51-cutout lowlands archive was committed at repository
+    # root rather than the normal incoming folder. Import only this verified
+    # exceptional root ZIP; do not sweep arbitrary root archives.
+    corrected_name = "crusader_lowlands_13nov_remaining_51_REGION_QA.zip"
+    corrected_sha256 = "d48c93c2e5ebaf6917412cd36f1ab0305555cc8834652c905816214980902e06"
+    # Verified existing Git blobs at repository root. Only these exact three
+    # archives are admitted; root is never scanned indiscriminately.
+    canaan_git_blobs = {
+        "crusader_canaan_coastal_underlays_complete.zip": "b1522884a9b5ca8c94b2396342605861f4940daf",
+        "crusader_canaan_batch38_complete.zip": "3b6fddefcf6c638c5468ba23f5e96376811c4cb6",
+        "crusader_canaan_coast_batch39_complete.zip": "3c90de2e0ad8594ffce89f2892ecd52590ffb7b1",
+    }
+    archives = sorted(incoming.glob("*.zip")) if incoming.exists() else []
+    corrected_root = root / corrected_name
+    if corrected_root.is_file():
+        archives.append(corrected_root)
+    archives.extend(root / name for name in canaan_git_blobs if (root / name).is_file())
+    root_recovery_manifest = root / "data/manifests/ROOT-ZIP-RECOVERY-2026-11-13.json"
+    recovery_blobs = {}
+    if root_recovery_manifest.is_file():
+        recovered = json.loads(root_recovery_manifest.read_text(encoding="utf-8"))
+        for item in recovered.get("root_archives", []):
+            filename = item["path"]
+            expected_blob = item["blob_sha"]
+            # Only immediate root-level .zip files with a pinned Git blob.
+            if (Path(filename).name != filename or not filename.lower().endswith(".zip")
+                    or len(expected_blob) != 40 or not all(c in "0123456789abcdef" for c in expected_blob)):
+                raise ValueError(f"invalid root recovery archive record: {filename!r}")
+            if filename in recovery_blobs:
+                raise ValueError(f"duplicate root recovery archive record: {filename!r}")
+            recovery_blobs[filename] = expected_blob
+            if (root / filename).is_file():
+                archives.append(root / filename)
+    for archive in archives:
         dest = staging / archive.stem
         extracted = []
         try:
+            if archive == corrected_root:
+                with archive.open("rb") as source:
+                    digest = hashlib.file_digest(source, "sha256").hexdigest()
+                if digest != corrected_sha256:
+                    raise ValueError("corrected lowlands ZIP hash mismatch; refusing import")
+            if archive.name in recovery_blobs and archive.parent == root:
+                with archive.open("rb") as source:
+                    payload = source.read()
+                blob_sha = hashlib.sha1(
+                    b"blob " + str(len(payload)).encode("ascii") + b"\0" + payload
+                ).hexdigest()
+                if blob_sha != recovery_blobs[archive.name]:
+                    raise ValueError("root recovery ZIP Git blob mismatch; refusing import")
+            if archive.name in canaan_git_blobs and archive.parent == root:
+                with archive.open("rb") as source:
+                    payload = source.read()
+                git_blob = hashlib.sha1(
+                    b"blob " + str(len(payload)).encode("ascii") + b"\0" + payload
+                ).hexdigest()
+                if git_blob != canaan_git_blobs[archive.name]:
+                    raise ValueError("Canaan coastal ZIP Git blob mismatch; refusing import")
             with zipfile.ZipFile(archive) as z:
                 members = [m for m in z.infolist() if not m.is_dir()]
                 if not members or len(members) > MAX_FILES:
@@ -32,6 +87,21 @@ def extract_archives(root: Path) -> dict:
                 total = 0
                 planned = []
                 seen = set()
+                # Source/master sheets are useful references, but should never
+                # become standalone map sprites when the ZIP contains cutouts.
+                def is_master(member_name):
+                    p = PurePosixPath(member_name)
+                    stem = p.stem.lower()
+                    normalized = stem.replace("-", "_")
+                    folders = {part.lower().replace("-", "_") for part in p.parts[:-1]}
+                    return (bool(folders & {"masters", "source_sheets", "source_masters"})
+                            or normalized.startswith(("source_sheet", "contact_sheet"))
+                            or normalized.endswith(("_master", "_source_sheet", "_contact_sheet")))
+                has_cutouts = any(
+                    m.filename.lower().endswith(".png")
+                    and not is_master(m.filename)
+                    for m in members
+                )
                 for info in members:
                     name = info.filename
                     p = PurePosixPath(name)
@@ -60,6 +130,11 @@ def extract_archives(root: Path) -> dict:
                     if relative.as_posix().lower() in seen:
                         raise ValueError(f"duplicate member path: {name!r}")
                     seen.add(relative.as_posix().lower())
+                    if p.suffix.lower() == ".png" and has_cutouts and is_master(name):
+                        report["warnings"].append({
+                            "archive": archive.name, "member": name,
+                            "warning": "source/master sheet skipped; individual cutouts available"})
+                        continue
                     if p.suffix.lower() in (".png", ".json"):
                         planned.append((info, relative))
                 if not any(p.suffix.lower() == ".png" for _, p in planned):

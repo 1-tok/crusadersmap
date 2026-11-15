@@ -1,0 +1,48 @@
+name: Build Canaan coastal map review
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/build_canaan_map_review.py'
+      - '.github/workflows/canaan-map-review.yml'
+      - 'reports/rebuild-2026-11-12/outremer-current-composite.jpg'
+      - 'data/manifests/canaan-coastal-mask-review/**'
+permissions:
+  contents: write
+concurrency:
+  group: canaan-review-build
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install Pillow pyproj
+      - name: Build actual atlas Canaan crop and mask QA reference
+        run: python tools/build_canaan_map_review.py
+      - name: Upload downloadable review images
+        uses: actions/upload-artifact@v4
+        with:
+          name: canaan-coastal-current-atlas-review
+          path: reports/canaan-coastal-review/
+      - name: Commit review images back to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --mixed origin/main
+            git add reports/canaan-coastal-review/
+            if git diff --cached --quiet; then
+              echo "Review images already current"
+              exit 0
+            fi
+            git commit -m "review: publish Canaan geographic atlas crop [skip ci]"
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1

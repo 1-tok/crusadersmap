@@ -1,0 +1,924 @@
+{
+  "selected": 62,
+  "previous": 47,
+  "drawn": [
+    {
+      "subject": "antipaxos",
+      "asset": "data/sprites/automated-intake/png/antipaxos-1180-whole-island-south-view-review-v1-940e9c1ca64f.png",
+      "view": "ionian",
+      "anchor": [
+        20.23,
+        39.15
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "paxos",
+      "asset": "data/sprites/automated-intake/png/paxos-1180-whole-island-south-view-review-v1-9f6ca9d23f7f.png",
+      "view": "ionian",
+      "anchor": [
+        20.16,
+        39.21
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "arkoudi",
+      "asset": "data/sprites/automated-intake/png/107-arkoudi-concept-3ddfa9490ef8.png",
+      "view": "ionian",
+      "anchor": [
+        20.70998,
+        38.55488
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "atokos",
+      "asset": "data/sprites/automated-intake/png/106-atokos-concept-bc2b8fa78fb1.png",
+      "view": "ionian",
+      "anchor": [
+        20.812,
+        38.488
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "ereikoussa",
+      "asset": "data/sprites/greek-islands/batch-06/review-unregistered/77-ereikoussa-concept-121fcdbe63d7.png",
+      "view": "ionian",
+      "anchor": [
+        19.583,
+        39.883
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "kalamos",
+      "asset": "data/sprites/automated-intake/png/104-kalamos-concept-033d59ee3602.png",
+      "view": "ionian",
+      "anchor": [
+        20.917,
+        38.617
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "kastos",
+      "asset": "data/sprites/automated-intake/png/105-kastos-concept-707632324fc6.png",
+      "view": "ionian",
+      "anchor": [
+        20.917,
+        38.567
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "mathraki",
+      "asset": "data/sprites/greek-islands/batch-06/review-unregistered/78-mathraki-concept-8c230f7ded59.png",
+      "view": "ionian",
+      "anchor": [
+        19.517,
+        39.767
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "meganisi",
+      "asset": "data/sprites/automated-intake/png/83-meganisi-concept-a0c0a9377ec6.png",
+      "view": "ionian",
+      "anchor": [
+        20.783,
+        38.667
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "othonoi",
+      "asset": "data/sprites/greek-islands/batch-06/review-unregistered/76-othonoi-concept-65b2888de91b.png",
+      "view": "ionian",
+      "anchor": [
+        19.4,
+        39.85
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "oxia",
+      "asset": "data/sprites/automated-intake/png/108-oxia-concept-f281584a8173.png",
+      "view": "ionian",
+      "anchor": [
+        21.109,
+        38.302
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "petalas",
+      "asset": "data/sprites/automated-intake/png/109-petalas-concept-e7ad71bf09a4.png",
+      "view": "ionian",
+      "anchor": [
+        21.092,
+        38.414
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "sapientza",
+      "asset": "data/sprites/greek-islands/batch-08/review-unregistered/90-sapientza-concept-7d28e59627c7.png",
+      "view": "ionian",
+      "anchor": [
+        21.705028,
+        36.77175
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "schiza",
+      "asset": "data/sprites/greek-islands/batch-08/review-unregistered/91-schiza-concept-0a2fcaf14b22.png",
+      "view": "ionian",
+      "anchor": [
+        21.76889,
+        36.72722
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "psara",
+      "asset": "data/sprites/automated-intake/png/psara-1180-whole-island-south-view-review-v1-3614daffde89.png",
+      "view": "aegean-north",
+      "anchor": [
+        25.56,
+        38.54
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "agistri",
+      "asset": "data/sprites/automated-intake/png/agistri-1180-whole-island-south-view-review-v1-e38a0c785590.png",
+      "view": "aegean-north",
+      "anchor": [
+        23.35,
+        37.7
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Aegina",
+      "asset": "data/sprites/greek-islands/batch-03/48_aegina.png",
+      "view": "aegean-north",
+      "anchor": [
+        23.43,
+        37.75
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Salamis",
+      "asset": "data/sprites/greek-islands/batch-03/49_salamis.png",
+      "view": "aegean-north",
+      "anchor": [
+        23.49,
+        37.96
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Imbros",
+      "asset": "data/sprites/greek-islands/batch-03/67_imbros.png",
+      "view": "aegean-north",
+      "anchor": [
+        25.9,
+        40.18
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Tenedos",
+      "asset": "data/sprites/greek-islands/batch-03/68_tenedos.png",
+      "view": "aegean-north",
+      "anchor": [
+        26.06,
+        39.83
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Oinousses",
+      "asset": "data/sprites/greek-islands/batch-04/review-unregistered/73-oinousses-cluster-draft-fd807ab99f04.png",
+      "view": "aegean-north",
+      "anchor": [
+        26.217,
+        38.517
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "agios-efstratios",
+      "asset": "data/sprites/greek-islands/batch-10/review-unregistered/98-agios-efstratios-concept-fef992e0674c.png",
+      "view": "aegean-north",
+      "anchor": [
+        25,
+        39.517
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "gioura",
+      "asset": "data/sprites/greek-islands/batch-10/review-unregistered/101-gioura-concept-5fd81cf6ac1e.png",
+      "view": "aegean-north",
+      "anchor": [
+        24.17,
+        39.39
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "kyra-panagia",
+      "asset": "data/sprites/greek-islands/batch-10/review-unregistered/100-kyra-panagia-concept-e0be838bd796.png",
+      "view": "aegean-north",
+      "anchor": [
+        24.07,
+        39.33
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "makronisos",
+      "asset": "data/sprites/greek-islands/batch-08/review-unregistered/88-makronisos-concept-48de6d91dca5.png",
+      "view": "aegean-north",
+      "anchor": [
+        24.12472,
+        37.70111
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "peristera",
+      "asset": "data/sprites/greek-islands/batch-10/review-unregistered/99-peristera-sporades-concept-18b90c11fb97.png",
+      "view": "aegean-north",
+      "anchor": [
+        23.97,
+        39.18
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "piperi",
+      "asset": "data/sprites/greek-islands/batch-10/review-unregistered/102-piperi-sporades-concept-5f278c47616e.png",
+      "view": "aegean-north",
+      "anchor": [
+        24.324,
+        39.348
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "skantzoura",
+      "asset": "data/sprites/greek-islands/batch-10/review-unregistered/103-skantzoura-concept-133f1b87a823.png",
+      "view": "aegean-north",
+      "anchor": [
+        24.11057,
+        39.08095
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "antiparos",
+      "asset": "data/sprites/automated-intake/png/antiparos-1180-whole-island-south-view-review-v1-7cdaca6e4e02.png",
+      "view": "aegean-south",
+      "anchor": [
+        25.05,
+        37.04
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "rhenia",
+      "asset": "data/sprites/automated-intake/png/rhenia-rheneia-1180-whole-island-south-view-review-v1-cd687d0eb4dd.png",
+      "view": "aegean-south",
+      "anchor": [
+        25.23,
+        37.39
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "agathonisi",
+      "asset": "data/sprites/automated-intake/png/agathonisi-1180-whole-island-south-view-review-v1-27c557236db0.png",
+      "view": "aegean-south",
+      "anchor": [
+        26.9666,
+        37.4642
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "telendos",
+      "asset": "data/sprites/automated-intake/png/telendos-1180-whole-island-south-view-review-v1-77ad27c2ab4c.png",
+      "view": "aegean-south",
+      "anchor": [
+        26.917,
+        37
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "antikythera",
+      "asset": "data/sprites/automated-intake/png/antikythera-1180-whole-island-south-view-review-v1-cbe095ac80d9.png",
+      "view": "aegean-south",
+      "anchor": [
+        23.3,
+        35.87
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "elafonisos",
+      "asset": "data/sprites/automated-intake/png/elafonisos-1180-whole-island-south-view-review-v1-9f3638e67336.png",
+      "view": "aegean-south",
+      "anchor": [
+        22.97,
+        36.5
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "gavdos",
+      "asset": "data/sprites/automated-intake/png/gavdos-1180-whole-island-south-view-review-v1-f85d57ec8eff.png",
+      "view": "aegean-south",
+      "anchor": [
+        24.08,
+        34.84
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "spetses",
+      "asset": "data/sprites/automated-intake/png/spetses-1180-whole-island-south-view-review-v1-70ffebba213c.png",
+      "view": "aegean-south",
+      "anchor": [
+        23.16,
+        37.26
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "delos",
+      "asset": "data/sprites/automated-intake/png/delos-1180-whole-island-south-view-review-v1-40e72311645c.png",
+      "view": "aegean-south",
+      "anchor": [
+        25.27,
+        37.4
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Poros",
+      "asset": "data/sprites/greek-islands/batch-03/50_poros.png",
+      "view": "aegean-south",
+      "anchor": [
+        23.46,
+        37.5
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Hydra",
+      "asset": "data/sprites/greek-islands/batch-03/51_hydra.png",
+      "view": "aegean-south",
+      "anchor": [
+        23.47,
+        37.35
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Sikinos",
+      "asset": "data/sprites/greek-islands/batch-03/59_sikinos.png",
+      "view": "aegean-south",
+      "anchor": [
+        24.98,
+        36.68
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Donousa",
+      "asset": "data/sprites/greek-islands/batch-03/60_donousa.png",
+      "view": "aegean-south",
+      "anchor": [
+        25.8,
+        37.1
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Irakleia",
+      "asset": "data/sprites/greek-islands/batch-03/61_irakleia.png",
+      "view": "aegean-south",
+      "anchor": [
+        25.46,
+        36.84
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Schinoussa",
+      "asset": "data/sprites/greek-islands/batch-03/62_schinoussa.png",
+      "view": "aegean-south",
+      "anchor": [
+        25.52,
+        36.87
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Koufonisia",
+      "asset": "data/sprites/greek-islands/batch-03/63_koufonisia.png",
+      "view": "aegean-south",
+      "anchor": [
+        25.6,
+        36.94
+      ],
+      "collision_count": 2,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Chalki",
+      "asset": "data/sprites/greek-islands/batch-03/64_chalki.png",
+      "view": "aegean-south",
+      "anchor": [
+        27.57,
+        36.22
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Lipsi",
+      "asset": "data/sprites/greek-islands/batch-03/65_lipsi.png",
+      "view": "aegean-south",
+      "anchor": [
+        26.77,
+        37.29
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Kastellorizo",
+      "asset": "data/sprites/greek-islands/batch-03/66_kastellorizo.png",
+      "view": "aegean-south",
+      "anchor": [
+        29.59,
+        36.15
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Arki/Marathi",
+      "asset": "data/sprites/greek-islands/batch-04/review-unregistered/72-arki-marathi-cluster-draft-9d7fbc4c2d88.png",
+      "view": "aegean-south",
+      "anchor": [
+        26.74,
+        37.39
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "Fournoi",
+      "asset": "data/sprites/greek-islands/batch-04/review-unregistered/74-fournoi-cluster-draft-ca98b66a708c.png",
+      "view": "aegean-south",
+      "anchor": [
+        26.5,
+        37.567
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "antimilos",
+      "asset": "data/sprites/greek-islands/batch-09/review-unregistered/95-antimilos-concept-7a3f40bb4125.png",
+      "view": "aegean-south",
+      "anchor": [
+        24.23861,
+        36.78694
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "chrysi",
+      "asset": "data/sprites/greek-islands/batch-09/review-unregistered/97-chrysi-concept-9595a7a06e05.png",
+      "view": "aegean-south",
+      "anchor": [
+        25.71,
+        34.87
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "despotiko",
+      "asset": "data/sprites/greek-islands/batch-09/review-unregistered/93-despotiko-concept-4cca48917a9f.png",
+      "view": "aegean-south",
+      "anchor": [
+        25,
+        36.96
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "dia",
+      "asset": "data/sprites/greek-islands/batch-09/review-unregistered/94-dia-concept-757a8049c4c9.png",
+      "view": "aegean-south",
+      "anchor": [
+        25.22,
+        35.448
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "dokos",
+      "asset": "data/sprites/greek-islands/batch-08/review-unregistered/89-dokos-concept-ad2102d19765.png",
+      "view": "aegean-south",
+      "anchor": [
+        23.32134,
+        37.33311
+      ],
+      "collision_count": 2,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "gramvousa",
+      "asset": "data/sprites/greek-islands/batch-09/review-unregistered/96-gramvousa-concept-3fc3adbd687b.png",
+      "view": "aegean-south",
+      "anchor": [
+        23.57917,
+        35.61111
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "gyaros",
+      "asset": "data/sprites/greek-islands/batch-08/review-unregistered/87-gyaros-concept-52d0b94c4e4d.png",
+      "view": "aegean-south",
+      "anchor": [
+        24.72,
+        37.62722
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "kinaros",
+      "asset": "data/sprites/automated-intake/png/84-kinaros-concept-8610e2beb05b.png",
+      "view": "aegean-south",
+      "anchor": [
+        26.28972,
+        36.98028
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "levitha",
+      "asset": "data/sprites/automated-intake/png/85-levitha-concept-f3b23f4f067f.png",
+      "view": "aegean-south",
+      "anchor": [
+        26.45972,
+        37.01111
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "polyaigos",
+      "asset": "data/sprites/greek-islands/batch-08/review-unregistered/86-polyaigos-concept-d0b77d2b1cfe.png",
+      "view": "aegean-south",
+      "anchor": [
+        24.63639,
+        36.75139
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "pserimos",
+      "asset": "data/sprites/automated-intake/png/81-pserimos-concept-e0d1df1c3bf7.png",
+      "view": "aegean-south",
+      "anchor": [
+        27.13333,
+        36.93333
+      ],
+      "collision_count": 1,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "saria",
+      "asset": "data/sprites/greek-islands/batch-06/review-unregistered/79-saria-concept-06d4c61e5832.png",
+      "view": "aegean-south",
+      "anchor": [
+        27.22,
+        35.87
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    },
+    {
+      "subject": "thirasia",
+      "asset": "data/sprites/greek-islands/batch-09/review-unregistered/92-thirasia-concept-d68549eea353.png",
+      "view": "aegean-south",
+      "anchor": [
+        25.33,
+        36.43
+      ],
+      "collision_count": 0,
+      "status": "artwork on review map, unregistered silhouette"
+    }
+  ],
+  "legacy_drawn": [
+    {
+      "subject": "Corfu",
+      "view": "ionian"
+    },
+    {
+      "subject": "Kefalonia",
+      "view": "ionian"
+    },
+    {
+      "subject": "Zakynthos",
+      "view": "ionian"
+    },
+    {
+      "subject": "Lefkada",
+      "view": "ionian"
+    },
+    {
+      "subject": "Ithaca",
+      "view": "ionian"
+    },
+    {
+      "subject": "Lesbos",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Chios",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Samos",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Euboea",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Lemnos",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Andros",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Tinos",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Mykonos",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Syros",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Kea",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Kythnos",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Thasos",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Samothrace",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Skiathos",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Skopelos",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Alonissos",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Skyros",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Ikaria",
+      "view": "aegean-north"
+    },
+    {
+      "subject": "Crete",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Rhodes",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Samos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Kos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Euboea",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Naxos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Paros",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Andros",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Tinos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Mykonos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Syros",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Kea",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Kythnos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Serifos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Sifnos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Milos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Kimolos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Ios",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Amorgos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Thera / Santorini",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Folegandros",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Anafi",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Patmos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Leros",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Kalymnos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Astypalaia",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Karpathos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Kasos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Symi",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Nisyros",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Tilos",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Ikaria",
+      "view": "aegean-south"
+    },
+    {
+      "subject": "Kythira",
+      "view": "aegean-south"
+    }
+  ],
+  "missing": [],
+  "image_outputs": [
+    "reports/island-review-2026-11-15/all-islands-map/ionian-all-island-sprites-review.jpg",
+    "reports/island-review-2026-11-15/all-islands-map/aegean-north-all-island-sprites-review.jpg",
+    "reports/island-review-2026-11-15/all-islands-map/aegean-south-all-island-sprites-review.jpg"
+  ],
+  "mode": "geographic centre artwork draft, not registered coastline or print approval",
+  "unique_selected_drawn": 62,
+  "remaining_selected": [],
+  "complete": true
+}

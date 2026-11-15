@@ -1,0 +1,3129 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "INTAKE-078e5696ee633261c2b4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.432067869999997,
+          36.70870972
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/milos-1180-whole-island-south-view-review-v1-078e5696ee63.png",
+        "site_id": "Milos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-080bf4976d2bd927a3a2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.66429,
+          34.24932
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/batroun-1180-south-view-historical-redo-review-v2-080bf4976d2b.png",
+        "site_id": "batroun",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-0b1df64ecf41d22a6237",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.701225285,
+          36.97205734
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/sifnos-1180-whole-island-south-view-review-v1-0b1df64ecf41.png",
+        "site_id": "Sifnos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-0c2dad4283418779b61c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.39,
+          37.09
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/lampron-namrun-0c2dad428341.png",
+        "site_id": "recovered-lampron-castle",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-0d56fbd6d9bcd9eb1cf8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.148277285,
+          35.6141243
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/karpathos-1180-whole-island-south-view-review-v1-0d56fbd6d9bc.png",
+        "site_id": "Karpathos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-0db1dc3c9dcf131ddc98",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.084,
+          32.928
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/acre-concept-0db1dc3c9dcf.png",
+        "site_id": "acre",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review; source concept/draft/repaint QA required",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-117cbef6d89fe2c44432",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.94,
+          35.12
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/famagusta-concept-117cbef6d89f.png",
+        "site_id": "famagusta",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review; source concept/draft/repaint QA required",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-11eed6499b0104495ff0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.64913559,
+          40.685390475
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/thasos-1180-whole-island-south-view-review-v1-11eed6499b01.png",
+        "site_id": "Thasos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-12f3e355666c10f6e228",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.85,
+          37.15
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/leros-panteli-1180-byzantine-south-view-review-v1-12f3e355666c.png",
+        "site_id": "leros",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-13080cb73d2691cc0d6f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.93,
+          35.36
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/jableh-1180-south-view-historical-redo-review-v2-13080cb73d26.png",
+        "site_id": "jableh",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-131cd18693d4c4e7cb98",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9,
+          31.2
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/alexandria-1180-south-view-historical-redo-review-v2-131cd18693d4.png",
+        "site_id": "alexandria",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-149c29c3dd52b823e495",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.38,
+          37.1
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/naxos-1180-byzantine-south-view-review-v1-149c29c3dd52.png",
+        "site_id": "naxos",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-14f64efeb66c058f3ed2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.36745453,
+          36.575820925
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/astypalaia-1180-whole-island-south-view-review-v1-14f64efeb66c.png",
+        "site_id": "Astypalaia",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-1525bbcb4496f515d8ad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.85,
+          29.46
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/ile-de-graye-pharaohs-island-1180-south-view-historical-redo-review-v2-1525bbcb4496.png",
+        "site_id": "sea-castle",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-1a45be386059da9916f1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.68979263,
+          38.40166855
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/ithaca-1180-whole-island-south-view-review-v1-1a45be386059.png",
+        "site_id": "Ithaca",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-1e0adc36b349b939309d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.562484740000002,
+          36.80827713
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/kimolos-1180-whole-island-south-view-review-v1-1e0adc36b349.png",
+        "site_id": "Kimolos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2019b73d7b5a380930a3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22611,
+          33.04472
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/montfort-review-2019b73d7b5a.png",
+        "site_id": "montfort",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2095a3bf52a4bd71d9ce",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.43,
+          36.42
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/darbsak-trapesac-2095a3bf52a4.png",
+        "site_id": "darbsak",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-215b93402da7c69ad4d9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.05556,
+          36.68778
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/monemvasia-1180-byzantine-south-view-review-v1-215b93402da7.png",
+        "site_id": "monemvasia",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-21cdd6fda2717da7e6ce",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34,
+          35.4
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/kantara-21cdd6fda271.png",
+        "site_id": "kantara",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-229c7d80569cefb43f7b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.22631111111111,
+          36.443080555555554
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/rhodes-1180-byzantine-south-view-review-v1-229c7d80569c.png",
+        "site_id": "rhodes",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-24425b515bf0ec897296",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.817489600000002,
+          37.7245712
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/samos-1180-whole-island-south-view-review-v1-24425b515bf0.png",
+        "site_id": "Samos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-26ade0a7ee41627d6fe4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.54583,
+          31.66389
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/ascalon-1180-south-view-review-v1-26ade0a7ee41.png",
+        "site_id": "ascalon",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-276649c95e953ffa5980",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.83056,
+          38.39389
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/nafpaktos-1180-byzantine-south-view-review-v1-276649c95e95.png",
+        "site_id": "nafpaktos",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-281b05f2d1516eb76193",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.33,
+          40.15
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/mount-athos-great-lavra-1180-south-view-review-v1-281b05f2d151.png",
+        "site_id": "greek-monastery",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2aeb331911b42d7e48b4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.66429,
+          34.24932
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/batroun-1180-south-view-review-v1-2aeb331911b4.png",
+        "site_id": "batroun",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2cad1dc9839e0df887cc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.93,
+          34.67
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/kolossi-2cad1dc9839e.png",
+        "site_id": "kolossi",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-2d56adb2b35e2e7f7686",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.81783,
+          34.447
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/tripoli-concept-2d56adb2b35e.png",
+        "site_id": "tripoli",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review; source concept/draft/repaint QA required",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-30eaae615a8de1e43000",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.43,
+          36.42
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/darbsak-30eaae615a8d.png",
+        "site_id": "darbsak",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-32a918edc30ccae95213",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.79330444,
+          36.373722075
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/anafi-1180-whole-island-south-view-review-v1-32a918edc30c.png",
+        "site_id": "Anafi",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-34f1c0874dceaf3054dd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.67,
+          40.41
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/gallipoli-gelibolu-1180-south-view-review-v1-34f1c0874dce.png",
+        "site_id": "generic:Gallipoli",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-3a5d4e855eaf4e2274a5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7552,
+          32.0549
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/jaffa-1180-south-view-historical-redo-review-v2-3a5d4e855eaf.png",
+        "site_id": "jaffa",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-3a98cd5f4a9bbc969924",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9,
+          31.2
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/alexandria-1180-north-mediterranean-review-v1-3a98cd5f4a9b.png",
+        "site_id": "alexandria",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-3c7eab56a0f44e43d00a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.07,
+          39.88
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/lemnos-myrina-1180-byzantine-south-view-review-v1-3c7eab56a0f4.png",
+        "site_id": "lemnos",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-3d4b1fcd08602350cb1e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.608000000000004,
+          36.84402777777778
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/g-kvelio-lu-castle-3d4b1fcd0860.png",
+        "site_id": "gokvelioglu-castle",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-403baea15271bdfec008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.70133333333334,
+          37.150444444444446
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/tumlu-kalesi-403baea15271.png",
+        "site_id": "tumlu-kalesi",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-40e61a3d3744a0d68cd0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.86,
+          34.86
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/ruad-arwad-1180-south-view-historical-redo-review-v2-40e61a3d3744.png",
+        "site_id": "sea-castle",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-41d7d54b785809b6cfcc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.821624755000002,
+          36.591205599999995
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/symi-1180-whole-island-south-view-review-v1-41d7d54b7858.png",
+        "site_id": "Symi",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-458807eb878e92d581ab",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.94,
+          35.12
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/famagusta-concept-repaint-required-458807eb878e.png",
+        "site_id": "famagusta",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review; source concept/draft/repaint QA required",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-479b0df7804d36fe385f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.449970245000003,
+          39.168746944999995
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/skiathos-1180-whole-island-south-view-review-v1-479b0df7804d.png",
+        "site_id": "Skiathos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-480f2fbf41a941926cad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.322222,
+          35.341389
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/kyrenia-concept-480f2fbf41a9.png",
+        "site_id": "kyrenia",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review; source concept/draft/repaint QA required",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-49712b6b348ce4b23876",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.899150849999998,
+          36.63164139
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/folegandros-1180-whole-island-south-view-review-v1-49712b6b348c.png",
+        "site_id": "Folegandros",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-4b0061f7697e4890a0aa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.64555555555555,
+          34.119170000000004
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/byblos-1180-south-view-review-v1-4b0061f7697e.png",
+        "site_id": "byblos",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-4c20e41ddf43ca2da411",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.840209960000003,
+          37.840835575
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/andros-1180-whole-island-south-view-review-v1-4c20e41ddf43.png",
+        "site_id": "Andros",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-4d95cc2ab0bdb44f12dd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.016667,
+          35.516667
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/chania-kydonia-1180-south-to-north-review-v1-4d95cc2ab0bd.png",
+        "site_id": "chania",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-4ec4a7d15da3c38a9ccc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.458046,
+          31.510975
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/gaza-1180-south-view-review-v1-4ec4a7d15da3.png",
+        "site_id": "gaza",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-4f44c29e66829975886a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.93388888888889,
+          32.70528055555556
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/chateau-pelerin-atlit-review-4f44c29e6682.png",
+        "site_id": "chateau-pelerin",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-4f519ac44c2fe67b3d85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.137,
+          38.374
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/chios-1180-whole-island-south-view-review-v1-4f519ac44c2f.png",
+        "site_id": "chios",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-5056e514323046b9dc2e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.89,
+          34.89
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/tartus-azure-1096-1600-5056e5143230.png",
+        "site_id": "tortosa",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-53aefc0dea1ef3f0952b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.98333333333333,
+          41.00833333333333
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/constantinople-1180-south-pov-repaint-review-v1-53aefc0dea1e.png",
+        "site_id": "constantinople",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review; source concept/draft/repaint QA required",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-55af6068e55b16d42d34",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19583333333333,
+          33.26916666666666
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/tyre-1180-south-view-historical-redo-review-v2-55af6068e55b.png",
+        "site_id": "tyre",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-56b53c537c905393c542",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.55,
+          37.31
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/patmos-1180-whole-island-south-view-review-v1-56b53c537c90.png",
+        "site_id": "generic:Patmos",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-577bf2889b1b1665a2ad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.94,
+          35.12
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/famagusta-1180-south-view-review-v1-577bf2889b1b.png",
+        "site_id": "famagusta",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-58bc99dbddd6ebba32e7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.45944,
+          37.14746
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/savranda-servantikar-58bc99dbddd6.png",
+        "site_id": "recovered-savranda-castle",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-590dfd5c70350f0d6c8f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.89,
+          34.89
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/tortosa-1180-coastal-review-590dfd5c7035.png",
+        "site_id": "tortosa",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-5a715c1c44e807f1e72a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.86,
+          34.86
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/ruad-arwad-1180-south-view-review-v1-5a715c1c44e8.png",
+        "site_id": "sea-castle",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-5aee9f42ca3fdff0f117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7552,
+          32.0549
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/jaffa-concept-5aee9f42ca3f.png",
+        "site_id": "jaffa",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review; source concept/draft/repaint QA required",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-5df9cdf9a419a108ee37",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9,
+          37.82
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/feke-vahga-5df9cdf9a419.png",
+        "site_id": "feke",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-5e36a4e6a7806f667c8a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.55,
+          37.31
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/patmos-st-john-monastery-1180-south-view-review-v1-5e36a4e6a780.png",
+        "site_id": "generic:Patmos",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-5ede2f1b3a374fbd35d9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.05387,
+          36.87304
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/ravanda-ravendel-5ede2f1b3a37.png",
+        "site_id": "recovered-ravanda-castle",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-62090da3f9efd3189714",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.322222,
+          35.341389
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/kyrenia-1180-south-view-review-v1-62090da3f9ef.png",
+        "site_id": "kyrenia",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-63ab5250f59dd2079369",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.85,
+          37.15
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/leros-1180-whole-island-south-view-review-v1-63ab5250f59d.png",
+        "site_id": "leros",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6487f80af89fb3d60fe2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.18167,
+          36.20472
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/antioch-1180-south-pov-review-6487f80af89f.png",
+        "site_id": "antioch",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-677af348c6efb8b6e74e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.816,
+          31.422933333333333
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/damietta-1180-south-view-historical-redo-review-v2-677af348c6ef.png",
+        "site_id": "damietta",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6914e734114fbe26c105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.505141,
+          33.896339
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/beirut-1180-south-view-historical-redo-review-v2-6914e734114f.png",
+        "site_id": "beirut",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6b5a1ae89a82778944a0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.62,
+          33.01
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/chastellet-jacob-s-ford-6b5a1ae89a82.png",
+        "site_id": "chastellet-jacobs-ford",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6b651f7b89d997ec2f43",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.64555555555555,
+          34.119170000000004
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/byblos-1180-south-view-historical-redo-review-v2-6b651f7b89d9.png",
+        "site_id": "byblos",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6f3a63875371dc0df2ad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.557445530000003,
+          38.870834349999996
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/skyros-chora-1180-whole-island-south-view-review-v1-6f3a63875371.png",
+        "site_id": "Skyros",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-6f557f3d59ef6c81c5d5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19583333333333,
+          33.26916666666666
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/tyre-1180-south-view-review-v1-6f557f3d59ef.png",
+        "site_id": "tyre",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-742d06b18369e6666332",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.637012485,
+          38.706428525
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/lefkada-1180-whole-island-south-view-review-v1-742d06b18369.png",
+        "site_id": "Lefkada",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-7616c672ace9be7a2751",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.70529,
+          36.81705
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/methoni-1180-byzantine-south-view-review-v1-7616c672ace9.png",
+        "site_id": "methoni",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-787ccaa249953d06dd95",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.78,
+          35.52
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/latakia-1180-south-view-historical-redo-review-v2-787ccaa24995.png",
+        "site_id": "latakia",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-78d6db9101a53cb7cb4a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.22372055,
+          39.17539975
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/lesbos-1180-whole-island-south-view-review-v1-78d6db9101a5.png",
+        "site_id": "Lesbos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-7964ed33b49c975d8001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.81783,
+          34.447
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/tripoli-1180-south-view-historical-redo-review-v2-7964ed33b49c.png",
+        "site_id": "tripoli",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-7a613ee2dd4761d3d5f8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.686027525,
+          39.138748164999996
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/skopelos-chora-1180-whole-island-south-view-review-v1-7a613ee2dd47.png",
+        "site_id": "Skopelos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8043aae9c5c4a0622bd2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9287,
+          39.623228
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/corfu-kerkyra-1180-byzantine-south-view-review-v1-8043aae9c5c4.png",
+        "site_id": "corfu",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-811e0599d5e48d0e9de4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.89,
+          34.89
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/tartus-1180-south-view-review-v1-811e0599d5e4.png",
+        "site_id": "tortosa",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-81ac720094c3e6df81b0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.01786,
+          36.10419
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/softa-kalesi-81ac720094c3.png",
+        "site_id": "softa-kalesi",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8350e67cc98b6ab111a6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.42,
+          34.77
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/paphos-1180-south-view-review-v1-8350e67cc98b.png",
+        "site_id": "paphos",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-848801b6fa6551950c6d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.084,
+          32.928
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/acre-1180-south-view-historical-redo-review-v2-848801b6fa65.png",
+        "site_id": "acre",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-864900ef48118f0d218c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.93080139,
+          35.388736725
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/kasos-1180-whole-island-south-view-review-v1-864900ef4811.png",
+        "site_id": "Kasos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8861491f6266ef4ed085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9287,
+          39.623228
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/corfu-1180-whole-island-south-view-review-v1-8861491f6266.png",
+        "site_id": "corfu",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8906198a8b883086d7b9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.18,
+          36.46
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/k-zkalesi-offshore-castle-8906198a8b88.png",
+        "site_id": "kizkalesi",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8a70eb4bb0fc6ec19bde",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.711456300000002,
+          38.49459455
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/euboea-1180-whole-island-south-view-review-v1-8a70eb4bb0fc.png",
+        "site_id": "Euboea",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8bec1b6969462218b080",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.878805,
+          37.904935
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/corinth-inland-review-8bec1b696946.png",
+        "site_id": "corinth",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-8f4e66fea529488b286b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.38,
+          35.52
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/bourzey-burzey-8f4e66fea529.png",
+        "site_id": "castle-frankish",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9222ed7f72b98002f2c9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9,
+          37.82
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/feke-vahka-9222ed7f72b9.png",
+        "site_id": "feke",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9280f5de69688a10888e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.572082514999998,
+          40.44958115
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/samothrace-1180-whole-island-south-view-review-v1-9280f5de6968.png",
+        "site_id": "Samothrace",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-94a78ef64683157ae1cd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7552,
+          32.0549
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/jaffa-1180-south-view-review-v1-94a78ef64683.png",
+        "site_id": "jaffa",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-95db998350b0ff1bf522",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.95,
+          35.2
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/baniyas-syria-1180-south-view-historical-redo-review-v2-95db998350b0.png",
+        "site_id": "baniyas-syria",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-97fe8b99a558256150e0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.19623565,
+          37.06457135
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/paros-paroikia-1180-whole-island-south-view-review-v1-97fe8b99a558.png",
+        "site_id": "Paros",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-99b78959b80745b0d5c2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.47389,
+          35.36889
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/rethymno-1180-south-to-north-review-v1-99b78959b807.png",
+        "site_id": "rethymno",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9d24be07f42e7f37debb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9141655,
+          37.43726349000001
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/syros-1180-whole-island-south-view-review-v1-9d24be07f42e.png",
+        "site_id": "Syros",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-a06bd77460e78e233655",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.372070315000002,
+          36.42998505
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/tilos-1180-whole-island-south-view-review-v1-a06bd77460e7.png",
+        "site_id": "Tilos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-a09f837885a6d5ece809",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.37,
+          33.56
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/sidon-1180-south-view-review-v1-a09f837885a6.png",
+        "site_id": "sidon",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-a176f051e6f55eb4c96e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.55,
+          39.1
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/mytilene-1180-byzantine-south-view-review-v1-a176f051e6f5.png",
+        "site_id": "mytilene",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-a20a8f7f9045cb31c6c4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.34,
+          35.06
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/masyaf-a20a8f7f9045.png",
+        "site_id": "CP-059",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-a5c9a2af188e770f5fd5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.505141,
+          33.896339
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/beirut-azure-1096-1600-a5c9a2af188e.png",
+        "site_id": "beirut",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-a7440d538d459efb815e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1,
+          37.86
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/chlemoutsi-clermont-a7440d538d45.png",
+        "site_id": "chlemoutsi",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-a8e79845dd68c19b0afb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.93,
+          35.36
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/jableh-1180-south-view-review-v1-a8e79845dd68.png",
+        "site_id": "jableh",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-aa754f1023c193d25de6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.37,
+          33.56
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/sidon-concept-aa754f1023c1.png",
+        "site_id": "sidon",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review; source concept/draft/repaint QA required",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-afb58e1ddd842e4c4fcb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.18,
+          36.46
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/k-zkalesi-afb58e1ddd84.png",
+        "site_id": "kizkalesi",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-b1335fb7ad715637d8ec",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.57,
+          35.27
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/shaizar-b1335fb7ad71.png",
+        "site_id": "CP-058",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-b65fa442d8e318437f5c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89,
+          32.5
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/caesarea-1180-south-view-historical-redo-review-v2-b65fa442d8e3.png",
+        "site_id": "caesarea",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-b7b7dd29b8704d42a1ca",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.576664,
+          38.26621245
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/kefalonia-1180-whole-island-south-view-review-v1-b7b7dd29b870.png",
+        "site_id": "Kefalonia",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-b92a939783dadc298740",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.43,
+          36.4
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/santorini-1180-whole-island-south-view-review-v1-b92a939783da.png",
+        "site_id": "santorini",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-bdc14f300407f5f7f776",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.42,
+          34.77
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/paphos-1180-south-southwest-harbor-review-v1-bdc14f300407.png",
+        "site_id": "paphos",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-bee04d091791cde3cda8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.322222,
+          35.341389
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/kyrenia-north-harbor-provisional-bee04d091791.png",
+        "site_id": "kyrenia",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-c20660fea423df4418ab",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8946,
+          37.2324
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/anavarza-anazarbus-c20660fea423.png",
+        "site_id": "anavarza",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-c243886984d20d5a00a2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.52,
+          36.21
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/harim-harenc-c243886984d2.png",
+        "site_id": "harim",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-c26393c82a244802eaa4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2578,
+          30.0428
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/cairo-medieval-nile-review-c26393c82a24.png",
+        "site_id": "cairo",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-c2ded32a0e1c220020ac",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2578,
+          30.0428
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/cairo-concept-repaint-required-c2ded32a0e1c.png",
+        "site_id": "cairo",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review; source concept/draft/repaint QA required",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-c2f0d61217e54be99706",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.742901,
+          38.244844
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/patras-1180-byzantine-south-view-review-v1-c2f0d61217e5.png",
+        "site_id": "patras",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-d1fe5f1d484bc5084129",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.949167,
+          35.151111
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/margat-review-d1fe5f1d484b.png",
+        "site_id": "margat",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-d225c226e5a0a3dd22c2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9628972,
+          36.7948917
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/koroni-1180-byzantine-south-view-review-v1-d225c226e5a0.png",
+        "site_id": "koroni",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-d46875ca8137ec326cc7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89,
+          32.5
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/caesarea-concept-d46875ca8137.png",
+        "site_id": "caesarea",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review; source concept/draft/repaint QA required",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-d6cb9f98889261e85eee",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5,
+          32.96
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/safed-review-d6cb9f988892.png",
+        "site_id": "safed",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-d9e0e7cdd70c9fd897c9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.78,
+          35.52
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/latakia-1180-south-view-review-v1-d9e0e7cdd70c.png",
+        "site_id": "latakia",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-dab31584fdbf017219db",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.505141,
+          33.896339
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/beirut-1180-south-view-review-v1-dab31584fdbf.png",
+        "site_id": "beirut",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-db12c7b3710db8359c91",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.171634675,
+          37.60040283
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/ikaria-1180-whole-island-south-view-review-v1-db12c7b3710d.png",
+        "site_id": "Ikaria",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-dcef6a63825dedd88aa6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.90537262,
+          39.21330261
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/alonissos-1180-whole-island-south-view-review-v1-dcef6a63825d.png",
+        "site_id": "Alonissos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e08fe1f9fa4c38bcb8c8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.137,
+          38.374
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/chios-1180-byzantine-south-view-review-v1-e08fe1f9fa4c.png",
+        "site_id": "chios",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e37b59b20f9a3efe7fd1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.968303679999998,
+          37.0003891
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/kalymnos-1180-whole-island-south-view-review-v1-e37b59b20f9a.png",
+        "site_id": "Kalymnos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e5a80144539ffe34c8ce",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19583333333333,
+          33.26916666666666
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/tyre-concept-e5a80144539f.png",
+        "site_id": "tyre",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review; source concept/draft/repaint QA required",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e6ff294c30d75519b7cd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.22631111111111,
+          36.443080555555554
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/rhodes-1180-whole-island-south-view-review-v1-e6ff294c30d7.png",
+        "site_id": "rhodes",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e74b6a869462c5f4de1f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.97,
+          35.08
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/qadmus-e74b6a869462.png",
+        "site_id": "CP-060",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e88ea237483ead976765",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.168750765,
+          36.58955383
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/nisyros-1180-whole-island-south-view-review-v1-e88ea237483e.png",
+        "site_id": "Nisyros",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e922a20938cc58c1a31e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.458046,
+          31.510975
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/gaza-1180-south-view-historical-redo-review-v2-e922a20938cc.png",
+        "site_id": "gaza",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-e995cb24b25073461fb5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.91581726,
+          36.85039139
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/amorgos-1180-whole-island-south-view-review-v1-e995cb24b250.png",
+        "site_id": "Amorgos",
+        "status": "bbox_center_review_only",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
+        "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-eb686a366b52ebd9b6b8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.35,
+          35.3
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/buffavento-eb686a366b52.png",
+        "site_id": "buffavento",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-eda129474f95904d94db",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.18167,
+          36.20472
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/antioch-concept-repaint-required-eda129474f95.png",
+        "site_id": "antioch",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review; source concept/draft/repaint QA required",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-ee9731287ac4630df25a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.37,
+          37.94
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/ayasoluk-ephesus-1180-south-view-review-v1-ee9731287ac4.png",
+        "site_id": "town",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-eeb5a7a233547c4383a2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.084,
+          32.928
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/acre-1180-south-view-review-v1-eeb5a7a23354.png",
+        "site_id": "acre",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-efa2ce901127fa084781",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89,
+          32.5
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/caesarea-1180-south-view-review-v1-efa2ce901127.png",
+        "site_id": "caesarea",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f052701659a182b88356",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.89,
+          34.89
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/tartus-1180-south-view-historical-redo-review-v2-f052701659a1.png",
+        "site_id": "tortosa",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f2a231324385f7e4c305",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.025789,
+          40.983393
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/chalcedon-1180-south-view-correction-review-v1-f2a231324385.png",
+        "site_id": "chalcedon",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f2f22b816c94f9a1d04d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.54583,
+          31.66389
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/ascalon-1180-south-view-historical-redo-review-v2-f2f22b816c94.png",
+        "site_id": "ascalon",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f559ae67c0701eb0aaee",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.94,
+          32.69
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/chastel-pelerin-atlit-1180-south-view-historical-redo-review-v2-f559ae67c070.png",
+        "site_id": "pelerin",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f74bbb83ba94179be51d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.37,
+          33.56
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/sidon-1180-south-view-historical-redo-review-v2-f74bbb83ba94.png",
+        "site_id": "sidon",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-f908765ef876ceee737c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.81783,
+          34.447
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/tripoli-1180-south-view-review-v1-f908765ef876.png",
+        "site_id": "tripoli",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-fd84ff3379fef890391d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.95,
+          35.2
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/baniyas-syria-1180-south-view-review-v1-fd84ff3379fe.png",
+        "site_id": "baniyas-syria",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-fe52559d3615598662dd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.04163,
+          34.6722
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/limassol-1180-south-view-review-v1-fe52559d3615.png",
+        "site_id": "limassol",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    }
+  ]
+}

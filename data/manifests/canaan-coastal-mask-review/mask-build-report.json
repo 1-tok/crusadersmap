@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "purpose": "diagnostic coastline land masks only",
+  "source_land": [
+    "data/ne_10m_land.geojson",
+    "data/ne_10m_minor_islands.geojson"
+  ],
+  "source_lakes": "data/ne_10m_lakes.geojson",
+  "medieval_shoreline_certified": false,
+  "coastline_orientation_certified": false,
+  "sprite_placement_authorized": false,
+  "sprite_water_replacement_authorized": false,
+  "windows": [
+    {
+      "region": "acre_carmel",
+      "study_bbox_wgs84": [
+        34.75,
+        32.55,
+        35.3,
+        33.15
+      ],
+      "output": "data/manifests/canaan-coastal-mask-review/acre_carmel-land-mask.geojson",
+      "land_mask_area_degrees2": 0.1724627,
+      "sprite_geometry": null,
+      "placement_status": "hold_visual_alignment"
+    },
+    {
+      "region": "sharon_jaffa",
+      "study_bbox_wgs84": [
+        34.55,
+        31.95,
+        35.1,
+        32.6
+      ],
+      "output": "data/manifests/canaan-coastal-mask-review/sharon_jaffa-land-mask.geojson",
+      "land_mask_area_degrees2": 0.1793703,
+      "sprite_geometry": null,
+      "placement_status": "hold_visual_alignment"
+    },
+    {
+      "region": "ashkelon_gaza",
+      "study_bbox_wgs84": [
+        34.15,
+        31.25,
+        34.85,
+        32.0
+      ],
+      "output": "data/manifests/canaan-coastal-mask-review/ashkelon_gaza-land-mask.geojson",
+      "land_mask_area_degrees2": 0.276098,
+      "sprite_geometry": null,
+      "placement_status": "hold_visual_alignment"
+    }
+  ]
+}

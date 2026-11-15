@@ -181,6 +181,12 @@ def draw_ink2(edition, surf=None, scale=None, mode=None):
                 c.rectangle(ax - 20 - bx, ay - 20 - by, REG[kk].w + 40, REG[kk].h + 40)
             c.set_fill_rule(cairo.FILL_RULE_EVEN_ODD)
         c.clip()
+        # QA-screened, vector-clipped lowland cutouts are painted FIRST,
+        # below subsequent coastline line art, mountains, industries, towns,
+        # fortress sprites, roads and all labels.
+        if edition == "colour":
+            from tools.lowland_51_review_placer import draw_for_region
+            draw_for_region(c, TER[k], REG[k], k, edition)
         TER[k].ink(c, edition)
         if k == "main":
             import waterart; waterart.draw(c, REG[k], edition)
@@ -268,6 +274,9 @@ if __name__ == "__main__":
         t0 = time.time()
         base = base_for(ed)
         surf = draw_ink2(ed)
+        if ed == "colour":
+            from tools.lowland_51_review_placer import save_report
+            save_report()
         img = composite(base, surf)
         Image.fromarray(img).save(f"out/stage2-{ed}.jpg", quality=88)
         print("saved", ed, round(time.time() - t0), "s", flush=True)

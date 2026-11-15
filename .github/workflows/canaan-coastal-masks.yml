@@ -1,0 +1,58 @@
+name: Canaan coastal diagnostic masks
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/build_canaan_coastal_masks.py'
+      - '.github/workflows/canaan-coastal-masks.yml'
+      - 'tools/validate_canaan_coastal_masks.py'
+      - 'data/manifests/CANAAN-COASTAL-BATCH37-39-REVIEW-QUEUE-2026-11-13.json'
+jobs:
+  build-masks:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install geometry dependency
+        run: python -m pip install 'shapely>=2,<3'
+      - name: Generate land-only masks
+        run: python tools/build_canaan_coastal_masks.py
+      - name: Validate files and hold gates
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('data/manifests/canaan-coastal-mask-review')
+          names = ['acre_carmel','sharon_jaffa','ashkelon_gaza']
+          for name in names:
+              doc=json.loads((root / f'{name}-land-mask.geojson').read_text())
+              assert len(doc['features'])==1
+              assert doc['features'][0]['properties']['production_approved'] is False
+          report=json.loads((root/'mask-build-report.json').read_text())
+          assert len(report['windows'])==3
+          assert report['sprite_placement_authorized'] is False
+          assert report['sprite_water_replacement_authorized'] is False
+          PY
+      - name: Verify 12 asset holds and geographic mask integrity
+        run: python tools/validate_canaan_coastal_masks.py
+      - name: Upload review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: canaan-coast-land-masks-review
+          path: data/manifests/canaan-coastal-mask-review/
+      - name: Commit generated review masks
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/manifests/canaan-coastal-mask-review/
+          if ! git diff --cached --quiet; then
+            git commit -m "data: generate diagnostic Canaan land masks (review only)"
+            git push
+          fi

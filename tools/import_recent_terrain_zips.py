@@ -28,7 +28,7 @@ for folder in (ROOT,ROOT/"assets/sprites/incoming"):
     for p in folder.glob("*.zip"):
         n=p.name.lower()
         if ("terrain" in n or "farming" in n or "rural" in n
-            or "batch34" in n or "batch29" in n):
+            or "batch34" in n or "batch29" in n or "crusader_lowlands_" in n):
             source_zips.append(p)
 # Avoid duplicate archives uploaded to the repository root and intake folder.
 archives={}
@@ -64,6 +64,21 @@ def classify(name, desc):
             return cls
     return None
 
+# Curated dry-field assets from the Nov 13 archive. Coastal, river, marsh,
+# delta and mixed/uncertain cutouts are deliberately excluded from random
+# placement; their water must match the actual map geometry.
+# Explicit allowlist is safer than classifying by the broad "lowlands" name.
+LOWLAND_DRY_FIELDS = {
+    "05_cyprus_mediterranean_orchards.png",
+    "11_greek_cyprus_anatolia_levant_lowlands_02.png",
+    "11_greek_cyprus_anatolia_levant_lowlands_03.png",
+    "11_greek_cyprus_anatolia_levant_lowlands_07.png",
+    "11_greek_cyprus_anatolia_levant_lowlands_08.png",
+    "11_greek_cyprus_anatolia_levant_lowlands_09.png",
+    "11_greek_cyprus_anatolia_levant_lowlands_12.png",
+    "11_greek_cyprus_anatolia_levant_lowlands_13.png",
+    "11_greek_cyprus_anatolia_levant_lowlands_14.png",
+}
 outcome=Counter()
 skipped=[]
 added=[]
@@ -91,7 +106,11 @@ for arc in source_zips:
                 continue
             key=arc.name+":"+f.filename
             stem=Path(f.filename).stem.lower()
-            cls=classify(f.filename,descriptions.get(stem,""))
+            if "crusader_lowlands_" in arc.name.lower():
+                # Exact-list dry land pieces only, independent of archive layout.
+                cls = "patchg" if Path(f.filename).name.lower() in LOWLAND_DRY_FIELDS else None
+            else:
+                cls=classify(f.filename,descriptions.get(stem,""))
             if cls is None:
                 outcome["not_safe_to_scatter"]+=1
                 skipped.append(key)
@@ -124,7 +143,11 @@ for arc in source_zips:
                 im.save(POOL/fname,optimize=True)
                 seen.add(sha)
                 records.append({"src":"zip:"+key,"file":fname,"cls":cls,
-                       "w":im.width,"h":im.height,"reason":"2026-11-12 ZIP terrain; provisional scatter / ecology and alpha review"})
+                       "w":im.width,"h":im.height,"reason":(
+                           "2026-11-13 curated dry lowland; preview-only ecological scatter; "
+                           "orientation and print QA pending"
+                           if "crusader_lowlands_" in arc.name.lower() else
+                           "2026-11-12 ZIP terrain; provisional scatter / ecology and alpha review")})
                 outcome["imported"]+=1
                 added.append({"file":fname,"class":cls,"source":key})
             except Exception as ex:

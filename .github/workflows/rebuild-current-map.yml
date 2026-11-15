@@ -7,12 +7,30 @@ on:
     paths:
       - '.github/workflows/rebuild-current-map.yml'
       - 'tools/rebuild_city_coastal_qa.py'
+      - 'tools/reconcile_intake_geography.py'
+      - 'tools/activate_review_coastal_sprites.py'
+      - 'tools/reconcile_recovered_coasts_islands.py'
+      - 'data/manifests/ROOT-ZIP-RECOVERY-2026-11-13.json'
+      - 'data/sprites/automated-intake/manifest.json'
       - 'build_stage1.py'
       - 'build_stage2.py'
+      - 'tools/render_aegean_ionian_island_proof.py'
+      - 'tools/render_all_island_placements_review.py'
+      - 'data/manifests/GREEK-ISLANDS-ALL-ORPHAN-SELECTED-REVIEW-2026-11-15.json'
       - 'placer.py'
       - 'terrainsp.py'
       - 'build_fallback_assets.py'
       - 'tools/import_recent_terrain_zips.py'
+      - 'make_registers.py'
+      - 'tools/check_terrain_gap_consistency.py'
+      - 'tools/coverage_underlays.py'
+      - 'tools/audit_lowland_51_cutouts.py'
+      - 'tools/lowland_51_review_placer.py'
+      - 'tools/check_lowland_51_review.py'
+      - 'tools/compare_lowland_coasts.py'
+      - 'data/manifests/LOWLAND-51-CANONICAL-PLACEMENT-AUDIT-2026-11-15.json'
+      - 'tools/check_coverage_underlays.py'
+      - 'assets/terrain/large_area/rect_underlays_04/**'
       - 'tools/report_map_sprite_utilization.py'
       - 'tools/audit_intake_promotion.py'
       - 'build_generic_assets.py'
@@ -22,6 +40,11 @@ on:
       - 'tools/check_geographic_castle_placements.py'
       - 'data/manifests/automated-intake-stable-scatter-classes.json'
       - 'terrain.py'
+      - 'sea.py'
+      - 'water_palette.py'
+      - 'sprites.py'
+      - 'assets/sprites/water-masks/**'
+      - 'tools/preview_azure_harbor_masks.py'
 
 permissions:
   contents: write
@@ -49,16 +72,35 @@ jobs:
       - name: Regenerate current inventory and select latest located artwork
         run: |
           mkdir -p out deliver reports/rebuild-2026-11-12
+          cp reports/rebuild-2026-11-12/outremer-current-composite.jpg out/coverage-before.jpg
+          python -m py_compile tools/audit_lowland_51_cutouts.py tools/lowland_51_review_placer.py tools/check_lowland_51_review.py tools/compare_lowland_coasts.py
+          python tools/audit_lowland_51_cutouts.py
           python tools/build_sprite_handoff.py
           python build_sprite_assets.py "$PWD"
           python build_generic_assets.py "$PWD"
           python tools/import_recent_terrain_zips.py
           python build_fallback_assets.py
+          python tools/activate_review_coastal_sprites.py
           python tools/rebuild_city_coastal_qa.py
+          python tools/reconcile_intake_geography.py
+      - name: Prepare reproducible Mediterranean azure harbor masks
+        env:
+          MEDITERRANEAN_AZURE_WASH: '1'
+        run: |
+          python tools/preview_azure_harbor_masks.py
+          cp reports/azure-water-qa/provisional-water-mask-report.json reports/rebuild-2026-11-12/harbor-water-mask-report.json
       - name: Render actual current map from geographic sources
+        env:
+          MEDITERRANEAN_AZURE_WASH: '1'
         run: |
           python build_stage2.py 0.30 colour
           cp out/stage2-colour.jpg reports/rebuild-2026-11-12/outremer-current-composite.jpg
+          cp out/underlay-coverage-report.json reports/rebuild-2026-11-12/underlay-coverage-report.json
+          python tools/check_coverage_underlays.py
+          python tools/check_lowland_51_review.py
+          python tools/compare_lowland_coasts.py
+      - name: Update Canaan geographic review from actual rebuilt map
+        run: python tools/build_canaan_map_review.py
       - name: Generate new coverage and asset-usage registers
         run: |
           mkdir -p deliver
@@ -67,9 +109,16 @@ jobs:
           cp deliver/image-usage-and-off-map-list.csv reports/rebuild-2026-11-12/
           cp deliver/terrain-gap-report.md reports/rebuild-2026-11-12/
           cp deliver/terrain-gap-cells.csv reports/rebuild-2026-11-12/
+          python tools/check_terrain_gap_consistency.py
           python tools/report_map_sprite_utilization.py
           python tools/audit_intake_promotion.py
           python tools/check_geographic_castle_placements.py
+      - name: Reconcile recovered Greek island and coastal city art; render review composite
+        run: python tools/reconcile_recovered_coasts_islands.py
+      - name: Render separate Aegean and Ionian painted-island reviews
+        run: python tools/render_aegean_ionian_island_proof.py
+      - name: Render all new Aegean and Ionian island paintings for visual approval
+        run: python tools/render_all_island_placements_review.py
       - name: Upload build outputs for review
         if: always()
         uses: actions/upload-artifact@v4
@@ -77,6 +126,10 @@ jobs:
           name: latest-crusader-composite-and-QA
           path: |
             reports/rebuild-2026-11-12/
+            reports/azure-water-qa/
+            reports/lowland-review-2026-11-15/
+            reports/island-review-2026-11-15/
+            out/underlay-coverage-report.json
             out/placement_log.json
             out/usage.json
           if-no-files-found: warn
@@ -90,7 +143,7 @@ jobs:
           for attempt in 1 2 3 4; do
             git fetch origin main
             git reset --mixed origin/main
-            git add reports/rebuild-2026-11-12/
+            git add reports/rebuild-2026-11-12/ reports/island-review-2026-11-15/ reports/lowland-review-2026-11-15/
             if git diff --cached --quiet; then
               echo "Reports already match current main"
               exit 0
