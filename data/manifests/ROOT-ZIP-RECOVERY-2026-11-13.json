@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Allowlist of GitHub-root ZIP archives missing from regular automated intake at 2026-11-13 audit. Checks exact Git blob SHA; preserves all original ZIPs, deduplicates pixels, and never authorizes map placement.",
-  "archive_count": 33,
+  "archive_count": 37,
   "root_archives": [
     {
       "path": "Greek_Islands_12A_part1_RETRY.zip",
@@ -266,6 +266,38 @@
       "category": "greek_islands",
       "state": "provisional_intake_only",
       "placement_authorized": false
+    },
+    {
+      "path": "crusader_small_islands_batch20_whole_island_1180_review.zip",
+      "blob_sha": "50d908b34b7d50bf58b795bbe87f0986dbef7c39",
+      "bytes": 5117362,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_small_islands_batch21_whole_island_1180_review.zip",
+      "blob_sha": "0d8397d11eaae5ec9fd71bba52bbb2c8b4307bb7",
+      "bytes": 6610604,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_small_islands_batch22_whole_island_1180_review.zip",
+      "blob_sha": "fe06a9f0ceccc9a83176247fd2a3f87708ea97fc",
+      "bytes": 5060176,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_small_islands_batch23_whole_island_1180_review.zip",
+      "blob_sha": "12559eee9af22b0f2dc7f2a3ac4947618bf67548",
+      "bytes": 4864399,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
     }
   ],
   "excluded_policy": [
@@ -282,5 +314,6 @@
     "coordinate_source",
     "alpha_transparency",
     "print_quality"
-  ]
+  ],
+  "latest_recovery_note": "2026-11-14: added Small Islands Batches 20-23 as SHA-pinned provisional candidates; no geographic promotion"
 }
