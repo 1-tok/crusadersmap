@@ -36,7 +36,15 @@ def _texture(kind):
         if not path.is_file():
             raise FileNotFoundError(f"Missing retained coverage underlay: {path}")
         src = Image.open(path).convert("RGB").resize((768, 512), Image.Resampling.LANCZOS)
-        soft = src.filter(ImageFilter.GaussianBlur(radius=29))
+        # Periodic blur: a plain edge-clamped blur breaks an otherwise
+        # seam-matched tile at each repeated border.
+        wrapped = Image.new("RGB", (src.width * 3, src.height * 3))
+        for ty in range(3):
+            for tx in range(3):
+                wrapped.paste(src, (tx * src.width, ty * src.height))
+        soft = wrapped.filter(ImageFilter.GaussianBlur(radius=29)).crop(
+            (src.width, src.height, 2 * src.width, 2 * src.height)
+        )
         detail = np.asarray(src, np.float32) - np.asarray(soft, np.float32)
         _CACHE[kind] = np.clip(detail, -38, 38)
     return _CACHE[kind]
@@ -129,6 +137,10 @@ def write_coverage_report(path="out/underlay-coverage-report.json"):
         "status": "provisional_underlay_visual_review",
         "method": "edge-matched retained paintings, geographic land-interior clipping, texture detail colour-matched to mapped wash",
         "enabled": ENABLED,
+        "workflow": {
+            "head_sha": os.environ.get("GITHUB_SHA"),
+            "run_id": os.environ.get("GITHUB_RUN_ID"),
+        },
         "sources": {k: str((ASSET_DIR / v).relative_to(ROOT)) for k, v in SOURCES.items()},
         "notes": [
             "A pixel receiving underpaint is not proof that a visual sprite gap is resolved.",
