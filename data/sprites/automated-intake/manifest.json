@@ -21632,6 +21632,102 @@
       ]
     },
     {
+      "id": "INTAKE-5056e514323046b9dc2e",
+      "site_id": "tartus-azure-1096-1600",
+      "name": "tartus-azure-1096-1600",
+      "display_title": "tartus-azure-1096-1600",
+      "category": "unclassified",
+      "asset": "automated-intake/png/tartus-azure-1096-1600-5056e5143230.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/beirut-tartus-azure-sprites/tartus-azure-1096-1600.png",
+        "sha256": "6babe805cdf61168e57f5e0a96a24e758561ac9c1909607f346d4319d565c220",
+        "crop_xyxy": [
+          0,
+          0,
+          1448,
+          1086
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1448,
+          1086
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1448,
+          1086
+        ],
+        "pixel_sha256": "5056e514323046b9dc2e9e5fe24300b43202f5aa1e6d495647681d801d294cb6",
+        "sha256": "6babe805cdf61168e57f5e0a96a24e758561ac9c1909607f346d4319d565c220",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-5089d96695cccd2f4a1a",
       "site_id": "b20-09-desert-to-rocky-mountains",
       "name": "B20-09_desert_to_rocky_mountains",
@@ -42151,6 +42247,102 @@
         ],
         "pixel_sha256": "a32b3f94a59ef0561f34ea1a653e29a2fb72a9e087cdc8f35c3e663f898c0afd",
         "sha256": "532655419e27ff20998066710e7d16360d74c0dcc2623ad787f7c9ce4ab81376",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-a5c9a2af188e770f5fd5",
+      "site_id": "beirut-azure-1096-1600",
+      "name": "beirut-azure-1096-1600",
+      "display_title": "beirut-azure-1096-1600",
+      "category": "unclassified",
+      "asset": "automated-intake/png/beirut-azure-1096-1600-a5c9a2af188e.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/beirut-tartus-azure-sprites/beirut-azure-1096-1600.png",
+        "sha256": "081170d5dff3436d140f84284cc195e5b1093b5ee94d801d8e348f47da0152f2",
+        "crop_xyxy": [
+          0,
+          0,
+          1448,
+          1086
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1448,
+          1086
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1448,
+          1086
+        ],
+        "pixel_sha256": "a5c9a2af188e770f5fd518f9d91e6e742ff8120f7a5b6a7ed4b085eefa93b3f0",
+        "sha256": "081170d5dff3436d140f84284cc195e5b1093b5ee94d801d8e348f47da0152f2",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "purpose": "Review queue only: no category, date, historical, or geographic approval is changed",
-  "intake_assets_total": 658,
+  "intake_assets_total": 660,
   "intake_report": {
-    "processed_sources": 900,
-    "newly_registered_this_run": 4,
-    "duplicates_this_run": 896,
+    "processed_sources": 902,
+    "newly_registered_this_run": 2,
+    "duplicates_this_run": 900,
     "errors_this_run": 0
   },
   "categories": {
@@ -20,16 +20,16 @@
     "settlement": 1,
     "terrain": 2,
     "terrain_transition": 51,
-    "unclassified": 540,
+    "unclassified": 542,
     "village": 2
   },
   "approval_states": {
     "approved": 12,
     "placement_review_required": 16,
-    "provisional": 630
+    "provisional": 632
   },
-  "missing_geographic_placement": 658,
-  "unclassified_count": 540,
+  "missing_geographic_placement": 660,
+  "unclassified_count": 542,
   "unclassified_category_hints": [
     {
       "id": "INTAKE-01cb3de516e79cb3f98f",
@@ -3850,6 +3850,18 @@
       ]
     },
     {
+      "id": "INTAKE-a5c9a2af188e770f5fd5",
+      "name": "beirut-azure-1096-1600",
+      "asset": "automated-intake/png/beirut-azure-1096-1600-a5c9a2af188e.png",
+      "candidate_categories": [],
+      "status": "hint_only_not_classified",
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-6914e734114fbe26c105",
       "name": "beirut_1180_south_view_historical_redo_review_v2",
       "asset": "automated-intake/png/beirut-1180-south-view-historical-redo-review-v2-6914e734114f.png",
@@ -6843,6 +6855,18 @@
         "farmland",
         "terrain"
       ],
+      "status": "hint_only_not_classified",
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-5056e514323046b9dc2e",
+      "name": "tartus-azure-1096-1600",
+      "asset": "automated-intake/png/tartus-azure-1096-1600-5056e5143230.png",
+      "candidate_categories": [],
       "status": "hint_only_not_classified",
       "review_flags": [
         "category_unverified",
