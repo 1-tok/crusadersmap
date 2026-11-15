@@ -81,7 +81,18 @@ def panel(region, bounds):
     for a in active:
         x0,y1=project(a["w"],a["s"]);x1,y0=project(a["e"],a["n"])
         if x1<0 or x0>W or y1<0 or y0>H: continue
-        d.rectangle((max(0,x0),max(0,y0),min(W-1,x1),min(H-1,y1)),outline=(239,227,177),width=3)
+        xa,ya=max(0,x0),max(0,y0)
+        # Historical active overlay; retain longitude/latitude footprint.
+        old = ROOT / "assets" / "islands" / a["file"]
+        if old.is_file() and x1>x0 and y1>y0 and x1-x0<3000 and y1-y0<3000:
+            try:
+                base=Image.open(old).convert("RGBA")
+                base=base.resize((max(2,x1-x0),max(2,y1-y0)),Image.Resampling.LANCZOS)
+                im.paste(base,(x0,y0),base)
+            except Exception:
+                d.rectangle((xa,ya,min(W-1,x1),min(H-1,y1)),outline=(239,227,177),width=3)
+        else:
+            d.rectangle((xa,ya,min(W-1,x1),min(H-1,y1)),outline=(239,227,177),width=3)
         px,py=project((a["w"]+a["e"])/2,(a["s"]+a["n"])/2)
         d.text((px+5,py),a["name"],fill=(255,255,255),font=font,stroke_width=2,stroke_fill=(27,73,91))
     eligible=[]
