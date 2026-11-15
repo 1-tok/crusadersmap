@@ -53,10 +53,18 @@ def base_for(edition):
             sl = (slice(y + r0, y + r0 + h_), slice(x, x + w_))
             mod = tex[sl] / np.array([239, 228, 201], np.float32)
             out[sl] = tex[sl] * (1 - a) + col * mod * a
+            # Coverage review: retained painted underlays beneath subsequent
+            # coastline ink, islands, towns, roads, rivers and all labels.
+            if edition == "colour":
+                from tools.coverage_underlays import apply_land_underlay
+                apply_land_underlay(out[sl], TER[k], k, r0, r1)
             seam[sl] = np.round(255 * (1 - TER[k]._ml) * (1 - TER[k]._lk)).astype(np.uint8)
     import sea as SEA
     SEA.paint_sea(out, seam, S, edition)
     del seam
+    if edition == "colour":
+        from tools.coverage_underlays import write_coverage_report
+        write_coverage_report()
     g = grade_jerusalem(out, S, edition)
     jh, jw = g.shape[:2]
     x0, y0 = int(round(JX * S)), int(round(JY * S))
