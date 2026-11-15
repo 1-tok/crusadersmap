@@ -334,6 +334,13 @@ class Terrain:
             for pg in getattr(g, "geoms", [g]):
                 if pg.geom_type != "Polygon":
                     continue
+                # The approved Dead Sea illustration is drawn later by waterart.draw().
+                # Do not stroke the legacy Natural Earth/roughened Dead Sea shore
+                # beneath it: the two silhouettes differ and produce a double coast.
+                # This excludes only the Dead Sea, not Galilee or other lakes.
+                if (35.30 < pg.centroid.x < 35.67 and
+                        31.00 < pg.centroid.y < 31.87):
+                    continue
                 q = reg.geom_px(pg)
                 pts = [(x / 1.5, y / 1.5) for x, y in q.exterior.coords]
                 if len(pts) < 5:
