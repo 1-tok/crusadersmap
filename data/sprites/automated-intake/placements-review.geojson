@@ -5370,6 +5370,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-5056e514323046b9dc2e",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-5056e514323046b9dc2e",
+        "asset": "data/sprites/automated-intake/png/tartus-azure-1096-1600-5056e5143230.png",
+        "site_id": "tartus-azure-1096-1600",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-5089d96695cccd2f4a1a",
       "geometry": null,
       "properties": {
@@ -10459,6 +10483,30 @@
         "sprite_id": "INTAKE-a32b3f94a59ef0561f34",
         "asset": "data/sprites/automated-intake/png/inland-hilltown-concept-a32b3f94a59e.png",
         "site_id": "inland-hilltown-concept",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-a5c9a2af188e770f5fd5",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-a5c9a2af188e770f5fd5",
+        "asset": "data/sprites/automated-intake/png/beirut-azure-1096-1600-a5c9a2af188e.png",
+        "site_id": "beirut-azure-1096-1600",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,

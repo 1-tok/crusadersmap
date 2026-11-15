@@ -292,6 +292,28 @@
       ]
     },
     {
+      "source": "assets/sprites/incoming/_zip_extract/beirut-tartus-azure-sprites/beirut-azure-1096-1600.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-a5c9a2af188e770f5fd5",
+          "status": "provisional",
+          "asset": "automated-intake/png/beirut-azure-1096-1600-a5c9a2af188e.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/beirut-tartus-azure-sprites/tartus-azure-1096-1600.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-5056e514323046b9dc2e",
+          "status": "provisional",
+          "asset": "automated-intake/png/tartus-azure-1096-1600-5056e5143230.png"
+        }
+      ]
+    },
+    {
       "source": "assets/sprites/incoming/_zip_extract/coastal_city_castle_batch_review/coastal-port-concept-a.png",
       "extraction": "intact_image_or_uncertain_sheet",
       "pieces": [
@@ -437,8 +459,7 @@
       "pieces": [
         {
           "id": "INTAKE-cbe095ac80d9f77c22a9",
-          "status": "provisional",
-          "asset": "automated-intake/png/antikythera-1180-whole-island-south-view-review-v1-cbe095ac80d9.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -448,8 +469,7 @@
       "pieces": [
         {
           "id": "INTAKE-9f3638e67336b2d4ed66",
-          "status": "provisional",
-          "asset": "automated-intake/png/elafonisos-1180-whole-island-south-view-review-v1-9f3638e67336.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -459,8 +479,7 @@
       "pieces": [
         {
           "id": "INTAKE-f85d57ec8eff404b16c4",
-          "status": "provisional",
-          "asset": "automated-intake/png/gavdos-1180-whole-island-south-view-review-v1-f85d57ec8eff.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -470,8 +489,7 @@
       "pieces": [
         {
           "id": "INTAKE-3614daffde890dbfed01",
-          "status": "provisional",
-          "asset": "automated-intake/png/psara-1180-whole-island-south-view-review-v1-3614daffde89.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -9006,7 +9024,7 @@
       ]
     }
   ],
-  "registered": 4,
-  "duplicates": 896,
+  "registered": 2,
+  "duplicates": 900,
   "errors": 0
 }
