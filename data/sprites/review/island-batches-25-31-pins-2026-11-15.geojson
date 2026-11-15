@@ -1,0 +1,857 @@
+{
+  "type": "FeatureCollection",
+  "name": "island_batches_25_31_review_pins_2026_11_15",
+  "description": "Review point markers only. No unverified island painting is georegistered or turned on in production renderer.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.05,
+          37.04
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-7cdaca6e4e022d71f043",
+        "island": "antiparos",
+        "batch": 30,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_batch30_retry_part1/antiparos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-03/placement_manifest.json",
+        "anchor_quality": "approximate-prior-candidate-anchor",
+        "legacy_reference_bbox_wgs84": null,
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.23,
+          37.39
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-cd687d0eb4dd9a727392",
+        "island": "rhenia",
+        "batch": 30,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_batch30_retry_part1/rhenia_rheneia_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-03/placement_manifest.json",
+        "anchor_quality": "approximate-prior-candidate-anchor",
+        "legacy_reference_bbox_wgs84": null,
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.97,
+          36.5
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-9f3638e67336b2d4ed66",
+        "island": "elafonisos",
+        "batch": 31,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_batch31_retry_elafonisos_antikythera/elafonisos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "provisional",
+        "anchor_source": "data/sprites/greek-islands/batch-03/placement_manifest.json",
+        "anchor_quality": "approximate-prior-candidate-anchor",
+        "legacy_reference_bbox_wgs84": null,
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.08,
+          34.84
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-f85d57ec8eff404b16c4",
+        "island": "gavdos",
+        "batch": 31,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_batch31_retry_psara_gavdos/gavdos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "provisional",
+        "anchor_source": "data/sprites/greek-islands/batch-03/placement_manifest.json",
+        "anchor_quality": "approximate-prior-candidate-anchor",
+        "legacy_reference_bbox_wgs84": null,
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.56,
+          38.54
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-3614daffde890dbfed01",
+        "island": "psara",
+        "batch": 31,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_batch31_retry_psara_gavdos/psara_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "provisional",
+        "anchor_source": "data/sprites/greek-islands/batch-03/placement_manifest.json",
+        "anchor_quality": "approximate-prior-candidate-anchor",
+        "legacy_reference_bbox_wgs84": null,
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.35,
+          37.7
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-e38a0c785590bdfe867e",
+        "island": "agistri",
+        "batch": 25,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch25_whole_island_1180_review/agistri_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-03/placement_manifest.json",
+        "anchor_quality": "approximate-prior-candidate-anchor",
+        "legacy_reference_bbox_wgs84": null,
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.23,
+          39.15
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-940e9c1ca64fc4e1c25b",
+        "island": "antipaxos",
+        "batch": 25,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch25_whole_island_1180_review/antipaxos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-03/placement_manifest.json",
+        "anchor_quality": "approximate-prior-candidate-anchor",
+        "legacy_reference_bbox_wgs84": null,
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.16,
+          39.21
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-9f6ca9d23f7f0d4304e2",
+        "island": "paxos",
+        "batch": 25,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch25_whole_island_1180_review/paxos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-03/placement_manifest.json",
+        "anchor_quality": "approximate-prior-candidate-anchor",
+        "legacy_reference_bbox_wgs84": null,
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.16,
+          37.26
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-70ffebba213ca42ef8b9",
+        "island": "spetses",
+        "batch": 25,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch25_whole_island_1180_review/spetses_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-03/placement_manifest.json",
+        "anchor_quality": "approximate-prior-candidate-anchor",
+        "legacy_reference_bbox_wgs84": null,
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.90537262,
+          39.21330261
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-dcef6a63825dedd88aa6",
+        "island": "alonissos",
+        "batch": 26,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch26_whole_island_1180_review/alonissos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-02/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          23.81784327,
+          39.12575932,
+          23.99290197,
+          39.3008459
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.637012485,
+          38.706428525
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-742d06b18369e6666332",
+        "island": "lefkada",
+        "batch": 26,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch26_whole_island_1180_review/lefkada_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-02/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          20.52731059,
+          38.55061627,
+          20.74671438,
+          38.86224078
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.572082514999998,
+          40.44958115
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-9280f5de69688a10888e",
+        "island": "samothrace",
+        "batch": 26,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch26_whole_island_1180_review/samothrace_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-02/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          25.4323704,
+          40.38424231,
+          25.71179463,
+          40.51491999
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.449970245000003,
+          39.168746944999995
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-479b0df7804d36fe385f",
+        "island": "skiathos",
+        "batch": 26,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch26_whole_island_1180_review/skiathos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-02/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          23.38057101,
+          39.12353041,
+          23.51936948,
+          39.21396348
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.711456300000002,
+          38.49459455
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-8a70eb4bb0fc6ec19bde",
+        "island": "euboea",
+        "batch": 27,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch27_whole_island_1180_review/euboea_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          22.7775824,
+          37.8988592,
+          24.6453302,
+          39.0903299
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.68979263,
+          38.40166855
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-1a45be386059da9916f1",
+        "island": "ithaca",
+        "batch": 27,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch27_whole_island_1180_review/ithaca_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-02/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          20.60463391,
+          38.29244578,
+          20.77495135,
+          38.51089132
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.148277285,
+          35.6141243
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-0d56fbd6d9bcd9eb1cf8",
+        "island": "karpathos",
+        "batch": 27,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch27_whole_island_1180_review/karpathos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-02/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          27.03499679,
+          35.38187949,
+          27.26155778,
+          35.84636911
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.93080139,
+          35.388736725
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-864900ef48118f0d218c",
+        "island": "kasos",
+        "batch": 27,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch27_whole_island_1180_review/kasos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-02/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          26.84053379,
+          35.33441944,
+          27.02106899,
+          35.44305401
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.99668125,
+          38.37602615
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-4f519ac44c2fe67b3d85",
+        "island": "chios",
+        "batch": 28,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch28_whole_island_1180_review (1)/chios_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          25.8172836,
+          38.1343383,
+          26.1760789,
+          38.617714
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8749275,
+          39.592025750000005
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-8861491f6266ef4ed085",
+        "island": "corfu",
+        "batch": 28,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch28_whole_island_1180_review (1)/corfu_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          19.6090511,
+          39.3431896,
+          20.1408039,
+          39.8408619
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.22372055,
+          39.17539975
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-78d6db9101a53cb7cb4a",
+        "island": "lesbos",
+        "batch": 28,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch28_whole_island_1180_review (1)/lesbos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          25.8013598,
+          38.9322192,
+          26.6460813,
+          39.4185803
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.96705245,
+          36.168739349999996
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-e6ff294c30d75519b7cd",
+        "island": "rhodes",
+        "batch": 28,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch28_whole_island_1180_review (1)/rhodes_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          27.6640129,
+          35.8556557,
+          28.270092,
+          36.481823
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.27,
+          37.4
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-40e72311645cfed5ca19",
+        "island": "delos",
+        "batch": 29,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch29_whole_island_1180_review/delos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-03/placement_manifest.json",
+        "anchor_quality": "approximate-prior-candidate-anchor",
+        "legacy_reference_bbox_wgs84": null,
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.968303679999998,
+          37.0003891
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-e37b59b20f9a3efe7fd1",
+        "island": "kalymnos",
+        "batch": 29,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch29_whole_island_1180_review/kalymnos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-02/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          26.8731823,
+          36.9178376,
+          27.06342506,
+          37.0829406
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.821624755000002,
+          36.591205599999995
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-41d7d54b785809b6cfcc",
+        "island": "symi",
+        "batch": 29,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch29_whole_island_1180_review/symi_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-02/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          27.75881653,
+          36.53497108,
+          27.88443298,
+          36.64744012
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.372070315000002,
+          36.42998505
+        ]
+      },
+      "properties": {
+        "id": "INTAKE-a06bd77460e78e233655",
+        "island": "tilos",
+        "batch": 29,
+        "layer": "review-island-batches-25-31",
+        "review_only": true,
+        "sprite_overlay_enabled": false,
+        "source_asset": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch29_whole_island_1180_review/tilos_1180_whole_island_south_view_review_v1.png",
+        "source_intake_status": "duplicate",
+        "anchor_source": "data/sprites/greek-islands/batch-02/placement_index.csv",
+        "anchor_quality": "prior-coastline-bbox-center",
+        "legacy_reference_bbox_wgs84": [
+          27.28499215,
+          36.3697024,
+          27.45914848,
+          36.4902677
+        ],
+        "geometry_not_sprite_alignment": true,
+        "needs_qa": [
+          "verify intended subject matches image",
+          "verify island silhouette against coastline",
+          "verify south-oblique artwork looking north and water-side",
+          "review period-specific depiction through 16th century",
+          "verify alpha, scale and print quality"
+        ]
+      }
+    }
+  ]
+}

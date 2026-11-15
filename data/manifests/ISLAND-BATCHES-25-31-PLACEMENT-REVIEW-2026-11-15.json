@@ -1,0 +1,33 @@
+{
+  "created": "2026-11-15",
+  "source_reconciliation": "data/manifests/ISLAND-BATCHES-25-31-RECONCILIATION-2026-11-15.json",
+  "feature_file": "data/sprites/review/island-batches-25-31-pins-2026-11-15.geojson",
+  "counts": {
+    "total": 28,
+    "review_markers": 25,
+    "unanchored": 3,
+    "production_sprite_placements": 0
+  },
+  "unanchored": [
+    {
+      "island": "agathonisi",
+      "batch": 30,
+      "intake_id": "INTAKE-27c557236db03b6b0282",
+      "status": "HOLD_NO_REPOSITORY_ANCHOR"
+    },
+    {
+      "island": "telendos",
+      "batch": 30,
+      "intake_id": "INTAKE-77ad27c2ab4c57744457",
+      "status": "HOLD_NO_REPOSITORY_ANCHOR"
+    },
+    {
+      "island": "antikythera",
+      "batch": 31,
+      "intake_id": "INTAKE-cbe095ac80d9f77c22a9",
+      "status": "HOLD_NO_REPOSITORY_ANCHOR"
+    }
+  ],
+  "rendering_instruction": "Load GeoJSON as separate review pins above Aegean/Ionian base map. Do not feed to island sprite painter as raster footprint; do not replace already approved original sprite.",
+  "future_gate": "Only promote image after actual visual sprite identity, coastline registration and history QA. 1180 filenames do not limit entire atlas history, which spans Crusader era through 16th century."
+}
