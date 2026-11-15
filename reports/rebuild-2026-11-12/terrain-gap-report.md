@@ -55,3 +55,6 @@ The thin cells are listed with the flat ones in terrain-gap-cells.csv.
 - Generic settlement, farm, tree, rock and ruin pieces: 189 different pieces, 2369 placements
 - Greek island overlays: 47
 - Ships at sea: 8
+
+**Interpretation:** Flat/thin classifications measure local texture contrast, not verified exposure of the base-map layer. The CSV preserves the upstream flag as `legacy_flat_flag`, derives `flat` from the documented <12 threshold, and marks `base_layer_exposure=unverified` pending visual geographic review.
+
