@@ -9,7 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 _META = json.load(open(os.path.join(HERE, "assets", "sprites.json")))
 WIDTH = {1: 440, 2: 340, 3: 285, 4: 245}
 # Belvoir: shrunk for now; replacement sprite requested (see spec, "needs update")
-SCALE = {"Belvoir": 0.72, "Konstantinoupolis": 1.35}
+SCALE = {"Belvoir": 0.72, "Konstantinoupolis": 0.85}
 NEEDS_UPDATE = ["Belvoir"]
 MATCH = {}            # place name -> sprite record
 _pairs = []

@@ -3,6 +3,7 @@ Everything works in sheet print px (10800 x 14400)."""
 import math, os
 import numpy as np
 import cairo
+from PIL import Image
 import profiles as PR, marks as MK, places as PL, sprites as SP
 from hand import Pen
 
@@ -188,9 +189,46 @@ def it_is_companion(i):
     return i.kind == "place" and i.name in COMPANIONS
 
 
+
+# ---- Constantinople composite: water join, Asian shore and Golden Horn shore are painted around the city at the approved offsets
+_BOS = "data/sprites/greece-egypt-1180-bosphorus/"
+_COMPOSITE = (("bosphorus-water-join-1180.png", 820, (500, 42)),
+              ("bosphorus-asian-shore-1180.png", 900, (882, 63)),
+              ("golden-horn-north-shore-1180.png", 850, (305, -88)))
+_PSURF = {}
+
+
+def _piece_surface(fn, width):
+    k = (fn, int(width))
+    if k not in _PSURF:
+        im = Image.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _BOS + fn)).convert("RGBA")
+        w = int(max(8, round(width)))
+        h = int(round(im.height * w / im.width))
+        a = np.asarray(im.resize((w, h), Image.LANCZOS), np.float32)
+        al = a[..., 3:4] / 255.0
+        buf = np.empty((h, w, 4), np.uint8)
+        buf[..., :3] = (a[..., [2, 1, 0]] * al).astype(np.uint8); buf[..., 3] = a[..., 3].astype(np.uint8)
+        _PSURF[k] = cairo.ImageSurface.create_for_data(bytearray(buf.tobytes()), cairo.FORMAT_ARGB32, w, h, w * 4)
+    return _PSURF[k]
+
+
+def composite_scale(it):
+    """Map pixels per composite unit (the city painted 972 units wide) and the top-left of the city's full 2048 canvas."""
+    r = SP.rect(it.sprite, it.x, it.y, it.w)
+    s = (r[2] - r[0]) / 972.0
+    return s, (r[0] - 26 * s, r[1] - 26 * s)
+
+
+def draw_composite(c, it):
+    s, (tx, ty) = composite_scale(it)
+    for fn, dw, (ox, oy) in _COMPOSITE:
+        surf = _piece_surface(fn, dw * s)
+        c.save(); c.translate(tx + ox * s, ty + oy * s)
+        c.set_source_surface(surf, 0, 0); c.get_source().set_filter(cairo.FILTER_BEST); c.paint(); c.restore()
+
 COMPANIONS = ("Pera", "Chrysopolis", "Chalkedon")
 # the true anchors lie within a kilometre of the city, so at map scale the companions stand beside it, joined to their anchors by a fine line
-COMP_OFFSET = {"Pera": (-285, -95), "Chrysopolis": (200, 10), "Chalkedon": (230, 150)}
+COMP_OFFSET = {"Pera": (-100, -125), "Chrysopolis": (330, 20), "Chalkedon": (360, 110)}
 NO_NUDGE = ("Konstantinoupolis", "Pera", "Chrysopolis", "Chalkedon")
 
 
@@ -567,7 +605,7 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
             dx_, dy_ = COMP_OFFSET[it.name]
             it.ax, it.ay = x0, y0
             it.x, it.y = x0 + dx_, y0 + dy_
-            it.rect = item_rect(it, it.w); sym.mark(it.rect); it.arm_rect = None
+            it.rect = (it.x - 6, it.y - 12, it.x + 6, it.y + 2); sym.mark(it.rect); it.arm_rect = None
             kept.append(it)
             continue
         offs = [(0, 0)]
@@ -628,11 +666,10 @@ def draw_places(c, edition, TER, REG, BOX, hard_rects, soft_disks, inset_hard=()
             continue
         if it.kind == "place":
             if getattr(it, 'sprite', None):
-                if it_is_companion(it):
-                    c.save(); c.set_source_rgba(0.25, 0.18, 0.10, 0.85); c.set_line_width(2.2)
-                    c.move_to(it.x, it.y - 6); c.line_to(it.ax, it.ay); c.stroke()
-                    c.arc(it.ax, it.ay, 4.5, 0, 6.2832); c.fill(); c.restore()
-                SP.draw(c, it.sprite, it.x, it.y, it.w, edition)
+                if it.name == "Konstantinoupolis":
+                    draw_composite(c, it)
+                if not it_is_companion(it):
+                    SP.draw(c, it.sprite, it.x, it.y, it.w, edition)
             elif it.name in PAINTED_WATER:
                 pass                                  # the lake painting itself is the picture; the name is lettered beside it
             else:
