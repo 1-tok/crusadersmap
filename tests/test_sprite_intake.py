@@ -67,5 +67,18 @@ class IntakeTests(unittest.TestCase):
         self.assertEqual(process(self.root)["errors"], 1)
         self.assertEqual(p.read_bytes(), b"broken")
 
+
+    def test_source_sheet_without_explicit_crops_stays_reference_only(self):
+        original = self.make("source_sheet_rgb_checkerboard.png")
+        before = original.read_bytes()
+        result = process(self.root)
+        self.assertEqual(result["registered"], 0)
+        self.assertEqual(result["errors"], 0)
+        self.assertEqual(result["results"][0]["skipped"],
+                         "source_sheet_requires_declared_sprite_crops")
+        self.assertEqual(original.read_bytes(), before)
+        manifest = json.loads((self.root / "data/sprites/automated-intake/manifest.json").read_text())
+        self.assertEqual(manifest["assets"], [])
+
 if __name__ == "__main__":
     unittest.main()
