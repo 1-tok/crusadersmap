@@ -194,6 +194,102 @@
       ]
     },
     {
+      "id": "INTAKE-00b9c9cea1febc0c08d5",
+      "site_id": "chalki-halki-1180-whole-island-south-view-review-v1",
+      "name": "chalki_halki_1180_whole_island_south_view_review_v1",
+      "display_title": "chalki_halki_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/chalki-halki-1180-whole-island-south-view-review-v1-00b9c9cea1fe.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch23_whole_island_1180_review/chalki_halki_1180_whole_island_south_view_review_v1.png",
+        "sha256": "168a7044115a8309e493bc05f6e4d52314b0a28de98f24bdcd8f742bfa689eff",
+        "crop_xyxy": [
+          0,
+          0,
+          764,
+          453
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          764,
+          453
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          3,
+          10,
+          754,
+          444
+        ],
+        "pixel_sha256": "00b9c9cea1febc0c08d521d144ae41171632f31d70f7646ae8d7bc601505beac",
+        "sha256": "168a7044115a8309e493bc05f6e4d52314b0a28de98f24bdcd8f742bfa689eff",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-00c347295e206914b093",
       "site_id": "t27-08-limestone-uplands",
       "name": "t27_08_limestone_uplands",
@@ -3332,6 +3428,102 @@
       ]
     },
     {
+      "id": "INTAKE-0b1df64ecf41d22a6237",
+      "site_id": "sifnos-1180-whole-island-south-view-review-v1",
+      "name": "sifnos_1180_whole_island_south_view_review_v1",
+      "display_title": "sifnos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/sifnos-1180-whole-island-south-view-review-v1-0b1df64ecf41.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch20_whole_island_1180_review/sifnos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "89ff7f268d15e1ff082dc358cf7f348a4e7e6e99c7ab1606eb2a87ed613ea548",
+        "crop_xyxy": [
+          0,
+          0,
+          538,
+          522
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          538,
+          522
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          13,
+          9,
+          525,
+          509
+        ],
+        "pixel_sha256": "0b1df64ecf41d22a62374090a3962d858f782249cf4c65661ca4f77524b0f922",
+        "sha256": "89ff7f268d15e1ff082dc358cf7f348a4e7e6e99c7ab1606eb2a87ed613ea548",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-0b1f8d17f030d2f94c27",
       "site_id": "b32-02-04-arid-to-green",
       "name": "b32_02_04_arid_to_green",
@@ -3981,6 +4173,102 @@
         ],
         "pixel_sha256": "0cc98a7df28b276ced40532e9596f928fb2bbdd40a55cc5d4c2f0223bd214264",
         "sha256": "12953a3f3e0e510ee1f71502195ad35af03004efae67fa44187460b1c495fa7c",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-0d56fbd6d9bcd9eb1cf8",
+      "site_id": "karpathos-1180-whole-island-south-view-review-v1",
+      "name": "karpathos_1180_whole_island_south_view_review_v1",
+      "display_title": "karpathos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/karpathos-1180-whole-island-south-view-review-v1-0d56fbd6d9bc.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch27_whole_island_1180_review/karpathos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "55fea68302e965ae9155813ef6bc9d5b84c1ce6db4214c7fac49970fdd4cb62f",
+        "crop_xyxy": [
+          0,
+          0,
+          445,
+          523
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          445,
+          523
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          0,
+          437,
+          515
+        ],
+        "pixel_sha256": "0d56fbd6d9bcd9eb1cf83ad1dc2eb12c07a0201a8e5de8309bf3b5135449e166",
+        "sha256": "55fea68302e965ae9155813ef6bc9d5b84c1ce6db4214c7fac49970fdd4cb62f",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -6490,6 +6778,102 @@
       ]
     },
     {
+      "id": "INTAKE-14f64efeb66c058f3ed2",
+      "site_id": "astypalaia-1180-whole-island-south-view-review-v1",
+      "name": "astypalaia_1180_whole_island_south_view_review_v1",
+      "display_title": "astypalaia_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/astypalaia-1180-whole-island-south-view-review-v1-14f64efeb66c.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch21_whole_island_1180_review/batch21/astypalaia_1180_whole_island_south_view_review_v1.png",
+        "sha256": "633a115b8e3c25e8fa4ae784888f8e01305d338ab1b6e03e08d4e03cbb048b40",
+        "crop_xyxy": [
+          0,
+          0,
+          804,
+          475
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          804,
+          475
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          12,
+          792,
+          463
+        ],
+        "pixel_sha256": "14f64efeb66c058f3ed2e112250148c88f2885f0429d8a18be82b6f4367c733c",
+        "sha256": "633a115b8e3c25e8fa4ae784888f8e01305d338ab1b6e03e08d4e03cbb048b40",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-1525bbcb4496f515d8ad",
       "site_id": "ile-de-graye-pharaohs-island-1180-south-view-historical-redo-review-v2",
       "name": "ile_de_graye_pharaohs_island_1180_south_view_historical_redo_review_v2",
@@ -7824,6 +8208,102 @@
       ]
     },
     {
+      "id": "INTAKE-1a45be386059da9916f1",
+      "site_id": "ithaca-1180-whole-island-south-view-review-v1",
+      "name": "ithaca_1180_whole_island_south_view_review_v1",
+      "display_title": "ithaca_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/ithaca-1180-whole-island-south-view-review-v1-1a45be386059.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch27_whole_island_1180_review/ithaca_1180_whole_island_south_view_review_v1.png",
+        "sha256": "8eee9c1311c10944b43900107d8eb3ca8005c443ea35aeaf92d80052e841765f",
+        "crop_xyxy": [
+          0,
+          0,
+          439,
+          482
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          439,
+          482
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          431,
+          474
+        ],
+        "pixel_sha256": "1a45be386059da9916f16045cda99d5fe42471cb8702e8eb2f0a009645ff95bc",
+        "sha256": "8eee9c1311c10944b43900107d8eb3ca8005c443ea35aeaf92d80052e841765f",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-1ae241c9a1123ff59d92",
       "site_id": "t27-14-arid-plateau",
       "name": "t27_14_arid_plateau",
@@ -8393,6 +8873,102 @@
       "repaint_required": false,
       "review_flags": [
         "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-1e0adc36b349b939309d",
+      "site_id": "kimolos-1180-whole-island-south-view-review-v1",
+      "name": "kimolos_1180_whole_island_south_view_review_v1",
+      "display_title": "kimolos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/kimolos-1180-whole-island-south-view-review-v1-1e0adc36b349.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch20_whole_island_1180_review/kimolos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "87ed6c626903674c48027f09231c9d8b85973e9b6707e989de76444182d7f414",
+        "crop_xyxy": [
+          0,
+          0,
+          620,
+          449
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          620,
+          449
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          13,
+          13,
+          607,
+          436
+        ],
+        "pixel_sha256": "1e0adc36b349b939309d6e31a8e1b15e1bae0a7fe5f01e643937082b21490eb3",
+        "sha256": "87ed6c626903674c48027f09231c9d8b85973e9b6707e989de76444182d7f414",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
       ]
     },
     {
@@ -11640,6 +12216,102 @@
       ]
     },
     {
+      "id": "INTAKE-27c557236db03b6b0282",
+      "site_id": "agathonisi-1180-whole-island-south-view-review-v1",
+      "name": "agathonisi_1180_whole_island_south_view_review_v1",
+      "display_title": "agathonisi_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/agathonisi-1180-whole-island-south-view-review-v1-27c557236db0.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_batch30_retry_part2/agathonisi_1180_whole_island_south_view_review_v1.png",
+        "sha256": "0123cad1f9653ca01f828d7b015c14d812f7853b2fb1b5ac380d85685e606f83",
+        "crop_xyxy": [
+          0,
+          0,
+          664,
+          444
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          664,
+          444
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          5,
+          5,
+          659,
+          439
+        ],
+        "pixel_sha256": "27c557236db03b6b028294611a8054e0fd78c008799b6d2a7daa0640f7edced1",
+        "sha256": "0123cad1f9653ca01f828d7b015c14d812f7853b2fb1b5ac380d85685e606f83",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-27ed4a40353fa91f79b3",
       "site_id": "10-nile-delta-floodplain-05",
       "name": "10_nile_delta_floodplain_05",
@@ -13360,6 +14032,102 @@
       ]
     },
     {
+      "id": "INTAKE-2e10afe12f5fe59ff39e",
+      "site_id": "hydra-1180-whole-island-south-view-review-v1",
+      "name": "hydra_1180_whole_island_south_view_review_v1",
+      "display_title": "hydra_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/hydra-1180-whole-island-south-view-review-v1-2e10afe12f5f.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch24_whole_island_1180_review/hydra_1180_whole_island_south_view_review_v1.png",
+        "sha256": "0bf8ad5ecc2ab9222226c261fb96cf2c681d1fc1c0365754b9d8a02f64ff4d16",
+        "crop_xyxy": [
+          0,
+          0,
+          759,
+          477
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          759,
+          477
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          751,
+          469
+        ],
+        "pixel_sha256": "2e10afe12f5fe59ff39efdbe0fc8643caed10127a39863f07af743e22b14c5df",
+        "sha256": "0bf8ad5ecc2ab9222226c261fb96cf2c681d1fc1c0365754b9d8a02f64ff4d16",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-2e1317eda9b367c6320c",
       "site_id": "generic-fishing-hamlet",
       "name": "Fishing hamlet and net racks",
@@ -14385,6 +15153,102 @@
         ],
         "pixel_sha256": "3229a557d9f53c40bae70a49df1cd9ceee0c5d34ba370d52e826e68b1bdcf6ae",
         "sha256": "9acab0c0d465a2374c977ae3da833015e6b38a8d284f9b3eaa45dc42f636ffd1",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-32a918edc30ccae95213",
+      "site_id": "anafi-1180-whole-island-south-view-review-v1",
+      "name": "anafi_1180_whole_island_south_view_review_v1",
+      "display_title": "anafi_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/anafi-1180-whole-island-south-view-review-v1-32a918edc30c.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch21_whole_island_1180_review/batch21/anafi_1180_whole_island_south_view_review_v1.png",
+        "sha256": "99be4caf1d24e0f36897bf753fa60776989327a3bc558ef1e8f691e3852b6912",
+        "crop_xyxy": [
+          0,
+          0,
+          759,
+          469
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          759,
+          469
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          12,
+          10,
+          752,
+          457
+        ],
+        "pixel_sha256": "32a918edc30ccae952138d3e4b3a7f809a4839d5f2b631e9bfdda059aa73c877",
+        "sha256": "99be4caf1d24e0f36897bf753fa60776989327a3bc558ef1e8f691e3852b6912",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -17138,6 +18002,102 @@
       ]
     },
     {
+      "id": "INTAKE-40e72311645cfed5ca19",
+      "site_id": "delos-1180-whole-island-south-view-review-v1",
+      "name": "delos_1180_whole_island_south_view_review_v1",
+      "display_title": "delos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/delos-1180-whole-island-south-view-review-v1-40e72311645c.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch29_whole_island_1180_review/delos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "25fe613ff1dca57b9bd58185277fc6de04d82c908a135b8202c7b1e94ed1e777",
+        "crop_xyxy": [
+          0,
+          0,
+          646,
+          500
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          646,
+          500
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          12,
+          12,
+          634,
+          489
+        ],
+        "pixel_sha256": "40e72311645cfed5ca197b95880294b82feaf168315027a29a3cf47c536b15ce",
+        "sha256": "25fe613ff1dca57b9bd58185277fc6de04d82c908a135b8202c7b1e94ed1e777",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-413c976065eff039c1f8",
       "site_id": "t35-01-long-coastal-dune-scrub",
       "name": "t35_01_long_coastal_dune_scrub",
@@ -17411,6 +18371,102 @@
         ],
         "pixel_sha256": "41b91c3e540f45481c679ac7a087eeabc19b9362843f7a6961c78e6635c308fe",
         "sha256": "55034c38a0d9ffca018e0720753681fbc202e172f9cccb5789f8f8a8e0cb32f8",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-41d7d54b785809b6cfcc",
+      "site_id": "symi-1180-whole-island-south-view-review-v1",
+      "name": "symi_1180_whole_island_south_view_review_v1",
+      "display_title": "symi_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/symi-1180-whole-island-south-view-review-v1-41d7d54b7858.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch29_whole_island_1180_review/symi_1180_whole_island_south_view_review_v1.png",
+        "sha256": "c4ffbb4e7a84e67022b0809d19aee8abfab9fbcc6ce47b321aa22945fb4237c6",
+        "crop_xyxy": [
+          0,
+          0,
+          612,
+          512
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          612,
+          512
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          12,
+          10,
+          600,
+          505
+        ],
+        "pixel_sha256": "41d7d54b785809b6cfcc01abc6a0e1315549ba45510bfd2ffbb5b65bc80f3915",
+        "sha256": "c4ffbb4e7a84e67022b0809d19aee8abfab9fbcc6ce47b321aa22945fb4237c6",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -18376,6 +19432,102 @@
       ]
     },
     {
+      "id": "INTAKE-479b0df7804d36fe385f",
+      "site_id": "skiathos-1180-whole-island-south-view-review-v1",
+      "name": "skiathos_1180_whole_island_south_view_review_v1",
+      "display_title": "skiathos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/skiathos-1180-whole-island-south-view-review-v1-479b0df7804d.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch26_whole_island_1180_review/skiathos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "ebd3c9907b77274e77fb30738d7c5f88bee2395b72ada862077201c2997806bd",
+        "crop_xyxy": [
+          0,
+          0,
+          751,
+          417
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          751,
+          417
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          3,
+          3,
+          748,
+          414
+        ],
+        "pixel_sha256": "479b0df7804d36fe385f3d0182c71ea1f525ad5974a4093da85ff02771f8681e",
+        "sha256": "ebd3c9907b77274e77fb30738d7c5f88bee2395b72ada862077201c2997806bd",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-480f2fbf41a941926cad",
       "site_id": "kyrenia-concept",
       "name": "kyrenia-concept",
@@ -18664,6 +19816,102 @@
       ]
     },
     {
+      "id": "INTAKE-49712b6b348ce4b23876",
+      "site_id": "folegandros-1180-whole-island-south-view-review-v1",
+      "name": "folegandros_1180_whole_island_south_view_review_v1",
+      "display_title": "folegandros_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/folegandros-1180-whole-island-south-view-review-v1-49712b6b348c.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch21_whole_island_1180_review/batch21/folegandros_1180_whole_island_south_view_review_v1.png",
+        "sha256": "fbb5ea4bcfd954302cf7492371ee3599e134cc34265e59f22bd8093f75a9ef98",
+        "crop_xyxy": [
+          0,
+          0,
+          783,
+          475
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          783,
+          475
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          12,
+          771,
+          464
+        ],
+        "pixel_sha256": "49712b6b348ce4b238765d2cdaa7a7417ba59c1da7219de9b24478cec3d269bd",
+        "sha256": "fbb5ea4bcfd954302cf7492371ee3599e134cc34265e59f22bd8093f75a9ef98",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-4989f4b3918bee6bf6c4",
       "site_id": "lowland-20261113-08-delta-aegean-levant-tiles-r02-c01",
       "name": "lowland-20261113-08_delta_aegean_levant_tiles_r02_c01",
@@ -18753,6 +20001,102 @@
       "repaint_required": false,
       "review_flags": [
         "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-4a93a54331de3f0be884",
+      "site_id": "lipsi-leipsoi-1180-whole-island-south-view-review-v1",
+      "name": "lipsi_leipsoi_1180_whole_island_south_view_review_v1",
+      "display_title": "lipsi_leipsoi_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/lipsi-leipsoi-1180-whole-island-south-view-review-v1-4a93a54331de.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch23_whole_island_1180_review/lipsi_leipsoi_1180_whole_island_south_view_review_v1.png",
+        "sha256": "a2d8bfcab90e51651558f443932e974dc6917396c5728dd96e9b36c0876be1ed",
+        "crop_xyxy": [
+          0,
+          0,
+          727,
+          486
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          727,
+          486
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          717,
+          477
+        ],
+        "pixel_sha256": "4a93a54331de3f0be884bf96f77129dbee87a83bba56abce2b8098818b215584",
+        "sha256": "a2d8bfcab90e51651558f443932e974dc6917396c5728dd96e9b36c0876be1ed",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
       ]
     },
     {
@@ -19125,6 +20469,102 @@
         ],
         "pixel_sha256": "4c6be4f8ac82e5884bf43f3a38dc4dbe459ce7f71b78b74f79dbf0a8ae722b64",
         "sha256": "8f7f9db1e5d4b5f3949af952602f823bfcac314ddaf63f19c601a95147fa8e40",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-4c80c538db77c999f448",
+      "site_id": "salamis-attica-1180-whole-island-south-view-review-v1",
+      "name": "salamis_attica_1180_whole_island_south_view_review_v1",
+      "display_title": "salamis_attica_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/salamis-attica-1180-whole-island-south-view-review-v1-4c80c538db77.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch24_whole_island_1180_review/salamis_attica_1180_whole_island_south_view_review_v1.png",
+        "sha256": "7dfe1c3a882a50538523ed0979be5e5bd901b7a2de126a6e52935188ea25d11e",
+        "crop_xyxy": [
+          0,
+          0,
+          755,
+          436
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          755,
+          436
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          747,
+          428
+        ],
+        "pixel_sha256": "4c80c538db77c999f44865c39b424afb85d6bf98dd7aa07a1c1b67f0fcb9499b",
+        "sha256": "7dfe1c3a882a50538523ed0979be5e5bd901b7a2de126a6e52935188ea25d11e",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -19793,6 +21233,102 @@
         ],
         "pixel_sha256": "4f44c29e66829975886adf5e5a406bae9e61c2e4fd81cbe7165b68e5a91c3a59",
         "sha256": "3301c6237027796d9aabc007e9d7c51731438321f54dbab054719080135f518f",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-4f519ac44c2fe67b3d85",
+      "site_id": "chios-1180-whole-island-south-view-review-v1",
+      "name": "chios_1180_whole_island_south_view_review_v1",
+      "display_title": "chios_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/chios-1180-whole-island-south-view-review-v1-4f519ac44c2f.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch28_whole_island_1180_review (1)/chios_1180_whole_island_south_view_review_v1.png",
+        "sha256": "10312fd50c4e268db4c63871decae7a4de1ec429ca9a0026a91daebf34f4500d",
+        "crop_xyxy": [
+          0,
+          0,
+          499,
+          523
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          499,
+          523
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          489,
+          513
+        ],
+        "pixel_sha256": "4f519ac44c2fe67b3d85d811a3f98eaadf6c042259f4fc9fc7647bf659e52f9d",
+        "sha256": "10312fd50c4e268db4c63871decae7a4de1ec429ca9a0026a91daebf34f4500d",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -28024,6 +29560,102 @@
       ]
     },
     {
+      "id": "INTAKE-70ffebba213ca42ef8b9",
+      "site_id": "spetses-1180-whole-island-south-view-review-v1",
+      "name": "spetses_1180_whole_island_south_view_review_v1",
+      "display_title": "spetses_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/spetses-1180-whole-island-south-view-review-v1-70ffebba213c.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch25_whole_island_1180_review/spetses_1180_whole_island_south_view_review_v1.png",
+        "sha256": "7b54935dbac5784844d96b058ea9df26d6ce18df1b168776d39bba034de36350",
+        "crop_xyxy": [
+          0,
+          0,
+          876,
+          341
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          876,
+          341
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          12,
+          12,
+          864,
+          329
+        ],
+        "pixel_sha256": "70ffebba213ca42ef8b97a1dd45fb93677cc933a76f508f72c096c3cf4e88cff",
+        "sha256": "7b54935dbac5784844d96b058ea9df26d6ce18df1b168776d39bba034de36350",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-7260262e383f2e6debc2",
       "site_id": "11-greek-cyprus-anatolia-levant-lowlands-06",
       "name": "11_greek_cyprus_anatolia_levant_lowlands_06",
@@ -28696,6 +30328,198 @@
       ]
     },
     {
+      "id": "INTAKE-742d06b18369e6666332",
+      "site_id": "lefkada-1180-whole-island-south-view-review-v1",
+      "name": "lefkada_1180_whole_island_south_view_review_v1",
+      "display_title": "lefkada_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/lefkada-1180-whole-island-south-view-review-v1-742d06b18369.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch26_whole_island_1180_review/lefkada_1180_whole_island_south_view_review_v1.png",
+        "sha256": "3bc11e88b9446e8e3c15b57ea953072029c7792bff212adb48fb2f86183576c2",
+        "crop_xyxy": [
+          0,
+          0,
+          445,
+          569
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          445,
+          569
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          3,
+          3,
+          442,
+          566
+        ],
+        "pixel_sha256": "742d06b18369e6666332ee33e64fe79233d184dc61241913b6f4907dda6bf55e",
+        "sha256": "3bc11e88b9446e8e3c15b57ea953072029c7792bff212adb48fb2f86183576c2",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-7570f203f6aef661f066",
+      "site_id": "aegina-1180-whole-island-south-view-review-v1",
+      "name": "aegina_1180_whole_island_south_view_review_v1",
+      "display_title": "aegina_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/aegina-1180-whole-island-south-view-review-v1-7570f203f6ae.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch24_whole_island_1180_review/aegina_1180_whole_island_south_view_review_v1.png",
+        "sha256": "0aa6676dfdfe8765920a2ed810e0648c83db8d966580aa5fd345849ebdf0392d",
+        "crop_xyxy": [
+          0,
+          0,
+          703,
+          474
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          703,
+          474
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          695,
+          466
+        ],
+        "pixel_sha256": "7570f203f6aef661f0661f42808c5a0cd34c40cb1de4b307f243b82ca13417cf",
+        "sha256": "0aa6676dfdfe8765920a2ed810e0648c83db8d966580aa5fd345849ebdf0392d",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-757a8049c4c9141216a1",
       "site_id": "94-dia-concept",
       "name": "94_dia_CONCEPT",
@@ -29176,6 +31000,102 @@
       ]
     },
     {
+      "id": "INTAKE-77ad27c2ab4c57744457",
+      "site_id": "telendos-1180-whole-island-south-view-review-v1",
+      "name": "telendos_1180_whole_island_south_view_review_v1",
+      "display_title": "telendos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/telendos-1180-whole-island-south-view-review-v1-77ad27c2ab4c.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_batch30_retry_part2/telendos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "d927d2fac291ea2dde016d40df681df6e1522378519a981c92ed11f5d8ae77e0",
+        "crop_xyxy": [
+          0,
+          0,
+          742,
+          490
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          742,
+          490
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          5,
+          5,
+          737,
+          485
+        ],
+        "pixel_sha256": "77ad27c2ab4c57744457bf98db1234004aa702cb4aa194f7b5bcdbd409a8227c",
+        "sha256": "d927d2fac291ea2dde016d40df681df6e1522378519a981c92ed11f5d8ae77e0",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-77b41bca5e79c2e3c1aa",
       "site_id": "qal-at-najm",
       "name": "Qal’at Najm",
@@ -29541,6 +31461,102 @@
         ],
         "pixel_sha256": "78d10de18bf720bd84374c43f9a04b008aa4d260a4c755e23a79f980129c7e49",
         "sha256": "47ec7e7205e48a114a46b28836c898027bf12ee4533f0d3dd681feccaac28d21",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-78d6db9101a53cb7cb4a",
+      "site_id": "lesbos-1180-whole-island-south-view-review-v1",
+      "name": "lesbos_1180_whole_island_south_view_review_v1",
+      "display_title": "lesbos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/lesbos-1180-whole-island-south-view-review-v1-78d6db9101a5.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch28_whole_island_1180_review (1)/lesbos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "a3586d8187ea45cf4270046e1f68af207d7383eb2b9369ce0a7ee5248901870c",
+        "crop_xyxy": [
+          0,
+          0,
+          922,
+          458
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          922,
+          458
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          9,
+          10,
+          912,
+          448
+        ],
+        "pixel_sha256": "78d6db9101a53cb7cb4a1008c36e3c515345b3f5bbafb4b2caecd3e065ee63fd",
+        "sha256": "a3586d8187ea45cf4270046e1f68af207d7383eb2b9369ce0a7ee5248901870c",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -30604,6 +32620,102 @@
       ]
     },
     {
+      "id": "INTAKE-7cdaca6e4e022d71f043",
+      "site_id": "antiparos-1180-whole-island-south-view-review-v1",
+      "name": "antiparos_1180_whole_island_south_view_review_v1",
+      "display_title": "antiparos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/antiparos-1180-whole-island-south-view-review-v1-7cdaca6e4e02.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_batch30_retry_part1/antiparos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "b06150af90179f2374d296752c276c34b99494c69a80e9b198f767e89239a8cb",
+        "crop_xyxy": [
+          0,
+          0,
+          749,
+          494
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          749,
+          494
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          5,
+          5,
+          744,
+          493
+        ],
+        "pixel_sha256": "7cdaca6e4e022d71f04312f60ba8b71883f99b5246c2911b975c79c7979134db",
+        "sha256": "b06150af90179f2374d296752c276c34b99494c69a80e9b198f767e89239a8cb",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-7d28e59627c73066a605",
       "site_id": "90-sapientza-concept",
       "name": "90_sapientza_CONCEPT",
@@ -31063,6 +33175,102 @@
         ],
         "pixel_sha256": "7e4131c46989172f3d709c5eb96dfd70522f5e8f5f90a7eae5bc4fb8a9b6a96d",
         "sha256": "9e63121e81d08cb31e62a8fc86fef17e2a1426b7384341e3bcedf521f8115b77",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-7e41769e1e0131c3d83b",
+      "site_id": "kastellorizo-megisti-1180-whole-island-south-view-review-v1",
+      "name": "kastellorizo_megisti_1180_whole_island_south_view_review_v1",
+      "display_title": "kastellorizo_megisti_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/kastellorizo-megisti-1180-whole-island-south-view-review-v1-7e41769e1e01.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch23_whole_island_1180_review/kastellorizo_megisti_1180_whole_island_south_view_review_v1.png",
+        "sha256": "3d1694fe012305a28d764826fec2915b1d734fb3e6c57fccbb5444f52d733e45",
+        "crop_xyxy": [
+          0,
+          0,
+          749,
+          474
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          749,
+          474
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          3,
+          0,
+          739,
+          464
+        ],
+        "pixel_sha256": "7e41769e1e0131c3d83b29b01a42573ba5854ead316f4fc58b6e38965ee37bf6",
+        "sha256": "3d1694fe012305a28d764826fec2915b1d734fb3e6c57fccbb5444f52d733e45",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -33382,6 +35590,198 @@
       ]
     },
     {
+      "id": "INTAKE-864900ef48118f0d218c",
+      "site_id": "kasos-1180-whole-island-south-view-review-v1",
+      "name": "kasos_1180_whole_island_south_view_review_v1",
+      "display_title": "kasos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/kasos-1180-whole-island-south-view-review-v1-864900ef4811.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch27_whole_island_1180_review/kasos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "d5bb99226745c1f584489553b01483d09c5f5874dcef71930084ba8a968efcb9",
+        "crop_xyxy": [
+          0,
+          0,
+          768,
+          349
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          768,
+          349
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          760,
+          341
+        ],
+        "pixel_sha256": "864900ef48118f0d218c4029ca4a961f9ca0f2626e6d99077956e4ab44cf9a05",
+        "sha256": "d5bb99226745c1f584489553b01483d09c5f5874dcef71930084ba8a968efcb9",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-865fcdd33e2ee3d6da3f",
+      "site_id": "ios-1180-whole-island-south-view-review-v1",
+      "name": "ios_1180_whole_island_south_view_review_v1",
+      "display_title": "ios_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/ios-1180-whole-island-south-view-review-v1-865fcdd33e2e.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch20_whole_island_1180_review/ios_1180_whole_island_south_view_review_v1.png",
+        "sha256": "890436e7babe06bf5f83fe3cb18b430c85bc925a88bb9b0dfe2859aae3ef9c80",
+        "crop_xyxy": [
+          0,
+          0,
+          571,
+          527
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          571,
+          527
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          13,
+          13,
+          558,
+          524
+        ],
+        "pixel_sha256": "865fcdd33e2ee3d6da3f8c0f097f9659efc4f2f9561c399a43b31d3371843f73",
+        "sha256": "890436e7babe06bf5f83fe3cb18b430c85bc925a88bb9b0dfe2859aae3ef9c80",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-86693319d4296ee55365",
       "site_id": "t27-19-alpine-transition",
       "name": "t27_19_alpine_transition",
@@ -33655,6 +36055,102 @@
         ],
         "pixel_sha256": "8837c583604bd9ae8352c08f4f75e9f4eeea9d99aa46fc8955e612fc0952cc50",
         "sha256": "138639bf68cbcd2bf21bc509bbea9ef369bfc5af0d4fcc8cd78ac3d99db852ee",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-8861491f6266ef4ed085",
+      "site_id": "corfu-1180-whole-island-south-view-review-v1",
+      "name": "corfu_1180_whole_island_south_view_review_v1",
+      "display_title": "corfu_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/corfu-1180-whole-island-south-view-review-v1-8861491f6266.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch28_whole_island_1180_review (1)/corfu_1180_whole_island_south_view_review_v1.png",
+        "sha256": "972420c1e39f55c95ee018c30721572749f6a4c9e433490a8b57fdcd2c527b80",
+        "crop_xyxy": [
+          0,
+          0,
+          635,
+          513
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          635,
+          513
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          625,
+          503
+        ],
+        "pixel_sha256": "8861491f6266ef4ed08512ab6146905ceaeb8c5de8ec11c2e96bfe96e15a753d",
+        "sha256": "972420c1e39f55c95ee018c30721572749f6a4c9e433490a8b57fdcd2c527b80",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -34127,6 +36623,102 @@
         ],
         "pixel_sha256": "8a6cd66b55ece220c8d172fa0dcd4894dfb3c3cada8027d9d7dd4dd4dc7eec8c",
         "sha256": "ad9e6e01bdeb350d706d3cdbbc1285bd5b7260604d55f0aa03ddec3fe9888b9f",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-8a70eb4bb0fc6ec19bde",
+      "site_id": "euboea-1180-whole-island-south-view-review-v1",
+      "name": "euboea_1180_whole_island_south_view_review_v1",
+      "display_title": "euboea_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/euboea-1180-whole-island-south-view-review-v1-8a70eb4bb0fc.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch27_whole_island_1180_review/euboea_1180_whole_island_south_view_review_v1.png",
+        "sha256": "aceaa49c4a1924007956c35b5c30d31dac8c1a103124becdfa30a2f4e719bc81",
+        "crop_xyxy": [
+          0,
+          0,
+          871,
+          519
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          871,
+          519
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          7,
+          8,
+          863,
+          511
+        ],
+        "pixel_sha256": "8a70eb4bb0fc6ec19bdedc32ce575eeaaad99515f518aebf7b108a0a7b36ad8b",
+        "sha256": "aceaa49c4a1924007956c35b5c30d31dac8c1a103124becdfa30a2f4e719bc81",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -35374,6 +37966,102 @@
       ]
     },
     {
+      "id": "INTAKE-9280f5de69688a10888e",
+      "site_id": "samothrace-1180-whole-island-south-view-review-v1",
+      "name": "samothrace_1180_whole_island_south_view_review_v1",
+      "display_title": "samothrace_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/samothrace-1180-whole-island-south-view-review-v1-9280f5de6968.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch26_whole_island_1180_review/samothrace_1180_whole_island_south_view_review_v1.png",
+        "sha256": "841d36670c774d689533edbeabd24fbcf2f427367845ed12a6e0f8ca96301812",
+        "crop_xyxy": [
+          0,
+          0,
+          794,
+          484
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          794,
+          484
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          3,
+          3,
+          791,
+          481
+        ],
+        "pixel_sha256": "9280f5de69688a10888e44d15969ad7d798c52eb97588ee418556b34fed898b8",
+        "sha256": "841d36670c774d689533edbeabd24fbcf2f427367845ed12a6e0f8ca96301812",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-92d2342a4c0e9e7fd0ef",
       "site_id": "b32-03-07-wooded-lowland",
       "name": "b32_03_07_wooded_lowland",
@@ -35559,6 +38247,102 @@
       "repaint_required": false,
       "review_flags": [
         "coordinates_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-940e9c1ca64fc4e1c25b",
+      "site_id": "antipaxos-1180-whole-island-south-view-review-v1",
+      "name": "antipaxos_1180_whole_island_south_view_review_v1",
+      "display_title": "antipaxos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/antipaxos-1180-whole-island-south-view-review-v1-940e9c1ca64f.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch25_whole_island_1180_review/antipaxos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "57c5031c9658240ab1f11c13c504f7daa453ef041441e9cd5ccaea02d99b2461",
+        "crop_xyxy": [
+          0,
+          0,
+          560,
+          408
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          560,
+          408
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          12,
+          12,
+          548,
+          396
+        ],
+        "pixel_sha256": "940e9c1ca64fc4e1c25b96b060d053e22ee46e634be786a5b171fe1b8518efb2",
+        "sha256": "57c5031c9658240ab1f11c13c504f7daa453ef041441e9cd5ccaea02d99b2461",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
       ]
     },
     {
@@ -37192,6 +39976,102 @@
       ]
     },
     {
+      "id": "INTAKE-9d88ff9719532be6926e",
+      "site_id": "irakleia-1180-whole-island-south-view-review-v1",
+      "name": "irakleia_1180_whole_island_south_view_review_v1",
+      "display_title": "irakleia_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/irakleia-1180-whole-island-south-view-review-v1-9d88ff971953.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch22_whole_island_1180_review/irakleia_1180_whole_island_south_view_review_v1.png",
+        "sha256": "150a2aaabcc0d3418a256925fab6c133cb353bbb51217f16adb7308dcdbd7603",
+        "crop_xyxy": [
+          0,
+          0,
+          718,
+          488
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          718,
+          488
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          710,
+          480
+        ],
+        "pixel_sha256": "9d88ff9719532be6926ea6eb2daecb244966854a69ceb9577ee0ea042648b2f8",
+        "sha256": "150a2aaabcc0d3418a256925fab6c133cb353bbb51217f16adb7308dcdbd7603",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-9dad8c3026adc9619cac",
       "site_id": "lowland-20261113-09-coastal-rural-variants-r04-c02",
       "name": "lowland-20261113-09_coastal_rural_variants_r04_c02",
@@ -37553,6 +40433,102 @@
         ],
         "pixel_sha256": "9f3183dbbc7c3aa4784dd357c8d84fc9ab86fe7c6f1e11080c51dc22b82c03a1",
         "sha256": "faf6555192beda8ac73448e21737add81b2569b16f1d16a02a89e8cad69a77da",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-9f6ca9d23f7f0d4304e2",
+      "site_id": "paxos-1180-whole-island-south-view-review-v1",
+      "name": "paxos_1180_whole_island_south_view_review_v1",
+      "display_title": "paxos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/paxos-1180-whole-island-south-view-review-v1-9f6ca9d23f7f.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch25_whole_island_1180_review/paxos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "b3ebbac43ecafeba431fac441382d08b120ad656fbd637b0c0c706328b3fe2c4",
+        "crop_xyxy": [
+          0,
+          0,
+          646,
+          685
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          646,
+          685
+        ],
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "painted_bounds_xyxy": [
+          12,
+          12,
+          634,
+          673
+        ],
+        "pixel_sha256": "9f6ca9d23f7f0d4304e2b54e1dbec757ebc29527d02c776d199676cb1cc4b8cf",
+        "sha256": "b3ebbac43ecafeba431fac441382d08b120ad656fbd637b0c0c706328b3fe2c4",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -37931,6 +40907,102 @@
         ],
         "pixel_sha256": "a03fb76a369e99eccafe8534592c529a4045e6dcb0839329c3ecfd4bcea70d08",
         "sha256": "4adff125b20a3a660f10a9a860a9345df152d3d614287645c937595c51badac5",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-a06bd77460e78e233655",
+      "site_id": "tilos-1180-whole-island-south-view-review-v1",
+      "name": "tilos_1180_whole_island_south_view_review_v1",
+      "display_title": "tilos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/tilos-1180-whole-island-south-view-review-v1-a06bd77460e7.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch29_whole_island_1180_review/tilos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "00d9005107f712eef114a277ff5da81e372824fff1d524dfd5eedbe2f59b460b",
+        "crop_xyxy": [
+          0,
+          0,
+          711,
+          506
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          711,
+          506
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          12,
+          11,
+          699,
+          494
+        ],
+        "pixel_sha256": "a06bd77460e78e23365507e0b8c176c638993faf97016a114cbeda332e88b1b6",
+        "sha256": "00d9005107f712eef114a277ff5da81e372824fff1d524dfd5eedbe2f59b460b",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -40324,6 +43396,102 @@
       ]
     },
     {
+      "id": "INTAKE-ac92275ee745ac70f016",
+      "site_id": "donousa-1180-whole-island-south-view-review-v1",
+      "name": "donousa_1180_whole_island_south_view_review_v1",
+      "display_title": "donousa_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/donousa-1180-whole-island-south-view-review-v1-ac92275ee745.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch22_whole_island_1180_review/donousa_1180_whole_island_south_view_review_v1.png",
+        "sha256": "f2da54ee1bd6a105b8af414c6f3282d75afa37db24f7f55c64670db7a42ec0a6",
+        "crop_xyxy": [
+          0,
+          0,
+          735,
+          473
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          735,
+          473
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          727,
+          465
+        ],
+        "pixel_sha256": "ac92275ee745ac70f016397f0beea590dd4d83b7633f45e7b0482a6b858d0334",
+        "sha256": "f2da54ee1bd6a105b8af414c6f3282d75afa37db24f7f55c64670db7a42ec0a6",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-aca0ad7b1e48c09787eb",
       "site_id": "source-sheet-rgb-checkerboard",
       "name": "source_sheet_rgb_checkerboard",
@@ -41086,6 +44254,102 @@
       ]
     },
     {
+      "id": "INTAKE-b11937b261db8eb8a9c0",
+      "site_id": "sikinos-1180-whole-island-south-view-review-v1",
+      "name": "sikinos_1180_whole_island_south_view_review_v1",
+      "display_title": "sikinos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/sikinos-1180-whole-island-south-view-review-v1-b11937b261db.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch22_whole_island_1180_review/sikinos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "78237d1b6d739b33da29493f0687c776886f77ab7de99c8d5c55490356df53c2",
+        "crop_xyxy": [
+          0,
+          0,
+          739,
+          511
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          739,
+          511
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          731,
+          511
+        ],
+        "pixel_sha256": "b11937b261db8eb8a9c03f2d4cf857a9670bea5cc3f4480509ba7d719b7cb5d1",
+        "sha256": "78237d1b6d739b33da29493f0687c776886f77ab7de99c8d5c55490356df53c2",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-b1335fb7ad715637d8ec",
       "site_id": "shaizar",
       "name": "Shaizar",
@@ -41639,6 +44903,102 @@
         ],
         "pixel_sha256": "b470121cb7e75f4700e0ec1d67ea2c995f838f7031ce0efdf91451baf340a094",
         "sha256": "1e006ad2b337bc1c046a351a45073e5055c01aeab9e5b7b4a38e7229f340d02d",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-b4af7c06f2068373c203",
+      "site_id": "koufonisia-ano-kato-1180-whole-islands-south-view-review-v1",
+      "name": "koufonisia_ano_kato_1180_whole_islands_south_view_review_v1",
+      "display_title": "koufonisia_ano_kato_1180_whole_islands_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/koufonisia-ano-kato-1180-whole-islands-south-view-review-v1-b4af7c06f206.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch23_whole_island_1180_review/koufonisia_ano_kato_1180_whole_islands_south_view_review_v1.png",
+        "sha256": "ca896e7c556e443dc8abd4d235f9100a5118801854d286be26dbf318e2cdca44",
+        "crop_xyxy": [
+          0,
+          0,
+          722,
+          454
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          722,
+          454
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          712,
+          444
+        ],
+        "pixel_sha256": "b4af7c06f2068373c20394888e5577b42ae43199db05fd36d8923fce945d012e",
+        "sha256": "ca896e7c556e443dc8abd4d235f9100a5118801854d286be26dbf318e2cdca44",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -46232,6 +49592,102 @@
       ]
     },
     {
+      "id": "INTAKE-c712cda6c87ff6812bbf",
+      "site_id": "schinoussa-1180-whole-island-south-view-review-v1",
+      "name": "schinoussa_1180_whole_island_south_view_review_v1",
+      "display_title": "schinoussa_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/schinoussa-1180-whole-island-south-view-review-v1-c712cda6c87f.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch22_whole_island_1180_review/schinoussa_1180_whole_island_south_view_review_v1.png",
+        "sha256": "8367287d73fc5e83b3bf6f9f63843ce6d834d985cbb2ec7fbd4c73c5b8afde01",
+        "crop_xyxy": [
+          0,
+          0,
+          754,
+          470
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          754,
+          470
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          746,
+          462
+        ],
+        "pixel_sha256": "c712cda6c87ff6812bbfcb10167295026f2ad963f8ca559cdae1cdb2f2816d74",
+        "sha256": "8367287d73fc5e83b3bf6f9f63843ce6d834d985cbb2ec7fbd4c73c5b8afde01",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-c7539191e6c9156ad4d5",
       "site_id": "t27-02-reed-marsh-transition",
       "name": "t27_02_reed_marsh_transition",
@@ -46879,6 +50335,198 @@
         ],
         "pixel_sha256": "cd0e74d685d4b7c5ec4de3dab30ad398b0ff0a00aeb13b9cf80ed6d00bf9c808",
         "sha256": "b207a89e916197f19553760ec2ec9fd9bc325211d6efe1ab32d002518292138a",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-cd687d0eb4dd9a727392",
+      "site_id": "rhenia-rheneia-1180-whole-island-south-view-review-v1",
+      "name": "rhenia_rheneia_1180_whole_island_south_view_review_v1",
+      "display_title": "rhenia_rheneia_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/rhenia-rheneia-1180-whole-island-south-view-review-v1-cd687d0eb4dd.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_batch30_retry_part1/rhenia_rheneia_1180_whole_island_south_view_review_v1.png",
+        "sha256": "9fafa5902bb0602ae0d140e10e5b95c0352f52ca23347b90d3dabc35aeed8951",
+        "crop_xyxy": [
+          0,
+          0,
+          738,
+          304
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          738,
+          304
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          5,
+          5,
+          733,
+          299
+        ],
+        "pixel_sha256": "cd687d0eb4dd9a72739290a19f2ef97d5310b66b2e023f177c9bc8d4ae84f798",
+        "sha256": "9fafa5902bb0602ae0d140e10e5b95c0352f52ca23347b90d3dabc35aeed8951",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-cdde02d666266259b973",
+      "site_id": "poros-kalavria-sferia-1180-whole-islands-south-view-review-v1",
+      "name": "poros_kalavria_sferia_1180_whole_islands_south_view_review_v1",
+      "display_title": "poros_kalavria_sferia_1180_whole_islands_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/poros-kalavria-sferia-1180-whole-islands-south-view-review-v1-cdde02d66626.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch24_whole_island_1180_review/poros_kalavria_sferia_1180_whole_islands_south_view_review_v1.png",
+        "sha256": "0fe4fd890d0a4910153e465c23fa7a06061908cfae7c8656381ef6491bf65114",
+        "crop_xyxy": [
+          0,
+          0,
+          737,
+          465
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          737,
+          465
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          8,
+          8,
+          729,
+          457
+        ],
+        "pixel_sha256": "cdde02d666266259b9731e31f910487aefe3f52af86902f7cf768dd76dcf3c16",
+        "sha256": "0fe4fd890d0a4910153e465c23fa7a06061908cfae7c8656381ef6491bf65114",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -50342,6 +53990,102 @@
       ]
     },
     {
+      "id": "INTAKE-dcef6a63825dedd88aa6",
+      "site_id": "alonissos-1180-whole-island-south-view-review-v1",
+      "name": "alonissos_1180_whole_island_south_view_review_v1",
+      "display_title": "alonissos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/alonissos-1180-whole-island-south-view-review-v1-dcef6a63825d.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch26_whole_island_1180_review/alonissos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "1668832511797a0a10dd6b6e07ea83a7cd0b63af8d273424aff43c413427624d",
+        "crop_xyxy": [
+          0,
+          0,
+          669,
+          467
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          669,
+          467
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          3,
+          3,
+          666,
+          464
+        ],
+        "pixel_sha256": "dcef6a63825dedd88aa60b8de95204d5ad92d99e94bc60a8a4f545253d3fded6",
+        "sha256": "1668832511797a0a10dd6b6e07ea83a7cd0b63af8d273424aff43c413427624d",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-dd95379c2fd894980b30",
       "site_id": "generic-cattle-enclosure",
       "name": "Cattle enclosure and shelter",
@@ -51776,6 +55520,198 @@
       ]
     },
     {
+      "id": "INTAKE-e37b59b20f9a3efe7fd1",
+      "site_id": "kalymnos-1180-whole-island-south-view-review-v1",
+      "name": "kalymnos_1180_whole_island_south_view_review_v1",
+      "display_title": "kalymnos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/kalymnos-1180-whole-island-south-view-review-v1-e37b59b20f9a.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch29_whole_island_1180_review/kalymnos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "6f848592cfc276f0f282ab4f3affab82f533e46f7f16292349d529196aeb4520",
+        "crop_xyxy": [
+          0,
+          0,
+          699,
+          510
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          699,
+          510
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          12,
+          8,
+          687,
+          498
+        ],
+        "pixel_sha256": "e37b59b20f9a3efe7fd1e706237e401aa1b244853f07fdb1b026ca40e8869842",
+        "sha256": "6f848592cfc276f0f282ab4f3affab82f533e46f7f16292349d529196aeb4520",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-e38a0c785590bdfe867e",
+      "site_id": "agistri-1180-whole-island-south-view-review-v1",
+      "name": "agistri_1180_whole_island_south_view_review_v1",
+      "display_title": "agistri_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/agistri-1180-whole-island-south-view-review-v1-e38a0c785590.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch25_whole_island_1180_review/agistri_1180_whole_island_south_view_review_v1.png",
+        "sha256": "d8a48cb6cdca5327a264bd5a1915094fa3b5027320d665a45f3885c56c4a1e21",
+        "crop_xyxy": [
+          0,
+          0,
+          650,
+          423
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          650,
+          423
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          12,
+          12,
+          638,
+          411
+        ],
+        "pixel_sha256": "e38a0c785590bdfe867e345f71f1b7413d1f61648289bb9c744b01722c20c850",
+        "sha256": "d8a48cb6cdca5327a264bd5a1915094fa3b5027320d665a45f3885c56c4a1e21",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-e3b6a89346ac619b96ac",
       "site_id": "b16-03-walled-abbey-generic",
       "name": "B16-03_walled_abbey_generic",
@@ -52248,6 +56184,102 @@
       ]
     },
     {
+      "id": "INTAKE-e6ff294c30d75519b7cd",
+      "site_id": "rhodes-1180-whole-island-south-view-review-v1",
+      "name": "rhodes_1180_whole_island_south_view_review_v1",
+      "display_title": "rhodes_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/rhodes-1180-whole-island-south-view-review-v1-e6ff294c30d7.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch28_whole_island_1180_review (1)/rhodes_1180_whole_island_south_view_review_v1.png",
+        "sha256": "1e71412034f2fef7bb44e1d3d0ec56cbfe42435c1b044d23b91c192f464a8221",
+        "crop_xyxy": [
+          0,
+          0,
+          749,
+          525
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          749,
+          525
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          10,
+          10,
+          739,
+          515
+        ],
+        "pixel_sha256": "e6ff294c30d75519b7cdb247358f3edfcae5998b31fbb918dbbd3be28862ce46",
+        "sha256": "1e71412034f2fef7bb44e1d3d0ec56cbfe42435c1b044d23b91c192f464a8221",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-e74b6a869462c5f4de1f",
       "site_id": "qadmus",
       "name": "Qadmus",
@@ -52628,6 +56660,102 @@
       ]
     },
     {
+      "id": "INTAKE-e88ea237483ead976765",
+      "site_id": "nisyros-1180-whole-island-south-view-review-v1",
+      "name": "nisyros_1180_whole_island_south_view_review_v1",
+      "display_title": "nisyros_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/nisyros-1180-whole-island-south-view-review-v1-e88ea237483e.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch21_whole_island_1180_review/batch21/nisyros_1180_whole_island_south_view_review_v1.png",
+        "sha256": "49383e148a18caae6118426443cc707b9967adf82ccb31dd4632b94f47895d3b",
+        "crop_xyxy": [
+          0,
+          0,
+          734,
+          520
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          734,
+          520
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          12,
+          11,
+          726,
+          508
+        ],
+        "pixel_sha256": "e88ea237483ead976765dfee312bea71eb84a47efb790b5bab4b433cddec9e99",
+        "sha256": "49383e148a18caae6118426443cc707b9967adf82ccb31dd4632b94f47895d3b",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-e8c0db4a6825ba0c9e59",
       "site_id": "lowland-20261113-06-delta-coastal-transitions-r02-c02",
       "name": "lowland-20261113-06_delta_coastal_transitions_r02_c02",
@@ -52993,6 +57121,102 @@
         ],
         "pixel_sha256": "e922a20938cc58c1a31ef6e3edccb342b2d8083bfed9f0080494b676bef03cd6",
         "sha256": "765d06f7419cdb513fccb723cacf3f5b81d0872d26b7c9c7d4521faf4e5f974e",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-e995cb24b25073461fb5",
+      "site_id": "amorgos-1180-whole-island-south-view-review-v1",
+      "name": "amorgos_1180_whole_island_south_view_review_v1",
+      "display_title": "amorgos_1180_whole_island_south_view_review_v1",
+      "category": "unclassified",
+      "asset": "automated-intake/png/amorgos-1180-whole-island-south-view-review-v1-e995cb24b250.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_small_islands_batch20_whole_island_1180_review/amorgos_1180_whole_island_south_view_review_v1.png",
+        "sha256": "57743e25aad8756548d5d3ccf96709a7383ad144ed811007d52f290a3f48d3f8",
+        "crop_xyxy": [
+          0,
+          0,
+          909,
+          527
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          909,
+          527
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "painted_bounds_xyxy": [
+          13,
+          13,
+          907,
+          514
+        ],
+        "pixel_sha256": "e995cb24b25073461fb59c1038f494dd81893423fa065e471906796a331b11b9",
+        "sha256": "57743e25aad8756548d5d3ccf96709a7383ad144ed811007d52f290a3f48d3f8",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
