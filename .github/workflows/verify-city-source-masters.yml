@@ -1,0 +1,27 @@
+name: Verify five city source masters
+on:
+  pull_request:
+    paths:
+      - 'data/sprites/city-review-2026-11-10/source_sheets/**'
+      - 'tools/verify_city_source_masters.py'
+      - '.github/workflows/verify-city-source-masters.yml'
+  push:
+    branches: ['recovery/city-masters-nov13-2026']
+    paths:
+      - 'data/sprites/city-review-2026-11-10/source_sheets/**'
+      - 'tools/verify_city_source_masters.py'
+      - '.github/workflows/verify-city-source-masters.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify source archive and all five original sheets
+        run: python tools/verify_city_source_masters.py
