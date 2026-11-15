@@ -7,6 +7,10 @@ from __future__ import annotations
 from pathlib import Path
 import json
 import math
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
