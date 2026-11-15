@@ -22,3 +22,10 @@ This is a non-destructive **render-time** recolor of existing sea art. It does n
 5. After visual approval, merge PR and rebuild the full composite.
 
 Do not equate a proposed palette or successful source commit with a completed print-quality map rebuild.
+
+
+## Owner visual acceptance and main rebuild integration (2026-11-15)
+The owner approved the sea appearance after reviewing GitHub Actions run 43731295324.
+The azure grading code was merged with PR #53. Commit `657d2be0349020b7add8533426d899d00397eb34` integrates the same provisional harbor water mask generation into `.github/workflows/rebuild-current-map.yml` **before** the normal composite render. This makes the reviewed visual treatment reproducible in Actions without editing source PNGs.
+
+**Scope of approval:** sea hue/gradient and the displayed review treatment. Automatically generated per-sprite masks have not been individually inspected or print-approved. The build publishes `reports/rebuild-2026-11-12/harbor-water-mask-report.json` and the harbor comparison gallery for further QA. Preserve provisional status until individual masks are reviewed. The normal map rebuild's success and full-scale artifact still require confirmation.
