@@ -163,6 +163,13 @@ def run():
         "records": items,
     }
     AUDIT.write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    for i, rec in enumerate(items):
+        print("CUTOUT-QA", f"{i+1:02d}", rec["source_group"],
+              rec.get("native_mode"), rec.get("native_size"),
+              "transparent", rec.get("transparent_fraction"),
+              "edge", rec.get("opaque_boundary_fraction"),
+              "blue", rec.get("blue_teal_visible_fraction"),
+              "status", rec["render_status"], rec.get("hold_reason"))
     print("LOWLAND-51 AUDIT", json.dumps(out["summary"], indent=2))
     return out
 
