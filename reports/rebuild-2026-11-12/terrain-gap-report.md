@@ -4,42 +4,36 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 
 | Zone | Land cells | Flat | Thin | Share flat or thin |
 |---|---:|---:|---:|---:|
-| Egypt inset: Western and Eastern deserts | 163 | 4 | 21 | 15% |
-| Egypt inset: Sinai | 185 | 4 | 19 | 12% |
-| Lebanon and Damascus | 39 | 0 | 3 | 8% |
-| Negev, Sinai, Arabah | 62 | 2 | 2 | 6% |
-| North Syria (Antioch, Aleppo) | 63 | 1 | 3 | 6% |
+| Egypt inset: Western and Eastern deserts | 163 | 2 | 18 | 12% |
+| Egypt inset: Sinai | 185 | 2 | 13 | 8% |
 | Aegean inset: islands and Crete | 16 | 0 | 1 | 6% |
-| Syrian desert | 33 | 0 | 2 | 6% |
-| Egypt inset: Delta | 51 | 0 | 3 | 6% |
-| Cyprus | 25 | 0 | 1 | 4% |
-| Aegean inset: Anatolia and Thrace | 119 | 0 | 4 | 3% |
+| Lebanon and Damascus | 39 | 0 | 2 | 5% |
+| Negev, Sinai, Arabah | 62 | 1 | 2 | 5% |
+| Syrian desert | 33 | 0 | 1 | 3% |
 | Aegean inset: Greece and the Balkans | 105 | 0 | 3 | 3% |
-| Cilicia and the Taurus | 140 | 1 | 2 | 2% |
+| Egypt inset: Delta | 51 | 0 | 1 | 2% |
+| Aegean inset: Anatolia and Thrace | 119 | 0 | 2 | 2% |
+| North Syria (Antioch, Aleppo) | 63 | 1 | 0 | 2% |
+| Cilicia and the Taurus | 140 | 0 | 1 | 1% |
 | Transjordan and Hauran | 153 | 0 | 1 | 1% |
 | other | 40 | 0 | 0 | 0% |
 | Upper Mesopotamia | 8 | 0 | 0 | 0% |
+| Cyprus | 25 | 0 | 0 | 0% |
 | Syrian coast and Orontes | 33 | 0 | 0 | 0% |
 | Galilee, Samaria, Judea | 53 | 0 | 0 | 0% |
 
-Whole sheet: 1288 land cells, 12 flat, 65 thin (6% flat or thin).
+Whole sheet: 1288 land cells, 6 flat, 45 thin (4% flat or thin).
 
 ## Flat cells by position
 
 | Zone | Lon | Lat | Sheet x | Sheet y | Detail |
 |---|---:|---:|---:|---:|---:|
-| Cilicia and the Taurus | 35.57 | 37.72 | 7360 | 320 | 9.2 |
-| North Syria (Antioch, Aleppo) | 37.50 | 35.25 | 10240 | 4800 | 7.0 |
-| Negev, Sinai, Arabah | 34.17 | 31.04 | 5120 | 12480 | 9.5 |
-| Negev, Sinai, Arabah | 34.57 | 31.04 | 5760 | 12480 | 10.1 |
-| Egypt inset: Sinai | 32.69 | 30.68 | 2790 | 10721 | 10.7 |
-| Egypt inset: Sinai | 33.35 | 29.05 | 3390 | 12321 | 7.3 |
-| Egypt inset: Sinai | 33.35 | 28.84 | 3390 | 12521 | 11.7 |
-| Egypt inset: Sinai | 32.88 | 28.45 | 2990 | 12921 | 10.8 |
-| Egypt inset: Western and Eastern deserts | 32.21 | 29.67 | 2390 | 11721 | 4.3 |
-| Egypt inset: Western and Eastern deserts | 30.59 | 28.46 | 990 | 12921 | 9.5 |
-| Egypt inset: Western and Eastern deserts | 31.05 | 28.26 | 1390 | 13121 | 8.6 |
-| Egypt inset: Western and Eastern deserts | 31.96 | 27.85 | 2190 | 13521 | 9.5 |
+| North Syria (Antioch, Aleppo) | 37.50 | 35.25 | 10240 | 4800 | 11.7 |
+| Negev, Sinai, Arabah | 34.57 | 31.04 | 5760 | 12480 | 11.1 |
+| Egypt inset: Sinai | 32.69 | 30.68 | 2790 | 10721 | 11.0 |
+| Egypt inset: Sinai | 32.88 | 28.45 | 2990 | 12921 | 11.7 |
+| Egypt inset: Western and Eastern deserts | 32.21 | 29.67 | 2390 | 11721 | 9.1 |
+| Egypt inset: Western and Eastern deserts | 30.59 | 28.46 | 990 | 12921 | 10.4 |
 
 The thin cells are listed with the flat ones in terrain-gap-cells.csv.
 
