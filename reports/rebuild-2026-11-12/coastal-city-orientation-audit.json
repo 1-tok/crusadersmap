@@ -125,8 +125,8 @@
     {
       "site": "beirut",
       "name": "Beirut",
-      "source": "catalog",
-      "asset": "data/sprites/greece-egypt-1180-batch04/beirut-1180-v1.png",
+      "source": "approved-artwork-geographic-review-only",
+      "asset": "data/sprites/automated-intake/png/beirut-azure-1096-1600-a5c9a2af188e.png",
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
