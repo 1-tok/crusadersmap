@@ -190,6 +190,7 @@ def it_is_companion(i):
 
 
 
+# LOCKED by Daryl 2026-11-15: this composite, its offsets and the 0.85 city scale in sprites.SCALE are approved; do not change.
 # ---- Constantinople composite: water join, Asian shore and Golden Horn shore are painted around the city at the approved offsets
 _BOS = "data/sprites/greece-egypt-1180-bosphorus/"
 _COMPOSITE = (("bosphorus-water-join-1180.png", 820, (500, 42)),
