@@ -6,6 +6,8 @@ on:
     paths:
       - 'tools/build_canaan_coastal_masks.py'
       - '.github/workflows/canaan-coastal-masks.yml'
+      - 'tools/validate_canaan_coastal_masks.py'
+      - 'data/manifests/CANAAN-COASTAL-BATCH37-39-REVIEW-QUEUE-2026-11-13.json'
 jobs:
   build-masks:
     runs-on: ubuntu-latest
@@ -38,6 +40,8 @@ jobs:
           assert report['sprite_placement_authorized'] is False
           assert report['sprite_water_replacement_authorized'] is False
           PY
+      - name: Verify 12 asset holds and geographic mask integrity
+        run: python tools/validate_canaan_coastal_masks.py
       - name: Upload review artifact
         uses: actions/upload-artifact@v4
         with:
