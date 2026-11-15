@@ -4,25 +4,25 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 
 | Zone | Land cells | Flat | Thin | Share flat or thin |
 |---|---:|---:|---:|---:|
-| Egypt inset: Sinai | 185 | 6 | 23 | 16% |
+| Egypt inset: Sinai | 185 | 7 | 22 | 16% |
 | Egypt inset: Western and Eastern deserts | 163 | 6 | 19 | 15% |
 | Syrian desert | 33 | 1 | 2 | 9% |
 | Egypt inset: Delta | 51 | 1 | 3 | 8% |
+| Aegean inset: islands and Crete | 16 | 0 | 1 | 6% |
 | Lebanon and Damascus | 39 | 1 | 1 | 5% |
+| Aegean inset: Greece and the Balkans | 105 | 0 | 4 | 4% |
 | Aegean inset: Anatolia and Thrace | 119 | 0 | 4 | 3% |
 | North Syria (Antioch, Aleppo) | 63 | 1 | 1 | 3% |
 | Cilicia and the Taurus | 140 | 1 | 2 | 2% |
 | Galilee, Samaria, Judea | 53 | 0 | 1 | 2% |
 | Transjordan and Hauran | 153 | 1 | 1 | 1% |
-| Aegean inset: Greece and the Balkans | 105 | 0 | 1 | 1% |
 | other | 40 | 0 | 0 | 0% |
 | Upper Mesopotamia | 8 | 0 | 0 | 0% |
 | Cyprus | 25 | 0 | 0 | 0% |
 | Syrian coast and Orontes | 33 | 0 | 0 | 0% |
 | Negev, Sinai, Arabah | 62 | 0 | 0 | 0% |
-| Aegean inset: islands and Crete | 16 | 0 | 0 | 0% |
 
-Whole sheet: 1288 land cells, 18 flat, 58 thin (6% flat or thin).
+Whole sheet: 1288 land cells, 19 flat, 61 thin (6% flat or thin).
 
 ## Flat cells by position
 
@@ -37,6 +37,7 @@ Whole sheet: 1288 land cells, 18 flat, 58 thin (6% flat or thin).
 | Egypt inset: Sinai | 33.13 | 29.25 | 3190 | 12121 | 7.2 |
 | Egypt inset: Sinai | 33.35 | 29.05 | 3390 | 12321 | 3.3 |
 | Egypt inset: Sinai | 33.80 | 28.63 | 3790 | 12721 | 11.4 |
+| Egypt inset: Sinai | 32.88 | 28.45 | 2990 | 12921 | 10.8 |
 | Egypt inset: Sinai | 34.26 | 28.42 | 4190 | 12921 | 9.5 |
 | Egypt inset: Sinai | 32.42 | 28.25 | 2590 | 13121 | 10.6 |
 | Egypt inset: Delta | 31.04 | 30.69 | 1390 | 10721 | 11.9 |
