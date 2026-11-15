@@ -23,7 +23,7 @@ The review PNG shows registered overlays on a projected coordinate graticule, no
 - reconciliation.json — inspected candidates and hashes
 - unplaced-artwork.csv — per-file QA queue
 - render-audit.json — actual renderer count and Corfu status
-- aegean-four-new-islands-review-4800px.png — four provisional image callouts at existing review markers
+- aegean-four-new-islands-review-4800px.png — true-alpha map sprite previews only; opaque sources held, no cards
 - four-new-islands-review-audit.json — explicit no-georegistration audit
 
 Review artwork remains subject to island identity, coastline geometry, alpha edge and historical-building QA.

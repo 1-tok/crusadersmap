@@ -1,5 +1,5 @@
 {
-  "status": "provisional_map_positioned_visual_review",
+  "status": "alpha_only_geographic_review",
   "items": [
     {
       "island": "elafonisos",
@@ -11,7 +11,14 @@
       "image_preview_enabled": true,
       "georegistered": false,
       "coastline_verified": false,
-      "source_asset": "data/sprites/automated-intake/png/elafonisos-1180-whole-island-south-view-review-v1-9f3638e67336.png"
+      "original_opaque_fraction": 0.4264,
+      "transparent_edge_fraction": 1.0,
+      "source_asset": "data/sprites/automated-intake/png/elafonisos-1180-whole-island-south-view-review-v1-9f3638e67336.png",
+      "preview_size_px": [
+        190,
+        97
+      ],
+      "render_style": "alpha_cutout_pin_centered_no_card"
     },
     {
       "island": "gavdos",
@@ -23,7 +30,14 @@
       "image_preview_enabled": true,
       "georegistered": false,
       "coastline_verified": false,
-      "source_asset": "data/sprites/automated-intake/png/gavdos-1180-whole-island-south-view-review-v1-f85d57ec8eff.png"
+      "original_opaque_fraction": 0.6011,
+      "transparent_edge_fraction": 1.0,
+      "source_asset": "data/sprites/automated-intake/png/gavdos-1180-whole-island-south-view-review-v1-f85d57ec8eff.png",
+      "preview_size_px": [
+        190,
+        103
+      ],
+      "render_style": "alpha_cutout_pin_centered_no_card"
     },
     {
       "island": "psara",
@@ -35,7 +49,14 @@
       "image_preview_enabled": true,
       "georegistered": false,
       "coastline_verified": false,
-      "source_asset": "data/sprites/automated-intake/png/psara-1180-whole-island-south-view-review-v1-3614daffde89.png"
+      "original_opaque_fraction": 0.5152,
+      "transparent_edge_fraction": 1.0,
+      "source_asset": "data/sprites/automated-intake/png/psara-1180-whole-island-south-view-review-v1-3614daffde89.png",
+      "preview_size_px": [
+        190,
+        149
+      ],
+      "render_style": "alpha_cutout_pin_centered_no_card"
     },
     {
       "island": "antikythera",
@@ -47,7 +68,14 @@
       "image_preview_enabled": true,
       "georegistered": false,
       "coastline_verified": false,
-      "source_asset": "data/sprites/automated-intake/png/antikythera-1180-whole-island-south-view-review-v1-cbe095ac80d9.png"
+      "original_opaque_fraction": 0.4053,
+      "transparent_edge_fraction": 1.0,
+      "source_asset": "data/sprites/automated-intake/png/antikythera-1180-whole-island-south-view-review-v1-cbe095ac80d9.png",
+      "preview_size_px": [
+        169,
+        160
+      ],
+      "render_style": "alpha_cutout_pin_centered_no_card"
     }
   ],
   "production_sprite_placements_created": 0
