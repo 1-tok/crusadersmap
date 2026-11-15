@@ -29,6 +29,8 @@ on:
       - 'terrain.py'
       - 'sea.py'
       - 'water_palette.py'
+      - 'sprites.py'
+      - 'assets/sprites/water-masks/**'
 
 permissions:
   contents: write
