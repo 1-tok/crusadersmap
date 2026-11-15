@@ -4,6 +4,7 @@ import os, math
 import numpy as np
 from PIL import Image
 from scipy import ndimage
+from water_palette import grade_rgb
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 A = os.path.join(HERE, "assets", "sea")
@@ -62,6 +63,8 @@ def paint_sea(out, seam, S, edition, seed=16621101, count=None, method=None):
         w = np.exp(-((d[y0:y1] / ref) ** 1.15))[..., None]
         dp = _stretch_rows(deep, WS, HS, y0, y1); sh = _stretch_rows(shallow, WS, HS, y0, y1)
         field = sh * w + dp * (1 - w)
+        if colour:
+            field = grade_rgb(field, w)
         if not colour:                                       # parchment: a faint grey-green wash over the paper
             field = field * 0.55 + np.array([200, 205, 178], np.float32) * 0.45
         m = (seam[y0:y1].astype(np.float32) / 255.0)[..., None] * a_sea
@@ -130,6 +133,8 @@ def _paint_v62(out, seam, S, edition):
         sh = _stretch_rows(shallow, WS, HS, y0, y1)
         w = (wt[y0:y1] * 0.6)[..., None]
         fld = sh * w + fld * (1 - w)
+        if colour:
+            fld = grade_rgb(fld, wt[y0:y1])
         if not colour:
             fld = fld * 0.45 + np.array([205, 208, 182], np.float32) * 0.55
         m = (seam[y0:y1].astype(np.float32) / 255.0)[..., None] * a_sea
@@ -140,11 +145,14 @@ def _paint_v62(out, seam, S, edition):
 def _paint_oct31(out, seam, S, edition):
     HS, WS = seam.shape
     under = Image.open(os.path.join(A, "oct31", "sea_continuous_underpaint_1662_v01.png")).convert("RGB")
+    wt = _shore_weight(seam, S)
     colour = edition == "colour"
     a_sea = 0.97 if colour else 0.40
     for y0 in range(0, HS, 900):
         y1 = min(HS, y0 + 900)
         fld = _stretch_rows(under, WS, HS, y0, y1)
+        if colour:
+            fld = grade_rgb(fld, wt[y0:y1])
         if not colour:
             fld = fld * 0.45 + np.array([205, 208, 182], np.float32) * 0.55
         m = (seam[y0:y1].astype(np.float32) / 255.0)[..., None] * a_sea
