@@ -19,10 +19,10 @@
       "source": "crusader_lowlands_13nov_remaining_51_REGION_QA.zip",
       "source_location": "repository_root",
       "candidate_count": 51,
-      "state": "blocked_not_in_incoming",
-      "action": "Use the exact corrected region-QA archive for intake, avoiding the obsolete ONLY archive and duplicate (1) copy. Verify SHA-256 and source sidecars; do not count root ZIP as successfully extracted.",
+      "state": "intake_confirmed_placement_unlocated",
+      "action": "51/51 PNG entries processed as duplicates and joined to existing canonical intake assets. Review data/manifests/LOWLAND-51-CANONICAL-PLACEMENT-AUDIT-2026-11-15.json. All 51 review geometries remain null. Assign only checked geographically appropriate land stamps; keep coast and water QA holds; do not claim rendered usage without rebuilt composite evidence.",
       "sha256_expected": "d48c93c2e5ebaf6917412cd36f1ab0305555cc8834652c905816214980902e06",
-      "proposed_view": "review_gallery",
+      "proposed_view": "sprite-review; geographic map pending",
       "approval_for_geographic_placement": false
     },
     {
@@ -31,7 +31,12 @@
       "source": "assets/sprites/incoming/crusader_lowlands_part1_large_2026_11_13.zip; assets/sprites/incoming/crusader_lowlands_batch10_11_2026_11_13.zip",
       "state": "provisional_preview_pool",
       "action": "Keep nine dry-field candidates in masked fertile lowland generic pool; measure actual draw count and avoid promoting wetland, water and masters.",
-      "suggested_regions": ["Aegean lowlands","Cyprus","Cilicia","Levant coastal plains"],
+      "suggested_regions": [
+        "Aegean lowlands",
+        "Cyprus",
+        "Cilicia",
+        "Levant coastal plains"
+      ],
       "approval_for_geographic_placement": false
     },
     {
