@@ -52,3 +52,20 @@ The user examined the actual geographic Canaan review crop and reported the **se
 - Review generator: `python tools/build_canaan_city_orientation_review.py` creates a four-panel contact sheet of the **selected real source PNGs** plus provenance; it cannot verify the map alignment itself.
 - Geographic map review `reports/canaan-coastal-review/canaan-current-map.jpg` predates any correction to these four artwork selections.
 - Batch 37–39 terrain mask creation does not correct settlement/harbor sprite artwork. Keep the two review tracks separate.
+
+## Sea of Galilee / Tabariyya shoreline mismatch — user review, 15 November 2026
+
+**Reported:** In the Canaan geographic composite, Tabariyya/Tiberias appears to have painted water below the city rather than matching the adjacent Sea of Galilee shoreline. The waterfront should share the lake's actual western-edge alignment, not form a detached second basin or water rectangle. This is a **reported visual defect** pending direct PNG/pixel registration, not a verified repaint.
+
+**Selected city art:** `data/sprites/city-review-2026-11-10/sprites/batch-07-levant-galilee/tiberias-1180-review-v1.png`, `assets/sprites.json` representative point [35.53, 32.79]. The map names this site Tabarie / Tabariyya.
+
+**Selected lake art:** `waterart.py` paints `sea-of-galilee` over a generalized bounding box `GAL=(35.517,32.718,35.641,32.898)` with margin 1.10, independently of the city sprite. Its `_fit_box` stretches the painting vertically and does not itself perform polygon clipping. The separate landscape coverage plan explicitly cautions that its illustrated Sea of Galilee is an uncertified geographic fit.
+
+**Required correction:**
+1. Keep Tiberias' buildings and terrain at their documented shore-adjacent city position, on the **western** side of the lake. From a south-looking-north view, the lake is generally to the city's **right/east**, not a generic left/west Mediterranean-water rule.
+2. Inspect the actual selected city PNG: if the bottom foreground contains painted blue water, isolate and remove or mask that water without erasing buildings, wharves or walls. Do **not** flip the entire city.
+3. Render the lake as one geographically constrained water body, using the existing lake geometry as a diagnostic mask and compatible azure color wash. Do not overlay a second opaque rectangular lake or disconnected shoreline.
+4. Place the city as an inland-facing built-up edge contiguous with the western lake shore; blend pier/shoreline pixels into the lake only where the historical urban waterfront geometry permits.
+5. Rebuild a **Tiberias–Galilee close crop** and compare before/after alpha intersection, building-on-land, blue-water duplication, shoreline seam and label overlap. The master atlas covers 1096–1600 CE; retain the 1180 artwork's provenance without claiming all dates are identical.
+
+**QA state:** `hold_lake_edge_blend_and_sprite_orientation`; production approval **false**. This is separate from Acre/Ascalon/Jaffa/Caesarea's Mediterranean orientation review.
