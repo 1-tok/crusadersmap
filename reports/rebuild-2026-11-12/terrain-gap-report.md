@@ -4,56 +4,49 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 
 | Zone | Land cells | Flat | Thin | Share flat or thin |
 |---|---:|---:|---:|---:|
-| Egypt inset: Sinai | 185 | 7 | 22 | 16% |
-| Egypt inset: Western and Eastern deserts | 163 | 6 | 19 | 15% |
-| Syrian desert | 33 | 1 | 2 | 9% |
-| Egypt inset: Delta | 51 | 1 | 3 | 8% |
+| Egypt inset: Western and Eastern deserts | 163 | 4 | 21 | 15% |
+| Egypt inset: Sinai | 185 | 4 | 19 | 12% |
+| Lebanon and Damascus | 39 | 0 | 3 | 8% |
+| Negev, Sinai, Arabah | 62 | 2 | 2 | 6% |
+| North Syria (Antioch, Aleppo) | 63 | 1 | 3 | 6% |
 | Aegean inset: islands and Crete | 16 | 0 | 1 | 6% |
-| Lebanon and Damascus | 39 | 1 | 1 | 5% |
-| Aegean inset: Greece and the Balkans | 105 | 0 | 4 | 4% |
+| Syrian desert | 33 | 0 | 2 | 6% |
+| Egypt inset: Delta | 51 | 0 | 3 | 6% |
 | Aegean inset: Anatolia and Thrace | 119 | 0 | 4 | 3% |
-| North Syria (Antioch, Aleppo) | 63 | 1 | 1 | 3% |
+| Aegean inset: Greece and the Balkans | 105 | 0 | 3 | 3% |
 | Cilicia and the Taurus | 140 | 1 | 2 | 2% |
-| Galilee, Samaria, Judea | 53 | 0 | 1 | 2% |
-| Transjordan and Hauran | 153 | 1 | 1 | 1% |
+| Transjordan and Hauran | 153 | 0 | 1 | 1% |
 | other | 40 | 0 | 0 | 0% |
 | Upper Mesopotamia | 8 | 0 | 0 | 0% |
 | Cyprus | 25 | 0 | 0 | 0% |
 | Syrian coast and Orontes | 33 | 0 | 0 | 0% |
-| Negev, Sinai, Arabah | 62 | 0 | 0 | 0% |
+| Galilee, Samaria, Judea | 53 | 0 | 0 | 0% |
 
-Whole sheet: 1288 land cells, 19 flat, 61 thin (6% flat or thin).
+Whole sheet: 1288 land cells, 12 flat, 64 thin (6% flat or thin).
 
 ## Flat cells by position
 
 | Zone | Lon | Lat | Sheet x | Sheet y | Detail |
 |---|---:|---:|---:|---:|---:|
-| Cilicia and the Taurus | 35.57 | 37.72 | 7360 | 320 | 9.3 |
-| North Syria (Antioch, Aleppo) | 37.51 | 35.43 | 10240 | 4480 | 9.4 |
-| Syrian desert | 37.47 | 33.50 | 10240 | 8000 | 9.3 |
-| Lebanon and Damascus | 36.84 | 33.50 | 9280 | 8000 | 10.9 |
-| Transjordan and Hauran | 37.25 | 32.62 | 9920 | 9600 | 10.1 |
-| Egypt inset: Sinai | 32.69 | 30.68 | 2790 | 10721 | 10.8 |
-| Egypt inset: Sinai | 33.13 | 29.25 | 3190 | 12121 | 7.2 |
-| Egypt inset: Sinai | 33.35 | 29.05 | 3390 | 12321 | 3.3 |
-| Egypt inset: Sinai | 33.80 | 28.63 | 3790 | 12721 | 11.4 |
+| Cilicia and the Taurus | 35.57 | 37.72 | 7360 | 320 | 9.2 |
+| North Syria (Antioch, Aleppo) | 37.50 | 35.25 | 10240 | 4800 | 7.0 |
+| Negev, Sinai, Arabah | 34.17 | 31.04 | 5120 | 12480 | 9.5 |
+| Negev, Sinai, Arabah | 34.57 | 31.04 | 5760 | 12480 | 10.1 |
+| Egypt inset: Sinai | 32.69 | 30.68 | 2790 | 10721 | 10.7 |
+| Egypt inset: Sinai | 33.35 | 29.05 | 3390 | 12321 | 7.3 |
+| Egypt inset: Sinai | 33.35 | 28.84 | 3390 | 12521 | 11.7 |
 | Egypt inset: Sinai | 32.88 | 28.45 | 2990 | 12921 | 10.8 |
-| Egypt inset: Sinai | 34.26 | 28.42 | 4190 | 12921 | 9.5 |
-| Egypt inset: Sinai | 32.42 | 28.25 | 2590 | 13121 | 10.6 |
-| Egypt inset: Delta | 31.04 | 30.69 | 1390 | 10721 | 11.9 |
-| Egypt inset: Western and Eastern deserts | 32.21 | 29.67 | 2390 | 11721 | 8.2 |
-| Egypt inset: Western and Eastern deserts | 31.51 | 28.86 | 1790 | 12521 | 11.9 |
-| Egypt inset: Western and Eastern deserts | 30.59 | 28.46 | 990 | 12921 | 8.3 |
-| Egypt inset: Western and Eastern deserts | 31.05 | 28.26 | 1390 | 13121 | 10.7 |
-| Egypt inset: Western and Eastern deserts | 32.19 | 28.25 | 2390 | 13121 | 11.4 |
+| Egypt inset: Western and Eastern deserts | 32.21 | 29.67 | 2390 | 11721 | 4.3 |
+| Egypt inset: Western and Eastern deserts | 30.59 | 28.46 | 990 | 12921 | 9.5 |
+| Egypt inset: Western and Eastern deserts | 31.05 | 28.26 | 1390 | 13121 | 8.6 |
 | Egypt inset: Western and Eastern deserts | 31.96 | 27.85 | 2190 | 13521 | 9.5 |
 
 The thin cells are listed with the flat ones in terrain-gap-cells.csv.
 
 ## What covers the land now
 
-- Terrain stamps and landscape tiles: 70 different pieces, 6310 placements
-- Generic settlement, farm, tree, rock and ruin pieces: 189 different pieces, 2369 placements
+- Terrain stamps and landscape tiles: 69 different pieces, 6244 placements
+- Generic settlement, farm, tree, rock and ruin pieces: 189 different pieces, 2356 placements
 - Greek island overlays: 47
 - Ships at sea: 8
 
