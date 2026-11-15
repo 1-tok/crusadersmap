@@ -10,8 +10,8 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 | Lebanon and Damascus | 39 | 0 | 2 | 5% |
 | Negev, Sinai, Arabah | 62 | 1 | 2 | 5% |
 | Syrian desert | 33 | 0 | 1 | 3% |
+| Aegean inset: Greece and the Balkans | 105 | 0 | 3 | 3% |
 | Egypt inset: Delta | 51 | 0 | 1 | 2% |
-| Aegean inset: Greece and the Balkans | 105 | 0 | 2 | 2% |
 | Aegean inset: Anatolia and Thrace | 119 | 0 | 2 | 2% |
 | North Syria (Antioch, Aleppo) | 63 | 1 | 0 | 2% |
 | Cilicia and the Taurus | 140 | 0 | 1 | 1% |
@@ -22,7 +22,7 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 | Syrian coast and Orontes | 33 | 0 | 0 | 0% |
 | Galilee, Samaria, Judea | 53 | 0 | 0 | 0% |
 
-Whole sheet: 1288 land cells, 6 flat, 44 thin (4% flat or thin).
+Whole sheet: 1288 land cells, 6 flat, 45 thin (4% flat or thin).
 
 ## Flat cells by position
 
