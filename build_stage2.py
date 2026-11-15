@@ -214,6 +214,19 @@ def draw_ink2(edition, surf=None, scale=None, mode=None):
     ihard = [(BOX['aegean'][0] - 10, BOX['aegean'][1] - 10, BOX['aegean'][0] + 1950, BOX['aegean'][1] + 190),
              (BOX['delta'][0] - 10, BOX['delta'][1] - 10, BOX['delta'][0] + 1650, BOX['delta'][1] + 190)]
     PC.draw_places(c, edition, TER, REG, BOX, hard, disks, ihard)
+    for k in ("main", "aegean", "delta"):
+        bx, by = BOX[k]
+        c.save(); c.translate(bx, by)
+        c.rectangle(0, 0, REG[k].w, REG[k].h)
+        if k == "main":
+            c.rectangle(JX - bx - 20, JY - by - 20, JW + 40, JH + 40)
+            for kk in ("aegean", "delta"):
+                ax, ay = BOX[kk]
+                c.rectangle(ax - 20 - bx, ay - 20 - by, REG[kk].w + 40, REG[kk].h + 40)
+            c.set_fill_rule(cairo.FILL_RULE_EVEN_ODD)
+        c.clip()
+        TER[k].redraw_rivers(c)
+        c.restore()
     # inset frames and title plates
     for k, title in (("aegean", FR.INSETS["aegean"]["title"]), ("delta", FR.INSETS["delta"]["title"])):
         bx, by = BOX[k]; w, h = REG[k].w, REG[k].h

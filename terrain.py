@@ -117,6 +117,10 @@ class Terrain:
         zones = (("desert_sand", -9, 0.18), ("dry_steppe", 0.18, 0.30), ("canaan_scrub", 0.30, 0.50), ("green_plain", 0.50, 9))
         if self.mpp > 150:                                  # Greece, Thrace and western Anatolia are scrub and green, never sand
             zones = (("canaan_scrub", -9, 0.42), ("green_plain", 0.42, 9))
+        _rs = np.random.RandomState(7)
+        _n1 = gaussian_filter(_rs.rand(lh, lw).astype(np.float32), 3.0); _n1 = (_n1 - _n1.mean()) / (_n1.std() + 1e-6)
+        _n2 = gaussian_filter(_rs.rand(lh, lw).astype(np.float32), 1.2); _n2 = (_n2 - _n2.mean()) / (_n2.std() + 1e-6)
+        f = f + 0.045 * _n1 + 0.025 * _n2                 # wobbled thresholds: zone edges follow no straight line
         for name, lo, hi in zones:
             a = gaussian_filter(((f >= lo) & (f < hi)).astype(np.float32), 1.6) * 0.85
             stride = cairo.ImageSurface.format_stride_for_width(cairo.FORMAT_A8, lw)
@@ -356,8 +360,12 @@ class Terrain:
                     L = math.hypot(tx, ty) or 1.0
                     o = amp * math.sin(cum[i] / wl * 6.283 + ph) * min(1.0, cum[i] / 60.0, (cum[-1] - cum[i]) / 60.0 + 0.2)
                     out.append((x - ty / L * o, y + tx / L * o))
-                pr = Pen(c, seed=rnd.randint(1, 10 ** 6), amp=0.6, ink=BLUEINK)
+                sd_r = rnd.randint(1, 10 ** 6)
+                pr = Pen(c, seed=sd_r, amp=0.6, ink=BLUEINK)
                 pr.line(out, w=2.2, col=BLUEINK)
+                if not hasattr(self, "river_paths"):
+                    self.river_paths = []
+                self.river_paths.append((out, sd_r))
 
         # --- lakes
         for g in self._lakes():
@@ -818,6 +826,12 @@ class Terrain:
                 c.clip(); c.set_source(pat_); c.paint(); c.restore()
         c.restore()
 
+
+    def redraw_rivers(self, c):
+        """Rivers and the Nile drawn again over every sprite, so the water always reads."""
+        for out, sd_r in getattr(self, "river_paths", []):
+            pr = Pen(c, seed=sd_r, amp=0.6, ink=BLUEINK)
+            pr.line(out, w=2.6, col=BLUEINK)
 
 LAKES_OK = []
 RIVERS = []

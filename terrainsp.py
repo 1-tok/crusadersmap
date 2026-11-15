@@ -68,6 +68,23 @@ GSIZE = {"green": (120, 150), "past": (120, 150), "arid": (115, 145), "oasis": (
          "rock": (95, 130), "ruin": (105, 130), "patchg": (190, 240), "patchw": (190, 240), "patchd": (190, 240), "patcha": (200, 250), "delta": (115, 140), "town": (170, 205), "sfort": (130, 160), "schurch": (115, 140), "coast": (135, 170), "river": (150, 190)}
 
 
+def _ragged(im, key, strength=1.0):
+    """Eat the margins of a tile with soft noise so no tile ends on a straight edge."""
+    from scipy.ndimage import gaussian_filter
+    import zlib
+    width, h = im.size
+    rs = np.random.RandomState(zlib.crc32(("%s%d" % (key, width)).encode()))
+    yy, xx = np.mgrid[0:h, 0:width].astype(np.float32)
+    d = np.minimum(np.minimum(xx, width - 1 - xx), np.minimum(yy, h - 1 - yy)) / max(8.0, 0.30 * min(width, h))
+    nz = gaussian_filter(rs.rand(h, width).astype(np.float32), max(2.0, width * 0.06)); nz = (nz - nz.min()) / max(1e-6, nz.max() - nz.min())
+    nz2 = gaussian_filter(rs.rand(h, width).astype(np.float32), max(1.0, width * 0.02)); nz2 = (nz2 - nz2.min()) / max(1e-6, nz2.max() - nz2.min())
+    thr = 0.10 + 1.10 * (0.65 * nz + 0.35 * nz2) * strength
+    m_ = np.clip((d - thr * 0.85) * 2.0, 0, 1); m_ = m_ * m_ * (3 - 2 * m_)
+    a2 = np.asarray(im.getchannel("A"), np.float32) * m_
+    im.putalpha(Image.fromarray(np.clip(a2, 0, 255).astype(np.uint8)))
+    return im
+
+
 def gsurf(i, edition, width):
     width = int(max(8, round(width / 4.0) * 4))
     k = (i, edition, width)
@@ -79,6 +96,8 @@ def gsurf(i, edition, width):
             im = Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8)).convert("RGBA"); im.putalpha(a)
         h = max(1, int(round(im.height * width / im.width)))
         im = im.resize((width, h), Image.LANCZOS)
+        if isinstance(i, int) and i in _PATCH_IDS or (not isinstance(i, int) and "patch" in str(i)) or (isinstance(i, int) is False and str(i) in _PATCH_FILES):
+            im = _ragged(im, i)
         a = np.asarray(im, np.float32); al = a[..., 3:4] / 255.0
         buf = np.empty((h, width, 4), np.uint8)
         buf[..., :3] = (a[..., [2, 1, 0]] * al).astype(np.uint8); buf[..., 3] = a[..., 3].astype(np.uint8)
@@ -152,6 +171,8 @@ def _surf(name, edition, width):
         im = _img(name, edition)
         h = max(1, int(round(im.height * width / im.width)))
         im = im.resize((width, h), Image.LANCZOS)
+        if name in FEATHER or name in DRYSTRIP or name in DUNES or name in DEEP:
+            im = _ragged(im, name)
         if name in FEATHER:
             from PIL import ImageFilter
             a_ = im.getchannel("A")
@@ -174,3 +195,6 @@ def draw(c, name, x, y, width, edition, alpha=0.96):
     c.get_source().set_filter(cairo.FILTER_BEST)
     c.paint_with_alpha(alpha)
     c.restore()
+
+_PATCH_FILES = set(sum([G2P.get(k, []) for k in ('patchg', 'patchw', 'patchd', 'patcha')], []))
+_PATCH_IDS = set(x for x in _PATCH_FILES if isinstance(x, int))

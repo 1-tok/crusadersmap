@@ -40,7 +40,12 @@ for n, lst in sorted(cands.items()):
     nm, lo, la, km = ISL[n]
     out.append(dict(id="X%d" % n, name=nm, file=fn, src=os.path.relpath(f, ROOT), lon=lo, lat=la, km=km, aspect=im.height / im.width))
     dup += [dict(path=os.path.relpath(g, ROOT), primary=os.path.relpath(f, ROOT)) for _, g in lst[1:]]
-json.dump(dict(islands=out, duplicates=dup), open(os.path.join(A, "islands_extra.json"), "w"), indent=1)
+pool = []
+for f in sorted(glob.glob(os.path.join(ROOT, "data/sprites/automated-intake/png/b05-concept-*.png"))):
+    im = Image.open(f).convert("RGBA"); bb = im.getchannel("A").point(lambda v: 255 if v > 16 else 0).getbbox()
+    im = im.crop(bb); im.thumbnail((500, 500), Image.LANCZOS); fn = "x" + os.path.basename(f); im.save(os.path.join(A, "islands", fn))
+    pool.append(dict(id="P" + os.path.basename(f)[:14], name="unassigned island cluster", file=fn, src=os.path.relpath(f, ROOT), aspect=im.height / im.width))
+json.dump(dict(islands=out, duplicates=dup, pool=pool), open(os.path.join(A, "islands_extra.json"), "w"), indent=1)
 
 # named fortresses with no coordinates in the repository
 FORT = {"birecik": ("al-Bira", "Birecik", "M:castle_muslim", 37.975, 37.025), "harran": ("Qal'at Harran", "Harran citadel", "M:castle_muslim", 39.03, 36.865),

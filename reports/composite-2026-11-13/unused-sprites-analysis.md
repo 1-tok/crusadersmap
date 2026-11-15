@@ -1,6 +1,6 @@
 # Unused sprites: what is superseded and what did not make it
 
-1111 images in the repository ledger; 691 are on the composite.
+1111 images in the repository ledger; 721 are on the composite.
 
 | Group | Images | What it means |
 |---|---:|---|
@@ -10,7 +10,7 @@
 | Held | 8 | shows a named monument that already stands in its own city painting (5); marked repaint-required by its own file name (3) |
 | Broken | 6 | file missing from the repository (3); checkerboard painted into the background (2); two pieces joined in one cut-out (1) |
 | No room | 12 | site painting whose place has no room on the sheet (12) |
-| Not picked | 37 | in a pool or queue but not placed in this build (37) |
+| Not picked | 7 | in a pool or queue but not placed in this build (7) |
 | Removed | 3 | volcano or basalt piece, removed on request (3) |
 
 Every image is listed with its group and reason in image-usage-and-off-map-list.csv.
@@ -65,38 +65,8 @@ Every image is listed with its group and reason in image-usage-and-off-map-list.
 - `galata-sykai-1180-v1.png`: primary painting for Pera, but the symbol is hidden: no room among neighbouring symbols
 - `map_fillers_set_a-013.png`: primary painting for Scandalion, but the symbol is hidden: no room among neighbouring symbols
 
-### Not picked (37)
+### Not picked (7)
 
-- `103-skantzoura-concept-133f1b87a823.png`: island Skantzoura: its position falls outside the frames or under a registered overlay
-- `106-atokos-concept-bc2b8fa78fb1.png`: island Atokos: its position falls outside the frames or under a registered overlay
-- `76-othonoi-concept-65b2888de91b.png`: island Othonoi: its position falls outside the frames or under a registered overlay
-- `77-ereikoussa-concept-121fcdbe63d7.png`: island Ereikoussa: its position falls outside the frames or under a registered overlay
-- `78-mathraki-concept-8c230f7ded59.png`: island Mathraki: its position falls outside the frames or under a registered overlay
-- `81-pserimos-concept-e0d1df1c3bf7.png`: island Pserimos: its position falls outside the frames or under a registered overlay
-- `82-telendos-concept-41b31cd84a2d.png`: island Telendos: its position falls outside the frames or under a registered overlay
-- `94-dia-concept-757a8049c4c9.png`: island Dia: its position falls outside the frames or under a registered overlay
-- `96-gramvousa-concept-3fc3adbd687b.png`: island Gramvousa: its position falls outside the frames or under a registered overlay
-- `97-chrysi-concept-9595a7a06e05.png`: island Chrysi: its position falls outside the frames or under a registered overlay
-- `99-peristera-sporades-concept-18b90c11fb97.png`: island Peristera: its position falls outside the frames or under a registered overlay
-- `48_aegina.png`: island Aegina: its position falls outside the frames or under a registered overlay
-- `49_salamis.png`: island Salamis: its position falls outside the frames or under a registered overlay
-- `50_poros.png`: island Poros: its position falls outside the frames or under a registered overlay
-- `51_hydra.png`: island Hydra: its position falls outside the frames or under a registered overlay
-- `52_spetses.png`: island Spetses: its position falls outside the frames or under a registered overlay
-- `54_paxos.png`: island Paxos: its position falls outside the frames or under a registered overlay
-- `55_antipaxos.png`: island Antipaxos: its position falls outside the frames or under a registered overlay
-- `56_antiparos.png`: island Antiparos: its position falls outside the frames or under a registered overlay
-- `60_donousa.png`: island Donousa: its position falls outside the frames or under a registered overlay
-- `61_irakleia.png`: island Irakleia: its position falls outside the frames or under a registered overlay
-- `63_koufonisia.png`: island Koufonisia: its position falls outside the frames or under a registered overlay
-- `64_chalki.png`: island Chalki: its position falls outside the frames or under a registered overlay
-- `65_lipsi.png`: island Lipsi: its position falls outside the frames or under a registered overlay
-- `66_kastellorizo.png`: island Kastellorizo: its position falls outside the frames or under a registered overlay
-- `67_imbros.png`: island Imbros: its position falls outside the frames or under a registered overlay
-- `68_tenedos.png`: island Tenedos: its position falls outside the frames or under a registered overlay
-- `69_psara.png`: island Psara: its position falls outside the frames or under a registered overlay
-- `70_gavdos.png`: island Gavdos: its position falls outside the frames or under a registered overlay
-- `71_elafonisos.png`: island Elafonisos: its position falls outside the frames or under a registered overlay
 - `NAT-L017-cappadocia.png`: generic landmark piece: in the pool but not drawn in this build (random selection)
 - `CSV-089.png`: regional landscape tile in the pool but not drawn in this build
 - `CSV-093.png`: regional landscape tile in the pool but not drawn in this build
