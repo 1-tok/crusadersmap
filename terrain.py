@@ -185,8 +185,8 @@ class Terrain:
         mid = np.clip((elev - 250) / 500, 0, 1) * (1 - high)
 
         if edition == "colour":
-            sea_far = np.array([150, 186, 202], np.float32)
-            sea_near = np.array([108, 152, 178], np.float32)
+            sea_far = np.array([22, 111, 159], np.float32)
+            sea_near = np.array([84, 201, 203], np.float32)
             wsea = np.exp(-dsea / 30.0)
             sea = sea_far * (1 - wsea) + sea_near * wsea
             c_des = np.array([234, 206, 138], np.float32); c_ste = np.array([216, 192, 112], np.float32)
