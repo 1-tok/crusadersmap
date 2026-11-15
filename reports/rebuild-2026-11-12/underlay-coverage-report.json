@@ -2,6 +2,10 @@
   "status": "provisional_underlay_visual_review",
   "method": "edge-matched retained paintings, geographic land-interior clipping, texture detail colour-matched to mapped wash",
   "enabled": true,
+  "workflow": {
+    "head_sha": "8d551be0a5a80247a81bbfec3e226210c018e5f1",
+    "run_id": "43734464655"
+  },
   "sources": {
     "desert": "assets/terrain/large_area/rect_underlays_04/desert_sand_edge_matched.png",
     "steppe": "assets/terrain/large_area/rect_underlays_04/dry_steppe_edge_matched.png",
@@ -25,7 +29,7 @@
       "scrub_weighted_pixel_equivalents": 221566,
       "steppe_weighted_pixel_equivalents": 332350,
       "underlay_eligible_pixels": 793589,
-      "visually_changed_pixels": 793218,
+      "visually_changed_pixels": 793179,
       "water_pixels_painted": 0,
       "interior_underlay_fraction": 1.0
     },
@@ -37,7 +41,7 @@
       "scrub_weighted_pixel_equivalents": 171415,
       "steppe_weighted_pixel_equivalents": 257123,
       "underlay_eligible_pixels": 1422335,
-      "visually_changed_pixels": 1418718,
+      "visually_changed_pixels": 1418664,
       "water_pixels_painted": 0,
       "interior_underlay_fraction": 1.0
     },
@@ -49,7 +53,7 @@
       "scrub_weighted_pixel_equivalents": 3151923,
       "steppe_weighted_pixel_equivalents": 1350824,
       "underlay_eligible_pixels": 7931347,
-      "visually_changed_pixels": 7923530,
+      "visually_changed_pixels": 7923353,
       "water_pixels_painted": 0,
       "interior_underlay_fraction": 1.0
     }
