@@ -3,7 +3,7 @@
   "project": "1-tok/crusadersmap",
   "map_year": 1180,
   "created": "2026-11-13",
-  "status": "extraction_records_verified_duplicate_placement_qa_pending",
+  "status": "intake_duplicates_confirmed_mask_builder_added_geographic_placement_hold",
   "purpose": "Stage Canaan coastal terrain Batches 37–39 for geographically constrained review, without inventing coordinates or claiming they appear on map.",
   "source_archives": [
     "crusader_canaan_coastal_underlays_complete.zip",
@@ -13,8 +13,8 @@
   "sources_qa": {
     "source_png_members": "12 expected PNG names appear as source paths in automated-intake processing report; not an independent ZIP integrity recheck",
     "extracted_pngs_visible_in_main_tree": 0,
-    "geographic_geometry": "not assigned; coastline masks still required",
-    "map_composite_integration": "not verified",
+    "geographic_geometry": "diagnostic mask builder added; no verified mask outputs or per-sprite footprints",
+    "map_composite_integration": "not done",
     "final_print_approval": false,
     "extraction_processing_records": 12,
     "processing_report_path": "data/sprites/automated-intake/processing-report.json",
@@ -264,5 +264,23 @@
     "review_pr_merged": false,
     "notes": "As of 2026-11-15, automated intake report records all 12 source PNGs as duplicates, not newly registered or geographically placed. Keep water assets on HOLD pending masks/hydrology/orientation review."
   },
-  "verification_note_2026_11_15": "Processing records establish ingestion recognition, not independent binary inspection, land-mask QA, map placement, or print approval. Historical map scope extends through 16th century; 1180 remains a scenario snapshot only."
+  "verification_note_2026_11_15": "Processing records establish ingestion recognition, not independent binary inspection, land-mask QA, map placement, or print approval. Historical map scope extends through 16th century; 1180 remains a scenario snapshot only.",
+  "coastal_mask_review": {
+    "status": "builder_committed_not_executed",
+    "script": "tools/build_canaan_coastal_masks.py",
+    "command": "python3 tools/build_canaan_coastal_masks.py",
+    "expected_outputs": [
+      "data/manifests/canaan-coastal-mask-review/acre_carmel-land-mask.geojson",
+      "data/manifests/canaan-coastal-mask-review/sharon_jaffa-land-mask.geojson",
+      "data/manifests/canaan-coastal-mask-review/ashkelon_gaza-land-mask.geojson",
+      "data/manifests/canaan-coastal-mask-review/mask-build-report.json"
+    ],
+    "geometry_source": "data/ne_10m_land.geojson plus minor islands minus lakes",
+    "scope": "diagnostic study windows, not sprite footprints",
+    "era_note": "modern geographic baseline must be reviewed against historically appropriate shoreline before publication",
+    "placement_auto_authorized": false,
+    "water_sprite_override_authorized": false,
+    "south_oblique_orientation_review": "pending visual inspection",
+    "verification": "not executed or visually QA'd in this connector session"
+  }
 }
