@@ -135,6 +135,61 @@ for la in range(35,42):
 islandart.USED.clear()
 islandart.draw(ctx,REG,"colour","aegean")
 surface.write_to_png(str(OUT/"aegean-island-placement-review-4800px.png"))
+# Unblock the four post-intake island paintings for *visual geographic review*.
+# These are image thumbnail callouts tied to approximate review anchors, not
+# georegistered coastline-shaped raster placements or historical certification.
+review_pin_file = ROOT / "data/sprites/review/island-batches-25-31-pins-2026-11-15.geojson"
+review_ids = {
+    "antikythera": "INTAKE-cbe095ac80d9f77c22a9",
+    "elafonisos": "INTAKE-9f3638e67336b2d4ed66",
+    "gavdos": "INTAKE-f85d57ec8eff404b16c4",
+    "psara": "INTAKE-3614daffde890dbfed01",
+}
+preview_audit = {"status": "provisional_map_positioned_visual_review", "items": [],
+                 "production_sprite_placements_created": 0}
+if review_pin_file.exists():
+    review_pins = json.loads(review_pin_file.read_text(encoding="utf-8"))
+    preview = Image.open(OUT/"aegean-island-placement-review-4800px.png").convert("RGBA")
+    drawer = ImageDraw.Draw(preview)
+    for feature in review_pins.get("features", []):
+        props = feature.get("properties") or {}
+        island = props.get("island", "").lower()
+        if island not in review_ids or props.get("id") != review_ids[island]:
+            continue
+        point = (feature.get("geometry") or {}).get("coordinates")
+        # The only allowable preview location is a pre-existing approximate
+        # review pin. No synthetic bbox is generated and assets/islands.json
+        # is deliberately untouched.
+        item = {"island": island, "sprite_id": review_ids[island],
+                "review_anchor_wgs84": point, "image_preview_enabled": False,
+                "georegistered": False, "coastline_verified": False}
+        # Resolve image identity through the intake registry, not the filename.
+        intake_manifest = json.loads((ROOT/"data/sprites/automated-intake/manifest.json").read_text())
+        source = next((q for q in intake_manifest.get("assets", [])
+                       if q.get("id") == review_ids[island]), None)
+        if source and isinstance(point, list) and len(point) == 2:
+            image_path = ROOT/"data/sprites"/source["asset"]
+            if image_path.exists():
+                with Image.open(image_path) as source_image:
+                    thumbnail = source_image.convert("RGBA")
+                thumbnail.thumbnail((280, 210), Image.Resampling.LANCZOS)
+                px, py = REG.ll_px(point[0], point[1])
+                # Callouts are deliberately offset from the true map pin.
+                card_x = max(12, min(preview.width-320, int(px+28)))
+                card_y = max(12, min(preview.height-265, int(py-250)))
+                drawer.line([(px,py),(card_x,card_y+225)],fill=(40,40,40,210),width=3)
+                drawer.ellipse((px-7,py-7,px+7,py+7),fill=(190,64,38,255))
+                drawer.rounded_rectangle((card_x,card_y,card_x+310,card_y+244),
+                                         radius=12,fill=(255,252,246,245),outline=(80,70,63,255),width=2)
+                preview.alpha_composite(thumbnail,(card_x+(310-thumbnail.width)//2,card_y+8))
+                drawer.text((card_x+12,card_y+215), island.title()+" | PROVISIONAL",fill=(105,40,25,255))
+                item["image_preview_enabled"] = True
+                item["source_asset"] = str(image_path.relative_to(ROOT))
+        preview_audit["items"].append(item)
+    preview.save(OUT/"aegean-four-new-islands-review-4800px.png")
+(OUT/"four-new-islands-review-audit.json").write_text(
+    json.dumps(preview_audit,indent=2)+"\n",encoding="utf-8")
+
 drawn=set(islandart.USED)
 missing=[x for x in ACTIVE if x["id"] not in drawn]
 (OUT/"render-audit.json").write_text(json.dumps({
@@ -177,6 +232,8 @@ md += ["","## Files",
        "- reconciliation.json — inspected candidates and hashes",
        "- unplaced-artwork.csv — per-file QA queue",
        "- render-audit.json — actual renderer count and Corfu status",
+       "- aegean-four-new-islands-review-4800px.png — four provisional image callouts at existing review markers",
+       "- four-new-islands-review-audit.json — explicit no-georegistration audit",
        "", "Review artwork remains subject to island identity, coastline geometry, alpha edge and historical-building QA."]
 (OUT/"README.md").write_text("\n".join(md)+"\n")
 print(json.dumps({"registered":len(ACTIVE),"drawn":len(drawn),"missing":[x["name"] for x in missing],
