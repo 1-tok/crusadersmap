@@ -57,3 +57,11 @@ Only root-level ZIPs under `assets/sprites/incoming/` are processed. Archives mu
 Every successful intake run now writes `intake-review-summary.json` and `intake-review-summary.md` under `data/sprites/automated-intake/`, includes them in the review pull request, and appends the Markdown summary to the GitHub Actions run summary. The report counts technical registrations, pixel duplicates, intake errors, provisional statuses, unclassified artworks, and sprites lacking geographic placement.
 
 Unclassified sprites receive **filename-based candidate category hints only**. Hints never change the existing manifest, certify a historical subject, set a geographic coordinate, or authorize map printing. Review the individual PNG before deciding on any proposed category.
+
+## Root ZIP reconciliation (15 November 2026)
+
+The recovery allowlist now includes Small Islands Batch 24 and the alternative lowlands `remaining_51_ONLY` archive. Each is pinned to its original Git blob SHA and is processed without modifying the source ZIP. Pixel hashes determine whether the lowlands variant supplies genuine new art or repeats an earlier batch; a filename match alone does not prove duplication.
+
+When a ZIP includes `source_sheet_rgb.png`, `source_sheet_rgba.png`, checkerboard/contact sheets or other identifiable masters, those images are preserved within the source ZIP but must not be registered as independently drawable sprites unless they have explicit reviewed crop boxes. The intended individually extracted PNGs remain provisional and still require separate historical, map-coordinate, coastline, orientation and production QA.
+
+Root copies of already processed farming and Greek island intake ZIPs with identical Git blob SHA are redundant and require no further import. The alternate `REGION_QA (1)` has the same Git blob as the hash-verified processed `REGION_QA`; it likewise requires no second import.
