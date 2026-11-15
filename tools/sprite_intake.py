@@ -118,6 +118,15 @@ def process(root):
             meta = read_json(path.with_suffix(".json"), {}) or {}
             if not isinstance(meta, dict):
                 raise ValueError("sidecar must be a JSON object")
+            # Source/master collages remain in the original ZIP. They are
+            # never drawable sprites without explicit reviewed crop boxes.
+            stem = path.stem.lower().replace("-", "_")
+            source_only = (stem.startswith(("source_sheet", "contact_sheet"))
+                           or stem.endswith(("_master", "_source_sheet", "_contact_sheet")))
+            if source_only and not meta.get("sprites"):
+                entry["skipped"] = "source_sheet_requires_declared_sprite_crops"
+                report["results"].append(entry)
+                continue
             original = path.read_bytes()
             with Image.open(path) as image:
                 if image.format != "PNG":

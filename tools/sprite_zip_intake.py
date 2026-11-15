@@ -92,9 +92,11 @@ def extract_archives(root: Path) -> dict:
                 def is_master(member_name):
                     p = PurePosixPath(member_name)
                     stem = p.stem.lower()
-                    return (p.parts[0].lower() == "masters"
-                            or stem.endswith("_master")
-                            or stem.endswith("-master"))
+                    normalized = stem.replace("-", "_")
+                    folders = {part.lower().replace("-", "_") for part in p.parts[:-1]}
+                    return (bool(folders & {"masters", "source_sheets", "source_masters"})
+                            or normalized.startswith(("source_sheet", "contact_sheet"))
+                            or normalized.endswith(("_master", "_source_sheet", "_contact_sheet")))
                 has_cutouts = any(
                     m.filename.lower().endswith(".png")
                     and not is_master(m.filename)

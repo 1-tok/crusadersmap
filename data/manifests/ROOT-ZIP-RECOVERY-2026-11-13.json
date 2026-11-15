@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Allowlist of GitHub-root ZIP archives missing from regular automated intake at 2026-11-13 audit. Checks exact Git blob SHA; preserves all original ZIPs, deduplicates pixels, and never authorizes map placement.",
-  "archive_count": 37,
+  "archive_count": 39,
   "root_archives": [
     {
       "path": "Greek_Islands_12A_part1_RETRY.zip",
@@ -296,6 +296,22 @@
       "blob_sha": "12559eee9af22b0f2dc7f2a3ac4947618bf67548",
       "bytes": 4864399,
       "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_small_islands_batch24_whole_island_1180_review.zip",
+      "blob_sha": "c738fe3258a4a790f41ba6932e680010f91e3669",
+      "bytes": 6169814,
+      "category": "greek_islands",
+      "state": "provisional_intake_only",
+      "placement_authorized": false
+    },
+    {
+      "path": "crusader_lowlands_13nov_remaining_51_ONLY.zip",
+      "blob_sha": "dfbe44014fb37ec2970262b94e701e28e109e066",
+      "bytes": 14233954,
+      "category": "lowland_terrain",
       "state": "provisional_intake_only",
       "placement_authorized": false
     }
