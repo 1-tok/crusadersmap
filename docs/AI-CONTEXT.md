@@ -1,5 +1,5 @@
 # Crusader Map — active AI context and documentation index
-_Consolidated 2026-11-13. Applies to the current repository; historical reports below retain their original dates and meanings._
+_Consolidated 2026-11-13; chronological scope updated 2026-11-15. Applies to the current repository; historical reports below retain their original dates and meanings._
 
 ## Read this first / authority order
 1. Latest explicit project-owner instruction, when compatible with known facts and safety, overrides an earlier instruction on the **same issue**. A later instruction does not silently change unrelated requirements.
@@ -8,10 +8,12 @@ _Consolidated 2026-11-13. Applies to the current repository; historical reports 
 4. Older audit/README/batch notes remain provenance. Do not interpret an older date or a historic archival label as a current command. Record unresolved ambiguities instead of fabricating resolution.
 
 ## Project identity and historical periods
-- Atlas coverage: Eastern Mediterranean Crusader-era through the early modern period, **1095–1571**. Print format is 36 × 48 in portrait, 300 dpi (10800 × 14400 px), main Levant/Cyprus geography with Aegean and Egypt/Sinai insets.
-- **Circa 1180 is the default historical review snapshot**, *not* the full multi-period atlas. Later phases are separate dated layers/editions. Do not depict post-1180 construction in an 1180 snapshot.
-- Chastellet/Jacob's Ford: standing fort destroyed in 1179; 1180 depiction requires ruins, not standing fort. Montfort: construction from 1226; Château Pèlerin: from 1218. Neither appears as a completed castle in 1180. Chlemoutsi and the later surviving Kolossi tower likewise fail an 1180 gate.
-- Owner's later instruction to show Montfort/Château Pèlerin as completed fortresses is a **stylistic/phase request for a later-period edition**, not a historically valid 1180 depiction. Keep dated artwork rather than falsifying the 1180 layer. Uncertain painted phase must be flagged for verification.
+- **Authoritative master-atlas scope (owner update 2026-11-15): 1096–1600 CE**, from the First Crusade through the end of the sixteenth century. The geography includes the Eastern Mediterranean, main Levant/Cyprus view and Aegean and Egypt/Sinai insets. Print format: 36 × 48 in portrait, 300 dpi (10800 × 14400 px).
+- **The master composite is a cumulative, multi-period encyclopedic map, NOT a circa-1180 historical snapshot.** It may depict sites constructed or significantly rebuilt at different points between 1096 and 1600; do not interpret the simultaneous visibility of these locations as a claim of coexistence. Do not exclude a historically eligible fortress merely because it postdates 1180.
+- Include accurate Crusader, Byzantine, Armenian, Ayyubid, Mamluk, Ottoman, Venetian, Genoese and other historically attested regional sites, with geographic anchor, building/depicted phase, earliest and latest applicability dates where known, sources, and QA confidence.
+- **1180 is an optional filtered reconstruction/legacy diagnostic**, not the default time boundary for the master atlas. Preserve existing `placements-1180.geojson`, 1180 previews and dated source artwork as explicitly dated evidence; do not rename historic files or erase their provenance. Dated filters (1180, 1245, etc.) must continue to exclude structures inappropriate for the requested year.
+- Example phase distinction: Chastellet/Jacob's Ford was destroyed in 1179; completed Montfort follows construction from 1226; Château Pèlerin from 1218; Chlemoutsi, later Kolossi, Sidon Sea Castle, later Mamluk and Ottoman works are eligible for the multi-period master when researched, but not necessarily a dated 1180 reconstruction.
+- One primary depiction per named site **per view/phase**. Retain competing period variants as dated alternatives, and never fabricate architectural mixtures of disconnected centuries. Preserve historical uncertainty explicitly.
 
 ## Rendering and artwork invariants
 - Viewed from the **south looking north**: elevated oblique, consistent top-and-south-side view; cities/castles need the same perspective. Coastline/sea must appear on the geographically correct side after the sprite is positioned on the map; no blanket left/right rule across differently oriented shores.
@@ -24,7 +26,7 @@ _Consolidated 2026-11-13. Applies to the current repository; historical reports 
 ## Four distinct states — never collapse them
 1. **Source uploaded:** source ZIP/PNG exists under `assets/sprites/incoming/`; does not prove extraction.
 2. **Technical intake passed:** individual PNG verified, deduplicated and registered; does not prove historical identity, geographic coordinates, placement or print quality.
-3. **Review map placement:** identifiable subject, evidenced geographic anchor, compatible year and reviewed image selected; preview-visible, with review/repaint warnings. General authorization to *review artwork* does not override missing coordinates or a blocked candidate flag.
+3. **Review map placement:** identifiable subject, evidenced geographic anchor, compatible requested view/phase and reviewed image selected; preview-visible, with review/repaint warnings. General authorization to *review artwork* does not override missing coordinates or a blocked candidate flag.
 4. **Production/print approved:** separate historical, alpha-edge, native-resolution, positional, collision and full-composite QA gate. Must not be inferred from any earlier state.
 
 If a review GeoJSON has null geometry or `candidate_only=true` / `approval_for_review_placement=false`, keep it in gallery or staging, not a geographically positioned map layer. A file existing on GitHub does not establish actual placement. Never describe a sprite-only grid/diagnostic as the full composed geographic atlas.
@@ -50,7 +52,7 @@ If a review GeoJSON has null geometry or `candidate_only=true` / `approval_for_r
 | `docs/SPRITE-INTAKE.md`: workflow pushes processed catalog directly to main | Newer ZIP workflow: outputs go to PR for review; only original uploaded source is committed directly to main |
 | Every draft 'approved for visual placement' | Art may be browsed in review gallery; geographic map placement still needs coordinates, year gate and candidate approval |
 | 'All artwork approved' / 'sprite uploaded' / 'map complete' conflated | Source, technical intake, review placement, production and actual composite use are separate verified states |
-| 1180 as a map-wide default versus full atlas 1095–1571 | 1180 for review snapshot; 1095–1571 for dated multi-period atlas |
+| 1180 as map-wide default versus owner-defined 1096–1600 scope | **1096–1600 is authoritative for the cumulative master atlas**; 1180 is only an optional dated reconstruction and legacy review view |
 | Early missing fortress and religious batch records versus later Nov 12 ingestion | The **addendum** in `SPRITE-CLOSURE-QUEUE-2026-11-12.md` supersedes the earlier awaiting-intake statements; still do not claim map placement |
 | Historical-looking completed Montfort/Château Pèlerin requested for 1180 | Preserve historical construction-date gates; completed depiction belongs only to a researched later phase |
 | Numerous image requests versus current build handoff | Final composite placement, terrain gap measurement and QA have priority before generating new duplicates |
@@ -58,7 +60,7 @@ If a review GeoJSON has null geometry or `candidate_only=true` / `approval_for_r
 ## Live verification checklist
 1. Check `main` HEAD, current files, incoming ZIPs, completed Actions and merged PRs; do not trust older counts blindly.
 2. Verify each manifest path exists and matches its actual source/image hash. Review duplicates and historical QA flags.
-3. Select correct year, site ID, WGS84 anchor and projection/inset; preserve alternate versions without double placing.
+3. Select master-period or explicitly dated view, site ID, WGS84 anchor and projection/inset; preserve alternate versions without double placing.
 4. Render the **full geographic** composite; capture used PNG IDs and crops plus missing/flat areas, collisions and QA holds.
 5. Report the difference between present, intake-passed, eligible, visibly placed and print-approved. Never claim success without render/artifact evidence.
 
