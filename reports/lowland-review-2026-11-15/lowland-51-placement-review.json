@@ -1,0 +1,183 @@
+{
+  "status": "provisional_review_build_only_not_print_approved",
+  "input_asset_audit": "reports/lowland-review-2026-11-15/lowland-51-image-qa-and-regions.json",
+  "total_cutouts_inspected": 51,
+  "geographic_review_regions_assigned": 51,
+  "eligible_dry_only": 12,
+  "geographically_drawn_for_review": 12,
+  "eligible_held_for_no_anchor": 0,
+  "other_sources_held": 39,
+  "layer_order": "lowland cutouts before all other atlas sprite and label rendering",
+  "coastal_cutout_policy": "precise vector land-minus-lakes clip; overlap beyond coast is masked, not plotted",
+  "placement_approval": "review_only",
+  "rendered": [
+    {
+      "id": "INTAKE-bee1e831101bf8dd3a79",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r01-c01-bee1e831101b.png",
+      "region": "Cyprus",
+      "frame": "main",
+      "generic_landcover_review_anchor_lonlat": [
+        33.219993,
+        35.353521
+      ],
+      "anchor_method": "sampled_from_existing_geographic_land_mask_fertility_low_elevation_and_coastal_distance",
+      "clip": "atlas_land_polygon_minus_lakes",
+      "layer": "underlay_below_terrain_cities_castles_industries_roads_and_labels",
+      "status": "drawn_provisional_geographic_review"
+    },
+    {
+      "id": "INTAKE-f978a77040b345eb5384",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r02-c02-f978a77040b3.png",
+      "region": "Cyprus",
+      "frame": "main",
+      "generic_landcover_review_anchor_lonlat": [
+        33.356974,
+        34.796884
+      ],
+      "anchor_method": "sampled_from_existing_geographic_land_mask_fertility_low_elevation_and_coastal_distance",
+      "clip": "atlas_land_polygon_minus_lakes",
+      "layer": "underlay_below_terrain_cities_castles_industries_roads_and_labels",
+      "status": "drawn_provisional_geographic_review"
+    },
+    {
+      "id": "INTAKE-17c38b872bf962933a9c",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r02-c03-17c38b872bf9.png",
+      "region": "Cilicia",
+      "frame": "main",
+      "generic_landcover_review_anchor_lonlat": [
+        34.977849,
+        36.742504
+      ],
+      "anchor_method": "sampled_from_existing_geographic_land_mask_fertility_low_elevation_and_coastal_distance",
+      "clip": "atlas_land_polygon_minus_lakes",
+      "layer": "underlay_below_terrain_cities_castles_industries_roads_and_labels",
+      "status": "drawn_provisional_geographic_review"
+    },
+    {
+      "id": "INTAKE-95b7b2978a8a99b4db8e",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r03-c03-95b7b2978a8a.png",
+      "region": "Cyprus",
+      "frame": "main",
+      "generic_landcover_review_anchor_lonlat": [
+        32.90944,
+        34.666395
+      ],
+      "anchor_method": "sampled_from_existing_geographic_land_mask_fertility_low_elevation_and_coastal_distance",
+      "clip": "atlas_land_polygon_minus_lakes",
+      "layer": "underlay_below_terrain_cities_castles_industries_roads_and_labels",
+      "status": "drawn_provisional_geographic_review"
+    },
+    {
+      "id": "INTAKE-c7decf83bebba92b18b9",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-07-mediterranean-lowland-cutouts-r04-c03-c7decf83bebb.png",
+      "region": "Levantine coastal fields",
+      "frame": "main",
+      "generic_landcover_review_anchor_lonlat": [
+        34.759443,
+        31.782895
+      ],
+      "anchor_method": "sampled_from_existing_geographic_land_mask_fertility_low_elevation_and_coastal_distance",
+      "clip": "atlas_land_polygon_minus_lakes",
+      "layer": "underlay_below_terrain_cities_castles_industries_roads_and_labels",
+      "status": "drawn_provisional_geographic_review"
+    },
+    {
+      "id": "INTAKE-38799bb8ca499b5e0b95",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r01-c01-38799bb8ca49.png",
+      "region": "Levantine coastal fields",
+      "frame": "main",
+      "generic_landcover_review_anchor_lonlat": [
+        35.3396,
+        33.471622
+      ],
+      "anchor_method": "sampled_from_existing_geographic_land_mask_fertility_low_elevation_and_coastal_distance",
+      "clip": "atlas_land_polygon_minus_lakes",
+      "layer": "underlay_below_terrain_cities_castles_industries_roads_and_labels",
+      "status": "drawn_provisional_geographic_review"
+    },
+    {
+      "id": "INTAKE-c875e01b7e12e87ddecd",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r01-c03-c875e01b7e12.png",
+      "region": "Cilicia",
+      "frame": "main",
+      "generic_landcover_review_anchor_lonlat": [
+        35.386808,
+        36.580522
+      ],
+      "anchor_method": "sampled_from_existing_geographic_land_mask_fertility_low_elevation_and_coastal_distance",
+      "clip": "atlas_land_polygon_minus_lakes",
+      "layer": "underlay_below_terrain_cities_castles_industries_roads_and_labels",
+      "status": "drawn_provisional_geographic_review"
+    },
+    {
+      "id": "INTAKE-f4054502da6b1ca72167",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r02-c02-f4054502da6b.png",
+      "region": "Cyprus",
+      "frame": "main",
+      "generic_landcover_review_anchor_lonlat": [
+        32.56696,
+        34.76757
+      ],
+      "anchor_method": "sampled_from_existing_geographic_land_mask_fertility_low_elevation_and_coastal_distance",
+      "clip": "atlas_land_polygon_minus_lakes",
+      "layer": "underlay_below_terrain_cities_castles_industries_roads_and_labels",
+      "status": "drawn_provisional_geographic_review"
+    },
+    {
+      "id": "INTAKE-54c0ea48d4d9f6dc95ad",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r02-c03-54c0ea48d4d9.png",
+      "region": "Cilicia",
+      "frame": "main",
+      "generic_landcover_review_anchor_lonlat": [
+        35.277704,
+        36.651221
+      ],
+      "anchor_method": "sampled_from_existing_geographic_land_mask_fertility_low_elevation_and_coastal_distance",
+      "clip": "atlas_land_polygon_minus_lakes",
+      "layer": "underlay_below_terrain_cities_castles_industries_roads_and_labels",
+      "status": "drawn_provisional_geographic_review"
+    },
+    {
+      "id": "INTAKE-02ee5015dc53fbd425e1",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r03-c02-02ee5015dc53.png",
+      "region": "Cyprus",
+      "frame": "main",
+      "generic_landcover_review_anchor_lonlat": [
+        33.677303,
+        35.00586
+      ],
+      "anchor_method": "sampled_from_existing_geographic_land_mask_fertility_low_elevation_and_coastal_distance",
+      "clip": "atlas_land_polygon_minus_lakes",
+      "layer": "underlay_below_terrain_cities_castles_industries_roads_and_labels",
+      "status": "drawn_provisional_geographic_review"
+    },
+    {
+      "id": "INTAKE-36fb9ee2b1705e6a27e4",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r04-c01-36fb9ee2b170.png",
+      "region": "Levantine coastal fields",
+      "frame": "main",
+      "generic_landcover_review_anchor_lonlat": [
+        35.160102,
+        33.026187
+      ],
+      "anchor_method": "sampled_from_existing_geographic_land_mask_fertility_low_elevation_and_coastal_distance",
+      "clip": "atlas_land_polygon_minus_lakes",
+      "layer": "underlay_below_terrain_cities_castles_industries_roads_and_labels",
+      "status": "drawn_provisional_geographic_review"
+    },
+    {
+      "id": "INTAKE-9dad8c3026adc9619cac",
+      "canonical_asset": "data/sprites/automated-intake/png/lowland-20261113-09-coastal-rural-variants-r04-c02-9dad8c3026ad.png",
+      "region": "Cyprus",
+      "frame": "main",
+      "generic_landcover_review_anchor_lonlat": [
+        32.978876,
+        34.772264
+      ],
+      "anchor_method": "sampled_from_existing_geographic_land_mask_fertility_low_elevation_and_coastal_distance",
+      "clip": "atlas_land_polygon_minus_lakes",
+      "layer": "underlay_below_terrain_cities_castles_industries_roads_and_labels",
+      "status": "drawn_provisional_geographic_review"
+    }
+  ]
+}
