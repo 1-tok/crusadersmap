@@ -3,78 +3,11 @@
   "newer_candidate_records": 28,
   "newer_replacements_held": 15,
   "selected_unrepresented_subjects": 54,
-  "review_thumbnails": 24,
-  "missing_png": [
-    {
-      "island": "agistri",
-      "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
-    },
-    {
-      "island": "agathonisi",
-      "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
-    },
-    {
-      "island": "delos",
-      "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
-    },
-    {
-      "island": "rhenia",
-      "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
-    },
-    {
-      "island": "spetses",
-      "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
-    },
-    {
-      "island": "antiparos",
-      "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
-    },
-    {
-      "island": "telendos",
-      "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
-    },
-    {
-      "island": "paxos",
-      "region": "ionian",
-      "status": "missing_png_binary",
-      "path": "None"
-    },
-    {
-      "island": "antipaxos",
-      "region": "ionian",
-      "status": "missing_png_binary",
-      "path": "None"
-    },
-    {
-      "island": "agistri",
-      "region": "ionian",
-      "status": "missing_png_binary",
-      "path": "None"
-    },
-    {
-      "island": "spetses",
-      "region": "ionian",
-      "status": "missing_png_binary",
-      "path": "None"
-    }
-  ],
+  "review_thumbnails": 27,
+  "missing_png": [],
   "region_candidate_counts": {
     "aegean": 25,
-    "ionian": 10
+    "ionian": 2
   },
   "not_rendered_subjects": [
     "mediterranean_atlas_greek_island_sprites",
@@ -159,8 +92,12 @@
     {
       "island": "agistri",
       "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
+      "status": "review_thumbnail_pinned_not_georegistered",
+      "path": "data/sprites/automated-intake/png/agistri-1180-whole-island-south-view-review-v1-e38a0c785590.png",
+      "anchor": [
+        23.35,
+        37.7
+      ]
     },
     {
       "island": "Poros",
@@ -175,20 +112,32 @@
     {
       "island": "agathonisi",
       "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
+      "status": "review_thumbnail_pinned_not_georegistered",
+      "path": "data/sprites/automated-intake/png/agathonisi-1180-whole-island-south-view-review-v1-27c557236db0.png",
+      "anchor": [
+        26.9666,
+        37.4642
+      ]
     },
     {
       "island": "delos",
       "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
+      "status": "review_thumbnail_pinned_not_georegistered",
+      "path": "data/sprites/automated-intake/png/delos-1180-whole-island-south-view-review-v1-40e72311645c.png",
+      "anchor": [
+        25.27,
+        37.4
+      ]
     },
     {
       "island": "rhenia",
       "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
+      "status": "review_thumbnail_pinned_not_georegistered",
+      "path": "data/sprites/automated-intake/png/rhenia-rheneia-1180-whole-island-south-view-review-v1-cd687d0eb4dd.png",
+      "anchor": [
+        25.23,
+        37.39
+      ]
     },
     {
       "island": "Hydra",
@@ -213,8 +162,12 @@
     {
       "island": "spetses",
       "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
+      "status": "review_thumbnail_pinned_not_georegistered",
+      "path": "data/sprites/automated-intake/png/spetses-1180-whole-island-south-view-review-v1-70ffebba213c.png",
+      "anchor": [
+        23.16,
+        37.26
+      ]
     },
     {
       "island": "Donousa",
@@ -229,14 +182,22 @@
     {
       "island": "antiparos",
       "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
+      "status": "review_thumbnail_pinned_not_georegistered",
+      "path": "data/sprites/automated-intake/png/antiparos-1180-whole-island-south-view-review-v1-7cdaca6e4e02.png",
+      "anchor": [
+        25.05,
+        37.04
+      ]
     },
     {
       "island": "telendos",
       "region": "aegean",
-      "status": "missing_png_binary",
-      "path": "None"
+      "status": "review_thumbnail_pinned_not_georegistered",
+      "path": "data/sprites/automated-intake/png/telendos-1180-whole-island-south-view-review-v1-77ad27c2ab4c.png",
+      "anchor": [
+        26.917,
+        37
+      ]
     },
     {
       "island": "Koufonisia",
@@ -331,85 +292,21 @@
     {
       "island": "paxos",
       "region": "ionian",
-      "status": "missing_png_binary",
-      "path": "None"
+      "status": "review_thumbnail_pinned_not_georegistered",
+      "path": "data/sprites/automated-intake/png/paxos-1180-whole-island-south-view-review-v1-9f6ca9d23f7f.png",
+      "anchor": [
+        20.16,
+        39.21
+      ]
     },
     {
       "island": "antipaxos",
       "region": "ionian",
-      "status": "missing_png_binary",
-      "path": "None"
-    },
-    {
-      "island": "Salamis",
-      "region": "ionian",
       "status": "review_thumbnail_pinned_not_georegistered",
-      "path": "data/sprites/greek-islands/batch-03/49_salamis.png",
+      "path": "data/sprites/automated-intake/png/antipaxos-1180-whole-island-south-view-review-v1-940e9c1ca64f.png",
       "anchor": [
-        23.49,
-        37.96
-      ]
-    },
-    {
-      "island": "Aegina",
-      "region": "ionian",
-      "status": "review_thumbnail_pinned_not_georegistered",
-      "path": "data/sprites/greek-islands/batch-03/48_aegina.png",
-      "anchor": [
-        23.43,
-        37.75
-      ]
-    },
-    {
-      "island": "agistri",
-      "region": "ionian",
-      "status": "missing_png_binary",
-      "path": "None"
-    },
-    {
-      "island": "Poros",
-      "region": "ionian",
-      "status": "review_thumbnail_pinned_not_georegistered",
-      "path": "data/sprites/greek-islands/batch-03/50_poros.png",
-      "anchor": [
-        23.46,
-        37.5
-      ]
-    },
-    {
-      "island": "Hydra",
-      "region": "ionian",
-      "status": "review_thumbnail_pinned_not_georegistered",
-      "path": "data/sprites/greek-islands/batch-03/51_hydra.png",
-      "anchor": [
-        23.47,
-        37.35
-      ]
-    },
-    {
-      "island": "spetses",
-      "region": "ionian",
-      "status": "missing_png_binary",
-      "path": "None"
-    },
-    {
-      "island": "elafonisos",
-      "region": "ionian",
-      "status": "review_thumbnail_pinned_not_georegistered",
-      "path": "data/sprites/automated-intake/png/elafonisos-1180-whole-island-south-view-review-v1-9f3638e67336.png",
-      "anchor": [
-        22.97,
-        36.5
-      ]
-    },
-    {
-      "island": "antikythera",
-      "region": "ionian",
-      "status": "review_thumbnail_pinned_not_georegistered",
-      "path": "data/sprites/automated-intake/png/antikythera-1180-whole-island-south-view-review-v1-cbe095ac80d9.png",
-      "anchor": [
-        23.3,
-        35.87
+        20.23,
+        39.15
       ]
     }
   ],
