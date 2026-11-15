@@ -163,11 +163,7 @@ if review_pin_file.exists():
         item = {"island": island, "sprite_id": review_ids[island],
                 "review_anchor_wgs84": point, "image_preview_enabled": False,
                 "georegistered": False, "coastline_verified": False}
-        asset = ROOT / "data/sprites/automated-intake/png"
-        matches = sorted(asset.glob("*" + review_ids[island][7:19] + "*.png"))
-        # Intake filenames contain a 12-character suffix from the digest;
-        # the stable intake IDs use a different digest, so use the official
-        # registry instead of relying on that suffix.
+        # Resolve image identity through the intake registry, not the filename.
         intake_manifest = json.loads((ROOT/"data/sprites/automated-intake/manifest.json").read_text())
         source = next((q for q in intake_manifest.get("assets", [])
                        if q.get("id") == review_ids[island]), None)
@@ -192,7 +188,7 @@ if review_pin_file.exists():
         preview_audit["items"].append(item)
     preview.save(OUT/"aegean-four-new-islands-review-4800px.png")
 (OUT/"four-new-islands-review-audit.json").write_text(
-    json.dumps(preview_audit,indent=2)+"\\n",encoding="utf-8")
+    json.dumps(preview_audit,indent=2)+"\n",encoding="utf-8")
 
 drawn=set(islandart.USED)
 missing=[x for x in ACTIVE if x["id"] not in drawn]
