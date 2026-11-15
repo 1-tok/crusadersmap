@@ -7,6 +7,8 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 from scipy import ndimage as ndi
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from water_palette import grade_masked_sprite
 
 ROOT = Path(__file__).resolve().parents[1]
