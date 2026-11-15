@@ -24,6 +24,11 @@ on:
       - 'make_registers.py'
       - 'tools/check_terrain_gap_consistency.py'
       - 'tools/coverage_underlays.py'
+      - 'tools/audit_lowland_51_cutouts.py'
+      - 'tools/lowland_51_review_placer.py'
+      - 'tools/check_lowland_51_review.py'
+      - 'tools/compare_lowland_coasts.py'
+      - 'data/manifests/LOWLAND-51-CANONICAL-PLACEMENT-AUDIT-2026-11-15.json'
       - 'tools/check_coverage_underlays.py'
       - 'assets/terrain/large_area/rect_underlays_04/**'
       - 'tools/report_map_sprite_utilization.py'
@@ -67,6 +72,9 @@ jobs:
       - name: Regenerate current inventory and select latest located artwork
         run: |
           mkdir -p out deliver reports/rebuild-2026-11-12
+          cp reports/rebuild-2026-11-12/outremer-current-composite.jpg out/coverage-before.jpg
+          python -m py_compile tools/audit_lowland_51_cutouts.py tools/lowland_51_review_placer.py tools/check_lowland_51_review.py tools/compare_lowland_coasts.py
+          python tools/audit_lowland_51_cutouts.py
           python tools/build_sprite_handoff.py
           python build_sprite_assets.py "$PWD"
           python build_generic_assets.py "$PWD"
@@ -89,6 +97,8 @@ jobs:
           cp out/stage2-colour.jpg reports/rebuild-2026-11-12/outremer-current-composite.jpg
           cp out/underlay-coverage-report.json reports/rebuild-2026-11-12/underlay-coverage-report.json
           python tools/check_coverage_underlays.py
+          python tools/check_lowland_51_review.py
+          python tools/compare_lowland_coasts.py
       - name: Update Canaan geographic review from actual rebuilt map
         run: python tools/build_canaan_map_review.py
       - name: Generate new coverage and asset-usage registers
@@ -117,6 +127,7 @@ jobs:
           path: |
             reports/rebuild-2026-11-12/
             reports/azure-water-qa/
+            reports/lowland-review-2026-11-15/
             reports/island-review-2026-11-15/
             out/underlay-coverage-report.json
             out/placement_log.json
@@ -132,7 +143,7 @@ jobs:
           for attempt in 1 2 3 4; do
             git fetch origin main
             git reset --mixed origin/main
-            git add reports/rebuild-2026-11-12/ reports/island-review-2026-11-15/
+            git add reports/rebuild-2026-11-12/ reports/island-review-2026-11-15/ reports/lowland-review-2026-11-15/
             if git diff --cached --quiet; then
               echo "Reports already match current main"
               exit 0
