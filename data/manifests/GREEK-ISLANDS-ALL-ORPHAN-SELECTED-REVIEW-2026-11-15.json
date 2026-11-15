@@ -1,0 +1,677 @@
+{
+  "schema_version": 1,
+  "scope": "selected unique island subjects absent from 47 active original raster overlays",
+  "date": "2026-11-15",
+  "policy": {
+    "mode": "review-only imagery at geographically evidenced island anchors",
+    "production_approved": false,
+    "superseded_excluded": true,
+    "do_not_overwrite_47": true,
+    "do_not_claim_coastline_georegistration": true
+  },
+  "coordinate_system": "EPSG:4326 [longitude,latitude]",
+  "sources": {
+    "original": "assets/islands.json",
+    "newer": "data/manifests/ISLAND-BATCHES-25-31-RECONCILIATION-2026-11-15.json",
+    "early": "reports/greek-islands-review-2026-11-12/deduplicated-review-queue.json",
+    "geo": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+  },
+  "expected_selected": 62,
+  "selected": [
+    {
+      "subject": "antiparos",
+      "asset": "data/sprites/automated-intake/png/antiparos-1180-whole-island-south-view-review-v1-7cdaca6e4e02.png",
+      "anchor": [
+        25.05,
+        37.04
+      ],
+      "selection": "batch25-31-preferred",
+      "source_id": "INTAKE-7cdaca6e4e022d71f043"
+    },
+    {
+      "subject": "rhenia",
+      "asset": "data/sprites/automated-intake/png/rhenia-rheneia-1180-whole-island-south-view-review-v1-cd687d0eb4dd.png",
+      "anchor": [
+        25.23,
+        37.39
+      ],
+      "selection": "batch25-31-preferred",
+      "source_id": "INTAKE-cd687d0eb4dd9a727392"
+    },
+    {
+      "subject": "agathonisi",
+      "asset": "data/sprites/automated-intake/png/agathonisi-1180-whole-island-south-view-review-v1-27c557236db0.png",
+      "anchor": [
+        26.9666,
+        37.4642
+      ],
+      "selection": "batch25-31-preferred",
+      "source_id": "INTAKE-27c557236db03b6b0282"
+    },
+    {
+      "subject": "telendos",
+      "asset": "data/sprites/automated-intake/png/telendos-1180-whole-island-south-view-review-v1-77ad27c2ab4c.png",
+      "anchor": [
+        26.917,
+        37
+      ],
+      "selection": "batch25-31-preferred",
+      "source_id": "INTAKE-77ad27c2ab4c57744457"
+    },
+    {
+      "subject": "antikythera",
+      "asset": "data/sprites/automated-intake/png/antikythera-1180-whole-island-south-view-review-v1-cbe095ac80d9.png",
+      "anchor": [
+        23.3,
+        35.87
+      ],
+      "selection": "batch25-31-preferred",
+      "source_id": "INTAKE-cbe095ac80d9f77c22a9"
+    },
+    {
+      "subject": "elafonisos",
+      "asset": "data/sprites/automated-intake/png/elafonisos-1180-whole-island-south-view-review-v1-9f3638e67336.png",
+      "anchor": [
+        22.97,
+        36.5
+      ],
+      "selection": "batch25-31-preferred",
+      "source_id": "INTAKE-9f3638e67336b2d4ed66"
+    },
+    {
+      "subject": "gavdos",
+      "asset": "data/sprites/automated-intake/png/gavdos-1180-whole-island-south-view-review-v1-f85d57ec8eff.png",
+      "anchor": [
+        24.08,
+        34.84
+      ],
+      "selection": "batch25-31-preferred",
+      "source_id": "INTAKE-f85d57ec8eff404b16c4"
+    },
+    {
+      "subject": "psara",
+      "asset": "data/sprites/automated-intake/png/psara-1180-whole-island-south-view-review-v1-3614daffde89.png",
+      "anchor": [
+        25.56,
+        38.54
+      ],
+      "selection": "batch25-31-preferred",
+      "source_id": "INTAKE-3614daffde890dbfed01"
+    },
+    {
+      "subject": "agistri",
+      "asset": "data/sprites/automated-intake/png/agistri-1180-whole-island-south-view-review-v1-e38a0c785590.png",
+      "anchor": [
+        23.35,
+        37.7
+      ],
+      "selection": "batch25-31-preferred",
+      "source_id": "INTAKE-e38a0c785590bdfe867e"
+    },
+    {
+      "subject": "antipaxos",
+      "asset": "data/sprites/automated-intake/png/antipaxos-1180-whole-island-south-view-review-v1-940e9c1ca64f.png",
+      "anchor": [
+        20.23,
+        39.15
+      ],
+      "selection": "batch25-31-preferred",
+      "source_id": "INTAKE-940e9c1ca64fc4e1c25b"
+    },
+    {
+      "subject": "paxos",
+      "asset": "data/sprites/automated-intake/png/paxos-1180-whole-island-south-view-review-v1-9f6ca9d23f7f.png",
+      "anchor": [
+        20.16,
+        39.21
+      ],
+      "selection": "batch25-31-preferred",
+      "source_id": "INTAKE-9f6ca9d23f7f0d4304e2"
+    },
+    {
+      "subject": "spetses",
+      "asset": "data/sprites/automated-intake/png/spetses-1180-whole-island-south-view-review-v1-70ffebba213c.png",
+      "anchor": [
+        23.16,
+        37.26
+      ],
+      "selection": "batch25-31-preferred",
+      "source_id": "INTAKE-70ffebba213ca42ef8b9"
+    },
+    {
+      "subject": "delos",
+      "asset": "data/sprites/automated-intake/png/delos-1180-whole-island-south-view-review-v1-40e72311645c.png",
+      "anchor": [
+        25.27,
+        37.4
+      ],
+      "selection": "batch25-31-preferred",
+      "source_id": "INTAKE-40e72311645cfed5ca19"
+    },
+    {
+      "subject": "Aegina",
+      "asset": "data/sprites/greek-islands/batch-03/48_aegina.png",
+      "anchor": [
+        23.43,
+        37.75
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-AEGINA"
+    },
+    {
+      "subject": "Salamis",
+      "asset": "data/sprites/greek-islands/batch-03/49_salamis.png",
+      "anchor": [
+        23.49,
+        37.96
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-SALAMIS"
+    },
+    {
+      "subject": "Poros",
+      "asset": "data/sprites/greek-islands/batch-03/50_poros.png",
+      "anchor": [
+        23.46,
+        37.5
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-POROS"
+    },
+    {
+      "subject": "Hydra",
+      "asset": "data/sprites/greek-islands/batch-03/51_hydra.png",
+      "anchor": [
+        23.47,
+        37.35
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-HYDRA"
+    },
+    {
+      "subject": "Sikinos",
+      "asset": "data/sprites/greek-islands/batch-03/59_sikinos.png",
+      "anchor": [
+        24.98,
+        36.68
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-SIKINOS"
+    },
+    {
+      "subject": "Donousa",
+      "asset": "data/sprites/greek-islands/batch-03/60_donousa.png",
+      "anchor": [
+        25.8,
+        37.1
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-DONOUSA"
+    },
+    {
+      "subject": "Irakleia",
+      "asset": "data/sprites/greek-islands/batch-03/61_irakleia.png",
+      "anchor": [
+        25.46,
+        36.84
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-IRAKLEIA"
+    },
+    {
+      "subject": "Schinoussa",
+      "asset": "data/sprites/greek-islands/batch-03/62_schinoussa.png",
+      "anchor": [
+        25.52,
+        36.87
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-SCHINOUSSA"
+    },
+    {
+      "subject": "Koufonisia",
+      "asset": "data/sprites/greek-islands/batch-03/63_koufonisia.png",
+      "anchor": [
+        25.6,
+        36.94
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-KOUFONISIA"
+    },
+    {
+      "subject": "Chalki",
+      "asset": "data/sprites/greek-islands/batch-03/64_chalki.png",
+      "anchor": [
+        27.57,
+        36.22
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-CHALKI"
+    },
+    {
+      "subject": "Lipsi",
+      "asset": "data/sprites/greek-islands/batch-03/65_lipsi.png",
+      "anchor": [
+        26.77,
+        37.29
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-LIPSI"
+    },
+    {
+      "subject": "Kastellorizo",
+      "asset": "data/sprites/greek-islands/batch-03/66_kastellorizo.png",
+      "anchor": [
+        29.59,
+        36.15
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-KASTELLORIZO"
+    },
+    {
+      "subject": "Imbros",
+      "asset": "data/sprites/greek-islands/batch-03/67_imbros.png",
+      "anchor": [
+        25.9,
+        40.18
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-IMBROS"
+    },
+    {
+      "subject": "Tenedos",
+      "asset": "data/sprites/greek-islands/batch-03/68_tenedos.png",
+      "anchor": [
+        26.06,
+        39.83
+      ],
+      "selection": "batch03-preferred",
+      "source_id": "CR-GRI3-TENEDOS"
+    },
+    {
+      "subject": "Arki/Marathi",
+      "asset": "data/sprites/greek-islands/batch-04/review-unregistered/72-arki-marathi-cluster-draft-9d7fbc4c2d88.png",
+      "anchor": [
+        26.74,
+        37.39
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "Fournoi",
+      "asset": "data/sprites/greek-islands/batch-04/review-unregistered/74-fournoi-cluster-draft-ca98b66a708c.png",
+      "anchor": [
+        26.5,
+        37.567
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "Oinousses",
+      "asset": "data/sprites/greek-islands/batch-04/review-unregistered/73-oinousses-cluster-draft-fd807ab99f04.png",
+      "anchor": [
+        26.217,
+        38.517
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "agios-efstratios",
+      "asset": "data/sprites/greek-islands/batch-10/review-unregistered/98-agios-efstratios-concept-fef992e0674c.png",
+      "anchor": [
+        25,
+        39.517
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "antimilos",
+      "asset": "data/sprites/greek-islands/batch-09/review-unregistered/95-antimilos-concept-7a3f40bb4125.png",
+      "anchor": [
+        24.23861,
+        36.78694
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "arkoudi",
+      "asset": "data/sprites/automated-intake/png/107-arkoudi-concept-3ddfa9490ef8.png",
+      "anchor": [
+        20.70998,
+        38.55488
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://mapcarta.com/12874898"
+    },
+    {
+      "subject": "atokos",
+      "asset": "data/sprites/automated-intake/png/106-atokos-concept-bc2b8fa78fb1.png",
+      "anchor": [
+        20.812,
+        38.488
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://mapcarta.com/12874410"
+    },
+    {
+      "subject": "chrysi",
+      "asset": "data/sprites/greek-islands/batch-09/review-unregistered/97-chrysi-concept-9595a7a06e05.png",
+      "anchor": [
+        25.71,
+        34.87
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "despotiko",
+      "asset": "data/sprites/greek-islands/batch-09/review-unregistered/93-despotiko-concept-4cca48917a9f.png",
+      "anchor": [
+        25,
+        36.96
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "dia",
+      "asset": "data/sprites/greek-islands/batch-09/review-unregistered/94-dia-concept-757a8049c4c9.png",
+      "anchor": [
+        25.22,
+        35.448
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "dokos",
+      "asset": "data/sprites/greek-islands/batch-08/review-unregistered/89-dokos-concept-ad2102d19765.png",
+      "anchor": [
+        23.32134,
+        37.33311
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "ereikoussa",
+      "asset": "data/sprites/greek-islands/batch-06/review-unregistered/77-ereikoussa-concept-121fcdbe63d7.png",
+      "anchor": [
+        19.583,
+        39.883
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "gioura",
+      "asset": "data/sprites/greek-islands/batch-10/review-unregistered/101-gioura-concept-5fd81cf6ac1e.png",
+      "anchor": [
+        24.17,
+        39.39
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "gramvousa",
+      "asset": "data/sprites/greek-islands/batch-09/review-unregistered/96-gramvousa-concept-3fc3adbd687b.png",
+      "anchor": [
+        23.57917,
+        35.61111
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "gyaros",
+      "asset": "data/sprites/greek-islands/batch-08/review-unregistered/87-gyaros-concept-52d0b94c4e4d.png",
+      "anchor": [
+        24.72,
+        37.62722
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "kalamos",
+      "asset": "data/sprites/automated-intake/png/104-kalamos-concept-033d59ee3602.png",
+      "anchor": [
+        20.917,
+        38.617
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "kastos",
+      "asset": "data/sprites/automated-intake/png/105-kastos-concept-707632324fc6.png",
+      "anchor": [
+        20.917,
+        38.567
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "kinaros",
+      "asset": "data/sprites/automated-intake/png/84-kinaros-concept-8610e2beb05b.png",
+      "anchor": [
+        26.28972,
+        36.98028
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "kyra-panagia",
+      "asset": "data/sprites/greek-islands/batch-10/review-unregistered/100-kyra-panagia-concept-e0be838bd796.png",
+      "anchor": [
+        24.07,
+        39.33
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "levitha",
+      "asset": "data/sprites/automated-intake/png/85-levitha-concept-f3b23f4f067f.png",
+      "anchor": [
+        26.45972,
+        37.01111
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "makronisos",
+      "asset": "data/sprites/greek-islands/batch-08/review-unregistered/88-makronisos-concept-48de6d91dca5.png",
+      "anchor": [
+        24.12472,
+        37.70111
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "mathraki",
+      "asset": "data/sprites/greek-islands/batch-06/review-unregistered/78-mathraki-concept-8c230f7ded59.png",
+      "anchor": [
+        19.517,
+        39.767
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "meganisi",
+      "asset": "data/sprites/automated-intake/png/83-meganisi-concept-a0c0a9377ec6.png",
+      "anchor": [
+        20.783,
+        38.667
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "othonoi",
+      "asset": "data/sprites/greek-islands/batch-06/review-unregistered/76-othonoi-concept-65b2888de91b.png",
+      "anchor": [
+        19.4,
+        39.85
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "oxia",
+      "asset": "data/sprites/automated-intake/png/108-oxia-concept-f281584a8173.png",
+      "anchor": [
+        21.109,
+        38.302
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "peristera",
+      "asset": "data/sprites/greek-islands/batch-10/review-unregistered/99-peristera-sporades-concept-18b90c11fb97.png",
+      "anchor": [
+        23.97,
+        39.18
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "petalas",
+      "asset": "data/sprites/automated-intake/png/109-petalas-concept-e7ad71bf09a4.png",
+      "anchor": [
+        21.092,
+        38.414
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "piperi",
+      "asset": "data/sprites/greek-islands/batch-10/review-unregistered/102-piperi-sporades-concept-5f278c47616e.png",
+      "anchor": [
+        24.324,
+        39.348
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "polyaigos",
+      "asset": "data/sprites/greek-islands/batch-08/review-unregistered/86-polyaigos-concept-d0b77d2b1cfe.png",
+      "anchor": [
+        24.63639,
+        36.75139
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "pserimos",
+      "asset": "data/sprites/automated-intake/png/81-pserimos-concept-e0d1df1c3bf7.png",
+      "anchor": [
+        27.13333,
+        36.93333
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "sapientza",
+      "asset": "data/sprites/greek-islands/batch-08/review-unregistered/90-sapientza-concept-7d28e59627c7.png",
+      "anchor": [
+        21.705028,
+        36.77175
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "saria",
+      "asset": "data/sprites/greek-islands/batch-06/review-unregistered/79-saria-concept-06d4c61e5832.png",
+      "anchor": [
+        27.22,
+        35.87
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "schiza",
+      "asset": "data/sprites/greek-islands/batch-08/review-unregistered/91-schiza-concept-0a2fcaf14b22.png",
+      "anchor": [
+        21.76889,
+        36.72722
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    },
+    {
+      "subject": "skantzoura",
+      "asset": "data/sprites/greek-islands/batch-10/review-unregistered/103-skantzoura-concept-133f1b87a823.png",
+      "anchor": [
+        24.11057,
+        39.08095
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://mapcarta.com/12853060"
+    },
+    {
+      "subject": "thirasia",
+      "asset": "data/sprites/greek-islands/batch-09/review-unregistered/92-thirasia-concept-d68549eea353.png",
+      "anchor": [
+        25.33,
+        36.43
+      ],
+      "selection": "earlier-unique-candidate",
+      "source_id": null,
+      "anchor_source": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+    }
+  ]
+}
