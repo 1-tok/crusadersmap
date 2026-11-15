@@ -5,6 +5,7 @@ on:
     paths:
       - 'assets/sprites/incoming/**'
       - 'tools/sprite_zip_intake.py'
+      - 'data/manifests/ROOT-ZIP-RECOVERY-2026-11-13.json'
       - 'tools/sprite_intake.py'
       - 'tools/summarize_sprite_intake.py'
       - 'tests/test_sprite_zip_intake.py'
