@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/rebuild-current-map.yml'
       - 'tools/rebuild_city_coastal_qa.py'
+      - 'tools/activate_review_coastal_sprites.py'
       - 'tools/reconcile_recovered_coasts_islands.py'
       - 'data/manifests/ROOT-ZIP-RECOVERY-2026-11-13.json'
       - 'data/sprites/automated-intake/manifest.json'
@@ -66,6 +67,7 @@ jobs:
           python build_generic_assets.py "$PWD"
           python tools/import_recent_terrain_zips.py
           python build_fallback_assets.py
+          python tools/activate_review_coastal_sprites.py
           python tools/rebuild_city_coastal_qa.py
       - name: Render actual current map from geographic sources
         run: |
