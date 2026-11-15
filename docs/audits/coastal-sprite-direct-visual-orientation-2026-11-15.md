@@ -42,3 +42,13 @@ Acre, Alexandria, Ascalon, Batroun, Byblos, Famagusta, Kyrenia, Limassol, Larnac
 4. Produce a geographically composed review image and check overlaps and alpha margins at final atlas scale before promoting any candidate to production approval.
 
 **No production placement approval or manifest coordinates were changed by this audit.**
+
+## Reopened Canaan harbor review — user composite observation, 15 November 2026
+
+The user examined the actual geographic Canaan review crop and reported the **selected Acre, Caesarea, Jaffa, and Ascalon/Ashkelon illustrations appear to place sea on the wrong side**. This is a **composite-level reported failure**, distinct from an individual PNG visual verdict. The earlier Jaffa "retain provisionally" assessment is superseded for acceptance purposes by this reported geographic mismatch; do not claim it has passed until map fit is rechecked. Acre remains uninspected at original PNG level, and Ascalon was not in the initial direct-image table.
+
+- All four: `water_orientation_status=hold_user_reported_composite_mismatch`; production orientation acceptance is **false/unknown**, not passed.
+- Never flip them blindly: harbor mouths, city walls, promontories, and coast/land access must be physically plausible in a south-oblique view. Select or repaint region-specific alternatives only after verifying the source against the shoreline, then fit their footprints and hide inappropriate embedded water.
+- Review generator: `python tools/build_canaan_city_orientation_review.py` creates a four-panel contact sheet of the **selected real source PNGs** plus provenance; it cannot verify the map alignment itself.
+- Geographic map review `reports/canaan-coastal-review/canaan-current-map.jpg` predates any correction to these four artwork selections.
+- Batch 37–39 terrain mask creation does not correct settlement/harbor sprite artwork. Keep the two review tracks separate.
