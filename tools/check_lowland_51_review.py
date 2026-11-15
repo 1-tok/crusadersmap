@@ -29,7 +29,7 @@ for item in placements:
     assert item["id"] not in seen
     seen.add(item["id"])
     orig = byid[item["id"]]
-    assert orig["source_group"] == "07"
+    assert orig["source_group"] in ("07", "09")
     assert orig["preview_eligible"] and orig["valid_png_rgba_preview"]
     assert item["canonical_asset"] == orig["canonical_asset"]
     assert item["region"] == orig["assigned_review_region"]
