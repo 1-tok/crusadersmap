@@ -22,6 +22,9 @@ on:
       - 'tools/import_recent_terrain_zips.py'
       - 'make_registers.py'
       - 'tools/check_terrain_gap_consistency.py'
+      - 'tools/coverage_underlays.py'
+      - 'tools/check_coverage_underlays.py'
+      - 'assets/terrain/large_area/rect_underlays_04/**'
       - 'tools/report_map_sprite_utilization.py'
       - 'tools/audit_intake_promotion.py'
       - 'build_generic_assets.py'
@@ -73,6 +76,8 @@ jobs:
         run: |
           python build_stage2.py 0.30 colour
           cp out/stage2-colour.jpg reports/rebuild-2026-11-12/outremer-current-composite.jpg
+          cp out/underlay-coverage-report.json reports/rebuild-2026-11-12/underlay-coverage-report.json
+          python tools/check_coverage_underlays.py
       - name: Update Canaan geographic review from actual rebuilt map
         run: python tools/build_canaan_map_review.py
       - name: Generate new coverage and asset-usage registers
@@ -101,6 +106,7 @@ jobs:
           path: |
             reports/rebuild-2026-11-12/
             reports/island-review-2026-11-15/
+            out/underlay-coverage-report.json
             out/placement_log.json
             out/usage.json
           if-no-files-found: warn
