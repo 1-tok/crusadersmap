@@ -248,8 +248,8 @@ def water_fn_for(TER, BOX, region):
 def nudge_sprite(it, WF):
     """Push a sprite inland until its building footprint is dry. Small islands: search stays local and the sprite
     shrinks in steps rather than jumping to another landmass."""
-    rec = it.sprite
-    if not rec["foot"]:
+    rec = getattr(it, "sprite", None)
+    if not rec or not rec.get("foot"):
         return
     f = WF[it.region]
     rmax = 280 if it.region == "main" else 110
