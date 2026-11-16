@@ -10,6 +10,7 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from PIL import Image, ImageDraw
 import places as PL
+import sprites as SP
 from placer import coastal_sprite_held, COASTAL_OWNER_APPROVED_SITES, COASTAL_OWNER_FAILED_SITES
 entries=json.loads((ROOT/"assets/sprites.json").read_text())
 # At southern camera/looking north: west = image left, east = image right.
@@ -40,15 +41,15 @@ EXPECTED={
 def norm(s):return "".join(c for c in str(s or "").lower() if c.isalnum())
 rows=[]
 def render_status(e):
-    candidates = [p for p in PL.PLACES if p[0] == e.get("region")
-                  and abs(p[3] - e.get("lon", 999)) < 0.08
-                  and abs(p[4] - e.get("lat", 999)) < 0.08]
-    if not candidates:
+    # Use exact selected artwork, never a nearby place: Constantinople,
+    # Galata, Chrysopolis and Chalcedon overlap in a compact map inset.
+    places = [p for p in PL.PLACES if p[0] == e.get("region")
+              and SP.MATCH.get(p[5], {}).get("site") == e.get("site")]
+    if not places:
         return "no_matching_placed_settlement_review"
-    for p in candidates:
-        if coastal_sprite_held(p[0], p[5], p[7]):
-            return "held_existing_geographic_marker"
-    return "painted_sprite_selected_orientation_unverified"
+    if any(coastal_sprite_held(p[0], p[5], p[7]) for p in places):
+        return "held_existing_geographic_marker"
+    return "painted_sprite_selected_owner_accepted" if e["site"] in COASTAL_OWNER_APPROVED_SITES else "painted_sprite_selected_orientation_unverified"
 
 for e in entries:
     key=norm(e.get("site"))
@@ -65,7 +66,7 @@ for e in entries:
       "owner_coast_review_decision":("accepted" if e["site"] in COASTAL_OWNER_APPROVED_SITES else "failed_repaint_or_alternative_required"),
       "visual_water_side_verified":e["site"] in COASTAL_OWNER_APPROVED_SITES,
       "qa_status":("owner_accepted_waterfront_art" if e["site"] in COASTAL_OWNER_APPROVED_SITES else "owner_rejected_waterfront_art"),
-      "note":"Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."})
+      "note":"Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."})
 out=ROOT/"reports/rebuild-2026-11-12";out.mkdir(parents=True,exist_ok=True)
 with (out/"coastal-city-orientation-audit.csv").open("w",newline="") as fh:
     wr=csv.DictWriter(fh,fieldnames=list(rows[0]));wr.writeheader();wr.writerows(rows)
