@@ -9,6 +9,7 @@ on:
       - 'tools/rebuild_city_coastal_qa.py'
       - 'tools/reconcile_intake_geography.py'
       - 'tools/activate_review_coastal_sprites.py'
+      - 'tools/activate_uploaded_coastal_city_sheets.py'
       - 'tools/reconcile_recovered_coasts_islands.py'
       - 'data/manifests/ROOT-ZIP-RECOVERY-2026-11-13.json'
       - 'data/sprites/automated-intake/manifest.json'
@@ -81,6 +82,7 @@ jobs:
           python tools/import_recent_terrain_zips.py
           python build_fallback_assets.py
           python tools/activate_review_coastal_sprites.py
+          python tools/activate_uploaded_coastal_city_sheets.py
           python tools/rebuild_city_coastal_qa.py
           python tools/reconcile_intake_geography.py
       - name: Prepare reproducible Mediterranean azure harbor masks
