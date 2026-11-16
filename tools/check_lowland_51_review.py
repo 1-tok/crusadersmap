@@ -42,5 +42,25 @@ for item in placements:
         assert item["layer"].startswith("underlay_below_")
     else:
         assert item["status"] == "held_no_safe_near_coast_fertile_land"
+# Extra impressions increase density without treating duplicated paintings as
+# newly approved or geographically unique artwork. Every repeated footprint
+# retains the same source, eco-region and exact coastline clipping policy.
+extras = placement.get("additional_instances", [])
+assert placement.get("additional_repeated_underlay_instances", 0) == len(extras)
+assert placement.get("total_lowland_underlay_instances", len(placements)) == (
+    placement["geographically_drawn_for_review"] + len(extras)
+)
+for item in extras:
+    assert item["id"] in eligible
+    orig = byid[item["id"]]
+    assert item["repeat_index"] == 1
+    assert item["canonical_asset"] == orig["canonical_asset"]
+    assert item["frame"] == orig["frame"]
+    assert item["region"] == orig["assigned_review_region"]
+    assert item["status"] == "drawn_provisional_geographic_review"
+    assert item["clip"] == "atlas_land_polygon_minus_lakes"
+    lo, lat, hi, hi_lat = orig["review_zone_bbox_wgs84"]
+    x, y = item["generic_landcover_review_anchor_lonlat"]
+    assert lo <= x <= hi and lat <= y <= hi_lat
 assert (D / "lowland-51-contact-sheet.jpg").is_file()
 print("LOWLAND-51 REVIEW QA PASSED:", json.dumps(placement, indent=2)[:900])
