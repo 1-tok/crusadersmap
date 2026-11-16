@@ -1,0 +1,109 @@
+{
+  "batch": "coastal-city-batch05-regenerated-2026-11-16",
+  "status": "SIX_ORIGINAL_PNGS_RECONSTRUCTED_QA_PROVISIONAL",
+  "files": [
+    {
+      "city": "gaza",
+      "path": "assets/sprites/qa_provisional/coastal-batch05-2026-11-16/gaza-coastal-city-2026-11-16-review.png",
+      "size_bytes": 3457280,
+      "sha256": "c3594e3017851e0b6fae3114c5b265049f5e3d86dc8987ca93e05c369a670df9",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "coastal_orientation": "west/left",
+      "historical_accuracy": "pending_review",
+      "map_placement": "pending_review"
+    },
+    {
+      "city": "tortosa",
+      "path": "assets/sprites/qa_provisional/coastal-batch05-2026-11-16/tortosa-coastal-city-2026-11-16-review.png",
+      "size_bytes": 3263915,
+      "sha256": "aa2b98844c2eda27773db571ec44a27eac2532ee82c718db700d8fa65e530ce1",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "coastal_orientation": "west/left",
+      "historical_accuracy": "pending_review",
+      "map_placement": "pending_review"
+    },
+    {
+      "city": "baniyas",
+      "path": "assets/sprites/qa_provisional/coastal-batch05-2026-11-16/baniyas-coastal-city-2026-11-16-review.png",
+      "size_bytes": 3490767,
+      "sha256": "ad1f586a5b80b38100bd06b4c1807459ae7da2e9061fabe8e67daf2594030dde",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "coastal_orientation": "west/left",
+      "historical_accuracy": "pending_review",
+      "map_placement": "pending_review"
+    },
+    {
+      "city": "damietta",
+      "path": "assets/sprites/qa_provisional/coastal-batch05-2026-11-16/damietta-coastal-city-2026-11-16-review.png",
+      "size_bytes": 3801005,
+      "sha256": "f00ac924b23601b8a58d1bd35f5a480484103a3a9031b7fc9d441815d74e94e3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "coastal_orientation": "north/top",
+      "historical_accuracy": "pending_review",
+      "map_placement": "pending_review"
+    },
+    {
+      "city": "alexandria",
+      "path": "assets/sprites/qa_provisional/coastal-batch05-2026-11-16/alexandria-coastal-city-2026-11-16-review.png",
+      "size_bytes": 3562843,
+      "sha256": "a12f8fb33853c079f44bd57f30743f480b3f3597c0f12b62021fe861ffc6964d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "coastal_orientation": "north/top",
+      "historical_accuracy": "pending_review",
+      "map_placement": "pending_review"
+    },
+    {
+      "city": "famagusta",
+      "path": "assets/sprites/qa_provisional/coastal-batch05-2026-11-16/famagusta-coastal-city-2026-11-16-review.png",
+      "size_bytes": 3826208,
+      "sha256": "3271241c734139b7cf24af7d2ddbc03d239ab49d4d1c45aab2716a345473616f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "coastal_orientation": "east/right",
+      "historical_accuracy": "pending_review",
+      "map_placement": "pending_review"
+    }
+  ],
+  "approved_for_map_placement": false
+}
