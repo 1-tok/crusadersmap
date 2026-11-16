@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "batch_id": "coastal-batch-01-southern-levant",
+  "created": "2026-11-16",
+  "reviewed_assets": [
+    {
+      "site_id": "ascalon",
+      "name": "Ashkelon / Ascalon",
+      "region": "main",
+      "candidate_repository_path": "data/sprites/coastal-corrections-2026-11-16/ascalon-coast-west-turquoise-review-v2.png",
+      "original_preserved": "data/sprites/greece-egypt-1180-batch04/ascalon-1180-v1.png",
+      "sha256": "679d053c6f46666448aa88f885df9126b0b6120ef1f556218eae3ca0f5402ad1",
+      "image_px": [
+        1448,
+        1086
+      ],
+      "format": "RGBA PNG",
+      "owner_art_approval": "accepted_subject_to_map_scale_placement_review",
+      "water_side": "west/left",
+      "coast_axis": "north-south",
+      "water_palette": "turquoise",
+      "camera": "high oblique south-looking-north",
+      "binary_in_repository": false,
+      "map_renderer_selection": "held_until_binary_ingested_and_position_QA_passed",
+      "pending_checks": [
+        "binary import",
+        "image sha256 match",
+        "shoreline match at map scale",
+        "city anchoring",
+        "label ordering",
+        "print output"
+      ]
+    }
+  ],
+  "next_city_queue": [
+    "Jaffa",
+    "Caesarea",
+    "Acre",
+    "Sidon",
+    "Tyre",
+    "Tripoli",
+    "Byblos",
+    "Batroun",
+    "Latakia"
+  ],
+  "editorial_note": "Jaffa attempted source rendered an opaque checkerboard and is not approved for intake. Current Ashkelon PNG is available in the chat-provided batch ZIP, not yet in GitHub. Do not mark the candidate as live until its actual PNG is uploaded."
+}
