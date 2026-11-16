@@ -15,7 +15,7 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
-INCOMING = ROOT / "assets/sprites/incoming"
+INCOMING = ROOT / "out/coastal-sheet-source"  # archived before assets/sprites is recreated
 OUT = ROOT / "assets/sprites"
 REGISTRY = ROOT / "assets/sprites.json"
 REPORT = ROOT / "reports/rebuild-2026-11-12/coastal-sheet-city-activation.json"
