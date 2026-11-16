@@ -65,6 +65,18 @@ COASTAL_WATER_SIDE_HOLDS = {
     ("aegean", "chania"),
     ("aegean", "rethymno"),
     ("aegean", "naxos"),
+    # Four more cities were explicitly flagged in the Canaan coastal
+    # orientation review. Their source paintings are retained in the library,
+    # not placed on a coast until an image-specific shoreline pass.
+    ("main", "acre"),
+    ("main", "akko"),
+    ("main", "caesarea"),
+    ("main", "cesaire"),
+    ("main", "jaffa"),
+    ("main", "japhe"),
+    ("main", "ascalon"),
+    ("main", "escalone"),
+    ("main", "ashkelon"),
 }
 
 
