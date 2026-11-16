@@ -1,0 +1,28 @@
+{
+  "title": "Greece and Egypt coastal city sprite water-orientation and azure harmonization review",
+  "date": "2026-11-16",
+  "status": "candidate_review_not_production_approved",
+  "camera": "elevated oblique looking north from south; never horizontally flip cities",
+  "scope": "Existing city PNG variants and cartographic shorelines; avoid broad replacement of working artwork",
+  "rules": [
+    "Use coast geometry and city footprint instead of generic western-sea assumptions",
+    "Keep maritime water in the same azure family as current base map; color harmonization is not evidence of correct coast fit",
+    "Remove duplicate painted sea portions where a city overlaps the mapped water body; preserve harbor architecture, docks, walls and land access",
+    "Preserve alpha transparency outside the footprint; no rectangular or opaque sea backgrounds",
+    "Render original-versus-candidate side by side within map coastline at print scale before promotion",
+    "Record source-year and historical uncertainty; do not silently substitute a later fortification for an 1180 depiction",
+    "Do not alter production sprite selection until coast-mask intersection and owner review are complete"
+  ],
+  "priority_sites": [
+    {"site":"alexandria","region":"egypt","water_geometry":"Mediterranean to north, historical western and eastern harbor basins need distinct shoreline geometry","selected_asset":"data/sprites/greece-egypt-1180/alexandria-1180-v1.png","action":"compare with existing 2026-11-16 QA provisional candidate; harmonize azure without detached background","status":"hold_composite_review"},
+    {"site":"damietta","region":"egypt","water_geometry":"Nile distributary enters Mediterranean to north; retain river mouth, avoid converting river into seaward wall","selected_asset":"data/sprites/greece-egypt-1180/damietta-1180-v1.png","action":"compare with existing 2026-11-16 QA provisional candidate; reconcile river blue and marine azure","status":"hold_composite_review"},
+    {"site":"chania","region":"crete","water_geometry":"north/northwestern Cretan coast; harbor basin is behind city from south oblique camera","selected_asset":"data/sprites/greece-egypt-1180-batch03/chania-1180-v1.png","action":"check north harbor and foreground sea duplication","status":"hold_visual_and_map_review"},
+    {"site":"rethymno","region":"crete","water_geometry":"northern Cretan coast; sea behind city from southern oblique camera","selected_asset":"data/sprites/greece-egypt-1180-batch03/rethymno-1180-v1.png","action":"check north harbor orientation and azure continuity","status":"hold_visual_and_map_review"},
+    {"site":"heraklion","region":"crete","water_geometry":"northern Cretan coast; fortified Candia harbor to north","selected_asset":"data/sprites/greece-egypt-1180/heraklion-1180-v1.png","action":"inspect historic Candia walls by era; unify sea hue","status":"hold_visual_and_map_review"},
+    {"site":"rhodes","region":"dodecanese","water_geometry":"complex harbor basins; local northern/eastern harbor orientation, not blanket left-water rule","selected_asset":"data/sprites/greece-egypt-1180/rhodes-1180-v1.png","action":"check precise harbors and later-period walls before watercolor adjustments","status":"hold_visual_and_map_review"},
+    {"site":"monemvasia","region":"peloponnese","water_geometry":"rocky island connected to mainland by causeway, sea surrounds cliff on multiple sides","selected_asset":"data/sprites/greece-egypt-1180-batch04/monemvasia-1180-v1.png","action":"keep the island/mountain distinct; avoid painted sea spilling onto land or masking causeway","status":"hold_visual_and_map_review"},
+    {"site":"chios","region":"aegean","water_geometry":"east-facing port around Chios town; specific coastline registration required","selected_asset":"data/sprites/greece-egypt-1180-batch04/chios-1180-v1.png","action":"verify eastern shoreline and fit blue water to map","status":"hold_visual_and_map_review"}
+  ],
+  "accepted_sprite_changes": 0,
+  "note": "This is a geographic and production QA gate. Concept art produced in chat must not be mistaken for edits of original PNG assets."
+}
