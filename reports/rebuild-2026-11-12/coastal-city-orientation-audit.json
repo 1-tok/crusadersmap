@@ -1,6 +1,10 @@
 {
   "count": 32,
   "verified": 0,
+  "marker_holds": 9,
+  "painted_selected_unverified": 23,
+  "meaning": "Marker hold is not visual certification; sprite presence is not orientation certification.",
+  "contact_sheet": "reports/rebuild-2026-11-12/coastal-all-cities-actual-art-review.jpg",
   "rows": [
     {
       "site": "acre",
@@ -10,6 +14,7 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "held_existing_geographic_marker",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -22,6 +27,7 @@
       "expected_water_side": "back / north",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "held_existing_geographic_marker",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -34,6 +40,7 @@
       "expected_water_side": "not waterfront / river valley",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -46,6 +53,7 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -58,6 +66,7 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -70,6 +79,7 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -82,6 +92,7 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "held_existing_geographic_marker",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -94,6 +105,7 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "held_existing_geographic_marker",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -106,6 +118,7 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "held_existing_geographic_marker",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -118,6 +131,7 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -130,6 +144,7 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -142,6 +157,7 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -154,6 +170,7 @@
       "expected_water_side": "left: Bosphorus / front: Marmara",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -166,6 +183,7 @@
       "expected_water_side": "back / north (northwestern Crete)",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "held_existing_geographic_marker",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -178,6 +196,7 @@
       "expected_water_side": "local coast geometry required",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -190,6 +209,7 @@
       "expected_water_side": "left: Bosphorus",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -202,6 +222,7 @@
       "expected_water_side": "front: Marmara / right: Bosphorus / back: Golden Horn",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -214,6 +235,7 @@
       "expected_water_side": "river mouth and Mediterranean north",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -226,6 +248,7 @@
       "expected_water_side": "front-south: Golden Horn",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -238,6 +261,7 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -250,6 +274,7 @@
       "expected_water_side": "back / north (Heraklion northern harbor)",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "held_existing_geographic_marker",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -262,6 +287,7 @@
       "expected_water_side": "back / north",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -274,6 +300,7 @@
       "expected_water_side": "front-east",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -286,6 +313,7 @@
       "expected_water_side": "front / south",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -298,6 +326,7 @@
       "expected_water_side": "island-separated shore",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -310,6 +339,7 @@
       "expected_water_side": "back / north (northern Crete)",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "held_existing_geographic_marker",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -322,6 +352,7 @@
       "expected_water_side": "local coast geometry required",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -334,6 +365,7 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -346,6 +378,7 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -358,6 +391,7 @@
       "expected_water_side": "right / east",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -370,6 +404,7 @@
       "expected_water_side": "front-west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "painted_sprite_selected_orientation_unverified",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
@@ -382,6 +417,7 @@
       "expected_water_side": "left / west (Chora western port)",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
+      "render_disposition": "held_existing_geographic_marker",
       "visual_water_side_verified": false,
       "qa_status": "requires_visual_coastline_orientation_review",
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
