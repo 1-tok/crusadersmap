@@ -1,0 +1,118 @@
+{
+  "batch": "coastal-city-batch05-regenerated-2026-11-16",
+  "status": "provisional_artwork_placement_and_historical_review_pending",
+  "image_format": "PNG",
+  "source": "ChatGPT regenerated painted city sprites, transferred as raw binary Git blobs; GitHub Actions reconstructs identical bytes",
+  "files": [
+    {
+      "city": "gaza",
+      "filename": "gaza-coastal-city-2026-11-16-review.png",
+      "size_bytes": 3457280,
+      "sha256": "c3594e3017851e0b6fae3114c5b265049f5e3d86dc8987ca93e05c369a670df9",
+      "expected_dimensions": [
+        1536,
+        1024
+      ],
+      "coastal_orientation": "west/left",
+      "parts": [
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/gaza/part-00.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/gaza/part-01.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/gaza/part-02.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/gaza/part-03.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/gaza/part-04.bin"
+      ]
+    },
+    {
+      "city": "tortosa",
+      "filename": "tortosa-coastal-city-2026-11-16-review.png",
+      "size_bytes": 3263915,
+      "sha256": "aa2b98844c2eda27773db571ec44a27eac2532ee82c718db700d8fa65e530ce1",
+      "expected_dimensions": [
+        1536,
+        1024
+      ],
+      "coastal_orientation": "west/left",
+      "parts": [
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/tortosa/part-00.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/tortosa/part-01.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/tortosa/part-02.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/tortosa/part-03.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/tortosa/part-04.bin"
+      ]
+    },
+    {
+      "city": "baniyas",
+      "filename": "baniyas-coastal-city-2026-11-16-review.png",
+      "size_bytes": 3490767,
+      "sha256": "ad1f586a5b80b38100bd06b4c1807459ae7da2e9061fabe8e67daf2594030dde",
+      "expected_dimensions": [
+        1536,
+        1024
+      ],
+      "coastal_orientation": "west/left",
+      "parts": [
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/baniyas/part-00.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/baniyas/part-01.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/baniyas/part-02.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/baniyas/part-03.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/baniyas/part-04.bin"
+      ]
+    },
+    {
+      "city": "damietta",
+      "filename": "damietta-coastal-city-2026-11-16-review.png",
+      "size_bytes": 3801005,
+      "sha256": "f00ac924b23601b8a58d1bd35f5a480484103a3a9031b7fc9d441815d74e94e3",
+      "expected_dimensions": [
+        1536,
+        1024
+      ],
+      "coastal_orientation": "north/top",
+      "parts": [
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/damietta/part-00.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/damietta/part-01.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/damietta/part-02.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/damietta/part-03.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/damietta/part-04.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/damietta/part-05.bin"
+      ]
+    },
+    {
+      "city": "alexandria",
+      "filename": "alexandria-coastal-city-2026-11-16-review.png",
+      "size_bytes": 3562843,
+      "sha256": "a12f8fb33853c079f44bd57f30743f480b3f3597c0f12b62021fe861ffc6964d",
+      "expected_dimensions": [
+        1536,
+        1024
+      ],
+      "coastal_orientation": "north/top",
+      "parts": [
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/alexandria/part-00.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/alexandria/part-01.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/alexandria/part-02.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/alexandria/part-03.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/alexandria/part-04.bin"
+      ]
+    },
+    {
+      "city": "famagusta",
+      "filename": "famagusta-coastal-city-2026-11-16-review.png",
+      "size_bytes": 3826208,
+      "sha256": "3271241c734139b7cf24af7d2ddbc03d239ab49d4d1c45aab2716a345473616f",
+      "expected_dimensions": [
+        1536,
+        1024
+      ],
+      "coastal_orientation": "east/right",
+      "parts": [
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/famagusta/part-00.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/famagusta/part-01.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/famagusta/part-02.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/famagusta/part-03.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/famagusta/part-04.bin",
+        "assets/sprites/incoming/coastal-batch05-chunks-2026-11-16/famagusta/part-05.bin"
+      ]
+    }
+  ]
+}
