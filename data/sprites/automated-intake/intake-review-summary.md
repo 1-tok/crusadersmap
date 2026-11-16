@@ -3,12 +3,12 @@
 Generated from the current automated intake registry. Category hints are **not classification**.
 Historical accuracy, viewpoint, coastline, coordinates, and print approval remain separate QA gates.
 
-- Registered intake artworks: **660**
-- Unclassified artworks: **542**
-- Without verified intake geography: **660**
-- Sources processed this run: **902**
-- New registrations this run: **2**
-- Duplicate pixels this run: **900**
+- Registered intake artworks: **667**
+- Unclassified artworks: **549**
+- Without verified intake geography: **667**
+- Sources processed this run: **909**
+- New registrations this run: **7**
+- Duplicate pixels this run: **902**
 - Intake errors this run: **0**
 
 ## Classification review sample (first 30 alphabetically)
@@ -46,5 +46,5 @@ Historical accuracy, viewpoint, coastline, coordinates, and print approval remai
 | 111_farmakonisi_DRAFT | none |
 | 112_alimia_DRAFT | none |
 
-Full review queue: 542 entries in intake-review-summary.json.
+Full review queue: 549 entries in intake-review-summary.json.
 Do not apply candidate labels or assign coordinates without checking source imagery and site evidence.

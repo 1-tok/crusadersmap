@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "purpose": "Review queue only: no category, date, historical, or geographic approval is changed",
-  "intake_assets_total": 660,
+  "intake_assets_total": 667,
   "intake_report": {
-    "processed_sources": 902,
-    "newly_registered_this_run": 2,
-    "duplicates_this_run": 900,
+    "processed_sources": 909,
+    "newly_registered_this_run": 7,
+    "duplicates_this_run": 902,
     "errors_this_run": 0
   },
   "categories": {
@@ -20,16 +20,16 @@
     "settlement": 1,
     "terrain": 2,
     "terrain_transition": 51,
-    "unclassified": 542,
+    "unclassified": 549,
     "village": 2
   },
   "approval_states": {
     "approved": 12,
     "placement_review_required": 16,
-    "provisional": 632
+    "provisional": 639
   },
-  "missing_geographic_placement": 660,
-  "unclassified_count": 542,
+  "missing_geographic_placement": 667,
+  "unclassified_count": 549,
   "unclassified_category_hints": [
     {
       "id": "INTAKE-01cb3de516e79cb3f98f",
@@ -2655,6 +2655,18 @@
       ]
     },
     {
+      "id": "INTAKE-43d1651b895b2ecf0101",
+      "name": "acre-coastal-west-turquoise-2026-11-16",
+      "asset": "automated-intake/png/acre-coastal-west-turquoise-2026-11-16-43d1651b895b.png",
+      "candidate_categories": [],
+      "status": "hint_only_not_classified",
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-0db1dc3c9dcf131ddc98",
       "name": "acre-concept",
       "asset": "automated-intake/png/acre-concept-0db1dc3c9dcf.png",
@@ -2884,6 +2896,18 @@
       "candidate_categories": [
         "island"
       ],
+      "status": "hint_only_not_classified",
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-bcdd69ebe7829743e8c4",
+      "name": "ascalon-coastal-west-turquoise-2026-11-16",
+      "asset": "automated-intake/png/ascalon-coastal-west-turquoise-2026-11-16-bcdd69ebe782.png",
+      "candidate_categories": [],
       "status": "hint_only_not_classified",
       "review_flags": [
         "category_unverified",
@@ -3958,6 +3982,18 @@
       ]
     },
     {
+      "id": "INTAKE-9da04913a93b6cfcc5eb",
+      "name": "caesarea-coastal-west-turquoise-2026-11-16",
+      "asset": "automated-intake/png/caesarea-coastal-west-turquoise-2026-11-16-9da04913a93b.png",
+      "candidate_categories": [],
+      "status": "hint_only_not_classified",
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-d46875ca8137ec326cc7",
       "name": "caesarea-concept",
       "asset": "automated-intake/png/caesarea-concept-d46875ca8137.png",
@@ -4221,6 +4257,32 @@
         "category_unverified",
         "coordinates_unverified",
         "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-0aa5156ee8bd5c358756",
+      "name": "crusader_northern_coast_ACTUAL_spritesheet",
+      "asset": "automated-intake/png/crusader-northern-coast-actual-spritesheet-0aa5156ee8bd.png",
+      "candidate_categories": [],
+      "status": "hint_only_not_classified",
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified",
+        "possible_unsplit_sheet"
+      ]
+    },
+    {
+      "id": "INTAKE-28e092c7266658188ead",
+      "name": "crusader_southern_coast_ACTUAL_spritesheet",
+      "asset": "automated-intake/png/crusader-southern-coast-actual-spritesheet-28e092c72666.png",
+      "candidate_categories": [],
+      "status": "hint_only_not_classified",
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified",
+        "possible_unsplit_sheet"
       ]
     },
     {
@@ -4667,6 +4729,18 @@
       "id": "INTAKE-a8e79845dd68c19b0afb",
       "name": "jableh_1180_south_view_review_v1",
       "asset": "automated-intake/png/jableh-1180-south-view-review-v1-a8e79845dd68.png",
+      "candidate_categories": [],
+      "status": "hint_only_not_classified",
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-97d2ecc8e9058c14719b",
+      "name": "jaffa-coastal-west-turquoise-2026-11-16",
+      "asset": "automated-intake/png/jaffa-coastal-west-turquoise-2026-11-16-97d2ecc8e905.png",
       "candidate_categories": [],
       "status": "hint_only_not_classified",
       "review_flags": [
@@ -6994,6 +7068,18 @@
       "id": "INTAKE-f908765ef876ceee737c",
       "name": "tripoli_1180_south_view_review_v1",
       "asset": "automated-intake/png/tripoli-1180-south-view-review-v1-f908765ef876.png",
+      "candidate_categories": [],
+      "status": "hint_only_not_classified",
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-bd42737f27abcdec042d",
+      "name": "tyre-coastal-west-turquoise-2026-11-16",
+      "asset": "automated-intake/png/tyre-coastal-west-turquoise-2026-11-16-bd42737f27ab.png",
       "candidate_categories": [],
       "status": "hint_only_not_classified",
       "review_flags": [

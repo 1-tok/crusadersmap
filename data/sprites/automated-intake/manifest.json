@@ -3240,6 +3240,104 @@
       ]
     },
     {
+      "id": "INTAKE-0aa5156ee8bd5c358756",
+      "site_id": "crusader-northern-coast-actual-spritesheet",
+      "name": "crusader_northern_coast_ACTUAL_spritesheet",
+      "display_title": "crusader_northern_coast_ACTUAL_spritesheet",
+      "category": "unclassified",
+      "asset": "automated-intake/png/crusader-northern-coast-actual-spritesheet-0aa5156ee8bd.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_northern_coast_ACTUAL_spritesheet/crusader_northern_coast_ACTUAL_spritesheet.png",
+        "sha256": "e7f070bc54b1bcd15a94d69cb9c67f953910ab0735c0e972cb6ba619764b6162",
+        "crop_xyxy": [
+          0,
+          0,
+          3120,
+          1580
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          3120,
+          1580
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          13,
+          15,
+          3099,
+          1565
+        ],
+        "pixel_sha256": "0aa5156ee8bd5c358756a603c3f5b83c7f52bff2b666cd796e27df92f6c4644e",
+        "sha256": "e7f070bc54b1bcd15a94d69cb9c67f953910ab0735c0e972cb6ba619764b6162",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified",
+        "possible_unsplit_sheet"
+      ]
+    },
+    {
       "id": "INTAKE-0ad1e4fb90c723a09730",
       "site_id": "25-04-olive-wheat-patchwork",
       "name": "25_04_olive_wheat_patchwork",
@@ -12600,6 +12698,104 @@
       ]
     },
     {
+      "id": "INTAKE-28e092c7266658188ead",
+      "site_id": "crusader-southern-coast-actual-spritesheet",
+      "name": "crusader_southern_coast_ACTUAL_spritesheet",
+      "display_title": "crusader_southern_coast_ACTUAL_spritesheet",
+      "category": "unclassified",
+      "asset": "automated-intake/png/crusader-southern-coast-actual-spritesheet-28e092c72666.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_southern_coast_ACTUAL_spritesheet/crusader_southern_coast_ACTUAL_spritesheet.png",
+        "sha256": "05d8397b53893e51fc6fd45c3e75064c0da7c0445f19cc76430c220ba85053a6",
+        "crop_xyxy": [
+          0,
+          0,
+          3120,
+          1580
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          3120,
+          1580
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          11,
+          15,
+          3106,
+          1565
+        ],
+        "pixel_sha256": "28e092c7266658188eadf0aa8ac3d099be19b69f4371872e3997e68005a3e47f",
+        "sha256": "05d8397b53893e51fc6fd45c3e75064c0da7c0445f19cc76430c220ba85053a6",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified",
+        "possible_unsplit_sheet"
+      ]
+    },
+    {
       "id": "INTAKE-29c921302d6442fab7e8",
       "site_id": "lowland-20261113-08-delta-aegean-levant-tiles-r03-c02",
       "name": "lowland-20261113-08_delta_aegean_levant_tiles_r03_c02",
@@ -19039,6 +19235,102 @@
         ],
         "pixel_sha256": "43273ed0aaec055886891856074549a527471643b93b524d6ea9f4fbaee16529",
         "sha256": "22c568bf9817ee9bf60573116e1c758ba83f7e637c8aeaa4f5cea14ce1de15a2",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-43d1651b895b2ecf0101",
+      "site_id": "acre-coastal-west-turquoise-2026-11-16",
+      "name": "acre-coastal-west-turquoise-2026-11-16",
+      "display_title": "acre-coastal-west-turquoise-2026-11-16",
+      "category": "unclassified",
+      "asset": "automated-intake/png/acre-coastal-west-turquoise-2026-11-16-43d1651b895b.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_coastal_cities_batch_01_under_10MB/png/acre-coastal-west-turquoise-2026-11-16.png",
+        "sha256": "3960dd1d8c39ec87fd97c22ce17f0593dd9db001a72775a3efeabee67626ad65",
+        "crop_xyxy": [
+          0,
+          0,
+          1024,
+          768
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          768
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1024,
+          768
+        ],
+        "pixel_sha256": "43d1651b895b2ecf010169be22dd7f9c67580aa505961df79a48878dcb6cb2e5",
+        "sha256": "3960dd1d8c39ec87fd97c22ce17f0593dd9db001a72775a3efeabee67626ad65",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -39306,6 +39598,102 @@
       ]
     },
     {
+      "id": "INTAKE-97d2ecc8e9058c14719b",
+      "site_id": "jaffa-coastal-west-turquoise-2026-11-16",
+      "name": "jaffa-coastal-west-turquoise-2026-11-16",
+      "display_title": "jaffa-coastal-west-turquoise-2026-11-16",
+      "category": "unclassified",
+      "asset": "automated-intake/png/jaffa-coastal-west-turquoise-2026-11-16-97d2ecc8e905.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_coastal_cities_batch_01_under_10MB/png/jaffa-coastal-west-turquoise-2026-11-16.png",
+        "sha256": "4ddb30ef3ac884f1f7f762aa10f61fb60a2eddb4e0beae0bc4b274a2756dcf19",
+        "crop_xyxy": [
+          0,
+          0,
+          1024,
+          768
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          768
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1024,
+          768
+        ],
+        "pixel_sha256": "97d2ecc8e9058c14719b7833ab0dfa6dea97b3e0b99eaabf93b54fd8b9dfc6d7",
+        "sha256": "4ddb30ef3ac884f1f7f762aa10f61fb60a2eddb4e0beae0bc4b274a2756dcf19",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-97fe8b99a558256150e0",
       "site_id": "paros-paroikia-1180-whole-island-south-view-review-v1",
       "name": "paros_paroikia_1180_whole_island_south_view_review_v1",
@@ -40249,6 +40637,102 @@
         ],
         "pixel_sha256": "9d88ff9719532be6926ea6eb2daecb244966854a69ceb9577ee0ea042648b2f8",
         "sha256": "150a2aaabcc0d3418a256925fab6c133cb353bbb51217f16adb7308dcdbd7603",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
+      "id": "INTAKE-9da04913a93b6cfcc5eb",
+      "site_id": "caesarea-coastal-west-turquoise-2026-11-16",
+      "name": "caesarea-coastal-west-turquoise-2026-11-16",
+      "display_title": "caesarea-coastal-west-turquoise-2026-11-16",
+      "category": "unclassified",
+      "asset": "automated-intake/png/caesarea-coastal-west-turquoise-2026-11-16-9da04913a93b.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_coastal_cities_batch_01_under_10MB/png/caesarea-coastal-west-turquoise-2026-11-16.png",
+        "sha256": "03752d2383122c5e074d4fef566f7a1f77c65031abe84ef5e0ed7f1f1205d769",
+        "crop_xyxy": [
+          0,
+          0,
+          1024,
+          768
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          768
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1024,
+          768
+        ],
+        "pixel_sha256": "9da04913a93b6cfcc5ebf9c149158aa5bc338ff78cfb6cbd4f806a48c8e6a165",
+        "sha256": "03752d2383122c5e074d4fef566f7a1f77c65031abe84ef5e0ed7f1f1205d769",
         "review_flags": [
           "category_unverified",
           "coordinates_unverified",
@@ -47214,6 +47698,102 @@
       ]
     },
     {
+      "id": "INTAKE-bcdd69ebe7829743e8c4",
+      "site_id": "ascalon-coastal-west-turquoise-2026-11-16",
+      "name": "ascalon-coastal-west-turquoise-2026-11-16",
+      "display_title": "ascalon-coastal-west-turquoise-2026-11-16",
+      "category": "unclassified",
+      "asset": "automated-intake/png/ascalon-coastal-west-turquoise-2026-11-16-bcdd69ebe782.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_coastal_cities_batch_01_under_10MB/png/ascalon-coastal-west-turquoise-2026-11-16.png",
+        "sha256": "3ecefefbf039a3cd3aa1f9c1d860f225c9c543d9e345d577e3f4db977e2da411",
+        "crop_xyxy": [
+          0,
+          0,
+          1024,
+          683
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          683
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          3,
+          16,
+          1018,
+          675
+        ],
+        "pixel_sha256": "bcdd69ebe7829743e8c4102a8b811d75e1054a5121c45b9606567a83a7811351",
+        "sha256": "3ecefefbf039a3cd3aa1f9c1d860f225c9c543d9e345d577e3f4db977e2da411",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
+      ]
+    },
+    {
       "id": "INTAKE-bd042f1f9c7f23f5694f",
       "site_id": "t27-22-river-delta-wetland",
       "name": "t27_22_river_delta_wetland",
@@ -47405,6 +47985,102 @@
         "coordinates_unverified",
         "southern_pov_unverified",
         "possible_unsplit_sheet"
+      ]
+    },
+    {
+      "id": "INTAKE-bd42737f27abcdec042d",
+      "site_id": "tyre-coastal-west-turquoise-2026-11-16",
+      "name": "tyre-coastal-west-turquoise-2026-11-16",
+      "display_title": "tyre-coastal-west-turquoise-2026-11-16",
+      "category": "unclassified",
+      "asset": "automated-intake/png/tyre-coastal-west-turquoise-2026-11-16-bd42737f27ab.png",
+      "variant": "automated-intake",
+      "source": {
+        "path": "assets/sprites/incoming/_zip_extract/crusader_coastal_cities_batch_01_under_10MB/png/tyre-coastal-west-turquoise-2026-11-16.png",
+        "sha256": "f8b83ab64c13ef78f6a67a13becd3726b8a03e7d95abc4823b21fedf92f410b7",
+        "crop_xyxy": [
+          0,
+          0,
+          1024,
+          768
+        ],
+        "extraction": "intact_image_or_uncertain_sheet"
+      },
+      "coordinates": null,
+      "coordinate_source": null,
+      "coordinates_surveyed": false,
+      "coordinate_evidence": {
+        "status": "missing"
+      },
+      "geographic_placement_ready": false,
+      "map_region": "main",
+      "anchor_normalized": [
+        0.5,
+        0.95
+      ],
+      "display_width_units": 512,
+      "selection_priority": 1,
+      "placement_view": "atlas",
+      "map_layers": [
+        "unclassified",
+        "main"
+      ],
+      "layer_priority": null,
+      "water_side": null,
+      "overlap_instructions": "transparent alpha overlap; review edges",
+      "orientation": "unverified",
+      "historical": {
+        "target_year": 1180,
+        "accuracy": "unverified",
+        "requires_historical_review": true,
+        "requires_repaint_review": false
+      },
+      "historical_accuracy_certified": false,
+      "approval": {
+        "status": "provisional",
+        "provisional_map_use": true,
+        "repaint_later": false,
+        "historical_accuracy_certified": false
+      },
+      "approval_for_placement": false,
+      "placement_review_required": true,
+      "period_1180_eligible": true,
+      "availability": {
+        "from_year": 1180,
+        "through_year": 1180,
+        "basis": "unverified image brief; not verified building period"
+      },
+      "technical_qa": {
+        "status": "pass",
+        "mode": "RGBA",
+        "dimensions_px": [
+          1024,
+          768
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "painted_bounds_xyxy": [
+          0,
+          0,
+          1017,
+          768
+        ],
+        "pixel_sha256": "bd42737f27abcdec042d445d84763f7d309ec78efb5f132916454e1dc678563b",
+        "sha256": "f8b83ab64c13ef78f6a67a13becd3726b8a03e7d95abc4823b21fedf92f410b7",
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      },
+      "review_required": true,
+      "repaint_required": false,
+      "review_flags": [
+        "category_unverified",
+        "coordinates_unverified",
+        "southern_pov_unverified"
       ]
     },
     {
