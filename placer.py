@@ -54,35 +54,72 @@ class Item:
 REPORT = {}
 PAINTED_WATER = ("Mer de Galilee",)
 
-# These existing coastal city paintings have owner-reported reversed water and
-# have not passed visual shoreline-orientation QA. Retain their geographic
-# settlement symbols while preserving the source PNGs for correct repaint or
-# alternate selection. This hold is deliberately narrow, not a blanket
-# suppression of coastal sprite coverage.
-COASTAL_WATER_SIDE_HOLDS = {
-    ("delta", "alexandria"),
-    ("aegean", "heraklion"),
-    ("aegean", "chania"),
-    ("aegean", "rethymno"),
-    ("aegean", "naxos"),
-    # Four more cities were explicitly flagged in the Canaan coastal
-    # orientation review. Their source paintings are retained in the library,
-    # not placed on a coast until an image-specific shoreline pass.
-    ("main", "acre"),
-    ("main", "akko"),
-    ("main", "caesarea"),
-    ("main", "cesaire"),
-    ("main", "jaffa"),
-    ("main", "japhe"),
-    ("main", "ascalon"),
-    ("main", "escalone"),
-    ("main", "ashkelon"),
+# Coastal painting review decision (2026-11-16): the map owner accepted
+# Byzantium/Constantinople and Bayrut/Beirut; Ayas/Lajazzo is also accepted
+# but currently has no primary entry in assets/sprites.json. Every OTHER
+# painting in the 32-city coastal review failed. Keep original PNGs intact;
+# use a correctly located settlement symbol until an oriented painting is
+# approved. Do not flip or guess at the waterfront.
+COASTAL_OWNER_APPROVED_SITES = {"beirut", "constantinople", "ayas"}
+COASTAL_OWNER_FAILED_SITES = {
+    "acre",
+    "alexandria",
+    "antioch",
+    "tripoli",
+    "tyre",
+    "sidon",
+    "caesarea",
+    "jaffa",
+    "ascalon",
+    "batroun",
+    "byblos",
+    "chalcedon",
+    "chania",
+    "chios",
+    "chrysopolis",
+    "damietta",
+    "galata-sykai",
+    "gaza",
+    "heraklion",
+    "kyrenia",
+    "larnaca",
+    "limassol",
+    "monemvasia",
+    "rethymno",
+    "rhodes",
+    "baniyas-syria",
+    "latakia",
+    "famagusta",
+    "paphos",
+    "naxos",
 }
 
 
+def _coastal_normalize(value):
+    return "".join(ch for ch in str(value or "").lower() if ch.isalnum())
+
+
+# Resolve canonical sprite-site IDs to the ACTUAL PL.PLACES labels used by
+# the renderer (e.g. Tyre=Sur, Jaffa=Japhe, Alexandria=al-Iskandariyya).
+# Match the same geographic vicinity used by sprites.MATCH rather than
+# assuming the English name is the visible map label.
+COASTAL_WATER_SIDE_HOLDS = set()
+for _coastal_rec in SP._META:
+    if _coastal_rec.get("site") not in COASTAL_OWNER_FAILED_SITES:
+        continue
+    for _place in PL.PLACES:
+        if _place[0] != _coastal_rec.get("region"):
+            continue
+        _d = math.hypot(_place[3] - _coastal_rec["lon"], _place[4] - _coastal_rec["lat"])
+        if _d < 0.08:
+            COASTAL_WATER_SIDE_HOLDS.add((_place[0], _coastal_normalize(_place[5])))
+            COASTAL_WATER_SIDE_HOLDS.add((_place[0], _coastal_normalize(_place[7])))
+
+
 def coastal_sprite_held(region, name, modern=""):
-    norm = lambda value: "".join(ch for ch in str(value).lower() if ch.isalnum())
-    return (region, norm(name)) in COASTAL_WATER_SIDE_HOLDS or (region, norm(modern)) in COASTAL_WATER_SIDE_HOLDS
+    return (region, _coastal_normalize(name)) in COASTAL_WATER_SIDE_HOLDS or (
+        region, _coastal_normalize(modern)
+    ) in COASTAL_WATER_SIDE_HOLDS
 
 
 
