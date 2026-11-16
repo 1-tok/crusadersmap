@@ -1,10 +1,10 @@
 region,zone,lon,lat,sheet_x,sheet_y,cell_px,detail,flat,legacy_flat_flag,detail_class,base_layer_exposure
 main,Cilicia and the Taurus,35.57,37.72,7360,320,320,12.7,False,False,thin,unverified
-main,"North Syria (Antioch, Aleppo)",37.5,35.25,10240,4800,320,11.8,True,False,flat,unverified
+main,"North Syria (Antioch, Aleppo)",37.5,35.25,10240,4800,320,11.7,True,False,flat,unverified
 main,Syrian desert,37.49,34.73,10240,5760,320,15.1,False,False,thin,unverified
 main,Lebanon and Damascus,36.84,33.33,9280,8320,320,14.7,False,False,thin,unverified
 main,Lebanon and Damascus,36.84,33.15,9280,8640,320,15.4,False,False,thin,unverified
-main,Transjordan and Hauran,37.04,32.63,9600,9600,320,15.0,False,False,thin,unverified
+main,Transjordan and Hauran,37.04,32.63,9600,9600,320,14.7,False,False,thin,unverified
 main,"Negev, Sinai, Arabah",34.17,31.04,5120,12480,320,12.8,False,False,thin,unverified
 main,"Negev, Sinai, Arabah",34.57,31.04,5760,12480,320,11.1,True,False,flat,unverified
 main,"Negev, Sinai, Arabah",34.37,30.87,5440,12800,320,14.8,False,False,thin,unverified
@@ -12,12 +12,13 @@ aegean,Aegean inset: Anatolia and Thrace,27.83,39.52,3790,1390,200,15.0,False,Fa
 aegean,Aegean inset: Anatolia and Thrace,28.27,39.51,3990,1390,200,15.6,False,False,thin,unverified
 aegean,Aegean inset: Greece and the Balkans,22.67,37.51,1390,2590,200,15.9,False,False,thin,unverified
 aegean,Aegean inset: Greece and the Balkans,23.09,37.52,1590,2590,200,15.9,False,False,thin,unverified
-aegean,Aegean inset: Greece and the Balkans,21.85,36.81,990,2990,200,15.7,False,False,thin,unverified
+aegean,Aegean inset: Greece and the Balkans,21.85,36.81,990,2990,200,15.8,False,False,thin,unverified
 aegean,Aegean inset: islands and Crete,25.62,35.17,2790,3990,200,14.8,False,False,thin,unverified
 delta,Egypt inset: Delta,31.04,30.69,1390,10721,200,15.9,False,False,thin,unverified
 delta,Egypt inset: Sinai,32.69,30.68,2790,10721,200,11.0,True,False,flat,unverified
 delta,Egypt inset: Sinai,33.85,30.26,3790,11121,200,15.0,False,False,thin,unverified
 delta,Egypt inset: Western and Eastern deserts,30.11,30.08,590,11321,200,15.0,False,False,thin,unverified
+delta,Egypt inset: Sinai,34.54,29.83,4390,11521,200,15.6,False,False,thin,unverified
 delta,Egypt inset: Western and Eastern deserts,32.21,29.67,2390,11721,200,9.1,True,False,flat,unverified
 delta,Egypt inset: Sinai,32.9,29.66,2990,11721,200,14.8,False,False,thin,unverified
 delta,Egypt inset: Western and Eastern deserts,31.28,29.47,1590,11921,200,15.2,False,False,thin,unverified
@@ -27,7 +28,8 @@ delta,Egypt inset: Western and Eastern deserts,29.89,29.26,390,12121,200,13.3,Fa
 delta,Egypt inset: Western and Eastern deserts,32.2,29.27,2390,12121,200,15.6,False,False,thin,unverified
 delta,Egypt inset: Sinai,32.43,29.26,2590,12121,200,15.2,False,False,thin,unverified
 delta,Egypt inset: Sinai,33.13,29.25,3190,12121,200,13.1,False,False,thin,unverified
-delta,Egypt inset: Western and Eastern deserts,31.51,29.07,1790,12321,200,15.9,False,False,thin,unverified
+delta,Egypt inset: Sinai,33.59,29.25,3590,12121,200,15.9,False,False,thin,unverified
+delta,Egypt inset: Western and Eastern deserts,31.51,29.07,1790,12321,200,15.7,False,False,thin,unverified
 delta,Egypt inset: Western and Eastern deserts,31.74,29.07,1990,12321,200,15.6,False,False,thin,unverified
 delta,Egypt inset: Western and Eastern deserts,32.2,29.06,2390,12321,200,14.0,False,False,thin,unverified
 delta,Egypt inset: Sinai,33.35,29.05,3390,12321,200,13.0,False,False,thin,unverified

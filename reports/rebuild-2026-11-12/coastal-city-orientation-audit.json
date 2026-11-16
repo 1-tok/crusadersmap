@@ -1,5 +1,5 @@
 {
-  "count": 28,
+  "count": 32,
   "verified": 0,
   "rows": [
     {
@@ -159,6 +159,18 @@
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
     },
     {
+      "site": "chania",
+      "name": "Chania",
+      "source": "catalog",
+      "asset": "data/sprites/greece-egypt-1180-batch03/chania-1180-v1.png",
+      "expected_water_side": "back / north (northwestern Crete)",
+      "viewpoint": "south looking north; no mirroring in renderer",
+      "file_exists": true,
+      "visual_water_side_verified": false,
+      "qa_status": "requires_visual_coastline_orientation_review",
+      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+    },
+    {
       "site": "chios",
       "name": "Chios",
       "source": "catalog",
@@ -231,6 +243,18 @@
       "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
     },
     {
+      "site": "heraklion",
+      "name": "Heraklion",
+      "source": "catalog",
+      "asset": "data/sprites/greece-egypt-1180/heraklion-1180-v1.png",
+      "expected_water_side": "back / north (Heraklion northern harbor)",
+      "viewpoint": "south looking north; no mirroring in renderer",
+      "file_exists": true,
+      "visual_water_side_verified": false,
+      "qa_status": "requires_visual_coastline_orientation_review",
+      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+    },
+    {
       "site": "kyrenia",
       "name": "Kyrenia",
       "source": "catalog",
@@ -272,6 +296,18 @@
       "source": "catalog",
       "asset": "data/sprites/greece-egypt-1180-batch04/monemvasia-1180-v1.png",
       "expected_water_side": "island-separated shore",
+      "viewpoint": "south looking north; no mirroring in renderer",
+      "file_exists": true,
+      "visual_water_side_verified": false,
+      "qa_status": "requires_visual_coastline_orientation_review",
+      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+    },
+    {
+      "site": "rethymno",
+      "name": "Rethymno",
+      "source": "catalog",
+      "asset": "data/sprites/greece-egypt-1180-batch03/rethymno-1180-v1.png",
+      "expected_water_side": "back / north (northern Crete)",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
       "visual_water_side_verified": false,
@@ -332,6 +368,18 @@
       "source": "review-1180",
       "asset": "data/sprites/city-review-2026-11-10/sprites/batch-09-cilicia-cyprus/paphos-1180-review-v1.png",
       "expected_water_side": "front-west",
+      "viewpoint": "south looking north; no mirroring in renderer",
+      "file_exists": true,
+      "visual_water_side_verified": false,
+      "qa_status": "requires_visual_coastline_orientation_review",
+      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+    },
+    {
+      "site": "naxos",
+      "name": "Naxos",
+      "source": "review-1180",
+      "asset": "data/sprites/city-review-2026-11-10/sprites/batch-10-aegean-1/naxos-1180-review-v1.png",
+      "expected_water_side": "left / west (Chora western port)",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
       "visual_water_side_verified": false,

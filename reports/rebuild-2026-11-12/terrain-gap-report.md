@@ -5,7 +5,7 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 | Zone | Land cells | Flat | Thin | Share flat or thin |
 |---|---:|---:|---:|---:|
 | Egypt inset: Western and Eastern deserts | 163 | 2 | 18 | 12% |
-| Egypt inset: Sinai | 185 | 2 | 13 | 8% |
+| Egypt inset: Sinai | 185 | 2 | 15 | 9% |
 | Aegean inset: islands and Crete | 16 | 0 | 1 | 6% |
 | Lebanon and Damascus | 39 | 0 | 2 | 5% |
 | Negev, Sinai, Arabah | 62 | 1 | 2 | 5% |
@@ -22,13 +22,13 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 | Syrian coast and Orontes | 33 | 0 | 0 | 0% |
 | Galilee, Samaria, Judea | 53 | 0 | 0 | 0% |
 
-Whole sheet: 1288 land cells, 6 flat, 45 thin (4% flat or thin).
+Whole sheet: 1288 land cells, 6 flat, 47 thin (4% flat or thin).
 
 ## Flat cells by position
 
 | Zone | Lon | Lat | Sheet x | Sheet y | Detail |
 |---|---:|---:|---:|---:|---:|
-| North Syria (Antioch, Aleppo) | 37.50 | 35.25 | 10240 | 4800 | 11.8 |
+| North Syria (Antioch, Aleppo) | 37.50 | 35.25 | 10240 | 4800 | 11.7 |
 | Negev, Sinai, Arabah | 34.57 | 31.04 | 5760 | 12480 | 11.1 |
 | Egypt inset: Sinai | 32.69 | 30.68 | 2790 | 10721 | 11.0 |
 | Egypt inset: Sinai | 32.88 | 28.45 | 2990 | 12921 | 11.7 |
