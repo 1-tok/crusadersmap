@@ -77,6 +77,10 @@ jobs:
           python -m py_compile tools/audit_lowland_51_cutouts.py tools/lowland_51_review_placer.py tools/check_lowland_51_review.py tools/compare_lowland_coasts.py
           python tools/audit_lowland_51_cutouts.py
           python tools/build_sprite_handoff.py
+          # build_sprite_assets.py recreates assets/sprites/; preserve source ZIPs first.
+          mkdir -p out/coastal-sheet-source
+          cp assets/sprites/incoming/crusader_southern_coast_ACTUAL_spritesheet.zip out/coastal-sheet-source/
+          cp assets/sprites/incoming/crusader_northern_coast_ACTUAL_spritesheet.zip out/coastal-sheet-source/
           python build_sprite_assets.py "$PWD"
           python build_generic_assets.py "$PWD"
           python tools/import_recent_terrain_zips.py
