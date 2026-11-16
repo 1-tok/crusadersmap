@@ -11,7 +11,7 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 | Negev, Sinai, Arabah | 62 | 1 | 2 | 5% |
 | Egypt inset: Delta | 51 | 0 | 2 | 4% |
 | Syrian desert | 33 | 0 | 1 | 3% |
-| Aegean inset: Greece and the Balkans | 105 | 0 | 3 | 3% |
+| Aegean inset: Greece and the Balkans | 105 | 0 | 2 | 2% |
 | Aegean inset: Anatolia and Thrace | 119 | 0 | 2 | 2% |
 | North Syria (Antioch, Aleppo) | 63 | 1 | 0 | 2% |
 | Cilicia and the Taurus | 140 | 0 | 1 | 1% |
@@ -22,7 +22,7 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 | Syrian coast and Orontes | 33 | 0 | 0 | 0% |
 | Galilee, Samaria, Judea | 53 | 0 | 0 | 0% |
 
-Whole sheet: 1288 land cells, 7 flat, 49 thin (4% flat or thin).
+Whole sheet: 1288 land cells, 7 flat, 48 thin (4% flat or thin).
 
 ## Flat cells by position
 
@@ -40,8 +40,8 @@ The thin cells are listed with the flat ones in terrain-gap-cells.csv.
 
 ## What covers the land now
 
-- Terrain stamps and landscape tiles: 69 different pieces, 6268 placements
-- Generic settlement, farm, tree, rock and ruin pieces: 189 different pieces, 2378 placements
+- Terrain stamps and landscape tiles: 69 different pieces, 6271 placements
+- Generic settlement, farm, tree, rock and ruin pieces: 189 different pieces, 2381 placements
 - Greek island overlays: 47
 - Ships at sea: 8
 

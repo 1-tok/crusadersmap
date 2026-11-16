@@ -6,7 +6,7 @@
   "placement_approved": 0,
   "historical_certified": 0,
   "generic_rendered_distinct": 74,
-  "generic_rendered_instances": 954,
+  "generic_rendered_instances": 952,
   "generic_eligible_but_unused": 0,
   "status_counts": {
     "held_generic_architecture_fallback": 32,
@@ -35,12 +35,12 @@
     {
       "name": "B19-21_cattle",
       "asset": "data/sprites/automated-intake/png/b19-21-cattle-068d25f90cba.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "Beehive apiary",
       "asset": "data/sprites/automated-intake/png/beehive-apiary-0ae14ae46cca.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B19-07_classical_ruins",
@@ -50,17 +50,17 @@
     {
       "name": "B18-10_crusader_camp",
       "asset": "data/sprites/automated-intake/png/b18-10-crusader-camp-115c67adc323.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B19-17_market_tents",
       "asset": "data/sprites/automated-intake/png/b19-17-market-tents-1632ebc04987.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B21-13_rural_houses",
       "asset": "data/sprites/automated-intake/png/b21-13-rural-houses-18a791006882.png",
-      "times": 3
+      "times": 5
     },
     {
       "name": "B16-05_terraced_hilltown_generic",
@@ -90,7 +90,7 @@
     {
       "name": "Wheat harvest and cart",
       "asset": "data/sprites/automated-intake/png/wheat-harvest-and-cart-23cc811952f3.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B19-14_lateen_ship_b",
@@ -100,7 +100,7 @@
     {
       "name": "B18-21_olive_tree",
       "asset": "data/sprites/automated-intake/png/b18-21-olive-tree-2acb7a30d0c2.png",
-      "times": 12
+      "times": 13
     },
     {
       "name": "B20-05_rocky_foothill_scrub",
@@ -115,7 +115,7 @@
     {
       "name": "B18-23_flowering_tree",
       "asset": "data/sprites/automated-intake/png/b18-23-flowering-tree-2cfcb50e825c.png",
-      "times": 13
+      "times": 11
     },
     {
       "name": "B19-19_ox_cart",
@@ -125,12 +125,12 @@
     {
       "name": "Irrigated crop terraces",
       "asset": "data/sprites/automated-intake/png/irrigated-crop-terraces-345117df6dad.png",
-      "times": 4
+      "times": 6
     },
     {
       "name": "B19-16_fortified_tents",
       "asset": "data/sprites/automated-intake/png/b19-16-fortified-tents-3e6428bc9e93.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B19-31_yellow_shrub",
@@ -165,7 +165,7 @@
     {
       "name": "B19-28_cypress_stand",
       "asset": "data/sprites/automated-intake/png/b19-28-cypress-stand-51105e00a48d.png",
-      "times": 12
+      "times": 11
     },
     {
       "name": "B21-15_foothill_to_mountain",
@@ -210,12 +210,12 @@
     {
       "name": "B19-08_domed_chapel",
       "asset": "data/sprites/automated-intake/png/b19-08-domed-chapel-6947ffff7e8a.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B19-29_palm_tree",
       "asset": "data/sprites/automated-intake/png/b19-29-palm-tree-70fb557bdccf.png",
-      "times": 12
+      "times": 11
     },
     {
       "name": "Olive grove and harvest",
@@ -230,7 +230,7 @@
     {
       "name": "B18-08_stone_village_chapel",
       "asset": "data/sprites/automated-intake/png/b18-08-stone-village-chapel-767c571fb425.png",
-      "times": 3
+      "times": 4
     },
     {
       "name": "B19-27_umbrella_pine",
@@ -240,7 +240,7 @@
     {
       "name": "Citrus orchard",
       "asset": "data/sprites/automated-intake/png/citrus-orchard-7cab9160c1dd.png",
-      "times": 4
+      "times": 6
     },
     {
       "name": "Charcoal burning and metalworking yard",
@@ -265,7 +265,7 @@
     {
       "name": "B19-25_low_shrub",
       "asset": "data/sprites/automated-intake/png/b19-25-low-shrub-861df6967d1f.png",
-      "times": 12
+      "times": 13
     },
     {
       "name": "Medieval windmill and farm",
@@ -275,12 +275,12 @@
     {
       "name": "B18-11_market_tents",
       "asset": "data/sprites/automated-intake/png/b18-11-market-tents-915b1620bfbb.png",
-      "times": 3
+      "times": 4
     },
     {
       "name": "Pottery and brick kilns",
       "asset": "data/sprites/automated-intake/png/pottery-and-brick-kilns-9263c882bffd.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "Limestone quarry",
@@ -305,7 +305,7 @@
     {
       "name": "Hillside stone hamlet",
       "asset": "data/sprites/automated-intake/png/hillside-stone-hamlet-b395a12e5f7b.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B21-10_fields_with_chapel",
@@ -325,7 +325,7 @@
     {
       "name": "B18-22_fruit_tree",
       "asset": "data/sprites/automated-intake/png/b18-22-fruit-tree-bfed0ed5b90d.png",
-      "times": 12
+      "times": 13
     },
     {
       "name": "B19-20_herd_with_figure",
@@ -335,7 +335,7 @@
     {
       "name": "Terraced vineyard estate",
       "asset": "data/sprites/automated-intake/png/terraced-vineyard-estate-c4ca6e27b3b4.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "Stone sheepfold",
@@ -345,7 +345,7 @@
     {
       "name": "B21-20_open_olive_woodland",
       "asset": "data/sprites/automated-intake/png/b21-20-open-olive-woodland-cfda8dc299c3.png",
-      "times": 12
+      "times": 13
     },
     {
       "name": "B18-25_umbrella_pines",
@@ -365,7 +365,7 @@
     {
       "name": "Cattle enclosure and shelter",
       "asset": "data/sprites/automated-intake/png/cattle-enclosure-and-shelter-dd95379c2fd8.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B19-13_lateen_ship_a",
@@ -380,7 +380,7 @@
     {
       "name": "Vineyard wine press",
       "asset": "data/sprites/automated-intake/png/vineyard-wine-press-eb2efb668f49.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B21-11_orchard_field_connector",
