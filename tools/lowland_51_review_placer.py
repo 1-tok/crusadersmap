@@ -28,6 +28,7 @@ AUDIT_PATH = REVIEW_DIR / "lowland-51-image-qa-and-regions.json"
 PLACEMENT_PATH = REVIEW_DIR / "lowland-51-placement-review.json"
 _SURF = {}
 _USED = []
+_EXTRA = []  # Additional ecological stamps, not additional unique cutouts.
 _REGION_COUNT = defaultdict(int)
 
 
@@ -140,7 +141,17 @@ def draw_for_region(c, terrain, reg, region, edition):
             })
             continue
         choices[subregion].append(anchor)
-        positions.append((row, anchor))
+        positions.append((row, anchor, 0))
+        # Reuse proven dry-land artwork for denser, non-identical coverage.
+        # Only the same approved ecological region is eligible; no additional
+        # water-bearing cutouts are promoted. Keep repeats distinguishable
+        # from uniquely placed source PNGs in the utilization register.
+        repeat_seed = int(hashlib.sha256((row["id"] + ":repeat:1").encode()).hexdigest()[:12], 16)
+        repeat = _pick_anchor(terrain, row["review_zone_bbox_wgs84"],
+                              choices[subregion], repeat_seed)
+        if repeat is not None:
+            choices[subregion].append(repeat)
+            positions.append((row, repeat, 1))
     if not positions:
         return
     c.save()
@@ -148,9 +159,9 @@ def draw_for_region(c, terrain, reg, region, edition):
         _clip_real_land(c, reg, terrain.mpp)
         # All placements here are underlays BEFORE terrain's mountains,
         # trees, ruins, generic industries, towns, fortresses and labels.
-        for item, (lon, lat) in positions:
+        for item, (lon, lat), repeat_index in positions:
             x, y = reg.ll_px(lon, lat)
-            width = 300 if region == "main" else 250
+            width = (300 if region == "main" else 250) if repeat_index == 0 else (270 if region == "main" else 225)
             surf = _surface(item["canonical_asset"], width)
             c.save()
             c.translate(x - width * .5, y - surf.get_height() * .70)
@@ -158,8 +169,9 @@ def draw_for_region(c, terrain, reg, region, edition):
             c.get_source().set_filter(cairo.FILTER_BEST)
             c.paint_with_alpha(0.88)
             c.restore()
-            _USED.append({
-                "id": item["id"], "canonical_asset": item["canonical_asset"],
+            ( _EXTRA if repeat_index else _USED ).append({
+                "id": item["id"], "repeat_index": repeat_index,
+                "canonical_asset": item["canonical_asset"],
                 "region": item["assigned_review_region"], "frame": region,
                 "generic_landcover_review_anchor_lonlat": [round(lon, 6), round(lat, 6)],
                 "anchor_method": "sampled_from_existing_geographic_land_mask_fertility_low_elevation_and_coastal_distance",
@@ -188,10 +200,13 @@ def save_report():
         "geographically_drawn_for_review": len(drawn),
         "eligible_held_for_no_anchor": len(_USED) - len(drawn),
         "other_sources_held": 51 - len(eligible),
+        "additional_repeated_underlay_instances": len(_EXTRA),
+        "total_lowland_underlay_instances": len(drawn) + len(_EXTRA),
         "layer_order": "lowland cutouts before all other atlas sprite and label rendering",
         "coastal_cutout_policy": "precise vector land-minus-lakes clip; overlap beyond coast is masked, not plotted",
         "placement_approval": "review_only",
         "rendered": _USED,
+        "additional_instances": _EXTRA,
     }
     REVIEW_DIR.mkdir(parents=True, exist_ok=True)
     PLACEMENT_PATH.write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n")
