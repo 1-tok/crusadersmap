@@ -54,6 +54,25 @@ class Item:
 REPORT = {}
 PAINTED_WATER = ("Mer de Galilee",)
 
+# These existing coastal city paintings have owner-reported reversed water and
+# have not passed visual shoreline-orientation QA. Retain their geographic
+# settlement symbols while preserving the source PNGs for correct repaint or
+# alternate selection. This hold is deliberately narrow, not a blanket
+# suppression of coastal sprite coverage.
+COASTAL_WATER_SIDE_HOLDS = {
+    ("delta", "alexandria"),
+    ("aegean", "heraklion"),
+    ("aegean", "chania"),
+    ("aegean", "rethymno"),
+    ("aegean", "naxos"),
+}
+
+
+def coastal_sprite_held(region, name, modern=""):
+    norm = lambda value: "".join(ch for ch in str(value).lower() if ch.isalnum())
+    return (region, norm(name)) in COASTAL_WATER_SIDE_HOLDS or (region, norm(modern)) in COASTAL_WATER_SIDE_HOLDS
+
+
 
 def mark_func(spec):
     kind, name = spec.split(":")
@@ -248,7 +267,7 @@ def build_items(TER, REG, BOX):
         px, py = REG[region].ll_px(lon, lat)
         it.x, it.y = bx + px, by + py
         it.rf = RF[region]
-        it.sprite = SP.MATCH.get(name)
+        it.sprite = None if coastal_sprite_held(region, name, modern) else SP.MATCH.get(name)
         it.w = (SP.width_for(tier, it.rf, it.sprite.get('units', 512)) * SP.SCALE.get(name, 1.0) if it.sprite else symbol_size(mark, tier, name) * it.rf)
         if it.sprite and region == "main" and 35.0 < lon < 35.95 and 32.3 < lat < 33.4:
             it.w *= 0.85                                  # Galilee is crowded: sprites there are a little smaller
