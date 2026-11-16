@@ -99,21 +99,15 @@ def _coastal_normalize(value):
     return "".join(ch for ch in str(value or "").lower() if ch.isalnum())
 
 
-# Resolve canonical sprite-site IDs to the ACTUAL PL.PLACES labels used by
-# the renderer (e.g. Tyre=Sur, Jaffa=Japhe, Alexandria=al-Iskandariyya).
-# Match the same geographic vicinity used by sprites.MATCH rather than
-# assuming the English name is the visible map label.
+# Resolve decisions through the renderer's actual one-to-one named-site
+# matching. The Bosphorus has several cities within 0.08 degrees: selecting
+# holds by geographic proximity could hide approved Constantinople simply
+# because nearby Galata failed. Use the exact selected sprite per place.
 COASTAL_WATER_SIDE_HOLDS = set()
-for _coastal_rec in SP._META:
-    if _coastal_rec.get("site") not in COASTAL_OWNER_FAILED_SITES:
-        continue
-    for _place in PL.PLACES:
-        if _place[0] != _coastal_rec.get("region"):
-            continue
-        _d = math.hypot(_place[3] - _coastal_rec["lon"], _place[4] - _coastal_rec["lat"])
-        if _d < 0.08:
-            COASTAL_WATER_SIDE_HOLDS.add((_place[0], _coastal_normalize(_place[5])))
-            COASTAL_WATER_SIDE_HOLDS.add((_place[0], _coastal_normalize(_place[7])))
+for _place in PL.PLACES:
+    _selected = SP.MATCH.get(_place[5])
+    if _selected and _selected.get("site") in COASTAL_OWNER_FAILED_SITES:
+        COASTAL_WATER_SIDE_HOLDS.add((_place[0], _coastal_normalize(_place[5])))
 
 
 def coastal_sprite_held(region, name, modern=""):
