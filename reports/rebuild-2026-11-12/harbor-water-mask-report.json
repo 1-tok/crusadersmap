@@ -1,12 +1,12 @@
 {
   "approval": "PROVISIONAL REVIEW ONLY",
-  "count": 72,
+  "count": 73,
   "algorithm": "conservative blue contiguous region near lower/side boundary; false positives possible",
   "sprites": [
     [
       "Acre",
-      "acre-1180-v2.png",
-      0.1547
+      "coastal-2026-11-16-acre-west-ns.png",
+      0.0371
     ],
     [
       "Alexandria",
@@ -15,8 +15,8 @@
     ],
     [
       "Tripoli",
-      "tripoli-1180-v2.png",
-      0.1294
+      "coastal-2026-11-16-tripoli-west-ns.png",
+      0.062
     ],
     [
       "Tortosa (Tartus)",
@@ -30,38 +30,43 @@
     ],
     [
       "Tyre (Sur)",
-      "tyre-1180-v1.png",
-      0.0243
+      "coastal-2026-11-16-tyre-west-ns.png",
+      0.1096
     ],
     [
       "Sidon",
-      "archive-crs-022-sidon.png",
-      0.0935
+      "coastal-2026-11-16-sidon-west-ns.png",
+      0.1055
     ],
     [
       "Caesarea",
-      "archive-crs-023-caesarea.png",
-      0.1221
+      "coastal-2026-11-16-caesarea-west-ns.png",
+      0.0531
     ],
     [
       "Jaffa",
-      "jaffa-1180-v1.png",
-      0.076
+      "coastal-2026-11-16-jaffa-west-ns.png",
+      0.057
     ],
     [
       "Ascalon",
-      "ascalon-1180-v1.png",
-      0.071
+      "coastal-2026-11-16-ascalon-west-ns.png",
+      0.0557
     ],
     [
       "Batroun",
-      "batroun-1180-v1.png",
-      0.0133
+      "coastal-2026-11-16-batroun-west-ns.png",
+      0.1427
     ],
     [
       "Beirut",
       "coastal-review-beirut-azure-1096-1600-a5c9a2af188e.png",
       0.037
+    ],
+    [
+      "Gibelet (Byblos)",
+      "coastal-2026-11-16-byblos-west-ns.png",
+      0.0741
     ],
     [
       "Chalkida",
@@ -210,8 +215,8 @@
     ],
     [
       "Latakia",
-      "latakia-1180-review-v1.png",
-      0.1283
+      "coastal-2026-11-16-latakia-west-ns.png",
+      0.1631
     ],
     [
       "Adana",

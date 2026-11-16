@@ -1,16 +1,16 @@
 {
-  "scope": "Latest 1095-1571 map render; 660 automated-intake sprites",
+  "scope": "Latest 1095-1571 map render; 667 automated-intake sprites",
   "note": "Technical PNG success does not confer geographic or historical approval. Use actual generic render counts from out/usage.json.",
-  "intake_total": 660,
-  "technical_pass": 660,
+  "intake_total": 667,
+  "technical_pass": 667,
   "placement_approved": 0,
   "historical_certified": 0,
   "generic_rendered_distinct": 74,
-  "generic_rendered_instances": 952,
+  "generic_rendered_instances": 955,
   "generic_eligible_but_unused": 0,
   "status_counts": {
     "held_generic_architecture_fallback": 32,
-    "held_geo_water_or_named_art": 498,
+    "held_geo_water_or_named_art": 505,
     "held_unmatched_or_unclassified": 39,
     "named_fortification_needs_coordinates_and_phase": 17,
     "rendered_as_generic": 74
@@ -35,12 +35,12 @@
     {
       "name": "B19-21_cattle",
       "asset": "data/sprites/automated-intake/png/b19-21-cattle-068d25f90cba.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "Beehive apiary",
       "asset": "data/sprites/automated-intake/png/beehive-apiary-0ae14ae46cca.png",
-      "times": 4
+      "times": 3
     },
     {
       "name": "B19-07_classical_ruins",
@@ -60,7 +60,7 @@
     {
       "name": "B21-13_rural_houses",
       "asset": "data/sprites/automated-intake/png/b21-13-rural-houses-18a791006882.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B16-05_terraced_hilltown_generic",
@@ -75,7 +75,7 @@
     {
       "name": "B18-26_date_palms",
       "asset": "data/sprites/automated-intake/png/b18-26-date-palms-2285ae1cfed2.png",
-      "times": 59
+      "times": 60
     },
     {
       "name": "Caravan tent encampment",
@@ -85,12 +85,12 @@
     {
       "name": "B21-14_rocky_scrub_foothills",
       "asset": "data/sprites/automated-intake/png/b21-14-rocky-scrub-foothills-23550772dcd8.png",
-      "times": 6
+      "times": 5
     },
     {
       "name": "Wheat harvest and cart",
       "asset": "data/sprites/automated-intake/png/wheat-harvest-and-cart-23cc811952f3.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "B19-14_lateen_ship_b",
@@ -105,7 +105,7 @@
     {
       "name": "B20-05_rocky_foothill_scrub",
       "asset": "data/sprites/automated-intake/png/b20-05-rocky-foothill-scrub-2c9ebdf7f4fa.png",
-      "times": 5
+      "times": 6
     },
     {
       "name": "B20-03_terraced_farmland_hills",
@@ -115,27 +115,27 @@
     {
       "name": "B18-23_flowering_tree",
       "asset": "data/sprites/automated-intake/png/b18-23-flowering-tree-2cfcb50e825c.png",
-      "times": 11
+      "times": 12
     },
     {
       "name": "B19-19_ox_cart",
       "asset": "data/sprites/automated-intake/png/b19-19-ox-cart-31596eaa059e.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "Irrigated crop terraces",
       "asset": "data/sprites/automated-intake/png/irrigated-crop-terraces-345117df6dad.png",
-      "times": 6
+      "times": 5
     },
     {
       "name": "B19-16_fortified_tents",
       "asset": "data/sprites/automated-intake/png/b19-16-fortified-tents-3e6428bc9e93.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "B19-31_yellow_shrub",
       "asset": "data/sprites/automated-intake/png/b19-31-yellow-shrub-3ed2d6eac2ad.png",
-      "times": 58
+      "times": 59
     },
     {
       "name": "B19-22_stony_boulders",
@@ -165,7 +165,7 @@
     {
       "name": "B19-28_cypress_stand",
       "asset": "data/sprites/automated-intake/png/b19-28-cypress-stand-51105e00a48d.png",
-      "times": 11
+      "times": 13
     },
     {
       "name": "B21-15_foothill_to_mountain",
@@ -210,12 +210,12 @@
     {
       "name": "B19-08_domed_chapel",
       "asset": "data/sprites/automated-intake/png/b19-08-domed-chapel-6947ffff7e8a.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "B19-29_palm_tree",
       "asset": "data/sprites/automated-intake/png/b19-29-palm-tree-70fb557bdccf.png",
-      "times": 11
+      "times": 12
     },
     {
       "name": "Olive grove and harvest",
@@ -225,27 +225,27 @@
     {
       "name": "B19-26_olive_tree",
       "asset": "data/sprites/automated-intake/png/b19-26-olive-tree-759df99099a6.png",
-      "times": 13
+      "times": 12
     },
     {
       "name": "B18-08_stone_village_chapel",
       "asset": "data/sprites/automated-intake/png/b18-08-stone-village-chapel-767c571fb425.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "B19-27_umbrella_pine",
       "asset": "data/sprites/automated-intake/png/b19-27-umbrella-pine-7ad37a912ce3.png",
-      "times": 12
+      "times": 11
     },
     {
       "name": "Citrus orchard",
       "asset": "data/sprites/automated-intake/png/citrus-orchard-7cab9160c1dd.png",
-      "times": 6
+      "times": 5
     },
     {
       "name": "Charcoal burning and metalworking yard",
       "asset": "data/sprites/automated-intake/png/charcoal-burning-and-metalworking-yard-7d9dcbc9ddbf.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B18-28_rocky_hills",
@@ -265,27 +265,27 @@
     {
       "name": "B19-25_low_shrub",
       "asset": "data/sprites/automated-intake/png/b19-25-low-shrub-861df6967d1f.png",
-      "times": 13
+      "times": 11
     },
     {
       "name": "Medieval windmill and farm",
       "asset": "data/sprites/automated-intake/png/medieval-windmill-and-farm-8adca7d15df8.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B18-11_market_tents",
       "asset": "data/sprites/automated-intake/png/b18-11-market-tents-915b1620bfbb.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "Pottery and brick kilns",
       "asset": "data/sprites/automated-intake/png/pottery-and-brick-kilns-9263c882bffd.png",
-      "times": 4
+      "times": 3
     },
     {
       "name": "Limestone quarry",
       "asset": "data/sprites/automated-intake/png/limestone-quarry-9ad914c36ae9.png",
-      "times": 13
+      "times": 14
     },
     {
       "name": "B18-27_scrub_patch",
@@ -305,7 +305,7 @@
     {
       "name": "Hillside stone hamlet",
       "asset": "data/sprites/automated-intake/png/hillside-stone-hamlet-b395a12e5f7b.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "B21-10_fields_with_chapel",
@@ -320,12 +320,12 @@
     {
       "name": "B21-19_cypress_stand",
       "asset": "data/sprites/automated-intake/png/b21-19-cypress-stand-be81cbfd69dc.png",
-      "times": 12
+      "times": 13
     },
     {
       "name": "B18-22_fruit_tree",
       "asset": "data/sprites/automated-intake/png/b18-22-fruit-tree-bfed0ed5b90d.png",
-      "times": 13
+      "times": 12
     },
     {
       "name": "B19-20_herd_with_figure",
@@ -335,7 +335,7 @@
     {
       "name": "Terraced vineyard estate",
       "asset": "data/sprites/automated-intake/png/terraced-vineyard-estate-c4ca6e27b3b4.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "Stone sheepfold",
@@ -345,7 +345,7 @@
     {
       "name": "B21-20_open_olive_woodland",
       "asset": "data/sprites/automated-intake/png/b21-20-open-olive-woodland-cfda8dc299c3.png",
-      "times": 13
+      "times": 12
     },
     {
       "name": "B18-25_umbrella_pines",
@@ -380,7 +380,7 @@
     {
       "name": "Vineyard wine press",
       "asset": "data/sprites/automated-intake/png/vineyard-wine-press-eb2efb668f49.png",
-      "times": 4
+      "times": 5
     },
     {
       "name": "B21-11_orchard_field_connector",
@@ -537,6 +537,11 @@
     {
       "name": "t27_16_shallow_reed_marsh",
       "asset": "data/sprites/automated-intake/png/t27-16-shallow-reed-marsh-0a5d76f9f992.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "crusader_northern_coast_ACTUAL_spritesheet",
+      "asset": "data/sprites/automated-intake/png/crusader-northern-coast-actual-spritesheet-0aa5156ee8bd.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -970,6 +975,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "crusader_southern_coast_ACTUAL_spritesheet",
+      "asset": "data/sprites/automated-intake/png/crusader-southern-coast-actual-spritesheet-28e092c72666.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "lowland-20261113-08_delta_aegean_levant_tiles_r03_c02",
       "asset": "data/sprites/automated-intake/png/lowland-20261113-08-delta-aegean-levant-tiles-r03-c02-29c921302d64.png",
       "reason": "held_geo_water_or_named_art"
@@ -1262,6 +1272,11 @@
     {
       "name": "large_04_broad_lowland_grain",
       "asset": "data/sprites/automated-intake/png/large-04-broad-lowland-grain-43273ed0aaec.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "acre-coastal-west-turquoise-2026-11-16",
+      "asset": "data/sprites/automated-intake/png/acre-coastal-west-turquoise-2026-11-16-43d1651b895b.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -2185,6 +2200,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "jaffa-coastal-west-turquoise-2026-11-16",
+      "asset": "data/sprites/automated-intake/png/jaffa-coastal-west-turquoise-2026-11-16-97d2ecc8e905.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "paros_paroikia_1180_whole_island_south_view_review_v1",
       "asset": "data/sprites/automated-intake/png/paros-paroikia-1180-whole-island-south-view-review-v1-97fe8b99a558.png",
       "reason": "held_geo_water_or_named_art"
@@ -2222,6 +2242,11 @@
     {
       "name": "irakleia_1180_whole_island_south_view_review_v1",
       "asset": "data/sprites/automated-intake/png/irakleia-1180-whole-island-south-view-review-v1-9d88ff971953.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "caesarea-coastal-west-turquoise-2026-11-16",
+      "asset": "data/sprites/automated-intake/png/caesarea-coastal-west-turquoise-2026-11-16-9da04913a93b.png",
       "reason": "held_geo_water_or_named_art"
     },
     {
@@ -2565,6 +2590,11 @@
       "reason": "held_geo_water_or_named_art"
     },
     {
+      "name": "ascalon-coastal-west-turquoise-2026-11-16",
+      "asset": "data/sprites/automated-intake/png/ascalon-coastal-west-turquoise-2026-11-16-bcdd69ebe782.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
       "name": "t27_22_river_delta_wetland",
       "asset": "data/sprites/automated-intake/png/t27-22-river-delta-wetland-bd042f1f9c7f.png",
       "reason": "held_geo_water_or_named_art"
@@ -2572,6 +2602,11 @@
     {
       "name": "source_sheet",
       "asset": "data/sprites/automated-intake/png/source-sheet-bd10c9ba6045.png",
+      "reason": "held_geo_water_or_named_art"
+    },
+    {
+      "name": "tyre-coastal-west-turquoise-2026-11-16",
+      "asset": "data/sprites/automated-intake/png/tyre-coastal-west-turquoise-2026-11-16-bd42737f27ab.png",
       "reason": "held_geo_water_or_named_art"
     },
     {

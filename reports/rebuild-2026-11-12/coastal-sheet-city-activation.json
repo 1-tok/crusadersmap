@@ -1,0 +1,184 @@
+{
+  "source": "owner-uploaded pinned sprite ZIPs",
+  "selected_count": 10,
+  "selection": [
+    {
+      "site": "ascalon",
+      "region": "main",
+      "lon": 34.54583,
+      "lat": 31.66389,
+      "from_archive": "crusader_southern_coast_ACTUAL_spritesheet.zip",
+      "bbox": [
+        8,
+        53,
+        1024,
+        683
+      ],
+      "rendered_asset": "coastal-2026-11-16-ascalon-west-ns.png",
+      "previous_primary": "data/sprites/greece-egypt-1180-batch04/ascalon-1180-v1.png",
+      "historical_phase_note": null,
+      "status": "selected_for_cumulative_map_review"
+    },
+    {
+      "site": "jaffa",
+      "region": "main",
+      "lon": 34.7552,
+      "lat": 32.0549,
+      "from_archive": "crusader_southern_coast_ACTUAL_spritesheet.zip",
+      "bbox": [
+        1053,
+        15,
+        1013,
+        760
+      ],
+      "rendered_asset": "coastal-2026-11-16-jaffa-west-ns.png",
+      "previous_primary": "data/sprites/greece-egypt-1180-batch02/jaffa-1180-v1.png",
+      "historical_phase_note": null,
+      "status": "selected_for_cumulative_map_review"
+    },
+    {
+      "site": "caesarea",
+      "region": "main",
+      "lon": 34.89,
+      "lat": 32.5,
+      "from_archive": "crusader_southern_coast_ACTUAL_spritesheet.zip",
+      "bbox": [
+        2093,
+        15,
+        1013,
+        760
+      ],
+      "rendered_asset": "coastal-2026-11-16-caesarea-west-ns.png",
+      "previous_primary": "data/sprites/archive-1180/clean/archive-crs-023-caesarea.png",
+      "historical_phase_note": null,
+      "status": "selected_for_cumulative_map_review"
+    },
+    {
+      "site": "acre",
+      "region": "main",
+      "lon": 35.084,
+      "lat": 32.928,
+      "from_archive": "crusader_southern_coast_ACTUAL_spritesheet.zip",
+      "bbox": [
+        13,
+        805,
+        1013,
+        760
+      ],
+      "rendered_asset": "coastal-2026-11-16-acre-west-ns.png",
+      "previous_primary": "data/sprites/historical-1180/acre-1180-v2.png",
+      "historical_phase_note": null,
+      "status": "selected_for_cumulative_map_review"
+    },
+    {
+      "site": "tyre",
+      "region": "main",
+      "lon": 35.19583333333333,
+      "lat": 33.26916666666666,
+      "from_archive": "crusader_southern_coast_ACTUAL_spritesheet.zip",
+      "bbox": [
+        1053,
+        805,
+        1013,
+        760
+      ],
+      "rendered_asset": "coastal-2026-11-16-tyre-west-ns.png",
+      "previous_primary": "data/sprites/expansion/tyre-1180-v1.png",
+      "historical_phase_note": null,
+      "status": "selected_for_cumulative_map_review"
+    },
+    {
+      "site": "sidon",
+      "region": "main",
+      "lon": 35.37,
+      "lat": 33.56,
+      "from_archive": "crusader_northern_coast_ACTUAL_spritesheet.zip",
+      "bbox": [
+        13,
+        15,
+        1013,
+        760
+      ],
+      "rendered_asset": "coastal-2026-11-16-sidon-west-ns.png",
+      "previous_primary": "data/sprites/archive-1180/clean/archive-crs-022-sidon.png",
+      "historical_phase_note": "Sidon Sea Castle is post-1227; do not use for 1180-specific exports.",
+      "status": "selected_for_cumulative_map_review"
+    },
+    {
+      "site": "byblos",
+      "region": "main",
+      "lon": 35.64555555555555,
+      "lat": 34.119170000000004,
+      "from_archive": "crusader_northern_coast_ACTUAL_spritesheet.zip",
+      "bbox": [
+        1053,
+        15,
+        1013,
+        760
+      ],
+      "rendered_asset": "coastal-2026-11-16-byblos-west-ns.png",
+      "previous_primary": "data/sprites/expansion/byblos-1180-v1.png",
+      "historical_phase_note": null,
+      "status": "selected_for_cumulative_map_review"
+    },
+    {
+      "site": "batroun",
+      "region": "main",
+      "lon": 35.66429,
+      "lat": 34.24932,
+      "from_archive": "crusader_northern_coast_ACTUAL_spritesheet.zip",
+      "bbox": [
+        2093,
+        15,
+        1013,
+        760
+      ],
+      "rendered_asset": "coastal-2026-11-16-batroun-west-ns.png",
+      "previous_primary": "data/sprites/greece-egypt-1180-small-settlements/batroun-1180-v1.png",
+      "historical_phase_note": null,
+      "status": "selected_for_cumulative_map_review"
+    },
+    {
+      "site": "tripoli",
+      "region": "main",
+      "lon": 35.81783,
+      "lat": 34.447,
+      "from_archive": "crusader_northern_coast_ACTUAL_spritesheet.zip",
+      "bbox": [
+        13,
+        805,
+        1013,
+        760
+      ],
+      "rendered_asset": "coastal-2026-11-16-tripoli-west-ns.png",
+      "previous_primary": "data/sprites/historical-1180/tripoli-1180-v2.png",
+      "historical_phase_note": null,
+      "status": "selected_for_cumulative_map_review"
+    },
+    {
+      "site": "latakia",
+      "region": "main",
+      "lon": 35.78,
+      "lat": 35.52,
+      "from_archive": "crusader_northern_coast_ACTUAL_spritesheet.zip",
+      "bbox": [
+        1224,
+        916,
+        672,
+        537
+      ],
+      "rendered_asset": "coastal-2026-11-16-latakia-west-ns.png",
+      "previous_primary": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/latakia-1180-review-v1.png",
+      "historical_phase_note": null,
+      "status": "selected_for_cumulative_map_review"
+    }
+  ],
+  "canonical_catalog_untouched": true,
+  "visual_coast_fit_certified": false,
+  "approved_unchanged": [
+    "beirut",
+    "constantinople",
+    "ayas",
+    "dead_sea"
+  ]
+}

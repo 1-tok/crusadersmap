@@ -839,6 +839,28 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-43d1651b895b2ecf0101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.084,
+          32.928
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/acre-coastal-west-turquoise-2026-11-16-43d1651b895b.png",
+        "site_id": "acre",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-458807eb878e92d581ab",
       "geometry": {
         "type": "Point",
@@ -1983,6 +2005,28 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-97d2ecc8e9058c14719b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7552,
+          32.0549
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/jaffa-coastal-west-turquoise-2026-11-16-97d2ecc8e905.png",
+        "site_id": "jaffa",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-97fe8b99a558256150e0",
       "geometry": {
         "type": "Point",
@@ -2045,6 +2089,28 @@
         "draw_on_geographic_map": false,
         "reason": "center of known island bbox is NOT a verified sprite placement or coastline mask",
         "placement_source": "assets/islands.json existing bounding box"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9da04913a93b6cfcc5eb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89,
+          32.5
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/caesarea-coastal-west-turquoise-2026-11-16-9da04913a93b.png",
+        "site_id": "caesarea",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
       }
     },
     {
@@ -2324,6 +2390,50 @@
       "properties": {
         "asset": "data/sprites/automated-intake/png/santorini-1180-whole-island-south-view-review-v1-b92a939783da.png",
         "site_id": "santorini",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-bcdd69ebe7829743e8c4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.54583,
+          31.66389
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/ascalon-coastal-west-turquoise-2026-11-16-bcdd69ebe782.png",
+        "site_id": "ascalon",
+        "status": "anchored_review_alternate",
+        "review_only": true,
+        "production_approved": false,
+        "coastline_verified": false,
+        "draw_on_geographic_map": false,
+        "reason": "same named site; historical phase and painted coastline still require review",
+        "placement_source": "assets/sprites.json or site-history.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-bd42737f27abcdec042d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19583333333333,
+          33.26916666666666
+        ]
+      },
+      "properties": {
+        "asset": "data/sprites/automated-intake/png/tyre-coastal-west-turquoise-2026-11-16-bd42737f27ab.png",
+        "site_id": "tyre",
         "status": "anchored_review_alternate",
         "review_only": true,
         "production_approved": false,

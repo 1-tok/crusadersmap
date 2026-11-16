@@ -1,23 +1,28 @@
 {
   "count": 32,
-  "verified": 0,
-  "marker_holds": 9,
-  "painted_selected_unverified": 23,
-  "meaning": "Marker hold is not visual certification; sprite presence is not orientation certification.",
+  "verified": 2,
+  "owner_accepted": 2,
+  "new_replacements_rendered_for_review": 10,
+  "owner_rejected": 30,
+  "approved_additional_site_not_in_selected_sprite_registry": "Ayas/Lajazzo",
+  "marker_holds": 20,
+  "painted_selected_unverified": 0,
+  "meaning": "Owner accepted Byzantium and Bayrut. Ten new Levantine replacements selected for rendered review; coastline fit not certified. All other rejected paintings remain held.",
   "contact_sheet": "reports/rebuild-2026-11-12/coastal-all-cities-actual-art-review.jpg",
   "rows": [
     {
       "site": "acre",
       "name": "Acre",
-      "source": "catalog",
-      "asset": "data/sprites/historical-1180/acre-1180-v2.png",
+      "source": "owner-approved-coastal-sheet-2026-11-16",
+      "asset": "assets/sprites/incoming/crusader_southern_coast_ACTUAL_spritesheet.zip#acre",
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "held_existing_geographic_marker",
+      "render_disposition": "painted_sprite_selected_owner_approved_new_candidate",
+      "owner_coast_review_decision": "accepted_replacement_pending_map_scale_QA",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "replacement_rendered_map_scale_QA_pending",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "alexandria",
@@ -28,9 +33,10 @@
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
       "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "antioch",
@@ -40,101 +46,109 @@
       "expected_water_side": "not waterfront / river valley",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "tripoli",
       "name": "Tripoli",
-      "source": "catalog",
-      "asset": "data/sprites/historical-1180/tripoli-1180-v2.png",
+      "source": "owner-approved-coastal-sheet-2026-11-16",
+      "asset": "assets/sprites/incoming/crusader_northern_coast_ACTUAL_spritesheet.zip#tripoli",
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "painted_sprite_selected_owner_approved_new_candidate",
+      "owner_coast_review_decision": "accepted_replacement_pending_map_scale_QA",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "replacement_rendered_map_scale_QA_pending",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "tyre",
       "name": "Tyre (Sur)",
-      "source": "catalog",
-      "asset": "data/sprites/expansion/tyre-1180-v1.png",
+      "source": "owner-approved-coastal-sheet-2026-11-16",
+      "asset": "assets/sprites/incoming/crusader_southern_coast_ACTUAL_spritesheet.zip#tyre",
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "painted_sprite_selected_owner_approved_new_candidate",
+      "owner_coast_review_decision": "accepted_replacement_pending_map_scale_QA",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "replacement_rendered_map_scale_QA_pending",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "sidon",
       "name": "Sidon",
-      "source": "catalog",
-      "asset": "data/sprites/archive-1180/clean/archive-crs-022-sidon.png",
+      "source": "owner-approved-coastal-sheet-2026-11-16",
+      "asset": "assets/sprites/incoming/crusader_northern_coast_ACTUAL_spritesheet.zip#sidon",
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "painted_sprite_selected_owner_approved_new_candidate",
+      "owner_coast_review_decision": "accepted_replacement_pending_map_scale_QA",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "replacement_rendered_map_scale_QA_pending",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "caesarea",
       "name": "Caesarea",
-      "source": "catalog",
-      "asset": "data/sprites/archive-1180/clean/archive-crs-023-caesarea.png",
+      "source": "owner-approved-coastal-sheet-2026-11-16",
+      "asset": "assets/sprites/incoming/crusader_southern_coast_ACTUAL_spritesheet.zip#caesarea",
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "held_existing_geographic_marker",
+      "render_disposition": "painted_sprite_selected_owner_approved_new_candidate",
+      "owner_coast_review_decision": "accepted_replacement_pending_map_scale_QA",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "replacement_rendered_map_scale_QA_pending",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "jaffa",
       "name": "Jaffa",
-      "source": "catalog",
-      "asset": "data/sprites/greece-egypt-1180-batch02/jaffa-1180-v1.png",
+      "source": "owner-approved-coastal-sheet-2026-11-16",
+      "asset": "assets/sprites/incoming/crusader_southern_coast_ACTUAL_spritesheet.zip#jaffa",
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "held_existing_geographic_marker",
+      "render_disposition": "painted_sprite_selected_owner_approved_new_candidate",
+      "owner_coast_review_decision": "accepted_replacement_pending_map_scale_QA",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "replacement_rendered_map_scale_QA_pending",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "ascalon",
       "name": "Ascalon",
-      "source": "catalog",
-      "asset": "data/sprites/greece-egypt-1180-batch04/ascalon-1180-v1.png",
+      "source": "owner-approved-coastal-sheet-2026-11-16",
+      "asset": "assets/sprites/incoming/crusader_southern_coast_ACTUAL_spritesheet.zip#ascalon",
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "held_existing_geographic_marker",
+      "render_disposition": "painted_sprite_selected_owner_approved_new_candidate",
+      "owner_coast_review_decision": "accepted_replacement_pending_map_scale_QA",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "replacement_rendered_map_scale_QA_pending",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "batroun",
       "name": "Batroun",
-      "source": "catalog",
-      "asset": "data/sprites/greece-egypt-1180-small-settlements/batroun-1180-v1.png",
+      "source": "owner-approved-coastal-sheet-2026-11-16",
+      "asset": "assets/sprites/incoming/crusader_northern_coast_ACTUAL_spritesheet.zip#batroun",
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "painted_sprite_selected_owner_approved_new_candidate",
+      "owner_coast_review_decision": "accepted_replacement_pending_map_scale_QA",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "replacement_rendered_map_scale_QA_pending",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "beirut",
@@ -144,23 +158,25 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
-      "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "render_disposition": "painted_sprite_selected_owner_accepted",
+      "owner_coast_review_decision": "accepted",
+      "visual_water_side_verified": true,
+      "qa_status": "owner_accepted_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "byblos",
       "name": "Gibelet (Byblos)",
-      "source": "catalog",
-      "asset": "data/sprites/expansion/byblos-1180-v1.png",
+      "source": "owner-approved-coastal-sheet-2026-11-16",
+      "asset": "assets/sprites/incoming/crusader_northern_coast_ACTUAL_spritesheet.zip#byblos",
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "painted_sprite_selected_owner_approved_new_candidate",
+      "owner_coast_review_decision": "accepted_replacement_pending_map_scale_QA",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "replacement_rendered_map_scale_QA_pending",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "chalcedon",
@@ -170,10 +186,11 @@
       "expected_water_side": "left: Bosphorus / front: Marmara",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "chania",
@@ -184,9 +201,10 @@
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
       "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "chios",
@@ -196,10 +214,11 @@
       "expected_water_side": "local coast geometry required",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "chrysopolis",
@@ -209,10 +228,11 @@
       "expected_water_side": "left: Bosphorus",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "constantinople",
@@ -222,10 +242,11 @@
       "expected_water_side": "front: Marmara / right: Bosphorus / back: Golden Horn",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
-      "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "render_disposition": "painted_sprite_selected_owner_accepted",
+      "owner_coast_review_decision": "accepted",
+      "visual_water_side_verified": true,
+      "qa_status": "owner_accepted_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "damietta",
@@ -235,10 +256,11 @@
       "expected_water_side": "river mouth and Mediterranean north",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "galata-sykai",
@@ -248,10 +270,11 @@
       "expected_water_side": "front-south: Golden Horn",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "gaza",
@@ -261,10 +284,11 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "heraklion",
@@ -275,9 +299,10 @@
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
       "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "kyrenia",
@@ -287,10 +312,11 @@
       "expected_water_side": "back / north",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "larnaca",
@@ -300,10 +326,11 @@
       "expected_water_side": "front-east",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "limassol",
@@ -313,10 +340,11 @@
       "expected_water_side": "front / south",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "monemvasia",
@@ -326,10 +354,11 @@
       "expected_water_side": "island-separated shore",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "rethymno",
@@ -340,9 +369,10 @@
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
       "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "rhodes",
@@ -352,10 +382,11 @@
       "expected_water_side": "local coast geometry required",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "baniyas-syria",
@@ -365,23 +396,25 @@
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "latakia",
       "name": "Latakia",
-      "source": "review-1180",
-      "asset": "data/sprites/city-review-2026-11-10/sprites/batch-08-syria/latakia-1180-review-v1.png",
+      "source": "owner-approved-coastal-sheet-2026-11-16",
+      "asset": "assets/sprites/incoming/crusader_northern_coast_ACTUAL_spritesheet.zip#latakia",
       "expected_water_side": "left / west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "painted_sprite_selected_owner_approved_new_candidate",
+      "owner_coast_review_decision": "accepted_replacement_pending_map_scale_QA",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "replacement_rendered_map_scale_QA_pending",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "famagusta",
@@ -391,10 +424,11 @@
       "expected_water_side": "right / east",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "paphos",
@@ -404,10 +438,11 @@
       "expected_water_side": "front-west",
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
-      "render_disposition": "painted_sprite_selected_orientation_unverified",
+      "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     },
     {
       "site": "naxos",
@@ -418,9 +453,10 @@
       "viewpoint": "south looking north; no mirroring in renderer",
       "file_exists": true,
       "render_disposition": "held_existing_geographic_marker",
+      "owner_coast_review_decision": "failed_repaint_or_alternative_required",
       "visual_water_side_verified": false,
-      "qa_status": "requires_visual_coastline_orientation_review",
-      "note": "Selected file exists and is not auto-flipped; painted shoreline side requires visual human inspection."
+      "qa_status": "owner_rejected_waterfront_art",
+      "note": "Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."
     }
   ]
 }
