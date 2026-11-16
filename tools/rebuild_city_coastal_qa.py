@@ -20,13 +20,25 @@ EXPECTED={
 "constantinople":"front: Marmara / right: Bosphorus / back: Golden Horn",
 "galata-sykai":"front-south: Golden Horn","chrysopolis":"left: Bosphorus",
 "chalcedon":"left: Bosphorus / front: Marmara",
-"chios":"local coast geometry required","monemvasia":"island-separated shore"}
+"chios":"local coast geometry required","monemvasia":"island-separated shore",
+# Aegean island settlements are not interchangeable with the island outline.
+"naxos":"left / west (Chora western port)",
+"naxie":"left / west (Chora western port)",
+"candia":"back / north (Heraklion northern harbor)",
+"heraklion":"back / north (Heraklion northern harbor)",
+"rethymno":"back / north (northern Crete)",
+"chania":"back / north (northwestern Crete)",
+"canea":"back / north (northwestern Crete)",
+"ierapetra":"front / south (southern Crete)",
+"sitia":"north / east local coastline review required"}
 def norm(s):return "".join(c for c in str(s or "").lower() if c.isalnum())
 rows=[]
 for e in entries:
     key=norm(e.get("site"))
     nm=norm(e.get("name"))
     match=next((v for k,v in EXPECTED.items() if norm(k)==key or norm(k)==nm),None)
+    if not match and any(t in (key + nm) for t in ("naxos", "naxie", "candia", "heraklion", "rethymno", "chania", "canea", "ierapetra", "sitia")):
+        match = "island waterfront: compare painted water with local projected coastline"
     if not match:continue
     art=ROOT/"assets/sprites"/e["file"]
     rows.append({"site":e["site"],"name":e["name"],"source":e.get("source"),
