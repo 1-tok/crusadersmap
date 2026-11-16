@@ -49,7 +49,10 @@ def render_status(e):
         return "no_matching_placed_settlement_review"
     if any(coastal_sprite_held(p[0], p[5], p[7]) for p in places):
         return "held_existing_geographic_marker"
-    return "painted_sprite_selected_owner_accepted" if e["site"] in COASTAL_OWNER_APPROVED_SITES else "painted_sprite_selected_orientation_unverified"
+    return ("painted_sprite_selected_owner_approved_new_candidate"
+            if e.get("source") == "owner-approved-coastal-sheet-2026-11-16"
+            else ("painted_sprite_selected_owner_accepted" if e["site"] in COASTAL_OWNER_APPROVED_SITES
+                  else "painted_sprite_selected_orientation_unverified"))
 
 for e in entries:
     key=norm(e.get("site"))
@@ -63,9 +66,14 @@ for e in entries:
       "asset":e.get("variant"),"expected_water_side":match,
       "viewpoint":"south looking north; no mirroring in renderer",
       "file_exists":art.is_file(),"render_disposition":render_status(e),
-      "owner_coast_review_decision":("accepted" if e["site"] in COASTAL_OWNER_APPROVED_SITES else "failed_repaint_or_alternative_required"),
+      "owner_coast_review_decision":("accepted_replacement_pending_map_scale_QA"
+                                    if e.get("source") == "owner-approved-coastal-sheet-2026-11-16"
+                                    else ("accepted" if e["site"] in COASTAL_OWNER_APPROVED_SITES
+                                          else "failed_repaint_or_alternative_required")),
       "visual_water_side_verified":e["site"] in COASTAL_OWNER_APPROVED_SITES,
-      "qa_status":("owner_accepted_waterfront_art" if e["site"] in COASTAL_OWNER_APPROVED_SITES else "owner_rejected_waterfront_art"),
+      "qa_status":("replacement_rendered_map_scale_QA_pending" if e.get("source") == "owner-approved-coastal-sheet-2026-11-16"
+                    else ("owner_accepted_waterfront_art" if e["site"] in COASTAL_OWNER_APPROVED_SITES
+                          else "owner_rejected_waterfront_art")),
       "note":"Owner reviewed the selected 32-city comparison sheet; failures retain their PNGs but render as city markers until replaced."})
 out=ROOT/"reports/rebuild-2026-11-12";out.mkdir(parents=True,exist_ok=True)
 with (out/"coastal-city-orientation-audit.csv").open("w",newline="") as fh:
@@ -78,7 +86,7 @@ for i,row in enumerate(rows):
     status=row["render_disposition"]
     draw.rectangle((ox+2,oy+2,ox+W-3,oy+H-3),outline=(115,105,89),width=2)
     draw.text((ox+12,oy+8),row["name"][:33],fill=(40,34,27))
-    draw.text((ox+12,oy+27),("ACCEPTED" if row["owner_coast_review_decision"]=="accepted" else ("MARKER HOLD" if status.startswith("held") else "REJECTED / REVIEW")),
+    draw.text((ox+12,oy+27),("REPLACEMENT / REVIEW" if row["owner_coast_review_decision"].startswith("accepted_replacement") else ("ACCEPTED" if row["owner_coast_review_decision"]=="accepted" else ("MARKER HOLD" if status.startswith("held") else "REJECTED / REVIEW"))),
               fill=((154,51,36) if status.startswith("held") else (92,64,29)))
     draw.text((ox+12,oy+47),("Water expected: "+row["expected_water_side"])[:61],fill=(48,64,82))
     path=ROOT/row["asset"]
@@ -95,11 +103,12 @@ for i,row in enumerate(rows):
 sheet.save(out/"coastal-all-cities-actual-art-review.jpg",quality=90)
 result={"count":len(rows),"verified":sum(r["visual_water_side_verified"] for r in rows),
         "owner_accepted":sum(r["owner_coast_review_decision"]=="accepted" for r in rows),
+        "new_replacements_rendered_for_review":sum(r["qa_status"]=="replacement_rendered_map_scale_QA_pending" for r in rows),
         "owner_rejected":sum(r["owner_coast_review_decision"]!="accepted" for r in rows),
         "approved_additional_site_not_in_selected_sprite_registry":"Ayas/Lajazzo",
         "marker_holds":sum(r["render_disposition"]=="held_existing_geographic_marker" for r in rows),
         "painted_selected_unverified":sum(r["render_disposition"]=="painted_sprite_selected_orientation_unverified" for r in rows),
-        "meaning":"Owner accepted Byzantium and Bayrut; Ayas accepted but not selected in active registry. All other artwork in this reviewed sheet rejected, preserved for repaint.",
+        "meaning":"Owner accepted Byzantium and Bayrut. Ten new Levantine replacements selected for rendered review; coastline fit not certified. All other rejected paintings remain held.",
         "contact_sheet":"reports/rebuild-2026-11-12/coastal-all-cities-actual-art-review.jpg",
         "rows":rows}
 (out/"coastal-city-orientation-audit.json").write_text(json.dumps(result,indent=2)+"\n")
