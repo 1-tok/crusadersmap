@@ -297,8 +297,7 @@
       "pieces": [
         {
           "id": "INTAKE-a5c9a2af188e770f5fd5",
-          "status": "provisional",
-          "asset": "automated-intake/png/beirut-azure-1096-1600-a5c9a2af188e.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -308,8 +307,7 @@
       "pieces": [
         {
           "id": "INTAKE-5056e514323046b9dc2e",
-          "status": "provisional",
-          "asset": "automated-intake/png/tartus-azure-1096-1600-5056e5143230.png"
+          "status": "duplicate"
         }
       ]
     },
@@ -1290,6 +1288,61 @@
         {
           "id": "INTAKE-79cd97e51da428535fcb",
           "status": "duplicate"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_coastal_cities_batch_01_under_10MB/png/acre-coastal-west-turquoise-2026-11-16.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-43d1651b895b2ecf0101",
+          "status": "provisional",
+          "asset": "automated-intake/png/acre-coastal-west-turquoise-2026-11-16-43d1651b895b.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_coastal_cities_batch_01_under_10MB/png/ascalon-coastal-west-turquoise-2026-11-16.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-bcdd69ebe7829743e8c4",
+          "status": "provisional",
+          "asset": "automated-intake/png/ascalon-coastal-west-turquoise-2026-11-16-bcdd69ebe782.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_coastal_cities_batch_01_under_10MB/png/caesarea-coastal-west-turquoise-2026-11-16.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-9da04913a93b6cfcc5eb",
+          "status": "provisional",
+          "asset": "automated-intake/png/caesarea-coastal-west-turquoise-2026-11-16-9da04913a93b.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_coastal_cities_batch_01_under_10MB/png/jaffa-coastal-west-turquoise-2026-11-16.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-97d2ecc8e9058c14719b",
+          "status": "provisional",
+          "asset": "automated-intake/png/jaffa-coastal-west-turquoise-2026-11-16-97d2ecc8e905.png"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_coastal_cities_batch_01_under_10MB/png/tyre-coastal-west-turquoise-2026-11-16.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-bd42737f27abcdec042d",
+          "status": "provisional",
+          "asset": "automated-intake/png/tyre-coastal-west-turquoise-2026-11-16-bd42737f27ab.png"
         }
       ]
     },
@@ -5814,6 +5867,17 @@
       ]
     },
     {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_northern_coast_ACTUAL_spritesheet/crusader_northern_coast_ACTUAL_spritesheet.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-0aa5156ee8bd5c358756",
+          "status": "provisional",
+          "asset": "automated-intake/png/crusader-northern-coast-actual-spritesheet-0aa5156ee8bd.png"
+        }
+      ]
+    },
+    {
       "source": "assets/sprites/incoming/_zip_extract/crusader_paphos_ayas_orientation_review_2026-11-13/sprites/ayas-laiazzo-c1300-east-gulf-review-v1.png",
       "extraction": "intact_image_or_uncertain_sheet",
       "pieces": [
@@ -6710,6 +6774,17 @@
         {
           "id": "INTAKE-a06bd77460e78e233655",
           "status": "duplicate"
+        }
+      ]
+    },
+    {
+      "source": "assets/sprites/incoming/_zip_extract/crusader_southern_coast_ACTUAL_spritesheet/crusader_southern_coast_ACTUAL_spritesheet.png",
+      "extraction": "intact_image_or_uncertain_sheet",
+      "pieces": [
+        {
+          "id": "INTAKE-28e092c7266658188ead",
+          "status": "provisional",
+          "asset": "automated-intake/png/crusader-southern-coast-actual-spritesheet-28e092c72666.png"
         }
       ]
     },
@@ -9024,7 +9099,7 @@
       ]
     }
   ],
-  "registered": 2,
-  "duplicates": 900,
+  "registered": 7,
+  "duplicates": 902,
   "errors": 0
 }

@@ -806,6 +806,31 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-0aa5156ee8bd5c358756",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-0aa5156ee8bd5c358756",
+        "asset": "data/sprites/automated-intake/png/crusader-northern-coast-actual-spritesheet-0aa5156ee8bd.png",
+        "site_id": "crusader-northern-coast-actual-spritesheet",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-0ad1e4fb90c723a09730",
       "geometry": null,
       "properties": {
@@ -3134,6 +3159,31 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-28e092c7266658188ead",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-28e092c7266658188ead",
+        "asset": "data/sprites/automated-intake/png/crusader-southern-coast-actual-spritesheet-28e092c72666.png",
+        "site_id": "crusader-southern-coast-actual-spritesheet",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified",
+          "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-29c921302d6442fab7e8",
       "geometry": null,
       "properties": {
@@ -4711,6 +4761,30 @@
         "sprite_id": "INTAKE-43273ed0aaec05588689",
         "asset": "data/sprites/automated-intake/png/large-04-broad-lowland-grain-43273ed0aaec.png",
         "site_id": "large-04-broad-lowland-grain",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-43d1651b895b2ecf0101",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-43d1651b895b2ecf0101",
+        "asset": "data/sprites/automated-intake/png/acre-coastal-west-turquoise-2026-11-16-43d1651b895b.png",
+        "site_id": "acre-coastal-west-turquoise-2026-11-16",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -9767,6 +9841,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-97d2ecc8e9058c14719b",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-97d2ecc8e9058c14719b",
+        "asset": "data/sprites/automated-intake/png/jaffa-coastal-west-turquoise-2026-11-16-97d2ecc8e905.png",
+        "site_id": "jaffa-coastal-west-turquoise-2026-11-16",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-97fe8b99a558256150e0",
       "geometry": null,
       "properties": {
@@ -9988,6 +10086,30 @@
         "sprite_id": "INTAKE-9d88ff9719532be6926e",
         "asset": "data/sprites/automated-intake/png/irakleia-1180-whole-island-south-view-review-v1-9d88ff971953.png",
         "site_id": "irakleia-1180-whole-island-south-view-review-v1",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-9da04913a93b6cfcc5eb",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-9da04913a93b6cfcc5eb",
+        "asset": "data/sprites/automated-intake/png/caesarea-coastal-west-turquoise-2026-11-16-9da04913a93b.png",
+        "site_id": "caesarea-coastal-west-turquoise-2026-11-16",
         "approval": "provisional",
         "approval_for_review_placement": true,
         "geographic_placement_ready": false,
@@ -11729,6 +11851,30 @@
     },
     {
       "type": "Feature",
+      "id": "INTAKE-bcdd69ebe7829743e8c4",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-bcdd69ebe7829743e8c4",
+        "asset": "data/sprites/automated-intake/png/ascalon-coastal-west-turquoise-2026-11-16-bcdd69ebe782.png",
+        "site_id": "ascalon-coastal-west-turquoise-2026-11-16",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "INTAKE-bd042f1f9c7f23f5694f",
       "geometry": null,
       "properties": {
@@ -11773,6 +11919,30 @@
           "coordinates_unverified",
           "southern_pov_unverified",
           "possible_unsplit_sheet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INTAKE-bd42737f27abcdec042d",
+      "geometry": null,
+      "properties": {
+        "sprite_id": "INTAKE-bd42737f27abcdec042d",
+        "asset": "data/sprites/automated-intake/png/tyre-coastal-west-turquoise-2026-11-16-bd42737f27ab.png",
+        "site_id": "tyre-coastal-west-turquoise-2026-11-16",
+        "approval": "provisional",
+        "approval_for_review_placement": true,
+        "geographic_placement_ready": false,
+        "historical_accuracy_certified": false,
+        "anchor_normalized": [
+          0.5,
+          0.95
+        ],
+        "display_width_units": 512,
+        "review_flags": [
+          "category_unverified",
+          "coordinates_unverified",
+          "southern_pov_unverified"
         ]
       }
     },
