@@ -15,7 +15,7 @@
         1086
       ],
       "format": "RGBA PNG",
-      "owner_art_approval": "accepted_subject_to_map_scale_placement_review",
+      "owner_art_approval": "superseded_by_locked_historical_seawall_layout_v3",
       "water_side": "west/left",
       "coast_axis": "north-south",
       "water_palette": "turquoise",
@@ -29,6 +29,51 @@
         "city anchoring",
         "label ordering",
         "print output"
+      ],
+      "superseded_by": "ashkelon-seawall-historical-layout-locked-transparent-v3.png"
+    },
+    {
+      "site_id": "ascalon",
+      "name": "Ashkelon / Ascalon",
+      "region": "main",
+      "approval": "OWNER_LAYOUT_LOCKED",
+      "artwork_status": "accepted_for_map_scale_review_not_yet_active_in_renderer",
+      "generated_date": "2026-11-16",
+      "candidate_repository_path": "data/sprites/coastal-corrections-2026-11-16/ashkelon-seawall-historical-layout-locked-transparent-v3.png",
+      "source_file_name": "ashkelon-seawall-historical-layout-locked-transparent-v3.png",
+      "sha256": "d1b6eaa1c676ff88db1b52c2c7155eb3ef017b15f5c27b70a8eb3d3b46deeca4",
+      "image_px": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "transparent_fraction_approx": 0.273,
+      "water_side": "west/left",
+      "coast_axis": "roughly north-south",
+      "water_palette": "turquoise",
+      "camera": "high oblique from the south",
+      "labels": "none",
+      "historical_design": {
+        "seaward_wall": "verified exists and lines the shore",
+        "landward_wall": "semicircular earthen rampart with medieval masonry atop",
+        "gates": "four primary gates: Sea/west, Jerusalem/east, Gaza/south, Jaffa/north",
+        "historical_precision": "representative architectural reconstruction, not measured building-by-building archaeology",
+        "shoreline_fit": "review_pending"
+      },
+      "references": [
+        "https://en.parks.org.il/reserve-park/ashkelon-national-park/",
+        "https://hmane.harvard.edu/sites/g/files/omnuum3086/files/semitic/files/ashkelon_1.pdf",
+        "https://orca.cardiff.ac.uk/id/eprint/127281/1/Ashkelon%208%20Book-final_proof%20Pringle%20Chapter%2019-acrobat.pdf"
+      ],
+      "original_preserved": "data/sprites/greece-egypt-1180-batch04/ascalon-1180-v1.png",
+      "binary_in_repository": false,
+      "renderer_hold": "maintain until actual PNG is uploaded and coastline alignment checked",
+      "required_next_actions": [
+        "upload PNG bytes to candidate_repository_path",
+        "verify SHA256",
+        "crop/land-mask fit with south-north local shoreline",
+        "switch active selection only after rendered QA",
+        "check 300 dpi proof"
       ]
     }
   ],
@@ -43,5 +88,5 @@
     "Batroun",
     "Latakia"
   ],
-  "editorial_note": "Jaffa attempted source rendered an opaque checkerboard and is not approved for intake. Current Ashkelon PNG is available in the chat-provided batch ZIP, not yet in GitHub. Do not mark the candidate as live until its actual PNG is uploaded."
+  "editorial_note": "Owner locked Ashkelon seawall layout after confirming archaeology: walls ran along shore. The 1536x1024 RGBA cutout is supplied in conversation and awaiting repository binary intake. Previous v2 is superseded, and active renderer still holds old incorrect artwork."
 }
