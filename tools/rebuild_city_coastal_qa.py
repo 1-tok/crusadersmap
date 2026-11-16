@@ -2,12 +2,15 @@
 No horizontal mirroring is performed: this can corrupt landmarks and waterfront geometry.
 Lists selected artwork and the expected sea side from a south-looking oblique view.
 """
-import csv,json,os
+import csv,json,os,sys
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+# GitHub Actions executes this script by filename; put the repository root on
+# sys.path before importing its local geographic and renderer modules.
+sys.path.insert(0, str(ROOT))
 from PIL import Image, ImageDraw
 import places as PL
 from placer import coastal_sprite_held
-from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1]
 entries=json.loads((ROOT/"assets/sprites.json").read_text())
 # At southern camera/looking north: west = image left, east = image right.
 EXPECTED={
