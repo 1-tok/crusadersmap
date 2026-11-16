@@ -179,6 +179,11 @@ def _mix(a, b, t):
 
 
 def draw_symbol(c, spec, px, py, w, seed, edition="colour"):
+    # Older waterfront profiles such as Chrysopolis/Chalcedon have no
+    # hand-drawn profile. Use a small generic settlement mark for markers,
+    # not a missing function (and never substitute for a selected sprite).
+    if spec.startswith("P:") and not hasattr(PR, spec.split(":", 1)[1]):
+        spec = "M:walled_town"
     mod, fn, kind = mark_func(spec)
     rect, s = symbol_rect(spec, px, py, w)
     nm = spec.split(":")[1]
