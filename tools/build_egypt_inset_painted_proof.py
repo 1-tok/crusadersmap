@@ -157,11 +157,9 @@ def out_segment(c, line, path_kind, fid, used, qa):
     # Spline vertices exactly represent source geometry. The Cairo overlap
     # area remains in shared source coordinates without invented connectors.
     pts=list(pixel_path.coords)
-    # First dark bank, then warm silt then vivid painted Nile water.
-    stroke(c,pts,width+13,(.39,.35,.18,.76))
-    stroke(c,pts,width+7,(.80,.65,.33,.83))
-    stroke(c,pts,width,(.20,.49,.61,.98))
-    stroke(c,pts,max(2,width*.27),(.29,.61,.70,.38))
+    # Defer all water to one connected pass after farmland; prevents a
+    # field or a later river segment obscuring a previously painted craft.
+    qa["_water"].append((pts,width))
     interval=42 if path_kind=="valley" else 62
     distance=26+random_val(0,18)
     while distance<pixel_path.length-18:
@@ -197,7 +195,7 @@ def out_segment(c, line, path_kind, fid, used, qa):
             key=(round(at.x/85),round(at.y/85))
             if key not in used["boat"]:
                 used["boat"].add(key)
-                boats(c,at.x,at.y,angle,random_val(.70,1.05),RND)
+                qa["_boats"].append((at.x,at.y,angle,random_val(.84,1.20)))
                 qa["boats"]+=1
         if qa["villages"]<29 and RND.random()<.22:
             offset=115 if path_kind=="valley" else 175
@@ -206,7 +204,7 @@ def out_segment(c, line, path_kind, fid, used, qa):
             key=(round(xx/115),round(yy/115))
             if key not in used["village"] and 25<xx<qa["width"]-40 and 25<yy<qa["height"]-40:
                 used["village"].add(key)
-                village(c,xx,yy,random_val(.75,1.12),RND)
+                qa["_villages"].append((xx,yy,random_val(.85,1.23)))
                 qa["villages"]+=1
         distance+=interval*random_val(.83,1.14)
 
@@ -230,11 +228,24 @@ def main():
         "river_width_exaggerated_for_legibility":True,
         "settlements_and_traffic":"generic symbolic historical reconstruction, not verified exact sites or ship inventories",
         "source_crs":"Lambert conformal conic Egypt inset; projection locations unchanged",
-        "segments":Counter(),"fields":0,"palms":0,"boats":0,"villages":0}
+        "segments":Counter(),"fields":0,"palms":0,"boats":0,"villages":0,
+        "_water":[],"_boats":[],"_villages":[]}
     # Paint independent water and shores first; farmland parcels, boats and
     # villages are all source-line fitted, with deliberate size exaggeration.
     for category,fid,line in source_paths():
         out_segment(c,line,category,fid,used,qa)
+    # Draw entire river source network together over painted field banks;
+    # preserve exact line vertices; then make boats and hamlets legible.
+    for pts,width in qa.pop("_water"):
+        stroke(c,pts,width+13,(.39,.35,.18,.76))
+        stroke(c,pts,width+7,(.80,.65,.33,.83))
+        stroke(c,pts,width,(.20,.49,.61,.98))
+        stroke(c,pts,max(2,width*.27),(.29,.61,.70,.38))
+    for xx,yy,size in qa.pop("_villages"):
+        village(c,xx,yy,size,RND)
+    for xx,yy,angle,size in qa.pop("_boats"):
+        boats(c,xx,yy,angle,size,RND)
+    qa["layer_order"]="fields > connected Nile water > villages and boats"
     if qa["fields"]<120 or qa["boats"]<8 or qa["villages"]<8:
         raise AssertionError("Egypt inset proof too sparse: "+str(qa))
     surface.flush()
