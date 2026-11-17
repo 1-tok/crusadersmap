@@ -6,13 +6,16 @@ Ensures the official rebuilt composite has physically changed after drawing.
 """
 from pathlib import Path
 import json
+import sys
 from PIL import Image,ImageDraw,ImageFont
 
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
 OUT=ROOT/"reports/nile-delta-terrain-review-2026-11-17"
 
 def main():
-    from build_stage1 import REG,BOX
+    import frame as FR
+    from rough import Region
     old=ROOT/"out/coverage-before.jpg"
     current=ROOT/"reports/rebuild-2026-11-12/outremer-current-composite.jpg"
     if not old.is_file() or not current.is_file():
@@ -23,10 +26,9 @@ def main():
         raise AssertionError("Composite preview dimensions changed; cannot compare directly")
     # The source atlas uses 13760 print pixels in one dimension, and build
     # stage2 is run at 0.30 scale. Calculate from actual image width.
-    from frame import W
-    scale=b.width/float(W)
-    bx,by=BOX["delta"]
-    reg=REG["delta"]
+    scale=b.width/float(FR.W)
+    reg=Region.from_lonlat(FR.INSETS["delta"]["proj"], FR.INSETS["delta"]["ext"], 4800)
+    bx,by=190,13760-reg.h
     rect=(max(0,round(bx*scale)),max(0,round(by*scale)),
           min(b.width,round((bx+reg.w)*scale)),
           min(b.height,round((by+reg.h)*scale)))
