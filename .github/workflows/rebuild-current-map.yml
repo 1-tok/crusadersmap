@@ -91,6 +91,27 @@ jobs:
           python tools/activate_review_coastal_sprites.py
           python tools/activate_uploaded_coastal_city_sheets.py
           python tools/activate_greece_egypt_review_sprites.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          registry = json.loads(Path('assets/sprites.json').read_text())
+          for site in ('alexandria', 'damietta'):
+              selected = [r for r in registry if r.get('site') == site and r.get('cat') == 'city']
+              assert len(selected) == 1, (site, 'missing or duplicate city records')
+              record = selected[0]
+              assert record.get('source') == 'greece-egypt-review-assumed-coast-2026-11-17', (site, record.get('source'))
+              assert (Path('assets/sprites') / record['file']).is_file(), (site, 'missing working sprite')
+              print('EGYPT REVIEW SELECTED:', site, record['file'])
+          import placer
+          for site in ('alexandria', 'damietta'):
+              records = [r for r in registry if r.get('site') == site]
+              site_record = records[0]
+              matches = [p for p in placer.PL.PLACES if p[0] == site_record['region']
+                         and placer.SP.MATCH.get(p[5], {}).get('site') == site]
+              assert matches, (site, 'no actual map place matched')
+              assert not any(placer.coastal_sprite_held(p[0], p[5], p[7]) for p in matches), (site, 'still held')
+              print('EGYPT REVIEW RENDERABLE:', site, len(matches), 'map place(s)')
+          PY
           python tools/rebuild_city_coastal_qa.py
           python tools/reconcile_intake_geography.py
       - name: Prepare reproducible Mediterranean azure harbor masks
