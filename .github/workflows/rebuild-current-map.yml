@@ -9,6 +9,7 @@ on:
       - 'tools/rebuild_city_coastal_qa.py'
       - 'tools/reconcile_intake_geography.py'
       - 'tools/activate_review_coastal_sprites.py'
+      - 'tools/activate_greece_egypt_review_sprites.py'
       - 'tools/activate_uploaded_coastal_city_sheets.py'
       - 'tools/reconcile_recovered_coasts_islands.py'
       - 'data/manifests/ROOT-ZIP-RECOVERY-2026-11-13.json'
@@ -78,7 +79,9 @@ jobs:
           python tools/audit_lowland_51_cutouts.py
           python tools/build_sprite_handoff.py
           # build_sprite_assets.py recreates assets/sprites/; preserve source ZIPs first.
-          mkdir -p out/coastal-sheet-source
+          mkdir -p out/coastal-sheet-source out/egypt-review-source
+          cp assets/sprites/qa_provisional/coastal-batch05-2026-11-16/alexandria-coastal-city-2026-11-16-review.png out/egypt-review-source/
+          cp assets/sprites/qa_provisional/coastal-batch05-2026-11-16/damietta-coastal-city-2026-11-16-review.png out/egypt-review-source/
           cp assets/sprites/incoming/crusader_southern_coast_ACTUAL_spritesheet.zip out/coastal-sheet-source/
           cp assets/sprites/incoming/crusader_northern_coast_ACTUAL_spritesheet.zip out/coastal-sheet-source/
           python build_sprite_assets.py "$PWD"
@@ -87,6 +90,7 @@ jobs:
           python build_fallback_assets.py
           python tools/activate_review_coastal_sprites.py
           python tools/activate_uploaded_coastal_city_sheets.py
+          python tools/activate_greece_egypt_review_sprites.py
           python tools/rebuild_city_coastal_qa.py
           python tools/reconcile_intake_geography.py
       - name: Prepare reproducible Mediterranean azure harbor masks
