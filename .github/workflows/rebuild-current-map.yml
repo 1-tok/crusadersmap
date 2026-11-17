@@ -43,6 +43,7 @@ on:
       - 'data/manifests/automated-intake-stable-scatter-classes.json'
       - 'terrain.py'
       - 'tools/draw_nile_ecology_pack.py'
+      - 'tools/draw_nile_field_stretches.py'
       - 'tools/install_nile_ecology_pack.py'
       - 'tools/build_nile_derived_sprite_fallback.py'
       - 'tools/review_full_nile_inset.py'
@@ -94,7 +95,7 @@ jobs:
           python -m py_compile tools/audit_lowland_51_cutouts.py tools/lowland_51_review_placer.py tools/check_lowland_51_review.py tools/compare_lowland_coasts.py
           python -m py_compile terrain.py tools/draw_nile_delta_wetlands.py tools/nile_delta_terrain_policy.py build_stage2.py
           python tools/nile_delta_terrain_policy.py
-          python -m py_compile tools/install_nile_ecology_pack.py tools/draw_nile_ecology_pack.py
+          python -m py_compile tools/install_nile_ecology_pack.py tools/draw_nile_ecology_pack.py tools/draw_nile_field_stretches.py
           python tools/install_nile_ecology_pack.py
           python -m py_compile tools/build_nile_derived_sprite_fallback.py
           python tools/build_nile_derived_sprite_fallback.py
