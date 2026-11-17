@@ -731,6 +731,15 @@ class Terrain:
         from collections import Counter
         self.last_item_kind_counts = dict(Counter(it[1] for it in items))
         if self.c.get("nile_delta_flat"):
+            self.last_item_classification = {
+                "selected": self.last_item_kind_counts,
+                "flat_farm": list(NDP.FLAT_FARMS),
+                "flat_dry": list(NDP.FLAT_DRY),
+                "generic": list(NDP.DELTA_GENERIC_FILES),
+                "wetlands": list(NDP.WETLAND_IDS),
+                "mixed_rocky_badlands_sprite_count": 0,
+            }
+        if self.c.get("nile_delta_flat"):
             assert not any(it[1] in {"hill", "mount", "peak"} for it in items), "Nile Delta relief sprite still selected"
         self.glyph_rects = [(x - 0.9 * sz, y - 0.55 * sz, x + 0.9 * sz, y + 0.06 * sz) for _, kd, x, y, sz, _s, _e in items if kd in ("peak", "mount", "hill")]
         # --- draw back to front
@@ -807,7 +816,8 @@ class Terrain:
                     q.line([(px_, 20), (px_ - 1, 14), (px_ - 3, 9)], w=0.8, col=BLUEINK)
             elif kind == "hamlet":
                 c.restore(); c.save()
-                lst = TSP.POOL[_x]
+                lst = (NDP.DELTA_GENERIC_FILES if self.c.get("nile_delta_flat")
+                       else TSP.POOL[_x])
                 # Cycle through suitable artwork before heavily repeating one
                 # motif. Classification still enforces ecological suitability.
                 # Random tie-breaking keeps the scattering organic.
@@ -816,6 +826,10 @@ class Terrain:
                 TSP.gdraw(c, r.choice(options), x, y, size, edition)
             elif kind == "farm":
                 c.restore(); c.save()
+                if self.c.get("nile_delta_flat"):
+                    nm = r.choice(NDP.FLAT_FARMS)
+                    TSP.draw(c, nm, x, y + 0.30*size, size, edition, alpha=0.92)
+                    c.restore(); continue
                 if _x in ("crich", "cpast", "cwaste", "cflat"):
                     pool = {"cflat": TSP.C_FLAT, "crich": TSP.C_RICH, "cpast": TSP.C_PAST, "cwaste": TSP.C_WASTE}[_x]
                     TSP.draw(c, r.choice(pool), x, y + 0.30 * size * 0.4, size, edition, alpha=0.95)
