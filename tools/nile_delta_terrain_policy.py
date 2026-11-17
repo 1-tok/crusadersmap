@@ -20,8 +20,9 @@ def audit():
     manifest = json.loads((ROOT/"data/sprites/terrain-batch06/manifest.json").read_text())
     sprites = {a["id"]:a for a in manifest["assets"]}
     for asset_id in WETLAND_IDS:
-        if sprites[asset_id]["terrain_class"] != "wetland":
-            raise AssertionError("Misclassified wetland: "+asset_id)
+        if (sprites[asset_id]["terrain_class"] != "wetland" or
+                sprites[asset_id].get("delta_placement_status") != "review_selected_coast_clipped"):
+            raise AssertionError("Misclassified or unapproved wetland: "+asset_id)
     generic = json.loads((ROOT/"assets/generic2.json").read_text())
     delta_generic = [x for x in generic if x.get("cls") == "delta"]
     for x in delta_generic:
