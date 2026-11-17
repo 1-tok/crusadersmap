@@ -417,6 +417,8 @@ class Terrain:
                 y = (gy + 0.5 + rnd.uniform(-0.42, 0.42)) * cell
                 if not (30 < x < W - 30 and 30 < y < H - 20) or not land_at(x, y):
                     continue
+                if self.c.get("nile_delta_flat"):
+                    continue  # No relief artwork anywhere in this map inset.
                 e = elev_at(x, y); rl = rel_at(x, y)
                 if self.c.get("nile_delta_flat"):
                     lo, la = reg.inv.transform(reg.x0 + x / W*(reg.x1-reg.x0),
@@ -443,6 +445,8 @@ class Terrain:
                 y = (gy + 0.5 + rnd.uniform(-0.45, 0.45)) * cell2
                 if not (30 < x < W - 30 and 30 < y < H - 20) or not land_at(x, y):
                     continue
+                if self.c.get("nile_delta_flat"):
+                    continue  # No relief artwork anywhere in this map inset.
                 e = elev_at(x, y); rl = rel_at(x, y)
                 if self.c.get("nile_delta_flat"):
                     lo, la = reg.inv.transform(reg.x0 + x / W*(reg.x1-reg.x0),
@@ -711,6 +715,10 @@ class Terrain:
                     return True
             return False
         items = [it for it in keep if not blocked(it)]
+        from collections import Counter
+        self.last_item_kind_counts = dict(Counter(it[1] for it in items))
+        if self.c.get("nile_delta_flat"):
+            assert not any(it[1] in {"hill", "mount", "peak"} for it in items), "Nile Delta relief sprite still selected"
         self.glyph_rects = [(x - 0.9 * sz, y - 0.55 * sz, x + 0.9 * sz, y + 0.06 * sz) for _, kd, x, y, sz, _s, _e in items if kd in ("peak", "mount", "hill")]
         # --- draw back to front
         items.sort(key=lambda t: t[0])
