@@ -77,6 +77,53 @@ def random_val(a,b):
 def paint(c,rgba):
     c.set_source_rgba(*rgba)
 
+def continuous_floodplain(c, paths, qa):
+    """Connected riverbank ground painting from sourced river centerlines.
+
+    Deliberately exaggerates the fertile bank width without displacing or
+    rotating any individual farm, boat or village artwork. Valley / Delta
+    palette differs, while every river section shares one geographical
+    clip/union, so adjacent stretches cannot have white terrain seams.
+    """
+    from shapely.ops import unary_union
+    from shapely.geometry import Polygon, MultiPolygon
+    outlines=[]
+    for category,fid,line in paths:
+        px=LineString(coordinates(line))
+        if px.length<12:continue
+        width=123 if category=="valley" else 158
+        outlines.append(px.buffer(width,cap_style=1,join_style=1,resolution=10))
+    if not outlines:
+        raise AssertionError("No river-aligned floodplain polygons")
+    joined=unary_union(outlines)
+    # All cultivated ground is a single painted geographic layer, rather
+    # than 400 detached green stickers on desert.
+    c.save()
+    c.new_path()
+    for poly in (joined.geoms if hasattr(joined,"geoms") else [joined]):
+        if poly.geom_type!="Polygon":continue
+        for ring in [poly.exterior]+list(poly.interiors):
+            coords=list(ring.coords)
+            if len(coords)<4:continue
+            c.move_to(*coords[0])
+            for xy in coords[1:]:c.line_to(*xy)
+            c.close_path()
+    c.set_fill_rule(cairo.FILL_RULE_EVEN_ODD)
+    c.set_source_rgba(.48,.53,.24,.72)
+    c.fill_preserve()
+    # A soft continuous river-to-desert edge; no flat green box or visible
+    # seams between individual path sources. Boundaries can be pushed
+    # geospatially in a later historical-floodplain audit.
+    c.set_line_width(13)
+    c.set_source_rgba(.70,.56,.28,.38)
+    c.stroke()
+    c.restore()
+    qa["floodplain_contiguous_ground_layer"]=True
+    qa["bank_artwork_unrotated"]=True
+    qa["geographic_river_nodes_modified"]=False
+    qa["painted_corridor_width_note"]="Approximate exaggerated map-pixel bank widths, not certified historical levee extents"
+
+
 def stroke(c,points,width,color,cap=cairo.LINE_CAP_ROUND):
     if len(points)<2:return
     c.new_path();c.move_to(*points[0])
@@ -183,7 +230,7 @@ def out_segment(c, line, path_kind, fid, used, qa):
                     key=(round(xx/28),round(yy/28))
                     if key not in used["field"]:
                         used["field"].add(key)
-                        field(c,xx,yy,angle,
+                        field(c,xx,yy,0,
                               random_val(31,58),random_val(22,36),
                               FIELDS[RND.randrange(len(FIELDS))],RND)
                         qa["fields"]+=1
@@ -195,7 +242,7 @@ def out_segment(c, line, path_kind, fid, used, qa):
             key=(round(at.x/85),round(at.y/85))
             if key not in used["boat"]:
                 used["boat"].add(key)
-                qa["_boats"].append((at.x,at.y,angle,random_val(.84,1.20)))
+                qa["_boats"].append((at.x,at.y,0,random_val(.84,1.20)))
                 qa["boats"]+=1
         if qa["villages"]<29 and RND.random()<.22:
             offset=115 if path_kind=="valley" else 175
@@ -230,9 +277,11 @@ def main():
         "source_crs":"Lambert conformal conic Egypt inset; projection locations unchanged",
         "segments":Counter(),"fields":0,"palms":0,"boats":0,"villages":0,
         "_water":[],"_boats":[],"_villages":[]}
-    # Paint independent water and shores first; farmland parcels, boats and
-    # villages are all source-line fitted, with deliberate size exaggeration.
-    for category,fid,line in source_paths():
+    # Lay a continuous fertile floodplain before any fields. The river is
+    # drawn last using the same paths, so banks and channels match exactly.
+    paths=list(source_paths())
+    continuous_floodplain(c,paths,qa)
+    for category,fid,line in paths:
         out_segment(c,line,category,fid,used,qa)
     # Draw entire river source network together over painted field banks;
     # preserve exact line vertices; then make boats and hamlets legible.
@@ -245,7 +294,7 @@ def main():
         village(c,xx,yy,size,RND)
     for xx,yy,angle,size in qa.pop("_boats"):
         boats(c,xx,yy,angle,size,RND)
-    qa["layer_order"]="fields > connected Nile water > villages and boats"
+    qa["layer_order"]="continuous painted fertile ground > upright fields > geographic Nile water > upright villages and boats"
     if qa["fields"]<120 or qa["boats"]<8 or qa["villages"]<8:
         raise AssertionError("Egypt inset proof too sparse: "+str(qa))
     surface.flush()
