@@ -1,0 +1,20 @@
+{
+  "status": "rendered_composite_raster_comparison_not_historical_certification",
+  "before": "out/coverage-before.jpg",
+  "after": "reports/rebuild-2026-11-12/outremer-current-composite.jpg",
+  "image": "reports/nile-delta-terrain-review-2026-11-17/nile-valley-delta-before-after.jpg",
+  "crop_px": [
+    57,
+    2916,
+    1497,
+    4128
+  ],
+  "mean_abs_difference_by_rgb": [
+    0.0163,
+    0.0157,
+    0.018
+  ],
+  "sampled_changed_fraction": 0.00015,
+  "nile_upstream_and_delta_both_in_crop": true,
+  "note": "Pixel difference and crop visibility alone do not certify geographic river connectivity or sprite seams."
+}
