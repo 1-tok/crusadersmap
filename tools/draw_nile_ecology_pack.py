@@ -29,8 +29,8 @@ def _manifest():
         return []
     obj=json.loads(file.read_text())
     entries=obj.get("assets",[])
-    if len(entries)!=80:
-        raise AssertionError("Partially installed Nile ecology pack")
+    if len(entries)<87:
+        raise AssertionError("Partially installed Nile ecology pack (needs at least 87 cutouts)")
     for entry in entries:
         if not (PACK/entry["file"]).is_file():
             raise FileNotFoundError("Missing Nile generated PNG "+entry["file"])
