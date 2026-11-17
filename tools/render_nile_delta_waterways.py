@@ -116,4 +116,28 @@ def save_report():
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     if not _last:
         raise AssertionError("Delta hydrography was not rendered")
+    # Independent upstream source coverage, since OSM import is limited to
+    # the northern Delta. Prevent accidental loss of the southern Nile again.
+    from terrain import RIVERS
+    upstream = box(27.0, 27.5, 34.9, 30.10)
+    trunk = [g.intersection(upstream) for g in RIVERS if g.intersects(upstream)]
+    riverlines = [line for g in trunk for line in _lines(g)]
+    if not riverlines:
+        raise AssertionError("No Natural Earth Nile upstream linework")
+    longitudes = [x for line in riverlines for x,y in line.coords]
+    latitudes = [y for line in riverlines for x,y in line.coords]
+    if min(latitudes) > 28.6 or max(latitudes) < 29.9:
+        raise AssertionError(f"Upstream Nile does not span the Cairo-to-south inset: {min(latitudes)}–{max(latitudes)}")
+    coverage = {
+        "southern_source":"Natural Earth 10m river/lake centerlines from repository",
+        "upstream_rendered":True,
+        "upstream_source_segments":len(riverlines),
+        "upstream_min_lat":round(min(latitudes),5),
+        "upstream_max_lat":round(max(latitudes),5),
+        "northern_source":"OpenStreetMap via ArcGIS waterway service",
+        "northern_segments":_last["segment_count"],
+        "upstream_north_join_review_required":True,
+        "entire_network_medieval_verified":False
+    }
+    _last["upstream_coverage"] = coverage
     OUTPUT.write_text(json.dumps(_last,indent=2)+"\n")
