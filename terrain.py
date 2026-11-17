@@ -605,6 +605,13 @@ class Terrain:
                 elif f < 0.28 and e < 1500 and self.dland[at(x, y)[1], at(x, y)[0]] > 6:
                     if rnd.random() < 0.40:
                         items.append((y, "scrub", x, y, rnd.uniform(26, 38) * m, rnd.randint(1, 10 ** 6), None))
+        def _ll(x, y):
+            X = reg.x0 + x / W * (reg.x1 - reg.x0); Y = reg.y1 - y / H * (reg.y1 - reg.y0)
+            lo_, la_ = reg.inv.transform(X, Y); return float(lo_), float(la_)
+
+        def in_delta(x, y):
+            lo_, la_ = _ll(x, y)
+            return bool(self.c.get("nile_delta_flat")) and nile_floodplain(lo_, la_)
         cellw = 230 * m
         for gy in range(0, int(H // cellw) + 1):
             for gx in range(0, int(W // cellw) + 1):
@@ -614,13 +621,6 @@ class Terrain:
                     continue
                 if not in_delta(x, y) and fert_at(x, y) < 0.22 and elev_at(x, y) < 1200 and self.dland[at(x, y)[1], at(x, y)[0]] > 10 and rnd.random() < 0.55:
                     items.append((y - 1e6, "drystrip", x, y, rnd.uniform(320, 440) * m, rnd.randint(1, 10 ** 6), "waste"))
-        def _ll(x, y):
-            X = reg.x0 + x / W * (reg.x1 - reg.x0); Y = reg.y1 - y / H * (reg.y1 - reg.y0)
-            lo_, la_ = reg.inv.transform(X, Y); return float(lo_), float(la_)
-
-        def in_delta(x, y):
-            lo_, la_ = _ll(x, y)
-            return bool(self.c.get("nile_delta_flat")) and nile_floodplain(lo_, la_)
         # --- painted farmland, orchards and pasture under the trees and hills
         cellf = (230 if self.mpp <= 150 else 190) * m
         for gy in range(0, int(H // cellf) + 1):
