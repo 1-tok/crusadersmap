@@ -741,6 +741,8 @@ class Terrain:
                     return True
             return False
         items = [it for it in keep if not blocked(it)]
+        from tools.draw_nile_ecology_pack import _manifest as _nile_art_manifest
+        painted_nile_ecology_ready = bool(_nile_art_manifest()) if self.c.get("nile_delta_flat") else False
         from collections import Counter
         self.last_item_kind_counts = dict(Counter(it[1] for it in items))
         if self.c.get("nile_delta_flat"):
@@ -751,6 +753,7 @@ class Terrain:
                 "generic": list(NDP.DELTA_GENERIC_FILES),
                 "wetlands": list(NDP.WETLAND_IDS),
                 "mixed_rocky_badlands_sprite_count": 0,
+                "legacy_hill_like_farm_stamps_suppressed": painted_nile_ecology_ready,
             }
         if self.c.get("nile_delta_flat"):
             assert not any(it[1] in {"hill", "mount", "peak"} for it in items), "Nile Delta relief sprite still selected"
@@ -839,6 +842,12 @@ class Terrain:
                 TSP.gdraw(c, r.choice(options), x, y, size, edition)
             elif kind == "farm":
                 c.restore(); c.save()
+                if self.c.get("nile_delta_flat") and painted_nile_ecology_ready:
+                    # Old stock field stamps looked like hill clusters even
+                    # though classified as farmland. New plan-view PNGs are
+                    # painted on geographically sampled land BEFORE this pass.
+                    c.restore()
+                    continue
                 if self.c.get("nile_delta_flat"):
                     nm = r.choice(NDP.FLAT_FARMS)
                     TSP.draw(c, nm, x, y + 0.30*size, size, edition, alpha=0.92)
