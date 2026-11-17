@@ -16,6 +16,31 @@ from lettering import catmull as _catmull
 from shapely.affinity import scale as _sscale
 
 BLUEINK = (0.20, 0.33, 0.45)
+
+# The Nile's principal surviving distributaries are Rosetta (west) and
+# Damietta (east). These hand-fit review paths use geographic lon/lat and
+# terminate against the existing LAND shoreline clip; they are not a new
+# coastline or a claim to reconstruct every medieval irrigation channel.
+NILE_DELTA_BRANCHES = (
+    ((31.235, 30.045), (31.20, 30.19), (31.14, 30.37),
+     (31.10, 30.50), (30.94, 30.67), (30.75, 30.89),
+     (30.62, 31.09), (30.50, 31.28), (30.40, 31.42),
+     (30.37, 31.52)),  # Rosetta: western outlet
+    ((31.235, 30.045), (31.28, 30.24), (31.36, 30.42),
+     (31.44, 30.57), (31.53, 30.73), (31.58, 30.94),
+     (31.68, 31.14), (31.75, 31.29), (31.81, 31.43),
+     (31.83, 31.57)),  # Damietta: eastern outlet
+)
+
+def nile_floodplain(lon, lat):
+    """A conservative wedge between the mouths and Cairo, NOT all Egypt."""
+    if not (30.04 <= lat <= 31.55):
+        return False
+    t = (lat - 30.04) / (31.55 - 30.04)
+    west = 31.16 - 1.00 * t
+    east = 31.35 + 0.75 * t
+    return west <= lon <= east
+
 MODERN_LAKES = ("Assad", "Ataturk", "Keban", "Tuz", "Great Bitter", "Saksak", "Egirdir", "Eğirdir", "Beyşehir", "Beysehir")
 EXTRA_RIVERS = [  # medieval courses missing from the modern dataset (lon, lat)
     [(36.4, 34.2), (36.55, 34.45), (36.72, 34.73), (36.75, 35.13), (36.55, 35.4), (36.38, 35.7), (36.3, 35.95), (36.2, 36.2), (36.08, 36.12), (35.97, 36.08)],
@@ -89,6 +114,7 @@ DELTA = dict(
     oasis=[(33.65, 28.72), (32.65, 29.88), (33.78, 29.9), (33.85, 31.12), (30.1, 29.62)],
     spacing=1.0,
     palms=True,
+    nile_delta_flat=True,
 )
 
 
@@ -146,6 +172,13 @@ class Terrain:
         self.green = zone_field(lon, lat, self.c["green"])
         self.desert = zone_field(lon, lat, self.c["desert"]) if self.c["desert"] else np.zeros_like(lon)
         self.fert = np.clip(np.maximum(self.green * 0.95, np.exp(-self.dland / 55.0) * 0.55) * (1 - 0.8 * self.desert), 0, 1).astype(np.float32)
+        # Nile alluvium is fertile even where coarse DEM/desert blobs bleed in.
+        if self.c.get("nile_delta_flat"):
+            t = (lat - 30.04) / (31.55 - 30.04)
+            wedge = (lat >= 30.04) & (lat <= 31.55) & (
+                lon >= (31.16 - t)) & (lon <= (31.35 + 0.75*t))
+            self.fert = np.where(wedge & self.land_l, np.maximum(self.fert, 0.84), self.fert)
+
         self.avoid_rects = []
         self.avoid_disks = []
 
@@ -332,6 +365,47 @@ class Terrain:
                 pr = Pen(c, seed=rnd.randint(1, 10 ** 6), amp=0.6, ink=BLUEINK)
                 pr.line(out, w=2.2, col=BLUEINK)
 
+        # Nile floodplain river mouths: clipped to the genuine coast so that
+        # painted water reaches the Mediterranean but never crosses onto sea.
+        # Render after the generic river centerlines, below every city/label.
+        if self.c.get("nile_delta_flat"):
+            c.save()
+            c.new_path()
+            for poly in polys:
+                if poly.geom_type != "Polygon" or poly.is_empty:
+                    continue
+                q = reg.geom_px(poly)
+                rings = [q.exterior] + list(q.interiors)
+                for ring in rings:
+                    xy = list(ring.coords)
+                    if len(xy) < 4:
+                        continue
+                    c.move_to(*xy[0])
+                    for xy_i in xy[1:]:
+                        c.line_to(*xy_i)
+                    c.close_path()
+            c.set_fill_rule(cairo.FILL_RULE_EVEN_ODD)
+            c.clip()
+            for branch in NILE_DELTA_BRANCHES:
+                pts = [reg.ll_px(lo, la) for lo, la in branch]
+                pts = _catmull(pts, step=4.0)
+                if len(pts) < 2:
+                    continue
+                c.new_path()
+                c.move_to(*pts[0])
+                for pt in pts[1:]:
+                    c.line_to(*pt)
+                c.set_line_cap(cairo.LINE_CAP_ROUND)
+                c.set_line_join(cairo.LINE_JOIN_ROUND)
+                azure = (0.27, 0.58, 0.68) if edition == "colour" else BLUEINK
+                c.set_source_rgba(*azure, 0.94)
+                c.set_line_width(8.0)
+                c.stroke_preserve()
+                c.set_source_rgba(*BLUEINK, 0.68)
+                c.set_line_width(1.2)
+                c.stroke()
+            c.restore()
+
         # --- lakes
         for g in self._lakes():
             if not g.intersects(bb):
@@ -385,6 +459,11 @@ class Terrain:
                 if not (30 < x < W - 30 and 30 < y < H - 20) or not land_at(x, y):
                     continue
                 e = elev_at(x, y); rl = rel_at(x, y)
+                if self.c.get("nile_delta_flat"):
+                    lo, la = reg.inv.transform(reg.x0 + x / W*(reg.x1-reg.x0),
+                                               reg.y1 - y / H*(reg.y1-reg.y0))
+                    if nile_floodplain(float(lo), float(la)):
+                        continue  # Floodplain fields instead of mountains.
                 if rl < 150 and e < 1100:
                     continue
                 if rl < 150 and rnd.random() > 0.35:
@@ -406,6 +485,11 @@ class Terrain:
                 if not (30 < x < W - 30 and 30 < y < H - 20) or not land_at(x, y):
                     continue
                 e = elev_at(x, y); rl = rel_at(x, y)
+                if self.c.get("nile_delta_flat"):
+                    lo, la = reg.inv.transform(reg.x0 + x / W*(reg.x1-reg.x0),
+                                               reg.y1 - y / H*(reg.y1-reg.y0))
+                    if nile_floodplain(float(lo), float(la)):
+                        continue
                 if not (55 < rl < 150):
                     continue
                 if rnd.random() > (rl - 55) / 95 * 0.85:
@@ -528,14 +612,15 @@ class Terrain:
                 y = (gy + 0.5 + rnd.uniform(-0.4, 0.4)) * cellw
                 if not (30 < x < W - 30 and 30 < y < H - 20) or not land_at(x, y):
                     continue
-                if fert_at(x, y) < 0.22 and elev_at(x, y) < 1200 and self.dland[at(x, y)[1], at(x, y)[0]] > 10 and rnd.random() < 0.55:
+                if not in_delta(x, y) and fert_at(x, y) < 0.22 and elev_at(x, y) < 1200 and self.dland[at(x, y)[1], at(x, y)[0]] > 10 and rnd.random() < 0.55:
                     items.append((y - 1e6, "drystrip", x, y, rnd.uniform(320, 440) * m, rnd.randint(1, 10 ** 6), "waste"))
         def _ll(x, y):
             X = reg.x0 + x / W * (reg.x1 - reg.x0); Y = reg.y1 - y / H * (reg.y1 - reg.y0)
             lo_, la_ = reg.inv.transform(X, Y); return float(lo_), float(la_)
 
         def in_delta(x, y):
-            lo_, la_ = _ll(x, y); return 29.3 < lo_ < 33.2 and 29.8 < la_ < 31.7
+            lo_, la_ = _ll(x, y)
+            return bool(self.c.get("nile_delta_flat")) and nile_floodplain(lo_, la_)
         # --- painted farmland, orchards and pasture under the trees and hills
         cellf = (230 if self.mpp <= 150 else 190) * m
         for gy in range(0, int(H // cellf) + 1):
@@ -545,7 +630,10 @@ class Terrain:
                 if not (30 < x < W - 30 and 30 < y < H - 20) or not land_at(x, y):
                     continue
                 f = fert_at(x, y); e = elev_at(x, y)
-                if self.mpp > 150:
+                if in_delta(x, y):
+                    items.append((y - 0.9e6, "farm", x, y,
+                                  rnd.uniform(350, 480) * m, rnd.randint(1, 10 ** 6), "flat"))
+                elif self.mpp > 150:
                     if rnd.random() < 0.9 and f > 0.35:
                         items.append((y - 0.9e6, "farm", x, y, rnd.uniform(300, 380) * m, rnd.randint(1, 10 ** 6), "aeg"))
                 elif f > 0.52 and e < 600:
@@ -561,7 +649,10 @@ class Terrain:
                 if self.mpp > 150 or not (30 < x < W - 30 and 30 < y < H - 20) or not land_at(x, y):
                     continue
                 f = fert_at(x, y); e = elev_at(x, y); dl = in_delta(x, y)
-                if f > 0.52 and e < 600 and rnd.random() < 0.28:
+                if dl:
+                    items.append((y - 0.85e6, "farm", x, y,
+                                  rnd.uniform(500, 620) * m, rnd.randint(1, 10 ** 6), "cflat"))
+                elif f > 0.52 and e < 600 and rnd.random() < 0.28:
                     items.append((y - 0.85e6, "farm", x, y, rnd.uniform(560, 700) * m, rnd.randint(1, 10 ** 6), "cflat" if (dl or e < 150) else "crich"))
                 elif 0.30 < f <= 0.52 and 150 < e < 1000 and not dl and rnd.random() < 0.25:
                     items.append((y - 0.85e6, "farm", x, y, rnd.uniform(520, 640) * m, rnd.randint(1, 10 ** 6), "cpast"))
