@@ -365,47 +365,6 @@ class Terrain:
                 pr = Pen(c, seed=rnd.randint(1, 10 ** 6), amp=0.6, ink=BLUEINK)
                 pr.line(out, w=2.2, col=BLUEINK)
 
-        # Nile floodplain river mouths: clipped to the genuine coast so that
-        # painted water reaches the Mediterranean but never crosses onto sea.
-        # Render after the generic river centerlines, below every city/label.
-        if self.c.get("nile_delta_flat"):
-            c.save()
-            c.new_path()
-            for poly in polys:
-                if poly.geom_type != "Polygon" or poly.is_empty:
-                    continue
-                q = reg.geom_px(poly)
-                rings = [q.exterior] + list(q.interiors)
-                for ring in rings:
-                    xy = list(ring.coords)
-                    if len(xy) < 4:
-                        continue
-                    c.move_to(*xy[0])
-                    for xy_i in xy[1:]:
-                        c.line_to(*xy_i)
-                    c.close_path()
-            c.set_fill_rule(cairo.FILL_RULE_EVEN_ODD)
-            c.clip()
-            for branch in NILE_DELTA_BRANCHES:
-                pts = [reg.ll_px(lo, la) for lo, la in branch]
-                pts = _catmull(pts, step=4.0)
-                if len(pts) < 2:
-                    continue
-                c.new_path()
-                c.move_to(*pts[0])
-                for pt in pts[1:]:
-                    c.line_to(*pt)
-                c.set_line_cap(cairo.LINE_CAP_ROUND)
-                c.set_line_join(cairo.LINE_JOIN_ROUND)
-                azure = (0.27, 0.58, 0.68) if edition == "colour" else BLUEINK
-                c.set_source_rgba(*azure, 0.94)
-                c.set_line_width(8.0)
-                c.stroke_preserve()
-                c.set_source_rgba(*BLUEINK, 0.68)
-                c.set_line_width(1.2)
-                c.stroke()
-            c.restore()
-
         # --- lakes
         for g in self._lakes():
             if not g.intersects(bb):
@@ -861,6 +820,47 @@ class Terrain:
                 for i in range(9):
                     p.dot(r.uniform(-20, 20), r.uniform(8, 16), 0.55, col=SEPIA)
             c.restore()
+        # Nile floodplain river mouths: clipped to the genuine coast so that
+        # painted water reaches the Mediterranean but never crosses onto sea.
+        # Render after the generic river centerlines, below every city/label.
+        if self.c.get("nile_delta_flat"):
+            c.save()
+            c.new_path()
+            for poly in polys:
+                if poly.geom_type != "Polygon" or poly.is_empty:
+                    continue
+                q = reg.geom_px(poly)
+                rings = [q.exterior] + list(q.interiors)
+                for ring in rings:
+                    xy = list(ring.coords)
+                    if len(xy) < 4:
+                        continue
+                    c.move_to(*xy[0])
+                    for xy_i in xy[1:]:
+                        c.line_to(*xy_i)
+                    c.close_path()
+            c.set_fill_rule(cairo.FILL_RULE_EVEN_ODD)
+            c.clip()
+            for branch in NILE_DELTA_BRANCHES:
+                pts = [reg.ll_px(lo, la) for lo, la in branch]
+                pts = _catmull(pts, step=4.0)
+                if len(pts) < 2:
+                    continue
+                c.new_path()
+                c.move_to(*pts[0])
+                for pt in pts[1:]:
+                    c.line_to(*pt)
+                c.set_line_cap(cairo.LINE_CAP_ROUND)
+                c.set_line_join(cairo.LINE_JOIN_ROUND)
+                azure = (0.27, 0.58, 0.68) if edition == "colour" else BLUEINK
+                c.set_source_rgba(*azure, 0.94)
+                c.set_line_width(8.0)
+                c.stroke_preserve()
+                c.set_source_rgba(*BLUEINK, 0.68)
+                c.set_line_width(1.2)
+                c.stroke()
+            c.restore()
+
         c.restore()
 
 
