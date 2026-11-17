@@ -1,0 +1,139 @@
+{
+  "scope": "Delta inset only; non-Delta landscape classifications unchanged",
+  "classification_basis": "filename/role/manifest metadata; individual pixels not yet inspected",
+  "flat_farm_allowlist": [
+    "river-floodplain-fields"
+  ],
+  "flat_desert_allowlist": [
+    "flat-desert-pavement",
+    "flat-desert-sand-sheet",
+    "salt-flat"
+  ],
+  "flat_dune_allowlist": [],
+  "delta_generic_allowlist": [],
+  "wetland_allowlist": [
+    {
+      "id": "t06-a12",
+      "file": "data/sprites/terrain-batch06/t06_a12_nile_reed_lily_pool.png"
+    },
+    {
+      "id": "t06-a13",
+      "file": "data/sprites/terrain-batch06/t06_a13_delta_broad_reed_mosaic.png"
+    },
+    {
+      "id": "t06-b01",
+      "file": "data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png"
+    },
+    {
+      "id": "t06-b02",
+      "file": "data/sprites/terrain-batch06/t06_b02_delta_reed_channels_braided.png"
+    }
+  ],
+  "blocked_mixed_or_relief": [
+    "C_FLAT (unverified mixed source CSV set)",
+    "C_WASTE",
+    "badlands-tall-massif",
+    "desert-escarpment",
+    "dune-field-deep",
+    "eroded-badlands",
+    "escarpment-tall-deep",
+    "generic2 green, arid, scrub and patch pools in Delta inset",
+    "gravel-wasteland-deep",
+    "hill",
+    "mountain",
+    "peak",
+    "rocky-desert",
+    "rocky_upland",
+    "steppe-basin-deep"
+  ],
+  "terrain_batch05_assets": [
+    {
+      "id": "nile_delta_reedbed_west",
+      "suggested_class": "wetland_provisional"
+    },
+    {
+      "id": "nile_delta_reedbed_central",
+      "suggested_class": "wetland_provisional"
+    },
+    {
+      "id": "euphrates_reedbank",
+      "suggested_class": "wetland_provisional"
+    },
+    {
+      "id": "aegean_olive_terraces",
+      "suggested_class": "agriculture_provisional"
+    },
+    {
+      "id": "cilician_grain_farms",
+      "suggested_class": "agriculture_provisional"
+    },
+    {
+      "id": "levant_terrace_mosaic",
+      "suggested_class": "agriculture_provisional"
+    },
+    {
+      "id": "thrace_broadleaf_woodland",
+      "suggested_class": "relief_or_unknown_hold"
+    },
+    {
+      "id": "pontic_mixed_conifer",
+      "suggested_class": "relief_or_unknown_hold"
+    },
+    {
+      "id": "taurus_wooded_ridge",
+      "suggested_class": "relief_or_unknown_hold"
+    },
+    {
+      "id": "syrian_dry_wadi",
+      "suggested_class": "relief_or_unknown_hold"
+    },
+    {
+      "id": "transjordan_rock_pavement",
+      "suggested_class": "relief_or_unknown_hold"
+    },
+    {
+      "id": "sinai_palm_oasis",
+      "suggested_class": "relief_or_unknown_hold"
+    },
+    {
+      "id": "anatolian_steppe_sward",
+      "suggested_class": "relief_or_unknown_hold"
+    },
+    {
+      "id": "canaan_scrub_steppe_edge",
+      "suggested_class": "relief_or_unknown_hold"
+    },
+    {
+      "id": "aegean_spring_maquis",
+      "suggested_class": "relief_or_unknown_hold"
+    },
+    {
+      "id": "northern_woodland_band",
+      "suggested_class": "relief_or_unknown_hold"
+    },
+    {
+      "id": "cultivated_terrace_band",
+      "suggested_class": "agriculture_provisional"
+    },
+    {
+      "id": "arid_scrub_transition_band",
+      "suggested_class": "relief_or_unknown_hold"
+    }
+  ],
+  "terrain_batch06_count_by_original_class": {
+    "rocky_upland": 5,
+    "scrubland": 5,
+    "woodland": 5,
+    "farmland": 9,
+    "settlement_agriculture": 1,
+    "riverbank": 5,
+    "wetland": 4,
+    "oasis": 2,
+    "desert": 1,
+    "badlands": 1,
+    "mountain": 1,
+    "volcanic": 1
+  },
+  "visual_review_still_required": true,
+  "production_approved": false
+}

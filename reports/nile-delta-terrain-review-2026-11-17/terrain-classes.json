@@ -11,6 +11,36 @@
     "hamlet": 5,
     "oasis": 5
   },
+  "active_asset_classification": {
+    "selected": {
+      "marsh": 157,
+      "drystrip": 494,
+      "palm": 123,
+      "scrub": 2225,
+      "tuft": 91,
+      "farm": 77,
+      "hamlet": 5,
+      "oasis": 5
+    },
+    "flat_farm": [
+      "river-floodplain-fields"
+    ],
+    "flat_dry": [
+      "flat-desert-pavement",
+      "flat-desert-sand-sheet",
+      "salt-flat"
+    ],
+    "generic": [
+      "irrigation-shaduf-10c8d38fd3df.png"
+    ],
+    "wetlands": [
+      "t06-a12",
+      "t06-a13",
+      "t06-b01",
+      "t06-b02"
+    ],
+    "mixed_rocky_badlands_sprite_count": 0
+  },
   "coastline": "land_minus_lakes",
   "status": "renderer_terrain_class_gate_passed",
   "note": "This guarantees no terrain relief glyphs in the Delta inset; it does not visually certify every older opaque source underlay."

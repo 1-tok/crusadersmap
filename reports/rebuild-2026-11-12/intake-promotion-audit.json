@@ -6,7 +6,7 @@
   "placement_approved": 0,
   "historical_certified": 0,
   "generic_rendered_distinct": 74,
-  "generic_rendered_instances": 846,
+  "generic_rendered_instances": 841,
   "generic_eligible_but_unused": 0,
   "status_counts": {
     "held_generic_architecture_fallback": 32,
@@ -40,7 +40,7 @@
     {
       "name": "Beehive apiary",
       "asset": "data/sprites/automated-intake/png/beehive-apiary-0ae14ae46cca.png",
-      "times": 6
+      "times": 4
     },
     {
       "name": "B19-07_classical_ruins",
@@ -125,7 +125,7 @@
     {
       "name": "Irrigated crop terraces",
       "asset": "data/sprites/automated-intake/png/irrigated-crop-terraces-345117df6dad.png",
-      "times": 6
+      "times": 4
     },
     {
       "name": "B19-16_fortified_tents",
@@ -240,7 +240,7 @@
     {
       "name": "Citrus orchard",
       "asset": "data/sprites/automated-intake/png/citrus-orchard-7cab9160c1dd.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "Charcoal burning and metalworking yard",

@@ -364,7 +364,7 @@ data/sprites/automated-intake/png/batch11-original-sheet-118021ffb6db.png,automa
 data/sprites/automated-intake/png/batch15-original-six-sprite-sheet-edfc16350be6.png,automated-intake,source-master,batch15_original_six_sprite_sheet,no,"source sheet: reference only, never placed"
 data/sprites/automated-intake/png/batroun-1180-south-view-historical-redo-review-v2-080bf4976d2b.png,automated-intake,unclassified,batroun_1180_south_view_historical_redo_review_v2,no,new intake sprite: pending classification and geographic QA
 data/sprites/automated-intake/png/batroun-1180-south-view-review-v1-2aeb331911b4.png,automated-intake,unclassified,batroun_1180_south_view_review_v1,no,new intake sprite: pending classification and geographic QA
-data/sprites/automated-intake/png/beehive-apiary-0ae14ae46cca.png,automated-intake,agriculture,Beehive apiary,yes,"generic green piece, placed 6 times"
+data/sprites/automated-intake/png/beehive-apiary-0ae14ae46cca.png,automated-intake,agriculture,Beehive apiary,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/beirut-1180-south-view-historical-redo-review-v2-6914e734114f.png,automated-intake,unclassified,beirut_1180_south_view_historical_redo_review_v2,no,new intake sprite: pending classification and geographic QA
 data/sprites/automated-intake/png/beirut-1180-south-view-review-v1-dab31584fdbf.png,automated-intake,unclassified,beirut_1180_south_view_review_v1,no,new intake sprite: pending classification and geographic QA
 data/sprites/automated-intake/png/beirut-azure-1096-1600-a5c9a2af188e.png,automated-intake,unclassified,beirut-azure-1096-1600,yes,dedicated painting for Baruth
@@ -398,7 +398,7 @@ data/sprites/automated-intake/png/chateau-pelerin-atlit-review-4f44c29e6682.png,
 data/sprites/automated-intake/png/chios-1180-byzantine-south-view-review-v1-e08fe1f9fa4c.png,automated-intake,unclassified,chios_1180_byzantine_south_view_review_v1,no,new intake sprite: pending classification and geographic QA
 data/sprites/automated-intake/png/chios-1180-whole-island-south-view-review-v1-4f519ac44c2f.png,automated-intake,unclassified,chios_1180_whole_island_south_view_review_v1,no,new intake sprite: pending classification and geographic QA
 data/sprites/automated-intake/png/chlemoutsi-clermont-a7440d538d45.png,automated-intake,named-candidate,Chlemoutsi / Clermont,yes,dedicated painting for Clermont
-data/sprites/automated-intake/png/citrus-orchard-7cab9160c1dd.png,automated-intake,agriculture,Citrus orchard,yes,"generic green piece, placed 5 times"
+data/sprites/automated-intake/png/citrus-orchard-7cab9160c1dd.png,automated-intake,agriculture,Citrus orchard,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/coastal-cliff-monastery-adb44d1af805.png,automated-intake,religious,Coastal cliff monastery,yes,generic fallback painting for Mont Athos
 data/sprites/automated-intake/png/coastal-cliffside-monastery-a004220580c6.png,automated-intake,religious,Coastal cliffside monastery,yes,generic fallback painting for Patmos
 data/sprites/automated-intake/png/coastal-domed-church-15f3fad4b91e.png,automated-intake,religious,Coastal domed church,no,generic fallback held in reserve: no unpainted site of this kind is left to use it
@@ -473,7 +473,7 @@ data/sprites/automated-intake/png/imbros-1180-whole-island-south-view-review-v1-
 data/sprites/automated-intake/png/inland-hilltown-concept-a32b3f94a59e.png,automated-intake,unclassified,inland-hilltown-concept,no,new intake sprite: pending classification and geographic QA
 data/sprites/automated-intake/png/ios-1180-whole-island-south-view-review-v1-865fcdd33e2e.png,automated-intake,unclassified,ios_1180_whole_island_south_view_review_v1,no,new intake sprite: pending classification and geographic QA
 data/sprites/automated-intake/png/irakleia-1180-whole-island-south-view-review-v1-9d88ff971953.png,automated-intake,unclassified,irakleia_1180_whole_island_south_view_review_v1,no,new intake sprite: pending classification and geographic QA
-data/sprites/automated-intake/png/irrigated-crop-terraces-345117df6dad.png,automated-intake,agriculture,Irrigated crop terraces,yes,"generic green piece, placed 6 times"
+data/sprites/automated-intake/png/irrigated-crop-terraces-345117df6dad.png,automated-intake,agriculture,Irrigated crop terraces,yes,"generic green piece, placed 4 times"
 data/sprites/automated-intake/png/irrigation-shaduf-10c8d38fd3df.png,automated-intake,river-marsh,Irrigation shaduf,no,Water-dependent structure requires georeferenced river/canal or irrigation alignment; not eligible for indiscriminate landscape scattering
 data/sprites/automated-intake/png/ithaca-1180-whole-island-south-view-review-v1-1a45be386059.png,automated-intake,unclassified,ithaca_1180_whole_island_south_view_review_v1,no,new intake sprite: pending classification and geographic QA
 data/sprites/automated-intake/png/jableh-1180-south-view-historical-redo-review-v2-13080cb73d26.png,automated-intake,unclassified,jableh_1180_south_view_historical_redo_review_v2,no,new intake sprite: pending classification and geographic QA
@@ -1188,14 +1188,14 @@ data/sprites/rural-landscapes/png/CSV-089.png,rural-landscapes,rural-landscape,h
 data/sprites/rural-landscapes/png/CSV-090.png,rural-landscapes,rural-landscape,small village and watermill,no,regional landscape with painted sea or river: would clash with the real coast and rivers
 data/sprites/rural-landscapes/png/CSV-091.png,rural-landscapes,rural-landscape,hamlet and caravan camp,yes,"regional landscape tile, placed 4 times"
 data/sprites/rural-landscapes/png/CSV-092.png,rural-landscapes,rural-landscape,coastal hamlet and lookout,no,regional landscape with painted sea or river: would clash with the real coast and rivers
-data/sprites/rural-landscapes/png/CSV-093.png,rural-landscapes,rural-landscape,scattered farmsteads,yes,"regional landscape tile, placed 3 times"
-data/sprites/rural-landscapes/png/CSV-094.png,rural-landscapes,rural-landscape,palm spring and small village,yes,"regional landscape tile, placed 3 times"
+data/sprites/rural-landscapes/png/CSV-093.png,rural-landscapes,rural-landscape,scattered farmsteads,yes,"regional landscape tile, placed 1 times"
+data/sprites/rural-landscapes/png/CSV-094.png,rural-landscapes,rural-landscape,palm spring and small village,yes,"regional landscape tile, placed 2 times"
 data/sprites/rural-landscapes/png/CSV-095.png,rural-landscapes,rural-landscape,small upland hamlets,yes,"regional landscape tile, placed 1 times"
 data/sprites/rural-landscapes/png/CSV-096.png,rural-landscapes,rural-landscape,small villages among waterways,no,regional landscape with painted sea or river: would clash with the real coast and rivers
 data/sprites/rural-landscapes/png/CSV-097.png,rural-landscapes,rural-landscape,dispersed coastal dwellings,no,regional landscape with painted sea or river: would clash with the real coast and rivers
 data/sprites/rural-landscapes/png/CSV-098.png,rural-landscapes,rural-landscape,isolated farms and hamlets,yes,"regional landscape tile, placed 1 times"
 data/sprites/rural-landscapes/png/CSV-099.png,rural-landscapes,rural-landscape,sparse mountain outposts,yes,"regional landscape tile, placed 1 times"
-data/sprites/rural-landscapes/png/CSV-100.png,rural-landscapes,rural-landscape,small irrigated hamlet,yes,"regional landscape tile, placed 9 times"
+data/sprites/rural-landscapes/png/CSV-100.png,rural-landscapes,rural-landscape,small irrigated hamlet,yes,"regional landscape tile, placed 5 times"
 data/sprites/rural-landscapes/png/CSV-101.png,rural-landscapes,rural-landscape,tiny coastal settlement,no,regional landscape with painted sea or river: would clash with the real coast and rivers
 data/sprites/rural-landscapes/png/CSV-102.png,rural-landscapes,rural-landscape,tent camp and distant ruins,yes,"regional landscape tile, placed 4 times"
 data/sprites/rural-landscapes/png/CSV-103.png,rural-landscapes,rural-landscape,isolated houses among terraces,yes,"regional landscape tile, placed 1 times"
@@ -1207,12 +1207,12 @@ data/sprites/rural-landscapes/png/CSV-108.png,rural-landscapes,rural-landscape,t
 data/sprites/rural-landscapes/png/CSV-109.png,rural-landscapes,rural-landscape,isolated coastal towers,no,regional landscape with painted sea or river: would clash with the real coast and rivers
 data/sprites/rural-landscapes/png/CSV-110.png,rural-landscapes,rural-landscape,small farms among harvested fields,yes,"regional landscape tile, placed 1 times"
 data/sprites/rural-landscapes/png/CSV-111.png,rural-landscapes,rural-landscape,small outpost and farms,no,regional landscape tile in the pool but not drawn in this build
-data/sprites/rural-landscapes/png/CSV-112.png,rural-landscapes,rural-landscape,few houses among palms,yes,"regional landscape tile, placed 9 times"
+data/sprites/rural-landscapes/png/CSV-112.png,rural-landscapes,rural-landscape,few houses among palms,yes,"regional landscape tile, placed 8 times"
 data/sprites/rural-landscapes/png/CSV-113.png,rural-landscapes,rural-landscape,tiny village and moored boats,no,regional landscape with painted sea or river: would clash with the real coast and rivers
 data/sprites/rural-landscapes/png/CSV-114.png,rural-landscapes,rural-landscape,small tent waystation,yes,"regional landscape tile, placed 2 times"
 data/sprites/rural-landscapes/png/CSV-115.png,rural-landscapes,rural-landscape,small rural houses,no,regional landscape tile in the pool but not drawn in this build
 data/sprites/rural-landscapes/png/CSV-116.png,rural-landscapes,rural-landscape,isolated riverbank farmhouse,no,regional landscape with painted sea or river: would clash with the real coast and rivers
-data/sprites/rural-landscapes/png/CSV-117.png,rural-landscapes,rural-landscape,tiny fortified roadside site,yes,"regional landscape tile, placed 5 times"
+data/sprites/rural-landscapes/png/CSV-117.png,rural-landscapes,rural-landscape,tiny fortified roadside site,yes,"regional landscape tile, placed 2 times"
 data/sprites/rural-landscapes/png/CSV-118.png,rural-landscapes,rural-landscape,isolated shepherd farm,yes,"regional landscape tile, placed 1 times"
 data/sprites/sources/krak-standalone.png,filesystem-discovery,unindexed-artwork,krak-standalone,no,"source sheet or upload master: reference only, never placed"
 data/sprites/sources/levant-atlas.png,filesystem-discovery,unindexed-artwork,levant-atlas,no,"source sheet or upload master: reference only, never placed"
