@@ -271,6 +271,8 @@ if __name__ == "__main__":
             save_report()
             from tools.draw_nile_delta_wetlands import save_report as save_delta_wetlands
             save_delta_wetlands()
+            from tools.render_nile_delta_waterways import save_report as save_delta_river_report
+            save_delta_river_report()
             from tools.nile_delta_terrain_policy import save as save_delta_classification
             save_delta_classification()
             import json as _delta_json
