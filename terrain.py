@@ -12,6 +12,7 @@ from rough import Region, TILES, LAND, LAKES, dem
 from hand import Pen, INK, SEPIA
 import ridges as RD
 import terrainsp as TSP
+from tools import nile_delta_terrain_policy as NDP
 from lettering import catmull as _catmull
 from shapely.affinity import scale as _sscale
 
@@ -177,7 +178,9 @@ class Terrain:
             t = (lat - 30.04) / (31.55 - 30.04)
             wedge = (lat >= 30.04) & (lat <= 31.55) & (
                 lon >= (31.16 - t)) & (lon <= (31.35 + 0.75*t))
-            self.fert = np.where(wedge & self.land_l, np.maximum(self.fert, 0.84), self.fert)
+            self.delta_fertile_mask = wedge & self.land_l
+            self.fert = np.where(self.delta_fertile_mask, np.maximum(self.fert, 0.94), self.fert)
+            self.desert = np.where(self.delta_fertile_mask, 0.0, self.desert)
 
         self.avoid_rects = []
         self.avoid_disks = []
@@ -241,6 +244,9 @@ class Terrain:
         ground = c_des * (1 - fert) * (1 - 0.0) + (c_ste * (1 - fert) * 0)  # placeholder to keep shapes
         base = c_ste * (1 - desert) + c_des * desert
         ground = base * (1 - fert) + c_fer * fert
+        if self.c.get("nile_delta_flat"):
+            mid = np.zeros_like(mid)
+            high = np.zeros_like(high)
         ground = ground * (1 - mid * 0.55) + c_hil * mid * 0.55
         ground = ground * (1 - high * 0.8) + c_mnt * high * 0.8
         col = ground * land + sea * (1 - land)
@@ -614,7 +620,7 @@ class Terrain:
                 f = fert_at(x, y); e = elev_at(x, y); dl = in_delta(x, y)
                 if dl:
                     items.append((y - 0.85e6, "farm", x, y,
-                                  rnd.uniform(500, 620) * m, rnd.randint(1, 10 ** 6), "cflat"))
+                                  rnd.uniform(500, 620) * m, rnd.randint(1, 10 ** 6), "flat"))
                 elif f > 0.52 and e < 600 and rnd.random() < 0.28:
                     items.append((y - 0.85e6, "farm", x, y, rnd.uniform(560, 700) * m, rnd.randint(1, 10 ** 6), "cflat" if (dl or e < 150) else "crich"))
                 elif 0.30 < f <= 0.52 and 150 < e < 1000 and not dl and rnd.random() < 0.25:
@@ -629,6 +635,13 @@ class Terrain:
                 if not (30 < x < W - 30 and 30 < y < H - 20) or not land_at(x, y):
                     continue
                 f = fert_at(x, y); e = elev_at(x, y); u = rnd.random(); gk = None
+                if self.c.get("nile_delta_flat"):
+                    # Quarantine generic pools with unverified raised backgrounds.
+                    if in_delta(x, y) and u < 0.12 and TSP.POOL.get("delta"):
+                        lo_, hi_ = TSP.GSIZE["delta"]
+                        items.append((y, "hamlet", x, y, rnd.uniform(lo_, hi_) * m,
+                                      rnd.randint(1, 10 ** 6), "delta"))
+                    continue
                 if f > 0.5 and e < 700:
                     gk = ("delta" if in_delta(x, y) and u < 0.05 else "green") if u < 0.30 else ("vegg" if u < 0.52 else ("patchg" if u < 0.74 and not in_delta(x, y) else None))
                 elif 0.28 < f <= 0.5 and e < 1100:
@@ -807,11 +820,15 @@ class Terrain:
                     pool = {"cflat": TSP.C_FLAT, "crich": TSP.C_RICH, "cpast": TSP.C_PAST, "cwaste": TSP.C_WASTE}[_x]
                     TSP.draw(c, r.choice(pool), x, y + 0.30 * size * 0.4, size, edition, alpha=0.95)
                     c.restore(); continue
-                pool = TSP.FARM_AEG if _x == "aeg" else ((TSP.FARM_FLAT if _x == "flat" else TSP.FARM_RICH) if _x in ("rich", "flat") else TSP.FARM_PASTURE)
+                pool = (NDP.FLAT_FARMS if self.c.get("nile_delta_flat") and _x == "flat"
+                        else TSP.FARM_AEG if _x == "aeg" else ((TSP.FARM_FLAT if _x == "flat" else TSP.FARM_RICH) if _x in ("rich", "flat") else TSP.FARM_PASTURE))
                 TSP.draw(c, r.choice(pool), x, y + 0.30 * size, size, edition, alpha=0.9)
             elif kind == "drystrip":
                 c.restore(); c.save()
-                if _x != "dune" and r.random() < 0.5:
+                if self.c.get("nile_delta_flat"):
+                    nm = r.choice(NDP.FLAT_DRY)
+                    TSP.draw(c, nm, x, y, size, edition, alpha=0.74)
+                elif _x != "dune" and r.random() < 0.5:
                     nm = r.choice(TSP.DEEP)
                     TSP.draw(c, nm, x, y + 0.25 * size, size * 1.5, edition, alpha=0.92)
                 else:
