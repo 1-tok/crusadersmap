@@ -88,14 +88,23 @@ def continuous_floodplain(c, paths, qa):
     from shapely.ops import unary_union
     from shapely.geometry import Polygon, MultiPolygon
     outlines=[]
+    upstream_lines=[]
+    delta_lines=[]
     for category,fid,line in paths:
         px=LineString(coordinates(line))
         if px.length<12:continue
+        (upstream_lines if category=="valley" else delta_lines).append(px)
         width=123 if category=="valley" else 158
         outlines.append(px.buffer(width,cap_style=1,join_style=1,resolution=10))
     if not outlines:
         raise AssertionError("No river-aligned floodplain polygons")
     joined=unary_union(outlines)
+    components=len(joined.geoms) if hasattr(joined,"geoms") else 1
+    if upstream_lines and delta_lines:
+        gap=unary_union(upstream_lines).distance(unary_union(delta_lines))
+        qa["upstream_delta_nearest_source_gap_px"]=round(gap,2)
+        qa["upstream_delta_join_needs_review"]=gap>12
+    qa["floodplain_union_components"]=components
     # All cultivated ground is a single painted geographic layer, rather
     # than 400 detached green stickers on desert.
     c.save()
@@ -280,9 +289,19 @@ def main():
     # Lay a continuous fertile floodplain before any fields. The river is
     # drawn last using the same paths, so banks and channels match exactly.
     paths=list(source_paths())
+    # Paint only on actual land, excluding lakes and Mediterranean. This mask
+    # applies to the floodplain and fields, NOT to ships and river water.
+    from tools.lowland_51_review_placer import _clip_real_land
+    c.save()
+    factor=ATLAS_CROP_SCALE*ZOOM
+    c.scale(factor,factor)
+    _clip_real_land(c,REG,(REG.x1-REG.x0)/REG.w)
+    c.scale(1/factor,1/factor)
     continuous_floodplain(c,paths,qa)
     for category,fid,line in paths:
         out_segment(c,line,category,fid,used,qa)
+    c.restore()
+    qa["landcover_uses_real_coastline_and_lake_mask"]=True
     # Draw entire river source network together over painted field banks;
     # preserve exact line vertices; then make boats and hamlets legible.
     for pts,river_width in qa.pop("_water"):
