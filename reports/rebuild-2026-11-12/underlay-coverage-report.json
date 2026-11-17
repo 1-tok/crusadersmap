@@ -3,8 +3,8 @@
   "method": "edge-matched retained paintings, exact land-and-lake polygon clipping up to coastline, in-land feathered texture over geographic wash",
   "enabled": true,
   "workflow": {
-    "head_sha": "a3220a7eba2b46cac2d6e72ea8e234c4b5cbf495",
-    "run_id": "44119060588"
+    "head_sha": "da37f6b4e5b89b34f7e573a2f150297cd94e2a9a",
+    "run_id": "44120799244"
   },
   "sources": {
     "desert": "assets/terrain/large_area/rect_underlays_04/desert_sand_edge_matched.png",
@@ -41,11 +41,11 @@
       "sea_or_lake_excluded_pixels": 308501,
       "excluded_boundary_water_pixels": 308501,
       "desert_weighted_pixel_equivalents": 955616,
-      "fertile_weighted_pixel_equivalents": 48572,
-      "scrub_weighted_pixel_equivalents": 173035,
-      "steppe_weighted_pixel_equivalents": 259553,
+      "fertile_weighted_pixel_equivalents": 67750,
+      "scrub_weighted_pixel_equivalents": 165364,
+      "steppe_weighted_pixel_equivalents": 248046,
       "underlay_eligible_pixels": 1436779,
-      "visually_changed_pixels": 1433041,
+      "visually_changed_pixels": 1433233,
       "water_pixels_painted": 0,
       "interior_underlay_fraction": 1.0
     },

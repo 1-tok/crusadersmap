@@ -6,7 +6,7 @@
   "placement_approved": 0,
   "historical_certified": 0,
   "generic_rendered_distinct": 74,
-  "generic_rendered_instances": 956,
+  "generic_rendered_instances": 959,
   "generic_eligible_but_unused": 0,
   "status_counts": {
     "held_generic_architecture_fallback": 32,
@@ -20,7 +20,7 @@
     {
       "name": "B18-20_vineyard_rows",
       "asset": "data/sprites/automated-intake/png/b18-20-vineyard-rows-022a25c48358.png",
-      "times": 12
+      "times": 13
     },
     {
       "name": "Fortified caravanserai",
@@ -30,7 +30,7 @@
     {
       "name": "B20-07_alpine_forest_to_crags",
       "asset": "data/sprites/automated-intake/png/b20-07-alpine-forest-to-crags-05de75dadf78.png",
-      "times": 6
+      "times": 7
     },
     {
       "name": "B19-21_cattle",
@@ -40,7 +40,7 @@
     {
       "name": "Beehive apiary",
       "asset": "data/sprites/automated-intake/png/beehive-apiary-0ae14ae46cca.png",
-      "times": 3
+      "times": 5
     },
     {
       "name": "B19-07_classical_ruins",
@@ -65,7 +65,7 @@
     {
       "name": "B16-05_terraced_hilltown_generic",
       "asset": "data/sprites/automated-intake/png/b16-05-terraced-hilltown-generic-2021a2fc4e4d.png",
-      "times": 12
+      "times": 11
     },
     {
       "name": "B20-08_wooded_hills_to_farms",
@@ -75,7 +75,7 @@
     {
       "name": "B18-26_date_palms",
       "asset": "data/sprites/automated-intake/png/b18-26-date-palms-2285ae1cfed2.png",
-      "times": 60
+      "times": 58
     },
     {
       "name": "Caravan tent encampment",
@@ -85,12 +85,12 @@
     {
       "name": "B21-14_rocky_scrub_foothills",
       "asset": "data/sprites/automated-intake/png/b21-14-rocky-scrub-foothills-23550772dcd8.png",
-      "times": 5
+      "times": 7
     },
     {
       "name": "Wheat harvest and cart",
       "asset": "data/sprites/automated-intake/png/wheat-harvest-and-cart-23cc811952f3.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B19-14_lateen_ship_b",
@@ -105,42 +105,42 @@
     {
       "name": "B20-05_rocky_foothill_scrub",
       "asset": "data/sprites/automated-intake/png/b20-05-rocky-foothill-scrub-2c9ebdf7f4fa.png",
-      "times": 6
+      "times": 7
     },
     {
       "name": "B20-03_terraced_farmland_hills",
       "asset": "data/sprites/automated-intake/png/b20-03-terraced-farmland-hills-2cc9ae56ea3a.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B18-23_flowering_tree",
       "asset": "data/sprites/automated-intake/png/b18-23-flowering-tree-2cfcb50e825c.png",
-      "times": 12
+      "times": 13
     },
     {
       "name": "B19-19_ox_cart",
       "asset": "data/sprites/automated-intake/png/b19-19-ox-cart-31596eaa059e.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "Irrigated crop terraces",
       "asset": "data/sprites/automated-intake/png/irrigated-crop-terraces-345117df6dad.png",
-      "times": 5
+      "times": 6
     },
     {
       "name": "B19-16_fortified_tents",
       "asset": "data/sprites/automated-intake/png/b19-16-fortified-tents-3e6428bc9e93.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B19-31_yellow_shrub",
       "asset": "data/sprites/automated-intake/png/b19-31-yellow-shrub-3ed2d6eac2ad.png",
-      "times": 59
+      "times": 57
     },
     {
       "name": "B19-22_stony_boulders",
       "asset": "data/sprites/automated-intake/png/b19-22-stony-boulders-430793485616.png",
-      "times": 8
+      "times": 9
     },
     {
       "name": "Desert caravan well",
@@ -150,17 +150,17 @@
     {
       "name": "B21-21_mixed_tree_woods",
       "asset": "data/sprites/automated-intake/png/b21-21-mixed-tree-woods-4c6be4f8ac82.png",
-      "times": 59
+      "times": 58
     },
     {
       "name": "Olive oil press",
       "asset": "data/sprites/automated-intake/png/olive-oil-press-4c83486647c7.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B20-09_desert_to_rocky_mountains",
       "asset": "data/sprites/automated-intake/png/b20-09-desert-to-rocky-mountains-5089d96695cc.png",
-      "times": 75
+      "times": 77
     },
     {
       "name": "B19-28_cypress_stand",
@@ -170,7 +170,7 @@
     {
       "name": "B21-15_foothill_to_mountain",
       "asset": "data/sprites/automated-intake/png/b21-15-foothill-to-mountain-551250fcc90e.png",
-      "times": 6
+      "times": 7
     },
     {
       "name": "B21-17_arid_rocky_ridges",
@@ -180,12 +180,12 @@
     {
       "name": "B19-30_flowering_shrub",
       "asset": "data/sprites/automated-intake/png/b19-30-flowering-shrub-5c1aa17f707d.png",
-      "times": 13
+      "times": 12
     },
     {
       "name": "B18-04_ruined_hillfort_generic",
       "asset": "data/sprites/automated-intake/png/b18-04-ruined-hillfort-generic-6330cbb777ea.png",
-      "times": 18
+      "times": 17
     },
     {
       "name": "B19-11_lateen_ship_cross_sail",
@@ -200,7 +200,7 @@
     {
       "name": "B20-06_dry_steppe_to_foothills",
       "asset": "data/sprites/automated-intake/png/b20-06-dry-steppe-to-foothills-6700ffc32b70.png",
-      "times": 77
+      "times": 75
     },
     {
       "name": "B21-12_hillside_farm",
@@ -215,7 +215,7 @@
     {
       "name": "B19-29_palm_tree",
       "asset": "data/sprites/automated-intake/png/b19-29-palm-tree-70fb557bdccf.png",
-      "times": 12
+      "times": 13
     },
     {
       "name": "Olive grove and harvest",
@@ -225,17 +225,17 @@
     {
       "name": "B19-26_olive_tree",
       "asset": "data/sprites/automated-intake/png/b19-26-olive-tree-759df99099a6.png",
-      "times": 12
+      "times": 13
     },
     {
       "name": "B18-08_stone_village_chapel",
       "asset": "data/sprites/automated-intake/png/b18-08-stone-village-chapel-767c571fb425.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "B19-27_umbrella_pine",
       "asset": "data/sprites/automated-intake/png/b19-27-umbrella-pine-7ad37a912ce3.png",
-      "times": 11
+      "times": 12
     },
     {
       "name": "Citrus orchard",
@@ -255,37 +255,37 @@
     {
       "name": "B18-24_cypress_stand",
       "asset": "data/sprites/automated-intake/png/b18-24-cypress-stand-848bdf03409f.png",
-      "times": 13
+      "times": 12
     },
     {
       "name": "B21-16_alpine_crags",
       "asset": "data/sprites/automated-intake/png/b21-16-alpine-crags-85c6f4aa303e.png",
-      "times": 6
+      "times": 7
     },
     {
       "name": "B19-25_low_shrub",
       "asset": "data/sprites/automated-intake/png/b19-25-low-shrub-861df6967d1f.png",
-      "times": 11
+      "times": 13
     },
     {
       "name": "Medieval windmill and farm",
       "asset": "data/sprites/automated-intake/png/medieval-windmill-and-farm-8adca7d15df8.png",
-      "times": 4
+      "times": 3
     },
     {
       "name": "B18-11_market_tents",
       "asset": "data/sprites/automated-intake/png/b18-11-market-tents-915b1620bfbb.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "Pottery and brick kilns",
       "asset": "data/sprites/automated-intake/png/pottery-and-brick-kilns-9263c882bffd.png",
-      "times": 3
+      "times": 5
     },
     {
       "name": "Limestone quarry",
       "asset": "data/sprites/automated-intake/png/limestone-quarry-9ad914c36ae9.png",
-      "times": 14
+      "times": 15
     },
     {
       "name": "B18-27_scrub_patch",
@@ -315,47 +315,47 @@
     {
       "name": "B18-13_windmill",
       "asset": "data/sprites/automated-intake/png/b18-13-windmill-b84f4fa44ca9.png",
-      "times": 5
+      "times": 7
     },
     {
       "name": "B21-19_cypress_stand",
       "asset": "data/sprites/automated-intake/png/b21-19-cypress-stand-be81cbfd69dc.png",
-      "times": 13
+      "times": 11
     },
     {
       "name": "B18-22_fruit_tree",
       "asset": "data/sprites/automated-intake/png/b18-22-fruit-tree-bfed0ed5b90d.png",
-      "times": 12
+      "times": 13
     },
     {
       "name": "B19-20_herd_with_figure",
       "asset": "data/sprites/automated-intake/png/b19-20-herd-with-figure-bff3ce6dd639.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "Terraced vineyard estate",
       "asset": "data/sprites/automated-intake/png/terraced-vineyard-estate-c4ca6e27b3b4.png",
-      "times": 5
+      "times": 4
     },
     {
       "name": "Stone sheepfold",
       "asset": "data/sprites/automated-intake/png/stone-sheepfold-c4d44b5c2e6c.png",
-      "times": 14
+      "times": 15
     },
     {
       "name": "B21-20_open_olive_woodland",
       "asset": "data/sprites/automated-intake/png/b21-20-open-olive-woodland-cfda8dc299c3.png",
-      "times": 12
+      "times": 13
     },
     {
       "name": "B18-25_umbrella_pines",
       "asset": "data/sprites/automated-intake/png/b18-25-umbrella-pines-d5f6b604fa52.png",
-      "times": 28
+      "times": 25
     },
     {
       "name": "B19-18_camel_caravan",
       "asset": "data/sprites/automated-intake/png/b19-18-camel-caravan-d835031f1395.png",
-      "times": 14
+      "times": 15
     },
     {
       "name": "B19-12_oared_ship_cross_sail",
@@ -375,7 +375,7 @@
     {
       "name": "B19-23_mountain_rocks",
       "asset": "data/sprites/automated-intake/png/b19-23-mountain-rocks-e0bd526c0a92.png",
-      "times": 9
+      "times": 10
     },
     {
       "name": "Vineyard wine press",
