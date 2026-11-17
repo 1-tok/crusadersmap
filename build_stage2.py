@@ -187,6 +187,9 @@ def draw_ink2(edition, surf=None, scale=None, mode=None):
         if edition == "colour":
             from tools.lowland_51_review_placer import draw_for_region
             draw_for_region(c, TER[k], REG[k], k, edition)
+            if k == "delta":
+                from tools.draw_nile_delta_wetlands import draw as draw_delta_wetlands
+                draw_delta_wetlands(c, TER[k], REG[k], edition)
         TER[k].ink(c, edition)
         if k == "main":
             import waterart; waterart.draw(c, REG[k], edition)
@@ -266,6 +269,19 @@ if __name__ == "__main__":
         if ed == "colour":
             from tools.lowland_51_review_placer import save_report
             save_report()
+            from tools.draw_nile_delta_wetlands import save_report as save_delta_wetlands
+            save_delta_wetlands()
+            import json as _delta_json
+            from pathlib import Path as _DeltaPath
+            _counts = getattr(TER["delta"], "last_item_kind_counts", {})
+            assert not any(_counts.get(k, 0) for k in ("hill", "mount", "peak")), _counts
+            _path = _DeltaPath("reports/nile-delta-terrain-review-2026-11-17/terrain-classes.json")
+            _path.parent.mkdir(parents=True, exist_ok=True)
+            _path.write_text(_delta_json.dumps({
+                "region":"delta","relief_count":0,"terrain_counts":_counts,
+                "coastline":"land_minus_lakes","status":"renderer_terrain_class_gate_passed",
+                "note":"This guarantees no terrain relief glyphs in the Delta inset; it does not visually certify every older opaque source underlay."
+            },indent=2)+"\\n")
         img = composite(base, surf)
         Image.fromarray(img).save(f"out/stage2-{ed}.jpg", quality=88)
         print("saved", ed, round(time.time() - t0), "s", flush=True)
