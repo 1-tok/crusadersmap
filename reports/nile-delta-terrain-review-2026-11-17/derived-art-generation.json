@@ -1,0 +1,22 @@
+{
+  "status": "generated_derived_art_and_registered",
+  "count": 117,
+  "counts": {
+    "delta_farm": 27,
+    "nile_farm_upstream": 27,
+    "delta_marsh": 25,
+    "river_decor_reference": 38
+  },
+  "source_breakdown": {
+    "assets/terrain/levant-farmland.png": 18,
+    "assets/terrain/orchard-field-mosaic.png": 18,
+    "assets/terrain/river-floodplain-fields.png": 18,
+    "data/sprites/terrain-batch06/t06_a13_delta_broad_reed_mosaic.png": 6,
+    "data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png": 7,
+    "data/sprites/terrain-batch06/t06_b02_delta_reed_channels_braided.png": 7,
+    "data/sprites/terrain-batch06/t06_a12_nile_reed_lily_pool.png": 5,
+    "procedural water texture from Nile river class": 38
+  },
+  "hand_painted_archive_installed": false,
+  "production_approved": false
+}

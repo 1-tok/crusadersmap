@@ -1,0 +1,1766 @@
+{
+  "project": "1-tok/crusadersmap",
+  "batch": "nile-ecology-derived-2026-11-17",
+  "source": "existing committed PNGs and deterministic Pillow drawing",
+  "mode": "REVIEW fallback until original 87 hand-painted PNGs uploaded",
+  "cutout_count": 117,
+  "river_integration_rule": "texture only, never georeferenced route; river centerlines come from mapped sources",
+  "assets": [
+    {
+      "id": "derived_delta_farm_001",
+      "file": "sprites/delta_farm_001.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "c82888d7e8f018daeda6272c3fbbbfc18136030186c21f568e55c3ac52df0076",
+      "bytes": 277761,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_002",
+      "file": "sprites/delta_farm_002.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "8d57a9de497151bde97402a8ea2b8583450f3cf61bc018a1dd1c2fab37aedfc2",
+      "bytes": 260969,
+      "png_size": [
+        440,
+        274
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_003",
+      "file": "sprites/delta_farm_003.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "c9d1e191d4ca8484c4022af483a418334f210f2e2d69ba43d9108ac6b2b33403",
+      "bytes": 258472,
+      "png_size": [
+        440,
+        275
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_004",
+      "file": "sprites/delta_farm_004.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "8b962347241d2b75afb48f0aa90bf88cb30773881e9950f210831f4d37d6c239",
+      "bytes": 266189,
+      "png_size": [
+        440,
+        293
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_005",
+      "file": "sprites/delta_farm_005.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "2b81dd4167912ddb5e7706a4ae915d262bcac154cfe9b5f8c952f9c9444ba6db",
+      "bytes": 268245,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_006",
+      "file": "sprites/delta_farm_006.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "32f635a66a23c481a78ca103bb917e425f554adadcc4a935393b570e28467d4e",
+      "bytes": 266537,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_007",
+      "file": "sprites/delta_farm_007.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "dcd4850c067fbb2c0442ae6b3f06b46fb93fc84c5876effc754026c4997406b2",
+      "bytes": 252388,
+      "png_size": [
+        440,
+        278
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_008",
+      "file": "sprites/delta_farm_008.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "b1dac9e7005438683ac058b50cd900b146b531e810531cd1d5b635c0e8b7a7be",
+      "bytes": 276269,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_009",
+      "file": "sprites/delta_farm_009.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "ef41d13346927dea7b81df67f52acd40c2be6a27dd043f91939c5d0e00c1d809",
+      "bytes": 251693,
+      "png_size": [
+        440,
+        288
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_010",
+      "file": "sprites/delta_farm_010.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "1dcc922156311d8ca50330b0340f73cde211ee7647221952054f9d770a50cc2f",
+      "bytes": 266777,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_011",
+      "file": "sprites/delta_farm_011.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "f57dc8a2718a777116ea54182af3da03367f1d4527b1882f052e59d947c9fc70",
+      "bytes": 244922,
+      "png_size": [
+        440,
+        271
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_012",
+      "file": "sprites/delta_farm_012.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "4c1b0750c650742a5beeb42a6ffa44e00131798305e35f943166bdb7c9e497ab",
+      "bytes": 261326,
+      "png_size": [
+        440,
+        278
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_013",
+      "file": "sprites/delta_farm_013.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "b2063d82953ad121d8d00e2b1e19210826d5340d0dc8efffcc0edd556ece1bf9",
+      "bytes": 281946,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_014",
+      "file": "sprites/delta_farm_014.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "1e9ca01a426f79b32e4b9a301eb30846e1a5864cc3e5c274e700f97630779fff",
+      "bytes": 267896,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_015",
+      "file": "sprites/delta_farm_015.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "a616eaeb03c869a6631a26f7077e19cde6c3cb67daa07657aa4d909fe0c89ad4",
+      "bytes": 258368,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_016",
+      "file": "sprites/delta_farm_016.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "79e6cc1e921c1851ca40c88009a424e61821d895b12948e4ac54f43bf70df9d8",
+      "bytes": 256612,
+      "png_size": [
+        440,
+        277
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_017",
+      "file": "sprites/delta_farm_017.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "fe420938e048f4187ee3770474fb308ff99204a70277e6bc85100943131b28d5",
+      "bytes": 276188,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_018",
+      "file": "sprites/delta_farm_018.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "87c2ba9153e61910ae8eeba8560acc53616347022970516d6d7deda0ad166d8f",
+      "bytes": 267483,
+      "png_size": [
+        440,
+        297
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_019",
+      "file": "sprites/delta_farm_019.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "c0c5f5cfc03596a6692ed4204250f19b39e20aac50407222fdbcc528628de95b",
+      "bytes": 274973,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_020",
+      "file": "sprites/delta_farm_020.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "7120ce4098ff8de12382dc9ada3322e86cb097a619ebdb60be5a6eb2e47a2d88",
+      "bytes": 252635,
+      "png_size": [
+        440,
+        274
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_021",
+      "file": "sprites/delta_farm_021.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "fd2e73425f279e610c17a8d2f07af7d77d7df541982030bbbd8b1cacee5d0227",
+      "bytes": 266292,
+      "png_size": [
+        440,
+        283
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_022",
+      "file": "sprites/delta_farm_022.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "5b18c102a77e68a3a2665bf7c398a4dce6adf3081363ffa43de9777aa7f2cf65",
+      "bytes": 261873,
+      "png_size": [
+        440,
+        292
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_023",
+      "file": "sprites/delta_farm_023.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "14ed7347514018681ccf18ab997b383519613419fc9a2d0183ee9e4fd408434f",
+      "bytes": 254942,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_024",
+      "file": "sprites/delta_farm_024.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "f5467246c6ad71320f5331d59ab2176a9a68493a50f0a155a7f980f4f07aae73",
+      "bytes": 284724,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_025",
+      "file": "sprites/delta_farm_025.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "58ad3720a3279bbbb88c509bce2fbc65a246c1b0bf2adf385e92471097e3a13f",
+      "bytes": 248383,
+      "png_size": [
+        440,
+        275
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_026",
+      "file": "sprites/delta_farm_026.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "e5f121b010b88d2dc8fdd9c4df4ffc885f040702ce4c9bcc11d5e270a48d95cb",
+      "bytes": 286023,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_farm_027",
+      "file": "sprites/delta_farm_027.png",
+      "class": "delta_farm",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "bcc34c2a5e81b6053f14259f168e3e9de6e52bdd99dee10c6383b0aa5fe4d2fd",
+      "bytes": 269295,
+      "png_size": [
+        440,
+        292
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_001",
+      "file": "sprites/nile_farm_upstream_001.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "e5c6827be067c5b1272e7b265348417551372352e5eaa1c7cc744ede6a9ee3b9",
+      "bytes": 276923,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_002",
+      "file": "sprites/nile_farm_upstream_002.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "ecbff9c5f0a9e33c314fa1b16f683d0aa97249a96e59966a8938fb5073ca3ee0",
+      "bytes": 270255,
+      "png_size": [
+        440,
+        280
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_003",
+      "file": "sprites/nile_farm_upstream_003.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "b329fe29fb061c980b3e31d4bf560ee2862e81df7b06f2081378740d462ecb99",
+      "bytes": 263328,
+      "png_size": [
+        440,
+        278
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_004",
+      "file": "sprites/nile_farm_upstream_004.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "1424f578c07575fc95b88e1bc4256ea47adaa8975f433f969f4987ebbce94df3",
+      "bytes": 265016,
+      "png_size": [
+        440,
+        289
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_005",
+      "file": "sprites/nile_farm_upstream_005.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "0ad6139d1c3e8f6f4d696b96175bd61090cf379438b7e51f0bff1f1e82900db1",
+      "bytes": 257009,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_006",
+      "file": "sprites/nile_farm_upstream_006.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "b4299ce391e1a1ab856a1bf003c2e9c6e17a5e504d3b20bd957a52ef301502aa",
+      "bytes": 268606,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_007",
+      "file": "sprites/nile_farm_upstream_007.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "0940e83820741160e9b50167ff60bdf2fbf7ea61a44d55ffc3bedb38798cab64",
+      "bytes": 243542,
+      "png_size": [
+        440,
+        271
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_008",
+      "file": "sprites/nile_farm_upstream_008.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "a720f533bab74fec7bf97b1220eafd366bbdfcac22d607603bfb144866ca7f84",
+      "bytes": 283634,
+      "png_size": [
+        440,
+        297
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_009",
+      "file": "sprites/nile_farm_upstream_009.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "b2d0efd5da3d9546efe99cbb9b6f8150a136cf6a8d4d2be84d8c5f6173047a6b",
+      "bytes": 288568,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_010",
+      "file": "sprites/nile_farm_upstream_010.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "5e92bedb25bb37f7b4226b84612aab198ced5992cac6ae587a107f04c04f6e3e",
+      "bytes": 269650,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_011",
+      "file": "sprites/nile_farm_upstream_011.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "d8d5878f2113e0e942573101a02e9c6e2c1ad7b2e9ceb319dadc053bb45f390c",
+      "bytes": 251868,
+      "png_size": [
+        440,
+        273
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_012",
+      "file": "sprites/nile_farm_upstream_012.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "f156a8026ef9976ddfcbb70a4e30ee407808629c3e9537cf9a7fcf420ba478f7",
+      "bytes": 253483,
+      "png_size": [
+        440,
+        275
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_013",
+      "file": "sprites/nile_farm_upstream_013.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "59d7053898db7b6bb7f2760b7027b09d250843d34a63cdcbe5b4da7c56debedd",
+      "bytes": 276786,
+      "png_size": [
+        440,
+        296
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_014",
+      "file": "sprites/nile_farm_upstream_014.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "f4a5eb832e6443fdb39707e9c1cbd396bd5e110a914f996e2ee594fc99193bb4",
+      "bytes": 282793,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_015",
+      "file": "sprites/nile_farm_upstream_015.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "9d48fee9a88766a6dc4ea4480313fbc1b6ef1810daa4c82a34e5d427f3c92056",
+      "bytes": 263039,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_016",
+      "file": "sprites/nile_farm_upstream_016.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "a01302078bb524e55b836e6403092b3be3fcd6703fb5896586e344f0525be259",
+      "bytes": 257614,
+      "png_size": [
+        440,
+        281
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_017",
+      "file": "sprites/nile_farm_upstream_017.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "f2fa6a831a30d6eb86eef2b80ece5dff5bc5fd5ada78ead56df7d17cd891516b",
+      "bytes": 283163,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_018",
+      "file": "sprites/nile_farm_upstream_018.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "5202692521c8f035b92a4346ce160362602a92cbd21f7e8e846251df7569d50a",
+      "bytes": 268670,
+      "png_size": [
+        440,
+        294
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_019",
+      "file": "sprites/nile_farm_upstream_019.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "00a8ac028633d1408d47fc213a05a1d6d8e3f38ff228f87f45c44e622bce4151",
+      "bytes": 266239,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_020",
+      "file": "sprites/nile_farm_upstream_020.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "ed43c609cc2d2a921ad3db637a95bd099a425a01dadc815cfa56bde6c5e02be1",
+      "bytes": 265393,
+      "png_size": [
+        440,
+        279
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_021",
+      "file": "sprites/nile_farm_upstream_021.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "dd2e844a86d1c638bfafe67cb9200ec1349871c6d76f8e0e593b23ec8b83e240",
+      "bytes": 252775,
+      "png_size": [
+        440,
+        274
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_022",
+      "file": "sprites/nile_farm_upstream_022.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "3528360a26592915fab4cf342648f95f5aa6fcb772afdf909abb1073759ca845",
+      "bytes": 259482,
+      "png_size": [
+        440,
+        292
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_023",
+      "file": "sprites/nile_farm_upstream_023.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "3d4ae985d4007630af5c033f44d3013f45b493bc9e582e4133ec064df1eb6b69",
+      "bytes": 253128,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_024",
+      "file": "sprites/nile_farm_upstream_024.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/levant-farmland.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "1dc4718fcd44ea5747658395e688be09ad2186442eefeb536a7b962ff2d3788d",
+      "bytes": 260955,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_025",
+      "file": "sprites/nile_farm_upstream_025.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/orchard-field-mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "c7bb472e636940359b08ab00f13a2fcb24806159f9be7718e5e1597c036f3a7f",
+      "bytes": 236795,
+      "png_size": [
+        440,
+        271
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_026",
+      "file": "sprites/nile_farm_upstream_026.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "0fb45cbf9b92e0b8e644edb644e09710198a18e11c8a1c00fbf4616d08e98b0e",
+      "bytes": 276334,
+      "png_size": [
+        440,
+        300
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_nile_farm_upstream_027",
+      "file": "sprites/nile_farm_upstream_027.png",
+      "class": "nile_farm_upstream",
+      "source_sheet": "assets/terrain/river-floodplain-fields.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "4eaefbed3f6d6a8ff904433da03ee5da548390b9f4f02c6e3d0fdb854f97449f",
+      "bytes": 263125,
+      "png_size": [
+        440,
+        292
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_001",
+      "file": "sprites/delta_marsh_001.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_a13_delta_broad_reed_mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "9fae94f9c38409a889022baa0e587814f4d7eb510aa5036bc1c8d9125d015ed5",
+      "bytes": 108571,
+      "png_size": [
+        306,
+        163
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_002",
+      "file": "sprites/delta_marsh_002.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "0015adef42be69b3c3482a6a66363ceff08cbbf8008eeba3a706afc1f6087a7b",
+      "bytes": 137546,
+      "png_size": [
+        327,
+        193
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_003",
+      "file": "sprites/delta_marsh_003.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b02_delta_reed_channels_braided.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "4c8a9a0de30def9529e4c2aed1dab989c3ed3cf4bafdc05786a6a0029568db0c",
+      "bytes": 132297,
+      "png_size": [
+        319,
+        191
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_004",
+      "file": "sprites/delta_marsh_004.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_a13_delta_broad_reed_mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "045981fdd417c6c8f7746d7feeb038440a989d7b931847d27a341b1b88912e59",
+      "bytes": 79293,
+      "png_size": [
+        258,
+        139
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_005",
+      "file": "sprites/delta_marsh_005.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "ecaab6a4760897c9c7e72a46f7827f3cd8a8ba40141aaf04a1ffcd7c3da25edd",
+      "bytes": 157428,
+      "png_size": [
+        349,
+        209
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_006",
+      "file": "sprites/delta_marsh_006.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b02_delta_reed_channels_braided.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "ee88a9176001d5f608eae8dc504cb7465b2b37f469ea3bd4e006773537481ae0",
+      "bytes": 120076,
+      "png_size": [
+        288,
+        179
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_007",
+      "file": "sprites/delta_marsh_007.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_a12_nile_reed_lily_pool.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "3fc41921dd06c8c1f382127f38e461a1c84b5c97e100e641e6aab0ed3a1e71e7",
+      "bytes": 159260,
+      "png_size": [
+        388,
+        187
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_008",
+      "file": "sprites/delta_marsh_008.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "8c7299e9640c959d90a0f18885a9e321e73c82b5cf5cc7181849d44a324d7b66",
+      "bytes": 153950,
+      "png_size": [
+        349,
+        208
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_009",
+      "file": "sprites/delta_marsh_009.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b02_delta_reed_channels_braided.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "1d695fd5f53336430def8a34253b7a45019172212b4bdc28bc49f93dd856f70c",
+      "bytes": 138818,
+      "png_size": [
+        335,
+        201
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_010",
+      "file": "sprites/delta_marsh_010.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_a12_nile_reed_lily_pool.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "afd45747bc28bbe3b5a73b33634fb385631eeb8d02290c2ae3aa0f96ee9fbdaa",
+      "bytes": 154382,
+      "png_size": [
+        380,
+        183
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_011",
+      "file": "sprites/delta_marsh_011.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_a13_delta_broad_reed_mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "efff1c2b8e5232cbd8e47da051fad02455614ce81c4c39370b8a862391b93b00",
+      "bytes": 97364,
+      "png_size": [
+        292,
+        155
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_012",
+      "file": "sprites/delta_marsh_012.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b02_delta_reed_channels_braided.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "f1b1e283b6bd38e767f30a526c983adf6cad0f732788565299ae6568abd94289",
+      "bytes": 180696,
+      "png_size": [
+        368,
+        229
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_013",
+      "file": "sprites/delta_marsh_013.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_a12_nile_reed_lily_pool.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "a1b16d53e2ab4bc5ca976a0baa9b6dd34e3cb57d2bf6f21d2ae0ddf4fb1a8039",
+      "bytes": 135940,
+      "png_size": [
+        345,
+        168
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_014",
+      "file": "sprites/delta_marsh_014.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_a13_delta_broad_reed_mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "65c3fae0fd6a2fe0757a0b1d20f09a863aac0a37cbaef05d41b60ff1b32c9ea6",
+      "bytes": 113496,
+      "png_size": [
+        320,
+        169
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_015",
+      "file": "sprites/delta_marsh_015.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "263c5ddd7799f4443d4ae791ff9c680aa9783922589afb9a7a53419a0bc9f56e",
+      "bytes": 129673,
+      "png_size": [
+        309,
+        187
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_016",
+      "file": "sprites/delta_marsh_016.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_a12_nile_reed_lily_pool.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "413452cd87da796d0a2c0cb670455dc44d8f03bc088e24aca0021b1103798b83",
+      "bytes": 149766,
+      "png_size": [
+        370,
+        180
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_017",
+      "file": "sprites/delta_marsh_017.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_a13_delta_broad_reed_mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "b5aefdb8b98e944426904007f6fbc5008cb4379e1603e413f910a0b3bb42d21c",
+      "bytes": 117036,
+      "png_size": [
+        321,
+        171
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_018",
+      "file": "sprites/delta_marsh_018.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "e872bd5a031f8208560eccffd61e8d52dc760d2912d6cf91715bf91a5ed09138",
+      "bytes": 170440,
+      "png_size": [
+        374,
+        221
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_019",
+      "file": "sprites/delta_marsh_019.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b02_delta_reed_channels_braided.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "6f44cacdd078a4adec720b06fc4b369951d42f5fb7712f82fbad4ec029f3cb85",
+      "bytes": 143090,
+      "png_size": [
+        319,
+        197
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_020",
+      "file": "sprites/delta_marsh_020.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_a13_delta_broad_reed_mosaic.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "13bb5aa06d4462289b0b089043f67b9ffd390c6b628c3360c4d14aefd4143585",
+      "bytes": 126990,
+      "png_size": [
+        335,
+        182
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_021",
+      "file": "sprites/delta_marsh_021.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "44c5cd4a42cb468375942fcc77af264aa857eb099c23e06200ce743382d4dd44",
+      "bytes": 178766,
+      "png_size": [
+        376,
+        225
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_022",
+      "file": "sprites/delta_marsh_022.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b02_delta_reed_channels_braided.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "627655e8b47d14c58d8b74a8a83181972bfa76bd0f776d95bfad92f15623846e",
+      "bytes": 124695,
+      "png_size": [
+        305,
+        188
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_023",
+      "file": "sprites/delta_marsh_023.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_a12_nile_reed_lily_pool.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "2af4b27e05913f6a7aa5357fb5957ff18751069f555bae7dcaaee5faa2d61183",
+      "bytes": 161426,
+      "png_size": [
+        387,
+        190
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_024",
+      "file": "sprites/delta_marsh_024.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "8b144bfd5797ea9f73a41f6ef68d5f0cbf52f316c2582a314cf4077f27c5d5af",
+      "bytes": 154363,
+      "png_size": [
+        347,
+        208
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_delta_marsh_025",
+      "file": "sprites/delta_marsh_025.png",
+      "class": "delta_marsh",
+      "source_sheet": "data/sprites/terrain-batch06/t06_b02_delta_reed_channels_braided.png",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "c208ec7802b5e8bf2d3e0f841478a403912f81090605752fa4d20f799a05de49",
+      "bytes": 122178,
+      "png_size": [
+        309,
+        184
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_001",
+      "file": "sprites/river_decor_reference_001.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "2725005cd38dd64060fe672c267eaf22dc869d13eb2c39f8ac2eed84d28910ef",
+      "bytes": 10136,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_002",
+      "file": "sprites/river_decor_reference_002.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "f9a46e7550dde2168c5d47ca22a3794247d27cf58a9bdeb051aacea5449a2750",
+      "bytes": 10147,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_003",
+      "file": "sprites/river_decor_reference_003.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "c555b17a9c4483e95658ae3bb8e6d4a6c295191d8c5b3a31907a9fa1db279b75",
+      "bytes": 10209,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_004",
+      "file": "sprites/river_decor_reference_004.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "b70197e096fd1f70703fb855c9134af1a6f926c0d58d9a0f7c1864565e9c9f05",
+      "bytes": 10010,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_005",
+      "file": "sprites/river_decor_reference_005.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "3d02a526d5d32e2f5d349eef4704bfe8ed5782274c99309a22e49f5911085160",
+      "bytes": 9973,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_006",
+      "file": "sprites/river_decor_reference_006.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "c9a5954ebb2b74c052883479dd1a83a9bb58eede812c42ee153186d9cbbbeaa2",
+      "bytes": 9968,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_007",
+      "file": "sprites/river_decor_reference_007.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "0d9c32e98dead4d68f46c1c826b3cf2c3e0c030cca44cc87c90db892db666e34",
+      "bytes": 10002,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_008",
+      "file": "sprites/river_decor_reference_008.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "8381019d5c74769b23530c0abe408e7d6e70b57b27c66b855a5b2684df8a752f",
+      "bytes": 10055,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_009",
+      "file": "sprites/river_decor_reference_009.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "b4fce5836f529bef2a38e5d0170aa8477ba5e884aca37e1e7ba790916bc0c936",
+      "bytes": 10291,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_010",
+      "file": "sprites/river_decor_reference_010.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "ed0bf5b7f6cc1c2d89316fd3c25622b6365076075b266eeea1ac78e2a3ba941a",
+      "bytes": 10102,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_011",
+      "file": "sprites/river_decor_reference_011.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "122aa219919b4db7087503566daaae502e8cf10dd0f0de5ba81969b95a4b929c",
+      "bytes": 10036,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_012",
+      "file": "sprites/river_decor_reference_012.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "e6c8c3aeed0950b0fa661c5e588475bc6887d1a5a5b6f295082a327d3f50fe99",
+      "bytes": 10109,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_013",
+      "file": "sprites/river_decor_reference_013.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "7269bfa203f9f61098fc171b22ada3a84654bc743f536ba7e7b627500bc4c147",
+      "bytes": 10088,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_014",
+      "file": "sprites/river_decor_reference_014.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "1b5624d7e5579e9eb69618056001331110471a1be3af593b5a539bae517ea2ce",
+      "bytes": 10107,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_015",
+      "file": "sprites/river_decor_reference_015.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "181f46450e7c39d539bf406647a2f7a4928520dc957e0d47828825259ce2e95c",
+      "bytes": 9830,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_016",
+      "file": "sprites/river_decor_reference_016.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "323a11eabad3ac70d5a581a4c7a750d46f37505e08b0ec8bd98d622b9abcffdc",
+      "bytes": 10001,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_017",
+      "file": "sprites/river_decor_reference_017.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "4f3b58ddef513d6059ff56bad8ab1d923e85340b79c3fc2d6d18a46c33cb83aa",
+      "bytes": 10172,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_018",
+      "file": "sprites/river_decor_reference_018.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "e6f642eaa15cc5747485c5baacd364940e21645965ecfe8d0ce653a2007d381e",
+      "bytes": 10089,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_019",
+      "file": "sprites/river_decor_reference_019.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "0cfa86566bad9aae17b61e0736a4339ca3bdf8fa811a9f5af22c742804a74d52",
+      "bytes": 10218,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_020",
+      "file": "sprites/river_decor_reference_020.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "ea1ba01af8d8eb15d9f8f6de1a4c364444e64145ab702bffc12f1d10cdd4be74",
+      "bytes": 10218,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_021",
+      "file": "sprites/river_decor_reference_021.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "d258d86db54d09e1d4c4baab99f1a79fde8295ec9850a13a88db6c1c6ee5d43b",
+      "bytes": 10072,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_022",
+      "file": "sprites/river_decor_reference_022.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "d80660502603b3492e58484cf94629ad9243b05d5f4c6b604d9316995f9326b6",
+      "bytes": 10011,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_023",
+      "file": "sprites/river_decor_reference_023.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "5e23240312f790c8ff7ba7861e53ab01d06df7596be5001a09f3af92a6952f0a",
+      "bytes": 10156,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_024",
+      "file": "sprites/river_decor_reference_024.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "88b6a88cc7390caafe282842aa71c2bd0f70c3072d3634d599b6e0e1f6bf5673",
+      "bytes": 9946,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_025",
+      "file": "sprites/river_decor_reference_025.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "a43a7422fa64f0dfe2dd98dc01df689d2ae1ed3b090e49dd8be2c2544039dd57",
+      "bytes": 9984,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_026",
+      "file": "sprites/river_decor_reference_026.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "fca2e24ed8966c5ce9fc97db8c4d232448f46682d3ffa189434b15a909f6598b",
+      "bytes": 10114,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_027",
+      "file": "sprites/river_decor_reference_027.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "6edab0239d1731fd0d1b339247f387b4f8863149858002aadd8709d7af13ddeb",
+      "bytes": 10304,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_028",
+      "file": "sprites/river_decor_reference_028.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "a5f044015d74ef22b9c0cf67082f47aff8f69037d0e58a4225ef424154c07082",
+      "bytes": 10396,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_029",
+      "file": "sprites/river_decor_reference_029.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "4afbe5248481a75b4d2b89609d1742c964a06bcbc93d4c0437b84538ffac9cfe",
+      "bytes": 10128,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_030",
+      "file": "sprites/river_decor_reference_030.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "8c344a1bc20df0ef5c8931a3a05d3d97313efb09917df563ace8d0fdedc2ee3c",
+      "bytes": 10100,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_031",
+      "file": "sprites/river_decor_reference_031.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "fdc2dd7bb048b86aff4e086103a31a2b40d0df9a4eaf9bf02676e575c5382d75",
+      "bytes": 10134,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_032",
+      "file": "sprites/river_decor_reference_032.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "c934a0c3e9a6000301fb48944c06564e1aa894b35c92fc156c7e58a02de867b1",
+      "bytes": 9976,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_033",
+      "file": "sprites/river_decor_reference_033.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "ea80ebc3a2c15b6dbc6b46e6b990afca3ceda609560bee353c846e73841e6379",
+      "bytes": 10086,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_034",
+      "file": "sprites/river_decor_reference_034.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "a2d4cc1c520eff76ce6813a6a7a34a785f7d76bc35ea500ee0737d844906e432",
+      "bytes": 10081,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_035",
+      "file": "sprites/river_decor_reference_035.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "fef27c60ed339379068ee93ed8eef440cdf43cca35d4caa68b9324f47e6b2650",
+      "bytes": 9966,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_036",
+      "file": "sprites/river_decor_reference_036.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "77dcee8d853a4456737b233679bb121f1e7f6ae9c7c037b83a29dbb98b4d1004",
+      "bytes": 10278,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_037",
+      "file": "sprites/river_decor_reference_037.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "0d3c2310353107645b636edc9f0b332cea14d79f18bdf59f9c53be32c80e29aa",
+      "bytes": 10398,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    },
+    {
+      "id": "derived_river_decor_reference_038",
+      "file": "sprites/river_decor_reference_038.png",
+      "class": "river_decor_reference",
+      "source_sheet": "procedural water texture from Nile river class",
+      "source_georeferenced": false,
+      "generated_from_existing_repo_art": true,
+      "sha256": "2358e0531db39c8987d7b7ec64a667baf916bbbcf3a4d3db19d17cd482562b99",
+      "bytes": 10297,
+      "png_size": [
+        192,
+        136
+      ],
+      "status": "derived_provisional_map_scale_review"
+    }
+  ],
+  "production_approved": false
+}
