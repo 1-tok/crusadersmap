@@ -37,7 +37,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "relief_excluded",
+      "delta_placement_status": "blocked_delta_all",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a02",
@@ -60,7 +63,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a03",
@@ -83,7 +89,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a04",
@@ -106,7 +115,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a05",
@@ -129,7 +141,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a06",
@@ -152,7 +167,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "agricultural_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a07",
@@ -175,7 +193,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "agricultural_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a08",
@@ -198,7 +219,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "agricultural_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a09",
@@ -221,7 +245,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "agricultural_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a10",
@@ -246,7 +273,10 @@
       "print_quality_status": "native_resolution_review_required",
       "qa_notes": [
         "Illustrated buildings must be checked against settlement layer"
-      ]
+      ],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a11",
@@ -271,7 +301,10 @@
       "print_quality_status": "native_resolution_review_required",
       "qa_notes": [
         "Illustrated water must be clipped/matched to mapped river and wetland"
-      ]
+      ],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a12",
@@ -296,7 +329,10 @@
       "print_quality_status": "native_resolution_review_required",
       "qa_notes": [
         "Illustrated water must be clipped/matched to mapped river and wetland"
-      ]
+      ],
+      "delta_terrain_class": "nile_wetland",
+      "delta_placement_status": "review_selected_coast_clipped",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a13",
@@ -321,7 +357,10 @@
       "print_quality_status": "native_resolution_review_required",
       "qa_notes": [
         "Illustrated water must be clipped/matched to mapped river and wetland"
-      ]
+      ],
+      "delta_terrain_class": "nile_wetland",
+      "delta_placement_status": "review_selected_coast_clipped",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a14",
@@ -346,7 +385,10 @@
       "print_quality_status": "native_resolution_review_required",
       "qa_notes": [
         "Illustrated water must be clipped/matched to mapped river and wetland"
-      ]
+      ],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a15",
@@ -369,7 +411,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a16",
@@ -392,7 +437,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "desert_margin_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a17",
@@ -415,7 +463,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "relief_excluded",
+      "delta_placement_status": "blocked_delta_all",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a18",
@@ -438,7 +489,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "relief_excluded",
+      "delta_placement_status": "blocked_delta_all",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a19",
@@ -461,7 +515,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "relief_excluded",
+      "delta_placement_status": "blocked_delta_all",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-a20",
@@ -484,7 +541,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "relief_excluded",
+      "delta_placement_status": "blocked_delta_all",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b01",
@@ -509,7 +569,10 @@
       "print_quality_status": "native_resolution_review_required",
       "qa_notes": [
         "Illustrated water must be clipped/matched to mapped river and wetland"
-      ]
+      ],
+      "delta_terrain_class": "nile_wetland",
+      "delta_placement_status": "review_selected_coast_clipped",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b02",
@@ -534,7 +597,10 @@
       "print_quality_status": "native_resolution_review_required",
       "qa_notes": [
         "Illustrated water must be clipped/matched to mapped river and wetland"
-      ]
+      ],
+      "delta_terrain_class": "nile_wetland",
+      "delta_placement_status": "review_selected_coast_clipped",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b03",
@@ -559,7 +625,10 @@
       "print_quality_status": "native_resolution_review_required",
       "qa_notes": [
         "Illustrated water must be clipped/matched to mapped river and wetland"
-      ]
+      ],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b04",
@@ -584,7 +653,10 @@
       "print_quality_status": "native_resolution_review_required",
       "qa_notes": [
         "Illustrated water must be clipped/matched to mapped river and wetland"
-      ]
+      ],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b05",
@@ -609,7 +681,10 @@
       "print_quality_status": "native_resolution_review_required",
       "qa_notes": [
         "Illustrated water must be clipped/matched to mapped river and wetland"
-      ]
+      ],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b06",
@@ -632,7 +707,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "agricultural_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b07",
@@ -655,7 +733,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "agricultural_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b08",
@@ -678,7 +759,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "agricultural_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b09",
@@ -701,7 +785,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b10",
@@ -724,7 +811,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "agricultural_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b11",
@@ -747,7 +837,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b12",
@@ -770,7 +863,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b13",
@@ -793,7 +889,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b14",
@@ -816,7 +915,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b15",
@@ -839,7 +941,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "relief_excluded",
+      "delta_placement_status": "blocked_delta_all",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b16",
@@ -862,7 +967,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "relief_excluded",
+      "delta_placement_status": "blocked_delta_all",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b17",
@@ -885,7 +993,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "relief_excluded",
+      "delta_placement_status": "blocked_delta_all",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b18",
@@ -908,7 +1019,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "agricultural_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b19",
@@ -931,7 +1045,10 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "t06-b20",
@@ -954,9 +1071,30 @@
       "alpha_mode": "RGBA with fully transparent exterior",
       "placement_review_status": "provisional_not_placed",
       "print_quality_status": "native_resolution_review_required",
-      "qa_notes": []
+      "qa_notes": [],
+      "delta_terrain_class": "other_terrain_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     }
   ],
   "binary_import_status": "committed_to_repository",
-  "source_artworks_preserved_in_download_zip": true
+  "source_artworks_preserved_in_download_zip": true,
+  "delta_reclassification_2026_11_17": {
+    "classification_basis": "manifest label and terrain semantics; not full pixel-by-pixel artwork certification",
+    "scope": "Nile Delta inset only",
+    "review_selected_ids": [
+      "t06-a12",
+      "t06-a13",
+      "t06-b01",
+      "t06-b02"
+    ],
+    "class_counts": {
+      "relief_excluded": 8,
+      "other_terrain_hold": 18,
+      "agricultural_candidate": 9,
+      "nile_wetland": 4,
+      "desert_margin_candidate": 1
+    },
+    "policy": "block relief and ambiguous generic sprites; riverbank art must match hydrology; use wetlands with coastline clipping"
+  }
 }
