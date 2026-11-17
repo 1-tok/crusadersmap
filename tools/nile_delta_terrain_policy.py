@@ -11,6 +11,7 @@ FLAT_FARMS = ("river-floodplain-fields",)
 FLAT_DRY = ("flat-desert-pavement", "flat-desert-sand-sheet", "salt-flat")
 FLAT_DUNES = ()  # dune paintings often contain raised relief
 DELTA_GENERIC = ("delta",)  # irrigation shaduf, visually unverified
+DELTA_GENERIC_FILES = ("irrigation-shaduf-10c8d38fd3df.png",)
 WETLAND_IDS = ("t06-a12", "t06-a13", "t06-b01", "t06-b02")
 BANNED_TERMS = ("hill", "mountain", "ridge", "escarpment", "badlands", "cliff",
                 "buttress", "upland", "foothill", "karst", "rocky")
@@ -24,7 +25,7 @@ def audit():
     generic = json.loads((ROOT/"assets/generic2.json").read_text())
     delta_generic = [x for x in generic if x.get("cls") == "delta"]
     for x in delta_generic:
-        if x.get("file") not in ("irrigation-shaduf-10c8d38fd3df.png",):
+        if x.get("file") not in DELTA_GENERIC_FILES:
             raise AssertionError("Unreviewed Delta generic selected: "+str(x.get("file")))
     dry = json.loads((ROOT/"data/sprites/terrain-batch05/manifest.json").read_text())
     return {
