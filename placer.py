@@ -107,7 +107,8 @@ COASTAL_WATER_SIDE_HOLDS = set()
 for _place in PL.PLACES:
     _selected = SP.MATCH.get(_place[5])
     if (_selected and _selected.get("site") in COASTAL_OWNER_FAILED_SITES
-            and _selected.get("source") != "owner-approved-coastal-sheet-2026-11-16"):
+            and _selected.get("source") not in {"owner-approved-coastal-sheet-2026-11-16",
+                                                "greece-egypt-review-assumed-coast-2026-11-17"}):
         COASTAL_WATER_SIDE_HOLDS.add((_place[0], _coastal_normalize(_place[5])))
 
 
