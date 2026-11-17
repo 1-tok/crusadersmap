@@ -1,0 +1,17 @@
+{
+  "region": "delta",
+  "relief_count": 0,
+  "terrain_counts": {
+    "marsh": 157,
+    "drystrip": 503,
+    "palm": 123,
+    "scrub": 2229,
+    "tuft": 77,
+    "farm": 67,
+    "hamlet": 345,
+    "oasis": 5
+  },
+  "coastline": "land_minus_lakes",
+  "status": "renderer_terrain_class_gate_passed",
+  "note": "This guarantees no terrain relief glyphs in the Delta inset; it does not visually certify every older opaque source underlay."
+}

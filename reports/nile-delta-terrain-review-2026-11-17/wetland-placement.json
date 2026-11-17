@@ -1,0 +1,56 @@
+{
+  "mode": "provisional_rebuild_review",
+  "layer": "wetland_above_land_underlay_below_terrain_rivers_and_city_sprites",
+  "placed_count": 4,
+  "rendered": [
+    {
+      "id": "t06-a12",
+      "terrain_class": "wetland",
+      "png": "data/sprites/terrain-batch06/t06_a12_nile_reed_lily_pool.png",
+      "lon_lat": [
+        30.96,
+        31.43
+      ],
+      "display_width_px": 165,
+      "coastline_clip": "land_minus_lakes",
+      "status": "rendered_for_review_not_historical_site"
+    },
+    {
+      "id": "t06-a13",
+      "terrain_class": "wetland",
+      "png": "data/sprites/terrain-batch06/t06_a13_delta_broad_reed_mosaic.png",
+      "lon_lat": [
+        31.38,
+        31.44
+      ],
+      "display_width_px": 185,
+      "coastline_clip": "land_minus_lakes",
+      "status": "rendered_for_review_not_historical_site"
+    },
+    {
+      "id": "t06-b01",
+      "terrain_class": "wetland",
+      "png": "data/sprites/terrain-batch06/t06_b01_delta_marsh_reeds_large.png",
+      "lon_lat": [
+        31.7,
+        31.35
+      ],
+      "display_width_px": 160,
+      "coastline_clip": "land_minus_lakes",
+      "status": "rendered_for_review_not_historical_site"
+    },
+    {
+      "id": "t06-b02",
+      "terrain_class": "wetland",
+      "png": "data/sprites/terrain-batch06/t06_b02_delta_reed_channels_braided.png",
+      "lon_lat": [
+        31.17,
+        31.31
+      ],
+      "display_width_px": 170,
+      "coastline_clip": "land_minus_lakes",
+      "status": "rendered_for_review_not_historical_site"
+    }
+  ],
+  "no_hill_sprite_reclassification": true
+}
