@@ -39,7 +39,8 @@
       "t06-b01",
       "t06-b02"
     ],
-    "mixed_rocky_badlands_sprite_count": 0
+    "mixed_rocky_badlands_sprite_count": 0,
+    "legacy_hill_like_farm_stamps_suppressed": true
   },
   "coastline": "land_minus_lakes",
   "status": "renderer_terrain_class_gate_passed",
