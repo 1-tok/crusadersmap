@@ -143,8 +143,17 @@ class Terrain:
         bbl = lr.bbox_ll()
         if self.c.get("nile_delta_flat"):
             from tools.render_nile_delta_waterways import load as load_delta_waterways
-            lines_for_mask = [geom for geom, prop in load_delta_waterways()
-                              if prop.get("waterway") in ("river","stream","canal")]
+            from shapely.geometry import box as _box
+            # The modern mapped Delta network only begins near Cairo. Preserve
+            # actual Natural Earth Nile linework SOUTH of it, all the way to
+            # the southern edge of the Egypt inset. A narrow shared seam near
+            # Cairo allows the two geographic sources to join visually.
+            upstream = _box(27.0, 27.5, 34.9, 30.10)
+            lines_for_mask = [
+                geom.intersection(upstream) for geom in RIVERS
+                if geom.intersects(upstream)
+            ] + [geom for geom, prop in load_delta_waterways()
+                 if prop.get("waterway") in ("river","stream","canal")]
         else:
             lines_for_mask = list(RIVERS) + [LineString(r) for r in EXTRA_RIVERS]
         for g in lines_for_mask:
@@ -322,8 +331,19 @@ class Terrain:
 
         # --- rivers: smoothed, meandering, and broken off at every lake
         rivers = []
-        for g in ([] if self.c.get("nile_delta_flat") else RIVERS):
-            if g.intersects(bb):
+        for g in RIVERS:
+            if not g.intersects(bb):
+                continue
+            if self.c.get("nile_delta_flat"):
+                # Restore the Nile trunk south of the OSM Delta reference.
+                # Never render the Natural Earth Delta mouths over the more
+                # detailed OSM network to their north.
+                upstream = box(27.0, 27.5, 34.9, 30.10)
+                cut = g.intersection(upstream)
+                for part in (getattr(cut, "geoms", [cut])):
+                    if part.geom_type == "LineString" and len(part.coords) > 1:
+                        rivers.append(part)
+            else:
                 rivers.append(g)
         ccf = []
         for g in rivers:
@@ -334,7 +354,7 @@ class Terrain:
         ccf = [r for r in ccf if len(r) > 1]
         lk_list = [g for g in self._lakes() if g.intersects(bb)]
         lk = unary_union(lk_list).buffer(0.002) if lk_list else None
-        for r in ([] if self.c.get("nile_delta_flat") else EXTRA_RIVERS + ccf):
+        for r in (ccf if self.c.get("nile_delta_flat") else EXTRA_RIVERS + ccf):
             ll = [(x, y) for x, y in r]
             if not any(bb.contains(Point(x, y)) for x, y in ll[::max(1, len(ll) // 6)]):
                 continue
