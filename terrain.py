@@ -877,6 +877,22 @@ class Terrain:
         if self.c.get("nile_delta_flat"):
             from tools.render_nile_delta_waterways import draw as draw_delta_waterways
             draw_delta_waterways(c, reg, land_u, self._lakes(), edition)
+            # Painted river water is a stroke on the *geographic* course.
+            # A single repeating source texture follows bends, splits and
+            # joins without attempting to concatenate disconnected PNGs.
+            from tools.draw_nile_ecology_pack import stroke_real_rivers, _manifest
+            if _manifest():
+                from tools.render_nile_delta_waterways import load as load_delta_rivers
+                upstream = box(27.0, 27.5, 34.9, 30.10)
+                centerlines = [g.intersection(upstream) for g in RIVERS if g.intersects(upstream)]
+                centerlines.extend(g for g,p in load_delta_rivers() if p.get("waterway")=="river")
+                c.save()
+                try:
+                    from tools.lowland_51_review_placer import _clip_real_land
+                    _clip_real_land(c, reg, self.mpp)
+                    stroke_real_rivers(c, reg, centerlines, width=6.8)
+                finally:
+                    c.restore()
         c.restore()
 
 
