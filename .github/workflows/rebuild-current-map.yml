@@ -76,6 +76,7 @@ jobs:
           mkdir -p out deliver reports/rebuild-2026-11-12
           cp reports/rebuild-2026-11-12/outremer-current-composite.jpg out/coverage-before.jpg
           python -m py_compile tools/audit_lowland_51_cutouts.py tools/lowland_51_review_placer.py tools/check_lowland_51_review.py tools/compare_lowland_coasts.py
+          python -m py_compile terrain.py
           python tools/audit_lowland_51_cutouts.py
           python tools/build_sprite_handoff.py
           # build_sprite_assets.py recreates assets/sprites/; preserve source ZIPs first.
