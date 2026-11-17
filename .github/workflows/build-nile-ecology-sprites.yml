@@ -1,0 +1,75 @@
+name: Build and commit Nile ecology sprite binaries
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-nile-ecology-sprites.yml'
+      - 'tools/build_nile_derived_sprite_fallback.py'
+      - 'tools/install_nile_ecology_pack.py'
+      - 'assets/sprites/incoming/nile_delta_upstream_terrain_sprites_2026-11-17.zip'
+permissions:
+  contents: write
+concurrency:
+  group: nile-ecology-binaries
+  cancel-in-progress: false
+jobs:
+  binaries:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Pillow and NumPy
+        run: python -m pip install --quiet pillow numpy
+      - name: Generate and QA Nile PNGs
+        run: |
+          python -m py_compile tools/install_nile_ecology_pack.py tools/build_nile_derived_sprite_fallback.py
+          python tools/install_nile_ecology_pack.py
+          python tools/build_nile_derived_sprite_fallback.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from PIL import Image
+          p=Path('data/sprites/nile-ecology-2026-11-17')
+          m=json.loads((p/'manifest.json').read_text())
+          assets=m['assets']
+          assert len(assets)>=87, len(assets)
+          categories={x['class'] for x in assets}
+          assert categories=={'delta_farm','nile_farm_upstream','delta_marsh','river_decor_reference'}, categories
+          for rec in assets:
+              file=p/rec['file']
+              with Image.open(file) as image:
+                  assert image.mode=='RGBA', str(file)
+                  assert image.getchannel('A').getextrema()[0]<255, str(file)
+          print('NILE VERIFIED',len(assets),'PNG sprites across',len(categories),'classes')
+          PY
+      - name: Commit PNG binaries and source registry to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git reset --mixed origin/main
+            git add data/sprites/nile-ecology-2026-11-17/ reports/nile-delta-terrain-review-2026-11-17/
+            if git diff --cached --quiet; then
+              echo "Nile PNG binaries already committed"
+              exit 0
+            fi
+            git commit -m "assets: commit generated Nile ecology RGBA PNG binaries [skip ci]"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          exit 1
+      - name: Publish sprite QA artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nile-ecology-pngs-and-manifest
+          path: |
+            data/sprites/nile-ecology-2026-11-17/
+            reports/nile-delta-terrain-review-2026-11-17/derived-art-generation.json
+          if-no-files-found: warn
