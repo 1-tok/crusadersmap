@@ -42,6 +42,10 @@ on:
       - 'tools/check_geographic_castle_placements.py'
       - 'data/manifests/automated-intake-stable-scatter-classes.json'
       - 'terrain.py'
+      - 'tools/draw_nile_ecology_pack.py'
+      - 'tools/install_nile_ecology_pack.py'
+      - 'assets/sprites/incoming/nile_delta_upstream_terrain_sprites_2026-11-17.zip'
+      - 'data/sprites/nile-ecology-2026-11-17/**'
       - 'tools/fetch_nile_delta_waterways.py'
       - 'tools/render_nile_delta_waterways.py'
       - 'tools/nile_delta_terrain_policy.py'
@@ -88,6 +92,8 @@ jobs:
           python -m py_compile tools/audit_lowland_51_cutouts.py tools/lowland_51_review_placer.py tools/check_lowland_51_review.py tools/compare_lowland_coasts.py
           python -m py_compile terrain.py tools/draw_nile_delta_wetlands.py tools/nile_delta_terrain_policy.py build_stage2.py
           python tools/nile_delta_terrain_policy.py
+          python -m py_compile tools/install_nile_ecology_pack.py tools/draw_nile_ecology_pack.py
+          python tools/install_nile_ecology_pack.py
           python tools/audit_lowland_51_cutouts.py
           python tools/build_sprite_handoff.py
           # build_sprite_assets.py recreates assets/sprites/; preserve source ZIPs first.
@@ -173,6 +179,7 @@ jobs:
             reports/lowland-review-2026-11-15/
             reports/nile-delta-terrain-review-2026-11-17/
             reports/nile-delta-hydrography-review-2026-11-17/
+            reports/nile-delta-terrain-review-2026-11-17/painted-pack-placement.json
             reports/island-review-2026-11-15/
             out/underlay-coverage-report.json
             out/placement_log.json
@@ -189,6 +196,9 @@ jobs:
             git fetch origin main
             git reset --mixed origin/main
             git add reports/rebuild-2026-11-12/ reports/island-review-2026-11-15/ reports/lowland-review-2026-11-15/ reports/nile-delta-terrain-review-2026-11-17/ reports/nile-delta-hydrography-review-2026-11-17/
+            if [ -d data/sprites/nile-ecology-2026-11-17 ]; then
+              git add data/sprites/nile-ecology-2026-11-17/
+            fi
             if git diff --cached --quiet; then
               echo "Reports already match current main"
               exit 0
