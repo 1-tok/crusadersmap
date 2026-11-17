@@ -18,21 +18,8 @@ from shapely.affinity import scale as _sscale
 
 BLUEINK = (0.20, 0.33, 0.45)
 
-# The Nile's principal surviving distributaries are Rosetta (west) and
-# Damietta (east). These hand-fit review paths use geographic lon/lat and
-# terminate against the existing LAND shoreline clip; they are not a new
-# coastline or a claim to reconstruct every medieval irrigation channel.
-NILE_DELTA_BRANCHES = (
-    ((31.235, 30.045), (31.20, 30.19), (31.14, 30.37),
-     (31.10, 30.50), (30.94, 30.67), (30.75, 30.89),
-     (30.62, 31.09), (30.50, 31.28), (30.40, 31.42),
-     (30.37, 31.52)),  # Rosetta: western outlet
-    ((31.235, 30.045), (31.28, 30.24), (31.36, 30.42),
-     (31.44, 30.57), (31.53, 30.73), (31.58, 30.94),
-     (31.68, 31.14), (31.75, 31.29), (31.81, 31.43),
-     (31.83, 31.57)),  # Damietta: eastern outlet
-)
-
+# Delta river line geometry is ingested from a real mapped waterway network
+# in tools/fetch_nile_delta_waterways.py; do not hand-draw trunk segments.
 def nile_floodplain(lon, lat):
     """A conservative wedge between the mouths and Cairo, NOT all Egypt."""
     if not (30.04 <= lat <= 31.55):
@@ -154,7 +141,13 @@ class Terrain:
         wd = ImageDraw.Draw(wm)
         lr.polys(self._lakes(), wd, fill=255)
         bbl = lr.bbox_ll()
-        for g in list(RIVERS) + [LineString(r) for r in EXTRA_RIVERS]:
+        if self.c.get("nile_delta_flat"):
+            from tools.render_nile_delta_waterways import load as load_delta_waterways
+            lines_for_mask = [geom for geom, prop in load_delta_waterways()
+                              if prop.get("waterway") in ("river","stream","canal")]
+        else:
+            lines_for_mask = list(RIVERS) + [LineString(r) for r in EXTRA_RIVERS]
+        for g in lines_for_mask:
             if not g.intersects(bbl):
                 continue
             gi = g.intersection(bbl)
@@ -329,7 +322,7 @@ class Terrain:
 
         # --- rivers: smoothed, meandering, and broken off at every lake
         rivers = []
-        for g in RIVERS:
+        for g in ([] if self.c.get("nile_delta_flat") else RIVERS):
             if g.intersects(bb):
                 rivers.append(g)
         ccf = []
@@ -341,7 +334,7 @@ class Terrain:
         ccf = [r for r in ccf if len(r) > 1]
         lk_list = [g for g in self._lakes() if g.intersects(bb)]
         lk = unary_union(lk_list).buffer(0.002) if lk_list else None
-        for r in EXTRA_RIVERS + ccf:
+        for r in ([] if self.c.get("nile_delta_flat") else EXTRA_RIVERS + ccf):
             ll = [(x, y) for x, y in r]
             if not any(bb.contains(Point(x, y)) for x, y in ll[::max(1, len(ll) // 6)]):
                 continue
@@ -859,47 +852,11 @@ class Terrain:
                 for i in range(9):
                     p.dot(r.uniform(-20, 20), r.uniform(8, 16), 0.55, col=SEPIA)
             c.restore()
-        # Nile floodplain river mouths: clipped to the genuine coast so that
-        # painted water reaches the Mediterranean but never crosses onto sea.
-        # Render after the generic river centerlines, below every city/label.
+        # Actual mapped river bends and split tributaries are painted LAST
+        # within terrain ink, above farms/wetland sprites and below cities.
         if self.c.get("nile_delta_flat"):
-            c.save()
-            c.new_path()
-            for poly in polys:
-                if poly.geom_type != "Polygon" or poly.is_empty:
-                    continue
-                q = reg.geom_px(poly)
-                rings = [q.exterior] + list(q.interiors)
-                for ring in rings:
-                    xy = list(ring.coords)
-                    if len(xy) < 4:
-                        continue
-                    c.move_to(*xy[0])
-                    for xy_i in xy[1:]:
-                        c.line_to(*xy_i)
-                    c.close_path()
-            c.set_fill_rule(cairo.FILL_RULE_EVEN_ODD)
-            c.clip()
-            for branch in NILE_DELTA_BRANCHES:
-                pts = [reg.ll_px(lo, la) for lo, la in branch]
-                pts = _catmull(pts, step=4.0)
-                if len(pts) < 2:
-                    continue
-                c.new_path()
-                c.move_to(*pts[0])
-                for pt in pts[1:]:
-                    c.line_to(*pt)
-                c.set_line_cap(cairo.LINE_CAP_ROUND)
-                c.set_line_join(cairo.LINE_JOIN_ROUND)
-                azure = (0.27, 0.58, 0.68) if edition == "colour" else BLUEINK
-                c.set_source_rgba(*azure, 0.94)
-                c.set_line_width(8.0)
-                c.stroke_preserve()
-                c.set_source_rgba(*BLUEINK, 0.68)
-                c.set_line_width(1.2)
-                c.stroke()
-            c.restore()
-
+            from tools.render_nile_delta_waterways import draw as draw_delta_waterways
+            draw_delta_waterways(c, reg, land_u, self._lakes(), edition)
         c.restore()
 
 
