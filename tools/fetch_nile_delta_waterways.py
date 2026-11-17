@@ -10,6 +10,7 @@ No interpolation or invented branch endpoints.
 """
 from __future__ import annotations
 import json
+import os
 import urllib.parse
 import urllib.request
 from collections import Counter
@@ -55,6 +56,32 @@ def query(kind, offset):
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
+    # Always prefer the already-published, provenance-bearing geographic
+    # waterway network on ordinary map rebuilds. ArcGIS query availability
+    # must never determine whether the Nile is drawn in this atlas.
+    # Explicit refresh is opt-in: REFRESH_NILE_WATERWAYS=1.
+    if DATA.is_file() and os.environ.get("REFRESH_NILE_WATERWAYS") != "1":
+        previous=json.loads(DATA.read_text())
+        features=previous.get("features",[])
+        meta=previous.get("metadata",{})
+        kinds=Counter(f.get("properties",{}).get("waterway") for f in features)
+        if (previous.get("type")=="FeatureCollection" and
+            meta.get("no_synthetic_meander_or_split") is True and
+            kinds["river"]>=2 and len(features)>=100):
+            report={
+                "status":"reused_committed_geographic_reference",
+                "total_segments":len(features),
+                "counts":dict(kinds),
+                "source":meta.get("source_url",ENDPOINT),
+                "geometry_file":DATA.relative_to(ROOT).as_posix(),
+                "cache_verified":True,
+                "historical_accuracy_certified":False,
+                "note":"The prior OSM geometry is committed; no invented river lines and no dependency on ArcGIS availability"
+            }
+            REPORT.write_text(json.dumps(report,indent=2)+"\n")
+            print("NILE HYDROGRAPHY",json.dumps(report))
+            return
+        raise AssertionError("Committed Nile cached geometry is incomplete; refusing to render")
     kept, counts, ids = [], Counter(), set()
     for kind in KINDS:
         for page in range(MAX_PAGES):
