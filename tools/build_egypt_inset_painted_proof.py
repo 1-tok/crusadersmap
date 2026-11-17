@@ -15,6 +15,8 @@ import math
 import random
 from pathlib import Path
 from collections import Counter
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from PIL import Image, ImageDraw, ImageFont
 import cairo
 from shapely.geometry import LineString, box
@@ -191,13 +193,13 @@ def out_segment(c, line, path_kind, fid, used, qa):
                             palm(c,xx+random_val(-9,9),yy-4,
                                  random_val(.75,1.10),RND)
                             qa["palms"]+=1
-        if qa["boats"]<45 and RND.random()<.09:
+        if qa["boats"]<45 and RND.random()<.34:
             key=(round(at.x/85),round(at.y/85))
             if key not in used["boat"]:
                 used["boat"].add(key)
                 boats(c,at.x,at.y,angle,random_val(.70,1.05),RND)
                 qa["boats"]+=1
-        if qa["villages"]<29 and RND.random()<.040:
+        if qa["villages"]<29 and RND.random()<.22:
             offset=115 if path_kind=="valley" else 175
             side=1 if RND.random()>.5 else -1
             xx=at.x+nx*side*offset;yy=at.y+ny*side*offset
