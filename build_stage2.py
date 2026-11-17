@@ -281,7 +281,7 @@ if __name__ == "__main__":
                 "region":"delta","relief_count":0,"terrain_counts":_counts,
                 "coastline":"land_minus_lakes","status":"renderer_terrain_class_gate_passed",
                 "note":"This guarantees no terrain relief glyphs in the Delta inset; it does not visually certify every older opaque source underlay."
-            },indent=2)+"\\n")
+            },indent=2)+"\n")
         img = composite(base, surf)
         Image.fromarray(img).save(f"out/stage2-{ed}.jpg", quality=88)
         print("saved", ed, round(time.time() - t0), "s", flush=True)
