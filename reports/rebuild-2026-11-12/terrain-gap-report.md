@@ -5,8 +5,8 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 | Zone | Land cells | Flat | Thin | Share flat or thin |
 |---|---:|---:|---:|---:|
 | Aegean inset: islands and Crete | 16 | 1 | 3 | 25% |
-| Egypt inset: Western and Eastern deserts | 163 | 2 | 14 | 10% |
-| Egypt inset: Sinai | 185 | 3 | 15 | 10% |
+| Egypt inset: Sinai | 185 | 7 | 24 | 17% |
+| Egypt inset: Western and Eastern deserts | 163 | 5 | 14 | 12% |
 | Lebanon and Damascus | 39 | 0 | 2 | 5% |
 | Negev, Sinai, Arabah | 62 | 3 | 0 | 5% |
 | Egypt inset: Delta | 51 | 0 | 2 | 4% |
@@ -22,7 +22,7 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 | Syrian coast and Orontes | 33 | 0 | 0 | 0% |
 | Galilee, Samaria, Judea | 53 | 0 | 0 | 0% |
 
-Whole sheet: 1288 land cells, 10 flat, 43 thin (4% flat or thin).
+Whole sheet: 1288 land cells, 17 flat, 52 thin (5% flat or thin).
 
 ## Flat cells by position
 
@@ -33,18 +33,25 @@ Whole sheet: 1288 land cells, 10 flat, 43 thin (4% flat or thin).
 | Negev, Sinai, Arabah | 34.37 | 31.04 | 5440 | 12480 | 9.4 |
 | Negev, Sinai, Arabah | 34.57 | 31.04 | 5760 | 12480 | 7.6 |
 | Aegean inset: islands and Crete | 24.79 | 35.17 | 2390 | 3990 | 11.9 |
-| Egypt inset: Sinai | 34.51 | 29.02 | 4390 | 12321 | 8.1 |
-| Egypt inset: Sinai | 34.26 | 28.62 | 4190 | 12721 | 10.4 |
-| Egypt inset: Sinai | 33.79 | 28.23 | 3790 | 13121 | 9.8 |
-| Egypt inset: Western and Eastern deserts | 31.73 | 28.25 | 1990 | 13121 | 10.9 |
-| Egypt inset: Western and Eastern deserts | 31.96 | 27.85 | 2190 | 13521 | 11.8 |
+| Egypt inset: Sinai | 34.83 | 31.45 | 4590 | 9921 | 8.8 |
+| Egypt inset: Sinai | 33.81 | 28.84 | 3790 | 12521 | 9.3 |
+| Egypt inset: Sinai | 34.50 | 28.82 | 4390 | 12521 | 10.2 |
+| Egypt inset: Sinai | 32.65 | 28.65 | 2790 | 12721 | 11.9 |
+| Egypt inset: Sinai | 34.26 | 28.62 | 4190 | 12721 | 6.8 |
+| Egypt inset: Sinai | 32.65 | 28.45 | 2790 | 12921 | 7.6 |
+| Egypt inset: Sinai | 34.03 | 28.43 | 3990 | 12921 | 8.8 |
+| Egypt inset: Western and Eastern deserts | 32.20 | 29.06 | 2390 | 12321 | 11.7 |
+| Egypt inset: Western and Eastern deserts | 32.20 | 28.86 | 2390 | 12521 | 9.7 |
+| Egypt inset: Western and Eastern deserts | 31.05 | 28.66 | 1390 | 12721 | 11.9 |
+| Egypt inset: Western and Eastern deserts | 31.74 | 28.66 | 1990 | 12721 | 11.1 |
+| Egypt inset: Western and Eastern deserts | 31.73 | 28.46 | 1990 | 12921 | 10.1 |
 
 The thin cells are listed with the flat ones in terrain-gap-cells.csv.
 
 ## What covers the land now
 
-- Terrain stamps and landscape tiles: 69 different pieces, 6305 placements
-- Generic settlement, farm, tree, rock and ruin pieces: 189 different pieces, 2380 placements
+- Terrain stamps and landscape tiles: 69 different pieces, 5772 placements
+- Generic settlement, farm, tree, rock and ruin pieces: 189 different pieces, 2409 placements
 - Greek island overlays: 47
 - Ships at sea: 8
 
