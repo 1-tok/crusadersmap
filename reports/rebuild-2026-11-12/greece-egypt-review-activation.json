@@ -1,0 +1,61 @@
+{
+  "mode": "review_only_owner_assumed_coastline_pass",
+  "map_rebuild_required": true,
+  "selected_count": 2,
+  "canonical_catalog_modified": false,
+  "other_greece_cities_unchanged": true,
+  "sites": [
+    {
+      "site": "alexandria",
+      "region": "delta",
+      "coordinate_lon_lat": [
+        29.9,
+        31.2
+      ],
+      "previous_selected": {
+        "file": "alexandria-1180-v1.png",
+        "variant": "data/sprites/greece-egypt-1180/alexandria-1180-v1.png",
+        "w": 900,
+        "h": 471,
+        "source": "catalog",
+        "lon": 29.9,
+        "lat": 31.2
+      },
+      "new_selected": "assets/sprites/qa_provisional/coastal-batch05-2026-11-16/alexandria-coastal-city-2026-11-16-review.png",
+      "working_file": "greece-egypt-review-alexandria-coastal-city-2026-11-16-review.png",
+      "source_sha256": "a12f8fb33853c079f44bd57f30743f480b3f3597c0f12b62021fe861ffc6964d",
+      "expected_water_side": "north/top",
+      "review_selection": true,
+      "coastline_qa": "assumed_passed_at_owner_request_not_measured",
+      "azure_color_qa": "not_measured",
+      "historical_accuracy": "not_certified",
+      "production_approved": false
+    },
+    {
+      "site": "damietta",
+      "region": "delta",
+      "coordinate_lon_lat": [
+        31.816,
+        31.422933333333333
+      ],
+      "previous_selected": {
+        "file": "damietta-1180-v1.png",
+        "variant": "data/sprites/greece-egypt-1180/damietta-1180-v1.png",
+        "w": 900,
+        "h": 557,
+        "source": "catalog",
+        "lon": 31.816,
+        "lat": 31.422933333333333
+      },
+      "new_selected": "assets/sprites/qa_provisional/coastal-batch05-2026-11-16/damietta-coastal-city-2026-11-16-review.png",
+      "working_file": "greece-egypt-review-damietta-coastal-city-2026-11-16-review.png",
+      "source_sha256": "f00ac924b23601b8a58d1bd35f5a480484103a3a9031b7fc9d441815d74e94e3",
+      "expected_water_side": "north/top",
+      "review_selection": true,
+      "coastline_qa": "assumed_passed_at_owner_request_not_measured",
+      "azure_color_qa": "not_measured",
+      "historical_accuracy": "not_certified",
+      "production_approved": false
+    }
+  ]
+}
