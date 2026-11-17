@@ -1,0 +1,30 @@
+name: Six Greek coastal city artwork comparison
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/review_six_greek_coastal_candidates.py'
+      - '.github/workflows/review-six-greek-coastal-cities.yml'
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'Pillow>=10,<12'
+      - name: Generate Greek city candidate QA sheet
+        run: python tools/review_six_greek_coastal_candidates.py
+      - name: Upload comparison for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: six-greek-coastal-city-candidates
+          path: |
+            reports/greece-coastal-six-review-2026-11-17/six-greek-cities-original-versus-candidate.jpg
+            reports/greece-coastal-six-review-2026-11-17/intake-candidate-qa.json
+          retention-days: 14
+          if-no-files-found: error
