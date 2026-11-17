@@ -12,10 +12,11 @@
     "valley": 1,
     "delta": 32
   },
-  "fields": 384,
-  "palms": 49,
-  "boats": 25,
-  "villages": 20,
+  "fields": 416,
+  "palms": 50,
+  "boats": 30,
+  "villages": 11,
+  "layer_order": "fields > connected Nile water > villages and boats",
   "source_crop_pixels": [
     57,
     2916,
