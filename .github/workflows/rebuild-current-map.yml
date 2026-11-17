@@ -42,6 +42,8 @@ on:
       - 'tools/check_geographic_castle_placements.py'
       - 'data/manifests/automated-intake-stable-scatter-classes.json'
       - 'terrain.py'
+      - 'tools/fetch_nile_delta_waterways.py'
+      - 'tools/render_nile_delta_waterways.py'
       - 'tools/nile_delta_terrain_policy.py'
       - 'data/sprites/terrain-batch05/manifest.json'
       - 'data/sprites/terrain-batch06/manifest.json'
@@ -75,6 +77,10 @@ jobs:
           fc-cache -f fonts || true
           python -m pip install --upgrade pip
           python -m pip install numpy Pillow scipy scikit-image shapely pyproj pycairo
+      - name: Acquire real meandering Nile Delta river geometries for geographic review
+        run: |
+          python -m py_compile tools/fetch_nile_delta_waterways.py tools/render_nile_delta_waterways.py terrain.py build_stage2.py
+          python tools/fetch_nile_delta_waterways.py
       - name: Regenerate current inventory and select latest located artwork
         run: |
           mkdir -p out deliver reports/rebuild-2026-11-12
@@ -166,6 +172,7 @@ jobs:
             reports/azure-water-qa/
             reports/lowland-review-2026-11-15/
             reports/nile-delta-terrain-review-2026-11-17/
+            reports/nile-delta-hydrography-review-2026-11-17/
             reports/island-review-2026-11-15/
             out/underlay-coverage-report.json
             out/placement_log.json
@@ -181,7 +188,7 @@ jobs:
           for attempt in 1 2 3 4; do
             git fetch origin main
             git reset --mixed origin/main
-            git add reports/rebuild-2026-11-12/ reports/island-review-2026-11-15/ reports/lowland-review-2026-11-15/ reports/nile-delta-terrain-review-2026-11-17/
+            git add reports/rebuild-2026-11-12/ reports/island-review-2026-11-15/ reports/lowland-review-2026-11-15/ reports/nile-delta-terrain-review-2026-11-17/ reports/nile-delta-hydrography-review-2026-11-17/
             if git diff --cached --quiet; then
               echo "Reports already match current main"
               exit 0
