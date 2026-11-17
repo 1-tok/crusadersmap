@@ -53,7 +53,9 @@ jobs:
           for attempt in 1 2 3 4; do
             git fetch origin main
             git reset --mixed origin/main
-            git add data/sprites/nile-ecology-2026-11-17/ reports/nile-delta-terrain-review-2026-11-17/
+            # Never stage report folders here: an older checkout could delete
+            # a newer full-map placement QA during push reconciliation.
+            git add data/sprites/nile-ecology-2026-11-17/
             if git diff --cached --quiet; then
               echo "Nile PNG binaries already committed"
               exit 0
