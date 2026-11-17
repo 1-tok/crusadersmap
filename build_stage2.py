@@ -190,6 +190,10 @@ def draw_ink2(edition, surf=None, scale=None, mode=None):
             if k == "delta":
                 from tools.draw_nile_delta_wetlands import draw as draw_delta_wetlands
                 draw_delta_wetlands(c, TER[k], REG[k], edition)
+                # Generated farmland/marsh review art: land and lake clipping;
+                # safe skip until its exact ZIP binaries are installed.
+                from tools.draw_nile_ecology_pack import draw_landcover
+                draw_landcover(c, TER[k], REG[k], edition)
         TER[k].ink(c, edition)
         if k == "main":
             import waterart; waterart.draw(c, REG[k], edition)
@@ -271,6 +275,8 @@ if __name__ == "__main__":
             save_report()
             from tools.draw_nile_delta_wetlands import save_report as save_delta_wetlands
             save_delta_wetlands()
+            from tools.draw_nile_ecology_pack import save_report as save_new_nile_art_report
+            save_new_nile_art_report()
             from tools.render_nile_delta_waterways import save_report as save_delta_river_report
             save_delta_river_report()
             from tools.nile_delta_terrain_policy import save as save_delta_classification
