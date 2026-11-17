@@ -16,7 +16,7 @@ import math
 from pathlib import Path
 import random
 import numpy as np
-from PIL import Image, ImageEnhance, ImageFilter, ImageOps
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageOps
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"data/sprites/nile-ecology-2026-11-17"
@@ -65,6 +65,87 @@ def variant(source, index, kind):
     result.putalpha(alpha)
     return result
 
+def flat_field_mosaic(index,kind):
+    """Original procedural flat PLAN-VIEW fields, no mountains or village roofs.
+
+    Past Nile preview art resembled a carpet of small hills. Use separate
+    irregular field polygons, crop rows, thin irrigation ditches and low
+    orchard canopies instead. The north-south upstream variant is narrower.
+    """
+    rng=random.Random(index*17041 + (0 if kind=="delta_farm" else 391))
+    upstream=kind=="nile_farm_upstream"
+    w,h=(255,300) if upstream else (360,205)
+    im=Image.new("RGBA",(w,h),(0,0,0,0))
+    dr=ImageDraw.Draw(im,"RGBA")
+    mask=Image.new("L",(w,h),0)
+    md=ImageDraw.Draw(mask)
+    # Irregular feathered landcover boundary, to avoid a tiled rectangle.
+    outer=[]
+    for p in range(42):
+        angle=p*math.tau/42
+        jitter=rng.uniform(.86,1.06)
+        outer.append((round(w/2+math.cos(angle)*w*.47*jitter),
+                      round(h/2+math.sin(angle)*h*.43*jitter)))
+    md.polygon(outer,fill=250)
+    # Warm irrigated alluvium underneath the fields.
+    dr.polygon(outer,fill=(170,158,91,224))
+    palettes=[
+      (91,133,66),(111,154,79),(141,163,77),(175,156,87),
+      (190,163,91),(126,144,67),(113,142,80),(202,180,113),
+      (153,172,91),(103,151,93),(191,172,104),(150,136,80)
+    ]
+    cols=3 if upstream else 4
+    rows=5 if upstream else 3
+    margin_x=int(w*.10);margin_y=int(h*.11)
+    tw=(w-2*margin_x)/cols;th=(h-2*margin_y)/rows
+    for row in range(rows):
+        for col in range(cols):
+            x=margin_x+col*tw
+            y=margin_y+row*th
+            jx=tw*.13;jy=th*.12
+            poly=[
+                (int(x+rng.uniform(-jx,jx)),int(y+rng.uniform(-jy,jy))),
+                (int(x+tw+rng.uniform(-jx,jx)),int(y+rng.uniform(-jy,jy))),
+                (int(x+tw+rng.uniform(-jx,jx)),int(y+th+rng.uniform(-jy,jy))),
+                (int(x+rng.uniform(-jx,jx)),int(y+th+rng.uniform(-jy,jy))),
+            ]
+            color=palettes[(row*cols+col+index*3+rng.randrange(len(palettes)))%len(palettes)]
+            dr.polygon(poly,fill=(*color,229),outline=(98,96,62,182),width=2)
+            # Alternating sowing directions; short strokes remain inside plot.
+            top=poly[0];topright=poly[1];botright=poly[2];botleft=poly[3]
+            for j in range(1,7):
+                t=j/7
+                if (row+col+index)%2:
+                    a=(int(top[0]*(1-t)+botleft[0]*t),int(top[1]*(1-t)+botleft[1]*t))
+                    b=(int(topright[0]*(1-t)+botright[0]*t),int(topright[1]*(1-t)+botright[1]*t))
+                else:
+                    a=(int(top[0]*(1-t)+topright[0]*t),int(top[1]*(1-t)+topright[1]*t))
+                    b=(int(botleft[0]*(1-t)+botright[0]*t),int(botleft[1]*(1-t)+botright[1]*t))
+                rowcol=(min(235,color[0]+26),min(235,color[1]+20),min(210,color[2]+12),155)
+                dr.line((a,b),fill=rowcol,width=1 if j%2 else 2)
+    # Slender canals trace field boundaries rather than invent major Nile routes.
+    if index%3!=0:
+        yy=int(h*(.32 + .1*(index%4)))
+        pts=[(int(w*.06),yy+7),(int(w*.29),yy+2),(int(w*.56),yy-7),(int(w*.92),yy+4)]
+        dr.line(pts,fill=(70,93,71,175),width=6,joint="curve")
+        dr.line(pts,fill=(62,125,139,210),width=3,joint="curve")
+    # Low orchard canopy viewed from overhead (no hillside silhouette).
+    for k in range(15 if upstream else 22):
+        x=rng.randrange(margin_x,w-margin_x)
+        y=rng.randrange(margin_y,h-margin_y)
+        radius=rng.randint(2,5)
+        if k%4==0:
+            dr.ellipse((x-radius,y-radius,x+radius,y+radius),
+                       fill=(57,109,55,192),outline=(97,122,58,140))
+        elif k%4==1:
+            dr.ellipse((x-radius,y-radius,x+radius,y+radius),
+                       fill=(81,121,60,175))
+    # Opaque coloured shapes inherit the soft irregular alpha boundary.
+    aa=np.asarray(mask.filter(ImageFilter.GaussianBlur(3.0)),dtype=np.uint16)
+    image=np.asarray(im,dtype=np.uint16).copy()
+    image[...,3]=image[...,3]*aa//255
+    return Image.fromarray(image.astype(np.uint8),"RGBA")
+
 def river_variant(index):
     # Transparent actual painted texture fragment, not a map route. The
     # geographic renderer strokes its blue water pixels on precise centerlines.
@@ -99,8 +180,11 @@ def main():
             if kind=="river_decor_reference":
                 source="procedural water texture from Nile river class"
                 image=river_variant(i)
+            elif kind in ("delta_farm","nile_farm_upstream"):
+                source="original_procedural_flat_field_mosaic"
+                image=flat_field_mosaic(i,kind)
             else:
-                collection=MARSH if kind=="delta_marsh" else FARMS
+                collection=MARSH
                 source=collection[(i*5+i//len(collection))%len(collection)]
                 if not (ROOT/source).is_file():
                     raise FileNotFoundError(source)
@@ -115,7 +199,8 @@ def main():
                 "file":rel,"class":kind,
                 "source_sheet":source,
                 "source_georeferenced":False,
-                "generated_from_existing_repo_art":True,
+                "generated_from_existing_repo_art":source not in ("original_procedural_flat_field_mosaic","procedural water texture from Nile river class"),
+                "flat_planview_no_relief":kind in ("delta_farm","nile_farm_upstream"),
                 "sha256":hashlib.sha256(data).hexdigest(),
                 "bytes":len(data),"png_size":list(image.size),
                 "status":"derived_provisional_map_scale_review"
@@ -124,7 +209,7 @@ def main():
     obj={
         "project":"1-tok/crusadersmap",
         "batch":"nile-ecology-derived-2026-11-17",
-        "source":"existing committed PNGs and deterministic Pillow drawing",
+        "source":"original procedural flat-field drawing, existing repository marsh PNGs and procedural water reference",
         "mode":"REVIEW fallback until original 87 hand-painted PNGs uploaded",
         "cutout_count":len(assetlist),
         "river_integration_rule":"texture only, never georeferenced route; river centerlines come from mapped sources",
