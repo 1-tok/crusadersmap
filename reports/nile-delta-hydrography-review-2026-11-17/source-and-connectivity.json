@@ -1,0 +1,24 @@
+{
+  "status": "modern_geographic_network_acquired_medieval_review_not_certified",
+  "bbox": [
+    29.78,
+    29.98,
+    32.5,
+    31.65
+  ],
+  "counts": {
+    "river": 67,
+    "stream": 31,
+    "canal": 68
+  },
+  "total_segments": 166,
+  "source": "https://services-eu1.arcgis.com/zci5bUiJ8olAal7N/arcgis/rest/services/OSM_AF_Waterways/FeatureServer/0/query",
+  "geometry_file": "reports/nile-delta-hydrography-review-2026-11-17/delta-osm-waterways.geojson",
+  "main_source": "OpenStreetMap contributors via ArcGIS",
+  "limitations": [
+    "The geometry shows mapped modern watercourses, not all medieval branches.",
+    "Canals may have been dug or rerouted after the 16th century.",
+    "The western Alexandrian canal and eastern Tinnis route require separate historical georeferencing.",
+    "Waterway line endpoints from OSM are not forcibly joined; no fabricated connector lines."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "mapped_geographic_network_review",
+  "segment_count": 166,
+  "vertex_count": 9036,
+  "curvature_observations": 411,
+  "rendered_by_kind": {
+    "canal": 68,
+    "stream": 31,
+    "river": 67
+  },
+  "source_file": "reports/nile-delta-hydrography-review-2026-11-17/delta-osm-waterways.geojson",
+  "historical_accuracy_certified": false,
+  "synthetic_main_branches_drawn": false,
+  "coastline_clipped": true
+}
