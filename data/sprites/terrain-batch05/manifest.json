@@ -47,7 +47,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "nile_wetland_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "nile_delta_reedbed_central",
@@ -70,7 +73,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "nile_wetland_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "euphrates_reedbank",
@@ -93,7 +99,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "other_region_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "aegean_olive_terraces",
@@ -116,7 +125,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "other_region_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "cilician_grain_farms",
@@ -139,7 +151,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "agricultural_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "levant_terrace_mosaic",
@@ -162,7 +177,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "other_region_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "thrace_broadleaf_woodland",
@@ -185,7 +203,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "other_region_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "pontic_mixed_conifer",
@@ -208,7 +229,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "other_region_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "taurus_wooded_ridge",
@@ -231,7 +255,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "relief_or_mixed_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "syrian_dry_wadi",
@@ -254,7 +281,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "relief_or_mixed_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "transjordan_rock_pavement",
@@ -277,7 +307,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "relief_or_mixed_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "sinai_palm_oasis",
@@ -300,7 +333,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "other_region_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "anatolian_steppe_sward",
@@ -323,7 +359,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "other_region_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "canaan_scrub_steppe_edge",
@@ -346,7 +385,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "relief_or_mixed_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "aegean_spring_maquis",
@@ -369,7 +411,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "other_region_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "northern_woodland_band",
@@ -392,7 +437,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "other_region_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "cultivated_terrace_band",
@@ -415,7 +463,10 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "agricultural_candidate",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     },
     {
       "id": "arid_scrub_transition_band",
@@ -438,10 +489,25 @@
         "hydrography collision",
         "neighbor blend",
         "native print resolution"
-      ]
+      ],
+      "delta_terrain_class": "relief_or_mixed_hold",
+      "delta_placement_status": "held_pending_visual_and_geographic_review",
+      "delta_visual_certification": false
     }
   ],
   "source_atlas": "data/sprites/terrain-batch05/terrain_batch05_atlas_rgba.png",
   "atlas_coordinates": "data/sprites/terrain-batch05/terrain_batch05_atlas.json",
-  "binary_import_status": "blob_transfer_verified_commit_in_progress"
+  "binary_import_status": "blob_transfer_verified_commit_in_progress",
+  "delta_reclassification_2026_11_17": {
+    "classification_basis": "manifest label and terrain semantics; not full pixel-by-pixel artwork certification",
+    "scope": "Nile Delta inset only",
+    "review_selected_ids": [],
+    "class_counts": {
+      "nile_wetland_candidate": 2,
+      "other_region_hold": 9,
+      "agricultural_candidate": 2,
+      "relief_or_mixed_hold": 5
+    },
+    "policy": "block relief and ambiguous generic sprites; riverbank art must match hydrology; use wetlands with coastline clipping"
+  }
 }
