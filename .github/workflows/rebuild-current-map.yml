@@ -45,6 +45,7 @@ on:
       - 'tools/draw_nile_ecology_pack.py'
       - 'tools/install_nile_ecology_pack.py'
       - 'tools/build_nile_derived_sprite_fallback.py'
+      - 'tools/review_full_nile_inset.py'
       - 'assets/sprites/incoming/nile_delta_upstream_terrain_sprites_2026-11-17.zip'
       - 'data/sprites/nile-ecology-2026-11-17/**'
       - 'tools/fetch_nile_delta_waterways.py'
@@ -151,6 +152,7 @@ jobs:
           python tools/check_coverage_underlays.py
           python tools/check_lowland_51_review.py
           python tools/compare_lowland_coasts.py
+          python tools/review_full_nile_inset.py
       - name: Update Canaan geographic review from actual rebuilt map
         run: python tools/build_canaan_map_review.py
       - name: Generate new coverage and asset-usage registers
