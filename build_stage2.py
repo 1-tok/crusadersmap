@@ -271,6 +271,8 @@ if __name__ == "__main__":
             save_report()
             from tools.draw_nile_delta_wetlands import save_report as save_delta_wetlands
             save_delta_wetlands()
+            from tools.nile_delta_terrain_policy import save as save_delta_classification
+            save_delta_classification()
             import json as _delta_json
             from pathlib import Path as _DeltaPath
             _counts = getattr(TER["delta"], "last_item_kind_counts", {})
@@ -279,6 +281,7 @@ if __name__ == "__main__":
             _path.parent.mkdir(parents=True, exist_ok=True)
             _path.write_text(_delta_json.dumps({
                 "region":"delta","relief_count":0,"terrain_counts":_counts,
+                "active_asset_classification":getattr(TER["delta"],"last_item_classification",{}),
                 "coastline":"land_minus_lakes","status":"renderer_terrain_class_gate_passed",
                 "note":"This guarantees no terrain relief glyphs in the Delta inset; it does not visually certify every older opaque source underlay."
             },indent=2)+"\n")
