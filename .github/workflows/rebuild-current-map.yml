@@ -42,6 +42,7 @@ on:
       - 'tools/check_geographic_castle_placements.py'
       - 'data/manifests/automated-intake-stable-scatter-classes.json'
       - 'terrain.py'
+      - 'tools/draw_nile_delta_wetlands.py'
       - 'sea.py'
       - 'water_palette.py'
       - 'sprites.py'
@@ -76,7 +77,7 @@ jobs:
           mkdir -p out deliver reports/rebuild-2026-11-12
           cp reports/rebuild-2026-11-12/outremer-current-composite.jpg out/coverage-before.jpg
           python -m py_compile tools/audit_lowland_51_cutouts.py tools/lowland_51_review_placer.py tools/check_lowland_51_review.py tools/compare_lowland_coasts.py
-          python -m py_compile terrain.py
+          python -m py_compile terrain.py tools/draw_nile_delta_wetlands.py build_stage2.py
           python tools/audit_lowland_51_cutouts.py
           python tools/build_sprite_handoff.py
           # build_sprite_assets.py recreates assets/sprites/; preserve source ZIPs first.
@@ -160,6 +161,7 @@ jobs:
             reports/rebuild-2026-11-12/
             reports/azure-water-qa/
             reports/lowland-review-2026-11-15/
+            reports/nile-delta-terrain-review-2026-11-17/
             reports/island-review-2026-11-15/
             out/underlay-coverage-report.json
             out/placement_log.json
@@ -175,7 +177,7 @@ jobs:
           for attempt in 1 2 3 4; do
             git fetch origin main
             git reset --mixed origin/main
-            git add reports/rebuild-2026-11-12/ reports/island-review-2026-11-15/ reports/lowland-review-2026-11-15/
+            git add reports/rebuild-2026-11-12/ reports/island-review-2026-11-15/ reports/lowland-review-2026-11-15/ reports/nile-delta-terrain-review-2026-11-17/
             if git diff --cached --quiet; then
               echo "Reports already match current main"
               exit 0
