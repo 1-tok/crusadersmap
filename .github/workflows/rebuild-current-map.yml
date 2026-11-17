@@ -43,6 +43,8 @@ on:
       - 'data/manifests/automated-intake-stable-scatter-classes.json'
       - 'terrain.py'
       - 'tools/nile_delta_terrain_policy.py'
+      - 'data/sprites/terrain-batch05/manifest.json'
+      - 'data/sprites/terrain-batch06/manifest.json'
       - 'tools/draw_nile_delta_wetlands.py'
       - 'sea.py'
       - 'water_palette.py'
