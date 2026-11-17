@@ -44,6 +44,7 @@ on:
       - 'terrain.py'
       - 'tools/draw_nile_ecology_pack.py'
       - 'tools/install_nile_ecology_pack.py'
+      - 'tools/build_nile_derived_sprite_fallback.py'
       - 'assets/sprites/incoming/nile_delta_upstream_terrain_sprites_2026-11-17.zip'
       - 'data/sprites/nile-ecology-2026-11-17/**'
       - 'tools/fetch_nile_delta_waterways.py'
@@ -94,6 +95,8 @@ jobs:
           python tools/nile_delta_terrain_policy.py
           python -m py_compile tools/install_nile_ecology_pack.py tools/draw_nile_ecology_pack.py
           python tools/install_nile_ecology_pack.py
+          python -m py_compile tools/build_nile_derived_sprite_fallback.py
+          python tools/build_nile_derived_sprite_fallback.py
           python tools/audit_lowland_51_cutouts.py
           python tools/build_sprite_handoff.py
           # build_sprite_assets.py recreates assets/sprites/; preserve source ZIPs first.
@@ -180,6 +183,7 @@ jobs:
             reports/nile-delta-terrain-review-2026-11-17/
             reports/nile-delta-hydrography-review-2026-11-17/
             reports/nile-delta-terrain-review-2026-11-17/painted-pack-placement.json
+            reports/nile-delta-terrain-review-2026-11-17/derived-art-generation.json
             reports/island-review-2026-11-15/
             out/underlay-coverage-report.json
             out/placement_log.json
