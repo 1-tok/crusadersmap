@@ -24,7 +24,7 @@ def main():
         REPORT.write_text(json.dumps({
             "status":"awaiting_binary_artwork_upload",
             "expected_zip":str(ZIP.relative_to(ROOT)),
-            "expected_png_count":80,
+            "expected_png_count":87,
             "production_approved":False,
             "note":"Never claim new paintings are rendered until ZIP is installed"
         },indent=2)+"\n")
@@ -33,8 +33,8 @@ def main():
     with zipfile.ZipFile(ZIP) as archive:
         manifest=json.loads(archive.read("manifest.json"))
         entries=manifest["assets"]
-        if len(entries)!=80:
-            raise AssertionError("Nile artwork archive missing generated cutouts")
+        if len(entries)!=87:
+            raise AssertionError(f"Nile artwork archive incomplete: expected 87, got {len(entries)}")
         seen=set()
         OUT.mkdir(parents=True,exist_ok=True)
         (OUT/"sprites").mkdir(exist_ok=True)
