@@ -1,0 +1,33 @@
+name: Greece and Egypt coastal city placement review
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/review_greece_egypt_water.py'
+      - '.github/workflows/greece-egypt-water-review.yml'
+      - 'data/manifests/GREECE-EGYPT-COASTAL-SPRITE-WATER-QA-2026-11-16.json'
+      - 'assets/sprites/qa_provisional/coastal-batch05-2026-11-16/**'
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install renderer
+        run: python -m pip install 'Pillow>=10,<12'
+      - name: Produce 14-city QA contact sheet and geographic anchor manifest
+        run: python tools/review_greece_egypt_water.py
+      - name: Publish QA artifacts without changing production registry
+        uses: actions/upload-artifact@v4
+        with:
+          name: greece-egypt-water-orientation-placement-review
+          path: |
+            reports/greece-egypt-water-review-2026-11-16/existing-vs-candidate.jpg
+            reports/greece-egypt-water-review-2026-11-16/placement-gate.json
+            reports/greece-egypt-water-review-2026-11-16/review-points.geojson
+          if-no-files-found: error
