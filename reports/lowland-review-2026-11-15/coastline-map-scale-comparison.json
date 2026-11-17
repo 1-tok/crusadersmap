@@ -26,9 +26,9 @@
         569,
         408
       ],
-      "pixels_with_difference_over_8": 150393,
-      "changed_percent": 64.78,
-      "mean_abs_difference": 19.339,
+      "pixels_with_difference_over_8": 144405,
+      "changed_percent": 62.2,
+      "mean_abs_difference": 17.333,
       "preview_file": "reports/lowland-review-2026-11-15/nile_delta-before-after.jpg"
     },
     "levant_coast": {
@@ -49,9 +49,9 @@
         609,
         1903
       ],
-      "pixels_with_difference_over_8": 2638,
-      "changed_percent": 0.23,
-      "mean_abs_difference": 0.061,
+      "pixels_with_difference_over_8": 2517,
+      "changed_percent": 0.22,
+      "mean_abs_difference": 0.058,
       "preview_file": "reports/lowland-review-2026-11-15/levant_coast-before-after.jpg"
     },
     "cyprus": {
@@ -72,7 +72,7 @@
         1135,
         658
       ],
-      "pixels_with_difference_over_8": 2739,
+      "pixels_with_difference_over_8": 2788,
       "changed_percent": 0.37,
       "mean_abs_difference": 0.096,
       "preview_file": "reports/lowland-review-2026-11-15/cyprus-before-after.jpg"
@@ -95,9 +95,9 @@
         1117,
         781
       ],
-      "pixels_with_difference_over_8": 1027,
-      "changed_percent": 0.12,
-      "mean_abs_difference": 0.031,
+      "pixels_with_difference_over_8": 868,
+      "changed_percent": 0.1,
+      "mean_abs_difference": 0.029,
       "preview_file": "reports/lowland-review-2026-11-15/cilicia-before-after.jpg"
     },
     "greek_lowlands": {
@@ -118,9 +118,9 @@
         547,
         508
       ],
-      "pixels_with_difference_over_8": 474,
-      "changed_percent": 0.17,
-      "mean_abs_difference": 0.049,
+      "pixels_with_difference_over_8": 391,
+      "changed_percent": 0.14,
+      "mean_abs_difference": 0.045,
       "preview_file": "reports/lowland-review-2026-11-15/greek_lowlands-before-after.jpg"
     }
   }
