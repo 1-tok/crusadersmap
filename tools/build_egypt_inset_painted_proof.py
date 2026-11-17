@@ -236,11 +236,11 @@ def main():
         out_segment(c,line,category,fid,used,qa)
     # Draw entire river source network together over painted field banks;
     # preserve exact line vertices; then make boats and hamlets legible.
-    for pts,width in qa.pop("_water"):
-        stroke(c,pts,width+13,(.39,.35,.18,.76))
-        stroke(c,pts,width+7,(.80,.65,.33,.83))
-        stroke(c,pts,width,(.20,.49,.61,.98))
-        stroke(c,pts,max(2,width*.27),(.29,.61,.70,.38))
+    for pts,river_width in qa.pop("_water"):
+        stroke(c,pts,river_width+13,(.39,.35,.18,.76))
+        stroke(c,pts,river_width+7,(.80,.65,.33,.83))
+        stroke(c,pts,river_width,(.20,.49,.61,.98))
+        stroke(c,pts,max(2,river_width*.27),(.29,.61,.70,.38))
     for xx,yy,size in qa.pop("_villages"):
         village(c,xx,yy,size,RND)
     for xx,yy,angle,size in qa.pop("_boats"):
