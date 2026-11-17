@@ -4,7 +4,7 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 
 | Zone | Land cells | Flat | Thin | Share flat or thin |
 |---|---:|---:|---:|---:|
-| Egypt inset: Western and Eastern deserts | 163 | 101 | 17 | 72% |
+| Egypt inset: Western and Eastern deserts | 163 | 101 | 16 | 72% |
 | Egypt inset: Sinai | 185 | 110 | 17 | 69% |
 | Aegean inset: islands and Crete | 16 | 1 | 3 | 25% |
 | Egypt inset: Delta | 51 | 5 | 5 | 20% |
@@ -22,7 +22,7 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 | Syrian coast and Orontes | 33 | 0 | 0 | 0% |
 | Galilee, Samaria, Judea | 53 | 0 | 0 | 0% |
 
-Whole sheet: 1288 land cells, 221 flat, 51 thin (21% flat or thin).
+Whole sheet: 1288 land cells, 221 flat, 50 thin (21% flat or thin).
 
 ## Flat cells by position
 
@@ -156,7 +156,7 @@ Whole sheet: 1288 land cells, 221 flat, 51 thin (21% flat or thin).
 | Egypt inset: Western and Eastern deserts | 31.98 | 30.28 | 2190 | 11121 | 11.8 |
 | Egypt inset: Western and Eastern deserts | 32.21 | 30.28 | 2390 | 11121 | 11.7 |
 | Egypt inset: Western and Eastern deserts | 29.88 | 30.08 | 390 | 11321 | 10.3 |
-| Egypt inset: Western and Eastern deserts | 30.81 | 30.08 | 1190 | 11321 | 10.8 |
+| Egypt inset: Western and Eastern deserts | 30.81 | 30.08 | 1190 | 11321 | 10.9 |
 | Egypt inset: Western and Eastern deserts | 29.88 | 29.87 | 390 | 11521 | 9.3 |
 | Egypt inset: Western and Eastern deserts | 30.11 | 29.88 | 590 | 11521 | 6.0 |
 | Egypt inset: Western and Eastern deserts | 30.35 | 29.88 | 790 | 11521 | 5.0 |
@@ -208,7 +208,7 @@ Whole sheet: 1288 land cells, 221 flat, 51 thin (21% flat or thin).
 | Egypt inset: Western and Eastern deserts | 30.13 | 28.66 | 590 | 12721 | 9.3 |
 | Egypt inset: Western and Eastern deserts | 30.36 | 28.66 | 790 | 12721 | 9.4 |
 | Egypt inset: Western and Eastern deserts | 30.59 | 28.66 | 990 | 12721 | 10.4 |
-| Egypt inset: Western and Eastern deserts | 31.05 | 28.66 | 1390 | 12721 | 10.6 |
+| Egypt inset: Western and Eastern deserts | 31.05 | 28.66 | 1390 | 12721 | 10.9 |
 | Egypt inset: Western and Eastern deserts | 31.28 | 28.66 | 1590 | 12721 | 7.4 |
 | Egypt inset: Western and Eastern deserts | 31.51 | 28.66 | 1790 | 12721 | 6.4 |
 | Egypt inset: Western and Eastern deserts | 31.74 | 28.66 | 1990 | 12721 | 9.9 |
@@ -226,7 +226,7 @@ Whole sheet: 1288 land cells, 221 flat, 51 thin (21% flat or thin).
 | Egypt inset: Western and Eastern deserts | 29.90 | 28.25 | 390 | 13121 | 5.7 |
 | Egypt inset: Western and Eastern deserts | 30.13 | 28.25 | 590 | 13121 | 8.9 |
 | Egypt inset: Western and Eastern deserts | 30.36 | 28.25 | 790 | 13121 | 10.1 |
-| Egypt inset: Western and Eastern deserts | 30.59 | 28.26 | 990 | 13121 | 7.0 |
+| Egypt inset: Western and Eastern deserts | 30.59 | 28.26 | 990 | 13121 | 7.4 |
 | Egypt inset: Western and Eastern deserts | 31.05 | 28.26 | 1390 | 13121 | 7.5 |
 | Egypt inset: Western and Eastern deserts | 31.27 | 28.26 | 1590 | 13121 | 8.8 |
 | Egypt inset: Western and Eastern deserts | 31.50 | 28.26 | 1790 | 13121 | 8.7 |
@@ -243,7 +243,7 @@ Whole sheet: 1288 land cells, 221 flat, 51 thin (21% flat or thin).
 | Egypt inset: Western and Eastern deserts | 29.91 | 27.85 | 390 | 13521 | 11.0 |
 | Egypt inset: Western and Eastern deserts | 30.13 | 27.85 | 590 | 13521 | 7.5 |
 | Egypt inset: Western and Eastern deserts | 30.59 | 27.85 | 990 | 13521 | 10.9 |
-| Egypt inset: Western and Eastern deserts | 31.05 | 27.85 | 1390 | 13521 | 10.5 |
+| Egypt inset: Western and Eastern deserts | 31.05 | 27.85 | 1390 | 13521 | 10.9 |
 | Egypt inset: Western and Eastern deserts | 31.27 | 27.85 | 1590 | 13521 | 8.9 |
 | Egypt inset: Western and Eastern deserts | 31.50 | 27.85 | 1790 | 13521 | 7.9 |
 | Egypt inset: Western and Eastern deserts | 31.73 | 27.85 | 1990 | 13521 | 9.4 |

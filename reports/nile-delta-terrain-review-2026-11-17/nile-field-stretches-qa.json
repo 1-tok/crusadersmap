@@ -1,0 +1,55 @@
+{
+  "status": "painted_geofitted_floodplain_review",
+  "source": "existing Natural Earth Nile trunk and mapped OSM Delta river segments",
+  "preview_scale_field_readability": "parcel shapes and crop furrows designed for atlas at 0.30",
+  "fields_painted": 1022,
+  "source_geometries": 46,
+  "stretches": [
+    {
+      "name": "southern_valley",
+      "latitude_range": [
+        27.7,
+        28.35
+      ],
+      "painted_fields": 77
+    },
+    {
+      "name": "central_valley",
+      "latitude_range": [
+        28.35,
+        29.15
+      ],
+      "painted_fields": 106
+    },
+    {
+      "name": "northern_valley",
+      "latitude_range": [
+        29.15,
+        30.12
+      ],
+      "painted_fields": 186
+    },
+    {
+      "name": "southern_delta",
+      "latitude_range": [
+        30.12,
+        30.84
+      ],
+      "painted_fields": 320
+    },
+    {
+      "name": "northern_delta",
+      "latitude_range": [
+        30.84,
+        31.65
+      ],
+      "painted_fields": 333
+    }
+  ],
+  "river_centerlines_modified": false,
+  "coastline_clip": "land-minus-lakes",
+  "width_historical_certification": false,
+  "river_seam_certified": false,
+  "terrain_style": "flat fields; no relief sprites",
+  "rendered_layer": "below existing Nile vector and water texture, below cities and labels"
+}
