@@ -11,5 +11,16 @@
   "source_file": "reports/nile-delta-hydrography-review-2026-11-17/delta-osm-waterways.geojson",
   "historical_accuracy_certified": false,
   "synthetic_main_branches_drawn": false,
-  "coastline_clipped": true
+  "coastline_clipped": true,
+  "upstream_coverage": {
+    "southern_source": "Natural Earth 10m river/lake centerlines from repository",
+    "upstream_rendered": true,
+    "upstream_source_segments": 1,
+    "upstream_min_lat": 27.5,
+    "upstream_max_lat": 30.1,
+    "northern_source": "OpenStreetMap via ArcGIS waterway service",
+    "northern_segments": 166,
+    "upstream_north_join_review_required": true,
+    "entire_network_medieval_verified": false
+  }
 }
