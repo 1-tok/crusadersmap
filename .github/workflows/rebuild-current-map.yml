@@ -44,6 +44,9 @@ on:
       - 'terrain.py'
       - 'tools/draw_nile_ecology_pack.py'
       - 'tools/draw_nile_field_stretches.py'
+      - 'tools/place_approved_nile_painting.py'
+      - 'data/sprites/nile-painted-modular-2026-11-17-v2/**'
+      - 'reports/egypt-nile-painted-modular-review/geographic-fit-v2-qa.json'
       - 'tools/install_nile_ecology_pack.py'
       - 'tools/build_nile_derived_sprite_fallback.py'
       - 'tools/review_full_nile_inset.py'
@@ -95,7 +98,7 @@ jobs:
           python -m py_compile tools/audit_lowland_51_cutouts.py tools/lowland_51_review_placer.py tools/check_lowland_51_review.py tools/compare_lowland_coasts.py
           python -m py_compile terrain.py tools/draw_nile_delta_wetlands.py tools/nile_delta_terrain_policy.py build_stage2.py
           python tools/nile_delta_terrain_policy.py
-          python -m py_compile tools/install_nile_ecology_pack.py tools/draw_nile_ecology_pack.py tools/draw_nile_field_stretches.py
+          python -m py_compile tools/install_nile_ecology_pack.py tools/draw_nile_ecology_pack.py tools/draw_nile_field_stretches.py tools/place_approved_nile_painting.py
           python tools/install_nile_ecology_pack.py
           python -m py_compile tools/build_nile_derived_sprite_fallback.py
           python tools/build_nile_derived_sprite_fallback.py
@@ -154,6 +157,18 @@ jobs:
           python tools/check_lowland_51_review.py
           python tools/compare_lowland_coasts.py
           python tools/review_full_nile_inset.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("reports/rebuild-2026-11-12/nile-painted-production-placement.json")
+          q=json.loads(p.read_text())
+          assert q["status"]=="production_atlas_painted_section_active"
+          assert q["panel_count"]==4 and q["pixel_exact_original_source_seams"]
+          assert not q["rotation_degrees"] and not q["mirrored"] and not q["nonuniform_distortion"]
+          assert q["visible_pixels_alpha_gt_0_1"]>15000
+          assert q["upstream_and_delta_extensions"]=="not yet painted or connected"
+          print("PAINTED NILE PRODUCTION SECTION VERIFIED:",q)
+          PY
       - name: Update Canaan geographic review from actual rebuilt map
         run: python tools/build_canaan_map_review.py
       - name: Generate new coverage and asset-usage registers
