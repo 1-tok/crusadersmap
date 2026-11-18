@@ -2,7 +2,11 @@
   "status": "painted_geofitted_floodplain_review",
   "source": "existing Natural Earth Nile trunk and mapped OSM Delta river segments",
   "preview_scale_field_readability": "parcel shapes and crop furrows designed for atlas at 0.30",
-  "fields_painted": 1022,
+  "fields_painted": 986,
+  "geography_fitted_painted_bank_sections": 586,
+  "giza_west_bank_rule": "no parcels west of 31.18 E between 29.90 and 30.08 N; narrowed painted transition",
+  "southward_limit": "27.7 N inset edge; Valley of the Kings near 25.7 N is outside this frame",
+  "extension_status": "continuous source-aligned visual bank treatment; NOT additional approved original PNG panels",
   "source_geometries": 46,
   "stretches": [
     {
@@ -27,7 +31,7 @@
         29.15,
         30.12
       ],
-      "painted_fields": 186
+      "painted_fields": 156
     },
     {
       "name": "southern_delta",
@@ -35,7 +39,7 @@
         30.12,
         30.84
       ],
-      "painted_fields": 320
+      "painted_fields": 302
     },
     {
       "name": "northern_delta",
@@ -43,7 +47,7 @@
         30.84,
         31.65
       ],
-      "painted_fields": 333
+      "painted_fields": 345
     }
   ],
   "river_centerlines_modified": false,
