@@ -40,7 +40,13 @@ def draw(c, reg, edition):
     # Review enlarged the 0.30-scale atlas by a further factor of 2.2.
     # Convert its known fit back into the native inset coordinates exactly.
     conversion=1.0/(.30*2.2)
-    # Old GIS fit was measured in the 4800px-wide, 27.7 N inset.\n    # The new inset retains the same northern projected edge and western\n    # longitude. Scale positions and artwork uniformly with map metres.\n    scale_ratio=reg.w/4800.0\n    uniform_scale=fit["fit"]["uniform_scale"]*conversion*scale_ratio\n    x_native=fit["fit"]["translation_xy"][0]*conversion*scale_ratio\n    y_native=fit["fit"]["translation_xy"][1]*conversion*scale_ratio
+    # Old GIS fit was measured in the 4800px-wide, 27.7 N inset.
+    # The new inset retains the same northern projected edge and western
+    # longitude. Scale positions and artwork uniformly with map metres.
+    scale_ratio=reg.w/4800.0
+    uniform_scale=fit["fit"]["uniform_scale"]*conversion*scale_ratio
+    x_native=fit["fit"]["translation_xy"][0]*conversion*scale_ratio
+    y_native=fit["fit"]["translation_xy"][1]*conversion*scale_ratio
     native_w=round(source["image_size"][0]*uniform_scale)
     native_h=round(source["image_size"][1]*uniform_scale)
     if not (.3<uniform_scale<1.5 and 0<x_native<reg.w and 0<y_native<reg.h):
