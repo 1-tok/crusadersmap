@@ -251,7 +251,7 @@ def draw_ink2(edition, surf=None, scale=None, mode=None):
     for off, lw in ((0, 6), (16, 3)):
         c.set_line_width(lw); c.rectangle(JX - off, JY - off, JW + 2 * off, JH + 2 * off); c.stroke()
     plate(c, 300, 4800, 2000, 4300)
-    KP.draw_key(c, edition, 300, 4800, 2000, 4300)
+    KP.draw_key(c, edition, 300, 4800, 2000, 4200)
     draw_title_cartouche(c)
     plate(c, 190, 13920, 10420, 330)
     KP.draw_sources(c, 190, 13920, 10420, 330, {k: (REG[k].x1 - REG[k].x0) / REG[k].w for k in ("main", "aegean", "delta")})
