@@ -7,8 +7,9 @@ and places each at an actual Nile centerline anchor without rotation, mirroring
 or arbitrary deformation. The existing river is never replaced.
 """
 from __future__ import annotations
-import hashlib,json,math,random
+import hashlib,json,math,random,sys
 from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import numpy as np
 from PIL import Image,ImageDraw,ImageFilter
 from shapely.geometry import LineString
