@@ -7,12 +7,14 @@ images for the user's separately approved 29-PNG batch, which must be
 ingested independently before production placement. Never edits the atlas.
 """
 import json
+import sys
 from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 from shapely.geometry import box
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))  # resolve frame, rough and terrain when run via tools/
 SOURCE = ROOT / "reports/rebuild-2026-11-12/outremer-current-composite.jpg"
 PACK = ROOT / "data/sprites/nile-ecology-2026-11-17"
 OUT = ROOT / "reports/nile-two-bank-target-review"
