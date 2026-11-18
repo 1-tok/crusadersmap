@@ -27,7 +27,7 @@ def main():
     # The source atlas uses 13760 print pixels in one dimension, and build
     # stage2 is run at 0.30 scale. Calculate from actual image width.
     scale=b.width/float(FR.W)
-    reg=Region.from_lonlat(FR.INSETS["delta"]["proj"], FR.INSETS["delta"]["ext"], 4800)
+    reg=Region.from_lonlat(FR.INSETS["delta"]["proj"], FR.INSETS["delta"]["ext"], 3500)
     bx,by=190,13760-reg.h
     rect=(max(0,round(bx*scale)),max(0,round(by*scale)),
           min(b.width,round((bx+reg.w)*scale)),
