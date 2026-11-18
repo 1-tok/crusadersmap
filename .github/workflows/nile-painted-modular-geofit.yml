@@ -7,6 +7,7 @@ on:
       - '.github/workflows/nile-painted-modular-geofit.yml'
       - 'tools/review_nile_painted_modular_geofit.py'
       - 'data/sprites/nile-painted-modular-2026-11-17/**'
+      - 'data/sprites/nile-painted-modular-2026-11-17-v2/**'
 permissions:
   contents: write
 concurrency:
@@ -35,11 +36,11 @@ jobs:
           from pathlib import Path
           from PIL import Image
           root=Path('reports/egypt-nile-painted-modular-review')
-          qa=json.loads((root/'geographic-fit-qa.json').read_text())
+          qa=json.loads((root/'geographic-fit-v2-qa.json').read_text())
           assert qa['panel_count']==4
           assert qa['seam_reconstruction']=='pixel_exact_pass'
           assert qa['no_rotation'] and qa['no_mirroring'] and qa['no_nonuniform_deformation']
-          with Image.open(root/'nile_painted_geographic_trial.jpg') as image:
+          with Image.open(root/'nile_painted_geographic_v2_trial.jpg') as image:
               assert image.width>2000 and image.height>1500,image.size
           print('GEOGRAPHIC REVIEW STATUS:',qa['status'])
           PY
