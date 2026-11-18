@@ -1,0 +1,27 @@
+{
+  "status": "geographic_fit_candidate",
+  "source": "caption-free four painted Nile PNG panels V2",
+  "caption_border_removed": true,
+  "published_review_image": "reports/egypt-nile-painted-modular-review/nile_painted_geographic_v2_trial.jpg",
+  "panel_count": 4,
+  "seam_reconstruction": "pixel_exact_pass",
+  "no_rotation": true,
+  "no_mirroring": true,
+  "no_nonuniform_deformation": true,
+  "source_nile_geometry": "Natural Earth river centerline",
+  "fit": {
+    "uniform_scale": 0.54,
+    "translation_xy": [
+      404.51,
+      1776.0
+    ],
+    "median_centerline_deviation_px": 10.64,
+    "p90_centerline_deviation_px": 35.98,
+    "samples": 73
+  },
+  "geographic_alignment_pass": true,
+  "hydrologic_join_at_Cairo": "not_applicable_until_section_promotion",
+  "historical_land_use_certified": false,
+  "production_approved": false,
+  "note": "If mismatch is high, repaint to source bend: do not apply GIS warping or rotate bank sprites."
+}
