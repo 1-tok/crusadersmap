@@ -1,0 +1,100 @@
+{
+  "status": "painted_sprites_provisional_egypt_only_review",
+  "source": "four exact committed RGBA painted PNGs",
+  "sprite_count": 4,
+  "source_geographic_waterway_segments_protected": 62,
+  "sprite_rotation_degrees": 0,
+  "mirror_count": 0,
+  "water_geometry_modified": false,
+  "full_map_modified": false,
+  "alignment": "real Nile valley centerline intersected at specified latitudes",
+  "geographic_seam_certified": false,
+  "historical_site_accuracy_certified": false,
+  "production_approved": false,
+  "placements": [
+    {
+      "asset": "leftbank_south_a.png",
+      "side": "left",
+      "latitude": 28.23,
+      "lon": 30.747897,
+      "river_anchor_px": [
+        686.36,
+        2326.91
+      ],
+      "painting_xy": [
+        395,
+        2155
+      ],
+      "display_px": [
+        320,
+        344
+      ],
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "sha256": "fd26f187ef09a586776bad8e95a51410f67df944327a00f380c8ffcacb0cf6ca"
+    },
+    {
+      "asset": "rightbank_south_a.png",
+      "side": "right",
+      "latitude": 28.23,
+      "lon": 30.747897,
+      "river_anchor_px": [
+        686.36,
+        2326.91
+      ],
+      "painting_xy": [
+        658,
+        2154
+      ],
+      "display_px": [
+        320,
+        345
+      ],
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "sha256": "0bd4c8a611cd4dd138606e24035e603d0837cd2c86b119516acc306a7d8cb734"
+    },
+    {
+      "asset": "leftbank_south_b.png",
+      "side": "left",
+      "latitude": 29.0,
+      "lon": 31.039852,
+      "river_anchor_px": [
+        854.97,
+        1825.98
+      ],
+      "painting_xy": [
+        564,
+        1636
+      ],
+      "display_px": [
+        320,
+        380
+      ],
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "sha256": "b7e87c6836bb899695bf1efc479598e295ba85b1f98df70baaee8be4ca48f64e"
+    },
+    {
+      "asset": "rightbank_south_b.png",
+      "side": "right",
+      "latitude": 29.0,
+      "lon": 31.039852,
+      "river_anchor_px": [
+        854.97,
+        1825.98
+      ],
+      "painting_xy": [
+        826,
+        1635
+      ],
+      "display_px": [
+        320,
+        381
+      ],
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "sha256": "a8d517085051174c2ee4ce765d09a44e2c6b809a23e37746fe3c7185473a4e7b"
+    }
+  ]
+}
