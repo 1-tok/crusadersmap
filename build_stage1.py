@@ -25,6 +25,38 @@ CONT = {"main": T.MAIN, "aegean": T.AEGEAN, "delta": T.DELTA}
 TER = {k: T.Terrain(REG[k], CONT[k], seed=i + 3, S=S) for i, k in enumerate(("main", "aegean", "delta"))}
 
 
+
+def draw_title_cartouche(c):
+    """Fraktur title in the established sea cartouche; common to both print stages."""
+    x, y, w, h = 2700, 6750, 2700, 1000
+    plate(c, x, y, w, h)
+    c.save()
+    c.set_source_rgb(*INKC)
+    # Antique double-rule frame with restrained illuminated corner diamonds.
+    c.set_line_width(3)
+    c.rectangle(x + 35, y + 35, w - 70, h - 70)
+    c.stroke()
+    for px in (x + 100, x + w - 100):
+        for py in (y + 105, y + h - 105):
+            c.move_to(px, py - 19)
+            c.line_to(px + 19, py)
+            c.line_to(px, py + 19)
+            c.line_to(px - 19, py)
+            c.close_path()
+            c.fill()
+    c.select_font_face("UnifrakturCook", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
+    size = 320
+    while size > 120:
+        c.set_font_size(size)
+        if c.text_extents("Outremer").x_advance <= w - 260:
+            break
+        size -= 8
+    c.move_to(x + (w - c.text_extents("Outremer").x_advance) / 2, y + 540)
+    c.show_text("Outremer")
+    c.restore()
+    centred(c, "The Crusader States and their Neighbours", 4050, 7480, 62, INKC, "IM FELL English")
+    centred(c, "1095 - 1571", 4050, 7640, 52, SEP, "IM FELL English", cairo.FONT_SLANT_ITALIC)
+
 def paper_tex(w, h, seed=3):
     rng = np.random.default_rng(seed)
     n = rng.normal(0, 1, (h // 10 + 2, w // 10 + 2))
@@ -261,10 +293,7 @@ def draw_ink(edition):
     # panels
     plate(c, 300, 4800, 2000, 4300)
     centred(c, "KEY", 1300, 4990, 90, SEP)
-    plate(c, 2700, 6750, 2700, 1000)
-    centred(c, "Outremer", 4050, 7310, 320)
-    centred(c, "The Crusader States and their Neighbours", 4050, 7480, 62)
-    centred(c, "1095 - 1571", 4050, 7640, 52, SEP, "IM FELL English", cairo.FONT_SLANT_ITALIC)
+    draw_title_cartouche(c)
     plate(c, 190, 13920, 10420, 330)
     centred(c, "SOURCES AND SCALE", 5400, 14125, 84, SEP)
     compass(c, 4300, 8950, 330)
