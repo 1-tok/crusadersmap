@@ -1,0 +1,84 @@
+{
+  "id": "nile-painted-modular-2026-11-17-v2",
+  "status": "geographic_fit_review_not_promoted",
+  "viewpoint": "south_looking_north",
+  "source": "approved painted_nile_valley_villages_and_felucca.png",
+  "source_sha256": "52284bd67bec77300994bb7b796050451482fc0c7c021108c219a957c0851a76",
+  "source_crop_xyxy": [
+    20,
+    42,
+    1164,
+    1245
+  ],
+  "source_caption_and_border_removed": true,
+  "image_size": [
+    1144,
+    1203
+  ],
+  "panel_count": 4,
+  "exact_pixel_stitch": true,
+  "tile_seams_y": [
+    300,
+    600,
+    900
+  ],
+  "alpha_feather_only_left_right_px": 140,
+  "rotation": 0,
+  "mirror": false,
+  "geographic_fit": "retest_required",
+  "production_approved": false,
+  "assets": [
+    {
+      "id": "nile_corridor_01",
+      "path": "nile_corridor_01.png",
+      "git_blob_sha": "cfd7163c107cc13f8de644bce3eda7d526f2d2ef",
+      "source_crop_y0": 0,
+      "source_crop_y1": 300,
+      "dimensions_px": [
+        1144,
+        300
+      ],
+      "rotation_degrees": 0,
+      "mirror": false
+    },
+    {
+      "id": "nile_corridor_02",
+      "path": "nile_corridor_02.png",
+      "git_blob_sha": "1282ff2df82de2394ded67a75338a8ff620b006d",
+      "source_crop_y0": 300,
+      "source_crop_y1": 600,
+      "dimensions_px": [
+        1144,
+        300
+      ],
+      "rotation_degrees": 0,
+      "mirror": false
+    },
+    {
+      "id": "nile_corridor_03",
+      "path": "nile_corridor_03.png",
+      "git_blob_sha": "60b26869e95706cc03bf670350fed9b785283079",
+      "source_crop_y0": 600,
+      "source_crop_y1": 900,
+      "dimensions_px": [
+        1144,
+        300
+      ],
+      "rotation_degrees": 0,
+      "mirror": false
+    },
+    {
+      "id": "nile_corridor_04",
+      "path": "nile_corridor_04.png",
+      "git_blob_sha": "8f5c6825daa553dd1f4efe8fe120742bcffe1415",
+      "source_crop_y0": 900,
+      "source_crop_y1": 1203,
+      "dimensions_px": [
+        1144,
+        303
+      ],
+      "rotation_degrees": 0,
+      "mirror": false
+    }
+  ]
+}
