@@ -7,15 +7,16 @@
   "mirrored": false,
   "nonuniform_distortion": false,
   "native_egypt_inset_pixel_xy": [
-    612.894,
-    2690.909
+    446.902,
+    1962.121
   ],
-  "source_scale_to_4800px_region": 0.81818,
+  "source_scale_to_expanded_3500px_region": 0.59659,
+  "geographic_projection_change": "same upper edge and west boundary; uniform 3500/4800 fit scale",
   "drawn_dimensions_px": [
-    936,
-    984
+    682,
+    718
   ],
-  "visible_pixels_alpha_gt_0_1": 834648,
+  "visible_pixels_alpha_gt_0_1": 443808,
   "draw_order": "after terrain ink; before city, fortress, and map labels",
   "upstream_and_delta_extensions": "not yet painted or connected",
   "geo_fit_median_deviation_in_enlarged_preview_px": 10.64,

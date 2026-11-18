@@ -1,0 +1,303 @@
+{
+  "status": "review_not_approved_for_production",
+  "source_atlas": "reports/rebuild-2026-11-12/outremer-current-composite.jpg",
+  "image": "reports/nile-two-bank-target-review/nile-both-banks-actual-atlas-before-after.jpg",
+  "existing_approved_four_panel_nile_untouched": true,
+  "approved_new_29_png_batch_included": false,
+  "reason": "29 approved PNGs not available in repository; used existing registered provisional bank cutouts",
+  "candidate_placements": 16,
+  "placement_audit": [
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_001.png",
+      "sprite_class": "delta_farm",
+      "longitude": 32.66319,
+      "latitude": 25.75324,
+      "side": "west",
+      "position_px": [
+        506,
+        1281
+      ],
+      "width_px": 82,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_002.png",
+      "sprite_class": "delta_farm",
+      "longitude": 32.66319,
+      "latitude": 25.75324,
+      "side": "east",
+      "position_px": [
+        623,
+        1281
+      ],
+      "width_px": 82,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_003.png",
+      "sprite_class": "delta_farm",
+      "longitude": 31.70813,
+      "latitude": 26.59867,
+      "side": "west",
+      "position_px": [
+        318,
+        1100
+      ],
+      "width_px": 82,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_004.png",
+      "sprite_class": "delta_farm",
+      "longitude": 31.70813,
+      "latitude": 26.59867,
+      "side": "east",
+      "position_px": [
+        435,
+        1100
+      ],
+      "width_px": 82,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_005.png",
+      "sprite_class": "delta_farm",
+      "longitude": 30.91095,
+      "latitude": 27.39924,
+      "side": "west",
+      "position_px": [
+        163,
+        927
+      ],
+      "width_px": 82,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_006.png",
+      "sprite_class": "delta_farm",
+      "longitude": 30.91095,
+      "latitude": 27.39924,
+      "side": "east",
+      "position_px": [
+        271,
+        927
+      ],
+      "width_px": 82,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_007.png",
+      "sprite_class": "delta_farm",
+      "longitude": 30.77064,
+      "latitude": 28.09938,
+      "side": "west",
+      "position_px": [
+        137,
+        776
+      ],
+      "width_px": 82,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_008.png",
+      "sprite_class": "delta_farm",
+      "longitude": 30.77064,
+      "latitude": 28.09938,
+      "side": "east",
+      "position_px": [
+        245,
+        776
+      ],
+      "width_px": 82,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_009.png",
+      "sprite_class": "delta_farm",
+      "longitude": 30.96541,
+      "latitude": 28.8985,
+      "side": "west",
+      "position_px": [
+        174,
+        604
+      ],
+      "width_px": 82,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_010.png",
+      "sprite_class": "delta_farm",
+      "longitude": 30.96541,
+      "latitude": 28.8985,
+      "side": "east",
+      "position_px": [
+        282,
+        604
+      ],
+      "width_px": 82,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_011.png",
+      "sprite_class": "delta_farm",
+      "longitude": 31.25258,
+      "latitude": 29.50109,
+      "side": "west",
+      "position_px": [
+        238,
+        474
+      ],
+      "width_px": 82,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_012.png",
+      "sprite_class": "delta_farm",
+      "longitude": 31.25258,
+      "latitude": 29.50109,
+      "side": "east",
+      "position_px": [
+        328,
+        474
+      ],
+      "width_px": 82,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_013.png",
+      "sprite_class": "delta_farm",
+      "longitude": 31.18507,
+      "latitude": 30.14952,
+      "side": "west",
+      "position_px": [
+        174,
+        330
+      ],
+      "width_px": 94,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_014.png",
+      "sprite_class": "delta_farm",
+      "longitude": 31.18507,
+      "latitude": 30.14952,
+      "side": "east",
+      "position_px": [
+        336,
+        330
+      ],
+      "width_px": 94,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_015.png",
+      "sprite_class": "delta_farm",
+      "longitude": 32.3397,
+      "latitude": 30.75003,
+      "side": "west",
+      "position_px": [
+        425,
+        199
+      ],
+      "width_px": 94,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_016.png",
+      "sprite_class": "delta_farm",
+      "longitude": 32.3397,
+      "latitude": 30.75003,
+      "side": "east",
+      "position_px": [
+        533,
+        199
+      ],
+      "width_px": 94,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "nonuniform_deformation": false,
+      "river_overlap_pixels": 0,
+      "status": "review_on_real_atlas"
+    },
+    {
+      "side": "west",
+      "latitude_target": 31.2,
+      "status": "held_instead_of_crossing_river"
+    },
+    {
+      "side": "east",
+      "latitude_target": 31.2,
+      "status": "held_instead_of_crossing_river"
+    }
+  ],
+  "rotation_degrees": 0,
+  "mirrored": false,
+  "sprite_deformation": "uniform_resize_only",
+  "river_crossing_rule": "all bank-only candidate opaque pixels rejected when overlapping mapped river centerline buffer",
+  "accuracy_limit": "sourced centerline mask; final pixel shoreline and historical placement validation required",
+  "target_frame_width": 3500,
+  "target_frame_latitude_range": [
+    25.3,
+    31.8
+  ]
+}

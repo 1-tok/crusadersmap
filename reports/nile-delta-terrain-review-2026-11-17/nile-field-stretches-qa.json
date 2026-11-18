@@ -2,20 +2,36 @@
   "status": "painted_geofitted_floodplain_review",
   "source": "existing Natural Earth Nile trunk and mapped OSM Delta river segments",
   "preview_scale_field_readability": "parcel shapes and crop furrows designed for atlas at 0.30",
-  "fields_painted": 986,
-  "geography_fitted_painted_bank_sections": 586,
+  "fields_painted": 1061,
+  "geography_fitted_painted_bank_sections": 631,
   "giza_west_bank_rule": "no parcels west of 31.18 E between 29.90 and 30.08 N; narrowed painted transition",
-  "southward_limit": "27.7 N inset edge; Valley of the Kings near 25.7 N is outside this frame",
+  "southward_limit": "25.3 N inset edge; Thebes and Valley of the Kings included as geographic context",
   "extension_status": "continuous source-aligned visual bank treatment; NOT additional approved original PNG panels",
-  "source_geometries": 46,
+  "source_geometries": 39,
   "stretches": [
+    {
+      "name": "theban_valley",
+      "latitude_range": [
+        25.3,
+        26.45
+      ],
+      "painted_fields": 170
+    },
+    {
+      "name": "upper_valley",
+      "latitude_range": [
+        26.45,
+        27.7
+      ],
+      "painted_fields": 147
+    },
     {
       "name": "southern_valley",
       "latitude_range": [
         27.7,
         28.35
       ],
-      "painted_fields": 77
+      "painted_fields": 57
     },
     {
       "name": "central_valley",
@@ -23,7 +39,7 @@
         28.35,
         29.15
       ],
-      "painted_fields": 106
+      "painted_fields": 79
     },
     {
       "name": "northern_valley",
@@ -31,7 +47,7 @@
         29.15,
         30.12
       ],
-      "painted_fields": 156
+      "painted_fields": 117
     },
     {
       "name": "southern_delta",
@@ -39,7 +55,7 @@
         30.12,
         30.84
       ],
-      "painted_fields": 302
+      "painted_fields": 239
     },
     {
       "name": "northern_delta",
@@ -47,7 +63,7 @@
         30.84,
         31.65
       ],
-      "painted_fields": 345
+      "painted_fields": 252
     }
   ],
   "river_centerlines_modified": false,

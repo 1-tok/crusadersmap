@@ -1,8 +1,8 @@
 {
   "status": "provisional_generated_paintings_rendered",
-  "placed": 99,
+  "placed": 94,
   "by_class": {
-    "delta_farm": 45,
+    "delta_farm": 40,
     "nile_farm_upstream": 35,
     "delta_marsh": 19
   },
@@ -12,485 +12,12 @@
   "instances": [
     {
       "class": "delta_farm",
-      "asset": "derived_delta_farm_017",
-      "lonlat": [
-        31.28564,
-        31.13163
-      ],
-      "width_print_px": 228,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_013",
-      "lonlat": [
-        31.6722,
-        30.70462
-      ],
-      "width_print_px": 188,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_003",
-      "lonlat": [
-        31.56744,
-        30.88757
-      ],
-      "width_print_px": 193,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_012",
-      "lonlat": [
-        31.42426,
-        30.27958
-      ],
-      "width_print_px": 199,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_026",
-      "lonlat": [
-        30.96746,
-        31.01002
-      ],
-      "width_print_px": 197,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_026",
-      "lonlat": [
-        31.10872,
-        30.49294
-      ],
-      "width_print_px": 199,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_027",
-      "lonlat": [
-        31.10877,
-        30.94925
-      ],
-      "width_print_px": 212,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_002",
-      "lonlat": [
-        30.82727,
-        30.61434
-      ],
-      "width_print_px": 254,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
       "asset": "derived_delta_farm_005",
       "lonlat": [
-        31.60335,
-        31.00911
+        30.87752,
+        31.13068
       ],
-      "width_print_px": 191,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_006",
-      "lonlat": [
-        31.45989,
-        30.43159
-      ],
-      "width_print_px": 259,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_027",
-      "lonlat": [
-        30.68576,
-        30.79649
-      ],
-      "width_print_px": 218,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_027",
-      "lonlat": [
-        31.17915,
-        30.67544
-      ],
-      "width_print_px": 241,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_014",
-      "lonlat": [
-        31.42723,
-        31.16177
-      ],
-      "width_print_px": 194,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_005",
-      "lonlat": [
-        31.28523,
-        30.9187
-      ],
-      "width_print_px": 190,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_019",
-      "lonlat": [
-        31.53066,
-        30.55307
-      ],
-      "width_print_px": 194,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_012",
-      "lonlat": [
-        31.3539,
-        30.18847
-      ],
-      "width_print_px": 237,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_010",
-      "lonlat": [
-        31.17948,
-        31.0709
-      ],
-      "width_print_px": 240,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_012",
-      "lonlat": [
-        31.42569,
-        30.70548
-      ],
-      "width_print_px": 253,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_012",
-      "lonlat": [
-        31.21375,
-        30.15825
-      ],
-      "width_print_px": 245,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_002",
-      "lonlat": [
-        31.28436,
-        30.46239
-      ],
-      "width_print_px": 257,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_008",
-      "lonlat": [
-        31.28413,
-        30.3407
-      ],
-      "width_print_px": 236,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_025",
-      "lonlat": [
-        31.00337,
-        30.43206
-      ],
-      "width_print_px": 232,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_027",
-      "lonlat": [
-        31.4261,
-        30.82716
-      ],
-      "width_print_px": 222,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_023",
-      "lonlat": [
-        30.96771,
-        30.8275
-      ],
-      "width_print_px": 251,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_008",
-      "lonlat": [
-        31.35502,
-        30.61437
-      ],
-      "width_print_px": 246,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_022",
-      "lonlat": [
-        31.39139,
-        31.00976
-      ],
-      "width_print_px": 256,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_015",
-      "lonlat": [
-        30.68471,
-        31.03984
-      ],
-      "width_print_px": 219,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_015",
-      "lonlat": [
-        31.10875,
-        30.82757
-      ],
-      "width_print_px": 202,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_006",
-      "lonlat": [
-        30.86133,
-        31.07071
-      ],
-      "width_print_px": 249,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_006",
-      "lonlat": [
-        30.96809,
-        30.55371
-      ],
-      "width_print_px": 254,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_013",
-      "lonlat": [
-        30.6145,
-        30.94834
-      ],
-      "width_print_px": 201,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_021",
-      "lonlat": [
-        31.81508,
-        30.9777
-      ],
-      "width_print_px": 213,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_013",
-      "lonlat": [
-        31.17883,
-        30.27996
-      ],
-      "width_print_px": 249,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_020",
-      "lonlat": [
-        30.75582,
-        30.91837
-      ],
-      "width_print_px": 188,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_007",
-      "lonlat": [
-        31.03833,
-        30.67545
-      ],
-      "width_print_px": 193,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_020",
-      "lonlat": [
-        31.70876,
-        30.9174
-      ],
-      "width_print_px": 219,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_008",
-      "lonlat": [
-        31.21501,
-        31.22296
-      ],
-      "width_print_px": 243,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_004",
-      "lonlat": [
-        31.03802,
-        31.16217
-      ],
-      "width_print_px": 246,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_004",
-      "lonlat": [
-        31.0386,
-        30.24955
-      ],
-      "width_print_px": 228,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_020",
-      "lonlat": [
-        31.74506,
-        31.06933
-      ],
-      "width_print_px": 199,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_001",
-      "lonlat": [
-        31.49762,
-        31.07032
-      ],
-      "width_print_px": 192,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_015",
-      "lonlat": [
-        31.2497,
-        30.76664
-      ],
-      "width_print_px": 251,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_012",
-      "lonlat": [
-        30.86215,
-        30.73609
-      ],
-      "width_print_px": 226,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_farm",
-      "asset": "derived_delta_farm_013",
-      "lonlat": [
-        30.897,
-        30.91867
-      ],
-      "width_print_px": 250,
+      "width_print_px": 244,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
@@ -498,307 +25,428 @@
       "class": "delta_farm",
       "asset": "derived_delta_farm_011",
       "lonlat": [
-        31.17893,
-        30.40165
+        31.07167,
+        30.75499
       ],
-      "width_print_px": 185,
+      "width_print_px": 235,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_015",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_025",
       "lonlat": [
-        31.3524,
-        29.61047
+        31.21608,
+        30.2955
+      ],
+      "width_print_px": 199,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_021",
+      "lonlat": [
+        31.65295,
+        31.00441
       ],
       "width_print_px": 188,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_008",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_018",
       "lonlat": [
-        31.00474,
-        29.03275
+        31.749,
+        30.87867
       ],
-      "width_print_px": 184,
+      "width_print_px": 245,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_018",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_019",
       "lonlat": [
-        30.9704,
-        28.81982
+        31.60233,
+        30.58695
       ],
-      "width_print_px": 177,
+      "width_print_px": 212,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_021",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_011",
       "lonlat": [
-        30.79861,
-        28.51543
+        30.92723,
+        30.46251
       ],
-      "width_print_px": 209,
+      "width_print_px": 221,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_027",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_012",
       "lonlat": [
-        30.69642,
-        28.24149
+        31.36114,
+        30.58766
       ],
-      "width_print_px": 189,
+      "width_print_px": 192,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_011",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_020",
       "lonlat": [
-        31.21248,
-        29.06315
+        31.02315,
+        31.00556
       ],
-      "width_print_px": 226,
+      "width_print_px": 195,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_017",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_018",
       "lonlat": [
-        30.69691,
-        28.11988
+        31.21704,
+        31.08906
       ],
-      "width_print_px": 173,
+      "width_print_px": 260,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_006",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_025",
       "lonlat": [
-        31.31718,
-        29.42802
+        30.97513,
+        30.6714
       ],
-      "width_print_px": 178,
+      "width_print_px": 192,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_010",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_009",
       "lonlat": [
-        31.10859,
-        28.94154
-      ],
-      "width_print_px": 207,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_022",
-      "lonlat": [
-        30.79935,
-        28.27218
-      ],
-      "width_print_px": 183,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_022",
-      "lonlat": [
-        31.24725,
-        29.15436
-      ],
-      "width_print_px": 222,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_020",
-      "lonlat": [
-        30.76633,
-        27.87689
-      ],
-      "width_print_px": 225,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_005",
-      "lonlat": [
-        30.93731,
-        27.93802
-      ],
-      "width_print_px": 226,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_021",
-      "lonlat": [
-        31.14331,
-        29.24569
-      ],
-      "width_print_px": 205,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_023",
-      "lonlat": [
-        31.21297,
-        29.48899
-      ],
-      "width_print_px": 175,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_016",
-      "lonlat": [
-        30.83215,
-        28.85002
-      ],
-      "width_print_px": 237,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_017",
-      "lonlat": [
-        30.83338,
-        28.39388
-      ],
-      "width_print_px": 173,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_020",
-      "lonlat": [
-        31.31839,
-        29.97558
-      ],
-      "width_print_px": 200,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_018",
-      "lonlat": [
-        31.21343,
-        29.88446
-      ],
-      "width_print_px": 236,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_001",
-      "lonlat": [
-        30.83403,
-        28.15064
-      ],
-      "width_print_px": 196,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_004",
-      "lonlat": [
-        30.90174,
-        28.60686
-      ],
-      "width_print_px": 196,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_016",
-      "lonlat": [
-        30.93566,
-        28.94143
+        31.40872,
+        30.37872
       ],
       "width_print_px": 219,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_023",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_006",
       "lonlat": [
-        31.24863,
-        30.06695
+        30.63638,
+        30.8377
       ],
-      "width_print_px": 189,
+      "width_print_px": 253,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_009",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_009",
       "lonlat": [
-        30.73008,
-        28.42402
+        31.07174,
+        30.50439
       ],
-      "width_print_px": 237,
+      "width_print_px": 210,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_008",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_005",
       "lonlat": [
-        31.1086,
-        29.09361
+        30.92663,
+        30.79664
       ],
-      "width_print_px": 218,
+      "width_print_px": 197,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_020",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_023",
       "lonlat": [
-        31.35311,
-        29.88426
+        30.83041,
+        30.62941
+      ],
+      "width_print_px": 251,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_009",
+      "lonlat": [
+        31.41032,
+        30.87992
+      ],
+      "width_print_px": 256,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_009",
+      "lonlat": [
+        31.65128,
+        30.71205
+      ],
+      "width_print_px": 227,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_018",
+      "lonlat": [
+        31.55527,
+        30.83773
+      ],
+      "width_print_px": 250,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_020",
+      "lonlat": [
+        31.26453,
+        30.50429
+      ],
+      "width_print_px": 222,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_020",
+      "lonlat": [
+        30.58713,
+        31.00457
+      ],
+      "width_print_px": 227,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_015",
+      "lonlat": [
+        31.21683,
+        30.922
+      ],
+      "width_print_px": 206,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_026",
+      "lonlat": [
+        31.21719,
+        31.21434
+      ],
+      "width_print_px": 194,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_021",
+      "lonlat": [
+        30.78091,
+        31.00519
+      ],
+      "width_print_px": 246,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_027",
+      "lonlat": [
+        31.21653,
+        30.67141
+      ],
+      "width_print_px": 256,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_012",
+      "lonlat": [
+        31.45963,
+        31.13037
+      ],
+      "width_print_px": 238,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_002",
+      "lonlat": [
+        31.3616,
+        30.75473
+      ],
+      "width_print_px": 192,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_025",
+      "lonlat": [
+        31.26382,
+        30.08662
+      ],
+      "width_print_px": 188,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_026",
+      "lonlat": [
+        31.16808,
+        30.42084
       ],
       "width_print_px": 208,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_005",
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_012",
       "lonlat": [
-        31.14366,
-        30.03661
+        30.73342,
+        30.75447
       ],
-      "width_print_px": 241,
+      "width_print_px": 187,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_009",
+      "lonlat": [
+        31.50533,
+        30.46199
+      ],
+      "width_print_px": 207,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_021",
+      "lonlat": [
+        31.40805,
+        30.16989
+      ],
+      "width_print_px": 235,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_014",
+      "lonlat": [
+        31.02374,
+        30.25377
+      ],
+      "width_print_px": 250,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_012",
+      "lonlat": [
+        31.41072,
+        31.00521
+      ],
+      "width_print_px": 245,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_015",
+      "lonlat": [
+        31.45793,
+        30.67097
+      ],
+      "width_print_px": 190,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_011",
+      "lonlat": [
+        30.878,
+        30.92186
+      ],
+      "width_print_px": 195,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_014",
+      "lonlat": [
+        31.79829,
+        31.00371
+      ],
+      "width_print_px": 203,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_002",
+      "lonlat": [
+        31.07163,
+        30.88029
+      ],
+      "width_print_px": 231,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_021",
+      "lonlat": [
+        31.1679,
+        30.17024
+      ],
+      "width_print_px": 233,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_farm",
+      "asset": "derived_delta_farm_013",
+      "lonlat": [
+        31.02305,
+        31.13085
+      ],
+      "width_print_px": 235,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
@@ -806,19 +454,8 @@
       "class": "nile_farm_upstream",
       "asset": "derived_nile_farm_upstream_007",
       "lonlat": [
-        30.90289,
-        28.02917
-      ],
-      "width_print_px": 186,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_002",
-      "lonlat": [
-        31.24812,
-        29.73232
+        31.21544,
+        29.75253
       ],
       "width_print_px": 187,
       "coast_clipped": true,
@@ -826,23 +463,100 @@
     },
     {
       "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_012",
+      "asset": "derived_nile_farm_upstream_023",
       "lonlat": [
-        30.79806,
-        28.69788
+        32.5952,
+        26.155
       ],
-      "width_print_px": 222,
+      "width_print_px": 186,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
       "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_025",
+      "asset": "derived_nile_farm_upstream_006",
       "lonlat": [
-        31.21311,
-        29.61067
+        30.69557,
+        28.2487
       ],
-      "width_print_px": 178,
+      "width_print_px": 238,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_012",
+      "lonlat": [
+        31.39808,
+        26.9139
+      ],
+      "width_print_px": 201,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_018",
+      "lonlat": [
+        32.44849,
+        25.53194
+      ],
+      "width_print_px": 192,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_001",
+      "lonlat": [
+        31.11964,
+        29.04262
+      ],
+      "width_print_px": 188,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_007",
+      "lonlat": [
+        32.04285,
+        26.28542
+      ],
+      "width_print_px": 199,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_007",
+      "lonlat": [
+        30.79159,
+        27.66469
+      ],
+      "width_print_px": 236,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_020",
+      "lonlat": [
+        30.93179,
+        27.83187
+      ],
+      "width_print_px": 220,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_006",
+      "lonlat": [
+        30.88551,
+        27.53972
+      ],
+      "width_print_px": 181,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
@@ -850,10 +564,65 @@
       "class": "nile_farm_upstream",
       "asset": "derived_nile_farm_upstream_023",
       "lonlat": [
-        31.17807,
-        29.33693
+        31.21529,
+        29.62724
       ],
-      "width_print_px": 186,
+      "width_print_px": 231,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_007",
+      "lonlat": [
+        32.68614,
+        26.07054
+      ],
+      "width_print_px": 201,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_009",
+      "lonlat": [
+        30.93015,
+        28.79197
+      ],
+      "width_print_px": 178,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_009",
+      "lonlat": [
+        32.2262,
+        26.15889
+      ],
+      "width_print_px": 223,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_024",
+      "lonlat": [
+        31.67598,
+        26.74615
+      ],
+      "width_print_px": 188,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_009",
+      "lonlat": [
+        30.74162,
+        28.54107
+      ],
+      "width_print_px": 226,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
@@ -861,162 +630,217 @@
       "class": "nile_farm_upstream",
       "asset": "derived_nile_farm_upstream_022",
       "lonlat": [
-        30.90332,
-        27.81639
+        32.31745,
+        26.0747
       ],
-      "width_print_px": 239,
+      "width_print_px": 203,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
       "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_025",
+      "asset": "derived_nile_farm_upstream_008",
       "lonlat": [
-        30.97056,
-        28.69817
+        32.5848,
+        25.44712
       ],
-      "width_print_px": 176,
+      "width_print_px": 190,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
       "class": "nile_farm_upstream",
-      "asset": "derived_nile_farm_upstream_014",
+      "asset": "derived_nile_farm_upstream_003",
       "lonlat": [
-        31.28219,
-        29.3064
+        31.31172,
+        30.04478
+      ],
+      "width_print_px": 207,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_007",
+      "lonlat": [
+        32.58784,
+        25.65525
+      ],
+      "width_print_px": 224,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_013",
+      "lonlat": [
+        32.72954,
+        25.90334
+      ],
+      "width_print_px": 217,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_012",
+      "lonlat": [
+        30.9794,
+        27.24783
+      ],
+      "width_print_px": 214,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_023",
+      "lonlat": [
+        31.2125,
+        27.20613
+      ],
+      "width_print_px": 223,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_017",
+      "lonlat": [
+        32.82014,
+        25.81881
+      ],
+      "width_print_px": 224,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_021",
+      "lonlat": [
+        31.67502,
+        26.5794
+      ],
+      "width_print_px": 186,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_017",
+      "lonlat": [
+        31.99519,
+        26.11911
+      ],
+      "width_print_px": 179,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_024",
+      "lonlat": [
+        31.26236,
+        29.20955
+      ],
+      "width_print_px": 217,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_023",
+      "lonlat": [
+        31.35847,
+        29.58526
+      ],
+      "width_print_px": 184,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_019",
+      "lonlat": [
+        32.53723,
+        25.32281
       ],
       "width_print_px": 221,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
-      "class": "delta_marsh",
-      "asset": "derived_delta_marsh_003",
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_001",
       "lonlat": [
-        31.67473,
-        31.13049
+        31.86062,
+        26.62009
       ],
-      "width_print_px": 191,
+      "width_print_px": 227,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_017",
+      "lonlat": [
+        32.72619,
+        25.69515
+      ],
+      "width_print_px": 179,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_026",
+      "lonlat": [
+        30.93044,
+        28.62496
+      ],
+      "width_print_px": 192,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_008",
+      "lonlat": [
+        31.30547,
+        27.08089
+      ],
+      "width_print_px": 192,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_027",
+      "lonlat": [
+        30.69506,
+        28.37394
+      ],
+      "width_print_px": 242,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "nile_farm_upstream",
+      "asset": "derived_nile_farm_upstream_001",
+      "lonlat": [
+        32.45515,
+        26.03162
+      ],
+      "width_print_px": 188,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
       "class": "delta_marsh",
-      "asset": "derived_delta_marsh_002",
+      "asset": "derived_delta_marsh_014",
       "lonlat": [
-        31.00245,
-        31.34465
-      ],
-      "width_print_px": 181,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_marsh",
-      "asset": "derived_delta_marsh_024",
-      "lonlat": [
-        30.75452,
-        31.28339
-      ],
-      "width_print_px": 174,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_marsh",
-      "asset": "derived_delta_marsh_019",
-      "lonlat": [
-        30.40091,
-        31.19072
-      ],
-      "width_print_px": 198,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_marsh",
-      "asset": "derived_delta_marsh_013",
-      "lonlat": [
-        31.28605,
-        31.34455
-      ],
-      "width_print_px": 204,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_marsh",
-      "asset": "derived_delta_marsh_023",
-      "lonlat": [
-        30.89629,
-        31.25327
-      ],
-      "width_print_px": 193,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_marsh",
-      "asset": "derived_delta_marsh_010",
-      "lonlat": [
-        30.4703,
-        31.404
-      ],
-      "width_print_px": 168,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_marsh",
-      "asset": "derived_delta_marsh_008",
-      "lonlat": [
-        31.8872,
-        31.1598
-      ],
-      "width_print_px": 149,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_marsh",
-      "asset": "derived_delta_marsh_010",
-      "lonlat": [
-        30.68419,
-        31.16152
-      ],
-      "width_print_px": 189,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_marsh",
-      "asset": "derived_delta_marsh_004",
-      "lonlat": [
-        31.7469,
-        31.34308
-      ],
-      "width_print_px": 178,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_marsh",
-      "asset": "derived_delta_marsh_017",
-      "lonlat": [
-        31.17963,
-        31.25341
-      ],
-      "width_print_px": 175,
-      "coast_clipped": true,
-      "alignment": "ecological_sampling_not_historical_site"
-    },
-    {
-      "class": "delta_marsh",
-      "asset": "derived_delta_marsh_022",
-      "lonlat": [
-        31.038,
-        31.19258
+        31.07151,
+        31.29791
       ],
       "width_print_px": 196,
       "coast_clipped": true,
@@ -1024,12 +848,12 @@
     },
     {
       "class": "delta_marsh",
-      "asset": "derived_delta_marsh_011",
+      "asset": "derived_delta_marsh_021",
       "lonlat": [
-        31.60494,
-        31.31329
+        30.48892,
+        31.21296
       ],
-      "width_print_px": 186,
+      "width_print_px": 150,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
@@ -1037,8 +861,107 @@
       "class": "delta_marsh",
       "asset": "derived_delta_marsh_009",
       "lonlat": [
-        30.61235,
-        31.37419
+        30.63417,
+        31.29709
+      ],
+      "width_print_px": 152,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_marsh",
+      "asset": "derived_delta_marsh_002",
+      "lonlat": [
+        31.70296,
+        31.25476
+      ],
+      "width_print_px": 175,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_marsh",
+      "asset": "derived_delta_marsh_004",
+      "lonlat": [
+        31.12013,
+        31.42319
+      ],
+      "width_print_px": 182,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_marsh",
+      "asset": "derived_delta_marsh_005",
+      "lonlat": [
+        30.5382,
+        31.0879
+      ],
+      "width_print_px": 185,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_marsh",
+      "asset": "derived_delta_marsh_012",
+      "lonlat": [
+        31.8969,
+        31.21196
+      ],
+      "width_print_px": 148,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_marsh",
+      "asset": "derived_delta_marsh_013",
+      "lonlat": [
+        30.92558,
+        31.38132
+      ],
+      "width_print_px": 201,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_marsh",
+      "asset": "derived_delta_marsh_016",
+      "lonlat": [
+        30.39059,
+        31.37951
+      ],
+      "width_print_px": 196,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_marsh",
+      "asset": "derived_delta_marsh_025",
+      "lonlat": [
+        30.82866,
+        31.25587
+      ],
+      "width_print_px": 191,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_marsh",
+      "asset": "derived_delta_marsh_013",
+      "lonlat": [
+        31.31457,
+        31.3395
+      ],
+      "width_print_px": 163,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_marsh",
+      "asset": "derived_delta_marsh_006",
+      "lonlat": [
+        31.7504,
+        31.08748
       ],
       "width_print_px": 157,
       "coast_clipped": true,
@@ -1046,56 +969,78 @@
     },
     {
       "class": "delta_marsh",
-      "asset": "derived_delta_marsh_001",
+      "asset": "derived_delta_marsh_015",
       "lonlat": [
-        31.53338,
-        31.16146
+        31.46057,
+        31.38094
       ],
-      "width_print_px": 193,
+      "width_print_px": 191,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
       "class": "delta_marsh",
-      "asset": "derived_delta_marsh_002",
+      "asset": "derived_delta_marsh_016",
       "lonlat": [
-        30.82503,
-        31.40523
+        30.97443,
+        31.21433
       ],
-      "width_print_px": 186,
+      "width_print_px": 170,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
       "class": "delta_marsh",
-      "asset": "derived_delta_marsh_024",
+      "asset": "derived_delta_marsh_015",
       "lonlat": [
-        31.14428,
-        31.40551
+        31.50867,
+        31.25552
       ],
-      "width_print_px": 147,
+      "width_print_px": 173,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
       "class": "delta_marsh",
-      "asset": "derived_delta_marsh_020",
+      "asset": "derived_delta_marsh_007",
       "lonlat": [
-        30.36459,
-        31.31219
+        30.7805,
+        31.13048
       ],
-      "width_print_px": 149,
+      "width_print_px": 160,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     },
     {
       "class": "delta_marsh",
-      "asset": "derived_delta_marsh_002",
+      "asset": "derived_delta_marsh_019",
       "lonlat": [
-        30.54301,
-        31.10015
+        30.53649,
+        31.38022
       ],
-      "width_print_px": 154,
+      "width_print_px": 196,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_marsh",
+      "asset": "derived_delta_marsh_023",
+      "lonlat": [
+        31.75267,
+        31.42157
+      ],
+      "width_print_px": 162,
+      "coast_clipped": true,
+      "alignment": "ecological_sampling_not_historical_site"
+    },
+    {
+      "class": "delta_marsh",
+      "asset": "derived_delta_marsh_003",
+      "lonlat": [
+        30.77953,
+        31.4228
+      ],
+      "width_print_px": 178,
       "coast_clipped": true,
       "alignment": "ecological_sampling_not_historical_site"
     }

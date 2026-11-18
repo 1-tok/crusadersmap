@@ -18,17 +18,17 @@
       ],
       "map_crop_px": [
         183,
-        2961,
+        2250,
         752,
-        3369
+        2658
       ],
       "qa_crop_size_px": [
         569,
         408
       ],
-      "pixels_with_difference_over_8": 35108,
-      "changed_percent": 15.12,
-      "mean_abs_difference": 2.927,
+      "pixels_with_difference_over_8": 0,
+      "changed_percent": 0.0,
+      "mean_abs_difference": 0.001,
       "preview_file": "reports/lowland-review-2026-11-15/nile_delta-before-after.jpg"
     },
     "levant_coast": {
@@ -49,9 +49,9 @@
         609,
         1903
       ],
-      "pixels_with_difference_over_8": 2441,
-      "changed_percent": 0.21,
-      "mean_abs_difference": 0.056,
+      "pixels_with_difference_over_8": 2651,
+      "changed_percent": 0.23,
+      "mean_abs_difference": 0.064,
       "preview_file": "reports/lowland-review-2026-11-15/levant_coast-before-after.jpg"
     },
     "cyprus": {
@@ -72,8 +72,8 @@
         1135,
         658
       ],
-      "pixels_with_difference_over_8": 2751,
-      "changed_percent": 0.37,
+      "pixels_with_difference_over_8": 2671,
+      "changed_percent": 0.36,
       "mean_abs_difference": 0.093,
       "preview_file": "reports/lowland-review-2026-11-15/cyprus-before-after.jpg"
     },
@@ -95,9 +95,9 @@
         1117,
         781
       ],
-      "pixels_with_difference_over_8": 2998,
-      "changed_percent": 0.34,
-      "mean_abs_difference": 0.096,
+      "pixels_with_difference_over_8": 953,
+      "changed_percent": 0.11,
+      "mean_abs_difference": 0.029,
       "preview_file": "reports/lowland-review-2026-11-15/cilicia-before-after.jpg"
     },
     "greek_lowlands": {
@@ -118,9 +118,9 @@
         547,
         508
       ],
-      "pixels_with_difference_over_8": 1115,
-      "changed_percent": 0.4,
-      "mean_abs_difference": 0.095,
+      "pixels_with_difference_over_8": 447,
+      "changed_percent": 0.16,
+      "mean_abs_difference": 0.048,
       "preview_file": "reports/lowland-review-2026-11-15/greek_lowlands-before-after.jpg"
     }
   }

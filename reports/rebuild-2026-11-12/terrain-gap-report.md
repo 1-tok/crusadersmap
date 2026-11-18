@@ -4,12 +4,12 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 
 | Zone | Land cells | Flat | Thin | Share flat or thin |
 |---|---:|---:|---:|---:|
-| Egypt inset: Sinai | 185 | 110 | 17 | 69% |
-| Egypt inset: Western and Eastern deserts | 163 | 94 | 12 | 65% |
+| Egypt inset: Sinai | 135 | 74 | 21 | 70% |
+| Egypt inset: Western and Eastern deserts | 166 | 88 | 16 | 63% |
 | Aegean inset: islands and Crete | 16 | 1 | 3 | 25% |
-| Egypt inset: Delta | 51 | 5 | 5 | 20% |
+| Negev, Sinai, Arabah | 79 | 3 | 2 | 6% |
 | Lebanon and Damascus | 39 | 0 | 2 | 5% |
-| Negev, Sinai, Arabah | 62 | 3 | 0 | 5% |
+| Egypt inset: Delta | 26 | 1 | 0 | 4% |
 | Syrian desert | 33 | 0 | 1 | 3% |
 | Aegean inset: Greece and the Balkans | 105 | 0 | 2 | 2% |
 | Aegean inset: Anatolia and Thrace | 119 | 0 | 2 | 2% |
@@ -22,7 +22,7 @@ Measured on the composite preview. Each frame is cut into square cells (320 px o
 | Syrian coast and Orontes | 33 | 0 | 0 | 0% |
 | Galilee, Samaria, Judea | 53 | 0 | 0 | 0% |
 
-Whole sheet: 1288 land cells, 214 flat, 46 thin (20% flat or thin).
+Whole sheet: 1233 land cells, 168 flat, 51 thin (18% flat or thin).
 
 ## Flat cells by position
 
@@ -33,222 +33,176 @@ Whole sheet: 1288 land cells, 214 flat, 46 thin (20% flat or thin).
 | Negev, Sinai, Arabah | 34.37 | 31.04 | 5440 | 12480 | 9.4 |
 | Negev, Sinai, Arabah | 34.57 | 31.04 | 5760 | 12480 | 7.6 |
 | Aegean inset: islands and Crete | 24.79 | 35.17 | 2390 | 3990 | 11.9 |
-| Egypt inset: Sinai | 34.59 | 31.46 | 4390 | 9921 | 8.1 |
-| Egypt inset: Sinai | 34.83 | 31.45 | 4590 | 9921 | 8.2 |
-| Egypt inset: Sinai | 34.35 | 31.26 | 4190 | 10121 | 10.3 |
-| Egypt inset: Sinai | 34.59 | 31.25 | 4390 | 10121 | 6.2 |
-| Egypt inset: Sinai | 34.82 | 31.25 | 4590 | 10121 | 10.8 |
-| Egypt inset: Sinai | 34.11 | 31.06 | 3990 | 10321 | 6.2 |
-| Egypt inset: Sinai | 34.34 | 31.06 | 4190 | 10321 | 11.0 |
-| Egypt inset: Sinai | 34.58 | 31.05 | 4390 | 10321 | 10.0 |
-| Egypt inset: Sinai | 34.81 | 31.04 | 4590 | 10321 | 9.2 |
-| Egypt inset: Sinai | 32.46 | 30.89 | 2590 | 10521 | 10.8 |
-| Egypt inset: Sinai | 32.93 | 30.88 | 2990 | 10521 | 7.9 |
-| Egypt inset: Sinai | 33.16 | 30.88 | 3190 | 10521 | 6.6 |
-| Egypt inset: Sinai | 33.40 | 30.87 | 3390 | 10521 | 11.2 |
-| Egypt inset: Sinai | 33.63 | 30.87 | 3590 | 10521 | 11.7 |
-| Egypt inset: Sinai | 33.87 | 30.86 | 3790 | 10521 | 6.3 |
-| Egypt inset: Sinai | 34.10 | 30.86 | 3990 | 10521 | 6.7 |
-| Egypt inset: Sinai | 34.34 | 30.85 | 4190 | 10521 | 11.6 |
-| Egypt inset: Sinai | 34.57 | 30.85 | 4390 | 10521 | 8.0 |
-| Egypt inset: Sinai | 34.81 | 30.84 | 4590 | 10521 | 8.2 |
-| Egypt inset: Sinai | 32.69 | 30.68 | 2790 | 10721 | 8.7 |
-| Egypt inset: Sinai | 32.92 | 30.68 | 2990 | 10721 | 10.1 |
-| Egypt inset: Sinai | 33.39 | 30.67 | 3390 | 10721 | 9.5 |
-| Egypt inset: Sinai | 33.63 | 30.67 | 3590 | 10721 | 7.4 |
-| Egypt inset: Sinai | 33.86 | 30.66 | 3790 | 10721 | 10.2 |
-| Egypt inset: Sinai | 34.10 | 30.66 | 3990 | 10721 | 8.4 |
-| Egypt inset: Sinai | 34.33 | 30.65 | 4190 | 10721 | 9.1 |
-| Egypt inset: Sinai | 34.56 | 30.64 | 4390 | 10721 | 8.1 |
-| Egypt inset: Sinai | 34.80 | 30.64 | 4590 | 10721 | 8.2 |
-| Egypt inset: Sinai | 32.45 | 30.48 | 2590 | 10921 | 9.4 |
-| Egypt inset: Sinai | 32.68 | 30.48 | 2790 | 10921 | 8.5 |
-| Egypt inset: Sinai | 32.92 | 30.47 | 2990 | 10921 | 7.6 |
-| Egypt inset: Sinai | 33.15 | 30.47 | 3190 | 10921 | 10.9 |
-| Egypt inset: Sinai | 33.39 | 30.47 | 3390 | 10921 | 7.1 |
-| Egypt inset: Sinai | 33.62 | 30.46 | 3590 | 10921 | 9.1 |
-| Egypt inset: Sinai | 33.85 | 30.46 | 3790 | 10921 | 11.2 |
-| Egypt inset: Sinai | 34.09 | 30.45 | 3990 | 10921 | 7.9 |
-| Egypt inset: Sinai | 34.32 | 30.45 | 4190 | 10921 | 7.7 |
-| Egypt inset: Sinai | 34.56 | 30.44 | 4390 | 10921 | 11.9 |
-| Egypt inset: Sinai | 32.91 | 30.27 | 2990 | 11121 | 9.6 |
-| Egypt inset: Sinai | 33.15 | 30.27 | 3190 | 11121 | 11.9 |
-| Egypt inset: Sinai | 33.38 | 30.26 | 3390 | 11121 | 8.6 |
-| Egypt inset: Sinai | 33.62 | 30.26 | 3590 | 11121 | 8.9 |
-| Egypt inset: Sinai | 33.85 | 30.26 | 3790 | 11121 | 9.6 |
-| Egypt inset: Sinai | 34.08 | 30.25 | 3990 | 11121 | 8.3 |
-| Egypt inset: Sinai | 34.32 | 30.24 | 4190 | 11121 | 9.4 |
-| Egypt inset: Sinai | 34.55 | 30.24 | 4390 | 11121 | 9.2 |
-| Egypt inset: Sinai | 32.91 | 30.07 | 2990 | 11321 | 7.4 |
-| Egypt inset: Sinai | 33.14 | 30.07 | 3190 | 11321 | 9.0 |
-| Egypt inset: Sinai | 33.38 | 30.06 | 3390 | 11321 | 9.4 |
-| Egypt inset: Sinai | 33.61 | 30.06 | 3590 | 11321 | 7.7 |
-| Egypt inset: Sinai | 33.84 | 30.05 | 3790 | 11321 | 6.3 |
-| Egypt inset: Sinai | 34.08 | 30.05 | 3990 | 11321 | 8.3 |
-| Egypt inset: Sinai | 34.31 | 30.04 | 4190 | 11321 | 10.5 |
-| Egypt inset: Sinai | 34.54 | 30.04 | 4390 | 11321 | 9.0 |
-| Egypt inset: Sinai | 34.78 | 30.03 | 4590 | 11321 | 11.0 |
-| Egypt inset: Sinai | 32.91 | 29.87 | 2990 | 11521 | 7.4 |
-| Egypt inset: Sinai | 33.14 | 29.86 | 3190 | 11521 | 9.9 |
-| Egypt inset: Sinai | 33.37 | 29.86 | 3390 | 11521 | 11.4 |
-| Egypt inset: Sinai | 33.60 | 29.85 | 3590 | 11521 | 7.6 |
-| Egypt inset: Sinai | 34.07 | 29.84 | 3990 | 11521 | 9.9 |
-| Egypt inset: Sinai | 34.30 | 29.84 | 4190 | 11521 | 10.3 |
-| Egypt inset: Sinai | 32.90 | 29.66 | 2990 | 11721 | 9.3 |
-| Egypt inset: Sinai | 33.14 | 29.66 | 3190 | 11721 | 9.7 |
-| Egypt inset: Sinai | 33.37 | 29.66 | 3390 | 11721 | 8.0 |
-| Egypt inset: Sinai | 33.60 | 29.65 | 3590 | 11721 | 7.4 |
-| Egypt inset: Sinai | 33.83 | 29.65 | 3790 | 11721 | 7.9 |
-| Egypt inset: Sinai | 33.36 | 29.45 | 3390 | 11921 | 5.4 |
-| Egypt inset: Sinai | 33.59 | 29.45 | 3590 | 11921 | 6.4 |
-| Egypt inset: Sinai | 33.83 | 29.44 | 3790 | 11921 | 5.6 |
-| Egypt inset: Sinai | 34.06 | 29.44 | 3990 | 11921 | 10.7 |
-| Egypt inset: Sinai | 32.43 | 29.26 | 2590 | 12121 | 7.1 |
-| Egypt inset: Sinai | 33.13 | 29.25 | 3190 | 12121 | 5.8 |
-| Egypt inset: Sinai | 33.36 | 29.25 | 3390 | 12121 | 6.6 |
-| Egypt inset: Sinai | 33.59 | 29.25 | 3590 | 12121 | 8.5 |
-| Egypt inset: Sinai | 33.82 | 29.24 | 3790 | 12121 | 6.0 |
-| Egypt inset: Sinai | 34.05 | 29.24 | 3990 | 12121 | 8.7 |
-| Egypt inset: Sinai | 34.28 | 29.23 | 4190 | 12121 | 7.7 |
-| Egypt inset: Sinai | 34.51 | 29.22 | 4390 | 12121 | 4.7 |
-| Egypt inset: Sinai | 32.43 | 29.06 | 2590 | 12321 | 6.9 |
-| Egypt inset: Sinai | 33.35 | 29.05 | 3390 | 12321 | 11.8 |
-| Egypt inset: Sinai | 33.82 | 29.04 | 3790 | 12321 | 8.8 |
-| Egypt inset: Sinai | 34.28 | 29.03 | 4190 | 12321 | 9.7 |
-| Egypt inset: Sinai | 34.51 | 29.02 | 4390 | 12321 | 6.8 |
-| Egypt inset: Sinai | 32.43 | 28.86 | 2590 | 12521 | 7.8 |
-| Egypt inset: Sinai | 33.35 | 28.84 | 3390 | 12521 | 8.8 |
-| Egypt inset: Sinai | 33.81 | 28.84 | 3790 | 12521 | 9.5 |
-| Egypt inset: Sinai | 34.04 | 28.83 | 3990 | 12521 | 6.5 |
-| Egypt inset: Sinai | 34.27 | 28.83 | 4190 | 12521 | 7.5 |
-| Egypt inset: Sinai | 34.50 | 28.82 | 4390 | 12521 | 7.3 |
-| Egypt inset: Sinai | 32.65 | 28.65 | 2790 | 12721 | 11.7 |
-| Egypt inset: Sinai | 34.26 | 28.62 | 4190 | 12721 | 6.9 |
-| Egypt inset: Sinai | 32.42 | 28.45 | 2590 | 12921 | 9.3 |
-| Egypt inset: Sinai | 32.65 | 28.45 | 2790 | 12921 | 8.1 |
-| Egypt inset: Sinai | 32.88 | 28.45 | 2990 | 12921 | 11.1 |
-| Egypt inset: Sinai | 34.03 | 28.43 | 3990 | 12921 | 8.4 |
-| Egypt inset: Sinai | 34.26 | 28.42 | 4190 | 12921 | 6.9 |
-| Egypt inset: Sinai | 32.65 | 28.25 | 2790 | 13121 | 8.5 |
-| Egypt inset: Sinai | 32.88 | 28.24 | 2990 | 13121 | 8.7 |
-| Egypt inset: Sinai | 33.79 | 28.23 | 3790 | 13121 | 8.9 |
-| Egypt inset: Sinai | 34.02 | 28.22 | 3990 | 13121 | 7.9 |
-| Egypt inset: Sinai | 34.25 | 28.22 | 4190 | 13121 | 5.9 |
-| Egypt inset: Sinai | 32.42 | 28.05 | 2590 | 13321 | 9.5 |
-| Egypt inset: Sinai | 32.87 | 28.04 | 2990 | 13321 | 10.5 |
-| Egypt inset: Sinai | 33.10 | 28.04 | 3190 | 13321 | 9.7 |
-| Egypt inset: Sinai | 34.02 | 28.02 | 3990 | 13321 | 10.6 |
-| Egypt inset: Sinai | 34.24 | 28.01 | 4190 | 13321 | 8.0 |
-| Egypt inset: Sinai | 32.64 | 27.84 | 2790 | 13521 | 9.4 |
-| Egypt inset: Sinai | 32.87 | 27.84 | 2990 | 13521 | 9.3 |
-| Egypt inset: Sinai | 33.10 | 27.84 | 3190 | 13521 | 9.0 |
-| Egypt inset: Sinai | 33.33 | 27.83 | 3390 | 13521 | 9.1 |
-| Egypt inset: Delta | 30.34 | 30.89 | 790 | 10521 | 8.2 |
-| Egypt inset: Delta | 32.22 | 30.89 | 2390 | 10521 | 11.8 |
-| Egypt inset: Delta | 30.11 | 30.69 | 590 | 10721 | 8.7 |
-| Egypt inset: Delta | 30.34 | 30.69 | 790 | 10721 | 8.0 |
-| Egypt inset: Delta | 30.11 | 30.48 | 590 | 10921 | 9.6 |
-| Egypt inset: Western and Eastern deserts | 29.87 | 30.68 | 390 | 10721 | 6.1 |
-| Egypt inset: Western and Eastern deserts | 29.87 | 30.48 | 390 | 10921 | 8.7 |
-| Egypt inset: Western and Eastern deserts | 29.88 | 30.28 | 390 | 11121 | 8.1 |
-| Egypt inset: Western and Eastern deserts | 30.11 | 30.28 | 590 | 11121 | 10.7 |
-| Egypt inset: Western and Eastern deserts | 30.34 | 30.28 | 790 | 11121 | 10.9 |
-| Egypt inset: Western and Eastern deserts | 31.98 | 30.28 | 2190 | 11121 | 11.8 |
-| Egypt inset: Western and Eastern deserts | 32.21 | 30.28 | 2390 | 11121 | 11.7 |
-| Egypt inset: Western and Eastern deserts | 29.88 | 30.08 | 390 | 11321 | 10.3 |
-| Egypt inset: Western and Eastern deserts | 30.81 | 30.08 | 1190 | 11321 | 11.0 |
-| Egypt inset: Western and Eastern deserts | 29.88 | 29.87 | 390 | 11521 | 9.3 |
-| Egypt inset: Western and Eastern deserts | 30.11 | 29.88 | 590 | 11521 | 6.0 |
-| Egypt inset: Western and Eastern deserts | 30.35 | 29.88 | 790 | 11521 | 5.0 |
-| Egypt inset: Western and Eastern deserts | 31.74 | 29.88 | 1990 | 11521 | 7.1 |
-| Egypt inset: Western and Eastern deserts | 32.21 | 29.87 | 2390 | 11521 | 11.2 |
-| Egypt inset: Western and Eastern deserts | 29.88 | 29.67 | 390 | 11721 | 9.0 |
-| Egypt inset: Western and Eastern deserts | 30.35 | 29.67 | 790 | 11721 | 11.1 |
-| Egypt inset: Western and Eastern deserts | 30.58 | 29.68 | 990 | 11721 | 11.7 |
-| Egypt inset: Western and Eastern deserts | 30.81 | 29.68 | 1190 | 11721 | 10.3 |
-| Egypt inset: Western and Eastern deserts | 31.04 | 29.68 | 1390 | 11721 | 7.3 |
-| Egypt inset: Western and Eastern deserts | 31.74 | 29.67 | 1990 | 11721 | 10.3 |
-| Egypt inset: Western and Eastern deserts | 32.21 | 29.67 | 2390 | 11721 | 9.1 |
-| Egypt inset: Western and Eastern deserts | 29.89 | 29.47 | 390 | 11921 | 9.6 |
-| Egypt inset: Western and Eastern deserts | 30.12 | 29.47 | 590 | 11921 | 8.7 |
-| Egypt inset: Western and Eastern deserts | 30.35 | 29.47 | 790 | 11921 | 7.8 |
-| Egypt inset: Western and Eastern deserts | 30.58 | 29.47 | 990 | 11921 | 7.6 |
-| Egypt inset: Western and Eastern deserts | 30.81 | 29.47 | 1190 | 11921 | 11.1 |
-| Egypt inset: Western and Eastern deserts | 31.51 | 29.47 | 1790 | 11921 | 9.5 |
-| Egypt inset: Western and Eastern deserts | 31.74 | 29.47 | 1990 | 11921 | 10.2 |
-| Egypt inset: Western and Eastern deserts | 31.97 | 29.47 | 2190 | 11921 | 4.9 |
-| Egypt inset: Western and Eastern deserts | 32.20 | 29.47 | 2390 | 11921 | 5.1 |
-| Egypt inset: Western and Eastern deserts | 29.89 | 29.26 | 390 | 12121 | 8.9 |
-| Egypt inset: Western and Eastern deserts | 30.12 | 29.27 | 590 | 12121 | 9.1 |
-| Egypt inset: Western and Eastern deserts | 30.35 | 29.27 | 790 | 12121 | 10.8 |
-| Egypt inset: Western and Eastern deserts | 30.58 | 29.27 | 990 | 12121 | 9.8 |
-| Egypt inset: Western and Eastern deserts | 30.81 | 29.27 | 1190 | 12121 | 11.3 |
-| Egypt inset: Western and Eastern deserts | 31.51 | 29.27 | 1790 | 12121 | 6.7 |
-| Egypt inset: Western and Eastern deserts | 31.74 | 29.27 | 1990 | 12121 | 6.9 |
-| Egypt inset: Western and Eastern deserts | 31.97 | 29.27 | 2190 | 12121 | 8.0 |
-| Egypt inset: Western and Eastern deserts | 32.20 | 29.27 | 2390 | 12121 | 10.0 |
-| Egypt inset: Western and Eastern deserts | 29.89 | 29.06 | 390 | 12321 | 9.9 |
-| Egypt inset: Western and Eastern deserts | 30.12 | 29.06 | 590 | 12321 | 9.9 |
-| Egypt inset: Western and Eastern deserts | 30.35 | 29.07 | 790 | 12321 | 8.4 |
-| Egypt inset: Western and Eastern deserts | 30.58 | 29.07 | 990 | 12321 | 8.1 |
-| Egypt inset: Western and Eastern deserts | 30.81 | 29.07 | 1190 | 12321 | 8.5 |
-| Egypt inset: Western and Eastern deserts | 31.28 | 29.07 | 1590 | 12321 | 10.9 |
-| Egypt inset: Western and Eastern deserts | 31.74 | 29.07 | 1990 | 12321 | 5.8 |
-| Egypt inset: Western and Eastern deserts | 31.97 | 29.06 | 2190 | 12321 | 7.9 |
-| Egypt inset: Western and Eastern deserts | 32.20 | 29.06 | 2390 | 12321 | 9.0 |
-| Egypt inset: Western and Eastern deserts | 29.89 | 28.86 | 390 | 12521 | 7.7 |
-| Egypt inset: Western and Eastern deserts | 30.12 | 28.86 | 590 | 12521 | 9.0 |
-| Egypt inset: Western and Eastern deserts | 30.35 | 28.86 | 790 | 12521 | 8.2 |
-| Egypt inset: Western and Eastern deserts | 31.51 | 28.86 | 1790 | 12521 | 7.6 |
-| Egypt inset: Western and Eastern deserts | 31.74 | 28.86 | 1990 | 12521 | 8.1 |
-| Egypt inset: Western and Eastern deserts | 31.97 | 28.86 | 2190 | 12521 | 10.5 |
-| Egypt inset: Western and Eastern deserts | 32.20 | 28.86 | 2390 | 12521 | 9.6 |
-| Egypt inset: Western and Eastern deserts | 29.90 | 28.66 | 390 | 12721 | 7.7 |
-| Egypt inset: Western and Eastern deserts | 30.13 | 28.66 | 590 | 12721 | 9.3 |
-| Egypt inset: Western and Eastern deserts | 30.36 | 28.66 | 790 | 12721 | 9.6 |
-| Egypt inset: Western and Eastern deserts | 31.51 | 28.66 | 1790 | 12721 | 6.4 |
-| Egypt inset: Western and Eastern deserts | 31.74 | 28.66 | 1990 | 12721 | 9.9 |
-| Egypt inset: Western and Eastern deserts | 31.97 | 28.66 | 2190 | 12721 | 9.2 |
-| Egypt inset: Western and Eastern deserts | 32.19 | 28.66 | 2390 | 12721 | 9.3 |
-| Egypt inset: Western and Eastern deserts | 29.90 | 28.45 | 390 | 12921 | 6.2 |
-| Egypt inset: Western and Eastern deserts | 30.13 | 28.46 | 590 | 12921 | 6.5 |
-| Egypt inset: Western and Eastern deserts | 30.36 | 28.46 | 790 | 12921 | 6.3 |
-| Egypt inset: Western and Eastern deserts | 31.27 | 28.46 | 1590 | 12921 | 8.5 |
-| Egypt inset: Western and Eastern deserts | 31.50 | 28.46 | 1790 | 12921 | 10.8 |
-| Egypt inset: Western and Eastern deserts | 31.73 | 28.46 | 1990 | 12921 | 9.5 |
-| Egypt inset: Western and Eastern deserts | 31.96 | 28.46 | 2190 | 12921 | 9.4 |
-| Egypt inset: Western and Eastern deserts | 32.19 | 28.45 | 2390 | 12921 | 9.2 |
-| Egypt inset: Western and Eastern deserts | 29.90 | 28.25 | 390 | 13121 | 5.7 |
-| Egypt inset: Western and Eastern deserts | 30.13 | 28.25 | 590 | 13121 | 8.9 |
-| Egypt inset: Western and Eastern deserts | 30.36 | 28.25 | 790 | 13121 | 10.2 |
-| Egypt inset: Western and Eastern deserts | 31.27 | 28.26 | 1590 | 13121 | 9.0 |
-| Egypt inset: Western and Eastern deserts | 31.50 | 28.26 | 1790 | 13121 | 8.7 |
-| Egypt inset: Western and Eastern deserts | 31.96 | 28.25 | 2190 | 13121 | 8.7 |
-| Egypt inset: Western and Eastern deserts | 32.19 | 28.25 | 2390 | 13121 | 9.9 |
-| Egypt inset: Western and Eastern deserts | 29.90 | 28.05 | 390 | 13321 | 8.1 |
-| Egypt inset: Western and Eastern deserts | 30.13 | 28.05 | 590 | 13321 | 11.0 |
-| Egypt inset: Western and Eastern deserts | 31.05 | 28.05 | 1390 | 13321 | 9.5 |
-| Egypt inset: Western and Eastern deserts | 31.27 | 28.05 | 1590 | 13321 | 6.8 |
-| Egypt inset: Western and Eastern deserts | 31.50 | 28.05 | 1790 | 13321 | 7.9 |
-| Egypt inset: Western and Eastern deserts | 31.73 | 28.05 | 1990 | 13321 | 9.2 |
-| Egypt inset: Western and Eastern deserts | 31.96 | 28.05 | 2190 | 13321 | 8.6 |
-| Egypt inset: Western and Eastern deserts | 32.19 | 28.05 | 2390 | 13321 | 8.7 |
-| Egypt inset: Western and Eastern deserts | 29.91 | 27.85 | 390 | 13521 | 11.0 |
-| Egypt inset: Western and Eastern deserts | 30.13 | 27.85 | 590 | 13521 | 7.5 |
-| Egypt inset: Western and Eastern deserts | 30.59 | 27.85 | 990 | 13521 | 10.9 |
-| Egypt inset: Western and Eastern deserts | 31.05 | 27.85 | 1390 | 13521 | 10.9 |
-| Egypt inset: Western and Eastern deserts | 31.27 | 27.85 | 1590 | 13521 | 8.9 |
-| Egypt inset: Western and Eastern deserts | 31.50 | 27.85 | 1790 | 13521 | 7.9 |
-| Egypt inset: Western and Eastern deserts | 31.73 | 27.85 | 1990 | 13521 | 9.4 |
-| Egypt inset: Western and Eastern deserts | 31.96 | 27.85 | 2190 | 13521 | 9.4 |
-| Egypt inset: Western and Eastern deserts | 32.19 | 27.85 | 2390 | 13521 | 8.5 |
+| Egypt inset: Sinai | 34.53 | 31.34 | 3190 | 9286 | 10.2 |
+| Egypt inset: Sinai | 34.86 | 31.33 | 3390 | 9286 | 8.1 |
+| Egypt inset: Sinai | 34.20 | 31.07 | 2990 | 9486 | 9.0 |
+| Egypt inset: Sinai | 34.52 | 31.07 | 3190 | 9486 | 8.6 |
+| Egypt inset: Sinai | 34.85 | 31.06 | 3390 | 9486 | 9.9 |
+| Egypt inset: Sinai | 32.58 | 30.82 | 1990 | 9686 | 9.9 |
+| Egypt inset: Sinai | 32.90 | 30.82 | 2190 | 9686 | 7.9 |
+| Egypt inset: Sinai | 33.22 | 30.82 | 2390 | 9686 | 11.8 |
+| Egypt inset: Sinai | 33.55 | 30.81 | 2590 | 9686 | 9.9 |
+| Egypt inset: Sinai | 33.87 | 30.80 | 2790 | 9686 | 9.6 |
+| Egypt inset: Sinai | 34.19 | 30.80 | 2990 | 9686 | 10.9 |
+| Egypt inset: Sinai | 34.51 | 30.79 | 3190 | 9686 | 9.2 |
+| Egypt inset: Sinai | 34.83 | 30.78 | 3390 | 9686 | 9.7 |
+| Egypt inset: Sinai | 32.57 | 30.55 | 1990 | 9886 | 9.3 |
+| Egypt inset: Sinai | 32.90 | 30.54 | 2190 | 9886 | 10.3 |
+| Egypt inset: Sinai | 33.22 | 30.54 | 2390 | 9886 | 10.2 |
+| Egypt inset: Sinai | 33.54 | 30.53 | 2590 | 9886 | 10.2 |
+| Egypt inset: Sinai | 33.86 | 30.52 | 2790 | 9886 | 7.0 |
+| Egypt inset: Sinai | 34.18 | 30.52 | 2990 | 9886 | 9.0 |
+| Egypt inset: Sinai | 34.50 | 30.51 | 3190 | 9886 | 8.6 |
+| Egypt inset: Sinai | 33.53 | 30.25 | 2590 | 10086 | 10.2 |
+| Egypt inset: Sinai | 33.85 | 30.25 | 2790 | 10086 | 9.1 |
+| Egypt inset: Sinai | 34.17 | 30.24 | 2990 | 10086 | 11.6 |
+| Egypt inset: Sinai | 34.49 | 30.23 | 3190 | 10086 | 11.4 |
+| Egypt inset: Sinai | 34.81 | 30.22 | 3390 | 10086 | 7.9 |
+| Egypt inset: Sinai | 33.52 | 29.97 | 2590 | 10286 | 11.1 |
+| Egypt inset: Sinai | 33.84 | 29.97 | 2790 | 10286 | 11.4 |
+| Egypt inset: Sinai | 34.16 | 29.96 | 2990 | 10286 | 10.2 |
+| Egypt inset: Sinai | 34.48 | 29.95 | 3190 | 10286 | 9.9 |
+| Egypt inset: Sinai | 34.80 | 29.94 | 3390 | 10286 | 11.9 |
+| Egypt inset: Sinai | 32.88 | 29.71 | 2190 | 10486 | 11.6 |
+| Egypt inset: Sinai | 33.84 | 29.69 | 2790 | 10486 | 10.4 |
+| Egypt inset: Sinai | 34.15 | 29.68 | 2990 | 10486 | 11.0 |
+| Egypt inset: Sinai | 33.19 | 29.42 | 2390 | 10686 | 10.2 |
+| Egypt inset: Sinai | 34.15 | 29.41 | 2990 | 10686 | 7.1 |
+| Egypt inset: Sinai | 33.50 | 29.14 | 2590 | 10886 | 10.5 |
+| Egypt inset: Sinai | 33.82 | 29.13 | 2790 | 10886 | 7.6 |
+| Egypt inset: Sinai | 34.14 | 29.13 | 2990 | 10886 | 9.9 |
+| Egypt inset: Sinai | 34.45 | 29.12 | 3190 | 10886 | 8.9 |
+| Egypt inset: Sinai | 33.50 | 28.86 | 2590 | 11086 | 8.7 |
+| Egypt inset: Sinai | 34.44 | 28.84 | 3190 | 11086 | 7.5 |
+| Egypt inset: Sinai | 32.55 | 28.60 | 1990 | 11286 | 8.4 |
+| Egypt inset: Sinai | 32.54 | 28.32 | 1990 | 11486 | 8.4 |
+| Egypt inset: Sinai | 32.86 | 28.32 | 2190 | 11486 | 7.9 |
+| Egypt inset: Sinai | 34.11 | 28.29 | 2990 | 11486 | 7.1 |
+| Egypt inset: Sinai | 32.54 | 28.04 | 1990 | 11686 | 9.3 |
+| Egypt inset: Sinai | 32.85 | 28.04 | 2190 | 11686 | 9.1 |
+| Egypt inset: Sinai | 34.10 | 28.02 | 2990 | 11686 | 11.8 |
+| Egypt inset: Sinai | 32.53 | 27.76 | 1990 | 11886 | 8.9 |
+| Egypt inset: Sinai | 32.85 | 27.76 | 2190 | 11886 | 8.4 |
+| Egypt inset: Sinai | 33.16 | 27.76 | 2390 | 11886 | 10.6 |
+| Egypt inset: Sinai | 32.84 | 27.48 | 2190 | 12086 | 10.5 |
+| Egypt inset: Sinai | 33.15 | 27.48 | 2390 | 12086 | 8.8 |
+| Egypt inset: Sinai | 32.53 | 27.21 | 1990 | 12286 | 11.5 |
+| Egypt inset: Sinai | 32.84 | 27.21 | 2190 | 12286 | 9.9 |
+| Egypt inset: Sinai | 33.15 | 27.20 | 2390 | 12286 | 11.3 |
+| Egypt inset: Sinai | 32.52 | 26.93 | 1990 | 12486 | 11.2 |
+| Egypt inset: Sinai | 32.83 | 26.93 | 2190 | 12486 | 8.8 |
+| Egypt inset: Sinai | 33.14 | 26.92 | 2390 | 12486 | 11.8 |
+| Egypt inset: Sinai | 33.45 | 26.92 | 2590 | 12486 | 9.2 |
+| Egypt inset: Sinai | 32.52 | 26.65 | 1990 | 12686 | 8.4 |
+| Egypt inset: Sinai | 32.83 | 26.65 | 2190 | 12686 | 9.5 |
+| Egypt inset: Sinai | 33.14 | 26.64 | 2390 | 12686 | 10.5 |
+| Egypt inset: Sinai | 33.44 | 26.64 | 2590 | 12686 | 11.3 |
+| Egypt inset: Sinai | 32.51 | 26.38 | 1990 | 12886 | 11.3 |
+| Egypt inset: Sinai | 33.13 | 26.37 | 2390 | 12886 | 10.5 |
+| Egypt inset: Sinai | 33.44 | 26.36 | 2590 | 12886 | 10.8 |
+| Egypt inset: Sinai | 33.12 | 26.09 | 2390 | 13086 | 9.5 |
+| Egypt inset: Sinai | 33.43 | 26.08 | 2590 | 13086 | 11.5 |
+| Egypt inset: Sinai | 33.74 | 26.08 | 2790 | 13086 | 11.0 |
+| Egypt inset: Sinai | 33.12 | 25.81 | 2390 | 13286 | 11.8 |
+| Egypt inset: Sinai | 33.43 | 25.81 | 2590 | 13286 | 9.0 |
+| Egypt inset: Sinai | 34.03 | 25.52 | 2990 | 13486 | 11.0 |
+| Egypt inset: Sinai | 34.34 | 25.51 | 3190 | 13486 | 11.9 |
+| Egypt inset: Delta | 30.00 | 30.55 | 390 | 9886 | 7.5 |
+| Egypt inset: Western and Eastern deserts | 30.01 | 29.99 | 390 | 10286 | 9.2 |
+| Egypt inset: Western and Eastern deserts | 32.25 | 29.99 | 1790 | 10286 | 10.2 |
+| Egypt inset: Western and Eastern deserts | 30.01 | 29.71 | 390 | 10486 | 11.3 |
+| Egypt inset: Western and Eastern deserts | 30.65 | 29.72 | 790 | 10486 | 7.9 |
+| Egypt inset: Western and Eastern deserts | 31.61 | 29.72 | 1390 | 10486 | 9.6 |
+| Egypt inset: Western and Eastern deserts | 30.02 | 29.44 | 390 | 10686 | 8.9 |
+| Egypt inset: Western and Eastern deserts | 30.97 | 29.44 | 990 | 10686 | 9.8 |
+| Egypt inset: Western and Eastern deserts | 31.60 | 29.44 | 1390 | 10686 | 8.8 |
+| Egypt inset: Western and Eastern deserts | 31.92 | 29.44 | 1590 | 10686 | 7.7 |
+| Egypt inset: Western and Eastern deserts | 32.24 | 29.44 | 1790 | 10686 | 10.4 |
+| Egypt inset: Western and Eastern deserts | 30.02 | 29.16 | 390 | 10886 | 9.7 |
+| Egypt inset: Western and Eastern deserts | 30.34 | 29.16 | 590 | 10886 | 8.4 |
+| Egypt inset: Western and Eastern deserts | 30.65 | 29.16 | 790 | 10886 | 10.5 |
+| Egypt inset: Western and Eastern deserts | 31.60 | 29.16 | 1390 | 10886 | 8.5 |
+| Egypt inset: Western and Eastern deserts | 31.92 | 29.16 | 1590 | 10886 | 8.7 |
+| Egypt inset: Western and Eastern deserts | 32.24 | 29.16 | 1790 | 10886 | 9.1 |
+| Egypt inset: Western and Eastern deserts | 30.02 | 28.88 | 390 | 11086 | 8.7 |
+| Egypt inset: Western and Eastern deserts | 30.34 | 28.88 | 590 | 11086 | 8.1 |
+| Egypt inset: Western and Eastern deserts | 31.60 | 28.88 | 1390 | 11086 | 11.0 |
+| Egypt inset: Western and Eastern deserts | 31.92 | 28.88 | 1590 | 11086 | 9.2 |
+| Egypt inset: Western and Eastern deserts | 32.23 | 28.88 | 1790 | 11086 | 10.3 |
+| Egypt inset: Western and Eastern deserts | 30.02 | 28.60 | 390 | 11286 | 8.6 |
+| Egypt inset: Western and Eastern deserts | 30.34 | 28.60 | 590 | 11286 | 8.1 |
+| Egypt inset: Western and Eastern deserts | 31.60 | 28.61 | 1390 | 11286 | 9.3 |
+| Egypt inset: Western and Eastern deserts | 31.92 | 28.60 | 1590 | 11286 | 8.9 |
+| Egypt inset: Western and Eastern deserts | 32.23 | 28.60 | 1790 | 11286 | 9.6 |
+| Egypt inset: Western and Eastern deserts | 30.03 | 28.32 | 390 | 11486 | 9.6 |
+| Egypt inset: Western and Eastern deserts | 30.34 | 28.33 | 590 | 11486 | 10.9 |
+| Egypt inset: Western and Eastern deserts | 31.28 | 28.33 | 1190 | 11486 | 8.3 |
+| Egypt inset: Western and Eastern deserts | 31.60 | 28.33 | 1390 | 11486 | 9.6 |
+| Egypt inset: Western and Eastern deserts | 31.91 | 28.33 | 1590 | 11486 | 9.5 |
+| Egypt inset: Western and Eastern deserts | 32.23 | 28.32 | 1790 | 11486 | 7.8 |
+| Egypt inset: Western and Eastern deserts | 30.03 | 28.05 | 390 | 11686 | 11.2 |
+| Egypt inset: Western and Eastern deserts | 30.34 | 28.05 | 590 | 11686 | 10.1 |
+| Egypt inset: Western and Eastern deserts | 31.28 | 28.05 | 1190 | 11686 | 9.6 |
+| Egypt inset: Western and Eastern deserts | 31.60 | 28.05 | 1390 | 11686 | 11.4 |
+| Egypt inset: Western and Eastern deserts | 31.91 | 28.05 | 1590 | 11686 | 11.6 |
+| Egypt inset: Western and Eastern deserts | 32.22 | 28.05 | 1790 | 11686 | 8.4 |
+| Egypt inset: Western and Eastern deserts | 30.03 | 27.77 | 390 | 11886 | 8.6 |
+| Egypt inset: Western and Eastern deserts | 30.35 | 27.77 | 590 | 11886 | 8.9 |
+| Egypt inset: Western and Eastern deserts | 31.28 | 27.77 | 1190 | 11886 | 10.3 |
+| Egypt inset: Western and Eastern deserts | 31.60 | 27.77 | 1390 | 11886 | 11.1 |
+| Egypt inset: Western and Eastern deserts | 32.22 | 27.77 | 1790 | 11886 | 8.7 |
+| Egypt inset: Western and Eastern deserts | 30.04 | 27.49 | 390 | 12086 | 9.8 |
+| Egypt inset: Western and Eastern deserts | 30.35 | 27.49 | 590 | 12086 | 10.3 |
+| Egypt inset: Western and Eastern deserts | 31.28 | 27.49 | 1190 | 12086 | 9.9 |
+| Egypt inset: Western and Eastern deserts | 31.59 | 27.49 | 1390 | 12086 | 9.8 |
+| Egypt inset: Western and Eastern deserts | 31.91 | 27.49 | 1590 | 12086 | 10.8 |
+| Egypt inset: Western and Eastern deserts | 32.22 | 27.49 | 1790 | 12086 | 9.8 |
+| Egypt inset: Western and Eastern deserts | 30.04 | 27.21 | 390 | 12286 | 10.4 |
+| Egypt inset: Western and Eastern deserts | 30.35 | 27.21 | 590 | 12286 | 11.1 |
+| Egypt inset: Western and Eastern deserts | 30.66 | 27.22 | 790 | 12286 | 8.8 |
+| Egypt inset: Western and Eastern deserts | 31.59 | 27.22 | 1390 | 12286 | 9.9 |
+| Egypt inset: Western and Eastern deserts | 31.90 | 27.21 | 1590 | 12286 | 9.3 |
+| Egypt inset: Western and Eastern deserts | 32.21 | 27.21 | 1790 | 12286 | 9.4 |
+| Egypt inset: Western and Eastern deserts | 30.04 | 26.93 | 390 | 12486 | 10.0 |
+| Egypt inset: Western and Eastern deserts | 30.66 | 26.94 | 790 | 12486 | 11.5 |
+| Egypt inset: Western and Eastern deserts | 31.90 | 26.94 | 1590 | 12486 | 11.4 |
+| Egypt inset: Western and Eastern deserts | 32.21 | 26.93 | 1790 | 12486 | 7.0 |
+| Egypt inset: Western and Eastern deserts | 30.05 | 26.66 | 390 | 12686 | 11.1 |
+| Egypt inset: Western and Eastern deserts | 30.66 | 26.66 | 790 | 12686 | 11.0 |
+| Egypt inset: Western and Eastern deserts | 30.97 | 26.66 | 990 | 12686 | 9.4 |
+| Egypt inset: Western and Eastern deserts | 31.28 | 26.66 | 1190 | 12686 | 10.6 |
+| Egypt inset: Western and Eastern deserts | 32.21 | 26.66 | 1790 | 12686 | 10.7 |
+| Egypt inset: Western and Eastern deserts | 30.05 | 26.38 | 390 | 12886 | 11.4 |
+| Egypt inset: Western and Eastern deserts | 30.36 | 26.38 | 590 | 12886 | 9.9 |
+| Egypt inset: Western and Eastern deserts | 30.66 | 26.38 | 790 | 12886 | 11.2 |
+| Egypt inset: Western and Eastern deserts | 31.28 | 26.38 | 1190 | 12886 | 11.8 |
+| Egypt inset: Western and Eastern deserts | 30.05 | 26.10 | 390 | 13086 | 10.4 |
+| Egypt inset: Western and Eastern deserts | 30.36 | 26.10 | 590 | 13086 | 11.3 |
+| Egypt inset: Western and Eastern deserts | 30.67 | 26.11 | 790 | 13086 | 10.1 |
+| Egypt inset: Western and Eastern deserts | 30.97 | 26.11 | 990 | 13086 | 8.6 |
+| Egypt inset: Western and Eastern deserts | 31.28 | 26.11 | 1190 | 13086 | 8.2 |
+| Egypt inset: Western and Eastern deserts | 31.59 | 26.11 | 1390 | 13086 | 9.3 |
+| Egypt inset: Western and Eastern deserts | 30.67 | 25.83 | 790 | 13286 | 9.4 |
+| Egypt inset: Western and Eastern deserts | 30.97 | 25.83 | 990 | 13286 | 10.6 |
+| Egypt inset: Western and Eastern deserts | 31.28 | 25.83 | 1190 | 13286 | 10.5 |
+| Egypt inset: Western and Eastern deserts | 31.59 | 25.83 | 1390 | 13286 | 11.5 |
+| Egypt inset: Western and Eastern deserts | 31.89 | 25.83 | 1590 | 13286 | 11.0 |
+| Egypt inset: Western and Eastern deserts | 32.20 | 25.82 | 1790 | 13286 | 9.3 |
+| Egypt inset: Western and Eastern deserts | 30.06 | 25.55 | 390 | 13486 | 11.8 |
+| Egypt inset: Western and Eastern deserts | 30.36 | 25.55 | 590 | 13486 | 9.9 |
+| Egypt inset: Western and Eastern deserts | 30.67 | 25.55 | 790 | 13486 | 9.9 |
+| Egypt inset: Western and Eastern deserts | 30.97 | 25.55 | 990 | 13486 | 10.1 |
+| Egypt inset: Western and Eastern deserts | 31.28 | 25.55 | 1190 | 13486 | 10.6 |
+| Egypt inset: Western and Eastern deserts | 31.59 | 25.55 | 1390 | 13486 | 11.1 |
+| Egypt inset: Western and Eastern deserts | 31.89 | 25.55 | 1590 | 13486 | 9.9 |
+| Egypt inset: Western and Eastern deserts | 32.20 | 25.55 | 1790 | 13486 | 9.2 |
 
 The thin cells are listed with the flat ones in terrain-gap-cells.csv.
 
 ## What covers the land now
 
-- Terrain stamps and landscape tiles: 69 different pieces, 5700 placements
-- Generic settlement, farm, tree, rock and ruin pieces: 190 different pieces, 2071 placements
+- Terrain stamps and landscape tiles: 69 different pieces, 6417 placements
+- Generic settlement, farm, tree, rock and ruin pieces: 190 different pieces, 2088 placements
 - Greek island overlays: 47
 - Ships at sea: 8
 
