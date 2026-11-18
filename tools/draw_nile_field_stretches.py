@@ -26,6 +26,8 @@ REPORT=ROOT/"reports/nile-delta-terrain-review-2026-11-17/nile-field-stretches-q
 
 # These are review intervals, not seams in the geographic river geometry.
 STRETCHES=(
+    ("theban_valley",25.30,26.45),
+    ("upper_valley",26.45,27.70),
     ("southern_valley",27.70,28.35),
     ("central_valley",28.35,29.15),
     ("northern_valley",29.15,30.12),
@@ -53,7 +55,7 @@ def _paths(reg):
     from terrain import RIVERS
     from tools.render_nile_delta_waterways import load
     # Include all true upstream Nile centerlines without long invented joins.
-    upstream=box(29.45,27.67,33.05,30.102)
+    upstream=box(29.45,25.20,33.05,30.102)
     for line in RIVERS:
         if line.intersects(upstream):
             yield "upstream",line.intersection(upstream)
@@ -93,7 +95,7 @@ def _paint_transition_banks(c, reg):
                 if 29.88<=lat<=30.08 and 31.00<=lon<=31.45:
                     width=37
                 # Avoid cutting a hard green stripe at the southern sheet edge.
-                south_fade=max(.35,min(1.,(lat-27.70)/.12))
+                south_fade=max(.35,min(1.,(lat-25.30)/.12))
                 c.new_path()
                 c.move_to(a.x,a.y)
                 c.line_to(b.x,b.y)
@@ -181,7 +183,7 @@ def draw(c,terrain,reg,edition):
                 lon,lat=reg.inv.transform(
                     reg.x0+spot.x/reg.w*(reg.x1-reg.x0),
                     reg.y1-spot.y/reg.h*(reg.y1-reg.y0))
-                if not 27.70<=lat<=31.65:
+                if not 25.30<=lat<=31.65:
                     position+=interval;continue
                 # Broad northern marsh fringe: do not carpet wetlands with farms.
                 density=.46 if lat>=31.29 else .83 if category=="delta" else .93
@@ -201,7 +203,8 @@ def draw(c,terrain,reg,edition):
                         parcel_lon,parcel_lat=reg.inv.transform(
                             reg.x0+x/reg.w*(reg.x1-reg.x0),
                             reg.y1-y/reg.h*(reg.y1-reg.y0))
-                        if (29.90<=parcel_lat<=30.08 and parcel_lon<31.18):
+                        if ((29.90<=parcel_lat<=30.08 and parcel_lon<31.18)
+                            or (25.55<=parcel_lat<=25.85 and parcel_lon<32.63)):
                             continue
                         # These parcels have a flat painted outline, not sprite hills.
                         length=rnd.uniform(26,43) if band==0 else rnd.uniform(29,53)
@@ -233,7 +236,7 @@ def draw(c,terrain,reg,edition):
         "fields_painted":len(rows),
         "geography_fitted_painted_bank_sections":painted_bank_sections,
         "giza_west_bank_rule":"no parcels west of 31.18 E between 29.90 and 30.08 N; narrowed painted transition",
-        "southward_limit":"27.7 N inset edge; Valley of the Kings near 25.7 N is outside this frame",
+        "southward_limit":"25.3 N inset edge; Thebes and Valley of the Kings included as geographic context",
         "extension_status":"continuous source-aligned visual bank treatment; NOT additional approved original PNG panels",
         "source_geometries":segments,
         "stretches":[{"name":name,"latitude_range":[lo,hi],
