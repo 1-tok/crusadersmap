@@ -199,6 +199,12 @@ def draw_ink2(edition, surf=None, scale=None, mode=None):
                 from tools.draw_nile_field_stretches import draw as draw_nile_fields
                 draw_nile_fields(c, TER[k], REG[k], edition)
         TER[k].ink(c, edition)
+        if k == "delta" and edition == "colour":
+            # Actual approved painted river panel, geographically registered.
+            # Render after synthetic Nile strokes and all generic terrain;
+            # cities, fortresses and every label are drawn subsequently.
+            from tools.place_approved_nile_painting import draw as draw_approved_nile
+            draw_approved_nile(c, REG[k], edition)
         if k == "main":
             import waterart; waterart.draw(c, REG[k], edition)
         import islandart; islandart.draw(c, REG[k], edition, k)
@@ -283,6 +289,8 @@ if __name__ == "__main__":
             save_new_nile_art_report()
             from tools.draw_nile_field_stretches import save_report as save_nile_field_stretches
             save_nile_field_stretches()
+            from tools.place_approved_nile_painting import save_report as save_production_nile
+            save_production_nile()
             from tools.render_nile_delta_waterways import save_report as save_delta_river_report
             save_delta_river_report()
             from tools.nile_delta_terrain_policy import save as save_delta_classification
