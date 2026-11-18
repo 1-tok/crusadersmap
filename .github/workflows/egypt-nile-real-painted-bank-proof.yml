@@ -1,0 +1,64 @@
+name: Egypt actual painted Nile bank PNG placement proof
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/egypt-nile-real-painted-bank-proof.yml'
+      - 'tools/review_egypt_real_painted_bank_pngs.py'
+      - 'data/sprites/nile-painted-upright-2026-11-17/**'
+permissions:
+  contents: write
+concurrency:
+  group: egypt-real-painted-nile-review
+  cancel-in-progress: true
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install geographic and image rendering libraries
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y libcairo2-dev pkg-config
+          python -m pip install --quiet pillow numpy pycairo pyproj shapely scipy scikit-image
+      - name: Render actual painted bank assets in Egypt-only map
+        run: |
+          python -m py_compile tools/review_egypt_real_painted_bank_pngs.py
+          python tools/review_egypt_real_painted_bank_pngs.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from PIL import Image
+          directory=Path("reports/egypt-nile-real-painted-sprites-review")
+          qa=json.loads((directory/"placement-qa.json").read_text())
+          assert qa["sprite_count"]==4,qa
+          assert qa["sprite_rotation_degrees"]==0 and qa["mirror_count"]==0,qa
+          assert qa["water_geometry_modified"] is False,qa
+          assert qa["source_geographic_waterway_segments_protected"]>5,qa
+          for item in qa["placements"]:
+              assert item["rotation_degrees"]==0
+              assert item["display_px"][0]>180
+          with Image.open(directory/"egypt-painted-bank-comparison.jpg") as img:
+              assert img.width>4000 and img.height>1500,img.size
+          print("Four genuine painted south-facing sprites rendered for Egypt review")
+          PY
+      - name: Commit Egypt-only painted proof images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/egypt-nile-real-painted-sprites-review/
+          git diff --cached --quiet && exit 0
+          git commit -m "review: publish actual painted Nile bank sprite placement on Egypt inset [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: egypt-real-painted-bank-sprite-review
+          path: reports/egypt-nile-real-painted-sprites-review/
+          if-no-files-found: warn
