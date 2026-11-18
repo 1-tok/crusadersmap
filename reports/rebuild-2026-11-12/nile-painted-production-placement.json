@@ -1,0 +1,23 @@
+{
+  "status": "production_atlas_painted_section_active",
+  "source_asset_batch": "data/sprites/nile-painted-modular-2026-11-17-v2",
+  "panel_count": 4,
+  "pixel_exact_original_source_seams": true,
+  "rotation_degrees": 0,
+  "mirrored": false,
+  "nonuniform_distortion": false,
+  "native_egypt_inset_pixel_xy": [
+    612.894,
+    2690.909
+  ],
+  "source_scale_to_4800px_region": 0.81818,
+  "drawn_dimensions_px": [
+    936,
+    984
+  ],
+  "visible_pixels_alpha_gt_0_1": 834648,
+  "draw_order": "after terrain ink; before city, fortress, and map labels",
+  "upstream_and_delta_extensions": "not yet painted or connected",
+  "geo_fit_median_deviation_in_enlarged_preview_px": 10.64,
+  "historical_landuse_certified": false
+}
