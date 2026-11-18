@@ -62,6 +62,50 @@ def _paths(reg):
         if p.get("waterway")=="river" and g.intersects(north):
             yield "delta",g.intersection(north)
 
+def _paint_transition_banks(c, reg):
+    """Soft painted floodplain ribbons follow sourced lines, NOT fabricated river art.
+
+    Widths are cartographic approximations. Keep the Giza west bank narrow:
+    fields must surrender to the limestone plateau, not carpet the desert.
+    These strokes sit beneath the actual river ink and approved PNG panel.
+    """
+    sections=0
+    for category,geom in _paths(reg):
+        for source_line in _lines(geom):
+            line=LineString([reg.ll_px(x,y) for x,y in source_line.coords])
+            if line.length<12:
+                continue
+            p=0.0
+            while p<line.length-1:
+                nxt=min(p+15,line.length)
+                a=line.interpolate(p)
+                b=line.interpolate(nxt)
+                middle=line.interpolate((p+nxt)*.5)
+                lon,lat=reg.inv.transform(
+                    reg.x0+middle.x/reg.w*(reg.x1-reg.x0),
+                    reg.y1-middle.y/reg.h*(reg.y1-reg.y0))
+                # The bank is a narrow oasis south of Cairo, a broad
+                # floodplain in the Delta, with a constrained Giza shoulder.
+                if category=="delta":
+                    width=105 if lat<30.8 else 142
+                else:
+                    width=68 if lat<29.8 else 76
+                if 29.88<=lat<=30.08 and 31.00<=lon<=31.45:
+                    width=37
+                # Avoid cutting a hard green stripe at the southern sheet edge.
+                south_fade=max(.35,min(1.,(lat-27.70)/.12))
+                c.new_path()
+                c.move_to(a.x,a.y)
+                c.line_to(b.x,b.y)
+                c.set_line_cap(cairo.LINE_CAP_ROUND)
+                c.set_line_width(width*south_fade)
+                c.set_source_rgba(.48,.55,.28,.17 if category=="upstream" else .12)
+                c.stroke()
+                sections+=1
+                p=nxt
+    return sections
+
+
 def _field(c, x,y,angle,length,depth,color,seed):
     rnd=random.Random(seed)
     c.save()
@@ -152,6 +196,13 @@ def draw(c,terrain,reg,edition):
                         y=spot.y+ny*side*offset
                         if not (5<x<reg.w-5 and 5<y<reg.h-5):
                             continue
+                        # Giza plateau is WEST of the river. Keep mapped
+                        # limestone/desert from acquiring invented fields.
+                        parcel_lon,parcel_lat=reg.inv.transform(
+                            reg.x0+x/reg.w*(reg.x1-reg.x0),
+                            reg.y1-y/reg.h*(reg.y1-reg.y0))
+                        if (29.90<=parcel_lat<=30.08 and parcel_lon<31.18):
+                            continue
                         # These parcels have a flat painted outline, not sprite hills.
                         length=rnd.uniform(26,43) if band==0 else rnd.uniform(29,53)
                         depth=rnd.uniform(18,30) if category=="upstream" else rnd.uniform(20,38)
@@ -168,6 +219,7 @@ def draw(c,terrain,reg,edition):
     try:
         # Exact mapped coastline and lakes, never sea, no overlaid new hills.
         _clip_real_land(c,reg,terrain.mpp)
+        painted_bank_sections=_paint_transition_banks(c,reg)
         for x,y,angle,length,depth,color,seed,lat,category in rows:
             _field(c,x,y,angle,length,depth,color,seed)
     finally:
@@ -179,6 +231,10 @@ def draw(c,terrain,reg,edition):
         "source":"existing Natural Earth Nile trunk and mapped OSM Delta river segments",
         "preview_scale_field_readability":"parcel shapes and crop furrows designed for atlas at 0.30",
         "fields_painted":len(rows),
+        "geography_fitted_painted_bank_sections":painted_bank_sections,
+        "giza_west_bank_rule":"no parcels west of 31.18 E between 29.90 and 30.08 N; narrowed painted transition",
+        "southward_limit":"27.7 N inset edge; Valley of the Kings near 25.7 N is outside this frame",
+        "extension_status":"continuous source-aligned visual bank treatment; NOT additional approved original PNG panels",
         "source_geometries":segments,
         "stretches":[{"name":name,"latitude_range":[lo,hi],
                       "painted_fields":stats[name]} for name,lo,hi in STRETCHES],
