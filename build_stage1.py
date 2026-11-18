@@ -14,7 +14,7 @@ RED = (0.59, 0.125, 0.11); SEP = (0.42, 0.32, 0.22); INKC = (0.17, 0.13, 0.10)
 # ------------------------------------------------------------------ regions and boxes
 main = Region(FR.PROJ, FR.X0, FR.X1, FR.Y0, FR.Y1, W, H)
 ae = Region.from_lonlat(FR.INSETS["aegean"]["proj"], FR.INSETS["aegean"]["ext"], 4800)
-de = Region.from_lonlat(FR.INSETS["delta"]["proj"], FR.INSETS["delta"]["ext"], 4800)
+de = Region.from_lonlat(FR.INSETS["delta"]["proj"], FR.INSETS["delta"]["ext"], 3500)
 BOX = {"main": (0, 0), "aegean": (190, 190), "delta": (190, 13760 - de.h)}
 JW = 2410
 JH = int(round(JW * 1491 / 1055))
@@ -291,7 +291,7 @@ def draw_ink(edition):
     for off, lw in ((0, 6), (16, 3)):
         c.set_line_width(lw); c.rectangle(JX - off, JY - off, JW + 2 * off, JH + 2 * off); c.stroke()
     # panels
-    plate(c, 300, 4800, 2000, 4300)
+    plate(c, 300, 4800, 2000, 4200)
     centred(c, "KEY", 1300, 4990, 90, SEP)
     draw_title_cartouche(c)
     plate(c, 190, 13920, 10420, 330)
