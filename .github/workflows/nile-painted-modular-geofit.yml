@@ -1,0 +1,60 @@
+name: Nile painted modular geographic fit review
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/nile-painted-modular-geofit.yml'
+      - 'tools/review_nile_painted_modular_geofit.py'
+      - 'data/sprites/nile-painted-modular-2026-11-17/**'
+permissions:
+  contents: write
+concurrency:
+  group: egypt-painted-modular-geofit
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install map geometry and image dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y libcairo2-dev pkg-config
+          python -m pip install --quiet pillow numpy scipy shapely pyproj pycairo scikit-image
+      - name: Fit true painted river tiles to actual Nile without rotation
+        run: |
+          python -m py_compile tools/review_nile_painted_modular_geofit.py
+          python tools/review_nile_painted_modular_geofit.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from PIL import Image
+          root=Path('reports/egypt-nile-painted-modular-review')
+          qa=json.loads((root/'geographic-fit-qa.json').read_text())
+          assert qa['panel_count']==4
+          assert qa['seam_reconstruction']=='pixel_exact_pass'
+          assert qa['no_rotation'] and qa['no_mirroring'] and qa['no_nonuniform_deformation']
+          with Image.open(root/'nile_painted_geographic_trial.jpg') as image:
+              assert image.width>2000 and image.height>1500,image.size
+          print('GEOGRAPHIC REVIEW STATUS:',qa['status'])
+          PY
+      - name: Commit geographic fit proof, never alter production atlas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/egypt-nile-painted-modular-review/
+          git diff --cached --quiet && exit 0
+          git commit -m "review: painted Nile four-tile GIS fit proof [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nile-painted-four-tile-geographic-proof
+          path: reports/egypt-nile-painted-modular-review/
+          if-no-files-found: warn
