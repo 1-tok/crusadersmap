@@ -16,10 +16,10 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 from tools.build_egypt_inset_painted_proof import SOURCE,ZOOM,bounds,projected,source_paths,lines
 
-PACK=ROOT/"data/sprites/nile-painted-modular-2026-11-17"
+PACK=ROOT/"data/sprites/nile-painted-modular-2026-11-17-v2"
 OUT=ROOT/"reports/egypt-nile-painted-modular-review"
-REPORT=OUT/"geographic-fit-qa.json"
-PREVIEW=OUT/"nile_painted_geographic_trial.jpg"
+REPORT=OUT/"geographic-fit-v2-qa.json"
+PREVIEW=OUT/"nile_painted_geographic_v2_trial.jpg"
 
 def painted_water_rows(image):
     rgb=np.array(image.convert("RGB"),dtype=np.float32)
@@ -85,9 +85,9 @@ def fit(painted,actual):
 
 def main():
     manifest=json.loads((PACK/"manifest.json").read_text())
-    if manifest["seams"]["image_join"]!="exact_pixel_reconstruction_pass":
+    if manifest["exact_pixel_stitch"] is not True or manifest["source_caption_and_border_removed"] is not True:
         raise AssertionError("Required pixel-exact tile join not certified")
-    src=Image.new("RGBA",tuple(manifest["size"]))
+    src=Image.new("RGBA",tuple(manifest["image_size"]))
     for entry in manifest["assets"]:
         if entry["rotation_degrees"] or entry["mirror"]:
             raise AssertionError("Nile bank paintings must not rotate/mirror")
@@ -111,7 +111,8 @@ def main():
     pass_geometry=fitdata["median_abs_error_px"]<=25 and fitdata["p90_abs_error_px"]<=52
     report={
       "status":"geographic_fit_candidate" if pass_geometry else "repaint_required_course_mismatch",
-      "source":"exact four painted Nile PNG panels",
+      "source":"caption-free four painted Nile PNG panels V2",
+      "caption_border_removed":True,
       "published_review_image":PREVIEW.relative_to(ROOT).as_posix(),
       "panel_count":4,"seam_reconstruction":"pixel_exact_pass",
       "no_rotation":True,"no_mirroring":True,"no_nonuniform_deformation":True,
