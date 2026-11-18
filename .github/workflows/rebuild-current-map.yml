@@ -83,8 +83,9 @@ jobs:
       - name: Graphics libraries and fonts
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y libcairo2-dev pkg-config fontconfig
-          fc-cache -f fonts || true
+          sudo apt-get install -y libcairo2-dev pkg-config fontconfig fonts-unifraktur
+          fc-cache -f
+          fc-match -f '%{family}\n' 'UnifrakturCook' | grep -qi 'UnifrakturCook'
           python -m pip install --upgrade pip
           python -m pip install numpy Pillow scipy scikit-image shapely pyproj pycairo
       - name: Acquire real meandering Nile Delta river geometries for geographic review
