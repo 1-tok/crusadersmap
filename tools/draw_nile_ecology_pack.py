@@ -61,7 +61,7 @@ def draw_landcover(c,terrain,reg,edition):
     from terrain import RIVERS
     from shapely.geometry import LineString
     # Real stored Nile trunk is the only source for upstream farm buffers.
-    candidates=[g for g in RIVERS if g.intersects(box(28.5,27.6,33.0,30.16))]
+    candidates=[g for g in RIVERS if g.intersects(box(28.5,25.2,33.0,30.16))]
     upstream=unary_union(candidates) if candidates else None
     rnd=random.Random(20261117)
     d_farm=[];u_farm=[];marsh=[]
@@ -71,7 +71,7 @@ def draw_landcover(c,terrain,reg,edition):
             if not terrain.land_l[iy,ix] or terrain.water_l[iy,ix]:
                 continue
             lon=float(terrain.lon[iy,ix]);lat=float(terrain.lat[iy,ix])
-            if not (27.7<=lat<=31.65):
+            if not (25.3<=lat<=31.65):
                 continue
             if terrain.dland[iy,ix]<1.2:
                 continue
@@ -80,7 +80,7 @@ def draw_landcover(c,terrain,reg,edition):
                     marsh.append((lon,lat))
                 elif terrain.fert[iy,ix]>.47:
                     d_farm.append((lon,lat))
-            elif upstream is not None and 27.78<=lat<30.07 and 29.5<lon<33.15:
+            elif upstream is not None and 25.32<=lat<30.07 and 29.5<lon<33.15:
                 if Point(lon,lat).distance(upstream)<.09:
                     u_farm.append((lon,lat))
     selected=[
