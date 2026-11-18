@@ -35,14 +35,12 @@ def draw(c, reg, edition):
         raise AssertionError("Painted Nile section has not passed approval-gated GIS QA")
     if source["image_size"] != [1144,1203] or len(source["assets"])!=4:
         raise AssertionError("Unexpected production Nile painted panel manifest")
-    if reg.w!=4800:
-        raise AssertionError(f"Egypt inset scaled geographic region changed: {reg.w}")
+    if reg.w!=3500:
+        raise AssertionError(f"Expanded Egypt inset width changed: {reg.w}")
     # Review enlarged the 0.30-scale atlas by a further factor of 2.2.
     # Convert its known fit back into the native inset coordinates exactly.
     conversion=1.0/(.30*2.2)
-    uniform_scale=fit["fit"]["uniform_scale"]*conversion
-    x_native=fit["fit"]["translation_xy"][0]*conversion
-    y_native=fit["fit"]["translation_xy"][1]*conversion
+    # Old GIS fit was measured in the 4800px-wide, 27.7 N inset.\n    # The new inset retains the same northern projected edge and western\n    # longitude. Scale positions and artwork uniformly with map metres.\n    scale_ratio=reg.w/4800.0\n    uniform_scale=fit["fit"]["uniform_scale"]*conversion*scale_ratio\n    x_native=fit["fit"]["translation_xy"][0]*conversion*scale_ratio\n    y_native=fit["fit"]["translation_xy"][1]*conversion*scale_ratio
     native_w=round(source["image_size"][0]*uniform_scale)
     native_h=round(source["image_size"][1]*uniform_scale)
     if not (.3<uniform_scale<1.5 and 0<x_native<reg.w and 0<y_native<reg.h):
@@ -104,7 +102,7 @@ def draw(c, reg, edition):
         "pixel_exact_original_source_seams":True,
         "rotation_degrees":0,"mirrored":False,"nonuniform_distortion":False,
         "native_egypt_inset_pixel_xy":[round(x_native,3),round(y_native,3)],
-        "source_scale_to_4800px_region":round(uniform_scale,5),
+        "source_scale_to_expanded_3500px_region":round(uniform_scale,5),\n        "geographic_projection_change":"same upper edge and west boundary; uniform 3500/4800 fit scale",
         "drawn_dimensions_px":[native_w,native_h],
         "visible_pixels_alpha_gt_0_1":visible,
         "draw_order":"after terrain ink; before city, fortress, and map labels",
