@@ -1,0 +1,81 @@
+{
+  "batch": "nile-painted-modular-2026-11-17",
+  "status": "review_only_not_placed_on_atlas",
+  "source": "approved painterly Nile proof painted_nile_valley_villages_and_felucca.png",
+  "source_sha256": "52284bd67bec77300994bb7b796050451482fc0c7c021108c219a957c0851a76",
+  "perspective": "south_looking_north",
+  "size": [
+    1209,
+    1301
+  ],
+  "assets": [
+    {
+      "id": "nile_painted_tile_01",
+      "path": "nile_corridor_south_up_01.png",
+      "source_crop_y0": 0,
+      "source_crop_y1": 325,
+      "dimensions_px": [
+        1209,
+        325
+      ],
+      "rotation_degrees": 0,
+      "mirror": false,
+      "bank_and_water_painted": true
+    },
+    {
+      "id": "nile_painted_tile_02",
+      "path": "nile_corridor_south_up_02.png",
+      "source_crop_y0": 325,
+      "source_crop_y1": 650,
+      "dimensions_px": [
+        1209,
+        325
+      ],
+      "rotation_degrees": 0,
+      "mirror": false,
+      "bank_and_water_painted": true
+    },
+    {
+      "id": "nile_painted_tile_03",
+      "path": "nile_corridor_south_up_03.png",
+      "source_crop_y0": 650,
+      "source_crop_y1": 975,
+      "dimensions_px": [
+        1209,
+        325
+      ],
+      "rotation_degrees": 0,
+      "mirror": false,
+      "bank_and_water_painted": true
+    },
+    {
+      "id": "nile_painted_tile_04",
+      "path": "nile_corridor_south_up_04.png",
+      "source_crop_y0": 975,
+      "source_crop_y1": 1301,
+      "dimensions_px": [
+        1209,
+        326
+      ],
+      "rotation_degrees": 0,
+      "mirror": false,
+      "bank_and_water_painted": true
+    }
+  ],
+  "seams": {
+    "image_join": "exact_pixel_reconstruction_pass",
+    "junction_y": [
+      325,
+      650,
+      975
+    ],
+    "side_alpha_feather_px": 65,
+    "top_bottom_fade": false
+  },
+  "geographic_placement": {
+    "status": "pending",
+    "do_not_warp_or_rotate": true,
+    "reference": "Nile geographic course in existing Egypt inset"
+  },
+  "print_approval": false
+}
