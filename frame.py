@@ -17,5 +17,5 @@ INSETS = {
     "aegean": dict(proj="+proj=lcc +lat_1=36 +lat_2=40 +lat_0=38 +lon_0=25 +datum=WGS84 +units=m",
                    ext=(19.6, 34.7, 30.4, 41.75), title="Romania: the Aegean and Constantinople"),
     "delta": dict(proj="+proj=lcc +lat_1=30 +lat_2=31.5 +lat_0=30.7 +lon_0=31.1 +datum=WGS84 +units=m",
-                  ext=(29.5, 27.7, 35.2, 31.8), title="Egypt and Sinai: the Delta to Cairo"),
+                  ext=(29.5, 25.3, 35.2, 31.8), title="Egypt and Sinai: the Nile to Thebes"),
 }
