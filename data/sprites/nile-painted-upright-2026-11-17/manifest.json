@@ -1,0 +1,43 @@
+{
+  "batch": "nile-painted-upright-2026-11-17",
+  "status": "provisional_egypt_only",
+  "source": "a_clean_transparent_background_illustration_sheet.png",
+  "source_geometry": "Upright bank scenes only, not river geometry",
+  "perspective": "view_from_south_looking_north",
+  "policy": {
+    "rotation_degrees": 0,
+    "mirroring": false,
+    "production_approved": false,
+    "course_from": "Natural Earth/OSM river centerlines"
+  },
+  "assets": [
+    {
+      "name": "leftbank_south_a.png",
+      "blob_sha": "17a6fd8da96331f185177df1059f0b27f20f0ad4",
+      "side": "left",
+      "role": "painted_bank",
+      "rotation_degrees": 0
+    },
+    {
+      "name": "leftbank_south_b.png",
+      "blob_sha": "1f26a4bb12da78a4fa9a1a8a1d4debefa67a1e62",
+      "side": "left",
+      "role": "painted_bank",
+      "rotation_degrees": 0
+    },
+    {
+      "name": "rightbank_south_a.png",
+      "blob_sha": "ff11d8a3f9b1cac2d2f98edf4aa3be87357c7b90",
+      "side": "right",
+      "role": "painted_bank",
+      "rotation_degrees": 0
+    },
+    {
+      "name": "rightbank_south_b.png",
+      "blob_sha": "0a045126490d52a8fa99a4931a035cde3f5b9c02",
+      "side": "right",
+      "role": "painted_bank",
+      "rotation_degrees": 0
+    }
+  ]
+}
