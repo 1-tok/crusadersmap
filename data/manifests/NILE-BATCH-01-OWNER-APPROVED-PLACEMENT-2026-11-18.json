@@ -1,0 +1,321 @@
+{
+  "batch": "egypt-nile-sprites-batch01",
+  "status": "owner_approved_pending_binary_intake_and_geographic_QA",
+  "count": 29,
+  "source_archive": "nile_sprites_batch_01.zip",
+  "file_directory_when_uploaded": "assets/sprites/incoming/nile-batch-01",
+  "geographic_frame": "Egypt inset 25.3N–31.8N",
+  "rules": {
+    "default": "no_crossing_river",
+    "crossing_exception": "only if sprite itself visibly contains the Nile water",
+    "placement_geometry": "use sourced geographic Nile and Delta centerlines, never invent channels from painting",
+    "landmark_collision": "must not overlap river pixels, city labels, or approved landmarks",
+    "on_bank_constraint": "entire opaque pixel footprint must remain on one bank; clipping that cuts through a monument is not acceptable",
+    "river_art": "may cross only with river content; QA must verify both water alignment and opposite-bank transitions",
+    "existing_city_assets": "do not replace existing approved Cairo/Alexandria/Damietta/Rosetta paintings without separate review",
+    "source_art": "preserve the existing four-panel approved Nile painting unchanged",
+    "review_status": "no automatic production placement until PNG binaries are uploaded and footprint testing passes"
+  },
+  "sprites": [
+    {
+      "file": "01_cairo_city.png",
+      "kind": "site",
+      "proposed_anchor_lonlat": [
+        31.24,
+        30.04
+      ],
+      "bank_rule": "east",
+      "river_in_sprite": false,
+      "placement_status": "existing_city_replacement_hold",
+      "active": false
+    },
+    {
+      "file": "02_alexandria_harbor.png",
+      "kind": "site",
+      "proposed_anchor_lonlat": [
+        29.91,
+        31.2
+      ],
+      "bank_rule": "coastal",
+      "river_in_sprite": false,
+      "placement_status": "existing_city_replacement_hold",
+      "active": false
+    },
+    {
+      "file": "03_damietta_harbor.png",
+      "kind": "site",
+      "proposed_anchor_lonlat": [
+        31.81,
+        31.42
+      ],
+      "bank_rule": "coastal",
+      "river_in_sprite": false,
+      "placement_status": "existing_city_replacement_hold",
+      "active": false
+    },
+    {
+      "file": "04_rosetta_harbor.png",
+      "kind": "site",
+      "proposed_anchor_lonlat": [
+        30.42,
+        31.4
+      ],
+      "bank_rule": "coastal",
+      "river_in_sprite": false,
+      "placement_status": "existing_city_replacement_hold",
+      "active": false
+    },
+    {
+      "file": "05_giza_pyramids_sphinx.png",
+      "kind": "monument",
+      "proposed_anchor_lonlat": [
+        31.13,
+        29.98
+      ],
+      "bank_rule": "west",
+      "river_in_sprite": false,
+      "placement_status": "historical_detail_review",
+      "active": false
+    },
+    {
+      "file": "06_saqqara_step_pyramid.png",
+      "kind": "monument",
+      "proposed_anchor_lonlat": [
+        31.22,
+        29.87
+      ],
+      "bank_rule": "west",
+      "river_in_sprite": false,
+      "placement_status": "historical_detail_review",
+      "active": false
+    },
+    {
+      "file": "07_dahshur_pyramids.png",
+      "kind": "monument",
+      "proposed_anchor_lonlat": [
+        31.21,
+        29.79
+      ],
+      "bank_rule": "west",
+      "river_in_sprite": false,
+      "placement_status": "historical_detail_review",
+      "active": false
+    },
+    {
+      "file": "08_me_idum_pyramid.png",
+      "kind": "monument",
+      "proposed_anchor_lonlat": [
+        31.16,
+        29.39
+      ],
+      "bank_rule": "west",
+      "river_in_sprite": false,
+      "placement_status": "historical_detail_review",
+      "active": false
+    },
+    {
+      "file": "09_pyramid_site_generic.png",
+      "kind": "monument",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "unassigned",
+      "river_in_sprite": false,
+      "placement_status": "requires_named_site_before_placement",
+      "active": false
+    },
+    {
+      "file": "10_karnak_temple.png",
+      "kind": "monument",
+      "proposed_anchor_lonlat": [
+        32.66,
+        25.72
+      ],
+      "bank_rule": "east",
+      "river_in_sprite": false,
+      "placement_status": "historical_detail_review",
+      "active": false
+    },
+    {
+      "file": "11_luxor_temple.png",
+      "kind": "monument",
+      "proposed_anchor_lonlat": [
+        32.64,
+        25.7
+      ],
+      "bank_rule": "east",
+      "river_in_sprite": false,
+      "placement_status": "historical_detail_review",
+      "active": false
+    },
+    {
+      "file": "12_deir_el_bahari.png",
+      "kind": "monument",
+      "proposed_anchor_lonlat": [
+        32.61,
+        25.74
+      ],
+      "bank_rule": "west",
+      "river_in_sprite": false,
+      "placement_status": "historical_detail_review",
+      "active": false
+    },
+    {
+      "file": "13_valley_of_kings_tombs.png",
+      "kind": "monument",
+      "proposed_anchor_lonlat": [
+        32.6,
+        25.74
+      ],
+      "bank_rule": "west",
+      "river_in_sprite": false,
+      "placement_status": "historical_detail_review",
+      "active": false
+    },
+    {
+      "file": "14_colossi_of_memnon.png",
+      "kind": "monument",
+      "proposed_anchor_lonlat": [
+        32.61,
+        25.72
+      ],
+      "bank_rule": "west",
+      "river_in_sprite": false,
+      "placement_status": "historical_detail_review",
+      "active": false
+    },
+    {
+      "file": "15_nile_straight.png",
+      "kind": "river_art",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "both",
+      "river_in_sprite": true,
+      "placement_status": "source_centerline_fit_required",
+      "active": false
+    },
+    {
+      "file": "16_nile_curve.png",
+      "kind": "river_art",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "both",
+      "river_in_sprite": true,
+      "placement_status": "source_centerline_fit_required",
+      "active": false
+    },
+    {
+      "file": "17_nile_village_bank.png",
+      "kind": "river_art",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "both",
+      "river_in_sprite": true,
+      "placement_status": "source_centerline_fit_required",
+      "active": false
+    },
+    {
+      "file": "18_nile_meander.png",
+      "kind": "river_art",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "both",
+      "river_in_sprite": true,
+      "placement_status": "source_centerline_fit_required",
+      "active": false
+    },
+    {
+      "file": "19_nile_wetlands.png",
+      "kind": "river_art",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "both",
+      "river_in_sprite": true,
+      "placement_status": "source_centerline_fit_required",
+      "active": false
+    },
+    {
+      "file": "20_nile_farmbank.png",
+      "kind": "river_art",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "both",
+      "river_in_sprite": true,
+      "placement_status": "source_centerline_fit_required",
+      "active": false
+    },
+    {
+      "file": "21_delta_distributary.png",
+      "kind": "river_art",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "both",
+      "river_in_sprite": true,
+      "placement_status": "source_centerline_fit_required",
+      "active": false
+    },
+    {
+      "file": "22_fields_a.png",
+      "kind": "field",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "single_bank",
+      "river_in_sprite": false,
+      "placement_status": "bank_footprint_qa_required",
+      "active": false
+    },
+    {
+      "file": "23_fields_b.png",
+      "kind": "field",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "single_bank",
+      "river_in_sprite": false,
+      "placement_status": "bank_footprint_qa_required",
+      "active": false
+    },
+    {
+      "file": "24_fields_c.png",
+      "kind": "field",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "single_bank",
+      "river_in_sprite": false,
+      "placement_status": "bank_footprint_qa_required",
+      "active": false
+    },
+    {
+      "file": "25_fields_d.png",
+      "kind": "field",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "single_bank",
+      "river_in_sprite": false,
+      "placement_status": "bank_footprint_qa_required",
+      "active": false
+    },
+    {
+      "file": "26_desert_cliffs_a.png",
+      "kind": "desert",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "single_bank",
+      "river_in_sprite": false,
+      "placement_status": "bank_footprint_qa_required",
+      "active": false
+    },
+    {
+      "file": "27_desert_cliffs_b.png",
+      "kind": "desert",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "single_bank",
+      "river_in_sprite": false,
+      "placement_status": "bank_footprint_qa_required",
+      "active": false
+    },
+    {
+      "file": "28_desert_village.png",
+      "kind": "settlement",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "single_bank",
+      "river_in_sprite": false,
+      "placement_status": "bank_footprint_qa_required",
+      "active": false
+    },
+    {
+      "file": "29_desert_palm_grove.png",
+      "kind": "vegetation",
+      "proposed_anchor_lonlat": null,
+      "bank_rule": "single_bank",
+      "river_in_sprite": false,
+      "placement_status": "bank_footprint_qa_required",
+      "active": false
+    }
+  ]
+}
