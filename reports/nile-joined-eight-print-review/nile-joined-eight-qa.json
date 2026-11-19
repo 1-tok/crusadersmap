@@ -1,7 +1,8 @@
 {
-  "status": "waiting_for_exact_eight_png_binaries",
-  "input_files_found": false,
-  "required_files": [
+  "status": "visual_only_geographic_mismatch_repaint_to_fit",
+  "input_files_found": true,
+  "source_directory": "out/nile-batch02-review-input",
+  "tile_files": [
     "nile_joins_01.png",
     "nile_joins_02.png",
     "nile_joins_03.png",
@@ -11,12 +12,116 @@
     "nile_joins_07.png",
     "nile_joins_08.png"
   ],
-  "searched_paths": [
-    "data/sprites/nile-joins-batch-02",
-    "assets/sprites/incoming/nile-joins-batch-02",
-    "assets/sprites/incoming/nile_joins_batch_02",
-    "data/sprites/automated-intake/nile-joins-batch-02"
+  "piece_dimensions_px": [
+    [
+      660,
+      305
+    ],
+    [
+      660,
+      306
+    ],
+    [
+      660,
+      306
+    ],
+    [
+      660,
+      305
+    ],
+    [
+      660,
+      305
+    ],
+    [
+      660,
+      306
+    ],
+    [
+      660,
+      306
+    ],
+    [
+      660,
+      304
+    ]
   ],
-  "note": "The ZIP is available in ChatGPT, but its binary PNGs are not in this repository. No approximation rendered.",
-  "production_composite_modified": false
+  "join_edges": [
+    {
+      "join": [
+        1,
+        2
+      ],
+      "mean_abs_rgba_delta": 0.0,
+      "pct_exact_pixels": 1.0
+    },
+    {
+      "join": [
+        2,
+        3
+      ],
+      "mean_abs_rgba_delta": 0.0,
+      "pct_exact_pixels": 1.0
+    },
+    {
+      "join": [
+        3,
+        4
+      ],
+      "mean_abs_rgba_delta": 0.0,
+      "pct_exact_pixels": 1.0
+    },
+    {
+      "join": [
+        4,
+        5
+      ],
+      "mean_abs_rgba_delta": 0.0,
+      "pct_exact_pixels": 1.0
+    },
+    {
+      "join": [
+        5,
+        6
+      ],
+      "mean_abs_rgba_delta": 0.0,
+      "pct_exact_pixels": 1.0
+    },
+    {
+      "join": [
+        6,
+        7
+      ],
+      "mean_abs_rgba_delta": 0.0,
+      "pct_exact_pixels": 1.0
+    },
+    {
+      "join": [
+        7,
+        8
+      ],
+      "mean_abs_rgba_delta": 0.0,
+      "pct_exact_pixels": 1.0
+    }
+  ],
+  "rotation_degrees": 0,
+  "mirror": false,
+  "nonuniform_scaling": false,
+  "tile_sequence_unmodified": true,
+  "source_river_pixel_samples": 110,
+  "registration": {
+    "x0": 113,
+    "y0": 56,
+    "w": 261,
+    "h": 967,
+    "uniform_scale": 0.39598,
+    "median_distance_from_true_Nile_preview_px": 11.4,
+    "p90_distance_from_true_Nile_preview_px": 70.92
+  },
+  "source_atlas": "reports/rebuild-2026-11-12/outremer-current-composite.jpg",
+  "preview": "reports/nile-joined-eight-print-review/outremer-print-map-eight-nile-joins-review.jpg",
+  "comparison": "reports/nile-joined-eight-print-review/eight-joined-nile-on-actual-atlas-before-after.jpg",
+  "review_only": true,
+  "production_composite_modified": false,
+  "warning": "Whole-strip translation+uniform scale cannot match all true river meanders if shape differs. Repaint individual geography-specific joints rather than rotate or warp."
 }
