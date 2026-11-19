@@ -1,0 +1,36 @@
+{
+  "status": "visual_review_candidate_not_production_approved",
+  "source_atlas": "reports/rebuild-2026-11-12/outremer-current-composite.jpg",
+  "source_art": "data/sprites/nile-joins-batch-02/encoded",
+  "source_sha256_verified": true,
+  "original_png_sha256": "f3cda4a85b04d8bc89f27f5dcf4b70d32243da9b652fa631dffd8c7e2f8463f2",
+  "tile_count": 8,
+  "joined_edges_exact": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "decoded_png_directory": "data/sprites/nile-joins-batch-02",
+  "placement_at_map_preview_resolution": {
+    "x": 265,
+    "y": 2790,
+    "uniform_scale": 0.52,
+    "width": 343,
+    "height": 1270
+  },
+  "map_preview_dimensions": [
+    3240,
+    4320
+  ],
+  "full_print_canvas_preview": "reports/nile-joined-eight-fixed/outremer-print-canvas-nile-eight-placed.jpg",
+  "detail_comparison": "reports/nile-joined-eight-fixed/egypt-nile-joined-eight-before-after.jpg",
+  "rotation_degrees": 0,
+  "mirrored": false,
+  "nonuniform_scale": false,
+  "production_composite_modified": false,
+  "limitation": "Placed at the approved interactive preview position; matching the geographic Nile's complete meanders requires further segmented fitting or repainting, not warping."
+}
