@@ -1,0 +1,21 @@
+{
+  "status": "review_only",
+  "format": "base64-split-png",
+  "width": 660,
+  "height": 2443,
+  "parts": 24,
+  "part_chars": 180000,
+  "original_png_sha256": "f3cda4a85b04d8bc89f27f5dcf4b70d32243da9b652fa631dffd8c7e2f8463f2",
+  "tile_heights": [
+    305,
+    306,
+    306,
+    305,
+    305,
+    306,
+    306,
+    304
+  ],
+  "source": "approved eight continuous joined Nile paintings",
+  "note": "To review: concatenate part-000 through part-023 in order, base64 decode once, verify SHA256, split at tile_heights. Never rotate or mirror."
+}
