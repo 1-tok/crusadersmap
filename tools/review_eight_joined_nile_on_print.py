@@ -15,6 +15,9 @@ Do not use this proof as an automatic production placement authorization.
 from __future__ import annotations
 import json
 import sys
+import zipfile
+import tempfile
+import hashlib
 from pathlib import Path
 
 import numpy as np
@@ -35,9 +38,44 @@ INPUT_CANDIDATES=[
 REQUIRED=[f"nile_joins_{i:02d}.png" for i in range(1,9)]
 
 def source_path():
+    # Prefer unaltered committed binaries, if already present.
     for directory in INPUT_CANDIDATES:
         if all((directory/f).is_file() for f in REQUIRED):
             return directory
+    # A single repository-ready ZIP can also be uploaded to incoming. Extract
+    # ONLY the eight named files to a temporary directory in the runner:
+    # never overwrite production data or mistake other images for approved art.
+    archives=[
+        ROOT/"assets/sprites/incoming/nile_joins_batch_02_repo_ready.zip",
+        ROOT/"assets/sprites/incoming/nile_joins_batch_02.zip",
+    ]
+    for archive in archives:
+        if not archive.is_file():
+            continue
+        with zipfile.ZipFile(archive) as z:
+            prefix="data/sprites/nile-joins-batch-02/"
+            names=z.namelist()
+            exact=[prefix+f for f in REQUIRED]
+            if not all(n in names for n in exact):
+                raise AssertionError("Uploaded Nile ZIP missing one or more exact named tiles")
+            if len(names)>40 or sum(z.getinfo(n).file_size for n in exact)>35*1024*1024:
+                raise AssertionError("Unexpected oversized or crowded Nile ZIP")
+            name_manifest=prefix+"manifest.json"
+            manifest=None
+            if name_manifest in names:
+                manifest=json.loads(z.read(name_manifest))
+                if len(manifest.get("tiles",[]))!=8:
+                    raise AssertionError("Nile ZIP manifest must enumerate all eight tiles")
+            dest=ROOT/"out/nile-batch02-review-input"
+            dest.mkdir(parents=True,exist_ok=True)
+            for i,n in enumerate(exact):
+                blob=z.read(n)
+                if manifest is not None:
+                    meta=manifest["tiles"][i]
+                    if meta.get("file")!=REQUIRED[i] or meta.get("sha256")!=hashlib.sha256(blob).hexdigest():
+                        raise AssertionError("Nile ZIP manifest digest mismatch: "+REQUIRED[i])
+                (dest/REQUIRED[i]).write_bytes(blob)
+            return dest
     return None
 
 def river_lines(g):
