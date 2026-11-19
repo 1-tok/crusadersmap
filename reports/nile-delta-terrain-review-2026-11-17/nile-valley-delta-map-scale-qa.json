@@ -10,11 +10,11 @@
     4128
   ],
   "mean_abs_difference_by_rgb": [
-    0.0166,
-    0.016,
-    0.0187
+    0.0158,
+    0.0156,
+    0.0178
   ],
-  "sampled_changed_fraction": 0.00011,
+  "sampled_changed_fraction": 0.00014,
   "nile_upstream_and_delta_both_in_crop": true,
   "note": "Pixel difference and crop visibility alone do not certify geographic river connectivity or sprite seams."
 }
