@@ -269,11 +269,54 @@ def main():
     full_print_review.save(full_print_file,quality=93,subsampling=0)
     if full_print_review.size != atlas.size:
         raise AssertionError("Print-canvas review dimensions changed")
+    # A clean full-map view is inadequate for checking small sprite placement.
+    # Generate an explicit review proof with markers ON the actual composed
+    # print canvas and separate 2x Egypt crops. Do not modify source PNGs.
+    locator=full_print_review.copy()
+    ld=ImageDraw.Draw(locator)
+    numbered=after.convert("RGB").copy()
+    nd=ImageDraw.Draw(numbered)
+    bounds=[]
+    for idx,p in enumerate(placements,1):
+        px,py=p["xy_preview_px"]
+        pw=p["width_preview_px"]
+        with Image.open(ROOT/p["source"]) as original:
+            ph=max(1,round(original.height*pw/original.width))
+        left,top,right,bottom=px,py,px+pw,py+ph
+        bounds.append([left,top,right,bottom])
+        # Draw boxes on a separate diagnostic, not on the clean print review.
+        color=(166,28,24) if p["side"]=="west" else (22,67,152)
+        nd.rectangle((left,top,right,bottom),outline=color,width=3)
+        lx=max(0,min(W-31,left))
+        ly=max(0,min(H-20,top-20))
+        nd.rectangle((lx,ly,lx+31,ly+19),fill=(255,251,226),outline=color,width=2)
+        nd.text((lx+4,ly+3),str(idx),fill=color)
+        gx,gy=rect[0]+lx,rect[1]+ly
+        ld.rectangle((gx,gy,gx+31,gy+19),fill=(255,251,226),outline=color,width=2)
+        ld.text((gx+4,gy+3),str(idx),fill=color)
+    marked=OUT/"outremer-print-canvas-nile-50-cutout-locators.jpg"
+    locator.save(marked,quality=96,subsampling=0)
+    detailed=OUT/"nile-50-cutouts-actual-placement-numbered-2x.jpg"
+    numbered.resize((W*2,H*2),Image.Resampling.LANCZOS).save(detailed,quality=96,subsampling=0)
+    # Untouched sprite compositions at 2x to show their real visual size.
+    clean_detail=OUT/"nile-50-cutouts-clean-egypt-2x.jpg"
+    after.convert("RGB").resize((W*2,H*2),Image.Resampling.LANCZOS).save(
+        clean_detail,quality=96,subsampling=0)
+    # Prove that all labels correspond to existing committed source PNGs.
+    for p in placements:
+        if not (ROOT/p["source"]).is_file():
+            raise AssertionError("Missing placed Nile cutout: "+p["source"])
+    if len(bounds)!=len(placements):
+        raise AssertionError("Nile sprite locator count mismatch")
     report={
       "status":"map_scale_experiment_only_not_production_approved",
       "source_atlas":SOURCE.relative_to(ROOT).as_posix(),
       "preview":final.relative_to(ROOT).as_posix(),
       "full_print_canvas_preview":full_print_file.relative_to(ROOT).as_posix(),
+      "numbered_print_canvas":marked.relative_to(ROOT).as_posix(),
+      "numbered_nile_detail_2x":detailed.relative_to(ROOT).as_posix(),
+      "clean_nile_detail_2x":clean_detail.relative_to(ROOT).as_posix(),
+      "visible_placement_locator_count":len(bounds),
       "print_canvas_preview_size_px":list(atlas.size),
       "print_layout_source":"existing 0.30-scale actual atlas; not a replacement print master",
       "river_source":"Natural Earth centerlines and mapped OSM Delta waterway lines",
