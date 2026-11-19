@@ -55,6 +55,7 @@ on:
       - 'tools/review_eight_joined_nile_on_print.py'
       - 'data/sprites/nile-joins-batch-02/**'
       - 'assets/sprites/incoming/nile-joins-batch-02/**'
+      - 'assets/sprites/incoming/nile_joins_batch_02*.zip'
       - 'assets/sprites/incoming/nile_delta_upstream_terrain_sprites_2026-11-17.zip'
       - 'data/sprites/nile-ecology-2026-11-17/**'
       - 'tools/fetch_nile_delta_waterways.py'
