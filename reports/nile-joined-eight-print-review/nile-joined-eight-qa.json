@@ -1,0 +1,22 @@
+{
+  "status": "waiting_for_exact_eight_png_binaries",
+  "input_files_found": false,
+  "required_files": [
+    "nile_joins_01.png",
+    "nile_joins_02.png",
+    "nile_joins_03.png",
+    "nile_joins_04.png",
+    "nile_joins_05.png",
+    "nile_joins_06.png",
+    "nile_joins_07.png",
+    "nile_joins_08.png"
+  ],
+  "searched_paths": [
+    "data/sprites/nile-joins-batch-02",
+    "assets/sprites/incoming/nile-joins-batch-02",
+    "assets/sprites/incoming/nile_joins_batch_02",
+    "data/sprites/automated-intake/nile-joins-batch-02"
+  ],
+  "note": "The ZIP is available in ChatGPT, but its binary PNGs are not in this repository. No approximation rendered.",
+  "production_composite_modified": false
+}
