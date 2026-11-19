@@ -1,0 +1,61 @@
+name: Nile eight-tile print canvas review
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/nile-eight-print-review.yml'
+      - 'tools/render_nile_eight_fixed_print_preview.py'
+      - 'data/sprites/nile-joins-batch-02/encoded/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nile-eight-print-preview
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image runtime
+        run: python -m pip install Pillow
+      - name: Verify original Nile PNG and render fixed placement on actual atlas
+        run: python tools/render_nile_eight_fixed_print_preview.py
+      - name: Retain reviewed original eight PNGs and map-scale JPGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git reset --mixed origin/main
+            git add data/sprites/nile-joins-batch-02/nile_joins_*.png
+            git add reports/nile-joined-eight-fixed/
+            if git diff --cached --quiet; then
+              echo "Nile preview and originals already current"
+              exit 0
+            fi
+            git commit -m "review: stage verified original Nile PNGs and print canvas proof [skip ci]"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Main advanced during Nile review push; retry"
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nile-eight-print-review
+          path: |
+            reports/nile-joined-eight-fixed/
+            data/sprites/nile-joins-batch-02/nile_joins_*.png
+          if-no-files-found: warn
