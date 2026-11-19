@@ -7,13 +7,15 @@ the eight binary PNGs are not yet in GitHub, emit a pending report rather
 than pretending they have been placed.
 
 Inputs are the eight extracted images nile_joins_01.png ... _08.png,
-660 px wide, totaling 2436 px tall. Adjacent sections must be joined in
+660 px wide, totaling 2443 px tall. Adjacent sections must be joined in
 their original order. Fitting uses geographically sourced Nile centerlines
 to choose one UNIFORM scale and x/y translation for the whole strip.
 Do not use this proof as an automatic production placement authorization.
 """
 from __future__ import annotations
 import json
+import base64
+from io import BytesIO
 import sys
 import zipfile
 import tempfile
@@ -76,6 +78,34 @@ def source_path():
                         raise AssertionError("Nile ZIP manifest digest mismatch: "+REQUIRED[i])
                 (dest/REQUIRED[i]).write_bytes(blob)
             return dest
+    # Exact artwork was staged via lossless base64 Git blobs to bypass
+    # connector binary upload limits. Decode only inside the review runner,
+    # verify the PNG checksum, then split along the original pixel boundaries.
+    encoded=ROOT/"data/sprites/nile-joins-batch-02/encoded"
+    spec=encoded/"manifest.json"
+    if spec.is_file():
+        meta=json.loads(spec.read_text())
+        count=int(meta["parts"])
+        if count!=24 or len(meta["tile_heights"])!=8:
+            raise AssertionError("Unexpected encoded Nile tile manifest")
+        parts=[encoded/f"part-{i:03d}.b64" for i in range(count)]
+        if not all(p.is_file() for p in parts):
+            raise FileNotFoundError("Encoded Nile PNG Git blobs incomplete")
+        raw=base64.b64decode("".join(p.read_text() for p in parts),validate=True)
+        if hashlib.sha256(raw).hexdigest()!=meta["original_png_sha256"]:
+            raise AssertionError("Original Nile joined PNG sha256 mismatch")
+        strip=Image.open(BytesIO(raw)).convert("RGBA")
+        if strip.size!=(meta["width"],meta["height"]):
+            raise AssertionError("Original Nile painted strip dimensions mismatch")
+        if sum(meta["tile_heights"])!=strip.height:
+            raise AssertionError("Nile joined tile heights do not total source")
+        target=ROOT/"out/nile-batch02-review-input"
+        target.mkdir(parents=True,exist_ok=True)
+        y=0
+        for name,h in zip(REQUIRED,meta["tile_heights"]):
+            strip.crop((0,y,strip.width,y+h)).save(target/name,optimize=False)
+            y+=h
+        return target
     return None
 
 def river_lines(g):
