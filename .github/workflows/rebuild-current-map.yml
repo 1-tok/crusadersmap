@@ -52,6 +52,9 @@ on:
       - 'tools/review_full_nile_inset.py'
       - 'tools/review_nile_two_banks_actual_atlas.py'
       - 'tools/review_nile_full_corridor_variety.py'
+      - 'tools/review_eight_joined_nile_on_print.py'
+      - 'data/sprites/nile-joins-batch-02/**'
+      - 'assets/sprites/incoming/nile-joins-batch-02/**'
       - 'assets/sprites/incoming/nile_delta_upstream_terrain_sprites_2026-11-17.zip'
       - 'data/sprites/nile-ecology-2026-11-17/**'
       - 'tools/fetch_nile_delta_waterways.py'
@@ -181,6 +184,8 @@ jobs:
         run: python tools/review_nile_two_banks_actual_atlas.py
       - name: Full-length Nile varied shorelines experiment on actual atlas
         run: python tools/review_nile_full_corridor_variety.py
+      - name: Review eight joined Nile sprites on actual print canvas when binaries exist
+        run: python tools/review_eight_joined_nile_on_print.py
       - name: Update Canaan geographic review from actual rebuilt map
         run: python tools/build_canaan_map_review.py
       - name: Generate new coverage and asset-usage registers
@@ -210,6 +215,7 @@ jobs:
             reports/rebuild-2026-11-12/
             reports/nile-two-bank-target-review/
             reports/nile-full-corridor-review/
+            reports/nile-joined-eight-print-review/
             reports/azure-water-qa/
             reports/lowland-review-2026-11-15/
             reports/nile-delta-terrain-review-2026-11-17/
@@ -231,7 +237,7 @@ jobs:
           for attempt in 1 2 3 4; do
             git fetch origin main
             git reset --mixed origin/main
-            git add reports/nile-full-corridor-review/ reports/nile-two-bank-target-review/ reports/rebuild-2026-11-12/ reports/island-review-2026-11-15/ reports/lowland-review-2026-11-15/ reports/nile-delta-terrain-review-2026-11-17/ reports/nile-delta-hydrography-review-2026-11-17/
+            git add reports/nile-joined-eight-print-review/ reports/nile-full-corridor-review/ reports/nile-two-bank-target-review/ reports/rebuild-2026-11-12/ reports/island-review-2026-11-15/ reports/lowland-review-2026-11-15/ reports/nile-delta-terrain-review-2026-11-17/ reports/nile-delta-hydrography-review-2026-11-17/
             if [ -d data/sprites/nile-ecology-2026-11-17 ]; then
               git add data/sprites/nile-ecology-2026-11-17/
             fi
