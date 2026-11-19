@@ -2,6 +2,12 @@
   "status": "map_scale_experiment_only_not_production_approved",
   "source_atlas": "reports/rebuild-2026-11-12/outremer-current-composite.jpg",
   "preview": "reports/nile-full-corridor-review/nile-delta-to-thebes-varied-shorelines-before-after.jpg",
+  "full_print_canvas_preview": "reports/nile-full-corridor-review/outremer-print-canvas-nile-review.jpg",
+  "print_canvas_preview_size_px": [
+    3240,
+    4320
+  ],
+  "print_layout_source": "existing 0.30-scale actual atlas; not a replacement print master",
   "river_source": "Natural Earth centerlines and mapped OSM Delta waterway lines",
   "approved_four_panel_painting_untouched": true,
   "new_29_png_user_approved_batch_integrated": false,
