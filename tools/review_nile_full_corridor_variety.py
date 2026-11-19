@@ -260,10 +260,22 @@ def main():
     OUT.mkdir(parents=True,exist_ok=True)
     final=OUT/"nile-delta-to-thebes-varied-shorelines-before-after.jpg"
     visual.save(final,quality=92)
+    # Review must show the ACTUAL complete print-map layout, not an invented
+    # atlas concept. Paste this experimental Egypt inset into a copy of the
+    # repository-rendered atlas. The committed production composite stays intact.
+    full_print_review=atlas.copy()
+    full_print_review.paste(after.convert("RGB"),(rect[0],rect[1]))
+    full_print_file=OUT/"outremer-print-canvas-nile-review.jpg"
+    full_print_review.save(full_print_file,quality=93,subsampling=0)
+    if full_print_review.size != atlas.size:
+        raise AssertionError("Print-canvas review dimensions changed")
     report={
       "status":"map_scale_experiment_only_not_production_approved",
       "source_atlas":SOURCE.relative_to(ROOT).as_posix(),
       "preview":final.relative_to(ROOT).as_posix(),
+      "full_print_canvas_preview":full_print_file.relative_to(ROOT).as_posix(),
+      "print_canvas_preview_size_px":list(atlas.size),
+      "print_layout_source":"existing 0.30-scale actual atlas; not a replacement print master",
       "river_source":"Natural Earth centerlines and mapped OSM Delta waterway lines",
       "approved_four_panel_painting_untouched":True,
       "new_29_png_user_approved_batch_integrated":False,
