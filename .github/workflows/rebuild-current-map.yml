@@ -183,8 +183,10 @@ jobs:
           PY
       - name: Review Nile bank art against actual updated atlas (zero rotation)
         run: python tools/review_nile_two_banks_actual_atlas.py
-      - name: Full-length Nile varied shorelines experiment on actual atlas
-        run: python tools/review_nile_full_corridor_variety.py
+      # Disabled 2026-11-19: owner rejected Nile floodplain cutouts.
+      # The experimental renderer placed field art into desert and at an
+      # inappropriate print scale. Do not regenerate or publish its previews.
+      # Preserve underlying sprite source assets and approved four-panel art.
       - name: Review eight joined Nile sprites on actual print canvas when binaries exist
         run: python tools/review_eight_joined_nile_on_print.py
       - name: Stage reconstructed original Nile PNGs as review-only repository assets
