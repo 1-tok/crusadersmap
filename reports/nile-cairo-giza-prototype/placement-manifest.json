@@ -1,0 +1,219 @@
+{
+  "id": "nile-cairo-giza-prototype",
+  "status": "review_prototype_not_promoted",
+  "window_lonlat": [
+    30.96,
+    29.7,
+    31.7,
+    30.35
+  ],
+  "projection": "+proj=lcc +lat_1=29.9 +lat_2=30.5 +lat_0=30.2 +lon_0=31.2 +datum=WGS84 +units=m",
+  "image_px": [
+    1188,
+    1202
+  ],
+  "px_per_metre_inverse": 60.0,
+  "desert_underlay": {
+    "id": "RUL-01",
+    "file": "assets/terrain/large_area/rect_underlays_04/desert_sand_edge_matched.png",
+    "tile_review_px": [
+      800,
+      533
+    ],
+    "placement_status": "review_placement_only",
+    "print_review": "required_not_approved",
+    "source_manifest": "assets/terrain/large_area/manifest_rectangular_underlays_04.json"
+  },
+  "farmland": {
+    "method": "zoom-7 terrarium elevation: within 15 km of channel, <= 8 m above nearest channel point, connected to channel; minus desert reserves",
+    "qa": "terrain/floodplain-qa.json",
+    "status": "elevation_derived_review_mask_not_certified",
+    "desert_exclusions": {
+      "giza_west_bank_rule_lonlat": [
+        30.0,
+        29.9,
+        31.18,
+        30.08
+      ],
+      "monument_reserves": [
+        {
+          "name": "Giza pyramid plateau",
+          "lonlat": [
+            31.1325,
+            29.9792
+          ],
+          "radius_m": 3000.0,
+          "source": "owner manifest 05_giza_pyramids_sphinx anchor; radius is a review choice"
+        },
+        {
+          "name": "Saqqara step pyramid",
+          "lonlat": [
+            31.216,
+            29.871
+          ],
+          "radius_m": 2000.0,
+          "source": "owner manifest 06_saqqara_step_pyramid anchor; radius is a review choice"
+        },
+        {
+          "name": "Valley of the Kings",
+          "lonlat": [
+            32.6,
+            25.74
+          ],
+          "radius_m": 3000.0,
+          "source": "owner manifest 13_valley_of_kings_tombs anchor; outside review window",
+          "drawn_in_window": false
+        }
+      ]
+    }
+  },
+  "river": {
+    "source": "data/ne_10m_rivers_lake_centerlines.geojson",
+    "features": [
+      "Nile",
+      "Rosetta Branch",
+      "Damietta Branch"
+    ],
+    "excluded": [
+      "Ismailiya Canal (modern cut)"
+    ],
+    "drawn_width_m": 900.0
+  },
+  "placements": [
+    {
+      "id": "upright:leftbank_south_a.png",
+      "file": "data/sprites/nile-painted-upright-2026-11-17/leftbank_south_a.png",
+      "kind": "upright",
+      "side": "left",
+      "anchor": "channel station 0.22, offset 4.00 km",
+      "centre_lonlat": [
+        31.25296,
+        29.80249
+      ],
+      "footprint_m": [
+        4500,
+        4835
+      ],
+      "source_px": [
+        577,
+        620
+      ],
+      "channel_clearance_m": 1012.3,
+      "nearest_monument_m": 8392.2,
+      "farmland_share_of_footprint": 1.0,
+      "in_desert_reserve": false,
+      "accepted": true,
+      "placement_status": "review_placement_only"
+    },
+    {
+      "id": "upright:rightbank_south_a.png",
+      "file": "data/sprites/nile-painted-upright-2026-11-17/rightbank_south_a.png",
+      "kind": "upright",
+      "side": "right",
+      "anchor": "channel station 0.93, offset 3.50 km",
+      "centre_lonlat": [
+        31.27,
+        30.08854
+      ],
+      "footprint_m": [
+        4500,
+        4852
+      ],
+      "source_px": [
+        575,
+        620
+      ],
+      "channel_clearance_m": 947.2,
+      "nearest_monument_m": 6108.5,
+      "farmland_share_of_footprint": 0.96,
+      "in_desert_reserve": false,
+      "accepted": true,
+      "placement_status": "review_placement_only"
+    },
+    {
+      "id": "upright:leftbank_south_b.png",
+      "file": "data/sprites/nile-painted-upright-2026-11-17/leftbank_south_b.png",
+      "kind": "upright",
+      "side": "left",
+      "anchor": "channel station 0.56, offset 4.25 km",
+      "centre_lonlat": [
+        31.22656,
+        29.92404
+      ],
+      "footprint_m": [
+        4500,
+        5350
+      ],
+      "source_px": [
+        577,
+        686
+      ],
+      "channel_clearance_m": 917.8,
+      "nearest_monument_m": 5967.1,
+      "farmland_share_of_footprint": 0.96,
+      "in_desert_reserve": false,
+      "accepted": true,
+      "placement_status": "review_placement_only"
+    },
+    {
+      "id": "upright:rightbank_south_b.png",
+      "accepted": false,
+      "reason": "no farmland-fit station found"
+    },
+    {
+      "id": "landmark:giza-1180",
+      "file": "assets/sprites/giza-1180-v1.png",
+      "kind": "landmark",
+      "side": "west",
+      "anchor": "Pyramids of Giza",
+      "centre_lonlat": [
+        31.1325,
+        29.9792
+      ],
+      "footprint_m": [
+        3600,
+        2340
+      ],
+      "source_px": [
+        900,
+        585
+      ],
+      "channel_clearance_m": 6995.5,
+      "nearest_monument_m": 0.0,
+      "farmland_share_of_footprint": null,
+      "in_desert_reserve": true,
+      "accepted": true,
+      "placement_status": "review_placement_only"
+    },
+    {
+      "id": "landmark:cairo-1180 (set 2.6 km east of owner anchor)",
+      "file": "assets/sprites/cairo-1180-v1.png",
+      "kind": "landmark",
+      "side": "east",
+      "anchor": "al-Qahira / Cairo",
+      "centre_lonlat": [
+        31.26696,
+        30.03999
+      ],
+      "footprint_m": [
+        3200,
+        1685
+      ],
+      "source_px": [
+        900,
+        474
+      ],
+      "channel_clearance_m": 2230.8,
+      "nearest_monument_m": 2600.0,
+      "farmland_share_of_footprint": null,
+      "in_desert_reserve": false,
+      "accepted": true,
+      "placement_status": "review_placement_only"
+    }
+  ],
+  "not_placed": [
+    "Saqqara and Dahshur paintings: owner manifest binaries not committed",
+    "Desert transition sprites: NILE-DESERT-PLACEMENT-NEXT is sequenced after floodplain approval",
+    "Valley of the Kings: outside this window; reserve recorded only"
+  ]
+}
