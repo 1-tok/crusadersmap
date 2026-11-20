@@ -1,0 +1,142 @@
+{
+  "status": "source_scale_audit_only_no_unverified_placement",
+  "production_canvas_unchanged": true,
+  "previous_29px_derived_field_pilot_rejected": true,
+  "no_procedural_field_sprites_used": true,
+  "source_sprite_count": 4,
+  "original_bank_sprites_verified": 4,
+  "existing_corridor_panels_verified": 4,
+  "atlas_preview_resolution": [
+    3240,
+    4320
+  ],
+  "contact_sheet": "reports/nile-original-print-scale-audit/original-four-painted-nile-bank-sprites-contact.jpg",
+  "next_gate": "Fit candidate paintings to mapped floodplain polygon with minimum 80% original visible painted pixels; reject any crossing river, desert, city, monument, or label and compare visual size against Cairo structures.",
+  "missing_prerequisite": "No validated Cairo alluvial polygon or original-painting real-world footprint exists in the inspected manifests.",
+  "assets": [
+    {
+      "name": "leftbank_south_a.png",
+      "type": "original_painted_bank",
+      "source": "data/sprites/nile-painted-upright-2026-11-17/leftbank_south_a.png",
+      "image_px": [
+        577,
+        620
+      ],
+      "painted_bbox_px": [
+        13,
+        6,
+        497,
+        620
+      ],
+      "painted_fraction": 0.8307,
+      "sha256": "fd26f187ef09a586776bad8e95a51410f67df944327a00f380c8ffcacb0cf6ca",
+      "render_status": "source_intact_not_placed",
+      "fit_status": "requires_measured_alluvial_polygon_and_landmark_collision_test"
+    },
+    {
+      "name": "leftbank_south_b.png",
+      "type": "original_painted_bank",
+      "source": "data/sprites/nile-painted-upright-2026-11-17/leftbank_south_b.png",
+      "image_px": [
+        577,
+        686
+      ],
+      "painted_bbox_px": [
+        6,
+        43,
+        495,
+        676
+      ],
+      "painted_fraction": 0.782,
+      "sha256": "b7e87c6836bb899695bf1efc479598e295ba85b1f98df70baaee8be4ca48f64e",
+      "render_status": "source_intact_not_placed",
+      "fit_status": "requires_measured_alluvial_polygon_and_landmark_collision_test"
+    },
+    {
+      "name": "rightbank_south_a.png",
+      "type": "original_painted_bank",
+      "source": "data/sprites/nile-painted-upright-2026-11-17/rightbank_south_a.png",
+      "image_px": [
+        575,
+        620
+      ],
+      "painted_bbox_px": [
+        71,
+        4,
+        561,
+        620
+      ],
+      "painted_fraction": 0.8467,
+      "sha256": "0bd4c8a611cd4dd138606e24035e603d0837cd2c86b119516acc306a7d8cb734",
+      "render_status": "source_intact_not_placed",
+      "fit_status": "requires_measured_alluvial_polygon_and_landmark_collision_test"
+    },
+    {
+      "name": "rightbank_south_b.png",
+      "type": "original_painted_bank",
+      "source": "data/sprites/nile-painted-upright-2026-11-17/rightbank_south_b.png",
+      "image_px": [
+        576,
+        686
+      ],
+      "painted_bbox_px": [
+        69,
+        9,
+        572,
+        663
+      ],
+      "painted_fraction": 0.8325,
+      "sha256": "a8d517085051174c2ee4ce765d09a44e2c6b809a23e37746fe3c7185473a4e7b",
+      "render_status": "source_intact_not_placed",
+      "fit_status": "requires_measured_alluvial_polygon_and_landmark_collision_test"
+    },
+    {
+      "name": "nile_corridor_01",
+      "type": "approved_existing_corridor_panel",
+      "source": "data/sprites/nile-painted-modular-2026-11-17-v2/nile_corridor_01.png",
+      "image_px": [
+        1144,
+        300
+      ],
+      "sha256": "0d2b23f7db3bed289db2077eb4d4ad35168ad93b18d1f4a1be93a7a3e0fd4d15",
+      "render_status": "preserve_existing_placement_do_not_duplicate",
+      "fit_status": "prior fit candidate, not Cairo extension certified"
+    },
+    {
+      "name": "nile_corridor_02",
+      "type": "approved_existing_corridor_panel",
+      "source": "data/sprites/nile-painted-modular-2026-11-17-v2/nile_corridor_02.png",
+      "image_px": [
+        1144,
+        300
+      ],
+      "sha256": "e85b2cdf005ccf3737dbb49220dbd983bf2260a478fbc9db90f331488545b311",
+      "render_status": "preserve_existing_placement_do_not_duplicate",
+      "fit_status": "prior fit candidate, not Cairo extension certified"
+    },
+    {
+      "name": "nile_corridor_03",
+      "type": "approved_existing_corridor_panel",
+      "source": "data/sprites/nile-painted-modular-2026-11-17-v2/nile_corridor_03.png",
+      "image_px": [
+        1144,
+        300
+      ],
+      "sha256": "f6932353c149b9d1b6b48e2d00375466765cc3d0a94f12de35c9d119dc07982e",
+      "render_status": "preserve_existing_placement_do_not_duplicate",
+      "fit_status": "prior fit candidate, not Cairo extension certified"
+    },
+    {
+      "name": "nile_corridor_04",
+      "type": "approved_existing_corridor_panel",
+      "source": "data/sprites/nile-painted-modular-2026-11-17-v2/nile_corridor_04.png",
+      "image_px": [
+        1144,
+        303
+      ],
+      "sha256": "28d93d26ce64a01d07f9003e814570c54f521b6a71a1ff3d1e38028a50b20a99",
+      "render_status": "preserve_existing_placement_do_not_duplicate",
+      "fit_status": "prior fit candidate, not Cairo extension certified"
+    }
+  ]
+}
