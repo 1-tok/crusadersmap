@@ -51,7 +51,7 @@ on:
       - 'tools/build_nile_derived_sprite_fallback.py'
       - 'tools/review_full_nile_inset.py'
       - 'tools/review_nile_two_banks_actual_atlas.py'
-      - 'tools/review_nile_cairo_bank_pilot.py'
+      - 'tools/audit_nile_original_sprite_scale.py'
       - 'tools/review_nile_full_corridor_variety.py'
       - 'tools/review_eight_joined_nile_on_print.py'
       - 'data/sprites/nile-joins-batch-02/**'
@@ -184,8 +184,9 @@ jobs:
           PY
       - name: Review Nile bank art against actual updated atlas (zero rotation)
         run: python tools/review_nile_two_banks_actual_atlas.py
-      - name: Cairo/Giza conservative Nile sprite placement on actual atlas (review only)
-        run: python tools/review_nile_cairo_bank_pilot.py
+      # The 29px Cairo field-sprite pilot failed visual review; do not rerun.
+      - name: Audit original painted Nile bank sprites at source and print scale
+        run: python tools/audit_nile_original_sprite_scale.py
       # Disabled 2026-11-19: owner rejected Nile floodplain cutouts.
       # The experimental renderer placed field art into desert and at an
       # inappropriate print scale. Do not regenerate or publish its previews.
@@ -229,7 +230,7 @@ jobs:
           path: |
             reports/rebuild-2026-11-12/
             reports/nile-two-bank-target-review/
-            reports/nile-cairo-bank-pilot/
+            reports/nile-original-print-scale-audit/
             reports/nile-full-corridor-review/
             reports/nile-joined-eight-print-review/
             reports/azure-water-qa/
@@ -253,7 +254,7 @@ jobs:
           for attempt in 1 2 3 4; do
             git fetch origin main
             git reset --mixed origin/main
-            git add reports/nile-joined-eight-print-review/ reports/nile-full-corridor-review/ reports/nile-two-bank-target-review/ reports/nile-cairo-bank-pilot/ reports/rebuild-2026-11-12/ reports/island-review-2026-11-15/ reports/lowland-review-2026-11-15/ reports/nile-delta-terrain-review-2026-11-17/ reports/nile-delta-hydrography-review-2026-11-17/
+            git add reports/nile-joined-eight-print-review/ reports/nile-full-corridor-review/ reports/nile-two-bank-target-review/ reports/nile-original-print-scale-audit/ reports/rebuild-2026-11-12/ reports/island-review-2026-11-15/ reports/lowland-review-2026-11-15/ reports/nile-delta-terrain-review-2026-11-17/ reports/nile-delta-hydrography-review-2026-11-17/
             if [ -d data/sprites/nile-joins-batch-02 ]; then
               git add data/sprites/nile-joins-batch-02/
             fi
