@@ -1,0 +1,47 @@
+{
+  "status": "candidate_review_only_no_production_change",
+  "source_canvas": "reports/rebuild-2026-11-12/outremer-current-composite.jpg",
+  "print_preview": "reports/nile-boundary-review/cairo-giza-zone-boundaries-on-print-canvas.jpg",
+  "zoomed_boundary_preview": "reports/nile-boundary-review/cairo-giza-boundary-3x-review.jpg",
+  "geographic_zones": "reports/nile-boundary-review/cairo-giza-placement-zones.geojson",
+  "desert_queue": "data/manifests/NILE-DESERT-PLACEMENT-NEXT.json",
+  "zone_types": [
+    "river_water",
+    "nile_floodplain",
+    "desert_west",
+    "desert_east"
+  ],
+  "waterway_source": "existing Natural Earth Nile and OSM modern Delta geometry",
+  "floodplain_source": "explicit user-review polygon based on Cairo topography/river neighbourhood; NOT validated against landcover remote sensing",
+  "historical_accuracy_certified": false,
+  "production_composite_modified": false,
+  "nile_painting_placed": false,
+  "desert_sprite_placed": false,
+  "approved_painted_nile_panels_untouched": true,
+  "no_21px_pixel_buffer": true,
+  "zoom_review_only": 3,
+  "protected_monument_anchor_points": [
+    {
+      "name": "Giza pyramid plateau",
+      "lonlat": [
+        31.1325,
+        29.9792
+      ],
+      "purpose": "no_automatic_green_fields_or_desert_tile_over_monument"
+    },
+    {
+      "name": "Saqqara monuments",
+      "lonlat": [
+        31.216,
+        29.871
+      ],
+      "purpose": "no_automatic_terrain_over_monument"
+    }
+  ],
+  "next_requirements": [
+    "verify floodplain banks against source landcover data at map scale",
+    "correct edge around pyramids and urban Cairo",
+    "fit intact original Nile paintings without excess clipping",
+    "activate desert tile queue only after Nile review approval"
+  ]
+}

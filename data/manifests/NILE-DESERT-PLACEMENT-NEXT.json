@@ -1,0 +1,39 @@
+{
+  "status": "desert_sprite_placement_queue_not_activated",
+  "sequence": "AFTER approval of Nile floodplain treatment",
+  "source_boundary": "reports/nile-boundary-review/cairo-giza-placement-zones.geojson",
+  "items": [
+    {
+      "id": "CAIRO-DESERT-WEST",
+      "class": "desert_underlay_and_transition",
+      "region_feature": "west_desert_reservation",
+      "source_assets": "existing_committed_desert_artwork_only",
+      "placement_status": "queued_not_placed",
+      "restriction": "no overlap Nile alluvium/water/Giza/Saqqara monuments"
+    },
+    {
+      "id": "CAIRO-DESERT-EAST",
+      "class": "desert_underlay_and_transition",
+      "region_feature": "east_desert_reservation",
+      "source_assets": "existing_committed_desert_artwork_only",
+      "placement_status": "queued_not_placed",
+      "restriction": "no overlap Nile alluvium/water/city or fortress sprites"
+    },
+    {
+      "id": "CAIRO-DESERT-EDGE",
+      "class": "desert_edge_tiles",
+      "region_feature": "outside_alluvial_boundary",
+      "source_assets": "existing_committed_desert_artwork_only",
+      "placement_status": "queued_not_placed",
+      "restriction": "seamless edges and preserve all approved landmarks"
+    }
+  ],
+  "draw_order": [
+    "geographic_water_and_land",
+    "nile_floodplain_and_bank_sprites",
+    "desert_underlay_tiles_in_desert_regions",
+    "cities_fortresses_monuments",
+    "labels"
+  ],
+  "approval_gate": "No automatic desert tile activation until floodplain boundary and Nile artwork pass visual QA"
+}
