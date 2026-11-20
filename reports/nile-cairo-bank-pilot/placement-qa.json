@@ -1,0 +1,96 @@
+{
+  "status": "review_only_pending_print_scale_and_site_collision_approval",
+  "source_canvas": "reports/rebuild-2026-11-12/outremer-current-composite.jpg",
+  "print_canvas": "reports/nile-cairo-bank-pilot/cairo-giza-nile-pilot-on-existing-print-canvas.jpg",
+  "detail_comparison": "reports/nile-cairo-bank-pilot/cairo-giza-nile-pilot-before-after-2x.jpg",
+  "assets_committed": true,
+  "no_new_painting": true,
+  "production_composite_unchanged": true,
+  "desert_outside_21px_river_buffer_untouched": true,
+  "river_water_pixels_untouched": true,
+  "max_sprite_width_preview_px": 29,
+  "placement_count": 4,
+  "placements": [
+    {
+      "id": "derived_delta_farm_001",
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_001.png",
+      "bank": "west",
+      "anchor_lonlat": [
+        31.19558,
+        30.13003
+      ],
+      "pixel_xy": [
+        274,
+        353
+      ],
+      "width_print_preview_px": 29,
+      "visible_opaque_pixels": 68,
+      "pixels_over_river": 0,
+      "pixels_outside_21px_bank_buffer": 0,
+      "rotated": false,
+      "mirrored": false,
+      "nonuniform_scale": false
+    },
+    {
+      "id": "derived_delta_farm_008",
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_008.png",
+      "bank": "east",
+      "anchor_lonlat": [
+        31.23514,
+        30.10003
+      ],
+      "pixel_xy": [
+        330,
+        360
+      ],
+      "width_print_preview_px": 29,
+      "visible_opaque_pixels": 175,
+      "pixels_over_river": 0,
+      "pixels_outside_21px_bank_buffer": 0,
+      "rotated": false,
+      "mirrored": false,
+      "nonuniform_scale": false
+    },
+    {
+      "id": "derived_delta_farm_015",
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_015.png",
+      "bank": "west",
+      "anchor_lonlat": [
+        31.22953,
+        29.98
+      ],
+      "pixel_xy": [
+        280,
+        386
+      ],
+      "width_print_preview_px": 29,
+      "visible_opaque_pixels": 159,
+      "pixels_over_river": 0,
+      "pixels_outside_21px_bank_buffer": 0,
+      "rotated": false,
+      "mirrored": false,
+      "nonuniform_scale": false
+    },
+    {
+      "id": "derived_delta_farm_022",
+      "source": "data/sprites/nile-ecology-2026-11-17/sprites/delta_farm_022.png",
+      "bank": "east",
+      "anchor_lonlat": [
+        31.26613,
+        29.94084
+      ],
+      "pixel_xy": [
+        336,
+        394
+      ],
+      "width_print_preview_px": 29,
+      "visible_opaque_pixels": 196,
+      "pixels_over_river": 0,
+      "pixels_outside_21px_bank_buffer": 0,
+      "rotated": false,
+      "mirrored": false,
+      "nonuniform_scale": false
+    }
+  ],
+  "caveat": "Only mapped centreline buffer verified; actual historic floodplain boundaries and site collisions require visual review."
+}
