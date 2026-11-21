@@ -1,0 +1,52 @@
+name: Nile painted bend-bank sprite intake
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/sprites/incoming/nile_bend_bank_variants_2026_11_21.zip'
+permissions:
+  contents: write
+jobs:
+  verify-and-ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and extract twelve new bend-only variants
+        run: |
+          python - <<'PY'
+          import hashlib,json,zipfile
+          from pathlib import Path
+          root=Path('.')
+          target=root/'data/sprites/nile-painted-bend-banks-2026-11-21'
+          pack=root/'assets/sprites/incoming/nile_bend_bank_variants_2026_11_21.zip'
+          if not pack.is_file():
+              raise SystemExit('Bend source ZIP absent. Upload the supplied ZIP to assets/sprites/incoming first.')
+          manifest=json.loads((target/'manifest.json').read_text())
+          expected={x['path']:x for x in manifest['assets']}
+          if len(expected)!=12: raise SystemExit('Unexpected manifest count')
+          with zipfile.ZipFile(pack) as z:
+              entries={Path(n).name:n for n in z.namelist() if n.endswith('.png')}
+              if set(entries)!=set(expected):
+                  raise SystemExit('PNG entries do not match 12 exact manifest names')
+              for name,item in expected.items():
+                  data=z.read(entries[name])
+                  if hashlib.sha256(data).hexdigest()!=item['sha256']:
+                      raise SystemExit('Checksum mismatch: '+name)
+                  if data[:8]!=b'\x89PNG\r\n\x1a\n':
+                      raise SystemExit('Not a PNG: '+name)
+                  (target/name).write_bytes(data)
+          manifest['status']='ingested_review_only_no_automatic_placement'
+          for asset in manifest['assets']:
+              asset['placement_status']='binary_committed_waiting_for_bend_geography_and_visual_approval'
+          (target/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
+          print('Verified 12 bend-only Nile PNGs with SHA256; placed none on map')
+          PY
+      - name: Commit verified bend assets without triggering rebuild
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/sprites/nile-painted-bend-banks-2026-11-21/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'assets: verified painted Nile bend-bank PNG variants [skip ci]'
+          git push
