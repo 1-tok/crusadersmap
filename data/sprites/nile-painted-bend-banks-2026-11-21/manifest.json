@@ -1,0 +1,205 @@
+{
+  "batch": "NILE-PAINTED-BEND-BANK-VARIANTS-2026-11-21",
+  "status": "manifest_committed_binary_png_files_not_yet_uploaded",
+  "sprite_count": 12,
+  "viewpoint": "elevated_oblique_south_looking_north",
+  "source": "new generated Nile bank sprite sheet",
+  "restrict_to": "curved_river_reaches_only",
+  "do_not_auto_activate": true,
+  "water_color_policy": "wash to approved Nile turquoise on map integration",
+  "geographic_side_note": "left/right indicates water side in artwork, not yet certified geographic bank",
+  "assets": [
+    {
+      "id": "leftbank_bend_01_palms_village",
+      "path": "leftbank_bend_01_palms_village.png",
+      "sha256": "d59bed30459f4f7f69ce94e5d359a2b2a2ea42e5d8f8ee30d01d2b2a4111c002",
+      "side": "leftbank",
+      "water_on": "left",
+      "dimensions_px": [
+        718,
+        177
+      ],
+      "usage": "river_bends_only",
+      "placement_status": "pending_binary_ingestion_and_visual_approval",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "source_sheet": "nile_atlas_watercolor_sprite_sheet.png"
+    },
+    {
+      "id": "rightbank_bend_01_sandy_rise",
+      "path": "rightbank_bend_01_sandy_rise.png",
+      "sha256": "efec6c37fe595b7c72322805cc4018b0e1892e4daa40d496968163b7ead2d924",
+      "side": "rightbank",
+      "water_on": "right",
+      "dimensions_px": [
+        718,
+        177
+      ],
+      "usage": "river_bends_only",
+      "placement_status": "pending_binary_ingestion_and_visual_approval",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "source_sheet": "nile_atlas_watercolor_sprite_sheet.png"
+    },
+    {
+      "id": "leftbank_bend_02_landing_village",
+      "path": "leftbank_bend_02_landing_village.png",
+      "sha256": "a0e89ae08faac4d19194468f31c20f5352c57155518401aae429518b3b326bab",
+      "side": "leftbank",
+      "water_on": "left",
+      "dimensions_px": [
+        718,
+        177
+      ],
+      "usage": "river_bends_only",
+      "placement_status": "pending_binary_ingestion_and_visual_approval",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "source_sheet": "nile_atlas_watercolor_sprite_sheet.png"
+    },
+    {
+      "id": "rightbank_bend_02_shaduf_fields",
+      "path": "rightbank_bend_02_shaduf_fields.png",
+      "sha256": "4d973d2d228d4651d7697857073fc494019512ae23ee55d7219a9c840f585176",
+      "side": "rightbank",
+      "water_on": "right",
+      "dimensions_px": [
+        718,
+        177
+      ],
+      "usage": "river_bends_only",
+      "placement_status": "pending_binary_ingestion_and_visual_approval",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "source_sheet": "nile_atlas_watercolor_sprite_sheet.png"
+    },
+    {
+      "id": "leftbank_bend_03_papyrus_marsh",
+      "path": "leftbank_bend_03_papyrus_marsh.png",
+      "sha256": "d753992f2978c9f288aaeb0781d4eed81b58c1a031e774c9368f3ce4f7d71be0",
+      "side": "leftbank",
+      "water_on": "left",
+      "dimensions_px": [
+        718,
+        177
+      ],
+      "usage": "river_bends_only",
+      "placement_status": "pending_binary_ingestion_and_visual_approval",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "source_sheet": "nile_atlas_watercolor_sprite_sheet.png"
+    },
+    {
+      "id": "rightbank_bend_03_tower_market",
+      "path": "rightbank_bend_03_tower_market.png",
+      "sha256": "e94fee10a273971ad7528523c7b846a9445fc0e8886a108c0131ef252c6f045f",
+      "side": "rightbank",
+      "water_on": "right",
+      "dimensions_px": [
+        718,
+        177
+      ],
+      "usage": "river_bends_only",
+      "placement_status": "pending_binary_ingestion_and_visual_approval",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "source_sheet": "nile_atlas_watercolor_sprite_sheet.png"
+    },
+    {
+      "id": "leftbank_bend_04_ploughed_fields",
+      "path": "leftbank_bend_04_ploughed_fields.png",
+      "sha256": "9b9223c38694fa6b840ac73665ce8d2593b778f5e205ab6e90b6d2345a0d2097",
+      "side": "leftbank",
+      "water_on": "left",
+      "dimensions_px": [
+        718,
+        177
+      ],
+      "usage": "river_bends_only",
+      "placement_status": "pending_binary_ingestion_and_visual_approval",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "source_sheet": "nile_atlas_watercolor_sprite_sheet.png"
+    },
+    {
+      "id": "rightbank_bend_04_riverside_hamlet",
+      "path": "rightbank_bend_04_riverside_hamlet.png",
+      "sha256": "7a1d2ec886d3375c215c63b5181b6b670ab2a1975178df2dd78c113383aee31f",
+      "side": "rightbank",
+      "water_on": "right",
+      "dimensions_px": [
+        718,
+        177
+      ],
+      "usage": "river_bends_only",
+      "placement_status": "pending_binary_ingestion_and_visual_approval",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "source_sheet": "nile_atlas_watercolor_sprite_sheet.png"
+    },
+    {
+      "id": "leftbank_bend_05_palm_woodland",
+      "path": "leftbank_bend_05_palm_woodland.png",
+      "sha256": "d1ea0657332033653fbbc8d17f66efe91cb9d3070db184c57c6b6be0dbf6973f",
+      "side": "leftbank",
+      "water_on": "left",
+      "dimensions_px": [
+        718,
+        177
+      ],
+      "usage": "river_bends_only",
+      "placement_status": "pending_binary_ingestion_and_visual_approval",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "source_sheet": "nile_atlas_watercolor_sprite_sheet.png"
+    },
+    {
+      "id": "rightbank_bend_05_rocky_desert",
+      "path": "rightbank_bend_05_rocky_desert.png",
+      "sha256": "f16e2a5630d5b6bdb164dd87d9374c17f109228adae6d1eb7ac5f326673bc2d3",
+      "side": "rightbank",
+      "water_on": "right",
+      "dimensions_px": [
+        718,
+        177
+      ],
+      "usage": "river_bends_only",
+      "placement_status": "pending_binary_ingestion_and_visual_approval",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "source_sheet": "nile_atlas_watercolor_sprite_sheet.png"
+    },
+    {
+      "id": "leftbank_bend_06_dock_grove",
+      "path": "leftbank_bend_06_dock_grove.png",
+      "sha256": "6a08889328dcca9906af9da1af44a97fe2220085b287b3fdfdd4a6be7c9840f8",
+      "side": "leftbank",
+      "water_on": "left",
+      "dimensions_px": [
+        718,
+        177
+      ],
+      "usage": "river_bends_only",
+      "placement_status": "pending_binary_ingestion_and_visual_approval",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "source_sheet": "nile_atlas_watercolor_sprite_sheet.png"
+    },
+    {
+      "id": "rightbank_bend_06_grainfields",
+      "path": "rightbank_bend_06_grainfields.png",
+      "sha256": "a61efef061a9eb1b1a08bbcc3f2fe206e2c3b202f3e7b743c9234c955bf99a4e",
+      "side": "rightbank",
+      "water_on": "right",
+      "dimensions_px": [
+        718,
+        177
+      ],
+      "usage": "river_bends_only",
+      "placement_status": "pending_binary_ingestion_and_visual_approval",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "source_sheet": "nile_atlas_watercolor_sprite_sheet.png"
+    }
+  ]
+}
