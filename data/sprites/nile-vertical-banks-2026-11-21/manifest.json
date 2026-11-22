@@ -1,0 +1,243 @@
+{
+  "batch": "NILE-VERTICAL-BANKS-2026-11-21",
+  "status": "manifest_registered_pending_binary_zip_ingestion",
+  "source_archive": "assets/sprites/incoming/nile_vertical_banks_2026_11_21.zip",
+  "intended_directory": "data/sprites/nile-vertical-banks-2026-11-21",
+  "artwork_approval": "10 original approved bank-strip cells; 4 further candidates awaiting review",
+  "scope": "Nile riverbank strips only, not alluvial or desert base layer",
+  "strict_policy": [
+    "Never use bend-only sprites as straight sections",
+    "Keep bank water side as defined in asset metadata",
+    "No mirroring or rotating",
+    "Fit to source river and print-scale geography, not tiny clipped markers",
+    "Keep green areas within verified fertile floodplain and desert outside",
+    "Do not activate in production until adjacent joins and geographic fit pass QA"
+  ],
+  "asset_count": 14,
+  "assets": [
+    {
+      "id": "leftbank_vertical_approved_01",
+      "path": "leftbank_vertical_approved_01.png",
+      "sha256": "398ab58b67d50a10928b2cff05efce180161a33a3d655a60984efcfe2848ae75",
+      "dimensions_px": [
+        293,
+        270
+      ],
+      "bank": "left",
+      "art_water_side": "right",
+      "type": "straight",
+      "approval": "owner_approved_artwork_not_yet_placed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    },
+    {
+      "id": "rightbank_vertical_approved_01",
+      "path": "rightbank_vertical_approved_01.png",
+      "sha256": "ea890056b1053f58097aa2d355a83e96e45c472537431624bcd31852d4074818",
+      "dimensions_px": [
+        308,
+        271
+      ],
+      "bank": "right",
+      "art_water_side": "left",
+      "type": "straight",
+      "approval": "owner_approved_artwork_not_yet_placed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    },
+    {
+      "id": "leftbank_vertical_approved_02",
+      "path": "leftbank_vertical_approved_02.png",
+      "sha256": "0bdeb134d8f85e9bd5da7de63d63830aa25e15de3b689a19aedce4946601e436",
+      "dimensions_px": [
+        290,
+        276
+      ],
+      "bank": "left",
+      "art_water_side": "right",
+      "type": "straight",
+      "approval": "owner_approved_artwork_not_yet_placed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    },
+    {
+      "id": "rightbank_vertical_approved_02",
+      "path": "rightbank_vertical_approved_02.png",
+      "sha256": "ab6b12d33d46db78ded37c99b4c7ec2019a46e061ffa0239885310623c7f9a32",
+      "dimensions_px": [
+        301,
+        278
+      ],
+      "bank": "right",
+      "art_water_side": "left",
+      "type": "straight",
+      "approval": "owner_approved_artwork_not_yet_placed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    },
+    {
+      "id": "leftbank_vertical_approved_03",
+      "path": "leftbank_vertical_approved_03.png",
+      "sha256": "c4614ab0841f27ec21ed7b682c0baa5f3fa712597cf52c1160495d6fb1bbb4ca",
+      "dimensions_px": [
+        286,
+        281
+      ],
+      "bank": "left",
+      "art_water_side": "right",
+      "type": "straight",
+      "approval": "owner_approved_artwork_not_yet_placed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    },
+    {
+      "id": "rightbank_vertical_approved_03",
+      "path": "rightbank_vertical_approved_03.png",
+      "sha256": "b980558bf7105f32848792c7f963ed2f8c12c28f77967ddb3e47a12ac908b3bc",
+      "dimensions_px": [
+        295,
+        282
+      ],
+      "bank": "right",
+      "art_water_side": "left",
+      "type": "straight",
+      "approval": "owner_approved_artwork_not_yet_placed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    },
+    {
+      "id": "leftbank_vertical_approved_04",
+      "path": "leftbank_vertical_approved_04.png",
+      "sha256": "fe84424ef53120507e1aecdb29cd0a6c145197dae61a0a3bcb2c00ed913c2c83",
+      "dimensions_px": [
+        296,
+        282
+      ],
+      "bank": "left",
+      "art_water_side": "right",
+      "type": "straight",
+      "approval": "owner_approved_artwork_not_yet_placed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    },
+    {
+      "id": "rightbank_vertical_approved_04",
+      "path": "rightbank_vertical_approved_04.png",
+      "sha256": "b110a585949d93d0a657bcf1ddefe7462500dee72311eb844c364db85f0c53a0",
+      "dimensions_px": [
+        299,
+        282
+      ],
+      "bank": "right",
+      "art_water_side": "left",
+      "type": "straight",
+      "approval": "owner_approved_artwork_not_yet_placed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    },
+    {
+      "id": "leftbank_vertical_approved_05",
+      "path": "leftbank_vertical_approved_05.png",
+      "sha256": "cf141ab9632fb1200bca8fa270f7639b8eeb15f084ace0fc52a5d63ce1e5fb4e",
+      "dimensions_px": [
+        298,
+        272
+      ],
+      "bank": "left",
+      "art_water_side": "right",
+      "type": "straight",
+      "approval": "owner_approved_artwork_not_yet_placed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    },
+    {
+      "id": "rightbank_vertical_approved_05",
+      "path": "rightbank_vertical_approved_05.png",
+      "sha256": "639e50d602f49fdbceb6b1d3fa72c0b810c565d39992d88b5d285354a0ff74b8",
+      "dimensions_px": [
+        305,
+        272
+      ],
+      "bank": "right",
+      "art_water_side": "left",
+      "type": "straight",
+      "approval": "owner_approved_artwork_not_yet_placed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    },
+    {
+      "id": "rightbank_straight_06_village_feluccas",
+      "path": "rightbank_straight_06_village_feluccas.png",
+      "sha256": "f6e3b70c88160538512eb42330e440583988aa254031aa215a1d9821e8a99ce4",
+      "dimensions_px": [
+        723,
+        2172
+      ],
+      "bank": "right",
+      "art_water_side": "left",
+      "type": "straight",
+      "approval": "new_candidate_review_needed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    },
+    {
+      "id": "leftbank_straight_06_village_shaduf",
+      "path": "leftbank_straight_06_village_shaduf.png",
+      "sha256": "2eef8b60a0f751db576ad094a7d543855af8769f9cc620b96566602314d187e4",
+      "dimensions_px": [
+        709,
+        2172
+      ],
+      "bank": "left",
+      "art_water_side": "right",
+      "type": "straight",
+      "approval": "new_candidate_review_needed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    },
+    {
+      "id": "rightbank_meander_01_plateau_fields",
+      "path": "rightbank_meander_01_plateau_fields.png",
+      "sha256": "69e19cebf09f6fb4115f59d8298f95b10de1ea4043e73b32ea4a67dac9fd12df",
+      "dimensions_px": [
+        680,
+        2136
+      ],
+      "bank": "right",
+      "art_water_side": "left",
+      "type": "gentle_meander",
+      "approval": "new_candidate_review_needed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    },
+    {
+      "id": "leftbank_meander_01_rocky_farmland",
+      "path": "leftbank_meander_01_rocky_farmland.png",
+      "sha256": "8e5566582b66048ea1770c336bf414fb7d2a10240072aaaf97cec42dcf520056",
+      "dimensions_px": [
+        666,
+        2135
+      ],
+      "bank": "left",
+      "art_water_side": "right",
+      "type": "gentle_meander",
+      "approval": "new_candidate_review_needed",
+      "production_placement": "not_activated",
+      "rotation": 0,
+      "mirror": false
+    }
+  ]
+}
