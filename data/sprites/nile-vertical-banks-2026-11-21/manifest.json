@@ -1,9 +1,9 @@
 {
   "batch": "NILE-VERTICAL-BANKS-2026-11-21",
-  "status": "manifest_registered_pending_binary_zip_ingestion",
+  "status": "all_14_artwork_approved_binary_upload_pending_no_map_placement",
   "source_archive": "assets/sprites/incoming/nile_vertical_banks_2026_11_21.zip",
   "intended_directory": "data/sprites/nile-vertical-banks-2026-11-21",
-  "artwork_approval": "10 original approved bank-strip cells; 4 further candidates awaiting review",
+  "artwork_approval": "OWNER APPROVED: all 14 vertical bank sprite designs for placement review",
   "scope": "Nile riverbank strips only, not alluvial or desert base layer",
   "strict_policy": [
     "Never use bend-only sprites as straight sections",
@@ -26,8 +26,8 @@
       "bank": "left",
       "art_water_side": "right",
       "type": "straight",
-      "approval": "owner_approved_artwork_not_yet_placed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     },
@@ -42,8 +42,8 @@
       "bank": "right",
       "art_water_side": "left",
       "type": "straight",
-      "approval": "owner_approved_artwork_not_yet_placed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     },
@@ -58,8 +58,8 @@
       "bank": "left",
       "art_water_side": "right",
       "type": "straight",
-      "approval": "owner_approved_artwork_not_yet_placed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     },
@@ -74,8 +74,8 @@
       "bank": "right",
       "art_water_side": "left",
       "type": "straight",
-      "approval": "owner_approved_artwork_not_yet_placed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     },
@@ -90,8 +90,8 @@
       "bank": "left",
       "art_water_side": "right",
       "type": "straight",
-      "approval": "owner_approved_artwork_not_yet_placed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     },
@@ -106,8 +106,8 @@
       "bank": "right",
       "art_water_side": "left",
       "type": "straight",
-      "approval": "owner_approved_artwork_not_yet_placed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     },
@@ -122,8 +122,8 @@
       "bank": "left",
       "art_water_side": "right",
       "type": "straight",
-      "approval": "owner_approved_artwork_not_yet_placed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     },
@@ -138,8 +138,8 @@
       "bank": "right",
       "art_water_side": "left",
       "type": "straight",
-      "approval": "owner_approved_artwork_not_yet_placed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     },
@@ -154,8 +154,8 @@
       "bank": "left",
       "art_water_side": "right",
       "type": "straight",
-      "approval": "owner_approved_artwork_not_yet_placed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     },
@@ -170,8 +170,8 @@
       "bank": "right",
       "art_water_side": "left",
       "type": "straight",
-      "approval": "owner_approved_artwork_not_yet_placed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     },
@@ -186,8 +186,8 @@
       "bank": "right",
       "art_water_side": "left",
       "type": "straight",
-      "approval": "new_candidate_review_needed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     },
@@ -202,8 +202,8 @@
       "bank": "left",
       "art_water_side": "right",
       "type": "straight",
-      "approval": "new_candidate_review_needed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     },
@@ -218,8 +218,8 @@
       "bank": "right",
       "art_water_side": "left",
       "type": "gentle_meander",
-      "approval": "new_candidate_review_needed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     },
@@ -234,10 +234,14 @@
       "bank": "left",
       "art_water_side": "right",
       "type": "gentle_meander",
-      "approval": "new_candidate_review_needed",
-      "production_placement": "not_activated",
+      "approval": "approved_artwork",
+      "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
       "mirror": false
     }
-  ]
+  ],
+  "production_map_status": "NOT_PLACED",
+  "claude_handoff": "docs/NILE-VERTICAL-BANKS-CLAUDE-PLACEMENT-HANDOFF-2026-11-21.md",
+  "binary_status": "14 local PNGs checksum-verified; binaries not confirmed in repository; source ZIP ingestion required",
+  "approval_scope": "artwork approved, including four new straight/meander strips; geographic placements, joins, water-side matching and print-size QA still required"
 }
