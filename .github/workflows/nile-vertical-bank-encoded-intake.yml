@@ -1,0 +1,46 @@
+name: Restore Nile painted vertical bank PNGs from text chunks
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/sprites/nile-vertical-banks-2026-11-21/encoded/**'
+      - 'tools/restore_nile_vertical_banks_from_encoded.py'
+permissions:
+  contents: write
+concurrency:
+  group: nile-vertical-encoded-intake
+  cancel-in-progress: false
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Recover exact PNG files from text-only Base64 archive
+        run: |
+          python tools/restore_nile_vertical_banks_from_encoded.py
+      - name: Commit original verified PNG images to the review registry
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sprites/nile-vertical-banks-2026-11-21/manifest.json
+          git add data/sprites/nile-vertical-banks-2026-11-21/*.png
+          if git diff --cached --quiet; then
+            echo "All recovered PNGs already match repository contents"
+            exit 0
+          fi
+          git commit -m "assets: recover 14 verified Nile painted bank PNGs [skip ci]"
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nile-vertical-banks-14-verified
+          path: |
+            data/sprites/nile-vertical-banks-2026-11-21/manifest.json
+            data/sprites/nile-vertical-banks-2026-11-21/*.png
+          if-no-files-found: warn
