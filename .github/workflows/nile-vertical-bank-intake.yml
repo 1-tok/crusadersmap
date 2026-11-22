@@ -1,0 +1,61 @@
+name: Nile vertical painted bank sprite intake
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/sprites/incoming/nile_vertical_banks_2026_11_21.zip'
+permissions:
+  contents: write
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify complete PNG collection and register without placement
+        run: |
+          python - <<'PY'
+          import hashlib,json,zipfile
+          from pathlib import Path
+          source=Path("assets/sprites/incoming/nile_vertical_banks_2026_11_21.zip")
+          root=Path("data/sprites/nile-vertical-banks-2026-11-21")
+          if not source.is_file():
+              raise SystemExit("Source ZIP not uploaded. Commit the supplied zip under assets/sprites/incoming/ first.")
+          manifest_path=root/"manifest.json"
+          manifest=json.loads(manifest_path.read_text())
+          expected={x["path"]:x for x in manifest["assets"]}
+          if len(expected)!=14:
+              raise SystemExit("Expected exactly 14 unique Nile vertical bank PNGs")
+          with zipfile.ZipFile(source) as archive:
+              candidates={Path(name).name:name for name in archive.namelist() if name.lower().endswith(".png")}
+              if set(candidates)!=set(expected):
+                  raise SystemExit("ZIP contents do not match the 14 manifest filenames")
+              for filename,asset in expected.items():
+                  content=archive.read(candidates[filename])
+                  if hashlib.sha256(content).hexdigest()!=asset["sha256"]:
+                      raise SystemExit("Checksum mismatch: "+filename)
+                  if content[:8]!=bytes.fromhex("89504e470d0a1a0a"):
+                      raise SystemExit("Invalid PNG: "+filename)
+                  width=int.from_bytes(content[16:20],"big")
+                  height=int.from_bytes(content[20:24],"big")
+                  if [width,height]!=asset["dimensions_px"]:
+                      raise SystemExit("Unexpected image dimensions: "+filename)
+                  if filename!=Path(filename).name:
+                      raise SystemExit("Unexpected path: "+filename)
+                  (root/filename).write_bytes(content)
+          manifest["status"]="binary_ingested_review_only_not_placed"
+          for asset in manifest["assets"]:
+              asset["binary_status"]="checksum_verified_committed"
+          manifest_path.write_text(json.dumps(manifest,indent=2)+"\n")
+          print("Verified all 14 Nile bank PNGs; no production placement applied")
+          PY
+      - name: Commit reviewed assets only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sprites/nile-vertical-banks-2026-11-21/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "assets: verified Nile vertical bank PNGs [skip ci]"
+          git push origin HEAD:main
