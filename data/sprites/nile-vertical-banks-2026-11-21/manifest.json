@@ -1,6 +1,6 @@
 {
   "batch": "NILE-VERTICAL-BANKS-2026-11-21",
-  "status": "all_14_artwork_approved_binary_upload_pending_no_map_placement",
+  "status": "artwork_approved_binaries_committed_review_only",
   "source_archive": "assets/sprites/incoming/nile_vertical_banks_2026_11_21.zip",
   "intended_directory": "data/sprites/nile-vertical-banks-2026-11-21",
   "artwork_approval": "OWNER APPROVED: all 14 vertical bank sprite designs for placement review",
@@ -29,7 +29,8 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     },
     {
       "id": "rightbank_vertical_approved_01",
@@ -45,7 +46,8 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     },
     {
       "id": "leftbank_vertical_approved_02",
@@ -61,7 +63,8 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     },
     {
       "id": "rightbank_vertical_approved_02",
@@ -77,7 +80,8 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     },
     {
       "id": "leftbank_vertical_approved_03",
@@ -93,7 +97,8 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     },
     {
       "id": "rightbank_vertical_approved_03",
@@ -109,7 +114,8 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     },
     {
       "id": "leftbank_vertical_approved_04",
@@ -125,7 +131,8 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     },
     {
       "id": "rightbank_vertical_approved_04",
@@ -141,7 +148,8 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     },
     {
       "id": "leftbank_vertical_approved_05",
@@ -157,7 +165,8 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     },
     {
       "id": "rightbank_vertical_approved_05",
@@ -173,7 +182,8 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     },
     {
       "id": "rightbank_straight_06_village_feluccas",
@@ -189,7 +199,8 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     },
     {
       "id": "leftbank_straight_06_village_shaduf",
@@ -205,7 +216,8 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     },
     {
       "id": "rightbank_meander_01_plateau_fields",
@@ -221,7 +233,8 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     },
     {
       "id": "leftbank_meander_01_rocky_farmland",
@@ -237,11 +250,12 @@
       "approval": "approved_artwork",
       "production_placement": "pending_claude_geographic_fit_review_and_binary_ingestion",
       "rotation": 0,
-      "mirror": false
+      "mirror": false,
+      "binary_status": "verified_original_png_committed"
     }
   ],
   "production_map_status": "NOT_PLACED",
   "claude_handoff": "docs/NILE-VERTICAL-BANKS-CLAUDE-PLACEMENT-HANDOFF-2026-11-21.md",
-  "binary_status": "14 local PNGs checksum-verified; binaries not confirmed in repository; source ZIP ingestion required",
+  "binary_status": "all 14 original PNG files verified",
   "approval_scope": "artwork approved, including four new straight/meander strips; geographic placements, joins, water-side matching and print-size QA still required"
 }
