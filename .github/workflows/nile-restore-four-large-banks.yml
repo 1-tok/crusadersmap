@@ -1,0 +1,47 @@
+name: Restore four large original Nile bank PNGs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/sprites/nile-vertical-banks-2026-11-21/text-parts/**'
+      - 'tools/restore_nile_four_large_banks.py'
+permissions:
+  contents: write
+concurrency:
+  group: nile-originals-four-large
+  cancel-in-progress: false
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify and reconstruct exact four originals
+        run: python tools/restore_nile_four_large_banks.py
+      - name: Commit original PNGs on main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4; do
+            git add data/sprites/nile-vertical-banks-2026-11-21/*.png
+            git add data/sprites/nile-vertical-banks-2026-11-21/manifest.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m "assets: restore four exact Nile vertical bank originals [skip ci]"
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git rebase origin/main || exit 1
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nile-original-14-banks
+          path: |
+            data/sprites/nile-vertical-banks-2026-11-21/*.png
+            data/sprites/nile-vertical-banks-2026-11-21/manifest.json
+          if-no-files-found: warn
