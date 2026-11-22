@@ -1,0 +1,29 @@
+{
+  "status": "pending_encoded_chunk_transfer",
+  "format": "base64-split-zip",
+  "parts": 118,
+  "part_chars": 180000,
+  "zip_sha256": "84f7f25f4ee040ddef2cc2539703ce3db5d16da0ffc6f2b10370f6bf92a8eefe",
+  "zip_bytes": 15838697,
+  "asset_count": 14,
+  "file_sha256": {
+    "leftbank_vertical_approved_01.png": "398ab58b67d50a10928b2cff05efce180161a33a3d655a60984efcfe2848ae75",
+    "rightbank_vertical_approved_01.png": "ea890056b1053f58097aa2d355a83e96e45c472537431624bcd31852d4074818",
+    "leftbank_vertical_approved_02.png": "0bdeb134d8f85e9bd5da7de63d63830aa25e15de3b689a19aedce4946601e436",
+    "rightbank_vertical_approved_02.png": "ab6b12d33d46db78ded37c99b4c7ec2019a46e061ffa0239885310623c7f9a32",
+    "leftbank_vertical_approved_03.png": "c4614ab0841f27ec21ed7b682c0baa5f3fa712597cf52c1160495d6fb1bbb4ca",
+    "rightbank_vertical_approved_03.png": "b980558bf7105f32848792c7f963ed2f8c12c28f77967ddb3e47a12ac908b3bc",
+    "leftbank_vertical_approved_04.png": "fe84424ef53120507e1aecdb29cd0a6c145197dae61a0a3bcb2c00ed913c2c83",
+    "rightbank_vertical_approved_04.png": "b110a585949d93d0a657bcf1ddefe7462500dee72311eb844c364db85f0c53a0",
+    "leftbank_vertical_approved_05.png": "cf141ab9632fb1200bca8fa270f7639b8eeb15f084ace0fc52a5d63ce1e5fb4e",
+    "rightbank_vertical_approved_05.png": "639e50d602f49fdbceb6b1d3fa72c0b810c565d39992d88b5d285354a0ff74b8",
+    "rightbank_straight_06_village_feluccas.png": "f6e3b70c88160538512eb42330e440583988aa254031aa215a1d9821e8a99ce4",
+    "leftbank_straight_06_village_shaduf.png": "2eef8b60a0f751db576ad094a7d543855af8769f9cc620b96566602314d187e4",
+    "rightbank_meander_01_plateau_fields.png": "69e19cebf09f6fb4115f59d8298f95b10de1ea4043e73b32ea4a67dac9fd12df",
+    "leftbank_meander_01_rocky_farmland.png": "8e5566582b66048ea1770c336bf414fb7d2a10240072aaaf97cec42dcf520056"
+  },
+  "commit_target": "data/sprites/nile-vertical-banks-2026-11-21/encoded",
+  "source_archive": "nile_vertical_banks_2026_11_21.zip",
+  "production_map_placement": "disabled",
+  "note": "text chunks from exact approved PNG archive; decode once to bytes, verify archive and every PNG hash"
+}
