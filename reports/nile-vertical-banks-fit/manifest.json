@@ -1,0 +1,5615 @@
+{
+  "status": "review_only_not_production_approved",
+  "art_dir": "data/sprites/nile-vertical-banks-2026-11-21",
+  "checksums_verified": true,
+  "assets": 14,
+  "metres_per_sprite_px": 5.0,
+  "tolerance_m": 300.0,
+  "hold_out_m": 4000.0,
+  "fit": "rigid translation only; no rotation, mirror, shear, warp or clipping; one uniform scale",
+  "left_bank_art": "west bank (water on right, scene painted looking north)",
+  "right_bank_art": "east bank (water on left)",
+  "usage": {
+    "leftbank_vertical_approved_05": 31,
+    "rightbank_vertical_approved_03": 33,
+    "rightbank_vertical_approved_05": 31,
+    "leftbank_vertical_approved_04": 29,
+    "leftbank_vertical_approved_03": 29,
+    "leftbank_vertical_approved_02": 28,
+    "leftbank_vertical_approved_01": 28,
+    "rightbank_vertical_approved_04": 34,
+    "rightbank_vertical_approved_02": 32,
+    "rightbank_vertical_approved_01": 31,
+    "leftbank_meander_01_rocky_farmland": 1,
+    "rightbank_meander_01_plateau_fields": 1
+  },
+  "courses": [
+    {
+      "course": 0,
+      "length_km": 462.0,
+      "north_south_km": 258.9,
+      "candidate_runs": 11,
+      "sprites_placed": 167
+    },
+    {
+      "course": 1,
+      "length_km": 172.9,
+      "north_south_km": 154.4,
+      "candidate_runs": 1,
+      "sprites_placed": 135
+    },
+    {
+      "course": 2,
+      "length_km": 4.6,
+      "north_south_km": 4.3,
+      "candidate_runs": 1,
+      "sprites_placed": 6
+    }
+  ],
+  "fit_error_m": {
+    "median": 217.3,
+    "max": 298.3
+  },
+  "placements": [
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        30.959,
+        27.3576
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 264.3,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        30.9714,
+        27.3574
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 208.0,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.0185,
+        27.3111
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 297.6,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.0257,
+        27.2989
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 297.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.105,
+        27.2648
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 249.4,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.1071,
+        27.2521
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 82.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.1073,
+        27.2396
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 116.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.1077,
+        27.2273
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 164.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.1069,
+        27.2149
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 111.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.1168,
+        27.2648
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 279.1,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.1186,
+        27.2522
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 146.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.1187,
+        27.2399
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 150.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.1188,
+        27.2274
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 103.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.1193,
+        27.2147
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 82.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.1772,
+        27.2033
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 281.3,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.1866,
+        27.2081
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 296.5,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.1918,
+        27.1957
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 244.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.2917,
+        27.1349
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 271.9,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.2943,
+        27.1225
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 224.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.297,
+        27.1103
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 220.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.4849,
+        26.8881
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 290.9,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.4891,
+        26.8754
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 242.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.4936,
+        26.8628
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 271.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.4979,
+        26.8505
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 291.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.5003,
+        26.8381
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 242.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.6226,
+        26.6877
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 284.7,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.6258,
+        26.6752
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 181.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.6266,
+        26.6628
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 150.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.302,
+        27.1372
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 287.2,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.3052,
+        27.1247
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 159.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.3077,
+        27.112
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 156.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.3104,
+        27.0994
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 211.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.4901,
+        26.902
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 294.3,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.4958,
+        26.8896
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 291.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.5002,
+        26.877
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 227.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.5046,
+        26.8643
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 245.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.5085,
+        26.8518
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 154.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.5121,
+        26.8396
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 164.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.5161,
+        26.8272
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 270.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.5222,
+        26.8148
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 242.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.5284,
+        26.8025
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 288.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.6339,
+        26.6886
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 280.1,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.6372,
+        26.6761
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 160.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.6384,
+        26.6634
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 87.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.707,
+        26.6261
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 265.6,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.7052,
+        26.6139
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 128.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.7027,
+        26.6014
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 175.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.7001,
+        26.5887
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 173.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.6971,
+        26.5762
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 180.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.6936,
+        26.5639
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 128.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.7187,
+        26.626
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 268.6,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.7171,
+        26.6136
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 187.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.7147,
+        26.6009
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 172.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.7109,
+        26.5883
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 249.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.7083,
+        26.5757
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 187.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.7059,
+        26.563
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 172.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.7067,
+        26.5504
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 266.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.8021,
+        26.5404
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 298.1,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.8029,
+        26.528
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 105.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.8034,
+        26.5153
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 92.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.8041,
+        26.5027
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 132.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.8044,
+        26.4904
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 155.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.8053,
+        26.4782
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 171.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.8048,
+        26.4658
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 105.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.8059,
+        26.4531
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 149.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.8089,
+        26.4404
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 269.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        31.8136,
+        26.4277
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 254.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.0086,
+        26.2542
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 297.6,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.0111,
+        26.2418
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 191.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.0101,
+        26.2296
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 183.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.0075,
+        26.2174
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 165.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.0042,
+        26.205
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 113.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.0054,
+        26.1926
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 292.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.8132,
+        26.5403
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 228.6,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.8146,
+        26.5281
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 134.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.8151,
+        26.5156
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 105.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.8158,
+        26.5029
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 80.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.8156,
+        26.4903
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 136.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.8156,
+        26.4779
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 175.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.8165,
+        26.4657
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 134.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.8172,
+        26.4532
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 122.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.821,
+        26.4405
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 278.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.825,
+        26.4279
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 225.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.8864,
+        26.3746
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 223.9,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        31.8922,
+        26.3624
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 285.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.0189,
+        26.2547
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 282.9,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.0229,
+        26.2421
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 209.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.0218,
+        26.2294
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 159.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.0183,
+        26.2169
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 297.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.0161,
+        26.2047
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 241.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.017,
+        26.1923
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 265.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.1421,
+        26.2002
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 267.5,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.1486,
+        26.1879
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 289.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.1548,
+        26.1756
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 267.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.1612,
+        26.1633
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 289.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.1674,
+        26.1511
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 267.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.2295,
+        26.0882
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 245.5,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.2339,
+        26.0758
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 255.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.2351,
+        26.0635
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 170.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.2371,
+        26.0511
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 289.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.2402,
+        26.0906
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 267.4,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.2442,
+        26.0781
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 206.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.2461,
+        26.0655
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 118.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.2476,
+        26.0529
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 159.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.253,
+        26.0404
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 291.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7573,
+        26.1084
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 275.7,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7621,
+        26.096
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 266.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7626,
+        26.0835
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 121.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7637,
+        26.071
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 147.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7643,
+        26.0586
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 173.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7666,
+        26.0464
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 280.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7733,
+        26.0272
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 296.2,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7775,
+        26.0144
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 256.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7787,
+        26.0019
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 144.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7756,
+        25.9896
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 117.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7714,
+        25.9774
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 259.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7655,
+        25.9652
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 268.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7594,
+        25.953
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 268.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7275,
+        25.9097
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 269.0,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7248,
+        25.8975
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 152.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.723,
+        25.8851
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 133.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7266,
+        25.8724
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 280.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7617,
+        25.8278
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 276.0,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.7618,
+        25.8153
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 176.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7685,
+        26.1084
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 283.0,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7729,
+        26.0957
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 212.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7744,
+        26.083
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 119.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7754,
+        26.0703
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 98.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7755,
+        26.0577
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 128.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7772,
+        26.045
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 196.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7828,
+        26.0325
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 277.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7878,
+        26.02
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 267.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7907,
+        26.0074
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 198.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7887,
+        25.9948
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 179.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7857,
+        25.9821
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 238.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7391,
+        25.9093
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 282.4,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7356,
+        25.8967
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 190.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7348,
+        25.8843
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 156.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7386,
+        25.8721
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 219.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7701,
+        25.8347
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 293.6,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7746,
+        25.8222
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 180.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.7714,
+        25.8096
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 245.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.4827,
+        25.5819
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 265.9,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.4796,
+        25.5695
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 120.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.478,
+        25.557
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 127.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.4789,
+        25.5444
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 281.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.4838,
+        25.5317
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 269.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.4881,
+        25.519
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 283.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.5469,
+        25.4248
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 272.8,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_meander_01_rocky_farmland",
+      "type": "gentle_meander",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.5395,
+        25.3705
+      ],
+      "size_m": [
+        3330,
+        10675
+      ],
+      "retained_alpha_ratio": 0.874,
+      "clipped": false,
+      "fit_error_m": 290.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.5477,
+        25.3163
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 259.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.5498,
+        25.304
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 237.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 0,
+      "centre_lonlat": [
+        32.5531,
+        25.2917
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 259.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.4935,
+        25.5816
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 207.5,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.491,
+        25.5691
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 205.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.4898,
+        25.5567
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 126.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.4908,
+        25.5441
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 228.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.4956,
+        25.5317
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 194.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.5001,
+        25.5194
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 208.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.5053,
+        25.5071
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 267.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.5545,
+        25.4337
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 291.1,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.5592,
+        25.4211
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 234.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.5625,
+        25.4084
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 168.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_meander_01_plateau_fields",
+      "type": "gentle_meander",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.5683,
+        25.354
+      ],
+      "size_m": [
+        3400,
+        10680
+      ],
+      "retained_alpha_ratio": 0.863,
+      "clipped": false,
+      "fit_error_m": 261.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.5618,
+        25.2998
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 164.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.5652,
+        25.2874
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 157.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 0,
+      "centre_lonlat": [
+        32.8649,
+        25.0782
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 296.7,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2313,
+        30.1176
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 111.0,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.23,
+        30.1053
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 157.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2278,
+        30.0929
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 129.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2261,
+        30.0802
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 135.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2151,
+        30.0111
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 129.8,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2177,
+        29.9985
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 236.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2695,
+        29.9228
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 291.3,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2748,
+        29.9102
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 286.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2782,
+        29.8976
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 255.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2825,
+        29.8851
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 281.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2861,
+        29.8729
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 231.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2875,
+        29.8607
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 237.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2906,
+        29.8485
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 223.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2905,
+        29.836
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 85.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2909,
+        29.8235
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 121.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2909,
+        29.8111
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 143.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2889,
+        29.7989
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 241.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.284,
+        29.7864
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 281.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2685,
+        29.7582
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 297.3,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.265,
+        29.7457
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 149.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2635,
+        29.7331
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 166.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2658,
+        29.7208
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 217.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2939,
+        29.6701
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 262.5,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2705,
+        29.642
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 267.0,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2661,
+        29.6295
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 221.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2637,
+        29.6168
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 97.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2635,
+        29.6044
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 178.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2643,
+        29.592
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 200.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2689,
+        29.5793
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 277.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2737,
+        29.5666
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 292.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2756,
+        29.554
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 153.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2549,
+        29.5281
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 244.6,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2512,
+        29.5159
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 233.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2475,
+        29.5034
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 209.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2436,
+        29.4909
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 216.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2391,
+        29.4785
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 164.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2339,
+        29.4663
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 298.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2099,
+        29.4359
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 267.6,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2096,
+        29.4237
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 239.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2184,
+        29.4045
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 297.9,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2212,
+        29.3918
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 99.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2195,
+        29.3792
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 211.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2089,
+        29.3599
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 284.7,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2071,
+        29.3474
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 178.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2071,
+        29.335
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 109.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2084,
+        29.3225
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 150.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.21,
+        29.3101
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 178.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2098,
+        29.2977
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 124.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.211,
+        29.285
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 109.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2123,
+        29.2724
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 150.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2131,
+        29.2601
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 177.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2148,
+        29.2479
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 178.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2138,
+        29.2354
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 104.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.2098,
+        29.2229
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 263.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.1706,
+        29.1586
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 277.1,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.1669,
+        29.146
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 175.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.0439,
+        29.0231
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 294.7,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.0377,
+        29.0108
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 255.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.0336,
+        28.9986
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 259.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.0289,
+        28.9861
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 247.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        31.0245,
+        28.9734
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 275.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        30.9087,
+        28.8389
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 298.3,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        30.9038,
+        28.8266
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 241.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        30.9013,
+        28.8143
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 176.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        30.9011,
+        28.8018
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 119.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        30.9022,
+        28.7891
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 104.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        30.9029,
+        28.7766
+      ],
+      "size_m": [
+        1450,
+        1380
+      ],
+      "retained_alpha_ratio": 0.813,
+      "clipped": false,
+      "fit_error_m": 104.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        30.9017,
+        28.7642
+      ],
+      "size_m": [
+        1465,
+        1350
+      ],
+      "retained_alpha_ratio": 0.805,
+      "clipped": false,
+      "fit_error_m": 142.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 1,
+      "centre_lonlat": [
+        30.8971,
+        28.752
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 262.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2433,
+        30.1175
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 121.3,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2422,
+        30.1048
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 136.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2393,
+        30.0921
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 209.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2377,
+        30.0798
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 216.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.228,
+        30.0041
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 148.1,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2315,
+        29.9915
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 217.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2713,
+        29.943
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 294.6,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2779,
+        29.9308
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 266.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2837,
+        29.9183
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 280.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2874,
+        29.9056
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 241.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2924,
+        29.8928
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 261.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2956,
+        29.8802
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 147.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2985,
+        29.8678
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 103.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.3001,
+        29.8553
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 168.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.3025,
+        29.8426
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 119.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.3023,
+        29.83
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 142.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.3021,
+        29.8176
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 184.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.3018,
+        29.8053
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 240.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2984,
+        29.7929
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 221.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2803,
+        29.7554
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 277.1,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2757,
+        29.7427
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 224.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2752,
+        29.7303
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 156.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2776,
+        29.7181
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 98.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2818,
+        29.7058
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 257.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2822,
+        29.6415
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 285.5,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2781,
+        29.6287
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 211.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2753,
+        29.6161
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 167.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.275,
+        29.6037
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 146.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2764,
+        29.5913
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 184.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2809,
+        29.5786
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 248.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2865,
+        29.5662
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 202.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.288,
+        29.5537
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 170.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2665,
+        29.5275
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 255.7,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2624,
+        29.515
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 290.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2592,
+        29.5026
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 204.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2544,
+        29.4899
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 284.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2508,
+        29.4773
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 233.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2223,
+        29.4353
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 277.7,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.221,
+        29.4228
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 137.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.231,
+        29.4038
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 240.6,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2331,
+        29.3914
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 165.9,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2311,
+        29.3787
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 268.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2208,
+        29.3593
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 237.4,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2179,
+        29.3468
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 178.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2192,
+        29.3345
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 120.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2199,
+        29.3221
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 127.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2206,
+        29.3097
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 165.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.222,
+        29.2975
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 120.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2229,
+        29.285
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 122.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2242,
+        29.2723
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 102.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2247,
+        29.2597
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 127.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2254,
+        29.2473
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 165.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.2258,
+        29.235
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 216.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.1823,
+        29.1594
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 276.8,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.1794,
+        29.1467
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 166.4,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.0502,
+        29.0121
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 297.3,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.0458,
+        28.9994
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 229.5,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.0407,
+        28.9867
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 236.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        31.037,
+        28.9739
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 235.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        30.9174,
+        28.8325
+      ],
+      "size_m": [
+        1475,
+        1410
+      ],
+      "retained_alpha_ratio": 0.761,
+      "clipped": false,
+      "fit_error_m": 295.0,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        30.913,
+        28.8198
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 245.0,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        30.9123,
+        28.8074
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 168.1,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        30.9137,
+        28.7952
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 123.6,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        30.9143,
+        28.7828
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 129.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        30.9136,
+        28.7704
+      ],
+      "size_m": [
+        1525,
+        1360
+      ],
+      "retained_alpha_ratio": 0.873,
+      "clipped": false,
+      "fit_error_m": 239.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 1,
+      "centre_lonlat": [
+        30.912,
+        28.7579
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 244.2,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "west",
+      "course": 2,
+      "centre_lonlat": [
+        30.8882,
+        27.6961
+      ],
+      "size_m": [
+        1480,
+        1410
+      ],
+      "retained_alpha_ratio": 0.803,
+      "clipped": false,
+      "fit_error_m": 280.9,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "leftbank_vertical_approved_03",
+      "type": "straight",
+      "map_side": "west",
+      "course": 2,
+      "centre_lonlat": [
+        30.8925,
+        27.6834
+      ],
+      "size_m": [
+        1430,
+        1405
+      ],
+      "retained_alpha_ratio": 0.768,
+      "clipped": false,
+      "fit_error_m": 174.8,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "leftbank_vertical_approved_05",
+      "type": "straight",
+      "map_side": "west",
+      "course": 2,
+      "centre_lonlat": [
+        30.8899,
+        27.671
+      ],
+      "size_m": [
+        1490,
+        1360
+      ],
+      "retained_alpha_ratio": 0.87,
+      "clipped": false,
+      "fit_error_m": 265.3,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_01",
+      "type": "straight",
+      "map_side": "east",
+      "course": 2,
+      "centre_lonlat": [
+        30.9006,
+        27.6964
+      ],
+      "size_m": [
+        1540,
+        1355
+      ],
+      "retained_alpha_ratio": 0.821,
+      "clipped": false,
+      "fit_error_m": 205.0,
+      "joined_to_previous_sprite": false
+    },
+    {
+      "asset": "rightbank_vertical_approved_02",
+      "type": "straight",
+      "map_side": "east",
+      "course": 2,
+      "centre_lonlat": [
+        30.904,
+        27.684
+      ],
+      "size_m": [
+        1505,
+        1390
+      ],
+      "retained_alpha_ratio": 0.802,
+      "clipped": false,
+      "fit_error_m": 162.7,
+      "joined_to_previous_sprite": true
+    },
+    {
+      "asset": "rightbank_vertical_approved_04",
+      "type": "straight",
+      "map_side": "east",
+      "course": 2,
+      "centre_lonlat": [
+        30.9028,
+        27.6714
+      ],
+      "size_m": [
+        1495,
+        1410
+      ],
+      "retained_alpha_ratio": 0.82,
+      "clipped": false,
+      "fit_error_m": 291.3,
+      "joined_to_previous_sprite": true
+    }
+  ],
+  "not_checked": [
+    "farmland/desert edge and floodplain mask",
+    "adjacent-sprite seam appearance",
+    "overlap with Cairo/Giza/Saqqara paintings beyond the 4 km hold-out",
+    "12 bend variants (PNGs not yet in repo)"
+  ],
+  "limitations": [
+    "Natural Earth Nile gap near 27.2-28.8 N not bridged",
+    "east-west reaches (more than 63 degrees from north-south) are left empty",
+    "water width narrows where the small 290 px tiles are used"
+  ],
+  "detail_crops": [
+    "leftbank-meander-01-rocky-farmland",
+    "rightbank-meander-01-plateau-fields",
+    "densest-reach"
+  ]
+}

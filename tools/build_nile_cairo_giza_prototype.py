@@ -43,7 +43,7 @@ FWD = Transformer.from_crs("EPSG:4326", PROJ, always_xy=True)
 INV = Transformer.from_crs(PROJ, "EPSG:4326", always_xy=True)
 
 # West edge set east of 30.94 E, the first committed elevation tile column.
-LON0, LON1, LAT0, LAT1 = 30.96, 31.70, 29.70, 30.35
+LON0, LON1, LAT0, LAT1 = 30.96, 32.00, 29.60, 31.90
 PX_M = 60.0  # 60 m per review pixel
 
 # Desert reserves: farmland and sprites are kept out of these areas.
@@ -129,12 +129,26 @@ def perpendicular_point(line, s, offset):
     return p.x + (-dy / n) * offset, p.y + (dx / n) * offset
 
 
+# Terrain-following replacement for the straight Giza west-bank box. Inside the same
+# band and west of 31.18 E, cells rising more than this above the local channel level
+# are treated as the Giza plateau and kept out of farmland. This changes the field-stretch
+# QA rule's straight edge; the original box is kept in the manifest for comparison.
+GIZA_PLATEAU_M = 3.0
+
+
+def giza_plateau_cells(height, grid):
+    x0, y1, cell, nx, ny = grid
+    xs = x0 + (np.arange(nx) + 0.5) * cell
+    ys = y1 - (np.arange(ny) + 0.5) * cell
+    gx, gy = np.meshgrid(xs, ys)
+    lon, lat = INV.transform(gx, gy)
+    lon_max, lat0, lat1 = GIZA_WEST_RULE[2], GIZA_WEST_RULE[1], GIZA_WEST_RULE[3]
+    in_band = (lon < lon_max) & (lat >= lat0) & (lat <= lat1)
+    return in_band & (height > GIZA_PLATEAU_M)
+
+
 def exclusion_geometry():
     parts = []
-    lon_max, lat0, lat1 = GIZA_WEST_RULE[2], GIZA_WEST_RULE[1], GIZA_WEST_RULE[3]
-    x0, y0 = to_m(LON0 - 0.2, lat0)
-    x1, y1 = to_m(lon_max, lat1)
-    parts.append(box(x0, y0, x1, y1))
     for r in MONUMENT_RESERVES:
         if not r.get("drawn_in_window", True):
             continue
@@ -179,6 +193,66 @@ def footprint_on_farmland(mask, grid, fp):
     return float(mask[cy, cx].mean())
 
 
+ECOLOGY_DIR = ROOT / "data" / "sprites" / "nile-ecology-2026-11-17"
+FILL_CLASSES = ("delta_farm", "nile_farm_upstream")  # flat plan-view field tiles only
+FIELD_W_M = 2200.0                                    # ground width of each field tile (review choice)
+FIELD_GAP_M = 80.0                                   # keep tiles clear of channel and each other
+FIELD_STEP_M = 2250.0                                 # candidate grid step before jitter
+
+
+def fill_farmland(canvas, farm, grid, channel_geom, excl, placed_fps, to_px):
+    """Fill farmland with flat field tiles, varied across the pool and kept inside the mask."""
+    import random
+    rng = random.Random(20261120)
+    man = json.loads((ECOLOGY_DIR / "manifest.json").read_text())
+    pool = [a for a in man["assets"] if a.get("class") in FILL_CLASSES]
+    imgs = {}
+    for a in pool:
+        im = Image.open(ECOLOGY_DIR / a["file"]).convert("RGBA")
+        imgs[a["id"]] = (a, im)
+
+    x0, y1, cell, nx, ny = grid
+    wx0, wy1 = x0, y1
+    x_min, y_min = x0, y1 - ny * cell
+    x_max, y_max = x0 + nx * cell, y1
+    blocked = unary_union([channel_geom.buffer(FIELD_GAP_M)] + [f.buffer(FIELD_GAP_M) for f in placed_fps]
+                          + [excl])
+    used = {}
+    last = None
+    placed = []
+    records = []
+    gx = x_min + FIELD_W_M / 2
+    row = 0
+    while gx < x_max:
+        gy = y_min + FIELD_W_M / 2 + (row % 2) * FIELD_STEP_M / 2
+        while gy < y_max:
+            jx = gx + rng.uniform(-0.35, 0.35) * FIELD_STEP_M
+            jy = gy + rng.uniform(-0.35, 0.35) * FIELD_STEP_M
+            # choose the least-used tile among a few random candidates, never the previous one
+            cands = [rng.choice(pool) for _ in range(4)]
+            cands = [c for c in cands if c["id"] != last] or pool
+            pick = min(cands, key=lambda a: (used.get(a["id"], 0), rng.random()))
+            _, im = imgs[pick["id"]]
+            h_m = FIELD_W_M * im.size[1] / im.size[0]
+            fp = box(jx - FIELD_W_M / 2, jy - h_m / 2, jx + FIELD_W_M / 2, jy + h_m / 2)
+            inside = footprint_on_farmland(farm, grid, fp) >= 1.0
+            if inside and not fp.intersects(blocked) and not any(fp.intersects(p) for p in placed):
+                placed.append(fp)
+                used[pick["id"]] = used.get(pick["id"], 0) + 1
+                last = pick["id"]
+                w_px = max(1, round(FIELD_W_M / PX_M))
+                h_px = max(1, round(h_m / PX_M))
+                tile = im.resize((w_px, h_px), Image.LANCZOS)
+                px, py = to_px(jx, jy)
+                canvas.paste(tile, (round(px - w_px / 2), round(py - h_px / 2)), tile)
+                records.append(pick["id"])
+            gy += FIELD_STEP_M
+        gx += FIELD_STEP_M
+        row += 1
+    counts = {k: v for k, v in sorted(used.items())}
+    return records, counts
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     wx0, wy0, wx1, wy1 = window_m()
@@ -195,6 +269,8 @@ def main():
     mask, valid, elev, height, grid = TF.build((wx0, wy0, wx1, wy1), channel_pts)
     excl = exclusion_geometry()
     excl_cells = farmland_cells_in_reserves(mask, grid, excl)
+    plateau = giza_plateau_cells(height, grid)
+    excl_cells = excl_cells | plateau
     farm = mask & ~excl_cells
 
     metrics = TF.qa(mask, valid, height, grid)
@@ -322,6 +398,10 @@ def main():
         py = round((wy1 - maxy) / PX_M)
         canvas.paste(scaled, (px, py), scaled)
 
+    fill_records, fill_counts = fill_farmland(
+        canvas, farm, grid, channel_geom, excl,
+        [fp for _, fp, _, acc in placements if acc and fp is not None], to_px)
+
     font = ImageFont.load_default()
     for name, (lon, lat) in ANCHORS.items():
         x, y = to_px(*to_m(lon, lat))
@@ -351,7 +431,9 @@ def main():
             "qa": "terrain/floodplain-qa.json",
             "status": "elevation_derived_review_mask_not_certified",
             "desert_exclusions": {
-                "giza_west_bank_rule_lonlat": GIZA_WEST_RULE,
+                "giza_west_bank_band_lonlat": GIZA_WEST_RULE,
+                "giza_plateau_rule": f"cells in band west of {GIZA_WEST_RULE[2]} E with height above channel > {GIZA_PLATEAU_M} m are excluded (terrain-following; replaces the straight box edge of the field-stretch QA rule)",
+                "original_straight_box_edge": "superseded; see field-stretch QA giza_west_bank_rule",
                 "monument_reserves": MONUMENT_RESERVES,
             },
         },
@@ -360,6 +442,17 @@ def main():
             "features": ["Nile", "Rosetta Branch", "Damietta Branch"],
             "excluded": ["Ismailiya Canal (modern cut)"],
             "drawn_width_m": 900.0,
+        },
+        "farmland_fill": {
+            "source": "data/sprites/nile-ecology-2026-11-17/manifest.json",
+            "classes": list(FILL_CLASSES),
+            "status": "derived_provisional_map_scale_review (procedural; hand-painted originals not uploaded)",
+            "production_approved": False,
+            "field_width_m": FIELD_W_M,
+            "tiles_placed": len(fill_records),
+            "distinct_tiles_used": len(fill_counts),
+            "uses_per_tile": fill_counts,
+            "rules": "fully inside farmland mask; clear of channel, bank scenes, reserves and other tiles; no rotation or mirroring",
         },
         "placements": [rec for rec, _, _, _ in placements],
         "not_placed": [

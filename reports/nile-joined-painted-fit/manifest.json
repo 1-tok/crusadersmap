@@ -1,0 +1,519 @@
+{
+  "status": "review_only_not_production_approved",
+  "art": [
+    "data/sprites/nile-joins-batch-02/nile_joins_01.png",
+    "data/sprites/nile-joins-batch-02/nile_joins_02.png",
+    "data/sprites/nile-joins-batch-02/nile_joins_03.png",
+    "data/sprites/nile-joins-batch-02/nile_joins_04.png",
+    "data/sprites/nile-joins-batch-02/nile_joins_05.png",
+    "data/sprites/nile-joins-batch-02/nile_joins_06.png",
+    "data/sprites/nile-joins-batch-02/nile_joins_07.png",
+    "data/sprites/nile-joins-batch-02/nile_joins_08.png"
+  ],
+  "art_note": "eight joined painted Nile tiles, exact files, unmodified; strip 660x2443 px",
+  "fit": "rigid whole-tile translation only; no shear, rotation, mirror or per-row shifting; uniform scale only",
+  "metres_per_sprite_px": 7.8,
+  "painted_river_px_median": 114,
+  "max_slope_from_north_south": "45 degrees",
+  "bend_gaps_note": "stretches where the river runs more than 45 degrees from north-south are left unfilled",
+  "courses": [
+    {
+      "course": 0,
+      "length_km": 462.0,
+      "north_south_km": 258.9,
+      "fitted_north_south_km": 207.1,
+      "runs": 14,
+      "tiles_placed": 22,
+      "tiles_km": 52.4
+    },
+    {
+      "course": 1,
+      "length_km": 172.9,
+      "north_south_km": 154.4,
+      "fitted_north_south_km": 149.0,
+      "runs": 4,
+      "tiles_placed": 21,
+      "tiles_km": 50.0
+    },
+    {
+      "course": 2,
+      "length_km": 4.6,
+      "north_south_km": 4.3,
+      "fitted_north_south_km": 4.3,
+      "runs": 1,
+      "tiles_placed": 1,
+      "tiles_km": 2.4
+    }
+  ],
+  "placed_runs": [
+    {
+      "course": 0,
+      "tile": 1,
+      "centre_lonlat": [
+        31.1141,
+        27.2658
+      ],
+      "fit_error_m": 358.5,
+      "seam_step_px": null
+    },
+    {
+      "course": 0,
+      "tile": 2,
+      "centre_lonlat": [
+        31.1137,
+        27.2443
+      ],
+      "fit_error_m": 410.6,
+      "seam_step_px": -6.0
+    },
+    {
+      "course": 0,
+      "tile": 1,
+      "centre_lonlat": [
+        31.6325,
+        26.6865
+      ],
+      "fit_error_m": 420.4,
+      "seam_step_px": null
+    },
+    {
+      "course": 0,
+      "tile": 1,
+      "centre_lonlat": [
+        31.713,
+        26.6311
+      ],
+      "fit_error_m": 393.6,
+      "seam_step_px": null
+    },
+    {
+      "course": 0,
+      "tile": 1,
+      "centre_lonlat": [
+        31.8096,
+        26.5437
+      ],
+      "fit_error_m": 424.6,
+      "seam_step_px": null
+    },
+    {
+      "course": 0,
+      "tile": 2,
+      "centre_lonlat": [
+        31.8099,
+        26.5222
+      ],
+      "fit_error_m": 388.6,
+      "seam_step_px": 5.6
+    },
+    {
+      "course": 0,
+      "tile": 3,
+      "centre_lonlat": [
+        31.811,
+        26.5007
+      ],
+      "fit_error_m": 438.0,
+      "seam_step_px": 15.6
+    },
+    {
+      "course": 0,
+      "tile": 4,
+      "centre_lonlat": [
+        31.8128,
+        26.4792
+      ],
+      "fit_error_m": 301.2,
+      "seam_step_px": 24.6
+    },
+    {
+      "course": 0,
+      "tile": 1,
+      "centre_lonlat": [
+        32.0172,
+        26.2525
+      ],
+      "fit_error_m": 383.3,
+      "seam_step_px": null
+    },
+    {
+      "course": 0,
+      "tile": 1,
+      "centre_lonlat": [
+        32.2425,
+        26.0722
+      ],
+      "fit_error_m": 427.7,
+      "seam_step_px": null
+    },
+    {
+      "course": 0,
+      "tile": 1,
+      "centre_lonlat": [
+        32.7698,
+        26.096
+      ],
+      "fit_error_m": 422.1,
+      "seam_step_px": null
+    },
+    {
+      "course": 0,
+      "tile": 2,
+      "centre_lonlat": [
+        32.7701,
+        26.0746
+      ],
+      "fit_error_m": 372.7,
+      "seam_step_px": 7.7
+    },
+    {
+      "course": 0,
+      "tile": 3,
+      "centre_lonlat": [
+        32.7852,
+        26.0205
+      ],
+      "fit_error_m": 424.8,
+      "seam_step_px": null
+    },
+    {
+      "course": 0,
+      "tile": 4,
+      "centre_lonlat": [
+        32.7333,
+        25.9078
+      ],
+      "fit_error_m": 417.9,
+      "seam_step_px": null
+    },
+    {
+      "course": 0,
+      "tile": 5,
+      "centre_lonlat": [
+        32.7691,
+        25.832
+      ],
+      "fit_error_m": 290.4,
+      "seam_step_px": null
+    },
+    {
+      "course": 0,
+      "tile": 1,
+      "centre_lonlat": [
+        32.6627,
+        25.7605
+      ],
+      "fit_error_m": 425.4,
+      "seam_step_px": null
+    },
+    {
+      "course": 0,
+      "tile": 1,
+      "centre_lonlat": [
+        32.4885,
+        25.5901
+      ],
+      "fit_error_m": 365.4,
+      "seam_step_px": null
+    },
+    {
+      "course": 0,
+      "tile": 2,
+      "centre_lonlat": [
+        32.5547,
+        25.433
+      ],
+      "fit_error_m": 382.3,
+      "seam_step_px": null
+    },
+    {
+      "course": 0,
+      "tile": 3,
+      "centre_lonlat": [
+        32.5578,
+        25.4115
+      ],
+      "fit_error_m": 374.6,
+      "seam_step_px": 44.5
+    },
+    {
+      "course": 0,
+      "tile": 4,
+      "centre_lonlat": [
+        32.5579,
+        25.39
+      ],
+      "fit_error_m": 369.6,
+      "seam_step_px": 4.2
+    },
+    {
+      "course": 0,
+      "tile": 5,
+      "centre_lonlat": [
+        32.5542,
+        25.3687
+      ],
+      "fit_error_m": 349.2,
+      "seam_step_px": -43.8
+    },
+    {
+      "course": 0,
+      "tile": 6,
+      "centre_lonlat": [
+        32.5529,
+        25.3473
+      ],
+      "fit_error_m": 396.7,
+      "seam_step_px": -12.7
+    },
+    {
+      "course": 1,
+      "tile": 1,
+      "centre_lonlat": [
+        31.2377,
+        30.1238
+      ],
+      "fit_error_m": 267.1,
+      "seam_step_px": null
+    },
+    {
+      "course": 1,
+      "tile": 2,
+      "centre_lonlat": [
+        31.2226,
+        30.0158
+      ],
+      "fit_error_m": 432.9,
+      "seam_step_px": null
+    },
+    {
+      "course": 1,
+      "tile": 3,
+      "centre_lonlat": [
+        31.2973,
+        29.8535
+      ],
+      "fit_error_m": 433.1,
+      "seam_step_px": null
+    },
+    {
+      "course": 1,
+      "tile": 4,
+      "centre_lonlat": [
+        31.299,
+        29.832
+      ],
+      "fit_error_m": 314.5,
+      "seam_step_px": 21.4
+    },
+    {
+      "course": 1,
+      "tile": 5,
+      "centre_lonlat": [
+        31.2949,
+        29.8105
+      ],
+      "fit_error_m": 286.3,
+      "seam_step_px": -49.5
+    },
+    {
+      "course": 1,
+      "tile": 6,
+      "centre_lonlat": [
+        31.271,
+        29.7458
+      ],
+      "fit_error_m": 423.3,
+      "seam_step_px": null
+    },
+    {
+      "course": 1,
+      "tile": 1,
+      "centre_lonlat": [
+        31.279,
+        29.6539
+      ],
+      "fit_error_m": 425.3,
+      "seam_step_px": null
+    },
+    {
+      "course": 1,
+      "tile": 2,
+      "centre_lonlat": [
+        31.2706,
+        29.6216
+      ],
+      "fit_error_m": 443.4,
+      "seam_step_px": null
+    },
+    {
+      "course": 1,
+      "tile": 3,
+      "centre_lonlat": [
+        31.2819,
+        29.573
+      ],
+      "fit_error_m": 443.5,
+      "seam_step_px": null
+    },
+    {
+      "course": 1,
+      "tile": 1,
+      "centre_lonlat": [
+        31.262,
+        29.5373
+      ],
+      "fit_error_m": 380.7,
+      "seam_step_px": null
+    },
+    {
+      "course": 1,
+      "tile": 2,
+      "centre_lonlat": [
+        31.2263,
+        29.413
+      ],
+      "fit_error_m": 363.7,
+      "seam_step_px": null
+    },
+    {
+      "course": 1,
+      "tile": 3,
+      "centre_lonlat": [
+        31.2268,
+        29.3915
+      ],
+      "fit_error_m": 336.8,
+      "seam_step_px": 5.6
+    },
+    {
+      "course": 1,
+      "tile": 4,
+      "centre_lonlat": [
+        31.2149,
+        29.3591
+      ],
+      "fit_error_m": 367.2,
+      "seam_step_px": null
+    },
+    {
+      "course": 1,
+      "tile": 5,
+      "centre_lonlat": [
+        31.2147,
+        29.3377
+      ],
+      "fit_error_m": 426.9,
+      "seam_step_px": -2.3
+    },
+    {
+      "course": 1,
+      "tile": 6,
+      "centre_lonlat": [
+        31.216,
+        29.3162
+      ],
+      "fit_error_m": 284.8,
+      "seam_step_px": 16.2
+    },
+    {
+      "course": 1,
+      "tile": 7,
+      "centre_lonlat": [
+        31.2186,
+        29.2947
+      ],
+      "fit_error_m": 418.5,
+      "seam_step_px": 32.5
+    },
+    {
+      "course": 1,
+      "tile": 8,
+      "centre_lonlat": [
+        31.2188,
+        29.2731
+      ],
+      "fit_error_m": 285.6,
+      "seam_step_px": 2.1
+    },
+    {
+      "course": 1,
+      "tile": 1,
+      "centre_lonlat": [
+        31.2213,
+        29.2518
+      ],
+      "fit_error_m": 328.5,
+      "seam_step_px": 31.0
+    },
+    {
+      "course": 1,
+      "tile": 1,
+      "centre_lonlat": [
+        31.0508,
+        29.0311
+      ],
+      "fit_error_m": 431.4,
+      "seam_step_px": null
+    },
+    {
+      "course": 1,
+      "tile": 2,
+      "centre_lonlat": [
+        30.9078,
+        28.8199
+      ],
+      "fit_error_m": 449.7,
+      "seam_step_px": null
+    },
+    {
+      "course": 1,
+      "tile": 3,
+      "centre_lonlat": [
+        30.9092,
+        28.793
+      ],
+      "fit_error_m": 416.9,
+      "seam_step_px": null
+    },
+    {
+      "course": 2,
+      "tile": 1,
+      "centre_lonlat": [
+        30.8982,
+        27.6917
+      ],
+      "fit_error_m": 339.9,
+      "seam_step_px": null
+    }
+  ],
+  "search_stats": [
+    {
+      "course": 0,
+      "retry_slides": 210
+    },
+    {
+      "course": 1,
+      "retry_slides": 152
+    },
+    {
+      "course": 2,
+      "retry_slides": 2
+    }
+  ],
+  "tolerance_m": 450.0,
+  "anchors_held_out_m": 4000.0,
+  "limitations": [
+    "strip repeats every 2443 rows; tile 8 -> tile 1 seam is not an authored join",
+    "Natural Earth Nile gap near 27.2-28.8 N not bridged",
+    "bank art is not clipped to farmland or desert edge",
+    "geographic seam and historical accuracy not certified"
+  ],
+  "detail_crops": [
+    "giza_saqqara_reach",
+    "minya_reach",
+    "asyut_reach",
+    "qena_bend",
+    "luxor_reach"
+  ]
+}

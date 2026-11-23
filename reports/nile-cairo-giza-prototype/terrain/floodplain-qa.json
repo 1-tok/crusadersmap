@@ -1,9 +1,9 @@
 {
-  "cells_window": 82654,
-  "cells_with_committed_elevation": 82654,
+  "cells_window": 404712,
+  "cells_with_committed_elevation": 404712,
   "unknown_fraction_of_window": 0.0,
-  "floodplain_cells": 17540,
-  "floodplain_area_km2": 1096.2,
+  "floodplain_cells": 65740,
+  "floodplain_area_km2": 4108.8,
   "median_height_above_channel_m": 0.0,
   "max_height_above_channel_m": 77.0,
   "thresholds": {
@@ -13,6 +13,6 @@
   },
   "zoom": 7,
   "status": "elevation_derived_review_mask_not_certified",
-  "farmland_after_reserves_cells": 16621,
-  "reserve_cells_removed_from_farmland": 919
+  "farmland_after_reserves_cells": 65460,
+  "reserve_cells_removed_from_farmland": 280
 }
