@@ -1,0 +1,18 @@
+{
+  "cells_window": 2295,
+  "cells_with_committed_elevation": 2295,
+  "unknown_fraction_of_window": 0.0,
+  "floodplain_cells": 953,
+  "floodplain_area_km2": 59.6,
+  "median_height_above_channel_m": 3.0,
+  "max_height_above_channel_m": 33.0,
+  "thresholds": {
+    "max_height_m": 8.0,
+    "max_distance_m": 8000.0,
+    "cell_m": 250.0
+  },
+  "zoom": 7,
+  "status": "elevation_derived_review_mask_not_certified",
+  "farmland_after_reserves_cells": 953,
+  "reserve_cells_removed_from_farmland": 0
+}
